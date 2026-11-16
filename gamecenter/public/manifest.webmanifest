@@ -1,0 +1,28 @@
+{
+    "name": "Ruang Belajar — Game Center Edukasi",
+    "short_name": "Ruang Belajar",
+    "description": "Game edukasi PAUD sampai SMK: materi resmi, kuis, dan progres belajar yang tetap jalan saat offline.",
+    "lang": "id",
+    "dir": "ltr",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#f5f2f2",
+    "theme_color": "#e60012",
+    "categories": ["education", "games"],
+    "icons": [
+        {
+            "src": "/icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-maskable.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        }
+    ]
+}

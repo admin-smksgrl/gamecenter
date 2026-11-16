@@ -1,0 +1,777 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pai",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PAI 2",
+      "title": "Memahami Hakikat dan Mewujudkan Ketauhidan dengan Syu'abul Iman (Cabang-Cabang Iman)",
+      "description": "Makna syu’abul iman, dalil dan macam-macamnya, manfaatnya, serta pembiasaan sikap disiplin, jujur, dan bertanggung jawab sebagai cabang iman.",
+      "learning_objectives": [
+        "Melalui metode inquiry learning dan small group discussion, peserta didik mampu menganalisis makna syu’abul iman (cabang-cabang iman) pengertian, dalil, macam dan manfaatnya",
+        "Melalui metode project-based learning dan mind map, peserta didik mampu mempresentasikan makna syu’abul iman (cabang-cabang iman)",
+        "Melalui metode reflective tinking, peserta didik mampu meyakini bahwa dalam iman terdapat banyak cabang-cabangnya;",
+        "Melalui metode refleksi peserta didik mampu membiasakan sikap disiplin, jujur, dan bertanggung jawab yang merupakan beberapa cabang iman dalam kehidupan"
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Buku Pendidikan Agama Islam dan Budi Pekerti Kelas X (Kemendikbudristek)",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Hakikat Syu'abul Iman",
+          "duration": 320,
+          "source_reference": "Bab 2",
+          "content": "## Arti\n\n**Syu'abul iman** berarti **cabang-cabang iman**.\n\nRasulullah Saw. bersabda bahwa iman memiliki **lebih dari tujuh puluh cabang**. Hadis ini diriwayatkan oleh **Muslim**.\n\n## Iman menurut istilah\n\n> Membenarkan dengan **hati**, mengucapkan dengan **lisan**, dan mengamalkan dengan **perbuatan**.\n\nJadi iman bukan hanya keyakinan, melainkan juga ucapan dan amal.\n\n## Puncak dan dasar cabang iman\n\n| Kedudukan | Cabang |\n|---|---|\n| tertinggi | ucapan **la ilaha illallah** |\n| terendah | **menghilangkan gangguan** di jalan |\n| istimewa | **rasa malu** |\n\n## Hubungan dengan rukun iman\n\n- **Rukun iman** (enam) = pilar keyakinan\n- **Syu'abul iman** = amal yang tumbuh dari keyakinan itu\n\nTauhid adalah **akar**; cabang iman tumbuh dari akar tersebut."
+        },
+        {
+          "type": "text",
+          "title": "Macam-Macam Cabang Iman",
+          "duration": 320,
+          "source_reference": "Bab 2",
+          "content": "## Tiga wilayah cabang iman\n\n| Wilayah | Contoh |\n|---|---|\n| **hati** | malu, tawakal, sabar, menahan amarah |\n| **lisan** | jujur, menjauhi ghibah, mengucapkan kalimat tauhid |\n| **perbuatan** | salat, menolong teman, menghilangkan gangguan di jalan, menjaga kebersihan |\n\n## Perbandingan\n\n| Istilah | Fokus |\n|---|---|\n| **islam** | amal lahir |\n| **iman** | keyakinan |\n| **ihsan** | kualitas dan kesadaran beribadah |\n\nKetiganya dijelaskan dalam **hadis Jibril**.\n\n## Contoh pembiasaan\n\n- **jujur** — mengatakan hasil ujian apa adanya\n- **disiplin** — mengerjakan tugas tepat waktu\n- **malu** — menahan diri dari perbuatan tercela\n- **tolong-menolong** — membantu teman yang kesulitan\n\n## Manfaat memahami syu'abul iman\n\nMengetahui **amal apa saja** yang dapat memperkuat iman sehingga ibadah tidak berhenti pada ritual."
+        },
+        {
+          "type": "text",
+          "title": "Mewujudkan Ketauhidan dalam Karakter",
+          "duration": 300,
+          "source_reference": "Bab 2",
+          "content": "## Tauhid melahirkan akhlak\n\nTauhid yang benar **tercermin pada perilaku mulia**. Bukan sekadar pengakuan lisan.\n\n## Langkah menumbuhkan cabang iman\n\n1. **Memahami** makna cabang iman\n2. **Memilih** satu amal kecil untuk dibiasakan\n3. **Melaksanakan** secara istiqamah\n4. **Mengevaluasi** dan menambah amal lain\n\n## Contoh penerapan di sekolah\n\n- mengerjakan tugas **tepat waktu**\n- berkata **jujur** meski berat\n- **menahan amarah** saat diejek lalu membalas dengan baik\n- **memindahkan** batu atau sampah dari jalan\n\n## Kunci\n\nIman tumbuh melalui **amal yang diulang**, bukan hanya diketahui. Karena itu pembiasaan lebih efektif daripada pengetahuan semata."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Memahami Hakikat dan Mewujudkan Ketauhidan dengan Syu'abul Iman (Cabang-Cabang Iman) — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Syu'abul iman berarti …",
+              "options": [
+                {
+                  "text": "cabang-cabang iman",
+                  "correct": true
+                },
+                {
+                  "text": "rukun Islam",
+                  "correct": false
+                },
+                {
+                  "text": "nama-nama Allah",
+                  "correct": false
+                },
+                {
+                  "text": "kitab suci",
+                  "correct": false
+                }
+              ],
+              "explanation": "Syu'abul iman adalah cabang-cabang iman yang jumlahnya disebutkan dalam hadis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hadis tentang cabang iman menyebutkan jumlahnya …",
+              "options": [
+                {
+                  "text": "lebih dari tujuh puluh cabang",
+                  "correct": true
+                },
+                {
+                  "text": "lima cabang",
+                  "correct": false
+                },
+                {
+                  "text": "dua cabang",
+                  "correct": false
+                },
+                {
+                  "text": "sembilan cabang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hadis riwayat Muslim menyebut iman memiliki lebih dari tujuh puluh cabang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rukun iman berjumlah …",
+              "options": [
+                {
+                  "text": "enam",
+                  "correct": true
+                },
+                {
+                  "text": "lima",
+                  "correct": false
+                },
+                {
+                  "text": "tujuh",
+                  "correct": false
+                },
+                {
+                  "text": "empat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rukun iman ada enam: iman kepada Allah, malaikat, kitab, rasul, hari akhir, dan qada-qadar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Iman menurut istilah adalah …",
+              "options": [
+                {
+                  "text": "membenarkan dengan hati, mengucapkan dengan lisan, dan mengamalkan dengan perbuatan",
+                  "correct": true
+                },
+                {
+                  "text": "hanya mengucapkan dua kalimat syahadat",
+                  "correct": false
+                },
+                {
+                  "text": "hanya beribadah tanpa pengetahuan",
+                  "correct": false
+                },
+                {
+                  "text": "percaya pada ramalan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Iman mencakup tiga unsur: pembenaran hati, pengakuan lisan, dan pengamalan perbuatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh pengamalan cabang iman dalam kehidupan sehari-hari adalah …",
+              "options": [
+                {
+                  "text": "berkata jujur meskipun berat",
+                  "correct": true
+                },
+                {
+                  "text": "menyontek agar nilai bagus",
+                  "correct": false
+                },
+                {
+                  "text": "berbohong kepada guru",
+                  "correct": false
+                },
+                {
+                  "text": "menunda salat karena malas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kejujuran adalah cabang iman yang tampak dalam perilaku sehari-hari."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Memahami Hakikat dan Mewujudkan Ketauhidan dengan Syu'abul Iman (Cabang-Cabang Iman) — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Urutan cabang iman dari yang tertinggi adalah …",
+              "options": [
+                {
+                  "text": "ucapan la ilaha illallah, menghilangkan gangguan di jalan, dan malu",
+                  "correct": true
+                },
+                {
+                  "text": "malu, sedekah, dan jujur",
+                  "correct": false
+                },
+                {
+                  "text": "salat, puasa, dan haji",
+                  "correct": false
+                },
+                {
+                  "text": "zakat, haji, dan umrah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hadis menyebut cabang tertinggi adalah ucapan la ilaha illallah dan terendah adalah menghilangkan gangguan di jalan, serta malu sebagai cabang iman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh perbuatan yang menunjukkan cabang iman berupa malu adalah …",
+              "options": [
+                {
+                  "text": "menahan diri dari perbuatan tercela karena merasa diawasi Allah",
+                  "correct": true
+                },
+                {
+                  "text": "malu belajar karena dianggap aneh",
+                  "correct": false
+                },
+                {
+                  "text": "malu beribadah di depan orang",
+                  "correct": false
+                },
+                {
+                  "text": "malu berbuat baik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Malu yang bernilai iman adalah menahan diri dari keburukan karena kesadaran diawasi Allah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan tauhid dengan akhlak adalah …",
+              "options": [
+                {
+                  "text": "tauhid yang benar melahirkan akhlak mulia",
+                  "correct": true
+                },
+                {
+                  "text": "tauhid tidak berkaitan dengan akhlak",
+                  "correct": false
+                },
+                {
+                  "text": "akhlak menggantikan tauhid",
+                  "correct": false
+                },
+                {
+                  "text": "tauhid hanya soal ucapan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keyakinan tauhid yang benar tercermin pada perilaku mulia sehari-hari."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cabang iman yang berkaitan dengan menjaga lisan adalah …",
+              "options": [
+                {
+                  "text": "berkata jujur dan menjauhi ghibah",
+                  "correct": true
+                },
+                {
+                  "text": "memperbanyak bercerita keburukan orang",
+                  "correct": false
+                },
+                {
+                  "text": "suka mengadu domba",
+                  "correct": false
+                },
+                {
+                  "text": "berbohong untuk bercanda",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menjaga lisan dari keburukan termasuk cabang iman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna syu'abul iman bagi pembentukan karakter seorang muslim adalah …",
+              "options": [
+                {
+                  "text": "iman tidak cukup diyakini, tetapi harus tampak dalam banyak perilaku",
+                  "correct": true
+                },
+                {
+                  "text": "iman cukup diyakini saja",
+                  "correct": false
+                },
+                {
+                  "text": "iman hanya soal ucapan",
+                  "correct": false
+                },
+                {
+                  "text": "iman tidak perlu diamalkan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Syu'abul iman menunjukkan iman bercabang menjadi banyak amal nyata."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat memahami syu'abul iman adalah …",
+              "options": [
+                {
+                  "text": "mengetahui amal apa saja yang dapat memperkuat iman",
+                  "correct": true
+                },
+                {
+                  "text": "cukup menghafal jumlah cabangnya",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari amal saleh",
+                  "correct": false
+                },
+                {
+                  "text": "menganggap iman tidak perlu amal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemahaman itu memandu amal apa yang dapat memperkuat keimanan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk cabang iman menurut hadis? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menghilangkan gangguan di jalan",
+                  "correct": true
+                },
+                {
+                  "text": "Rasa malu",
+                  "correct": true
+                },
+                {
+                  "text": "Berkata jujur",
+                  "correct": true
+                },
+                {
+                  "text": "Meninggalkan salat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menghilangkan gangguan, rasa malu, dan kejujuran adalah cabang iman. Meninggalkan salat bertentangan dengan iman."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan cabang iman dengan contoh pengamalannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Jujur"
+                },
+                {
+                  "id": "o1",
+                  "text": "Malu"
+                },
+                {
+                  "id": "o2",
+                  "text": "Tolong-menolong"
+                },
+                {
+                  "id": "o3",
+                  "text": "Menghilangkan gangguan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Mengatakan hasil ujian apa adanya",
+                  "o1": "Menahan diri dari perbuatan tercela",
+                  "o2": "Membantu teman yang kesulitan",
+                  "o3": "Memindahkan batu dari jalan"
+                }
+              },
+              "explanation": "Setiap cabang iman tampak dalam perilaku nyata."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tingkat cabang iman menurut hadis.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Ucapan la ilaha illallah"
+                },
+                {
+                  "id": "o1",
+                  "text": "Menghilangkan gangguan di jalan"
+                },
+                {
+                  "id": "o2",
+                  "text": "Rasa malu sebagai cabang iman"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3"
+                }
+              },
+              "explanation": "Hadis menyebut cabang tertinggi, terendah, dan malu sebagai cabang iman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penerapan cabang iman berupa disiplin tampak pada perilaku …",
+              "options": [
+                {
+                  "text": "mengerjakan tugas tepat waktu",
+                  "correct": true
+                },
+                {
+                  "text": "menunda tugas sampai batas akhir",
+                  "correct": false
+                },
+                {
+                  "text": "berbohong tentang tugas",
+                  "correct": false
+                },
+                {
+                  "text": "menyalin tugas teman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Disiplin adalah cabang iman yang tampak pada ketaatan pada waktu."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Memahami Hakikat dan Mewujudkan Ketauhidan dengan Syu'abul Iman (Cabang-Cabang Iman) — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa tauhid disebut pokok seluruh keimanan?",
+              "options": [
+                {
+                  "text": "karena semua cabang iman berakar pada keyakinan akan keesaan Allah",
+                  "correct": true
+                },
+                {
+                  "text": "karena tauhid hanya satu cabang",
+                  "correct": false
+                },
+                {
+                  "text": "karena tauhid tidak berkaitan dengan amal",
+                  "correct": false
+                },
+                {
+                  "text": "karena tauhid menggantikan salat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tauhid adalah akar; cabang iman lainnya tumbuh dari akar tersebut."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara memperkuat iman menurut konsep syu'abul iman adalah …",
+              "options": [
+                {
+                  "text": "membiasakan berbagai amal kecil secara istiqamah",
+                  "correct": true
+                },
+                {
+                  "text": "menghafal jumlah cabang iman saja",
+                  "correct": false
+                },
+                {
+                  "text": "cukup beribadah sekali",
+                  "correct": false
+                },
+                {
+                  "text": "meninggalkan amal yang kecil",
+                  "correct": false
+                }
+              ],
+              "explanation": "Iman diperkuat dengan amal yang dibiasakan dan konsisten."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan iman, islam, dan ihsan adalah …",
+              "options": [
+                {
+                  "text": "iman soal keyakinan, islam soal amal lahir, ihsan soal kualitas beribadah",
+                  "correct": true
+                },
+                {
+                  "text": "ketiganya sama saja",
+                  "correct": false
+                },
+                {
+                  "text": "ihsan lebih rendah dari islam",
+                  "correct": false
+                },
+                {
+                  "text": "islam hanya soal keyakinan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dalam hadis Jibril, islam menyangkut amal lahir, iman soal keyakinan, ihsan soal kesadaran beribadah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa rasa malu disebut cabang iman yang penting?",
+              "options": [
+                {
+                  "text": "karena malu mencegah seseorang melakukan kemaksiatan secara sadar",
+                  "correct": true
+                },
+                {
+                  "text": "karena malu membuat orang berpikir",
+                  "correct": false
+                },
+                {
+                  "text": "karena malu mengurangi ilmu",
+                  "correct": false
+                },
+                {
+                  "text": "karena malu menghambat kebaikan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rasa malu berfungsi sebagai pengendali internal dari perbuatan tercela."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh pengamalan cabang iman yang berdampak sosial paling luas adalah …",
+              "options": [
+                {
+                  "text": "membiasakan menolong dan menjaga kebersihan lingkungan",
+                  "correct": true
+                },
+                {
+                  "text": "berpuasa tapi mengabaikan tetangga",
+                  "correct": false
+                },
+                {
+                  "text": "beribadah tanpa peduli sesama",
+                  "correct": false
+                },
+                {
+                  "text": "berdoa tapi tetap berbuat curang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Cabang iman mencakup amal sosial seperti menolong dan menjaga lingkungan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang syu'abul iman? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Iman memiliki banyak cabang amal",
+                  "correct": true
+                },
+                {
+                  "text": "Cabang iman mencakup ucapan, hati, dan perbuatan",
+                  "correct": true
+                },
+                {
+                  "text": "Cabang iman dapat diperkuat dengan pembiasaan",
+                  "correct": true
+                },
+                {
+                  "text": "Cukup mengaku beriman tanpa amal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Syu'abul iman mencakup hati, lisan, dan perbuatan, serta diperkuat dengan pembiasaan. Pengakuan tanpa amal tidak mencukupi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menumbuhkan cabang iman dalam diri.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Memahami makna cabang iman"
+                },
+                {
+                  "id": "s1",
+                  "text": "Memilih satu amal kecil untuk dibiasakan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Melaksanakan secara istiqamah"
+                },
+                {
+                  "id": "s3",
+                  "text": "Mengevaluasi dan menambah amal lain"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Cabang iman tumbuh melalui pemahaman, pembiasaan, dan evaluasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kaitan antara iman dan amal saleh adalah …",
+              "options": [
+                {
+                  "text": "iman mendorong amal saleh, dan amal saleh memperkuat iman",
+                  "correct": true
+                },
+                {
+                  "text": "amal saleh tidak perlu iman",
+                  "correct": false
+                },
+                {
+                  "text": "iman tidak perlu amal",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya saling bertentangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Iman dan amal saleh saling menguatkan dalam konsep syu'abul iman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang tepat terhadap hadis jumlah cabang iman adalah …",
+              "options": [
+                {
+                  "text": "memahami maknanya dan mengamalkan cabang-cabang yang disebutkan",
+                  "correct": true
+                },
+                {
+                  "text": "memperdebatkan angka tanpa amal",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan hadis karena jumlahnya banyak",
+                  "correct": false
+                },
+                {
+                  "text": "menganggap hadis tidak relevan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tujuan hadis adalah mendorong amal, bukan perdebatan angka."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh cabang iman yang berkaitan dengan hubungan dengan Allah adalah …",
+              "options": [
+                {
+                  "text": "menjaga salat lima waktu",
+                  "correct": true
+                },
+                {
+                  "text": "menolong teman",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga kebersihan jalan",
+                  "correct": false
+                },
+                {
+                  "text": "membantu tetangga",
+                  "correct": false
+                }
+              ],
+              "explanation": "Salat adalah ibadah langsung sebagai cabang iman dalam hubungan dengan Allah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa syu'abul iman disebut \"cabang\" bukan \"rukun\"?",
+              "options": [
+                {
+                  "text": "karena cabang adalah amal yang tumbuh dari pokok iman, sedangkan rukun adalah pilar keyakinan",
+                  "correct": true
+                },
+                {
+                  "text": "karena cabang lebih penting dari rukun",
+                  "correct": false
+                },
+                {
+                  "text": "karena rukun tidak wajib",
+                  "correct": false
+                },
+                {
+                  "text": "karena keduanya sama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rukun iman adalah pilar keyakinan; cabang iman adalah amal yang tumbuh darinya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak memahami syu'abul iman pada kehidupan sosial adalah …",
+              "options": [
+                {
+                  "text": "terdorong berbuat baik dalam banyak aspek kehidupan, bukan hanya ibadah ritual",
+                  "correct": true
+                },
+                {
+                  "text": "mengabaikan ibadah ritual",
+                  "correct": false
+                },
+                {
+                  "text": "mengurangi kepedulian sosial",
+                  "correct": false
+                },
+                {
+                  "text": "menganggap amal sosial tidak penting",
+                  "correct": false
+                }
+              ],
+              "explanation": "Syu'abul iman mencakup amal ritual dan sosial sehingga mendorong kebaikan menyeluruh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh cabang iman berupa menahan amarah tampak ketika …",
+              "options": [
+                {
+                  "text": "diejek teman namun tetap membalas dengan baik",
+                  "correct": true
+                },
+                {
+                  "text": "membalas ejekan dengan kekerasan",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan keburukan teman",
+                  "correct": false
+                },
+                {
+                  "text": "mendiamkan teman selamanya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menahan amarah dan membalas dengan kebaikan adalah cabang iman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa pembiasaan lebih efektif daripada pengetahuan saja dalam menumbuhkan iman?",
+              "options": [
+                {
+                  "text": "karena iman tumbuh melalui amal yang diulang, bukan hanya diketahui",
+                  "correct": true
+                },
+                {
+                  "text": "karena pengetahuan tidak berguna",
+                  "correct": false
+                },
+                {
+                  "text": "karena amal tidak perlu ilmu",
+                  "correct": false
+                },
+                {
+                  "text": "karena pembiasaan menghapus ilmu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pembiasaan menjadikan amal karakter; ilmu tanpa amal tidak mengubah perilaku."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh cabang iman yang tampak pada sikap tawakal adalah …",
+              "options": [
+                {
+                  "text": "berusaha maksimal lalu menyerahkan hasilnya kepada Allah",
+                  "correct": true
+                },
+                {
+                  "text": "berdiam diri tanpa usaha",
+                  "correct": false
+                },
+                {
+                  "text": "menyalahkan keadaan",
+                  "correct": false
+                },
+                {
+                  "text": "bergantung pada keberuntungan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tawakal berarti berusaha sungguh-sungguh lalu menyerahkan hasil kepada Allah."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

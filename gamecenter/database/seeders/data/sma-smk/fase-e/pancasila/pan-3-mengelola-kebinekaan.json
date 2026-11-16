@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pancasila",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PAN 3",
+      "title": "Mengelola Kebinekaan sebagai Modal Sosial Pembangunan Nasional",
+      "description": "Identitas individu dan kelompok, keragaman identitas bangsa, kolaborasi antarbudaya, pertukaran budaya global, dan kekayaan tradisi sebagai modal pembangunan.",
+      "learning_objectives": [
+        "Peserta didik diharapkan mampu menjelaskan apa yang dimaksud identitas, baik pada aspek jenis identitas maupun pembentukannya. Peserta didik juga diharapkan mampu memberikan contoh tentang masing-masing jenis identitas dan mengaitkan konsep identitas tersebut dengan Pancasila.",
+        "Peserta didik diharapkan dapat mengenali dan membangun kesadaran bahwa ada keragaman identitas yang kita miliki sebagai sebuah bangsa. Pembelajaran Unit 2 ini juga ditujukan agar peserta didik dapat menunjukkan penghargaannya terhadap keragaman budaya, baik yang ada di Indonesia maupun dunia.",
+        "Peserta didik mampu menjelaskan Indonesia sebagai sebuah negara yang terbentuk dari keragaman budaya. Melalui pembelajaran di Unit 3, peserta didik juga diharapkan mampu mengidentifikasi pentingnya melakukan kolaborasi budaya yang ada di Indonesia. Selain itu, peserta didik diharapkan mampu memberikan respons atas kondisi dan keadaan tidak baik yang ada di lingkungan dan masyarakat menjadi lebih baik.",
+        "Peserta didik diharapkan mampu mengidentifikasi tradisi, kearifan, serta kebudayaan masyarakat di negara lain. Selain itu, peserta didik juga diharapkan mampu menampilkan atau mempromosikan budaya, tradisi atau nilainilai yang dimiliki oleh bangsa Indonesia ke masyarakat dunia.",
+        "Peserta didik diharapkan dapat menjelaskan makna dan manfaat hidup dalam kebinekaan, kaya akan kearifan lokal, serta memiliki kebanggaan atas produk dalam negeri. Selain itu, peserta didik juga diharapkan mampu menunjukkan produk dan kearifan lokal kebanggaan bangsa Indonesia yang bisa digunakan untuk mengantisipasi tindakantindakan intoleransi atau diskriminasi."
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Buku Pendidikan Pancasila Kelas X (Kemendikbudristek)",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Identitas Individu dan Identitas Kelompok",
+          "duration": 320,
+          "source_reference": "Bab 3 Unit 1–2",
+          "content": "## Apa itu identitas?\n\n**Identitas** adalah ciri yang melekat pada diri seseorang atau kelompok yang membedakannya dari yang lain.\n\n### Dua jenis identitas\n\n| Jenis | Ciri | Contoh |\n|---|---|---|\n| **Given** (diberi) | diperoleh sejak lahir, tidak dipilih | suku bangsa, daerah asal, warna kulit, jenis kelamin |\n| **Pilihan** | dibentuk melalui usaha | profesi, prestasi, keahlian, agama yang dipeluk setelah dewasa |\n\n### Pembentuk identitas\n\n- **keluarga** — nilai pertama yang ditanamkan\n- **lingkungan sosial** — teman, sekolah, masyarakat\n- **pengalaman hidup** — keberhasilan dan kegagalan\n- **pendidikan** — pengetahuan dan keterampilan\n\n## Keragaman identitas bangsa\n\nIndonesia memiliki ribuan suku, ratusan bahasa daerah, dan beragam agama serta kepercayaan. Semboyan **Bhinneka Tunggal Ika** — *berbeda-beda tetapi tetap satu jua* — menegaskan bahwa persatuan tidak berarti penyeragaman.\n\n### Manfaat mengenali keragaman\n\n- menumbuhkan **saling menghargai**\n- mencegah **prasangka** dan konflik\n- memperluas wawasan dan jaringan kerja sama"
+        },
+        {
+          "type": "text",
+          "title": "Kolaborasi dan Pertukaran Budaya",
+          "duration": 320,
+          "source_reference": "Bab 3 Unit 3–4",
+          "content": "## Kolaborasi antarbudaya di Indonesia\n\nIndonesia terbentuk dari keragaman budaya. Kolaborasi terjadi melalui:\n\n- **gotong royong** antarwarga berbeda latar belakang\n- **musyawarah** desa yang melibatkan berbagai kelompok\n- pertukaran tenaga dan pengetahuan antar daerah\n\n### Tahap kolaborasi\n\n1. Mengenali identitas diri dan kelompok sendiri\n2. Mengenali dan menghargai identitas kelompok lain\n3. Menemukan tujuan bersama\n4. Bekerja sama dengan pembagian peran yang adil\n5. Merefleksikan hasil kerja sama\n\n## Pertukaran budaya di pentas global\n\nSikap yang diperlukan: **bangga pada budaya sendiri sekaligus terbuka** mempelajari budaya lain.\n\n| Sikap | Akibat |\n|---|---|\n| terbuka dan kritis | budaya saling memperkaya |\n| menutup diri total | kehilangan peluang belajar |\n| menerima tanpa menyaring | kehilangan jati diri |\n\nPenyaringan dilakukan dengan **nilai Pancasila dan budaya sendiri**.\n\nContoh pertukaran yang sehat: kolaborasi musisi dua negara yang menggabungkan alat musik tradisional."
+        },
+        {
+          "type": "text",
+          "title": "Belajar dari Kekayaan Tradisi",
+          "duration": 300,
+          "source_reference": "Bab 3 Unit 5",
+          "content": "## Kearifan lokal\n\n**Kearifan lokal** adalah pengetahuan dan praktik masyarakat setempat yang diwariskan turun-temurun.\n\n| Kearifan lokal | Daerah | Fungsi |\n|---|---|---|\n| **Subak** | Bali | irigasi sawah berbasis gotong royong |\n| **Sasi** | Maluku dan Papua | larangan memanen pada waktu tertentu agar sumber daya pulih |\n| **Pranata mangsa** | Jawa | kalender tanam berdasarkan tanda alam |\n| **Lubuk larangan** | Sumatra | larangan menangkap ikan di bagian sungai tertentu |\n\nSubak menjadi contoh **pengelolaan sumber daya partisipatif dan lestari**, bukan penghambat modernisasi.\n\n## Makna hidup dalam kebinekaan\n\n- perbedaan adalah **kekayaan**, bukan ancaman\n- kebinekaan menyediakan **jaringan kerja sama dan pengetahuan luas** — inilah **modal sosial** pembangunan\n\n## Kebanggaan pada produk dalam negeri\n\nMenggunakan produk dalam negeri mendorong **industri lokal tumbuh**, membuka lapangan kerja, dan menjaga tradisi tetap hidup."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Mengelola Kebinekaan sebagai Modal Sosial Pembangunan Nasional — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Identitas yang melekat sejak lahir tanpa dipilih disebut identitas …",
+              "options": [
+                {
+                  "text": "given",
+                  "correct": true
+                },
+                {
+                  "text": "pilihan",
+                  "correct": false
+                },
+                {
+                  "text": "buatan",
+                  "correct": false
+                },
+                {
+                  "text": "sementara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Identitas given diperoleh sejak lahir, misalnya suku, daerah asal, dan warna kulit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Identitas yang diperoleh melalui usaha sendiri disebut identitas …",
+              "options": [
+                {
+                  "text": "pilihan",
+                  "correct": true
+                },
+                {
+                  "text": "given",
+                  "correct": false
+                },
+                {
+                  "text": "turunan",
+                  "correct": false
+                },
+                {
+                  "text": "bawaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Identitas pilihan dibentuk melalui usaha, misalnya profesi, prestasi, dan keahlian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Semboyan yang menunjukkan keragaman Indonesia adalah …",
+              "options": [
+                {
+                  "text": "Bhinneka Tunggal Ika",
+                  "correct": true
+                },
+                {
+                  "text": "Tut Wuri Handayani",
+                  "correct": false
+                },
+                {
+                  "text": "Jalesveva Jayamahe",
+                  "correct": false
+                },
+                {
+                  "text": "Kartika Eka Paksi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bhinneka Tunggal Ika berarti berbeda-beda tetapi tetap satu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang tepat terhadap budaya asing yang masuk ke Indonesia adalah …",
+              "options": [
+                {
+                  "text": "mempelajari dan menyaring sesuai nilai budaya sendiri",
+                  "correct": true
+                },
+                {
+                  "text": "menolak seluruhnya",
+                  "correct": false
+                },
+                {
+                  "text": "menerima tanpa menyaring",
+                  "correct": false
+                },
+                {
+                  "text": "meninggalkan budaya sendiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pertukaran budaya perlu disikapi kritis: mengambil yang bermanfaat, menolak yang merusak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh kearifan lokal dalam pengelolaan lingkungan adalah …",
+              "options": [
+                {
+                  "text": "subak di Bali untuk irigasi sawah",
+                  "correct": true
+                },
+                {
+                  "text": "pembakaran hutan",
+                  "correct": false
+                },
+                {
+                  "text": "penebangan liar",
+                  "correct": false
+                },
+                {
+                  "text": "pencemaran sungai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Subak adalah sistem irigasi tradisional Bali yang berlandaskan gotong royong dan keseimbangan alam."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Mengelola Kebinekaan sebagai Modal Sosial Pembangunan Nasional — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pembentuk identitas individu antara lain …",
+              "options": [
+                {
+                  "text": "keluarga, lingkungan sosial, dan pengalaman hidup",
+                  "correct": true
+                },
+                {
+                  "text": "hanya warna kulit",
+                  "correct": false
+                },
+                {
+                  "text": "hanya pekerjaan",
+                  "correct": false
+                },
+                {
+                  "text": "hanya tempat lahir",
+                  "correct": false
+                }
+              ],
+              "explanation": "Identitas dibentuk oleh keluarga, lingkungan, pendidikan, dan pengalaman yang dijalani."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat utama mengenali keragaman identitas bangsa adalah …",
+              "options": [
+                {
+                  "text": "menumbuhkan saling menghargai dan mencegah konflik",
+                  "correct": true
+                },
+                {
+                  "text": "menyeragamkan semua budaya",
+                  "correct": false
+                },
+                {
+                  "text": "memilih budaya terbaik",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus perbedaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengenalan keragaman menumbuhkan toleransi sehingga konflik dapat dicegah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kolaborasi antarbudaya di Indonesia diwujudkan melalui …",
+              "options": [
+                {
+                  "text": "gotong royong dan musyawarah antarwarga berbeda latar belakang",
+                  "correct": true
+                },
+                {
+                  "text": "menolak bertemu budaya lain",
+                  "correct": false
+                },
+                {
+                  "text": "menyamakan bahasa seluruh daerah",
+                  "correct": false
+                },
+                {
+                  "text": "melarang adat daerah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kolaborasi antarbudaya tumbuh ketika warga berbeda latar belakang bekerja sama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang diperlukan dalam pertukaran budaya di pentas global adalah …",
+              "options": [
+                {
+                  "text": "bangga pada budaya sendiri sekaligus terbuka mempelajari budaya lain",
+                  "correct": true
+                },
+                {
+                  "text": "menutup diri sepenuhnya",
+                  "correct": false
+                },
+                {
+                  "text": "menolak produk dalam negeri",
+                  "correct": false
+                },
+                {
+                  "text": "menganggap budaya sendiri paling rendah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sikap terbuka dan bangga menghasilkan pertukaran budaya yang sehat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna hidup dalam kebinekaan menurut nilai Pancasila adalah …",
+              "options": [
+                {
+                  "text": "menjadikan perbedaan sebagai kekayaan yang memperkuat persatuan",
+                  "correct": true
+                },
+                {
+                  "text": "menghindari pergaulan berbeda budaya",
+                  "correct": false
+                },
+                {
+                  "text": "menyamakan pandangan semua orang",
+                  "correct": false
+                },
+                {
+                  "text": "memisahkan kelompok",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kebinekaan dipandang sebagai modal sosial yang memperkaya kehidupan bersama."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk identitas given? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Suku bangsa",
+                  "correct": true
+                },
+                {
+                  "text": "Daerah asal",
+                  "correct": true
+                },
+                {
+                  "text": "Warna kulit",
+                  "correct": true
+                },
+                {
+                  "text": "Profesi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Suku, daerah asal, dan warna kulit diperoleh sejak lahir. Profesi adalah identitas pilihan."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan kearifan lokal dengan daerahnya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Subak"
+                },
+                {
+                  "id": "o1",
+                  "text": "Sasi"
+                },
+                {
+                  "id": "o2",
+                  "text": "Pranata mangsa"
+                },
+                {
+                  "id": "o3",
+                  "text": "Lubuk larangan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Bali",
+                  "o1": "Maluku dan Papua",
+                  "o2": "Jawa",
+                  "o3": "Sumatra"
+                }
+              },
+              "explanation": "Setiap daerah memiliki kearifan lokal dalam mengelola alam dan kehidupan bersama."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahap mengenali keragaman identitas.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Mengenali identitas diri"
+                },
+                {
+                  "id": "o1",
+                  "text": "Mengenali identitas kelompok lain"
+                },
+                {
+                  "id": "o2",
+                  "text": "Menghargai perbedaan"
+                },
+                {
+                  "id": "o3",
+                  "text": "Berkolaborasi lintas budaya"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Kesadaran dimulai dari diri sendiri, lalu meluas ke kelompok lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh manfaat kebanggaan pada produk dalam negeri adalah …",
+              "options": [
+                {
+                  "text": "perekonomian nasional tumbuh dan budaya lokal lestari",
+                  "correct": true
+                },
+                {
+                  "text": "produk asing hilang sama sekali",
+                  "correct": false
+                },
+                {
+                  "text": "harga barang naik",
+                  "correct": false
+                },
+                {
+                  "text": "budaya daerah terhapus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menggunakan produk dalam negeri memperkuat ekonomi sekaligus menjaga tradisi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pertukaran budaya dapat berlangsung sehat jika masyarakat …",
+              "options": [
+                {
+                  "text": "memahami budayanya sendiri sebelum menerima budaya lain",
+                  "correct": true
+                },
+                {
+                  "text": "tidak mengenal budayanya sendiri",
+                  "correct": false
+                },
+                {
+                  "text": "menolak semua pengaruh luar",
+                  "correct": false
+                },
+                {
+                  "text": "hanya meniru budaya asing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemahaman budaya sendiri menjadi penyaring agar tidak kehilangan jati diri."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Mengelola Kebinekaan sebagai Modal Sosial Pembangunan Nasional — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa identitas kelompok tidak boleh dijadikan alasan merendahkan kelompok lain?",
+              "options": [
+                {
+                  "text": "karena setiap identitas memiliki martabat yang sama di hadapan hukum dan moral",
+                  "correct": true
+                },
+                {
+                  "text": "karena identitas kelompok tidak penting",
+                  "correct": false
+                },
+                {
+                  "text": "karena semua kelompok harus sama",
+                  "correct": false
+                },
+                {
+                  "text": "karena hanya satu kelompok yang benar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengakuan atas martabat yang setara mencegah diskriminasi dan konflik antarkelompok."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tantangan terbesar kolaborasi antarbudaya di era global adalah …",
+              "options": [
+                {
+                  "text": "prasangka dan stereotip yang memperkuat jurang antar kelompok",
+                  "correct": true
+                },
+                {
+                  "text": "kurangnya bahasa isyarat",
+                  "correct": false
+                },
+                {
+                  "text": "tidak adanya transportasi",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada media komunikasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Prasangka membuat orang menilai kelompok lain sebelum mengenalnya sehingga kolaborasi gagal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran kearifan lokal seperti subak dalam pembangunan nasional adalah …",
+              "options": [
+                {
+                  "text": "menjadi model pengelolaan sumber daya yang partisipatif dan lestari",
+                  "correct": true
+                },
+                {
+                  "text": "menghambat modernisasi",
+                  "correct": false
+                },
+                {
+                  "text": "tidak relevan lagi",
+                  "correct": false
+                },
+                {
+                  "text": "hanya cocok untuk pariwisata",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kearifan lokal menyimpan pengetahuan pengelolaan alam yang berkelanjutan dan berbasis masyarakat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara menyikapi masuknya budaya asing agar tidak kehilangan jati diri adalah …",
+              "options": [
+                {
+                  "text": "menyaring dengan nilai Pancasila dan budaya sendiri",
+                  "correct": true
+                },
+                {
+                  "text": "menerima seluruhnya tanpa pertimbangan",
+                  "correct": false
+                },
+                {
+                  "text": "menolak semua pengaruh asing",
+                  "correct": false
+                },
+                {
+                  "text": "berhenti mempelajari budaya sendiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penyaringan dengan nilai sendiri menjaga jati diri sambil tetap terbuka."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa penyeragaman budaya justru bertentangan dengan semangat kebinekaan?",
+              "options": [
+                {
+                  "text": "karena kebinekaan menghargai perbedaan, bukan menghapusnya",
+                  "correct": true
+                },
+                {
+                  "text": "karena penyeragaman mempercepat pembangunan",
+                  "correct": false
+                },
+                {
+                  "text": "karena budaya daerah tidak berharga",
+                  "correct": false
+                },
+                {
+                  "text": "karena persatuan memerlukan kesamaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bhinneka Tunggal Ika menyatukan yang berbeda, bukan menjadikan semuanya sama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa kebinekaan disebut modal sosial pembangunan?",
+              "options": [
+                {
+                  "text": "karena keragaman menyediakan jaringan kerja sama dan pengetahuan yang luas",
+                  "correct": true
+                },
+                {
+                  "text": "karena keragaman memperlambat semua pekerjaan",
+                  "correct": false
+                },
+                {
+                  "text": "karena keragaman menghapus persaingan",
+                  "correct": false
+                },
+                {
+                  "text": "karena keragaman mengurangi jumlah penduduk",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jaringan sosial yang beragam memperluas sumber daya dan gagasan untuk pembangunan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap yang mencerminkan penghargaan atas keragaman? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Mempelajari bahasa daerah lain",
+                  "correct": true
+                },
+                {
+                  "text": "Menghadiri festival budaya berbeda",
+                  "correct": true
+                },
+                {
+                  "text": "Menghargai cara ibadah orang lain",
+                  "correct": true
+                },
+                {
+                  "text": "Menertawakan logat daerah orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mempelajari bahasa daerah, menghadiri festival, dan menghargai ibadah menunjukkan penghargaan. Menertawakan logat adalah pelecehan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah kolaborasi antarbudaya.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Mengenali identitas diri dan kelompok sendiri"
+                },
+                {
+                  "id": "s1",
+                  "text": "Mengenali dan menghargai identitas kelompok lain"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menemukan tujuan bersama"
+                },
+                {
+                  "id": "s3",
+                  "text": "Bekerja sama dengan pembagian peran yang adil"
+                },
+                {
+                  "id": "s4",
+                  "text": "Merefleksikan hasil kerja sama"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Kolaborasi berjalan dari pengenalan diri menuju kerja sama dan refleksi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak negatif jika masyarakat hanya bergaul dengan kelompoknya sendiri adalah …",
+              "options": [
+                {
+                  "text": "tumbuhnya prasangka dan lemahnya rasa persatuan",
+                  "correct": true
+                },
+                {
+                  "text": "semakin kuatnya toleransi",
+                  "correct": false
+                },
+                {
+                  "text": "semakin cepatnya pembangunan",
+                  "correct": false
+                },
+                {
+                  "text": "hilangnya identitas pribadi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pergaulan tertutup menumbuhkan prasangka dan memperlemah kohesi sosial."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna praktis Bhinneka Tunggal Ika bagi pelajar adalah …",
+              "options": [
+                {
+                  "text": "berteman tanpa membedakan latar belakang dan tetap menjaga persatuan",
+                  "correct": true
+                },
+                {
+                  "text": "menyeragamkan seluruh kebiasaan teman",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari teman berbeda budaya",
+                  "correct": false
+                },
+                {
+                  "text": "memilih teman dari daerah yang sama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Semboyan itu diterapkan dengan berteman lintas latar belakang tetap dalam satu kesatuan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh pertukaran budaya yang menguntungkan kedua pihak adalah …",
+              "options": [
+                {
+                  "text": "kolaborasi musisi dari dua negara yang menggabungkan alat musik tradisional",
+                  "correct": true
+                },
+                {
+                  "text": "meniru budaya asing tanpa memahami maknanya",
+                  "correct": false
+                },
+                {
+                  "text": "menolak semua pertunjukan budaya asing",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti seluruh budaya lokal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kolaborasi saling memperkaya tanpa menghilangkan ciri khas masing-masing budaya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa kebanggaan terhadap produk dalam negeri penting bagi pembangunan?",
+              "options": [
+                {
+                  "text": "mendorong konsumsi dalam negeri sehingga industri lokal tumbuh",
+                  "correct": true
+                },
+                {
+                  "text": "membuat harga produk asing naik",
+                  "correct": false
+                },
+                {
+                  "text": "melarang impor seluruhnya",
+                  "correct": false
+                },
+                {
+                  "text": "mengurangi lapangan kerja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Permintaan dalam negeri menumbuhkan industri, lapangan kerja, dan pelestarian budaya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang tepat terhadap tradisi masyarakat lain yang berbeda adalah …",
+              "options": [
+                {
+                  "text": "memahami maknanya sebelum menilai",
+                  "correct": true
+                },
+                {
+                  "text": "menilai buruk tanpa mengetahui",
+                  "correct": false
+                },
+                {
+                  "text": "memaksakan tradisi sendiri",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari pergaulan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemahaman mendahului penilaian agar tidak lahir kesalahpahaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kaitan antara identitas dan konflik sosial adalah …",
+              "options": [
+                {
+                  "text": "identitas dapat menjadi sumber konflik bila dipakai untuk merendahkan kelompok lain",
+                  "correct": true
+                },
+                {
+                  "text": "identitas selalu menyebabkan konflik",
+                  "correct": false
+                },
+                {
+                  "text": "identitas tidak berkaitan dengan konflik",
+                  "correct": false
+                },
+                {
+                  "text": "konflik hanya terjadi karena ekonomi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Identitas menjadi pemicu konflik ketika dijadikan alat superioritas, bukan ketika dihargai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Strategi sekolah untuk mengelola kebinekaan adalah …",
+              "options": [
+                {
+                  "text": "menyelenggarakan kegiatan lintas budaya dan dialog antar siswa",
+                  "correct": true
+                },
+                {
+                  "text": "melarang penggunaan bahasa daerah",
+                  "correct": false
+                },
+                {
+                  "text": "memisahkan siswa berdasarkan asal daerah",
+                  "correct": false
+                },
+                {
+                  "text": "menyeragamkan seluruh kegiatan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kegiatan lintas budaya membangun saling pengertian dan memperkuat persatuan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

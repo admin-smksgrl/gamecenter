@@ -1,0 +1,786 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pancasila",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PAN 4",
+      "title": "Menjadi Warga Negara yang Baik",
+      "description": "Paham kebangsaan dan nasionalisme, NKRI dan kedaulatan wilayah, serta studi kasus sengketa batas wilayah Indonesia dan Malaysia.",
+      "learning_objectives": [
+        "Peserta didik dapat menjelaskan dan menganalisis dasardasar filosofis paham kebangsaan dan nasionalisme dalam konteks menjaga keutuhan NKRI atas kasus sengketa batas wilayah. Diharapkan pula muncul empati dan semangat patriotisme bagi peserta didik, setelah mengetahui tentang bagaimana konsep kebangsaan dirumuskan oleh founding fathers (para pendiri bangsa), dan dengan begitu, dapat memupuk rasa cinta pada NKRI.",
+        "Peserta didik dapat menjelaskan konsep (sejarah, fakta, dan regulasi) NKRI, terkait dengan subtema sengketa batas wilayah. Peserta didik juga dapat melakukan identifikasi beberapa contoh kasus wilayah yang diperebutkan berdasarkan fakta dan regulasi.",
+        "Peserta didik diharapkan mampu menjelaskan dan menganalisis latarbelakang terjadinya sengketa batas wilayah antara Indonesia dan Malaysia. Peserta didik tidak hanya diajak untuk mengetahui akar sejarah terjadinya sengketa batas wilayah, tetapi juga dapat melakukan praktik baik sebagai sikap dan keikutsertaannya dalam menjaga keutuhan NKRI."
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Buku Pendidikan Pancasila Kelas X (Kemendikbudristek)",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Paham Kebangsaan dan Nasionalisme",
+          "duration": 320,
+          "source_reference": "Bab 4 Unit 1",
+          "content": "## Paham kebangsaan\n\n**Paham kebangsaan** adalah kesadaran bahwa rakyat Indonesia bersatu sebagai **satu bangsa** yang melampaui perbedaan suku, agama, dan daerah.\n\nDasar filosofisnya adalah **Pancasila**, terutama sila **Persatuan Indonesia**.\n\n## Nasionalisme\n\n**Nasionalisme** adalah kesetiaan pada bangsa yang diwujudkan melalui:\n\n- rela berkorban\n- menjaga keutuhan bangsa\n- berprestasi dan mengharumkan nama negara\n\n### Nasionalisme vs chauvinisme\n\n| | Nasionalisme | Chauvinisme |\n|---|---|---|\n| Sikap pada bangsa sendiri | bangga dan setia | mengagung-agungkan |\n| Sikap pada bangsa lain | menghargai | merendahkan |\n| Akibat | kerja sama terjaga | hubungan rusak |\n\n## Patriotisme\n\n**Patriotisme** adalah cinta dan kesiapan membela tanah air. Wujudnya bisa sederhana: menghormati simbol negara, menaati hukum, menjaga kerukunan, dan mengikuti kegiatan kebangsaan."
+        },
+        {
+          "type": "text",
+          "title": "NKRI dan Kedaulatan Wilayah",
+          "duration": 320,
+          "source_reference": "Bab 4 Unit 2",
+          "content": "## Unsur pembentuk negara (Konvensi Montevideo 1933)\n\n1. **wilayah**\n2. **rakyat**\n3. **pemerintahan**\n4. **pengakuan negara lain**\n\n## Dasar hukum\n\n**Pasal 25A UUD NRI Tahun 1945**: negara kesatuan yang berbentuk republik dengan wilayah yang ditetapkan undang-undang.\n\n## Negara kesatuan dan otonomi\n\nDaerah menjalankan **otonomi** untuk mengurus urusannya sendiri, tetapi tetap **di dalam kerangka NKRI**. Otonomi bukan jalan menuju pemisahan diri.\n\n## Peta resmi negara\n\nPeta resmi adalah **dokumen hukum** yang menegaskan batas wilayah. Karena itu pemalsuan atau pengubahan peta menyangkut kedaulatan.\n\n## Ancaman\n\n| Jenis | Contoh |\n|---|---|\n| militer | invasi, blokade |\n| nonmiliter | berita bohong yang memecah belah, ancaman ideologi |\n\n## Peran pelajar\n\nMemahami batas wilayah dan **menolak disinformasi** tentang wilayah Indonesia adalah bentuk menjaga kedaulatan."
+        },
+        {
+          "type": "text",
+          "title": "Sengketa Batas Wilayah Indonesia dan Malaysia",
+          "duration": 300,
+          "source_reference": "Bab 4 Unit 3",
+          "content": "## Kasus Sipadan dan Ligitan\n\n- Dua pulau kecil di **Selat Makassar**, dekat perbatasan Kalimantan Timur dan Sabah\n- Klaim Indonesia dan Malaysia berlangsung lama\n- **Mahkamah Internasional** memutuskan pada **2002** bahwa kedua pulau menjadi milik **Malaysia**\n- Pertimbangan utama: bukti **pengelolaan nyata** (effective occupation) oleh Malaysia\n\n**Pelajaran:** klaim tanpa bukti historis dan pengelolaan nyata di lapangan sulit dipertahankan.\n\n## Kasus Ambalat\n\n- Terletak di **Laut Sulawesi**, menyangkut **batas landas kontinen** dan hak eksplorasi\n- Menguat setelah Malaysia menerbitkan peta yang mencakup blok Ambalat\n- Persoalannya bukan kepemilikan pulau, tetapi **batas laut dan hak pengelolaan**\n- Penyelesaian ditempuh melalui **diplomasi** dan perundingan batas\n\n## Jalur penyelesaian yang sah\n\n1. perundingan dan diplomasi\n2. mekanisme hukum internasional\n3. penguatan dokumen historis dan peta resmi\n4. menjaga wilayah secara **nyata** di lapangan\n\n## Sikap yang perlu dihindari\n\nMenggunakan kekerasan tanpa dasar, mengabaikan klaim, atau menyerahkan wilayah begitu saja."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Menjadi Warga Negara yang Baik — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Paham kebangsaan adalah …",
+              "options": [
+                {
+                  "text": "kesadaran bahwa rakyat Indonesia bersatu sebagai satu bangsa",
+                  "correct": true
+                },
+                {
+                  "text": "paham yang mengutamakan satu suku",
+                  "correct": false
+                },
+                {
+                  "text": "paham yang menolak negara",
+                  "correct": false
+                },
+                {
+                  "text": "paham yang membagi negara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Paham kebangsaan menumbuhkan kesadaran bersatu sebagai satu bangsa Indonesia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap nasionalisme ditunjukkan melalui …",
+              "options": [
+                {
+                  "text": "rela berkorban dan menjaga keutuhan bangsa",
+                  "correct": true
+                },
+                {
+                  "text": "mengutamakan daerah sendiri di atas kepentingan nasional",
+                  "correct": false
+                },
+                {
+                  "text": "menolak bekerja sama antardaerah",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari kegiatan kebangsaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nasionalisme adalah kesetiaan pada bangsa yang diwujudkan melalui pengorbanan dan kerja sama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dasar hukum yang menegaskan wilayah Indonesia adalah …",
+              "options": [
+                {
+                  "text": "UUD NRI Tahun 1945 Pasal 25A",
+                  "correct": true
+                },
+                {
+                  "text": "Pasal 1 ayat 1",
+                  "correct": false
+                },
+                {
+                  "text": "Pasal 27",
+                  "correct": false
+                },
+                {
+                  "text": "Pasal 30",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pasal 25A menegaskan bahwa NKRI adalah negara kesatuan berbentuk republik dengan wilayah yang ditetapkan undang-undang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sengketa batas wilayah antara Indonesia dan Malaysia yang berakhir dengan keputusan Mahkamah Internasional adalah …",
+              "options": [
+                {
+                  "text": "Sipadan dan Ligitan",
+                  "correct": true
+                },
+                {
+                  "text": "Ambalat",
+                  "correct": false
+                },
+                {
+                  "text": "Pulau Sebatik",
+                  "correct": false
+                },
+                {
+                  "text": "Selat Malaka",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mahkamah Internasional pada 2002 memutuskan Sipadan dan Ligitan menjadi milik Malaysia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara warga negara ikut menjaga keutuhan NKRI adalah …",
+              "options": [
+                {
+                  "text": "menghormati simbol negara dan menaati hukum",
+                  "correct": true
+                },
+                {
+                  "text": "menyebarkan berita perpecahan",
+                  "correct": false
+                },
+                {
+                  "text": "menolak ikut pemilu",
+                  "correct": false
+                },
+                {
+                  "text": "merusak fasilitas umum",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menghormati lambang negara dan menaati hukum adalah bentuk menjaga keutuhan NKRI."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Menjadi Warga Negara yang Baik — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Dasar filosofis paham kebangsaan Indonesia adalah …",
+              "options": [
+                {
+                  "text": "Pancasila, terutama sila Persatuan Indonesia",
+                  "correct": true
+                },
+                {
+                  "text": "paham liberalisme",
+                  "correct": false
+                },
+                {
+                  "text": "paham kesukuan",
+                  "correct": false
+                },
+                {
+                  "text": "paham feodalisme",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sila ketiga menjadi landasan filosofis paham kebangsaan Indonesia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan nasionalisme dan chauvinisme adalah …",
+              "options": [
+                {
+                  "text": "nasionalisme menghargai bangsa lain, chauvinisme merendahkan bangsa lain",
+                  "correct": true
+                },
+                {
+                  "text": "keduanya sama saja",
+                  "correct": false
+                },
+                {
+                  "text": "chauvinisme lebih menghargai bangsa lain",
+                  "correct": false
+                },
+                {
+                  "text": "nasionalisme menolak negara sendiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nasionalisme bersifat terbuka dan menghormati bangsa lain; chauvinisme berlebihan dan merendahkan bangsa lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Konsekuensi prinsip negara kesatuan bagi daerah adalah …",
+              "options": [
+                {
+                  "text": "daerah menjalankan otonomi dalam kerangka NKRI",
+                  "correct": true
+                },
+                {
+                  "text": "daerah dapat memisahkan diri",
+                  "correct": false
+                },
+                {
+                  "text": "daerah tidak memiliki pemerintahan",
+                  "correct": false
+                },
+                {
+                  "text": "daerah menjadi negara sendiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Otonomi daerah dijalankan di dalam bingkai negara kesatuan, bukan memisahkan diri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Unsur yang membentuk negara menurut konvensi Montevideo adalah …",
+              "options": [
+                {
+                  "text": "wilayah, rakyat, pemerintahan, dan pengakuan negara lain",
+                  "correct": true
+                },
+                {
+                  "text": "wilayah dan bendera saja",
+                  "correct": false
+                },
+                {
+                  "text": "rakyat dan presiden saja",
+                  "correct": false
+                },
+                {
+                  "text": "hanya pengakuan internasional",
+                  "correct": false
+                }
+              ],
+              "explanation": "Konvensi Montevideo 1933 menetapkan empat unsur pembentuk negara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara penyelesaian sengketa batas wilayah yang sesuai prinsip damai adalah …",
+              "options": [
+                {
+                  "text": "perundingan dan jalur hukum internasional",
+                  "correct": true
+                },
+                {
+                  "text": "kekuatan militer sepihak",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan perjanjian",
+                  "correct": false
+                },
+                {
+                  "text": "pendudukan tanpa dasar hukum",
+                  "correct": false
+                }
+              ],
+              "explanation": "Indonesia menempuh perundingan dan mekanisme hukum internasional untuk menyelesaikan sengketa."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah wujud cinta tanah air yang tepat? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menggunakan produk dalam negeri",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga nama baik negara di luar negeri",
+                  "correct": true
+                },
+                {
+                  "text": "Menghormati simbol negara",
+                  "correct": true
+                },
+                {
+                  "text": "Merusak fasilitas umum sebagai protes",
+                  "correct": false
+                }
+              ],
+              "explanation": "Cinta tanah air diwujudkan secara positif. Merusak fasilitas umum justru merugikan bangsa."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Nasionalisme"
+                },
+                {
+                  "id": "o1",
+                  "text": "Patriotisme"
+                },
+                {
+                  "id": "o2",
+                  "text": "Chauvinisme"
+                },
+                {
+                  "id": "o3",
+                  "text": "Otonomi daerah"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Kesetiaan pada bangsa dan rela berkorban",
+                  "o1": "Cinta dan kesiapan membela tanah air",
+                  "o2": "Mengagungkan bangsa sendiri dan merendahkan bangsa lain",
+                  "o3": "Kewenangan daerah mengatur urusan sendiri dalam NKRI"
+                }
+              },
+              "explanation": "Istilah-istilah ini berkaitan dengan sikap kebangsaan dan penyelenggaraan negara."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menjaga keutuhan NKRI dari tingkat diri ke masyarakat.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Menghormati simbol negara"
+                },
+                {
+                  "id": "o1",
+                  "text": "Menaati hukum"
+                },
+                {
+                  "id": "o2",
+                  "text": "Menjaga kerukunan bertetangga"
+                },
+                {
+                  "id": "o3",
+                  "text": "Ikut serta dalam kegiatan kebangsaan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Keutuhan bangsa dijaga mulai dari sikap pribadi sampai kegiatan bersama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna penting pengakuan internasional bagi sebuah negara adalah …",
+              "options": [
+                {
+                  "text": "negara dapat menjalin hubungan dan diakui kedaulatannya",
+                  "correct": true
+                },
+                {
+                  "text": "negara menjadi bagian negara lain",
+                  "correct": false
+                },
+                {
+                  "text": "negara kehilangan wilayah",
+                  "correct": false
+                },
+                {
+                  "text": "negara tidak memerlukan wilayah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengakuan memungkinkan negara berinteraksi sebagai subjek hukum internasional."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh ancaman nonmiliter terhadap keutuhan NKRI adalah …",
+              "options": [
+                {
+                  "text": "penyebaran berita bohong yang memecah belah",
+                  "correct": true
+                },
+                {
+                  "text": "serangan udara",
+                  "correct": false
+                },
+                {
+                  "text": "invasi darat",
+                  "correct": false
+                },
+                {
+                  "text": "blokade laut",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ancaman nonmiliter mencakup ideologi, sosial, dan informasi yang mengancam persatuan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Menjadi Warga Negara yang Baik — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa paham kebangsaan penting bagi negara yang beragam seperti Indonesia?",
+              "options": [
+                {
+                  "text": "karena menjadi perekat yang menyatukan keberagaman suku, agama, dan daerah",
+                  "correct": true
+                },
+                {
+                  "text": "karena menghapus semua perbedaan",
+                  "correct": false
+                },
+                {
+                  "text": "karena menguntungkan satu kelompok",
+                  "correct": false
+                },
+                {
+                  "text": "karena mengganti ideologi negara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Paham kebangsaan menyediakan identitas bersama yang mempersatukan keberagaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pelajaran penting dari kasus Sipadan dan Ligitan adalah …",
+              "options": [
+                {
+                  "text": "bukti historis dan pengelolaan wilayah yang nyata menentukan klaim internasional",
+                  "correct": true
+                },
+                {
+                  "text": "sengketa selalu diselesaikan dengan perang",
+                  "correct": false
+                },
+                {
+                  "text": "wilayah tidak perlu diurus",
+                  "correct": false
+                },
+                {
+                  "text": "hukum internasional tidak berlaku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mahkamah Internasional menilai bukti pengelolaan wilayah (effective occupation) yang nyata."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan sengketa Sipadan-Ligitan dan Ambalat terletak pada …",
+              "options": [
+                {
+                  "text": "Sipadan-Ligitan soal kepemilikan pulau, Ambalat soal batas laut dan hak eksplorasi",
+                  "correct": true
+                },
+                {
+                  "text": "keduanya sama persis",
+                  "correct": false
+                },
+                {
+                  "text": "Ambalat sudah selesai",
+                  "correct": false
+                },
+                {
+                  "text": "Sipadan-Ligitan tidak pernah diperkarakan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sipadan-Ligitan menyangkut kedaulatan pulau; Ambalat menyangkut batas landas kontinen dan blok laut."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang tepat ketika terjadi klaim wilayah oleh negara lain adalah …",
+              "options": [
+                {
+                  "text": "menempuh jalur diplomasi berlandaskan hukum internasional dan memperkuat data",
+                  "correct": true
+                },
+                {
+                  "text": "menyerahkan wilayah tersebut",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan klaim",
+                  "correct": false
+                },
+                {
+                  "text": "menggunakan kekerasan tanpa dasar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Diplomasi disertai bukti historis dan hukum adalah jalur yang sah dan efektif."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa nasionalisme perlu diimbangi sikap terbuka terhadap bangsa lain?",
+              "options": [
+                {
+                  "text": "agar tidak berkembang menjadi chauvinisme yang merusak kerja sama",
+                  "correct": true
+                },
+                {
+                  "text": "agar negara kehilangan kedaulatan",
+                  "correct": false
+                },
+                {
+                  "text": "agar budaya sendiri hilang",
+                  "correct": false
+                },
+                {
+                  "text": "agar tidak perlu menjaga wilayah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keterbukaan mencegah nasionalisme berlebihan yang merusak hubungan internasional."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk unsur pembentuk negara? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Wilayah",
+                  "correct": true
+                },
+                {
+                  "text": "Rakyat",
+                  "correct": true
+                },
+                {
+                  "text": "Pemerintahan",
+                  "correct": true
+                },
+                {
+                  "text": "Bendera",
+                  "correct": false
+                }
+              ],
+              "explanation": "Wilayah, rakyat, dan pemerintahan adalah unsur pembentuk negara. Bendera hanyalah simbol."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah analisis sengketa batas wilayah.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Mengumpulkan bukti historis dan dokumen perjanjian"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menganalisis dasar hukum internasional yang berlaku"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menentukan posisi dan argumen negara"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menempuh perundingan atau jalur hukum"
+                },
+                {
+                  "id": "s4",
+                  "text": "Menjaga wilayah secara nyata di lapangan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Analisis sengketa berjalan dari bukti menuju penyelesaian dan penjagaan wilayah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran peta resmi negara bagi kedaulatan adalah …",
+              "options": [
+                {
+                  "text": "menjadi rujukan hukum batas wilayah yang diakui",
+                  "correct": true
+                },
+                {
+                  "text": "hanya hiasan kantor",
+                  "correct": false
+                },
+                {
+                  "text": "bisa diubah siapa saja",
+                  "correct": false
+                },
+                {
+                  "text": "tidak berkaitan dengan kedaulatan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Peta resmi adalah dokumen hukum yang menegaskan batas wilayah negara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh sikap yang merusak keutuhan NKRI adalah …",
+              "options": [
+                {
+                  "text": "menyebarkan ujaran kebencian antar daerah",
+                  "correct": true
+                },
+                {
+                  "text": "membayar pajak",
+                  "correct": false
+                },
+                {
+                  "text": "mengikuti upacara bendera",
+                  "correct": false
+                },
+                {
+                  "text": "menghormati perbedaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ujaran kebencian antar daerah memecah persatuan dan mengancam keutuhan negara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa otonomi daerah tidak boleh ditafsirkan sebagai hak memisahkan diri?",
+              "options": [
+                {
+                  "text": "karena NKRI adalah negara kesatuan yang tidak dapat dibagi wilayahnya",
+                  "correct": true
+                },
+                {
+                  "text": "karena daerah tidak memiliki pemerintahan",
+                  "correct": false
+                },
+                {
+                  "text": "karena otonomi hanya berlaku di pusat",
+                  "correct": false
+                },
+                {
+                  "text": "karena daerah tidak membayar pajak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Otonomi adalah kewenangan mengatur urusan sendiri dalam bingkai negara kesatuan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai yang perlu ditanamkan agar warga negara menjadi warga yang baik adalah …",
+              "options": [
+                {
+                  "text": "tanggung jawab, kepedulian, dan ketaatan pada aturan",
+                  "correct": true
+                },
+                {
+                  "text": "menuntut hak tanpa kewajiban",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari urusan bersama",
+                  "correct": false
+                },
+                {
+                  "text": "mengutamakan kepentingan pribadi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Warga negara yang baik menjalankan hak dan kewajiban secara seimbang serta peduli pada kepentingan bersama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna kedaulatan wilayah bagi rakyat adalah …",
+              "options": [
+                {
+                  "text": "rakyat dapat mengelola sumber daya di wilayahnya aman dan sejahtera",
+                  "correct": true
+                },
+                {
+                  "text": "rakyat kehilangan hak",
+                  "correct": false
+                },
+                {
+                  "text": "wilayah menjadi milik asing",
+                  "correct": false
+                },
+                {
+                  "text": "hukum tidak berlaku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kedaulatan menjamin keamanan dan hak rakyat atas sumber daya wilayahnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara pelajar menunjukkan nasionalisme yang sehat adalah …",
+              "options": [
+                {
+                  "text": "berprestasi dan mengharumkan nama sekolah serta negara",
+                  "correct": true
+                },
+                {
+                  "text": "menolak semua hal dari luar negeri",
+                  "correct": false
+                },
+                {
+                  "text": "merendahkan budaya lain",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari kerja sama internasional",
+                  "correct": false
+                }
+              ],
+              "explanation": "Prestasi adalah wujud nasionalisme yang produktif dan terbuka."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kaitan antara Pancasila dan keutuhan NKRI adalah …",
+              "options": [
+                {
+                  "text": "nilai Pancasila menjadi perekat yang menjaga persatuan dalam keberagaman",
+                  "correct": true
+                },
+                {
+                  "text": "Pancasila memecah wilayah",
+                  "correct": false
+                },
+                {
+                  "text": "Pancasila hanya berlaku di pusat",
+                  "correct": false
+                },
+                {
+                  "text": "Pancasila menghapus otonomi daerah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai persatuan, keadilan, dan musyawarah dalam Pancasila menopang keutuhan negara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa pengelolaan wilayah yang nyata di lapangan penting bagi klaim kedaulatan?",
+              "options": [
+                {
+                  "text": "karena hukum internasional menilai bukti pengelolaan dan kehadiran negara secara efektif",
+                  "correct": true
+                },
+                {
+                  "text": "karena hanya simbol yang dinilai",
+                  "correct": false
+                },
+                {
+                  "text": "karena luas daratan yang dinilai",
+                  "correct": false
+                },
+                {
+                  "text": "karena jumlah penduduk satu-satunya bukti",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bukti pengelolaan nyata (effective occupation) menjadi pertimbangan penting dalam sengketa."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

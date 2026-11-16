@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pai",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PAI 6",
+      "title": "Menjauhi Pergaulan Bebas dan Perbuatan Zina",
+      "description": "Q.S. al-Isra’/17: 32 dan Q.S. an-Nur/24: 2 beserta hadis terkait, bahaya pergaulan bebas dan zina, serta upaya menjaga kehormatan diri.",
+      "learning_objectives": [
+        "Melalui metode reading aloud dan the power of two, peserta didik mampu membiasakan diri membaca dengan tartil Q.S. al-Isra’/17: 32, dan Q.S. an-Nur/24: 2, serta hadis terkait;",
+        "Melalui metode muraja’ah dan metode tasmi’, peserta didik mampu menghafalkan dengan fasih dan lancar Q.S. al-Isra’/17: 32, dan Q.S. an- Nur /24: 2, serta hadis terkait;",
+        "Melalui metode make a match, card sort dan information search, peserta didik mampu menganalisis Q.S. al-Isra’/17: 32, dan Q.S. an-Nur/24: 2, serta hadis tentang larangan pergaulan bebas dan perbuatan zina;",
+        "Melalui model pembelajaran berbasis proyek (project based learning), peserta didik mampu menyajikan paparan mengenai bahaya larangan pergaulan bebas dan perbuatan zina.",
+        "Melalui model discovery learning, peserta didik mampu meyakini bahwa pergaulan bebas dan zina merupakan larangan agama",
+        "Melalui model discovery learning, peserta didik mampu membiasakan sikap menghindari pergaulan bebas dan perbuatan zina dengan berhati-hati dan menjaga kehormatan diri"
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Buku Pendidikan Agama Islam dan Budi Pekerti Kelas X (Kemendikbudristek)",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Dalil dan Larangan Mendekati Zina",
+          "duration": 320,
+          "source_reference": "Bab 6",
+          "content": "## Q.S. al-Isra'/17: 32\n\n> \"Dan janganlah kamu mendekati zina; sesungguhnya zina itu adalah perbuatan yang keji dan jalan yang buruk.\"\n\n### Dua penekanan\n\n1. larangan **mendekati** zina, bukan hanya perbuatannya\n2. zina disebut **keji** dan **jalan yang buruk**\n\nKarena larangan mencakup **hal-hal yang mendekati**: menjaga pandangan, menjaga pergaulan, menghindari konten pornografi.\n\n## Q.S. an-Nur/24: 2\n\nMenetapkan hukuman **dera seratus kali** bagi pezina, disertai penegasan agar tidak ada rasa belas kasihan yang menghalangi pelaksanaan hukum Allah.\n\n### Istilah\n\n| Istilah | Makna |\n|---|---|\n| **muhsan** | sudah pernah menikah |\n| **ghayr muhsan** | belum pernah menikah |\n\n## Kunci pemahaman\n\nLarangan ditegakkan **bertahap**: mencegah dorongan dahulu, kemudian menetapkan hukum bagi pelanggaran."
+        },
+        {
+          "type": "text",
+          "title": "Bentuk dan Bahaya Pergaulan Bebas",
+          "duration": 320,
+          "source_reference": "Bab 6",
+          "content": "## Apa itu pergaulan bebas?\n\nPergaulan **tanpa batas** yang melanggar norma agama dan sosial.\n\n### Bentuknya\n\n- berduaan di tempat sepi\n- bercanda yang melampaui batas\n- menyebarkan foto atau data pribadi\n- mengikuti ajakan melanggar aturan\n- menikmati **konten pornografi**\n\n## Bahaya\n\n| Bidang | Dampak |\n|---|---|\n| **belajar** | waktu dan fokus berkurang, prestasi menurun |\n| **kesehatan** | risiko penyakit menular |\n| **sosial** | melemahkan ikatan keluarga |\n| **masa depan** | kehilangan kesempatan pendidikan dan karier |\n| **akhlak** | rusaknya cara pandang terhadap tubuh dan martabat |\n\n## Pergaulan sehat\n\nDitandai oleh **saling menghormati batas** dan membawa **manfaat**. Contohnya bekerja sama dalam tugas dengan menjaga etika."
+        },
+        {
+          "type": "text",
+          "title": "Menjaga Kehormatan Diri",
+          "duration": 280,
+          "source_reference": "Bab 6",
+          "content": "## Upaya pencegahan\n\n### Diri sendiri\n\n- menetapkan **prinsip dan batas** pergaulan\n- **memilih teman** yang baik\n- **memelihara pandangan**\n- menjaga **privasi** di media sosial\n\n### Keluarga\n\n- komunikasi **terbuka**\n- bimbingan agama\n- pengawasan **wajar**\n\n### Sekolah\n\n- pembinaan dan **bimbingan konseling**\n- kegiatan **ekstrakurikuler** positif\n- pengisian waktu dengan aktivitas produktif\n\n## Menghadapi tekanan teman\n\n1. Menyadari ajakan itu melanggar nilai\n2. Mengingat tujuan dan masa depan diri\n3. Menolak dengan **tegas dan santun**\n4. Mencari teman dan kegiatan positif\n5. Meminta **dukungan** orang tua atau guru\n\n## Jika sudah terlanjur salah\n\n**Taubat**: menyesali, **berhenti**, dan memperbaiki diri dengan amal saleh. Langkah perbaikan ditempuh melalui bimbingan guru atau keluarga."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Menjauhi Pergaulan Bebas dan Perbuatan Zina — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Larangan mendekati zina terdapat dalam Al-Qur'an surah …",
+              "options": [
+                {
+                  "text": "al-Isra' ayat 32",
+                  "correct": true
+                },
+                {
+                  "text": "al-Maidah ayat 48",
+                  "correct": false
+                },
+                {
+                  "text": "at-Taubah ayat 105",
+                  "correct": false
+                },
+                {
+                  "text": "an-Nas ayat 1",
+                  "correct": false
+                }
+              ],
+              "explanation": "Q.S. al-Isra'/17: 32 melarang mendekati zina karena perbuatan itu keji."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hukuman bagi pezina dalam Q.S. an-Nur/24: 2 adalah …",
+              "options": [
+                {
+                  "text": "didera seratus kali",
+                  "correct": true
+                },
+                {
+                  "text": "diasingkan",
+                  "correct": false
+                },
+                {
+                  "text": "diberi peringatan",
+                  "correct": false
+                },
+                {
+                  "text": "dikenakan denda",
+                  "correct": false
+                }
+              ],
+              "explanation": "Q.S. an-Nur/24: 2 menyebut hukuman dera seratus kali bagi pezina."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pergaulan bebas berarti …",
+              "options": [
+                {
+                  "text": "pergaulan tanpa batas yang melanggar norma agama dan sosial",
+                  "correct": true
+                },
+                {
+                  "text": "pergaulan dengan sopan",
+                  "correct": false
+                },
+                {
+                  "text": "pergaulan dalam keluarga",
+                  "correct": false
+                },
+                {
+                  "text": "pergaulan di sekolah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pergaulan bebas adalah pergaulan yang melampaui batas norma agama dan sosial."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara menjaga kehormatan diri dari pergaulan bebas adalah …",
+              "options": [
+                {
+                  "text": "menjaga batas pergaulan dan memilih teman yang baik",
+                  "correct": true
+                },
+                {
+                  "text": "bergaul tanpa aturan",
+                  "correct": false
+                },
+                {
+                  "text": "mengikuti ajakan yang melanggar",
+                  "correct": false
+                },
+                {
+                  "text": "meniru perilaku negatif",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menjaga batas pergaulan dan memilih teman baik adalah upaya menjaga kehormatan diri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Akibat pergaulan bebas bagi pelajar adalah …",
+              "options": [
+                {
+                  "text": "prestasi menurun dan kehilangan masa depan",
+                  "correct": true
+                },
+                {
+                  "text": "prestasi meningkat",
+                  "correct": false
+                },
+                {
+                  "text": "semakin disiplin",
+                  "correct": false
+                },
+                {
+                  "text": "semakin rajin belajar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pergaulan bebas merusak fokus belajar dan masa depan pelajar."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Menjauhi Pergaulan Bebas dan Perbuatan Zina — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Makna \"jangan mendekati zina\" mencakup …",
+              "options": [
+                {
+                  "text": "larangan pada perbuatan zina dan segala hal yang mendekatinya",
+                  "correct": true
+                },
+                {
+                  "text": "hanya perbuatan zina",
+                  "correct": false
+                },
+                {
+                  "text": "hanya ucapan",
+                  "correct": false
+                },
+                {
+                  "text": "hanya pandangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ayat melarang mendekati zina, sehingga semua perilaku yang mengarah ke sana juga dilarang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna \"zina adalah perbuatan keji\" adalah …",
+              "options": [
+                {
+                  "text": "perbuatan itu buruk dan merusak martabat manusia",
+                  "correct": true
+                },
+                {
+                  "text": "perbuatan itu ringan",
+                  "correct": false
+                },
+                {
+                  "text": "perbuatan itu dibolehkan",
+                  "correct": false
+                },
+                {
+                  "text": "perbuatan itu tidak berdosa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Al-Qur'an menyebut zina sebagai perbuatan keji dan jalan yang buruk."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara menghindari pergaulan bebas di sekolah adalah …",
+              "options": [
+                {
+                  "text": "mengikuti kegiatan positif dan menjaga etika pergaulan",
+                  "correct": true
+                },
+                {
+                  "text": "bergaul tanpa batas",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari semua teman",
+                  "correct": false
+                },
+                {
+                  "text": "mengikuti ajakan negatif",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kegiatan positif dan etika pergaulan menjauhkan pelajar dari pergaulan bebas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran keluarga dalam mencegah pergaulan bebas adalah …",
+              "options": [
+                {
+                  "text": "memberi perhatian, bimbingan, dan pengawasan yang wajar",
+                  "correct": true
+                },
+                {
+                  "text": "membiarkan sepenuhnya",
+                  "correct": false
+                },
+                {
+                  "text": "melarang semua kegiatan",
+                  "correct": false
+                },
+                {
+                  "text": "tidak berkomunikasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perhatian dan bimbingan keluarga menjadi benteng utama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pergaulan sehat ditandai oleh …",
+              "options": [
+                {
+                  "text": "saling menghormati batas dan membawa manfaat",
+                  "correct": true
+                },
+                {
+                  "text": "mengabaikan norma",
+                  "correct": false
+                },
+                {
+                  "text": "memaksakan kehendak",
+                  "correct": false
+                },
+                {
+                  "text": "saling menjerumuskan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pergaulan sehat menghormati batas norma dan memberi manfaat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahaya konten pornografi bagi remaja adalah …",
+              "options": [
+                {
+                  "text": "merusak cara pandang terhadap tubuh dan mendorong perilaku menyimpang",
+                  "correct": true
+                },
+                {
+                  "text": "menambah wawasan ilmiah",
+                  "correct": false
+                },
+                {
+                  "text": "meningkatkan prestasi",
+                  "correct": false
+                },
+                {
+                  "text": "memperbaiki akhlak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Konten pornografi merusak cara pandang dan mendorong perilaku menyimpang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah upaya menjaga diri dari pergaulan bebas? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Memilih teman yang baik",
+                  "correct": true
+                },
+                {
+                  "text": "Mengikuti kegiatan ekstrakurikuler positif",
+                  "correct": true
+                },
+                {
+                  "text": "Memasang batas privasi di media sosial",
+                  "correct": true
+                },
+                {
+                  "text": "Mengikuti ajakan melanggar aturan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teman baik, kegiatan positif, dan menjaga privasi digital membantu menjaga diri. Mengikuti ajakan melanggar aturan justru menjerumuskan."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Zina"
+                },
+                {
+                  "id": "o1",
+                  "text": "Pergaulan bebas"
+                },
+                {
+                  "id": "o2",
+                  "text": "Muhsan"
+                },
+                {
+                  "id": "o3",
+                  "text": "Ghayr muhsan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Hubungan badan di luar pernikahan",
+                  "o1": "Pergaulan tanpa batas norma",
+                  "o2": "Orang yang sudah pernah menikah",
+                  "o3": "Orang yang belum pernah menikah"
+                }
+              },
+              "explanation": "Istilah ini dipakai dalam pembahasan hukum dan pembinaan akhlak."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menjaga diri dari pergaulan bebas.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Menetapkan prinsip dan batas pergaulan"
+                },
+                {
+                  "id": "o1",
+                  "text": "Memilih teman yang baik"
+                },
+                {
+                  "id": "o2",
+                  "text": "Mengisi waktu dengan kegiatan positif"
+                },
+                {
+                  "id": "o3",
+                  "text": "Menjaga privasi di media sosial"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Menjaga diri dimulai dari prinsip, lingkungan, aktivitas, dan ruang digital."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran sekolah dalam mencegah pergaulan bebas adalah …",
+              "options": [
+                {
+                  "text": "menyediakan pembinaan, kegiatan positif, dan bimbingan konseling",
+                  "correct": true
+                },
+                {
+                  "text": "membiarkan siswa tanpa aturan",
+                  "correct": false
+                },
+                {
+                  "text": "melarang semua pergaulan",
+                  "correct": false
+                },
+                {
+                  "text": "menutup kegiatan ekstrakurikuler",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sekolah berperan melalui pembinaan, kegiatan positif, dan layanan bimbingan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Menjauhi Pergaulan Bebas dan Perbuatan Zina — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa Al-Qur'an melarang \"mendekati\" zina dan bukan hanya perbuatannya?",
+              "options": [
+                {
+                  "text": "karena hal-hal yang mendekati zina menjadi pintu menuju perbuatan itu",
+                  "correct": true
+                },
+                {
+                  "text": "karena zina tidak berbahaya",
+                  "correct": false
+                },
+                {
+                  "text": "karena perbuatan kecil tidak berdampak",
+                  "correct": false
+                },
+                {
+                  "text": "karena manusia tidak punya pilihan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pencegahan dilakukan pada tahap awal agar tidak sampai pada perbuatan terlarang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak sosial pergaulan bebas bagi masyarakat adalah …",
+              "options": [
+                {
+                  "text": "melemahkan ikatan keluarga dan menimbulkan masalah kesehatan serta sosial",
+                  "correct": true
+                },
+                {
+                  "text": "memperkuat keluarga",
+                  "correct": false
+                },
+                {
+                  "text": "menambah ilmu",
+                  "correct": false
+                },
+                {
+                  "text": "meningkatkan produktivitas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pergaulan bebas berisiko menimbulkan masalah kesehatan, sosial, dan keutuhan keluarga."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara membangun ketahanan diri menghadapi tekanan teman (peer pressure) adalah …",
+              "options": [
+                {
+                  "text": "memegang prinsip dan berlatih berkata tidak dengan tegas",
+                  "correct": true
+                },
+                {
+                  "text": "selalu mengikuti keinginan teman",
+                  "correct": false
+                },
+                {
+                  "text": "menjauhi semua orang",
+                  "correct": false
+                },
+                {
+                  "text": "menyembunyikan masalah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketahanan diri dibangun dengan prinsip yang jelas dan keberanian menolak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan menjaga pandangan dengan menjaga kehormatan adalah …",
+              "options": [
+                {
+                  "text": "menjaga pandangan membantu mengendalikan dorongan sehingga kehormatan terjaga",
+                  "correct": true
+                },
+                {
+                  "text": "tidak ada hubungan",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga pandangan mengurangi ilmu",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga pandangan hanya untuk orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kontrol terhadap pandangan adalah langkah awal pengendalian diri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa media sosial berperan besar dalam risiko pergaulan bebas remaja?",
+              "options": [
+                {
+                  "text": "karena komunikasi tanpa batas memudahkan kontak dengan orang tak dikenal",
+                  "correct": true
+                },
+                {
+                  "text": "karena media sosial selalu aman",
+                  "correct": false
+                },
+                {
+                  "text": "karena media sosial dilarang agama",
+                  "correct": false
+                },
+                {
+                  "text": "karena media sosial tidak berpengaruh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ruang digital membuka kontak luas sehingga perlu batas dan literasi yang baik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tindakan preventif yang tepat bagi keluarga? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Membangun komunikasi terbuka dengan anak",
+                  "correct": true
+                },
+                {
+                  "text": "Memberi bimbingan agama",
+                  "correct": true
+                },
+                {
+                  "text": "Mengawasi penggunaan gawai secara wajar",
+                  "correct": true
+                },
+                {
+                  "text": "Membiarkan anak tanpa bimbingan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Komunikasi, bimbingan agama, dan pengawasan wajar adalah tindakan preventif. Membiarkan tanpa bimbingan justru berisiko."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menghadapi tekanan teman agar tidak terbawa pergaulan bebas.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Menyadari bahwa ajakan itu melanggar nilai"
+                },
+                {
+                  "id": "s1",
+                  "text": "Mengingat tujuan dan masa depan diri"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menolak dengan tegas dan santun"
+                },
+                {
+                  "id": "s3",
+                  "text": "Mencari teman dan kegiatan yang positif"
+                },
+                {
+                  "id": "s4",
+                  "text": "Meminta dukungan orang tua atau guru"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Menolak tekanan teman berjalan dari kesadaran diri sampai dukungan lingkungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna taubat dalam konteks kesalahan pergaulan adalah …",
+              "options": [
+                {
+                  "text": "menyesali, berhenti, dan memperbaiki diri dengan amal saleh",
+                  "correct": true
+                },
+                {
+                  "text": "mengulangi kesalahan",
+                  "correct": false
+                },
+                {
+                  "text": "menyembunyikan kesalahan",
+                  "correct": false
+                },
+                {
+                  "text": "menyalahkan orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Taubat menuntut penyesalan, penghentian, dan perbaikan melalui amal saleh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa pendidikan akhlak sejak dini penting?",
+              "options": [
+                {
+                  "text": "karena kebiasaan baik yang terbentuk awal lebih kuat menahan pengaruh negatif",
+                  "correct": true
+                },
+                {
+                  "text": "karena anak tidak perlu aturan",
+                  "correct": false
+                },
+                {
+                  "text": "karena akhlak tidak dapat diajarkan",
+                  "correct": false
+                },
+                {
+                  "text": "karena sekolah tidak berperan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kebiasaan awal membentuk karakter yang lebih tahan terhadap pengaruh buruk."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk pergaulan sehat antarlawan jenis di sekolah adalah …",
+              "options": [
+                {
+                  "text": "bekerja sama dalam tugas dengan menjaga etika",
+                  "correct": true
+                },
+                {
+                  "text": "berduaan di tempat sepi",
+                  "correct": false
+                },
+                {
+                  "text": "bercanda yang melampaui batas",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan foto pribadi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pergaulan sehat terjaga ketika kerja sama dijalankan dengan etika."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kaitan pergaulan bebas dengan prestasi belajar adalah …",
+              "options": [
+                {
+                  "text": "waktu dan fokus belajar berkurang sehingga prestasi menurun",
+                  "correct": true
+                },
+                {
+                  "text": "prestasi otomatis naik",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada kaitan",
+                  "correct": false
+                },
+                {
+                  "text": "pergaulan bebas menambah semangat belajar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perhatian yang teralih mengurangi waktu dan fokus belajar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa kontrol diri disebut kunci utama menjauhi zina?",
+              "options": [
+                {
+                  "text": "karena zina lahir dari dorongan yang tidak dikendalikan",
+                  "correct": true
+                },
+                {
+                  "text": "karena kontrol diri tidak perlu latihan",
+                  "correct": false
+                },
+                {
+                  "text": "karena zina tidak dapat dicegah",
+                  "correct": false
+                },
+                {
+                  "text": "karena orang lain yang menentukan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengendalian dorongan mencegah perilaku terlarang sejak awal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran kegiatan ekstrakurikuler dalam pencegahan pergaulan bebas adalah …",
+              "options": [
+                {
+                  "text": "mengisi waktu dengan aktivitas produktif dan membangun pertemanan sehat",
+                  "correct": true
+                },
+                {
+                  "text": "menambah waktu luang tanpa arah",
+                  "correct": false
+                },
+                {
+                  "text": "mengurangi bimbingan guru",
+                  "correct": false
+                },
+                {
+                  "text": "menjauhkan siswa dari sekolah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kegiatan positif mengisi waktu dan membentuk lingkaran pertemanan sehat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang tepat bagi pelajar yang sudah terlanjur salah adalah …",
+              "options": [
+                {
+                  "text": "berhenti, menyesali, dan meminta bimbingan guru atau keluarga",
+                  "correct": true
+                },
+                {
+                  "text": "menyembunyikan dan melanjutkan",
+                  "correct": false
+                },
+                {
+                  "text": "menyalahkan teman",
+                  "correct": false
+                },
+                {
+                  "text": "menjauhi semua orang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jalan perbaikan ditempuh dengan taubat dan pendampingan yang tepat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pesan utama Q.S. an-Nur/24: 2 tentang zina adalah …",
+              "options": [
+                {
+                  "text": "zina adalah perbuatan terlarang yang hukumannya tegas",
+                  "correct": true
+                },
+                {
+                  "text": "zina boleh dilakukan",
+                  "correct": false
+                },
+                {
+                  "text": "zina tidak diatur",
+                  "correct": false
+                },
+                {
+                  "text": "zina hanya soal adat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ayat menetapkan larangan dan hukuman tegas bagi pezina."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

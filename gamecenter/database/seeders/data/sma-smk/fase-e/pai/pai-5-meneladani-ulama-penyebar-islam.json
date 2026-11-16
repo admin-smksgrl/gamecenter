@@ -1,0 +1,786 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pai",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PAI 5",
+      "title": "Meneladani Peran Ulama Penyebar Ajaran Islam di Indonesia",
+      "description": "Sejarah masuknya agama Islam dan perkembangan kesultanan di Indonesia, peran tokoh ulama penyebar ajaran Islam, serta keteladanannya dalam menjaga persatuan dan menghargai perbedaan.",
+      "learning_objectives": [
+        "Melalui model pembelajaran active debate (debat aktif), peserta didik dapat menganalisis sejarah masuknya agama Islam di Indonesia dan perkembangan kesultanan di Indonesia.",
+        "Melalui model pembelajaran index card macth, peserta didik dapat menganalisis tokoh penyebar ajaran Islam di Indonesia, dan meyakini bahwa perkembangan peradaban Islam di Indonesia merupakan kehendak Allah Swt. sehingga termotivasi untuk meneladani kesederhanaan dan semangat menuntut ilmu dari para ulama.",
+        "Melalui model pembelajaran berbasis produk, peserta didik dapat membuat dan bagan timeline sejarah tokoh ulama penyebar Islam di Indonesia"
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Buku Pendidikan Agama Islam dan Budi Pekerti Kelas X (Kemendikbudristek)",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Jalur Masuknya Islam dan Kerajaan Islam Indonesia",
+          "duration": 320,
+          "source_reference": "Bab 5",
+          "content": "## Jalur masuknya Islam\n\n1. **Perdagangan** — pedagang muslim dari Arab, Persia, dan Gujarat\n2. **Perkawinan** — pedagang menikah dengan penduduk setempat\n3. **Pendidikan** — pesantren dan pengajaran agama\n4. **Tasawuf** — pendekatan spiritual yang mudah diterima\n5. **Kesenian** — wayang, gamelan, sastra\n\n## Kesultanan besar\n\n| Kesultanan | Wilayah |\n|---|---|\n| **Samudra Pasai** | Aceh — kerajaan Islam **pertama** |\n| **Demak** | Jawa Tengah — kerajaan Islam besar pertama di Jawa |\n| **Cirebon dan Banten** | Jawa Barat |\n| **Mataram Islam** | Jawa Tengah bagian selatan |\n| **Aceh Darussalam** | Aceh |\n| **Gowa-Tallo** | Sulawesi Selatan |\n| **Ternate dan Tidore** | Maluku |\n\n## Mengapa Islam mudah diterima?\n\n- disebarkan **secara damai**\n- **akomodatif** terhadap budaya yang tidak bertentangan dengan syariat\n- tidak menghapus bahasa dan tradisi setempat"
+        },
+        {
+          "type": "text",
+          "title": "Tokoh Ulama Penyebar Islam",
+          "duration": 320,
+          "source_reference": "Bab 5",
+          "content": "## Ulama Nusantara\n\n| Tokoh | Daerah | Peran |\n|---|---|---|\n| **Hamzah Fansuri** | Aceh | ulama sufi, penulis tasawuf |\n| **Abdurrauf as-Singkili** | Aceh | mufasir Al-Qur'an, pembimbing masyarakat |\n| **Syekh Yusuf** | Gowa | ulama dan pejuang |\n| **Sultan Agung** | Mataram | memadukan Islam dan budaya Jawa dalam dakwah |\n| **Buya Hamka** | Sumatra Barat | ulama dan penulis |\n| **Kiai** | jawa dan madura | panutan dan pembimbing keagamaan masyarakat |\n\n## Peran lembaga\n\n**Pesantren** menjadi pusat pendidikan yang:\n\n- mendidik **santri**\n- melahirkan dai dan ulama\n- menjadi penggerak perubahan sosial\n\n**Jaringan ulama** antarwilayah memungkinkan pertukaran ilmu dan memperkuat pendidikan Islam."
+        },
+        {
+          "type": "text",
+          "title": "Keteladanan Ulama dalam Bermasyarakat",
+          "duration": 280,
+          "source_reference": "Bab 5",
+          "content": "## Tiga keteladanan utama\n\n1. **Dakwah damai** — santun, tidak memaksa\n2. **Menghargai perbedaan** — menjaga persatuan\n3. **Menghargai budaya** — mengakomodasi budaya yang tidak bertentangan dengan syariat\n\n## Akomodasi budaya\n\n**Sunan Kalijaga** berdakwah melalui **wayang dan gamelan**. Media yang akrab membuat pesan mudah dipahami dan diingat.\n\nPrinsipnya: **memilih budaya yang bermanfaat** dan tidak menabrak nilai agama — bukan menerima semuanya dan bukan menolak semuanya.\n\n## Meneladani di sekolah\n\n- menyebarkan kebaikan dengan **santun**\n- menghargai teman yang berbeda keyakinan\n- mengharumkan nama sekolah melalui **prestasi** dan **akhlak**\n\n## Pelajaran\n\nUlama menggabungkan **ilmu, keteladanan, dan keberanian membela kebenaran** — contoh Syekh Yusuf."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Meneladani Peran Ulama Penyebar Ajaran Islam di Indonesia — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kerajaan Islam pertama di Indonesia adalah …",
+              "options": [
+                {
+                  "text": "Samudra Pasai",
+                  "correct": true
+                },
+                {
+                  "text": "Majapahit",
+                  "correct": false
+                },
+                {
+                  "text": "Sriwijaya",
+                  "correct": false
+                },
+                {
+                  "text": "Kutai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Samudra Pasai di Aceh merupakan kerajaan Islam pertama di Indonesia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu jalur masuknya Islam ke Indonesia adalah …",
+              "options": [
+                {
+                  "text": "perdagangan",
+                  "correct": true
+                },
+                {
+                  "text": "penjajahan",
+                  "correct": false
+                },
+                {
+                  "text": "perang besar",
+                  "correct": false
+                },
+                {
+                  "text": "migrasi paksa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Islam menyebar terutama melalui jalur perdagangan, disusul perkawinan, pendidikan, tasawuf, dan kesenian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Wali yang menyebarkan Islam melalui wayang adalah …",
+              "options": [
+                {
+                  "text": "Sunan Kalijaga",
+                  "correct": true
+                },
+                {
+                  "text": "Sunan Ampel",
+                  "correct": false
+                },
+                {
+                  "text": "Sunan Bonang",
+                  "correct": false
+                },
+                {
+                  "text": "Sunan Gresik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Kalijaga berdakwah melalui media wayang dan gamelan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sunan Gresik dikenal juga dengan nama …",
+              "options": [
+                {
+                  "text": "Maulana Malik Ibrahim",
+                  "correct": true
+                },
+                {
+                  "text": "Raden Rahmat",
+                  "correct": false
+                },
+                {
+                  "text": "Raden Paku",
+                  "correct": false
+                },
+                {
+                  "text": "Raden Said",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Gresik adalah sebutan Maulana Malik Ibrahim."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kerajaan Islam yang berdiri di Makassar adalah …",
+              "options": [
+                {
+                  "text": "Gowa-Tallo",
+                  "correct": true
+                },
+                {
+                  "text": "Demak",
+                  "correct": false
+                },
+                {
+                  "text": "Mataram Islam",
+                  "correct": false
+                },
+                {
+                  "text": "Banten",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kerajaan Gowa-Tallo merupakan kerajaan Islam besar di Sulawesi Selatan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Meneladani Peran Ulama Penyebar Ajaran Islam di Indonesia — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Peran pesantren dalam penyebaran Islam di Indonesia adalah …",
+              "options": [
+                {
+                  "text": "mendidik santri dan menyebarkan ilmu agama ke masyarakat",
+                  "correct": true
+                },
+                {
+                  "text": "menghapus bahasa daerah",
+                  "correct": false
+                },
+                {
+                  "text": "mengurangi kegiatan dakwah",
+                  "correct": false
+                },
+                {
+                  "text": "menolak perdagangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pesantren menjadi pusat pendidikan Islam yang melahirkan dai dan ulama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tokoh ulama dari Aceh yang dikenal sebagai penulis tasawuf adalah …",
+              "options": [
+                {
+                  "text": "Hamzah Fansuri",
+                  "correct": true
+                },
+                {
+                  "text": "Sunan Kudus",
+                  "correct": false
+                },
+                {
+                  "text": "Sunan Muria",
+                  "correct": false
+                },
+                {
+                  "text": "Buya Hamka",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hamzah Fansuri dikenal sebagai ulama sufi dan penulis tasawuf dari Aceh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran Sultan Agung dalam penyebaran Islam di Jawa adalah …",
+              "options": [
+                {
+                  "text": "memadukan unsur Islam dan budaya Jawa dalam dakwah",
+                  "correct": true
+                },
+                {
+                  "text": "melarang dakwah",
+                  "correct": false
+                },
+                {
+                  "text": "menutup pesantren",
+                  "correct": false
+                },
+                {
+                  "text": "mengusir ulama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sultan Agung mengembangkan tradisi yang memadukan Islam dengan budaya Jawa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap ulama penyebar Islam terhadap budaya lokal pada umumnya adalah …",
+              "options": [
+                {
+                  "text": "mengakomodasi budaya yang tidak bertentangan dengan syariat",
+                  "correct": true
+                },
+                {
+                  "text": "menolak seluruh budaya lokal",
+                  "correct": false
+                },
+                {
+                  "text": "menerima semua tanpa seleksi",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus bahasa daerah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ulama berdakwah secara akomodatif, menjaga budaya yang tidak bertentangan dengan syariat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bukti Islam berkembang melalui jalur perkawinan adalah …",
+              "options": [
+                {
+                  "text": "pedagang muslim menikah dengan penduduk setempat lalu membentuk keluarga muslim",
+                  "correct": true
+                },
+                {
+                  "text": "pasangan dipaksa memeluk Islam",
+                  "correct": false
+                },
+                {
+                  "text": "perkawinan dilarang",
+                  "correct": false
+                },
+                {
+                  "text": "pindah agama tanpa keluarga",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perkawinan membentuk keluarga dan komunitas muslim di wilayah perdagangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kerajaan Demak berperan penting karena …",
+              "options": [
+                {
+                  "text": "menjadi pusat kekuasaan Islam pertama yang besar di Jawa",
+                  "correct": true
+                },
+                {
+                  "text": "berada di Sumatra",
+                  "correct": false
+                },
+                {
+                  "text": "didirikan setelah abad ke-19",
+                  "correct": false
+                },
+                {
+                  "text": "tidak berkaitan dengan Wali Songo",
+                  "correct": false
+                }
+              ],
+              "explanation": "Demak adalah kerajaan Islam pertama yang besar di Jawa yang melibatkan Wali Songo."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk jalur masuknya Islam ke Indonesia? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Perdagangan",
+                  "correct": true
+                },
+                {
+                  "text": "Perkawinan",
+                  "correct": true
+                },
+                {
+                  "text": "Tasawuf",
+                  "correct": true
+                },
+                {
+                  "text": "Perluasan kekuasaan asing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perdagangan, perkawinan, dan tasawuf adalah jalur masuknya Islam. Penyebaran utamanya damai, bukan melalui kekuasaan asing."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan ulama dengan daerah atau perannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Hamzah Fansuri"
+                },
+                {
+                  "id": "o1",
+                  "text": "Syekh Yusuf"
+                },
+                {
+                  "id": "o2",
+                  "text": "Abdurrauf as-Singkili"
+                },
+                {
+                  "id": "o3",
+                  "text": "Buya Hamka"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Aceh — ulama tasawuf",
+                  "o1": "Sulawesi Selatan — pejuang dan ulama",
+                  "o2": "Aceh — mufasir",
+                  "o3": "Sumatra Barat — ulama dan penulis"
+                }
+              },
+              "explanation": "Setiap ulama berperan di daerahnya masing-masing."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan jalur penyebaran Islam dari yang paling awal.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Pedagang muslim datang"
+                },
+                {
+                  "id": "o1",
+                  "text": "Perkawinan dengan penduduk"
+                },
+                {
+                  "id": "o2",
+                  "text": "Pembentukan komunitas muslim"
+                },
+                {
+                  "id": "o3",
+                  "text": "Pendidikan dan pesantren"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Penyebaran dimulai dari perdagangan dan keluarga, lalu menguat melalui pendidikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran kiai dalam masyarakat tradisional adalah …",
+              "options": [
+                {
+                  "text": "menjadi panutan dan pembimbing keagamaan masyarakat",
+                  "correct": true
+                },
+                {
+                  "text": "menjadi penguasa politik",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari masyarakat",
+                  "correct": false
+                },
+                {
+                  "text": "menjadi pedagang saja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kiai berperan sebagai pembimbing keagamaan dan panutan masyarakat."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Meneladani Peran Ulama Penyebar Ajaran Islam di Indonesia — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa Islam dapat diterima luas oleh masyarakat Nusantara?",
+              "options": [
+                {
+                  "text": "karena disebarkan secara damai dan tidak bertentangan dengan banyak tradisi lokal",
+                  "correct": true
+                },
+                {
+                  "text": "karena dibawa dengan perang",
+                  "correct": false
+                },
+                {
+                  "text": "karena dipaksakan penguasa asing",
+                  "correct": false
+                },
+                {
+                  "text": "karena melarang budaya lokal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penyebaran damai dan akomodatif terhadap budaya yang tidak bertentangan dengan syariat mempermudah penerimaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Strategi dakwah agar diterima masyarakat ditunjukkan oleh Sunan Kalijaga melalui …",
+              "options": [
+                {
+                  "text": "menggunakan wayang dan gamelan sebagai media dakwah",
+                  "correct": true
+                },
+                {
+                  "text": "melarang pertunjukan rakyat",
+                  "correct": false
+                },
+                {
+                  "text": "menulis hanya dalam bahasa Arab",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari masyarakat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Kalijaga memakai media yang akrab dengan masyarakat sehingga dakwah mudah dipahami."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pelajaran dari akomodasi budaya dalam dakwah adalah …",
+              "options": [
+                {
+                  "text": "budaya yang tidak bertentangan dengan syariat dapat menjadi sarana dakwah",
+                  "correct": true
+                },
+                {
+                  "text": "seluruh budaya harus dihapus",
+                  "correct": false
+                },
+                {
+                  "text": "budaya lokal haram semua",
+                  "correct": false
+                },
+                {
+                  "text": "dakwah harus memakai bahasa asing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Akomodasi budaya yang selektif menjadikan dakwah diterima tanpa melanggar syariat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa peran ulama dipadukan dengan kekuasaan kesultanan berpengaruh besar?",
+              "options": [
+                {
+                  "text": "karena kebijakan Islam dapat diterapkan dalam masyarakat yang lebih luas",
+                  "correct": true
+                },
+                {
+                  "text": "karena ulama lebih berkuasa",
+                  "correct": false
+                },
+                {
+                  "text": "karena kesultanan tidak berperan",
+                  "correct": false
+                },
+                {
+                  "text": "karena masyarakat menolak ulama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dukungan kesultanan memungkinkan hukum dan lembaga Islam berkembang lebih luas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan pesantren dan masyarakat sekitar adalah …",
+              "options": [
+                {
+                  "text": "pesantren menjadi pusat pendidikan sekaligus penggerak perubahan sosial",
+                  "correct": true
+                },
+                {
+                  "text": "pesantren mengisolasi diri",
+                  "correct": false
+                },
+                {
+                  "text": "pesantren melarang kerja sosial",
+                  "correct": false
+                },
+                {
+                  "text": "pesantren tidak berhubungan dengan masyarakat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pesantren melahirkan santri yang berperan di masyarakat, termasuk dalam pendidikan dan sosial."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tokoh ulama Nusantara dan perannya yang benar? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Hamzah Fansuri — ulama tasawuf Aceh",
+                  "correct": true
+                },
+                {
+                  "text": "Syekh Yusuf — ulama dan pejuang dari Gowa",
+                  "correct": true
+                },
+                {
+                  "text": "Buya Hamka — ulama dan penulis",
+                  "correct": true
+                },
+                {
+                  "text": "Sunan Bonang — raja Majapahit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hamzah Fansuri, Syekh Yusuf, dan Buya Hamka ulama. Sunan Bonang adalah wali penyebar Islam, bukan raja Majapahit."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun kronologi singkat masuknya Islam ke Nusantara.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Pedagang muslim dari Arab, Persia, dan Gujarat datang"
+                },
+                {
+                  "id": "s1",
+                  "text": "Terbentuk komunitas muslim di pelabuhan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Berdiri kerajaan Islam pertama Samudra Pasai"
+                },
+                {
+                  "id": "s3",
+                  "text": "Perkembangan kesultanan Islam di Jawa, Sulawesi, dan Maluku"
+                },
+                {
+                  "id": "s4",
+                  "text": "Melahirkan jaringan ulama dan pesantren"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Urutan ini menunjukkan proses bertahap dari pedagang sampai lembaga pendidikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran Sunan Gresik sebagai wali pertama di Jawa adalah …",
+              "options": [
+                {
+                  "text": "membuka jalan dakwah dan mendirikan pesantren awal di Gresik",
+                  "correct": true
+                },
+                {
+                  "text": "membangun Majapahit",
+                  "correct": false
+                },
+                {
+                  "text": "menjadi sultan Demak",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan Islam di Ambon",
+                  "correct": false
+                }
+              ],
+              "explanation": "Maulana Malik Ibrahim membuka jalan dakwah di Gresik dengan pendekatan pendidikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara meneladani ulama penyebar Islam di sekolah adalah …",
+              "options": [
+                {
+                  "text": "menyebarkan kebaikan dengan santun dan menghargai perbedaan",
+                  "correct": true
+                },
+                {
+                  "text": "memaksa teman berpindah keyakinan",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan ujaran kebencian",
+                  "correct": false
+                },
+                {
+                  "text": "menjauhi pergaulan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teladan ulama adalah dakwah santun dan menghargai perbedaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa jaringan ulama antarwilayah penting bagi perkembangan Islam?",
+              "options": [
+                {
+                  "text": "karena memungkinkan pertukaran ilmu dan penguatan jaringan pendidikan",
+                  "correct": true
+                },
+                {
+                  "text": "karena mengurangi jumlah ulama",
+                  "correct": false
+                },
+                {
+                  "text": "karena menghambat dakwah",
+                  "correct": false
+                },
+                {
+                  "text": "karena melarang perdagangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jaringan ulama memungkinkan ilmu berpindah antar wilayah dan memperkuat pendidikan Islam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran Abdurrauf as-Singkili bagi masyarakat Aceh adalah …",
+              "options": [
+                {
+                  "text": "menafsirkan Al-Qur'an dan membimbing masyarakat dengan ilmu",
+                  "correct": true
+                },
+                {
+                  "text": "membangun kerajaan baru",
+                  "correct": false
+                },
+                {
+                  "text": "melarang tasawuf",
+                  "correct": false
+                },
+                {
+                  "text": "menutup pesantren",
+                  "correct": false
+                }
+              ],
+              "explanation": "Abdurrauf as-Singkili dikenal sebagai mufasir Aceh yang membimbing masyarakat lewat ilmu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa dakwah melalui kesenian efektif?",
+              "options": [
+                {
+                  "text": "karena masyarakat menerima pesan lewat bentuk yang akrab dan mudah diingat",
+                  "correct": true
+                },
+                {
+                  "text": "karena kesenian dilarang",
+                  "correct": false
+                },
+                {
+                  "text": "karena kesenian menggantikan ibadah",
+                  "correct": false
+                },
+                {
+                  "text": "karena kesenian tidak perlu pesan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kesenian membuat pesan dakwah tersampaikan secara akrab dan mudah diingat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pelajaran dari Syekh Yusuf bagi warga negara adalah …",
+              "options": [
+                {
+                  "text": "menggabungkan ilmu, keteladanan, dan keberanian membela kebenaran",
+                  "correct": true
+                },
+                {
+                  "text": "meninggalkan ilmu",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari masyarakat",
+                  "correct": false
+                },
+                {
+                  "text": "menolak penguasa secara buta",
+                  "correct": false
+                }
+              ],
+              "explanation": "Syekh Yusuf menunjukkan gabungan ulama, pejuang, dan teladan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk dakwah yang sesuai nilai Pancasila adalah …",
+              "options": [
+                {
+                  "text": "menyampaikan dakwah damai tanpa memaksa",
+                  "correct": true
+                },
+                {
+                  "text": "memaksa orang memeluk agama tertentu",
+                  "correct": false
+                },
+                {
+                  "text": "melarang ibadah orang lain",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan kebencian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dakwah damai tanpa paksaan sesuai nilai ketuhanan dan kemanusiaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pelajaran dari akomodasi budaya bagi pelajar adalah …",
+              "options": [
+                {
+                  "text": "memilih budaya yang bermanfaat dan tidak menabrak nilai agama",
+                  "correct": true
+                },
+                {
+                  "text": "menerima semua budaya",
+                  "correct": false
+                },
+                {
+                  "text": "menolak semua budaya",
+                  "correct": false
+                },
+                {
+                  "text": "meninggalkan budaya daerah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sikap selektif dan arif dalam berbudaya adalah teladan ulama."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

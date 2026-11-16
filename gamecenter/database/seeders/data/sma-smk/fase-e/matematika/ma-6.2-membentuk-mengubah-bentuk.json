@@ -1,0 +1,792 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "matematika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "MA 6.2",
+      "title": "Membentuk dan Mengubah Bentuk Fungsi Kuadrat",
+      "description": "Menyusun fungsi kuadrat dari akar, titik puncak, atau tiga titik, serta mengubah bentuk umum menjadi bentuk puncak.",
+      "learning_objectives": [
+        "Membentuk fungsi kuadrat dari informasi yang diketahui dan mengubah bentuk umum ke bentuk puncak."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar MA 6.2 Membentuk dan Mengubah Bentuk Fungsi Kuadrat",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Tiga Wajah Fungsi Kuadrat",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 6.2 — Kompetensi Awal",
+          "content": "## Satu fungsi, tiga bentuk\n\nFungsi kuadrat yang sama dapat ditulis dengan tiga cara. Masing-masing memperlihatkan informasi yang berbeda.\n\n| Bentuk | Rumus | Langsung terlihat |\n|---|---|---|\n| **Umum** | f(x) = ax² + bx + c | titik potong sumbu-y, yaitu (0, c) |\n| **Puncak** | f(x) = a(x − p)² + q | titik puncak (p, q) |\n| **Faktor** | f(x) = a(x − x₁)(x − x₂) | titik potong sumbu-x, yaitu x₁ dan x₂ |\n\nContoh untuk f(x) = x² − 4x + 3:\n\n- Umum: x² − 4x + 3 → memotong sumbu-y di (0, 3)\n- Puncak: (x − 2)² − 1 → puncak (2, −1)\n- Faktor: (x − 1)(x − 3) → memotong sumbu-x di 1 dan 3\n\nKetiganya **fungsi yang sama** — hanya sudut pandangnya berbeda. Nilai **a** selalu sama pada ketiga bentuk."
+        },
+        {
+          "type": "text",
+          "title": "Melengkapi Kuadrat Sempurna",
+          "duration": 360,
+          "source_reference": "Modul Ajar MA 6.2 — Tujuan Pembelajaran",
+          "content": "## Dari bentuk umum ke bentuk puncak\n\n**Langkah 1.** Faktorkan a dari dua suku pertama:\nf(x) = a(x² + (b/a)x) + c\n\n**Langkah 2.** Ambil **setengah** koefisien x, lalu kuadratkan.\n\n**Langkah 3.** Tambahkan dan kurangkan bilangan itu di dalam kurung.\n\n**Langkah 4.** Sederhanakan.\n\n### Contoh tanpa a\n\nf(x) = x² − 10x + 18\n- Setengah dari −10 adalah −5, kuadratnya 25\n- x² − 10x = (x − 5)² − 25\n- f(x) = (x − 5)² − 25 + 18 = **(x − 5)² − 7**\n\n### Contoh dengan a\n\nf(x) = 2x² + 8x + 11\n- 2(x² + 4x) + 11\n- Setengah dari 4 adalah 2, kuadratnya 4\n- 2[(x + 2)² − 4] + 11 = 2(x + 2)² − 8 + 11 = **2(x + 2)² + 3**\n\n### Rumus pintas\n\n> p = −b/(2a) dan q = c − b²/(4a)\n\nHasil ini bisa dipakai untuk memeriksa jawabanmu."
+        },
+        {
+          "type": "interactive",
+          "title": "Membentuk Fungsi dari Data",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 6.2 — Tujuan Pembelajaran",
+          "content": "## Tiga situasi pembentukan fungsi\n\n**1. Diketahui akar-akarnya**\nGunakan bentuk faktor: f(x) = a(x − x₁)(x − x₂).\nAkar 2 dan 5 dengan a = 1 → f(x) = (x − 2)(x − 5) = x² − 7x + 10.\n\n**2. Diketahui titik puncaknya**\nGunakan bentuk puncak: f(x) = a(x − p)² + q.\nPuncak (1, 2) melalui (0, 5): f(x) = a(x − 1)² + 2 dan a + 2 = 5 → a = 3.\n\n**3. Diketahui tiga titik sembarang**\nGunakan bentuk umum dan selesaikan sistem tiga persamaan. Karena c langsung terbaca dari titik dengan x = 0, mulailah dari titik itu.\n\n### Latihan\n\nTentukan fungsi kuadrat yang memotong sumbu-x di −3 dan 1 serta melalui (0, −3).\n\n<details>\n<summary>Lihat jawaban</summary>\n\nf(x) = a(x + 3)(x − 1). Substitusi (0, −3): a(3)(−1) = −3 → −3a = −3 → a = 1.\nMaka f(x) = (x + 3)(x − 1) = **x² + 2x − 3**.\n\n</details>"
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Membentuk & Mengubah Bentuk — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk puncak dari f(x) = x² − 6x + 5 adalah …",
+              "options": [
+                {
+                  "text": "(x − 3)² − 4",
+                  "correct": true
+                },
+                {
+                  "text": "(x + 3)² − 4",
+                  "correct": false
+                },
+                {
+                  "text": "(x − 3)² + 4",
+                  "correct": false
+                },
+                {
+                  "text": "(x − 6)² + 5",
+                  "correct": false
+                }
+              ],
+              "explanation": "x puncak = 6/2 = 3 dan f(3) = 9 − 18 + 5 = −4, sehingga f(x) = (x − 3)² − 4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk puncak dari f(x) = x² + 4x adalah …",
+              "options": [
+                {
+                  "text": "(x + 2)² − 4",
+                  "correct": true
+                },
+                {
+                  "text": "(x + 2)² + 4",
+                  "correct": false
+                },
+                {
+                  "text": "(x − 2)² − 4",
+                  "correct": false
+                },
+                {
+                  "text": "(x + 4)²",
+                  "correct": false
+                }
+              ],
+              "explanation": "Puncak di x = −4/2 = −2 dengan f(−2) = 4 − 8 = −4, sehingga f(x) = (x + 2)² − 4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi kuadrat yang akar-akarnya 2 dan 5 adalah …",
+              "options": [
+                {
+                  "text": "x² − 7x + 10",
+                  "correct": true
+                },
+                {
+                  "text": "x² + 7x + 10",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 7x − 10",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 3x + 10",
+                  "correct": false
+                }
+              ],
+              "explanation": "f(x) = (x − 2)(x − 5) = x² − 5x − 2x + 10 = x² − 7x + 10."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bila f(x) = 2(x − 1)² + 3 dijabarkan, bentuknya menjadi …",
+              "options": [
+                {
+                  "text": "2x² − 4x + 5",
+                  "correct": true
+                },
+                {
+                  "text": "2x² + 4x + 5",
+                  "correct": false
+                },
+                {
+                  "text": "2x² − 4x + 1",
+                  "correct": false
+                },
+                {
+                  "text": "2x² − 2x + 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "2(x² − 2x + 1) + 3 = 2x² − 4x + 2 + 3 = 2x² − 4x + 5."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk puncak f(x) = x² − 2x adalah …",
+              "options": [
+                {
+                  "text": "(x − 1)² − 1",
+                  "correct": true
+                },
+                {
+                  "text": "(x + 1)² − 1",
+                  "correct": false
+                },
+                {
+                  "text": "(x − 1)² + 1",
+                  "correct": false
+                },
+                {
+                  "text": "(x − 2)²",
+                  "correct": false
+                }
+              ],
+              "explanation": "Puncak x = 2/2 = 1 dan f(1) = 1 − 2 = −1, sehingga f(x) = (x − 1)² − 1."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Membentuk & Mengubah Bentuk — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk puncak dari f(x) = x² + 6x + 11 adalah …",
+              "options": [
+                {
+                  "text": "(x + 3)² + 2",
+                  "correct": true
+                },
+                {
+                  "text": "(x + 3)² − 2",
+                  "correct": false
+                },
+                {
+                  "text": "(x − 3)² + 2",
+                  "correct": false
+                },
+                {
+                  "text": "(x + 6)² + 11",
+                  "correct": false
+                }
+              ],
+              "explanation": "x puncak = −6/2 = −3 dan f(−3) = 9 − 18 + 11 = 2. Jadi f(x) = (x + 3)² + 2.",
+              "hint": "Lengkapi kuadrat: x² + 6x = (x + 3)² − 9."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk puncak dari f(x) = x² − 10x + 18 adalah …",
+              "options": [
+                {
+                  "text": "(x − 5)² − 7",
+                  "correct": true
+                },
+                {
+                  "text": "(x − 5)² + 7",
+                  "correct": false
+                },
+                {
+                  "text": "(x + 5)² − 7",
+                  "correct": false
+                },
+                {
+                  "text": "(x − 10)² + 18",
+                  "correct": false
+                }
+              ],
+              "explanation": "x² − 10x = (x − 5)² − 25, sehingga f(x) = (x − 5)² − 25 + 18 = (x − 5)² − 7."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi kuadrat yang akar-akarnya −1 dan 4 adalah …",
+              "options": [
+                {
+                  "text": "x² − 3x − 4",
+                  "correct": true
+                },
+                {
+                  "text": "x² + 3x − 4",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 3x + 4",
+                  "correct": false
+                },
+                {
+                  "text": "x² + 5x − 4",
+                  "correct": false
+                }
+              ],
+              "explanation": "f(x) = (x + 1)(x − 4) = x² − 4x + x − 4 = x² − 3x − 4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi kuadrat yang memiliki akar kembar 3 adalah …",
+              "options": [
+                {
+                  "text": "x² − 6x + 9",
+                  "correct": true
+                },
+                {
+                  "text": "x² + 6x + 9",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 6x − 9",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 9",
+                  "correct": false
+                }
+              ],
+              "explanation": "Akar kembar 3 berarti (x − 3)² = x² − 6x + 9, dan diskriminannya nol."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi kuadrat dengan puncak (2, −3) dan a = 1 adalah …",
+              "options": [
+                {
+                  "text": "x² − 4x + 1",
+                  "correct": true
+                },
+                {
+                  "text": "x² + 4x + 1",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 4x − 1",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 2x − 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "f(x) = 1(x − 2)² − 3 = x² − 4x + 4 − 3 = x² − 4x + 1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik fungsi kuadrat memiliki puncak (1, 2) dan melalui (0, 5). Fungsinya adalah …",
+              "options": [
+                {
+                  "text": "3x² − 6x + 5",
+                  "correct": true
+                },
+                {
+                  "text": "3x² + 6x + 5",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 2x + 5",
+                  "correct": false
+                },
+                {
+                  "text": "2x² − 4x + 5",
+                  "correct": false
+                }
+              ],
+              "explanation": "f(x) = a(x − 1)² + 2. Substitusi (0, 5): a + 2 = 5 → a = 3. Jadi f(x) = 3x² − 6x + 5."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk puncak dari f(x) = 2x² + 8x + 11 adalah …",
+              "options": [
+                {
+                  "text": "2(x + 2)² + 3",
+                  "correct": true
+                },
+                {
+                  "text": "2(x + 2)² − 3",
+                  "correct": false
+                },
+                {
+                  "text": "2(x + 4)² + 11",
+                  "correct": false
+                },
+                {
+                  "text": "(x + 2)² + 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "2x² + 8x = 2(x² + 4x) = 2[(x + 2)² − 4] = 2(x + 2)² − 8. Maka f(x) = 2(x + 2)² + 3.",
+              "hint": "Faktorkan 2 lebih dulu, baru lengkapi kuadrat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bentuk yang setara dengan f(x) = x² − 4x + 3? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "(x − 2)² − 1",
+                  "correct": true
+                },
+                {
+                  "text": "(x − 1)(x − 3)",
+                  "correct": true
+                },
+                {
+                  "text": "(x + 2)² − 1",
+                  "correct": false
+                },
+                {
+                  "text": "(x + 1)(x + 3)",
+                  "correct": false
+                }
+              ],
+              "explanation": "(x − 2)² − 1 = x² − 4x + 4 − 1 = x² − 4x + 3 ✓ dan (x − 1)(x − 3) = x² − 4x + 3 ✓. Dua lainnya menghasilkan tanda yang berbeda.",
+              "hint": "Jabarkan setiap opsi lalu bandingkan dengan f(x)."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan fungsi dengan bentuk puncaknya.",
+              "options": [
+                {
+                  "id": "b1",
+                  "text": "x² − 4x + 1"
+                },
+                {
+                  "id": "b2",
+                  "text": "x² + 2x + 4"
+                },
+                {
+                  "id": "b3",
+                  "text": "x² − 6x + 7"
+                },
+                {
+                  "id": "b4",
+                  "text": "x² + 8x + 15"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "b1": "(x − 2)² − 3",
+                  "b2": "(x + 1)² + 3",
+                  "b3": "(x − 3)² − 2",
+                  "b4": "(x + 4)² − 1"
+                }
+              },
+              "explanation": "b1: 1 − 4 = −3. b2: 4 − 1 = 3. b3: 7 − 9 = −2. b4: 15 − 16 = −1.",
+              "hint": "Nilai konstanta = c − (b/2)²."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah mengubah x² + 8x + 10 ke bentuk puncak.",
+              "options": [
+                {
+                  "id": "s1",
+                  "text": "Ambil setengah koefisien x: 8 ÷ 2 = 4"
+                },
+                {
+                  "id": "s2",
+                  "text": "Tulis (x + 4)² yang bernilai x² + 8x + 16"
+                },
+                {
+                  "id": "s3",
+                  "text": "Kurangi kelebihan 16: (x + 4)² − 16 + 10"
+                },
+                {
+                  "id": "s4",
+                  "text": "Hasil akhir (x + 4)² − 6"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "s1": "1",
+                  "s2": "2",
+                  "s3": "3",
+                  "s4": "4"
+                }
+              },
+              "explanation": "Setengah koefisien x adalah 4. Kuadratnya 16. Kurangi kelebihan itu, lalu sederhanakan 10 − 16 = −6.",
+              "hint": "Mulai dari membagi koefisien x dengan 2."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Membentuk & Mengubah Bentuk — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Parabola melalui (0, 1), (1, 0), dan (2, 3). Fungsi kuadratnya adalah …",
+              "options": [
+                {
+                  "text": "2x² − 3x + 1",
+                  "correct": true
+                },
+                {
+                  "text": "2x² + 3x + 1",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 3x + 1",
+                  "correct": false
+                },
+                {
+                  "text": "2x² − 3x − 1",
+                  "correct": false
+                }
+              ],
+              "explanation": "c = 1. Dari (1, 0): a + b = −1. Dari (2, 3): 2a + b = 1. Kurangkan: a = 2 dan b = −3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik fungsi kuadrat berpuncak di (−1, 4) dan melalui (1, −4). Fungsinya adalah …",
+              "options": [
+                {
+                  "text": "−2x² − 4x + 2",
+                  "correct": true
+                },
+                {
+                  "text": "−2x² + 4x + 2",
+                  "correct": false
+                },
+                {
+                  "text": "2x² + 4x + 2",
+                  "correct": false
+                },
+                {
+                  "text": "−x² − 2x + 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "f(x) = a(x + 1)² + 4. Substitusi (1, −4): 4a + 4 = −4 → a = −2. Dijabarkan menjadi −2x² − 4x + 2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk puncak dari f(x) = 3x² − 12x + 7 adalah …",
+              "options": [
+                {
+                  "text": "3(x − 2)² − 5",
+                  "correct": true
+                },
+                {
+                  "text": "3(x − 2)² + 5",
+                  "correct": false
+                },
+                {
+                  "text": "3(x − 4)² − 5",
+                  "correct": false
+                },
+                {
+                  "text": "3(x − 2)² − 12",
+                  "correct": false
+                }
+              ],
+              "explanation": "3x² − 12x = 3(x² − 4x) = 3[(x − 2)² − 4] = 3(x − 2)² − 12, sehingga f(x) = 3(x − 2)² − 5."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui f(x) = (x − 2)² + 5. Nilai a + b + c dari bentuk umumnya adalah …",
+              "options": [
+                {
+                  "text": "6",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "9",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dijabarkan: x² − 4x + 4 + 5 = x² − 4x + 9, sehingga a + b + c = 1 − 4 + 9 = 6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah fungsi kuadrat memiliki akar-akar dengan jumlah 7 dan hasil kali 10. Fungsi itu memotong sumbu-y di …",
+              "options": [
+                {
+                  "text": "(0, 10)",
+                  "correct": true
+                },
+                {
+                  "text": "(0, 7)",
+                  "correct": false
+                },
+                {
+                  "text": "(0, −10)",
+                  "correct": false
+                },
+                {
+                  "text": "(0, 9)",
+                  "correct": false
+                }
+              ],
+              "explanation": "f(x) = x² − 7x + 10, sehingga saat x = 0 nilainya 10. Jadi titik potong sumbu-y adalah (0, 10)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi kuadrat memiliki nilai minimum 3 di x = 2 dan melalui (0, 11). Koefisien x²-nya adalah …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": true
+                },
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                }
+              ],
+              "explanation": "f(x) = a(x − 2)² + 3. Substitusi (0, 11): 4a + 3 = 11 → a = 2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk puncak dari f(x) = −x² + 6x − 5 adalah …",
+              "options": [
+                {
+                  "text": "−(x − 3)² + 4",
+                  "correct": true
+                },
+                {
+                  "text": "−(x + 3)² + 4",
+                  "correct": false
+                },
+                {
+                  "text": "(x − 3)² + 4",
+                  "correct": false
+                },
+                {
+                  "text": "−(x − 3)² − 4",
+                  "correct": false
+                }
+              ],
+              "explanation": "−x² + 6x − 5 = −(x² − 6x) − 5 = −[(x − 3)² − 9] − 5 = −(x − 3)² + 4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk umum dari f(x) = (2x − 1)(x + 3) adalah ax² + bx + c. Nilai a + b + c adalah …",
+              "options": [
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "−3",
+                  "correct": false
+                }
+              ],
+              "explanation": "(2x − 1)(x + 3) = 2x² + 6x − x − 3 = 2x² + 5x − 3, sehingga a + b + c = 2 + 5 − 3 = 4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Agar x² + kx + 9 merupakan kuadrat sempurna, nilai k yang mungkin adalah …",
+              "options": [
+                {
+                  "text": "±6",
+                  "correct": true
+                },
+                {
+                  "text": "±3",
+                  "correct": false
+                },
+                {
+                  "text": "±9",
+                  "correct": false
+                },
+                {
+                  "text": "±12",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kuadrat sempurna berbentuk (x ± 3)² = x² ± 6x + 9, sehingga k = ±6."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang mengubah bentuk fungsi kuadrat? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "(x − 4)² − 9 sama dengan (x − 1)(x − 7)",
+                  "correct": true
+                },
+                {
+                  "text": "Bentuk puncak memperlihatkan titik puncak secara langsung",
+                  "correct": true
+                },
+                {
+                  "text": "Bentuk faktor memperlihatkan titik potong sumbu-x",
+                  "correct": true
+                },
+                {
+                  "text": "(x + 4)² − 9 sama dengan (x − 1)(x − 7)",
+                  "correct": false
+                }
+              ],
+              "explanation": "(x − 4)² − 9 = x² − 8x + 7 dan (x − 1)(x − 7) = x² − 8x + 7, keduanya sama. Bentuk puncak memuat (p, q), bentuk faktor memuat akar. (x + 4)² − 9 = x² + 8x + 7 berbeda tanda."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Pasangkan setiap fungsi dengan bentuk puncaknya.",
+              "options": [
+                {
+                  "id": "w1",
+                  "text": "x² + 6x + 11"
+                },
+                {
+                  "id": "w2",
+                  "text": "x² − 8x + 18"
+                },
+                {
+                  "id": "w3",
+                  "text": "x² + 2x + 6"
+                },
+                {
+                  "id": "w4",
+                  "text": "x² − 4x + 9"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "w1": "(x + 3)² + 2",
+                  "w2": "(x − 4)² + 2",
+                  "w3": "(x + 1)² + 5",
+                  "w4": "(x − 2)² + 5"
+                }
+              },
+              "explanation": "w1: 11 − 9 = 2. w2: 18 − 16 = 2. w3: 6 − 1 = 5. w4: 9 − 4 = 5."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah membentuk fungsi kuadrat bila diketahui puncak (1, −4) dan melalui (0, −3).",
+              "options": [
+                {
+                  "id": "q1",
+                  "text": "Tulis bentuk puncak f(x) = a(x − 1)² − 4"
+                },
+                {
+                  "id": "q2",
+                  "text": "Substitusi titik (0, −3) ke f(x)"
+                },
+                {
+                  "id": "q3",
+                  "text": "Peroleh a − 4 = −3 sehingga a = 1"
+                },
+                {
+                  "id": "q4",
+                  "text": "Tulis hasil f(x) = (x − 1)² − 4"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "q1",
+                  "q2",
+                  "q3",
+                  "q4"
+                ]
+              },
+              "explanation": "Mulai dari bentuk puncak, gunakan satu titik untuk mencari a, lalu tulis fungsi akhirnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi kuadrat yang memotong sumbu-x di x = −3 dan x = 1 serta melalui (0, −3) adalah …",
+              "options": [
+                {
+                  "text": "x² + 2x − 3",
+                  "correct": true
+                },
+                {
+                  "text": "x² − 2x − 3",
+                  "correct": false
+                },
+                {
+                  "text": "−x² − 2x + 3",
+                  "correct": false
+                },
+                {
+                  "text": "x² + 2x + 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "f(x) = a(x + 3)(x − 1). Substitusi (0, −3): a(−3) = −3 → a = 1. Jadi f(x) = x² + 2x − 3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = a(x − 3)² − 1 melalui (0, 17). Nilai f(4) adalah …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": true
+                },
+                {
+                  "text": "−1",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "17",
+                  "correct": false
+                }
+              ],
+              "explanation": "Substitusi (0, 17): 9a − 1 = 17 → a = 2. Maka f(4) = 2(1)² − 1 = 1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi kuadrat yang grafiknya menyinggung sumbu-x di titik asal dan terbuka ke atas adalah …",
+              "options": [
+                {
+                  "text": "x²",
+                  "correct": true
+                },
+                {
+                  "text": "x² + 1",
+                  "correct": false
+                },
+                {
+                  "text": "−x²",
+                  "correct": false
+                },
+                {
+                  "text": "x² − 1",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menyinggung di (0, 0) berarti akar kembar 0, sehingga f(x) = a(x − 0)² = ax². Terbuka ke atas berarti a > 0."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

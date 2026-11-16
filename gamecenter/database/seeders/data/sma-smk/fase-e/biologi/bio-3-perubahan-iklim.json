@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "biologi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "BIO 3",
+      "title": "Perubahan Iklim",
+      "description": "Pemanasan global, dampaknya pada lingkungan dan kehidupan, serta solusi yang dapat dilakukan.",
+      "learning_objectives": [
+        "Mengidentifikasi fakta-fakta perubahan lingkungan sebagai dampak pemanasan global,",
+        "Menganalisis perubahan lingkungan sebagai dampak pemanasan global,",
+        "Mengidentifikasi aktivitas manusia yang menyebabkan perubahan lingkungan sebagai dampak pemanasan global, dan",
+        "Menciptakan solusi untuk mengatasi perubahan lingkungan sebagaidampak pemanasan global."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar IPA Biologi Kelas 10 SMA Fase E Bab 8",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Pemanasan Global dan Efek Rumah Kaca",
+          "duration": 240,
+          "source_reference": "Bab VIII — Perubahan Iklim",
+          "content": "## Pemanasan global\n\nKenaikan **suhu rata-rata** atmosfer dan permukaan bumi.\n\n## Efek rumah kaca\n\nGas rumah kaca meneruskan cahaya matahari masuk, tetapi **menahan panas inframerah** yang dipancarkan bumi. Tanpanya bumi terlalu dingin; bila berlebihan, bumi terlalu panas.\n\n### Gas rumah kaca utama\n\n| Gas | Sumber utama |\n|---|---|\n| **CO₂** | pembakaran bahan bakar fosil, penebangan hutan |\n| **Metana (CH₄)** | peternakan, lahan basah, sampah |\n| **N₂O** | pupuk, pembakaran |\n\nOksigen dan nitrogen **bukan** gas rumah kaca.\n\n### Mengapa metana penting meski kadarnya kecil?\n\nMetana menahan panas jauh lebih kuat **per molekul** daripada CO₂.\n\n### Fungsi hutan\n\nHutan menyerap CO₂ melalui fotosintesis sehingga berperan sebagai **rosot karbon**. Hutan yang hilang tidak lagi menyerap karbon, bahkan melepaskannya bila dibakar."
+        },
+        {
+          "type": "text",
+          "title": "Dampak Perubahan Iklim",
+          "duration": 360,
+          "source_reference": "Bab VIII — Dampak",
+          "content": "## Dampak lingkungan\n\n| Dampak | Penyebab |\n|---|---|\n| Es kutub mencair → muka air laut naik | suhu naik |\n| Pemutihan terumbu karang | suhu air laut naik, karang melepas alga simbiotik |\n| Banjir dan kekeringan panjang | atmosfer menyimpan lebih banyak energi dan uap air |\n| Pergeseran musim | perubahan pola iklim |\n\n## Dampak sosial-ekonomi\n\n- gagal panen karena masa tanam terganggu\n- kenaikan harga pangan\n- kota pesisir rawan banjir dan abrasi\n- gangguan kesehatan: dehidrasi, penyakit panas, gangguan pernapasan\n\n## Mengapa disebut masalah global?\n\nKarena atmosfer bersifat **global**: emisi di satu wilayah terakumulasi dan memengaruhi seluruh bumi. Dampaknya melintasi batas negara.\n\n## Aktivitas manusia penyebab\n\n- pembakaran bahan bakar fosil\n- penebangan dan pembakaran hutan\n- peternakan besar\n- pembakaran sampah"
+        },
+        {
+          "type": "interactive",
+          "title": "Solusi dan Aksi Nyata",
+          "duration": 240,
+          "source_reference": "Bab VIII — Solusi",
+          "content": "## Mitigasi (mengurangi penyebab)\n\n- memakai **energi terbarukan**\n- menghemat listrik\n- memakai transportasi publik\n- mengurangi sampah dan mendaur ulang\n- menanam pohon dan merestorasi **mangrove**\n\n## Adaptasi (menyesuaikan diri)\n\n- memilih varietas **tahan kekeringan**\n- mengatur jadwal tanam berdasarkan prakiraan cuaca\n- membangun perlindungan pesisir\n\n## Kesepakatan internasional\n\n**Protokol Kyoto** dan **Persetujuan Paris** mengatur penurunan emisi gas rumah kaca.\n\n## Aksi di sekolah\n\n1. Hemat listrik: matikan alat yang tidak dipakai\n2. Pilah sampah dan kompos sampah organik\n3. Tanam pohon di lingkungan sekolah\n4. Kurangi kemasan sekali pakai\n\n## Langkah merancang solusi\n\n1. Identifikasi fakta perubahan lingkungan di sekitar\n2. Analisis aktivitas manusia penyebabnya\n3. Rancang solusi yang dapat dilakukan\n4. Laksanakan dan **ukur hasilnya**\n\nTanpa pengukuran, kita tidak tahu apakah solusinya benar-benar bekerja."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Perubahan Iklim — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Meningkatnya suhu rata-rata permukaan bumi disebut …",
+              "options": [
+                {
+                  "text": "pemanasan global",
+                  "correct": true
+                },
+                {
+                  "text": "pendinginan global",
+                  "correct": false
+                },
+                {
+                  "text": "el nino lokal",
+                  "correct": false
+                },
+                {
+                  "text": "erosi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemanasan global adalah kenaikan suhu rata-rata atmosfer dan permukaan bumi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gas yang paling besar kontribusinya terhadap efek rumah kaca dari kegiatan manusia adalah …",
+              "options": [
+                {
+                  "text": "karbon dioksida",
+                  "correct": true
+                },
+                {
+                  "text": "nitrogen",
+                  "correct": false
+                },
+                {
+                  "text": "oksigen",
+                  "correct": false
+                },
+                {
+                  "text": "argon",
+                  "correct": false
+                }
+              ],
+              "explanation": "CO₂ dari pembakaran bahan bakar fosil adalah gas rumah kaca utama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Efek rumah kaca terjadi karena gas rumah kaca …",
+              "options": [
+                {
+                  "text": "menahan sebagian panas dari bumi",
+                  "correct": true
+                },
+                {
+                  "text": "memantulkan seluruh cahaya matahari",
+                  "correct": false
+                },
+                {
+                  "text": "menyerap air hujan",
+                  "correct": false
+                },
+                {
+                  "text": "mendinginkan atmosfer",
+                  "correct": false
+                }
+              ],
+              "explanation": "Gas rumah kaca meneruskan cahaya matahari tetapi menahan panas inframerah yang dipancarkan bumi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kegiatan manusia yang paling besar menyumbang emisi karbon dioksida adalah …",
+              "options": [
+                {
+                  "text": "pembakaran bahan bakar fosil",
+                  "correct": true
+                },
+                {
+                  "text": "menanam pohon",
+                  "correct": false
+                },
+                {
+                  "text": "berjalan kaki",
+                  "correct": false
+                },
+                {
+                  "text": "menjemur pakaian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pembangkit listrik, industri, dan kendaraan berbahan bakar fosil menghasilkan CO₂ dalam jumlah besar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu solusi mengurangi pemanasan global adalah …",
+              "options": [
+                {
+                  "text": "memakai energi terbarukan",
+                  "correct": true
+                },
+                {
+                  "text": "memperbanyak pembakaran sampah",
+                  "correct": false
+                },
+                {
+                  "text": "menebang hutan",
+                  "correct": false
+                },
+                {
+                  "text": "menambah emisi pabrik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Energi terbarukan menghasilkan emisi gas rumah kaca jauh lebih rendah."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Perubahan Iklim — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Penyebab peningkatan gas rumah kaca di atmosfer adalah …",
+              "options": [
+                {
+                  "text": "kegiatan manusia seperti pembakaran bahan bakar dan penggundulan hutan",
+                  "correct": true
+                },
+                {
+                  "text": "gerhana matahari",
+                  "correct": false
+                },
+                {
+                  "text": "pasang surut air laut",
+                  "correct": false
+                },
+                {
+                  "text": "rotasi bumi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Aktivitas manusia menambah emisi dan mengurangi penyerap karbon berupa hutan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak pemanasan global pada lapisan es di kutub adalah …",
+              "options": [
+                {
+                  "text": "lapisan es mencair sehingga permukaan air laut naik",
+                  "correct": true
+                },
+                {
+                  "text": "lapisan es bertambah tebal",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada perubahan",
+                  "correct": false
+                },
+                {
+                  "text": "air laut menjadi lebih asin",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kenaikan suhu mencairkan es sehingga volume air laut bertambah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa perubahan iklim memengaruhi sektor pertanian?",
+              "options": [
+                {
+                  "text": "pola hujan dan suhu berubah sehingga masa tanam terganggu",
+                  "correct": true
+                },
+                {
+                  "text": "tanaman tidak memerlukan air",
+                  "correct": false
+                },
+                {
+                  "text": "semua tanaman menjadi tahan hama",
+                  "correct": false
+                },
+                {
+                  "text": "tanah menjadi lebih subur secara otomatis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pergeseran musim dan suhu ekstrem menurunkan produktivitas pertanian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi hutan dalam kaitannya dengan perubahan iklim adalah …",
+              "options": [
+                {
+                  "text": "menyerap karbon dioksida dari atmosfer",
+                  "correct": true
+                },
+                {
+                  "text": "melepaskan karbon dalam jumlah besar",
+                  "correct": false
+                },
+                {
+                  "text": "menurunkan kadar oksigen",
+                  "correct": false
+                },
+                {
+                  "text": "menambah emisi metana",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tumbuhan menyerap CO₂ dalam fotosintesis sehingga hutan berperan sebagai rosot karbon."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peristiwa cuaca ekstrem yang meningkat akibat perubahan iklim contohnya …",
+              "options": [
+                {
+                  "text": "banjir dan kekeringan panjang",
+                  "correct": true
+                },
+                {
+                  "text": "gerhana bulan",
+                  "correct": false
+                },
+                {
+                  "text": "gempa tektonik",
+                  "correct": false
+                },
+                {
+                  "text": "letusan gunung",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perubahan iklim meningkatkan frekuensi dan intensitas kejadian cuaca ekstrem."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kegiatan sehari-hari yang paling efektif mengurangi jejak karbon adalah …",
+              "options": [
+                {
+                  "text": "memakai angkutan umum dan menghemat listrik",
+                  "correct": true
+                },
+                {
+                  "text": "menambah perjalanan dengan mobil pribadi",
+                  "correct": false
+                },
+                {
+                  "text": "menyalakan pendingin terus-menerus",
+                  "correct": false
+                },
+                {
+                  "text": "membakar sampah rumah tangga",
+                  "correct": false
+                }
+              ],
+              "explanation": "Transportasi publik dan penghematan listrik langsung menurunkan emisi CO₂."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Protokol internasional yang mengatur penurunan emisi gas rumah kaca adalah …",
+              "options": [
+                {
+                  "text": "Protokol Kyoto dan Persetujuan Paris",
+                  "correct": true
+                },
+                {
+                  "text": "Piagam Jakarta",
+                  "correct": false
+                },
+                {
+                  "text": "Deklarasi Bandung",
+                  "correct": false
+                },
+                {
+                  "text": "Konvensi Jenewa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keduanya adalah kesepakatan internasional untuk menekan emisi gas rumah kaca."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk gas rumah kaca? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Karbon dioksida",
+                  "correct": true
+                },
+                {
+                  "text": "Metana",
+                  "correct": true
+                },
+                {
+                  "text": "Dinitrogen oksida",
+                  "correct": true
+                },
+                {
+                  "text": "Oksigen",
+                  "correct": false
+                }
+              ],
+              "explanation": "CO₂, metana, dan N₂O adalah gas rumah kaca. Oksigen bukan gas rumah kaca."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan aktivitas dengan dampaknya terhadap iklim.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Pembakaran batu bara"
+                },
+                {
+                  "id": "o1",
+                  "text": "Penebangan hutan"
+                },
+                {
+                  "id": "o2",
+                  "text": "Peternakan besar"
+                },
+                {
+                  "id": "o3",
+                  "text": "Penanaman pohon"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Menambah emisi CO₂",
+                  "o1": "Mengurangi penyerapan karbon",
+                  "o2": "Menambah emisi metana",
+                  "o3": "Meningkatkan rosot karbon"
+                }
+              },
+              "explanation": "Setiap aktivitas memengaruhi neraca gas rumah kaca secara berbeda."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan dampak menjadi lingkungan atau sosial-ekonomi.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Kenaikan muka air laut"
+                },
+                {
+                  "id": "o1",
+                  "text": "Gagal panen"
+                },
+                {
+                  "id": "o2",
+                  "text": "Pemutihan terumbu karang"
+                },
+                {
+                  "id": "o3",
+                  "text": "Kenaikan harga pangan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Lingkungan",
+                  "o1": "Sosial-ekonomi",
+                  "o2": "Lingkungan",
+                  "o3": "Sosial-ekonomi"
+                }
+              },
+              "explanation": "Dampak lingkungan berupa perubahan fisik ekosistem; dampak sosial-ekonomi menyangkut kehidupan masyarakat."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Perubahan Iklim — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa peningkatan suhu global memicu mencairnya gletser?",
+              "options": [
+                {
+                  "text": "suhu yang lebih tinggi membuat es berubah menjadi air",
+                  "correct": true
+                },
+                {
+                  "text": "gletser bertambah berat",
+                  "correct": false
+                },
+                {
+                  "text": "air laut menjadi lebih dingin",
+                  "correct": false
+                },
+                {
+                  "text": "tekanan udara berkurang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Es mencair ketika suhu lingkungan melampaui titik leburnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pemutihan terumbu karang (coral bleaching) terjadi karena …",
+              "options": [
+                {
+                  "text": "suhu air laut naik sehingga karang melepaskan alga simbiotiknya",
+                  "correct": true
+                },
+                {
+                  "text": "air laut menjadi terlalu dingin",
+                  "correct": false
+                },
+                {
+                  "text": "karang kekurangan oksigen",
+                  "correct": false
+                },
+                {
+                  "text": "karang mendapat terlalu banyak nutrisi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karang kehilangan zooxanthellae yang memberi warna dan makanan sehingga memutih."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan antara pemanasan global dan cuaca ekstrem adalah …",
+              "options": [
+                {
+                  "text": "atmosfer lebih panas sehingga menyimpan lebih banyak energi dan uap air",
+                  "correct": true
+                },
+                {
+                  "text": "udara menjadi lebih lembap dan dingin",
+                  "correct": false
+                },
+                {
+                  "text": "angin berhenti bertiup",
+                  "correct": false
+                },
+                {
+                  "text": "hujan berhenti total",
+                  "correct": false
+                }
+              ],
+              "explanation": "Energi dan uap air yang lebih besar mendorong hujan lebat, badai, dan kekeringan ekstrem."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa pengurangan emisi metana penting meskipun konsentrasinya lebih kecil dari CO₂?",
+              "options": [
+                {
+                  "text": "metana menahan panas jauh lebih kuat per molekul",
+                  "correct": true
+                },
+                {
+                  "text": "metana tidak berbahaya",
+                  "correct": false
+                },
+                {
+                  "text": "metana lebih mudah diserap hutan",
+                  "correct": false
+                },
+                {
+                  "text": "metana tidak berasal dari kegiatan manusia",
+                  "correct": false
+                }
+              ],
+              "explanation": "Potensi pemanasan metana jauh lebih besar daripada CO₂ dalam jangka pendek."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Solusi berbasis alam untuk mitigasi perubahan iklim adalah …",
+              "options": [
+                {
+                  "text": "restorasi mangrove dan penanaman pohon",
+                  "correct": true
+                },
+                {
+                  "text": "memperluas tambang batu bara",
+                  "correct": false
+                },
+                {
+                  "text": "meningkatkan pembakaran sampah",
+                  "correct": false
+                },
+                {
+                  "text": "mengeringkan lahan gambut",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mangrove dan pohon menyerap karbon serta melindungi pesisir."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tindakan yang dapat menurunkan emisi gas rumah kaca? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menghemat penggunaan listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Menggunakan transportasi publik",
+                  "correct": true
+                },
+                {
+                  "text": "Mengurangi sampah dan mendaur ulang",
+                  "correct": true
+                },
+                {
+                  "text": "Membakar sampah setiap hari",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penghematan listrik, transportasi publik, dan daur ulang menekan emisi. Membakar sampah justru menambah emisi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menciptakan solusi perubahan lingkungan akibat pemanasan global.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Mengidentifikasi fakta perubahan lingkungan di sekitar"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menganalisis aktivitas manusia yang menyebabkannya"
+                },
+                {
+                  "id": "s2",
+                  "text": "Merancang solusi yang dapat dilakukan"
+                },
+                {
+                  "id": "s3",
+                  "text": "Melaksanakan solusi dan mengukur hasilnya"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Solusi yang baik dibangun dari data perubahan, analisis penyebab, lalu tindakan terukur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa kenaikan muka air laut mengancam kota pesisir?",
+              "options": [
+                {
+                  "text": "wilayah rendah menjadi rawan banjir dan abrasi",
+                  "correct": true
+                },
+                {
+                  "text": "air laut menjadi tawar",
+                  "correct": false
+                },
+                {
+                  "text": "suhu kota turun drastis",
+                  "correct": false
+                },
+                {
+                  "text": "tanah menjadi lebih tinggi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Naiknya muka air membanjiri wilayah rendah dan mempercepat pengikisan pantai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kaitan antara penebangan hutan dan perubahan iklim adalah …",
+              "options": [
+                {
+                  "text": "berkurangnya penyerap karbon dan bertambahnya emisi dari pembakaran",
+                  "correct": true
+                },
+                {
+                  "text": "hutan tidak berpengaruh terhadap karbon",
+                  "correct": false
+                },
+                {
+                  "text": "penebangan menurunkan suhu global",
+                  "correct": false
+                },
+                {
+                  "text": "penebangan menambah oksigen",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hutan yang hilang tidak lagi menyerap CO₂, bahkan melepaskannya bila dibakar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pernyataan yang menunjukkan aktivitas manusia penyebab perubahan lingkungan adalah …",
+              "options": [
+                {
+                  "text": "pembukaan lahan dengan cara dibakar",
+                  "correct": true
+                },
+                {
+                  "text": "penanaman mangrove",
+                  "correct": false
+                },
+                {
+                  "text": "penggunaan panel surya",
+                  "correct": false
+                },
+                {
+                  "text": "penghematan air",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pembakaran lahan melepaskan karbon dan asap yang mencemari udara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa perubahan iklim disebut masalah global?",
+              "options": [
+                {
+                  "text": "dampaknya melintasi batas negara dan penyebabnya terakumulasi di atmosfer bersama",
+                  "correct": true
+                },
+                {
+                  "text": "hanya terjadi di satu negara",
+                  "correct": false
+                },
+                {
+                  "text": "hanya berdampak pada hewan",
+                  "correct": false
+                },
+                {
+                  "text": "tidak dapat diukur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Atmosfer bersifat global sehingga emisi di satu wilayah memengaruhi seluruh bumi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat energi terbarukan dalam upaya mitigasi perubahan iklim adalah …",
+              "options": [
+                {
+                  "text": "menekan emisi gas rumah kaca dari pembangkitan listrik",
+                  "correct": true
+                },
+                {
+                  "text": "menambah emisi karbon",
+                  "correct": false
+                },
+                {
+                  "text": "memerlukan bahan bakar fosil lebih banyak",
+                  "correct": false
+                },
+                {
+                  "text": "menurunkan pasokan listrik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pembangkit terbarukan tidak membakar bahan bakar fosil sehingga emisinya rendah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Adaptasi terhadap perubahan iklim bagi petani dapat dilakukan dengan …",
+              "options": [
+                {
+                  "text": "memilih varietas tahan kekeringan dan mengatur jadwal tanam",
+                  "correct": true
+                },
+                {
+                  "text": "menanam satu varietas sepanjang tahun",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan prakiraan cuaca",
+                  "correct": false
+                },
+                {
+                  "text": "memperluas pembakaran lahan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Adaptasi menyesuaikan praktik pertanian dengan kondisi iklim yang berubah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa suhu ekstrem berdampak pada kesehatan manusia?",
+              "options": [
+                {
+                  "text": "dapat menyebabkan dehidrasi, penyakit panas, dan memperburuk penyakit pernapasan",
+                  "correct": true
+                },
+                {
+                  "text": "membuat tubuh lebih kuat",
+                  "correct": false
+                },
+                {
+                  "text": "tidak berpengaruh pada manusia",
+                  "correct": false
+                },
+                {
+                  "text": "hanya berpengaruh pada tanaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Suhu ekstrem dan polusi udara meningkatkan risiko gangguan kesehatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tindakan sekolah yang paling nyata mendukung pengurangan emisi adalah …",
+              "options": [
+                {
+                  "text": "menghemat listrik, memilah sampah, dan menanam pohon",
+                  "correct": true
+                },
+                {
+                  "text": "menambah jumlah kendaraan pribadi",
+                  "correct": false
+                },
+                {
+                  "text": "menyalakan pendingin ruang kosong",
+                  "correct": false
+                },
+                {
+                  "text": "membakar sampah di halaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiga tindakan itu langsung mengurangi konsumsi energi dan menambah penyerap karbon."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "fisika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "FIS 2",
+      "title": "Usaha, Energi, dan Energi Terbarukan",
+      "description": "Bentuk-bentuk energi, usaha, hukum kekekalan energi mekanik, serta pemanfaatan energi terbarukan.",
+      "learning_objectives": [
+        "Mengidentifikasikan bentuk-bentuk energi dasar,",
+        "Menganalisis bentuk energi yang terlibat pada penerapannya dalam kehidupan sehari-hari,",
+        "Menganalisis keberlakuan Hukum Kekekalan Energi Mekanik pada peristiwa yang terjadi dalam kehidupan sehari-hari,",
+        "Menemukan masalah ketersediaan energi yang ada di lingkungan sekitar tempat tinggal,",
+        "Menemukan potensi sumber energi yang ada di lingkungan sekitar tempat tinggal,",
+        "Merencanakan rancangan pembuatan alat atau prototipe penghasil energi sederhana sebagai solusi masalah ketersediaan energi,",
+        "Membuat alat atau prototipe penghasil energi sederhana, dan",
+        "Memperbaiki rancangan alat atau prototipe penghasil energi sederhana yang telah diujicobakan."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar IPA Fisika Kelas 10 SMA Fase E Bab 6",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Usaha dan Bentuk Energi",
+          "duration": 240,
+          "source_reference": "Bab VII — Energi",
+          "content": "## Usaha\n\n> **W = F × s × cos θ**\n\nUsaha terjadi bila gaya menyebabkan **perpindahan**.\n\n| Situasi | Usaha |\n|---|---|\n| gaya searah perpindahan | positif (F × s) |\n| gaya tegak lurus | nol (cos 90° = 0) |\n| gaya berlawanan arah | negatif |\n\nContoh: 20 N menggeser benda 3 m → W = 60 J.\n\n## Bentuk-bentuk energi\n\n| Bentuk | Rumus |\n|---|---|\n| Kinetik | Ek = ½mv² |\n| Potensial gravitasi | Ep = mgh |\n| Kalor, kimia, listrik, bunyi, cahaya | bergantung konteks |\n\n## Daya\n\n> **P = W ÷ t** (satuan watt)\n\nUsaha 60 J dalam 5 sekon → daya 12 W.\n\n## Konversi energi\n\nEnergi tidak hilang, hanya **berubah bentuk**. Kincir air mengubah energi kinetik air menjadi gerak putar; bola jatuh mengubah energi potensial menjadi kinetik."
+        },
+        {
+          "type": "text",
+          "title": "Hukum Kekekalan Energi Mekanik",
+          "duration": 360,
+          "source_reference": "Bab VII — Energi Mekanik",
+          "content": "## Energi mekanik\n\n> **Em = Ep + Ek**\n\n**Hukum Kekekalan Energi Mekanik** berlaku bila **tidak ada gesekan** atau gaya luar lain:\n\n> Ep₁ + Ek₁ = Ep₂ + Ek₂\n\nArtinya jumlahnya **tetap**; hanya bentuknya yang bertukar.\n\n### Contoh\n\nBola dilepas dari ketinggian 5 m (g = 10 m/s²):\n\n- di atas: Ep = mgh, Ek = 0\n- di tanah: Ep = 0, Ek = ½mv²\n\nmgh = ½mv² → v = √(2gh) = √100 = **10 m/s**\n\n### Sifat penting\n\n| Perubahan | Akibat pada energi |\n|---|---|\n| h menjadi 2h | Ep menjadi 2 kali |\n| v menjadi 2v | Ek menjadi 4 kali |\n\n### Bila ada gesekan\n\nSebagian energi mekanik berubah menjadi **kalor**, sehingga energi mekanik berkurang. Usaha gaya gesek bernilai negatif.\n\nContoh: dorongan 40 J melawan gesekan 40 J → usaha total **0 J**."
+        },
+        {
+          "type": "interactive",
+          "title": "Energi Terbarukan dan Prototipe",
+          "duration": 240,
+          "source_reference": "Bab VII — Energi Terbarukan",
+          "content": "## Sumber energi\n\n| Terbarukan | Tidak terbarukan |\n|---|---|\n| matahari, angin, air, panas bumi, biomassa | batu bara, minyak bumi, gas alam |\n\n### Pembangkit di Indonesia\n\n- **PLTA** — air\n- **PLTB** — angin\n- **PLTS** — cahaya matahari\n- **PLTP** — panas bumi\n- **PLTU** — uap dari bahan bakar fosil\n\n### Kelebihan dan kekurangan\n\n| Sumber | Kelebihan | Kekurangan |\n|---|---|---|\n| Angin | tanpa emisi saat beroperasi | bergantung kondisi angin |\n| Surya | melimpah | perlu penyimpanan karena cuaca |\n| Fosil | pasokan stabil | terbatas dan beremisi |\n\n## Merancang prototipe\n\n1. Temukan masalah ketersediaan energi di lingkungan\n2. Temukan potensi sumber energi setempat\n3. Rancang alat atau prototipe\n4. Buat, uji, lalu **perbaiki** rancangan\n\nPenghematan energi penting karena sumber fosil terbatas dan menghasilkan emisi."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Usaha, Energi, dan Energi Terbarukan — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Usaha dalam fisika terjadi bila gaya bekerja pada benda sehingga benda …",
+              "options": [
+                {
+                  "text": "berpindah",
+                  "correct": true
+                },
+                {
+                  "text": "berubah warna",
+                  "correct": false
+                },
+                {
+                  "text": "berubah suhu saja",
+                  "correct": false
+                },
+                {
+                  "text": "diam",
+                  "correct": false
+                }
+              ],
+              "explanation": "Usaha = gaya × perpindahan, sehingga tanpa perpindahan usaha bernilai nol."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Satuan energi dalam SI adalah …",
+              "options": [
+                {
+                  "text": "joule",
+                  "correct": true
+                },
+                {
+                  "text": "newton",
+                  "correct": false
+                },
+                {
+                  "text": "watt",
+                  "correct": false
+                },
+                {
+                  "text": "pascal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Joule (J) adalah satuan energi dan usaha; newton untuk gaya, watt untuk daya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Energi yang dimiliki benda karena kedudukannya disebut energi …",
+              "options": [
+                {
+                  "text": "kinetik",
+                  "correct": false
+                },
+                {
+                  "text": "potensial",
+                  "correct": true
+                },
+                {
+                  "text": "kimia",
+                  "correct": false
+                },
+                {
+                  "text": "bunyi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Energi potensial gravitasi bergantung pada massa, percepatan gravitasi, dan ketinggian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Energi yang dimiliki benda karena geraknya disebut energi …",
+              "options": [
+                {
+                  "text": "potensial",
+                  "correct": false
+                },
+                {
+                  "text": "kinetik",
+                  "correct": true
+                },
+                {
+                  "text": "kimia",
+                  "correct": false
+                },
+                {
+                  "text": "listrik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Energi kinetik = ½mv², bergantung pada massa dan kecepatan benda."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sumber energi yang dapat diperbarui contohnya …",
+              "options": [
+                {
+                  "text": "batu bara",
+                  "correct": false
+                },
+                {
+                  "text": "minyak bumi",
+                  "correct": false
+                },
+                {
+                  "text": "angin",
+                  "correct": true
+                },
+                {
+                  "text": "gas alam",
+                  "correct": false
+                }
+              ],
+              "explanation": "Angin, matahari, air, dan biomassa adalah energi terbarukan; batu bara dan minyak bumi tidak."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Usaha, Energi, dan Energi Terbarukan — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Gaya 20 N menggeser benda sejauh 3 m searah gaya. Usahanya adalah …",
+              "options": [
+                {
+                  "text": "23 J",
+                  "correct": false
+                },
+                {
+                  "text": "60 J",
+                  "correct": true
+                },
+                {
+                  "text": "6,7 J",
+                  "correct": false
+                },
+                {
+                  "text": "0 J",
+                  "correct": false
+                }
+              ],
+              "explanation": "W = F × s = 20 × 3 = 60 J.",
+              "hint": "Usaha = gaya × perpindahan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Benda bermassa 2 kg bergerak dengan kecepatan 9 m/s. Energi kinetiknya adalah …",
+              "options": [
+                {
+                  "text": "9 J",
+                  "correct": false
+                },
+                {
+                  "text": "18 J",
+                  "correct": false
+                },
+                {
+                  "text": "81 J",
+                  "correct": true
+                },
+                {
+                  "text": "162 J",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ek = ½mv² = ½ × 2 × 9² = 81 J."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Benda 3 kg berada pada ketinggian 2 m (g = 10 m/s²). Energi potensialnya adalah …",
+              "options": [
+                {
+                  "text": "6 J",
+                  "correct": false
+                },
+                {
+                  "text": "30 J",
+                  "correct": false
+                },
+                {
+                  "text": "60 J",
+                  "correct": true
+                },
+                {
+                  "text": "600 J",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ep = mgh = 3 × 10 × 2 = 60 J."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Usaha 60 J dilakukan dalam 5 sekon. Dayanya adalah …",
+              "options": [
+                {
+                  "text": "12 W",
+                  "correct": true
+                },
+                {
+                  "text": "65 W",
+                  "correct": false
+                },
+                {
+                  "text": "300 W",
+                  "correct": false
+                },
+                {
+                  "text": "0,08 W",
+                  "correct": false
+                }
+              ],
+              "explanation": "Daya = usaha ÷ waktu = 60 ÷ 5 = 12 W."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Benda yang diangkat kemudian dilepaskan mengalami perubahan energi …",
+              "options": [
+                {
+                  "text": "potensial menjadi kinetik",
+                  "correct": true
+                },
+                {
+                  "text": "kinetik menjadi potensial",
+                  "correct": false
+                },
+                {
+                  "text": "kimia menjadi listrik",
+                  "correct": false
+                },
+                {
+                  "text": "bunyi menjadi cahaya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Saat jatuh, ketinggian berkurang sehingga energi potensial berubah menjadi energi kinetik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hukum Kekekalan Energi Mekanik berlaku bila …",
+              "options": [
+                {
+                  "text": "tidak ada gaya gesek atau gaya luar yang bekerja",
+                  "correct": true
+                },
+                {
+                  "text": "selalu ada gesekan",
+                  "correct": false
+                },
+                {
+                  "text": "benda diam",
+                  "correct": false
+                },
+                {
+                  "text": "gaya gravitasi diabaikan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanpa gesekan, jumlah energi potensial dan kinetik tetap sepanjang gerak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Usaha bernilai nol bila gaya …",
+              "options": [
+                {
+                  "text": "tegak lurus terhadap perpindahan",
+                  "correct": true
+                },
+                {
+                  "text": "searah perpindahan",
+                  "correct": false
+                },
+                {
+                  "text": "lebih besar dari berat benda",
+                  "correct": false
+                },
+                {
+                  "text": "berlawanan arah perpindahan",
+                  "correct": false
+                }
+              ],
+              "explanation": "cos 90° = 0, sehingga gaya yang tegak lurus perpindahan tidak melakukan usaha."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk sumber energi terbarukan? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Matahari",
+                  "correct": true
+                },
+                {
+                  "text": "Angin",
+                  "correct": true
+                },
+                {
+                  "text": "Air",
+                  "correct": true
+                },
+                {
+                  "text": "Batu bara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Matahari, angin, dan air dapat diperbarui secara alami. Batu bara terbentuk dalam jutaan tahun sehingga tidak terbarukan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan sumber energi menjadi terbarukan atau tidak terbarukan.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Panel surya"
+                },
+                {
+                  "id": "o1",
+                  "text": "Minyak bumi"
+                },
+                {
+                  "id": "o2",
+                  "text": "Kincir angin"
+                },
+                {
+                  "id": "o3",
+                  "text": "Gas alam"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Terbarukan",
+                  "o1": "Tidak terbarukan",
+                  "o2": "Terbarukan",
+                  "o3": "Tidak terbarukan"
+                }
+              },
+              "explanation": "Sumber yang persediaannya dapat pulih cepat disebut terbarukan; bahan bakar fosil tidak."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan pembangkit dengan sumber energinya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "PLTA"
+                },
+                {
+                  "id": "o1",
+                  "text": "PLTB"
+                },
+                {
+                  "id": "o2",
+                  "text": "PLTS"
+                },
+                {
+                  "id": "o3",
+                  "text": "PLTP"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Air",
+                  "o1": "Angin",
+                  "o2": "Cahaya matahari",
+                  "o3": "Panas bumi"
+                }
+              },
+              "explanation": "Nama pembangkit mengikuti sumber energi yang dimanfaatkan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Usaha, Energi, dan Energi Terbarukan — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Benda 4 kg dilepas dari ketinggian 5 m (g = 10 m/s²) tanpa gesekan. Kecepatan benda saat mencapai tanah adalah …",
+              "options": [
+                {
+                  "text": "5 m/s",
+                  "correct": false
+                },
+                {
+                  "text": "10 m/s",
+                  "correct": true
+                },
+                {
+                  "text": "20 m/s",
+                  "correct": false
+                },
+                {
+                  "text": "25 m/s",
+                  "correct": false
+                }
+              ],
+              "explanation": "mgh = ½mv² → v = √(2gh) = √(2 × 10 × 5) = √100 = 10 m/s."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bola 2 kg dilempar dari tanah dengan kecepatan 6 m/s. Tinggi maksimumnya (g = 10 m/s²) adalah …",
+              "options": [
+                {
+                  "text": "0,9 m",
+                  "correct": false
+                },
+                {
+                  "text": "1,8 m",
+                  "correct": true
+                },
+                {
+                  "text": "3,6 m",
+                  "correct": false
+                },
+                {
+                  "text": "7,2 m",
+                  "correct": false
+                }
+              ],
+              "explanation": "½mv² = mgh → h = v² ÷ (2g) = 36 ÷ 20 = 1,8 m."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gaya 50 N membentuk sudut 60° terhadap arah perpindahan 4 m. Usaha yang dilakukan adalah …",
+              "options": [
+                {
+                  "text": "50 J",
+                  "correct": false
+                },
+                {
+                  "text": "100 J",
+                  "correct": true
+                },
+                {
+                  "text": "173 J",
+                  "correct": false
+                },
+                {
+                  "text": "200 J",
+                  "correct": false
+                }
+              ],
+              "explanation": "W = F × s × cos 60° = 50 × 4 × 0,5 = 100 J."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah benda naik ke ketinggian dua kali semula. Energi potensialnya menjadi …",
+              "options": [
+                {
+                  "text": "setengah",
+                  "correct": false
+                },
+                {
+                  "text": "tetap",
+                  "correct": false
+                },
+                {
+                  "text": "dua kali",
+                  "correct": true
+                },
+                {
+                  "text": "empat kali",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ep sebanding dengan h, sehingga jika h menjadi 2h maka Ep menjadi 2 kali."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kecepatan benda menjadi dua kali semula. Energi kinetiknya menjadi …",
+              "options": [
+                {
+                  "text": "setengah",
+                  "correct": false
+                },
+                {
+                  "text": "dua kali",
+                  "correct": false
+                },
+                {
+                  "text": "tiga kali",
+                  "correct": false
+                },
+                {
+                  "text": "empat kali",
+                  "correct": true
+                }
+              ],
+              "explanation": "Ek sebanding dengan v², sehingga (2v)² = 4v² membuat Ek menjadi empat kali."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada gerak jatuh bebas, jumlah energi potensial dan energi kinetik …",
+              "options": [
+                {
+                  "text": "selalu berkurang",
+                  "correct": false
+                },
+                {
+                  "text": "selalu bertambah",
+                  "correct": false
+                },
+                {
+                  "text": "tetap",
+                  "correct": true
+                },
+                {
+                  "text": "menjadi nol",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanpa gesekan, energi mekanik total tetap; hanya bentuknya yang bertukar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah alat mengangkat beban 200 N setinggi 10 m dalam 8 sekon. Daya alat tersebut adalah …",
+              "options": [
+                {
+                  "text": "250 W",
+                  "correct": true
+                },
+                {
+                  "text": "1600 W",
+                  "correct": false
+                },
+                {
+                  "text": "2000 W",
+                  "correct": false
+                },
+                {
+                  "text": "16000 W",
+                  "correct": false
+                }
+              ],
+              "explanation": "Usaha = 200 × 10 = 2000 J. Daya = 2000 ÷ 8 = 250 W."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa energi terbarukan penting bagi pembangunan berkelanjutan?",
+              "options": [
+                {
+                  "text": "karena persediaannya dapat pulih dan menghasilkan emisi lebih rendah",
+                  "correct": true
+                },
+                {
+                  "text": "karena harganya selalu nol",
+                  "correct": false
+                },
+                {
+                  "text": "karena tidak memerlukan peralatan",
+                  "correct": false
+                },
+                {
+                  "text": "karena tidak memerlukan lahan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Energi terbarukan mengurangi ketergantungan pada bahan bakar fosil dan menekan emisi gas rumah kaca."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang usaha? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Usaha bernilai nol bila gaya tegak lurus perpindahan",
+                  "correct": true
+                },
+                {
+                  "text": "Usaha bernilai negatif bila gaya berlawanan arah perpindahan",
+                  "correct": true
+                },
+                {
+                  "text": "Usaha diukur dalam joule",
+                  "correct": true
+                },
+                {
+                  "text": "Usaha selalu bernilai positif",
+                  "correct": false
+                }
+              ],
+              "explanation": "Usaha bergantung pada sudut antara gaya dan perpindahan, sehingga dapat nol atau negatif. Satuannya joule."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah merancang prototipe penghasil energi sederhana.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Menemukan masalah ketersediaan energi di lingkungan"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menemukan potensi sumber energi setempat"
+                },
+                {
+                  "id": "s2",
+                  "text": "Merancang alat atau prototipe"
+                },
+                {
+                  "id": "s3",
+                  "text": "Membuat, menguji, lalu memperbaiki rancangan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Rancangan dimulai dari masalah nyata dan potensi setempat, lalu diuji dan diperbaiki."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kelebihan pembangkit listrik tenaga angin dibanding bahan bakar fosil adalah …",
+              "options": [
+                {
+                  "text": "tidak menghasilkan emisi karbon saat beroperasi",
+                  "correct": true
+                },
+                {
+                  "text": "tidak memerlukan lahan",
+                  "correct": false
+                },
+                {
+                  "text": "selalu tersedia sepanjang waktu",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memerlukan biaya awal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Turbin angin tidak membakar bahan bakar, sehingga emisi operasionalnya sangat rendah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gaya 10 N menggeser benda 4 m. Bila gaya gesek 10 N bekerja berlawanan arah, usaha totalnya adalah …",
+              "options": [
+                {
+                  "text": "0 J",
+                  "correct": true
+                },
+                {
+                  "text": "40 J",
+                  "correct": false
+                },
+                {
+                  "text": "80 J",
+                  "correct": false
+                },
+                {
+                  "text": "−80 J",
+                  "correct": false
+                }
+              ],
+              "explanation": "Usaha dorong 40 J dan usaha gesek −40 J saling meniadakan, sehingga usaha totalnya 0."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Energi mekanik sebuah benda 500 J pada ketinggian tertentu. Bila energi kinetiknya 200 J, maka energi potensialnya adalah …",
+              "options": [
+                {
+                  "text": "100 J",
+                  "correct": false
+                },
+                {
+                  "text": "200 J",
+                  "correct": false
+                },
+                {
+                  "text": "300 J",
+                  "correct": true
+                },
+                {
+                  "text": "700 J",
+                  "correct": false
+                }
+              ],
+              "explanation": "Em = Ep + Ek, sehingga Ep = 500 − 200 = 300 J."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Konversi energi pada kincir air adalah …",
+              "options": [
+                {
+                  "text": "energi kinetik air menjadi energi mekanik putaran",
+                  "correct": true
+                },
+                {
+                  "text": "energi listrik menjadi cahaya",
+                  "correct": false
+                },
+                {
+                  "text": "energi kimia menjadi bunyi",
+                  "correct": false
+                },
+                {
+                  "text": "energi bunyi menjadi panas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Aliran air mendorong kincir, sehingga energi kinetik air berubah menjadi gerak putar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alasan utama penghematan energi perlu dilakukan adalah …",
+              "options": [
+                {
+                  "text": "sumber energi fosil terbatas dan menghasilkan emisi",
+                  "correct": true
+                },
+                {
+                  "text": "harga alat selalu naik",
+                  "correct": false
+                },
+                {
+                  "text": "energi tidak dapat diubah bentuknya",
+                  "correct": false
+                },
+                {
+                  "text": "listrik tidak berguna",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penghematan memperpanjang ketersediaan sumber daya dan menekan dampak lingkungan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

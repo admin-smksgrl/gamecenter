@@ -1,0 +1,775 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "matematika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "MA 6.3",
+      "title": "Menyelesaikan Masalah dengan Fungsi Kuadrat",
+      "description": "Memodelkan masalah nyata dengan fungsi kuadrat lalu menentukan nilai maksimum atau minimumnya.",
+      "learning_objectives": [
+        "Menyelesaikan masalah yang berkaitan dengan fungsi kuadrat, termasuk masalah maksimum dan minimum."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar MA 6.3 Menyelesaikan Masalah dengan Fungsi Kuadrat",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Dari Soal Cerita ke Fungsi Kuadrat",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 6.3 — Kompetensi Awal",
+          "content": "## Pola yang berulang\n\nBanyak soal cerita berbentuk **\"berapa nilai terbesar atau terkecil\"**. Semuanya dapat diselesaikan dengan satu pola: susun fungsi kuadratnya, lalu cari titik puncaknya.\n\nContoh paling sering:\n\n| Situasi | Bentuk fungsi |\n|---|---|\n| Dua bilangan berjumlah tetap S | P = x(S − x) |\n| Persegi panjang berkeliling K | L = x(K/2 − x) |\n| Bola dilempar | h(t) = −5t² + v₀t + h₀ |\n| Laba usaha | L(x) = −ax² + bx − c |\n\nSemuanya berbentuk **−x² + bx + …** dengan a negatif, sehingga puncaknya adalah **nilai maksimum**.\n\n### Kunci membedakan maksimum dan minimum\n\n- **a < 0** → parabola terbuka ke bawah → puncak adalah **nilai maksimum** (cocok untuk soal \"terbesar\").\n- **a > 0** → parabola terbuka ke atas → puncak adalah **nilai minimum** (cocok untuk soal \"terkecil\", misalnya biaya)."
+        },
+        {
+          "type": "text",
+          "title": "Langkah Penyelesaian Soal Terapan",
+          "duration": 360,
+          "source_reference": "Modul Ajar MA 6.3 — Tujuan Pembelajaran",
+          "content": "## Empat langkah baku\n\n**1. Beri nama variabel** yang berubah — biasanya x = banyak barang, t = waktu, atau p = panjang.\n\n**2. Susun fungsi tujuan.** Tulis luas, laba, atau tinggi sebagai fungsi satu variabel. Bila ada dua variabel, gunakan syarat yang diketahui untuk menghilangkan salah satunya.\n\n**3. Cari puncak:** x = −b / (2a), lalu hitung nilai fungsinya.\n\n**4. Tafsirkan** dalam konteks soal beserta satuannya.\n\n### Contoh lengkap\n\nPagar 60 m dipakai untuk tiga sisi taman; sisi keempat adalah dinding. Berapa luas terbesar?\n\n- Sisi tegak x, sisi sejajar dinding = 60 − 2x\n- Luas L(x) = x(60 − 2x) = −2x² + 60x\n- Puncak: x = −60 ÷ (2 × −2) = **15**\n- Luas = 15(60 − 30) = **450 m²**\n\n### Soal \"kapan\" bukan \"berapa\"\n\nBila soal menanyakan **waktu** benda menyentuh tanah, jangan cari puncak — cari akar dengan membuat h(t) = 0. Puncak menjawab **berapa tinggi maksimum**, akar menjawab **kapan menyentuh tanah**."
+        },
+        {
+          "type": "interactive",
+          "title": "Tiga Contoh Nyata",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 6.3 — Penerapan",
+          "content": "## Latihan bertahap\n\n**1. Dua bilangan berjumlah 20.**\nHasil kali P = x(20 − x) = −x² + 20x. Puncak di x = 10, hasil kali **100**.\n\n**2. Laba L(x) = −2x² + 40x − 100.**\nx = 10 dan L(10) = −200 + 400 − 100 = **100** ribu rupiah.\n\n**3. Bola h(t) = −5t² + 20t.**\n- Tinggi maksimum: t = 2 → h = **20 m**\n- Menyentuh tanah: −5t(t − 4) = 0 → t = **4 detik**\n\nPerhatikan bedanya: pertanyaan tinggi memakai puncak, pertanyaan waktu mendarat memakai akar.\n\n### Uji dirimu\n\nSebuah toko menjual 20 barang seharga Rp50.000. Setiap penurunan Rp1.000 menambah 1 barang terjual. Berapa pendapatan maksimumnya?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nR = (50 − x)(20 + x) ribu = −x² + 30x + 1.000.\nPuncak di x = 15, sehingga harga Rp35.000 dan terjual 35 barang.\nPendapatan = 35 × 35 = **Rp1.225.000**.\n\n</details>"
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Menyelesaikan Masalah — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah persegi panjang berkeliling 20 cm. Luas maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "16 cm²",
+                  "correct": false
+                },
+                {
+                  "text": "20 cm²",
+                  "correct": false
+                },
+                {
+                  "text": "25 cm²",
+                  "correct": true
+                },
+                {
+                  "text": "30 cm²",
+                  "correct": false
+                }
+              ],
+              "explanation": "p + l = 10 sehingga luas L = p(10 − p) = −p² + 10p. Puncaknya di p = 5, maka L = 25 cm²."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tinggi bola mengikuti h(t) = −5t² + 10t meter. Tinggi maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "5 m",
+                  "correct": true
+                },
+                {
+                  "text": "10 m",
+                  "correct": false
+                },
+                {
+                  "text": "15 m",
+                  "correct": false
+                },
+                {
+                  "text": "20 m",
+                  "correct": false
+                }
+              ],
+              "explanation": "t = −10 ÷ (2 × −5) = 1 detik, lalu h(1) = −5 + 10 = 5 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Laba harian mengikuti L(x) = −x² + 20x rupiah. Laba maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "20",
+                  "correct": false
+                },
+                {
+                  "text": "100",
+                  "correct": true
+                },
+                {
+                  "text": "400",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = −20 ÷ (2 × −1) = 10 dan L(10) = −100 + 200 = 100."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dua bilangan berjumlah 12. Hasil kali maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "32",
+                  "correct": false
+                },
+                {
+                  "text": "35",
+                  "correct": false
+                },
+                {
+                  "text": "36",
+                  "correct": true
+                },
+                {
+                  "text": "40",
+                  "correct": false
+                }
+              ],
+              "explanation": "Misal bilangannya x dan 12 − x. Hasil kali P = x(12 − x) = −x² + 12x, puncaknya di x = 6. Maka P = 36."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tinggi roket mainan h(t) = −t² + 4t meter. Tinggi tertingginya adalah …",
+              "options": [
+                {
+                  "text": "2 m",
+                  "correct": false
+                },
+                {
+                  "text": "3 m",
+                  "correct": false
+                },
+                {
+                  "text": "4 m",
+                  "correct": true
+                },
+                {
+                  "text": "8 m",
+                  "correct": false
+                }
+              ],
+              "explanation": "t = −4 ÷ (2 × −1) = 2 dan h(2) = −4 + 8 = 4 meter."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Menyelesaikan Masalah — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Dua bilangan berjumlah 20. Hasil kali terbesarnya adalah …",
+              "options": [
+                {
+                  "text": "96",
+                  "correct": false
+                },
+                {
+                  "text": "99",
+                  "correct": false
+                },
+                {
+                  "text": "100",
+                  "correct": true
+                },
+                {
+                  "text": "110",
+                  "correct": false
+                }
+              ],
+              "explanation": "P = x(20 − x) = −x² + 20x. Puncak di x = 10, sehingga P = 100.",
+              "hint": "Kedua bilangan terbaik adalah yang paling dekat satu sama lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pagar sepanjang 40 m dipakai untuk memagari taman berbentuk persegi panjang. Luas terbesar taman itu adalah …",
+              "options": [
+                {
+                  "text": "80 m²",
+                  "correct": false
+                },
+                {
+                  "text": "100 m²",
+                  "correct": true
+                },
+                {
+                  "text": "120 m²",
+                  "correct": false
+                },
+                {
+                  "text": "160 m²",
+                  "correct": false
+                }
+              ],
+              "explanation": "p + l = 20 dan luas L = p(20 − p) = −p² + 20p. Puncak di p = 10, sehingga L = 100 m²."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Laba sebuah usaha mengikuti L(x) = −2x² + 40x − 100 ribu rupiah. Laba maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "Rp80.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp90.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp100.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp200.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = −40 ÷ (2 × −2) = 10 dan L(10) = −200 + 400 − 100 = 100 ribu rupiah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tinggi bola h(t) = −5t² + 15t meter. Tinggi maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "10 m",
+                  "correct": false
+                },
+                {
+                  "text": "11,25 m",
+                  "correct": true
+                },
+                {
+                  "text": "12,5 m",
+                  "correct": false
+                },
+                {
+                  "text": "15 m",
+                  "correct": false
+                }
+              ],
+              "explanation": "t = −15 ÷ (2 × −5) = 1,5 dan h(1,5) = −5(2,25) + 22,5 = −11,25 + 22,5 = 11,25 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bola dilempar dengan h(t) = −5t² + 20t meter. Bola kembali menyentuh tanah pada saat t = …",
+              "options": [
+                {
+                  "text": "2 detik",
+                  "correct": false
+                },
+                {
+                  "text": "3 detik",
+                  "correct": false
+                },
+                {
+                  "text": "4 detik",
+                  "correct": true
+                },
+                {
+                  "text": "5 detik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bola menyentuh tanah saat h(t) = 0: −5t(t − 4) = 0 → t = 0 atau t = 4. Yang dimaksud adalah t = 4 detik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pagar 60 m dipakai untuk tiga sisi taman; sisi keempat adalah dinding. Luas terbesar taman itu adalah …",
+              "options": [
+                {
+                  "text": "400 m²",
+                  "correct": false
+                },
+                {
+                  "text": "450 m²",
+                  "correct": true
+                },
+                {
+                  "text": "500 m²",
+                  "correct": false
+                },
+                {
+                  "text": "600 m²",
+                  "correct": false
+                }
+              ],
+              "explanation": "Misal sisi tegak x, maka sisi sejajar dinding = 60 − 2x. Luas L = x(60 − 2x) = −2x² + 60x, puncak di x = 15 dan L = 15 × 30 = 450 m²."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Harga tiket Rp25.000 menghasilkan 100 penonton, dan setiap kenaikan Rp1.000 mengurangi 2 penonton. Pendapatan maksimum tercapai saat harga tiket …",
+              "options": [
+                {
+                  "text": "Rp25.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp37.500",
+                  "correct": true
+                },
+                {
+                  "text": "Rp50.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp75.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pendapatan R = (25 + k)(100 − 2k) ribu = −2k² + 50k + 2.500. Puncak di k = 12,5 — sehingga harga terbaik Rp37.500."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang masalah maksimum–minimum? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Luas persegi panjang terbesar dicapai saat bentuknya persegi",
+                  "correct": true
+                },
+                {
+                  "text": "Nilai maksimum fungsi dengan a < 0 ada di titik puncak",
+                  "correct": true
+                },
+                {
+                  "text": "Untuk dua bilangan berjumlah tetap, hasil kali terbesar saat keduanya sama",
+                  "correct": true
+                },
+                {
+                  "text": "Nilai maksimum selalu terjadi di x = 0",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiga pernyataan pertama benar. Nilai ekstrem berada di titik puncak x = −b/2a, yang tidak selalu 0.",
+              "hint": "Ingat bahwa puncak berada di x = −b ÷ 2a."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan model dengan nilai maksimumnya.",
+              "options": [
+                {
+                  "id": "p1",
+                  "text": "L(x) = −x² + 10x"
+                },
+                {
+                  "id": "p2",
+                  "text": "L(x) = −x² + 6x"
+                },
+                {
+                  "id": "p3",
+                  "text": "h(t) = −t² + 8t"
+                },
+                {
+                  "id": "p4",
+                  "text": "L(x) = −2x² + 8x"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "p1": "25",
+                  "p2": "9",
+                  "p3": "16",
+                  "p4": "8"
+                }
+              },
+              "explanation": "p1: x = 5 → 25. p2: x = 3 → 9. p3: t = 4 → 16. p4: x = 2 → −8 + 16 = 8.",
+              "hint": "Hitung puncak tiap fungsi lebih dulu."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menyelesaikan soal luas maksimum taman.",
+              "options": [
+                {
+                  "id": "t1",
+                  "text": "Beri nama panjang x dan lebar (keliling/2 − x)"
+                },
+                {
+                  "id": "t2",
+                  "text": "Susun fungsi luas L(x) = x × lebar"
+                },
+                {
+                  "id": "t3",
+                  "text": "Tentukan absis puncak x = −b ÷ 2a"
+                },
+                {
+                  "id": "t4",
+                  "text": "Hitung luas maksimum dan tafsirkan satuannya"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "t1": "1",
+                  "t2": "2",
+                  "t3": "3",
+                  "t4": "4"
+                }
+              },
+              "explanation": "Memodelkan dulu, menyusun fungsi, mencari puncak, lalu menafsirkan hasilnya.",
+              "hint": "Mulai dari memberi nama variabel."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Menyelesaikan Masalah — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pagar 80 m dipakai untuk tiga sisi kandang; sisi keempat adalah sungai. Luas terbesar kandang adalah …",
+              "options": [
+                {
+                  "text": "600 m²",
+                  "correct": false
+                },
+                {
+                  "text": "700 m²",
+                  "correct": false
+                },
+                {
+                  "text": "800 m²",
+                  "correct": true
+                },
+                {
+                  "text": "900 m²",
+                  "correct": false
+                }
+              ],
+              "explanation": "L = x(80 − 2x) = −2x² + 80x. Puncak di x = 20 dan panjang 40, sehingga L = 800 m²."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bola dilempar dari ketinggian 1 m dengan h(t) = −5t² + 20t + 1 meter. Tinggi maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "20 m",
+                  "correct": false
+                },
+                {
+                  "text": "21 m",
+                  "correct": true
+                },
+                {
+                  "text": "22 m",
+                  "correct": false
+                },
+                {
+                  "text": "25 m",
+                  "correct": false
+                }
+              ],
+              "explanation": "t = −20 ÷ (2 × −5) = 2 dan h(2) = −20 + 40 + 1 = 21 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Benda dijatuhkan dari 15 m dengan h(t) = −5t² + 10t + 15. Benda menyentuh tanah pada t = …",
+              "options": [
+                {
+                  "text": "2 detik",
+                  "correct": false
+                },
+                {
+                  "text": "3 detik",
+                  "correct": true
+                },
+                {
+                  "text": "4 detik",
+                  "correct": false
+                },
+                {
+                  "text": "5 detik",
+                  "correct": false
+                }
+              ],
+              "explanation": "h(t) = 0 → −5(t² − 2t − 3) = 0 → (t − 3)(t + 1) = 0. Nilai positif t = 3 detik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah toko menjual 20 barang dengan harga Rp50.000. Setiap penurunan harga Rp1.000 menambah 1 barang terjual. Pendapatan maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "Rp1.000.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp1.125.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp1.225.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp1.600.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "R = (50 − x)(20 + x) ribu = −x² + 30x + 1.000. Puncak di x = 15, maka R = 35 × 35 = 1.225 ribu rupiah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Laba mengikuti L(x) = −x² + 60x − 500 ribu rupiah. Laba maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "Rp300.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp400.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp500.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp900.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = −60 ÷ (2 × −1) = 30 dan L(30) = −900 + 1.800 − 500 = 400 ribu rupiah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hasil kali dua bilangan positif adalah 36. Jumlah terkecilnya adalah …",
+              "options": [
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": true
+                },
+                {
+                  "text": "13",
+                  "correct": false
+                },
+                {
+                  "text": "37",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlah = x + 36/x, terkecil saat x = √36 = 6, sehingga jumlahnya 6 + 6 = 12."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tinggi lengkungan jembatan mengikuti h(x) = −x² + 8x − 15 meter. Lengkungan itu menyentuh tanah (h = 0) pada x = …",
+              "options": [
+                {
+                  "text": "x = 3 dan x = 5",
+                  "correct": true
+                },
+                {
+                  "text": "x = 1 dan x = 15",
+                  "correct": false
+                },
+                {
+                  "text": "x = −3 dan x = −5",
+                  "correct": false
+                },
+                {
+                  "text": "tidak pernah",
+                  "correct": false
+                }
+              ],
+              "explanation": "−x² + 8x − 15 = 0 → x² − 8x + 15 = 0 → (x − 3)(x − 5) = 0, sehingga x = 3 atau x = 5."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tinggi air mancur h(t) = −5t² + 50t sentimeter. Ketinggian air maksimum adalah …",
+              "options": [
+                {
+                  "text": "100 cm",
+                  "correct": false
+                },
+                {
+                  "text": "110 cm",
+                  "correct": false
+                },
+                {
+                  "text": "125 cm",
+                  "correct": true
+                },
+                {
+                  "text": "250 cm",
+                  "correct": false
+                }
+              ],
+              "explanation": "t = −50 ÷ (2 × −5) = 5 dan h(5) = −125 + 250 = 125 cm."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Sebuah taman persegi panjang berkeliling 36 m. Manakah pernyataan yang benar? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Panjang + lebar = 18 m",
+                  "correct": true
+                },
+                {
+                  "text": "Luas maksimum 81 m²",
+                  "correct": true
+                },
+                {
+                  "text": "Luas maksimum dicapai saat taman berbentuk persegi",
+                  "correct": true
+                },
+                {
+                  "text": "Luas maksimum 162 m²",
+                  "correct": false
+                }
+              ],
+              "explanation": "2(p + l) = 36 memberi p + l = 18. Luas L = p(18 − p) = −p² + 18p dengan puncak di p = 9, sehingga L = 81 m² dan tamannya persegi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keliling sebuah persegi panjang 160 m. Luas terbesarnya adalah …",
+              "options": [
+                {
+                  "text": "1.200 m²",
+                  "correct": false
+                },
+                {
+                  "text": "1.500 m²",
+                  "correct": false
+                },
+                {
+                  "text": "1.600 m²",
+                  "correct": true
+                },
+                {
+                  "text": "3.200 m²",
+                  "correct": false
+                }
+              ],
+              "explanation": "p + l = 80. Luas maksimum saat p = l = 40, yaitu 1.600 m²."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Biaya produksi mengikuti B(x) = 2x² − 80x + 900 ribu rupiah. Biaya minimumnya adalah …",
+              "options": [
+                {
+                  "text": "Rp100.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp500.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp600.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp900.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = 80 ÷ (2 × 2) = 20 dan B(20) = 800 − 1.600 + 900 = 100 ribu rupiah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kawat sepanjang 100 cm dibentuk menjadi persegi panjang. Luas terbesarnya adalah …",
+              "options": [
+                {
+                  "text": "500 cm²",
+                  "correct": false
+                },
+                {
+                  "text": "600 cm²",
+                  "correct": false
+                },
+                {
+                  "text": "625 cm²",
+                  "correct": true
+                },
+                {
+                  "text": "1.000 cm²",
+                  "correct": false
+                }
+              ],
+              "explanation": "p + l = 50. Luas maksimum saat p = l = 25, yaitu 625 cm²."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tinggi sebuah benda mengikuti h(t) = −2t² + 12t + 8 meter. Tinggi maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "18 m",
+                  "correct": false
+                },
+                {
+                  "text": "24 m",
+                  "correct": false
+                },
+                {
+                  "text": "26 m",
+                  "correct": true
+                },
+                {
+                  "text": "32 m",
+                  "correct": false
+                }
+              ],
+              "explanation": "t = −12 ÷ (2 × −2) = 3 dan h(3) = −18 + 36 + 8 = 26 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pendapatan mengikuti R(x) = x(40 − x) ribu rupiah. Pendapatan maksimum tercapai saat x = …",
+              "options": [
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "20",
+                  "correct": true
+                },
+                {
+                  "text": "30",
+                  "correct": false
+                },
+                {
+                  "text": "40",
+                  "correct": false
+                }
+              ],
+              "explanation": "R = −x² + 40x dengan puncak di x = 20, dan R(20) = 20 × 20 = 400 ribu rupiah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keuntungan mengikuti K(x) = −x² + 50x − 400 ribu rupiah. Keuntungan maksimumnya adalah …",
+              "options": [
+                {
+                  "text": "Rp125.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp200.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp225.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp250.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = −50 ÷ (2 × −1) = 25 dan K(25) = −625 + 1.250 − 400 = 225 ribu rupiah."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

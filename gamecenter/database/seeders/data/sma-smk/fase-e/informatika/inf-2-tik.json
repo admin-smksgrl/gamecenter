@@ -1,0 +1,801 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "informatika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "INF 2",
+      "title": "Teknologi Informasi dan Komunikasi",
+      "description": "Mengintegrasikan pengolah kata, pengolah angka, dan presentasi serta memakai fitur lanjut aplikasi perkantoran.",
+      "learning_objectives": [
+        "Melakukan integrasi antar aplikasi perkantoran (pengolah kata, pengolah angka, dan presentasi).",
+        "Menggunakan fitur lanjut aplikasi perkantoran."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Informatika Kelas X SMA Fase E Bab 3 — Teknologi Informasi dan Komunikasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Tiga Aplikasi, Satu Alur Kerja",
+          "duration": 240,
+          "source_reference": "Modul Ajar Informatika Bab 3 — Tujuan Pembelajaran",
+          "content": "## Aplikasi perkantoran dan perannya\n\n| Aplikasi | Fungsi utama | Contoh isi |\n|---|---|---|\n| **Pengolah kata** | menyusun dokumen teks | surat, laporan, makalah |\n| **Pengolah angka** | menghitung dan menganalisis data | tabel nilai, anggaran, grafik |\n| **Presentasi** | menyampaikan gagasan secara visual | slide rapat, materi pelajaran |\n\n### Mengapa perlu integrasi?\n\nPekerjaan nyata jarang berada dalam satu aplikasi saja. Laporan biasanya memuat **tabel hasil hitungan** dari pengolah angka, dan presentasi memuat **grafik** dari data yang sama.\n\nTanpa integrasi, data harus diketik ulang — lambat dan rawan salah.\n\n### Tiga cara memindahkan data\n\n1. **Salin–tempel biasa** → data menjadi teks atau tabel mati, tidak ikut berubah\n2. **Tautkan (link)** → objek menyimpan **rujukan** ke berkas sumber, ikut berubah saat sumber diperbarui\n3. **Tanamkan (embed)** → objek **disimpan di dalam** dokumen tujuan, mandiri tetapi tidak ikut berubah"
+        },
+        {
+          "type": "text",
+          "title": "Fitur Lanjut dan Mail Merge",
+          "duration": 360,
+          "source_reference": "Modul Ajar Informatika Bab 3 — Kegiatan Pembelajaran",
+          "content": "## Fitur lanjut tiap aplikasi\n\n**Pengolah kata**\n- Gaya **heading** → dasar daftar isi otomatis\n- **Page break** memindahkan ke halaman baru; **section break** mengizinkan format berbeda per bagian\n- **Mail merge** membuat banyak surat dari satu dokumen induk\n\n**Pengolah angka**\n- **Pivot table** merangkum data besar menjadi ringkasan\n- **VLOOKUP** mencari nilai kunci lalu mengambil nilai dari kolom lain\n- **Conditional formatting** mewarnai sel otomatis sesuai aturan\n- **Data validation** membatasi nilai yang boleh dimasukkan\n- **Freeze panes** menjaga baris judul tetap terlihat\n\n**Presentasi**\n- **Slide master** mengatur tampilan dasar seluruh slide\n- Ekspor ke **MP4** untuk dijadikan video\n\n### Mail merge dalam empat langkah\n\n1. Siapkan **dokumen induk**\n2. Siapkan **sumber data** penerima\n3. Sisipkan **medan (field)** ke dokumen\n4. Jalankan **penggabungan**, lalu simpan hasil\n\n### Referensi absolut vs relatif\n\nPada pengolah angka, `A1` adalah referensi **relatif** — bergeser saat rumus disalin. `$A$1` adalah referensi **absolut** — tetap walaupun disalin. Bila `A1` disalin satu kolom ke kanan dan satu baris ke bawah, ia menjadi `B2`; sedangkan `$A$1` tetap `$A$1`."
+        },
+        {
+          "type": "interactive",
+          "title": "Kapan Memakai Link, Kapan Embed",
+          "duration": 240,
+          "source_reference": "Modul Ajar Informatika Bab 3 — Penerapan",
+          "content": "## Memilih cara integrasi\n\n**Gunakan link** bila data sumber masih akan diperbarui dan dokumen tujuan harus selalu mengikuti angka terbaru. Contoh: laporan bulanan yang mengambil tabel dari berkas perhitungan bersama.\n\n**Gunakan embed** bila dokumen harus tetap utuh walaupun berkas sumber dipindahkan atau dihapus. Contoh: makalah yang dikirim ke orang lain.\n\n### Konsekuensi yang sering ditanyakan\n\n| | Link | Embed |\n|---|---|---|\n| Ikut berubah saat sumber diubah | **Ya** (saat diperbarui) | Tidak |\n| Ukuran dokumen | Kecil | Lebih besar |\n| Bergantung pada berkas sumber | Ya | Tidak |\n\n### Latihan\n\nSebuah tabel Excel di-link ke dokumen Word. Angka di Excel diubah. Apakah dokumen Word langsung berubah?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nIkut berubah, tetapi **saat objek diperbarui** (atau saat dokumen dibuka dengan pembaruan tautan). Dokumen tidak berubah seketika pada detik yang sama.\n\n</details>"
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "TIK — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi perkantoran yang berfungsi mengolah kata adalah …",
+              "options": [
+                {
+                  "text": "Microsoft Word",
+                  "correct": true
+                },
+                {
+                  "text": "Microsoft Excel",
+                  "correct": false
+                },
+                {
+                  "text": "Microsoft PowerPoint",
+                  "correct": false
+                },
+                {
+                  "text": "Microsoft Access",
+                  "correct": false
+                }
+              ],
+              "explanation": "Word adalah pengolah kata; Excel pengolah angka, PowerPoint presentasi, Access basis data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi perkantoran yang berfungsi mengolah angka dan perhitungan adalah …",
+              "options": [
+                {
+                  "text": "Microsoft Word",
+                  "correct": false
+                },
+                {
+                  "text": "Microsoft Excel",
+                  "correct": true
+                },
+                {
+                  "text": "Microsoft PowerPoint",
+                  "correct": false
+                },
+                {
+                  "text": "Microsoft Outlook",
+                  "correct": false
+                }
+              ],
+              "explanation": "Excel menyediakan sel, rumus, dan grafik untuk mengolah angka."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi yang digunakan untuk membuat bahan presentasi adalah …",
+              "options": [
+                {
+                  "text": "Microsoft Word",
+                  "correct": false
+                },
+                {
+                  "text": "Microsoft Excel",
+                  "correct": false
+                },
+                {
+                  "text": "Microsoft PowerPoint",
+                  "correct": true
+                },
+                {
+                  "text": "Notepad",
+                  "correct": false
+                }
+              ],
+              "explanation": "PowerPoint membuat slide presentasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fitur yang digunakan untuk membuat satu surat dengan banyak tujuan berbeda secara otomatis adalah …",
+              "options": [
+                {
+                  "text": "mail merge",
+                  "correct": true
+                },
+                {
+                  "text": "pivot table",
+                  "correct": false
+                },
+                {
+                  "text": "freeze panes",
+                  "correct": false
+                },
+                {
+                  "text": "slide master",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mail merge menggabungkan satu dokumen induk dengan daftar data penerima."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "OLE merupakan singkatan dari …",
+              "options": [
+                {
+                  "text": "Object Linking and Embedding",
+                  "correct": true
+                },
+                {
+                  "text": "Online Learning Environment",
+                  "correct": false
+                },
+                {
+                  "text": "Office Layout Editor",
+                  "correct": false
+                },
+                {
+                  "text": "Open Link Exchange",
+                  "correct": false
+                }
+              ],
+              "explanation": "OLE adalah teknologi untuk menyisipkan objek dari aplikasi lain ke dalam dokumen."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "TIK — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Fitur Excel yang digunakan untuk merangkum data dalam jumlah besar menjadi tabel ringkas adalah …",
+              "options": [
+                {
+                  "text": "pivot table",
+                  "correct": true
+                },
+                {
+                  "text": "mail merge",
+                  "correct": false
+                },
+                {
+                  "text": "word art",
+                  "correct": false
+                },
+                {
+                  "text": "slide transition",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pivot table merangkum, mengelompokkan, dan menghitung data tanpa mengubah data aslinya.",
+              "hint": "Fitur ini bisa memutar (pivot) sudut pandang data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi Excel yang dipakai untuk mencari nilai pada kolom pertama sebuah tabel dan mengambil nilai dari kolom lain adalah …",
+              "options": [
+                {
+                  "text": "VLOOKUP",
+                  "correct": true
+                },
+                {
+                  "text": "SUM",
+                  "correct": false
+                },
+                {
+                  "text": "COUNT",
+                  "correct": false
+                },
+                {
+                  "text": "CONCATENATE",
+                  "correct": false
+                }
+              ],
+              "explanation": "VLOOKUP mencari nilai kunci secara vertikal lalu mengembalikan nilai dari kolom yang ditentukan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika sel A1 berisi 5, A2 berisi 10, dan A3 berisi 15, hasil =SUM(A1:A3) adalah …",
+              "options": [
+                {
+                  "text": "15",
+                  "correct": false
+                },
+                {
+                  "text": "20",
+                  "correct": false
+                },
+                {
+                  "text": "30",
+                  "correct": true
+                },
+                {
+                  "text": "50",
+                  "correct": false
+                }
+              ],
+              "explanation": "SUM menjumlahkan seluruh nilai pada rentang A1 sampai A3: 5 + 10 + 15 = 30."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tanda dolar pada referensi $A$1 dalam Excel berarti …",
+              "options": [
+                {
+                  "text": "kolom dan baris tidak berubah saat rumus disalin",
+                  "correct": true
+                },
+                {
+                  "text": "sel tersebut terkunci dari pengeditan",
+                  "correct": false
+                },
+                {
+                  "text": "nilai sel dibulatkan",
+                  "correct": false
+                },
+                {
+                  "text": "sel bersifat rahasia",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanda $ membuat referensi absolut, sehingga kolom dan baris tetap saat rumus disalin ke sel lain.",
+              "hint": "Bedakan referensi relatif A1 dengan absolut $A$1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan utama objek yang di-embed dan objek yang di-link adalah …",
+              "options": [
+                {
+                  "text": "objek embed tersimpan di dalam dokumen, objek link hanya menyimpan rujukan ke berkas sumber",
+                  "correct": true
+                },
+                {
+                  "text": "objek embed selalu berupa gambar",
+                  "correct": false
+                },
+                {
+                  "text": "objek link tidak dapat diubah",
+                  "correct": false
+                },
+                {
+                  "text": "objek embed tidak dapat dicetak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Objek embed menjadi bagian dokumen sehingga tidak ikut berubah; objek link mengikuti berkas sumber."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jenis grafik yang paling tepat untuk menunjukkan proporsi bagian terhadap keseluruhan adalah …",
+              "options": [
+                {
+                  "text": "pie chart",
+                  "correct": true
+                },
+                {
+                  "text": "line chart",
+                  "correct": false
+                },
+                {
+                  "text": "scatter chart",
+                  "correct": false
+                },
+                {
+                  "text": "histogram",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pie chart menunjukkan porsi setiap bagian terhadap total 100%."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fitur PowerPoint yang menyimpan pengaturan huruf, warna, dan tata letak agar seragam pada semua slide adalah …",
+              "options": [
+                {
+                  "text": "slide master",
+                  "correct": true
+                },
+                {
+                  "text": "slide sorter",
+                  "correct": false
+                },
+                {
+                  "text": "animation pane",
+                  "correct": false
+                },
+                {
+                  "text": "notes page",
+                  "correct": false
+                }
+              ],
+              "explanation": "Slide master mengatur tampilan dasar seluruh slide sehingga perubahan berlaku menyeluruh."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk fitur lanjut aplikasi perkantoran? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Mail merge pada pengolah kata",
+                  "correct": true
+                },
+                {
+                  "text": "Pivot table pada pengolah angka",
+                  "correct": true
+                },
+                {
+                  "text": "Pembuatan diagram dari data lembar kerja",
+                  "correct": true
+                },
+                {
+                  "text": "Menekan tombol Caps Lock",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mail merge, pivot table, dan diagram dari data adalah fitur lanjut. Caps Lock hanya pengaturan input dasar.",
+              "hint": "Fitur lanjut biasanya melibatkan pengolahan data atau integrasi antar aplikasi."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan aplikasi dengan kegunaan utamanya.",
+              "options": [
+                {
+                  "id": "a1",
+                  "text": "Microsoft Word"
+                },
+                {
+                  "id": "a2",
+                  "text": "Microsoft Excel"
+                },
+                {
+                  "id": "a3",
+                  "text": "Microsoft PowerPoint"
+                },
+                {
+                  "id": "a4",
+                  "text": "Mail merge"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "a1": "Mengolah kata dan dokumen",
+                  "a2": "Mengolah angka dan rumus",
+                  "a3": "Membuat bahan presentasi",
+                  "a4": "Membuat banyak surat dari satu data"
+                }
+              },
+              "explanation": "Word untuk dokumen, Excel untuk angka, PowerPoint untuk presentasi, mail merge untuk surat massal.",
+              "hint": "Cocokkan berdasarkan jenis isi yang diolah."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan mail merge.",
+              "options": [
+                {
+                  "id": "s1",
+                  "text": "Siapkan dokumen induk (surat)"
+                },
+                {
+                  "id": "s2",
+                  "text": "Siapkan sumber data penerima"
+                },
+                {
+                  "id": "s3",
+                  "text": "Sisipkan medan (field) ke dokumen induk"
+                },
+                {
+                  "id": "s4",
+                  "text": "Jalankan penggabungan dan simpan hasil"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "s1": "1",
+                  "s2": "2",
+                  "s3": "3",
+                  "s4": "4"
+                }
+              },
+              "explanation": "Mail merge memerlukan dokumen induk, sumber data, penyisipan medan, lalu penggabungan.",
+              "hint": "Mulai dari dokumen yang akan digandakan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "TIK — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah objek Excel di-link ke dokumen Word. Ketika data di Excel diubah, maka …",
+              "options": [
+                {
+                  "text": "objek di Word ikut berubah saat diperbarui",
+                  "correct": true
+                },
+                {
+                  "text": "objek di Word tetap seperti semula selamanya",
+                  "correct": false
+                },
+                {
+                  "text": "dokumen Word otomatis tertutup",
+                  "correct": false
+                },
+                {
+                  "text": "berkas Excel terhapus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karena link hanya menyimpan rujukan, perubahan pada berkas sumber akan tercermin saat objek diperbarui."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika sel A1 berisi 75 dan rumus =IF(A1>70,\"Lulus\",\"Tidak\") dijalankan, hasilnya adalah …",
+              "options": [
+                {
+                  "text": "Lulus",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak",
+                  "correct": false
+                },
+                {
+                  "text": "75",
+                  "correct": false
+                },
+                {
+                  "text": "TRUE",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karena 75 > 70 bernilai benar, fungsi IF mengembalikan nilai kedua, yaitu \"Lulus\"."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Referensi sel A1 pada rumus disalin dari B2 ke C3 akan berubah menjadi …",
+              "options": [
+                {
+                  "text": "B2",
+                  "correct": true
+                },
+                {
+                  "text": "A1",
+                  "correct": false
+                },
+                {
+                  "text": "C3",
+                  "correct": false
+                },
+                {
+                  "text": "B3",
+                  "correct": false
+                }
+              ],
+              "explanation": "Referensi relatif bergeser sejauh perpindahan sel: satu kolom ke kanan dan satu baris ke bawah, sehingga A1 menjadi B2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Referensi $A$1 pada rumus disalin dari B2 ke C3 akan tetap …",
+              "options": [
+                {
+                  "text": "$A$1",
+                  "correct": true
+                },
+                {
+                  "text": "$B$2",
+                  "correct": false
+                },
+                {
+                  "text": "$C$3",
+                  "correct": false
+                },
+                {
+                  "text": "A1",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanda $ mengunci kolom dan baris, sehingga referensi absolut tidak bergeser saat disalin."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fitur yang berguna mempertahankan baris judul tetap terlihat saat menggulir data panjang adalah …",
+              "options": [
+                {
+                  "text": "freeze panes",
+                  "correct": true
+                },
+                {
+                  "text": "mail merge",
+                  "correct": false
+                },
+                {
+                  "text": "slide master",
+                  "correct": false
+                },
+                {
+                  "text": "autofilter",
+                  "correct": false
+                }
+              ],
+              "explanation": "Freeze panes membekukan baris atau kolom tertentu agar tetap tampil saat penggulungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pewarnaan sel otomatis berdasarkan aturan tertentu, misalnya nilai di bawah 70 menjadi merah, menggunakan fitur …",
+              "options": [
+                {
+                  "text": "conditional formatting",
+                  "correct": true
+                },
+                {
+                  "text": "pivot table",
+                  "correct": false
+                },
+                {
+                  "text": "page layout",
+                  "correct": false
+                },
+                {
+                  "text": "word count",
+                  "correct": false
+                }
+              ],
+              "explanation": "Conditional formatting memberi format otomatis sesuai kondisi data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Untuk membuat daftar isi otomatis di pengolah kata, paragraf judul harus memakai …",
+              "options": [
+                {
+                  "text": "gaya heading (Heading 1, Heading 2, dan seterusnya)",
+                  "correct": true
+                },
+                {
+                  "text": "huruf tebal manual",
+                  "correct": false
+                },
+                {
+                  "text": "spasi ganda",
+                  "correct": false
+                },
+                {
+                  "text": "perataan tengah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Daftar isi otomatis membaca gaya heading, bukan format manual seperti huruf tebal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan page break dan section break pada pengolah kata adalah …",
+              "options": [
+                {
+                  "text": "page break memindahkan ke halaman baru, section break memungkinkan format berbeda per bagian",
+                  "correct": true
+                },
+                {
+                  "text": "page break hanya berlaku di Excel",
+                  "correct": false
+                },
+                {
+                  "text": "section break menghapus halaman",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya sama saja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Section break membagi dokumen menjadi bagian dengan pengaturan halaman, header, atau kolom yang berbeda."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fitur data validation pada pengolah angka berfungsi untuk …",
+              "options": [
+                {
+                  "text": "membatasi nilai yang boleh dimasukkan ke sebuah sel",
+                  "correct": true
+                },
+                {
+                  "text": "mengurutkan data otomatis",
+                  "correct": false
+                },
+                {
+                  "text": "membuat grafik",
+                  "correct": false
+                },
+                {
+                  "text": "menggabungkan dokumen",
+                  "correct": false
+                }
+              ],
+              "explanation": "Data validation membatasi jenis atau rentang nilai masukan sehingga data lebih konsisten."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Untuk menampilkan data sebagai video, presentasi dapat disimpan dalam format …",
+              "options": [
+                {
+                  "text": "MP4",
+                  "correct": true
+                },
+                {
+                  "text": "DOCX",
+                  "correct": false
+                },
+                {
+                  "text": "XLSX",
+                  "correct": false
+                },
+                {
+                  "text": "TXT",
+                  "correct": false
+                }
+              ],
+              "explanation": "Aplikasi presentasi menyediakan ekspor ke format video MP4 beserta narasi dan animasinya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang integrasi aplikasi perkantoran? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Objek tertaut ikut berubah ketika berkas sumber diperbarui",
+                  "correct": true
+                },
+                {
+                  "text": "Objek tertanam tersimpan di dalam dokumen tujuan",
+                  "correct": true
+                },
+                {
+                  "text": "Grafik dari lembar kerja dapat disalin ke dokumen kata",
+                  "correct": true
+                },
+                {
+                  "text": "Integrasi hanya dapat dilakukan antar aplikasi yang sama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Integrasi justru bertujuan menghubungkan aplikasi berbeda. Objek tertaut mengikuti sumber, objek tertanam tersimpan di dokumen tujuan, dan grafik dapat dipindahkan antar aplikasi."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "t1",
+                  "text": "Embed"
+                },
+                {
+                  "id": "t2",
+                  "text": "Link"
+                },
+                {
+                  "id": "t3",
+                  "text": "Pivot table"
+                },
+                {
+                  "id": "t4",
+                  "text": "Slide master"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "t1": "Objek disimpan di dalam dokumen",
+                  "t2": "Objek merujuk ke berkas sumber",
+                  "t3": "Merangkum data besar menjadi ringkasan",
+                  "t4": "Mengatur tampilan dasar seluruh slide"
+                }
+              },
+              "explanation": "Embed menyimpan objek di dokumen, link menyimpan rujukan, pivot table merangkum data, slide master mengatur tampilan slide."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah membuat diagram di presentasi dari data lembar kerja.",
+              "options": [
+                {
+                  "id": "c1",
+                  "text": "Siapkan data pada lembar kerja"
+                },
+                {
+                  "id": "c2",
+                  "text": "Pilih rentang data yang akan digambarkan"
+                },
+                {
+                  "id": "c3",
+                  "text": "Salin data sebagai grafik ke slide"
+                },
+                {
+                  "id": "c4",
+                  "text": "Atur judul, label, dan warna grafik"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "c1",
+                  "c2",
+                  "c3",
+                  "c4"
+                ]
+              },
+              "explanation": "Data disiapkan lebih dulu, dipilih rentangnya, dipindahkan sebagai grafik, lalu dirapikan tampilannya."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan setiap fitur ke aplikasi yang tepat.",
+              "options": [
+                {
+                  "id": "f1",
+                  "text": "Daftar isi otomatis"
+                },
+                {
+                  "id": "f2",
+                  "text": "Pivot table"
+                },
+                {
+                  "id": "f3",
+                  "text": "Animasi transisi slide"
+                },
+                {
+                  "id": "f4",
+                  "text": "VLOOKUP"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "f1": "Pengolah kata",
+                  "f2": "Pengolah angka",
+                  "f3": "Presentasi",
+                  "f4": "Pengolah angka"
+                }
+              },
+              "explanation": "Daftar isi ada di pengolah kata, pivot table dan VLOOKUP di pengolah angka, transisi slide di presentasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dokumen yang memakai objek tertanam (embed) memiliki ukuran berkas lebih besar karena …",
+              "options": [
+                {
+                  "text": "seluruh data objek ikut tersimpan di dalam dokumen",
+                  "correct": true
+                },
+                {
+                  "text": "dokumen otomatis terkompresi",
+                  "correct": false
+                },
+                {
+                  "text": "objek tertanam tidak memiliki data",
+                  "correct": false
+                },
+                {
+                  "text": "dokumen menyimpan tautan ke internet",
+                  "correct": false
+                }
+              ],
+              "explanation": "Objek tertanam menyimpan salinan penuh datanya, sedangkan objek tertaut hanya menyimpan rujukan kecil."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "informatika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "INF 4",
+      "title": "Jaringan Komputer dan Internet",
+      "description": "Jaringan lokal dan internet, konektivitas kabel dan nirkabel, teknologi komunikasi data, serta proteksi data pribadi.",
+      "learning_objectives": [
+        "Memahami perbedaan jaringan lokal dan internet dan jenis-jenis konektivitas internet melalui jaringan kabel dan nirkabel.",
+        "Memahami teknologi komunikasi untuk keperluan komunikasi data via HP.",
+        "Memahami pentingnya proteksi data pribadi saat terhubung ke jaringan internet serta menerapkan enkripsi untuk memproteksi dokumen."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Informatika Kelas X SMA Fase E Bab 5",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Jaringan Lokal dan Internet",
+          "duration": 240,
+          "source_reference": "Bab 5 — Jaringan Komputer dan Internet",
+          "content": "## Dari jaringan kecil ke jaringan global\n\n**LAN** (Local Area Network) menghubungkan perangkat dalam wilayah terbatas: satu ruangan, satu gedung, atau satu sekolah.\n\n**Internet** adalah jaringan global yang menghubungkan jutaan jaringan lokal di seluruh dunia.\n\n### Perangkat penghubung\n\n| Perangkat | Fungsi |\n|---|---|\n| **Switch** | menghubungkan perangkat dalam satu jaringan lokal |\n| **Router** | meneruskan paket antar jaringan berbeda, termasuk ke internet |\n| **Access point** | memancarkan sinyal nirkabel |\n| **Modem** | mengubah sinyal digital ke sinyal saluran komunikasi |\n\n### Alamat IP\n\nSetiap perangkat memiliki alamat IP sebagai identitas, misalnya 192.168.1.1 pada IPv4 yang terdiri atas empat bilangan dipisahkan titik.\n\n### Intranet\n\nIntranet memakai teknologi internet tetapi aksesnya terbatas untuk kalangan tertentu, misalnya sistem internal sekolah."
+        },
+        {
+          "type": "text",
+          "title": "Konektivitas Kabel dan Nirkabel",
+          "duration": 360,
+          "source_reference": "Bab 5 — Konektivitas",
+          "content": "## Dua cara menghubungkan perangkat\n\n**Kabel** — data mengalir melalui media fisik:\n- kabel UTP (Ethernet, standar IEEE 802.3)\n- serat optik, memakai cahaya sehingga sangat cepat dan tahan gangguan\n\n**Nirkabel** — data dipancarkan sebagai gelombang elektromagnetik:\n- Wi-Fi (standar IEEE 802.11)\n- Bluetooth untuk jarak pendek\n- jaringan seluler 4G/5G untuk komunikasi data melalui HP\n\n### Perbandingan\n\n| Aspek | Kabel | Nirkabel |\n|---|---|---|\n| Stabilitas | tinggi | rentan gangguan |\n| Mobilitas | terbatas | tinggi |\n| Keamanan | lebih sulit disadap | lebih mudah disadap |\n\n### Bandwidth\n\nBandwidth menyatakan banyaknya data yang dapat dikirim per satuan waktu, diukur dalam bit per detik. Semakin besar bandwidth, semakin banyak data yang dapat lewat.\n\n### Generasi seluler\n\nSetiap generasi (2G, 3G, 4G, 5G) meningkatkan kecepatan data dan menurunkan latensi. 5G menawarkan latensi sangat rendah sehingga cocok untuk aplikasi waktu nyata."
+        },
+        {
+          "type": "interactive",
+          "title": "Memproteksi Data Pribadi",
+          "duration": 240,
+          "source_reference": "Bab 5 — Proteksi Data",
+          "content": "## Mengapa data pribadi berharga?\n\nData pribadi seperti NIK, nomor telepon, alamat, dan riwayat keuangan dapat dipakai untuk menyamar, memeras, atau merugikan pemiliknya.\n\n### Langkah perlindungan\n\n1. Pakai kata sandi **kuat** dan **berbeda** untuk setiap akun\n2. Aktifkan **verifikasi dua langkah**\n3. **Enkripsi** dokumen penting sebelum dikirim\n4. Hindari Wi-Fi publik terbuka, atau gunakan **VPN**\n5. Periksa kebenaran situs sebelum memasukkan data\n\n### Enkripsi\n\nEnkripsi mengubah data menjadi bentuk yang tidak dapat dibaca tanpa kunci.\n\n- **Simetris** — satu kunci yang sama untuk mengunci dan membuka\n- **Asimetris** — pasangan kunci publik dan privat\n\n### Keterbatasan enkripsi\n\nEnkripsi hanya sekuat pengelolaan kuncinya. Bila kunci bocor atau hilang, perlindungannya ikut hilang. Karena itu kata sandi enkripsi sebaiknya dikirim melalui **saluran berbeda** dari dokumennya.\n\n### HTTPS\n\nHTTPS adalah HTTP yang dienkripsi dengan TLS, sehingga isi komunikasi dengan situs web tidak dapat dibaca pihak lain."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Jaringan Komputer dan Internet — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Jaringan yang mencakup area kecil seperti satu ruang atau satu gedung disebut …",
+              "options": [
+                {
+                  "text": "LAN",
+                  "correct": true
+                },
+                {
+                  "text": "WAN",
+                  "correct": false
+                },
+                {
+                  "text": "internet",
+                  "correct": false
+                },
+                {
+                  "text": "intranet",
+                  "correct": false
+                }
+              ],
+              "explanation": "LAN (Local Area Network) mencakup wilayah terbatas seperti kantor, sekolah, atau rumah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jaringan yang menghubungkan komputer di seluruh dunia disebut …",
+              "options": [
+                {
+                  "text": "LAN",
+                  "correct": false
+                },
+                {
+                  "text": "MAN",
+                  "correct": false
+                },
+                {
+                  "text": "internet",
+                  "correct": true
+                },
+                {
+                  "text": "PAN",
+                  "correct": false
+                }
+              ],
+              "explanation": "Internet adalah jaringan global yang menghubungkan jaringan-jaringan lokal di seluruh dunia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Media transmisi yang menggunakan gelombang radio atau inframerah disebut media …",
+              "options": [
+                {
+                  "text": "kabel",
+                  "correct": false
+                },
+                {
+                  "text": "nirkabel",
+                  "correct": true
+                },
+                {
+                  "text": "serat optik",
+                  "correct": false
+                },
+                {
+                  "text": "koaksial",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nirkabel (wireless) mengirim data tanpa kabel, memakai gelombang elektromagnetik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat yang menghubungkan beberapa komputer dalam satu jaringan lokal adalah …",
+              "options": [
+                {
+                  "text": "switch",
+                  "correct": true
+                },
+                {
+                  "text": "printer",
+                  "correct": false
+                },
+                {
+                  "text": "monitor",
+                  "correct": false
+                },
+                {
+                  "text": "scanner",
+                  "correct": false
+                }
+              ],
+              "explanation": "Switch meneruskan data antar perangkat dalam satu jaringan lokal berdasarkan alamat fisik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data pribadi sebaiknya …",
+              "options": [
+                {
+                  "text": "dibagikan bebas di media sosial",
+                  "correct": false
+                },
+                {
+                  "text": "dilindungi dan tidak disebarkan sembarangan",
+                  "correct": true
+                },
+                {
+                  "text": "ditulis di tempat umum",
+                  "correct": false
+                },
+                {
+                  "text": "diberikan kepada siapa pun yang meminta",
+                  "correct": false
+                }
+              ],
+              "explanation": "Data pribadi seperti NIK, nomor telepon, dan alamat dapat disalahgunakan bila bocor."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Jaringan Komputer dan Internet — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan utama LAN dan WAN terletak pada …",
+              "options": [
+                {
+                  "text": "cakupan wilayahnya",
+                  "correct": true
+                },
+                {
+                  "text": "warna kabelnya",
+                  "correct": false
+                },
+                {
+                  "text": "merek perangkatnya",
+                  "correct": false
+                },
+                {
+                  "text": "jumlah penggunanya saja",
+                  "correct": false
+                }
+              ],
+              "explanation": "LAN mencakup wilayah kecil, sedangkan WAN mencakup wilayah luas antar kota atau negara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jaringan nirkabel memakai standar yang dikenal dengan nama …",
+              "options": [
+                {
+                  "text": "IEEE 802.3",
+                  "correct": false
+                },
+                {
+                  "text": "IEEE 802.11",
+                  "correct": true
+                },
+                {
+                  "text": "IEEE 1284",
+                  "correct": false
+                },
+                {
+                  "text": "IEEE 1394",
+                  "correct": false
+                }
+              ],
+              "explanation": "Standar IEEE 802.11 adalah keluarga standar jaringan nirkabel yang kita kenal sebagai Wi-Fi.",
+              "hint": "802.3 adalah Ethernet (kabel)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teknologi jaringan seluler dari generasi ke generasi mengalami peningkatan pada …",
+              "options": [
+                {
+                  "text": "kecepatan transfer data",
+                  "correct": true
+                },
+                {
+                  "text": "ukuran kartu SIM",
+                  "correct": false
+                },
+                {
+                  "text": "warna perangkat",
+                  "correct": false
+                },
+                {
+                  "text": "harga pulsa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap generasi (2G, 3G, 4G, 5G) meningkatkan kecepatan data dan mengurangi latensi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Enkripsi bertujuan untuk …",
+              "options": [
+                {
+                  "text": "mempercepat pengiriman data",
+                  "correct": false
+                },
+                {
+                  "text": "mengubah data agar tidak dapat dibaca pihak lain",
+                  "correct": true
+                },
+                {
+                  "text": "memperbesar kapasitas penyimpanan",
+                  "correct": false
+                },
+                {
+                  "text": "mengurangi penggunaan baterai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Enkripsi mengacak data dengan kunci sehingga hanya pemegang kunci yang dapat membukanya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alamat IP berfungsi sebagai …",
+              "options": [
+                {
+                  "text": "nama pengguna",
+                  "correct": false
+                },
+                {
+                  "text": "identitas perangkat dalam jaringan",
+                  "correct": true
+                },
+                {
+                  "text": "kata sandi",
+                  "correct": false
+                },
+                {
+                  "text": "jenis kabel",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alamat IP memberi identitas unik agar data dapat dikirim ke perangkat yang tepat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perangkat yang meneruskan paket data antara dua jaringan berbeda disebut …",
+              "options": [
+                {
+                  "text": "router",
+                  "correct": true
+                },
+                {
+                  "text": "hub",
+                  "correct": false
+                },
+                {
+                  "text": "repeater",
+                  "correct": false
+                },
+                {
+                  "text": "printer",
+                  "correct": false
+                }
+              ],
+              "explanation": "Router menentukan jalur terbaik untuk meneruskan paket antar jaringan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Koneksi internet melalui jaringan kabel umumnya lebih …",
+              "options": [
+                {
+                  "text": "tidak stabil",
+                  "correct": false
+                },
+                {
+                  "text": "stabil dan cepat",
+                  "correct": true
+                },
+                {
+                  "text": "mahal tanpa manfaat",
+                  "correct": false
+                },
+                {
+                  "text": "lambat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kabel mengurangi gangguan sinyal sehingga koneksi umumnya lebih stabil dibanding nirkabel."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk data pribadi yang perlu dilindungi? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Nomor induk kependudukan",
+                  "correct": true
+                },
+                {
+                  "text": "Nomor telepon",
+                  "correct": true
+                },
+                {
+                  "text": "Alamat rumah",
+                  "correct": true
+                },
+                {
+                  "text": "Nama mata pelajaran favorit",
+                  "correct": false
+                }
+              ],
+              "explanation": "NIK, nomor telepon, dan alamat dapat dipakai untuk menyamar atau merugikan pemiliknya. Preferensi pelajaran bukan data sensitif.",
+              "hint": "Pikirkan data yang dapat disalahgunakan bila bocor."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan perangkat dengan fungsinya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Router"
+                },
+                {
+                  "id": "o1",
+                  "text": "Switch"
+                },
+                {
+                  "id": "o2",
+                  "text": "Access point"
+                },
+                {
+                  "id": "o3",
+                  "text": "Modem"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Meneruskan paket antar jaringan berbeda",
+                  "o1": "Menghubungkan perangkat dalam satu jaringan lokal",
+                  "o2": "Memancarkan sinyal nirkabel bagi perangkat",
+                  "o3": "Mengubah sinyal digital menjadi sinyal saluran komunikasi"
+                }
+              },
+              "explanation": "Setiap perangkat memiliki peran berbeda pada lapisan jaringan yang berbeda."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan media transmisi menjadi kabel dan nirkabel.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Serat optik"
+                },
+                {
+                  "id": "o1",
+                  "text": "Kabel UTP"
+                },
+                {
+                  "id": "o2",
+                  "text": "Wi-Fi"
+                },
+                {
+                  "id": "o3",
+                  "text": "Bluetooth"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Kabel",
+                  "o1": "Kabel",
+                  "o2": "Nirkabel",
+                  "o3": "Nirkabel"
+                }
+              },
+              "explanation": "Serat optik dan UTP menyalurkan data lewat kabel, sedangkan Wi-Fi dan Bluetooth lewat gelombang radio."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Jaringan Komputer dan Internet — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kelemahan utama jaringan nirkabel dibandingkan jaringan kabel adalah …",
+              "options": [
+                {
+                  "text": "lebih rentan gangguan sinyal dan penyadapan",
+                  "correct": true
+                },
+                {
+                  "text": "tidak dapat menghubungkan banyak perangkat",
+                  "correct": false
+                },
+                {
+                  "text": "tidak mendukung internet",
+                  "correct": false
+                },
+                {
+                  "text": "selalu lebih mahal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sinyal radio dapat terhalang, terganggu perangkat lain, dan lebih mudah disadap bila tidak dienkripsi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Enkripsi simetris berbeda dari enkripsi asimetris karena …",
+              "options": [
+                {
+                  "text": "memakai satu kunci yang sama untuk mengunci dan membuka",
+                  "correct": true
+                },
+                {
+                  "text": "tidak memakai kunci sama sekali",
+                  "correct": false
+                },
+                {
+                  "text": "hanya berfungsi pada gambar",
+                  "correct": false
+                },
+                {
+                  "text": "selalu lebih lambat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Enkripsi simetris memakai satu kunci bersama; enkripsi asimetris memakai pasangan kunci publik dan privat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada jaringan dengan 30 komputer, bila setiap komputer harus terhubung langsung ke setiap komputer lain, jumlah sambungannya adalah …",
+              "options": [
+                {
+                  "text": "30",
+                  "correct": false
+                },
+                {
+                  "text": "435",
+                  "correct": true
+                },
+                {
+                  "text": "465",
+                  "correct": false
+                },
+                {
+                  "text": "900",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlah sambungan = n(n − 1) ÷ 2 = 30 × 29 ÷ 2 = 435. Jaringan modern memakai switch agar tidak perlu sambungan langsung seperti ini."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "VPN (Virtual Private Network) banyak dipakai untuk …",
+              "options": [
+                {
+                  "text": "memperbesar kapasitas hard disk",
+                  "correct": false
+                },
+                {
+                  "text": "mengamankan komunikasi melalui jaringan publik",
+                  "correct": true
+                },
+                {
+                  "text": "mempercepat prosesor",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti sistem operasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "VPN membuat saluran terenkripsi di atas jaringan publik sehingga data sulit disadap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa kata sandi yang sama sebaiknya tidak dipakai di banyak akun?",
+              "options": [
+                {
+                  "text": "karena satu kebocoran membuka semua akun",
+                  "correct": true
+                },
+                {
+                  "text": "karena akan lupa",
+                  "correct": false
+                },
+                {
+                  "text": "karena server menolaknya",
+                  "correct": false
+                },
+                {
+                  "text": "karena membuat internet lambat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bila satu layanan bocor, penyerang dapat mencoba kombinasi email dan kata sandi yang sama pada layanan lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nomor IP versi 4 ditulis sebagai empat bilangan yang dipisahkan tanda …",
+              "options": [
+                {
+                  "text": "titik",
+                  "correct": true
+                },
+                {
+                  "text": "koma",
+                  "correct": false
+                },
+                {
+                  "text": "garis miring",
+                  "correct": false
+                },
+                {
+                  "text": "titik dua",
+                  "correct": false
+                }
+              ],
+              "explanation": "IPv4 ditulis seperti 192.168.1.1, memakai empat oktet yang dipisahkan titik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Protokol yang dipakai untuk mengunduh halaman web secara aman adalah …",
+              "options": [
+                {
+                  "text": "HTTP",
+                  "correct": false
+                },
+                {
+                  "text": "HTTPS",
+                  "correct": true
+                },
+                {
+                  "text": "FTP",
+                  "correct": false
+                },
+                {
+                  "text": "SMTP",
+                  "correct": false
+                }
+              ],
+              "explanation": "HTTPS adalah HTTP yang dienkripsi dengan TLS, sehingga isi komunikasi tidak dapat dibaca pihak lain."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah langkah yang tepat untuk memproteksi data pribadi saat terhubung ke internet? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Memakai kata sandi yang kuat dan berbeda tiap akun",
+                  "correct": true
+                },
+                {
+                  "text": "Mengaktifkan verifikasi dua langkah",
+                  "correct": true
+                },
+                {
+                  "text": "Mengenkripsi dokumen penting",
+                  "correct": true
+                },
+                {
+                  "text": "Mengunggah semua dokumen pribadi ke forum publik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kata sandi kuat, verifikasi dua langkah, dan enkripsi meningkatkan keamanan. Mengunggah dokumen pribadi ke forum publik justru membocorkannya."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah mengenkripsi dokumen sebelum dikirim melalui email.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Siapkan dokumen yang akan dikirim"
+                },
+                {
+                  "id": "s1",
+                  "text": "Pilih perangkat lunak atau aplikasi enkripsi"
+                },
+                {
+                  "id": "s2",
+                  "text": "Tentukan kata sandi atau kunci enkripsi"
+                },
+                {
+                  "id": "s3",
+                  "text": "Enkripsi dokumen lalu kirim bersama kata sandi melalui saluran berbeda"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Kata sandi enkripsi sebaiknya dikirim melalui saluran berbeda agar penyadap tidak memperoleh keduanya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jaringan lokal di sekolah tetap dapat mengakses internet karena …",
+              "options": [
+                {
+                  "text": "dihubungkan oleh router ke penyedia layanan internet",
+                  "correct": true
+                },
+                {
+                  "text": "komputernya lebih mahal",
+                  "correct": false
+                },
+                {
+                  "text": "lampu indikatornya menyala",
+                  "correct": false
+                },
+                {
+                  "text": "kabelnya lebih panjang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Router menjadi gerbang antara jaringan lokal dan jaringan penyedia layanan internet."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bandwidth sebuah jaringan menyatakan …",
+              "options": [
+                {
+                  "text": "jumlah data yang dapat dikirim per satuan waktu",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah komputer yang terhubung",
+                  "correct": false
+                },
+                {
+                  "text": "panjang kabel yang dipakai",
+                  "correct": false
+                },
+                {
+                  "text": "besar daya listrik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bandwidth diukur dalam bit per detik dan menentukan banyaknya data yang dapat lewat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahaya utama menggunakan Wi-Fi publik tanpa enkripsi adalah …",
+              "options": [
+                {
+                  "text": "data dapat disadap oleh pihak lain di jaringan yang sama",
+                  "correct": true
+                },
+                {
+                  "text": "baterai perangkat cepat habis",
+                  "correct": false
+                },
+                {
+                  "text": "layar menjadi redup",
+                  "correct": false
+                },
+                {
+                  "text": "perangkat otomatis mati",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pada Wi-Fi publik terbuka, lalu lintas data dapat dibaca pihak lain; memakai VPN atau HTTPS membantu mengamankannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan intranet dan internet adalah …",
+              "options": [
+                {
+                  "text": "intranet terbatas untuk kalangan tertentu, internet terbuka untuk umum",
+                  "correct": true
+                },
+                {
+                  "text": "intranet tidak memakai protokol jaringan",
+                  "correct": false
+                },
+                {
+                  "text": "internet tidak memakai alamat IP",
+                  "correct": false
+                },
+                {
+                  "text": "intranet hanya berisi satu halaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Intranet adalah jaringan internal organisasi yang memakai teknologi internet tetapi aksesnya terbatas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teknologi 5G dibandingkan 4G menawarkan …",
+              "options": [
+                {
+                  "text": "latensi lebih rendah dan kecepatan lebih tinggi",
+                  "correct": true
+                },
+                {
+                  "text": "jangkauan tanpa batas",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memerlukan menara pemancar",
+                  "correct": false
+                },
+                {
+                  "text": "hanya untuk panggilan suara",
+                  "correct": false
+                }
+              ],
+              "explanation": "5G meningkatkan kecepatan dan menurunkan latensi, sehingga cocok untuk aplikasi waktu nyata."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa enkripsi saja tidak cukup untuk melindungi data?",
+              "options": [
+                {
+                  "text": "karena kunci dapat hilang atau dicuri sehingga perlu pengelolaan kunci yang baik",
+                  "correct": true
+                },
+                {
+                  "text": "karena enkripsi membuat data terbaca lebih mudah",
+                  "correct": false
+                },
+                {
+                  "text": "karena enkripsi hanya berlaku untuk teks",
+                  "correct": false
+                },
+                {
+                  "text": "karena enkripsi memperlambat internet",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keamanan enkripsi bergantung pada kerahasiaan kunci; bila kuncinya bocor, perlindungannya hilang."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

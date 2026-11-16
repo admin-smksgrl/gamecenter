@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "informatika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "INF 5",
+      "title": "Analisis Data",
+      "description": "Membedakan data dan informasi, mengumpulkan dan mengolah data dengan alat bantu, serta menyajikannya dalam visualisasi.",
+      "learning_objectives": [
+        "Dengan membaca LKPD, siswa dapat memahami tentang data dan informasi untuk melakukan analisis data dengan benar",
+        "Melalui praktek langsung di laboratorium, siswa dapat mengenal lingkungan pengembangan dari alat bantu untuk melakukan analisis data secara online dengan benar",
+        "Melalui praktek langsung di laboratorium, siswa dapat menggunakan alat bantu untuk melakukan pengolahan data secara sederhana dengan benar",
+        "Melalui praktek langsung di laboratorium, siswa dapat memahami bahwa data dapat dikoleksi melalui berbagai cara, khususnya secara otomatis melalui perangkat dengan benar"
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Informatika Kelas X SMA Fase E Bab 6",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Data, Informasi, dan Alat Bantu",
+          "duration": 240,
+          "source_reference": "Bab 6 — Analisis Data",
+          "content": "## Data bukan informasi\n\n- **Data** — fakta mentah yang belum diolah, misalnya deretan angka hasil survei\n- **Informasi** — data yang sudah diolah sehingga bermakna, misalnya \"37,5% siswa memilih membaca\"\n\nPengolahan mengubah data menjadi informasi yang dapat dipakai mengambil keputusan.\n\n### Alat bantu analisis data\n\n**Lembar kerja (spreadsheet)** adalah alat paling umum. Setiap kotak disebut **sel** dan diberi alamat seperti B2 (kolom B, baris 2).\n\nFungsi statistik dasar:\n\n| Fungsi | Kegunaan |\n|---|---|\n| =SUM(B2:B6) | menjumlahkan nilai |\n| =AVERAGE(B2:B6) | menghitung rata-rata |\n| =MAX(B2:B6) | nilai terbesar |\n| =MIN(B2:B6) | nilai terkecil |\n| =COUNT(B2:B6) | menghitung banyak sel berisi angka |\n\nTanda titik dua (:) menyatakan **rentang** sel."
+        },
+        {
+          "type": "text",
+          "title": "Mengumpulkan dan Membersihkan Data",
+          "duration": 360,
+          "source_reference": "Bab 6 — Pengumpulan Data",
+          "content": "## Cara mengumpulkan data\n\n- **Manual** — wawancara, kuesioner, pengamatan\n- **Otomatis** — sensor, formulir digital, log sistem\n\nPengumpulan otomatis lebih konsisten dan cepat untuk data berukuran besar.\n\n## Mengapa data harus dibersihkan?\n\nData mentah sering mengandung masalah:\n\n| Masalah | Akibat |\n|---|---|\n| sel kosong | perhitungan menyimpang |\n| data ganda | jumlah membesar |\n| salah ketik | rata-rata meleset |\n| sel berisi teks \"12\" | diabaikan oleh SUM |\n\nData kotor menghasilkan kesimpulan yang salah, sehingga pembersihan adalah langkah wajib.\n\n## Urutan tahapan\n\n1. Mengumpulkan data\n2. Membersihkan data\n3. Mengolah dan menganalisis\n4. Menyajikan dalam grafik\n5. Menarik kesimpulan\n\n## Penting\n\nRata-rata hanya menggambarkan **pusat** data, bukan nilai setiap individu. Data tinggi badan dengan rata-rata 160 cm tetap memiliki siswa yang lebih pendek dan lebih tinggi."
+        },
+        {
+          "type": "interactive",
+          "title": "Memilih Grafik yang Tepat",
+          "duration": 240,
+          "source_reference": "Bab 6 — Visualisasi Data",
+          "content": "## Tiga grafik utama\n\n| Grafik | Paling tepat untuk |\n|---|---|\n| **Diagram batang** | membandingkan nilai antar kategori |\n| **Diagram garis** | menunjukkan tren dari waktu ke waktu |\n| **Diagram lingkaran** | proporsi bagian terhadap keseluruhan |\n\nMemilih grafik yang salah membuat pembaca salah paham, meskipun datanya benar.\n\n### Contoh\n\nSurvei hobi 40 siswa: 15 membaca, 13 olahraga, 12 musik.\n\n- Persentase: 37,5% / 32,5% / 30%\n- Diagram lingkaran cocok karena ketiganya bagian dari satu keseluruhan\n\n### Latihan\n\nData 4, 6, 8, 10, 12. Hitung rata-ratanya.\n\n<details>\n<summary>Lihat jawaban</summary>\n\n(4 + 6 + 8 + 10 + 12) ÷ 5 = 40 ÷ 5 = **8**\n\n</details>\n\n### Tips praktis\n\nSimpan data dalam **tabel** yang rapi sejak awal, dan buat kolom hasil perhitungan memakai **rumus** yang merujuk kolom sumber — bukan mengetik ulang angkanya."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Analisis Data — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kumpulan angka atau fakta mentah yang belum diolah disebut …",
+              "options": [
+                {
+                  "text": "data",
+                  "correct": true
+                },
+                {
+                  "text": "informasi",
+                  "correct": false
+                },
+                {
+                  "text": "kesimpulan",
+                  "correct": false
+                },
+                {
+                  "text": "laporan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Data adalah fakta mentah; informasi adalah data yang sudah diolah dan bermakna."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hasil pengolahan data sehingga bermakna bagi penerimanya disebut …",
+              "options": [
+                {
+                  "text": "data",
+                  "correct": false
+                },
+                {
+                  "text": "informasi",
+                  "correct": true
+                },
+                {
+                  "text": "sampah",
+                  "correct": false
+                },
+                {
+                  "text": "kode",
+                  "correct": false
+                }
+              ],
+              "explanation": "Informasi diperoleh setelah data diolah, misalnya dirata-rata atau disajikan dalam grafik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Program pengolah angka yang umum dipakai untuk analisis data adalah …",
+              "options": [
+                {
+                  "text": "pengolah kata",
+                  "correct": false
+                },
+                {
+                  "text": "lembar kerja (spreadsheet)",
+                  "correct": true
+                },
+                {
+                  "text": "pemutar media",
+                  "correct": false
+                },
+                {
+                  "text": "peramban web",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lembar kerja menyediakan sel, rumus, dan grafik sehingga cocok untuk mengolah data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi yang dipakai untuk menjumlahkan sekumpulan sel pada lembar kerja adalah …",
+              "options": [
+                {
+                  "text": "SUM",
+                  "correct": true
+                },
+                {
+                  "text": "AVERAGE",
+                  "correct": false
+                },
+                {
+                  "text": "IF",
+                  "correct": false
+                },
+                {
+                  "text": "COUNT",
+                  "correct": false
+                }
+              ],
+              "explanation": "SUM menjumlahkan nilai pada rentang sel, misalnya =SUM(A1:A10)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik yang paling tepat menampilkan proporsi bagian terhadap keseluruhan adalah …",
+              "options": [
+                {
+                  "text": "diagram lingkaran",
+                  "correct": true
+                },
+                {
+                  "text": "diagram batang",
+                  "correct": false
+                },
+                {
+                  "text": "diagram garis",
+                  "correct": false
+                },
+                {
+                  "text": "diagram titik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Diagram lingkaran menunjukkan bagian dari satu keseluruhan, misalnya persentase kategori."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Analisis Data — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi AVERAGE pada lembar kerja dipakai untuk …",
+              "options": [
+                {
+                  "text": "menjumlahkan data",
+                  "correct": false
+                },
+                {
+                  "text": "menghitung rata-rata",
+                  "correct": true
+                },
+                {
+                  "text": "mencari nilai terbesar",
+                  "correct": false
+                },
+                {
+                  "text": "menghitung banyak data",
+                  "correct": false
+                }
+              ],
+              "explanation": "AVERAGE menjumlahkan seluruh nilai pada rentang lalu membaginya dengan banyaknya nilai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi yang tepat untuk mencari nilai tertinggi adalah …",
+              "options": [
+                {
+                  "text": "MIN",
+                  "correct": false
+                },
+                {
+                  "text": "MAX",
+                  "correct": true
+                },
+                {
+                  "text": "SUM",
+                  "correct": false
+                },
+                {
+                  "text": "AVERAGE",
+                  "correct": false
+                }
+              ],
+              "explanation": "MAX mengembalikan nilai terbesar dalam rentang; MIN mengembalikan yang terkecil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik yang paling tepat menunjukkan perubahan nilai dari waktu ke waktu adalah …",
+              "options": [
+                {
+                  "text": "diagram lingkaran",
+                  "correct": false
+                },
+                {
+                  "text": "diagram garis",
+                  "correct": true
+                },
+                {
+                  "text": "diagram batang",
+                  "correct": false
+                },
+                {
+                  "text": "peta",
+                  "correct": false
+                }
+              ],
+              "explanation": "Diagram garis menampilkan tren perubahan sepanjang waktu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pengumpulan data secara otomatis dapat dilakukan dengan …",
+              "options": [
+                {
+                  "text": "mewawancarai satu orang saja",
+                  "correct": false
+                },
+                {
+                  "text": "sensor dan pencatatan otomatis",
+                  "correct": true
+                },
+                {
+                  "text": "menebak nilai",
+                  "correct": false
+                },
+                {
+                  "text": "menyalin data orang lain tanpa izin",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sensor, formulir digital, dan log sistem mencatat data secara otomatis dan konsisten."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data yang mengandung nilai kosong sebaiknya …",
+              "options": [
+                {
+                  "text": "dibiarkan dan diabaikan pada perhitungan",
+                  "correct": true
+                },
+                {
+                  "text": "diisi angka sembarang",
+                  "correct": false
+                },
+                {
+                  "text": "dihapus seluruh tabelnya",
+                  "correct": false
+                },
+                {
+                  "text": "diubah menjadi teks",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai kosong ditangani secara eksplisit, misalnya dilewati atau diisi dengan metode tertentu yang dicatat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rumus =SUM(B2:B6) pada lembar kerja berarti …",
+              "options": [
+                {
+                  "text": "menjumlahkan sel B2 sampai B6",
+                  "correct": true
+                },
+                {
+                  "text": "mengalikan B2 dengan B6",
+                  "correct": false
+                },
+                {
+                  "text": "mengambil nilai B2 saja",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus sel B2 sampai B6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanda titik dua menunjukkan rentang, sehingga rumus menjumlahkan lima sel B2 hingga B6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data yang diurutkan dari nilai terkecil ke terbesar disebut urutan …",
+              "options": [
+                {
+                  "text": "menaik",
+                  "correct": true
+                },
+                {
+                  "text": "menurun",
+                  "correct": false
+                },
+                {
+                  "text": "acak",
+                  "correct": false
+                },
+                {
+                  "text": "berulang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Urutan menaik (ascending) dari kecil ke besar; menurun (descending) sebaliknya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk tahapan analisis data? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Pengumpulan data",
+                  "correct": true
+                },
+                {
+                  "text": "Pembersihan data",
+                  "correct": true
+                },
+                {
+                  "text": "Visualisasi data",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus data tanpa alasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Analisis data mencakup pengumpulan, pembersihan, pengolahan, dan visualisasi. Menghapus data tanpa alasan merusak analisis."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan fungsi lembar kerja dengan kegunaannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "SUM"
+                },
+                {
+                  "id": "o1",
+                  "text": "AVERAGE"
+                },
+                {
+                  "id": "o2",
+                  "text": "MAX"
+                },
+                {
+                  "id": "o3",
+                  "text": "COUNT"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Menjumlahkan nilai pada rentang",
+                  "o1": "Menghitung rata-rata",
+                  "o2": "Mencari nilai terbesar",
+                  "o3": "Menghitung banyak sel berisi angka"
+                }
+              },
+              "explanation": "Keempat fungsi itu adalah fungsi statistik dasar pada lembar kerja."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahapan analisis data.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Mengumpulkan data"
+                },
+                {
+                  "id": "o1",
+                  "text": "Membersihkan data"
+                },
+                {
+                  "id": "o2",
+                  "text": "Mengolah dan menganalisis"
+                },
+                {
+                  "id": "o3",
+                  "text": "Menyajikan dalam grafik"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Data harus dikumpulkan dan dibersihkan sebelum diolah, lalu disajikan agar mudah dipahami."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Analisis Data — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Rata-rata dari data 4, 6, 8, 10, 12 adalah …",
+              "options": [
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "8",
+                  "correct": true
+                },
+                {
+                  "text": "9",
+                  "correct": false
+                },
+                {
+                  "text": "10",
+                  "correct": false
+                }
+              ],
+              "explanation": "(4 + 6 + 8 + 10 + 12) ÷ 5 = 40 ÷ 5 = 8."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada lembar kerja, rumus =AVERAGE(C1:C4) dengan isi 5, 10, 15, dan 20 menghasilkan …",
+              "options": [
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "12,5",
+                  "correct": true
+                },
+                {
+                  "text": "15",
+                  "correct": false
+                },
+                {
+                  "text": "50",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlahnya 50 dan banyak datanya 4, sehingga rata-ratanya 12,5."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data 3, 5, 5, 7, 9 memiliki median …",
+              "options": [
+                {
+                  "text": "5",
+                  "correct": true
+                },
+                {
+                  "text": "5,5",
+                  "correct": false
+                },
+                {
+                  "text": "7",
+                  "correct": false
+                },
+                {
+                  "text": "9",
+                  "correct": false
+                }
+              ],
+              "explanation": "Data sudah terurut dan banyaknya ganjil (5), sehingga median adalah data ke-3, yaitu 5."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah survei menanyakan hobi kepada 40 siswa: 15 membaca, 13 olahraga, 12 musik. Persentase terbesar ada pada …",
+              "options": [
+                {
+                  "text": "membaca",
+                  "correct": true
+                },
+                {
+                  "text": "olahraga",
+                  "correct": false
+                },
+                {
+                  "text": "musik",
+                  "correct": false
+                },
+                {
+                  "text": "ketiganya sama",
+                  "correct": false
+                }
+              ],
+              "explanation": "15 dari 40 = 37,5%, paling besar dibanding 32,5% dan 30%."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa data perlu dibersihkan sebelum dianalisis?",
+              "options": [
+                {
+                  "text": "karena data kotor dapat menghasilkan kesimpulan yang salah",
+                  "correct": true
+                },
+                {
+                  "text": "karena komputer tidak dapat membaca angka",
+                  "correct": false
+                },
+                {
+                  "text": "karena grafik tidak bisa dibuat",
+                  "correct": false
+                },
+                {
+                  "text": "karena datanya terlalu sedikit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai kosong, duplikat, dan kesalahan penulisan dapat menggeser hasil analisis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada lembar kerja, rumus =COUNT(A1:A10) menghitung …",
+              "options": [
+                {
+                  "text": "jumlah nilai pada A1 sampai A10",
+                  "correct": false
+                },
+                {
+                  "text": "banyak sel berisi angka pada A1 sampai A10",
+                  "correct": true
+                },
+                {
+                  "text": "nilai terbesar pada A1 sampai A10",
+                  "correct": false
+                },
+                {
+                  "text": "rata-rata A1 sampai A10",
+                  "correct": false
+                }
+              ],
+              "explanation": "COUNT menghitung banyak sel berisi angka, bukan menjumlahkan nilainya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data 2, 4, 4, 4, 6, 8, 8 memiliki modus …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "8",
+                  "correct": false
+                },
+                {
+                  "text": "4 dan 8",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai 4 muncul tiga kali, sedangkan 8 hanya dua kali, sehingga modusnya 4."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang visualisasi data? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Diagram lingkaran cocok untuk proporsi",
+                  "correct": true
+                },
+                {
+                  "text": "Diagram garis cocok untuk tren waktu",
+                  "correct": true
+                },
+                {
+                  "text": "Diagram batang cocok untuk membandingkan kategori",
+                  "correct": true
+                },
+                {
+                  "text": "Grafik 3D selalu lebih akurat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap jenis grafik memiliki kegunaan; efek 3D justru dapat menyulitkan pembacaan nilai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rata-rata lima data adalah 12. Jika empat data pertama 10, 11, 13, dan 14, data kelimanya adalah …",
+              "options": [
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": true
+                },
+                {
+                  "text": "13",
+                  "correct": false
+                },
+                {
+                  "text": "15",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlah seluruh data = 5 × 12 = 60. Jumlah empat data = 48, sehingga data kelima 12."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah membuat laporan sederhana dari data survei kelas.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Menyusun pertanyaan survei"
+                },
+                {
+                  "id": "s1",
+                  "text": "Mengumpulkan jawaban responden"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menghitung jumlah dan persentase tiap jawaban"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menyajikan hasil dalam diagram lalu menarik kesimpulan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Laporan yang baik dimulai dari pertanyaan yang jelas dan diakhiri dengan kesimpulan berdasarkan data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah sel berisi teks '12' (bukan angka). Akibatnya fungsi SUM pada rentang itu …",
+              "options": [
+                {
+                  "text": "tetap menjumlahkan seperti angka",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan sel tersebut",
+                  "correct": true
+                },
+                {
+                  "text": "menghasilkan pesan galat selalu",
+                  "correct": false
+                },
+                {
+                  "text": "mengubah teks menjadi angka otomatis",
+                  "correct": false
+                }
+              ],
+              "explanation": "SUM hanya menjumlahkan nilai berupa angka, sehingga sel berisi teks dilewati."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kelebihan menyimpan data dalam tabel yang rapi dibanding catatan bebas adalah …",
+              "options": [
+                {
+                  "text": "lebih mudah diolah dan dianalisis",
+                  "correct": true
+                },
+                {
+                  "text": "lebih menarik warnanya",
+                  "correct": false
+                },
+                {
+                  "text": "lebih cepat ditulis tangan",
+                  "correct": false
+                },
+                {
+                  "text": "tidak perlu dicadangkan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Struktur tabel yang konsisten memudahkan penyaringan, perhitungan, dan pembuatan grafik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diagram batang paling tepat dipakai ketika kita ingin …",
+              "options": [
+                {
+                  "text": "membandingkan nilai antar kategori",
+                  "correct": true
+                },
+                {
+                  "text": "menunjukkan bagian dari keseluruhan",
+                  "correct": false
+                },
+                {
+                  "text": "menampilkan tren waktu",
+                  "correct": false
+                },
+                {
+                  "text": "menunjukkan letak geografis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Diagram batang menampilkan perbandingan nilai antar kategori secara jelas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data tinggi badan 20 siswa diolah menjadi rata-rata 160 cm. Pernyataan yang tepat adalah …",
+              "options": [
+                {
+                  "text": "tinggi setiap siswa tepat 160 cm",
+                  "correct": false
+                },
+                {
+                  "text": "tinggi siswa berkisar di sekitar rata-rata tersebut",
+                  "correct": true
+                },
+                {
+                  "text": "tidak ada siswa di bawah 160 cm",
+                  "correct": false
+                },
+                {
+                  "text": "rata-rata itu tidak bermakna",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rata-rata hanya menggambarkan pusat data, bukan nilai setiap individu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kolom tambahan yang berisi hasil perhitungan dari kolom lain sebaiknya dibuat dengan …",
+              "options": [
+                {
+                  "text": "mengetik ulang angkanya",
+                  "correct": false
+                },
+                {
+                  "text": "rumus yang merujuk kolom sumber",
+                  "correct": true
+                },
+                {
+                  "text": "menyalin dari internet",
+                  "correct": false
+                },
+                {
+                  "text": "gambar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rumus otomatis menyesuaikan saat data sumber berubah, sehingga mengurangi kesalahan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

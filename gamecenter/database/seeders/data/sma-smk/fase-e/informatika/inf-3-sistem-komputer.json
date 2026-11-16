@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "informatika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "INF 3",
+      "title": "Sistem Komputer",
+      "description": "Menjelaskan komponen komputer, cara kerja pemrosesan data, peran sistem operasi, serta interaksi perangkat keras, perangkat lunak, dan pengguna.",
+      "learning_objectives": [
+        "Menjelaskan peran sistem operasi.",
+        "Menjelaskan cara kerja komputer dalam memproses data.",
+        "Menjelaskan mekanisme internal yang terjadi pada interaksi antara perangkat keras, perangkat lunak, dan pengguna."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Informatika Kelas X SMA Fase E Bab 4 — Sistem Komputer",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Komponen Penyusun Sistem Komputer",
+          "duration": 240,
+          "source_reference": "Modul Ajar Informatika Bab 4 — Pertemuan 1",
+          "content": "## Empat kelompok komponen\n\n| Kelompok | Contoh | Tugas |\n|---|---|---|\n| **Masukan** | keyboard, mouse, scanner | memasukkan data |\n| **Proses** | CPU | mengolah data |\n| **Keluaran** | monitor, printer, speaker | menampilkan hasil |\n| **Penyimpanan** | RAM, hard disk, SSD | menyimpan data |\n\n### Di dalam CPU\n\n- **ALU** — melakukan operasi aritmetika dan logika\n- **Control unit** — mengatur urutan pengambilan dan pelaksanaan instruksi\n- **Register** — penyimpan kecil berkecepatan sangat tinggi\n- **Cache** — menyimpan data yang sering dipakai agar tidak perlu diambil jauh dari RAM\n\n### RAM vs hard disk\n\n| | RAM | Hard disk / SSD |\n|---|---|---|\n| Sifat | sementara (volatile) | permanen |\n| Kecepatan | sangat cepat | lebih lambat |\n| Isi saat daya putus | **hilang** | tetap |\n\nItulah sebabnya pekerjaan yang belum disimpan akan hilang bila listrik padam — datanya masih berada di RAM."
+        },
+        {
+          "type": "text",
+          "title": "Cara Kerja Komputer dan Peran Sistem Operasi",
+          "duration": 360,
+          "source_reference": "Modul Ajar Informatika Bab 4 — Tujuan Pembelajaran",
+          "content": "## Siklus kerja CPU\n\n> **fetch → decode → execute**\n\n1. **Fetch** — mengambil instruksi dari memori\n2. **Decode** — menerjemahkan instruksi\n3. **Execute** — melaksanakan instruksi\n\nSiklus ini berulang sangat cepat, miliaran kali per detik.\n\n## Proses menyalakan komputer\n\n> **POST → bootloader → sistem operasi**\n\n- **POST** memeriksa perangkat keras\n- **Bootloader** mencari dan memuat sistem operasi\n- **Sistem operasi** siap dijalankan\n\nFirmware seperti BIOS/UEFI berjalan lebih dulu karena sistem operasi belum dimuat.\n\n## Tugas sistem operasi\n\n1. **Manajemen proses** — menjadwalkan pemakaian CPU (multitasking)\n2. **Manajemen memori** — membagi memori antarprogram dan melindungi ruang alamat\n3. **Manajemen berkas** — membuat, memindahkan, menghapus berkas dan folder\n4. **Manajemen perangkat** — melalui **device driver**\n\nBila RAM hampir penuh, sistem operasi memindahkan sebagian isi memori ke media penyimpanan. Ini disebut **memori virtual (swap)**, dan konsekuensinya kinerja menurun karena penyimpanan lebih lambat daripada RAM."
+        },
+        {
+          "type": "interactive",
+          "title": "Mekanisme Interaksi Manusia dan Komputer",
+          "duration": 240,
+          "source_reference": "Modul Ajar Informatika Bab 4 — Interaksi Manusia dan Komputer",
+          "content": "## Perjalanan satu ketukan tombol\n\n1. Pengguna menekan tombol pada **keyboard** (perangkat masukan)\n2. **Sistem operasi** menerima sinyal dan meneruskannya ke aplikasi yang aktif\n3. **Aplikasi dan CPU** mengolah data\n4. Hasilnya dikirim ke **monitor** (perangkat keluaran)\n\nSemua ini terjadi dalam waktu yang tidak terasa.\n\n### Mengapa antarmuka penting?\n\nInteraksi manusia–komputer mempelajari bagaimana pengguna berkomunikasi dengan sistem. Antarmuka yang baik membuat pengguna tidak perlu memahami detail teknis di baliknya.\n\n### Latihan\n\nMengapa sistem operasi dapat menghentikan program yang tidak merespons?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nKarena sistem operasi yang **menjadwalkan proses** dan **mengalokasikan sumber daya**. Program berjalan di bawah kendalinya, sehingga ia berwenang menghentikannya.\n\n</details>"
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Sistem Komputer — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bagian komputer yang bertugas memproses seluruh instruksi disebut …",
+              "options": [
+                {
+                  "text": "CPU",
+                  "correct": true
+                },
+                {
+                  "text": "monitor",
+                  "correct": false
+                },
+                {
+                  "text": "keyboard",
+                  "correct": false
+                },
+                {
+                  "text": "printer",
+                  "correct": false
+                }
+              ],
+              "explanation": "CPU (Central Processing Unit) menjalankan instruksi dan menjadi pusat pengolahan data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perangkat yang termasuk kelompok perangkat masukan (input) adalah …",
+              "options": [
+                {
+                  "text": "keyboard",
+                  "correct": true
+                },
+                {
+                  "text": "monitor",
+                  "correct": false
+                },
+                {
+                  "text": "printer",
+                  "correct": false
+                },
+                {
+                  "text": "speaker",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keyboard memasukkan data ke komputer, sedangkan monitor, printer, dan speaker adalah perangkat keluaran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perangkat yang termasuk kelompok perangkat keluaran (output) adalah …",
+              "options": [
+                {
+                  "text": "monitor",
+                  "correct": true
+                },
+                {
+                  "text": "mouse",
+                  "correct": false
+                },
+                {
+                  "text": "scanner",
+                  "correct": false
+                },
+                {
+                  "text": "keyboard",
+                  "correct": false
+                }
+              ],
+              "explanation": "Monitor menampilkan hasil pengolahan kepada pengguna."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perangkat lunak utama yang mengelola perangkat keras dan menjalankan program aplikasi disebut …",
+              "options": [
+                {
+                  "text": "sistem operasi",
+                  "correct": true
+                },
+                {
+                  "text": "peramban web",
+                  "correct": false
+                },
+                {
+                  "text": "pengolah kata",
+                  "correct": false
+                },
+                {
+                  "text": "pemutar musik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sistem operasi menjadi penghubung antara perangkat keras, program aplikasi, dan pengguna."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Memori yang bersifat sementara dan kehilangan isinya saat komputer dimatikan adalah …",
+              "options": [
+                {
+                  "text": "RAM",
+                  "correct": true
+                },
+                {
+                  "text": "ROM",
+                  "correct": false
+                },
+                {
+                  "text": "hard disk",
+                  "correct": false
+                },
+                {
+                  "text": "flash drive",
+                  "correct": false
+                }
+              ],
+              "explanation": "RAM bersifat volatile — isinya hilang ketika daya diputus."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Sistem Komputer — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bagian CPU yang melakukan perhitungan aritmetika dan operasi logika adalah …",
+              "options": [
+                {
+                  "text": "ALU",
+                  "correct": true
+                },
+                {
+                  "text": "control unit",
+                  "correct": false
+                },
+                {
+                  "text": "RAM",
+                  "correct": false
+                },
+                {
+                  "text": "cache",
+                  "correct": false
+                }
+              ],
+              "explanation": "ALU (Arithmetic Logic Unit) menangani operasi hitung dan logika.",
+              "hint": "Namanya mengandung kata aritmetika dan logika."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian CPU yang mengatur urutan pengambilan dan pelaksanaan instruksi adalah …",
+              "options": [
+                {
+                  "text": "control unit",
+                  "correct": true
+                },
+                {
+                  "text": "ALU",
+                  "correct": false
+                },
+                {
+                  "text": "register",
+                  "correct": false
+                },
+                {
+                  "text": "bus data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Control unit mengendalikan alur instruksi serta mengoordinasikan bagian lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Siklus kerja CPU secara berurutan adalah …",
+              "options": [
+                {
+                  "text": "fetch – decode – execute",
+                  "correct": true
+                },
+                {
+                  "text": "decode – fetch – execute",
+                  "correct": false
+                },
+                {
+                  "text": "execute – fetch – decode",
+                  "correct": false
+                },
+                {
+                  "text": "fetch – execute – decode",
+                  "correct": false
+                }
+              ],
+              "explanation": "CPU mengambil instruksi (fetch), menerjemahkannya (decode), lalu melaksanakannya (execute).",
+              "hint": "Ambil dulu, pahami, baru jalankan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proses memuat sistem operasi ke memori saat komputer dinyalakan disebut …",
+              "options": [
+                {
+                  "text": "booting",
+                  "correct": true
+                },
+                {
+                  "text": "browsing",
+                  "correct": false
+                },
+                {
+                  "text": "formatting",
+                  "correct": false
+                },
+                {
+                  "text": "compiling",
+                  "correct": false
+                }
+              ],
+              "explanation": "Booting memuat sistem operasi sehingga komputer siap dipakai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran utama sistem operasi dalam pengelolaan memori adalah …",
+              "options": [
+                {
+                  "text": "mengatur pembagian memori bagi program yang berjalan",
+                  "correct": true
+                },
+                {
+                  "text": "mencetak dokumen",
+                  "correct": false
+                },
+                {
+                  "text": "menyimpan berkas ke flash drive",
+                  "correct": false
+                },
+                {
+                  "text": "menampilkan gambar di monitor",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sistem operasi menentukan bagian memori untuk setiap proses agar tidak saling menimpa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Program kecil yang memungkinkan sistem operasi berkomunikasi dengan perangkat keras tertentu disebut …",
+              "options": [
+                {
+                  "text": "device driver",
+                  "correct": true
+                },
+                {
+                  "text": "compiler",
+                  "correct": false
+                },
+                {
+                  "text": "browser",
+                  "correct": false
+                },
+                {
+                  "text": "spreadsheet",
+                  "correct": false
+                }
+              ],
+              "explanation": "Device driver menerjemahkan perintah sistem operasi menjadi instruksi yang dipahami perangkat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berkas dan folder pada komputer dikelola oleh bagian sistem operasi yang disebut …",
+              "options": [
+                {
+                  "text": "manajemen berkas",
+                  "correct": true
+                },
+                {
+                  "text": "manajemen proses",
+                  "correct": false
+                },
+                {
+                  "text": "manajemen memori",
+                  "correct": false
+                },
+                {
+                  "text": "manajemen tampilan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Manajemen berkas mengurus pembuatan, penamaan, pemindahan, dan penghapusan berkas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Interaksi manusia dan komputer membahas …",
+              "options": [
+                {
+                  "text": "cara pengguna berkomunikasi dengan sistem komputer melalui antarmuka",
+                  "correct": true
+                },
+                {
+                  "text": "cara merakit motherboard",
+                  "correct": false
+                },
+                {
+                  "text": "rumus perhitungan listrik",
+                  "correct": false
+                },
+                {
+                  "text": "cara membuat kabel jaringan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Interaksi manusia–komputer berfokus pada antarmuka, kemudahan pemakaian, dan pengalaman pengguna."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk tugas sistem operasi? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Mengelola memori",
+                  "correct": true
+                },
+                {
+                  "text": "Mengelola berkas dan folder",
+                  "correct": true
+                },
+                {
+                  "text": "Menjadwalkan proses pada CPU",
+                  "correct": true
+                },
+                {
+                  "text": "Merancang gambar slide presentasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sistem operasi mengelola memori, berkas, dan proses. Merancang slide adalah tugas aplikasi presentasi.",
+              "hint": "Sistem operasi mengurus sumber daya komputer, bukan isi pekerjaan pengguna."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan komponen dengan perannya.",
+              "options": [
+                {
+                  "id": "c1",
+                  "text": "CPU"
+                },
+                {
+                  "id": "c2",
+                  "text": "RAM"
+                },
+                {
+                  "id": "c3",
+                  "text": "Hard disk"
+                },
+                {
+                  "id": "c4",
+                  "text": "Sistem operasi"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "c1": "Memproses instruksi",
+                  "c2": "Menyimpan data sementara",
+                  "c3": "Menyimpan data permanen",
+                  "c4": "Mengelola perangkat keras dan program"
+                }
+              },
+              "explanation": "CPU memproses, RAM menyimpan sementara, hard disk menyimpan permanen, sistem operasi mengelola keseluruhan sistem."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Sistem Komputer — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan utama RAM dan hard disk adalah …",
+              "options": [
+                {
+                  "text": "RAM bersifat sementara dan cepat, hard disk permanen dan lebih lambat",
+                  "correct": true
+                },
+                {
+                  "text": "RAM permanen dan hard disk sementara",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya menyimpan data permanen",
+                  "correct": false
+                },
+                {
+                  "text": "RAM hanya menyimpan gambar",
+                  "correct": false
+                }
+              ],
+              "explanation": "RAM kehilangan data saat daya putus tetapi sangat cepat; hard disk menyimpan permanen dengan kecepatan lebih rendah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika komputer kehilangan daya saat bekerja, data yang belum disimpan hilang karena …",
+              "options": [
+                {
+                  "text": "data tersebut masih berada di RAM yang bersifat volatile",
+                  "correct": true
+                },
+                {
+                  "text": "hard disk otomatis terhapus",
+                  "correct": false
+                },
+                {
+                  "text": "sistem operasi mematikan dirinya",
+                  "correct": false
+                },
+                {
+                  "text": "CPU kehilangan instruksi permanen",
+                  "correct": false
+                }
+              ],
+              "explanation": "Data baru tersimpan permanen setelah ditulis ke media penyimpanan seperti hard disk atau SSD."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Urutan proses saat komputer dinyalakan hingga siap dipakai adalah …",
+              "options": [
+                {
+                  "text": "POST → memuat bootloader → menjalankan sistem operasi",
+                  "correct": true
+                },
+                {
+                  "text": "menjalankan sistem operasi → POST → bootloader",
+                  "correct": false
+                },
+                {
+                  "text": "bootloader → POST → menjalankan sistem operasi",
+                  "correct": false
+                },
+                {
+                  "text": "POST → menjalankan sistem operasi → bootloader",
+                  "correct": false
+                }
+              ],
+              "explanation": "POST memeriksa perangkat keras, bootloader mencari sistem operasi, lalu sistem operasi dijalankan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem operasi modern menjalankan banyak program seolah bersamaan dengan cara …",
+              "options": [
+                {
+                  "text": "membagi waktu pemakaian CPU antarproses (multitasking)",
+                  "correct": true
+                },
+                {
+                  "text": "menambah jumlah CPU setiap saat",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus program yang tidak dipakai",
+                  "correct": false
+                },
+                {
+                  "text": "memperbesar layar",
+                  "correct": false
+                }
+              ],
+              "explanation": "CPU bergantian melayani setiap proses dalam potongan waktu yang sangat singkat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cache pada CPU berfungsi untuk …",
+              "options": [
+                {
+                  "text": "menyimpan data yang sering dipakai agar akses lebih cepat",
+                  "correct": true
+                },
+                {
+                  "text": "menyimpan data permanen",
+                  "correct": false
+                },
+                {
+                  "text": "menghubungkan komputer ke internet",
+                  "correct": false
+                },
+                {
+                  "text": "menampilkan antarmuka grafis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Cache berada di antara CPU dan RAM sehingga data yang sering dipakai tidak perlu diambil jauh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran bus dalam sistem komputer adalah …",
+              "options": [
+                {
+                  "text": "menyalurkan data dan sinyal kendali antar komponen",
+                  "correct": true
+                },
+                {
+                  "text": "menyimpan berkas pengguna",
+                  "correct": false
+                },
+                {
+                  "text": "menampilkan gambar",
+                  "correct": false
+                },
+                {
+                  "text": "mendinginkan prosesor",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bus adalah jalur komunikasi yang menghubungkan CPU, memori, dan perangkat lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah aplikasi berjalan sangat lambat karena memori hampir penuh. Tindakan sistem operasi yang paling tepat adalah …",
+              "options": [
+                {
+                  "text": "memindahkan sebagian isi memori ke media penyimpanan (swap)",
+                  "correct": true
+                },
+                {
+                  "text": "mematikan monitor",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus seluruh berkas pengguna",
+                  "correct": false
+                },
+                {
+                  "text": "menambah resolusi layar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sistem operasi memakai ruang penyimpanan sebagai memori virtual ketika RAM tidak mencukupi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mekanisme internal yang memungkinkan pengguna mengetik lalu teks muncul di layar melibatkan urutan …",
+              "options": [
+                {
+                  "text": "perangkat masukan → sistem operasi → aplikasi → perangkat keluaran",
+                  "correct": true
+                },
+                {
+                  "text": "perangkat keluaran → aplikasi → sistem operasi → perangkat masukan",
+                  "correct": false
+                },
+                {
+                  "text": "aplikasi → perangkat masukan → perangkat keluaran → sistem operasi",
+                  "correct": false
+                },
+                {
+                  "text": "sistem operasi → perangkat masukan → aplikasi → perangkat keluaran",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sistem operasi meneruskan masukan ke aplikasi yang aktif, lalu hasilnya ditampilkan kembali melalui perangkat keluaran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Program yang tidak merespons pada sistem operasi dapat dihentikan paksa karena sistem operasi memiliki kendali atas …",
+              "options": [
+                {
+                  "text": "penjadwalan proses dan alokasi sumber daya",
+                  "correct": true
+                },
+                {
+                  "text": "isi berkas pengguna",
+                  "correct": false
+                },
+                {
+                  "text": "kabel perangkat keras",
+                  "correct": false
+                },
+                {
+                  "text": "daya listrik bangunan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sistem operasi dapat menghentikan proses karena ia yang menjadwalkan dan mengalokasikan sumber daya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa firmware seperti BIOS/UEFI diperlukan sebelum sistem operasi berjalan?",
+              "options": [
+                {
+                  "text": "karena sistem operasi belum dimuat sehingga perlu program awal untuk memeriksa dan menyiapkan perangkat",
+                  "correct": true
+                },
+                {
+                  "text": "karena BIOS adalah sistem operasi utama",
+                  "correct": false
+                },
+                {
+                  "text": "karena BIOS menyimpan seluruh berkas pengguna",
+                  "correct": false
+                },
+                {
+                  "text": "karena BIOS menggantikan fungsi CPU",
+                  "correct": false
+                }
+              ],
+              "explanation": "Firmware berjalan lebih dulu untuk memeriksa perangkat keras dan menemukan lokasi sistem operasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang interaksi perangkat keras dan perangkat lunak? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Perangkat lunak memerlukan perangkat keras untuk dijalankan",
+                  "correct": true
+                },
+                {
+                  "text": "Device driver menjembatani sistem operasi dengan perangkat keras",
+                  "correct": true
+                },
+                {
+                  "text": "Sistem operasi mengalokasikan sumber daya bagi program",
+                  "correct": true
+                },
+                {
+                  "text": "Perangkat keras dapat berjalan tanpa perangkat lunak apa pun",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perangkat lunak butuh perangkat keras sebagai tempat berjalan, driver menjadi jembatan, dan sistem operasi mengalokasikan sumber daya. Perangkat keras tanpa perangkat lunak tidak dapat menjalankan tugas yang berguna."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun urutan perjalanan data dari masukan sampai keluaran.",
+              "options": [
+                {
+                  "id": "p1",
+                  "text": "Pengguna menekan tombol pada keyboard"
+                },
+                {
+                  "id": "p2",
+                  "text": "Sistem operasi menerima dan meneruskan sinyal masukan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Aplikasi dan CPU mengolah data"
+                },
+                {
+                  "id": "p4",
+                  "text": "Hasil ditampilkan pada monitor"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Masukan diterima perangkat masukan, diteruskan sistem operasi, diolah CPU bersama aplikasi, lalu hasilnya ditampilkan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan setiap komponen ke kelompoknya.",
+              "options": [
+                {
+                  "id": "g1",
+                  "text": "Keyboard"
+                },
+                {
+                  "id": "g2",
+                  "text": "CPU"
+                },
+                {
+                  "id": "g3",
+                  "text": "Monitor"
+                },
+                {
+                  "id": "g4",
+                  "text": "RAM"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "g1": "Perangkat masukan",
+                  "g2": "Perangkat proses",
+                  "g3": "Perangkat keluaran",
+                  "g4": "Penyimpanan sementara"
+                }
+              },
+              "explanation": "Keyboard memasukkan data, CPU memproses, monitor mengeluarkan hasil, dan RAM menyimpan sementara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem operasi menjaga agar dua program tidak menulis ke area memori yang sama melalui …",
+              "options": [
+                {
+                  "text": "manajemen memori dan proteksi ruang alamat tiap proses",
+                  "correct": true
+                },
+                {
+                  "text": "menutup semua program lain",
+                  "correct": false
+                },
+                {
+                  "text": "menggabungkan semua program menjadi satu",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus memori setiap detik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap proses memperoleh ruang alamat sendiri sehingga tidak saling menimpa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah komputer memiliki RAM 4 GB dan harus menjalankan beberapa program berat. Solusi yang dipakai sistem operasi adalah …",
+              "options": [
+                {
+                  "text": "menggunakan memori virtual pada media penyimpanan",
+                  "correct": true
+                },
+                {
+                  "text": "menambah jumlah core CPU secara otomatis",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus berkas pengguna secara otomatis",
+                  "correct": false
+                },
+                {
+                  "text": "mengurangi resolusi layar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Memori virtual memindahkan sebagian data ke media penyimpanan sehingga RAM tidak penuh, walau kinerjanya lebih lambat."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

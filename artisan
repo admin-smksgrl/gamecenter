@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+/*
+ * Pintasan supaya `php artisan ...` bisa dijalankan langsung dari folder induk.
+ * Proyek Laravel sebenarnya ada di subfolder `gamecenter`.
+ */
+
+require __DIR__.'/gamecenter/artisan';

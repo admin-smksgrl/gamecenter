@@ -1,0 +1,791 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pai",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PAI 9",
+      "title": "Menerapkan al-Kulliyatu al-Khamsah dalam Kehidupan Sehari-hari",
+      "description": "Pengertian dan urutan al-kulliyatu al-khamsah, macam-macamnya, penerapannya, serta penggunaannya untuk memecahkan persoalan keagamaan sehari-hari.",
+      "learning_objectives": [
+        "Melalui model pembelajaran jigsaw learning, peserta didik dapat menganalisis pengertian dan urutan al-kulliyatu al-khamsah, sehingga dapat mempengaruhi sikap dalam memecahkan masa’il al-diniyah (masalah-masalah keagamaan) dan menumbuhkan sikap kepekaan sosial di masyarakat.",
+        "Melalui model pembelajaran inquiry learning, peserta didik dapat menganalisis macam-macam dan penerapan al-kulliyatu al-khamsah, sehingga dapat mempengaruhi sikap dalam memecahkan masa’il aldiniyah (masalah-masalah keagamaan) dan menumbuhkan sikap kepekaan sosial di masyarakat.",
+        "Melalui model pembelajaran berbasis produk, peserta didik dapat menyajikan paparan tentang al-kulliyatu al-khamsah, sehingga dapat mempengaruhi sikap dalam memecahkan masa’il al-diniyah (masalahmasalah keagamaan) dan menumbuhkan sikap kepekaan sosial di masyarakat."
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Buku Pendidikan Agama Islam dan Budi Pekerti Kelas X (Kemendikbudristek)",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Pengertian dan Urutan Al-Kulliyatu al-Khamsah",
+          "duration": 320,
+          "source_reference": "Bab 9",
+          "content": "## Arti\n\n**Al-kulliyatu al-khamsah** = **lima prinsip dasar** yang wajib dilindungi dalam hukum Islam.\n\nKata *kulliyah* berarti **menyeluruh**: prinsip mendasar yang berlaku umum, bukan untuk kasus tertentu.\n\n## Lima prinsip dan urutannya\n\n| No | Istilah | Makna |\n|---|---|---|\n| 1 | **hifzhu al-din** | menjaga **agama** |\n| 2 | **hifzhu al-nafs** | menjaga **jiwa** |\n| 3 | **hifzhu al-aql** | menjaga **akal** |\n| 4 | **hifzhu al-nasl** | menjaga **keturunan** |\n| 5 | **hifzhu al-mal** | menjaga **harta** |\n\n## Hubungan dengan maqashid syariah\n\nAl-kulliyatu al-khamsah adalah **inti maqashid syariah** — tujuan-tujuan yang hendak diwujudkan syariat.\n\nMengapa **agama** pertama? Karena agama menjadi **pedoman utama** yang menata aspek kehidupan lainnya."
+        },
+        {
+          "type": "text",
+          "title": "Penerapan Lima Prinsip dalam Kehidupan",
+          "duration": 320,
+          "source_reference": "Bab 9",
+          "content": "## Contoh penerapan\n\n| Prinsip | Penerapan |\n|---|---|\n| **agama** | menjaga ibadah dan mempelajari ajarannya |\n| **jiwa** | menjaga kesehatan, tidak menyakiti diri |\n| **akal** | menjauhi minuman keras, belajar tekun |\n| **keturunan** | menjaga pergaulan dan kehormatan diri |\n| **harta** | menghindari pemborosan, mengatur uang saku |\n\n## Prinsip saling terkait\n\nKerusakan satu aspek **memengaruhi** aspek lain:\n\n- akal rusak → berisiko merusak jiwa\n- kehormatan diri rusak → mengancam keberlangsungan keturunan\n\nKarena itu perlindungan harus **menyeluruh dan berjalan bersamaan**.\n\n## Di era digital\n\nMenjaga agama diwujudkan dengan **menyaring konten** yang bertentangan dengan ajaran agama.\n\nMenjaga keturunan diwujudkan dengan mencegah **perundungan** yang merusak martabat."
+        },
+        {
+          "type": "text",
+          "title": "Menyelesaikan Masalah dengan Lima Prinsip",
+          "duration": 280,
+          "source_reference": "Bab 9",
+          "content": "## Langkah penggunaan\n\n1. **Mengidentifikasi** masalah yang dihadapi\n2. Menentukan **prinsip yang berkaitan**\n3. **Menimbang dampak** setiap pilihan pada prinsip tersebut\n4. Memilih jalan yang **paling menjaga** kelima prinsip\n5. **Mengevaluasi** hasil dan memperbaiki bila perlu\n\n## Contoh kasus\n\n**Kasus:** ajakan mengonsumsi zat berbahaya karena tekanan teman.\n\n**Analisis:** menyangkut **hifzhu al-aql** dan **hifzhu al-nafs**. Pilihan yang menjaga keduanya adalah **menolak** ajakan tersebut.\n\n## Prinsip penolakan yang benar\n\nBila ada aturan yang bertentangan dengan syariat, sikap yang tepat adalah **menolak dengan santun** dan menempuh **jalur yang benar** — bukan menerima sepenuhnya, bukan pula melakukan kekerasan.\n\n## Istilah terkait\n\n**Mas'alat al-diniyyah** = persoalan keagamaan yang diselesaikan dengan prinsip syariah."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Menerapkan al-Kulliyatu al-Khamsah dalam Kehidupan Sehari-hari — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Al-kulliyatu al-khamsah berarti …",
+              "options": [
+                {
+                  "text": "lima prinsip dasar dalam hukum Islam",
+                  "correct": true
+                },
+                {
+                  "text": "lima rukun Islam",
+                  "correct": false
+                },
+                {
+                  "text": "lima kitab suci",
+                  "correct": false
+                },
+                {
+                  "text": "lima nama nabi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Al-kulliyatu al-khamsah adalah lima prinsip dasar yang dijaga dalam hukum Islam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip pertama al-kulliyatu al-khamsah adalah …",
+              "options": [
+                {
+                  "text": "hifzhu al-din (menjaga agama)",
+                  "correct": true
+                },
+                {
+                  "text": "hifzhu al-mal (menjaga harta)",
+                  "correct": false
+                },
+                {
+                  "text": "hifzhu al-nafs (menjaga jiwa)",
+                  "correct": false
+                },
+                {
+                  "text": "hifzhu al-aql (menjaga akal)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Urutan pertama adalah menjaga agama (hifzhu al-din)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hifzhu al-nafs berarti …",
+              "options": [
+                {
+                  "text": "menjaga jiwa",
+                  "correct": true
+                },
+                {
+                  "text": "menjaga akal",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga harta",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga keturunan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hifzhu al-nafs berarti menjaga jiwa dari kerusakan dan kehilangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hifzhu al-aql berarti …",
+              "options": [
+                {
+                  "text": "menjaga akal",
+                  "correct": true
+                },
+                {
+                  "text": "menjaga agama",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga harta",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga jiwa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hifzhu al-aql berarti menjaga akal dari hal yang merusaknya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hifzhu al-nasl berarti …",
+              "options": [
+                {
+                  "text": "menjaga keturunan",
+                  "correct": true
+                },
+                {
+                  "text": "menjaga jiwa",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga harta",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga agama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hifzhu al-nasl berarti menjaga keberlangsungan dan kehormatan keturunan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Menerapkan al-Kulliyatu al-Khamsah dalam Kehidupan Sehari-hari — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Urutan lima prinsip al-kulliyatu al-khamsah yang benar adalah …",
+              "options": [
+                {
+                  "text": "agama, jiwa, akal, keturunan, harta",
+                  "correct": true
+                },
+                {
+                  "text": "harta, agama, jiwa, akal, keturunan",
+                  "correct": false
+                },
+                {
+                  "text": "akal, harta, agama, jiwa, keturunan",
+                  "correct": false
+                },
+                {
+                  "text": "jiwa, harta, akal, agama, keturunan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Urutan yang umum dipakai: agama, jiwa, akal, keturunan, lalu harta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh penerapan hifzhu al-din adalah …",
+              "options": [
+                {
+                  "text": "menjaga ibadah dan mempelajari ajaran agama",
+                  "correct": true
+                },
+                {
+                  "text": "bermalas-malasan beribadah",
+                  "correct": false
+                },
+                {
+                  "text": "meninggalkan salat",
+                  "correct": false
+                },
+                {
+                  "text": "mengejek ibadah orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menjaga agama diwujudkan dengan menjaga ibadah dan mempelajari ajarannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh penerapan hifzhu al-nafs adalah …",
+              "options": [
+                {
+                  "text": "menjaga kesehatan dan tidak menyakiti diri",
+                  "correct": true
+                },
+                {
+                  "text": "membiarkan diri terluka",
+                  "correct": false
+                },
+                {
+                  "text": "berkelahi",
+                  "correct": false
+                },
+                {
+                  "text": "mengonsumsi zat berbahaya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menjaga jiwa berarti memelihara kesehatan dan menjauhi hal yang merusak diri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh penerapan hifzhu al-aql adalah …",
+              "options": [
+                {
+                  "text": "menjauhi minuman keras dan belajar dengan tekun",
+                  "correct": true
+                },
+                {
+                  "text": "mengonsumsi zat yang merusak akal",
+                  "correct": false
+                },
+                {
+                  "text": "bermalas-malasan",
+                  "correct": false
+                },
+                {
+                  "text": "menolak belajar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menjaga akal dilakukan dengan menjauhi perusak akal dan mengasahnya melalui belajar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh penerapan hifzhu al-nasl adalah …",
+              "options": [
+                {
+                  "text": "menjaga pergaulan dan kehormatan diri",
+                  "correct": true
+                },
+                {
+                  "text": "bergaul bebas",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan konten pribadi",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan etika",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menjaga keturunan diwujudkan dengan menjaga pergaulan dan kehormatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh penerapan hifzhu al-mal adalah …",
+              "options": [
+                {
+                  "text": "menghindari pemborosan dan menabung",
+                  "correct": true
+                },
+                {
+                  "text": "berfoya-foya",
+                  "correct": false
+                },
+                {
+                  "text": "mencuri",
+                  "correct": false
+                },
+                {
+                  "text": "berjudi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menjaga harta dilakukan dengan menghindari pemborosan dan mengelolanya dengan baik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk al-kulliyatu al-khamsah? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menjaga agama",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga jiwa",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga harta",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga popularitas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lima prinsip itu adalah agama, jiwa, akal, keturunan, dan harta. Popularitas bukan termasuk."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Hifzhu al-din"
+                },
+                {
+                  "id": "o1",
+                  "text": "Hifzhu al-nafs"
+                },
+                {
+                  "id": "o2",
+                  "text": "Hifzhu al-aql"
+                },
+                {
+                  "id": "o3",
+                  "text": "Hifzhu al-mal"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Menjaga agama",
+                  "o1": "Menjaga jiwa",
+                  "o2": "Menjaga akal",
+                  "o3": "Menjaga harta"
+                }
+              },
+              "explanation": "Setiap istilah menunjukkan satu prinsip dasar yang dilindungi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan lima prinsip al-kulliyatu al-khamsah.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Menjaga agama"
+                },
+                {
+                  "id": "o1",
+                  "text": "Menjaga jiwa"
+                },
+                {
+                  "id": "o2",
+                  "text": "Menjaga akal"
+                },
+                {
+                  "id": "o3",
+                  "text": "Menjaga keturunan"
+                },
+                {
+                  "id": "o4",
+                  "text": "Menjaga harta"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4",
+                  "o4": "5"
+                }
+              },
+              "explanation": "Urutan ini menunjukkan tingkat kepentingan prinsip dalam penetapan hukum."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat memahami al-kulliyatu al-khamsah adalah …",
+              "options": [
+                {
+                  "text": "dapat mengambil sikap tepat saat menghadapi masalah atau pilihan sulit",
+                  "correct": true
+                },
+                {
+                  "text": "cukup menghafal istilah",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari ilmu",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan hukum",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemahaman prinsip membantu menimbang pilihan ketika menghadapi masalah."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Menerapkan al-Kulliyatu al-Khamsah dalam Kehidupan Sehari-hari — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa menjaga agama ditempatkan pada urutan pertama?",
+              "options": [
+                {
+                  "text": "karena agama menjadi pedoman utama yang mengarahkan seluruh aspek kehidupan",
+                  "correct": true
+                },
+                {
+                  "text": "karena agama paling mudah dijaga",
+                  "correct": false
+                },
+                {
+                  "text": "karena ibadah tidak wajib",
+                  "correct": false
+                },
+                {
+                  "text": "karena agama hanya urusan pribadi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Agama menjadi fondasi yang menata prinsip lain dalam kehidupan muslim."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara menerapkan al-kulliyatu al-khamsah saat menghadapi masalah adalah …",
+              "options": [
+                {
+                  "text": "menimbang dampak pilihan pada kelima prinsip yang dilindungi",
+                  "correct": true
+                },
+                {
+                  "text": "memilih yang paling menguntungkan diri",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan akibat",
+                  "correct": false
+                },
+                {
+                  "text": "mengikuti ajakan teman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Prinsip itu menjadi alat menimbang dampak sebelum mengambil keputusan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kaitan menjaga akal dan menjaga jiwa adalah …",
+              "options": [
+                {
+                  "text": "keduanya saling menopang; kerusakan akal berisiko merusak jiwa",
+                  "correct": true
+                },
+                {
+                  "text": "keduanya tidak berkaitan",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga jiwa menghapus akal",
+                  "correct": false
+                },
+                {
+                  "text": "menjaga akal tidak perlu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Prinsip-prinsip itu saling terkait: kerusakan satu aspek memengaruhi yang lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa menjaga keturunan berkaitan dengan menjaga kehormatan diri?",
+              "options": [
+                {
+                  "text": "karena kehormatan diri adalah benteng yang melindungi keberlangsungan keturunan",
+                  "correct": true
+                },
+                {
+                  "text": "karena keturunan tidak berkaitan dengan akhlak",
+                  "correct": false
+                },
+                {
+                  "text": "karena hanya soal ekonomi",
+                  "correct": false
+                },
+                {
+                  "text": "karena hanya soal pendidikan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kehormatan diri menjadi benteng perlindungan bagi keberlangsungan keturunan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh kasus yang perlu ditimbang dengan al-kulliyatu al-khamsah adalah …",
+              "options": [
+                {
+                  "text": "memilih mengonsumsi zat berbahaya karena tekanan teman",
+                  "correct": true
+                },
+                {
+                  "text": "memilih buku bacaan",
+                  "correct": false
+                },
+                {
+                  "text": "memilih warna sepatu",
+                  "correct": false
+                },
+                {
+                  "text": "memilih menu sarapan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kasus yang menyangkut keselamatan jiwa dan akal perlu ditimbang dengan prinsip ini."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah perilaku yang merusak prinsip hifzhu al-aql? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Mengonsumsi minuman keras",
+                  "correct": true
+                },
+                {
+                  "text": "Penyalahgunaan narkotika",
+                  "correct": true
+                },
+                {
+                  "text": "Malas belajar sehingga akal tidak terasah",
+                  "correct": true
+                },
+                {
+                  "text": "Rajin membaca",
+                  "correct": false
+                }
+              ],
+              "explanation": "Minuman keras, narkotika, dan kemalasan merusak akal. Rajin membaca justru mengasah akal."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah penggunaan al-kulliyatu al-khamsah dalam menyelesaikan masalah.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Mengidentifikasi masalah yang dihadapi"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menentukan prinsip yang berkaitan dengan masalah"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menimbang dampak setiap pilihan pada prinsip tersebut"
+                },
+                {
+                  "id": "s3",
+                  "text": "Memilih jalan yang paling menjaga kelima prinsip"
+                },
+                {
+                  "id": "s4",
+                  "text": "Mengevaluasi hasil dan memperbaiki bila perlu"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Penggunaan prinsip berjalan dari identifikasi sampai evaluasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna mas'alat al-diniyyah dalam konteks al-kulliyatu al-khamsah adalah …",
+              "options": [
+                {
+                  "text": "persoalan keagamaan yang perlu diselesaikan dengan prinsip syariah",
+                  "correct": true
+                },
+                {
+                  "text": "masalah ekonomi",
+                  "correct": false
+                },
+                {
+                  "text": "masalah politik",
+                  "correct": false
+                },
+                {
+                  "text": "masalah bahasa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mas'alat al-diniyyah adalah persoalan keagamaan yang diselesaikan dengan prinsip syariah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa al-kulliyatu al-khamsah disebut \"kulliyah\" (menyeluruh)?",
+              "options": [
+                {
+                  "text": "karena mencakup prinsip yang berlaku umum dan mendasar dalam hukum Islam",
+                  "correct": true
+                },
+                {
+                  "text": "karena hanya untuk satu kasus",
+                  "correct": false
+                },
+                {
+                  "text": "karena hanya untuk ulama",
+                  "correct": false
+                },
+                {
+                  "text": "karena hanya berlaku di satu negara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kulliyah berarti menyeluruh: prinsip mendasar yang berlaku luas, bukan kasus tertentu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penerapan menjaga harta yang tepat bagi pelajar adalah …",
+              "options": [
+                {
+                  "text": "mengatur uang saku dan menghindari pemborosan",
+                  "correct": true
+                },
+                {
+                  "text": "membelanjakan semua uang",
+                  "correct": false
+                },
+                {
+                  "text": "meminjam tanpa rencana",
+                  "correct": false
+                },
+                {
+                  "text": "berjudi untuk menambah uang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengelolaan uang saku dan menghindari pemborosan adalah wujud menjaga harta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan al-kulliyatu al-khamsah dengan maqashid syariah adalah …",
+              "options": [
+                {
+                  "text": "al-kulliyatu al-khamsah merupakan inti dari maqashid syariah",
+                  "correct": true
+                },
+                {
+                  "text": "keduanya tidak berkaitan",
+                  "correct": false
+                },
+                {
+                  "text": "maqashid syariah menghapusnya",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya bertentangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lima prinsip itu merupakan inti dari tujuan-tujuan syariat (maqashid syariah)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh menjaga agama dalam kehidupan digital adalah …",
+              "options": [
+                {
+                  "text": "menyaring konten yang bertentangan dengan ajaran agama",
+                  "correct": true
+                },
+                {
+                  "text": "menyebarkan konten negatif",
+                  "correct": false
+                },
+                {
+                  "text": "mengikuti semua tren",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan etika",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menjaga agama di era digital dilakukan dengan menyaring konten yang dikonsumsi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa menjaga kelima prinsip harus berjalan bersamaan?",
+              "options": [
+                {
+                  "text": "karena kerusakan satu prinsip cenderung memengaruhi prinsip lainnya",
+                  "correct": true
+                },
+                {
+                  "text": "karena kelimanya tidak berkaitan",
+                  "correct": false
+                },
+                {
+                  "text": "karena hanya satu yang penting",
+                  "correct": false
+                },
+                {
+                  "text": "karena kelimanya dapat diabaikan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kelima prinsip saling terkait sehingga perlindungannya harus menyeluruh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang tepat ketika penguasa membuat aturan yang bertentangan dengan syariat adalah …",
+              "options": [
+                {
+                  "text": "menolak dengan cara yang santun dan sesuai jalur yang benar",
+                  "correct": true
+                },
+                {
+                  "text": "menerima sepenuhnya",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan agama",
+                  "correct": false
+                },
+                {
+                  "text": "melakukan kekerasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menjaga agama ditempuh melalui cara yang santun dan sesuai jalur yang benar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penerapan hifzhu al-nasl di sekolah adalah …",
+              "options": [
+                {
+                  "text": "mencegah perundungan yang merusak martabat siswa lain",
+                  "correct": true
+                },
+                {
+                  "text": "membiarkan perundungan",
+                  "correct": false
+                },
+                {
+                  "text": "mendukung kekerasan",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan aib teman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perundungan merusak martabat sehingga bertentangan dengan menjaga keturunan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

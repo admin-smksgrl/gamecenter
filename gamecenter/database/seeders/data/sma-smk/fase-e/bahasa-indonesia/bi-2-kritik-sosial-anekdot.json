@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-indonesia",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "BI 2",
+      "title": "Kritik Sosial lewat Anekdot",
+      "description": "Menyimak dan memirsa teks anekdot, mengevaluasi gagasan dan pesannya, serta menulis kritik sosial secara akurat dan santun.",
+      "learning_objectives": [
+        "Menyimak teks anekdot aural agar dapat mengevaluasi gagasan dan pesan yang disampaikan dalam teks monolog lawakan tunggal secara kritis dan reflektif.",
+        "Memirsa teks anekdot agar dapat menginterpretasi informasi untuk mengungkapkan gagasan dan persaan simpati, peduli, empati, dan/atau pendapat pro/kontra dari teks visual yang dipirsa. Menggunakan kaidah-kaidah bahasa yang digunakan dalam menyampaikan kritik sosial",
+        "Menulis teks eksposisi hasil penelitian sederhana sebagai sumber penyampaian kritik sosial yang akurat dan menulis teks anekdot dengan informasi yang akurat dan merujuk pada sumber-su"
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Bahasa Indonesia Kelas 10 SMA Fase E Bab 2",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Anekdot, Eksposisi, dan Stand Up Comedy",
+          "duration": 240,
+          "source_reference": "Bab 2 — Kritik Lewat Senyuman",
+          "content": "## Tiga bentuk penyampai kritik\n\n| Bentuk | Ciri |\n|---|---|\n| **Anekdot** | cerita singkat lucu yang menyindir |\n| **Eksposisi** | gagasan disertai alasan dan bukti |\n| **Stand up comedy** | lawakan tunggal berisi kritik sosial |\n\n### Struktur anekdot\n\n1. **Orientasi** — pengenalan tokoh dan situasi\n2. **Komplikasi** — masalah atau kejadian tak terduga\n3. **Koda** — penutup berisi pesan atau simpulan\n\n### Mengapa memakai humor?\n\nHumor menarik perhatian lebih dulu, sehingga pesan kritik lebih mudah diterima **tanpa konfrontasi langsung**.\n\nAnekdot yang berhasil membuat pembaca **langsung menangkap pesan kritiknya** tanpa perlu dijelaskan panjang."
+        },
+        {
+          "type": "text",
+          "title": "Membedakan Fakta, Opini, dan Kritik Santun",
+          "duration": 360,
+          "source_reference": "Bab 2 — Kaidah Bahasa Kritik Sosial",
+          "content": "## Fakta dan opini\n\n| Fakta | Opini |\n|---|---|\n| \"Antrean rata-rata 45 menit\" | \"Pelayanan di kantor itu sangat buruk\" |\n| \"Jumlah keluhan naik 30 persen\" | \"Petugas seharusnya lebih ramah\" |\n\nPenanda opini: **sebaiknya**, **seharusnya**, **sangat**, **buruk**, **terbaik**.\n\n## Kritik, celaan, dan ancaman\n\n**Kritik** disertai alasan dan bertujuan memperbaiki:\n\n> \"Pelayanan antrean masih perlu diperbaiki karena banyak keluhan.\"\n\n**Celaan** hanya menyerang:\n\n> \"Petugasnya semuanya tidak becus.\"\n\n**Ancaman** menekan pihak lain:\n\n> \"Kalau tidak menurut, saya akan…\"\n\n## Kaidah bahasa\n\nKritik sosial disampaikan dengan kalimat **santun**, tidak menyerang pribadi, dan sebaiknya didukung **data atau kejadian nyata**. Kritik yang berpijak pada kenyataan lebih sulit dibantah dan lebih bermanfaat.\n\n## Menyimak secara aural\n\nMenyimak **aural** berarti melalui pendengaran, misalnya ketika menyimak lawakan tunggal. Pada teks **visual**, pesan dibangun oleh perpaduan gambar dan kata."
+        },
+        {
+          "type": "interactive",
+          "title": "Menyampaikan Simpati dan Pendapat",
+          "duration": 240,
+          "source_reference": "Bab 2 — Latihan",
+          "content": "## Menyampaikan simpati\n\nSimpati yang tepat disertai **alasan** yang menunjukkan pemahaman terhadap isi kritik.\n\n> \"Saya memahami keluhan warga karena datanya jelas dan masuk akal.\"\n\nBukan:\n\n> \"Semua kritik itu pasti salah.\"\n\n## Menyampaikan pendapat pro atau kontra\n\nBaik pro maupun kontra sebaiknya disampaikan dengan **alasan logis** dan **bahasa santun**.\n\n## Latihan menyusun anekdot\n\n1. Pilih masalah sosial nyata, misalnya antrean layanan publik\n2. Susun cerita singkat dengan tokoh dan latar\n3. Tambahkan kelucuan pada bagian **komplikasi**\n4. Tutup dengan **koda** berisi pesan kritik\n\n### Contoh koda\n\n> \"Begitulah, kalau antrean terus begini, urusan kecil pun jadi sehari.\"\n\n### Yang perlu dihindari\n\n- menyebut nama pribadi tanpa bukti\n- menyebarkan tuduhan tanpa sumber\n- memakai kata kasar agar terkesan tegas"
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Kritik Sosial lewat Anekdot — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Teks yang berisi cerita singkat lucu namun menyampaikan kritik disebut …",
+              "options": [
+                {
+                  "text": "anekdot",
+                  "correct": true
+                },
+                {
+                  "text": "laporan observasi",
+                  "correct": false
+                },
+                {
+                  "text": "biografi",
+                  "correct": false
+                },
+                {
+                  "text": "puisi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Anekdot menyampaikan kritik atau sindiran melalui cerita singkat yang lucu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teks yang menyampaikan pendapat disertai alasan dan data disebut teks …",
+              "options": [
+                {
+                  "text": "eksposisi",
+                  "correct": true
+                },
+                {
+                  "text": "narasi",
+                  "correct": false
+                },
+                {
+                  "text": "deskripsi",
+                  "correct": false
+                },
+                {
+                  "text": "prosedur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teks eksposisi memaparkan gagasan yang didukung bukti dan alasan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Seni melawak tunggal yang menyampaikan kritik sosial disebut …",
+              "options": [
+                {
+                  "text": "stand up comedy",
+                  "correct": true
+                },
+                {
+                  "text": "pantomim",
+                  "correct": false
+                },
+                {
+                  "text": "monolog tragedi",
+                  "correct": false
+                },
+                {
+                  "text": "deklamasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Stand up comedy menyampaikan gagasan dan kritik melalui lawakan tunggal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian anekdot yang berisi pengenalan situasi disebut …",
+              "options": [
+                {
+                  "text": "orientasi",
+                  "correct": true
+                },
+                {
+                  "text": "komplikasi",
+                  "correct": false
+                },
+                {
+                  "text": "koda",
+                  "correct": false
+                },
+                {
+                  "text": "abstraksi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Orientasi memperkenalkan tokoh dan situasi sebelum konflik muncul."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tujuan utama kritik sosial disampaikan lewat anekdot adalah …",
+              "options": [
+                {
+                  "text": "menyindir tanpa menyinggung secara langsung",
+                  "correct": true
+                },
+                {
+                  "text": "menghibur tanpa pesan",
+                  "correct": false
+                },
+                {
+                  "text": "menyanjung penguasa",
+                  "correct": false
+                },
+                {
+                  "text": "mengubah fakta",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bentuk lucu membuat kritik lebih mudah diterima tanpa menimbulkan konfrontasi langsung."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Kritik Sosial lewat Anekdot — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bagian anekdot yang memuat masalah atau kejadian tidak terduga adalah …",
+              "options": [
+                {
+                  "text": "komplikasi",
+                  "correct": true
+                },
+                {
+                  "text": "orientasi",
+                  "correct": false
+                },
+                {
+                  "text": "koda",
+                  "correct": false
+                },
+                {
+                  "text": "abstraksi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Komplikasi memuat inti masalah atau kejadian yang menjadi pemicu kelucuan dan kritik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Koda dalam anekdot berisi …",
+              "options": [
+                {
+                  "text": "penutup berisi pesan atau simpulan",
+                  "correct": true
+                },
+                {
+                  "text": "pengenalan tokoh",
+                  "correct": false
+                },
+                {
+                  "text": "uraian latar tempat",
+                  "correct": false
+                },
+                {
+                  "text": "daftar pustaka",
+                  "correct": false
+                }
+              ],
+              "explanation": "Koda menyampaikan pesan atau pelajaran dari cerita."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teks eksposisi berbeda dari anekdot karena eksposisi …",
+              "options": [
+                {
+                  "text": "berisi gagasan dan argumen tanpa cerita lucu",
+                  "correct": true
+                },
+                {
+                  "text": "selalu berisi dialog lucu",
+                  "correct": false
+                },
+                {
+                  "text": "hanya berisi pantun",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memiliki struktur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Eksposisi memaparkan gagasan secara langsung dengan bukti, sedangkan anekdot memakai cerita."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berikut yang termasuk kalimat kritik sosial yang santun adalah …",
+              "options": [
+                {
+                  "text": "Pelayanan antrean masih perlu diperbaiki karena banyak keluhan.",
+                  "correct": true
+                },
+                {
+                  "text": "Petugasnya semuanya tidak becus.",
+                  "correct": false
+                },
+                {
+                  "text": "Semua pegawai di sini pemalas.",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak ada yang benar di tempat ini.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kritik santun menyoroti masalah dengan alasan, bukan menyerang pribadi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat berikut yang berupa opini adalah …",
+              "options": [
+                {
+                  "text": "Pemerintah sebaiknya menambah armada angkutan umum.",
+                  "correct": true
+                },
+                {
+                  "text": "Bus berangkat pukul 06.00.",
+                  "correct": false
+                },
+                {
+                  "text": "Jumlah penumpang 120 orang.",
+                  "correct": false
+                },
+                {
+                  "text": "Rute bus melewati lima kecamatan.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kata 'sebaiknya' menandai saran yang merupakan opini, bukan fakta terukur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi humor dalam anekdot adalah …",
+              "options": [
+                {
+                  "text": "menarik perhatian sebelum kritik disampaikan",
+                  "correct": true
+                },
+                {
+                  "text": "menghilangkan pesan",
+                  "correct": false
+                },
+                {
+                  "text": "membuat teks lebih panjang",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Humor membuka perhatian pembaca atau pendengar sehingga pesan lebih mudah diterima."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kaidah bahasa yang biasa dipakai dalam menyampaikan kritik sosial adalah …",
+              "options": [
+                {
+                  "text": "kalimat yang santun dan tidak menyerang pribadi",
+                  "correct": true
+                },
+                {
+                  "text": "kata kasar agar tegas",
+                  "correct": false
+                },
+                {
+                  "text": "kalimat tanpa subjek",
+                  "correct": false
+                },
+                {
+                  "text": "istilah asing tanpa penjelasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kritik yang efektif tetap santun agar pesan diterima tanpa konflik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk struktur teks anekdot? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Orientasi",
+                  "correct": true
+                },
+                {
+                  "text": "Komplikasi",
+                  "correct": true
+                },
+                {
+                  "text": "Koda",
+                  "correct": true
+                },
+                {
+                  "text": "Daftar pustaka",
+                  "correct": false
+                }
+              ],
+              "explanation": "Anekdot disusun dari orientasi, komplikasi, dan koda. Daftar pustaka termasuk bagian karya ilmiah."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Anekdot"
+                },
+                {
+                  "id": "o1",
+                  "text": "Eksposisi"
+                },
+                {
+                  "id": "o2",
+                  "text": "Stand up comedy"
+                },
+                {
+                  "id": "o3",
+                  "text": "Opini"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Cerita singkat lucu berisi kritik",
+                  "o1": "Teks gagasan disertai alasan dan bukti",
+                  "o2": "Lawakan tunggal penyampai kritik",
+                  "o3": "Pendapat yang belum tentu berdasarkan fakta"
+                }
+              },
+              "explanation": "Keempat istilah itu sering muncul bersama dalam pembahasan kritik sosial."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan pernyataan menjadi fakta atau opini.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Jumlah keluhan pelanggan naik 30 persen."
+                },
+                {
+                  "id": "o1",
+                  "text": "Pelayanan di kantor itu sangat buruk."
+                },
+                {
+                  "id": "o2",
+                  "text": "Antrean rata-rata 45 menit."
+                },
+                {
+                  "id": "o3",
+                  "text": "Petugas seharusnya lebih ramah."
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Fakta",
+                  "o1": "Opini",
+                  "o2": "Fakta",
+                  "o3": "Opini"
+                }
+              },
+              "explanation": "Fakta dapat diukur dan diverifikasi, sedangkan opini berupa penilaian atau saran."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Kritik Sosial lewat Anekdot — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Teks anekdot tentang layanan publik paling kuat bila …",
+              "options": [
+                {
+                  "text": "kritiknya didukung data atau kejadian nyata",
+                  "correct": true
+                },
+                {
+                  "text": "ceritanya sepenuhnya khayalan",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memiliki pesan",
+                  "correct": false
+                },
+                {
+                  "text": "menyerang pribadi pejabat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kritik yang berpijak pada kenyataan lebih sulit dibantah dan lebih bermanfaat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan anekdot dan teks eksposisi dalam menyampaikan kritik adalah …",
+              "options": [
+                {
+                  "text": "anekdot memakai cerita, eksposisi memakai argumen langsung",
+                  "correct": true
+                },
+                {
+                  "text": "anekdot tidak boleh berisi kritik",
+                  "correct": false
+                },
+                {
+                  "text": "eksposisi harus lucu",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya tidak memiliki struktur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Anekdot menyampaikan kritik secara tidak langsung lewat cerita; eksposisi menyampaikannya secara langsung."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pernyataan simpati yang tepat terhadap teks kritik sosial adalah …",
+              "options": [
+                {
+                  "text": "Saya memahami keluhan warga karena datanya jelas dan masuk akal.",
+                  "correct": true
+                },
+                {
+                  "text": "Semua kritik itu pasti salah.",
+                  "correct": false
+                },
+                {
+                  "text": "Pembuat kritik tidak perlu didengar.",
+                  "correct": false
+                },
+                {
+                  "text": "Lebih baik masalahnya diabaikan.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Simpati yang tepat disertai alasan yang menunjukkan pemahaman terhadap isi kritik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Agar kritik sosial tidak menimbulkan konflik, penulis sebaiknya …",
+              "options": [
+                {
+                  "text": "menggunakan bahasa santun dan menyebut data",
+                  "correct": true
+                },
+                {
+                  "text": "memakai kata kasar",
+                  "correct": false
+                },
+                {
+                  "text": "menyebut nama pribadi tanpa bukti",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan tuduhan tanpa sumber",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kesantunan dan dukungan data membuat kritik lebih mudah diterima."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat penutup anekdot yang berfungsi sebagai koda kritik adalah …",
+              "options": [
+                {
+                  "text": "Begitulah, kalau antrean terus begini, urusan kecil pun jadi sehari.",
+                  "correct": true
+                },
+                {
+                  "text": "Pada suatu hari ada seorang lelaki.",
+                  "correct": false
+                },
+                {
+                  "text": "Lalu mereka bertengkar.",
+                  "correct": false
+                },
+                {
+                  "text": "Di kota itu ada banyak gedung.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Koda menyampaikan simpulan atau sindiran atas kejadian sebelumnya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang perlu diperhatikan saat menulis teks eksposisi berisi kritik sosial? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menyusun argumen yang logis",
+                  "correct": true
+                },
+                {
+                  "text": "Menyertakan bukti atau data",
+                  "correct": true
+                },
+                {
+                  "text": "Menggunakan bahasa yang jelas",
+                  "correct": true
+                },
+                {
+                  "text": "Menyerang pribadi pihak lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Eksposisi memerlukan argumen logis dan bukti. Menyerang pribadi melemahkan kredibilitas penulis."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menulis teks anekdot berisi kritik sosial.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Memilih peristiwa atau masalah sosial yang akan dikritik"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menyusun cerita singkat dengan tokoh dan latar"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menambahkan kelucuan pada bagian komplikasi"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menutup dengan koda berisi pesan kritik"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Anekdot dibangun dari masalah nyata yang dikemas cerita lucu dan ditutup pesan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kata 'kritik' dalam teks anekdot berbeda dari 'celaan' karena kritik …",
+              "options": [
+                {
+                  "text": "disertai alasan dan bertujuan memperbaiki",
+                  "correct": true
+                },
+                {
+                  "text": "hanya menyakiti perasaan",
+                  "correct": false
+                },
+                {
+                  "text": "dilakukan tanpa dasar",
+                  "correct": false
+                },
+                {
+                  "text": "selalu berupa ancaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kritik bertujuan membangun, sedangkan celaan hanya menyerang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teks anekdot tentang pegawai yang menunda pekerjaan paling tepat dinilai dari …",
+              "options": [
+                {
+                  "text": "kejelasan pesan dan relevansi kritiknya",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah kata",
+                  "correct": false
+                },
+                {
+                  "text": "penggunaan istilah asing",
+                  "correct": false
+                },
+                {
+                  "text": "banyaknya tokoh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kualitas anekdot dinilai dari pesan yang tersampaikan dan relevansi kritiknya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menyimak teks anekdot secara aural berarti menyimak melalui …",
+              "options": [
+                {
+                  "text": "pendengaran",
+                  "correct": true
+                },
+                {
+                  "text": "penglihatan saja",
+                  "correct": false
+                },
+                {
+                  "text": "penciuman",
+                  "correct": false
+                },
+                {
+                  "text": "sentuhan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Aural berarti berkaitan dengan pendengaran, misalnya menyimak lawakan yang diperdengarkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menginterpretasi teks anekdot visual menuntut penyimak untuk …",
+              "options": [
+                {
+                  "text": "menyimpulkan pesan dari gambar dan teks",
+                  "correct": true
+                },
+                {
+                  "text": "menghafal seluruh dialog",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan konteks",
+                  "correct": false
+                },
+                {
+                  "text": "mencatat jumlah kata",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pada teks visual, pesan dibangun oleh perpaduan gambar dan kata."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu ciri anekdot yang berhasil adalah …",
+              "options": [
+                {
+                  "text": "pembaca langsung menangkap pesan kritiknya",
+                  "correct": true
+                },
+                {
+                  "text": "ceritanya sangat panjang",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memiliki tokoh",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memiliki latar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pesan yang mudah ditangkap membuat kritik tersampaikan tanpa perlu dijelaskan panjang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pendapat pro-kontra terhadap kritik sosial sebaiknya disampaikan dengan …",
+              "options": [
+                {
+                  "text": "alasan yang logis dan bahasa santun",
+                  "correct": true
+                },
+                {
+                  "text": "emosi yang tinggi",
+                  "correct": false
+                },
+                {
+                  "text": "tuduhan pribadi",
+                  "correct": false
+                },
+                {
+                  "text": "kata-kata kasar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pendapat yang disertai alasan lebih kuat dan menjaga komunikasi yang sehat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat yang paling tepat menyampaikan empati terhadap korban dalam kritik sosial adalah …",
+              "options": [
+                {
+                  "text": "Kasus itu menunjukkan perlunya perlindungan yang lebih baik bagi warga.",
+                  "correct": true
+                },
+                {
+                  "text": "Ah, itu bukan masalah penting.",
+                  "correct": false
+                },
+                {
+                  "text": "Yang penting saya tidak terkena.",
+                  "correct": false
+                },
+                {
+                  "text": "Sudah biasa, tidak perlu dibahas.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalimat itu menunjukkan kepedulian sekaligus mengarah pada perbaikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa anekdot sering dipakai untuk mengkritik kebijakan?",
+              "options": [
+                {
+                  "text": "karena sindiran tidak langsung lebih mudah diterima tanpa konfrontasi",
+                  "correct": true
+                },
+                {
+                  "text": "karena anekdot tidak memiliki pesan",
+                  "correct": false
+                },
+                {
+                  "text": "karena anekdot selalu panjang",
+                  "correct": false
+                },
+                {
+                  "text": "karena anekdot tidak boleh berisi fakta",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bentuk cerita lucu menurunkan ketegangan sehingga pesan kritik lebih mudah diterima."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

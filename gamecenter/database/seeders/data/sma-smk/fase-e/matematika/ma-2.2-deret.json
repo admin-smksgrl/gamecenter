@@ -1,0 +1,805 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "matematika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "MA 2.2",
+      "title": "Deret",
+      "description": "Jumlah n suku pertama deret aritmetika dan geometri, termasuk deret geometri tak hingga.",
+      "learning_objectives": [
+        "Menentukan jumlah suku ke-n dari deret aritmetika dan deret geometri.",
+        "Menyelesaikan permasalahan kehidupan sehari-hari yang berkaitan dengan konsep deret aritmetika dan deret geometri.",
+        "Menentukan jumlah suku dari deret geometri tak hingga.",
+        "Menyelesaikan permasalahan kehidupan sehari-hari yang berkaitan dengan konsep deret geometri tak hingga."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar MA 2.2 Deret",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Dari Barisan ke Deret",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 2.2 — Kompetensi Awal",
+          "content": "## Deret adalah jumlah suku-suku barisan\n\n**Barisan** menuliskan suku-sukunya berurutan:\n2, 5, 8, 11, 14\n\n**Deret** menjumlahkannya:\n2 + 5 + 8 + 11 + 14 = 40\n\nNotasi **Sₙ** berarti jumlah **n suku pertama**.\n\nDari contoh di atas, S₅ = 40.\n\n### Hubungan penting\n\n> **Uₙ = Sₙ − Sₙ₋₁**\n\nSuku ke-n diperoleh dari selisih dua jumlah berurutan. Contoh: bila S₅ = 40 dan S₄ = 26, maka U₅ = 40 − 26 = 14. Ini cocok dengan barisan di atas.\n\n### Dua rumus jumlah\n\n| Deret | Rumus Sₙ |\n|---|---|\n| Aritmetika | Sₙ = (n/2) × (a + Uₙ) atau Sₙ = (n/2) × (2a + (n − 1)b) |\n| Geometri | Sₙ = a(rⁿ − 1)/(r − 1) untuk r ≠ 1 |\n\nRumus aritmetika punya dua bentuk yang sama nilainya — pilih yang datanya tersedia."
+        },
+        {
+          "type": "text",
+          "title": "Menggunakan Rumus Jumlah",
+          "duration": 360,
+          "source_reference": "Modul Ajar MA 2.2 — Tujuan Pembelajaran 1 & 2",
+          "content": "## Contoh deret aritmetika\n\nHitung S₁₀ dari 3 + 7 + 11 + …\n\na = 3, b = 4, n = 10.\nS₁₀ = (10/2) × (2 × 3 + 9 × 4) = 5 × (6 + 36) = 5 × 42 = **210**\n\n## Contoh deret geometri\n\nHitung S₅ dari 2 + 6 + 18 + …\n\na = 2, r = 3, n = 5.\nS₅ = 2(3⁵ − 1)/(3 − 1) = 2(243 − 1)/2 = 2 × 121 = **242**\n\nPeriksa langsung: 2 + 6 + 18 + 54 + 162 = 242. Benar.\n\n### Deret geometri tak hingga\n\nBila |r| < 1, jumlah tak hingga **konvergen** ke satu nilai:\n\n> **S∞ = a / (1 − r)**\n\nContoh: 8 + 4 + 2 + 1 + … (a = 8, r = 1/2)\nS∞ = 8 / (1 − 1/2) = 8 / 0,5 = **16**\n\n**Syarat mutlak:** rumus S∞ hanya berlaku bila |r| < 1. Untuk r = 2 deretnya membesar tanpa batas dan tidak punya jumlah."
+        },
+        {
+          "type": "interactive",
+          "title": "Deret di Keuangan & Sains",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 2.2 — Tujuan Pembelajaran 4",
+          "content": "## Tiga penerapan nyata\n\n**1. Menabung bertahap (aritmetika)**\nBulan pertama menabung Rp100.000, lalu naik Rp25.000 tiap bulan. Total setelah 1 tahun:\nS₁₂ = (12/2) × (2 × 100.000 + 11 × 25.000) = 6 × (200.000 + 275.000) = **Rp2.850.000**\n\n**2. Bunga majemuk (geometri)**\nUang Rp1.000.000 dengan bunga 10% per tahun menjadi 1.000.000 × 1,1ⁿ. Ini barisan geometri dengan r = 1,1.\n\n**3. Pantulan bola (tak hingga)**\nBola dijatuhkan dari 2 m dan memantul setinggi 3/4 tinggi sebelumnya. Panjang lintasan totalnya membentuk deret geometri tak hingga.\n\n### Latihan\n\nHitung 1/2 + 1/4 + 1/8 + … tak hingga.\n\n<details>\n<summary>Lihat jawaban</summary>\n\na = 1/2 dan r = 1/2, sehingga S∞ = (1/2)/(1 − 1/2) = (1/2)/(1/2) = **1**.\n\n</details>"
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Deret — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah 5 suku pertama deret 2 + 4 + 6 + 8 + 10 adalah …",
+              "options": [
+                {
+                  "text": "20",
+                  "correct": false
+                },
+                {
+                  "text": "30",
+                  "correct": true
+                },
+                {
+                  "text": "40",
+                  "correct": false
+                },
+                {
+                  "text": "50",
+                  "correct": false
+                }
+              ],
+              "explanation": "2 + 4 + 6 + 8 + 10 = 30.",
+              "hint": "Jumlahkan langsung kelima sukunya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Notasi Sₙ pada deret berarti …",
+              "options": [
+                {
+                  "text": "suku ke-n",
+                  "correct": false
+                },
+                {
+                  "text": "jumlah n suku pertama",
+                  "correct": true
+                },
+                {
+                  "text": "beda barisan",
+                  "correct": false
+                },
+                {
+                  "text": "rasio barisan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sₙ adalah jumlah n suku pertama, sedangkan Uₙ adalah suku ke-n.",
+              "hint": "S berasal dari kata sum (jumlah)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui S₅ = 40 dan S₄ = 26. Nilai U₅ adalah …",
+              "options": [
+                {
+                  "text": "12",
+                  "correct": false
+                },
+                {
+                  "text": "14",
+                  "correct": true
+                },
+                {
+                  "text": "16",
+                  "correct": false
+                },
+                {
+                  "text": "66",
+                  "correct": false
+                }
+              ],
+              "explanation": "U₅ = S₅ − S₄ = 40 − 26 = 14.",
+              "hint": "Kurangkan dua jumlah berurutan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Deret 3 + 6 + 12 + 24 adalah deret …",
+              "options": [
+                {
+                  "text": "aritmetika dengan b = 3",
+                  "correct": false
+                },
+                {
+                  "text": "geometri dengan r = 2",
+                  "correct": true
+                },
+                {
+                  "text": "aritmetika dengan b = 6",
+                  "correct": false
+                },
+                {
+                  "text": "geometri dengan r = 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "6 ÷ 3 = 2 dan 12 ÷ 6 = 2, sehingga rasionya 2 → deret geometri.",
+              "hint": "Periksa dengan pembagian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rumus jumlah deret geometri tak hingga adalah …",
+              "options": [
+                {
+                  "text": "S∞ = a × r",
+                  "correct": false
+                },
+                {
+                  "text": "S∞ = a / (1 − r)",
+                  "correct": true
+                },
+                {
+                  "text": "S∞ = a / (r − 1)",
+                  "correct": false
+                },
+                {
+                  "text": "S∞ = (n/2)(a + Uₙ)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Untuk |r| < 1, S∞ = a / (1 − r).",
+              "hint": "Berlaku hanya bila |r| < 1."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Deret — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah 10 suku pertama deret aritmetika 3 + 7 + 11 + … adalah …",
+              "options": [
+                {
+                  "text": "190",
+                  "correct": false
+                },
+                {
+                  "text": "210",
+                  "correct": true
+                },
+                {
+                  "text": "220",
+                  "correct": false
+                },
+                {
+                  "text": "240",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 3, b = 4. S₁₀ = (10/2)(2 × 3 + 9 × 4) = 5 × 42 = 210.",
+              "hint": "Pakai Sₙ = (n/2)(2a + (n − 1)b)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah 5 suku pertama deret geometri 2 + 6 + 18 + … adalah …",
+              "options": [
+                {
+                  "text": "162",
+                  "correct": false
+                },
+                {
+                  "text": "242",
+                  "correct": true
+                },
+                {
+                  "text": "252",
+                  "correct": false
+                },
+                {
+                  "text": "486",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 2, r = 3. S₅ = 2(3⁵ − 1)/(3 − 1) = 2 × 242/2 = 242.",
+              "hint": "Hitung 3⁵ = 243 lebih dulu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Deret 1 + 2 + 3 + … + 20 memiliki jumlah …",
+              "options": [
+                {
+                  "text": "190",
+                  "correct": false
+                },
+                {
+                  "text": "200",
+                  "correct": false
+                },
+                {
+                  "text": "210",
+                  "correct": true
+                },
+                {
+                  "text": "420",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 1, b = 1, n = 20. S₂₀ = (20/2)(1 + 20) = 10 × 21 = 210.",
+              "hint": "Pakai bentuk Sₙ = (n/2)(a + Uₙ)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah deret tak hingga 8 + 4 + 2 + 1 + … adalah …",
+              "options": [
+                {
+                  "text": "12",
+                  "correct": false
+                },
+                {
+                  "text": "14",
+                  "correct": false
+                },
+                {
+                  "text": "16",
+                  "correct": true
+                },
+                {
+                  "text": "tidak ada",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 8, r = 1/2. S∞ = 8 / (1 − 1/2) = 16.",
+              "hint": "|r| < 1, jadi jumlahnya berhingga."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui deret aritmetika dengan a = 5 dan b = 3. Jumlah 8 suku pertamanya adalah …",
+              "options": [
+                {
+                  "text": "100",
+                  "correct": false
+                },
+                {
+                  "text": "124",
+                  "correct": true
+                },
+                {
+                  "text": "128",
+                  "correct": false
+                },
+                {
+                  "text": "148",
+                  "correct": false
+                }
+              ],
+              "explanation": "S₈ = (8/2)(2 × 5 + 7 × 3) = 4 × (10 + 21) = 4 × 31 = 124.",
+              "hint": "2a = 10 dan (n − 1)b = 21."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai S₄ untuk deret geometri dengan a = 3 dan r = 2 adalah …",
+              "options": [
+                {
+                  "text": "24",
+                  "correct": false
+                },
+                {
+                  "text": "45",
+                  "correct": true
+                },
+                {
+                  "text": "48",
+                  "correct": false
+                },
+                {
+                  "text": "93",
+                  "correct": false
+                }
+              ],
+              "explanation": "3 + 6 + 12 + 24 = 45. Dengan rumus: 3(2⁴ − 1)/(2 − 1) = 3 × 15 = 45.",
+              "hint": "Jumlahkan langsung keempat sukunya untuk memeriksa."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah deret yang jumlah tak hingganya dapat dihitung? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "1 + 1/3 + 1/9 + …",
+                  "correct": true
+                },
+                {
+                  "text": "2 + 4 + 8 + …",
+                  "correct": false
+                },
+                {
+                  "text": "10 + 5 + 2,5 + …",
+                  "correct": true
+                },
+                {
+                  "text": "3 + 9 + 27 + …",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlah tak hingga ada bila |r| < 1. Deret dengan r = 1/3 dan r = 1/2 memenuhi; r = 2 dan r = 3 tidak.",
+              "hint": "Periksa rasionya lebih dulu."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan deret dengan jumlahnya.",
+              "options": [
+                {
+                  "id": "s1",
+                  "text": "2 + 4 + 6 + 8 + 10"
+                },
+                {
+                  "id": "s2",
+                  "text": "1 + 3 + 5 + 7"
+                },
+                {
+                  "id": "s3",
+                  "text": "1 + 2 + 4 + 8"
+                },
+                {
+                  "id": "s4",
+                  "text": "3 + 3 + 3 + 3 + 3"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "s1": "30",
+                  "s2": "16",
+                  "s3": "15",
+                  "s4": "15"
+                }
+              },
+              "explanation": "2+4+6+8+10 = 30; 1+3+5+7 = 16; 1+2+4+8 = 15; 3+3+3+3+3 = 15.",
+              "hint": "Hitung satu per satu; dua deret bisa punya jumlah sama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menabung Rp100.000 pada bulan pertama, lalu naik Rp25.000 setiap bulan. Total tabungan setelah 12 bulan adalah …",
+              "options": [
+                {
+                  "text": "Rp2.250.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp2.850.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp3.000.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp3.300.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 100.000, b = 25.000, n = 12. S₁₂ = 6 × (200.000 + 275.000) = 6 × 475.000 = Rp2.850.000.",
+              "hint": "n/2 = 6, lalu hitung 2a + 11b."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan setiap deret ke jenisnya.",
+              "options": [
+                {
+                  "id": "k1",
+                  "text": "4 + 8 + 12 + 16"
+                },
+                {
+                  "id": "k2",
+                  "text": "4 + 8 + 16 + 32"
+                },
+                {
+                  "id": "k3",
+                  "text": "9 + 6 + 3 + 0"
+                },
+                {
+                  "id": "k4",
+                  "text": "16 + 8 + 4 + 2"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "k1": "Aritmetika (b = 4)",
+                  "k2": "Geometri (r = 2)",
+                  "k3": "Aritmetika (b = −3)",
+                  "k4": "Geometri (r = 1/2)"
+                }
+              },
+              "explanation": "4+8+12+16 berselisih 4; 4+8+16+32 berasio 2; 9+6+3+0 berselisih −3; 16+8+4+2 berasio 1/2.",
+              "hint": "Periksa selisih dulu, lalu pembagian."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Deret — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah 15 suku pertama deret aritmetika 6 + 10 + 14 + … adalah …",
+              "options": [
+                {
+                  "text": "480",
+                  "correct": false
+                },
+                {
+                  "text": "510",
+                  "correct": true
+                },
+                {
+                  "text": "540",
+                  "correct": false
+                },
+                {
+                  "text": "570",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 6, b = 4. S₁₅ = (15/2)(2 × 6 + 14 × 4) = 7,5 × (12 + 56) = 7,5 × 68 = 510."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suku ke-5 deret aritmetika adalah 20 dan jumlah 5 suku pertamanya 70. Suku pertamanya adalah …",
+              "options": [
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "8",
+                  "correct": true
+                },
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": false
+                }
+              ],
+              "explanation": "S₅ = (5/2)(a + U₅) = (5/2)(a + 20) = 70, sehingga a + 20 = 28 dan a = 8."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah deret tak hingga 12 + 6 + 3 + … adalah …",
+              "options": [
+                {
+                  "text": "18",
+                  "correct": false
+                },
+                {
+                  "text": "21",
+                  "correct": false
+                },
+                {
+                  "text": "24",
+                  "correct": true
+                },
+                {
+                  "text": "tidak ada",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 12, r = 1/2. S∞ = 12 / (1 − 1/2) = 12 / 0,5 = 24."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui deret geometri dengan U₂ = 6 dan U₅ = 48. Jumlah 6 suku pertamanya adalah …",
+              "options": [
+                {
+                  "text": "93",
+                  "correct": false
+                },
+                {
+                  "text": "189",
+                  "correct": true
+                },
+                {
+                  "text": "192",
+                  "correct": false
+                },
+                {
+                  "text": "378",
+                  "correct": false
+                }
+              ],
+              "explanation": "U₅ ÷ U₂ = r³ = 8, jadi r = 2. Dari a × 2 = 6 diperoleh a = 3. S₆ = 3(2⁶ − 1)/(2 − 1) = 3 × 63 = 189."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah n suku pertama deret aritmetika dirumuskan Sₙ = n² + 3n. Suku ke-6 deret tersebut adalah …",
+              "options": [
+                {
+                  "text": "12",
+                  "correct": false
+                },
+                {
+                  "text": "13",
+                  "correct": false
+                },
+                {
+                  "text": "14",
+                  "correct": true
+                },
+                {
+                  "text": "54",
+                  "correct": false
+                }
+              ],
+              "explanation": "U₆ = S₆ − S₅. S₆ = 36 + 18 = 54 dan S₅ = 25 + 15 = 40, sehingga U₆ = 14."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah bola dijatuhkan dari ketinggian 2 m dan setiap pantulan mencapai 3/4 tinggi sebelumnya. Panjang lintasan total sampai berhenti adalah …",
+              "options": [
+                {
+                  "text": "8 m",
+                  "correct": false
+                },
+                {
+                  "text": "12 m",
+                  "correct": false
+                },
+                {
+                  "text": "14 m",
+                  "correct": true
+                },
+                {
+                  "text": "16 m",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jarak turun pertama 2 m. Pantulan berulang menyumbang 2 × 2 × (3/4) ÷ (1 − 3/4) = 12 m. Total lintasan = 2 + 12 = 14 m."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah semua bilangan asli kelipatan 3 antara 1 dan 100 adalah …",
+              "options": [
+                {
+                  "text": "1.584",
+                  "correct": false
+                },
+                {
+                  "text": "1.683",
+                  "correct": true
+                },
+                {
+                  "text": "1.700",
+                  "correct": false
+                },
+                {
+                  "text": "5.049",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kelipatan 3 dari 3 sampai 99 membentuk deret aritmetika dengan a = 3, b = 3, n = 33. S₃₃ = (33/2)(3 + 99) = 16,5 × 102 = 1.683."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Deret geometri tak hingga memiliki a = 9 dan S∞ = 12. Rasionya adalah …",
+              "options": [
+                {
+                  "text": "1/4",
+                  "correct": true
+                },
+                {
+                  "text": "1/3",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                },
+                {
+                  "text": "3/4",
+                  "correct": false
+                }
+              ],
+              "explanation": "9 / (1 − r) = 12 → 1 − r = 9/12 = 3/4 → r = 1/4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah 20 suku pertama deret 2 + 5 + 8 + … adalah …",
+              "options": [
+                {
+                  "text": "590",
+                  "correct": false
+                },
+                {
+                  "text": "610",
+                  "correct": true
+                },
+                {
+                  "text": "620",
+                  "correct": false
+                },
+                {
+                  "text": "1.220",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 2, b = 3. S₂₀ = (20/2)(2 × 2 + 19 × 3) = 10 × (4 + 57) = 10 × 61 = 610."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada deret aritmetika diketahui S₁₀ = 155 dan a = 2. Beda deret tersebut adalah …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                }
+              ],
+              "explanation": "S₁₀ = 5(2 × 2 + 9b) = 155 → 4 + 9b = 31 → 9b = 27 → b = 3."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "S∞ dari 6 + 3 + 1,5 + … adalah 12",
+                  "correct": true
+                },
+                {
+                  "text": "Deret 1 + 2 + 4 + … memiliki S∞ = 2",
+                  "correct": false
+                },
+                {
+                  "text": "Sₙ − Sₙ₋₁ = Uₙ",
+                  "correct": true
+                },
+                {
+                  "text": "Deret geometri dengan r = 1 punya S∞ = a/0",
+                  "correct": false
+                }
+              ],
+              "explanation": "6/(1 − 1/2) = 12 benar. Deret 1 + 2 + 4 + … punya r = 2 sehingga tidak punya jumlah tak hingga. Untuk r = 1 rumus S∞ tidak berlaku (bukan a/0)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah 12 suku pertama deret geometri dengan a = 1 dan r = 2 adalah …",
+              "options": [
+                {
+                  "text": "1.500",
+                  "correct": false
+                },
+                {
+                  "text": "3.100",
+                  "correct": false
+                },
+                {
+                  "text": "6.300",
+                  "correct": true
+                },
+                {
+                  "text": "12.600",
+                  "correct": false
+                }
+              ],
+              "explanation": "Generasi jam ke-0 sampai ke-5 membentuk deret geometri a = 100, r = 2, n = 6. S₆ = 100(2⁶ − 1)/(2 − 1) = 100 × 63 = 6.300."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bakteri mula-mula 100 dan berlipat dua setiap jam. Total bakteri yang pernah ada setelah 5 jam (jumlah seluruh generasi) adalah …",
+              "options": [
+                {
+                  "text": "1.500",
+                  "correct": false
+                },
+                {
+                  "text": "3.100",
+                  "correct": true
+                },
+                {
+                  "text": "3.200",
+                  "correct": false
+                },
+                {
+                  "text": "6.300",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlah generasi mengikuti deret geometri a = 100, r = 2, n = 6 suku (jam ke-0 sampai ke-5). S₆ = 100(2⁶ − 1)/(2 − 1) = 100 × 63 = 3.100."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menghitung jumlah 10 suku pertama deret 4 + 7 + 10 + … dari yang pertama sampai terakhir.",
+              "options": [
+                {
+                  "id": "t1",
+                  "text": "Tentukan a = 4 dan b = 3"
+                },
+                {
+                  "id": "t2",
+                  "text": "Tentukan n = 10"
+                },
+                {
+                  "id": "t3",
+                  "text": "Gunakan Sₙ = (n/2)(2a + (n − 1)b)"
+                },
+                {
+                  "id": "t4",
+                  "text": "Hitung S₁₀ = 5 × (8 + 27) = 175"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "t1",
+                  "t2",
+                  "t3",
+                  "t4"
+                ]
+              },
+              "explanation": "Tentukan a, b, dan n lebih dulu, lalu masukkan ke rumus: 2a + (n − 1)b = 8 + 27 = 35, dan 5 × 35 = 175."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Pasangkan setiap deret tak hingga dengan jumlahnya.",
+              "options": [
+                {
+                  "id": "u1",
+                  "text": "6 + 3 + 1,5 + …"
+                },
+                {
+                  "id": "u2",
+                  "text": "8 + 2 + 0,5 + …"
+                },
+                {
+                  "id": "u3",
+                  "text": "1 + 1/2 + 1/4 + …"
+                },
+                {
+                  "id": "u4",
+                  "text": "9 + 3 + 1 + …"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "u1": "12",
+                  "u2": "32/3",
+                  "u3": "2",
+                  "u4": "27/2"
+                }
+              },
+              "explanation": "6/(1 − 1/2) = 12. 8/(1 − 1/4) = 8 ÷ 0,75 = 32/3. 1/(1 − 1/2) = 2. 9/(1 − 1/3) = 9 ÷ (2/3) = 27/2."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

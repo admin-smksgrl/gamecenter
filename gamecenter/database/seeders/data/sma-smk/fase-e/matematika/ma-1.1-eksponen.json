@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "matematika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "MA 1.1",
+      "title": "Eksponen",
+      "description": "Sifat-sifat eksponen, bentuk akar, dan fungsi eksponen untuk menyelesaikan masalah sehari-hari.",
+      "learning_objectives": [
+        "Mengidentifikasi sifat-sifat eksponen.",
+        "Mengidentifikasi bentuk akar.",
+        "Mengidentifikasi fungsi eksponen.",
+        "Menyelesaikan permasalahan sehari-hari yang berkaitan dengan fungsi eksponen."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "BS Matematika KLS X — modul ajar MA 1.1 Eksponen",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa Eksponen Penting",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 1.1 — Kompetensi Awal",
+          "content": "## Menyingkat perkalian berulang\n\nPerkalian berulang dengan faktor sama bisa ditulis jauh lebih singkat:\n\n- 2 × 2 × 2 × 2 × 2 × 2 ditulis **2⁶**\n- 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 ditulis **5⁸**\n- a × a × a × a × a × a × a ditulis **a⁷**\n\nPada bentuk **aⁿ**:\n\n- **a** disebut *basis* (bilangan pokok)\n- **n** disebut *eksponen* atau *pangkat*\n\nJadi 2⁶ punya basis 2 dan eksponen 6. Dibaca \"dua pangkat enam\" dan nilainya 64.\n\n**Mengapa ini berguna?** Pertumbuhan bakteri, bunga majemuk, dan peluruhan zat radioaktif semuanya berlipat dengan pola yang sama — berulang, bukan bertambah tetap. Eksponen adalah bahasa untuk pola seperti itu.\n\nContoh: satu bakteri membelah menjadi 2 setiap 20 menit. Setelah 2 jam (6 kali membelah) jumlahnya 2⁶ = 64 bakteri, bukan 2 × 6 = 12."
+        },
+        {
+          "type": "text",
+          "title": "Sifat-Sifat Eksponen",
+          "duration": 360,
+          "source_reference": "Modul Ajar MA 1.1 — Tujuan Pembelajaran 1",
+          "content": "## Lima sifat yang wajib hafal\n\n| Sifat | Contoh |\n|---|---|\n| aᵐ × aⁿ = aᵐ⁺ⁿ | 2³ × 2² = 2⁵ |\n| aᵐ ÷ aⁿ = aᵐ⁻ⁿ | 2⁷ ÷ 2² = 2⁵ |\n| (aᵐ)ⁿ = aᵐ·n | (2³)² = 2⁶ |\n| (ab)ⁿ = aⁿ × bⁿ | (2x)³ = 8x³ |\n| a⁰ = 1 (a ≠ 0) | 7⁰ = 1 |\n\n### Pangkat negatif dan pecahan\n\n- a⁻ⁿ = 1 / aⁿ, contoh 2⁻³ = 1/8\n- a^(1/2) = √a, contoh 9^(1/2) = 3\n- a^(m/n) = ⁿ√(aᵐ), contoh 8^(2/3) = ³√(8²) = ³√64 = 4\n\n**Kesalahan yang sering terjadi:** 2³ × 2² bukan 2⁶. Pangkat **dijumlahkan**, bukan dikalikan, saat basisnya sama dan operasinya perkalian."
+        },
+        {
+          "type": "interactive",
+          "title": "Latihan Terbimbing: Bentuk Akar",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 1.1 — Tujuan Pembelajaran 2",
+          "content": "Menyederhanakan akar berarti mencari faktor kuadrat sempurna terbesar di dalamnya.\n\n**Langkah:**\n1. Cari kuadrat sempurna (4, 9, 16, 25, 36, ...) yang membagi bilangan di dalam akar.\n2. Keluarkan akarnya.\n\n**Contoh √48:**\n- 48 = 16 × 3\n- √48 = √16 × √3 = **4√3**\n\n**Sekarang coba sendiri:** sederhanakan √75.\n\n<details>\n<summary>Lihat jawaban</summary>\n\n75 = 25 × 3, sehingga √75 = 5√3.\n\n</details>\n\n**Uji dirimu:** apakah √18 + √8 bisa disederhanakan? Ya — 3√2 + 2√2 = 5√2."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Eksponen — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Hasil dari 2³ × 2² adalah …",
+              "options": [
+                { "text": "2⁵", "correct": true },
+                { "text": "2⁶", "correct": false },
+                { "text": "4⁵", "correct": false },
+                { "text": "4⁶", "correct": false }
+              ],
+              "explanation": "Basisnya sama (2), operasinya perkalian, jadi pangkat dijumlahkan: 2³⁺² = 2⁵ = 32.",
+              "hint": "Basis sama dan dikalikan — jumlahkan pangkatnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai dari 3⁴ adalah …",
+              "options": [
+                { "text": "12", "correct": false },
+                { "text": "64", "correct": false },
+                { "text": "81", "correct": true },
+                { "text": "243", "correct": false }
+              ],
+              "explanation": "3⁴ = 3 × 3 × 3 × 3 = 81. Hati-hati: 3 × 4 = 12 adalah perkalian biasa, bukan pangkat.",
+              "hint": "Kalikan 3 sebanyak empat kali."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk sederhana dari a⁵ ÷ a² adalah …",
+              "options": [
+                { "text": "a²", "correct": false },
+                { "text": "a³", "correct": true },
+                { "text": "a⁷", "correct": false },
+                { "text": "a¹⁰", "correct": false }
+              ],
+              "explanation": "Pada pembagian dengan basis sama, pangkat dikurangkan: a⁵⁻² = a³.",
+              "hint": "Pembagian → kurangkan pangkatnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai dari 5⁰ adalah …",
+              "options": [
+                { "text": "0", "correct": false },
+                { "text": "1", "correct": true },
+                { "text": "5", "correct": false },
+                { "text": "tidak terdefinisi", "correct": false }
+              ],
+              "explanation": "Setiap bilangan bukan nol yang berpangkat 0 bernilai 1, karena aⁿ ÷ aⁿ = a⁰ = 1.",
+              "hint": "Berapa hasil a dibagi a?"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk (2³)² sama dengan …",
+              "options": [
+                { "text": "2⁵", "correct": false },
+                { "text": "2⁶", "correct": true },
+                { "text": "2⁹", "correct": false },
+                { "text": "4⁶", "correct": false }
+              ],
+              "explanation": "Pangkat dari pangkat dikalikan: (2³)² = 2³·² = 2⁶ = 64.",
+              "hint": "Pangkat dipangkatkan — kalikan pangkatnya."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Eksponen — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Nilai dari 2⁻³ adalah …",
+              "options": [
+                { "text": "−8", "correct": false },
+                { "text": "−6", "correct": false },
+                { "text": "1/8", "correct": true },
+                { "text": "1/6", "correct": false }
+              ],
+              "explanation": "Pangkat negatif membalik menjadi pecahan: 2⁻³ = 1/2³ = 1/8. Hasilnya tetap positif.",
+              "hint": "Pangkat negatif bukan berarti hasilnya negatif."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk sederhana dari (a²b³)² ÷ (ab) adalah …",
+              "options": [
+                { "text": "a³b⁵", "correct": true },
+                { "text": "a³b⁶", "correct": false },
+                { "text": "a⁴b⁵", "correct": false },
+                { "text": "a⁵b⁵", "correct": false }
+              ],
+              "explanation": "(a²b³)² = a⁴b⁶. Dibagi ab menjadi a⁴⁻¹b⁶⁻¹ = a³b⁵.",
+              "hint": "Pangkatkan dulu, baru kurangkan pangkat saat membagi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk sederhana dari √48 adalah …",
+              "options": [
+                { "text": "2√12", "correct": false },
+                { "text": "4√3", "correct": true },
+                { "text": "6√2", "correct": false },
+                { "text": "16√3", "correct": false }
+              ],
+              "explanation": "48 = 16 × 3, sehingga √48 = √16 × √3 = 4√3. Faktor kuadrat sempurna terbesar harus dikeluarkan.",
+              "hint": "Cari kuadrat sempurna terbesar yang membagi 48."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika 2ˣ = 32, maka nilai x adalah …",
+              "options": [
+                { "text": "4", "correct": false },
+                { "text": "5", "correct": true },
+                { "text": "6", "correct": false },
+                { "text": "16", "correct": false }
+              ],
+              "explanation": "32 = 2⁵, jadi 2ˣ = 2⁵ dan x = 5.",
+              "hint": "Tulis 32 sebagai pangkat dari 2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hasil dari (3²)³ × 3⁻⁴ adalah …",
+              "options": [
+                { "text": "3", "correct": false },
+                { "text": "9", "correct": true },
+                { "text": "27", "correct": false },
+                { "text": "81", "correct": false }
+              ],
+              "explanation": "(3²)³ = 3⁶, lalu 3⁶ × 3⁻⁴ = 3⁶⁻⁴ = 3² = 9.",
+              "hint": "Sederhanakan pangkat ganda lebih dulu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Populasi bakteri mengikuti rumus P = 100 × 2ⁿ dengan n dalam jam. Setelah 3 jam, populasinya …",
+              "options": [
+                { "text": "600", "correct": false },
+                { "text": "800", "correct": true },
+                { "text": "1.000", "correct": false },
+                { "text": "1.600", "correct": false }
+              ],
+              "explanation": "P = 100 × 2³ = 100 × 8 = 800. Perhatikan bahwa 100 × 2 × 3 = 600 adalah kekeliruan umum.",
+              "hint": "Hitung 2³ lebih dulu, baru kalikan 100."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang bernilai 1? Pilih semua yang benar.",
+              "options": [
+                { "text": "7⁰", "correct": true },
+                { "text": "0⁵", "correct": false },
+                { "text": "12⁰", "correct": true },
+                { "text": "2⁻¹", "correct": false }
+              ],
+              "explanation": "Bilangan bukan nol berpangkat 0 bernilai 1 (7⁰, 12⁰). 0⁵ = 0 dan 2⁻¹ = 1/2, jadi keduanya bukan 1.",
+              "hint": "Periksa basisnya: apakah nol atau bukan?"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk akar dari 2^(1/2) adalah …",
+              "options": [
+                { "text": "√2", "correct": true },
+                { "text": "2√2", "correct": false },
+                { "text": "√4", "correct": false },
+                { "text": "1/2", "correct": false }
+              ],
+              "explanation": "Pangkat 1/2 berarti akar kuadrat: 2^(1/2) = √2.",
+              "hint": "Pangkat setengah sama dengan akar kuadrat."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan bentuk eksponen dengan nilainya.",
+              "options": [
+                { "id": "p1", "text": "2⁵" },
+                { "id": "p2", "text": "3³" },
+                { "id": "p3", "text": "4²" },
+                { "id": "p4", "text": "5²" }
+              ],
+              "correct": {
+                "map": { "p1": "32", "p2": "27", "p3": "16", "p4": "25" }
+              },
+              "explanation": "2⁵ = 32, 3³ = 27, 4² = 16, dan 5² = 25.",
+              "hint": "Hitung satu per satu dari perkalian berulang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hasil dari (2√3)² adalah …",
+              "options": [
+                { "text": "6", "correct": false },
+                { "text": "12", "correct": true },
+                { "text": "18", "correct": false },
+                { "text": "36", "correct": false }
+              ],
+              "explanation": "(2√3)² = 2² × (√3)² = 4 × 3 = 12.",
+              "hint": "Pangkatkan kedua faktornya secara terpisah."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Eksponen — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk sederhana dari (a^(2/3))^(3/4) adalah …",
+              "options": [
+                { "text": "a^(1/2)", "correct": true },
+                { "text": "a^(2/3)", "correct": false },
+                { "text": "a^(8/9)", "correct": false },
+                { "text": "a^(17/12)", "correct": false }
+              ],
+              "explanation": "Pangkat pecahan dipangkatkan berarti dikalikan: (2/3) × (3/4) = 6/12 = 1/2, jadi hasilnya a^(1/2) = √a."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika 3ˣ + 3^(x+1) = 108, maka nilai x adalah …",
+              "options": [
+                { "text": "2", "correct": false },
+                { "text": "3", "correct": true },
+                { "text": "4", "correct": false },
+                { "text": "27", "correct": false }
+              ],
+              "explanation": "Faktorkan 3ˣ: 3ˣ(1 + 3) = 108, sehingga 4 · 3ˣ = 108 dan 3ˣ = 27 = 3³. Jadi x = 3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai x yang memenuhi 2^(2x−1) = 32 adalah …",
+              "options": [
+                { "text": "2", "correct": false },
+                { "text": "3", "correct": true },
+                { "text": "4", "correct": false },
+                { "text": "5", "correct": false }
+              ],
+              "explanation": "32 = 2⁵, sehingga 2x − 1 = 5 dan 2x = 6, jadi x = 3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk sederhana dari √75 + √27 − √48 adalah …",
+              "options": [
+                { "text": "4√3", "correct": true },
+                { "text": "6√3", "correct": false },
+                { "text": "12√3", "correct": false },
+                { "text": "√54", "correct": false }
+              ],
+              "explanation": "√75 = 5√3, √27 = 3√3, dan √48 = 4√3. Maka 5√3 + 3√3 − 4√3 = 4√3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai dari 27^(2/3) adalah …",
+              "options": [
+                { "text": "6", "correct": false },
+                { "text": "9", "correct": true },
+                { "text": "18", "correct": false },
+                { "text": "54", "correct": false }
+              ],
+              "explanation": "27^(2/3) = (³√27)² = 3² = 9. Akar dipakai lebih dulu agar angkanya kecil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika 2ˣ · 4ˣ = 64, maka nilai x adalah …",
+              "options": [
+                { "text": "1", "correct": false },
+                { "text": "2", "correct": true },
+                { "text": "3", "correct": false },
+                { "text": "6", "correct": false }
+              ],
+              "explanation": "4ˣ = 2^(2x), sehingga 2ˣ · 2^(2x) = 2^(3x) = 64 = 2⁶. Maka 3x = 6 dan x = 2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Harga sebuah barang Rp1.000.000 turun 10% setiap tahun. Setelah 2 tahun harganya menjadi …",
+              "options": [
+                { "text": "Rp800.000", "correct": false },
+                { "text": "Rp810.000", "correct": true },
+                { "text": "Rp820.000", "correct": false },
+                { "text": "Rp900.000", "correct": false }
+              ],
+              "explanation": "Harga = 1.000.000 × (0,9)² = 1.000.000 × 0,81 = Rp810.000. Bukan Rp800.000, karena tahun kedua dihitung dari harga yang sudah turun."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang bernilai sama dengan 2⁶? Pilih semua yang benar.",
+              "options": [
+                { "text": "2³ × 2³", "correct": true },
+                { "text": "4³", "correct": true },
+                { "text": "4²", "correct": false },
+                { "text": "8²", "correct": true }
+              ],
+              "explanation": "2³ × 2³ = 2⁶, 4³ = (2²)³ = 2⁶, dan 8² = (2³)² = 2⁶. Sedangkan 4² = 16, bukan 64."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika (x^(1/2))⁴ = 16 dan x > 0, maka nilai x adalah …",
+              "options": [
+                { "text": "2", "correct": false },
+                { "text": "4", "correct": true },
+                { "text": "8", "correct": false },
+                { "text": "16", "correct": false }
+              ],
+              "explanation": "(x^(1/2))⁴ = x² = 16. Karena x > 0, maka x = 4. Bila x negatif juga diizinkan, x = −4 ikut memenuhi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Satu bakteri membelah menjadi 2 setiap 20 menit. Jika mula-mula ada 500 bakteri, setelah 2 jam jumlahnya …",
+              "options": [
+                { "text": "3.000", "correct": false },
+                { "text": "8.000", "correct": false },
+                { "text": "32.000", "correct": true },
+                { "text": "64.000", "correct": false }
+              ],
+              "explanation": "2 jam = 120 menit = 6 kali pembelahan. Jumlah = 500 × 2⁶ = 500 × 64 = 32.000."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai dari 4^(3/2) adalah …",
+              "options": [
+                { "text": "6", "correct": false },
+                { "text": "8", "correct": true },
+                { "text": "12", "correct": false },
+                { "text": "16", "correct": false }
+              ],
+              "explanation": "4^(3/2) = (√4)³ = 2³ = 8."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk rasional dari 1/√5 adalah …",
+              "options": [
+                { "text": "√5", "correct": false },
+                { "text": "√5 / 5", "correct": true },
+                { "text": "5√5", "correct": false },
+                { "text": "1/5", "correct": false }
+              ],
+              "explanation": "Kalikan pembilang dan penyebut dengan √5: (1 × √5)/(√5 × √5) = √5/5."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika 5^(x−2) = 1/25, maka nilai x adalah …",
+              "options": [
+                { "text": "0", "correct": true },
+                { "text": "1", "correct": false },
+                { "text": "2", "correct": false },
+                { "text": "4", "correct": false }
+              ],
+              "explanation": "1/25 = 5⁻², sehingga x − 2 = −2 dan x = 0."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menyelesaikan 2ˣ = 16 dari yang pertama sampai terakhir.",
+              "options": [
+                { "id": "s1", "text": "Tulis 16 sebagai pangkat dari 2" },
+                { "id": "s2", "text": "Peroleh persamaan 2ˣ = 2⁴" },
+                { "id": "s3", "text": "Samakan pangkat kedua ruas" },
+                { "id": "s4", "text": "Simpulkan x = 4" }
+              ],
+              "correct": {
+                "order": ["s1", "s2", "s3", "s4"]
+              },
+              "explanation": "Langkahnya: ubah 16 menjadi 2⁴, tulis persamaan 2ˣ = 2⁴, samakan pangkat karena basisnya sudah sama, lalu simpulkan x = 4."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan tiap bentuk ke hasil yang tepat.",
+              "options": [
+                { "id": "i1", "text": "3⁴" },
+                { "id": "i2", "text": "2⁻²" },
+                { "id": "i3", "text": "9^(1/2)" },
+                { "id": "i4", "text": "10⁰" }
+              ],
+              "correct": {
+                "map": { "i1": "81", "i2": "1/4", "i3": "3", "i4": "1" }
+              },
+              "explanation": "3⁴ = 81, 2⁻² = 1/4, 9^(1/2) = √9 = 3, dan 10⁰ = 1."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

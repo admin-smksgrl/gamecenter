@@ -1,0 +1,792 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "matematika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "MA 6.1",
+      "title": "Karakteristik Fungsi Kuadrat",
+      "description": "Mengenali karakteristik grafik fungsi kuadrat: arah terbuka, titik puncak, sumbu simetri, dan diskriminan.",
+      "learning_objectives": [
+        "Mengidentifikasi karakteristik grafik fungsi kuadrat berdasarkan bentuk aljabarnya."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar MA 6.1 Karakteristik Fungsi Kuadrat",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Bentuk dan Arah Parabola",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 6.1 — Kompetensi Awal",
+          "content": "## Fungsi kuadrat dan grafiknya\n\nFungsi kuadrat berbentuk\n\n> **f(x) = ax² + bx + c**, dengan a ≠ 0\n\nGrafiknya disebut **parabola**. Sifat paling dasar ditentukan oleh tanda **a**:\n\n| Nilai a | Arah terbuka | Puncak |\n|---|---|---|\n| a > 0 | ke **atas** | titik **terendah** (nilai minimum) |\n| a < 0 | ke **bawah** | titik **tertinggi** (nilai maksimum) |\n\nContoh: f(x) = 2x² − 3x + 1 → a = 2 > 0 → terbuka ke atas.\nContoh: f(x) = −x² + 4x → a = −1 < 0 → terbuka ke bawah.\n\n### Yang perlu dicatat\n\n- Bila a = 0, fungsinya menjadi **linear**, bukan kuadrat.\n- Semakin besar |a|, semakin **sempit** parabolanya; semakin kecil |a|, semakin lebar.\n- Grafik selalu memotong sumbu-y di **(0, c)**."
+        },
+        {
+          "type": "text",
+          "title": "Puncak, Sumbu Simetri, dan Diskriminan",
+          "duration": 360,
+          "source_reference": "Modul Ajar MA 6.1 — Tujuan Pembelajaran",
+          "content": "## Tiga alat utama\n\n**1. Sumbu simetri** — garis vertikal yang membelah parabola menjadi dua bagian cermin:\n\n> x = −b / (2a)\n\n**2. Titik puncak (vertex)** — titik pada sumbu simetri:\n\n> x_p = −b / (2a), lalu y_p = f(x_p)\n\n**3. Diskriminan** — penentu jumlah titik potong dengan sumbu-x:\n\n> D = b² − 4ac\n\n| Nilai D | Arti |\n|---|---|\n| D > 0 | memotong sumbu-x di **dua** titik |\n| D = 0 | **menyinggung** sumbu-x di satu titik |\n| D < 0 | **tidak** memotong sumbu-x |\n\n### Contoh lengkap\n\nf(x) = x² − 8x + 12\n- a = 1, b = −8, c = 12\n- Sumbu simetri: x = 8/2 = **4**\n- Nilai minimum: f(4) = 16 − 32 + 12 = **−4** → puncak (4, −4)\n- D = 64 − 48 = 16 > 0 → memotong sumbu-x di dua titik, yaitu x = 2 dan x = 6\n\n**Cek cepat:** bila a > 0 dan D < 0, parabola seluruhnya di atas sumbu-x — fungsinya selalu bernilai positif."
+        },
+        {
+          "type": "interactive",
+          "title": "Membaca Parabola di Sekitar Kita",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 6.1 — Penerapan",
+          "content": "## Parabola di dunia nyata\n\n**Lintasan bola** — tinggi bola h(t) = −5t² + 20t. Karena a = −5 < 0, terbuka ke bawah dan mencapai **tinggi maksimum**:\nt = −20 ÷ (2 × −5) = 2 detik, lalu h(2) = −20 + 40 = 20 meter.\n\n**Laba perusahaan** — laba L(x) = −x² + 100x − 900. Puncaknya di x = 50 dengan laba maksimum L(50) = −2.500 + 5.000 − 900 = 1.600.\n\n**Jembatan lengkung** — bentuk lengkungannya parabola; puncaknya di tengah bentang.\n\n### Latihan\n\nTentukan arah terbuka, sumbu simetri, dan nilai ekstrem dari f(x) = −2x² + 8x − 5.\n\n<details>\n<summary>Lihat jawaban</summary>\n\na = −2 < 0 → **terbuka ke bawah**.\nx = −8 ÷ (2 × −2) = −8 ÷ −4 = **2**.\nf(2) = −8 + 16 − 5 = **3** → nilai **maksimum** 3 di titik (2, 3).\n\n</details>"
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Karakteristik Fungsi Kuadrat — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi f(x) = x² − 6x + 8 memiliki sumbu simetri x = …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sumbu simetri x = −b/(2a) = 6/2 = 3.",
+              "hint": "Pakai x = −b ÷ 2a."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Titik puncak grafik f(x) = x² + 4x + 3 adalah …",
+              "options": [
+                {
+                  "text": "(−2, −1)",
+                  "correct": true
+                },
+                {
+                  "text": "(2, −1)",
+                  "correct": false
+                },
+                {
+                  "text": "(−2, 1)",
+                  "correct": false
+                },
+                {
+                  "text": "(−4, 3)",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = −4/2 = −2, lalu f(−2) = 4 − 8 + 3 = −1. Puncaknya (−2, −1)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = −2x² + 5 terbuka ke …",
+              "options": [
+                {
+                  "text": "atas",
+                  "correct": false
+                },
+                {
+                  "text": "bawah",
+                  "correct": true
+                },
+                {
+                  "text": "kanan",
+                  "correct": false
+                },
+                {
+                  "text": "kiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Koefisien a = −2 negatif, sehingga parabola terbuka ke bawah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diskriminan fungsi f(x) = x² − 2x − 3 adalah …",
+              "options": [
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "8",
+                  "correct": false
+                },
+                {
+                  "text": "16",
+                  "correct": true
+                },
+                {
+                  "text": "−16",
+                  "correct": false
+                }
+              ],
+              "explanation": "D = b² − 4ac = (−2)² − 4(1)(−3) = 4 + 12 = 16."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = x² − 5x + 6 memotong sumbu-x di …",
+              "options": [
+                {
+                  "text": "x = 2 dan x = 3",
+                  "correct": true
+                },
+                {
+                  "text": "x = −2 dan x = −3",
+                  "correct": false
+                },
+                {
+                  "text": "x = 1 dan x = 6",
+                  "correct": false
+                },
+                {
+                  "text": "x = −1 dan x = −6",
+                  "correct": false
+                }
+              ],
+              "explanation": "x² − 5x + 6 = (x − 2)(x − 3), sehingga akarnya x = 2 dan x = 3."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Karakteristik Fungsi Kuadrat — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Nilai minimum fungsi f(x) = x² − 8x + 12 adalah …",
+              "options": [
+                {
+                  "text": "−4",
+                  "correct": true
+                },
+                {
+                  "text": "−2",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = 8/2 = 4 dan f(4) = 16 − 32 + 12 = −4. Karena a > 0, nilai itu minimum.",
+              "hint": "Hitung nilai fungsi di x = −b/2a."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai maksimum fungsi f(x) = −x² + 2x + 3 adalah …",
+              "options": [
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = −2/(−2) = 1 dan f(1) = −1 + 2 + 3 = 4. Karena a < 0, nilai itu maksimum."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = x² − 4x + 4 menyinggung sumbu-x. Diskriminannya …",
+              "options": [
+                {
+                  "text": "D = 0",
+                  "correct": true
+                },
+                {
+                  "text": "D > 0",
+                  "correct": false
+                },
+                {
+                  "text": "D < 0",
+                  "correct": false
+                },
+                {
+                  "text": "D = 4",
+                  "correct": false
+                }
+              ],
+              "explanation": "D = 16 − 16 = 0. Diskriminan nol berarti grafik menyinggung sumbu-x di satu titik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = x² − 9 memotong sumbu-x di …",
+              "options": [
+                {
+                  "text": "x = ±9",
+                  "correct": false
+                },
+                {
+                  "text": "x = ±3",
+                  "correct": true
+                },
+                {
+                  "text": "x = 3 saja",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memotong",
+                  "correct": false
+                }
+              ],
+              "explanation": "x² − 9 = (x − 3)(x + 3), sehingga x = 3 atau x = −3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = x² − 2x + 5 …",
+              "options": [
+                {
+                  "text": "memotong sumbu-x di dua titik",
+                  "correct": false
+                },
+                {
+                  "text": "menyinggung sumbu-x",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memotong sumbu-x",
+                  "correct": true
+                },
+                {
+                  "text": "berbentuk garis lurus",
+                  "correct": false
+                }
+              ],
+              "explanation": "D = 4 − 20 = −16 < 0, sehingga tidak ada akar real dan grafik tidak memotong sumbu-x."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = x² − 4x + 3 mencapai titik terendah di …",
+              "options": [
+                {
+                  "text": "(2, −1)",
+                  "correct": true
+                },
+                {
+                  "text": "(−2, −1)",
+                  "correct": false
+                },
+                {
+                  "text": "(2, 1)",
+                  "correct": false
+                },
+                {
+                  "text": "(0, 3)",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = 4/2 = 2 dan f(2) = 4 − 8 + 3 = −1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bila f(x) = x² + 2x − 8, nilai fungsi di titik puncaknya adalah …",
+              "options": [
+                {
+                  "text": "−9",
+                  "correct": true
+                },
+                {
+                  "text": "−8",
+                  "correct": false
+                },
+                {
+                  "text": "−1",
+                  "correct": false
+                },
+                {
+                  "text": "0",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = −2/2 = −1 dan f(−1) = 1 − 2 − 8 = −9."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang f(x) = 2x² + 4x − 6? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Grafik terbuka ke atas",
+                  "correct": true
+                },
+                {
+                  "text": "Sumbu simetri x = −1",
+                  "correct": true
+                },
+                {
+                  "text": "Nilai minimum −8",
+                  "correct": true
+                },
+                {
+                  "text": "Grafik terbuka ke bawah",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 2 > 0 sehingga terbuka ke atas. Sumbu simetri x = −4/4 = −1. Nilai minimum f(−1) = 2 − 4 − 6 = −8.",
+              "hint": "Hitung a, sumbu simetri, lalu nilai di titik puncak."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan fungsi dengan sumbu simetrinya.",
+              "options": [
+                {
+                  "id": "f1",
+                  "text": "x² − 6x + 5"
+                },
+                {
+                  "id": "f2",
+                  "text": "x² + 4x + 1"
+                },
+                {
+                  "id": "f3",
+                  "text": "−x² + 2x + 7"
+                },
+                {
+                  "id": "f4",
+                  "text": "2x² − 8x"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "f1": "x = 3",
+                  "f2": "x = −2",
+                  "f3": "x = 1",
+                  "f4": "x = 2"
+                }
+              },
+              "explanation": "x = −b/2a: f1 → 6/2 = 3; f2 → −4/2 = −2; f3 → −2/(−2) = 1; f4 → 8/4 = 2.",
+              "hint": "Gunakan x = −b ÷ 2a untuk setiap fungsi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan setiap grafik ke arah terbukanya.",
+              "options": [
+                {
+                  "id": "g1",
+                  "text": "f(x) = 3x² − 2"
+                },
+                {
+                  "id": "g2",
+                  "text": "f(x) = −x² + 4x"
+                },
+                {
+                  "id": "g3",
+                  "text": "f(x) = x² + x + 1"
+                },
+                {
+                  "id": "g4",
+                  "text": "f(x) = −5x² + 1"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "g1": "Terbuka ke atas",
+                  "g2": "Terbuka ke bawah",
+                  "g3": "Terbuka ke atas",
+                  "g4": "Terbuka ke bawah"
+                }
+              },
+              "explanation": "a > 0 (g1, g3) → terbuka ke atas. a < 0 (g2, g4) → terbuka ke bawah.",
+              "hint": "Perhatikan tanda koefisien a."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Karakteristik Fungsi Kuadrat — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Grafik fungsi kuadrat memiliki puncak (2, −1) dan melalui (0, 3). Koefisien x² fungsi itu adalah …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": true
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bentuk puncak: f(x) = a(x − 2)² − 1. Substitusi (0, 3): 4a − 1 = 3 → a = 1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = x² + bx + c memiliki puncak (3, −2). Nilai b + c adalah …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": true
+                },
+                {
+                  "text": "−1",
+                  "correct": false
+                },
+                {
+                  "text": "7",
+                  "correct": false
+                },
+                {
+                  "text": "−6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Puncak di x = 3 memberi b = −2(3) = −6. Lalu f(3) = 9 − 18 + c = −2 → c = 7. Jadi b + c = 1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Parabola melalui (0, 3), (1, 0), dan (2, −1). Nilai a + b + c dari f(x) = ax² + bx + c adalah …",
+              "options": [
+                {
+                  "text": "0",
+                  "correct": true
+                },
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                }
+              ],
+              "explanation": "c = 3. Dari (1, 0): a + b = −3. Dari (2, −1): 2a + b = −2. Kurangkan: a = 1 dan b = −4. Maka a + b + c = 1 − 4 + 3 = 0."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Daerah hasil (range) fungsi f(x) = x² − 6x + 5 adalah …",
+              "options": [
+                {
+                  "text": "y ≥ −4",
+                  "correct": true
+                },
+                {
+                  "text": "y ≤ −4",
+                  "correct": false
+                },
+                {
+                  "text": "y ≥ 4",
+                  "correct": false
+                },
+                {
+                  "text": "y ≤ 4",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karena a > 0, grafik terbuka ke atas dengan nilai minimum f(3) = −4. Jadi y ≥ −4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi f(x) = x² + 2x + 3 …",
+              "options": [
+                {
+                  "text": "selalu bernilai positif",
+                  "correct": true
+                },
+                {
+                  "text": "selalu bernilai negatif",
+                  "correct": false
+                },
+                {
+                  "text": "memotong sumbu-x di dua titik",
+                  "correct": false
+                },
+                {
+                  "text": "menyinggung sumbu-x",
+                  "correct": false
+                }
+              ],
+              "explanation": "D = 4 − 12 = −8 < 0 dan a = 1 > 0, sehingga grafik seluruhnya di atas sumbu-x."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Akar-akar x² − 7x + 12 = 0 adalah p dan q. Nilai p × q adalah …",
+              "options": [
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "7",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": true
+                }
+              ],
+              "explanation": "Menurut Vieta, hasil kali akar = c/a = 12/1 = 12."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Titik puncak f(x) = 2x² − 12x + 13 adalah …",
+              "options": [
+                {
+                  "text": "(3, −5)",
+                  "correct": true
+                },
+                {
+                  "text": "(−3, −5)",
+                  "correct": false
+                },
+                {
+                  "text": "(3, 5)",
+                  "correct": false
+                },
+                {
+                  "text": "(6, 13)",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = 12/4 = 3 dan f(3) = 18 − 36 + 13 = −5."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui f(1) = f(5) = 0. Sumbu simetri grafik f adalah …",
+              "options": [
+                {
+                  "text": "x = 2",
+                  "correct": false
+                },
+                {
+                  "text": "x = 3",
+                  "correct": true
+                },
+                {
+                  "text": "x = 4",
+                  "correct": false
+                },
+                {
+                  "text": "x = 6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sumbu simetri berada tepat di tengah dua titik bernilai sama: (1 + 5)/2 = 3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Parabola terbuka ke bawah dengan nilai maksimum 5 di x = −1, dan melalui (0, 2). Koefisien x²-nya adalah …",
+              "options": [
+                {
+                  "text": "−3",
+                  "correct": true
+                },
+                {
+                  "text": "−2",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bentuk puncak f(x) = a(x + 1)² + 5. Substitusi (0, 2): a + 5 = 2 → a = −3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = x² − 4x + a memotong sumbu-x di dua titik berbeda bila …",
+              "options": [
+                {
+                  "text": "a < 4",
+                  "correct": true
+                },
+                {
+                  "text": "a > 4",
+                  "correct": false
+                },
+                {
+                  "text": "a = 4",
+                  "correct": false
+                },
+                {
+                  "text": "a < 0",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dua titik potong memerlukan D > 0: 16 − 4a > 0 → a < 4."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang f(x) = −x² + 4x − 3? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Terbuka ke bawah",
+                  "correct": true
+                },
+                {
+                  "text": "Titik puncak (2, 1)",
+                  "correct": true
+                },
+                {
+                  "text": "Memotong sumbu-x di x = 1 dan x = 3",
+                  "correct": true
+                },
+                {
+                  "text": "Nilai minimumnya 1",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = −1 < 0 sehingga terbuka ke bawah. Puncak x = 2 dengan f(2) = 1. Akar: −(x² − 4x + 3) = 0 → x = 1 dan x = 3. Karena terbuka ke bawah, 1 adalah nilai maksimum, bukan minimum."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Grafik f(x) = −x² + 4x − 3 memotong sumbu-y di titik …",
+              "options": [
+                {
+                  "text": "(0, 3)",
+                  "correct": false
+                },
+                {
+                  "text": "(0, −3)",
+                  "correct": true
+                },
+                {
+                  "text": "(0, 4)",
+                  "correct": false
+                },
+                {
+                  "text": "(0, 1)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Saat x = 0, f(0) = −3. Jadi titik potongnya (0, −3)."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menentukan nilai minimum f(x) = x² − 8x + 12 dari yang pertama sampai terakhir.",
+              "options": [
+                {
+                  "id": "p1",
+                  "text": "Identifikasi a = 1, b = −8, c = 12"
+                },
+                {
+                  "id": "p2",
+                  "text": "Hitung x puncak = −b ÷ 2a = 4"
+                },
+                {
+                  "id": "p3",
+                  "text": "Substitusi x = 4 ke f(x)"
+                },
+                {
+                  "id": "p4",
+                  "text": "Peroleh nilai minimum −4"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Tentukan koefisien, hitung absis puncak, substitusikan, lalu bacakan hasilnya: f(4) = 16 − 32 + 12 = −4."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Pasangkan setiap fungsi dengan titik puncaknya.",
+              "options": [
+                {
+                  "id": "v1",
+                  "text": "f(x) = x² − 2x"
+                },
+                {
+                  "id": "v2",
+                  "text": "f(x) = x² + 6x + 5"
+                },
+                {
+                  "id": "v3",
+                  "text": "f(x) = −x² + 4x"
+                },
+                {
+                  "id": "v4",
+                  "text": "f(x) = 2x² − 4x + 1"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "v1": "(1, −1)",
+                  "v2": "(−3, −4)",
+                  "v3": "(2, 4)",
+                  "v4": "(1, −1)"
+                }
+              },
+              "explanation": "v1: x = 1, f = −1. v2: x = −3, f = 9 − 18 + 5 = −4. v3: x = 2, f = −4 + 8 = 4. v4: x = 1, f = 2 − 4 + 1 = −1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah bola dilempar dan tingginya h(t) = −5t² + 20t meter. Tinggi maksimum bola adalah …",
+              "options": [
+                {
+                  "text": "10 m",
+                  "correct": false
+                },
+                {
+                  "text": "15 m",
+                  "correct": false
+                },
+                {
+                  "text": "20 m",
+                  "correct": true
+                },
+                {
+                  "text": "25 m",
+                  "correct": false
+                }
+              ],
+              "explanation": "t = −20 ÷ (2 × −5) = 2 dan h(2) = −20 + 40 = 20 meter."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

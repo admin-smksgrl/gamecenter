@@ -1,0 +1,1051 @@
+@import '@fontsource-variable/fraunces/full.css';
+@import '@fontsource-variable/fraunces/full-italic.css';
+@import '@fontsource-variable/instrument-sans/index.css';
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+@theme {
+    --font-sans: 'Instrument Sans Variable', ui-sans-serif, system-ui,
+        -apple-system, 'Segoe UI', sans-serif;
+    --font-serif: 'Fraunces Variable', 'Iowan Old Style', 'Palatino Linotype',
+        Georgia, serif;
+}
+
+/* Same palette as the learner-facing app, re-pointed at admin tokens. */
+:root {
+    --gc-canvas: #f5f2f2;
+    --gc-surface: #ffffff;
+    --gc-surface-soft: #fbf8f8;
+    --gc-ink: #171114;
+    --gc-ink-soft: #514a4e;
+    --gc-rule: #e6dfdf;
+
+    --gc-red: #e60012;
+    --gc-red-deep: #b8000f;
+    --gc-red-tint: #ffebec;
+
+    --gc-topbar: rgb(255 255 255 / 0.78);
+    --gc-sidebar: rgb(255 255 255 / 0.62);
+
+    --gc-shadow-card:
+        0 1px 2px rgb(23 17 20 / 0.04), 0 10px 24px -18px rgb(23 17 20 / 0.24);
+    --gc-shadow-lift:
+        0 2px 4px rgb(23 17 20 / 0.04), 0 24px 44px -22px rgb(184 0 15 / 0.4);
+    --gc-shadow-fab: 0 8px 20px -8px rgb(230 0 18 / 0.55);
+}
+
+.dark {
+    --gc-canvas: #0e0c0d;
+    --gc-surface: #171214;
+    --gc-surface-soft: #1c1618;
+    --gc-ink: #f7f1f2;
+    --gc-ink-soft: #c7bcc0;
+    --gc-rule: #2d2629;
+
+    --gc-red: #ff3945;
+    --gc-red-deep: #d2101c;
+    --gc-red-tint: #3b1014;
+
+    --gc-topbar: rgb(23 18 20 / 0.82);
+    --gc-sidebar: rgb(14 12 13 / 0.72);
+
+    --gc-shadow-card:
+        0 1px 2px rgb(0 0 0 / 0.5), 0 10px 24px -18px rgb(0 0 0 / 0.9);
+    --gc-shadow-lift:
+        0 2px 4px rgb(0 0 0 / 0.55), 0 24px 44px -22px rgb(0 0 0 / 0.95);
+    --gc-shadow-fab: 0 8px 20px -8px rgb(255 57 69 / 0.45);
+}
+
+/* ---------------------------------------------------------------- shell */
+
+.fi-body {
+    background-color: var(--gc-canvas);
+    background-image: radial-gradient(
+        color-mix(in srgb, var(--gc-ink) 6%, transparent) 1px,
+        transparent 1.1px
+    );
+    background-size: 24px 24px;
+    color: var(--gc-ink);
+}
+
+.fi-topbar {
+    background-color: var(--gc-topbar);
+    border-bottom: 1px solid var(--gc-rule);
+    box-shadow: none;
+    backdrop-filter: blur(16px);
+}
+
+.fi-sidebar {
+    background-color: var(--gc-sidebar);
+    border-inline-end: 1px solid var(--gc-rule);
+    backdrop-filter: blur(18px);
+}
+
+.fi-sidebar-header {
+    border-bottom: 1px solid
+        color-mix(in srgb, var(--gc-rule) 70%, transparent);
+}
+
+.fi-sidebar-group-label {
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--gc-ink) 42%, transparent);
+}
+
+.fi-sidebar-item-btn {
+    border-radius: 0.7rem;
+}
+
+.fi-sidebar-item.fi-active > .fi-sidebar-item-btn {
+    background-color: var(--gc-red-tint);
+}
+
+.fi-sidebar-item.fi-active
+    > .fi-sidebar-item-btn
+    > .fi-sidebar-item-label,
+.fi-sidebar-item.fi-active > .fi-sidebar-item-btn > .fi-icon {
+    color: var(--gc-red-deep);
+}
+
+.dark
+    .fi-sidebar-item.fi-active
+    > .fi-sidebar-item-btn
+    > .fi-sidebar-item-label,
+.dark .fi-sidebar-item.fi-active > .fi-sidebar-item-btn > .fi-icon {
+    color: var(--gc-red);
+}
+
+.fi-logo {
+    display: flex;
+    align-items: center;
+}
+
+/* ----------------------------------------------------------- typography */
+/*
+   Satu skala tipografi untuk seluruh panel.
+
+   Jangkar (anchor) skala adalah label sidebar: 0.875rem / 14px, w500.
+   Semua peran lain diturunkan dari jangkar itu dengan langkah yang jelas:
+
+     meta / label  0.6875rem (11px)  w700  uppercase  tracking lebar
+     body          0.8125rem (13px)  w400/w500
+     body kuat     0.8125rem (13px)  w600
+     judul kecil   0.9375rem (15px)  w600    (judul seksi/kartu)
+     judul kartu   1rem      (16px)  w600
+     judul halaman 1.25rem   (20px)  w600
+     angka besar   1.5rem    (24px)  w600  tabular
+
+   Peran lebih dibedakan oleh bobot, warna, jarak, dan huruf besar/kecil
+   daripada oleh ukuran saja.
+*/
+
+:root {
+    --gc-text-meta: 0.6875rem;
+    --gc-text-body: 0.8125rem;
+    --gc-text-title-sm: 0.9375rem;
+    --gc-text-title: 1rem;
+    --gc-text-page-title: 1.25rem;
+    --gc-text-figure: 1.5rem;
+
+    --gc-leading-meta: 1.45;
+    --gc-leading-body: 1.6;
+    --gc-leading-title: 1.3;
+    --gc-leading-page-title: 1.25;
+
+    --gc-tracking-meta: 0.12em;
+    --gc-tracking-title: -0.01em;
+    --gc-tracking-page-title: -0.02em;
+}
+
+/* Label kecil: metadata, tanggal, label statistik. */
+.gc-meta {
+    font-size: var(--gc-text-meta);
+    line-height: var(--gc-leading-meta);
+    font-weight: 700;
+    letter-spacing: var(--gc-tracking-meta);
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--gc-ink) 48%, transparent);
+    font-variant-numeric: tabular-nums;
+}
+
+/* ------------------------------------------------------------- headings */
+
+/* Judul halaman memakai sans yang sama dengan sidebar, bukan serif besar,
+   supaya bobot visual judul tidak mengalahkan navigasi. */
+.fi-header-heading {
+    font-family: var(--font-sans);
+    font-size: var(--gc-text-page-title);
+    line-height: var(--gc-leading-page-title);
+    font-weight: 600;
+    letter-spacing: var(--gc-tracking-page-title);
+    font-variation-settings: normal;
+}
+
+.fi-header-subheading {
+    margin-top: 0.15rem;
+    font-size: var(--gc-text-body);
+    line-height: var(--gc-leading-body);
+    font-weight: 400;
+    color: color-mix(in srgb, var(--gc-ink) 56%, transparent);
+}
+
+.fi-section-header-heading,
+.fi-ta-header-heading {
+    font-family: var(--font-sans);
+    font-size: var(--gc-text-title-sm);
+    line-height: var(--gc-leading-title);
+    font-weight: 600;
+    letter-spacing: var(--gc-tracking-title);
+    font-variation-settings: normal;
+}
+
+.fi-section-header-description,
+.fi-ta-header-description {
+    font-size: var(--gc-text-body);
+    font-weight: 400;
+    color: color-mix(in srgb, var(--gc-ink) 55%, transparent);
+}
+
+/* --------------------------------------------------------------- cards */
+
+.fi-section:not(.fi-section-not-contained) {
+    border-radius: 1rem;
+    background-color: var(--gc-surface);
+    --tw-ring-color: var(--gc-rule);
+    box-shadow: var(--gc-shadow-card);
+}
+
+.fi-wi-stats-overview-stat {
+    border-radius: 1rem;
+    background-color: var(--gc-surface);
+    --tw-ring-color: var(--gc-rule);
+    box-shadow: var(--gc-shadow-card);
+    transition:
+        transform 180ms ease,
+        box-shadow 180ms ease;
+}
+
+.fi-wi-stats-overview-stat:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--gc-shadow-lift);
+}
+
+.fi-wi-stats-overview-stat-label {
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--gc-ink) 45%, transparent);
+}
+
+.fi-wi-stats-overview-stat-value {
+    font-family: var(--font-serif);
+    font-weight: 560;
+    letter-spacing: -0.03em;
+    font-variation-settings:
+        'wght' 560,
+        'SOFT' 30,
+        'WONK' 1;
+}
+
+.fi-wi-stats-overview-stat-description {
+    color: color-mix(in srgb, var(--gc-ink) 52%, transparent);
+}
+
+.fi-wi-stats-overview-stat-chart {
+    opacity: 0.9;
+}
+
+.fi-wi-chart-border-color {
+    color: var(--gc-red);
+}
+
+.fi-wi-chart-bg-color {
+    color: color-mix(in srgb, var(--gc-red) 12%, transparent);
+}
+
+/*
+   Kartu grafik dan kartu akses cepat berbagi satu baris grid di layar lebar.
+   Tanpa ini tinggi keduanya berbeda karena grafik dibatasi maxHeight.
+*/
+.fi-wi-chart,
+.fi-wi-chart > .fi-section,
+.fi-wi-chart .fi-section-content-ctn {
+    display: flex;
+    flex-direction: column;
+}
+
+.fi-wi-chart,
+.fi-wi-chart > .fi-section,
+.gc-widget-stretch,
+.gc-card {
+    height: 100%;
+}
+
+.fi-wi-chart .fi-section-content-ctn {
+    flex: 1;
+    justify-content: center;
+}
+
+/* --------------------------------------------------------------- table */
+
+.fi-ta-ctn {
+    border-radius: 1rem;
+    background-color: var(--gc-surface);
+    --tw-ring-color: var(--gc-rule);
+    box-shadow: var(--gc-shadow-card);
+}
+
+.fi-ta-header {
+    border-bottom: 1px solid
+        color-mix(in srgb, var(--gc-rule) 80%, transparent);
+}
+
+.fi-ta-row {
+    transition: background-color 140ms ease;
+}
+
+.fi-ta-row:hover {
+    background-color: color-mix(in srgb, var(--gc-red) 3%, transparent);
+}
+
+.fi-ta-cell {
+    font-size: 0.8125rem;
+}
+
+/* -------------------------------------------------------------- inputs */
+
+.fi-input-wrp,
+.fi-select-input {
+    border-radius: 0.65rem;
+}
+
+.fi-btn {
+    border-radius: 0.65rem;
+}
+
+/* Filament's default action tint is too pale for the brand red. */
+.fi-btn.fi-color-primary:not(.fi-outlined) {
+    --bg: var(--gc-red);
+    --hover-bg: var(--gc-red-deep);
+    --text: #ffffff;
+    --hover-text: #ffffff;
+    --dark-bg: var(--gc-red);
+    --dark-hover-bg: var(--gc-red-deep);
+    --dark-text: #ffffff;
+    --dark-hover-text: #ffffff;
+}
+
+/* --------------------------------------------------------- login page */
+
+.fi-simple-main-ctn {
+    padding-inline: 1rem;
+}
+
+.fi-simple-main {
+    border-radius: 1.15rem;
+    --tw-ring-color: var(--gc-rule);
+    box-shadow: var(--gc-shadow-card);
+    padding: 1.75rem 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .fi-simple-main {
+        padding: 2rem;
+    }
+}
+
+.fi-simple-header-heading {
+    font-family: var(--font-serif);
+    font-weight: 560;
+    letter-spacing: -0.025em;
+    font-variation-settings:
+        'wght' 560,
+        'SOFT' 30,
+        'WONK' 1;
+}
+
+.gc-login-back {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.25rem;
+}
+
+.gc-login-back .fi-btn {
+    width: 100%;
+    justify-content: center;
+}
+
+/* --------------------------------------------------------- brand block */
+
+.gc-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    height: 100%;
+    color: var(--gc-ink);
+}
+
+.gc-brand-mark {
+    display: grid;
+    place-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    border-radius: 0.75rem;
+    background-color: var(--gc-red);
+    color: #ffffff;
+    box-shadow: var(--gc-shadow-fab);
+}
+
+.gc-brand-mark svg {
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.gc-brand-name {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 560;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    font-variation-settings:
+        'wght' 560,
+        'SOFT' 30,
+        'WONK' 1;
+}
+
+.gc-brand-sub {
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--gc-ink) 40%, transparent);
+}
+
+/* ----------------------------------------------------------- dashboard */
+
+.gc-display {
+    font-family: var(--font-serif);
+    font-weight: 560;
+    letter-spacing: -0.03em;
+    font-variation-settings:
+        'wght' 560,
+        'SOFT' 30,
+        'WONK' 1;
+}
+
+.gc-widget-stretch {
+    height: 100%;
+}
+
+.gc-eyebrow {
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--gc-ink) 42%, transparent);
+}
+
+.gc-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 1rem;
+    border: 1px solid var(--gc-rule);
+    background-color: var(--gc-surface);
+    box-shadow: var(--gc-shadow-card);
+}
+
+.gc-hero {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.15rem;
+    background-color: var(--gc-red);
+    color: #ffffff;
+    box-shadow: var(--gc-shadow-fab);
+}
+
+.gc-hero-dots {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(
+        rgb(255 255 255 / 0.16) 1px,
+        transparent 1.1px
+    );
+    background-size: 18px 18px;
+    mask-image: linear-gradient(to bottom right, #000, transparent 78%);
+    pointer-events: none;
+}
+
+.gc-hero-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.15rem;
+}
+
+@media (min-width: 640px) {
+    .gc-hero-inner {
+        padding: 1.35rem 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .gc-hero-inner {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 1.75rem;
+    }
+}
+
+.gc-hero-copy {
+    max-width: 34rem;
+}
+
+.gc-hero-date {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    background-color: rgb(255 255 255 / 0.12);
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.16);
+    font-size: var(--gc-text-meta);
+    line-height: var(--gc-leading-meta);
+    font-weight: 700;
+    letter-spacing: var(--gc-tracking-meta);
+    text-transform: uppercase;
+    color: rgb(255 255 255 / 0.88);
+    font-variant-numeric: tabular-nums;
+}
+
+.gc-hero-date-dot {
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 999px;
+    background-color: #ffffff;
+}
+
+/* Judul hero memakai skala yang sama dengan judul halaman (satu 
+   langkah lebih besar), tidak lagi clamp 41px yang mendominasi layar. */
+.gc-hero-title {
+    margin-top: 0.5rem;
+    font-family: var(--font-sans);
+    font-size: var(--gc-text-page-title);
+    line-height: var(--gc-leading-page-title);
+    font-weight: 600;
+    letter-spacing: var(--gc-tracking-page-title);
+    font-variation-settings: normal;
+    text-wrap: balance;
+}
+
+.gc-hero-title em {
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(255 255 255 / 0.94);
+}
+
+.gc-hero-text {
+    margin-top: 0.3rem;
+    max-width: 58ch;
+    font-size: var(--gc-text-body);
+    line-height: var(--gc-leading-body);
+    font-weight: 400;
+    color: rgb(255 255 255 / 0.82);
+    /* Hindari satu kata menggantung di baris terakhir. */
+    text-wrap: pretty;
+}
+
+.gc-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.85rem;
+}
+
+.gc-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.6rem;
+    font-size: var(--gc-text-body);
+    line-height: 1.2;
+    font-weight: 600;
+    transition:
+        background-color 150ms ease,
+        transform 150ms ease;
+}
+
+.gc-hero-btn:hover {
+    transform: translateY(-1px);
+}
+
+.gc-hero-btn-solid {
+    background-color: #ffffff;
+    color: var(--gc-red-deep);
+}
+
+.gc-hero-btn-solid:hover {
+    background-color: var(--gc-red-tint);
+}
+
+.gc-hero-btn-ghost {
+    color: #ffffff;
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.28);
+}
+
+.gc-hero-btn-ghost:hover {
+    background-color: rgb(255 255 255 / 0.1);
+}
+
+.gc-hero-count {
+    display: inline-grid;
+    place-items: center;
+    min-width: 1.15rem;
+    height: 1.15rem;
+    padding-inline: 0.25rem;
+    border-radius: 999px;
+    background-color: var(--gc-red);
+    color: #ffffff;
+    font-size: var(--gc-text-meta);
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+}
+
+.gc-hero-side {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.45rem;
+    min-width: min(100%, 17rem);
+}
+
+.gc-hero-stat {
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.7rem;
+    background-color: rgb(255 255 255 / 0.1);
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.14);
+}
+
+.gc-hero-stat dt {
+    font-size: var(--gc-text-meta);
+    line-height: var(--gc-leading-meta);
+    font-weight: 700;
+    letter-spacing: var(--gc-tracking-meta);
+    text-transform: uppercase;
+    color: rgb(255 255 255 / 0.76);
+}
+
+.gc-hero-stat dd {
+    margin-top: 0.1rem;
+    font-family: var(--font-sans);
+    font-size: var(--gc-text-figure);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    font-variation-settings: normal;
+}
+
+/* -------------------------------------------------------- quick links */
+
+.gc-quick-head {
+    padding: 0.9rem 1rem 0;
+}
+
+.gc-quick-title {
+    font-family: var(--font-sans);
+    font-size: var(--gc-text-title-sm);
+    line-height: var(--gc-leading-title);
+    font-weight: 600;
+    letter-spacing: var(--gc-tracking-title);
+    font-variation-settings: normal;
+}
+
+.gc-quick-list {
+    display: grid;
+    flex: 1;
+    align-content: start;
+    gap: 0.35rem;
+    padding: 0.9rem;
+}
+
+.gc-quick-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.7rem;
+    border-radius: 0.75rem;
+    transition: background-color 150ms ease;
+}
+
+.gc-quick-link:hover {
+    background-color: color-mix(in srgb, var(--gc-red) 4%, transparent);
+}
+
+.gc-quick-icon {
+    display: grid;
+    place-items: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    flex-shrink: 0;
+    border-radius: 0.65rem;
+    background-color: var(--gc-red-tint);
+    color: var(--gc-red-deep);
+}
+
+.dark .gc-quick-icon {
+    color: var(--gc-red);
+}
+
+.gc-quick-icon svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.gc-quick-copy {
+    min-width: 0;
+    flex: 1;
+}
+
+.gc-quick-label {
+    display: block;
+    font-size: var(--gc-text-body);
+    line-height: 1.35;
+    font-weight: 600;
+    color: var(--gc-ink);
+}
+
+.gc-quick-hint {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: var(--gc-text-meta);
+    line-height: 1.45;
+    font-weight: 400;
+    color: color-mix(in srgb, var(--gc-ink) 50%, transparent);
+}
+
+.gc-quick-arrow {
+    flex-shrink: 0;
+    width: 0.75rem;
+    height: 0.75rem;
+    color: color-mix(in srgb, var(--gc-ink) 28%, transparent);
+    transition:
+        color 150ms ease,
+        transform 150ms ease;
+}
+
+.gc-quick-link:hover .gc-quick-arrow {
+    color: var(--gc-red);
+    transform: translateX(2px);
+}
+
+.gc-quick-note {
+    margin: 0 0.9rem 0.9rem;
+    padding: 0.65rem 0.75rem;
+    border-radius: 0.7rem;
+    background-color: var(--gc-surface-soft);
+    font-size: var(--gc-text-meta);
+    line-height: 1.5;
+    font-weight: 400;
+    color: color-mix(in srgb, var(--gc-ink) 55%, transparent);
+}
+
+/* ----------------------------------------------- kartu statistik (Filament) */
+/*
+   Bawaan Filament memakai angka 30px dan keterangan 14px, sehingga melompati
+   skala di atas. Di sini angka ditarik ke --gc-text-figure dan semua label
+   memakai peran meta/body yang sama dengan sisa dashboard.
+*/
+
+.fi-wi-stats-overview-stat {
+    padding: 0.85rem 0.9rem;
+    border-radius: 0.9rem;
+}
+
+.fi-wi-stats-overview-stat-label {
+    font-size: var(--gc-text-meta);
+    line-height: var(--gc-leading-meta);
+    font-weight: 700;
+    letter-spacing: var(--gc-tracking-meta);
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--gc-ink) 50%, transparent);
+}
+
+.fi-wi-stats-overview-stat-value {
+    font-family: var(--font-sans);
+    font-size: var(--gc-text-figure);
+    line-height: 1.15;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+}
+
+.fi-wi-stats-overview-stat-description {
+    font-size: var(--gc-text-meta);
+    line-height: var(--gc-leading-meta);
+    font-weight: 500;
+    color: color-mix(in srgb, var(--gc-ink) 52%, transparent);
+}
+
+/* Link "detail" di dalam kartu statistik. */
+.fi-wi-stats-overview-stat .fi-link,
+.fi-wi-stats-overview-stat a {
+    font-size: var(--gc-text-meta);
+    font-weight: 600;
+}
+
+/* ------------------------------------------------- kartu pengguna sidebar */
+
+.gc-user-card {
+    margin: 0.5rem 0.6rem 0.6rem;
+    padding: 0.55rem;
+    border: 1px solid color-mix(in srgb, var(--gc-rule) 90%, transparent);
+    border-radius: 0.85rem;
+    background-color: var(--gc-surface);
+    box-shadow: var(--gc-shadow-card);
+}
+
+.gc-user-card-top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 0;
+}
+
+.gc-user-card-avatar {
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 999px;
+    background-color: var(--gc-red-tint);
+    color: var(--gc-red-deep);
+    font-family: var(--font-serif);
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.dark .gc-user-card-avatar {
+    color: var(--gc-red);
+}
+
+.gc-user-card-copy {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    line-height: 1.2;
+}
+
+.gc-user-card-name {
+    overflow: hidden;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--gc-ink);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.gc-user-card-role {
+    margin-top: 0.1rem;
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--gc-ink) 42%, transparent);
+}
+
+.gc-user-card-form {
+    position: relative;
+    margin: 0.45rem 0 0;
+}
+
+.gc-user-card-logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    width: 100%;
+    padding: 0.38rem 0.5rem;
+    border: 1px solid color-mix(in srgb, var(--gc-red) 35%, transparent);
+    border-radius: 0.6rem;
+    background-color: transparent;
+    color: var(--gc-red-deep);
+    font-size: 0.68rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+        background-color 150ms ease,
+        color 150ms ease;
+}
+
+.dark .gc-user-card-logout {
+    color: var(--gc-red);
+}
+
+.gc-user-card-logout:hover {
+    background-color: var(--gc-red);
+    border-color: var(--gc-red);
+    color: #fff;
+}
+
+.gc-user-card-logout svg {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+/* Dialog konfirmasi keluar */
+
+.gc-user-card-confirm {
+    position: absolute;
+    inset-block-end: calc(100% + 0.4rem);
+    inset-inline: 0;
+    z-index: 30;
+    padding: 0.6rem;
+    border: 1px solid color-mix(in srgb, var(--gc-rule) 90%, transparent);
+    border-radius: 0.7rem;
+    background-color: var(--gc-surface);
+    box-shadow: var(--gc-shadow-lift);
+}
+
+.gc-user-card-confirm-title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--gc-ink);
+}
+
+.gc-user-card-confirm-body {
+    margin: 0.15rem 0 0;
+    font-size: 0.62rem;
+    line-height: 1.45;
+    color: color-mix(in srgb, var(--gc-ink) 55%, transparent);
+}
+
+.gc-user-card-confirm-actions {
+    display: flex;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.gc-user-card-cancel,
+.gc-user-card-confirm-yes {
+    flex: 1;
+    padding: 0.32rem 0.4rem;
+    border-radius: 0.5rem;
+    font-size: 0.64rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gc-user-card-cancel {
+    border: 1px solid color-mix(in srgb, var(--gc-rule) 90%, transparent);
+    background-color: var(--gc-surface-soft);
+    color: color-mix(in srgb, var(--gc-ink) 60%, transparent);
+}
+
+.gc-user-card-confirm-yes {
+    border: 1px solid var(--gc-red);
+    background-color: var(--gc-red);
+    color: #fff;
+}
+
+.gc-user-card-confirm-yes:hover {
+    background-color: var(--gc-red-deep);
+    border-color: var(--gc-red-deep);
+}
+
+/* Sidebar diciutkan di desktop: hanya avatar yang tampil. */
+.fi-sidebar.fi-sidebar-open .gc-user-card,
+.fi-sidebar.gc-collapsed .gc-user-card {
+    padding: 0.35rem;
+}
+
+@media (max-width: 1023px) {
+    .gc-user-card {
+        margin-inline: 0.4rem;
+    }
+}
+
+/* ------------------------------------------------------- notifikasi (toast) */
+/*
+   Notifikasi muncul di tengah-atas dan turun dari atas layar
+   (posisi diatur di AppServiceProvider, animasi slide dari Filament).
+   Tipografinya disamakan dengan skala dashboard di atas.
+*/
+
+.fi-no {
+    /* Beri ruang dari topbar agar toast tidak menempel. */
+    padding-top: 0.25rem;
+}
+
+.fi-no .fi-no-notification:not(.fi-inline) {
+    max-width: min(26rem, calc(100vw - 2rem));
+    border-radius: 0.8rem;
+    box-shadow: var(--gc-shadow-lift);
+}
+
+.fi-no-notification .fi-no-notification-title {
+    font-size: var(--gc-text-body);
+    line-height: 1.35;
+    font-weight: 600;
+    letter-spacing: var(--gc-tracking-title);
+}
+
+.fi-no-notification .fi-no-notification-body {
+    font-size: var(--gc-text-meta);
+    line-height: 1.5;
+    font-weight: 400;
+    color: color-mix(in srgb, var(--gc-ink) 55%, transparent);
+}
+
+/* --------------------------------------------------------- scrollbars */
+
+.scroll-quiet {
+    scrollbar-color: color-mix(in srgb, var(--gc-ink) 16%, transparent)
+        transparent;
+    scrollbar-width: thin;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fi-wi-stats-overview-stat,
+    .gc-hero-btn,
+    .gc-quick-arrow,
+    .gc-quick-link,
+    .fi-ta-row {
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ---------------------------------------------------------------------------
+ * Entri infolist yang memuat tabel HTML (tinjau materi SMA/SMK).
+ *
+ * Filament membungkus entri teks dengan `display: -webkit-box` + line-clamp
+ * untuk memotong teks panjang. Pembungkus itu mengecilkan tabel di dalamnya,
+ * sehingga kolom soal menjadi sempit dan tidak rata antar asesmen. Untuk
+ * entri yang isinya tabel, kembalikan ke aliran blok biasa.
+ * ------------------------------------------------------------------------- */
+.gc-infolist-block .fi-in-text-item,
+.gc-infolist-block .fi-in-text {
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+    -webkit-box-orient: initial !important;
+    overflow: visible !important;
+}
+
+.gc-infolist-block table {
+    width: 100%;
+}

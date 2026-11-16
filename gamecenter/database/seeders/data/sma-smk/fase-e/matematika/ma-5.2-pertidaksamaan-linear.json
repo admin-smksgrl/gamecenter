@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "matematika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "MA 5.2",
+      "title": "Sistem Pertidaksamaan Linear Dua Variabel",
+      "description": "Menggambar daerah penyelesaian pertidaksamaan linear dua variabel dan menentukan nilai optimum.",
+      "learning_objectives": [
+        "Menentukan daerah penyelesaian sistem pertidaksamaan linear dua variabel.",
+        "Menentukan nilai maksimum atau minimum fungsi tujuan pada daerah penyelesaian."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Buku Matematika Kelas X (Kurikulum Merdeka), Bab 5 — Sistem Persamaan dan Pertidaksamaan Linear",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Dari Persamaan ke Pertidaksamaan",
+          "duration": 240,
+          "source_reference": "Bab 5 — Pertidaksamaan Linear",
+          "content": "## Penyelesaiannya berupa daerah\n\nPersamaan x + y = 5 menghasilkan **garis**. Pertidaksamaan x + y ≤ 5 menghasilkan **daerah**.\n\nGaris itu disebut **garis batas** dan membagi bidang menjadi dua bagian. Salah satunya menjadi daerah penyelesaian.\n\n### Garis penuh atau putus-putus?\n\n| Tanda | Garis batas | Titik pada garis |\n|---|---|---|\n| < atau > | putus-putus | tidak termasuk |\n| ≤ atau ≥ | penuh | termasuk |\n\n### Langkah menggambar\n\n1. Ubah tanda pertidaksamaan menjadi **=** untuk menggambar garis batas\n2. Tentukan garis penuh atau putus-putus\n3. **Uji satu titik** (biasanya (0, 0)) untuk menentukan sisi daerah\n4. Arsir daerah yang memenuhi\n\n### Contoh\n\nx + y ≤ 5. Uji titik (0, 0): 0 + 0 = 0 ≤ 5 benar. Berarti daerah penyelesaian memuat titik asal."
+        },
+        {
+          "type": "text",
+          "title": "Sistem Pertidaksamaan dan Nilai Optimum",
+          "duration": 360,
+          "source_reference": "Bab 5 — Sistem Pertidaksamaan Linear",
+          "content": "## Menggabungkan beberapa pertidaksamaan\n\nDaerah penyelesaian sistem adalah **irisan** dari semua daerah masing-masing.\n\nContoh: x ≥ 0, y ≥ 0, dan x + y ≤ 4 membentuk daerah segitiga dengan titik pojok (0,0), (4,0), dan (0,4).\n\n### Aturan penting\n\nBila kedua ruas pertidaksamaan dikalikan atau dibagi **bilangan negatif**, arah tanda harus **dibalik**:\n\n> 2 < 3 → dikali −1 menjadi −2 > −3\n\n### Mencari nilai optimum\n\nNilai maksimum atau minimum fungsi tujuan pada daerah tertutup **selalu berada di titik pojok**. Langkahnya:\n\n1. Gambar garis batas dan arsir daerahnya\n2. Tentukan semua titik pojok\n3. Substitusikan setiap titik pojok ke fungsi tujuan\n4. Pilih nilai terbesar (maksimum) atau terkecil (minimum)\n\n### Contoh\n\nFungsi tujuan 2x + 3y pada titik pojok (0,0), (5,0), (0,4), dan (2,3):\nnilainya 0, 10, 12, dan **13** → maksimum 13 di titik (2, 3)."
+        },
+        {
+          "type": "interactive",
+          "title": "Latihan Daerah Penyelesaian",
+          "duration": 240,
+          "source_reference": "Bab 5 — Latihan",
+          "content": "## Dua latihan bertahap\n\n**1. Luas daerah**\nDaerah x ≥ 0, y ≥ 0, 2x + y ≤ 8 membentuk segitiga dengan titik (0,0), (4,0), dan (0,8).\n\nLuas = ½ × 4 × 8 = **16 satuan luas**\n\n**2. Uji titik**\nApakah (1, 2) memenuhi 3x + 2y ≥ 7?\n\n3(1) + 2(2) = 7, dan 7 ≥ 7 **benar** → titik itu termasuk penyelesaian.\n\n### Yang sering keliru\n\n- Lupa membalik tanda setelah mengalikan dengan bilangan negatif\n- Memakai garis penuh untuk tanda < atau >\n- Menguji titik yang justru berada pada garis batas sehingga hasilnya ambigu\n\nPilih titik uji yang **jelas** di salah satu sisi, misalnya titik asal bila garis tidak melewatinya."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Sistem Pertidaksamaan Linear Dua Variabel — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pertidaksamaan linear dua variabel memiliki tanda …",
+              "options": [
+                {
+                  "text": "sama dengan (=)",
+                  "correct": false
+                },
+                {
+                  "text": "ketidaksamaan (<, >, ≤, ≥)",
+                  "correct": true
+                },
+                {
+                  "text": "perkalian (×)",
+                  "correct": false
+                },
+                {
+                  "text": "akar (√)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pertidaksamaan memakai tanda ketidaksamaan, bukan tanda sama dengan seperti persamaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Garis x + y = 5 membagi bidang menjadi …",
+              "options": [
+                {
+                  "text": "satu daerah",
+                  "correct": false
+                },
+                {
+                  "text": "dua daerah",
+                  "correct": true
+                },
+                {
+                  "text": "tiga daerah",
+                  "correct": false
+                },
+                {
+                  "text": "tiada daerah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap garis membagi bidang menjadi dua bagian; penyelesaian pertidaksamaan adalah salah satunya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tanda ≤ pada x + y ≤ 5 berarti garis batasnya …",
+              "options": [
+                {
+                  "text": "termasuk daerah penyelesaian",
+                  "correct": true
+                },
+                {
+                  "text": "tidak termasuk daerah penyelesaian",
+                  "correct": false
+                },
+                {
+                  "text": "tidak digambar",
+                  "correct": false
+                },
+                {
+                  "text": "selalu putus-putus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanda ≤ dan ≥ memakai garis penuh karena titik pada garis ikut menjadi penyelesaian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apakah titik (2, 3) memenuhi x + y ≤ 5?",
+              "options": [
+                {
+                  "text": "Ya, karena 2 + 3 = 5 ≤ 5",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak, karena 5 lebih dari 5",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak, karena titiknya salah",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak dapat ditentukan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Substitusi memberi 2 + 3 = 5, dan 5 ≤ 5 bernilai benar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Daerah penyelesaian pertidaksamaan linear dua variabel digambarkan sebagai …",
+              "options": [
+                {
+                  "text": "sebuah titik",
+                  "correct": false
+                },
+                {
+                  "text": "sebuah garis",
+                  "correct": false
+                },
+                {
+                  "text": "suatu daerah pada bidang",
+                  "correct": true
+                },
+                {
+                  "text": "sebuah lingkaran",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penyelesaiannya bukan satu titik, melainkan kumpulan titik yang membentuk daerah."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Sistem Pertidaksamaan Linear Dua Variabel — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Titik berikut yang memenuhi 2x + y ≤ 6 adalah …",
+              "options": [
+                {
+                  "text": "(3, 0)",
+                  "correct": true
+                },
+                {
+                  "text": "(2, 3)",
+                  "correct": false
+                },
+                {
+                  "text": "(1, 5)",
+                  "correct": false
+                },
+                {
+                  "text": "(4, 1)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Substitusi (3, 0): 2(3) + 0 = 6 dan 6 ≤ 6 bernilai benar. Tiga titik lain memberi 7, 7, dan 9 sehingga tidak memenuhi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pertidaksamaan x ≥ 0 dan y ≥ 0 membatasi daerah pada kuadran …",
+              "options": [
+                {
+                  "text": "I",
+                  "correct": true
+                },
+                {
+                  "text": "II",
+                  "correct": false
+                },
+                {
+                  "text": "III",
+                  "correct": false
+                },
+                {
+                  "text": "IV",
+                  "correct": false
+                }
+              ],
+              "explanation": "x ≥ 0 berarti di kanan sumbu-y dan y ≥ 0 berarti di atas sumbu-x; keduanya bertemu di kuadran I."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem x + y ≤ 4, x ≥ 0, y ≥ 0 memiliki titik pojok …",
+              "options": [
+                {
+                  "text": "(0,0), (4,0), (0,4)",
+                  "correct": true
+                },
+                {
+                  "text": "(0,0), (4,4)",
+                  "correct": false
+                },
+                {
+                  "text": "(4,0), (0,4)",
+                  "correct": false
+                },
+                {
+                  "text": "(0,0), (2,2)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Daerahnya segitiga dengan titik sudut di titik asal dan kedua titik potong garis dengan sumbu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Titik (1, 2) pada pertidaksamaan y < x − 1 menghasilkan …",
+              "options": [
+                {
+                  "text": "1 < −1, salah",
+                  "correct": false
+                },
+                {
+                  "text": "2 < 0, salah",
+                  "correct": true
+                },
+                {
+                  "text": "2 < 1, benar",
+                  "correct": false
+                },
+                {
+                  "text": "2 > 0, benar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Substitusi: 2 < 1 − 1 = 0, sehingga 2 < 0 bernilai salah. Titik itu di luar daerah penyelesaian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Garis batas 3x + 2y = 12 memotong sumbu-x di titik …",
+              "options": [
+                {
+                  "text": "(4, 0)",
+                  "correct": true
+                },
+                {
+                  "text": "(0, 4)",
+                  "correct": false
+                },
+                {
+                  "text": "(0, 6)",
+                  "correct": false
+                },
+                {
+                  "text": "(6, 0)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Saat y = 0: 3x = 12 → x = 4. Jadi titik potongnya (4, 0).",
+              "hint": "Untuk memotong sumbu-x, substitusikan y = 0."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Garis 3x + 2y = 12 memotong sumbu-y di titik …",
+              "options": [
+                {
+                  "text": "(0, 6)",
+                  "correct": true
+                },
+                {
+                  "text": "(6, 0)",
+                  "correct": false
+                },
+                {
+                  "text": "(0, 4)",
+                  "correct": false
+                },
+                {
+                  "text": "(4, 0)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Saat x = 0: 2y = 12 → y = 6. Jadi titik potongnya (0, 6)."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah titik yang memenuhi x + 2y ≤ 8? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "(0, 0)",
+                  "correct": true
+                },
+                {
+                  "text": "(8, 0)",
+                  "correct": true
+                },
+                {
+                  "text": "(0, 4)",
+                  "correct": true
+                },
+                {
+                  "text": "(4, 4)",
+                  "correct": false
+                }
+              ],
+              "explanation": "0 ≤ 8 benar, 8 ≤ 8 benar, 8 ≤ 8 benar. Untuk (4,4): 4 + 8 = 12 > 8 sehingga salah.",
+              "hint": "Substitusikan setiap titik ke x + 2y."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan pertidaksamaan dengan garis batasnya.",
+              "options": [
+                {
+                  "id": "g1",
+                  "text": "x + y ≤ 3"
+                },
+                {
+                  "id": "g2",
+                  "text": "2x − y ≥ 4"
+                },
+                {
+                  "id": "g3",
+                  "text": "x ≤ 5"
+                },
+                {
+                  "id": "g4",
+                  "text": "y ≥ 2"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "g1": "x + y = 3",
+                  "g2": "2x − y = 4",
+                  "g3": "x = 5",
+                  "g4": "y = 2"
+                }
+              },
+              "explanation": "Garis batas diperoleh dengan mengganti tanda ketidaksamaan menjadi tanda sama dengan.",
+              "hint": "Ubah tanda pertidaksamaan menjadi =."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menggambar daerah penyelesaian pertidaksamaan.",
+              "options": [
+                {
+                  "id": "s1",
+                  "text": "Gambar garis batas dengan mengubah tanda menjadi sama dengan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Tentukan garis penuh atau putus-putus sesuai tandanya"
+                },
+                {
+                  "id": "s3",
+                  "text": "Uji satu titik untuk menentukan sisi daerah"
+                },
+                {
+                  "id": "s4",
+                  "text": "Arsir daerah yang memenuhi"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "s1": "1",
+                  "s2": "2",
+                  "s3": "3",
+                  "s4": "4"
+                }
+              },
+              "explanation": "Garis batas digambar lebih dulu, jenis garisnya ditentukan, titik uji dipakai, lalu daerahnya diarsir.",
+              "hint": "Mulai dari menggambar garis batas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Titik (1, 2) terhadap pertidaksamaan 3x + 2y ≥ 7 …",
+              "options": [
+                {
+                  "text": "memenuhi, karena 7 ≥ 7",
+                  "correct": true
+                },
+                {
+                  "text": "tidak memenuhi, karena 7 < 7",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memenuhi, karena 7 > 7",
+                  "correct": false
+                },
+                {
+                  "text": "tidak dapat ditentukan",
+                  "correct": false
+                }
+              ],
+              "explanation": "3(1) + 2(2) = 7, dan 7 ≥ 7 bernilai benar sehingga titik itu termasuk penyelesaian."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Sistem Pertidaksamaan Linear Dua Variabel — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Daerah x ≥ 0, y ≥ 0, x + y ≤ 6 memiliki luas …",
+              "options": [
+                {
+                  "text": "6 satuan luas",
+                  "correct": false
+                },
+                {
+                  "text": "12 satuan luas",
+                  "correct": false
+                },
+                {
+                  "text": "18 satuan luas",
+                  "correct": true
+                },
+                {
+                  "text": "36 satuan luas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Daerahnya segitiga siku-siku dengan alas 6 dan tinggi 6, sehingga luas = ½ × 6 × 6 = 18."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem x + y ≥ 2 dan x + y ≤ 5 dengan x, y ≥ 0 membentuk daerah berbentuk …",
+              "options": [
+                {
+                  "text": "trapesium",
+                  "correct": true
+                },
+                {
+                  "text": "segitiga",
+                  "correct": false
+                },
+                {
+                  "text": "persegi panjang",
+                  "correct": false
+                },
+                {
+                  "text": "lingkaran",
+                  "correct": false
+                }
+              ],
+              "explanation": "Daerahnya terletak di antara dua garis sejajar dengan batas sumbu, sehingga berbentuk trapesium."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai maksimum 2x + 3y pada daerah dengan titik pojok (0,0), (5,0), (0,4), dan (2,3) dicapai di titik …",
+              "options": [
+                {
+                  "text": "(0, 4)",
+                  "correct": false
+                },
+                {
+                  "text": "(5, 0)",
+                  "correct": false
+                },
+                {
+                  "text": "(2, 3)",
+                  "correct": true
+                },
+                {
+                  "text": "(0, 0)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Uji setiap titik pojok: (0,0) = 0; (5,0) = 10; (0,4) = 12; (2,3) = 2(2) + 3(3) = 13. Nilai terbesar ada di (2, 3)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Titik potong garis x + y = 5 dan x − y = 1 menjadi titik pojok daerah. Titik itu adalah …",
+              "options": [
+                {
+                  "text": "(3, 2)",
+                  "correct": true
+                },
+                {
+                  "text": "(2, 3)",
+                  "correct": false
+                },
+                {
+                  "text": "(4, 1)",
+                  "correct": false
+                },
+                {
+                  "text": "(1, 4)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlahkan: 2x = 6 → x = 3, lalu y = 2. Titik (3, 2) memenuhi kedua garis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pertidaksamaan 4x + 2y ≤ 12 dapat disederhanakan menjadi …",
+              "options": [
+                {
+                  "text": "2x + y ≤ 6",
+                  "correct": true
+                },
+                {
+                  "text": "2x + y ≥ 6",
+                  "correct": false
+                },
+                {
+                  "text": "x + y ≤ 3",
+                  "correct": false
+                },
+                {
+                  "text": "4x + y ≤ 6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bagi kedua ruas dengan 2 tanpa mengubah arah tanda: 2x + y ≤ 6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa arah tanda pertidaksamaan berubah saat kedua ruas dikalikan bilangan negatif?",
+              "options": [
+                {
+                  "text": "karena urutan bilangan pada garis bilangan terbalik",
+                  "correct": true
+                },
+                {
+                  "text": "karena tanda sama dengan hilang",
+                  "correct": false
+                },
+                {
+                  "text": "karena garis batas menjadi lengkung",
+                  "correct": false
+                },
+                {
+                  "text": "karena daerahnya menjadi titik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Misal 2 < 3, dikali −1 menjadi −2 > −3. Urutan bilangan berbalik sehingga tandanya harus dibalik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem x + y ≤ 4, 2x + y ≤ 6, x ≥ 0, y ≥ 0 memiliki titik pojok (0, 4), (0, 0), (3, 0), dan …",
+              "options": [
+                {
+                  "text": "(2, 2)",
+                  "correct": true
+                },
+                {
+                  "text": "(1, 3)",
+                  "correct": false
+                },
+                {
+                  "text": "(4, 0)",
+                  "correct": false
+                },
+                {
+                  "text": "(0, 6)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Titik keempat adalah perpotongan x + y = 4 dan 2x + y = 6. Kurangkan: x = 2, lalu y = 2."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang pertidaksamaan linear dua variabel? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Tanda < memakai garis batas putus-putus",
+                  "correct": true
+                },
+                {
+                  "text": "Tanda ≤ memakai garis batas penuh",
+                  "correct": true
+                },
+                {
+                  "text": "Mengalikan pertidaksamaan dengan bilangan negatif membalik arah tanda",
+                  "correct": true
+                },
+                {
+                  "text": "Daerah penyelesaian selalu berbentuk lingkaran",
+                  "correct": false
+                }
+              ],
+              "explanation": "Garis putus-putus dipakai bila titik pada garis tidak termasuk. Perkalian dengan bilangan negatif membalik tanda. Daerah penyelesaian dibatasi garis lurus, bukan lingkaran."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menentukan nilai maksimum fungsi tujuan pada daerah penyelesaian.",
+              "options": [
+                {
+                  "id": "m1",
+                  "text": "Gambar semua garis batas dan arsir daerahnya"
+                },
+                {
+                  "id": "m2",
+                  "text": "Tentukan semua titik pojok daerah"
+                },
+                {
+                  "id": "m3",
+                  "text": "Substitusikan setiap titik pojok ke fungsi tujuan"
+                },
+                {
+                  "id": "m4",
+                  "text": "Pilih nilai terbesar sebagai hasil"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "m1",
+                  "m2",
+                  "m3",
+                  "m4"
+                ]
+              },
+              "explanation": "Nilai optimum fungsi linear pada daerah tertutup selalu berada di titik pojok, sehingga semua titik pojok harus diuji."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Daerah yang memenuhi x ≥ 1, y ≥ 1, dan x + y ≤ 8 memiliki luas …",
+              "options": [
+                {
+                  "text": "12 satuan luas",
+                  "correct": false
+                },
+                {
+                  "text": "18 satuan luas",
+                  "correct": true
+                },
+                {
+                  "text": "24 satuan luas",
+                  "correct": false
+                },
+                {
+                  "text": "28 satuan luas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Daerahnya segitiga dengan titik (1,1), (7,1), (1,7). Panjang kedua kaki 6, sehingga luas = ½ × 6 × 6 = 18."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi tujuan 2x + 3y pada daerah dengan titik pojok (0,0), (3,0), (0,4) bernilai maksimum …",
+              "options": [
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "9",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": true
+                },
+                {
+                  "text": "18",
+                  "correct": false
+                }
+              ],
+              "explanation": "Uji titik pojok: (0,0)=0; (3,0)=6; (0,4)=12. Nilai maksimumnya 12."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Daerah x + y ≤ 5, 2x + y ≤ 8, x ≥ 0, y ≥ 0 memiliki titik pojok (0,0), (4,0), (0,5), dan …",
+              "options": [
+                {
+                  "text": "(3, 2)",
+                  "correct": true
+                },
+                {
+                  "text": "(2, 3)",
+                  "correct": false
+                },
+                {
+                  "text": "(1, 4)",
+                  "correct": false
+                },
+                {
+                  "text": "(0, 8)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Titik keempat adalah perpotongan x + y = 5 dan 2x + y = 8. Kurangkan: x = 3, lalu y = 2. Periksa 2(3) + 2 = 8."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai minimum 2x + 3y pada daerah x ≥ 0, y ≥ 0, x + y ≥ 6 adalah …",
+              "options": [
+                {
+                  "text": "0",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": true
+                },
+                {
+                  "text": "18",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karena x + y ≥ 6, nilai 2x + 3y terkecil tercapai saat x = 6 dan y = 0, yaitu 12."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi tujuan 5x + 3y dievaluasi di titik (2, 1). Nilainya adalah …",
+              "options": [
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "13",
+                  "correct": true
+                },
+                {
+                  "text": "15",
+                  "correct": false
+                },
+                {
+                  "text": "21",
+                  "correct": false
+                }
+              ],
+              "explanation": "5(2) + 3(1) = 10 + 3 = 13."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Daerah yang dibatasi x ≥ 0, y ≥ 0, dan 2x + y ≤ 8 memiliki luas …",
+              "options": [
+                {
+                  "text": "8 satuan luas",
+                  "correct": false
+                },
+                {
+                  "text": "16 satuan luas",
+                  "correct": true
+                },
+                {
+                  "text": "24 satuan luas",
+                  "correct": false
+                },
+                {
+                  "text": "32 satuan luas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Daerahnya segitiga dengan titik (0,0), (4,0), dan (0,8). Luas = ½ × 4 × 8 = 16."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

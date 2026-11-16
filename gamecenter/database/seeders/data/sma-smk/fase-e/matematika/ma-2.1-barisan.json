@@ -1,0 +1,805 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "matematika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "MA 2.1",
+      "title": "Barisan",
+      "description": "Barisan aritmetika dan geometri: suku ke-n, beda, dan rasio.",
+      "learning_objectives": [
+        "Mendeskripsikan perbedaan antara barisan aritmetika dan barisan geometri.",
+        "Menentukan suku ke-n dan beda dari barisan aritmetika.",
+        "Menentukan suku ke-n dan rasio dari barisan geometri.",
+        "Menyelesaikan permasalahan kehidupan sehari-hari yang berkaitan dengan konsep barisan aritmetika dan barisan geometri."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar MA 2.1 Barisan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Dua Pola yang Berbeda",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 2.1 — Kompetensi Awal",
+          "content": "## Barisan adalah urutan bilangan berpola\n\nPerhatikan dua barisan berikut:\n\n- **2, 5, 8, 11, 14, …** → setiap suku **ditambah 3**\n- **2, 6, 18, 54, …** → setiap suku **dikali 3**\n\nKeduanya berpola, tetapi caranya berbeda:\n\n| | Barisan aritmetika | Barisan geometri |\n|---|---|---|\n| Pola | **ditambah** bilangan tetap | **dikali** bilangan tetap |\n| Nama bilangan tetap | **beda (b)** | **rasio (r)** |\n| Contoh | 2, 5, 8, 11 (b = 3) | 2, 6, 18, 54 (r = 3) |\n\n### Cara membedakan dengan cepat\n\nKurangkan suku berurutan. Bila hasilnya **selalu sama** → aritmetika.\nBagikan suku berurutan. Bila hasilnya **selalu sama** → geometri.\n\nBarisan 4, 8, 12, 16: selisihnya 4, 4, 4 → **aritmetika** dengan b = 4.\nBarisan 3, 9, 27, 81: rasionya 3, 3, 3 → **geometri** dengan r = 3."
+        },
+        {
+          "type": "text",
+          "title": "Rumus Suku ke-n",
+          "duration": 360,
+          "source_reference": "Modul Ajar MA 2.1 — Tujuan Pembelajaran 2 & 3",
+          "content": "## Dua rumus utama\n\n**Aritmetika**\n> Uₙ = a + (n − 1)b\n\n**Geometri**\n> Uₙ = a × rⁿ⁻¹\n\ndengan **a = U₁** (suku pertama), **b = beda**, **r = rasio**.\n\n### Contoh aritmetika\n\nBarisan 5, 9, 13, 17, … dengan a = 5 dan b = 4.\nU₁₀ = 5 + (10 − 1) × 4 = 5 + 36 = **41**\n\n### Contoh geometri\n\nBarisan 3, 6, 12, 24, … dengan a = 3 dan r = 2.\nU₈ = 3 × 2⁷ = 3 × 128 = **384**\n\n### Menentukan beda atau rasio dari dua suku\n\nBila U₃ = 11 dan U₇ = 27 (aritmetika):\n- Selisih indeks = 7 − 3 = 4 langkah\n- Selisih nilai = 27 − 11 = 16\n- b = 16 ÷ 4 = **4**\n\n**Tips:** pangkat pada rumus geometri selalu **(n − 1)**, bukan n. Ini kesalahan paling sering."
+        },
+        {
+          "type": "interactive",
+          "title": "Barisan di Kehidupan Sehari-hari",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 2.1 — Tujuan Pembelajaran 4",
+          "content": "## Kapan memakai yang mana?\n\n**Aritmetika** — bila perubahan bersifat **tetap jumlahnya**:\n- Gaji naik Rp200.000 setiap tahun\n- Tabungan ditambah Rp50.000 setiap bulan\n- Kursi bioskop bertambah 4 per baris\n\n**Geometri** — bila perubahan bersifat **tetap kelipatannya**:\n- Bakteri berlipat dua setiap jam\n- Harga barang turun 10% per tahun\n- Bunga majemuk 5% per tahun\n\n### Latihan\n\nSebuah bioskop punya 12 kursi di baris pertama, dan setiap baris berikutnya bertambah 4 kursi. Berapa kursi di baris ke-8?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nPertambahannya tetap → **aritmetika** dengan a = 12, b = 4.\nU₈ = 12 + 7 × 4 = 12 + 28 = **40 kursi**.\n\n</details>\n\nPerhatikan: yang ditanya baris ke-8, jadi dipakai (8 − 1) = 7 langkah, bukan 8."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Barisan — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Barisan 3, 7, 11, 15, … memiliki beda …",
+              "options": [
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "7",
+                  "correct": false
+                },
+                {
+                  "text": "11",
+                  "correct": false
+                }
+              ],
+              "explanation": "Beda diperoleh dari selisih suku berurutan: 7 − 3 = 4, dan 11 − 7 = 4.",
+              "hint": "Kurangkan suku kedua dengan suku pertama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Barisan 2, 6, 18, 54, … memiliki rasio …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rasio diperoleh dari pembagian suku berurutan: 6 ÷ 2 = 3, dan 18 ÷ 6 = 3.",
+              "hint": "Bagikan suku kedua dengan suku pertama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suku ke-5 dari barisan aritmetika 4, 7, 10, 13, … adalah …",
+              "options": [
+                {
+                  "text": "14",
+                  "correct": false
+                },
+                {
+                  "text": "16",
+                  "correct": true
+                },
+                {
+                  "text": "17",
+                  "correct": false
+                },
+                {
+                  "text": "19",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 4, b = 3. U₅ = 4 + (5 − 1) × 3 = 4 + 12 = 16.",
+              "hint": "Pakai Uₙ = a + (n − 1)b."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Barisan 5, 10, 20, 40, … adalah barisan …",
+              "options": [
+                {
+                  "text": "aritmetika dengan b = 5",
+                  "correct": false
+                },
+                {
+                  "text": "geometri dengan r = 2",
+                  "correct": true
+                },
+                {
+                  "text": "aritmetika dengan b = 10",
+                  "correct": false
+                },
+                {
+                  "text": "geometri dengan r = 5",
+                  "correct": false
+                }
+              ],
+              "explanation": "10 ÷ 5 = 2 dan 20 ÷ 10 = 2, sehingga rasionya tetap 2 → barisan geometri.",
+              "hint": "Periksa apakah pertambahannya tetap atau kelipatannya tetap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suku ke-4 dari barisan geometri 2, 6, 18, … adalah …",
+              "options": [
+                {
+                  "text": "24",
+                  "correct": false
+                },
+                {
+                  "text": "36",
+                  "correct": false
+                },
+                {
+                  "text": "54",
+                  "correct": true
+                },
+                {
+                  "text": "72",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 2, r = 3. U₄ = 2 × 3³ = 2 × 27 = 54.",
+              "hint": "Pakai Uₙ = a × rⁿ⁻¹."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Barisan — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Suku ke-10 dari barisan aritmetika 5, 9, 13, … adalah …",
+              "options": [
+                {
+                  "text": "37",
+                  "correct": false
+                },
+                {
+                  "text": "41",
+                  "correct": true
+                },
+                {
+                  "text": "45",
+                  "correct": false
+                },
+                {
+                  "text": "49",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 5, b = 4. U₁₀ = 5 + 9 × 4 = 5 + 36 = 41.",
+              "hint": "Kalikan beda dengan (n − 1), bukan n."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suku pertama barisan aritmetika adalah 7 dan bedanya 5. Suku ke-12 adalah …",
+              "options": [
+                {
+                  "text": "60",
+                  "correct": false
+                },
+                {
+                  "text": "62",
+                  "correct": true
+                },
+                {
+                  "text": "67",
+                  "correct": false
+                },
+                {
+                  "text": "72",
+                  "correct": false
+                }
+              ],
+              "explanation": "U₁₂ = 7 + (12 − 1) × 5 = 7 + 55 = 62.",
+              "hint": "Ada 11 langkah, bukan 12."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suku ke-7 barisan geometri dengan a = 3 dan r = 2 adalah …",
+              "options": [
+                {
+                  "text": "96",
+                  "correct": false
+                },
+                {
+                  "text": "192",
+                  "correct": true
+                },
+                {
+                  "text": "384",
+                  "correct": false
+                },
+                {
+                  "text": "768",
+                  "correct": false
+                }
+              ],
+              "explanation": "U₇ = 3 × 2⁶ = 3 × 64 = 192.",
+              "hint": "Pangkatnya (7 − 1) = 6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui barisan 1, 4, 7, 10, … Suku ke-20 adalah …",
+              "options": [
+                {
+                  "text": "58",
+                  "correct": true
+                },
+                {
+                  "text": "60",
+                  "correct": false
+                },
+                {
+                  "text": "61",
+                  "correct": false
+                },
+                {
+                  "text": "64",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 1, b = 3. U₂₀ = 1 + 19 × 3 = 1 + 57 = 58.",
+              "hint": "19 × 3 = 57, lalu tambahkan 1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Barisan geometri 4, 12, 36, … Rasio dan suku ke-5 berturut-turut adalah …",
+              "options": [
+                {
+                  "text": "r = 3 dan U₅ = 324",
+                  "correct": true
+                },
+                {
+                  "text": "r = 3 dan U₅ = 108",
+                  "correct": false
+                },
+                {
+                  "text": "r = 8 dan U₅ = 324",
+                  "correct": false
+                },
+                {
+                  "text": "r = 4 dan U₅ = 1024",
+                  "correct": false
+                }
+              ],
+              "explanation": "r = 12 ÷ 4 = 3. U₅ = 4 × 3⁴ = 4 × 81 = 324.",
+              "hint": "3⁴ = 81."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada barisan aritmetika diketahui U₃ = 11 dan U₇ = 27. Nilai bedanya adalah …",
+              "options": [
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "16",
+                  "correct": false
+                }
+              ],
+              "explanation": "Selisih nilai 27 − 11 = 16 terjadi dalam 7 − 3 = 4 langkah, sehingga b = 16 ÷ 4 = 4.",
+              "hint": "Bagi selisih nilai dengan selisih indeks."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk barisan geometri? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "3, 6, 12, 24, …",
+                  "correct": true
+                },
+                {
+                  "text": "1, 5, 9, 13, …",
+                  "correct": false
+                },
+                {
+                  "text": "2, 10, 50, 250, …",
+                  "correct": true
+                },
+                {
+                  "text": "7, 14, 21, 28, …",
+                  "correct": false
+                }
+              ],
+              "explanation": "3, 6, 12, 24 berasio 2 dan 2, 10, 50, 250 berasio 5. Dua lainnya adalah barisan aritmetika.",
+              "hint": "Uji dengan pembagian, bukan pengurangan."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan barisan dengan nilai beda atau rasionya.",
+              "options": [
+                {
+                  "id": "b1",
+                  "text": "2, 8, 14, 20, …"
+                },
+                {
+                  "id": "b2",
+                  "text": "3, 12, 48, 192, …"
+                },
+                {
+                  "id": "b3",
+                  "text": "10, 7, 4, 1, …"
+                },
+                {
+                  "id": "b4",
+                  "text": "1, 1/2, 1/4, 1/8, …"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "b1": "b = 6",
+                  "b2": "r = 4",
+                  "b3": "b = −3",
+                  "b4": "r = 1/2"
+                }
+              },
+              "explanation": "2, 8, 14, 20 berselisih 6; 3, 12, 48, 192 berasio 4; 10, 7, 4, 1 berselisih −3; 1, 1/2, 1/4, 1/8 berasio 1/2.",
+              "hint": "Perhatikan barisan yang menurun — beda bisa negatif."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah bioskop memiliki 12 kursi di baris pertama dan bertambah 4 kursi tiap baris. Jumlah kursi di baris ke-8 adalah …",
+              "options": [
+                {
+                  "text": "36",
+                  "correct": false
+                },
+                {
+                  "text": "40",
+                  "correct": true
+                },
+                {
+                  "text": "44",
+                  "correct": false
+                },
+                {
+                  "text": "48",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 12, b = 4. U₈ = 12 + 7 × 4 = 12 + 28 = 40.",
+              "hint": "Baris ke-8 berarti 7 kali pertambahan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Pasangkan setiap barisan dengan rumus suku ke-n yang sesuai.",
+              "options": [
+                {
+                  "id": "r1",
+                  "text": "4, 7, 10, 13, …"
+                },
+                {
+                  "id": "r2",
+                  "text": "2, 8, 32, 128, …"
+                },
+                {
+                  "id": "r3",
+                  "text": "20, 17, 14, 11, …"
+                },
+                {
+                  "id": "r4",
+                  "text": "5, 10, 20, 40, …"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "r1": "Uₙ = 4 + 3(n − 1)",
+                  "r2": "Uₙ = 2 × 4ⁿ⁻¹",
+                  "r3": "Uₙ = 20 − 3(n − 1)",
+                  "r4": "Uₙ = 5 × 2ⁿ⁻¹"
+                }
+              },
+              "explanation": "4, 7, 10, 13 → a = 4, b = 3. 2, 8, 32, 128 → a = 2, r = 4. 20, 17, 14, 11 → a = 20, b = −3. 5, 10, 20, 40 → a = 5, r = 2.",
+              "hint": "Tentukan dulu apakah barisan itu aritmetika atau geometri."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Barisan — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pada barisan aritmetika, U₄ = 17 dan U₉ = 42. Suku ke-15 adalah …",
+              "options": [
+                {
+                  "text": "66",
+                  "correct": false
+                },
+                {
+                  "text": "72",
+                  "correct": true
+                },
+                {
+                  "text": "75",
+                  "correct": false
+                },
+                {
+                  "text": "78",
+                  "correct": false
+                }
+              ],
+              "explanation": "b = (42 − 17) ÷ (9 − 4) = 25 ÷ 5 = 5. Lalu a = 17 − 3 × 5 = 2. U₁₅ = 2 + 14 × 5 = 72."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suku ke-3 barisan geometri adalah 12 dan suku ke-5 adalah 48. Suku pertama barisan tersebut adalah …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                }
+              ],
+              "explanation": "U₅ ÷ U₃ = r² = 48 ÷ 12 = 4, sehingga r = 2. Dari U₃ = a × 2² = 12 diperoleh a = 3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Banyaknya suku pada barisan aritmetika 3, 7, 11, …, 99 adalah …",
+              "options": [
+                {
+                  "text": "24",
+                  "correct": false
+                },
+                {
+                  "text": "25",
+                  "correct": true
+                },
+                {
+                  "text": "26",
+                  "correct": false
+                },
+                {
+                  "text": "27",
+                  "correct": false
+                }
+              ],
+              "explanation": "Uₙ = 3 + (n − 1)4 = 99 → (n − 1)4 = 96 → n − 1 = 24 → n = 25."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui barisan geometri dengan a = 5 dan U₄ = 40. Rasio barisan tersebut adalah …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": true
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "8",
+                  "correct": false
+                }
+              ],
+              "explanation": "U₄ = 5 × r³ = 40 → r³ = 8 → r = 2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suku ke-n suatu barisan aritmetika dirumuskan Uₙ = 4n + 1. Beda barisan tersebut adalah …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "9",
+                  "correct": false
+                }
+              ],
+              "explanation": "U₁ = 5 dan U₂ = 9, sehingga b = 9 − 5 = 4. Pada rumus linear, beda sama dengan koefisien n."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah bakteri mula-mula 200 dan berlipat dua setiap 30 menit. Banyak bakteri setelah 3 jam adalah …",
+              "options": [
+                {
+                  "text": "1.600",
+                  "correct": false
+                },
+                {
+                  "text": "3.200",
+                  "correct": false
+                },
+                {
+                  "text": "12.800",
+                  "correct": true
+                },
+                {
+                  "text": "25.600",
+                  "correct": false
+                }
+              ],
+              "explanation": "3 jam = 180 menit = 6 kali pembelahan. Jumlah = 200 × 2⁶ = 200 × 64 = 12.800."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tiga bilangan berurutan membentuk barisan aritmetika dengan jumlah 48. Jika bilangan terbesar 20, bilangan terkecilnya adalah …",
+              "options": [
+                {
+                  "text": "12",
+                  "correct": true
+                },
+                {
+                  "text": "14",
+                  "correct": false
+                },
+                {
+                  "text": "15",
+                  "correct": false
+                },
+                {
+                  "text": "16",
+                  "correct": false
+                }
+              ],
+              "explanation": "Misalkan bilangan itu a − d, a, a + d. Jumlahnya 3a = 48, jadi a = 16. Terbesar a + d = 20 memberi d = 4. Terkecil = 16 − 4 = 12."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suku ke-5 dan suku ke-8 barisan aritmetika berturut-turut 23 dan 35. Suku ke-2 barisan tersebut adalah …",
+              "options": [
+                {
+                  "text": "8",
+                  "correct": false
+                },
+                {
+                  "text": "11",
+                  "correct": true
+                },
+                {
+                  "text": "14",
+                  "correct": false
+                },
+                {
+                  "text": "17",
+                  "correct": false
+                }
+              ],
+              "explanation": "b = (35 − 23) ÷ 3 = 4. Dari U₅ = a + 4b = 23 diperoleh a = 23 − 16 = 7. Maka U₂ = 7 + 4 = 11."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Barisan geometri 1/8, 1/4, 1/2, 1, … Suku ke-9 adalah …",
+              "options": [
+                {
+                  "text": "8",
+                  "correct": false
+                },
+                {
+                  "text": "16",
+                  "correct": false
+                },
+                {
+                  "text": "32",
+                  "correct": true
+                },
+                {
+                  "text": "64",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 1/8 dan r = 2. U₉ = (1/8) × 2⁸ = (1/8) × 256 = 32."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada barisan aritmetika, jumlah suku ke-3 dan ke-7 adalah 40. Suku ke-5 adalah …",
+              "options": [
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "20",
+                  "correct": true
+                },
+                {
+                  "text": "30",
+                  "correct": false
+                },
+                {
+                  "text": "tidak dapat ditentukan",
+                  "correct": false
+                }
+              ],
+              "explanation": "U₃ + U₇ = (a + 2b) + (a + 6b) = 2a + 8b = 2(a + 4b) = 2U₅. Karena jumlahnya 40, maka U₅ = 20."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang barisan 6, 12, 24, 48, …? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Rasionya 2",
+                  "correct": true
+                },
+                {
+                  "text": "Suku pertamanya 6",
+                  "correct": true
+                },
+                {
+                  "text": "U₆ = 192",
+                  "correct": true
+                },
+                {
+                  "text": "Bedanya 6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Barisan geometri dengan a = 6, r = 2. U₆ = 6 × 2⁵ = 192. Barisan ini tidak punya beda tetap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gaji seorang karyawan Rp3.000.000 pada tahun pertama dan naik Rp250.000 setiap tahun. Gajinya pada tahun ke-6 adalah …",
+              "options": [
+                {
+                  "text": "Rp4.000.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp4.250.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp4.500.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp4.750.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "a = 3.000.000, b = 250.000. U₆ = 3.000.000 + 5 × 250.000 = 3.000.000 + 1.250.000 = Rp4.250.000."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suku tengah barisan aritmetika dengan 21 suku adalah 50. Jika suku pertamanya 10, maka bedanya adalah …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "8",
+                  "correct": false
+                }
+              ],
+              "explanation": "Suku tengah dari 21 suku adalah U₁₁. Maka 10 + 10b = 50 → 10b = 40 → b = 4."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menentukan suku ke-12 barisan 4, 9, 14, 19, … dari yang pertama sampai terakhir.",
+              "options": [
+                {
+                  "id": "s1",
+                  "text": "Tentukan suku pertama a = 4"
+                },
+                {
+                  "id": "s2",
+                  "text": "Tentukan beda b = 5"
+                },
+                {
+                  "id": "s3",
+                  "text": "Gunakan rumus Uₙ = a + (n − 1)b"
+                },
+                {
+                  "id": "s4",
+                  "text": "Hitung U₁₂ = 4 + 11 × 5 = 59"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Tentukan a dan b lebih dulu, lalu masukkan ke rumus dengan (n − 1) = 11."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan setiap barisan ke jenisnya.",
+              "options": [
+                {
+                  "id": "j1",
+                  "text": "5, 9, 13, 17, …"
+                },
+                {
+                  "id": "j2",
+                  "text": "5, 10, 20, 40, …"
+                },
+                {
+                  "id": "j3",
+                  "text": "100, 90, 80, 70, …"
+                },
+                {
+                  "id": "j4",
+                  "text": "81, 27, 9, 3, …"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "j1": "Aritmetika (b = 4)",
+                  "j2": "Geometri (r = 2)",
+                  "j3": "Aritmetika (b = −10)",
+                  "j4": "Geometri (r = 1/3)"
+                }
+              },
+              "explanation": "5, 9, 13, 17 ditambah 4. 5, 10, 20, 40 dikali 2. 100, 90, 80, 70 dikurangi 10. 81, 27, 9, 3 dibagi 3."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "informatika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "INF 6",
+      "title": "Algoritma dan Pemrograman",
+      "description": "Notasi algoritma, variabel dan ekspresi, struktur kontrol keputusan dan perulangan, serta fungsi dalam program.",
+      "learning_objectives": [
+        "Membaca dan menulis algoritma dengan notasi yang benar.",
+        "Memahami proses pemrograman dengan menggunakan bahasa pemrograman.",
+        "Memahami konsep variabel dan ekspresi dalam membuat program.",
+        "Memahami penggunaan struktur kontrol keputusan dalam membuat program.",
+        "Memahami penggunaan struktur kontrol perulangan dalam membuat program.",
+        "Memahami penggunaan fungsi dalam membuat program."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Informatika Kelas X SMA Fase E Bab 7",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Variabel, Ekspresi, dan Algoritma",
+          "duration": 240,
+          "source_reference": "Bab 7 — Algoritma dan Pemrograman",
+          "content": "## Algoritma\n\nAlgoritma adalah urutan langkah yang **jelas**, **berhingga**, dan **logis** untuk menyelesaikan masalah.\n\nContoh algoritma menghitung luas persegi panjang:\n\n1. Baca panjang\n2. Baca lebar\n3. Hitung luas = panjang × lebar\n4. Cetak luas\n\n## Variabel dan tipe data\n\n**Variabel** menyimpan nilai yang dapat berubah selama program berjalan; **konstanta** nilainya tetap.\n\n| Tipe data | Isi | Contoh |\n|---|---|---|\n| integer | bilangan bulat | 42 |\n| real/float | bilangan pecahan | 3,14 |\n| string | teks | \"halo\" |\n| boolean | benar/salah | true |\n\n## Ekspresi dan operator\n\n| Operator | Arti |\n|---|---|\n| + − * / | aritmetika (perkalian memakai *) |\n| mod | sisa pembagian |\n| == != | perbandingan kesamaan / ketidaksamaan |\n| < > ≤ ≥ | perbandingan |\n\nPerkalian dan pembagian dikerjakan sebelum penjumlahan dan pengurangan, seperti pada matematika."
+        },
+        {
+          "type": "text",
+          "title": "Keputusan, Perulangan, dan Fungsi",
+          "duration": 360,
+          "source_reference": "Bab 7 — Struktur Kontrol",
+          "content": "## Struktur keputusan\n\n```\njika kondisi maka\n    aksi1\nselain itu\n    aksi2\n```\n\nAksi hanya dijalankan bila kondisi bernilai **benar**.\n\n**Keputusan bersarang** — keputusan di dalam keputusan lain, dipakai saat kondisi kedua hanya perlu diperiksa bila kondisi pertama terpenuhi.\n\n```\njika nilai ≥ 75 maka cetak \"A\"\nselain itu jika nilai ≥ 60 maka cetak \"B\"\n```\n\nPada contoh itu, nilai 80 langsung mencetak \"A\" tanpa memeriksa kondisi kedua.\n\n## Struktur perulangan\n\n```\nselama kondisi\n    aksi\n```\n\n**Wajib punya kondisi berhenti.** Tanpa itu perulangan berjalan terus tanpa akhir.\n\nContoh: `i = 0; selama i < 3: cetak i; i = i + 1` menghasilkan keluaran 0 1 2.\n\n## Fungsi\n\nFungsi membungkus langkah agar dapat dipakai ulang.\n\n- **parameter** — nama nilai di dalam fungsi\n- **argumen** — nilai yang dikirim saat fungsi dipanggil\n\nKelebihan fungsi: perbaikan cukup di satu tempat sehingga kesalahan lebih mudah diperbaiki."
+        },
+        {
+          "type": "interactive",
+          "title": "Melacak Jalan Program",
+          "duration": 240,
+          "source_reference": "Bab 7 — Latihan",
+          "content": "## Melacak program langkah demi langkah\n\n**Contoh 1 — penjumlahan berulang**\n\n```\njumlah = 0\nuntuk i dari 1 sampai 5:\n    jumlah = jumlah + i\n```\n\n| i | jumlah setelah iterasi |\n|---|---|\n| 1 | 1 |\n| 2 | 3 |\n| 3 | 6 |\n| 4 | 10 |\n| 5 | 15 |\n\nHasil akhir **15**.\n\n**Contoh 2 — penggandaan**\n\n`n = 1`, lalu diulang lima kali `n = n × 2` → 1 × 2⁵ = **32**.\n\n**Contoh 3 — sisa bagi**\n\n`7 mod 2 = 1` karena 7 = 3 × 2 + 1.\n\nBilangan genap memiliki `x mod 2 = 0`.\n\n## Cara berlatih\n\nJangan menebak. Buat **tabel pelacakan**: satu baris per iterasi, satu kolom per variabel. Kesalahan logika paling sering muncul pada iterasi pertama dan terakhir."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Algoritma dan Pemrograman — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Urutan langkah logis untuk menyelesaikan masalah disebut …",
+              "options": [
+                {
+                  "text": "algoritma",
+                  "correct": true
+                },
+                {
+                  "text": "program",
+                  "correct": false
+                },
+                {
+                  "text": "compiler",
+                  "correct": false
+                },
+                {
+                  "text": "variabel",
+                  "correct": false
+                }
+              ],
+              "explanation": "Algoritma adalah urutan langkah yang jelas dan berhingga untuk menyelesaikan masalah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tempat menyimpan nilai yang dapat berubah selama program berjalan disebut …",
+              "options": [
+                {
+                  "text": "variabel",
+                  "correct": true
+                },
+                {
+                  "text": "konstanta",
+                  "correct": false
+                },
+                {
+                  "text": "komentar",
+                  "correct": false
+                },
+                {
+                  "text": "fungsi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Variabel menyimpan nilai yang dapat diperbarui; konstanta nilainya tetap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Struktur kontrol yang memilih salah satu jalur berdasarkan kondisi disebut …",
+              "options": [
+                {
+                  "text": "perulangan",
+                  "correct": false
+                },
+                {
+                  "text": "keputusan",
+                  "correct": true
+                },
+                {
+                  "text": "fungsi",
+                  "correct": false
+                },
+                {
+                  "text": "variabel",
+                  "correct": false
+                }
+              ],
+              "explanation": "Struktur keputusan (if/else) memilih jalur berdasarkan benar atau salahnya kondisi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Struktur kontrol yang mengulang langkah selama kondisi terpenuhi disebut …",
+              "options": [
+                {
+                  "text": "keputusan",
+                  "correct": false
+                },
+                {
+                  "text": "perulangan",
+                  "correct": true
+                },
+                {
+                  "text": "variabel",
+                  "correct": false
+                },
+                {
+                  "text": "parameter",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perulangan (loop) menjalankan blok kode berulang selama kondisinya benar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Simbol × pada ekspresi aritmetika dalam pemrograman umumnya ditulis …",
+              "options": [
+                {
+                  "text": "x",
+                  "correct": false
+                },
+                {
+                  "text": "*",
+                  "correct": true
+                },
+                {
+                  "text": "×",
+                  "correct": false
+                },
+                {
+                  "text": ".",
+                  "correct": false
+                }
+              ],
+              "explanation": "Banyak bahasa pemrograman memakai tanda * untuk perkalian."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Algoritma dan Pemrograman — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Jenis data yang tepat untuk menyimpan bilangan bulat adalah …",
+              "options": [
+                {
+                  "text": "integer",
+                  "correct": true
+                },
+                {
+                  "text": "string",
+                  "correct": false
+                },
+                {
+                  "text": "boolean",
+                  "correct": false
+                },
+                {
+                  "text": "char",
+                  "correct": false
+                }
+              ],
+              "explanation": "Integer menyimpan bilangan bulat; string untuk teks, boolean untuk benar/salah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jenis data boolean hanya memiliki nilai …",
+              "options": [
+                {
+                  "text": "0 sampai 9",
+                  "correct": false
+                },
+                {
+                  "text": "benar atau salah",
+                  "correct": true
+                },
+                {
+                  "text": "teks bebas",
+                  "correct": false
+                },
+                {
+                  "text": "pecahan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Boolean menyatakan dua keadaan, yaitu true atau false."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk umum struktur keputusan adalah …",
+              "options": [
+                {
+                  "text": "if kondisi then aksi",
+                  "correct": true
+                },
+                {
+                  "text": "for kondisi do aksi",
+                  "correct": false
+                },
+                {
+                  "text": "while aksi",
+                  "correct": false
+                },
+                {
+                  "text": "var nama = nilai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Struktur keputusan diawali kata if dan memeriksa kondisi sebelum menjalankan aksi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keluaran dari algoritma berikut: x = 5; jika x > 3 maka cetak 'besar' adalah …",
+              "options": [
+                {
+                  "text": "besar",
+                  "correct": true
+                },
+                {
+                  "text": "kecil",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada keluaran",
+                  "correct": false
+                },
+                {
+                  "text": "galat",
+                  "correct": false
+                }
+              ],
+              "explanation": "x = 5 memenuhi 5 > 3, sehingga cabang 'besar' yang dijalankan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perulangan yang berhenti ketika kondisi bernilai salah disebut perulangan …",
+              "options": [
+                {
+                  "text": "berkondisi",
+                  "correct": true
+                },
+                {
+                  "text": "tak berhingga",
+                  "correct": false
+                },
+                {
+                  "text": "bersarang",
+                  "correct": false
+                },
+                {
+                  "text": "rekursif",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perulangan berkondisi memeriksa kondisi setiap iterasi dan berhenti saat kondisinya salah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi dalam program dipakai untuk …",
+              "options": [
+                {
+                  "text": "memperindah tampilan",
+                  "correct": false
+                },
+                {
+                  "text": "membungkus langkah agar dapat dipakai ulang",
+                  "correct": true
+                },
+                {
+                  "text": "menghapus variabel",
+                  "correct": false
+                },
+                {
+                  "text": "memperlambat program",
+                  "correct": false
+                }
+              ],
+              "explanation": "Fungsi mengelompokkan langkah sehingga dapat dipanggil berkali-kali tanpa menulis ulang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai yang diberikan kepada fungsi saat dipanggil disebut …",
+              "options": [
+                {
+                  "text": "argumen",
+                  "correct": true
+                },
+                {
+                  "text": "komentar",
+                  "correct": false
+                },
+                {
+                  "text": "kondisi",
+                  "correct": false
+                },
+                {
+                  "text": "tipe data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Argumen dikirim ke fungsi dan diterima sebagai parameter di dalam fungsi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk struktur kontrol dalam pemrograman? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Keputusan (if)",
+                  "correct": true
+                },
+                {
+                  "text": "Perulangan (for/while)",
+                  "correct": true
+                },
+                {
+                  "text": "Fungsi",
+                  "correct": true
+                },
+                {
+                  "text": "Komentar program",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keputusan, perulangan, dan fungsi mengendalikan alur program. Komentar hanya catatan dan tidak dijalankan."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan operator dengan artinya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "+"
+                },
+                {
+                  "id": "o1",
+                  "text": "*"
+                },
+                {
+                  "id": "o2",
+                  "text": "=="
+                },
+                {
+                  "id": "o3",
+                  "text": "!="
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Penjumlahan",
+                  "o1": "Perkalian",
+                  "o2": "Perbandingan kesamaan",
+                  "o3": "Perbandingan ketidaksamaan"
+                }
+              },
+              "explanation": "Operator aritmetika menghitung nilai, sedangkan operator perbandingan menghasilkan nilai benar atau salah."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan pernyataan menjadi keputusan atau perulangan.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "jika nilai ≥ 75 maka lulus"
+                },
+                {
+                  "id": "o1",
+                  "text": "selama i < 10 kerjakan"
+                },
+                {
+                  "id": "o2",
+                  "text": "jika umur < 17 maka belum boleh"
+                },
+                {
+                  "id": "o3",
+                  "text": "ulangi 5 kali"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Keputusan",
+                  "o1": "Perulangan",
+                  "o2": "Keputusan",
+                  "o3": "Perulangan"
+                }
+              },
+              "explanation": "Kata kunci 'jika' menandai keputusan, sedangkan 'selama' dan 'ulangi' menandai perulangan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Algoritma dan Pemrograman — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa keluaran potongan algoritma: jumlah = 0; untuk i dari 1 sampai 5: jumlah = jumlah + i?",
+              "options": [
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "15",
+                  "correct": true
+                },
+                {
+                  "text": "25",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penjumlahan 1 + 2 + 3 + 4 + 5 = 15."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah variabel n = 1, lalu diulang lima kali n = n × 2. Nilai akhir n adalah …",
+              "options": [
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "16",
+                  "correct": false
+                },
+                {
+                  "text": "32",
+                  "correct": true
+                },
+                {
+                  "text": "64",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap iterasi menggandakan nilai, sehingga 1 × 2⁵ = 32."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Operator mod (sisa bagi) dari 7 mod 2 menghasilkan …",
+              "options": [
+                {
+                  "text": "0",
+                  "correct": false
+                },
+                {
+                  "text": "1",
+                  "correct": true
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3,5",
+                  "correct": false
+                }
+              ],
+              "explanation": "7 dibagi 2 menghasilkan 3 dengan sisa 1, sehingga 7 mod 2 = 1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Algoritma berikut: jika x mod 2 = 0 maka cetak 'genap' selain itu cetak 'ganjil'. Untuk x = 9 keluarannya …",
+              "options": [
+                {
+                  "text": "genap",
+                  "correct": false
+                },
+                {
+                  "text": "ganjil",
+                  "correct": true
+                },
+                {
+                  "text": "tidak ada keluaran",
+                  "correct": false
+                },
+                {
+                  "text": "galat",
+                  "correct": false
+                }
+              ],
+              "explanation": "9 mod 2 = 1 (bukan 0), sehingga cabang 'selain itu' dijalankan dan mencetak ganjil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah semua bilangan genap dari 1 sampai 10 adalah …",
+              "options": [
+                {
+                  "text": "20",
+                  "correct": false
+                },
+                {
+                  "text": "25",
+                  "correct": false
+                },
+                {
+                  "text": "30",
+                  "correct": true
+                },
+                {
+                  "text": "55",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bilangan genapnya 2, 4, 6, 8, 10 dengan jumlah 30."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa perulangan harus memiliki kondisi berhenti?",
+              "options": [
+                {
+                  "text": "agar program tidak berjalan terus-menerus",
+                  "correct": true
+                },
+                {
+                  "text": "agar warnanya berubah",
+                  "correct": false
+                },
+                {
+                  "text": "agar variabel bertambah",
+                  "correct": false
+                },
+                {
+                  "text": "agar fungsinya hilang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanpa kondisi berhenti, perulangan menjadi tak berhingga dan program tidak selesai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Potongan algoritma: a = 3; b = 4; c = a × b + 2. Nilai c adalah …",
+              "options": [
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "14",
+                  "correct": true
+                },
+                {
+                  "text": "18",
+                  "correct": false
+                },
+                {
+                  "text": "24",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perkalian dikerjakan lebih dulu: 3 × 4 = 12, lalu 12 + 2 = 14."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi luasPersegi(s) mengembalikan s × s. Nilai luasPersegi(7) adalah …",
+              "options": [
+                {
+                  "text": "14",
+                  "correct": false
+                },
+                {
+                  "text": "21",
+                  "correct": false
+                },
+                {
+                  "text": "49",
+                  "correct": true
+                },
+                {
+                  "text": "77",
+                  "correct": false
+                }
+              ],
+              "explanation": "s × s = 7 × 7 = 49."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang variabel? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Nilai variabel dapat berubah selama program berjalan",
+                  "correct": true
+                },
+                {
+                  "text": "Variabel memiliki nama",
+                  "correct": true
+                },
+                {
+                  "text": "Variabel memiliki tipe data",
+                  "correct": true
+                },
+                {
+                  "text": "Nama variabel boleh diawali angka pada semua bahasa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Variabel memiliki nama dan tipe serta nilainya dapat berubah. Pada sebagian besar bahasa, nama variabel tidak boleh diawali angka."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah algoritma menentukan bilangan terbesar dari tiga bilangan a, b, c.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Anggap a sebagai nilai terbesar sementara"
+                },
+                {
+                  "id": "s1",
+                  "text": "Bandingkan b dengan nilai terbesar, ganti bila b lebih besar"
+                },
+                {
+                  "id": "s2",
+                  "text": "Bandingkan c dengan nilai terbesar, ganti bila c lebih besar"
+                },
+                {
+                  "id": "s3",
+                  "text": "Cetak nilai terbesar"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Pendekatan pembanding berurutan menyisakan nilai terbesar di akhir."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perulangan berikut: i = 0; selama i < 3: cetak i; i = i + 1. Keluarannya adalah …",
+              "options": [
+                {
+                  "text": "0 0 0",
+                  "correct": false
+                },
+                {
+                  "text": "0 1 2",
+                  "correct": true
+                },
+                {
+                  "text": "1 2 3",
+                  "correct": false
+                },
+                {
+                  "text": "0 1 2 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perulangan berjalan untuk i = 0, 1, dan 2, lalu berhenti saat i = 3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Output dari: nilai = 80; jika nilai ≥ 75 maka cetak 'A' selain itu jika nilai ≥ 60 maka cetak 'B' adalah …",
+              "options": [
+                {
+                  "text": "A",
+                  "correct": true
+                },
+                {
+                  "text": "B",
+                  "correct": false
+                },
+                {
+                  "text": "AB",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kondisi pertama sudah terpenuhi sehingga cabang berikutnya tidak diperiksa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Struktur keputusan bersarang (nested) berarti …",
+              "options": [
+                {
+                  "text": "keputusan berada di dalam keputusan lain",
+                  "correct": true
+                },
+                {
+                  "text": "perulangan di dalam variabel",
+                  "correct": false
+                },
+                {
+                  "text": "fungsi tanpa parameter",
+                  "correct": false
+                },
+                {
+                  "text": "komentar di dalam kode",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keputusan bersarang dipakai ketika satu kondisi hanya perlu diperiksa bila kondisi sebelumnya terpenuhi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kelebihan memakai fungsi dibanding menulis ulang langkah yang sama adalah …",
+              "options": [
+                {
+                  "text": "kode lebih mudah dirawat dan kesalahan lebih mudah diperbaiki",
+                  "correct": true
+                },
+                {
+                  "text": "program menjadi lebih panjang",
+                  "correct": false
+                },
+                {
+                  "text": "variabel menjadi lebih banyak",
+                  "correct": false
+                },
+                {
+                  "text": "program berjalan tanpa kondisi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perbaikan cukup dilakukan di satu tempat, sehingga risiko kesalahan berkurang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Algoritma pengurutan menaik diterapkan pada data 5, 2, 9, 1. Hasil akhirnya adalah …",
+              "options": [
+                {
+                  "text": "1, 2, 5, 9",
+                  "correct": true
+                },
+                {
+                  "text": "9, 5, 2, 1",
+                  "correct": false
+                },
+                {
+                  "text": "5, 2, 9, 1",
+                  "correct": false
+                },
+                {
+                  "text": "2, 5, 1, 9",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengurutan menaik menyusun data dari nilai terkecil ke terbesar, yaitu 1, 2, 5, 9."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

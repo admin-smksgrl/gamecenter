@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-indonesia",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "BI 5",
+      "title": "Biografi Tokoh",
+      "description": "Menganalisis ide pokok dan ide penjelas teks biografi, menelaah tanda baca dan kata serapan, serta menulis dan menyajikan biografi.",
+      "learning_objectives": [
+        "Memahami dan menganalisis informasi berupa ide pokok serta ide penjelas dari teks biografi secara akurat dan kritis",
+        "Menganalisis teks rekon untuk menemukan gagasan, pikiran, atau pesan yang tersurat dan tersirat",
+        "Menggunakan sumber pendukung lain untuk menelaah penggunaan tanda baca dan kata serapan dalam teks biografi secara akurat",
+        "Menulis teks biografi untuk berbagai tujuan secara logis dan kreati",
+        "Menyajikan teks biografi secara tuntut, logis, dan kreatif"
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Bahasa Indonesia Kelas 10 SMA Fase E Bab 5",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Struktur Biografi dan Ide Pokok",
+          "duration": 240,
+          "source_reference": "Bab 5 — Teks Biografi",
+          "content": "## Biografi dan autobiografi\n\n- **Biografi** — riwayat hidup tokoh yang ditulis orang lain\n- **Autobiografi** — riwayat hidup yang ditulis tokohnya sendiri\n\nKeduanya wajib berdasarkan **fakta**, bukan khayalan.\n\n### Struktur\n\n| Bagian | Isi |\n|---|---|\n| **Orientasi** | pengenalan tokoh dan latar belakang |\n| **Peristiwa** | rangkaian kejadian penting dalam hidup tokoh |\n| **Reorientasi** | pandangan atau kesan penulis terhadap tokoh |\n\n### Ide pokok dan ide penjelas\n\n**Ide pokok** adalah gagasan utama paragraf. **Ide penjelas** menguraikan, memberi contoh, atau mendukung ide pokok.\n\nCara menemukannya:\n\n1. Baca seluruh paragraf\n2. Tandai kalimat yang paling umum\n3. Periksa kalimat penjelas\n4. Rumuskan ide pokok dengan kalimat sendiri\n\n### Tersurat dan tersirat\n\n**Tersurat** dinyatakan langsung. **Tersirat** perlu disimpulkan, misalnya:\n\n> \"Tokoh itu selalu datang paling awal, sehingga ia dikenal disiplin.\"\n\nKedisiplinan tidak dinyatakan langsung, melainkan disimpulkan dari kebiasaan."
+        },
+        {
+          "type": "text",
+          "title": "Tanda Baca dan Kata Serapan",
+          "duration": 360,
+          "source_reference": "Bab 5 — Kaidah Bahasa",
+          "content": "## Tanda baca yang sering keliru\n\n| Salah | Benar |\n|---|---|\n| kalimat berita tanpa titik | diakhiri **titik** |\n| nama kota huruf kecil | **huruf kapital** |\n| kutipan tanpa tanda petik | **tanda petik** untuk kutipan langsung |\n\nContoh benar:\n\n> Ia lahir di Yogyakarta pada 12 Mei 1970.\n\nKesalahan paling umum adalah **menghilangkan titik** di akhir kalimat berita.\n\n## Kata serapan baku\n\n| Tidak baku | Baku |\n|---|---|\n| analisa | **analisis** |\n| efektifitas | **efektivitas** |\n| aktifitas | **aktivitas** |\n\n## Kutipan\n\nKutipan dalam biografi harus **sesuai dengan yang benar-benar diucapkan** dan diapit tanda petik. Kutipan yang dibuat-buat merusak kepercayaan pembaca.\n\n## Mengapa kaidah ini penting?\n\nTanda baca dan kata baku menjaga informasi terbaca tepat dan tidak ambigu — hal mendasar dalam teks faktual seperti biografi."
+        },
+        {
+          "type": "interactive",
+          "title": "Menulis dan Menyajikan Biografi",
+          "duration": 240,
+          "source_reference": "Bab 5 — Latihan",
+          "content": "## Langkah menulis biografi\n\n1. Kumpulkan data dari **sumber terpercaya**: wawancara langsung, dokumen resmi, buku atau artikel\n2. Susun **garis waktu** peristiwa penting\n3. Tulis orientasi, peristiwa, dan reorientasi\n4. Sunting ejaan, tanda baca, dan kata serapan\n\nTebakan tanpa verifikasi tidak boleh dipakai.\n\n## Menulis secara logis\n\nPeristiwa disusun dalam **urutan waktu yang jelas** agar riwayat mudah diikuti. Tahun peristiwa sebaiknya dicantumkan karena memberi kerangka waktu dan konteks.\n\n## Menemukan keteladanan\n\nHubungkan **peristiwa** yang dihadapi tokoh dengan **sikap** yang diambilnya. Penilaian watak seperti \"Ia adalah pribadi yang gigih\" perlu didukung bukti peristiwa atau tindakan.\n\n## Menyajikan secara kreatif\n\nPoster, infografis, atau video boleh dipakai, tetapi harus tetap:\n\n- menjaga akurasi fakta\n- menyebut sumber\n- tidak mengganti nama atau tahun penting\n\nBila menemukan biografi tanpa sumber, kritik yang membangun adalah **saran agar penulis mencantumkan sumber datanya**."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Biografi Tokoh — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Teks yang mengisahkan riwayat hidup seorang tokoh disebut teks …",
+              "options": [
+                {
+                  "text": "biografi",
+                  "correct": true
+                },
+                {
+                  "text": "anekdot",
+                  "correct": false
+                },
+                {
+                  "text": "negosiasi",
+                  "correct": false
+                },
+                {
+                  "text": "eksplanasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Biografi memaparkan riwayat hidup tokoh berdasarkan fakta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Biografi yang ditulis oleh tokoh itu sendiri disebut …",
+              "options": [
+                {
+                  "text": "autobiografi",
+                  "correct": true
+                },
+                {
+                  "text": "biografi",
+                  "correct": false
+                },
+                {
+                  "text": "esai",
+                  "correct": false
+                },
+                {
+                  "text": "reportase",
+                  "correct": false
+                }
+              ],
+              "explanation": "Autobiografi adalah riwayat hidup yang ditulis sendiri oleh tokohnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gagasan utama sebuah paragraf disebut …",
+              "options": [
+                {
+                  "text": "ide pokok",
+                  "correct": true
+                },
+                {
+                  "text": "ide penjelas",
+                  "correct": false
+                },
+                {
+                  "text": "kalimat penutup",
+                  "correct": false
+                },
+                {
+                  "text": "kata hubung",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ide pokok adalah inti gagasan yang dikembangkan oleh kalimat-kalimat penjelas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teks yang menceritakan kembali peristiwa yang telah terjadi disebut teks …",
+              "options": [
+                {
+                  "text": "rekon",
+                  "correct": true
+                },
+                {
+                  "text": "prosedur",
+                  "correct": false
+                },
+                {
+                  "text": "deskripsi",
+                  "correct": false
+                },
+                {
+                  "text": "persuasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teks rekon (rekonstruksi) menceritakan kembali peristiwa masa lalu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tanda baca yang dipakai untuk mengakhiri kalimat berita adalah …",
+              "options": [
+                {
+                  "text": "titik (.)",
+                  "correct": true
+                },
+                {
+                  "text": "tanya (?)",
+                  "correct": false
+                },
+                {
+                  "text": "seru (!)",
+                  "correct": false
+                },
+                {
+                  "text": "koma (,)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalimat berita diakhiri titik; tanda tanya untuk pertanyaan dan tanda seru untuk perintah atau seruan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Biografi Tokoh — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bagian biografi yang berisi peristiwa penting yang dialami tokoh adalah …",
+              "options": [
+                {
+                  "text": "peristiwa",
+                  "correct": true
+                },
+                {
+                  "text": "orientasi",
+                  "correct": false
+                },
+                {
+                  "text": "reorientasi",
+                  "correct": false
+                },
+                {
+                  "text": "koda",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bagian peristiwa memuat rangkaian kejadian penting dalam hidup tokoh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Reorientasi dalam biografi berisi …",
+              "options": [
+                {
+                  "text": "pandangan penulis terhadap tokoh",
+                  "correct": true
+                },
+                {
+                  "text": "riwayat keluarga",
+                  "correct": false
+                },
+                {
+                  "text": "daftar karya",
+                  "correct": false
+                },
+                {
+                  "text": "kutipan wawancara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Reorientasi menyampaikan penilaian atau kesan penulis atas keteladanan tokoh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ide penjelas dalam paragraf berfungsi …",
+              "options": [
+                {
+                  "text": "menguraikan atau mendukung ide pokok",
+                  "correct": true
+                },
+                {
+                  "text": "menggantikan ide pokok",
+                  "correct": false
+                },
+                {
+                  "text": "menutup seluruh teks",
+                  "correct": false
+                },
+                {
+                  "text": "menjadi judul",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalimat penjelas memberi rincian, contoh, atau bukti bagi ide pokok."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat yang memakai tanda baca dengan tepat adalah …",
+              "options": [
+                {
+                  "text": "Ia lahir di Yogyakarta pada 12 Mei 1970.",
+                  "correct": true
+                },
+                {
+                  "text": "Ia lahir di Yogyakarta pada 12 Mei 1970",
+                  "correct": false
+                },
+                {
+                  "text": "ia lahir di yogyakarta pada 12 mei 1970.",
+                  "correct": false
+                },
+                {
+                  "text": "Ia lahir, di Yogyakarta pada 12 Mei 1970",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalimat dimulai huruf kapital, nama tempat dan bulan ditulis kapital, dan diakhiri titik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teks biografi berbeda dari teks rekon karena biografi …",
+              "options": [
+                {
+                  "text": "berfokus pada riwayat hidup satu tokoh",
+                  "correct": true
+                },
+                {
+                  "text": "tidak memuat fakta",
+                  "correct": false
+                },
+                {
+                  "text": "hanya berisi dialog",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memiliki struktur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Biografi berpusat pada riwayat hidup tokoh; teks rekon menceritakan kembali peristiwa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Informasi tersurat dalam teks adalah informasi yang …",
+              "options": [
+                {
+                  "text": "dinyatakan secara langsung",
+                  "correct": true
+                },
+                {
+                  "text": "harus disimpulkan sendiri",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada dalam teks",
+                  "correct": false
+                },
+                {
+                  "text": "berupa gambar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Informasi tersurat tertulis jelas; informasi tersirat perlu disimpulkan pembaca."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kutipan langsung dalam biografi ditandai dengan …",
+              "options": [
+                {
+                  "text": "tanda petik",
+                  "correct": true
+                },
+                {
+                  "text": "tanda seru",
+                  "correct": false
+                },
+                {
+                  "text": "tanda hubung",
+                  "correct": false
+                },
+                {
+                  "text": "tanda kurung siku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kutipan langsung dari tokoh diapit tanda petik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk struktur teks biografi? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Orientasi",
+                  "correct": true
+                },
+                {
+                  "text": "Peristiwa",
+                  "correct": true
+                },
+                {
+                  "text": "Reorientasi",
+                  "correct": true
+                },
+                {
+                  "text": "Daftar harga",
+                  "correct": false
+                }
+              ],
+              "explanation": "Biografi disusun dari orientasi, peristiwa, dan reorientasi. Daftar harga tidak relevan."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Biografi"
+                },
+                {
+                  "id": "o1",
+                  "text": "Autobiografi"
+                },
+                {
+                  "id": "o2",
+                  "text": "Ide pokok"
+                },
+                {
+                  "id": "o3",
+                  "text": "Tersirat"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Riwayat hidup tokoh oleh penulis lain",
+                  "o1": "Riwayat hidup yang ditulis tokohnya sendiri",
+                  "o2": "Gagasan utama paragraf",
+                  "o3": "Informasi yang perlu disimpulkan"
+                }
+              },
+              "explanation": "Keempat istilah itu sering muncul saat membaca dan menulis biografi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menemukan ide pokok paragraf.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Membaca seluruh paragraf"
+                },
+                {
+                  "id": "o1",
+                  "text": "Menandai kalimat yang paling umum"
+                },
+                {
+                  "id": "o2",
+                  "text": "Memeriksa kalimat penjelas"
+                },
+                {
+                  "id": "o3",
+                  "text": "Merumuskan ide pokok dengan kalimat sendiri"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Ide pokok ditemukan setelah membaca utuh dan memeriksa hubungan dengan kalimat penjelas."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Biografi Tokoh — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pernyataan yang menunjukkan informasi tersirat adalah …",
+              "options": [
+                {
+                  "text": "Tokoh itu selalu datang paling awal, sehingga ia dikenal disiplin.",
+                  "correct": true
+                },
+                {
+                  "text": "Tokoh lahir pada 1970.",
+                  "correct": false
+                },
+                {
+                  "text": "Tokoh bekerja di Bandung.",
+                  "correct": false
+                },
+                {
+                  "text": "Tokoh menulis tiga buku.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kedisiplinan tidak dinyatakan langsung, melainkan disimpulkan dari kebiasaan datang awal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menelaah penggunaan tanda baca pada teks biografi bertujuan …",
+              "options": [
+                {
+                  "text": "memastikan informasi terbaca tepat dan tidak ambigu",
+                  "correct": true
+                },
+                {
+                  "text": "memperpanjang teks",
+                  "correct": false
+                },
+                {
+                  "text": "menambah kutipan",
+                  "correct": false
+                },
+                {
+                  "text": "mengubah isi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanda baca yang tepat menjaga kejelasan makna kalimat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kata serapan yang tepat untuk menggantikan 'efektifitas' adalah …",
+              "options": [
+                {
+                  "text": "efektivitas",
+                  "correct": true
+                },
+                {
+                  "text": "efektipitas",
+                  "correct": false
+                },
+                {
+                  "text": "efektifity",
+                  "correct": false
+                },
+                {
+                  "text": "efektip",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bentuk baku dalam bahasa Indonesia adalah 'efektivitas'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menulis biografi secara logis menuntut penulis untuk …",
+              "options": [
+                {
+                  "text": "menyusun peristiwa dalam urutan waktu yang jelas",
+                  "correct": true
+                },
+                {
+                  "text": "mencampur fakta dan khayalan",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan tahun",
+                  "correct": false
+                },
+                {
+                  "text": "menambah cerita fiktif",
+                  "correct": false
+                }
+              ],
+              "explanation": "Urutan waktu yang jelas membuat riwayat hidup mudah diikuti."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sumber yang tepat untuk menulis biografi? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Wawancara langsung dengan tokoh",
+                  "correct": true
+                },
+                {
+                  "text": "Dokumen resmi dan arsip",
+                  "correct": true
+                },
+                {
+                  "text": "Buku atau artikel terpercaya",
+                  "correct": true
+                },
+                {
+                  "text": "Tebakan tanpa verifikasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Biografi memerlukan sumber terpercaya yang dapat diverifikasi. Tebakan tanpa verifikasi merusak akurasi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menulis teks biografi singkat.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Mengumpulkan data dari sumber terpercaya"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menyusun garis waktu peristiwa penting"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menulis orientasi, peristiwa, dan reorientasi"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menyunting ejaan, tanda baca, dan kata serapan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Penyuntingan di akhir memastikan teks akurat sekaligus sesuai kaidah bahasa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kutipan tokoh dalam biografi sebaiknya …",
+              "options": [
+                {
+                  "text": "sesuai dengan yang benar-benar diucapkan",
+                  "correct": true
+                },
+                {
+                  "text": "dibuat-buat agar menarik",
+                  "correct": false
+                },
+                {
+                  "text": "diubah maknanya",
+                  "correct": false
+                },
+                {
+                  "text": "dihilangkan sumbernya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kutipan harus akurat agar biografi dapat dipercaya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kesalahan tanda baca pada 'Ia bekerja di Jakarta sejak 2010' yang paling sering terjadi adalah …",
+              "options": [
+                {
+                  "text": "menghilangkan titik di akhir kalimat",
+                  "correct": true
+                },
+                {
+                  "text": "menambah tanda seru",
+                  "correct": false
+                },
+                {
+                  "text": "menulis nama kota dengan huruf kecil",
+                  "correct": false
+                },
+                {
+                  "text": "menambah tanda tanya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalimat berita harus diakhiri titik; kelalaian ini paling umum terjadi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai keteladanan dalam biografi dapat ditemukan dengan …",
+              "options": [
+                {
+                  "text": "menghubungkan peristiwa dengan sikap tokoh",
+                  "correct": true
+                },
+                {
+                  "text": "menghitung jumlah halaman",
+                  "correct": false
+                },
+                {
+                  "text": "melihat foto sampul",
+                  "correct": false
+                },
+                {
+                  "text": "membaca judul saja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keteladanan tampak dari hubungan antara peristiwa yang dihadapi dan sikap tokoh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyajian biografi secara kreatif, misalnya dalam bentuk poster, harus tetap …",
+              "options": [
+                {
+                  "text": "menjaga akurasi fakta dan menyebut sumber",
+                  "correct": true
+                },
+                {
+                  "text": "menambah cerita palsu",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan tahun penting",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti nama tokoh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bentuk penyajian boleh kreatif, tetapi fakta tetap harus benar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat 'Ia adalah pribadi yang gigih' paling kuat bila didukung oleh …",
+              "options": [
+                {
+                  "text": "bukti peristiwa atau tindakan tokoh",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah kata yang banyak",
+                  "correct": false
+                },
+                {
+                  "text": "penggunaan kata asing",
+                  "correct": false
+                },
+                {
+                  "text": "pengulangan kalimat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penilaian watak perlu didukung bukti agar tidak menjadi klaim kosong."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan informasi tersurat dan tersirat terletak pada …",
+              "options": [
+                {
+                  "text": "cara penyampaiannya: langsung atau perlu disimpulkan",
+                  "correct": true
+                },
+                {
+                  "text": "panjang kalimatnya",
+                  "correct": false
+                },
+                {
+                  "text": "jumlah kata",
+                  "correct": false
+                },
+                {
+                  "text": "jenis huruf",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tersurat dinyatakan jelas, tersirat disimpulkan dari petunjuk dalam teks."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa biografi perlu menyebutkan tahun peristiwa?",
+              "options": [
+                {
+                  "text": "agar urutan dan konteks peristiwa dapat dipahami",
+                  "correct": true
+                },
+                {
+                  "text": "agar teks lebih tebal",
+                  "correct": false
+                },
+                {
+                  "text": "agar menarik perhatian",
+                  "correct": false
+                },
+                {
+                  "text": "agar mudah dihafal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tahun memberi kerangka waktu sehingga peristiwa dapat dipahami dalam konteksnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kritik terhadap biografi yang tidak menyebut sumber sebaiknya berupa …",
+              "options": [
+                {
+                  "text": "saran agar penulis mencantumkan sumber datanya",
+                  "correct": true
+                },
+                {
+                  "text": "penolakan seluruh isi biografi",
+                  "correct": false
+                },
+                {
+                  "text": "tuduhan tanpa dasar",
+                  "correct": false
+                },
+                {
+                  "text": "penghapusan kutipan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kritik membangun mengarahkan perbaikan konkret, yaitu pencantuman sumber."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahasa biografi yang baik bersifat …",
+              "options": [
+                {
+                  "text": "jelas, faktual, dan mengalir",
+                  "correct": true
+                },
+                {
+                  "text": "berbelit dan penuh istilah gaul",
+                  "correct": false
+                },
+                {
+                  "text": "penuh emosi tanpa data",
+                  "correct": false
+                },
+                {
+                  "text": "berisi cerita fiktif",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kejelasan dan kefaktualan membuat biografi mudah dibaca dan dipercaya."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

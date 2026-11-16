@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-indonesia",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "BI 3",
+      "title": "Nilai dalam Cerita Lintas Zaman",
+      "description": "Menyimak dan membaca hikayat serta cerpen, menilai karakterisasi dan plot, lalu menulis karya fiksi berdasarkan nilai kehidupan.",
+      "learning_objectives": [
+        "Menyimak hikayat yang dibacakan oleh orang lain untuk memahami dan menganalisis pesan dalam teks narasi berbentuk hikayat.",
+        "Membaca untuk menilai dan mengkritisi karakterisasi dan plot pada hikayat dan cerpen serta mengaitkannya dengan nilai-nilai kehidupan yang berlaku pada masa lalu dan sekarang.",
+        "Memahami kaidahkaidah bahasa yang digunakan dalam menulis teks hikayat dan cerpen.",
+        "Menulis gagasan, pikiran, pandangan, arahan atau pesan tertulis untuk berbagai tujuan secara logis, kritis, dan reflektif dalam bentuk teks fiksi dan mempublikasikannya di media cetak maupun digital"
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Bahasa Indonesia Kelas 10 SMA Fase E Bab 3",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Hikayat dan Cerpen: Dua Zaman",
+          "duration": 240,
+          "source_reference": "Bab 3 — Nilai dalam Cerita Lintas Zaman",
+          "content": "## Hikayat\n\nKarya **sastra lama Melayu** yang menceritakan kesaktian dan keajaiban.\n\nCiri bahasa: banyak **kata arkais**, seperti *alkisah*, *syahdan*, *hatta*.\n\n## Cerpen\n\nCerita pendek **modern** yang memusatkan cerita pada satu peristiwa utama dengan tokoh terbatas.\n\n| Aspek | Hikayat | Cerpen |\n|---|---|---|\n| Zaman | sastra lama | modern |\n| Bahasa | kata arkais | bahasa masa kini |\n| Unsur khas | kesaktian, keajaiban | konflik batin, realisme |\n| Fokus | riwayat tokoh | satu peristiwa |\n\n## Unsur intrinsik\n\n- **tema** — gagasan utama cerita\n- **alur** — rangkaian peristiwa berdasarkan sebab-akibat\n- **latar** — tempat, waktu, dan suasana\n- **tokoh** — pelaku cerita\n- **amanat** — pesan moral bagi pembaca\n\n## Nilai kehidupan\n\nHikayat memuat **nilai moral**, **nilai sosial**, dan **nilai budaya**. Nilai itu dapat dikaitkan dengan kehidupan masa kini untuk menemukan relevansinya."
+        },
+        {
+          "type": "text",
+          "title": "Karakterisasi dan Plot",
+          "duration": 360,
+          "source_reference": "Bab 3 — Menilai Karakterisasi dan Plot",
+          "content": "## Karakterisasi langsung dan tidak langsung\n\n**Langsung** — penulis menjelaskan:\n\n> \"Ia adalah orang yang dermawan.\"\n\n**Tidak langsung** — watak disimpulkan dari tindakan:\n\n> \"Dengan tangan gemetar ia menyerahkan seluruh bekalnya kepada pengemis itu.\"\n\nKarakterisasi dapat diketahui melalui **dialog, tindakan, penilaian tokoh lain**, dan penjelasan narator.\n\n## Plot\n\nPlot bukan sekadar urutan waktu, melainkan rangkaian peristiwa yang **saling menyebabkan**.\n\n| Bagian | Isi |\n|---|---|\n| orientasi | pengenalan |\n| komplikasi | munculnya konflik |\n| klimaks | puncak ketegangan |\n| resolusi | penyelesaian |\n\n## Alur maju dan mundur\n\n- **maju** — dari awal ke akhir\n- **mundur** — memakai kilas balik\n\n## Protagonis dan antagonis\n\nProtagonis mendukung jalannya cerita, antagonis menentangnya dan menciptakan konflik.\n\n## Menilai dalam konteks\n\nNilai yang berlaku pada masa lalu berbeda dengan masa kini, sehingga karakterisasi tokoh hikayat perlu dipahami dalam konteksnya. Pembacaan kontekstual membuat karya lama tetap bermakna."
+        },
+        {
+          "type": "interactive",
+          "title": "Menulis Fiksi dari Nilai Hikayat",
+          "duration": 240,
+          "source_reference": "Bab 3 — Latihan Menulis",
+          "content": "## Dari nilai lama ke cerita baru\n\n1. Pilih nilai kehidupan dari hikayat, misalnya kesetiaan atau keberanian\n2. Tentukan tokoh dan latar **masa kini**\n3. Susun alur konflik yang mencerminkan nilai itu\n4. Tutup dengan penyelesaian yang bermakna\n\n### Kaidah bahasa yang wajib diperhatikan\n\n- tanda baca **dialog** yang tepat\n- ejaan sesuai kaidah\n- paragraf yang jelas\n\n### Latar suasana\n\n> \"Angin malam menusuk, membuat siapa pun ingin segera pulang.\"\n\nKalimat itu menggambarkan **latar suasana**, bukan latar tempat atau waktu.\n\n### Kritik sastra yang baik\n\nBerfokus pada **keterpaduan unsur** dan **kedalaman pesan**, bukan selera pribadi atau popularitas penulis.\n\n### Publikasi digital\n\nSaat mempublikasikan cerpen, pastikan karya itu **karya sendiri** dan tidak melanggar hak cipta. Alih wahana ke narasi digital mengubah **bentuk penyajian**, bukan isi cerita."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Nilai dalam Cerita Lintas Zaman — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Karya sastra lama Melayu yang menceritakan kesaktian dan keajaiban disebut …",
+              "options": [
+                {
+                  "text": "hikayat",
+                  "correct": true
+                },
+                {
+                  "text": "cerpen",
+                  "correct": false
+                },
+                {
+                  "text": "pantun",
+                  "correct": false
+                },
+                {
+                  "text": "puisi modern",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hikayat adalah prosa lama Melayu yang sering memuat kesaktian, keajaiban, dan nilai kehidupan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cerita pendek yang mengisahkan satu peristiwa utama disebut …",
+              "options": [
+                {
+                  "text": "cerpen",
+                  "correct": true
+                },
+                {
+                  "text": "hikayat",
+                  "correct": false
+                },
+                {
+                  "text": "novel",
+                  "correct": false
+                },
+                {
+                  "text": "drama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Cerpen memusatkan cerita pada satu peristiwa atau konflik utama dengan tokoh terbatas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rangkaian peristiwa dalam cerita disebut …",
+              "options": [
+                {
+                  "text": "alur",
+                  "correct": true
+                },
+                {
+                  "text": "latar",
+                  "correct": false
+                },
+                {
+                  "text": "tema",
+                  "correct": false
+                },
+                {
+                  "text": "amanat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alur adalah rangkaian peristiwa yang disusun berdasarkan hubungan sebab-akibat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tempat, waktu, dan suasana terjadinya cerita disebut …",
+              "options": [
+                {
+                  "text": "latar",
+                  "correct": true
+                },
+                {
+                  "text": "alur",
+                  "correct": false
+                },
+                {
+                  "text": "tokoh",
+                  "correct": false
+                },
+                {
+                  "text": "amanat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Latar mencakup latar tempat, latar waktu, dan latar suasana."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pesan moral yang ingin disampaikan penulis melalui cerita disebut …",
+              "options": [
+                {
+                  "text": "amanat",
+                  "correct": true
+                },
+                {
+                  "text": "alur",
+                  "correct": false
+                },
+                {
+                  "text": "latar",
+                  "correct": false
+                },
+                {
+                  "text": "konflik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Amanat adalah pesan atau pelajaran yang dapat diambil pembaca dari cerita."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Nilai dalam Cerita Lintas Zaman — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ciri khas bahasa hikayat adalah …",
+              "options": [
+                {
+                  "text": "menggunakan kata arkais dan ungkapan klise",
+                  "correct": true
+                },
+                {
+                  "text": "memakai bahasa gaul",
+                  "correct": false
+                },
+                {
+                  "text": "tanpa alur",
+                  "correct": false
+                },
+                {
+                  "text": "hanya berisi dialog",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hikayat banyak memakai kata arkais seperti 'syahdan', 'alkisah', dan 'hatta'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian alur yang memuat puncak ketegangan cerita disebut …",
+              "options": [
+                {
+                  "text": "klimaks",
+                  "correct": true
+                },
+                {
+                  "text": "orientasi",
+                  "correct": false
+                },
+                {
+                  "text": "resolusi",
+                  "correct": false
+                },
+                {
+                  "text": "koda",
+                  "correct": false
+                }
+              ],
+              "explanation": "Klimaks adalah puncak konflik, titik paling menegangkan dalam cerita."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tokoh yang menjadi pusat cerita disebut tokoh …",
+              "options": [
+                {
+                  "text": "utama",
+                  "correct": true
+                },
+                {
+                  "text": "pembantu",
+                  "correct": false
+                },
+                {
+                  "text": "tambahan",
+                  "correct": false
+                },
+                {
+                  "text": "latar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tokoh utama mendominasi cerita; tokoh pembantu melengkapi jalannya peristiwa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan hikayat dan cerpen terletak pada …",
+              "options": [
+                {
+                  "text": "hikayat berupa karya lama dengan unsur keajaiban, cerpen karya modern",
+                  "correct": true
+                },
+                {
+                  "text": "hikayat selalu lebih pendek",
+                  "correct": false
+                },
+                {
+                  "text": "cerpen tidak memiliki tokoh",
+                  "correct": false
+                },
+                {
+                  "text": "hikayat tidak memiliki alur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hikayat berasal dari tradisi sastra lama, sedangkan cerpen adalah bentuk prosa modern."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Karakterisasi tokoh dapat diketahui melalui …",
+              "options": [
+                {
+                  "text": "dialog, tindakan, dan penjelasan penulis",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah halaman",
+                  "correct": false
+                },
+                {
+                  "text": "judul cerita saja",
+                  "correct": false
+                },
+                {
+                  "text": "nama penerbit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Watak tokoh terungkap dari ucapan, perbuatan, penilaian tokoh lain, dan penjelasan narator."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat berikut yang memakai kata arkais adalah …",
+              "options": [
+                {
+                  "text": "Alkisah, pada zaman dahulu hiduplah seorang raja.",
+                  "correct": true
+                },
+                {
+                  "text": "Kemarin saya pergi ke pasar.",
+                  "correct": false
+                },
+                {
+                  "text": "Dia sedang belajar matematika.",
+                  "correct": false
+                },
+                {
+                  "text": "Hari ini cuaca cerah.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kata 'alkisah' adalah penanda khas pembuka hikayat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai kehidupan yang dapat diambil dari cerita disebut …",
+              "options": [
+                {
+                  "text": "nilai moral",
+                  "correct": true
+                },
+                {
+                  "text": "nilai tukar",
+                  "correct": false
+                },
+                {
+                  "text": "nilai jual",
+                  "correct": false
+                },
+                {
+                  "text": "nilai mutlak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai moral berkaitan dengan baik-buruk perilaku tokoh dalam cerita."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk unsur intrinsik cerpen? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Tema",
+                  "correct": true
+                },
+                {
+                  "text": "Alur",
+                  "correct": true
+                },
+                {
+                  "text": "Latar",
+                  "correct": true
+                },
+                {
+                  "text": "Harga buku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tema, alur, latar, tokoh, dan amanat adalah unsur intrinsik. Harga buku bukan unsur cerita."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Alur"
+                },
+                {
+                  "id": "o1",
+                  "text": "Latar"
+                },
+                {
+                  "id": "o2",
+                  "text": "Tokoh"
+                },
+                {
+                  "id": "o3",
+                  "text": "Amanat"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Rangkaian peristiwa dalam cerita",
+                  "o1": "Tempat, waktu, dan suasana cerita",
+                  "o2": "Pelaku dalam cerita",
+                  "o3": "Pesan moral bagi pembaca"
+                }
+              },
+              "explanation": "Setiap istilah menunjuk unsur pembangun cerita yang berbeda."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan ciri ke dalam hikayat atau cerpen.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Banyak kata arkais"
+                },
+                {
+                  "id": "o1",
+                  "text": "Memuat kesaktian dan keajaiban"
+                },
+                {
+                  "id": "o2",
+                  "text": "Bahasa modern"
+                },
+                {
+                  "id": "o3",
+                  "text": "Fokus pada satu peristiwa"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Hikayat",
+                  "o1": "Hikayat",
+                  "o2": "Cerpen",
+                  "o3": "Cerpen"
+                }
+              },
+              "explanation": "Hikayat berciri sastra lama dengan keajaiban, sedangkan cerpen berciri prosa modern yang ringkas."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Nilai dalam Cerita Lintas Zaman — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Menganalisis karakterisasi tokoh hikayat perlu memperhatikan konteks karena …",
+              "options": [
+                {
+                  "text": "nilai yang berlaku pada masa lalu berbeda dengan masa kini",
+                  "correct": true
+                },
+                {
+                  "text": "hikayat tidak memiliki tokoh",
+                  "correct": false
+                },
+                {
+                  "text": "hikayat tidak memiliki alur",
+                  "correct": false
+                },
+                {
+                  "text": "hikayat selalu pendek",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai masa lalu perlu dipahami dalam konteksnya agar penilaian tidak simplistis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat yang menunjukkan watak tokoh secara tidak langsung adalah …",
+              "options": [
+                {
+                  "text": "Dengan tangan gemetar ia menyerahkan seluruh bekalnya kepada pengemis itu.",
+                  "correct": true
+                },
+                {
+                  "text": "Ia adalah orang yang dermawan.",
+                  "correct": false
+                },
+                {
+                  "text": "Tokoh itu baik hati.",
+                  "correct": false
+                },
+                {
+                  "text": "Penulis menjelaskan bahwa ia pemurah.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Watak disimpulkan dari tindakan tokoh, bukan dari penjelasan langsung penulis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan alur maju dan alur mundur adalah …",
+              "options": [
+                {
+                  "text": "alur maju bergerak dari awal ke akhir, alur mundur memakai kilas balik",
+                  "correct": true
+                },
+                {
+                  "text": "alur maju tidak memiliki konflik",
+                  "correct": false
+                },
+                {
+                  "text": "alur mundur tidak memiliki tokoh",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya sama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alur mundur menceritakan kejadian masa lalu sebagai bagian dari cerita kini."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menilai kualitas cerpen paling tepat dilakukan dengan …",
+              "options": [
+                {
+                  "text": "menganalisis keterpaduan unsur dan kedalaman pesan",
+                  "correct": true
+                },
+                {
+                  "text": "menghitung jumlah kata",
+                  "correct": false
+                },
+                {
+                  "text": "melihat ketebalan buku",
+                  "correct": false
+                },
+                {
+                  "text": "menghitung jumlah tokoh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kualitas karya sastra dinilai dari keterpaduan unsur dan kekuatan pesannya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk nilai kehidupan dalam hikayat? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Nilai moral",
+                  "correct": true
+                },
+                {
+                  "text": "Nilai sosial",
+                  "correct": true
+                },
+                {
+                  "text": "Nilai budaya",
+                  "correct": true
+                },
+                {
+                  "text": "Nilai kurs rupiah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hikayat memuat nilai moral, sosial, dan budaya. Nilai kurs tidak berkaitan dengan karya sastra."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menulis cerpen berdasarkan nilai dari hikayat.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Memilih nilai kehidupan dari hikayat"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menentukan tokoh dan latar cerita masa kini"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menyusun alur konflik yang mencerminkan nilai itu"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menutup cerita dengan penyelesaian yang bermakna"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Nilai dari hikayat dapat dihidupkan kembali melalui cerita masa kini dengan alur yang utuh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hikayat sering memuat tokoh dengan kesaktian. Fungsi unsur itu dalam cerita adalah …",
+              "options": [
+                {
+                  "text": "membangun konflik dan menunjukkan kekuasaan yang luar biasa",
+                  "correct": true
+                },
+                {
+                  "text": "menghilangkan alur",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti latar",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus amanat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kesaktian menjadi pemicu konflik dan memperkuat gambaran dunia cerita."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kaidah bahasa yang perlu diperhatikan saat menulis cerpen adalah …",
+              "options": [
+                {
+                  "text": "penggunaan tanda baca dialog dan ejaan yang tepat",
+                  "correct": true
+                },
+                {
+                  "text": "penggunaan kata arkais wajib",
+                  "correct": false
+                },
+                {
+                  "text": "penulisan tanpa paragraf",
+                  "correct": false
+                },
+                {
+                  "text": "penulisan tanpa tokoh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanda baca dialog dan ejaan yang tepat menjaga cerita mudah dipahami."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengaitkan nilai hikayat dengan kehidupan sekarang bermanfaat untuk …",
+              "options": [
+                {
+                  "text": "menemukan relevansi pesan lama bagi persoalan masa kini",
+                  "correct": true
+                },
+                {
+                  "text": "menghapus nilai lama",
+                  "correct": false
+                },
+                {
+                  "text": "mengubah isi hikayat",
+                  "correct": false
+                },
+                {
+                  "text": "menambah tokoh baru pada hikayat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pembacaan kontekstual membuat karya lama tetap bermakna."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pernyataan yang tepat tentang plot cerpen adalah …",
+              "options": [
+                {
+                  "text": "plot disusun dari hubungan sebab-akibat antar peristiwa",
+                  "correct": true
+                },
+                {
+                  "text": "plot hanya berupa daftar kejadian",
+                  "correct": false
+                },
+                {
+                  "text": "plot tidak berkaitan dengan konflik",
+                  "correct": false
+                },
+                {
+                  "text": "plot selalu berurutan waktu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Plot bukan sekadar urutan waktu, melainkan rangkaian peristiwa yang saling menyebabkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mempublikasikan cerpen di media digital menuntut penulis untuk …",
+              "options": [
+                {
+                  "text": "memastikan karya sendiri dan tidak melanggar hak cipta",
+                  "correct": true
+                },
+                {
+                  "text": "menyalin karya orang lain",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus nama penulis asli",
+                  "correct": false
+                },
+                {
+                  "text": "mengubah karya orang lain tanpa izin",
+                  "correct": false
+                }
+              ],
+              "explanation": "Publikasi harus menghormati hak cipta dan keaslian karya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menyajikan hikayat dalam bentuk narasi digital yang menarik dilakukan dengan …",
+              "options": [
+                {
+                  "text": "mempertahankan isi cerita dan menyesuaikan media penyajian",
+                  "correct": true
+                },
+                {
+                  "text": "mengubah seluruh isi cerita",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan amanat",
+                  "correct": false
+                },
+                {
+                  "text": "menambah data statistik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alih wahana mengubah bentuk penyajian, bukan isi cerita."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat yang menunjukkan latar suasana adalah …",
+              "options": [
+                {
+                  "text": "Angin malam menusuk, membuat siapa pun ingin segera pulang.",
+                  "correct": true
+                },
+                {
+                  "text": "Cerita terjadi pada 1998.",
+                  "correct": false
+                },
+                {
+                  "text": "Tokohnya bernama Siti.",
+                  "correct": false
+                },
+                {
+                  "text": "Cerita ini bertema persahabatan.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Latar suasana menggambarkan perasaan atau keadaan yang menyertai peristiwa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kritik terhadap cerpen yang paling tepat berfokus pada …",
+              "options": [
+                {
+                  "text": "keterpaduan unsur cerita dan kejelasan pesan",
+                  "correct": true
+                },
+                {
+                  "text": "selera pribadi penilai",
+                  "correct": false
+                },
+                {
+                  "text": "ketenaran penulis",
+                  "correct": false
+                },
+                {
+                  "text": "harga buku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kritik sastra yang baik berdasar pada analisis unsur, bukan selera atau popularitas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan tokoh protagonis dan antagonis adalah …",
+              "options": [
+                {
+                  "text": "protagonis mendukung jalannya cerita, antagonis menentangnya",
+                  "correct": true
+                },
+                {
+                  "text": "protagonis selalu jahat",
+                  "correct": false
+                },
+                {
+                  "text": "antagonis selalu tokoh utama",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya sama saja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Protagonis membawa alur utama cerita, sedangkan antagonis menciptakan konflik."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

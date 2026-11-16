@@ -1,0 +1,781 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "matematika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "MA 8.1",
+      "title": "Peluang",
+      "description": "Ruang sampel, kejadian, dan penentuan peluang kejadian sederhana.",
+      "learning_objectives": [
+        "Menentukan ruang sampel dari suatu percobaan.",
+        "Menghitung peluang kejadian sederhana.",
+        "Menggunakan peluang komplemen untuk menyelesaikan masalah."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Buku Matematika Kelas X (Kurikulum Merdeka), Bab 8 — Peluang",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Ruang Sampel dan Kejadian",
+          "duration": 240,
+          "source_reference": "Bab 8 — Ruang Sampel",
+          "content": "## Tiga istilah dasar\n\n- **Percobaan** — kegiatan yang hasilnya tidak dapat dipastikan, misalnya melempar dadu\n- **Ruang sampel (S)** — himpunan semua hasil yang mungkin\n- **Kejadian (A)** — himpunan hasil yang kita inginkan\n\nSatu anggota ruang sampel disebut **titik sampel**.\n\n### Contoh\n\n| Percobaan | Ruang sampel | Banyak anggota |\n|---|---|---|\n| Satu koin | {A, G} | 2 |\n| Satu dadu | {1, 2, 3, 4, 5, 6} | 6 |\n| Dua koin | {AA, AG, GA, GG} | 4 |\n| Dua dadu | pasangan (a, b) | 36 |\n\n### Aturan perkalian\n\nBila percobaan terdiri atas beberapa tahap, banyak anggota ruang sampel adalah **hasil kali** banyak kemungkinan tiap tahap:\n\ndua dadu → 6 × 6 = **36**\ntiga koin → 2 × 2 × 2 = **8**"
+        },
+        {
+          "type": "text",
+          "title": "Menghitung Peluang",
+          "duration": 360,
+          "source_reference": "Bab 8 — Peluang Kejadian",
+          "content": "## Rumus dasar\n\n> **P(A) = n(A) ÷ n(S)**\n\ndengan n(A) banyak hasil yang diinginkan dan n(S) banyak anggota ruang sampel.\n\n### Kisaran nilai peluang\n\n> **0 ≤ P(A) ≤ 1**\n\n- P = 0 → kejadian **mustahil**\n- P = 1 → kejadian **pasti**\n\n### Contoh\n\nPeluang muncul mata dadu lebih dari 2:\n- Hasil yang diinginkan: {3, 4, 5, 6} → n(A) = 4\n- Ruang sampel: 6\n- P = 4/6 = **2/3**\n\n## Peluang komplemen\n\nKejadian \"tidak A\" disebut komplemen A, ditulis Aᶜ.\n\n> **P(Aᶜ) = 1 − P(A)**\n\nContoh: peluang muncul bukan mata 6 = 1 − 1/6 = **5/6**.\n\n### Kapan komplemen dipakai?\n\nBila menghitung langsung terasa panjang. Contoh: \"paling sedikit satu angka\" pada tiga koin lebih mudah dihitung lewat komplemen \"ketiganya gambar\", yaitu 1 − 1/8 = 7/8."
+        },
+        {
+          "type": "interactive",
+          "title": "Dua Dadu dan Kejadian Bebas",
+          "duration": 240,
+          "source_reference": "Bab 8 — Penerapan",
+          "content": "## Menghitung pasangan dua dadu\n\nRuang sampel dua dadu berisi 36 pasangan berurutan.\n\n**Peluang jumlah 7:**\npasangannya (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 pasangan\nP = 6/36 = **1/6**\n\n**Peluang jumlah 2:**\nhanya (1,1) → P = **1/36**\n\nPerhatikan bahwa jumlah 7 jauh lebih mungkin muncul daripada jumlah 2.\n\n## Kejadian saling bebas\n\nDua kejadian saling bebas bila terjadinya yang satu **tidak memengaruhi** peluang yang lain.\n\n> **P(A dan B) = P(A) × P(B)**\n\nContoh: koin dan dadu dilempar bersamaan. Peluang muncul angka **dan** mata genap:\n1/2 × 3/6 = 1/2 × 1/2 = **1/4**"
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Peluang — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Himpunan semua hasil yang mungkin pada suatu percobaan disebut …",
+              "options": [
+                {
+                  "text": "ruang sampel",
+                  "correct": true
+                },
+                {
+                  "text": "kejadian",
+                  "correct": false
+                },
+                {
+                  "text": "titik sampel",
+                  "correct": false
+                },
+                {
+                  "text": "frekuensi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ruang sampel memuat seluruh hasil yang mungkin, sedangkan titik sampel adalah anggotanya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang kejadian yang pasti terjadi adalah …",
+              "options": [
+                {
+                  "text": "0",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                },
+                {
+                  "text": "1",
+                  "correct": true
+                },
+                {
+                  "text": "tak hingga",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kejadian pasti memiliki peluang 1, sedangkan kejadian mustahil peluangnya 0."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ruang sampel pelemparan satu dadu adalah …",
+              "options": [
+                {
+                  "text": "{1, 2, 3, 4, 5, 6}",
+                  "correct": true
+                },
+                {
+                  "text": "{0, 1, 2, 3, 4, 5, 6}",
+                  "correct": false
+                },
+                {
+                  "text": "{1, 2, 3}",
+                  "correct": false
+                },
+                {
+                  "text": "{angka, gambar}",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dadu bermata enam menghasilkan enam kemungkinan: 1 sampai 6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang muncul angka genap pada pelemparan satu dadu adalah …",
+              "options": [
+                {
+                  "text": "1/6",
+                  "correct": false
+                },
+                {
+                  "text": "1/3",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": true
+                },
+                {
+                  "text": "2/3",
+                  "correct": false
+                }
+              ],
+              "explanation": "Angka genap ada tiga (2, 4, 6) dari enam kemungkinan, sehingga peluangnya 3/6 = 1/2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang muncul angka pada pelemparan satu koin adalah …",
+              "options": [
+                {
+                  "text": "0",
+                  "correct": false
+                },
+                {
+                  "text": "1/4",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": true
+                },
+                {
+                  "text": "1",
+                  "correct": false
+                }
+              ],
+              "explanation": "Koin memiliki dua sisi sehingga peluang masing-masing 1/2."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Peluang — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Peluang muncul mata dadu 5 pada satu pelemparan adalah …",
+              "options": [
+                {
+                  "text": "1/6",
+                  "correct": true
+                },
+                {
+                  "text": "1/3",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                },
+                {
+                  "text": "5/6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hanya satu hasil yang diinginkan (mata 5) dari enam kemungkinan, sehingga peluangnya 1/6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang muncul mata dadu lebih dari 2 adalah …",
+              "options": [
+                {
+                  "text": "1/6",
+                  "correct": false
+                },
+                {
+                  "text": "1/3",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                },
+                {
+                  "text": "2/3",
+                  "correct": true
+                }
+              ],
+              "explanation": "Mata dadu lebih dari 2 ada empat (3, 4, 5, 6), sehingga peluangnya 4/6 = 2/3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dua koin dilempar bersamaan. Peluang muncul dua angka adalah …",
+              "options": [
+                {
+                  "text": "1/4",
+                  "correct": true
+                },
+                {
+                  "text": "1/3",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                },
+                {
+                  "text": "3/4",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ruang sampelnya {AA, AG, GA, GG}. Hanya satu hasil yang berupa dua angka, sehingga peluangnya 1/4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tiga koin dilempar bersamaan. Ruang sampelnya berisi …",
+              "options": [
+                {
+                  "text": "3 hasil",
+                  "correct": false
+                },
+                {
+                  "text": "6 hasil",
+                  "correct": false
+                },
+                {
+                  "text": "8 hasil",
+                  "correct": true
+                },
+                {
+                  "text": "9 hasil",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap koin punya dua kemungkinan, sehingga 2 × 2 × 2 = 8 hasil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang muncul bukan mata dadu 6 pada satu pelemparan adalah …",
+              "options": [
+                {
+                  "text": "1/6",
+                  "correct": false
+                },
+                {
+                  "text": "1/3",
+                  "correct": false
+                },
+                {
+                  "text": "5/6",
+                  "correct": true
+                },
+                {
+                  "text": "6/5",
+                  "correct": false
+                }
+              ],
+              "explanation": "Peluang komplemen = 1 − 1/6 = 5/6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kisaran nilai peluang suatu kejadian adalah …",
+              "options": [
+                {
+                  "text": "0 ≤ P ≤ 1",
+                  "correct": true
+                },
+                {
+                  "text": "−1 ≤ P ≤ 1",
+                  "correct": false
+                },
+                {
+                  "text": "0 < P < 1",
+                  "correct": false
+                },
+                {
+                  "text": "P > 1",
+                  "correct": false
+                }
+              ],
+              "explanation": "Peluang tidak pernah negatif dan tidak pernah melebihi 1."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang peluang? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Peluang kejadian mustahil adalah 0",
+                  "correct": true
+                },
+                {
+                  "text": "Peluang kejadian pasti adalah 1",
+                  "correct": true
+                },
+                {
+                  "text": "Jumlah peluang suatu kejadian dan komplemennya adalah 1",
+                  "correct": true
+                },
+                {
+                  "text": "Peluang dapat bernilai 2",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai peluang selalu antara 0 dan 1. Kejadian dan komplemennya selalu berjumlah 1."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan percobaan dengan banyak anggota ruang sampelnya.",
+              "options": [
+                {
+                  "id": "e1",
+                  "text": "Satu koin"
+                },
+                {
+                  "id": "e2",
+                  "text": "Satu dadu"
+                },
+                {
+                  "id": "e3",
+                  "text": "Dua koin"
+                },
+                {
+                  "id": "e4",
+                  "text": "Dua dadu"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "e1": "2",
+                  "e2": "6",
+                  "e3": "4",
+                  "e4": "36"
+                }
+              },
+              "explanation": "Satu koin 2 hasil, satu dadu 6, dua koin 2² = 4, dua dadu 6² = 36."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menentukan peluang suatu kejadian.",
+              "options": [
+                {
+                  "id": "l1",
+                  "text": "Tentukan ruang sampel percobaan"
+                },
+                {
+                  "id": "l2",
+                  "text": "Hitung banyak anggota ruang sampel"
+                },
+                {
+                  "id": "l3",
+                  "text": "Hitung banyak hasil yang diinginkan"
+                },
+                {
+                  "id": "l4",
+                  "text": "Bagi hasil yang diinginkan dengan anggota ruang sampel"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "l1": "1",
+                  "l2": "2",
+                  "l3": "3",
+                  "l4": "4"
+                }
+              },
+              "explanation": "Peluang = banyak hasil yang diinginkan ÷ banyak anggota ruang sampel, sehingga ruang sampel harus ditentukan lebih dulu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dua dadu dilempar bersamaan. Banyak anggota ruang sampelnya adalah …",
+              "options": [
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": false
+                },
+                {
+                  "text": "36",
+                  "correct": true
+                },
+                {
+                  "text": "72",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap dadu punya 6 kemungkinan, sehingga dua dadu menghasilkan 6 × 6 = 36 pasangan berurutan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Peluang — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Dua dadu dilempar bersamaan. Peluang jumlah kedua mata dadu 7 adalah …",
+              "options": [
+                {
+                  "text": "1/12",
+                  "correct": false
+                },
+                {
+                  "text": "1/6",
+                  "correct": true
+                },
+                {
+                  "text": "1/9",
+                  "correct": false
+                },
+                {
+                  "text": "5/36",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pasangan berjumlah 7 ada 6 (1-6, 2-5, 3-4, 4-3, 5-2, 6-1) dari 36 kemungkinan, sehingga 6/36 = 1/6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dua dadu dilempar. Peluang jumlah mata dadu lebih dari 6 adalah …",
+              "options": [
+                {
+                  "text": "1/6",
+                  "correct": false
+                },
+                {
+                  "text": "7/12",
+                  "correct": true
+                },
+                {
+                  "text": "5/12",
+                  "correct": false
+                },
+                {
+                  "text": "25/36",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pasangan berjumlah lebih dari 6 ada 21 dari 36, sehingga 21/36 = 7/12."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tiga koin dilempar. Peluang muncul tepat dua angka adalah …",
+              "options": [
+                {
+                  "text": "1/8",
+                  "correct": false
+                },
+                {
+                  "text": "3/8",
+                  "correct": true
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                },
+                {
+                  "text": "5/8",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hasil dengan tepat dua angka: AAG, AGA, GAA — tiga dari delapan, sehingga 3/8."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang muncul paling sedikit satu angka pada pelemparan tiga koin adalah …",
+              "options": [
+                {
+                  "text": "1/8",
+                  "correct": false
+                },
+                {
+                  "text": "3/8",
+                  "correct": false
+                },
+                {
+                  "text": "5/8",
+                  "correct": false
+                },
+                {
+                  "text": "7/8",
+                  "correct": true
+                }
+              ],
+              "explanation": "Cara mudah memakai komplemen: peluang ketiganya gambar = 1/8, sehingga peluang paling sedikit satu angka = 1 − 1/8 = 7/8."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dari satu set kartu bridge (52 kartu), peluang terambil kartu berwarna merah adalah …",
+              "options": [
+                {
+                  "text": "1/4",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": true
+                },
+                {
+                  "text": "1/13",
+                  "correct": false
+                },
+                {
+                  "text": "1/26",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kartu merah ada 26 dari 52, sehingga peluangnya 26/52 = 1/2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang terambil kartu As dari satu set kartu bridge adalah …",
+              "options": [
+                {
+                  "text": "1/13",
+                  "correct": true
+                },
+                {
+                  "text": "1/26",
+                  "correct": false
+                },
+                {
+                  "text": "1/4",
+                  "correct": false
+                },
+                {
+                  "text": "4/13",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ada 4 kartu As dari 52 kartu, sehingga 4/52 = 1/13."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang muncul mata dadu prima pada satu pelemparan adalah …",
+              "options": [
+                {
+                  "text": "1/6",
+                  "correct": false
+                },
+                {
+                  "text": "1/3",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": true
+                },
+                {
+                  "text": "2/3",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mata dadu prima adalah 2, 3, dan 5 — tiga hasil. Angka 1 bukan bilangan prima, sehingga peluangnya 3/6 = 1/2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dalam sebuah kantong terdapat 3 bola merah dan 5 bola biru. Peluang terambil bola biru adalah …",
+              "options": [
+                {
+                  "text": "3/8",
+                  "correct": false
+                },
+                {
+                  "text": "5/8",
+                  "correct": true
+                },
+                {
+                  "text": "5/3",
+                  "correct": false
+                },
+                {
+                  "text": "3/5",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bola biru 5 dari total 8 bola, sehingga peluangnya 5/8."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Dua dadu dilempar bersamaan. Manakah pernyataan yang benar? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Ruang sampelnya berisi 36 hasil",
+                  "correct": true
+                },
+                {
+                  "text": "Peluang jumlah 2 adalah 1/36",
+                  "correct": true
+                },
+                {
+                  "text": "Peluang jumlah 12 adalah 1/36",
+                  "correct": true
+                },
+                {
+                  "text": "Peluang jumlah 7 adalah 1/36",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlah 2 dan 12 masing-masing hanya punya satu pasangan (1-1 dan 6-6), sedangkan jumlah 7 punya enam pasangan sehingga peluangnya 1/6."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menentukan peluang muncul angka genap pada pelemparan satu dadu.",
+              "options": [
+                {
+                  "id": "k1",
+                  "text": "Tentukan ruang sampel: {1,2,3,4,5,6}"
+                },
+                {
+                  "id": "k2",
+                  "text": "Tentukan kejadian yang diinginkan: {2,4,6}"
+                },
+                {
+                  "id": "k3",
+                  "text": "Hitung n(A) = 3 dan n(S) = 6"
+                },
+                {
+                  "id": "k4",
+                  "text": "Hitung P(A) = 3/6 = 1/2"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "k1",
+                  "k2",
+                  "k3",
+                  "k4"
+                ]
+              },
+              "explanation": "Ruang sampel dan kejadian ditentukan lebih dulu, lalu banyak anggotanya dibandingkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah koin dan sebuah dadu dilempar bersamaan. Peluang muncul angka dan mata dadu genap adalah …",
+              "options": [
+                {
+                  "text": "1/4",
+                  "correct": true
+                },
+                {
+                  "text": "1/3",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                },
+                {
+                  "text": "3/4",
+                  "correct": false
+                }
+              ],
+              "explanation": "Peluang angka 1/2 dan peluang mata genap 3/6 = 1/2. Karena saling bebas, hasilnya 1/2 × 1/2 = 1/4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang suatu kejadian 0,35. Peluang kejadian itu tidak terjadi adalah …",
+              "options": [
+                {
+                  "text": "0,35",
+                  "correct": false
+                },
+                {
+                  "text": "0,55",
+                  "correct": false
+                },
+                {
+                  "text": "0,65",
+                  "correct": true
+                },
+                {
+                  "text": "1,35",
+                  "correct": false
+                }
+              ],
+              "explanation": "Peluang komplemen = 1 − 0,35 = 0,65."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dua kejadian disebut saling bebas bila …",
+              "options": [
+                {
+                  "text": "terjadinya satu kejadian tidak memengaruhi peluang kejadian lain",
+                  "correct": true
+                },
+                {
+                  "text": "keduanya selalu terjadi bersamaan",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya tidak mungkin terjadi",
+                  "correct": false
+                },
+                {
+                  "text": "peluangnya selalu sama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pada kejadian saling bebas, peluang keduanya terjadi adalah hasil kali peluang masing-masing."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peluang seorang siswa terlambat adalah 0,2. Peluang ia tidak terlambat adalah …",
+              "options": [
+                {
+                  "text": "0,2",
+                  "correct": false
+                },
+                {
+                  "text": "0,8",
+                  "correct": true
+                },
+                {
+                  "text": "1,2",
+                  "correct": false
+                },
+                {
+                  "text": "0,08",
+                  "correct": false
+                }
+              ],
+              "explanation": "Peluang komplemen = 1 − 0,2 = 0,8."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dalam kantong ada 4 bola merah, 2 bola kuning, dan 4 bola hijau. Peluang terambil bola kuning adalah …",
+              "options": [
+                {
+                  "text": "1/10",
+                  "correct": false
+                },
+                {
+                  "text": "1/5",
+                  "correct": true
+                },
+                {
+                  "text": "2/5",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                }
+              ],
+              "explanation": "Total bola 10 dan bola kuning 2, sehingga peluangnya 2/10 = 1/5."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

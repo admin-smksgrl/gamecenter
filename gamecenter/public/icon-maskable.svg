@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ruang Belajar">
+    <rect width="512" height="512" fill="#e60012"/>
+    <path d="M256 152 112 214l144 62 144-62-144-62Z" fill="#ffffff"/>
+    <path d="M166 246v66c0 22 40 41 90 41s90-19 90-41v-66l-90 39-90-39Z" fill="#ffffff" opacity="0.92"/>
+    <path d="M400 214v100" stroke="#ffffff" stroke-width="19" stroke-linecap="round"/>
+    <circle cx="400" cy="330" r="15" fill="#ffffff"/>
+</svg>

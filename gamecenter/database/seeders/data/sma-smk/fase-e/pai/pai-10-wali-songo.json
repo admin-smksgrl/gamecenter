@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pai",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PAI 10",
+      "title": "Peran Tokoh Ulama dalam Penyebaran Islam di Indonesia (Wali Songo)",
+      "description": "Sejarah perjuangan dan metode dakwah Wali Songo yang damai, serta keteladanan sikap kesederhanaan, ketekunan, dan penghargaan pada adat istiadat dan perbedaan keyakinan.",
+      "learning_objectives": [
+        "Melalui metode discovey learning dan information search, mampu menganalisis peran tokoh ulama Islam di Indonesia (Wali Songo) dalam menyebarkan ajaran Islam;",
+        "Melalui metode timeline, mampu mempresentasikan paparan mengenai sejarah perjuangan dan metode dakwah Wali Songo di Indonesia yang dilakukan secara damai;",
+        "Melalui metode mask party, mampu meyakini metode dakwah yang moderat, bi al-hikmah wa al-mau’idlatil hasanah adalah perintah Allah Swt.;",
+        "Melalui metode problem-based learning, mampu membiasakan sikap kesederhanaan, tekun, damai kesungguhan dalam mencari ilmu, dan semangat menghargai adat istiadat dan perbedaan keyakinan orang lain."
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Buku Pendidikan Agama Islam dan Budi Pekerti Kelas X (Kemendikbudristek)",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Wali Songo dan Metode Dakwahnya",
+          "duration": 320,
+          "source_reference": "Bab 10",
+          "content": "## Wali Songo\n\n**Wali Songo** = **sembilan wali** penyebar Islam di Jawa.\n\n| Wali | Pendekatan |\n|---|---|\n| **Sunan Gresik** | membuka jalan dakwah melalui **pendidikan** |\n| **Sunan Ampel** | berdakwah di Ampel Denta, **Surabaya** |\n| **Sunan Bonang** | **gamelan dan tembang** |\n| **Sunan Drajat** | **kepedulian sosial** pada fakir miskin dan anak yatim |\n| **Sunan Kudus** | menghormati **tradisi** masyarakat |\n| **Sunan Giri** | **pesantren** dan permainan anak |\n| **Sunan Kalijaga** | **wayang** dan gamelan |\n| **Sunan Muria** | masyarakat **pedesaan dan pegunungan** |\n| **Sunan Gunung Jati** | Cirebon dan **Banten** |\n\n## Mengapa berhasil?\n\n- pendekatan **budaya** yang akrab tanpa **memaksa**\n- **bertahap** dan sabar\n- **keteladanan** perilaku sederhana\n\n## Pendidikan sebagai kunci\n\nPesantren melahirkan banyak **dai** sehingga dakwah berlanjut lintas generasi."
+        },
+        {
+          "type": "text",
+          "title": "Dakwah Moderat: Bi al-Hikmah wa al-Mau'idlatil Hasanah",
+          "duration": 320,
+          "source_reference": "Bab 10",
+          "content": "## Tiga prinsip dakwah moderat\n\n| Istilah | Makna |\n|---|---|\n| **bi al-hikmah** | cara **bijak** dan tepat sasaran |\n| **al-mau'idlatil hasanah** | **nasihat** yang baik dan menyentuh hati |\n| **mujadalah ahsan** | berdiskusi dengan cara terbaik |\n\n## Tanpa paksaan\n\nKeimanan tumbuh dari **kesadaran**, bukan tekanan. Karena itu dakwah tanpa paksaan lebih menjaga makna iman.\n\n## Menghormati adat\n\nMenjaga adat **yang tidak bertentangan** dengan syariat membangun **kepercayaan** sehingga pesan lebih mudah diterima.\n\nBukan menempatkan adat di atas agama, bukan pula menghapus adat sepenuhnya.\n\n## Strategi dakwah damai\n\n1. Mengenali **bahasa dan budaya** masyarakat\n2. Memilih **media yang akrab**\n3. Menyampaikan ajaran **bertahap** dengan hikmah\n4. Menjadi **teladan** dalam perilaku\n5. **Membina** masyarakat melalui pendidikan dan kegiatan sosial"
+        },
+        {
+          "type": "text",
+          "title": "Keteladanan Wali Songo bagi Pelajar",
+          "duration": 280,
+          "source_reference": "Bab 10",
+          "content": "## Nilai yang dapat diteladani\n\n- **menghargai perbedaan** keyakinan\n- **sabar dan tekun** berdakwah\n- **sederhana** dalam hidup\n- **konsisten** belajar dan beribadah meski bertahap\n\n## Contoh di sekolah\n\n- menyebarkan kebaikan dengan **santun**\n- tidak mencela keyakinan orang lain\n- konsisten belajar dan beribadah\n- ikut kegiatan sosial bersama teman lintas latar belakang\n\n## Yang harus dihindari\n\n- memaksa orang beribadah\n- menghina keyakinan lain\n- menyebarkan ujaran kebencian\n- menerima seluruh adat tanpa penyaringan\n\n## Dampak dakwah Wali Songo\n\nBudaya yang tidak bertentangan dengan Islam **tetap dilestarikan** sehingga dakwah diterima luas tanpa mencabut akar budaya masyarakat."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Peran Tokoh Ulama dalam Penyebaran Islam di Indonesia (Wali Songo) — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Wali Songo berarti …",
+              "options": [
+                {
+                  "text": "sembilan wali penyebar Islam di Jawa",
+                  "correct": true
+                },
+                {
+                  "text": "sembilan raja Islam",
+                  "correct": false
+                },
+                {
+                  "text": "sembilan kitab suci",
+                  "correct": false
+                },
+                {
+                  "text": "sembilan masjid",
+                  "correct": false
+                }
+              ],
+              "explanation": "Wali Songo adalah sembilan ulama yang berperan menyebarkan Islam di Jawa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Wali yang berdakwah melalui wayang adalah …",
+              "options": [
+                {
+                  "text": "Sunan Kalijaga",
+                  "correct": true
+                },
+                {
+                  "text": "Sunan Giri",
+                  "correct": false
+                },
+                {
+                  "text": "Sunan Kudus",
+                  "correct": false
+                },
+                {
+                  "text": "Sunan Drajat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Kalijaga menggunakan wayang sebagai media dakwah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sunan Ampel berdakwah dari daerah …",
+              "options": [
+                {
+                  "text": "Surabaya (Ampel Denta)",
+                  "correct": true
+                },
+                {
+                  "text": "Gresik",
+                  "correct": false
+                },
+                {
+                  "text": "Demak",
+                  "correct": false
+                },
+                {
+                  "text": "Cirebon",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Ampel berdakwah di Ampel Denta, Surabaya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Metode dakwah Wali Songo yang utama adalah …",
+              "options": [
+                {
+                  "text": "damai dan akomodatif terhadap budaya lokal",
+                  "correct": true
+                },
+                {
+                  "text": "dengan paksaan",
+                  "correct": false
+                },
+                {
+                  "text": "dengan perang",
+                  "correct": false
+                },
+                {
+                  "text": "dengan ancaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Wali Songo berdakwah damai dengan pendekatan budaya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sunan Giri dikenal karena …",
+              "options": [
+                {
+                  "text": "mendirikan pesantren dan menciptakan permainan anak bernuansa Islam",
+                  "correct": true
+                },
+                {
+                  "text": "memimpin perang",
+                  "correct": false
+                },
+                {
+                  "text": "menjadi sultan Demak",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan Islam di Maluku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Giri mengembangkan pesantren dan dakwah melalui permainan anak."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Peran Tokoh Ulama dalam Penyebaran Islam di Indonesia (Wali Songo) — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Cara dakwah Wali Songo yang sesuai nilai moderat adalah …",
+              "options": [
+                {
+                  "text": "bi al-hikmah wa al-mau'idlatil hasanah",
+                  "correct": true
+                },
+                {
+                  "text": "dengan paksaan",
+                  "correct": false
+                },
+                {
+                  "text": "dengan ancaman kekerasan",
+                  "correct": false
+                },
+                {
+                  "text": "dengan menghina budaya lokal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dakwah moderat dilakukan dengan hikmah dan nasihat yang baik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran Sunan Bonang dalam dakwah adalah …",
+              "options": [
+                {
+                  "text": "menggunakan gamelan dan tembang sebagai media dakwah",
+                  "correct": true
+                },
+                {
+                  "text": "memimpin kerajaan",
+                  "correct": false
+                },
+                {
+                  "text": "menjadi hakim",
+                  "correct": false
+                },
+                {
+                  "text": "menyusun undang-undang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Bonang berdakwah melalui gamelan dan tembang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran Sunan Kudus ditunjukkan dengan …",
+              "options": [
+                {
+                  "text": "menghormati tradisi masyarakat dengan tidak menyembelih sapi",
+                  "correct": true
+                },
+                {
+                  "text": "melarang semua tradisi",
+                  "correct": false
+                },
+                {
+                  "text": "memaksa masyarakat berpindah keyakinan",
+                  "correct": false
+                },
+                {
+                  "text": "menutup tempat ibadah lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Kudus menghormati tradisi setempat sebagai pendekatan dakwah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran Sunan Muria dalam dakwah adalah …",
+              "options": [
+                {
+                  "text": "berdakwah kepada masyarakat pedesaan dan pegunungan",
+                  "correct": true
+                },
+                {
+                  "text": "berdakwah hanya di istana",
+                  "correct": false
+                },
+                {
+                  "text": "menjadi pedagang saja",
+                  "correct": false
+                },
+                {
+                  "text": "menolak masyarakat desa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Muria dikenal berdakwah di kalangan masyarakat desa dan pegunungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran Sunan Drajat dalam dakwah adalah …",
+              "options": [
+                {
+                  "text": "menekankan kepedulian sosial kepada fakir miskin dan anak yatim",
+                  "correct": true
+                },
+                {
+                  "text": "mengumpulkan kekayaan",
+                  "correct": false
+                },
+                {
+                  "text": "membangun istana",
+                  "correct": false
+                },
+                {
+                  "text": "melarang sedekah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Drajat menekankan kepedulian sosial dalam dakwahnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran Sunan Gunung Jati ditunjukkan dengan …",
+              "options": [
+                {
+                  "text": "mengembangkan Islam di wilayah Cirebon dan Banten",
+                  "correct": true
+                },
+                {
+                  "text": "berdakwah di Maluku",
+                  "correct": false
+                },
+                {
+                  "text": "menjadi raja Majapahit",
+                  "correct": false
+                },
+                {
+                  "text": "berdakwah di Aceh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Gunung Jati berperan di Cirebon dan Banten."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk Wali Songo? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Sunan Kalijaga",
+                  "correct": true
+                },
+                {
+                  "text": "Sunan Ampel",
+                  "correct": true
+                },
+                {
+                  "text": "Sunan Giri",
+                  "correct": true
+                },
+                {
+                  "text": "Hamzah Fansuri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Kalijaga, Sunan Ampel, dan Sunan Giri adalah Wali Songo. Hamzah Fansuri ulama Aceh."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan wali dengan pendekatan dakwahnya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Sunan Kalijaga"
+                },
+                {
+                  "id": "o1",
+                  "text": "Sunan Giri"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sunan Drajat"
+                },
+                {
+                  "id": "o3",
+                  "text": "Sunan Kudus"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Wayang dan gamelan",
+                  "o1": "Pesantren dan permainan anak",
+                  "o2": "Kepedulian sosial",
+                  "o3": "Menghormati tradisi masyarakat"
+                }
+              },
+              "explanation": "Setiap wali punya pendekatan yang sesuai kondisi masyarakatnya."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah dakwah moderat.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Mengenali kondisi masyarakat"
+                },
+                {
+                  "id": "o1",
+                  "text": "Memilih pendekatan yang sesuai"
+                },
+                {
+                  "id": "o2",
+                  "text": "Menyampaikan dengan hikmah dan nasihat baik"
+                },
+                {
+                  "id": "o3",
+                  "text": "Menjaga konsistensi dan keteladanan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Dakwah moderat dimulai dari pemahaman kondisi, lalu pendekatan dan keteladanan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Media dakwah yang dipakai Sunan Bonang adalah …",
+              "options": [
+                {
+                  "text": "gamelan dan tembang",
+                  "correct": true
+                },
+                {
+                  "text": "wayang kulit",
+                  "correct": false
+                },
+                {
+                  "text": "permainan anak",
+                  "correct": false
+                },
+                {
+                  "text": "surat kabar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sunan Bonang memakai gamelan dan tembang sebagai media dakwah."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Peran Tokoh Ulama dalam Penyebaran Islam di Indonesia (Wali Songo) — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa metode dakwah Wali Songo berhasil diterima masyarakat Jawa?",
+              "options": [
+                {
+                  "text": "karena menggunakan pendekatan budaya yang akrab tanpa memaksa",
+                  "correct": true
+                },
+                {
+                  "text": "karena memaksa masyarakat",
+                  "correct": false
+                },
+                {
+                  "text": "karena melarang budaya lokal",
+                  "correct": false
+                },
+                {
+                  "text": "karena menggunakan kekerasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pendekatan budaya yang akrab membuat pesan mudah dipahami dan diterima."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna dakwah bi al-hikmah adalah …",
+              "options": [
+                {
+                  "text": "menyampaikan kebenaran dengan cara bijak dan tepat sasaran",
+                  "correct": true
+                },
+                {
+                  "text": "menyampaikan dengan paksaan",
+                  "correct": false
+                },
+                {
+                  "text": "menggunakan ancaman",
+                  "correct": false
+                },
+                {
+                  "text": "menghina keyakinan lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hikmah berarti kebijaksanaan memilih cara yang tepat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna mau'idlatil hasanah adalah …",
+              "options": [
+                {
+                  "text": "nasihat yang baik dan menyentuh hati",
+                  "correct": true
+                },
+                {
+                  "text": "nasihat yang keras",
+                  "correct": false
+                },
+                {
+                  "text": "ancaman fisik",
+                  "correct": false
+                },
+                {
+                  "text": "hinaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mau'idlatil hasanah adalah nasihat yang baik dan menyentuh hati."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa penghormatan terhadap adat istiadat penting dalam dakwah?",
+              "options": [
+                {
+                  "text": "karena membangun kepercayaan sehingga pesan lebih mudah diterima",
+                  "correct": true
+                },
+                {
+                  "text": "karena adat lebih tinggi dari agama",
+                  "correct": false
+                },
+                {
+                  "text": "karena adat harus dihapus",
+                  "correct": false
+                },
+                {
+                  "text": "karena dakwah tidak perlu pendekatan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penghormatan membangun kepercayaan, bukan menempatkan adat di atas agama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keteladanan sikap kesederhanaan Wali Songo penting karena …",
+              "options": [
+                {
+                  "text": "masyarakat lebih mudah meneladani perilaku daripada hanya mendengar ucapan",
+                  "correct": true
+                },
+                {
+                  "text": "kesederhanaan tidak berpengaruh",
+                  "correct": false
+                },
+                {
+                  "text": "kesederhanaan mengurangi wibawa",
+                  "correct": false
+                },
+                {
+                  "text": "kesederhanaan menurunkan ilmu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keteladanan nyata lebih mudah diikuti daripada sekadar ucapan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah nilai dakwah Wali Songo yang dapat diteladani pelajar? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menghargai perbedaan keyakinan",
+                  "correct": true
+                },
+                {
+                  "text": "Sabar dan tekun berdakwah",
+                  "correct": true
+                },
+                {
+                  "text": "Sederhana dalam hidup",
+                  "correct": true
+                },
+                {
+                  "text": "Memaksa orang beribadah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menghargai perbedaan, sabar, dan sederhana adalah teladan Wali Songo. Memaksa bertentangan dengan nilai dakwah."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun strategi dakwah damai ala Wali Songo.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Mengenali bahasa dan budaya masyarakat"
+                },
+                {
+                  "id": "s1",
+                  "text": "Memilih media yang akrab dengan masyarakat"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menyampaikan ajaran secara bertahap dengan hikmah"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menjadi teladan dalam perilaku sehari-hari"
+                },
+                {
+                  "id": "s4",
+                  "text": "Membina masyarakat melalui pendidikan dan kegiatan sosial"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Strategi dakwah damai berjalan dari pengenalan budaya sampai pembinaan berkelanjutan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran Sunan Gresik sebagai wali pertama di Jawa adalah …",
+              "options": [
+                {
+                  "text": "membuka jalan dakwah dengan pendekatan pendidikan",
+                  "correct": true
+                },
+                {
+                  "text": "menjadi sultan pertama Demak",
+                  "correct": false
+                },
+                {
+                  "text": "memimpin perang",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan Islam di Maluku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Maulana Malik Ibrahim membuka jalan dakwah di Jawa melalui pendidikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa pendidikan menjadi kunci dakwah Wali Songo?",
+              "options": [
+                {
+                  "text": "karena pesantren melahirkan banyak dai sehingga dakwah berlanjut",
+                  "correct": true
+                },
+                {
+                  "text": "karena pendidikan mengurangi dakwah",
+                  "correct": false
+                },
+                {
+                  "text": "karena pendidikan menghilangkan budaya",
+                  "correct": false
+                },
+                {
+                  "text": "karena pendidikan tidak penting",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pesantren mencetak dai yang menyebarkan ajaran secara berkelanjutan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan Wali Songo dengan persebaran Islam di Nusantara adalah …",
+              "options": [
+                {
+                  "text": "jaringan wali menjadi pusat persebaran ke berbagai wilayah",
+                  "correct": true
+                },
+                {
+                  "text": "tidak ada hubungan",
+                  "correct": false
+                },
+                {
+                  "text": "Wali Songo hanya di Aceh",
+                  "correct": false
+                },
+                {
+                  "text": "Wali Songo melarang dakwah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jaringan Wali Songo menjadi pusat persebaran Islam ke berbagai wilayah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang tepat ketika mendengar keyakinan berbeda adalah …",
+              "options": [
+                {
+                  "text": "menghormati dan tidak mencela",
+                  "correct": true
+                },
+                {
+                  "text": "menghina",
+                  "correct": false
+                },
+                {
+                  "text": "memaksa",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan ujaran kebencian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menghormati keyakinan berbeda sesuai teladan dakwah yang moderat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa dakwah tanpa paksaan lebih menjaga keimanan?",
+              "options": [
+                {
+                  "text": "karena keimanan tumbuh dari kesadaran, bukan tekanan",
+                  "correct": true
+                },
+                {
+                  "text": "karena paksaan lebih ampuh",
+                  "correct": false
+                },
+                {
+                  "text": "karena tekanan menambah iman",
+                  "correct": false
+                },
+                {
+                  "text": "karena keimanan tidak perlu kesadaran",
+                  "correct": false
+                }
+              ],
+              "explanation": "Iman tumbuh dari kesadaran pribadi sehingga paksaan meniadakan maknanya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh meneladani ketekunan Wali Songo di sekolah adalah …",
+              "options": [
+                {
+                  "text": "konsisten belajar dan beribadah meski bertahap",
+                  "correct": true
+                },
+                {
+                  "text": "belajar hanya menjelang ujian",
+                  "correct": false
+                },
+                {
+                  "text": "meninggalkan ibadah",
+                  "correct": false
+                },
+                {
+                  "text": "menunda semua usaha",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketekunan berlatih secara bertahap adalah bentuk meneladani Wali Songo."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna \"menghargai adat istiadat\" dalam batas syariat adalah …",
+              "options": [
+                {
+                  "text": "menjaga adat yang tidak bertentangan dengan syariat",
+                  "correct": true
+                },
+                {
+                  "text": "menerima seluruh adat",
+                  "correct": false
+                },
+                {
+                  "text": "menolak semua adat",
+                  "correct": false
+                },
+                {
+                  "text": "menggantikan syariat dengan adat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Adat dijaga sepanjang tidak bertentangan dengan syariat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak dakwah Wali Songo terhadap budaya Jawa adalah …",
+              "options": [
+                {
+                  "text": "budaya yang tidak bertentangan dengan Islam tetap dilestarikan",
+                  "correct": true
+                },
+                {
+                  "text": "seluruh budaya dihapus",
+                  "correct": false
+                },
+                {
+                  "text": "budaya tidak berubah sama sekali",
+                  "correct": false
+                },
+                {
+                  "text": "budaya menjadi lebih asing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Budaya yang tidak bertentangan dilestarikan sehingga dakwah diterima luas."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "biologi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "BIO 1",
+      "title": "Virus dan Peranannya",
+      "description": "Struktur dan replikasi virus, penyakit yang ditimbulkan, serta pemanfaatan virus bagi kehidupan.",
+      "learning_objectives": [
+        "Mengidentifikasi ciri-ciri virus,",
+        "Menganalisis proses replikasi virus,",
+        "Mendeskripsikan peranan virus, dan",
+        "Menganalisis cara pencegahan dan penanggulangan penyakit akibat virus."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar IPA Biologi Kelas 10 SMA Fase E Bab 2",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Struktur dan Ciri Virus",
+          "duration": 240,
+          "source_reference": "Bab II — Virus",
+          "content": "## Virus bukan sel\n\nVirus hanya terdiri atas:\n\n- **materi genetik** — DNA **atau** RNA\n- **kapsid** — selubung protein\n- kadang selubung tambahan dari lipid\n\nVirus **tidak memiliki** sitoplasma, ribosom, maupun mitokondria. Karena itu virus disebut **parasit obligat intraseluler**: hanya dapat bereproduksi di dalam sel hidup.\n\n### Ukuran\n\nSekitar 20–300 nm, jauh lebih kecil dari bakteri sehingga lolos dari penyaring air biasa.\n\n### Kekhususan inang\n\nVirus hanya menyerang sel yang memiliki **reseptor** cocok. Karena itu virus tertentu hanya menyerang jenis sel atau jaringan tertentu.\n\nVirus yang menyerang bakteri disebut **bakteriofag**.\n\n**Viroida** hanya berupa RNA tanpa kapsid dan menyerang tanaman.\n\n## Perdebatan status\n\nVirus tidak memiliki metabolisme sendiri, sehingga sebagian ilmuwan tidak menggolongkannya sebagai makhluk hidup."
+        },
+        {
+          "type": "text",
+          "title": "Replikasi Virus",
+          "duration": 360,
+          "source_reference": "Bab II — Replikasi Virus",
+          "content": "## Siklus litik\n\n| Tahap | Kejadian |\n|---|---|\n| **Adsorpsi** | virus menempel pada reseptor sel inang |\n| **Penetrasi** | materi genetik virus masuk (bakteriofag memakai enzim lisozim) |\n| **Sintesis** | sel inang membuat bagian-bagian virus baru |\n| **Perakitan** | bagian-bagian disusun menjadi virion |\n| **Lisis** | sel inang pecah, virus baru keluar |\n\n## Siklus lisogenik\n\nMateri genetik virus **menyisip** ke DNA inang dan ikut diperbanyak bersama sel inang. Virus dapat aktif kembali dan masuk siklus litik.\n\nPerbedaan kunci: **litik langsung menghancurkan sel**, lisogenik menyisipkan materi genetik tanpa segera membunuh sel.\n\n## Mengapa cepat bermutasi?\n\nMateri genetik virus sering berupa RNA yang tidak stabil saat diperbanyak, sehingga kesalahan replikasi lebih sering terjadi."
+        },
+        {
+          "type": "interactive",
+          "title": "Peran Virus dan Pencegahan",
+          "duration": 240,
+          "source_reference": "Bab II — Peranan Virus",
+          "content": "## Peran merugikan\n\n| Penyakit | Penyebab |\n|---|---|\n| Influenza | virus influenza |\n| COVID-19 | SARS-CoV-2 (koronavirus) |\n| Campak, polio | virus |\n| Mosaik pada tanaman | virus tanaman |\n\nPerhatikan: **tifus** dan **disentri amuba** bukan disebabkan virus, melainkan bakteri; **malaria** oleh Plasmodium.\n\n## Peran menguntungkan\n\n- pembuatan **vaksin**\n- **terapi gen** dengan virus sebagai vektor\n- **bioteknologi** dan rekayasa genetika\n- pengendalian hama (biopestisida)\n\n## Mengapa antibiotik tidak mempan?\n\nAntibiotik menyerang dinding sel atau ribosom **bakteri**. Virus tidak memiliki keduanya, sehingga antibiotik tidak berpengaruh.\n\n## Pencegahan penularan\n\n1. Mencuci tangan dengan sabun\n2. Memakai masker saat sakit\n3. **Vaksinasi**\n4. Menjaga jarak dan tidak berbagi alat makan\n\nVaksin melatih sistem imun mengenali patogen tanpa menimbulkan penyakit berat.\n\n## Penularan droplet\n\nPenderita batuk → percikan keluar → terhirup orang lain → virus menginfeksi saluran pernapasan."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Virus dan Peranannya — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Virus digolongkan sebagai partikel dan bukan sel karena …",
+              "options": [
+                {
+                  "text": "tidak memiliki sitoplasma dan organel sel",
+                  "correct": true
+                },
+                {
+                  "text": "ukurannya sangat besar",
+                  "correct": false
+                },
+                {
+                  "text": "dapat bergerak aktif",
+                  "correct": false
+                },
+                {
+                  "text": "memiliki inti sel",
+                  "correct": false
+                }
+              ],
+              "explanation": "Virus hanya terdiri atas materi genetik dan selubung protein, tanpa struktur sel lengkap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian virus yang berfungsi sebagai selubung protein disebut …",
+              "options": [
+                {
+                  "text": "kapsid",
+                  "correct": true
+                },
+                {
+                  "text": "nukleoid",
+                  "correct": false
+                },
+                {
+                  "text": "ribosom",
+                  "correct": false
+                },
+                {
+                  "text": "mitokondria",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kapsid melindungi materi genetik virus dan tersusun dari protein."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan genetik virus dapat berupa …",
+              "options": [
+                {
+                  "text": "DNA atau RNA",
+                  "correct": true
+                },
+                {
+                  "text": "hanya protein",
+                  "correct": false
+                },
+                {
+                  "text": "hanya karbohidrat",
+                  "correct": false
+                },
+                {
+                  "text": "lemak saja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Virus memiliki salah satu jenis materi genetik: DNA atau RNA."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Virus hanya dapat berkembang biak di dalam …",
+              "options": [
+                {
+                  "text": "sel hidup organisme lain",
+                  "correct": true
+                },
+                {
+                  "text": "tanah kering",
+                  "correct": false
+                },
+                {
+                  "text": "air murni",
+                  "correct": false
+                },
+                {
+                  "text": "udara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Virus adalah parasit obligat intraseluler sehingga memerlukan sel inang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyakit yang disebabkan virus adalah …",
+              "options": [
+                {
+                  "text": "influenza",
+                  "correct": true
+                },
+                {
+                  "text": "tifus",
+                  "correct": false
+                },
+                {
+                  "text": "malaria",
+                  "correct": false
+                },
+                {
+                  "text": "disentri amuba",
+                  "correct": false
+                }
+              ],
+              "explanation": "Influenza disebabkan virus; tifus dan disentri oleh bakteri, malaria oleh Plasmodium."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Virus dan Peranannya — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Tahap replikasi virus yang berupa penempelan pada sel inang disebut …",
+              "options": [
+                {
+                  "text": "adsorpsi",
+                  "correct": true
+                },
+                {
+                  "text": "penetrasi",
+                  "correct": false
+                },
+                {
+                  "text": "replikasi",
+                  "correct": false
+                },
+                {
+                  "text": "lisis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Adsorpsi adalah tahap pertama saat virus menempel pada reseptor sel inang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Enzim yang dipakai virus bakteriofag untuk menembus dinding sel bakteri adalah …",
+              "options": [
+                {
+                  "text": "lisozim",
+                  "correct": true
+                },
+                {
+                  "text": "amilase",
+                  "correct": false
+                },
+                {
+                  "text": "lipase",
+                  "correct": false
+                },
+                {
+                  "text": "katalase",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lisozim memecah dinding sel bakteri sehingga materi genetik virus dapat masuk."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahap saat sel inang pecah dan virus baru keluar disebut …",
+              "options": [
+                {
+                  "text": "lisis",
+                  "correct": true
+                },
+                {
+                  "text": "adsorpsi",
+                  "correct": false
+                },
+                {
+                  "text": "sintesis",
+                  "correct": false
+                },
+                {
+                  "text": "transkripsi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lisis adalah pecahnya sel inang yang melepaskan virion baru."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Virus yang menyerang bakteri disebut …",
+              "options": [
+                {
+                  "text": "bakteriofag",
+                  "correct": true
+                },
+                {
+                  "text": "viroid",
+                  "correct": false
+                },
+                {
+                  "text": "prion",
+                  "correct": false
+                },
+                {
+                  "text": "retrovirus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bakteriofag adalah virus dengan inang bakteri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran virus yang menguntungkan manusia contohnya …",
+              "options": [
+                {
+                  "text": "membuat vaksin dan terapi gen",
+                  "correct": true
+                },
+                {
+                  "text": "menyebabkan wabah",
+                  "correct": false
+                },
+                {
+                  "text": "merusak tanaman pangan",
+                  "correct": false
+                },
+                {
+                  "text": "menimbulkan penyakit kronis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Virus dimanfaatkan untuk vaksin, terapi gen, dan biopestisida."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Vaksin bekerja dengan cara …",
+              "options": [
+                {
+                  "text": "melatih sistem imun mengenali patogen tanpa menyebabkan penyakit berat",
+                  "correct": true
+                },
+                {
+                  "text": "membunuh semua bakteri tubuh",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti sel tubuh",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan semua virus dari lingkungan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Vaksin memicu respons imun terhadap antigen yang dilemahkan atau tidak aktif."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyakit COVID-19 disebabkan oleh virus dari kelompok …",
+              "options": [
+                {
+                  "text": "koronavirus",
+                  "correct": true
+                },
+                {
+                  "text": "influenza",
+                  "correct": false
+                },
+                {
+                  "text": "herpes",
+                  "correct": false
+                },
+                {
+                  "text": "papiloma",
+                  "correct": false
+                }
+              ],
+              "explanation": "SARS-CoV-2 termasuk keluarga koronavirus yang menyerang saluran pernapasan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang struktur virus? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Memiliki materi genetik",
+                  "correct": true
+                },
+                {
+                  "text": "Memiliki kapsid protein",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak memiliki ribosom sendiri",
+                  "correct": true
+                },
+                {
+                  "text": "Memiliki mitokondria",
+                  "correct": false
+                }
+              ],
+              "explanation": "Virus memiliki materi genetik dan kapsid, tetapi tidak memiliki ribosom maupun mitokondria."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan tahap replikasi virus dengan kejadiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Adsorpsi"
+                },
+                {
+                  "id": "o1",
+                  "text": "Penetrasi"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sintesis"
+                },
+                {
+                  "id": "o3",
+                  "text": "Lisis"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Virus menempel pada reseptor sel inang",
+                  "o1": "Materi genetik virus masuk ke sel inang",
+                  "o2": "Sel inang membuat bagian-bagian virus baru",
+                  "o3": "Sel inang pecah dan virus keluar"
+                }
+              },
+              "explanation": "Replikasi virus berlangsung berurutan dari penempelan sampai pelepasan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahap replikasi virus.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Adsorpsi"
+                },
+                {
+                  "id": "o1",
+                  "text": "Penetrasi"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sintesis"
+                },
+                {
+                  "id": "o3",
+                  "text": "Lisis"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Siklus litik berurutan: penempelan, masuknya materi genetik, sintesis, lalu lisis."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Virus dan Peranannya — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa pemberian antibiotik tidak efektif terhadap penyakit yang disebabkan virus?",
+              "options": [
+                {
+                  "text": "antibiotik bekerja pada struktur bakteri yang tidak dimiliki virus",
+                  "correct": true
+                },
+                {
+                  "text": "antibiotik terlalu mahal",
+                  "correct": false
+                },
+                {
+                  "text": "virus lebih kecil dari antibiotik",
+                  "correct": false
+                },
+                {
+                  "text": "antibiotik hanya bekerja pada jamur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Antibiotik menyerang dinding sel atau ribosom bakteri yang tidak ada pada virus."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Virus disebut parasit obligat intraseluler karena …",
+              "options": [
+                {
+                  "text": "harus berada di dalam sel hidup untuk bereproduksi",
+                  "correct": true
+                },
+                {
+                  "text": "dapat hidup di debu",
+                  "correct": false
+                },
+                {
+                  "text": "memakan sisa zat organik",
+                  "correct": false
+                },
+                {
+                  "text": "membuat makanan sendiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Virus tidak memiliki mesin metabolisme sehingga bergantung pada sel inang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan siklus litik dan lisogenik terletak pada …",
+              "options": [
+                {
+                  "text": "litik langsung menghancurkan sel inang, lisogenik menyisipkan materi genetik ke genom inang",
+                  "correct": true
+                },
+                {
+                  "text": "litik tidak memerlukan sel inang",
+                  "correct": false
+                },
+                {
+                  "text": "lisogenik selalu membunuh sel",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya sama saja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pada siklus lisogenik, materi genetik virus bergabung dengan DNA inang dan dapat aktif kemudian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Virus yang menyerang tanaman dapat menimbulkan kerugian ekonomi karena …",
+              "options": [
+                {
+                  "text": "menurunkan hasil panen dan mutu produk pertanian",
+                  "correct": true
+                },
+                {
+                  "text": "menyuburkan tanah",
+                  "correct": false
+                },
+                {
+                  "text": "membunuh hama",
+                  "correct": false
+                },
+                {
+                  "text": "menambah jumlah biji",
+                  "correct": false
+                }
+              ],
+              "explanation": "Infeksi virus pada tanaman menghambat pertumbuhan dan menurunkan produksi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat virus dalam rekayasa genetika adalah …",
+              "options": [
+                {
+                  "text": "dipakai sebagai vektor untuk memasukkan gen ke sel target",
+                  "correct": true
+                },
+                {
+                  "text": "membunuh semua sel tubuh",
+                  "correct": false
+                },
+                {
+                  "text": "menghentikan sintesis protein",
+                  "correct": false
+                },
+                {
+                  "text": "merusak DNA inang secara acak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Virus dimodifikasi agar membawa gen yang diinginkan masuk ke sel."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk pencegahan penyebaran penyakit virus? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Mencuci tangan dengan sabun",
+                  "correct": true
+                },
+                {
+                  "text": "Memakai masker saat sakit",
+                  "correct": true
+                },
+                {
+                  "text": "Vaksinasi",
+                  "correct": true
+                },
+                {
+                  "text": "Berbagi alat makan dengan penderita",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kebersihan tangan, masker, dan vaksinasi menekan penularan virus. Berbagi alat makan meningkatkan risiko."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah penularan virus melalui percikan (droplet).",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Penderita batuk atau bersin"
+                },
+                {
+                  "id": "s1",
+                  "text": "Percikan berisi virus keluar ke udara"
+                },
+                {
+                  "id": "s2",
+                  "text": "Orang lain menghirup percikan tersebut"
+                },
+                {
+                  "id": "s3",
+                  "text": "Virus masuk ke saluran pernapasan dan menginfeksi sel"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Penularan droplet terjadi melalui percikan yang terhirup orang lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Virus tidak dianggap sebagai makhluk hidup oleh sebagian ilmuwan karena …",
+              "options": [
+                {
+                  "text": "tidak memiliki metabolisme sendiri dan hanya bereproduksi di dalam sel",
+                  "correct": true
+                },
+                {
+                  "text": "ukurannya terlalu kecil untuk dilihat",
+                  "correct": false
+                },
+                {
+                  "text": "bentuknya selalu sama",
+                  "correct": false
+                },
+                {
+                  "text": "mengandung protein",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiadaan metabolisme mandiri adalah alasan utama perdebatan statusnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Viroida berbeda dari virus karena …",
+              "options": [
+                {
+                  "text": "hanya terdiri atas RNA tanpa kapsid protein",
+                  "correct": true
+                },
+                {
+                  "text": "berukuran lebih besar",
+                  "correct": false
+                },
+                {
+                  "text": "memiliki dinding sel",
+                  "correct": false
+                },
+                {
+                  "text": "dapat bergerak aktif",
+                  "correct": false
+                }
+              ],
+              "explanation": "Viroid adalah RNA kecil tanpa selubung protein yang menyerang tanaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah virus menyerang sel yang memiliki reseptor tertentu. Hal ini menjelaskan mengapa …",
+              "options": [
+                {
+                  "text": "virus hanya menginfeksi jenis sel atau jaringan tertentu",
+                  "correct": true
+                },
+                {
+                  "text": "virus menyerang semua sel",
+                  "correct": false
+                },
+                {
+                  "text": "virus tidak memerlukan inang",
+                  "correct": false
+                },
+                {
+                  "text": "virus dapat mencemari air bersih",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kecocokan antara reseptor sel dan protein virus menentukan kekhususan inang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara virus memperbanyak diri adalah …",
+              "options": [
+                {
+                  "text": "menggunakan mesin sintesis protein sel inang untuk membuat bagian tubuhnya",
+                  "correct": true
+                },
+                {
+                  "text": "membelah diri seperti bakteri",
+                  "correct": false
+                },
+                {
+                  "text": "menumbuhkan sel baru di luar inang",
+                  "correct": false
+                },
+                {
+                  "text": "memfotosintesis sendiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Virus tidak memiliki ribosom, sehingga memanfaatkan ribosom inang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa virus mudah bermutasi?",
+              "options": [
+                {
+                  "text": "materi genetiknya sering berupa RNA yang tidak stabil saat diperbanyak",
+                  "correct": true
+                },
+                {
+                  "text": "virus memiliki inti sel yang besar",
+                  "correct": false
+                },
+                {
+                  "text": "virus memiliki banyak mitokondria",
+                  "correct": false
+                },
+                {
+                  "text": "virus memakai fotosintesis",
+                  "correct": false
+                }
+              ],
+              "explanation": "RNA virus cenderung lebih mudah mengalami kesalahan saat replikasi, sehingga cepat berubah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan manfaat dan bahaya virus paling tepat dijelaskan sebagai …",
+              "options": [
+                {
+                  "text": "virus dapat merugikan sebagai patogen sekaligus bermanfaat sebagai alat bioteknologi",
+                  "correct": true
+                },
+                {
+                  "text": "virus selalu merugikan",
+                  "correct": false
+                },
+                {
+                  "text": "virus selalu menguntungkan",
+                  "correct": false
+                },
+                {
+                  "text": "virus tidak memiliki peran",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sifat virus bergantung pada jenis dan pemanfaatannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Langkah pertama menanggulangi wabah penyakit virus di sekolah adalah …",
+              "options": [
+                {
+                  "text": "mencegah penularan melalui kebersihan, pemisahan siswa sakit, dan edukasi",
+                  "correct": true
+                },
+                {
+                  "text": "membiarkan siswa sakit tetap masuk",
+                  "correct": false
+                },
+                {
+                  "text": "menutup semua ruang terbuka",
+                  "correct": false
+                },
+                {
+                  "text": "menghentikan pelajaran olahraga saja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pencegahan penularan adalah tindakan paling efektif pada tahap awal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa virus tidak dapat dimusnahkan hanya dengan menyaring air?",
+              "options": [
+                {
+                  "text": "virus berukuran sangat kecil sehingga lolos dari penyaring biasa",
+                  "correct": true
+                },
+                {
+                  "text": "virus berukuran lebih besar dari bakteri",
+                  "correct": false
+                },
+                {
+                  "text": "virus hanya hidup di udara",
+                  "correct": false
+                },
+                {
+                  "text": "virus membutuhkan cahaya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ukuran virus sekitar 20–300 nm, jauh lebih kecil dari pori penyaring air biasa."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,834 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "informatika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "INF 1",
+      "title": "Berpikir Komputasional",
+      "description": "Menerapkan dekomposisi, pengenalan pola, abstraksi, dan algoritma untuk menyelesaikan persoalan komputasi yang mengandung struktur dan representasi data.",
+      "learning_objectives": [
+        "Menerapkan berpikir komputasional untuk menyelesaikan secara efisien persoalan komputasi yang mengandung struktur data.",
+        "Menerapkan berpikir komputasional untuk menyelesaikan secara efisien persoalan komputasi yang mengandung representasi data.",
+        "Menganalisis fakta, konsep, dan prosedur keterampilan dalam persoalan komputasi yang mengandung algoritma, penjadwalan, struktur data, dan representasi data."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Informatika Kelas X SMA Fase E Bab 2 — Berpikir Komputasional",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Empat Pilar Berpikir Komputasional",
+          "duration": 240,
+          "source_reference": "Modul Ajar Informatika Bab 2 — Tujuan Pembelajaran",
+          "content": "## Berpikir seperti komputer, bukan menjadi komputer\n\nBerpikir komputasional adalah cara menyusun solusi secara **sistematis** sehingga langkah-langkahnya jelas dan dapat dijalankan mesin. Ada empat pilar:\n\n| Pilar | Arti | Contoh |\n|---|---|---|\n| **Dekomposisi** | memecah masalah besar menjadi bagian kecil | membagi aplikasi menjadi modul |\n| **Pengenalan pola** | menemukan kesamaan antar masalah | menyadari total belanja dan total nilai sama-sama penjumlahan |\n| **Abstraksi** | menyaring detail yang tidak perlu | mengabaikan warna saat merancang basis data |\n| **Algoritma** | menyusun langkah penyelesaian | urutan langkah memasak |\n\n### Urutan berpikirnya\n\n1. Pahami masalahnya\n2. Pecah menjadi bagian kecil (dekomposisi)\n3. Cari pola dan buang detail tak perlu (pola + abstraksi)\n4. Susun langkahnya (algoritma)\n\nKeempatnya bekerja berurutan, bukan terpisah-pisah."
+        },
+        {
+          "type": "text",
+          "title": "Searching: Dua Cara Mencari",
+          "duration": 360,
+          "source_reference": "Modul Ajar Informatika Bab 2 — Pertemuan 1 & 2",
+          "content": "## Linear search vs binary search\n\n**Linear search** memeriksa data **satu per satu** dari awal.\n\n- Tidak menuntut data terurut\n- Kasus terburuk memeriksa **semua** data\n- Cocok untuk data sedikit\n\n**Binary search** membelah data menjadi dua, berulang kali.\n\n- **Wajib** data sudah terurut\n- Setiap langkah membuang **setengah** data\n- Kasus terburuk hanya sekitar log₂(n) langkah\n\n### Perbandingan jumlah pemeriksaan\n\n| Jumlah data | Linear (terburuk) | Binary (terburuk) |\n|---|---|---|\n| 16 | 16 | 4 |\n| 100 | 100 | 7 |\n| 1.000 | 1.000 | 10 |\n| 1.024 | 1.024 | 10 |\n\nPerhatikan: 16 → 8 → 4 → 2 → 1 memerlukan **4** pembelahan. Itu sebabnya binary search jauh lebih cepat pada data besar."
+        },
+        {
+          "type": "interactive",
+          "title": "Stack, Queue, dan Sorting",
+          "duration": 240,
+          "source_reference": "Modul Ajar Informatika Bab 2 — Pertemuan 3",
+          "content": "## Dua struktur data dasar\n\n**Stack (LIFO)** — terakhir masuk, pertama keluar.\nOperasi: `push` menambah di puncak, `pop` mengeluarkan dari puncak.\nAnalogi: tumpukan piring, fitur *undo*.\n\n**Queue (FIFO)** — pertama masuk, pertama keluar.\nOperasi: `enqueue` menambah di belakang, `dequeue` mengeluarkan dari depan.\nAnalogi: antrean kasir, antrean cetak dokumen.\n\n### Contoh penelusuran stack\n\nStack berisi `4, 7, 2` dengan **2 di puncak**.\n- `push(9)` → stack menjadi `4, 7, 2, 9`\n- `pop()` → mengeluarkan **9**, sehingga tersisa `4, 7, 2`\n\n### Sorting\n\n**Bubble sort** membandingkan dua data bersebelahan dan menukarnya bila urutannya salah. Setiap putaran memindahkan nilai terbesar ke posisi paling akhir.\n\nData `8, 3, 5, 1` satu putaran pertama:\n- 8 dan 3 ditukar → `3, 8, 5, 1`\n- 8 dan 5 ditukar → `3, 5, 8, 1`\n- 8 dan 1 ditukar → `3, 5, 1, 8`\n\nHasil akhir putaran pertama: **3, 5, 1, 8**."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Berpikir Komputasional — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berpikir komputasional paling tepat diartikan sebagai …",
+              "options": [
+                {
+                  "text": "cara berpikir sistematis agar masalah dapat diselesaikan dan solusinya dapat dijalankan komputer",
+                  "correct": true
+                },
+                {
+                  "text": "kemampuan mengetik cepat menggunakan papan tombol",
+                  "correct": false
+                },
+                {
+                  "text": "kegiatan merakit komponen komputer",
+                  "correct": false
+                },
+                {
+                  "text": "cara menghafal perintah dalam bahasa pemrograman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Berpikir komputasional adalah pendekatan berpikir, bukan keterampilan teknis merakit atau mengetik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Urutan langkah logis dan terbatas untuk menyelesaikan sebuah masalah disebut …",
+              "options": [
+                {
+                  "text": "algoritma",
+                  "correct": true
+                },
+                {
+                  "text": "perangkat keras",
+                  "correct": false
+                },
+                {
+                  "text": "kompilator",
+                  "correct": false
+                },
+                {
+                  "text": "protokol",
+                  "correct": false
+                }
+              ],
+              "explanation": "Algoritma adalah urutan langkah yang jelas, logis, dan berhingga jumlahnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Memecah masalah besar menjadi beberapa bagian kecil yang lebih mudah diselesaikan disebut …",
+              "options": [
+                {
+                  "text": "dekomposisi",
+                  "correct": true
+                },
+                {
+                  "text": "abstraksi",
+                  "correct": false
+                },
+                {
+                  "text": "enkripsi",
+                  "correct": false
+                },
+                {
+                  "text": "kompilasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dekomposisi memecah masalah kompleks menjadi submasalah yang lebih sederhana."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proses menemukan satu data tertentu di dalam sekumpulan data disebut …",
+              "options": [
+                {
+                  "text": "sorting",
+                  "correct": false
+                },
+                {
+                  "text": "searching",
+                  "correct": true
+                },
+                {
+                  "text": "stacking",
+                  "correct": false
+                },
+                {
+                  "text": "encoding",
+                  "correct": false
+                }
+              ],
+              "explanation": "Searching adalah pencarian data; sorting adalah pengurutan data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proses menyusun data ke dalam urutan tertentu, misalnya dari kecil ke besar, disebut …",
+              "options": [
+                {
+                  "text": "searching",
+                  "correct": false
+                },
+                {
+                  "text": "sorting",
+                  "correct": true
+                },
+                {
+                  "text": "indexing",
+                  "correct": false
+                },
+                {
+                  "text": "routing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sorting berarti mengurutkan data berdasarkan kriteria tertentu."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Berpikir Komputasional — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Metode binary search hanya dapat dipakai bila data …",
+              "options": [
+                {
+                  "text": "sudah terurut",
+                  "correct": true
+                },
+                {
+                  "text": "berjumlah ganjil",
+                  "correct": false
+                },
+                {
+                  "text": "berupa angka",
+                  "correct": false
+                },
+                {
+                  "text": "disimpan di internet",
+                  "correct": false
+                }
+              ],
+              "explanation": "Binary search membagi data menjadi dua bagian berdasarkan urutan, sehingga data wajib sudah terurut lebih dulu.",
+              "hint": "Ingat bahwa metode ini bekerja dengan membelah data menjadi dua."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika data terdiri atas 16 elemen terurut, jumlah maksimum pemeriksaan pada binary search adalah …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "8",
+                  "correct": false
+                },
+                {
+                  "text": "16",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap langkah membelah data menjadi dua: 16 → 8 → 4 → 2 → 1. Jadi paling banyak 4 pemeriksaan.",
+              "hint": "Hitung berapa kali 16 dapat dibagi dua sampai tersisa satu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada pencarian berurutan (linear search) terhadap 10 data, jumlah pemeriksaan terburuk adalah …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "10",
+                  "correct": true
+                },
+                {
+                  "text": "100",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pada kasus terburuk, data yang dicari berada di posisi terakhir atau tidak ada, sehingga seluruh 10 data diperiksa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Struktur data yang menerapkan prinsip terakhir masuk pertama keluar (LIFO) adalah …",
+              "options": [
+                {
+                  "text": "stack",
+                  "correct": true
+                },
+                {
+                  "text": "queue",
+                  "correct": false
+                },
+                {
+                  "text": "array",
+                  "correct": false
+                },
+                {
+                  "text": "tree",
+                  "correct": false
+                }
+              ],
+              "explanation": "Stack menambah dan mengambil data dari ujung yang sama sehingga data terakhir masuk adalah yang pertama keluar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Struktur data yang menerapkan prinsip pertama masuk pertama keluar (FIFO) adalah …",
+              "options": [
+                {
+                  "text": "stack",
+                  "correct": false
+                },
+                {
+                  "text": "queue",
+                  "correct": true
+                },
+                {
+                  "text": "graph",
+                  "correct": false
+                },
+                {
+                  "text": "matriks",
+                  "correct": false
+                }
+              ],
+              "explanation": "Queue menambah data di belakang dan mengambil dari depan, seperti antrean loket."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Operasi menambahkan data ke dalam stack disebut …",
+              "options": [
+                {
+                  "text": "push",
+                  "correct": true
+                },
+                {
+                  "text": "pop",
+                  "correct": false
+                },
+                {
+                  "text": "dequeue",
+                  "correct": false
+                },
+                {
+                  "text": "sort",
+                  "correct": false
+                }
+              ],
+              "explanation": "Push menambahkan elemen ke puncak stack, sedangkan pop mengeluarkannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada antrean (queue), operasi mengambil data dari depan disebut …",
+              "options": [
+                {
+                  "text": "dequeue",
+                  "correct": true
+                },
+                {
+                  "text": "push",
+                  "correct": false
+                },
+                {
+                  "text": "pop",
+                  "correct": false
+                },
+                {
+                  "text": "peek",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dequeue mengeluarkan elemen dari depan antrean. Peek hanya melihat tanpa mengeluarkan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang merupakan bagian dari empat pilar berpikir komputasional? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Dekomposisi",
+                  "correct": true
+                },
+                {
+                  "text": "Pengenalan pola",
+                  "correct": true
+                },
+                {
+                  "text": "Abstraksi",
+                  "correct": true
+                },
+                {
+                  "text": "Enkripsi data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Empat pilar berpikir komputasional adalah dekomposisi, pengenalan pola, abstraksi, dan algoritma. Enkripsi bukan salah satunya.",
+              "hint": "Ada empat pilar; enkripsi termasuk keamanan data, bukan pilar berpikir komputasional."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "k1",
+                  "text": [
+                    "Stack",
+                    "Terakhir masuk, pertama keluar"
+                  ]
+                },
+                {
+                  "id": "k2",
+                  "text": [
+                    "Queue",
+                    "Pertama masuk, pertama keluar"
+                  ]
+                },
+                {
+                  "id": "k3",
+                  "text": [
+                    "Binary search",
+                    "Membelah data terurut menjadi dua"
+                  ]
+                },
+                {
+                  "id": "k4",
+                  "text": [
+                    "Linear search",
+                    "Memeriksa data satu per satu"
+                  ]
+                },
+                {
+                  "id": "k5",
+                  "text": [
+                    "Sorting",
+                    "Menyusun data menurut urutan"
+                  ]
+                }
+              ],
+              "correct": {
+                "map": {
+                  "k1": "Terakhir masuk, pertama keluar",
+                  "k2": "Pertama masuk, pertama keluar",
+                  "k3": "Membelah data terurut menjadi dua",
+                  "k4": "Memeriksa data satu per satu",
+                  "k5": "Menyusun data menurut urutan"
+                }
+              },
+              "explanation": "Stack bersifat LIFO, queue FIFO. Binary search membelah data terurut, linear search memeriksa berurutan, dan sorting menyusun urutan data.",
+              "hint": "Bedakan LIFO dan FIFO lebih dulu."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan binary search pada data terurut.",
+              "options": [
+                {
+                  "id": "s1",
+                  "text": "Tentukan batas kiri dan batas kanan data"
+                },
+                {
+                  "id": "s2",
+                  "text": "Hitung posisi tengah di antara kedua batas"
+                },
+                {
+                  "id": "s3",
+                  "text": "Bandingkan nilai tengah dengan data yang dicari"
+                },
+                {
+                  "id": "s4",
+                  "text": "Persempit batas sesuai hasil perbandingan, ulangi sampai ditemukan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "s1": "1",
+                  "s2": "2",
+                  "s3": "3",
+                  "s4": "4"
+                }
+              },
+              "explanation": "Binary search selalu dimulai dari menentukan batas, menghitung tengah, membandingkan, lalu mempersempit rentang pencarian.",
+              "hint": "Langkah pertama menentukan wilayah pencarian."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Berpikir Komputasional — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Untuk mencari satu angka di antara 1 sampai 100 dengan binary search, jumlah pemeriksaan maksimum adalah …",
+              "options": [
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "7",
+                  "correct": true
+                },
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "100",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karena 2⁶ = 64 < 100 dan 2⁷ = 128 ≥ 100, paling banyak dibutuhkan 7 pemeriksaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data 8, 3, 5, 1 diurutkan naik dengan bubble sort. Hasil setelah satu putaran (pass) pertama adalah …",
+              "options": [
+                {
+                  "text": "3, 5, 1, 8",
+                  "correct": true
+                },
+                {
+                  "text": "3, 5, 8, 1",
+                  "correct": false
+                },
+                {
+                  "text": "1, 3, 5, 8",
+                  "correct": false
+                },
+                {
+                  "text": "8, 5, 3, 1",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pass pertama membandingkan pasangan berurutan: 8 dan 3 ditukar → 3, 8, 5, 1; 8 dan 5 ditukar → 3, 5, 8, 1; 8 dan 1 ditukar → 3, 5, 1, 8. Nilai terbesar 8 naik ke ujung."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah stack berisi 4, 7, 2 (2 berada di puncak). Setelah operasi push(9) lalu pop() satu kali, isi stack dari bawah ke atas adalah …",
+              "options": [
+                {
+                  "text": "4, 7",
+                  "correct": false
+                },
+                {
+                  "text": "4, 7, 2",
+                  "correct": true
+                },
+                {
+                  "text": "4, 7, 9",
+                  "correct": false
+                },
+                {
+                  "text": "4, 7, 2, 9",
+                  "correct": false
+                }
+              ],
+              "explanation": "push(9) menambah 9 di puncak, sehingga stack menjadi 4, 7, 2, 9. pop() mengeluarkan puncak, yaitu 9, sehingga tersisa 4, 7, 2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Antrean berisi A, B, C (A di depan). Dilakukan enqueue(D) lalu dequeue() satu kali. Isi antrean dari depan adalah …",
+              "options": [
+                {
+                  "text": "B, C, D",
+                  "correct": true
+                },
+                {
+                  "text": "A, B, C",
+                  "correct": false
+                },
+                {
+                  "text": "D, A, B, C",
+                  "correct": false
+                },
+                {
+                  "text": "C, D",
+                  "correct": false
+                }
+              ],
+              "explanation": "enqueue(D) menambah D di belakang sehingga antrean menjadi A, B, C, D. dequeue() mengeluarkan A di depan, tersisa B, C, D."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Algoritma yang memiliki perulangan tanpa kondisi berhenti yang jelas akan menyebabkan …",
+              "options": [
+                {
+                  "text": "program berhenti sendiri setelah 1 detik",
+                  "correct": false
+                },
+                {
+                  "text": "perulangan tak hingga",
+                  "correct": true
+                },
+                {
+                  "text": "komputer otomatis mematikan program",
+                  "correct": false
+                },
+                {
+                  "text": "data terhapus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanpa kondisi berhenti, perulangan terus berjalan sehingga program menggantung (infinite loop)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Algoritma A memerlukan n langkah dan algoritma B memerlukan n² langkah untuk n = 100. Selisih langkahnya adalah …",
+              "options": [
+                {
+                  "text": "100",
+                  "correct": false
+                },
+                {
+                  "text": "900",
+                  "correct": false
+                },
+                {
+                  "text": "9.900",
+                  "correct": true
+                },
+                {
+                  "text": "10.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "B memerlukan 100² = 10.000 langkah, A memerlukan 100 langkah. Selisihnya 10.000 − 100 = 9.900 langkah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menyembunyikan detail yang tidak perlu dan hanya menampilkan informasi penting dari suatu masalah disebut …",
+              "options": [
+                {
+                  "text": "abstraksi",
+                  "correct": true
+                },
+                {
+                  "text": "dekomposisi",
+                  "correct": false
+                },
+                {
+                  "text": "iterasi",
+                  "correct": false
+                },
+                {
+                  "text": "kompilasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Abstraksi menyaring detail yang tidak relevan agar masalah lebih mudah dipahami."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengenali bahwa soal \"hitung total belanja\" dan \"hitung total nilai rapor\" memiliki pola penjumlahan yang sama termasuk …",
+              "options": [
+                {
+                  "text": "pengenalan pola",
+                  "correct": true
+                },
+                {
+                  "text": "enkripsi",
+                  "correct": false
+                },
+                {
+                  "text": "kompresi",
+                  "correct": false
+                },
+                {
+                  "text": "routing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengenalan pola menemukan kesamaan struktur antar masalah yang berbeda konteks."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data 5, 4, 3, 2, 1 diurutkan naik dengan bubble sort. Jumlah putaran (pass) sampai data terurut seluruhnya adalah …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap putaran menempatkan satu nilai terbesar di posisinya. Untuk 5 data yang sepenuhnya terbalik, dibutuhkan 4 putaran; putaran kelima hanya memeriksa tanpa pertukaran."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang binary search dan linear search? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Binary search lebih cepat pada data besar yang terurut",
+                  "correct": true
+                },
+                {
+                  "text": "Linear search dapat dipakai pada data yang belum terurut",
+                  "correct": true
+                },
+                {
+                  "text": "Binary search memerlukan data terurut",
+                  "correct": true
+                },
+                {
+                  "text": "Linear search selalu lebih cepat daripada binary search",
+                  "correct": false
+                }
+              ],
+              "explanation": "Binary search menuntut data terurut dan jauh lebih cepat pada data besar, sedangkan linear search tidak menuntut urutan tetapi memeriksa satu per satu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk penerapan berpikir komputasional dalam kehidupan sehari-hari? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Membagi tugas besar menjadi beberapa tugas kecil",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat langkah-langkah memasak yang berurutan",
+                  "correct": true
+                },
+                {
+                  "text": "Mengenali pola jadwal agar tidak bentrok",
+                  "correct": true
+                },
+                {
+                  "text": "Menghafal nomor telepon tanpa memahami polanya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dekomposisi (membagi tugas), algoritma (langkah berurutan), dan pengenalan pola adalah inti berpikir komputasional. Menghafal tanpa memahami pola bukan penerapannya."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan masalah dengan pilar berpikir komputasional yang paling tepat.",
+              "options": [
+                {
+                  "id": "m1",
+                  "text": [
+                    "Memecah proyek aplikasi menjadi modul",
+                    "Dekomposisi"
+                  ]
+                },
+                {
+                  "id": "m2",
+                  "text": [
+                    "Menyusun langkah pemesanan tiket secara berurutan",
+                    "Algoritma"
+                  ]
+                },
+                {
+                  "id": "m3",
+                  "text": [
+                    "Menemukan kesamaan pola pada dua soal berbeda",
+                    "Pengenalan pola"
+                  ]
+                },
+                {
+                  "id": "m4",
+                  "text": [
+                    "Mengabaikan detail warna saat merancang basis data",
+                    "Abstraksi"
+                  ]
+                }
+              ],
+              "correct": {
+                "map": {
+                  "m1": "Dekomposisi",
+                  "m2": "Algoritma",
+                  "m3": "Pengenalan pola",
+                  "m4": "Abstraksi"
+                }
+              },
+              "explanation": "Memecah proyek adalah dekomposisi, langkah berurutan adalah algoritma, menemukan kesamaan adalah pengenalan pola, dan menyaring detail adalah abstraksi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menyelesaikan masalah dengan pendekatan berpikir komputasional.",
+              "options": [
+                {
+                  "id": "p1",
+                  "text": "Pahami masalah dan tentukan apa yang ingin dicapai"
+                },
+                {
+                  "id": "p2",
+                  "text": "Pecah masalah menjadi bagian yang lebih kecil"
+                },
+                {
+                  "id": "p3",
+                  "text": "Kenali pola dan saring detail yang tidak perlu"
+                },
+                {
+                  "id": "p4",
+                  "text": "Susun langkah penyelesaian menjadi algoritma"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Berpikir komputasional bergerak dari memahami masalah, mendekomposisi, mengenali pola dan berabstraksi, lalu menyusun algoritma."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan setiap situasi ke struktur data yang sesuai.",
+              "options": [
+                {
+                  "id": "d1",
+                  "text": "Tumpukan piring di rak"
+                },
+                {
+                  "id": "d2",
+                  "text": "Antrean pembeli di kasir"
+                },
+                {
+                  "id": "d3",
+                  "text": "Fitur undo pada pengolah kata"
+                },
+                {
+                  "id": "d4",
+                  "text": "Dokumen yang dicetak berurutan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "d1": "Stack (LIFO)",
+                  "d2": "Queue (FIFO)",
+                  "d3": "Stack (LIFO)",
+                  "d4": "Queue (FIFO)"
+                }
+              },
+              "explanation": "Tumpukan piring dan fitur undo bersifat LIFO sehingga memakai stack. Antrean kasir dan antrean cetak bersifat FIFO sehingga memakai queue."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data 1.024 buah sudah terurut dicari dengan binary search. Jumlah pemeriksaan maksimum adalah …",
+              "options": [
+                {
+                  "text": "8",
+                  "correct": false
+                },
+                {
+                  "text": "10",
+                  "correct": true
+                },
+                {
+                  "text": "12",
+                  "correct": false
+                },
+                {
+                  "text": "1.024",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karena 2¹⁰ = 1.024, paling banyak dibutuhkan 10 pemeriksaan untuk mempersempit rentang hingga satu elemen."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

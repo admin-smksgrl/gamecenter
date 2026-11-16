@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "informatika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "INF 7",
+      "title": "Dampak Sosial Informatika",
+      "description": "Sejarah perkembangan komputer, dampak informatika pada ekonomi dan hukum, serta perancangan gagasan dan rencana karier.",
+      "learning_objectives": [
+        "Menjelaskan sejarah perkembangan komputer dan tokoh-tokoh yang menjadi pelaku sejarahnya.",
+        "Menjelaskan dampak informatika pada aspek ekonomi dan hukum yang terjadi pada masyarakat.",
+        "Merancang gagasan berbasis informatika untuk menyelesaikan suatu permasalahan yang berdampak pada berbagai aspek kehidupan manusia.",
+        "Merancang rencana studi lanjut dan kariernya, baik di bidang informatika, bidang yang terkait dengan informatika, atau bidang yang menggunakan informatika."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Informatika Kelas X SMA Fase E Bab 8",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Sejarah Singkat Komputasi",
+          "duration": 240,
+          "source_reference": "Bab 8 — Sejarah Komputer",
+          "content": "## Tokoh dan tonggak penting\n\n| Tokoh | Kontribusi |\n|---|---|\n| **Blaise Pascal** | Pascaline, kalkulator mekanis |\n| **Charles Babbage** | merancang mesin analitik |\n| **Ada Lovelace** | menulis algoritma untuk mesin analitik |\n| **Alan Turing** | merumuskan mesin Turing, dasar teori komputasi |\n| **Tim Berners-Lee** | mengembangkan World Wide Web |\n\n### Tonggak mesin\n\n- Pascaline — mesin hitung mekanis abad ke-17\n- Mesin analitik — rancangan Babbage yang menjadi cikal bakal komputer\n- ENIAC — salah satu komputer elektronik pertama berskala besar (1940-an)\n- Komputer pribadi — komputer dipakai perorangan\n\n### Revolusi Industri 4.0\n\nDitandai integrasi **otomasi**, **pertukaran data**, dan **kecerdasan artifisial** dalam proses produksi dan layanan."
+        },
+        {
+          "type": "text",
+          "title": "Dampak pada Ekonomi dan Hukum",
+          "duration": 360,
+          "source_reference": "Bab 8 — Dampak Sosial Informatika",
+          "content": "## Dampak ekonomi\n\n**Positif**\n- lapangan kerja baru: pengembang, analis data, analis keamanan siber\n- efisiensi dan perluasan pasar melalui perdagangan elektronik\n- UMKM dapat memakai katalog daring\n\n**Negatif**\n- otomasi mengurangi pekerjaan rutin\n- penipuan daring\n- kesenjangan digital antar wilayah\n\nOtomasi tidak menghapus semua pekerjaan; pekerjaan berulang berkurang dan keterampilan baru dibutuhkan.\n\n## Dampak hukum\n\nRuang digital memiliki akibat hukum nyata, sehingga muncul:\n\n- **UU ITE** — mengatur informasi dan transaksi elektronik\n- aturan perlindungan data pribadi\n- aturan hak kekayaan intelektual\n\nContoh pelanggaran: pencurian data, penyebaran data pribadi tanpa izin, penyalinan perangkat lunak tanpa lisensi, pencemaran nama baik daring.\n\n## Etika\n\nBila menemukan data pribadi orang lain yang bocor, langkah yang benar adalah melaporkan dan **tidak menyebarkannya**. Menyebarkan data pribadi melanggar privasi dan dapat berimplikasi hukum."
+        },
+        {
+          "type": "interactive",
+          "title": "Merancang Gagasan dan Karier",
+          "duration": 240,
+          "source_reference": "Bab 8 — Perancangan Gagasan",
+          "content": "## Dari masalah ke gagasan\n\nGagasan berbasis informatika yang baik selalu dimulai dari **masalah nyata**.\n\nContoh: kemacetan kota → aplikasi pemantau lalu lintas waktu nyata.\n\n### Langkah merancang\n\n1. Mengidentifikasi masalah\n2. Menentukan solusi berbasis komputasi yang sesuai\n3. Merancang rencana pembuatan dan pengujian\n4. Menyajikan gagasan kepada pihak terkait\n\nAgar berkelanjutan, sistem perlu **pemeliharaan**, **pembaruan**, dan masukan pengguna.\n\n## Merancang rencana karier\n\n| Bidang | Dasar yang perlu diperdalam |\n|---|---|\n| Analis data | matematika, statistika, pemrograman |\n| Pengembang perangkat lunak | algoritma, pemrograman, rekayasa perangkat lunak |\n| Keamanan siber | jaringan, sistem operasi, kriptografi |\n| Desain antarmuka | desain, psikologi pengguna, pemrograman web |\n\n### Literasi digital\n\nBukan hanya kemampuan teknis, tetapi juga kesadaran etika, keamanan, dan tanggung jawab sosial — termasuk melindungi data pribadi pengguna."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Dampak Sosial Informatika — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Penemu mesin analitik yang dianggap pelopor komputer adalah …",
+              "options": [
+                {
+                  "text": "Charles Babbage",
+                  "correct": true
+                },
+                {
+                  "text": "Alan Turing",
+                  "correct": false
+                },
+                {
+                  "text": "Bill Gates",
+                  "correct": false
+                },
+                {
+                  "text": "Steve Jobs",
+                  "correct": false
+                }
+              ],
+              "explanation": "Charles Babbage merancang mesin analitik, cikal bakal komputer modern."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tokoh yang mengembangkan konsep mesin Turing adalah …",
+              "options": [
+                {
+                  "text": "Charles Babbage",
+                  "correct": false
+                },
+                {
+                  "text": "Alan Turing",
+                  "correct": true
+                },
+                {
+                  "text": "Ada Lovelace",
+                  "correct": false
+                },
+                {
+                  "text": "Tim Berners-Lee",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alan Turing merumuskan mesin Turing yang menjadi dasar teori komputasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu dampak positif informatika pada bidang ekonomi adalah …",
+              "options": [
+                {
+                  "text": "membuka lapangan kerja baru di bidang digital",
+                  "correct": true
+                },
+                {
+                  "text": "menghapus semua pekerjaan",
+                  "correct": false
+                },
+                {
+                  "text": "membuat transaksi lebih lambat",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan kebutuhan komunikasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Informatika melahirkan profesi baru seperti pengembang perangkat lunak dan analis data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbuatan mengambil data orang lain tanpa izin dan menggunakannya disebut …",
+              "options": [
+                {
+                  "text": "pencurian data",
+                  "correct": true
+                },
+                {
+                  "text": "kolaborasi",
+                  "correct": false
+                },
+                {
+                  "text": "visualisasi",
+                  "correct": false
+                },
+                {
+                  "text": "enkripsi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pencurian data melanggar hukum dan etika karena melanggar hak privasi orang lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Undang-undang di Indonesia yang mengatur tentang informasi dan transaksi elektronik disingkat …",
+              "options": [
+                {
+                  "text": "UU ITE",
+                  "correct": true
+                },
+                {
+                  "text": "UU PA",
+                  "correct": false
+                },
+                {
+                  "text": "UU KDG",
+                  "correct": false
+                },
+                {
+                  "text": "UU PPN",
+                  "correct": false
+                }
+              ],
+              "explanation": "UU ITE mengatur informasi dan transaksi elektronik, termasuk penyalahgunaan data dan pencemaran nama baik."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Dampak Sosial Informatika — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mesin hitung mekanis pertama yang dikembangkan Blaise Pascal dikenal sebagai …",
+              "options": [
+                {
+                  "text": "Pascaline",
+                  "correct": true
+                },
+                {
+                  "text": "Analytical Engine",
+                  "correct": false
+                },
+                {
+                  "text": "ENIAC",
+                  "correct": false
+                },
+                {
+                  "text": "Colossus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pascaline adalah kalkulator mekanis hasil rancangan Blaise Pascal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Komputer elektronik pertama berskala besar yang dibangun pada 1940-an adalah …",
+              "options": [
+                {
+                  "text": "ENIAC",
+                  "correct": true
+                },
+                {
+                  "text": "Pascaline",
+                  "correct": false
+                },
+                {
+                  "text": "Apple II",
+                  "correct": false
+                },
+                {
+                  "text": "IBM PC",
+                  "correct": false
+                }
+              ],
+              "explanation": "ENIAC (Electronic Numerical Integrator and Computer) adalah salah satu komputer elektronik pertama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak negatif perdagangan elektronik bila tidak diatur dengan baik adalah …",
+              "options": [
+                {
+                  "text": "penipuan daring",
+                  "correct": true
+                },
+                {
+                  "text": "pengiriman lebih cepat",
+                  "correct": false
+                },
+                {
+                  "text": "harga lebih murah",
+                  "correct": false
+                },
+                {
+                  "text": "pilihan barang lebih banyak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Transaksi daring memerlukan perlindungan konsumen dan verifikasi penjual."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pelanggaran hak kekayaan intelektual di bidang perangkat lunak contohnya …",
+              "options": [
+                {
+                  "text": "menggunakan lisensi resmi",
+                  "correct": false
+                },
+                {
+                  "text": "menyalin dan menjual perangkat lunak tanpa izin",
+                  "correct": true
+                },
+                {
+                  "text": "membeli lisensi untuk sekolah",
+                  "correct": false
+                },
+                {
+                  "text": "memakai perangkat lunak bebas lisensi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menyalin perangkat lunak berlisensi tanpa izin melanggar hak penciptanya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu peluang karier di bidang informatika adalah …",
+              "options": [
+                {
+                  "text": "analis keamanan siber",
+                  "correct": true
+                },
+                {
+                  "text": "penyadap data",
+                  "correct": false
+                },
+                {
+                  "text": "penyebar malware",
+                  "correct": false
+                },
+                {
+                  "text": "pembuat berita bohong",
+                  "correct": false
+                }
+              ],
+              "explanation": "Profesi sah di bidang informatika antara lain pengembang, analis data, dan analis keamanan siber."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Istilah yang menggambarkan kesenjangan akses teknologi antar wilayah disebut …",
+              "options": [
+                {
+                  "text": "kesenjangan digital",
+                  "correct": true
+                },
+                {
+                  "text": "redundansi data",
+                  "correct": false
+                },
+                {
+                  "text": "enkripsi",
+                  "correct": false
+                },
+                {
+                  "text": "kompresi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kesenjangan digital muncul saat sebagian masyarakat belum memperoleh akses teknologi yang memadai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu cara mengurangi dampak negatif media sosial adalah …",
+              "options": [
+                {
+                  "text": "memeriksa kebenaran informasi sebelum membagikannya",
+                  "correct": true
+                },
+                {
+                  "text": "membagikan semua informasi",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan informasi tanpa sumber",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan etika",
+                  "correct": false
+                }
+              ],
+              "explanation": "Verifikasi informasi mencegah penyebaran berita bohong."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk dampak positif informatika di bidang pendidikan? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Akses materi belajar daring",
+                  "correct": true
+                },
+                {
+                  "text": "Kelas jarak jauh",
+                  "correct": true
+                },
+                {
+                  "text": "Perpustakaan digital",
+                  "correct": true
+                },
+                {
+                  "text": "Menyontek jawaban orang lain secara daring",
+                  "correct": false
+                }
+              ],
+              "explanation": "Informatika memperluas akses belajar melalui materi daring, kelas jarak jauh, dan perpustakaan digital. Menyontek adalah penyalahgunaan."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan tokoh dengan kontribusinya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Charles Babbage"
+                },
+                {
+                  "id": "o1",
+                  "text": "Ada Lovelace"
+                },
+                {
+                  "id": "o2",
+                  "text": "Alan Turing"
+                },
+                {
+                  "id": "o3",
+                  "text": "Tim Berners-Lee"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Merancang mesin analitik",
+                  "o1": "Menulis algoritma untuk mesin analitik",
+                  "o2": "Merumuskan mesin Turing",
+                  "o3": "Mengembangkan World Wide Web"
+                }
+              },
+              "explanation": "Keempat tokoh berperan penting pada sejarah komputasi dan internet."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan dampak informatika menjadi positif atau negatif.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Kemudahan komunikasi"
+                },
+                {
+                  "id": "o1",
+                  "text": "Penyebaran berita bohong"
+                },
+                {
+                  "id": "o2",
+                  "text": "Efisiensi pekerjaan"
+                },
+                {
+                  "id": "o3",
+                  "text": "Kecanduan gawai"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Positif",
+                  "o1": "Negatif",
+                  "o2": "Positif",
+                  "o3": "Negatif"
+                }
+              },
+              "explanation": "Dampak positif meningkatkan manfaat, dampak negatif menimbulkan kerugian bila tidak dikendalikan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Dampak Sosial Informatika — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa undang-undang siber diperlukan?",
+              "options": [
+                {
+                  "text": "karena kegiatan di ruang digital dapat merugikan pihak lain seperti di dunia nyata",
+                  "correct": true
+                },
+                {
+                  "text": "karena internet tidak memiliki pengguna",
+                  "correct": false
+                },
+                {
+                  "text": "karena data tidak bernilai",
+                  "correct": false
+                },
+                {
+                  "text": "karena komputer tidak dapat menyimpan data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ruang digital memiliki dampak hukum yang nyata, sehingga memerlukan aturan yang jelas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gagasan berbasis informatika yang paling tepat untuk mengurangi kemacetan di kota adalah …",
+              "options": [
+                {
+                  "text": "aplikasi pemantau lalu lintas waktu nyata",
+                  "correct": true
+                },
+                {
+                  "text": "situs berita hiburan",
+                  "correct": false
+                },
+                {
+                  "text": "aplikasi pemutar musik",
+                  "correct": false
+                },
+                {
+                  "text": "permainan daring",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemantauan lalu lintas waktu nyata membantu pengguna memilih jalur dan pemerintah mengatur arus."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Seorang siswa ingin menjadi analis data. Rencana studi yang tepat adalah …",
+              "options": [
+                {
+                  "text": "memperdalam matematika, statistika, dan pemrograman",
+                  "correct": true
+                },
+                {
+                  "text": "menghindari seluruh pelajaran eksakta",
+                  "correct": false
+                },
+                {
+                  "text": "hanya mempelajari desain grafis",
+                  "correct": false
+                },
+                {
+                  "text": "tidak perlu melanjutkan studi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Analisis data memerlukan dasar matematika, statistika, dan keterampilan pemrograman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Revolusi Industri 4.0 ditandai oleh …",
+              "options": [
+                {
+                  "text": "integrasi otomasi, data, dan kecerdasan artifisial",
+                  "correct": true
+                },
+                {
+                  "text": "penggunaan mesin uap",
+                  "correct": false
+                },
+                {
+                  "text": "penemuan roda",
+                  "correct": false
+                },
+                {
+                  "text": "penggunaan telegraf",
+                  "correct": false
+                }
+              ],
+              "explanation": "Revolusi Industri 4.0 menggabungkan otomasi, pertukaran data, dan teknologi cerdas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Etika yang tepat saat menemukan data pribadi teman yang bocor adalah …",
+              "options": [
+                {
+                  "text": "melaporkan kepada pihak berwenang dan tidak menyebarkannya",
+                  "correct": true
+                },
+                {
+                  "text": "membagikannya ke grup kelas",
+                  "correct": false
+                },
+                {
+                  "text": "menyimpannya untuk memeras",
+                  "correct": false
+                },
+                {
+                  "text": "mengunggahnya ke media sosial",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menyebarkan data pribadi orang lain melanggar privasi dan dapat berimplikasi hukum."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk profesi terkait informatika? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Pengembang perangkat lunak",
+                  "correct": true
+                },
+                {
+                  "text": "Analis data",
+                  "correct": true
+                },
+                {
+                  "text": "Administrator jaringan",
+                  "correct": true
+                },
+                {
+                  "text": "Penyebar spam",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengembang, analis data, dan administrator jaringan adalah profesi sah. Penyebar spam melanggar hukum dan etika."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak informatika pada bidang hukum yang paling terasa adalah …",
+              "options": [
+                {
+                  "text": "munculnya jenis tindak pidana baru di ruang digital",
+                  "correct": true
+                },
+                {
+                  "text": "hilangnya semua pengadilan",
+                  "correct": false
+                },
+                {
+                  "text": "hukum tidak lagi diperlukan",
+                  "correct": false
+                },
+                {
+                  "text": "semua perkara selesai otomatis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kejahatan siber memunculkan kategori tindak pidana baru yang diatur dalam peraturan khusus."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu cara memanfaatkan informatika untuk membantu UMKM adalah …",
+              "options": [
+                {
+                  "text": "membuat katalog daring dan sistem pemesanan sederhana",
+                  "correct": true
+                },
+                {
+                  "text": "menutup semua saluran penjualan",
+                  "correct": false
+                },
+                {
+                  "text": "melarang pembayaran digital",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus data pelanggan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Katalog daring memperluas jangkauan pasar dan mempermudah pelanggan memesan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Yang dimaksud literasi digital adalah …",
+              "options": [
+                {
+                  "text": "kemampuan memahami dan memakai teknologi digital secara bijak",
+                  "correct": true
+                },
+                {
+                  "text": "kemampuan mengetik cepat saja",
+                  "correct": false
+                },
+                {
+                  "text": "kemampuan membeli perangkat mahal",
+                  "correct": false
+                },
+                {
+                  "text": "kemampuan menghafal nama aplikasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Literasi digital mencakup keterampilan teknis sekaligus kesadaran etika dan keamanan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah merancang gagasan berbasis informatika untuk masalah sekolah.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Mengidentifikasi masalah yang dihadapi"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menentukan solusi berbasis komputasi yang sesuai"
+                },
+                {
+                  "id": "s2",
+                  "text": "Merancang rencana pembuatan dan pengujian"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menyajikan gagasan kepada pihak terkait"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Gagasan yang baik dimulai dari masalah nyata, lalu solusi dirancang dan diuji sebelum disajikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak otomasi terhadap tenaga kerja yang paling tepat adalah …",
+              "options": [
+                {
+                  "text": "pekerjaan rutin berkurang dan keterampilan baru dibutuhkan",
+                  "correct": true
+                },
+                {
+                  "text": "semua pekerjaan langsung hilang",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada perubahan sama sekali",
+                  "correct": false
+                },
+                {
+                  "text": "pekerjaan menjadi lebih lambat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Otomasi menggantikan pekerjaan berulang, sehingga pekerja perlu meningkatkan keterampilan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Agar gagasan berbasis informatika berkelanjutan, hal penting yang harus diperhatikan adalah …",
+              "options": [
+                {
+                  "text": "pemeliharaan dan pembaruan sistem",
+                  "correct": true
+                },
+                {
+                  "text": "membiarkan sistem tanpa perawatan",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari masukan pengguna",
+                  "correct": false
+                },
+                {
+                  "text": "menutup akses untuk semua",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sistem perlu dipelihara, diperbarui, dan disesuaikan dengan kebutuhan pengguna agar tetap bermanfaat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu bentuk tanggung jawab sosial pengembang aplikasi adalah …",
+              "options": [
+                {
+                  "text": "melindungi data pribadi pengguna",
+                  "correct": true
+                },
+                {
+                  "text": "menjual data pengguna",
+                  "correct": false
+                },
+                {
+                  "text": "menyembunyikan kebijakan privasi",
+                  "correct": false
+                },
+                {
+                  "text": "memasang iklan palsu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengembang wajib menjaga keamanan data dan memberi informasi yang jelas kepada pengguna."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh pelanggaran hak cipta di internet adalah …",
+              "options": [
+                {
+                  "text": "mengunggah ulang karya orang lain tanpa izin",
+                  "correct": true
+                },
+                {
+                  "text": "mengutip dengan menyebut sumber",
+                  "correct": false
+                },
+                {
+                  "text": "memakai karya berlisensi terbuka sesuai syarat",
+                  "correct": false
+                },
+                {
+                  "text": "membeli lisensi resmi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mengunggah ulang tanpa izin merugikan pencipta; mengutip dengan sumber yang jelas diperbolehkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu risiko berbagi lokasi (geo-tagging) secara terbuka adalah …",
+              "options": [
+                {
+                  "text": "keamanan pribadi terancam karena posisi diketahui orang lain",
+                  "correct": true
+                },
+                {
+                  "text": "baterai menjadi lebih awet",
+                  "correct": false
+                },
+                {
+                  "text": "kamera menjadi lebih tajam",
+                  "correct": false
+                },
+                {
+                  "text": "sinyal menjadi lebih kuat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Informasi lokasi dapat dipakai pihak yang tidak bertanggung jawab untuk melacak keberadaan seseorang."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

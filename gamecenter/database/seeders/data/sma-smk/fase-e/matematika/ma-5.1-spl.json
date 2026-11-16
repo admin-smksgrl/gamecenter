@@ -1,0 +1,802 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "matematika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "MA 5.1",
+      "title": "Sistem Persamaan Linear",
+      "description": "Memodelkan masalah nyata ke dalam sistem persamaan linear dua variabel dan menyelesaikannya.",
+      "learning_objectives": [
+        "Memodelkan masalah ke dalam Sistem Persamaan Linear dan menyelesaikannya."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar MA 5.1 Sistem Persamaan Linear",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Dua Persamaan, Dua Hal yang Dicari",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 5.1 — Kompetensi Awal",
+          "content": "## Mengapa perlu dua persamaan?\n\nSatu persamaan dengan dua variabel punya **banyak** penyelesaian:\nx + y = 7 bisa berarti (1,6), (2,5), (3,4), dan seterusnya.\n\nTambahkan satu persamaan lagi — x − y = 1 — dan penyelesaiannya menjadi **tunggal**: x = 4 dan y = 3.\n\nItulah gunanya **sistem persamaan linear dua variabel (SPLDV)**: dua persamaan dipakai bersama untuk mengunci satu jawaban.\n\n### Bentuk umum\n\n> a₁x + b₁y = c₁\n> a₂x + b₂y = c₂\n\nx dan y disebut **variabel**, sedangkan a, b, c adalah **koefisien** dan **konstanta**.\n\n### Tiga kemungkinan hasil\n\n| Kondisi | Arti geometris |\n|---|---|\n| Satu penyelesaian | Dua garis berpotongan di satu titik |\n| Tidak ada penyelesaian | Dua garis sejajar |\n| Tak hingga penyelesaian | Dua garis berimpit |"
+        },
+        {
+          "type": "text",
+          "title": "Dua Metode Penyelesaian",
+          "duration": 360,
+          "source_reference": "Modul Ajar MA 5.1 — Tujuan Pembelajaran",
+          "content": "## 1. Metode substitusi\n\n**Contoh:** 2x + y = 8 dan x − y = 1\n\nLangkah:\n1. Nyatakan satu variabel dari salah satu persamaan: y = 8 − 2x\n2. Substitusikan ke persamaan lain: x − (8 − 2x) = 1\n3. Selesaikan: 3x − 8 = 1 → 3x = 9 → x = 3\n4. Cari pasangannya: y = 8 − 6 = 2\n5. **Periksa:** 2(3) + 2 = 8 ✓ dan 3 − 2 = 1 ✓\n\n## 2. Metode eliminasi\n\n**Contoh:** 3x + 2y = 16 dan 2x + 3y = 19\n\nLangkah:\n1. Jumlahkan kedua persamaan: 5x + 5y = 35 → **x + y = 7**\n2. Kurangkan: x − y = −3\n3. Dari x + y = 7 dan x − y = −3 diperoleh x = 2, y = 5\n\n### Memilih metode\n\n- **Substitusi** lebih mudah bila salah satu koefisien bernilai 1 atau −1.\n- **Eliminasi** lebih mudah bila koefisiennya kecil dan mirip.\n\n**Selalu periksa** hasilmu dengan memasukkannya kembali ke **kedua** persamaan asal."
+        },
+        {
+          "type": "interactive",
+          "title": "Memodelkan Soal Cerita",
+          "duration": 240,
+          "source_reference": "Modul Ajar MA 5.1 — Tujuan Pembelajaran",
+          "content": "## Empat langkah memodelkan\n\n1. **Beri nama** yang dicari (mis. b = harga buku, p = harga pulpen)\n2. **Terjemahkan** setiap kalimat menjadi satu persamaan\n3. **Selesaikan** sistemnya\n4. **Kembalikan** ke konteks soal (jangan lupa satuannya)\n\n### Contoh\n\nHarga 2 buku dan 3 pulpen adalah Rp13.000. Harga 1 buku dan 1 pulpen adalah Rp6.000. Berapa harga masing-masing?\n\n- 2b + 3p = 13.000\n- b + p = 6.000 → b = 6.000 − p\n\nSubstitusi: 2(6.000 − p) + 3p = 13.000 → 12.000 + p = 13.000 → **p = 1.000**\nMaka **b = 5.000**.\n\n### Perangkap umum\n\nKalimat **\"tiga kali lebih tua\"** berarti **3×**, bukan 4×. Kalimat **\"selisih\"** berarti pengurangan, dan urutannya menentukan tanda."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Sistem Persamaan Linear — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Penyelesaian x + y = 7 dan x − y = 1 memberi nilai x = …",
+              "options": [
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlahkan kedua persamaan: 2x = 8, sehingga x = 4 (dan y = 3).",
+              "hint": "Jumlahkan kedua persamaan agar y hilang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika x + y = 10 dan x = 4, maka y = …",
+              "options": [
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": true
+                },
+                {
+                  "text": "14",
+                  "correct": false
+                }
+              ],
+              "explanation": "Substitusi x = 4: 4 + y = 10, sehingga y = 6.",
+              "hint": "Kurangkan 4 dari 10."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah yang merupakan sistem persamaan linear dua variabel?",
+              "options": [
+                {
+                  "text": "2x + 3y = 6 dan x − y = 1",
+                  "correct": true
+                },
+                {
+                  "text": "x² + y = 5 dan x − y = 1",
+                  "correct": false
+                },
+                {
+                  "text": "x + y = 5 dan x + y = 5",
+                  "correct": false
+                },
+                {
+                  "text": "2x = 8 dan 3y = 9",
+                  "correct": false
+                }
+              ],
+              "explanation": "SPLDV memuat dua persamaan linear dengan dua variabel berbeda. x² bukan linear, dan dua persamaan identik atau satu variabel saja bukan SPLDV.",
+              "hint": "Cari dua persamaan dengan variabel x dan y berpangkat satu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pasangan (2, 3) memenuhi persamaan …",
+              "options": [
+                {
+                  "text": "x + y = 5",
+                  "correct": true
+                },
+                {
+                  "text": "x + y = 6",
+                  "correct": false
+                },
+                {
+                  "text": "2x + y = 5",
+                  "correct": false
+                },
+                {
+                  "text": "x − y = 5",
+                  "correct": false
+                }
+              ],
+              "explanation": "2 + 3 = 5, sehingga (2,3) memenuhi x + y = 5. Opsi lain: 2(2)+3 = 7, dan 2−3 = −1.",
+              "hint": "Substitusikan x = 2 dan y = 3 ke setiap opsi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui 2x + y = 8 dan y = 2. Nilai x adalah …",
+              "options": [
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Substitusi y = 2: 2x + 2 = 8 → 2x = 6 → x = 3.",
+              "hint": "Ganti y dengan 2, lalu selesaikan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Sistem Persamaan Linear — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Penyelesaian x + y = 5 dan x − y = 3 adalah …",
+              "options": [
+                {
+                  "text": "x = 1, y = 4",
+                  "correct": false
+                },
+                {
+                  "text": "x = 4, y = 1",
+                  "correct": true
+                },
+                {
+                  "text": "x = 3, y = 2",
+                  "correct": false
+                },
+                {
+                  "text": "x = 2, y = 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlahkan: 2x = 8 → x = 4. Kurangkan: 2y = 2 → y = 1. Periksa: 4 + 1 = 5 ✓, 4 − 1 = 3 ✓.",
+              "hint": "Jumlahkan untuk x, kurangkan untuk y."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui 2x + 3y = 12 dan x = 3. Nilai y adalah …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": true
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                }
+              ],
+              "explanation": "2(3) + 3y = 12 → 6 + 3y = 12 → 3y = 6 → y = 2.",
+              "hint": "Hitung 2 × 3 lebih dulu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyelesaian 3x + 2y = 16 dan x − y = 2 adalah …",
+              "options": [
+                {
+                  "text": "x = 4, y = 2",
+                  "correct": true
+                },
+                {
+                  "text": "x = 2, y = 4",
+                  "correct": false
+                },
+                {
+                  "text": "x = 5, y = 3",
+                  "correct": false
+                },
+                {
+                  "text": "x = 3, y = 1",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dari x − y = 2 diperoleh x = y + 2. Substitusi: 3(y + 2) + 2y = 16 → 5y + 6 = 16 → y = 2, lalu x = 4.",
+              "hint": "Nyatakan x sebagai y + 2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyelesaian x + 2y = 8 dan 2x − y = 1 adalah …",
+              "options": [
+                {
+                  "text": "x = 2, y = 3",
+                  "correct": true
+                },
+                {
+                  "text": "x = 3, y = 2",
+                  "correct": false
+                },
+                {
+                  "text": "x = 4, y = 2",
+                  "correct": false
+                },
+                {
+                  "text": "x = 1, y = 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dari x = 8 − 2y, substitusi ke 2x − y = 1: 16 − 5y = 1 → y = 3, lalu x = 2.",
+              "hint": "Nyatakan x dari persamaan pertama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Harga 2 buku dan 3 pulpen Rp13.000, sedangkan 1 buku dan 1 pulpen Rp6.000. Harga satu buku adalah …",
+              "options": [
+                {
+                  "text": "Rp3.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp4.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp5.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp6.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "2b + 3p = 13.000 dan b + p = 6.000. Substitusi b = 6.000 − p: 12.000 + p = 13.000 → p = 1.000, maka b = 5.000.",
+              "hint": "Nyatakan b = 6.000 − p."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Harga 3 kg apel dan 2 kg jeruk Rp90.000. Jika 1 kg apel Rp20.000, harga 1 kg jeruk adalah …",
+              "options": [
+                {
+                  "text": "Rp10.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp15.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp20.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp25.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "3(20.000) + 2j = 90.000 → 60.000 + 2j = 90.000 → 2j = 30.000 → j = Rp15.000.",
+              "hint": "Hitung 3 × 20.000 lebih dulu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Pasangan mana yang memenuhi 2x + y = 10? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "(3, 4)",
+                  "correct": true
+                },
+                {
+                  "text": "(5, 0)",
+                  "correct": true
+                },
+                {
+                  "text": "(2, 5)",
+                  "correct": false
+                },
+                {
+                  "text": "(1, 8)",
+                  "correct": true
+                }
+              ],
+              "explanation": "2(3)+4 = 10 ✓, 2(5)+0 = 10 ✓, 2(1)+8 = 10 ✓. Sedangkan 2(2)+5 = 9 ✗.",
+              "hint": "Substitusikan tiap pasangan ke 2x + y."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan sistem persamaan dengan penyelesaiannya.",
+              "options": [
+                {
+                  "id": "m1",
+                  "text": "x + y = 6, x − y = 2"
+                },
+                {
+                  "id": "m2",
+                  "text": "x + y = 4, x − y = 0"
+                },
+                {
+                  "id": "m3",
+                  "text": "2x + y = 9, x + y = 6"
+                },
+                {
+                  "id": "m4",
+                  "text": "x + 2y = 10, x − y = 1"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "m1": "(4, 2)",
+                  "m2": "(2, 2)",
+                  "m3": "(3, 3)",
+                  "m4": "(4, 3)"
+                }
+              },
+              "explanation": "m1: x=4, y=2. m2: x=2, y=2. m3: x=3, y=3. m4: x=4, y=3 (periksa 4+6=10 ✓, 4−3=1 ✓).",
+              "hint": "Jumlahkan atau kurangkan kedua persamaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem x + y = 5 dan x + y = 8 memiliki …",
+              "options": [
+                {
+                  "text": "satu penyelesaian",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada penyelesaian",
+                  "correct": true
+                },
+                {
+                  "text": "tak hingga penyelesaian",
+                  "correct": false
+                },
+                {
+                  "text": "dua penyelesaian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kedua garis sejajar karena koefisien x dan y sama tetapi konstantanya berbeda, sehingga tidak pernah berpotongan.",
+              "hint": "Bandingkan koefisien dan konstantanya."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah metode substitusi untuk 2x + y = 8 dan x − y = 1, lalu tentukan hasilnya.",
+              "options": [
+                {
+                  "id": "s1",
+                  "text": "Nyatakan y = 8 − 2x"
+                },
+                {
+                  "id": "s2",
+                  "text": "Substitusi ke x − y = 1"
+                },
+                {
+                  "id": "s3",
+                  "text": "Peroleh 3x = 9"
+                },
+                {
+                  "id": "s4",
+                  "text": "Hasil x = 3, y = 2"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "s1": "1",
+                  "s2": "2",
+                  "s3": "3",
+                  "s4": "4"
+                }
+              },
+              "explanation": "Nyatakan satu variabel, substitusikan, selesaikan, lalu cari pasangannya. Hasilnya x = 3 dan y = 2.",
+              "hint": "Mulai dari menyatakan satu variabel."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Sistem Persamaan Linear — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Penyelesaian 3x + 2y = 16 dan 2x + 3y = 19 adalah …",
+              "options": [
+                {
+                  "text": "x = 2, y = 5",
+                  "correct": true
+                },
+                {
+                  "text": "x = 5, y = 2",
+                  "correct": false
+                },
+                {
+                  "text": "x = 3, y = 4",
+                  "correct": false
+                },
+                {
+                  "text": "x = 4, y = 3",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlahkan: 5x + 5y = 35 → x + y = 7. Kurangkan: x − y = −3. Diperoleh x = 2 dan y = 5."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyelesaian x + y = 12 dan x/2 + y/3 = 5 adalah …",
+              "options": [
+                {
+                  "text": "x = 6, y = 6",
+                  "correct": true
+                },
+                {
+                  "text": "x = 9, y = 3",
+                  "correct": false
+                },
+                {
+                  "text": "x = 4, y = 8",
+                  "correct": false
+                },
+                {
+                  "text": "x = 8, y = 4",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalikan x/2 + y/3 = 5 dengan 6: 3x + 2y = 30. Substitusi 2(x + y) = 24 → x = 6, lalu y = 6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui x + y + z = 6, x − y = 0, dan z = 2. Nilai x adalah …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": true
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karena x = y dan z = 2, maka x + x + 2 = 6 → 2x = 4 → x = 2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Umur ayah tiga kali umur anak. Jumlah umur keduanya 48 tahun. Umur anak adalah …",
+              "options": [
+                {
+                  "text": "10 tahun",
+                  "correct": false
+                },
+                {
+                  "text": "12 tahun",
+                  "correct": true
+                },
+                {
+                  "text": "16 tahun",
+                  "correct": false
+                },
+                {
+                  "text": "24 tahun",
+                  "correct": false
+                }
+              ],
+              "explanation": "Misal umur anak a dan ayah 3a. Maka a + 3a = 48 → 4a = 48 → a = 12 tahun (ayah 36)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Harga tiket dewasa dua kali harga tiket anak. Tiga tiket dewasa dan empat tiket anak berjumlah Rp100.000. Harga tiket dewasa adalah …",
+              "options": [
+                {
+                  "text": "Rp10.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp15.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp20.000",
+                  "correct": true
+                },
+                {
+                  "text": "Rp25.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "Misal anak = a dan dewasa = 2a. Maka 3(2a) + 4a = 10a = 100.000 → a = 10.000, sehingga dewasa = Rp20.000."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nilai k agar sistem kx + 2y = 6 dan 3x + y = 4 memiliki penyelesaian tunggal adalah …",
+              "options": [
+                {
+                  "text": "k = 6",
+                  "correct": false
+                },
+                {
+                  "text": "k ≠ 6",
+                  "correct": true
+                },
+                {
+                  "text": "k = 3",
+                  "correct": false
+                },
+                {
+                  "text": "k = 0",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penyelesaian tunggal terjadi bila perbandingan koefisien tidak sama. Sistem tidak punya penyelesaian tunggal saat k/3 = 2/1, yaitu k = 6. Jadi k ≠ 6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui 2x − 3y = 7 dan 3x + 2y = 4. Nilai x + y adalah …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": true
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalikan pertama dengan 3 dan kedua dengan 2: 6x − 9y = 21 dan 6x + 4y = 8. Kurangkan: −13y = 13 → y = −1. Lalu 2x + 3 = 7 → x = 2. Jadi x + y = 1."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah persegi panjang memiliki keliling 34 cm dan panjang 3 cm lebih dari lebarnya. Panjangnya adalah …",
+              "options": [
+                {
+                  "text": "7 cm",
+                  "correct": false
+                },
+                {
+                  "text": "10 cm",
+                  "correct": true
+                },
+                {
+                  "text": "12 cm",
+                  "correct": false
+                },
+                {
+                  "text": "14 cm",
+                  "correct": false
+                }
+              ],
+              "explanation": "2(p + l) = 34 → p + l = 17. Dengan p = l + 3 diperoleh 2l + 3 = 17 → l = 7 dan p = 10."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah dua bilangan 30 dan selisihnya 8. Bilangan terkecilnya adalah …",
+              "options": [
+                {
+                  "text": "9",
+                  "correct": false
+                },
+                {
+                  "text": "11",
+                  "correct": true
+                },
+                {
+                  "text": "13",
+                  "correct": false
+                },
+                {
+                  "text": "19",
+                  "correct": false
+                }
+              ],
+              "explanation": "x + y = 30 dan x − y = 8. Kurangkan: 2y = 22 → y = 11 (dan x = 19)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Harga 4 kg beras dan 2 kg gula Rp70.000. Harga 2 kg beras dan 3 kg gula Rp55.000. Harga 1 kg beras adalah …",
+              "options": [
+                {
+                  "text": "Rp10.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp12.500",
+                  "correct": true
+                },
+                {
+                  "text": "Rp15.000",
+                  "correct": false
+                },
+                {
+                  "text": "Rp20.000",
+                  "correct": false
+                }
+              ],
+              "explanation": "4b + 2g = 70.000 dan 2b + 3g = 55.000. Kalikan kedua persamaan dengan 3 dan 2: 12b + 6g = 210.000 dan 4b + 6g = 110.000. Kurangkan: 8b = 100.000 → b = 12.500."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Sistem mana yang tidak memiliki tepat satu penyelesaian? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "x + y = 4 dan 2x + 2y = 8",
+                  "correct": true
+                },
+                {
+                  "text": "x + y = 5 dan x − y = 1",
+                  "correct": false
+                },
+                {
+                  "text": "x + y = 3 dan x + y = 7",
+                  "correct": true
+                },
+                {
+                  "text": "2x + y = 6 dan x + y = 4",
+                  "correct": false
+                }
+              ],
+              "explanation": "x + y = 4 dan 2x + 2y = 8 identik (garis berimpit, tak hingga penyelesaian). x + y = 3 dan x + y = 7 sejajar (tidak ada penyelesaian). Dua lainnya berpotongan di satu titik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Diketahui x/2 + y/3 = 4 dan x − y = 3. Nilai x adalah …",
+              "options": [
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": true
+                },
+                {
+                  "text": "7",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalikan x/2 + y/3 = 4 dengan 6: 3x + 2y = 24. Dengan y = x − 3 diperoleh 3x + 2x − 6 = 24 → 5x = 30 → x = 6 (dan y = 3)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tiga tahun lalu umur kakak dua kali umur adik. Sekarang jumlah umur mereka 24 tahun. Umur adik sekarang adalah …",
+              "options": [
+                {
+                  "text": "7 tahun",
+                  "correct": false
+                },
+                {
+                  "text": "8 tahun",
+                  "correct": false
+                },
+                {
+                  "text": "9 tahun",
+                  "correct": true
+                },
+                {
+                  "text": "10 tahun",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sekarang k + a = 24. Tiga tahun lalu (k − 3) = 2(a − 3) → k = 2a − 3. Maka 2a − 3 + a = 24 → 3a = 27 → a = 9 tahun (kakak 15)."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menyelesaikan soal cerita SPLDV dari yang pertama sampai terakhir.",
+              "options": [
+                {
+                  "id": "c1",
+                  "text": "Beri nama variabel untuk yang dicari"
+                },
+                {
+                  "id": "c2",
+                  "text": "Terjemahkan kalimat menjadi dua persamaan"
+                },
+                {
+                  "id": "c3",
+                  "text": "Selesaikan sistem dengan substitusi atau eliminasi"
+                },
+                {
+                  "id": "c4",
+                  "text": "Kembalikan hasil ke konteks soal beserta satuan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "c1",
+                  "c2",
+                  "c3",
+                  "c4"
+                ]
+              },
+              "explanation": "Memodelkan selalu dimulai dari penamaan variabel, lalu menyusun persamaan, menyelesaikan, dan menafsirkan hasilnya."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Kelompokkan setiap sistem ke jumlah penyelesaiannya.",
+              "options": [
+                {
+                  "id": "n1",
+                  "text": "x + y = 2, x − y = 4"
+                },
+                {
+                  "id": "n2",
+                  "text": "x + y = 3, 2x + 2y = 6"
+                },
+                {
+                  "id": "n3",
+                  "text": "x + y = 1, x + y = 5"
+                },
+                {
+                  "id": "n4",
+                  "text": "2x + y = 5, x − y = 1"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "n1": "Satu penyelesaian",
+                  "n2": "Tak hingga",
+                  "n3": "Tidak ada",
+                  "n4": "Satu penyelesaian"
+                }
+              },
+              "explanation": "n1 berpotongan (x=3, y=−1). n2 identik sehingga tak hingga. n3 sejajar sehingga tidak ada. n4 berpotongan (x=2, y=1)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

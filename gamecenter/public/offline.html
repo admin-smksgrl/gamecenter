@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#e60012">
+        <title>Offline — Ruang Belajar</title>
+        <link rel="icon" type="image/svg+xml" href="/icon.svg">
+        <style>
+            :root {
+                color-scheme: light dark;
+                --canvas: #f5f2f2;
+                --surface: #ffffff;
+                --ink: #171114;
+                --rule: #e6dfdf;
+                --red: #e60012;
+                --red-tint: #ffebec;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --canvas: #0e0c0d;
+                    --surface: #171214;
+                    --ink: #f7f1f2;
+                    --rule: #2d2629;
+                    --red: #ff3945;
+                    --red-tint: #3b1014;
+                }
+            }
+
+            * { box-sizing: border-box; }
+
+            body {
+                margin: 0;
+                min-height: 100dvh;
+                display: grid;
+                place-items: center;
+                padding: 24px;
+                background: var(--canvas);
+                color: var(--ink);
+                font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+            }
+
+            main {
+                width: min(420px, 100%);
+                border: 1px solid var(--rule);
+                border-radius: 24px;
+                background: var(--surface);
+                padding: 40px 28px;
+                text-align: center;
+                box-shadow: 0 24px 60px -40px rgb(0 0 0 / 0.5);
+            }
+
+            img {
+                width: 64px;
+                height: 64px;
+                border-radius: 16px;
+            }
+
+            h1 {
+                margin: 18px 0 8px;
+                font-size: 24px;
+                letter-spacing: -0.02em;
+            }
+
+            p {
+                margin: 0;
+                font-size: 14px;
+                line-height: 1.65;
+                opacity: 0.6;
+            }
+
+            button {
+                margin-top: 24px;
+                width: 100%;
+                border: 0;
+                border-radius: 12px;
+                background: var(--red);
+                color: #fff;
+                padding: 12px 16px;
+                font-size: 14px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+
+            button:active { transform: translateY(1px); }
+
+            .hint {
+                margin-top: 14px;
+                display: inline-block;
+                border-radius: 999px;
+                background: var(--red-tint);
+                color: var(--red);
+                padding: 6px 12px;
+                font-size: 11px;
+                font-weight: 700;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <img src="/icon.svg" alt="Ruang Belajar">
+            <h1>Kamu sedang offline</h1>
+            <p>
+                Halaman ini belum tersimpan di perangkat. Sambungkan internet
+                lalu muat ulang untuk melanjutkan belajar.
+            </p>
+            <button type="button" onclick="location.reload()">Coba lagi</button>
+            <span class="hint">Data belajar tetap tersimpan lokal</span>
+        </main>
+    </body>
+</html>

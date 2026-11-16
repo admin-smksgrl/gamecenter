@@ -1,0 +1,579 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/fraunces/full.css';
+@import '@fontsource-variable/fraunces/full-italic.css';
+@import '@fontsource-variable/instrument-sans/index.css';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+@source '../**/*.ts';
+@source '../**/*.tsx';
+
+@theme {
+    --font-sans: 'Instrument Sans Variable', ui-sans-serif, system-ui,
+        -apple-system, 'Segoe UI', sans-serif;
+    --font-serif: 'Fraunces Variable', 'Iowan Old Style', 'Palatino Linotype',
+        Georgia, serif;
+
+    --color-canvas: #ffffff;
+    --color-surface: #ffffff;
+    --color-ink: #171114;
+    --color-ink-soft: #514a4e;
+    --color-rule: #e9d3d3;
+
+    --color-red: #e60012;
+    --color-red-deep: #b8000f;
+    --color-red-tint: #ffebec;
+
+    --shadow-card:
+        0 1px 2px rgb(23 17 20 / 0.06), 0 12px 26px -18px rgb(23 17 20 / 0.28);
+    /* Bayangan mengikuti aksen jenjang lewat --level-glow, bukan merah tetap. */
+    --shadow-lift: 0 2px 4px rgb(23 17 20 / 0.04),
+        0 24px 44px -22px var(--level-glow);
+    --shadow-fab: 0 8px 20px -8px var(--level-glow-strong);
+    --shadow-sheet: -32px 0 90px -48px rgb(23 17 20 / 0.5);
+
+    --animate-rise: rise 460ms cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
+    --animate-sheet-in: sheet-in 320ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+    --animate-sheet-left: sheet-left-in 300ms
+        cubic-bezier(0.22, 0.61, 0.36, 1) both;
+    --animate-veil-in: veil-in 200ms ease-out both;
+
+    @keyframes rise {
+        from {
+            opacity: 0;
+            transform: translateY(12px) scale(0.985);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+    }
+
+    /* Toast muncul dari atas layar lalu turun ke posisinya. */
+    --animate-drop: drop 420ms cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
+
+    @keyframes drop {
+        from {
+            opacity: 0;
+            transform: translateY(-14px) scale(0.985);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+    }
+
+    @keyframes sheet-in {
+        from {
+            opacity: 0;
+            transform: translateX(36px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes sheet-left-in {
+        from {
+            opacity: 0;
+            transform: translateX(-36px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes veil-in {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+/* Dark palette: same level identity, inverted surfaces. */
+:root {
+    color-scheme: light;
+
+    /* Nilai dasar bila dipakai di luar subtree jenjang. */
+    --level-accent: var(--color-red);
+    --level-accent-rgb: 230 0 18;
+    --level-glow: rgb(184 0 15 / 0.4);
+    --level-glow-strong: rgb(230 0 18 / 0.55);
+}
+
+.dark {
+    color-scheme: dark;
+
+    --color-canvas: #0e0c0d;
+    --color-surface: #171214;
+    --color-ink: #f7f1f2;
+    --color-ink-soft: #c7bcc0;
+    --color-rule: #2d2629;
+
+    --color-red: #ff3945;
+    --color-red-deep: #d2101c;
+    --color-red-tint: #3b1014;
+
+    --level-glow: rgb(255 57 69 / 0.34);
+    --level-glow-strong: rgb(255 57 69 / 0.46);
+
+    --shadow-card:
+        0 1px 2px rgb(0 0 0 / 0.5), 0 10px 24px -18px rgb(0 0 0 / 0.9);
+    --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.55),
+        0 24px 44px -22px var(--level-glow);
+    --shadow-fab: 0 8px 20px -8px var(--level-glow-strong);
+    --shadow-sheet: -32px 0 90px -48px rgb(0 0 0 / 0.85);
+}
+
+/* Tailwind inlines shadow values, so re-point them at the dark tokens. */
+.dark .shadow-card {
+    --tw-shadow: var(--shadow-card);
+}
+
+.dark .shadow-sheet {
+    --tw-shadow: var(--shadow-sheet);
+}
+
+.dark .shadow-fab {
+    --tw-shadow: var(--shadow-fab);
+}
+
+.dark .hover\:shadow-lift:hover {
+    --tw-shadow: var(--shadow-lift);
+}
+
+@layer base {
+    html,
+    body,
+    #app {
+        height: 100%;
+    }
+
+    body {
+        background-color: var(--color-canvas);
+        color: var(--color-ink);
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: var(--font-sans);
+        font-weight: 700;
+        letter-spacing: -0.015em;
+    }
+
+    ::selection {
+        background-color: var(--color-red);
+        color: #ffffff;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--color-red);
+        outline-offset: 2px;
+    }
+
+    input[type='search']::-webkit-search-cancel-button,
+    input[type='search']::-webkit-search-decoration {
+        appearance: none;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+        }
+    }
+}
+
+@layer components {
+    .dot-grid {
+        background-image: radial-gradient(
+            color-mix(in srgb, var(--color-ink) 7%, transparent) 1px,
+            transparent 1.1px
+        );
+        background-size: 24px 24px;
+    }
+
+    /* Quiet, thin scrollbars for panels that must scroll internally. */
+    .scroll-quiet {
+        scrollbar-color: color-mix(in srgb, var(--color-ink) 16%, transparent)
+            transparent;
+        scrollbar-width: thin;
+    }
+
+    .scroll-quiet::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    .scroll-quiet::-webkit-scrollbar-thumb {
+        background-color: color-mix(in srgb, var(--color-ink) 14%, transparent);
+        border-radius: 999px;
+    }
+
+    .no-bar {
+        scrollbar-width: none;
+    }
+
+    .no-bar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Long-form guide typography kept inside the app's token palette. */
+    .guide-prose {
+        color: color-mix(in srgb, var(--color-ink) 66%, transparent);
+        font-size: 11.75px;
+        line-height: 1.75;
+    }
+
+    @media (min-width: 640px) {
+        .guide-prose {
+            font-size: 12.25px;
+        }
+    }
+
+    .guide-prose > * + * {
+        margin-top: 0.65rem;
+    }
+
+    .guide-prose > h2 + * {
+        margin-top: 0.55rem;
+    }
+
+    .guide-prose h2 {
+        margin-top: 1.45rem;
+        padding-bottom: 0.4rem;
+        border-bottom: 1px solid
+            color-mix(in srgb, var(--color-rule) 80%, transparent);
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        color: var(--color-ink);
+    }
+
+    .guide-prose h2:first-child {
+        margin-top: 0;
+    }
+
+    .guide-prose h3 {
+        margin-top: 1rem;
+        font-size: 12.5px;
+        font-weight: 700;
+        color: var(--color-ink);
+    }
+
+    .guide-prose ul,
+    .guide-prose ol {
+        display: grid;
+        gap: 0.3rem;
+        padding-left: 1.05rem;
+    }
+
+    .guide-prose ul {
+        list-style: disc;
+    }
+
+    .guide-prose ol {
+        list-style: decimal;
+    }
+
+    .guide-prose li {
+        padding-left: 0.15rem;
+    }
+
+    .guide-prose li::marker {
+        color: var(--color-red);
+    }
+
+    .guide-prose strong {
+        font-weight: 700;
+        color: var(--color-ink);
+    }
+
+    .guide-prose a {
+        font-weight: 600;
+        color: var(--color-red);
+        text-decoration: underline;
+        text-decoration-color: color-mix(
+            in srgb,
+            var(--color-red) 35%,
+            transparent
+        );
+        text-underline-offset: 2px;
+    }
+
+    .guide-prose a:hover {
+        text-decoration-color: var(--color-red);
+    }
+
+    .guide-prose code {
+        border: 1px solid var(--color-rule);
+        border-radius: 4px;
+        background-color: var(--color-canvas);
+        padding: 0.05rem 0.3rem;
+        font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+        font-size: 0.92em;
+        color: var(--color-ink);
+    }
+
+    .guide-prose table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 11px;
+        line-height: 1.55;
+    }
+
+    .guide-prose caption {
+        padding: 0.45rem 0.65rem;
+        text-align: left;
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: color-mix(in srgb, var(--color-ink) 35%, transparent);
+    }
+
+    .guide-prose thead {
+        background-color: color-mix(
+            in srgb,
+            var(--color-canvas) 85%,
+            transparent
+        );
+    }
+
+    .guide-prose th {
+        padding: 0.5rem 0.65rem;
+        border-bottom: 1px solid var(--color-rule);
+        text-align: left;
+        font-size: 8.5px;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        white-space: nowrap;
+        color: color-mix(in srgb, var(--color-ink) 45%, transparent);
+    }
+
+    .guide-prose td {
+        padding: 0.55rem 0.65rem;
+        border-top: 1px solid
+            color-mix(in srgb, var(--color-rule) 70%, transparent);
+        vertical-align: top;
+    }
+
+    .guide-prose tbody tr:first-child td {
+        border-top: 0;
+    }
+
+    .guide-prose .mermaid-figure {
+        width: 100%;
+    }
+
+    .guide-prose .mermaid-figure svg {
+        display: block;
+        margin-inline: auto;
+        height: auto;
+        max-width: 100%;
+    }
+
+    /* Fraunces with its wonky, high-optical-size display cut. */
+    .display {
+        font-family: var(--font-serif);
+        font-optical-sizing: auto;
+        font-weight: 560;
+        letter-spacing: -0.025em;
+        font-variation-settings:
+            'wght' 560,
+            'SOFT' 30,
+            'WONK' 1;
+    }
+}
+
+/* ── Satu tema untuk semua jenjang (merah + putih) ────────────────
+   Seluruh jenjang (PAUD, TK, SMP, SMA, SMK) memakai identitas yang
+   sama: merah `#e60012` di atas permukaan putih. Tidak ada palet per
+   jenjang lagi, sehingga tidak ada warna yang bertumpuk.
+
+   Token `--color-red*` tetap ditimpa di subtree `data-level-theme` agar
+   komponen lama yang memakai kelas `red` tidak perlu diubah. Nilainya
+   identik dengan akar dokumen supaya heksa merah selalu sama. */
+[data-level-theme] {
+    --color-red: #e60012;
+    --color-red-deep: #b8000f;
+    --color-red-tint: #ffebec;
+    --level-accent: #e60012;
+    --level-accent-rgb: 230 0 18;
+    --level-soft: #ffebec;
+    --level-orb: rgb(230 0 18 / 0.12);
+    --level-glow: rgb(184 0 15 / 0.4);
+    --level-glow-strong: rgb(230 0 18 / 0.55);
+    --shadow-lift: 0 2px 4px rgb(23 17 20 / 0.04),
+        0 24px 44px -22px rgb(184 0 15 / 0.4);
+    --shadow-fab: 0 8px 20px -8px rgb(230 0 18 / 0.55);
+}
+
+.dark [data-level-theme] {
+    --color-red: #ff3945;
+    --color-red-deep: #d2101c;
+    --color-red-tint: #3b1014;
+    --level-accent: #ff3945;
+    --level-accent-rgb: 255 57 69;
+    --level-soft: #3b1014;
+    --level-orb: rgb(255 57 69 / 0.18);
+    --level-glow: rgb(255 57 69 / 0.34);
+    --level-glow-strong: rgb(255 57 69 / 0.46);
+    --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.55),
+        0 24px 44px -22px rgb(255 57 69 / 0.34);
+    --shadow-fab: 0 8px 20px -8px rgb(255 57 69 / 0.46);
+}
+
+.level-orb {
+    background-color: var(--level-orb, rgb(230 0 18 / 0.12));
+    animation: var(--level-motion, none);
+}
+
+.level-accent {
+    color: var(--level-accent, var(--color-red));
+}
+
+.level-soft {
+    background-color: var(--level-soft, var(--color-red-tint));
+}
+
+@keyframes level-bounce {
+    0%,
+    100% {
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+    50% {
+        transform: translate3d(0, -14px, 0) scale(1.04);
+    }
+}
+
+@keyframes level-sway {
+    0%,
+    100% {
+        transform: translate3d(0, 0, 0) rotate(0deg);
+    }
+    50% {
+        transform: translate3d(12px, -8px, 0) rotate(3deg);
+    }
+}
+
+@keyframes level-pulse {
+    0%,
+    100% {
+        opacity: 0.55;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.95;
+        transform: scale(1.12);
+    }
+}
+
+@keyframes level-sheen {
+    0%,
+    100% {
+        opacity: 0.4;
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        opacity: 0.7;
+        transform: translate3d(-10px, 8px, 0);
+    }
+}
+
+/* Markdown ringan untuk materi pembelajaran. */
+.material-prose {
+    color: color-mix(in srgb, var(--color-ink) 68%, transparent);
+    font-size: 11.75px;
+    line-height: 1.7;
+}
+
+.material-prose > * + * {
+    margin-top: 0.55rem;
+}
+
+.material-prose h3 {
+    font-size: 12.5px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: var(--color-ink);
+}
+
+.material-prose ul {
+    display: grid;
+    gap: 0.25rem;
+    padding-left: 1rem;
+    list-style: disc;
+}
+
+.material-prose li::marker {
+    color: var(--level-accent, var(--color-red));
+}
+
+.material-prose strong {
+    font-weight: 700;
+    color: var(--color-ink);
+}
+
+.material-prose code {
+    border: 1px solid var(--color-rule);
+    border-radius: 4px;
+    background-color: var(--color-canvas);
+    padding: 0.05rem 0.28rem;
+    font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+    font-size: 0.92em;
+    color: var(--color-ink);
+}
+
+.material-prose pre {
+    overflow-x: auto;
+    border: 1px solid var(--color-rule);
+    border-radius: 10px;
+    background-color: var(--color-canvas);
+    padding: 0.6rem 0.75rem;
+    font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: var(--color-ink);
+}
+
+.material-prose table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.5px;
+}
+
+.material-prose th {
+    padding: 0.35rem 0.5rem;
+    border-bottom: 1px solid var(--color-rule);
+    text-align: left;
+    font-size: 8.5px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--color-ink) 45%, transparent);
+}
+
+.material-prose td {
+    padding: 0.35rem 0.5rem;
+    border-top: 1px solid
+        color-mix(in srgb, var(--color-rule) 70%, transparent);
+    vertical-align: top;
+}

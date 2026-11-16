@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "biologi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "BIO 2",
+      "title": "Keanekaragaman Makhluk Hidup, Interaksi, dan Peranannya di Alam",
+      "description": "Tingkatan keanekaragaman hayati Indonesia, klasifikasi makhluk hidup, dan interaksi dalam ekosistem.",
+      "learning_objectives": [
+        "Mengidentifikasi tingkatan keanekaragaman hayati,",
+        "Mendeskripsikan keanekaragaman hayati Indonesia dan peranannya,",
+        "Merumuskan upaya pelestarian keanekaragaman hayati,",
+        "Mengelompokkan makhluk hidup, dan",
+        "Menganalisis interaksi makhluk hidup dalam ekosistemnya."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar IPA Biologi Kelas 10 SMA Fase E Bab 7",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Tiga Tingkat Keanekaragaman Hayati",
+          "duration": 240,
+          "source_reference": "Bab VI — Keanekaragaman Hayati",
+          "content": "## Tiga tingkat\n\n| Tingkat | Contoh |\n|---|---|\n| **Gen** | variasi warna bunga pada satu jenis mawar |\n| **Jenis** | kucing, harimau, singa (satu famili, beda spesies) |\n| **Ekosistem** | mangrove, padang rumput, sawah |\n\n## Mengapa Indonesia sangat kaya?\n\n- letak di daerah **tropis** dengan iklim mendukung\n- wilayah **kepulauan** sehingga banyak habitat terpisah\n\n## Endemik\n\nSpesies **endemik** hanya hidup secara alami di wilayah tertentu, misalnya **komodo** di Nusa Tenggara.\n\n## Manfaat\n\n- sumber pangan dan obat-obatan\n- bahan bangunan dan energi\n- jasa ekosistem: penyerbukan, kesuburan tanah, pengaturan air\n\n## Mengapa variasi gen penting?\n\nVariasi genetik memberi peluang sebagian individu **beradaptasi** saat lingkungan berubah, sehingga jenis itu tidak mudah punah."
+        },
+        {
+          "type": "text",
+          "title": "Klasifikasi dan Ekosistem",
+          "duration": 360,
+          "source_reference": "Bab VI — Klasifikasi dan Ekosistem",
+          "content": "## Taksonomi\n\nUrutan takson dari umum ke khusus:\n\n> **Kingdom → Filum → Kelas → Ordo → Famili → Genus → Spesies**\n\nSemakin ke bawah, anggotanya makin sedikit tetapi persamaan cirinya makin banyak.\n\n**Genus** mengelompokkan beberapa spesies yang berkerabat dekat.\n\n## Kelompok tumbuhan\n\n| Kelompok | Ciri |\n|---|---|\n| Lumut | belum punya akar, batang, daun sejati |\n| Berbiji terbuka | biji tidak dilindungi bakal buah |\n| Berbiji tertutup | biji terlindungi bakal buah |\n\n## Komponen ekosistem\n\n| Komponen | Isi |\n|---|---|\n| **Biotik** | makhluk hidup |\n| **Abiotik** | cahaya, air, suhu, tanah |\n\n## Peran dalam ekosistem\n\n- **Produsen** — tumbuhan hijau\n- **Konsumen I** — herbivora, memakan tumbuhan langsung\n- **Konsumen II ke atas** — karnivora\n- **Pengurai** — bakteri dan jamur\n\n## Rantai makanan\n\n> padi → tikus → ular → elang\n\nPanah menunjukkan arah perpindahan **energi** dari yang dimakan ke pemakannya. Rantai selalu diawali produsen."
+        },
+        {
+          "type": "interactive",
+          "title": "Pelestarian dan Interaksi",
+          "duration": 240,
+          "source_reference": "Bab VI — Pelestarian",
+          "content": "## In situ dan ex situ\n\n| Jenis | Tempat | Contoh |\n|---|---|---|\n| **In situ** | habitat asli | taman nasional, cagar alam |\n| **Ex situ** | luar habitat asli | kebun binatang, penangkaran, bank benih |\n\nIn situ lebih utama karena ekosistem asli tetap utuh. Ex situ membantu, tetapi jumlah individu dan variasi genetiknya terbatas sehingga **tidak dapat menggantikan** ekosistem yang hilang.\n\n## Dampak gangguan rantai makanan\n\nBila ular hilang dari padi → tikus → ular → elang:\n\n- populasi tikus **meningkat**\n- tanaman padi **menurun**\n\nPredator menjaga keseimbangan populasi di bawahnya.\n\n## Jenis interaksi\n\n| Interaksi | Penjelasan | Contoh |\n|---|---|---|\n| Mutualisme | kedua untung | kupu-kupu dan bunga |\n| Parasitisme | satu untung, satu rugi | kutu pengisap darah |\n| Predasi | pemangsa dan mangsa | harimau dan rusa |\n\n## Upaya pelestarian\n\n1. Identifikasi jenis dan habitat yang terancam\n2. Tentukan penyebab ancaman\n3. Rancang tindakan in situ atau ex situ\n4. Laksanakan, pantau, evaluasi\n\nAncaman terbesar umumnya adalah **hilangnya habitat**."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Keanekaragaman Makhluk Hidup, Interaksi, dan Peranannya di Alam — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Keanekaragaman hayati tingkat gen contohnya …",
+              "options": [
+                {
+                  "text": "variasi warna bunga pada satu jenis mawar",
+                  "correct": true
+                },
+                {
+                  "text": "perbedaan kucing dan anjing",
+                  "correct": false
+                },
+                {
+                  "text": "perbedaan ekosistem sawah dan hutan",
+                  "correct": false
+                },
+                {
+                  "text": "perbedaan pohon dan rumput",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keanekaragaman gen adalah variasi dalam satu jenis (spesies)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keanekaragaman hayati tingkat jenis contohnya …",
+              "options": [
+                {
+                  "text": "perbedaan kucing, harimau, dan singa",
+                  "correct": true
+                },
+                {
+                  "text": "variasi warna kulit pada manusia",
+                  "correct": false
+                },
+                {
+                  "text": "perbedaan sawah dan pantai",
+                  "correct": false
+                },
+                {
+                  "text": "variasi rasa pada satu jenis mangga",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keanekaragaman jenis membandingkan spesies berbeda dalam satu kelompok."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keanekaragaman hayati tingkat ekosistem contohnya …",
+              "options": [
+                {
+                  "text": "perbedaan ekosistem mangrove dan padang rumput",
+                  "correct": true
+                },
+                {
+                  "text": "variasi warna rambut",
+                  "correct": false
+                },
+                {
+                  "text": "perbedaan jenis padi",
+                  "correct": false
+                },
+                {
+                  "text": "variasi ukuran daun",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keanekaragaman ekosistem tampak dari perbedaan lingkungan dan komunitas penyusunnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ilmu yang mempelajari pengelompokan makhluk hidup disebut …",
+              "options": [
+                {
+                  "text": "taksonomi",
+                  "correct": true
+                },
+                {
+                  "text": "ekologi",
+                  "correct": false
+                },
+                {
+                  "text": "genetika",
+                  "correct": false
+                },
+                {
+                  "text": "morfologi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Taksonomi mengelompokkan makhluk hidup berdasarkan persamaan dan perbedaan ciri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat keanekaragaman hayati bagi manusia contohnya …",
+              "options": [
+                {
+                  "text": "sumber pangan dan obat-obatan",
+                  "correct": true
+                },
+                {
+                  "text": "sumber polusi",
+                  "correct": false
+                },
+                {
+                  "text": "penyebab banjir",
+                  "correct": false
+                },
+                {
+                  "text": "pengurang kesuburan tanah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keanekaragaman hayati menyediakan pangan, obat, bahan bangunan, dan jasa ekosistem."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Keanekaragaman Makhluk Hidup, Interaksi, dan Peranannya di Alam — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Urutan takson dari yang paling tinggi ke paling rendah adalah …",
+              "options": [
+                {
+                  "text": "kingdom – filum – kelas – ordo – famili – genus – spesies",
+                  "correct": true
+                },
+                {
+                  "text": "spesies – genus – famili – ordo – kelas – filum – kingdom",
+                  "correct": false
+                },
+                {
+                  "text": "kingdom – kelas – filum – famili – ordo – genus – spesies",
+                  "correct": false
+                },
+                {
+                  "text": "filum – kingdom – ordo – kelas – genus – famili – spesies",
+                  "correct": false
+                }
+              ],
+              "explanation": "Semakin ke bawah takson, anggotanya makin sedikit tetapi persamaan cirinya makin banyak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tumbuhan yang termasuk kelompok lumut memiliki ciri …",
+              "options": [
+                {
+                  "text": "belum memiliki akar, batang, dan daun sejati",
+                  "correct": true
+                },
+                {
+                  "text": "sudah berbunga",
+                  "correct": false
+                },
+                {
+                  "text": "berbuah dan berbiji",
+                  "correct": false
+                },
+                {
+                  "text": "berakar tunggang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lumut (Bryophyta) belum memiliki jaringan pengangkut sejati."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hewan yang berperan sebagai pengurai sisa makhluk hidup adalah …",
+              "options": [
+                {
+                  "text": "bakteri dan jamur",
+                  "correct": true
+                },
+                {
+                  "text": "rumput dan padi",
+                  "correct": false
+                },
+                {
+                  "text": "harimau dan singa",
+                  "correct": false
+                },
+                {
+                  "text": "burung dan kupu-kupu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dekomposer menguraikan bahan organik mati menjadi zat hara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Komponen biotik dalam ekosistem adalah …",
+              "options": [
+                {
+                  "text": "makhluk hidup",
+                  "correct": true
+                },
+                {
+                  "text": "air",
+                  "correct": false
+                },
+                {
+                  "text": "cahaya",
+                  "correct": false
+                },
+                {
+                  "text": "tanah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Komponen biotik berupa makhluk hidup; komponen abiotik berupa benda tak hidup."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Simpanse dan tikus merupakan konsumen tingkat satu karena …",
+              "options": [
+                {
+                  "text": "memakan tumbuhan langsung",
+                  "correct": true
+                },
+                {
+                  "text": "memakan konsumen lain",
+                  "correct": false
+                },
+                {
+                  "text": "menguraikan sisa makhluk hidup",
+                  "correct": false
+                },
+                {
+                  "text": "membuat makanan sendiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Konsumen tingkat satu (herbivora) memperoleh energi langsung dari produsen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rantai makanan padi → tikus → ular → elang menunjukkan bahwa …",
+              "options": [
+                {
+                  "text": "energi mengalir dari produsen ke konsumen",
+                  "correct": true
+                },
+                {
+                  "text": "elang adalah produsen",
+                  "correct": false
+                },
+                {
+                  "text": "padi adalah konsumen",
+                  "correct": false
+                },
+                {
+                  "text": "semua berperan sebagai pengurai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Panah menunjukkan arah perpindahan energi dari yang dimakan ke pemakannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu upaya pelestarian keanekaragaman hayati secara in situ adalah …",
+              "options": [
+                {
+                  "text": "menetapkan taman nasional",
+                  "correct": true
+                },
+                {
+                  "text": "membuat kebun binatang",
+                  "correct": false
+                },
+                {
+                  "text": "membuat herbarium",
+                  "correct": false
+                },
+                {
+                  "text": "menyimpan biji di bank benih",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pelestarian in situ dilakukan di habitat aslinya, misalnya taman nasional."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk komponen abiotik? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Cahaya matahari",
+                  "correct": true
+                },
+                {
+                  "text": "Air",
+                  "correct": true
+                },
+                {
+                  "text": "Suhu",
+                  "correct": true
+                },
+                {
+                  "text": "Bakteri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Cahaya, air, dan suhu adalah komponen tak hidup. Bakteri termasuk komponen biotik."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan kelompok makhluk hidup dengan perannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Tumbuhan hijau"
+                },
+                {
+                  "id": "o1",
+                  "text": "Herbivora"
+                },
+                {
+                  "id": "o2",
+                  "text": "Karnivora"
+                },
+                {
+                  "id": "o3",
+                  "text": "Bakteri dan jamur"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Produsen",
+                  "o1": "Konsumen tingkat satu",
+                  "o2": "Konsumen tingkat dua atau lebih",
+                  "o3": "Pengurai"
+                }
+              },
+              "explanation": "Peran dalam ekosistem ditentukan oleh cara memperoleh energi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan takson dari yang paling umum ke paling khusus.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Kingdom"
+                },
+                {
+                  "id": "o1",
+                  "text": "Filum"
+                },
+                {
+                  "id": "o2",
+                  "text": "Kelas"
+                },
+                {
+                  "id": "o3",
+                  "text": "Spesies"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Semakin khusus taksannya, semakin sedikit anggota tetapi semakin banyak persamaan ciri."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Keanekaragaman Makhluk Hidup, Interaksi, dan Peranannya di Alam — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa Indonesia memiliki keanekaragaman hayati yang tinggi?",
+              "options": [
+                {
+                  "text": "letaknya di daerah tropis dengan iklim yang mendukung serta terdiri atas banyak pulau",
+                  "correct": true
+                },
+                {
+                  "text": "wilayahnya seluruhnya gurun",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memiliki hutan",
+                  "correct": false
+                },
+                {
+                  "text": "beriklim dingin sepanjang tahun",
+                  "correct": false
+                }
+              ],
+              "explanation": "Iklim tropis dan kondisi kepulauan menciptakan banyak habitat berbeda sehingga spesies beragam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hewan endemik Indonesia yang hanya terdapat di Nusa Tenggara adalah …",
+              "options": [
+                {
+                  "text": "komodo",
+                  "correct": true
+                },
+                {
+                  "text": "harimau sumatra",
+                  "correct": false
+                },
+                {
+                  "text": "orang utan",
+                  "correct": false
+                },
+                {
+                  "text": "badak jawa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Komodo hanya hidup secara alami di Pulau Komodo, Rinca, Flores, dan Padar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan pelestarian in situ dan ex situ terletak pada …",
+              "options": [
+                {
+                  "text": "in situ di habitat asli, ex situ di luar habitat asli",
+                  "correct": true
+                },
+                {
+                  "text": "in situ di kebun binatang, ex situ di taman nasional",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya sama",
+                  "correct": false
+                },
+                {
+                  "text": "in situ hanya untuk hewan",
+                  "correct": false
+                }
+              ],
+              "explanation": "In situ mempertahankan spesies di habitat aslinya; ex situ memindahkannya ke tempat lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jika populasi ular pada rantai makanan padi → tikus → ular → elang hilang, yang terjadi adalah …",
+              "options": [
+                {
+                  "text": "populasi tikus meningkat dan tanaman padi menurun",
+                  "correct": true
+                },
+                {
+                  "text": "populasi tikus menurun",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada perubahan",
+                  "correct": false
+                },
+                {
+                  "text": "elang menjadi produsen",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hilangnya predator tikus membuat populasi tikus naik sehingga merusak tanaman padi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makhluk hidup dikelompokkan berdasarkan persamaan ciri agar …",
+              "options": [
+                {
+                  "text": "lebih mudah dipelajari dan dipahami",
+                  "correct": true
+                },
+                {
+                  "text": "jumlahnya berkurang",
+                  "correct": false
+                },
+                {
+                  "text": "semua menjadi satu spesies",
+                  "correct": false
+                },
+                {
+                  "text": "tidak perlu nama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengelompokan memberi kerangka yang memudahkan mempelajari dan mengingat keanekaragaman."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat keanekaragaman hayati bagi ekosistem? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menjaga kestabilan rantai makanan",
+                  "correct": true
+                },
+                {
+                  "text": "Membantu penyerbukan",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga kesuburan tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Menghentikan siklus air",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keanekaragaman menjaga kestabilan rantai makanan, penyerbukan, dan kesuburan tanah. Siklus air justru terbantu, bukan dihentikan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah merumuskan upaya pelestarian keanekaragaman hayati.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Mengidentifikasi jenis dan habitat yang terancam"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menentukan penyebab ancaman seperti perusakan habitat"
+                },
+                {
+                  "id": "s2",
+                  "text": "Merancang tindakan pelestarian in situ atau ex situ"
+                },
+                {
+                  "id": "s3",
+                  "text": "Melaksanakan, memantau, dan mengevaluasi hasilnya"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Upaya pelestarian dimulai dari identifikasi ancaman lalu diakhiri pemantauan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa keanekaragaman gen penting bagi kelangsungan suatu jenis?",
+              "options": [
+                {
+                  "text": "memberi variasi yang memungkinkan adaptasi terhadap perubahan lingkungan",
+                  "correct": true
+                },
+                {
+                  "text": "membuat semua individu identik",
+                  "correct": false
+                },
+                {
+                  "text": "mengurangi kemampuan bereproduksi",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan persaingan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Variasi genetik menyediakan individu yang mungkin bertahan saat kondisi berubah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rantai makanan di ekosistem sawah paling tepat diawali oleh …",
+              "options": [
+                {
+                  "text": "padi sebagai produsen",
+                  "correct": true
+                },
+                {
+                  "text": "ular sebagai konsumen",
+                  "correct": false
+                },
+                {
+                  "text": "elang sebagai puncak",
+                  "correct": false
+                },
+                {
+                  "text": "bakteri sebagai pengurai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rantai makanan diawali produsen yang mampu membuat makanan sendiri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Klasifikasi pada tingkat genus mengelompokkan …",
+              "options": [
+                {
+                  "text": "beberapa spesies yang berkerabat dekat",
+                  "correct": true
+                },
+                {
+                  "text": "beberapa famili",
+                  "correct": false
+                },
+                {
+                  "text": "semua kingdom",
+                  "correct": false
+                },
+                {
+                  "text": "satu individu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Genus berada di atas spesies dan memuat spesies yang cirinya sangat mirip."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan tumbuhan berbiji terbuka dan berbiji tertutup terletak pada …",
+              "options": [
+                {
+                  "text": "letak bijinya, terbuka atau terlindungi bakal buah",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah akar",
+                  "correct": false
+                },
+                {
+                  "text": "warna daun",
+                  "correct": false
+                },
+                {
+                  "text": "kemampuan berfotosintesis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Gymnospermae berbiji terbuka; Angiospermae berbiji terlindungi bakal buah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penangkaran hewan di luar habitat aslinya termasuk upaya …",
+              "options": [
+                {
+                  "text": "ex situ",
+                  "correct": true
+                },
+                {
+                  "text": "in situ",
+                  "correct": false
+                },
+                {
+                  "text": "restorasi",
+                  "correct": false
+                },
+                {
+                  "text": "reboisasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penangkaran di kebun binatang atau pusat konservasi dilakukan di luar habitat asli."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak utama kerusakan habitat terhadap keanekaragaman hayati adalah …",
+              "options": [
+                {
+                  "text": "berkurangnya jenis karena hilangnya tempat hidup",
+                  "correct": true
+                },
+                {
+                  "text": "bertambahnya jumlah jenis",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada dampak",
+                  "correct": false
+                },
+                {
+                  "text": "semua jenis menjadi lebih kuat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hilangnya habitat menyebabkan spesies kehilangan sumber pangan dan tempat berkembang biak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh interaksi yang saling menguntungkan dalam ekosistem adalah …",
+              "options": [
+                {
+                  "text": "kupu-kupu yang membantu penyerbukan sambil memperoleh nektar",
+                  "correct": true
+                },
+                {
+                  "text": "kutu yang menghisap darah inang",
+                  "correct": false
+                },
+                {
+                  "text": "tali putri yang menempel pada tanaman lain",
+                  "correct": false
+                },
+                {
+                  "text": "harimau memangsa rusa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Interaksi itu adalah mutualisme, karena kedua pihak memperoleh manfaat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa pelestarian ex situ tidak cukup untuk menjaga keanekaragaman hayati secara menyeluruh?",
+              "options": [
+                {
+                  "text": "karena jumlah individu dan variasi genetiknya terbatas serta ekosistem asli tetap hilang",
+                  "correct": true
+                },
+                {
+                  "text": "karena ex situ selalu gagal",
+                  "correct": false
+                },
+                {
+                  "text": "karena hewan tidak dapat hidup di penangkaran",
+                  "correct": false
+                },
+                {
+                  "text": "karena ex situ tidak memerlukan biaya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ex situ hanya menyelamatkan sebagian kecil individu, sedangkan ekosistem asli yang hilang tidak tergantikan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

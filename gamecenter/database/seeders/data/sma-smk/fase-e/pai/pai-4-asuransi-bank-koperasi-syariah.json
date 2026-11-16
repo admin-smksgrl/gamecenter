@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pai",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PAI 4",
+      "title": "Asuransi, Bank, dan Koperasi Syariah untuk Perekonomian Umat dan Kesejahteraan",
+      "description": "Fikih muamalah tentang akad, riba, asuransi syariah, bank syariah, dan koperasi syariah serta penerapannya dalam perekonomian umat.",
+      "learning_objectives": [
+        "Melalui metode discovey learning dan information search mampu menganalisis implementasi fikih muamalah: asuransi, bank dan koperasi syariah di masyarakat;",
+        "Melalui metode jigsaw, mampu menyajikan paparan tentang fikih muamalah: asuransi, bank dan koperasi syariah;",
+        "Melalui metode discovery learning, mampu meyakini bahwa ketentuan fikih muamalah adalah ajaran agama;",
+        "Melalui metode problem-based learning, mampu menumbuhkan jiwa kewirausahaan dan kepedulian sosial"
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Buku Pendidikan Agama Islam dan Budi Pekerti Kelas X (Kemendikbudristek)",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Fikih Muamalah dan Akad",
+          "duration": 320,
+          "source_reference": "Bab 4",
+          "content": "## Fikih muamalah\n\n**Fikih muamalah** mengatur hubungan antar manusia dalam urusan **sosial-ekonomi**, termasuk transaksi.\n\n## Akad\n\n**Akad** = perjanjian antara pihak yang bertransaksi sebagai dasar ikatan hak dan kewajiban.\n\n### Akad yang sering dipakai\n\n| Akad | Pengertian |\n|---|---|\n| **mudarabah** | kerja sama usaha dengan **bagi hasil** sesuai nisbah |\n| **musyarakah** | kerja sama **modal** |\n| **wadiah** | **titipan** dana yang dapat diambil kembali |\n| **tabarru'** | dana **tolong-menolong** untuk menanggung risiko |\n\n## Riba\n\n**Riba** adalah tambahan yang diambil **tanpa imbalan yang sah**, misalnya bunga pinjaman.\n\n### Mengapa dilarang?\n\n- menimbulkan **ketidakadilan**\n- membebani pihak yang lemah\n- risiko tidak ditanggung bersama\n\n## Menghindari gharar\n\n**Gharar** = ketidakjelasan. Transaksi harus jelas agar hak kedua pihak terlindungi.\n\n## Utang yang sehat\n\n1. Pastikan kebutuhan benar-benar penting\n2. Hitung kemampuan membayar\n3. Pilih lembaga dan akad yang jelas dan halal\n4. **Catat kesepakatan** secara tertulis\n5. Lunasi tepat waktu"
+        },
+        {
+          "type": "text",
+          "title": "Asuransi Syariah",
+          "duration": 300,
+          "source_reference": "Bab 4",
+          "content": "## Prinsip dasar\n\nAsuransi syariah dibangun di atas **ta'awun** — saling menolong dalam menanggung musibah.\n\n## Dana tabarru'\n\nPeserta menyisihkan dana **tabarru'** (dana kebajikan) yang dikumpulkan untuk saling menanggung risiko.\n\n### Konsekuensi\n\n- risiko ditanggung **bersama**\n- bukan perpindahan risiko ke perusahaan semata\n- pengelolaan menghindari **riba** dan **gharar**\n\n## Perbandingan\n\n| Asuransi konvensional | Asuransi syariah |\n|---|---|\n| premi menjadi milik perusahaan | ada **dana tabarru'** bersama |\n| mengandung unsur bunga | berbasis akad dan bagi hasil |\n\n## Manfaat\n\nMemberi perlindungan sekaligus menumbuhkan solidaritas antar peserta."
+        },
+        {
+          "type": "text",
+          "title": "Bank dan Koperasi Syariah",
+          "duration": 300,
+          "source_reference": "Bab 4",
+          "content": "## Bank syariah\n\nBeroperasi dengan **akad syariah** dan **menghindari bunga**.\n\n### Produk umum\n\n- **wadiah** — titipan dana\n- **mudarabah** — pembiayaan bagi hasil\n- **musyarakah** — penyertaan modal\n\n## Koperasi syariah\n\nBerbasis **keanggotaan** dan melayani anggota dengan akad syariah.\n\nManfaatnya: akses **pembiayaan** dan **simpanan** sesuai kemampuan tanpa jerat bunga.\n\n## Etika memilih lembaga keuangan\n\n1. Pahami kebutuhan keuangan\n2. Periksa akad dan produk\n3. Pastikan **legalitas** lewat izin resmi\n4. Baca dan pahami perjanjian\n\n## Waspada pinjaman online ilegal\n\nRisikonya: **bunga dan denda mencekik** serta **penyalahgunaan data pribadi**.\n\n## Wirausaha syariah bagi pelajar\n\n- produk **halal**\n- **jujur** dan tidak menipu\n- tidak mengambil untung curang\n\n## Dana kebajikan\n\n**Zakat** dan dana kebajikan dikelola untuk menyeimbangkan ekonomi dan mengurangi kesenjangan."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Asuransi, Bank, dan Koperasi Syariah untuk Perekonomian Umat dan Kesejahteraan — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Fikih muamalah membahas …",
+              "options": [
+                {
+                  "text": "aturan Islam tentang hubungan antar manusia dalam bermuamalah",
+                  "correct": true
+                },
+                {
+                  "text": "tata cara salat",
+                  "correct": false
+                },
+                {
+                  "text": "sejarah nabi",
+                  "correct": false
+                },
+                {
+                  "text": "ilmu tajwid",
+                  "correct": false
+                }
+              ],
+              "explanation": "Fikih muamalah mengatur transaksi dan hubungan sosial-ekonomi antar manusia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Riba dalam transaksi keuangan berarti …",
+              "options": [
+                {
+                  "text": "tambahan yang diambil tanpa imbalan yang sah",
+                  "correct": true
+                },
+                {
+                  "text": "keuntungan jual beli",
+                  "correct": false
+                },
+                {
+                  "text": "bagi hasil usaha",
+                  "correct": false
+                },
+                {
+                  "text": "biaya administrasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Riba adalah tambahan yang tidak sah menurut syariat, misalnya bunga pinjaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Akad dalam transaksi syariah berarti …",
+              "options": [
+                {
+                  "text": "perjanjian antara pihak-pihak yang bertransaksi",
+                  "correct": true
+                },
+                {
+                  "text": "pemberian hadiah",
+                  "correct": false
+                },
+                {
+                  "text": "pembatalan transaksi",
+                  "correct": false
+                },
+                {
+                  "text": "denda",
+                  "correct": false
+                }
+              ],
+              "explanation": "Akad adalah ikatan perjanjian yang menjadi dasar transaksi syariah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Koperasi syariah berbeda dari koperasi konvensional terutama pada …",
+              "options": [
+                {
+                  "text": "akad dan prinsip bagi hasil yang dipakai",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah anggota",
+                  "correct": false
+                },
+                {
+                  "text": "lokasi kantor",
+                  "correct": false
+                },
+                {
+                  "text": "warna logo",
+                  "correct": false
+                }
+              ],
+              "explanation": "Koperasi syariah beroperasi berdasarkan akad dan prinsip syariah, bukan bunga."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat asuransi syariah adalah …",
+              "options": [
+                {
+                  "text": "saling menanggung risiko melalui dana tolong-menolong",
+                  "correct": true
+                },
+                {
+                  "text": "memastikan keuntungan tanpa risiko",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari kewajiban zakat",
+                  "correct": false
+                },
+                {
+                  "text": "menggandakan uang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Asuransi syariah berbasis prinsip ta'awun (tolong-menolong) dalam menanggung risiko."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Asuransi, Bank, dan Koperasi Syariah untuk Perekonomian Umat dan Kesejahteraan — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan bank syariah dan bank konvensional terletak pada …",
+              "options": [
+                {
+                  "text": "bank syariah memakai akad syariah dan menghindari bunga",
+                  "correct": true
+                },
+                {
+                  "text": "bank syariah tidak menerima simpanan",
+                  "correct": false
+                },
+                {
+                  "text": "bank konvensional tidak memberi layanan",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya sama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bank syariah beroperasi dengan akad syariah dan tidak memakai bunga."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Akad mudarabah dalam bank syariah berarti …",
+              "options": [
+                {
+                  "text": "kerja sama usaha dengan pembagian keuntungan sesuai kesepakatan",
+                  "correct": true
+                },
+                {
+                  "text": "pinjaman berbunga",
+                  "correct": false
+                },
+                {
+                  "text": "jual beli barang",
+                  "correct": false
+                },
+                {
+                  "text": "sewa menyewa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mudarabah adalah kerja sama antara pemilik dana dan pengelola usaha dengan nisbah bagi hasil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Akad musyarakah berarti …",
+              "options": [
+                {
+                  "text": "kerja sama modal antara dua pihak atau lebih",
+                  "correct": true
+                },
+                {
+                  "text": "pinjaman tanpa imbalan",
+                  "correct": false
+                },
+                {
+                  "text": "jual beli tunai",
+                  "correct": false
+                },
+                {
+                  "text": "titipan barang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Musyarakah adalah kerja sama penyertaan modal dengan pembagian keuntungan dan risiko."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Akad wadiah dalam perbankan syariah digunakan untuk …",
+              "options": [
+                {
+                  "text": "titipan dana nasabah yang dapat diambil sewaktu-waktu",
+                  "correct": true
+                },
+                {
+                  "text": "jual beli barang",
+                  "correct": false
+                },
+                {
+                  "text": "sewa gedung",
+                  "correct": false
+                },
+                {
+                  "text": "pinjaman berbunga",
+                  "correct": false
+                }
+              ],
+              "explanation": "Wadiah adalah titipan yang dijaga dan dapat diambil kembali oleh pemiliknya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip asuransi syariah yang membedakannya dari asuransi konvensional adalah …",
+              "options": [
+                {
+                  "text": "dana dikelola sebagai dana tabarru' untuk saling menolong",
+                  "correct": true
+                },
+                {
+                  "text": "dana menjadi milik perusahaan sepenuhnya",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada akad",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada pengelolaan risiko",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dana tabarru' adalah dana kebajikan peserta untuk saling menanggung risiko."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat koperasi syariah bagi anggota adalah …",
+              "options": [
+                {
+                  "text": "mendapat layanan simpan pinjam dan bagi hasil sesuai syariah",
+                  "correct": true
+                },
+                {
+                  "text": "memperoleh bunga tinggi",
+                  "correct": false
+                },
+                {
+                  "text": "bebas dari kewajiban",
+                  "correct": false
+                },
+                {
+                  "text": "mendapat keuntungan tanpa usaha",
+                  "correct": false
+                }
+              ],
+              "explanation": "Koperasi syariah memberi layanan berbasis akad syariah dan bagi hasil."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk akad dalam fikih muamalah? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Mudarabah",
+                  "correct": true
+                },
+                {
+                  "text": "Musyarakah",
+                  "correct": true
+                },
+                {
+                  "text": "Wadiah",
+                  "correct": true
+                },
+                {
+                  "text": "Riba",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mudarabah, musyarakah, dan wadiah adalah akad. Riba adalah tambahan yang dilarang."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan akad dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Mudarabah"
+                },
+                {
+                  "id": "o1",
+                  "text": "Musyarakah"
+                },
+                {
+                  "id": "o2",
+                  "text": "Wadiah"
+                },
+                {
+                  "id": "o3",
+                  "text": "Tabarru'"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Kerja sama usaha dengan bagi hasil",
+                  "o1": "Kerja sama modal",
+                  "o2": "Titipan dana",
+                  "o3": "Dana tolong-menolong untuk menanggung risiko"
+                }
+              },
+              "explanation": "Setiap akad memiliki fungsi berbeda dalam transaksi syariah."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah memilih lembaga keuangan syariah.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Memahami kebutuhan keuangan"
+                },
+                {
+                  "id": "o1",
+                  "text": "Memeriksa akad dan produk"
+                },
+                {
+                  "id": "o2",
+                  "text": "Memastikan legalitas lembaga"
+                },
+                {
+                  "id": "o3",
+                  "text": "Membaca dan memahami perjanjian"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Pemilihan dilakukan dengan memahami kebutuhan, akad, legalitas, dan perjanjian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahaya pinjaman online ilegal bagi masyarakat adalah …",
+              "options": [
+                {
+                  "text": "bunga dan denda yang mencekik serta penyalahgunaan data pribadi",
+                  "correct": true
+                },
+                {
+                  "text": "memudahkan usaha",
+                  "correct": false
+                },
+                {
+                  "text": "menambah tabungan",
+                  "correct": false
+                },
+                {
+                  "text": "memberi keuntungan tanpa risiko",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pinjaman ilegal sering menjerat dengan bunga tinggi dan menyalahgunakan data pribadi."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Asuransi, Bank, dan Koperasi Syariah untuk Perekonomian Umat dan Kesejahteraan — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa bunga (riba) dilarang dalam transaksi keuangan Islam?",
+              "options": [
+                {
+                  "text": "karena menimbulkan ketidakadilan dan menindas pihak yang lemah",
+                  "correct": true
+                },
+                {
+                  "text": "karena sulit dihitung",
+                  "correct": false
+                },
+                {
+                  "text": "karena tidak menguntungkan bank",
+                  "correct": false
+                },
+                {
+                  "text": "karena hanya berlaku untuk orang kaya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Riba dipandang menimbulkan ketidakadilan karena beban bertambah tanpa risiko bersama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan mendasar bank syariah dan koperasi syariah adalah …",
+              "options": [
+                {
+                  "text": "bank syariah beroperasi sebagai lembaga perbankan, koperasi syariah berbasis keanggotaan",
+                  "correct": true
+                },
+                {
+                  "text": "keduanya sama persis",
+                  "correct": false
+                },
+                {
+                  "text": "koperasi syariah tidak memakai akad",
+                  "correct": false
+                },
+                {
+                  "text": "bank syariah tidak memiliki nasabah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Koperasi berlandaskan keanggotaan, sedangkan bank adalah lembaga perbankan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa dana tabarru' penting pada asuransi syariah?",
+              "options": [
+                {
+                  "text": "karena menjadi mekanisme saling menanggung risiko secara berjamaah",
+                  "correct": true
+                },
+                {
+                  "text": "karena menambah keuntungan perusahaan",
+                  "correct": false
+                },
+                {
+                  "text": "karena menggantikan akad",
+                  "correct": false
+                },
+                {
+                  "text": "karena menghapus klaim",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dana tabarru' menjadikan risiko ditanggung bersama para peserta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kasus asset disita karena gagal bayar cicilan menunjukkan pentingnya …",
+              "options": [
+                {
+                  "text": "memahami akad dan kemampuan membayar sebelum berutang",
+                  "correct": true
+                },
+                {
+                  "text": "berutang sebanyak mungkin",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan perjanjian",
+                  "correct": false
+                },
+                {
+                  "text": "memilih pinjaman bunga tinggi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Memahami akad dan kapasitas finansial mencegah masalah gagal bayar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa lembaga keuangan syariah menekankan akad yang jelas?",
+              "options": [
+                {
+                  "text": "agar kedua pihak mengetahui hak dan kewajiban sehingga terhindar dari sengketa",
+                  "correct": true
+                },
+                {
+                  "text": "agar transaksi lebih rumit",
+                  "correct": false
+                },
+                {
+                  "text": "agar tidak ada keuntungan",
+                  "correct": false
+                },
+                {
+                  "text": "agar pihak lemah dirugikan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kejelasan akad melindungi hak kedua pihak dan mencegah penipuan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat lembaga keuangan syariah bagi perekonomian umat? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menyediakan pembiayaan usaha tanpa riba",
+                  "correct": true
+                },
+                {
+                  "text": "Menumbuhkan kewirausahaan",
+                  "correct": true
+                },
+                {
+                  "text": "Mendorong kepedulian sosial melalui dana kebajikan",
+                  "correct": true
+                },
+                {
+                  "text": "Memberi pinjaman bunga mencekik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lembaga keuangan syariah menyediakan pembiayaan syariah, mendorong wirausaha, dan menyalurkan dana kebajikan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah berutang secara sehat menurut ajaran Islam.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Memastikan kebutuhan benar-benar penting"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menghitung kemampuan membayar"
+                },
+                {
+                  "id": "s2",
+                  "text": "Memilih lembaga dan akad yang jelas dan halal"
+                },
+                {
+                  "id": "s3",
+                  "text": "Mencatat kesepakatan secara tertulis"
+                },
+                {
+                  "id": "s4",
+                  "text": "Melunasi tepat waktu sesuai akad"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Utang sehat dimulai dari kebutuhan nyata sampai pelunasan tepat waktu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna prinsip ta'awun dalam asuransi syariah adalah …",
+              "options": [
+                {
+                  "text": "saling menolong sesama peserta dalam menanggung musibah",
+                  "correct": true
+                },
+                {
+                  "text": "menambah keuntungan",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari klaim",
+                  "correct": false
+                },
+                {
+                  "text": "menekan biaya tanpa hak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ta'awun adalah prinsip saling menolong yang menjadi dasar asuransi syariah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara memeriksa legalitas lembaga keuangan adalah …",
+              "options": [
+                {
+                  "text": "mencari informasi izin resmi dari otoritas yang berwenang",
+                  "correct": true
+                },
+                {
+                  "text": "melihat jumlah iklan",
+                  "correct": false
+                },
+                {
+                  "text": "melihat jumlah kantor",
+                  "correct": false
+                },
+                {
+                  "text": "melihat besarnya bunga yang dijanjikan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Legalitas dibuktikan lewat izin resmi otoritas, bukan iklan atau janji keuntungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap wirausaha yang ditumbuhkan ajaran fikih muamalah adalah …",
+              "options": [
+                {
+                  "text": "berusaha keras dengan cara halal dan peduli pada sesama",
+                  "correct": true
+                },
+                {
+                  "text": "mencari keuntungan tanpa etika",
+                  "correct": false
+                },
+                {
+                  "text": "bergantung pada belas kasihan",
+                  "correct": false
+                },
+                {
+                  "text": "menunda usaha",
+                  "correct": false
+                }
+              ],
+              "explanation": "Fikih muamalah menumbuhkan etika berusaha: halal, amanah, dan peduli sosial."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa zakat dan dana kebajikan dikelola dalam sistem keuangan syariah?",
+              "options": [
+                {
+                  "text": "untuk menyeimbangkan ekonomi dan mengurangi kesenjangan",
+                  "correct": true
+                },
+                {
+                  "text": "untuk menambah bunga",
+                  "correct": false
+                },
+                {
+                  "text": "untuk menekan usaha kecil",
+                  "correct": false
+                },
+                {
+                  "text": "untuk menambah biaya administrasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Zakat dan dana kebajikan berfungsi redistribusi agar kesenjangan berkurang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Akibat transaksi tanpa akad yang jelas adalah …",
+              "options": [
+                {
+                  "text": "rawan sengketa karena hak dan kewajiban tidak terdefinisi",
+                  "correct": true
+                },
+                {
+                  "text": "transaksi lebih aman",
+                  "correct": false
+                },
+                {
+                  "text": "keuntungan lebih besar",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada risiko",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanpa akad jelas, kedua pihak berisiko bersengketa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak positif koperasi syariah bagi anggota berpendapatan rendah adalah …",
+              "options": [
+                {
+                  "text": "akses pembiayaan dan simpanan sesuai kemampuan tanpa jerat bunga",
+                  "correct": true
+                },
+                {
+                  "text": "beban bunga tinggi",
+                  "correct": false
+                },
+                {
+                  "text": "kehilangan hak simpanan",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memperoleh layanan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Koperasi syariah memberi akses keuangan yang lebih berkeadilan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa asuransi syariah menghindari gharar (ketidakjelasan)?",
+              "options": [
+                {
+                  "text": "agar hak peserta jelas dan tidak menimbulkan penipuan",
+                  "correct": true
+                },
+                {
+                  "text": "agar akad tidak perlu ditulis",
+                  "correct": false
+                },
+                {
+                  "text": "agar klaim ditolak",
+                  "correct": false
+                },
+                {
+                  "text": "agar peserta tidak tahu kewajibannya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menghindari gharar berarti menghilangkan ketidakjelasan yang merugikan peserta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pelajar yang memahami fikih muamalah akan bersikap …. terhadap pinjaman online ilegal",
+              "options": [
+                {
+                  "text": "waspada dan menghindar",
+                  "correct": true
+                },
+                {
+                  "text": "menerima dengan senang",
+                  "correct": false
+                },
+                {
+                  "text": "mendorong teman ikut",
+                  "correct": false
+                },
+                {
+                  "text": "menganggap aman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemahaman akad dan riba membuat pelajar memilah layanan keuangan secara kritis."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

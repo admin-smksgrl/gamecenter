@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "fisika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "FIS 1",
+      "title": "Sistem Pengukuran dalam Kerja Ilmiah",
+      "description": "Besaran, satuan, alat ukur, angka penting, notasi ilmiah, dan ketidakpastian pengukuran.",
+      "learning_objectives": [
+        "Mengklasifikasikan macam-macam alat ukur berdasarkan besaran yang diukur,",
+        "Mengukur dengan menggunakan alat ukur yang sesuai,",
+        "Melakukan pengolahan data hasil pengukuran dengan menggunakan aturan angka penting,",
+        "Menuliskan hasil pengukuran dengan menggunakan aturan penulisan notasi ilmiah,",
+        "Menentukan nilai ketidakpastian pada pengukuran berulang, dan",
+        "Merancang percobaan untuk menyelidiki suatu kasus terkait pengukuran."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar IPA Fisika Kelas 10 SMA Fase E Bab 1",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Besaran, Satuan, dan Alat Ukur",
+          "duration": 240,
+          "source_reference": "Bab 1 — Pengukuran",
+          "content": "## Mengukur berarti membandingkan\n\n**Pengukuran** adalah kegiatan membandingkan suatu besaran dengan besaran lain yang sejenis sebagai acuan.\n\n### Besaran pokok dan turunan\n\n| Besaran pokok | Satuan SI |\n|---|---|\n| Panjang | meter (m) |\n| Massa | kilogram (kg) |\n| Waktu | sekon (s) |\n| Suhu | kelvin (K) |\n| Kuat arus | ampere (A) |\n\n**Besaran turunan** tersusun dari besaran pokok, misalnya:\n\n- gaya = kg·m/s² (newton)\n- energi = kg·m²/s² (joule)\n- tekanan = kg/(m·s²) (pascal)\n\n### Besaran skalar dan vektor\n\nSkalar hanya punya besar; vektor punya besar dan arah.\n\n### Memilih alat ukur\n\n| Alat | Ketelitian | Kegunaan |\n|---|---|---|\n| Mistar | 1 mm | panjang benda biasa |\n| Jangka sorong | 0,1 mm atau 0,05 mm | diameter luar/dalam, kedalaman |\n| Mikrometer sekrup | 0,01 mm | benda sangat tipis |\n\nJangka sorong 20 skala nonius memiliki ketelitian 1 mm ÷ 20 = 0,05 mm."
+        },
+        {
+          "type": "text",
+          "title": "Angka Penting dan Notasi Ilmiah",
+          "duration": 360,
+          "source_reference": "Bab 1 — Pengolahan Data",
+          "content": "## Angka penting\n\nAngka penting menunjukkan ketelitian hasil pengukuran.\n\n**Aturan:**\n\n1. Angka bukan nol selalu angka penting\n2. Angka nol di **depan** bukan angka penting (`0,003050` → mulai dari 3)\n3. Angka nol **di antara** angka bukan nol selalu penting\n4. Angka nol **di belakang** setelah koma adalah angka penting\n\nContoh: `0,003050` punya 4 angka penting (3, 0, 5, 0).\n\n## Aturan hitung\n\n| Operasi | Aturan |\n|---|---|\n| Perkalian/pembagian | ikuti jumlah angka penting **paling sedikit** |\n| Penjumlahan/pengurangan | ikuti jumlah **desimal paling sedikit** |\n\nContoh perkalian: 2,7 × 1,5 = 4,05 → ditulis **4,1** (dua angka penting).\n\nContoh penjumlahan: 4,56 + 1,2 = 5,76 → ditulis **5,8** (satu desimal).\n\n## Notasi ilmiah\n\n> a × 10ⁿ, dengan 1 ≤ a < 10\n\n- 0,00042 m = 4,2 × 10⁻⁴ m\n- 3200 m dengan dua angka penting = 3,2 × 10³ m\n- 1 nanometer = 10⁻⁹ m"
+        },
+        {
+          "type": "interactive",
+          "title": "Ketidakpastian Pengukuran",
+          "duration": 240,
+          "source_reference": "Bab 1 — Ketidakpastian",
+          "content": "## Mengapa hasil ukur tidak pernah pasti?\n\nKarena alat punya skala terkecil dan pengamat punya keterbatasan membaca.\n\n### Ketidakpastian pembacaan tunggal\n\nBiasanya **setengah skala terkecil**: mistar dengan skala 1 mm → ±0,5 mm.\n\nPenulisannya: **(5,20 ± 0,05) cm**, artinya nilai sebenarnya berada di sekitar 5,20 cm dengan batas 0,05 cm.\n\n### Ketidakpastian pengukuran berulang\n\n> Δx = ½ × (nilai terbesar − nilai terkecil)\n\nContoh data: 12,0; 12,4; 12,1; 12,3; 12,2 cm\n\n- Rata-rata = 61,0 ÷ 5 = **12,2 cm**\n- Δx = ½ × (12,4 − 12,0) = **0,2 cm**\n- Hasil: (12,2 ± 0,2) cm\n\n### Dua jenis kesalahan\n\n| Jenis | Sifat | Contoh |\n|---|---|---|\n| **Sistematis** | tetap, searah, dapat dikoreksi | kalibrasi alat salah |\n| **Acak** | tidak berpola | pengamat lelah, getaran |\n\nPengukuran berulang meredam kesalahan **acak**, bukan kesalahan sistematis.\n\n### Langkah percobaan\n\n1. Rumuskan kasus yang diselidiki\n2. Pilih besaran dan alat ukur yang sesuai\n3. Ukur berulang dan catat\n4. Olah dengan aturan angka penting, lalu simpulkan"
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Sistem Pengukuran dalam Kerja Ilmiah — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kegiatan membandingkan suatu besaran dengan besaran lain yang sejenis sebagai acuan disebut …",
+              "options": [
+                {
+                  "text": "pengukuran",
+                  "correct": true
+                },
+                {
+                  "text": "penaksiran",
+                  "correct": false
+                },
+                {
+                  "text": "pengamatan",
+                  "correct": false
+                },
+                {
+                  "text": "pengelompokan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengukuran membandingkan besaran yang diukur dengan satuan acuan yang sejenis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Besaran yang memiliki nilai dan arah disebut besaran …",
+              "options": [
+                {
+                  "text": "skalar",
+                  "correct": false
+                },
+                {
+                  "text": "vektor",
+                  "correct": true
+                },
+                {
+                  "text": "pokok",
+                  "correct": false
+                },
+                {
+                  "text": "turunan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Besaran vektor memiliki besar dan arah, misalnya perpindahan dan gaya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Satuan panjang dalam Sistem Internasional adalah …",
+              "options": [
+                {
+                  "text": "meter",
+                  "correct": true
+                },
+                {
+                  "text": "kilogram",
+                  "correct": false
+                },
+                {
+                  "text": "sekon",
+                  "correct": false
+                },
+                {
+                  "text": "ampere",
+                  "correct": false
+                }
+              ],
+              "explanation": "Meter (m) adalah satuan SI untuk panjang; kilogram untuk massa dan sekon untuk waktu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat ukur yang dipakai untuk mengukur panjang benda kecil dengan ketelitian tinggi adalah …",
+              "options": [
+                {
+                  "text": "mistar",
+                  "correct": false
+                },
+                {
+                  "text": "jangka sorong",
+                  "correct": false
+                },
+                {
+                  "text": "mikrometer sekrup",
+                  "correct": true
+                },
+                {
+                  "text": "penggaris kayu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mikrometer sekrup memiliki ketelitian sampai 0,01 mm sehingga cocok untuk benda tipis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah angka yang bermakna pada hasil pengukuran disebut …",
+              "options": [
+                {
+                  "text": "angka penting",
+                  "correct": true
+                },
+                {
+                  "text": "notasi ilmiah",
+                  "correct": false
+                },
+                {
+                  "text": "ketidakpastian",
+                  "correct": false
+                },
+                {
+                  "text": "dimensi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Angka penting menunjukkan ketelitian hasil pengukuran, dari angka pasti dan satu angka taksiran."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Sistem Pengukuran dalam Kerja Ilmiah — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Hasil pengukuran 2,50 cm × 3,14 cm memiliki angka penting sebanyak …",
+              "options": [
+                {
+                  "text": "3",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                }
+              ],
+              "explanation": "2,50 memiliki 3 angka penting dan 3,14 memiliki 3 angka penting. Pada perkalian, hasil diambil dari jumlah angka penting paling sedikit, yaitu 3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Notasi ilmiah dari 0,00042 m adalah …",
+              "options": [
+                {
+                  "text": "4,2 × 10⁻⁴ m",
+                  "correct": true
+                },
+                {
+                  "text": "42 × 10⁻⁵ m",
+                  "correct": false
+                },
+                {
+                  "text": "4,2 × 10⁴ m",
+                  "correct": false
+                },
+                {
+                  "text": "0,42 × 10⁻³ m",
+                  "correct": false
+                }
+              ],
+              "explanation": "Notasi ilmiah menulis satu angka bukan nol di depan koma, sehingga 0,00042 = 4,2 × 10⁻⁴."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bilangan 0,003050 memiliki angka penting sebanyak …",
+              "options": [
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                }
+              ],
+              "explanation": "Angka nol di depan bukan angka penting. Yang penting: 3, 0, 5, dan 0 di akhir setelah koma — total 4."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Besaran turunan yang satuannya kg·m/s² adalah …",
+              "options": [
+                {
+                  "text": "gaya",
+                  "correct": true
+                },
+                {
+                  "text": "energi",
+                  "correct": false
+                },
+                {
+                  "text": "daya",
+                  "correct": false
+                },
+                {
+                  "text": "tekanan",
+                  "correct": false
+                }
+              ],
+              "explanation": "kg·m/s² adalah satuan gaya (newton), hasil dari massa × percepatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat ukur yang paling tepat untuk mengukur diameter dalam sebuah pipa adalah …",
+              "options": [
+                {
+                  "text": "mistar",
+                  "correct": false
+                },
+                {
+                  "text": "jangka sorong",
+                  "correct": true
+                },
+                {
+                  "text": "neraca",
+                  "correct": false
+                },
+                {
+                  "text": "termometer",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jangka sorong memiliki rahang dalam yang dipakai mengukur diameter bagian dalam pipa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ketidakpastian pengukuran berulang dihitung dengan cara …",
+              "options": [
+                {
+                  "text": "mengambil selisih nilai terbesar dan terkecil",
+                  "correct": true
+                },
+                {
+                  "text": "mengambil nilai tengah",
+                  "correct": false
+                },
+                {
+                  "text": "membagi hasil dengan jumlah data",
+                  "correct": false
+                },
+                {
+                  "text": "menjumlahkan semua hasil",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketidakpastian mutlak pada pengukuran berulang dinyatakan sebagai setengah selisih nilai maksimum dan minimum."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kelompok satuan yang semuanya satuan pokok SI adalah …",
+              "options": [
+                {
+                  "text": "meter, kilogram, sekon",
+                  "correct": true
+                },
+                {
+                  "text": "newton, joule, watt",
+                  "correct": false
+                },
+                {
+                  "text": "meter, joule, sekon",
+                  "correct": false
+                },
+                {
+                  "text": "kilogram, newton, ampere",
+                  "correct": false
+                }
+              ],
+              "explanation": "Meter, kilogram, dan sekon adalah satuan pokok. Newton, joule, dan watt adalah satuan turunan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk besaran pokok? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Panjang",
+                  "correct": true
+                },
+                {
+                  "text": "Massa",
+                  "correct": true
+                },
+                {
+                  "text": "Waktu",
+                  "correct": true
+                },
+                {
+                  "text": "Kecepatan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Panjang, massa, dan waktu adalah besaran pokok. Kecepatan adalah besaran turunan dari panjang dan waktu."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan alat ukur dengan besaran yang diukur.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Mistar"
+                },
+                {
+                  "id": "o1",
+                  "text": "Neraca"
+                },
+                {
+                  "id": "o2",
+                  "text": "Termometer"
+                },
+                {
+                  "id": "o3",
+                  "text": "Stopwatch"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Panjang",
+                  "o1": "Massa",
+                  "o2": "Suhu",
+                  "o3": "Waktu"
+                }
+              },
+              "explanation": "Setiap alat ukur dirancang untuk satu besaran tertentu."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan pengukuran yang benar.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Memilih alat ukur sesuai besaran"
+                },
+                {
+                  "id": "o1",
+                  "text": "Memeriksa skala nol alat"
+                },
+                {
+                  "id": "o2",
+                  "text": "Membaca skala dengan mata tegak lurus"
+                },
+                {
+                  "id": "o3",
+                  "text": "Mencatat hasil beserta satuannya"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Meja ukur harus sesuai besaran, skalanya diperiksa, dibaca tegak lurus agar tidak paralaks, lalu dicatat lengkap dengan satuan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Sistem Pengukuran dalam Kerja Ilmiah — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Lima kali pengukuran panjang menghasilkan 12,0 cm; 12,4 cm; 12,1 cm; 12,3 cm; dan 12,2 cm. Ketidakpastian mutlaknya adalah …",
+              "options": [
+                {
+                  "text": "0,1 cm",
+                  "correct": false
+                },
+                {
+                  "text": "0,2 cm",
+                  "correct": true
+                },
+                {
+                  "text": "0,4 cm",
+                  "correct": false
+                },
+                {
+                  "text": "0,5 cm",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai terbesar 12,4 dan terkecil 12,0. Ketidakpastian = ½ × (12,4 − 12,0) = 0,2 cm."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dari data 12,0; 12,4; 12,1; 12,3; 12,2 cm, rata-rata hasil pengukurannya adalah …",
+              "options": [
+                {
+                  "text": "12,0 cm",
+                  "correct": false
+                },
+                {
+                  "text": "12,1 cm",
+                  "correct": false
+                },
+                {
+                  "text": "12,2 cm",
+                  "correct": true
+                },
+                {
+                  "text": "12,4 cm",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlahnya 61,0 cm dibagi 5 data menghasilkan 12,2 cm."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hasil penjumlahan 4,56 cm + 1,2 cm sesuai aturan angka penting adalah …",
+              "options": [
+                {
+                  "text": "5,76 cm",
+                  "correct": false
+                },
+                {
+                  "text": "5,8 cm",
+                  "correct": true
+                },
+                {
+                  "text": "5,7 cm",
+                  "correct": false
+                },
+                {
+                  "text": "6 cm",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pada penjumlahan, hasil mengikuti jumlah angka di belakang koma paling sedikit. 1,2 punya satu desimal, sehingga hasilnya 5,8 cm."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bilangan 3200 m ditulis dalam notasi ilmiah dengan dua angka penting menjadi …",
+              "options": [
+                {
+                  "text": "3,2 × 10³ m",
+                  "correct": true
+                },
+                {
+                  "text": "32 × 10² m",
+                  "correct": false
+                },
+                {
+                  "text": "3,20 × 10³ m",
+                  "correct": false
+                },
+                {
+                  "text": "0,32 × 10⁴ m",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dua angka penting berarti hanya 3 dan 2, sehingga penulisannya 3,2 × 10³ m."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ketelitian jangka sorong dengan 20 skala nonius adalah …",
+              "options": [
+                {
+                  "text": "0,1 mm",
+                  "correct": false
+                },
+                {
+                  "text": "0,05 mm",
+                  "correct": true
+                },
+                {
+                  "text": "0,01 mm",
+                  "correct": false
+                },
+                {
+                  "text": "1 mm",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketelitian = 1 mm ÷ 20 = 0,05 mm."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah benda bermassa 2,50 kg dan volumenya 0,500 L. Massa jenisnya dalam kg/L adalah …",
+              "options": [
+                {
+                  "text": "5,00 kg/L",
+                  "correct": true
+                },
+                {
+                  "text": "5,0 kg/L",
+                  "correct": false
+                },
+                {
+                  "text": "1,25 kg/L",
+                  "correct": false
+                },
+                {
+                  "text": "0,20 kg/L",
+                  "correct": false
+                }
+              ],
+              "explanation": "Massa jenis = massa ÷ volume = 2,50 ÷ 0,500 = 5,00 kg/L. Kedua data memiliki tiga angka penting, sehingga hasilnya juga dituliskan dengan tiga angka penting."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa hasil pengukuran selalu memiliki ketidakpastian?",
+              "options": [
+                {
+                  "text": "karena keterbatasan alat ukur dan ketelitian pengamat",
+                  "correct": true
+                },
+                {
+                  "text": "karena benda yang diukur berubah warna",
+                  "correct": false
+                },
+                {
+                  "text": "karena satuan tidak berlaku",
+                  "correct": false
+                },
+                {
+                  "text": "karena hasil pengukuran selalu salah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap alat memiliki skala terkecil dan pengamat memiliki keterbatasan membaca, sehingga selalu ada ketidakpastian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pernyataan yang benar tentang kesalahan sistematis adalah …",
+              "options": [
+                {
+                  "text": "kesalahannya cenderung ke arah yang sama dan dapat dikoreksi",
+                  "correct": true
+                },
+                {
+                  "text": "terjadi acak tanpa pola",
+                  "correct": false
+                },
+                {
+                  "text": "tidak pernah memengaruhi hasil",
+                  "correct": false
+                },
+                {
+                  "text": "selalu berasal dari pengamat yang lelah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kesalahan sistematis berasal dari alat atau prosedur dan bersifat tetap sehingga dapat dikoreksi. Kesalahan acak tidak berpola."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang angka penting? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Angka nol di depan bukan angka penting",
+                  "correct": true
+                },
+                {
+                  "text": "Angka nol di antara angka bukan nol adalah angka penting",
+                  "correct": true
+                },
+                {
+                  "text": "Angka nol di belakang tanpa koma dapat meragukan",
+                  "correct": true
+                },
+                {
+                  "text": "Semua angka nol selalu angka penting",
+                  "correct": false
+                }
+              ],
+              "explanation": "Angka nol di depan hanya penunjuk posisi sehingga bukan angka penting. Yang di tengah selalu penting, sedangkan yang di belakang tanpa koma meragukan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah merancang percobaan pengukuran sederhana.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Merumuskan pertanyaan atau kasus yang akan diselidiki"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menentukan besaran dan alat ukur yang sesuai"
+                },
+                {
+                  "id": "s2",
+                  "text": "Melakukan pengukuran berulang dan mencatat data"
+                },
+                {
+                  "id": "s3",
+                  "text": "Mengolah data dengan aturan angka penting dan menyimpulkan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Percobaan yang baik dimulai dari rumusan masalah, dilanjutkan pemilihan alat, pengambilan data, lalu pengolahan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hasil 2,7 m × 1,5 m menurut aturan angka penting dituliskan sebagai …",
+              "options": [
+                {
+                  "text": "4,05 m²",
+                  "correct": false
+                },
+                {
+                  "text": "4,1 m²",
+                  "correct": true
+                },
+                {
+                  "text": "4 m²",
+                  "correct": false
+                },
+                {
+                  "text": "4,050 m²",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kedua faktor memiliki dua angka penting, sehingga hasil dibatasi dua angka penting: 4,1 m²."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Satuan tekanan dalam SI dinyatakan sebagai …",
+              "options": [
+                {
+                  "text": "kg/(m·s²)",
+                  "correct": true
+                },
+                {
+                  "text": "kg·m/s²",
+                  "correct": false
+                },
+                {
+                  "text": "kg·m²/s²",
+                  "correct": false
+                },
+                {
+                  "text": "kg/(m²·s)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tekanan = gaya ÷ luas = (kg·m/s²) ÷ m² = kg/(m·s²), dikenal sebagai pascal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hasil 8,25 ÷ 2,5 sesuai angka penting adalah …",
+              "options": [
+                {
+                  "text": "3,3",
+                  "correct": true
+                },
+                {
+                  "text": "3,30",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "3,300",
+                  "correct": false
+                }
+              ],
+              "explanation": "8,25 memiliki tiga angka penting dan 2,5 dua angka penting. Hasil dibatasi dua angka penting: 3,3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bila hasil pengukuran dituliskan (5,20 ± 0,05) cm, artinya …",
+              "options": [
+                {
+                  "text": "nilai sebenarnya berada di sekitar 5,20 cm dengan ketidakpastian 0,05 cm",
+                  "correct": true
+                },
+                {
+                  "text": "nilai tepat 5,25 cm",
+                  "correct": false
+                },
+                {
+                  "text": "pengukuran gagal",
+                  "correct": false
+                },
+                {
+                  "text": "alat ukurnya rusak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penulisan itu menyatakan nilai terukur beserta batas ketidakpastiannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Besaran yang dimensinya [M][L]²[T]⁻² adalah …",
+              "options": [
+                {
+                  "text": "energi",
+                  "correct": true
+                },
+                {
+                  "text": "gaya",
+                  "correct": false
+                },
+                {
+                  "text": "tekanan",
+                  "correct": false
+                },
+                {
+                  "text": "daya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dimensi energi (joule) adalah [M][L]²[T]⁻², sama dengan dimensi usaha."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

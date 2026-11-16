@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "kimia",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "KIM 1",
+      "title": "Struktur Atom dan Nanoteknologi",
+      "description": "Partikel penyusun atom, konfigurasi elektron, sifat keperiodikan unsur, serta penerapan nanoteknologi.",
+      "learning_objectives": [
+        "Mendeskripsikan pengertian dan pentingnya nanoteknologi,",
+        "Menganalisis struktur atom dari unsur-unsur,",
+        "Menganalisis konfigurasi elektron menurut teori model atom Bohr,",
+        "Menganalisis kecenderungan jari-jari atom dalam sifat keperiodikan unsur, dan",
+        "Menerapkan konsep struktur atom pada bahan nanomaterial."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar IPA Kimia Kelas 10 SMA Fase E Bab 5",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Partikel Penyusun Atom",
+          "duration": 240,
+          "source_reference": "Bab III — Struktur Atom",
+          "content": "## Tiga partikel dasar\n\n| Partikel | Muatan | Letak |\n|---|---|---|\n| Proton | positif | inti |\n| Neutron | netral | inti |\n| Elektron | negatif | kulit atom |\n\n### Nomor atom dan nomor massa\n\n> **Nomor atom (Z) = jumlah proton**\n> **Nomor massa (A) = proton + neutron**\n\nAtom netral memiliki jumlah elektron = jumlah proton.\n\nContoh: Z = 12, A = 24 → proton 12, elektron 12, neutron 24 − 12 = **12**.\n\n### Isotop\n\nAtom dengan **nomor atom sama** tetapi **nomor massa berbeda**. Contoh ¹²C dan ¹⁴C sama-sama 6 proton, tetapi neutronnya 6 dan 8.\n\nSifat kimia isotop mirip karena konfigurasi elektronnya sama."
+        },
+        {
+          "type": "text",
+          "title": "Konfigurasi Elektron dan Sifat Keperiodikan",
+          "duration": 360,
+          "source_reference": "Bab III — Konfigurasi dan Keperiodikan",
+          "content": "## Konfigurasi elektron (model Bohr)\n\nElektron menempati kulit dengan kapasitas maksimum 2, 8, 18, 32 dari dalam ke luar:\n\n| Kulit | Maksimum |\n|---|---|\n| K | 2 |\n| L | 8 |\n| M | 18 |\n| N | 32 |\n\nContoh:\n\n- Na (Z = 11) → **2, 8, 1**\n- Cl (Z = 17) → **2, 8, 7**\n- Ca (Z = 20) → **2, 8, 8, 2**\n\n**Elektron valensi** adalah elektron di kulit terluar dan menentukan **sifat kimia**. Cl punya 7 elektron valensi.\n\n## Sifat keperiodikan\n\n| Sifat | Kiri → kanan (satu periode) | Atas → bawah (satu golongan) |\n|---|---|---|\n| Jari-jari atom | **berkurang** | **bertambah** |\n| Energi ionisasi | bertambah | **berkurang** |\n| Keelektronegatifan | bertambah | berkurang |\n\n**Mengapa jari-jari berkurang ke kanan?** Jumlah kulit sama, tetapi proton bertambah sehingga tarikan inti terhadap elektron lebih kuat.\n\n**Mengapa bertambah ke bawah?** Jumlah kulit bertambah sehingga elektron terluar makin jauh dari inti.\n\nUnsur paling elektronegatif berada di **kanan atas** sistem periodik (kecuali gas mulia)."
+        },
+        {
+          "type": "interactive",
+          "title": "Nanoteknologi",
+          "duration": 240,
+          "source_reference": "Bab III — Nanoteknologi",
+          "content": "## Skala nano\n\n> 1 nanometer = **10⁻⁹ meter**\n\nNanoteknologi memanipulasi materi pada skala 1–100 nm. 50 nm = 50 × 10⁻⁹ = 5 × 10⁻⁸ m.\n\n### Mengapa sifatnya berubah?\n\nPada ukuran nano, **rasio luas permukaan terhadap volume** sangat besar. Akibatnya reaktivitas dan sifat mekanik, optik, serta listrik material dapat berbeda dari bentuk besarnya.\n\n### Penerapan\n\n| Bidang | Contoh |\n|---|---|\n| Kesehatan | penghantaran obat langsung ke sel target |\n| Material | baja lebih kuat dan ringan |\n| Lingkungan | filter air dan pembersih polutan |\n| Energi | sel surya lebih efisien |\n\nPenghantaran obat berbasis nano membuat obat mencapai sel target sehingga **efek samping berkurang**.\n\n### Konsep kunci\n\nSifat materi **bukan hanya** ditentukan jenis atomnya, tetapi juga **ukuran dan susunannya**."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Struktur Atom dan Nanoteknologi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Partikel penyusun atom yang bermuatan negatif adalah …",
+              "options": [
+                {
+                  "text": "proton",
+                  "correct": false
+                },
+                {
+                  "text": "elektron",
+                  "correct": true
+                },
+                {
+                  "text": "neutron",
+                  "correct": false
+                },
+                {
+                  "text": "nukleon",
+                  "correct": false
+                }
+              ],
+              "explanation": "Elektron bermuatan negatif, proton positif, dan neutron netral."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Inti atom tersusun dari …",
+              "options": [
+                {
+                  "text": "proton dan neutron",
+                  "correct": true
+                },
+                {
+                  "text": "proton dan elektron",
+                  "correct": false
+                },
+                {
+                  "text": "neutron dan elektron",
+                  "correct": false
+                },
+                {
+                  "text": "hanya elektron",
+                  "correct": false
+                }
+              ],
+              "explanation": "Inti atom (nukleon) terdiri atas proton dan neutron."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nomor atom suatu unsur menyatakan jumlah …",
+              "options": [
+                {
+                  "text": "neutron",
+                  "correct": false
+                },
+                {
+                  "text": "proton",
+                  "correct": true
+                },
+                {
+                  "text": "nukleon",
+                  "correct": false
+                },
+                {
+                  "text": "massa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nomor atom (Z) = jumlah proton, yang menentukan identitas unsur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teknologi yang bekerja pada skala nanometer disebut …",
+              "options": [
+                {
+                  "text": "nanoteknologi",
+                  "correct": true
+                },
+                {
+                  "text": "bioteknologi",
+                  "correct": false
+                },
+                {
+                  "text": "geoteknologi",
+                  "correct": false
+                },
+                {
+                  "text": "agroteknologi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nanoteknologi memanipulasi materi pada skala 1–100 nanometer."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Satuan nanometer sama dengan …",
+              "options": [
+                {
+                  "text": "10⁻³ meter",
+                  "correct": false
+                },
+                {
+                  "text": "10⁻⁶ meter",
+                  "correct": false
+                },
+                {
+                  "text": "10⁻⁹ meter",
+                  "correct": true
+                },
+                {
+                  "text": "10⁻¹² meter",
+                  "correct": false
+                }
+              ],
+              "explanation": "Satu nanometer = 10⁻⁹ meter, yaitu sepersejuta milimeter."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Struktur Atom dan Nanoteknologi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Atom dengan nomor atom 12 dan nomor massa 24 memiliki neutron sebanyak …",
+              "options": [
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": true
+                },
+                {
+                  "text": "24",
+                  "correct": false
+                },
+                {
+                  "text": "36",
+                  "correct": false
+                }
+              ],
+              "explanation": "Neutron = nomor massa − nomor atom = 24 − 12 = 12."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Atom dengan nomor atom 17 dan nomor massa 35 memiliki jumlah elektron (atom netral) sebanyak …",
+              "options": [
+                {
+                  "text": "17",
+                  "correct": true
+                },
+                {
+                  "text": "18",
+                  "correct": false
+                },
+                {
+                  "text": "35",
+                  "correct": false
+                },
+                {
+                  "text": "52",
+                  "correct": false
+                }
+              ],
+              "explanation": "Atom netral memiliki jumlah elektron sama dengan nomor atom, yaitu 17."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Konfigurasi elektron atom natrium (Z = 11) menurut Bohr adalah …",
+              "options": [
+                {
+                  "text": "2, 8, 1",
+                  "correct": true
+                },
+                {
+                  "text": "2, 9",
+                  "correct": false
+                },
+                {
+                  "text": "8, 3",
+                  "correct": false
+                },
+                {
+                  "text": "1, 8, 2",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kulit K maksimal 2, kulit L maksimal 8, sisanya 1 elektron di kulit M."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Atom klorin (Z = 17) memiliki elektron valensi sebanyak …",
+              "options": [
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "7",
+                  "correct": true
+                },
+                {
+                  "text": "17",
+                  "correct": false
+                }
+              ],
+              "explanation": "Konfigurasi 2, 8, 7 sehingga elektron valensinya 7."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dalam satu golongan dari atas ke bawah, jari-jari atom cenderung …",
+              "options": [
+                {
+                  "text": "bertambah",
+                  "correct": true
+                },
+                {
+                  "text": "berkurang",
+                  "correct": false
+                },
+                {
+                  "text": "tetap",
+                  "correct": false
+                },
+                {
+                  "text": "menjadi nol",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlah kulit bertambah sehingga jari-jari atom ikut membesar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dalam satu periode dari kiri ke kanan, jari-jari atom cenderung …",
+              "options": [
+                {
+                  "text": "bertambah",
+                  "correct": false
+                },
+                {
+                  "text": "berkurang",
+                  "correct": true
+                },
+                {
+                  "text": "tetap",
+                  "correct": false
+                },
+                {
+                  "text": "tidak teratur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Muatan inti bertambah sedangkan jumlah kulit sama, sehingga elektron tertarik lebih kuat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nanomaterial memiliki sifat berbeda dari material berukuran besar karena …",
+              "options": [
+                {
+                  "text": "luas permukaannya jauh lebih besar per satuan massa",
+                  "correct": true
+                },
+                {
+                  "text": "massanya lebih besar",
+                  "correct": false
+                },
+                {
+                  "text": "warnanya selalu putih",
+                  "correct": false
+                },
+                {
+                  "text": "atomnya hilang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rasio luas permukaan terhadap volume yang sangat besar membuat reaktivitas dan sifat fisik berubah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang partikel penyusun atom? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Proton bermuatan positif",
+                  "correct": true
+                },
+                {
+                  "text": "Neutron tidak bermuatan",
+                  "correct": true
+                },
+                {
+                  "text": "Elektron bermuatan negatif",
+                  "correct": true
+                },
+                {
+                  "text": "Neutron bermuatan positif",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proton positif, elektron negatif, neutron netral (tidak bermuatan)."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Nomor atom"
+                },
+                {
+                  "id": "o1",
+                  "text": "Nomor massa"
+                },
+                {
+                  "id": "o2",
+                  "text": "Elektron valensi"
+                },
+                {
+                  "id": "o3",
+                  "text": "Isotop"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Jumlah proton dalam inti",
+                  "o1": "Jumlah proton dan neutron",
+                  "o2": "Elektron di kulit terluar",
+                  "o3": "Atom dengan nomor atom sama, nomor massa berbeda"
+                }
+              },
+              "explanation": "Keempat istilah menunjuk ciri atom yang berbeda."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan kulit atom dari yang paling dekat inti.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Kulit K"
+                },
+                {
+                  "id": "o1",
+                  "text": "Kulit L"
+                },
+                {
+                  "id": "o2",
+                  "text": "Kulit M"
+                },
+                {
+                  "id": "o3",
+                  "text": "Kulit N"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Kulit diberi nama berurutan dari dalam: K, L, M, N."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Struktur Atom dan Nanoteknologi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Atom dengan 20 proton dan 20 neutron memiliki nomor massa …",
+              "options": [
+                {
+                  "text": "20",
+                  "correct": false
+                },
+                {
+                  "text": "40",
+                  "correct": true
+                },
+                {
+                  "text": "60",
+                  "correct": false
+                },
+                {
+                  "text": "10",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nomor massa = proton + neutron = 20 + 20 = 40."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Isotop ¹²C dan ¹⁴C memiliki perbedaan pada jumlah …",
+              "options": [
+                {
+                  "text": "proton",
+                  "correct": false
+                },
+                {
+                  "text": "elektron",
+                  "correct": false
+                },
+                {
+                  "text": "neutron",
+                  "correct": true
+                },
+                {
+                  "text": "kulit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nomor atom sama (6 proton), tetapi nomor massa berbeda sehingga jumlah neutronnya berbeda (6 dan 8)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Atom kalsium (Z = 20) memiliki konfigurasi elektron …",
+              "options": [
+                {
+                  "text": "2, 8, 10",
+                  "correct": false
+                },
+                {
+                  "text": "2, 8, 8, 2",
+                  "correct": true
+                },
+                {
+                  "text": "2, 10, 8",
+                  "correct": false
+                },
+                {
+                  "text": "2, 8, 9, 1",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kulit K 2, L 8, M 8, dan sisanya 2 elektron di kulit N."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Atom dengan konfigurasi 2, 8, 6 terletak pada golongan …",
+              "options": [
+                {
+                  "text": "VIA",
+                  "correct": true
+                },
+                {
+                  "text": "IIA",
+                  "correct": false
+                },
+                {
+                  "text": "VIB",
+                  "correct": false
+                },
+                {
+                  "text": "VIIIA",
+                  "correct": false
+                }
+              ],
+              "explanation": "Elektron valensi 6 sesuai golongan VIA; jumlah kulit 3 berarti periode 3."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu penerapan nanoteknologi di bidang kesehatan adalah …",
+              "options": [
+                {
+                  "text": "penghantaran obat langsung ke sel target",
+                  "correct": true
+                },
+                {
+                  "text": "pembuatan jembatan beton",
+                  "correct": false
+                },
+                {
+                  "text": "penanaman padi",
+                  "correct": false
+                },
+                {
+                  "text": "pengolahan air laut menjadi garam",
+                  "correct": false
+                }
+              ],
+              "explanation": "Partikel nano dapat membawa obat menuju sel tertentu sehingga efek samping berkurang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk sifat keperiodikan unsur? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Jari-jari atom",
+                  "correct": true
+                },
+                {
+                  "text": "Keelektronegatifan",
+                  "correct": true
+                },
+                {
+                  "text": "Energi ionisasi",
+                  "correct": true
+                },
+                {
+                  "text": "Warna kemasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jari-jari atom, keelektronegatifan, dan energi ionisasi berubah beraturan dalam sistem periodik."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menentukan konfigurasi elektron menurut Bohr.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Menentukan nomor atom unsur"
+                },
+                {
+                  "id": "s1",
+                  "text": "Mengisi kulit K dengan maksimal 2 elektron"
+                },
+                {
+                  "id": "s2",
+                  "text": "Mengisi kulit L dengan maksimal 8 elektron"
+                },
+                {
+                  "id": "s3",
+                  "text": "Melanjutkan ke kulit berikutnya hingga elektron habis"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Pengisian kulit mengikuti batas maksimum 2, 8, 18, 32 dari kulit terdalam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah partikel nano memiliki ukuran 50 nm. Dalam meter, ukurannya adalah …",
+              "options": [
+                {
+                  "text": "5 × 10⁻⁸ m",
+                  "correct": true
+                },
+                {
+                  "text": "5 × 10⁻⁷ m",
+                  "correct": false
+                },
+                {
+                  "text": "5 × 10⁻⁹ m",
+                  "correct": false
+                },
+                {
+                  "text": "5 × 10⁻⁶ m",
+                  "correct": false
+                }
+              ],
+              "explanation": "50 nm = 50 × 10⁻⁹ m = 5 × 10⁻⁸ m."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Baja menjadi lebih kuat dan ringan dengan penambahan partikel nano. Fenomena ini menunjukkan bahwa …",
+              "options": [
+                {
+                  "text": "sifat material berubah pada skala nano",
+                  "correct": true
+                },
+                {
+                  "text": "massa material hilang",
+                  "correct": false
+                },
+                {
+                  "text": "atom material berkurang",
+                  "correct": false
+                },
+                {
+                  "text": "material berubah menjadi gas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pada skala nano, rasio luas permukaan besar sehingga sifat mekanik material dapat meningkat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Atom X memiliki 15 proton dan 16 neutron. Nomor atom dan nomor massanya berturut-turut adalah …",
+              "options": [
+                {
+                  "text": "15 dan 31",
+                  "correct": true
+                },
+                {
+                  "text": "16 dan 31",
+                  "correct": false
+                },
+                {
+                  "text": "15 dan 16",
+                  "correct": false
+                },
+                {
+                  "text": "31 dan 15",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nomor atom = jumlah proton = 15; nomor massa = 15 + 16 = 31."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Elektron valensi menentukan …",
+              "options": [
+                {
+                  "text": "sifat kimia unsur",
+                  "correct": true
+                },
+                {
+                  "text": "warna inti atom",
+                  "correct": false
+                },
+                {
+                  "text": "jumlah neutron",
+                  "correct": false
+                },
+                {
+                  "text": "massa atom",
+                  "correct": false
+                }
+              ],
+              "explanation": "Elektron di kulit terluar menentukan cara atom berikatan sehingga menentukan sifat kimianya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pernyataan yang tepat tentang isotop adalah …",
+              "options": [
+                {
+                  "text": "sifat kimianya mirip karena jumlah elektron sama",
+                  "correct": true
+                },
+                {
+                  "text": "sifat kimianya selalu berbeda jauh",
+                  "correct": false
+                },
+                {
+                  "text": "jumlah protonnya berbeda",
+                  "correct": false
+                },
+                {
+                  "text": "jumlah elektronnya berbeda",
+                  "correct": false
+                }
+              ],
+              "explanation": "Isotop memiliki konfigurasi elektron sama, sehingga sifat kimianya mirip meskipun massanya berbeda."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Energi ionisasi adalah energi yang diperlukan untuk …",
+              "options": [
+                {
+                  "text": "melepaskan satu elektron dari atom netral",
+                  "correct": true
+                },
+                {
+                  "text": "menambah neutron",
+                  "correct": false
+                },
+                {
+                  "text": "menggabungkan dua inti atom",
+                  "correct": false
+                },
+                {
+                  "text": "memecah proton",
+                  "correct": false
+                }
+              ],
+              "explanation": "Energi ionisasi mengukur seberapa kuat elektron terikat pada atom."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dalam satu golongan dari atas ke bawah, energi ionisasi cenderung …",
+              "options": [
+                {
+                  "text": "bertambah",
+                  "correct": false
+                },
+                {
+                  "text": "berkurang",
+                  "correct": true
+                },
+                {
+                  "text": "tetap",
+                  "correct": false
+                },
+                {
+                  "text": "tidak dapat ditentukan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jari-jari atom membesar sehingga elektron terluar lebih mudah lepas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keelektronegatifan unsur paling besar dimiliki oleh unsur …",
+              "options": [
+                {
+                  "text": "di kiri bawah sistem periodik",
+                  "correct": false
+                },
+                {
+                  "text": "di kanan atas sistem periodik",
+                  "correct": true
+                },
+                {
+                  "text": "golongan IA",
+                  "correct": false
+                },
+                {
+                  "text": "periode paling bawah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Unsur di kanan atas (kecuali gas mulia) paling mudah menarik elektron."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

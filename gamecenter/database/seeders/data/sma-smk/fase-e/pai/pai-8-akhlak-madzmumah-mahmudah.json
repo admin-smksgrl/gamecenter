@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pai",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PAI 8",
+      "title": "Menghindari Akhlak Madzmumah dan Membiasakan Akhlak Mahmudah agar Hidup Nyaman dan Berkah",
+      "description": "Menghindari sikap temperamental (ghadhab), menumbuhkan kontrol diri dan keberanian (syaja’ah), serta membiasakan akhlak mahmudah dalam kehidupan sehari-hari.",
+      "learning_objectives": [
+        "Melalui metode discovery learning, mampu menganalisis manfaat menghindari sikap temperamental (ghadhab), menumbuhkan sikap kontrol diri dan berani dalam kehidupan sehari-hari pengertian, dalil, macam dan manfaatnya.",
+        "Melalui metode small group discussion, mampu menyajikan paparan tentang menghindari perilaku temperamental (ghadhab), menumbuhkan sikap kontrol diri dan berani;",
+        "Melalui metode reflective thinking mampu meyakini bahwa sikap temperamental (ghadhab) merupakan larangan dan sikap kontrol diri dan berani adalah perintah agama",
+        "Melalui metode story telling, mampu menghindari sikap temperamental (ghadhab) dan membiasakan sikap kontrol diri dan berani dalam kehidupan sehari-hari."
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Buku Pendidikan Agama Islam dan Budi Pekerti Kelas X (Kemendikbudristek)",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Akhlak Madzmumah: Ghadhab dan Pengendalian Emosi",
+          "duration": 320,
+          "source_reference": "Bab 8",
+          "content": "## Akhlak madzmumah dan mahmudah\n\n| Istilah | Makna |\n|---|---|\n| **madzmumah** | akhlak **tercela** |\n| **mahmudah** | akhlak **terpuji** |\n\n## Ghadhab\n\n**Ghadhab** = sikap **temperamental** atau mudah marah.\n\n### Penyebab\n\n- emosi tidak terkendali\n- **ego** yang tinggi\n\n### Dampak\n\n- hubungan sosial rusak\n- keputusan diambil berdasarkan emosi\n- berpotensi berujung pada **kekerasan**\n\n## Cara mengendalikan marah\n\n1. **Menyadari** emosi muncul\n2. **Menahan diri dan diam**\n3. Mengambil **wudu** atau memindahkan posisi\n4. Berpikir dan memilih **respons terbaik**\n\nZikir dan doa menenangkan hati sehingga emosi lebih mudah dikendalikan."
+        },
+        {
+          "type": "text",
+          "title": "Akhlak Mahmudah dan Kontrol Diri",
+          "duration": 320,
+          "source_reference": "Bab 8",
+          "content": "## Kontrol diri\n\n**Kontrol diri** = kemampuan mengendalikan **emosi dan dorongan** diri.\n\n### Manfaat\n\n- hubungan sosial lebih baik\n- keputusan lebih matang\n- emosi lebih **stabil**\n\nPengendalian diri memungkinkan keputusan diambil dengan **pertimbangan**, bukan emosi.\n\n## Sabar\n\n**Sabar** = menahan diri dari keluh kesah **dan tetap berusaha**.\n\n## Husnuzan\n\n**Husnuzan** = berprasangka baik. Contoh: tidak menuduh teman yang terlambat tanpa bukti.\n\n## Akhlak mahmudah lain\n\n- **jujur**\n- **tolong-menolong** — membantu teman yang kesulitan belajar\n- **tawadu** — rendah hati\n\n## Prinsip pembiasaan\n\nAkhlak terbentuk melalui **kebiasaan yang diulang**, bukan hanya pengetahuan."
+        },
+        {
+          "type": "text",
+          "title": "Syaja'ah — Keberanian Membela Kebenaran",
+          "duration": 280,
+          "source_reference": "Bab 8",
+          "content": "## Syaja'ah\n\n**Syaja'ah** = **berani membela kebenaran**.\n\n### Berani vs nekat\n\n| Syaja'ah | Nekat |\n|---|---|\n| berdasar **kebenaran** | tanpa arah |\n| **mempertimbangkan risiko** | tanpa pertimbangan |\n| disertai **ilmu** | tanpa ilmu |\n\nTanpa ilmu, keberanian dapat berubah menjadi **kenekatan**.\n\n## Contoh bagi pelajar\n\n- berani **mengakui kesalahan** di depan kelas\n- berani **menolak ajakan curang**\n- berani menyampaikan pendapat benar dengan **santun**\n\n## Langkah menumbuhkan\n\n1. Memahami nilai akhlak yang ingin dibiasakan\n2. Menetapkan **target perilaku harian**\n3. Melaksanakan secara **konsisten**\n4. Meminta **umpan balik** dari guru atau teman\n5. **Mengevaluasi** dan memperbaiki\n\n## Jika terlanjur salah\n\nMeminta **maaf** dan memperbaiki perilaku pada kesempatan berikutnya."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Menghindari Akhlak Madzmumah dan Membiasakan Akhlak Mahmudah agar Hidup Nyaman dan Berkah — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ghadhab berarti …",
+              "options": [
+                {
+                  "text": "sikap temperamental atau mudah marah",
+                  "correct": true
+                },
+                {
+                  "text": "sikap sabar",
+                  "correct": false
+                },
+                {
+                  "text": "sikap dermawan",
+                  "correct": false
+                },
+                {
+                  "text": "sikap rendah hati",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ghadhab adalah sikap temperamental (pemarah) yang harus dikendalikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Akhlak madzmumah berarti …",
+              "options": [
+                {
+                  "text": "akhlak tercela",
+                  "correct": true
+                },
+                {
+                  "text": "akhlak terpuji",
+                  "correct": false
+                },
+                {
+                  "text": "akhlak mulia",
+                  "correct": false
+                },
+                {
+                  "text": "akhlak para nabi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Madzmumah berarti tercela; mahmudah berarti terpuji."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Akhlak mahmudah berarti …",
+              "options": [
+                {
+                  "text": "akhlak terpuji",
+                  "correct": true
+                },
+                {
+                  "text": "akhlak tercela",
+                  "correct": false
+                },
+                {
+                  "text": "akhlak buruk",
+                  "correct": false
+                },
+                {
+                  "text": "akhlak tercela ringan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mahmudah berarti terpuji dan dianjurkan dalam Islam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kontrol diri berarti …",
+              "options": [
+                {
+                  "text": "kemampuan mengendalikan emosi dan dorongan diri",
+                  "correct": true
+                },
+                {
+                  "text": "menahan diri dari belajar",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari semua orang",
+                  "correct": false
+                },
+                {
+                  "text": "membiarkan emosi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kontrol diri ialah kemampuan mengendalikan emosi dan dorongan agar tidak merugikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Syaja'ah berarti …",
+              "options": [
+                {
+                  "text": "berani membela kebenaran",
+                  "correct": true
+                },
+                {
+                  "text": "takut berlebihan",
+                  "correct": false
+                },
+                {
+                  "text": "sombong",
+                  "correct": false
+                },
+                {
+                  "text": "iri hati",
+                  "correct": false
+                }
+              ],
+              "explanation": "Syaja'ah adalah keberanian yang didasari kebenaran, bukan keberanian tanpa arah."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Menghindari Akhlak Madzmumah dan Membiasakan Akhlak Mahmudah agar Hidup Nyaman dan Berkah — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Cara mengendalikan ghadhab adalah …",
+              "options": [
+                {
+                  "text": "menahan diri, berwudu, dan mengingat akibat marah",
+                  "correct": true
+                },
+                {
+                  "text": "melampiaskan kemarahan",
+                  "correct": false
+                },
+                {
+                  "text": "memukul benda terdekat",
+                  "correct": false
+                },
+                {
+                  "text": "membalas dengan kekerasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Marah dikendalikan dengan menahan diri, berwudu, dan menyadari akibatnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan berani dan nekat adalah …",
+              "options": [
+                {
+                  "text": "berani berdasarkan kebenaran dan perhitungan, nekat tanpa pertimbangan",
+                  "correct": true
+                },
+                {
+                  "text": "keduanya sama",
+                  "correct": false
+                },
+                {
+                  "text": "nekat lebih mulia",
+                  "correct": false
+                },
+                {
+                  "text": "berani selalu berbahaya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Syaja'ah memperhitungkan kebenaran dan risiko, sedangkan nekat tanpa pertimbangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh akhlak mahmudah di sekolah adalah …",
+              "options": [
+                {
+                  "text": "menolong teman yang kesulitan belajar",
+                  "correct": true
+                },
+                {
+                  "text": "mengejek teman",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan keburukan teman",
+                  "correct": false
+                },
+                {
+                  "text": "membiarkan teman dalam masalah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menolong teman adalah akhlak mahmudah yang nyata di sekolah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat kontrol diri bagi kehidupan sosial adalah …",
+              "options": [
+                {
+                  "text": "mencegah konflik dan menjaga hubungan baik",
+                  "correct": true
+                },
+                {
+                  "text": "menambah permusuhan",
+                  "correct": false
+                },
+                {
+                  "text": "mengurangi empati",
+                  "correct": false
+                },
+                {
+                  "text": "menimbulkan perkelahian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kontrol diri mencegah ledakan emosi yang memicu konflik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hikmah menghindari ghadhab adalah …",
+              "options": [
+                {
+                  "text": "hati lebih tenang dan keputusan lebih baik",
+                  "correct": true
+                },
+                {
+                  "text": "menjadi lemah",
+                  "correct": false
+                },
+                {
+                  "text": "kehilangan wibawa",
+                  "correct": false
+                },
+                {
+                  "text": "tidak dapat membela diri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menahan marah membuat pikiran jernih dan keputusan lebih baik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh keberanian yang benar (syaja'ah) adalah …",
+              "options": [
+                {
+                  "text": "berani mengakui kesalahan di depan kelas",
+                  "correct": true
+                },
+                {
+                  "text": "berani membolos bersama teman",
+                  "correct": false
+                },
+                {
+                  "text": "berani melanggar aturan",
+                  "correct": false
+                },
+                {
+                  "text": "berani mengejek guru",
+                  "correct": false
+                }
+              ],
+              "explanation": "Syaja'ah tampak pada keberanian membela dan mengakui kebenaran."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk akhlak mahmudah? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Sabar",
+                  "correct": true
+                },
+                {
+                  "text": "Jujur",
+                  "correct": true
+                },
+                {
+                  "text": "Berani membela kebenaran",
+                  "correct": true
+                },
+                {
+                  "text": "Ghadhab",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sabar, jujur, dan syaja'ah adalah mahmudah. Ghadhab termasuk madzmumah."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Ghadhab"
+                },
+                {
+                  "id": "o1",
+                  "text": "Kontrol diri"
+                },
+                {
+                  "id": "o2",
+                  "text": "Syaja'ah"
+                },
+                {
+                  "id": "o3",
+                  "text": "Mahmudah"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Sikap temperamental",
+                  "o1": "Mengendalikan emosi",
+                  "o2": "Berani membela kebenaran",
+                  "o3": "Akhlak terpuji"
+                }
+              },
+              "explanation": "Istilah-istilah ini menjadi kunci bab akhlak."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah mengendalikan marah.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Menyadari emosi muncul"
+                },
+                {
+                  "id": "o1",
+                  "text": "Menahan diri dan diam"
+                },
+                {
+                  "id": "o2",
+                  "text": "Mengambil wudu atau memindahkan posisi"
+                },
+                {
+                  "id": "o3",
+                  "text": "Berpikir dan memilih respons terbaik"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Pengendalian marah berjalan dari kesadaran menuju respons yang baik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyebab munculnya sikap temperamental adalah …",
+              "options": [
+                {
+                  "text": "emosi yang tidak terkendali dan ego yang tinggi",
+                  "correct": true
+                },
+                {
+                  "text": "kebiasaan bersabar",
+                  "correct": false
+                },
+                {
+                  "text": "kebiasaan berzikir",
+                  "correct": false
+                },
+                {
+                  "text": "sikap rendah hati",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ghadhab lahir dari emosi yang tidak dikendalikan dan ego yang dominan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Menghindari Akhlak Madzmumah dan Membiasakan Akhlak Mahmudah agar Hidup Nyaman dan Berkah — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa ghadhab termasuk akhlak madzmumah?",
+              "options": [
+                {
+                  "text": "karena merusak hubungan dan dapat menimbulkan kerugian fisik maupun sosial",
+                  "correct": true
+                },
+                {
+                  "text": "karena tidak berdampak",
+                  "correct": false
+                },
+                {
+                  "text": "karena dianjurkan Islam",
+                  "correct": false
+                },
+                {
+                  "text": "karena hanya soal perasaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Marah yang tidak terkendali menimbulkan kerugian nyata bagi diri dan orang lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan kontrol diri dan pengambilan keputusan adalah …",
+              "options": [
+                {
+                  "text": "kontrol diri membuat keputusan diambil dengan pertimbangan, bukan emosi",
+                  "correct": true
+                },
+                {
+                  "text": "kontrol diri memperburuk keputusan",
+                  "correct": false
+                },
+                {
+                  "text": "kontrol diri menghambat berpikir",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada hubungan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Emosi yang terkendali memungkinkan pertimbangan yang jernih."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan syaja'ah dan recklessness (nekat) dijelaskan oleh …",
+              "options": [
+                {
+                  "text": "tujuan dan pertimbangan risiko dalam mengambil tindakan",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah orang yang ikut",
+                  "correct": false
+                },
+                {
+                  "text": "besarnya suara",
+                  "correct": false
+                },
+                {
+                  "text": "tempat kejadian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Syaja'ah mempertimbangkan tujuan benar dan risiko, nekat tidak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa akhlak mahmudah perlu dibiasakan, bukan hanya diketahui?",
+              "options": [
+                {
+                  "text": "karena akhlak terbentuk melalui kebiasaan yang diulang",
+                  "correct": true
+                },
+                {
+                  "text": "karena akhlak tidak dapat dipelajari",
+                  "correct": false
+                },
+                {
+                  "text": "karena pengetahuan tidak berguna",
+                  "correct": false
+                },
+                {
+                  "text": "karena akhlak hanya untuk orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karakter terbangun melalui pembiasaan, bukan sekadar pengetahuan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara menumbuhkan keberanian membela kebenaran pada pelajar adalah …",
+              "options": [
+                {
+                  "text": "melatih diri menyampaikan pendapat benar dengan santun",
+                  "correct": true
+                },
+                {
+                  "text": "berlatih berkelahi",
+                  "correct": false
+                },
+                {
+                  "text": "membiarkan ketidakadilan",
+                  "correct": false
+                },
+                {
+                  "text": "mengikuti arus mayoritas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keberanian dibangun dengan latihan menyampaikan kebenaran secara santun."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah dampak positif kontrol diri? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Hubungan sosial lebih baik",
+                  "correct": true
+                },
+                {
+                  "text": "Keputusan lebih matang",
+                  "correct": true
+                },
+                {
+                  "text": "Emosi lebih stabil",
+                  "correct": true
+                },
+                {
+                  "text": "Mudah tersinggung",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kontrol diri memperbaiki hubungan, keputusan, dan stabilitas emosi. Mudah tersinggung adalah tanda kontrol diri lemah."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah membiasakan akhlak mahmudah.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Memahami nilai akhlak yang ingin dibiasakan"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menetapkan target perilaku harian"
+                },
+                {
+                  "id": "s2",
+                  "text": "Melaksanakan secara konsisten"
+                },
+                {
+                  "id": "s3",
+                  "text": "Meminta umpan balik dari guru atau teman"
+                },
+                {
+                  "id": "s4",
+                  "text": "Mengevaluasi dan memperbaiki"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Pembiasaan akhlak berjalan dari pemahaman sampai evaluasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makna sabar dalam menghadapi ujian hidup adalah …",
+              "options": [
+                {
+                  "text": "menahan diri dari keluh kesah dan tetap berusaha",
+                  "correct": true
+                },
+                {
+                  "text": "berdiam tanpa usaha",
+                  "correct": false
+                },
+                {
+                  "text": "menyalahkan takdir",
+                  "correct": false
+                },
+                {
+                  "text": "menyerah pada keadaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sabar berarti menahan keluh kesah sambil terus berusaha."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kaitan ghadhab dengan kekerasan adalah …",
+              "options": [
+                {
+                  "text": "ghadhab yang tidak dikendalikan dapat berujung pada kekerasan",
+                  "correct": true
+                },
+                {
+                  "text": "ghadhab mencegah kekerasan",
+                  "correct": false
+                },
+                {
+                  "text": "keduanya tidak berkaitan",
+                  "correct": false
+                },
+                {
+                  "text": "ghadhab selalu berupa kekerasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Marah yang tak terkendali sering menjadi pemicu tindak kekerasan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh penerapan husnuzan yang menunjang akhlak mahmudah adalah …",
+              "options": [
+                {
+                  "text": "berprasangka baik kepada teman yang terlambat tanpa menuduh",
+                  "correct": true
+                },
+                {
+                  "text": "menuduh teman malas",
+                  "correct": false
+                },
+                {
+                  "text": "menyebarkan tuduhan",
+                  "correct": false
+                },
+                {
+                  "text": "memutus pertemanan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Husnuzan menahan diri dari tuduhan dan menjaga hubungan baik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa keberanian harus disertai ilmu?",
+              "options": [
+                {
+                  "text": "karena tanpa ilmu keberanian dapat berubah menjadi kenekatan",
+                  "correct": true
+                },
+                {
+                  "text": "karena ilmu membuat takut",
+                  "correct": false
+                },
+                {
+                  "text": "karena ilmu menghambat tindakan",
+                  "correct": false
+                },
+                {
+                  "text": "karena keberanian tidak perlu pertimbangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ilmu memberi pertimbangan sehingga keberanian tetap terarah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara memperbaiki diri setelah terlanjur marah berlebihan adalah …",
+              "options": [
+                {
+                  "text": "meminta maaf dan memperbaiki perilaku di kesempatan berikutnya",
+                  "correct": true
+                },
+                {
+                  "text": "menyalahkan orang lain",
+                  "correct": false
+                },
+                {
+                  "text": "mengulangi kemarahan",
+                  "correct": false
+                },
+                {
+                  "text": "menyembunyikan kesalahan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perbaikan dilakukan dengan meminta maaf dan mengubah perilaku."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peran zikir dan doa dalam pengendalian emosi adalah …",
+              "options": [
+                {
+                  "text": "menenangkan hati sehingga emosi lebih mudah dikendalikan",
+                  "correct": true
+                },
+                {
+                  "text": "menambah kemarahan",
+                  "correct": false
+                },
+                {
+                  "text": "menggantikan usaha",
+                  "correct": false
+                },
+                {
+                  "text": "tidak berpengaruh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Zikir menenangkan hati sehingga kontrol diri lebih mudah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bentuk syaja'ah yang paling relevan bagi pelajar adalah …",
+              "options": [
+                {
+                  "text": "berani menolak ajakan teman untuk berbuat curang",
+                  "correct": true
+                },
+                {
+                  "text": "berani membolos",
+                  "correct": false
+                },
+                {
+                  "text": "berani melanggar tata tertib",
+                  "correct": false
+                },
+                {
+                  "text": "berani mengejek teman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keberanian menolak keburukan adalah bentuk syaja'ah yang paling dekat dengan pelajar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan akhlak mahmudah dan syu'abul iman adalah …",
+              "options": [
+                {
+                  "text": "akhlak mahmudah adalah cabang iman yang tampak dalam perilaku",
+                  "correct": true
+                },
+                {
+                  "text": "akhlak tidak berkaitan dengan iman",
+                  "correct": false
+                },
+                {
+                  "text": "iman menggantikan akhlak",
+                  "correct": false
+                },
+                {
+                  "text": "akhlak hanya untuk ulama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Akhlak mulia merupakan perwujudan cabang iman dalam perbuatan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

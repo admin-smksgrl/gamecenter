@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-indonesia",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "BI 1",
+      "title": "Laporan Hasil Observasi",
+      "description": "Mengevaluasi informasi laporan hasil observasi secara kritis, menilai akurasi data, dan menyajikannya dalam format kreatif.",
+      "learning_objectives": [
+        "Mengevaluasi informasi yang tidak akurat dan bias dalam laporan hasil obsevasi dengan kritis dan reflektif. Memahami dan menganalisis gagasan dalam laporan hasi lobservasi dengan kritis dan refletif.",
+        "Memahami informasi pada teks laporandan menilai akurasi serta kualitas data dalam laporan hasil observasi menggunakan informasi pada teks eksplanasi sebagai pembanding.",
+        "Menulis informasi dalam bentuk laporan hasil observasi secara logis dan etis.",
+        "Mengubah laporan hasil observasi kedalam format kreatif yang dapat dipublikasikan di media cetak maupun elektronik."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Bahasa Indonesia Kelas 10 SMA Fase E Bab 1",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Ciri dan Struktur Laporan Hasil Observasi",
+          "duration": 240,
+          "source_reference": "Bab 1 — Laporan Hasil Observasi",
+          "content": "## Apa itu laporan hasil observasi?\n\nTeks yang menyajikan hasil **pengamatan** terhadap suatu objek secara sistematis, objektif, dan faktual.\n\n### Struktur\n\n| Bagian | Isi |\n|---|---|\n| **Pernyataan umum** | pengenalan objek secara umum (definisi) |\n| **Deskripsi bagian** | rincian objek per bagian, kebiasaan, atau manfaat |\n| **Simpulan** | ringkasan pokok pengamatan |\n\n### Ciri bahasa\n\n- objektif dan faktual, tanpa opini pribadi\n- menggunakan istilah teknis agar makna tepat\n- memakai kalimat definisi, misalnya \"Mangrove adalah tumbuhan yang hidup di daerah pasang surut pantai\"\n\n### Fakta atau opini?\n\n| Fakta | Opini |\n|---|---|\n| dapat diverifikasi | berupa penilaian |\n| \"Bus berangkat pukul 06.00\" | \"Bus itu paling nyaman\" |\n\nKata **sebaiknya**, **seharusnya**, **sangat**, dan **selalu lebih** menandai opini yang perlu dipindahkan ke teks lain."
+        },
+        {
+          "type": "text",
+          "title": "Menilai Akurasi dan Bias",
+          "duration": 360,
+          "source_reference": "Bab 1 — Evaluasi Informasi",
+          "content": "## Akurasi\n\nAkurasi berarti informasi sesuai kenyataan dan dapat diverifikasi.\n\nTiga hal yang diperiksa:\n\n1. **Sumber data** — disebut atau tidak?\n2. **Kelengkapan angka** — \"sebagian besar responden\" tanpa jumlah tidak dapat diverifikasi\n3. **Konsistensi** — apakah simpulan sejalan dengan isi sebelumnya?\n\n## Bias\n\nBias muncul ketika penulis hanya memilih data yang mendukung pandangannya.\n\nContoh kalimat bias:\n\n> \"Kantin sekolah selalu lebih baik dari semua kantin mana pun.\"\n\nKalimat itu generalisasi tanpa dasar data.\n\n## Teks eksplanasi sebagai pembanding\n\nTeks eksplanasi menjelaskan **proses sebab-akibat** suatu fenomena. Karena itu ia membantu memeriksa apakah penjelasan dalam laporan sudah lengkap.\n\n| Laporan hasil observasi | Teks eksplanasi |\n|---|---|\n| memaparkan objek | menjelaskan proses |\n| menjawab \"apa dan bagaimana\" | menjawab \"mengapa terjadi\" |\n\n## Etika menulis\n\nMenulis \"secara etis\" berarti tidak memanipulasi data dan menghormati objek pengamatan."
+        },
+        {
+          "type": "interactive",
+          "title": "Dari Laporan ke Format Kreatif",
+          "duration": 240,
+          "source_reference": "Bab 1 — Publikasi",
+          "content": "## Mengubah format tanpa mengubah fakta\n\nLaporan dapat diubah menjadi **infografis**, poster, atau video pendek. Yang berubah hanya bentuk penyajian.\n\nYang **tetap** harus dijaga:\n\n- akurasi data\n- penyebutan sumber\n- kejelasan istilah\n\nYang **harus dihindari**:\n\n- menambah cerita khayalan\n- mengganti fakta dengan opini\n- menghilangkan angka agar terlihat menarik\n\n### Memilih visual\n\nData proporsi seperti \"60% sampah sekolah adalah plastik\" paling jelas disajikan dengan **diagram lingkaran** disertai keterangan jumlah sampel.\n\n### Latihan\n\nPerhatikan kalimat berikut.\n\n> \"Pemerintah seharusnya lebih peduli pada komodo.\"\n\n<details>\n<summary>Lihat pembahasan</summary>\n\nKalimat itu berupa **saran**, yaitu opini. Dalam laporan hasil observasi, kalimat seperti ini sebaiknya dipindahkan ke teks opini.\n\n</details>\n\n### Saat mempresentasikan\n\nSampaikan data dengan jelas dan jawab pertanyaan **berdasarkan data**, bukan berdasarkan dugaan."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Laporan Hasil Observasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Teks yang menyajikan hasil pengamatan terhadap suatu objek secara sistematis disebut …",
+              "options": [
+                {
+                  "text": "laporan hasil observasi",
+                  "correct": true
+                },
+                {
+                  "text": "teks anekdot",
+                  "correct": false
+                },
+                {
+                  "text": "teks negosiasi",
+                  "correct": false
+                },
+                {
+                  "text": "puisi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Laporan hasil observasi memaparkan fakta hasil pengamatan secara objektif dan sistematis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian teks laporan hasil observasi yang berisi pengenalan objek secara umum disebut …",
+              "options": [
+                {
+                  "text": "pernyataan umum",
+                  "correct": true
+                },
+                {
+                  "text": "deskripsi bagian",
+                  "correct": false
+                },
+                {
+                  "text": "simpulan",
+                  "correct": false
+                },
+                {
+                  "text": "orientasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pernyataan umum (definisi umum) memperkenalkan objek sebelum diuraikan lebih rinci."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ciri utama bahasa teks laporan hasil observasi adalah …",
+              "options": [
+                {
+                  "text": "objektif dan faktual",
+                  "correct": true
+                },
+                {
+                  "text": "penuh khayalan",
+                  "correct": false
+                },
+                {
+                  "text": "bersifat mengajak",
+                  "correct": false
+                },
+                {
+                  "text": "menggunakan kata sapaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Laporan hasil observasi memaparkan fakta apa adanya tanpa opini pribadi penulis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian yang menguraikan rincian objek berdasarkan bagian, kebiasaan, atau manfaatnya disebut …",
+              "options": [
+                {
+                  "text": "deskripsi bagian",
+                  "correct": true
+                },
+                {
+                  "text": "pernyataan umum",
+                  "correct": false
+                },
+                {
+                  "text": "penutup",
+                  "correct": false
+                },
+                {
+                  "text": "abstraksi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Deskripsi bagian mengelompokkan rincian objek, misalnya bagian tubuh, cara hidup, dan manfaat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data dalam laporan hasil observasi harus berasal dari …",
+              "options": [
+                {
+                  "text": "pengamatan atau sumber terpercaya",
+                  "correct": true
+                },
+                {
+                  "text": "angan-angan penulis",
+                  "correct": false
+                },
+                {
+                  "text": "gosip",
+                  "correct": false
+                },
+                {
+                  "text": "tebakan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Akurasi laporan bergantung pada keabsahan sumber data yang dipakai."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Laporan Hasil Observasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat berikut yang merupakan fakta adalah …",
+              "options": [
+                {
+                  "text": "Komodo hidup di Pulau Komodo, Flores, dan Padar.",
+                  "correct": true
+                },
+                {
+                  "text": "Komodo sangat menakutkan.",
+                  "correct": false
+                },
+                {
+                  "text": "Komodo seharusnya dilindungi.",
+                  "correct": false
+                },
+                {
+                  "text": "Komodo adalah hewan terbaik di dunia.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalimat fakta dapat diverifikasi, sedangkan tiga kalimat lain berupa opini."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Informasi yang bias dalam laporan hasil observasi ditandai oleh …",
+              "options": [
+                {
+                  "text": "keberpihakan yang menutupi data lain",
+                  "correct": true
+                },
+                {
+                  "text": "penggunaan angka",
+                  "correct": false
+                },
+                {
+                  "text": "penggunaan istilah ilmiah",
+                  "correct": false
+                },
+                {
+                  "text": "penyebutan sumber",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bias muncul saat penulis hanya memilih data yang mendukung pandangannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teks eksplanasi dipakai sebagai pembanding dalam menilai laporan hasil observasi karena …",
+              "options": [
+                {
+                  "text": "menjelaskan proses terjadinya suatu fenomena",
+                  "correct": true
+                },
+                {
+                  "text": "berisi cerita rakyat",
+                  "correct": false
+                },
+                {
+                  "text": "berisi ajakan membeli",
+                  "correct": false
+                },
+                {
+                  "text": "berisi dialog negosiasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teks eksplanasi memaparkan sebab-akibat suatu proses, sehingga membantu memeriksa kelengkapan penjelasan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Struktur teks laporan hasil observasi yang tepat adalah …",
+              "options": [
+                {
+                  "text": "pernyataan umum, deskripsi bagian, simpulan",
+                  "correct": true
+                },
+                {
+                  "text": "orientasi, komplikasi, resolusi",
+                  "correct": false
+                },
+                {
+                  "text": "pembuka, isi, penutup berupa ajakan",
+                  "correct": false
+                },
+                {
+                  "text": "abstraksi, orientasi, koda",
+                  "correct": false
+                }
+              ],
+              "explanation": "Struktur itu memandu penulis menyajikan objek dari umum ke rinci lalu menyimpulkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat 'Bunga bangkai memiliki tinggi hingga 3 meter' termasuk kalimat …",
+              "options": [
+                {
+                  "text": "berita/faktual",
+                  "correct": true
+                },
+                {
+                  "text": "perintah",
+                  "correct": false
+                },
+                {
+                  "text": "tanya",
+                  "correct": false
+                },
+                {
+                  "text": "seru",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalimat itu memberi informasi yang dapat diverifikasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kata 'endemik' dalam laporan hasil observasi berarti …",
+              "options": [
+                {
+                  "text": "hanya terdapat di wilayah tertentu",
+                  "correct": true
+                },
+                {
+                  "text": "berasal dari luar negeri",
+                  "correct": false
+                },
+                {
+                  "text": "sudah punah seluruhnya",
+                  "correct": false
+                },
+                {
+                  "text": "hidup di seluruh dunia",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hewan endemik hanya hidup secara alami di wilayah tertentu, misalnya komodo di Nusa Tenggara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penggunaan istilah teknis dalam laporan hasil observasi bertujuan …",
+              "options": [
+                {
+                  "text": "memperjelas makna secara ilmiah",
+                  "correct": true
+                },
+                {
+                  "text": "membuat pembaca bingung",
+                  "correct": false
+                },
+                {
+                  "text": "menambah panjang teks",
+                  "correct": false
+                },
+                {
+                  "text": "menyembunyikan data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Istilah teknis dipakai agar penyebutan objek dan proses menjadi tepat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk ciri teks laporan hasil observasi? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Bersifat objektif",
+                  "correct": true
+                },
+                {
+                  "text": "Berdasarkan fakta",
+                  "correct": true
+                },
+                {
+                  "text": "Menggunakan istilah teknis",
+                  "correct": true
+                },
+                {
+                  "text": "Berisi cerita khayalan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Laporan hasil observasi objektif, faktual, dan sering memakai istilah teknis. Cerita khayalan termasuk teks narasi fiksi."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan bagian teks dengan isinya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Pernyataan umum"
+                },
+                {
+                  "id": "o1",
+                  "text": "Deskripsi bagian"
+                },
+                {
+                  "id": "o2",
+                  "text": "Simplulan"
+                },
+                {
+                  "id": "o3",
+                  "text": "Teks eksplanasi"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Pengenalan objek secara umum",
+                  "o1": "Rincian objek per bagian atau kebiasaan",
+                  "o2": "Ringkasan pokok hasil pengamatan",
+                  "o3": "Penjelasan proses terjadinya fenomena"
+                }
+              },
+              "explanation": "Setiap bagian memiliki fungsi yang berbeda dalam membangun laporan yang utuh."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menulis laporan hasil observasi.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Menentukan objek pengamatan"
+                },
+                {
+                  "id": "o1",
+                  "text": "Mencatat data hasil pengamatan"
+                },
+                {
+                  "id": "o2",
+                  "text": "Menyusun pernyataan umum"
+                },
+                {
+                  "id": "o3",
+                  "text": "Menguraikan deskripsi bagian"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Penulisan dimulai dari objek dan data, lalu disusun dari pernyataan umum ke rincian."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Laporan Hasil Observasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengubah laporan hasil observasi ke format kreatif seperti infografis menuntut penulis untuk …",
+              "options": [
+                {
+                  "text": "tetap menjaga akurasi data dan menyebut sumber",
+                  "correct": true
+                },
+                {
+                  "text": "menambah cerita khayalan",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan angka agar menarik",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti fakta dengan opini",
+                  "correct": false
+                }
+              ],
+              "explanation": "Format boleh berubah, tetapi isi tetap harus akurat dan dapat dipertanggungjawabkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Laporan menyebut 'sebagian besar responden setuju' tanpa menyebut jumlah responden. Kelemahan laporan itu adalah …",
+              "options": [
+                {
+                  "text": "tidak dapat diverifikasi karena data kuantitatifnya tidak jelas",
+                  "correct": true
+                },
+                {
+                  "text": "bahasanya terlalu ilmiah",
+                  "correct": false
+                },
+                {
+                  "text": "terlalu banyak angka",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memakai istilah teknis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pernyataan kuantitatif tanpa angka tidak dapat diperiksa, sehingga kualitas laporan menurun."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pernyataan yang paling mencerminkan penilaian kritis terhadap laporan hasil observasi adalah …",
+              "options": [
+                {
+                  "text": "data pada bagian ketiga tidak menyebut sumber sehingga perlu diverifikasi",
+                  "correct": true
+                },
+                {
+                  "text": "laporan ini bagus sekali tanpa kekurangan",
+                  "correct": false
+                },
+                {
+                  "text": "laporannya buruk karena panjang",
+                  "correct": false
+                },
+                {
+                  "text": "saya tidak suka topiknya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penilaian kritis menyoroti aspek yang dapat diperiksa, bukan selera pribadi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ciri bahasa yang harus dihindari dalam laporan hasil observasi adalah …",
+              "options": [
+                {
+                  "text": "kata bersifat emosional seperti 'menyedihkan sekali'",
+                  "correct": true
+                },
+                {
+                  "text": "kalimat berisi data",
+                  "correct": false
+                },
+                {
+                  "text": "istilah ilmiah",
+                  "correct": false
+                },
+                {
+                  "text": "penyebutan sumber",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kata emosional menggiring opini pembaca dan merusak objektivitas laporan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah langkah yang tepat agar laporan hasil observasi dapat dipublikasikan di media elektronik? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Memastikan data akurat dan menyebut sumber",
+                  "correct": true
+                },
+                {
+                  "text": "Menyajikan dengan visual yang jelas",
+                  "correct": true
+                },
+                {
+                  "text": "Menggunakan bahasa yang mudah dipahami",
+                  "correct": true
+                },
+                {
+                  "text": "Menyembunyikan data yang tidak mendukung",
+                  "correct": false
+                }
+              ],
+              "explanation": "Publikasi menuntut akurasi, penyajian jelas, dan bahasa yang mudah dipahami. Menyembunyikan data membuat laporan bias."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah mengevaluasi akurasi laporan hasil observasi.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Membaca laporan secara keseluruhan"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menandai pernyataan berisi data atau angka"
+                },
+                {
+                  "id": "s2",
+                  "text": "Memeriksa ketersediaan sumber pada setiap data"
+                },
+                {
+                  "id": "s3",
+                  "text": "Membandingkan dengan teks eksplanasi atau sumber lain"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Evaluasi akurasi dilakukan dengan memeriksa sumber dan membandingkan dengan teks pembanding."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat 'Pemerintah seharusnya lebih peduli pada komodo' dalam laporan hasil observasi sebaiknya …",
+              "options": [
+                {
+                  "text": "dipindahkan ke teks opini karena berupa saran",
+                  "correct": true
+                },
+                {
+                  "text": "dijadikan simpulan utama",
+                  "correct": false
+                },
+                {
+                  "text": "diletakkan di pernyataan umum",
+                  "correct": false
+                },
+                {
+                  "text": "diulang di setiap paragraf",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalimat berupa saran adalah opini, bukan fakta hasil pengamatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sumber data dalam laporan hasil observasi sebaiknya dicantumkan agar …",
+              "options": [
+                {
+                  "text": "pembaca dapat memverifikasi kebenarannya",
+                  "correct": true
+                },
+                {
+                  "text": "laporan terlihat panjang",
+                  "correct": false
+                },
+                {
+                  "text": "teks menjadi lebih sulit",
+                  "correct": false
+                },
+                {
+                  "text": "jumlah kata bertambah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pencantuman sumber memungkinkan pembaca memeriksa keabsahan data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Laporan hasil observasi tentang sampah di sekolah menyajikan data 60% sampah plastik. Penyajian paling tepat untuk data itu adalah …",
+              "options": [
+                {
+                  "text": "diagram lingkaran disertai keterangan jumlah sampel",
+                  "correct": true
+                },
+                {
+                  "text": "cerita pengalaman pribadi",
+                  "correct": false
+                },
+                {
+                  "text": "puisi",
+                  "correct": false
+                },
+                {
+                  "text": "dialog negosiasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proporsi paling jelas ditampilkan dengan diagram lingkaran, disertai jumlah sampel agar dapat diverifikasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan utama laporan hasil observasi dan teks eksplanasi terletak pada …",
+              "options": [
+                {
+                  "text": "laporan memaparkan objek, eksplanasi menjelaskan proses sebab-akibat",
+                  "correct": true
+                },
+                {
+                  "text": "keduanya sama saja",
+                  "correct": false
+                },
+                {
+                  "text": "laporan berisi cerita, eksplanasi berisi puisi",
+                  "correct": false
+                },
+                {
+                  "text": "laporan memakai dialog, eksplanasi memakai pantun",
+                  "correct": false
+                }
+              ],
+              "explanation": "Laporan berfokus pada hasil pengamatan objek; eksplanasi berfokus pada proses terjadinya fenomena."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menulis laporan hasil observasi 'secara etis' berarti …",
+              "options": [
+                {
+                  "text": "tidak memanipulasi data dan menghormati objek penelitian",
+                  "correct": true
+                },
+                {
+                  "text": "menambah data agar menarik",
+                  "correct": false
+                },
+                {
+                  "text": "menyembunyikan kesalahan pengamatan",
+                  "correct": false
+                },
+                {
+                  "text": "mengambil tulisan orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Etika menuntut kejujuran data dan perlakuan yang pantas terhadap objek yang diamati."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat definisi yang tepat untuk laporan hasil observasi adalah …",
+              "options": [
+                {
+                  "text": "Mangrove adalah tumbuhan yang hidup di daerah pasang surut pantai.",
+                  "correct": true
+                },
+                {
+                  "text": "Mangrove sungguh indah dipandang.",
+                  "correct": false
+                },
+                {
+                  "text": "Ayo tanam mangrove!",
+                  "correct": false
+                },
+                {
+                  "text": "Mangrove, ya, begitulah.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kalimat definisi menjelaskan pengertian objek secara jelas dan faktual."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian simpulan laporan hasil observasi sebaiknya …",
+              "options": [
+                {
+                  "text": "merangkum pokok pengamatan tanpa menambah klaim baru",
+                  "correct": true
+                },
+                {
+                  "text": "memuat ajakan membeli produk",
+                  "correct": false
+                },
+                {
+                  "text": "berisi cerita lucu",
+                  "correct": false
+                },
+                {
+                  "text": "menambahkan data yang belum dibahas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Simpulan harus konsisten dengan isi laporan sebelumnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mempresentasikan laporan hasil observasi menuntut pembicara untuk …",
+              "options": [
+                {
+                  "text": "menyampaikan data dengan jelas dan menjawab pertanyaan berdasarkan data",
+                  "correct": true
+                },
+                {
+                  "text": "membaca teks tanpa memahami isinya",
+                  "correct": false
+                },
+                {
+                  "text": "menambahkan cerita yang tidak ada di laporan",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari pertanyaan audiens",
+                  "correct": false
+                }
+              ],
+              "explanation": "Presentasi yang baik didukung penguasaan data sehingga pertanyaan dapat dijawab dengan tepat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat berikut yang paling menunjukkan bias adalah …",
+              "options": [
+                {
+                  "text": "Hasil pengamatan menunjukkan 70% siswa memilih kantin, sisanya belum diteliti.",
+                  "correct": false
+                },
+                {
+                  "text": "Kantin sekolah selalu lebih baik dari semua kantin mana pun.",
+                  "correct": true
+                },
+                {
+                  "text": "Pengamatan dilakukan pada 12 November.",
+                  "correct": false
+                },
+                {
+                  "text": "Sebanyak 40 siswa menjadi responden.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kata 'selalu lebih baik dari semua' adalah generalisasi tanpa dasar data."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

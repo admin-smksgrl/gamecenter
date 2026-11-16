@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-indonesia",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "BI 4",
+      "title": "Negosiator Ulung",
+      "description": "Mengevaluasi dan menulis teks negosiasi berbentuk dialog, menilai akurasi data, serta mengalihwahanaannya menjadi narasi.",
+      "learning_objectives": [
+        "Mengevaluasi informasi berupa gagasan, pikiran, pandangan, atau pesan dalam teks negosiasi berbentuk dialog secara akurat, kritis, dan reflektif",
+        "Menilai akurasi dan kualitas data dalam teks negosiasi dengan menggunakan informasi pada teks deskripsi sebagai pembanding",
+        "Menggunakan sumber pendukung lain untuk menemukan informasi berupa penjelasan makna kata",
+        "Mengalihwahanakan teks berbentuk dialog ke bentuk naratif secara logis, kreatif, dan menggunakan alur yang runtut"
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Bahasa Indonesia Kelas 10 SMA Fase E Bab 4",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Struktur Teks Negosiasi",
+          "duration": 240,
+          "source_reference": "Bab 4 — Negosiasi",
+          "content": "## Apa itu negosiasi?\n\nTeks yang berisi proses **tawar-menawar** untuk mencapai **kesepakatan** yang menguntungkan kedua pihak.\n\nBukan debat. Debat mencari kemenangan argumen; negosiasi mencari kesepakatan.\n\n### Struktur\n\n| Bagian | Isi |\n|---|---|\n| **Orientasi** | pembuka dan penyampaian maksud |\n| **Pengajuan** | penawaran awal |\n| **Penawaran** | tanggapan berisi tawaran balik |\n| **Persetujuan** | kesepakatan yang dicapai |\n\n### Bentuk\n\nDisajikan sebagai **dialog**, sehingga tanda baca dialog harus tepat: tanda petik dan pergantian penutur yang jelas.\n\n### Syarat berhasil\n\nKedua pihak saling mendengarkan dan bersedia **berkompromi**. Tanpa kompromi, kepentingan tidak bertemu dan negosiasi gagal."
+        },
+        {
+          "type": "text",
+          "title": "Bahasa Negosiasi dan Penilaian Data",
+          "duration": 360,
+          "source_reference": "Bab 4 — Kaidah dan Data",
+          "content": "## Kesantunan dalam negosiasi\n\n**Santun** — membuka ruang:\n\n> \"Apakah Bapak berkenan memberikan harga khusus untuk pembelian 10 unit?\"\n\n**Menekan** — menutup ruang:\n\n> \"Pokoknya harus turun sekarang!\"\n\n**Menolak dengan santun** — disertai alasan dan alternatif:\n\n> \"Mohon maaf, penawaran itu di luar anggaran kami. Apakah ada alternatif lain?\"\n\n**Ancaman** merusak negosiasi:\n\n> \"Kalau tidak sesuai harga saya, saya akan membeli di tempat lain.\"\n\n## Menilai akurasi data\n\nData harga dari penjual diuji dengan **data pembanding** dari sumber lain. Data pembanding memperkuat dasar penawaran dan menguji kewajaran harga.\n\n**Teks deskripsi** membantu memberi gambaran rinci objek yang dinegosiasikan, sehingga kualitas barang dapat dipastikan.\n\n## Sumber pendukung\n\nKamus dipakai untuk menemukan **makna kata** secara tepat, agar penafsiran kesepakatan tidak kabur.\n\n## Isi kesepakatan\n\nKesepakatan sebaiknya memuat **harga, jumlah, waktu, dan cara pembayaran**. Catatan tertulis mencegah perbedaan penafsiran di kemudian hari."
+        },
+        {
+          "type": "interactive",
+          "title": "Alih Wahana Dialog ke Narasi",
+          "duration": 240,
+          "source_reference": "Bab 4 — Alih Wahana",
+          "content": "## Mengubah dialog menjadi narasi\n\nAlih wahana mempertahankan **isi kesepakatan** dan **pihak yang terlibat**, tetapi bentuknya diubah menjadi kalimat bercerita yang runtut.\n\n### Contoh\n\n**Dialog:**\n\n> Penjual: \"Harganya Rp150.000 per unit.\"\n> Pembeli: \"Bisakah Rp135.000 untuk pembelian sepuluh unit?\"\n> Penjual: \"Baik, saya setuju.\"\n\n**Narasi:**\n\n> Penjual menawarkan harga Rp150.000 per unit. Pembeli mengajukan penawaran Rp135.000 untuk sepuluh unit, dan penjual menyetujuinya.\n\n## Langkah menyiapkan negosiasi\n\n1. Tentukan kebutuhan dan anggaran\n2. Cari data harga pembanding\n3. Siapkan argumen dan alternatif\n4. Lakukan dialog tawar-menawar hingga sepakat\n\n### Etika\n\nJujur tentang kemampuan, menghargai pihak lain, dan memenuhi kesepakatan yang sudah dibuat. Memberi janji yang tidak mungkin ditepati merusak kepercayaan."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Negosiator Ulung — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Teks yang berisi proses tawar-menawar untuk mencapai kesepakatan disebut teks …",
+              "options": [
+                {
+                  "text": "negosiasi",
+                  "correct": true
+                },
+                {
+                  "text": "anekdot",
+                  "correct": false
+                },
+                {
+                  "text": "hikayat",
+                  "correct": false
+                },
+                {
+                  "text": "eksplanasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Negosiasi berisi percakapan untuk mencapai kesepakatan yang saling menguntungkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tujuan utama negosiasi adalah …",
+              "options": [
+                {
+                  "text": "mencapai kesepakatan",
+                  "correct": true
+                },
+                {
+                  "text": "memenangkan perdebatan",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari komunikasi",
+                  "correct": false
+                },
+                {
+                  "text": "membatalkan transaksi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Negosiasi diarahkan pada kesepakatan, bukan pada kemenangan sepihak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian teks negosiasi yang berisi pengajuan atau penawaran disebut …",
+              "options": [
+                {
+                  "text": "pengajuan",
+                  "correct": true
+                },
+                {
+                  "text": "orientasi",
+                  "correct": false
+                },
+                {
+                  "text": "penutup",
+                  "correct": false
+                },
+                {
+                  "text": "persetujuan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengajuan berisi penawaran awal yang akan ditanggapi pihak lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teks negosiasi umumnya berbentuk …",
+              "options": [
+                {
+                  "text": "dialog",
+                  "correct": true
+                },
+                {
+                  "text": "puisi",
+                  "correct": false
+                },
+                {
+                  "text": "pantun",
+                  "correct": false
+                },
+                {
+                  "text": "laporan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Negosiasi disajikan dalam bentuk dialog antar pihak yang berkepentingan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kesepakatan dalam negosiasi sebaiknya menguntungkan …",
+              "options": [
+                {
+                  "text": "kedua belah pihak",
+                  "correct": true
+                },
+                {
+                  "text": "satu pihak saja",
+                  "correct": false
+                },
+                {
+                  "text": "pihak ketiga",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada pihak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Negosiasi yang baik menghasilkan kesepakatan yang dapat diterima kedua pihak."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Negosiator Ulung — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bagian negosiasi yang berisi penyampaian keinginan atau permintaan awal adalah …",
+              "options": [
+                {
+                  "text": "orientasi",
+                  "correct": true
+                },
+                {
+                  "text": "pengajuan",
+                  "correct": false
+                },
+                {
+                  "text": "penawaran",
+                  "correct": false
+                },
+                {
+                  "text": "persetujuan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Orientasi membuka pembicaraan dan menyampaikan maksud atau permintaan awal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat penawaran yang santun adalah …",
+              "options": [
+                {
+                  "text": "Apakah Bapak berkenan memberikan harga khusus untuk pembelian 10 unit?",
+                  "correct": true
+                },
+                {
+                  "text": "Pokoknya harus turun sekarang!",
+                  "correct": false
+                },
+                {
+                  "text": "Harga Bapak tidak masuk akal.",
+                  "correct": false
+                },
+                {
+                  "text": "Saya tidak mau tahu, kasih harga murah.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kesantunan dengan kata 'berkenan' membuka ruang negosiasi tanpa menyerang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teks deskripsi dipakai sebagai pembanding dalam negosiasi karena …",
+              "options": [
+                {
+                  "text": "memberi gambaran rinci objek yang dinegosiasikan",
+                  "correct": true
+                },
+                {
+                  "text": "berisi ajakan berdebat",
+                  "correct": false
+                },
+                {
+                  "text": "berisi cerita lucu",
+                  "correct": false
+                },
+                {
+                  "text": "berisi pantun",
+                  "correct": false
+                }
+              ],
+              "explanation": "Deskripsi membantu memastikan kualitas barang yang menjadi objek kesepakatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi sumber pendukung seperti kamus dalam negosiasi adalah …",
+              "options": [
+                {
+                  "text": "menemukan makna kata secara tepat",
+                  "correct": true
+                },
+                {
+                  "text": "menghilangkan dialog",
+                  "correct": false
+                },
+                {
+                  "text": "memperpanjang teks",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti kesepakatan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kamus membantu memahami istilah sehingga penafsiran kesepakatan menjadi jelas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat berikut yang menunjukkan persetujuan adalah …",
+              "options": [
+                {
+                  "text": "Baik, kami setuju dengan harga tersebut.",
+                  "correct": true
+                },
+                {
+                  "text": "Kami menolak semua penawaran.",
+                  "correct": false
+                },
+                {
+                  "text": "Harga itu terlalu tinggi.",
+                  "correct": false
+                },
+                {
+                  "text": "Kami akan mempertimbangkan lagi.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kata 'setuju' menandai tercapainya persetujuan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengalihwahanakan teks dialog negosiasi menjadi bentuk naratif dilakukan dengan …",
+              "options": [
+                {
+                  "text": "mengubah dialog menjadi kalimat bercerita yang runtut",
+                  "correct": true
+                },
+                {
+                  "text": "menghapus semua isi",
+                  "correct": false
+                },
+                {
+                  "text": "menambah pantun",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan tokoh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alih wahana mempertahankan isi kesepakatan tetapi mengubah bentuk penyajian menjadi narasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Syarat agar negosiasi berhasil adalah …",
+              "options": [
+                {
+                  "text": "kedua pihak saling mendengarkan dan bersedia berkompromi",
+                  "correct": true
+                },
+                {
+                  "text": "salah satu pihak memaksa",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada komunikasi",
+                  "correct": false
+                },
+                {
+                  "text": "kedua pihak menghindari pertemuan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kompromi dan komunikasi terbuka adalah kunci tercapainya kesepakatan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk struktur teks negosiasi? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Orientasi",
+                  "correct": true
+                },
+                {
+                  "text": "Pengajuan",
+                  "correct": true
+                },
+                {
+                  "text": "Persetujuan",
+                  "correct": true
+                },
+                {
+                  "text": "Daftar isi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Negosiasi disusun dari orientasi, pengajuan, penawaran, dan persetujuan. Daftar isi ada pada buku, bukan teks negosiasi."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan bagian dengan isinya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Orientasi"
+                },
+                {
+                  "id": "o1",
+                  "text": "Pengajuan"
+                },
+                {
+                  "id": "o2",
+                  "text": "Penawaran"
+                },
+                {
+                  "id": "o3",
+                  "text": "Persetujuan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Pembuka dan penyampaian maksud",
+                  "o1": "Penawaran awal",
+                  "o2": "Tanggapan berisi tawaran balik",
+                  "o3": "Kesepakatan yang dicapai"
+                }
+              },
+              "explanation": "Setiap bagian memainkan peran berbeda dalam alur negosiasi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahapan negosiasi.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Menyampaikan maksud"
+                },
+                {
+                  "id": "o1",
+                  "text": "Mengajukan penawaran"
+                },
+                {
+                  "id": "o2",
+                  "text": "Menanggapi dan menawar"
+                },
+                {
+                  "id": "o3",
+                  "text": "Mencapai kesepakatan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Negosiasi bergerak dari penyampaian maksud menuju kesepakatan melalui tawar-menawar."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Negosiator Ulung — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Negosiasi yang berhasil menilai kualitas data harga karena …",
+              "options": [
+                {
+                  "text": "data harga pembanding memperkuat dasar penawaran",
+                  "correct": true
+                },
+                {
+                  "text": "data membuat teks lebih panjang",
+                  "correct": false
+                },
+                {
+                  "text": "data menghilangkan dialog",
+                  "correct": false
+                },
+                {
+                  "text": "data mengganti kesepakatan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penawaran yang didukung data pembanding lebih meyakinkan dan masuk akal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat yang tepat untuk menolak penawaran secara santun adalah …",
+              "options": [
+                {
+                  "text": "Mohon maaf, penawaran itu di luar anggaran kami. Apakah ada alternatif lain?",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak! Titik.",
+                  "correct": false
+                },
+                {
+                  "text": "Penawaran Anda tidak masuk akal.",
+                  "correct": false
+                },
+                {
+                  "text": "Saya tidak mau bicara lagi.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penolakan santun disertai alasan dan alternatif menjaga hubungan baik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa negosiasi perlu mencatat kesepakatan secara tertulis?",
+              "options": [
+                {
+                  "text": "agar tidak terjadi perbedaan penafsiran di kemudian hari",
+                  "correct": true
+                },
+                {
+                  "text": "agar teks menjadi lebih panjang",
+                  "correct": false
+                },
+                {
+                  "text": "agar tidak perlu dialog",
+                  "correct": false
+                },
+                {
+                  "text": "agar harga naik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Catatan tertulis menjadi rujukan bersama bila muncul perselisihan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bila kedua pihak bersikeras tanpa kompromi, yang terjadi adalah …",
+              "options": [
+                {
+                  "text": "negosiasi gagal mencapai kesepakatan",
+                  "correct": true
+                },
+                {
+                  "text": "kesepakatan langsung tercapai",
+                  "correct": false
+                },
+                {
+                  "text": "harga otomatis turun",
+                  "correct": false
+                },
+                {
+                  "text": "teks menjadi lebih pendek",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanpa kompromi, kepentingan tidak bertemu dan kesepakatan tidak tercapai."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah etika yang perlu dijaga dalam negosiasi? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Bersikap jujur tentang kemampuan",
+                  "correct": true
+                },
+                {
+                  "text": "Menghargai pihak lain",
+                  "correct": true
+                },
+                {
+                  "text": "Memenuhi kesepakatan yang telah dibuat",
+                  "correct": true
+                },
+                {
+                  "text": "Memberi janji yang tidak mungkin ditepati",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kejujuran, penghargaan, dan pemenuhan kesepakatan membangun kepercayaan. Janji palsu merusak negosiasi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menyiapkan negosiasi harga barang.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Menentukan kebutuhan dan anggaran"
+                },
+                {
+                  "id": "s1",
+                  "text": "Mencari data harga pembanding"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menyiapkan argumen dan alternatif"
+                },
+                {
+                  "id": "s3",
+                  "text": "Melakukan dialog tawar-menawar hingga sepakat"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Persiapan data dan batas anggaran membuat penawaran lebih kuat dan terarah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan negosiasi dan debat adalah …",
+              "options": [
+                {
+                  "text": "negosiasi mencari kesepakatan, debat mencari kemenangan argumen",
+                  "correct": true
+                },
+                {
+                  "text": "keduanya sama",
+                  "correct": false
+                },
+                {
+                  "text": "negosiasi tidak memerlukan komunikasi",
+                  "correct": false
+                },
+                {
+                  "text": "debat tidak memiliki topik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tujuan akhir negosiasi adalah kesepakatan, sedangkan debat menguji kekuatan argumen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kalimat 'Kalau tidak sesuai harga saya, saya akan membeli di tempat lain' termasuk …",
+              "options": [
+                {
+                  "text": "ancaman yang dapat merusak negosiasi",
+                  "correct": true
+                },
+                {
+                  "text": "penawaran santun",
+                  "correct": false
+                },
+                {
+                  "text": "persetujuan",
+                  "correct": false
+                },
+                {
+                  "text": "simpulan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ancaman membuat pihak lain defensif; alternatif sebaiknya disampaikan sebagai pilihan, bukan tekanan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Narasi hasil alih wahana teks negosiasi harus memuat …",
+              "options": [
+                {
+                  "text": "isi kesepakatan dan pihak yang terlibat",
+                  "correct": true
+                },
+                {
+                  "text": "hanya nama penulis",
+                  "correct": false
+                },
+                {
+                  "text": "hanya latar tempat",
+                  "correct": false
+                },
+                {
+                  "text": "hanya jumlah halaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Narasi harus tetap memuat informasi pokok negosiasi, yaitu pihak dan kesepakatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ciri dialog negosiasi yang baik adalah …",
+              "options": [
+                {
+                  "text": "memakai kalimat efektif dan santun",
+                  "correct": true
+                },
+                {
+                  "text": "bertele-tele dan menyerang",
+                  "correct": false
+                },
+                {
+                  "text": "tanpa tanggapan",
+                  "correct": false
+                },
+                {
+                  "text": "hanya satu pihak berbicara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dialog yang efektif dan santun memudahkan tercapainya pemahaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menilai akurasi data dalam teks negosiasi dilakukan dengan …",
+              "options": [
+                {
+                  "text": "membandingkan data penjual dengan sumber lain",
+                  "correct": true
+                },
+                {
+                  "text": "menerima semua angka penjual",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan harga pasar",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pembanding eksternal menguji kewajaran data yang disampaikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kesepakatan negosiasi sebaiknya memuat hal berikut agar jelas …",
+              "options": [
+                {
+                  "text": "harga, jumlah, waktu, dan cara pembayaran",
+                  "correct": true
+                },
+                {
+                  "text": "warna dokumen",
+                  "correct": false
+                },
+                {
+                  "text": "nama kantor",
+                  "correct": false
+                },
+                {
+                  "text": "jumlah halaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rincian pokok mencegah salah tafsir saat pelaksanaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyajian gagasan dalam bentuk dialog negosiasi memerlukan …",
+              "options": [
+                {
+                  "text": "penggunaan tanda baca dialog yang tepat",
+                  "correct": true
+                },
+                {
+                  "text": "penulisan tanpa paragraf",
+                  "correct": false
+                },
+                {
+                  "text": "penghapusan tokoh",
+                  "correct": false
+                },
+                {
+                  "text": "penggunaan istilah asing seluruhnya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanda petik dan tanda baca dialog membuat pergantian penutur jelas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat bernegosiasi dibanding langsung menerima harga adalah …",
+              "options": [
+                {
+                  "text": "memungkinkan memperoleh syarat yang lebih sesuai kebutuhan",
+                  "correct": true
+                },
+                {
+                  "text": "selalu menurunkan kualitas barang",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan kebutuhan komunikasi",
+                  "correct": false
+                },
+                {
+                  "text": "memperlambat tanpa hasil",
+                  "correct": false
+                }
+              ],
+              "explanation": "Negosiasi membuka ruang penyesuaian harga, jumlah, atau cara pembayaran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bila pihak penjual menawarkan harga lebih tinggi dari anggaran pembeli, langkah negosiasi berikutnya yang tepat adalah …",
+              "options": [
+                {
+                  "text": "mengajukan penawaran balik yang masih dalam anggaran",
+                  "correct": true
+                },
+                {
+                  "text": "langsung membatalkan pembelian",
+                  "correct": false
+                },
+                {
+                  "text": "menerima tanpa berpikir",
+                  "correct": false
+                },
+                {
+                  "text": "meninggalkan ruangan tanpa bicara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penawaran balik membuka ruang kompromi sehingga kesepakatan masih mungkin tercapai."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

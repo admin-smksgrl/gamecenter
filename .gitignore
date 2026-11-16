@@ -1,0 +1,33 @@
+# Berkas yang tidak masuk repo
+
+# Sumber kurikulum mentah (buku ajar, ATP, CP, prosem) — ±1,5 GB.
+# Disimpan lokal saja; materi yang sudah dikurasi ada di
+# gamecenter/database/seeders/data/sma-smk/.
+/data/
+
+# Lingkungan & kredensial
+.env
+.env.*
+gamecenter/.env
+gamecenter/.env.*
+!gamecenter/.env.production.example
+
+# Dependensi & hasil build (dibangun saat deploy)
+gamecenter/vendor/
+gamecenter/node_modules/
+gamecenter/public/build/
+gamecenter/public/hot
+
+# Sisa verifikasi lokal
+.verify/
+gamecenter/.verify/
+tmp-*
+gamecenter/tmp-*
+
+# Basis data lokal
+*.sqlite
+*.sqlite3
+
+# Berkas sistem
+.DS_Store
+Thumbs.db

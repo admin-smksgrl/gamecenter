@@ -1,0 +1,785 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "informatika",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "INF 8",
+      "title": "Praktika Lintas Bidang",
+      "description": "Bekerja dalam tim digital, mengabstraksi masalah, membangun dan menguji artefak komputasi, serta mengomunikasikan hasil.",
+      "learning_objectives": [
+        "Memiliki budaya kerja masyarakat digital dalam tim yang inklusif.",
+        "Berkolaborasi untuk melaksanakan tugas dengan tema komputasi.",
+        "Mengenali dan mendefinisikan persoalan yang pemecahannya dapat didukung dengan sistem komputasi.",
+        "Mengembangkan dan menggunakan abstraksi untuk memodelkan masalah.",
+        "Mengembangkan artefak komputasi dengan membuat desain program sederhana untuk menunjang model komputasi yang dibutuhkan di pelajaran lain.",
+        "Mngembangkan rencana pengujian, menguji dan mendokumentasikan hasilnya.",
+        "Mengomunikasikan suatu proses, fenomena, solusi TIK dengan mempresentasikan, memvisualisasikan serta memperhatikan hak kekayaan intelektual."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Modul Ajar Informatika Kelas X SMA Fase E Bab 9",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Kerja Tim Digital dan Abstraksi",
+          "duration": 240,
+          "source_reference": "Bab 9 — Praktika Lintas Bidang",
+          "content": "## Budaya kerja tim digital\n\nTim yang sehat bersifat **inklusif**: setiap anggota dihargai dan didengar.\n\nKunci kerja tim:\n- pembagian tugas yang jelas\n- komunikasi rutin\n- pencatatan keputusan bersama\n- tidak mengambil alih tugas orang lain tanpa memberi tahu\n\n### Alat kolaborasi\n\nDokumen daring memungkinkan beberapa orang menyunting bersamaan, dengan riwayat perubahan yang terlacak.\n\n## Abstraksi\n\n**Abstraksi** menyederhanakan masalah dengan mengambil hanya bagian pentingnya.\n\nContoh: sistem peminjaman perpustakaan diabstraksi menjadi model **buku**, **anggota**, dan **transaksi peminjaman**. Warna rak atau merek komputer petugas bukan bagian dari abstraksi.\n\nKegunaan abstraksi: masalah menjadi lebih mudah dianalisis dan diimplementasikan.\n\n## Kapan komputer tepat dipakai?\n\nSistem komputasi paling bermanfaat untuk persoalan yang **berulang**, **berukuran besar**, dan **berbasis aturan** yang jelas."
+        },
+        {
+          "type": "text",
+          "title": "Membangun dan Menguji Artefak",
+          "duration": 360,
+          "source_reference": "Bab 9 — Artefak Komputasi",
+          "content": "## Artefak komputasi\n\nArtefak komputasi adalah karya hasil proses komputasi: program, model, atau desain yang dapat dijalankan dan ditunjukkan.\n\n### Urutan tahapan\n\n1. Mengenali dan mendefinisikan persoalan\n2. Mengembangkan model atau abstraksi\n3. Membuat artefak komputasi\n4. Menguji dan mendokumentasikan\n5. Mempresentasikan\n\nLangkah pertama **selalu** memahami persoalan dan kebutuhan pengguna — bukan langsung menulis kode.\n\n## Prototipe\n\nVersi awal yang murah dan cepat untuk menguji gagasan. Prototipe membuat kesalahan konsep ditemukan lebih awal.\n\n## Pengujian\n\nRencana pengujian memuat **kasus uji** beserta **hasil yang diharapkan**.\n\nUntuk fitur login, kasus uji minimal mencakup:\n- kata sandi benar\n- kata sandi salah\n- kolom kosong\n\n### Bila hasil tidak sesuai harapan\n\nJangan mengubah harapan agar cocok, dan jangan menghapus kasus uji. Telusuri penyebab, perbaiki, lalu **uji ulang**.\n\n## Dokumentasi\n\nMencatat proses dan keputusan proyek. Bagi anggota baru, dokumentasi yang baik membuatnya jauh lebih cepat memahami proyek."
+        },
+        {
+          "type": "interactive",
+          "title": "Mengomunikasikan Hasil",
+          "duration": 240,
+          "source_reference": "Bab 9 — Presentasi dan HAKI",
+          "content": "## Isi presentasi proyek\n\nPresentasi yang lengkap memuat:\n\n1. **masalah** yang dihadapi\n2. **solusi** yang diusulkan\n3. **cara kerja** solusi\n4. **hasil pengujian** sebagai bukti\n\nMenyebutkan **keterbatasan** solusi secara jujur menunjukkan pemahaman mendalam dan membuka arah perbaikan.\n\n## Visualisasi\n\nVisualisasi memudahkan audiens memahami temuan. Namun memanipulasi data — memilih hanya yang menguntungkan — merusak kepercayaan dan menyesatkan pengambil keputusan.\n\n## Hak kekayaan intelektual\n\nSaat memakai gambar atau karya orang lain:\n\n- periksa **lisensi**\n- cantumkan **sumber**\n- jangan mengakuinya sebagai karya sendiri\n\nHak cipta atas karya siswa dalam proyek sekolah dimiliki oleh **siswa sebagai pencipta**. Pihak lain memerlukan izin atau lisensi untuk memakainya."
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Praktika Lintas Bidang — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bekerja dalam tim digital menuntut sikap …",
+              "options": [
+                {
+                  "text": "inklusif dan saling menghargai",
+                  "correct": true
+                },
+                {
+                  "text": "mendominasi diskusi",
+                  "correct": false
+                },
+                {
+                  "text": "mengabaikan pendapat lain",
+                  "correct": false
+                },
+                {
+                  "text": "menyembunyikan informasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tim yang inklusif menghargai perbedaan pendapat dan latar belakang setiap anggota."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyederhanaan masalah dengan hanya mengambil bagian pentingnya disebut …",
+              "options": [
+                {
+                  "text": "abstraksi",
+                  "correct": true
+                },
+                {
+                  "text": "enkripsi",
+                  "correct": false
+                },
+                {
+                  "text": "kompresi",
+                  "correct": false
+                },
+                {
+                  "text": "visualisasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Abstraksi menyembunyikan detail yang tidak perlu agar masalah lebih mudah dipahami."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hasil karya komputasi yang dapat dijalankan atau ditunjukkan disebut …",
+              "options": [
+                {
+                  "text": "artefak komputasi",
+                  "correct": true
+                },
+                {
+                  "text": "komentar",
+                  "correct": false
+                },
+                {
+                  "text": "variabel",
+                  "correct": false
+                },
+                {
+                  "text": "lisensi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Artefak komputasi berupa program, model, atau desain yang dihasilkan dari proses komputasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pengujian program dilakukan untuk …",
+              "options": [
+                {
+                  "text": "memastikan program berjalan sesuai harapan",
+                  "correct": true
+                },
+                {
+                  "text": "memperbesar ukuran berkas",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus dokumentasi",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti bahasa pemrograman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengujian menemukan kesalahan sebelum program dipakai pengguna."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hak eksklusif bagi pencipta atas karyanya disebut …",
+              "options": [
+                {
+                  "text": "hak kekayaan intelektual",
+                  "correct": true
+                },
+                {
+                  "text": "hak akses",
+                  "correct": false
+                },
+                {
+                  "text": "hak pilih",
+                  "correct": false
+                },
+                {
+                  "text": "hak cipta negara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hak kekayaan intelektual melindungi karya pencipta, termasuk perangkat lunak dan karya digital."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Praktika Lintas Bidang — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kolaborasi dalam proyek komputasi paling efektif bila …",
+              "options": [
+                {
+                  "text": "pembagian tugas dan komunikasi jelas",
+                  "correct": true
+                },
+                {
+                  "text": "semua bekerja tanpa koordinasi",
+                  "correct": false
+                },
+                {
+                  "text": "satu orang mengerjakan semuanya",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada jadwal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pembagian tugas yang jelas dan komunikasi rutin membuat proyek berjalan efisien."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dokumentasi proyek berfungsi untuk …",
+              "options": [
+                {
+                  "text": "mencatat proses dan keputusan agar dapat dipahami orang lain",
+                  "correct": true
+                },
+                {
+                  "text": "memperlambat program",
+                  "correct": false
+                },
+                {
+                  "text": "menambah jumlah variabel",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus kode",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dokumentasi memudahkan anggota lain dan pengguna masa depan memahami hasil kerja."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rencana pengujian yang baik memuat …",
+              "options": [
+                {
+                  "text": "kasus uji beserta hasil yang diharapkan",
+                  "correct": true
+                },
+                {
+                  "text": "hanya daftar nama penguji",
+                  "correct": false
+                },
+                {
+                  "text": "warna tampilan aplikasi",
+                  "correct": false
+                },
+                {
+                  "text": "harga perangkat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kasus uji harus jelas: masukan apa, langkah apa, dan keluaran apa yang diharapkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Presentasi hasil proyek sebaiknya memuat …",
+              "options": [
+                {
+                  "text": "masalah, solusi, cara kerja, dan hasil pengujian",
+                  "correct": true
+                },
+                {
+                  "text": "hanya daftar nama anggota",
+                  "correct": false
+                },
+                {
+                  "text": "hanya warna desain",
+                  "correct": false
+                },
+                {
+                  "text": "hanya jumlah baris kode",
+                  "correct": false
+                }
+              ],
+              "explanation": "Presentasi yang lengkap menjelaskan alasan, cara, dan bukti keberhasilan solusi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat kolaborasi yang memungkinkan beberapa orang menyunting dokumen bersama secara daring adalah …",
+              "options": [
+                {
+                  "text": "dokumen daring bersama",
+                  "correct": true
+                },
+                {
+                  "text": "kalkulator",
+                  "correct": false
+                },
+                {
+                  "text": "pemutar musik",
+                  "correct": false
+                },
+                {
+                  "text": "kompresor berkas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dokumen daring memungkinkan penyuntingan bersamaan dan riwayat perubahan terlacak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dalam mengembangkan artefak komputasi, abstraksi membantu karena …",
+              "options": [
+                {
+                  "text": "menyederhanakan masalah menjadi model yang dapat dikerjakan",
+                  "correct": true
+                },
+                {
+                  "text": "menambah kerumitan kode",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan kebutuhan pengujian",
+                  "correct": false
+                },
+                {
+                  "text": "membuat program lebih lambat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Model yang disederhanakan membuat masalah lebih mudah dianalisis dan diimplementasikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hak cipta atas karya siswa dalam proyek sekolah umumnya dimiliki oleh …",
+              "options": [
+                {
+                  "text": "siswa sebagai pencipta",
+                  "correct": true
+                },
+                {
+                  "text": "seluruh pengguna internet",
+                  "correct": false
+                },
+                {
+                  "text": "pihak yang menyalin pertama",
+                  "correct": false
+                },
+                {
+                  "text": "tidak ada yang memiliki",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pencipta memiliki hak atas karyanya; penggunaan oleh pihak lain memerlukan izin atau lisensi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk tahapan pengembangan artefak komputasi? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menganalisis kebutuhan",
+                  "correct": true
+                },
+                {
+                  "text": "Merancang solusi",
+                  "correct": true
+                },
+                {
+                  "text": "Mengimplementasikan program",
+                  "correct": true
+                },
+                {
+                  "text": "Mengabaikan pengujian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengembangan mencakup analisis, perancangan, implementasi, dan pengujian. Mengabaikan pengujian membuat kesalahan tidak terdeteksi."
+            },
+            {
+              "type": "matching",
+              "question": "Jodohkan istilah dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Abstraksi"
+                },
+                {
+                  "id": "o1",
+                  "text": "Artefak komputasi"
+                },
+                {
+                  "id": "o2",
+                  "text": "Dokumentasi"
+                },
+                {
+                  "id": "o3",
+                  "text": "Prototipe"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Mengambil bagian penting dari masalah",
+                  "o1": "Karya hasil proses komputasi",
+                  "o2": "Catatan proses dan keputusan proyek",
+                  "o3": "Versi awal untuk menguji gagasan"
+                }
+              },
+              "explanation": "Keempat istilah itu sering dipakai bersama dalam proyek komputasi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahapan praktika lintas bidang.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Mengenali dan mendefinisikan persoalan"
+                },
+                {
+                  "id": "o1",
+                  "text": "Mengembangkan model atau abstraksi"
+                },
+                {
+                  "id": "o2",
+                  "text": "Membuat artefak komputasi"
+                },
+                {
+                  "id": "o3",
+                  "text": "Menguji dan mendokumentasikan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Persoalan didefinisikan lebih dulu, lalu dimodelkan, dibuat artefaknya, dan diuji."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Praktika Lintas Bidang — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Sebuah tim merancang aplikasi absensi. Langkah pertama yang seharusnya dilakukan adalah …",
+              "options": [
+                {
+                  "text": "mendefinisikan persoalan dan kebutuhan pengguna",
+                  "correct": true
+                },
+                {
+                  "text": "langsung menulis kode",
+                  "correct": false
+                },
+                {
+                  "text": "memilih warna tombol",
+                  "correct": false
+                },
+                {
+                  "text": "membeli server mahal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tanpa pemahaman kebutuhan, solusi yang dibangun berisiko tidak menjawab masalah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Abstraksi yang tepat untuk sistem peminjaman buku perpustakaan adalah …",
+              "options": [
+                {
+                  "text": "model data buku, anggota, dan transaksi peminjaman",
+                  "correct": true
+                },
+                {
+                  "text": "warna rak buku",
+                  "correct": false
+                },
+                {
+                  "text": "merek komputer petugas",
+                  "correct": false
+                },
+                {
+                  "text": "jumlah lampu ruangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Abstraksi menangkap entitas penting dan hubungannya, bukan detail yang tidak relevan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kasus uji untuk fitur login sebaiknya mencakup …",
+              "options": [
+                {
+                  "text": "kata sandi benar, salah, dan kosong",
+                  "correct": true
+                },
+                {
+                  "text": "hanya kasus berhasil",
+                  "correct": false
+                },
+                {
+                  "text": "hanya tampilan warna",
+                  "correct": false
+                },
+                {
+                  "text": "hanya jumlah pengguna",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengujian yang baik mencakup kasus normal sekaligus kasus batas dan kesalahan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa hasil pengujian perlu didokumentasikan?",
+              "options": [
+                {
+                  "text": "agar bukti dan temuan dapat diperiksa ulang serta diperbaiki",
+                  "correct": true
+                },
+                {
+                  "text": "agar program berjalan lebih cepat",
+                  "correct": false
+                },
+                {
+                  "text": "agar kode menjadi lebih pendek",
+                  "correct": false
+                },
+                {
+                  "text": "agar tidak perlu dokumentasi lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dokumentasi pengujian menjadi dasar perbaikan dan verifikasi ulang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Saat memakai gambar dari internet dalam presentasi, langkah yang benar adalah …",
+              "options": [
+                {
+                  "text": "memeriksa lisensi dan mencantumkan sumber",
+                  "correct": true
+                },
+                {
+                  "text": "menghapus semua keterangan sumber",
+                  "correct": false
+                },
+                {
+                  "text": "mengakuinya sebagai karya sendiri",
+                  "correct": false
+                },
+                {
+                  "text": "menjualnya kembali",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menghormati lisensi dan mencantumkan sumber adalah bentuk penghargaan hak kekayaan intelektual."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prototipe sederhana dibuat pada tahap awal proyek agar …",
+              "options": [
+                {
+                  "text": "gagasan dapat diuji sebelum pengembangan penuh",
+                  "correct": true
+                },
+                {
+                  "text": "kode menjadi permanen",
+                  "correct": false
+                },
+                {
+                  "text": "tidak perlu revisi",
+                  "correct": false
+                },
+                {
+                  "text": "pengujian dilewati",
+                  "correct": false
+                }
+              ],
+              "explanation": "Prototipe murah dan cepat, sehingga kesalahan konsep ditemukan lebih awal."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah praktik yang mendukung kerja tim digital yang sehat? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Menyepakati pembagian tugas",
+                  "correct": true
+                },
+                {
+                  "text": "Mendengarkan pendapat anggota lain",
+                  "correct": true
+                },
+                {
+                  "text": "Mencatat keputusan bersama",
+                  "correct": true
+                },
+                {
+                  "text": "Mengerjakan bagian orang lain tanpa memberi tahu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pembagian tugas, sikap mendengar, dan pencatatan keputusan memperkuat tim. Mengambil alih tugas tanpa komunikasi menimbulkan konflik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Visualisasi data dalam presentasi bertujuan untuk …",
+              "options": [
+                {
+                  "text": "memudahkan audiens memahami temuan",
+                  "correct": true
+                },
+                {
+                  "text": "memperbanyak halaman",
+                  "correct": false
+                },
+                {
+                  "text": "menyembunyikan data penting",
+                  "correct": false
+                },
+                {
+                  "text": "mengganti kesimpulan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Visualisasi yang tepat membuat pola dan temuan lebih cepat dipahami."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem komputasi paling tepat dipakai untuk persoalan yang …",
+              "options": [
+                {
+                  "text": "berulang, berukuran besar, dan berbasis aturan",
+                  "correct": true
+                },
+                {
+                  "text": "hanya terjadi sekali",
+                  "correct": false
+                },
+                {
+                  "text": "hanya melibatkan satu orang",
+                  "correct": false
+                },
+                {
+                  "text": "tidak memiliki data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Komputer unggul pada pekerjaan berulang dalam jumlah besar dan aturan yang jelas."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah menguji artefak komputasi.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Menyusun rencana pengujian dan kasus uji"
+                },
+                {
+                  "id": "s1",
+                  "text": "Menjalankan artefak dengan setiap kasus uji"
+                },
+                {
+                  "id": "s2",
+                  "text": "Membandingkan hasil dengan yang diharapkan"
+                },
+                {
+                  "id": "s3",
+                  "text": "Mencatat temuan dan memperbaiki kesalahan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3"
+                ]
+              },
+              "explanation": "Pengujian dimulai dari rencana, dijalankan, dibandingkan dengan harapan, lalu diperbaiki."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dalam presentasi proyek, menyebutkan keterbatasan solusi bertujuan …",
+              "options": [
+                {
+                  "text": "menunjukkan kejujuran dan membuka peluang perbaikan",
+                  "correct": true
+                },
+                {
+                  "text": "melemahkan penilaian",
+                  "correct": false
+                },
+                {
+                  "text": "menyembunyikan masalah",
+                  "correct": false
+                },
+                {
+                  "text": "membuat presentasi lebih panjang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menyebutkan keterbatasan secara jujur menunjukkan pemahaman mendalam dan arah pengembangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kolaborasi lintas bidang berarti …",
+              "options": [
+                {
+                  "text": "menggabungkan keahlian dari beberapa mata pelajaran untuk menyelesaikan masalah",
+                  "correct": true
+                },
+                {
+                  "text": "bekerja hanya pada satu mata pelajaran",
+                  "correct": false
+                },
+                {
+                  "text": "menghindari komunikasi antar tim",
+                  "correct": false
+                },
+                {
+                  "text": "menolak masukan dari bidang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Praktika lintas bidang memanfaatkan pengetahuan dari berbagai mata pelajaran secara terpadu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manfaat dokumentasi yang baik bagi anggota tim baru adalah …",
+              "options": [
+                {
+                  "text": "lebih cepat memahami proyek",
+                  "correct": true
+                },
+                {
+                  "text": "harus menulis ulang seluruh kode",
+                  "correct": false
+                },
+                {
+                  "text": "tidak perlu bertanya apa pun",
+                  "correct": false
+                },
+                {
+                  "text": "dapat mengabaikan pengujian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dokumentasi yang jelas mempercepat proses bergabungnya anggota baru dalam tim."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bila hasil pengujian tidak sesuai harapan, langkah yang tepat adalah …",
+              "options": [
+                {
+                  "text": "menelusuri penyebab dan memperbaiki lalu menguji ulang",
+                  "correct": true
+                },
+                {
+                  "text": "mengabaikan hasilnya",
+                  "correct": false
+                },
+                {
+                  "text": "menghapus kasus uji",
+                  "correct": false
+                },
+                {
+                  "text": "mengubah harapan agar sesuai hasil",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kegagalan uji menunjukkan adanya kesalahan yang harus ditelusuri dan diperbaiki, bukan diabaikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Etika mengomunikasikan hasil komputasi menuntut kita untuk …",
+              "options": [
+                {
+                  "text": "menyajikan data apa adanya tanpa memanipulasi",
+                  "correct": true
+                },
+                {
+                  "text": "memilih hanya data yang menguntungkan",
+                  "correct": false
+                },
+                {
+                  "text": "menghilangkan sumber",
+                  "correct": false
+                },
+                {
+                  "text": "melebih-lebihkan hasil",
+                  "correct": false
+                }
+              ],
+              "explanation": "Memanipulasi data merusak kepercayaan dan dapat menyesatkan pengambil keputusan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
