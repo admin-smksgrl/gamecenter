@@ -4,10 +4,12 @@ namespace Tests\Feature;
 
 use Database\Seeders\ClassSeeder;
 use Database\Seeders\EducationLevelSeeder;
+use App\Models\Assessment;
 use Database\Seeders\SmaSmkMaterialSeeder;
 use Database\Seeders\SubjectSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Artisan;
+use Inertia\Testing\AssertableInertia;
 use Tests\TestCase;
 
 class MateriCoverageCommandTest extends TestCase
@@ -78,6 +80,55 @@ class MateriCoverageCommandTest extends TestCase
         $this->assertGreaterThanOrEqual(1, $row['scenario']);
         $this->assertGreaterThanOrEqual(1, $row['recall']);
         $this->assertGreaterThanOrEqual($row['required_checkpoints'], $row['checkpoints']);
+    }
+
+    public function test_bahasa_inggris_chapters_meet_the_plan_minimums(): void
+    {
+        // Enam bab Bahasa Inggris X adalah batch 11 (rilis 0.34.0). Tes ini
+        // menjaga seluruh babnya tetap lengkap dan tidak menyembunyikan teks.
+        foreach (['ENG 1', 'ENG 2', 'ENG 3', 'ENG 4', 'ENG 5', 'ENG 6'] as $code) {
+            $row = $this->coverage($code)['chapters'][0];
+
+            $this->assertTrue(
+                $row['complete'],
+                "{$code} belum memenuhi §5.3: " . implode(', ', $row['missing']),
+            );
+            $this->assertSame(0, $row['hidden'], "{$code} menyembunyikan isi materi");
+            $this->assertGreaterThan(0, $row['theory'], "{$code} tidak punya blok teks");
+            $this->assertGreaterThanOrEqual(1, $row['visual'], "{$code} tidak punya blok visual");
+            $this->assertGreaterThanOrEqual(2, $row['activities'], "{$code} butuh dua blok aktivitas");
+            $this->assertGreaterThanOrEqual(1, $row['scenario'], "{$code} butuh skenario atau tantangan");
+            $this->assertGreaterThanOrEqual(1, $row['recall'], "{$code} butuh glossary atau flashcards");
+            $this->assertGreaterThanOrEqual(
+                $row['required_checkpoints'],
+                $row['checkpoints'],
+                "{$code} butuh {$row['required_checkpoints']} checkpoint",
+            );
+        }
+    }
+
+    public function test_eng_6_play_page_serves_material_blocks_and_questions(): void
+    {
+        $assessment = Assessment::query()
+            ->whereHas('chapter', fn ($query) => $query->where('code', 'ENG 6'))
+            ->where('difficulty', 'easy')
+            ->firstOrFail();
+
+        $response = $this->get("/main/{$assessment->id}");
+
+        $response->assertOk();
+        $response->assertInertia(function (AssertableInertia $page) {
+            $props = $page->toArray()['props'];
+
+            $this->assertSame('Fractured Stories', $props['context']['chapter_title']);
+            $this->assertCount(5, $props['questions']);
+            $this->assertCount(3, $props['materials']);
+
+            $first = $props['materials'][0];
+            $this->assertNotEmpty($first['blocks'], 'materi ENG 6 harus tampil sebagai blok');
+            $this->assertContains('glossary', array_column($first['blocks'], 'type'));
+            $this->assertContains('checkpoint', array_column($first['blocks'], 'type'));
+        });
     }
 
     public function test_unconverted_chapter_lists_missing_components(): void

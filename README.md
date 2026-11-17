@@ -210,7 +210,7 @@ gamecenter/                 aplikasi Laravel
 │   ├── js/Pages/           Inertia pages (GameCenter, Guide, Membership, Auth)
 │   └── js/Components/      mesin game, toast, layout
 ├── routes/                 web.php, api.php
-├── tests/                  139 tes (Feature + Unit)
+├── tests/                  141 tes (Feature + Unit)
 └── public/sw.js            service worker PWA
 
 doc/                        rencana, laporan per fase, peta cakupan materi
@@ -300,7 +300,7 @@ Satu warna untuk semua jenjang: **merah `#e60012` di atas putih**.
 
 ## 11. Kualitas & pengujian
 
-- **96 tes / 872 asersi** mencakup katalog, permainan, hasil, progres, auth,
+- **141 tes / 1.270 asersi** mencakup katalog, permainan, hasil, progres, auth,
   keanggotaan, impor materi, panel admin, dan perintah deploy-check.
 - **Importer** menolak berkas yang melanggar skema (jumlah materi/asesmen, soal
   per tingkat kesulitan, `explanation` kosong, `hint` pada soal sulit, simbol

@@ -48,7 +48,9 @@ bagian verifikasi mencantumkan tanggal + jam.
 - `gamecenter:materi-coverage` → **55 dari 58 chapter memenuhi minimum §5.3**,
   **2.095 blok**. Bahasa Inggris **6/6 lengkap**; sisa tiga chapter di luar
   cakupan SMA/SMK (PAUD 1.1, TK 1.1, MTK 7.1).
-- `php artisan test` → **139 lulus, 1 dilewati, 1.179 asertion**.
+- `php artisan test` → **141 lulus, 1 dilewati, 1.270 asertion**; dua tes
+  regresi baru menjaga enam bab Bahasa Inggris tetap memenuhi §5.3 dan
+  halaman `/main/{asesmen}` ENG 6 menyajikan blok materi beserta 5 soal.
 
 ## [0.33.0] - 2026-11-18 03:00 WIB
 
