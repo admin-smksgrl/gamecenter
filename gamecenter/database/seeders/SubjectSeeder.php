@@ -32,7 +32,7 @@ class SubjectSeeder extends Seeder
         ],
         'sd' => [
             ['name' => 'Pendidikan Agama dan Budi Pekerti', 'slug' => 'pai', 'group' => 'Wajib', 'icon' => '🕌', 'color' => 'emerald'],
-            ['name' => 'Pendidikan Pancasila', 'slug' => 'pancasila', 'group' => 'Wajib', 'icon' => '🇮🇩', 'color' => 'rose'],
+            ['name' => 'Pendidikan Pancasila', 'slug' => 'pancasila', 'group' => 'Wajib', 'icon' => '🦅', 'color' => 'rose'],
             ['name' => 'Bahasa Indonesia', 'slug' => 'bahasa-indonesia', 'group' => 'Wajib', 'icon' => '📖', 'color' => 'amber'],
             ['name' => 'Matematika', 'slug' => 'matematika', 'group' => 'Wajib', 'icon' => '➗', 'color' => 'blue'],
             ['name' => 'Ilmu Pengetahuan Alam dan Sosial', 'slug' => 'ipas', 'group' => 'Wajib', 'icon' => '🔬', 'color' => 'teal'],
@@ -42,7 +42,7 @@ class SubjectSeeder extends Seeder
         ],
         'smp' => [
             ['name' => 'Pendidikan Agama dan Budi Pekerti', 'slug' => 'pai', 'group' => 'Wajib', 'icon' => '🕌', 'color' => 'emerald'],
-            ['name' => 'Pendidikan Pancasila', 'slug' => 'pancasila', 'group' => 'Wajib', 'icon' => '🇮🇩', 'color' => 'rose'],
+            ['name' => 'Pendidikan Pancasila', 'slug' => 'pancasila', 'group' => 'Wajib', 'icon' => '🦅', 'color' => 'rose'],
             ['name' => 'Bahasa Indonesia', 'slug' => 'bahasa-indonesia', 'group' => 'Wajib', 'icon' => '📖', 'color' => 'amber'],
             ['name' => 'Matematika', 'slug' => 'matematika', 'group' => 'Wajib', 'icon' => '➗', 'color' => 'blue'],
             ['name' => 'Ilmu Pengetahuan Alam', 'slug' => 'ipa', 'group' => 'Wajib', 'icon' => '🔬', 'color' => 'teal'],
@@ -55,7 +55,7 @@ class SubjectSeeder extends Seeder
         ],
         'sma' => [
             ['name' => 'Pendidikan Agama Islam dan Budi Pekerti', 'slug' => 'pai', 'group' => 'Wajib', 'icon' => '🕌', 'color' => 'emerald'],
-            ['name' => 'Pendidikan Pancasila', 'slug' => 'pancasila', 'group' => 'Wajib', 'icon' => '🇮🇩', 'color' => 'rose'],
+            ['name' => 'Pendidikan Pancasila', 'slug' => 'pancasila', 'group' => 'Wajib', 'icon' => '🦅', 'color' => 'rose'],
             ['name' => 'Bahasa Indonesia', 'slug' => 'bahasa-indonesia', 'group' => 'Wajib', 'icon' => '📖', 'color' => 'amber'],
             ['name' => 'Matematika', 'slug' => 'matematika', 'group' => 'Wajib', 'icon' => '➗', 'color' => 'blue'],
             ['name' => 'Bahasa Inggris', 'slug' => 'bahasa-inggris', 'group' => 'Wajib', 'icon' => '🔤', 'color' => 'indigo'],
@@ -74,7 +74,7 @@ class SubjectSeeder extends Seeder
         ],
         'smk' => [
             ['name' => 'Pendidikan Agama Islam dan Budi Pekerti', 'slug' => 'pai', 'group' => 'Wajib', 'icon' => '🕌', 'color' => 'emerald'],
-            ['name' => 'Pendidikan Pancasila', 'slug' => 'pancasila', 'group' => 'Wajib', 'icon' => '🇮🇩', 'color' => 'rose'],
+            ['name' => 'Pendidikan Pancasila', 'slug' => 'pancasila', 'group' => 'Wajib', 'icon' => '🦅', 'color' => 'rose'],
             ['name' => 'Bahasa Indonesia', 'slug' => 'bahasa-indonesia', 'group' => 'Wajib', 'icon' => '📖', 'color' => 'amber'],
             ['name' => 'Matematika', 'slug' => 'matematika', 'group' => 'Wajib', 'icon' => '➗', 'color' => 'blue'],
             ['name' => 'Bahasa Inggris', 'slug' => 'bahasa-inggris', 'group' => 'Wajib', 'icon' => '🔤', 'color' => 'indigo'],
