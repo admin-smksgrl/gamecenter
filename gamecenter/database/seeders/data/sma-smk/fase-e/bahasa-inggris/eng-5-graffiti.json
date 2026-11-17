@@ -1,0 +1,1505 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-inggris",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ENG 5",
+      "title": "Graffiti",
+      "description": "Membaca dua teks ekspositori yang berseberangan tentang graffiti, mengenali struktur analytical exposition, lalu menulis dan menyajikan posisi sendiri dengan bukti.",
+      "learning_objectives": [
+        "Identify context, main ideas and detailed information from an oral and verbal expository text presented in multimodal form about graffiti.",
+        "Communicate simple ideas and opinions in various discussions, collaborative activities and presentations orally about graffiti.",
+        "Write an expository text about graffiti with an appropriate structure of organization and linguistic features and present it."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Buku Bahasa Inggris Work in Progress untuk SMA/SMK/MA Kelas X, Bab 5 — Graffiti",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Expository Text and Analytical Exposition",
+          "duration": 240,
+          "source_reference": "Bab 5 — Graffiti (halaman 104-107)",
+          "content": "## What is an expository text?\n\nExpository text is a text that conveys fact and opinion about a topic. One form of expository text is analytical exposition. Analytical exposition is a text that elaborates the writer's idea about an issue. It adopts a position with respect to the issue that becomes the subject of the writing and provides evidence in support of that position. It aims to persuade the readers to adopt the position taken by the writer. It consists of a statement of position, arguments, and reiteration or conclusion.\n\n### Structure\n\n| Part | Function | Example from the graffiti texts |\n|---|---|---|\n| Statement of position | States the issue and the writer's view | Graffiti is art, and it is essential in our culture. |\n| Arguments | Give reasons and evidence that support the position | First, graffiti enables the public to see something new. Second, it affects people positively. |\n| Reiteration or conclusion | Restates the position and closes the text | Every person must strive to educate themselves of the origins of graffiti. |\n\n### Language features\n\n- The simple present tense states general claims: Graffiti is always vandalism.\n- Connectives order the arguments: first, second, next, furthermore, the last reason.\n- Conclusion markers signal the closing: thus, in conclusion, therefore.\n- Evaluative words carry the writer's judgement: masterpiece, meaningless, crime, positivity.\n- Modality shows obligation or certainty: must, should, would, can.\n- Key terms are repeated so the issue stays in focus: graffiti, artist, vandalism, public.\n\n### Words about art and graffiti\n\n| Name | Description |\n|---|---|\n| Autograph | One's name as written by oneself |\n| Tag | A writer's signature with spray paint or marker |\n| Graffiti | Drawings or inscriptions made on a wall or other surface |\n| Mural | A large picture painted on the wall |\n| Scribble | To write hastily or carelessly |\n\nAn analytical exposition is judged by whether the arguments really support the position and whether the evidence can be checked by the reader.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Expository text",
+                  "definition": "A text that conveys fact and opinion about a topic."
+                },
+                {
+                  "term": "Analytical exposition",
+                  "definition": "An expository text that elaborates the writer's idea about an issue, takes a position, and supports it with evidence."
+                },
+                {
+                  "term": "Statement of position",
+                  "definition": "The opening part that states the writer's view on the issue."
+                },
+                {
+                  "term": "Argument",
+                  "definition": "A reason, supported by evidence, that defends the writer's position."
+                },
+                {
+                  "term": "Reiteration",
+                  "definition": "The closing part that restates the writer's position or draws a conclusion."
+                },
+                {
+                  "term": "Tag",
+                  "definition": "A writer's signature painted with spray paint or marker."
+                },
+                {
+                  "term": "Mural",
+                  "definition": "A large picture painted on a wall."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "What is an expository text?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Expository text is a text that conveys fact and opinion about a topic. One form of expository text is analytical exposition. Analytical exposition is a text that elaborates the writer's idea about an issue. It adopts a position with respect to the issue that becomes the subject of the writing and provides evidence in support of that position. It aims to persuade the readers to adopt the position taken by the writer. It consists of a statement of position, arguments, and reiteration or conclusion."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-eng5-structure",
+              "engine": "mermaid",
+              "title": "Structure of an analytical exposition",
+              "code": "flowchart TD\\n  A[Statement of position: the writer's view on the issue] --> B[Argument 1: reason plus evidence]\\n  B --> C[Argument 2: reason plus evidence]\\n  C --> D[Argument 3: reason plus evidence]\\n  D --> E[Reiteration or conclusion: the position restated]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Structure"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Part",
+                  "Function",
+                  "Example from the graffiti texts"
+                ],
+                [
+                  "Statement of position",
+                  "States the issue and the writer's view",
+                  "Graffiti is art, and it is essential in our culture."
+                ],
+                [
+                  "Arguments",
+                  "Give reasons and evidence that support the position",
+                  "First, graffiti enables the public to see something new. Second, it affects people positively."
+                ],
+                [
+                  "Reiteration or conclusion",
+                  "Restates the position and closes the text",
+                  "Every person must strive to educate themselves of the origins of graffiti."
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Language features"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "The simple present tense states general claims: Graffiti is always vandalism.",
+                "Connectives order the arguments: first, second, next, furthermore, the last reason.",
+                "Conclusion markers signal the closing: thus, in conclusion, therefore.",
+                "Evaluative words carry the writer's judgement: masterpiece, meaningless, crime, positivity.",
+                "Modality shows obligation or certainty: must, should, would, can.",
+                "Key terms are repeated so the issue stays in focus: graffiti, artist, vandalism, public."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Words about art and graffiti"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Name",
+                  "Description"
+                ],
+                [
+                  "Autograph",
+                  "One's name as written by oneself"
+                ],
+                [
+                  "Tag",
+                  "A writer's signature with spray paint or marker"
+                ],
+                [
+                  "Graffiti",
+                  "Drawings or inscriptions made on a wall or other surface"
+                ],
+                [
+                  "Mural",
+                  "A large picture painted on the wall"
+                ],
+                [
+                  "Scribble",
+                  "To write hastily or carelessly"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "An analytical exposition is judged by whether the arguments really support the position and whether the evidence can be checked by the reader."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng5-purpose",
+              "question": "What is the purpose of an analytical exposition?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "To persuade readers to adopt the writer's position",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "To retell a sequence of past events"
+                },
+                {
+                  "id": "c",
+                  "text": "To describe a person's physical features"
+                }
+              ],
+              "explanation": "Analytical exposition menguraikan gagasan penulis tentang suatu isu dan meyakinkan pembaca agar mengambil posisi yang sama."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng5-parts",
+              "question": "Which set lists the parts of an analytical exposition in order?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Statement of position — arguments — reiteration",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Orientation — series of events — reorientation"
+                },
+                {
+                  "id": "c",
+                  "text": "Goal — materials — steps"
+                }
+              ],
+              "explanation": "Struktur analytical exposition adalah pernyataan posisi, argumen-argumen, lalu reiteration atau kesimpulan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Reading: Two Views on Graffiti",
+          "duration": 240,
+          "source_reference": "Bab 5 — Graffiti (halaman 109-115)",
+          "content": "## Expository Text 1: Why Should Graffiti be Considered Art?\n\nIn this article, I will explain why graffiti is art, and I will explain how graffiti is essential in our culture. There are some reasons why graffiti shows us the potential that life has to offer.\n\nFirst, graffiti enables the public to see something they may have never seen before. It connects them to the artist, and the artist gets to know that their work is loved and affects those who see it. They can take a simple old building or any piece of art on the side of a building and turn it into a masterpiece by putting their mark on it. The artists who paint graffiti have made this art form what it is today. Graffiti artists can change the meaning of what they are drawing to the public.\n\nSecond, graffiti has the power to affect people positively. The people who create it are expressing themselves. They are expressing their artistic abilities and their voices through a canvas. Their voices are the voices of our future. You can tell the quality of a person's painting by the audience that they are drawing. People will stand and watch you paint for hours. Many times, they will stand and look, never once moving from their spots. People will then tell you how much they like it and share their thoughts and opinions. The artists are no longer making art for themselves.\n\nThe last reason why graffiti is an art is because of its uniqueness. Graffiti can be made with many different materials, but its most common form is made by applying paint to a building's wall. Graffiti is made by someone utterly other than the artist, which means no two pieces are the same. Graffiti is a form of expression because it gives the reader or viewer the chance to see something different from their everyday life. Graffiti art is not meant to be understood by everyone, but everyone is meant to be appreciated.\n\nThus, as part of the existing society, every person must strive to educate themselves of the origins of graffiti and how it has evolved to this very day. A stock of knowledge doesn't hurt; instead, it is a door that leads to understanding and more positivity.\n\nAdapted from: https://theartbay.com/why-should-graffiti-be-considered-art/ (Retrieved March 5, 2022)\n\n## Expository Text 2: Graffiti is Always Vandalism\n\nAnyone who glorifies graffiti needs to answer one question: If your home were tagged during the night without your consent, would you welcome the new addition to your décor or would you immediately call a painter, if not the police?\n\nFirst of all, graffiti is something that one celebrates, if one is juvenile enough to do so, when it shows up on someone else's property but never on one's own. No institution that has celebrated graffiti in recent years — like the Museum of Contemporary Art in Los Angeles or the Museum of the City of New York — would allow its own premises to be defaced for even one minute.\n\nNext, the question \\\"When does graffiti become art?\\\" is meaningless. Graffiti is always vandalism. By definition, it is committed without permission on another person's property, in an adolescent display of entitlement. Whether particular viewers find any given piece of graffiti artistically compelling is irrelevant. Graffiti's most salient characteristic is that it is a crime.\n\nFurthermore, John Lindsay, the progressive New York politician who served as mayor from 1966 to 1973, declared war on graffiti in 1972. He understood that graffiti signaled that informal social controls and law enforcement had broken down in New York's public spaces, making them vulnerable to even greater levels of disorder and law-breaking. A 2008 study from the Netherlands has shown that physical disorder and vandalism have a contagious effect, confirming the \\\"broken windows theory.\\\"\n\nIn conclusion, there is nothing \\\"progressive\\\" about allowing public amenities to be defaced by graffiti; anyone who can avoid a graffiti-bombed park or commercial thoroughfare will do so, since tagging shows that an area is dominated by vandals who may be involved in other crimes as well.\n\nAdapted from: https://www.nytimes.com/roomfordebate/2014/07/11/when-does-graffiti-become-art/graffiti-is-always-vandalism (Retrieved March 6, 2022)\n\n### Which text says it?\n\n### Compare the two texts\n\n| Aspect | Expository Text 1 | Expository Text 2 |\n|---|---|---|\n| What is the author claiming? | Graffiti is art and is essential in our culture. | Graffiti is always vandalism. |\n| What reasons support the claim? | It shows the public something new, affects people positively, and is unique. | It is done without consent, is celebrated only on other people's property, and signals social disorder. |\n| What evidence is included? | Artists turn old buildings into masterpieces; audiences watch for hours; no two pieces are the same. | Museums protect their own premises; John Lindsay declared war on graffiti; a 2008 Dutch study on disorder. |\n| What is the closing? | People must educate themselves about the origins of graffiti. | Nothing progressive about defacing public amenities; tagging signals vandals and other crimes. |",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Vandalism",
+                  "definition": "Deliberate damage to public or private property."
+                },
+                {
+                  "term": "Consent",
+                  "definition": "Permission for something to happen."
+                },
+                {
+                  "term": "Deface",
+                  "definition": "To spoil the surface or appearance of something."
+                },
+                {
+                  "term": "Premises",
+                  "definition": "The building and land that belong to a person or organisation."
+                },
+                {
+                  "term": "Salient",
+                  "definition": "Most noticeable or most important."
+                },
+                {
+                  "term": "Thoroughfare",
+                  "definition": "A road or path that people travel through."
+                },
+                {
+                  "term": "Broken windows theory",
+                  "definition": "The idea that visible disorder invites more disorder and crime."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Expository Text 1: Why Should Graffiti be Considered Art?"
+            },
+            {
+              "type": "paragraph",
+              "text": "In this article, I will explain why graffiti is art, and I will explain how graffiti is essential in our culture. There are some reasons why graffiti shows us the potential that life has to offer."
+            },
+            {
+              "type": "paragraph",
+              "text": "First, graffiti enables the public to see something they may have never seen before. It connects them to the artist, and the artist gets to know that their work is loved and affects those who see it. They can take a simple old building or any piece of art on the side of a building and turn it into a masterpiece by putting their mark on it. The artists who paint graffiti have made this art form what it is today. Graffiti artists can change the meaning of what they are drawing to the public."
+            },
+            {
+              "type": "paragraph",
+              "text": "Second, graffiti has the power to affect people positively. The people who create it are expressing themselves. They are expressing their artistic abilities and their voices through a canvas. Their voices are the voices of our future. You can tell the quality of a person's painting by the audience that they are drawing. People will stand and watch you paint for hours. Many times, they will stand and look, never once moving from their spots. People will then tell you how much they like it and share their thoughts and opinions. The artists are no longer making art for themselves."
+            },
+            {
+              "type": "paragraph",
+              "text": "The last reason why graffiti is an art is because of its uniqueness. Graffiti can be made with many different materials, but its most common form is made by applying paint to a building's wall. Graffiti is made by someone utterly other than the artist, which means no two pieces are the same. Graffiti is a form of expression because it gives the reader or viewer the chance to see something different from their everyday life. Graffiti art is not meant to be understood by everyone, but everyone is meant to be appreciated."
+            },
+            {
+              "type": "paragraph",
+              "text": "Thus, as part of the existing society, every person must strive to educate themselves of the origins of graffiti and how it has evolved to this very day. A stock of knowledge doesn't hurt; instead, it is a door that leads to understanding and more positivity."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Adapted from: https://theartbay.com/why-should-graffiti-be-considered-art/ (Retrieved March 5, 2022)"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Expository Text 2: Graffiti is Always Vandalism"
+            },
+            {
+              "type": "paragraph",
+              "text": "Anyone who glorifies graffiti needs to answer one question: If your home were tagged during the night without your consent, would you welcome the new addition to your décor or would you immediately call a painter, if not the police?"
+            },
+            {
+              "type": "paragraph",
+              "text": "First of all, graffiti is something that one celebrates, if one is juvenile enough to do so, when it shows up on someone else's property but never on one's own. No institution that has celebrated graffiti in recent years — like the Museum of Contemporary Art in Los Angeles or the Museum of the City of New York — would allow its own premises to be defaced for even one minute."
+            },
+            {
+              "type": "paragraph",
+              "text": "Next, the question \\\"When does graffiti become art?\\\" is meaningless. Graffiti is always vandalism. By definition, it is committed without permission on another person's property, in an adolescent display of entitlement. Whether particular viewers find any given piece of graffiti artistically compelling is irrelevant. Graffiti's most salient characteristic is that it is a crime."
+            },
+            {
+              "type": "paragraph",
+              "text": "Furthermore, John Lindsay, the progressive New York politician who served as mayor from 1966 to 1973, declared war on graffiti in 1972. He understood that graffiti signaled that informal social controls and law enforcement had broken down in New York's public spaces, making them vulnerable to even greater levels of disorder and law-breaking. A 2008 study from the Netherlands has shown that physical disorder and vandalism have a contagious effect, confirming the \\\"broken windows theory.\\\""
+            },
+            {
+              "type": "paragraph",
+              "text": "In conclusion, there is nothing \\\"progressive\\\" about allowing public amenities to be defaced by graffiti; anyone who can avoid a graffiti-bombed park or commercial thoroughfare will do so, since tagging shows that an area is dominated by vandals who may be involved in other crimes as well."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Adapted from: https://www.nytimes.com/roomfordebate/2014/07/11/when-does-graffiti-become-art/graffiti-is-always-vandalism (Retrieved March 6, 2022)"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Which text says it?"
+            },
+            {
+              "type": "categorize",
+              "id": "cat-eng5-both-neither",
+              "prompt": "Decide whether each statement is found in Text 1, Text 2, both, or neither.",
+              "buckets": [
+                {
+                  "id": "text1",
+                  "label": "Text 1 only"
+                },
+                {
+                  "id": "text2",
+                  "label": "Text 2 only"
+                },
+                {
+                  "id": "both",
+                  "label": "Both texts"
+                },
+                {
+                  "id": "neither",
+                  "label": "Neither text"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Graffiti connects the public and the artist",
+                  "bucket": "text1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Graffiti is committed without permission on another person's property",
+                  "bucket": "text2"
+                },
+                {
+                  "id": "i3",
+                  "text": "No two pieces of graffiti are the same",
+                  "bucket": "text1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Physical disorder and vandalism have a contagious effect",
+                  "bucket": "text2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Everyone is meant to be appreciated",
+                  "bucket": "text1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Graffiti is celebrated by those who are juvenile",
+                  "bucket": "text2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Graffiti was invented in Indonesia",
+                  "bucket": "neither"
+                },
+                {
+                  "id": "i8",
+                  "text": "The Museum of Contemporary Art allows its own premises to be defaced",
+                  "bucket": "neither"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Setiap pernyataan dicocokkan dengan teks yang benar-benar membahasnya.",
+                "wrong": "Baca ulang kedua teks. Jika sebuah pernyataan bertentangan dengan isi teks, jawabannya neither, bukan text 1 atau text 2."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Compare the two texts"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspect",
+                  "Expository Text 1",
+                  "Expository Text 2"
+                ],
+                [
+                  "What is the author claiming?",
+                  "Graffiti is art and is essential in our culture.",
+                  "Graffiti is always vandalism."
+                ],
+                [
+                  "What reasons support the claim?",
+                  "It shows the public something new, affects people positively, and is unique.",
+                  "It is done without consent, is celebrated only on other people's property, and signals social disorder."
+                ],
+                [
+                  "What evidence is included?",
+                  "Artists turn old buildings into masterpieces; audiences watch for hours; no two pieces are the same.",
+                  "Museums protect their own premises; John Lindsay declared war on graffiti; a 2008 Dutch study on disorder."
+                ],
+                [
+                  "What is the closing?",
+                  "People must educate themselves about the origins of graffiti.",
+                  "Nothing progressive about defacing public amenities; tagging signals vandals and other crimes."
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng5-text1-reasons",
+              "question": "Which three reasons does Text 1 give for graffiti being art?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "It shows the public something new, affects people positively, and is unique",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "It is cheap, fast, and easy to remove"
+                },
+                {
+                  "id": "c",
+                  "text": "It is legal, profitable, and supported by museums"
+                }
+              ],
+              "explanation": "Teks 1 memakai kata first, second, dan the last reason untuk tiga alasan: hal baru bagi publik, dampak positif, dan keunikan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng5-vandalism-definition",
+              "question": "Why does Text 2 say graffiti is always vandalism?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Because it is committed without permission on another person's property",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Because it always uses spray paint"
+                },
+                {
+                  "id": "c",
+                  "text": "Because only young people make it"
+                }
+              ],
+              "explanation": "Teks 2 menyebut definisi: graffiti dilakukan tanpa izin di properti orang lain, sehingga menurut penulisnya selalu vandalisme."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng5-museum",
+              "question": "Why does Text 2 mention the Museum of Contemporary Art and the Museum of the City of New York?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "To show that institutions praising graffiti still protect their own premises",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "To prove that museums pay graffiti artists"
+                },
+                {
+                  "id": "c",
+                  "text": "To explain how to organise a graffiti exhibition"
+                }
+              ],
+              "explanation": "Teks 2 menyoroti kemunafikan: museum yang merayakan graffiti tidak akan membiarkan gedungnya sendiri dirusak."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng5-broken-windows",
+              "question": "What does the \\\"broken windows theory\\\" mean in Text 2?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Visible disorder invites more disorder and law-breaking",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Broken windows are more beautiful than graffiti"
+                },
+                {
+                  "id": "c",
+                  "text": "Graffiti artists should repair broken windows"
+                }
+              ],
+              "explanation": "Teori broken windows menyatakan bahwa kekacauan fisik yang dibiarkan memicu pelanggaran yang lebih besar."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Writing and Responding to Graffiti",
+          "duration": 240,
+          "source_reference": "Bab 5 — Graffiti (halaman 116-127)",
+          "content": "## Plan your expository text\n\nThink about your position regarding graffiti, then explain your stance. Consult the list of reasons you have collected: graffiti can decorate a community in some people's eyes, while others say graffiti makes an area look run-down. Write your draft in an expository writing organizer.\n\n| Part of the organizer | What to write |\n|---|---|\n| Introduction | An interesting opening statement and the main issue |\n| Argument 1 | One reason with facts or evidence |\n| Argument 2 | A second reason with facts or evidence |\n| Argument 3 | A third reason with facts or evidence |\n| Conclusion | A closing that restates the position and ties the details together |\n\n### Self and peer review checklist\n\n| Aspect | Question |\n|---|---|\n| Opening | Does my writing start with an interesting statement to attract readers' attention? |\n| Issue | Is the main issue at the beginning of the essay? |\n| Structure | Are there at least three parts: introduction, arguments, and conclusion? |\n| Evidence | Are facts provided to support the arguments? |\n| Word choice | Does the writing avoid repeating the same words over and over? |\n| Mechanics | Are capitalisation, punctuation, and spelling correct? |\n| Conclusion | Does the conclusion wrap the passage as a whole? |\n| Length | Does the writing consist of 200 to 250 words? |\n\nAfter revision, make the necessary changes based on your classmate's suggestions, turn in your work for a final review by your teacher, and publish it in the media of your choice.\n\n### Public survey project\n\nA group project can measure what the public thinks about graffiti. First, plan: pinpoint your target demographic, identify the number of respondents you need, and pick the right moment to conduct the survey. Second, create the survey and decide how it will be designed. Third, conduct it by sending the survey to the targeted respondents. Fourth, present the result in a short expository essay that talks about public opinion about graffiti, including the survey result as facts to support your arguments.\n\n- A good survey question is open-ended rather than a multiple choice.\n- The question is phrased without bias, so respondents are not pushed to one answer.\n- The survey is turned in on time and presented neatly.\n\n### Responding with PMI\n\nRecord the graffiti you can find in your neighbourhood with photographs: general views of the area and building, details of the graffiti and the surface condition, a scale such as a newspaper or water bottle, and any paint canisters or stencils left near the scene. Then respond to the graffiti in pairs using the Plus, Minus, Interesting (PMI) strategy to consider the question \\\"Is graffiti art or vandalism?\\\"\n\n- Words that may help: beautiful, expressive, eyesore, disturbing, destructive, costly.\n- Relate your response to the values of Profil Pelajar Pancasila.\n- If \\\"kreatif\\\" is chosen, graffiti may be seen mainly as art.\n- If civic responsibility is the main consideration, graffiti may be seen as vandalism.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Plan your expository text"
+            },
+            {
+              "type": "paragraph",
+              "text": "Think about your position regarding graffiti, then explain your stance. Consult the list of reasons you have collected: graffiti can decorate a community in some people's eyes, while others say graffiti makes an area look run-down. Write your draft in an expository writing organizer."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Part of the organizer",
+                  "What to write"
+                ],
+                [
+                  "Introduction",
+                  "An interesting opening statement and the main issue"
+                ],
+                [
+                  "Argument 1",
+                  "One reason with facts or evidence"
+                ],
+                [
+                  "Argument 2",
+                  "A second reason with facts or evidence"
+                ],
+                [
+                  "Argument 3",
+                  "A third reason with facts or evidence"
+                ],
+                [
+                  "Conclusion",
+                  "A closing that restates the position and ties the details together"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Self and peer review checklist"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspect",
+                  "Question"
+                ],
+                [
+                  "Opening",
+                  "Does my writing start with an interesting statement to attract readers' attention?"
+                ],
+                [
+                  "Issue",
+                  "Is the main issue at the beginning of the essay?"
+                ],
+                [
+                  "Structure",
+                  "Are there at least three parts: introduction, arguments, and conclusion?"
+                ],
+                [
+                  "Evidence",
+                  "Are facts provided to support the arguments?"
+                ],
+                [
+                  "Word choice",
+                  "Does the writing avoid repeating the same words over and over?"
+                ],
+                [
+                  "Mechanics",
+                  "Are capitalisation, punctuation, and spelling correct?"
+                ],
+                [
+                  "Conclusion",
+                  "Does the conclusion wrap the passage as a whole?"
+                ],
+                [
+                  "Length",
+                  "Does the writing consist of 200 to 250 words?"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "After revision, make the necessary changes based on your classmate's suggestions, turn in your work for a final review by your teacher, and publish it in the media of your choice."
+            },
+            {
+              "type": "sort",
+              "id": "srt-eng5-writing",
+              "prompt": "Put the writing process in the correct order.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Decide your position on graffiti"
+                },
+                {
+                  "id": "s2",
+                  "text": "List reasons and collect facts"
+                },
+                {
+                  "id": "s3",
+                  "text": "Complete the expository writing organizer"
+                },
+                {
+                  "id": "s4",
+                  "text": "Write the first draft"
+                },
+                {
+                  "id": "s5",
+                  "text": "Do a self and peer review"
+                },
+                {
+                  "id": "s6",
+                  "text": "Revise and publish"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5",
+                "s6"
+              ],
+              "feedback": {
+                "correct": "Urutan tepat: tentukan posisi, kumpulkan bukti, susun organizer, tulis, tinjau, lalu revisi.",
+                "wrong": "Ingat: bukti dikumpulkan sebelum menulis, dan publikasi dilakukan setelah revisi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Public survey project"
+            },
+            {
+              "type": "paragraph",
+              "text": "A group project can measure what the public thinks about graffiti. First, plan: pinpoint your target demographic, identify the number of respondents you need, and pick the right moment to conduct the survey. Second, create the survey and decide how it will be designed. Third, conduct it by sending the survey to the targeted respondents. Fourth, present the result in a short expository essay that talks about public opinion about graffiti, including the survey result as facts to support your arguments."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "A good survey question is open-ended rather than a multiple choice.",
+                "The question is phrased without bias, so respondents are not pushed to one answer.",
+                "The survey is turned in on time and presented neatly."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Responding with PMI"
+            },
+            {
+              "type": "paragraph",
+              "text": "Record the graffiti you can find in your neighbourhood with photographs: general views of the area and building, details of the graffiti and the surface condition, a scale such as a newspaper or water bottle, and any paint canisters or stencils left near the scene. Then respond to the graffiti in pairs using the Plus, Minus, Interesting (PMI) strategy to consider the question \\\"Is graffiti art or vandalism?\\\""
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Words that may help: beautiful, expressive, eyesore, disturbing, destructive, costly.",
+                "Relate your response to the values of Profil Pelajar Pancasila.",
+                "If \\\"kreatif\\\" is chosen, graffiti may be seen mainly as art.",
+                "If civic responsibility is the main consideration, graffiti may be seen as vandalism."
+              ]
+            },
+            {
+              "type": "scenario",
+              "id": "sc-eng5-survey",
+              "title": "Presenting a graffiti survey",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Your group has 40 survey answers. Half say graffiti is art, half say it is vandalism. A friend wants to report only the answers that support art. What do you do?",
+                  "choices": [
+                    {
+                      "text": "Report all answers and explain the split",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Data survei harus dilaporkan utuh, termasuk hasil yang tidak mendukung posisi penulis."
+                    },
+                    {
+                      "text": "Report only the answers that support art",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Memilih sebagian data membuat laporan bias dan tidak jujur."
+                    },
+                    {
+                      "text": "Add invented answers so the result is clear",
+                      "next": "n4",
+                      "score": 0,
+                      "feedback": "Mengarang data merusak keabsahan survei."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "The split result makes your argument weaker. How do you use it in the essay?",
+                  "choices": [
+                    {
+                      "text": "Acknowledge the split, then explain why your position still has stronger evidence",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Mengakui data yang berlawanan lalu menjawabnya dengan bukti membuat argumen lebih kuat."
+                    },
+                    {
+                      "text": "Hide the split from the reader",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menyembunyikan data yang tidak mendukung adalah bentuk bias."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Your teacher asks for the raw survey sheet. What happens?",
+                  "choices": [
+                    {
+                      "text": "You show the full data and admit the report was selective",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Mengakui kesalahan memulihkan kepercayaan, tetapi laporan harus diperbaiki."
+                    },
+                    {
+                      "text": "You say the missing answers were lost",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Berbohong tentang data menghilangkan kredibilitas."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "A respondent asks how the data will be used. What do you say?",
+                  "choices": [
+                    {
+                      "text": "Explain the purpose honestly and keep the answers anonymous",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Responden berhak tahu tujuan survei, dan anonimitas melindungi mereka."
+                    },
+                    {
+                      "text": "Say the data will be used for anything you like",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Menjawab tidak jujur melanggar etika penelitian."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "The essay reports the data honestly and answers the opposing view with evidence."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "The report is corrected, but the group loses time and trust."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "The survey loses credibility because the data was manipulated or hidden."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-eng5-vocab",
+              "title": "Vocabulary sprint: graffiti debate",
+              "time_limit": 75,
+              "items": [
+                {
+                  "question": "Deliberate damage to property is …",
+                  "answer": "vandalism"
+                },
+                {
+                  "question": "Permission for something to happen is …",
+                  "answer": "consent"
+                },
+                {
+                  "question": "A writer's signature with spray paint is a …",
+                  "answer": "tag"
+                },
+                {
+                  "question": "A large picture painted on a wall is a …",
+                  "answer": "mural"
+                },
+                {
+                  "question": "Most noticeable or most important is …",
+                  "answer": "salient"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Kosakata ini muncul di kedua teks ekspositori.",
+                "wrong": "Baca ulang Glossary, lalu pakai setiap kata dalam satu kalimat argumen."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng5-stronger-claim",
+              "question": "Which revision makes an argument stronger?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Adding a fact or survey result that supports the reason",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Repeating the claim in capital letters"
+                },
+                {
+                  "id": "c",
+                  "text": "Removing the conclusion"
+                }
+              ],
+              "explanation": "Argumen menjadi kuat bila didukung bukti yang dapat diperiksa, bukan dengan pengulangan atau huruf kapital."
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Graffiti — Mudah",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "An expository text conveys … about a topic.",
+              "options": [
+                {
+                  "text": "fact and opinion",
+                  "correct": true
+                },
+                {
+                  "text": "only imaginary events"
+                },
+                {
+                  "text": "only cooking steps"
+                },
+                {
+                  "text": "a writer's personal history"
+                }
+              ],
+              "explanation": "Teks ekspositori menyampaikan fakta dan opini tentang suatu topik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "One form of expository text is …",
+              "options": [
+                {
+                  "text": "analytical exposition",
+                  "correct": true
+                },
+                {
+                  "text": "personal recount"
+                },
+                {
+                  "text": "descriptive text"
+                },
+                {
+                  "text": "procedure text"
+                }
+              ],
+              "explanation": "Salah satu bentuk teks ekspositori adalah analytical exposition."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Analytical exposition aims to …",
+              "options": [
+                {
+                  "text": "persuade readers to adopt the writer's position",
+                  "correct": true
+                },
+                {
+                  "text": "tell a story in time order"
+                },
+                {
+                  "text": "give instructions for an activity"
+                },
+                {
+                  "text": "describe a place"
+                }
+              ],
+              "explanation": "Tujuan analytical exposition adalah meyakinkan pembaca agar mengambil posisi penulis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which part closes an analytical exposition?",
+              "options": [
+                {
+                  "text": "Reiteration or conclusion",
+                  "correct": true
+                },
+                {
+                  "text": "Statement of position"
+                },
+                {
+                  "text": "Materials"
+                },
+                {
+                  "text": "Orientation"
+                }
+              ],
+              "explanation": "Bagian penutup analytical exposition adalah reiteration atau conclusion."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A writer's signature painted with spray paint or marker is called a …",
+              "options": [
+                {
+                  "text": "tag",
+                  "correct": true
+                },
+                {
+                  "text": "mural"
+                },
+                {
+                  "text": "canvas"
+                },
+                {
+                  "text": "premises"
+                }
+              ],
+              "explanation": "Tag adalah tanda tangan penulis graffiti yang dibuat dengan cat semprot atau spidol."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Graffiti — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "\\\"Graffiti is always vandalism\\\" is the claim of …",
+              "options": [
+                {
+                  "text": "Expository Text 2",
+                  "correct": true
+                },
+                {
+                  "text": "Expository Text 1"
+                },
+                {
+                  "text": "both texts"
+                },
+                {
+                  "text": "neither text"
+                }
+              ],
+              "explanation": "Kalimat itu adalah pernyataan posisi Expository Text 2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does Text 2 mention two museums?",
+              "options": [
+                {
+                  "text": "To show that institutions praising graffiti protect their own premises",
+                  "correct": true
+                },
+                {
+                  "text": "To explain how museums buy graffiti"
+                },
+                {
+                  "text": "To prove that museums are illegal"
+                },
+                {
+                  "text": "To describe a museum's opening hours"
+                }
+              ],
+              "explanation": "Teks 2 menunjukkan bahwa museum yang merayakan graffiti pun tidak membiarkan gedungnya dirusak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The word \\\"salient\\\" in \\\"Graffiti's most salient characteristic is that it is a crime\\\" means …",
+              "options": [
+                {
+                  "text": "most noticeable or important",
+                  "correct": true
+                },
+                {
+                  "text": "least important"
+                },
+                {
+                  "text": "temporary"
+                },
+                {
+                  "text": "beautiful"
+                }
+              ],
+              "explanation": "Salient berarti paling menonjol atau paling penting."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did John Lindsay understand about graffiti?",
+              "options": [
+                {
+                  "text": "It signaled that social controls and law enforcement had broken down.",
+                  "correct": true
+                },
+                {
+                  "text": "It made New York more beautiful."
+                },
+                {
+                  "text": "It was a new form of advertising."
+                },
+                {
+                  "text": "It should be taught in schools."
+                }
+              ],
+              "explanation": "Menurut Teks 2, Lindsay melihat graffiti sebagai tanda melemahnya kontrol sosial dan penegakan hukum."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The 2008 study from the Netherlands supports the idea that …",
+              "options": [
+                {
+                  "text": "disorder and vandalism have a contagious effect",
+                  "correct": true
+                },
+                {
+                  "text": "graffiti artists earn high incomes"
+                },
+                {
+                  "text": "museums should display graffiti"
+                },
+                {
+                  "text": "tagging is a form of advertising"
+                }
+              ],
+              "explanation": "Studi 2008 itu dikutip untuk mengonfirmasi broken windows theory: kekacauan fisik menular."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which is the last reason Text 1 gives for graffiti being art?",
+              "options": [
+                {
+                  "text": "Its uniqueness",
+                  "correct": true
+                },
+                {
+                  "text": "Its low cost"
+                },
+                {
+                  "text": "Its legality"
+                },
+                {
+                  "text": "Its popularity among museums"
+                }
+              ],
+              "explanation": "Teks 1 menyebut \\\"the last reason … is because of its uniqueness\\\"."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "\\\"Graffiti art is not meant to be understood by everyone, but everyone is meant to be appreciated.\\\" This suggests that …",
+              "options": [
+                {
+                  "text": "graffiti does not need universal understanding to be valued",
+                  "correct": true
+                },
+                {
+                  "text": "graffiti must be understood by every viewer"
+                },
+                {
+                  "text": "graffiti should be removed from public view"
+                },
+                {
+                  "text": "graffiti is made only for museums"
+                }
+              ],
+              "explanation": "Penulis Teks 1 menerima bahwa tidak semua orang memahami graffiti, tetapi ia tetap layak dihargai."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which statements appear in Expository Text 1? Choose all that apply.",
+              "options": [
+                {
+                  "text": "Graffiti connects the public to the artist.",
+                  "correct": true
+                },
+                {
+                  "text": "Graffiti has the power to affect people positively.",
+                  "correct": true
+                },
+                {
+                  "text": "No two pieces of graffiti are the same.",
+                  "correct": true
+                },
+                {
+                  "text": "Graffiti is always vandalism.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga pernyataan pertama berasal dari Teks 1; pernyataan terakhir adalah posisi Teks 2."
+            },
+            {
+              "type": "matching",
+              "question": "Match each word with its meaning.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "vandalism"
+                },
+                {
+                  "id": "o1",
+                  "text": "consent"
+                },
+                {
+                  "id": "o2",
+                  "text": "deface"
+                },
+                {
+                  "id": "o3",
+                  "text": "thoroughfare"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "deliberate damage to property",
+                  "o1": "permission for something to happen",
+                  "o2": "to spoil the surface or appearance",
+                  "o3": "a road or path people travel through"
+                }
+              },
+              "explanation": "Keempat kata muncul dalam Teks 2 dan membentuk kosakata kunci debat tentang graffiti."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Put the parts of an analytical exposition in the correct order.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Statement of position"
+                },
+                {
+                  "id": "o1",
+                  "text": "Argument 1"
+                },
+                {
+                  "id": "o2",
+                  "text": "Argument 2"
+                },
+                {
+                  "id": "o3",
+                  "text": "Reiteration or conclusion"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Posisi dibuka lebih dulu, diikuti argumen, lalu ditutup dengan reiteration."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Graffiti — Sulit",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of Expository Text 1?",
+              "options": [
+                {
+                  "text": "To persuade readers that graffiti is art and is essential in culture",
+                  "correct": true
+                },
+                {
+                  "text": "To explain how to paint a mural"
+                },
+                {
+                  "text": "To retell the writer's experience of seeing graffiti"
+                },
+                {
+                  "text": "To describe the history of the Museum of Contemporary Art"
+                }
+              ],
+              "explanation": "Teks 1 menyatakan posisi bahwa graffiti adalah seni, lalu memberi tiga alasan untuk meyakinkan pembaca."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does Text 1 develop its arguments?",
+              "options": [
+                {
+                  "text": "It gives three reasons in order and then restates its position.",
+                  "correct": true
+                },
+                {
+                  "text": "It tells a story from beginning to end."
+                },
+                {
+                  "text": "It lists steps for making graffiti."
+                },
+                {
+                  "text": "It compares two museums and chooses one."
+                }
+              ],
+              "explanation": "Teks 1 memakai first, second, dan the last reason, lalu menutup dengan simpulan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What rhetorical device opens Expository Text 2?",
+              "options": [
+                {
+                  "text": "A question that makes readers imagine their own home being tagged",
+                  "correct": true
+                },
+                {
+                  "text": "A statistical table about vandalism"
+                },
+                {
+                  "text": "A quotation from a graffiti artist"
+                },
+                {
+                  "text": "A personal story about school"
+                }
+              ],
+              "explanation": "Teks 2 dibuka dengan pertanyaan retoris tentang rumah pembaca yang ditagari tanpa izin."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can you infer from \\\"would you welcome the new addition to your décor or would you immediately call a painter, if not the police?\\\"",
+              "options": [
+                {
+                  "text": "People who praise graffiti would not accept it on their own property.",
+                  "correct": true
+                },
+                {
+                  "text": "Painting a house is illegal."
+                },
+                {
+                  "text": "Graffiti always improves a home's decoration."
+                },
+                {
+                  "text": "The police encourage graffiti."
+                }
+              ],
+              "explanation": "Pertanyaan itu menyiratkan kemunafikan: orang yang memuji graffiti tidak ingin propertinya sendiri ditagari."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Text 2 imply about viewers who find a piece of graffiti artistically compelling?",
+              "options": [
+                {
+                  "text": "Their aesthetic judgement does not change its legal status.",
+                  "correct": true
+                },
+                {
+                  "text": "Their opinion makes the graffiti legal."
+                },
+                {
+                  "text": "They should be arrested."
+                },
+                {
+                  "text": "They own the artwork."
+                }
+              ],
+              "explanation": "Teks 2 menyatakan penilaian estetis pengamat \\\"is irrelevant\\\" karena statusnya tetap pelanggaran hukum."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which statement from Text 1 is an opinion rather than a verifiable fact?",
+              "options": [
+                {
+                  "text": "Graffiti has the power to affect people positively.",
+                  "correct": true
+                },
+                {
+                  "text": "John Lindsay served as mayor from 1966 to 1973."
+                },
+                {
+                  "text": "A 2008 study came from the Netherlands."
+                },
+                {
+                  "text": "Graffiti is often made by applying paint to a building's wall."
+                }
+              ],
+              "explanation": "\\\"Has the power to affect people positively\\\" adalah penilaian penulis, bukan data yang dapat diperiksa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does \\\"A stock of knowledge doesn't hurt\\\" mean in Text 1's closing?",
+              "options": [
+                {
+                  "text": "Learning about graffiti's origins leads to understanding and positivity.",
+                  "correct": true
+                },
+                {
+                  "text": "Knowledge makes people physically stronger."
+                },
+                {
+                  "text": "Graffiti should be taught only to artists."
+                },
+                {
+                  "text": "Knowledge about graffiti is useless."
+                }
+              ],
+              "explanation": "Kalimat itu berarti pengetahuan tambahan tidak merugikan, tetapi membuka jalan menuju pemahaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does Text 2 call the question \\\"When does graffiti become art?\\\" meaningless?",
+              "options": [
+                {
+                  "text": "Because by definition graffiti is committed without permission, so it is always vandalism.",
+                  "correct": true
+                },
+                {
+                  "text": "Because no one has ever asked it before."
+                },
+                {
+                  "text": "Because museums refuse to answer it."
+                },
+                {
+                  "text": "Because art cannot be discussed."
+                }
+              ],
+              "explanation": "Bagi penulis Teks 2, definisi graffiti sudah mengandung unsur tanpa izin, sehingga pertanyaan itu tidak relevan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of \\\"First\\\", \\\"Second\\\", and \\\"The last reason\\\" in Text 1?",
+              "options": [
+                {
+                  "text": "To organise the arguments so readers can follow them",
+                  "correct": true
+                },
+                {
+                  "text": "To show the events happened in the past"
+                },
+                {
+                  "text": "To give instructions to the reader"
+                },
+                {
+                  "text": "To quote another writer"
+                }
+              ],
+              "explanation": "Penanda urutan membantu pembaca mengikuti rangkaian argumen secara sistematis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which evidence does Text 2 use to support its position?",
+              "options": [
+                {
+                  "text": "Museum practice, John Lindsay's policy, and a 2008 Dutch study",
+                  "correct": true
+                },
+                {
+                  "text": "A survey of Indonesian students"
+                },
+                {
+                  "text": "The writer's own graffiti photographs"
+                },
+                {
+                  "text": "A interview with a graffiti artist"
+                }
+              ],
+              "explanation": "Teks 2 menguatkan argumennya dengan praktik museum, kebijakan Lindsay, dan studi Belanda 2008."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does \\\"contagious effect\\\" imply in Text 2?",
+              "options": [
+                {
+                  "text": "Visible disorder spreads and invites more law-breaking.",
+                  "correct": true
+                },
+                {
+                  "text": "Graffiti causes a physical disease."
+                },
+                {
+                  "text": "Vandalism is limited to one building."
+                },
+                {
+                  "text": "Disorder disappears without action."
+                }
+              ],
+              "explanation": "Menular berarti kekacauan yang dibiarkan cenderung menular ke pelanggaran lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do the two texts differ in their closing?",
+              "options": [
+                {
+                  "text": "Text 1 calls readers to educate themselves; Text 2 concludes that graffiti defaces public amenities.",
+                  "correct": true
+                },
+                {
+                  "text": "Text 1 asks readers to call the police; Text 2 invites readers to paint."
+                },
+                {
+                  "text": "Both texts close with survey data."
+                },
+                {
+                  "text": "Both texts close by describing a museum."
+                }
+              ],
+              "explanation": "Teks 1 menutup dengan ajakan belajar tentang asal-usul graffiti; Teks 2 menutup dengan simpulan bahwa graffiti merusak fasilitas publik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A classmate writes, \\\"Graffiti is bad because I do not like it.\\\" What is the best revision for an analytical exposition?",
+              "options": [
+                {
+                  "text": "Replace the personal dislike with a reason and evidence, such as the cost of cleaning public property.",
+                  "correct": true
+                },
+                {
+                  "text": "Repeat \\\"I do not like it\\\" three times for emphasis."
+                },
+                {
+                  "text": "Add more adjectives without any facts."
+                },
+                {
+                  "text": "Delete the conclusion and keep the opinion."
+                }
+              ],
+              "explanation": "Analytical exposition membutuhkan alasan dan bukti yang dapat diperiksa, bukan sekadar selera pribadi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which are features of an analytical exposition? Choose all that apply.",
+              "options": [
+                {
+                  "text": "A statement of position",
+                  "correct": true
+                },
+                {
+                  "text": "Arguments supported by evidence",
+                  "correct": true
+                },
+                {
+                  "text": "A reiteration or conclusion",
+                  "correct": true
+                },
+                {
+                  "text": "A series of past events told in time order",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga ciri pertama adalah struktur analytical exposition; rangkaian peristiwa masa lalu milik recount."
+            },
+            {
+              "type": "puzzle",
+              "question": "Arrange the process of writing an expository text about graffiti.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Decide your position on graffiti"
+                },
+                {
+                  "id": "s1",
+                  "text": "List reasons and collect facts"
+                },
+                {
+                  "id": "s2",
+                  "text": "Complete the writing organizer"
+                },
+                {
+                  "id": "s3",
+                  "text": "Write the draft and do a review"
+                },
+                {
+                  "id": "s4",
+                  "text": "Revise and publish"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Posisi → alasan dan bukti → organizer → draft dan tinjauan → revisi dan publikasi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

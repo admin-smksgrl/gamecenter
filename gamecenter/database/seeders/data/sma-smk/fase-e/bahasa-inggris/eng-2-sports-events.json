@@ -1,0 +1,1361 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-inggris",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ENG 2",
+      "title": "Sports Events",
+      "description": "Membaca dan menulis personal recount tentang peristiwa olahraga: mengenali orientasi, rangkaian peristiwa, dan reorientasi, serta menyajikan pengalaman menonton dengan detail pancaindra.",
+      "learning_objectives": [
+        "Identify context, main ideas and detailed information from an oral and verbal recount text presented in multimodal form about sports events.",
+        "Communicate simple ideas and opinions in various discussions, collaborative activities and presentations orally to tell about a sports event.",
+        "Write a recount text about a sports event with an appropriate structure of organization and linguistic features and present it."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Buku Bahasa Inggris Work in Progress untuk SMA/SMK/MA Kelas X, Bab 2 — Sports Events",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Personal Recount Text",
+          "duration": 240,
+          "source_reference": "Bab 2 — Sports Events (halaman 30-36)",
+          "content": "## What is a personal recount?\n\nPersonal recount text is one type of recount text in addition to factual, autobiographical, biographical, literary, and historical recount. It retells the writer's past experiences with the aim to either inform or to entertain the audience. It often consists of orientation, series of events, and reorientation.\n\n### Structure\n\n| Part | Function | Example from Andi's text |\n|---|---|---|\n| Orientation | Introduces the event and the writer's relation to it | The sporting event that I would like to talk about was a national club football tournament. |\n| Series of events | Retells what happened in time order | The game continued scoreless until half time, then my team scored. |\n| Reorientation | Gives the writer's comment or feeling | I consider this match to be interesting because we never know which team is going to win. |\n\n### Language features\n\n- The past tense retells completed events: took place, started, scored, was.\n- The first person is used because the writer tells a personal experience: I, my, we.\n- Time connectives show the order: when, then, while, in the meantime, finally.\n- Action verbs describe what happened: screamed, jumped, scored, passed.\n- Adjectives and sensory details help the reader imagine the event.\n\nA recount answers the reader's questions: what happened, when, where, who was involved, and how the writer felt about it.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Personal recount",
+                  "definition": "A text that retells the writer's past experiences in order to inform or entertain the audience."
+                },
+                {
+                  "term": "Orientation",
+                  "definition": "The opening part that introduces what happened, when, where, and who was involved."
+                },
+                {
+                  "term": "Series of events",
+                  "definition": "The main part that retells the events in the order they happened."
+                },
+                {
+                  "term": "Reorientation",
+                  "definition": "The closing part that gives a comment, feeling, or conclusion about the experience."
+                },
+                {
+                  "term": "Sensory detail",
+                  "definition": "A detail that appeals to the five senses: sight, hearing, smell, touch, and taste."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "What is a personal recount?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Personal recount text is one type of recount text in addition to factual, autobiographical, biographical, literary, and historical recount. It retells the writer's past experiences with the aim to either inform or to entertain the audience. It often consists of orientation, series of events, and reorientation."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-eng2-structure",
+              "engine": "mermaid",
+              "title": "Structure of a personal recount",
+              "code": "flowchart TD\n  A[Orientation: what, when, where, who] --> B[Series of events: first, next, then, finally]\n  B --> C[Reorientation: comment or feeling about the experience]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Structure"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Part",
+                  "Function",
+                  "Example from Andi's text"
+                ],
+                [
+                  "Orientation",
+                  "Introduces the event and the writer's relation to it",
+                  "The sporting event that I would like to talk about was a national club football tournament."
+                ],
+                [
+                  "Series of events",
+                  "Retells what happened in time order",
+                  "The game continued scoreless until half time, then my team scored."
+                ],
+                [
+                  "Reorientation",
+                  "Gives the writer's comment or feeling",
+                  "I consider this match to be interesting because we never know which team is going to win."
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Language features"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "The past tense retells completed events: took place, started, scored, was.",
+                "The first person is used because the writer tells a personal experience: I, my, we.",
+                "Time connectives show the order: when, then, while, in the meantime, finally.",
+                "Action verbs describe what happened: screamed, jumped, scored, passed.",
+                "Adjectives and sensory details help the reader imagine the event."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "A recount answers the reader's questions: what happened, when, where, who was involved, and how the writer felt about it."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng2-purpose",
+              "question": "What is the purpose of a personal recount?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "To retell the writer's past experience",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "To describe a person's physical features"
+                },
+                {
+                  "id": "c",
+                  "text": "To explain how a machine works"
+                }
+              ],
+              "explanation": "Personal recount menceritakan kembali pengalaman pribadi di masa lalu untuk memberi informasi atau menghibur."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng2-orientation",
+              "question": "Which part of a recount introduces what, when, where, and who?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Orientation",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Reorientation"
+                },
+                {
+                  "id": "c",
+                  "text": "Series of events"
+                }
+              ],
+              "explanation": "Orientation membuka teks dengan latar peristiwa: apa, kapan, di mana, dan siapa yang terlibat."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Reading: Watching a Football Match",
+          "duration": 240,
+          "source_reference": "Bab 2 — Sports Events (halaman 34-37)",
+          "content": "## Andi's recount\n\nI like football, whether it is played between two international teams or local teams, as long as the teams give their best on the field. The sporting event that I would like to talk about was a national club football tournament in my country that takes place every year.\n\nAnyway, the football match took place about 5 years ago, when two of the best football clubs of my country played against each other in a final match of the national football tournament. The two arch-rival teams had already clashed against each other in the past, and their number of wins was pretty much the same throughout the history of their clash, especially in this tournament. So, essentially, nobody really knew which team was favorite to win the final.\n\nBut when the game actually started, all the supporters of both the teams were screaming and encouraging their respective teams as if they were bound to win. As a supporter, I also wanted my team to win at all costs. Anyway, both teams were playing very \"rough and tough\" football that led to some unwanted \"fouls\" and some unfortunate \"fistfights\".\n\nThe game continued scoreless up until the half time interval, but as the second half of the game started, the intensity of the game increased. In the meantime, I was getting nervous in the stadium because my team wasn't exactly playing up to our expectations. In fact, my team was lucky to survive a few scoring chances from the opponent team. Then, suddenly, the ball was passed to the main \"striker\" of my favorite team from nowhere, and a goal was scored by my team, leaving the supporters of my team completely ecstatic and crazy with the feeling of a possible victory. And, in the end, we were indeed the victorious team.\n\nAnyway, I consider this match to be interesting because we never know which team is going to win. Besides, I consider this match exciting also because it attracts supporters from all over my country. Finally, it is also interesting because no other sporting event makes us as emotional as this one.\n\nAdapted from: https://www.ielts-mentor.com/cue-card-sample/629-describe-a-sporting-event-you-attended — Retrieved: February 7, 2022.\n\n### Which part is which?",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Took place",
+                  "definition": "Happened; was held."
+                },
+                {
+                  "term": "Clashed",
+                  "definition": "Competed or fought against each other."
+                },
+                {
+                  "term": "Scoreless",
+                  "definition": "With no goal scored by either team."
+                },
+                {
+                  "term": "Opponent",
+                  "definition": "The other team or player in a match."
+                },
+                {
+                  "term": "Foul",
+                  "definition": "An action that breaks the rules of the game."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Andi's recount"
+            },
+            {
+              "type": "paragraph",
+              "text": "I like football, whether it is played between two international teams or local teams, as long as the teams give their best on the field. The sporting event that I would like to talk about was a national club football tournament in my country that takes place every year."
+            },
+            {
+              "type": "paragraph",
+              "text": "Anyway, the football match took place about 5 years ago, when two of the best football clubs of my country played against each other in a final match of the national football tournament. The two arch-rival teams had already clashed against each other in the past, and their number of wins was pretty much the same throughout the history of their clash, especially in this tournament. So, essentially, nobody really knew which team was favorite to win the final."
+            },
+            {
+              "type": "paragraph",
+              "text": "But when the game actually started, all the supporters of both the teams were screaming and encouraging their respective teams as if they were bound to win. As a supporter, I also wanted my team to win at all costs. Anyway, both teams were playing very \"rough and tough\" football that led to some unwanted \"fouls\" and some unfortunate \"fistfights\"."
+            },
+            {
+              "type": "paragraph",
+              "text": "The game continued scoreless up until the half time interval, but as the second half of the game started, the intensity of the game increased. In the meantime, I was getting nervous in the stadium because my team wasn't exactly playing up to our expectations. In fact, my team was lucky to survive a few scoring chances from the opponent team. Then, suddenly, the ball was passed to the main \"striker\" of my favorite team from nowhere, and a goal was scored by my team, leaving the supporters of my team completely ecstatic and crazy with the feeling of a possible victory. And, in the end, we were indeed the victorious team."
+            },
+            {
+              "type": "paragraph",
+              "text": "Anyway, I consider this match to be interesting because we never know which team is going to win. Besides, I consider this match exciting also because it attracts supporters from all over my country. Finally, it is also interesting because no other sporting event makes us as emotional as this one."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Adapted from: https://www.ielts-mentor.com/cue-card-sample/629-describe-a-sporting-event-you-attended — Retrieved: February 7, 2022."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Which part is which?"
+            },
+            {
+              "type": "categorize",
+              "id": "cat-eng2-parts",
+              "prompt": "Group each sentence by its part in the recount.",
+              "buckets": [
+                {
+                  "id": "orientation",
+                  "label": "Orientation"
+                },
+                {
+                  "id": "events",
+                  "label": "Series of events"
+                },
+                {
+                  "id": "reorientation",
+                  "label": "Reorientation"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "The sporting event that I would like to talk about was a national club football tournament.",
+                  "bucket": "orientation"
+                },
+                {
+                  "id": "i2",
+                  "text": "The game continued scoreless up until the half time interval.",
+                  "bucket": "events"
+                },
+                {
+                  "id": "i3",
+                  "text": "I consider this match to be interesting because we never know which team is going to win.",
+                  "bucket": "reorientation"
+                },
+                {
+                  "id": "i4",
+                  "text": "All the supporters of both teams were screaming and encouraging their teams.",
+                  "bucket": "events"
+                },
+                {
+                  "id": "i5",
+                  "text": "No other sporting event makes us as emotional as this one.",
+                  "bucket": "reorientation"
+                },
+                {
+                  "id": "i6",
+                  "text": "The match took place about 5 years ago.",
+                  "bucket": "orientation"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Orientasi membuka latar, rangkaian peristiwa menceritakan kejadian, reorientasi menutup dengan komentar.",
+                "wrong": "Periksa lagi: kalimat yang memberi latar = orientasi, yang menceritakan kejadian = events, yang berisi pendapat penulis = reorientasi."
+              }
+            },
+            {
+              "type": "sort",
+              "id": "srt-eng2-paragraphs",
+              "prompt": "Arrange the paragraphs of Andi's recount into the correct order.",
+              "items": [
+                {
+                  "id": "p1",
+                  "text": "I like football… the event was a national club football tournament."
+                },
+                {
+                  "id": "p2",
+                  "text": "The match took place about 5 years ago… nobody knew the favorite."
+                },
+                {
+                  "id": "p3",
+                  "text": "When the game started, supporters were screaming… rough and tough football."
+                },
+                {
+                  "id": "p4",
+                  "text": "The game continued scoreless… in the end, we were victorious."
+                },
+                {
+                  "id": "p5",
+                  "text": "I consider this match interesting because we never know which team will win."
+                }
+              ],
+              "answer": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p5"
+              ],
+              "feedback": {
+                "correct": "Urutan tepat: orientasi, latar pertandingan, jalannya pertandingan, puncak, lalu reorientasi.",
+                "wrong": "Mulai dari kalimat yang memperkenalkan peristiwa, lalu ikuti urutan waktu pertandingan."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng2-unpredictable",
+              "question": "Why did nobody know which team was favourite to win?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "The two teams had a similar number of wins in their history.",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "One team had never played before."
+                },
+                {
+                  "id": "c",
+                  "text": "The match was cancelled."
+                }
+              ],
+              "explanation": "Teks menyebut jumlah kemenangan kedua tim hampir sama, sehingga tidak ada favorit yang jelas."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng2-nervous",
+              "question": "How did the writer feel when his team was not playing well?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Nervous",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Bored"
+                },
+                {
+                  "id": "c",
+                  "text": "Angry at the opponent's supporters"
+                }
+              ],
+              "explanation": "Penulis mengatakan \"I was getting nervous in the stadium\" karena timnya tidak bermain sesuai harapan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng2-senses",
+              "question": "Which detail appeals to the sense of hearing?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "The supporters were screaming and encouraging their teams.",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "The hotdog was a bit chewy."
+                },
+                {
+                  "id": "c",
+                  "text": "The ball was passed to the striker."
+                }
+              ],
+              "explanation": "Sorakan penonton adalah bunyi, sehingga detail itu menyentuh indra pendengaran."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Writing a Sports Event Recount",
+          "duration": 240,
+          "source_reference": "Bab 2 — Sports Events (halaman 38-49)",
+          "content": "## From notes to a recount\n\nBefore writing, collect notes about the event. Answer these questions: What sports event did you attend? When was it? Where did you watch it? Who did you watch it with? What happened first, next, and then? How did you feel about the event? What did you see and hear?\n\n### Use your five senses\n\n| Sense | Question to answer | Example detail |\n|---|---|---|\n| See | What did you see? | The striker scored in the final minutes. |\n| Hear | What did you hear? | The supporters were screaming. |\n| Smell | What could you smell? | The smell of grilled sausages. |\n| Touch | What did you touch or feel? | The stadium seat felt cold. |\n| Taste | What did you taste? | The hotdog tasted really good. |\n\n### Peer review checklist\n\n| Aspect | Question |\n|---|---|\n| Title | Is a title provided? |\n| Organisation | Does each paragraph have only one topic? |\n| Introduction | Does the first paragraph introduce the sports event? |\n| Content | Do the other paragraphs cover location, companion, and sensory details? |\n| Word choice | Are vivid adjectives used to draw pictures in the reader's mind? |\n| Length | Is the text between 100 and 200 words? |\n| Multimodal | Has the text used another mode, for example pictures? |\n\n### Planning a sports event\n\nA sports event proposal needs clear goals, a suitable venue, and a realistic budget. Check the venue's accessibility (parking and public transport), capacity (participants, team, and supporters), and available equipment (toilets, fields, audience space). The budget may come from grants, sponsors, or ticket sales. Present the plan with text, tables, and images.\n\n- Goals: why the event is held, how many participants, and which values are promoted.\n- Venue: accessibility, capacity, and equipment.\n- Budget: grants, financial support from sponsors, and income from ticket sales.\n- Presentation: use charts, graphs, and documents to inform the audience.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "From notes to a recount"
+            },
+            {
+              "type": "paragraph",
+              "text": "Before writing, collect notes about the event. Answer these questions: What sports event did you attend? When was it? Where did you watch it? Who did you watch it with? What happened first, next, and then? How did you feel about the event? What did you see and hear?"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Use your five senses"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Sense",
+                  "Question to answer",
+                  "Example detail"
+                ],
+                [
+                  "See",
+                  "What did you see?",
+                  "The striker scored in the final minutes."
+                ],
+                [
+                  "Hear",
+                  "What did you hear?",
+                  "The supporters were screaming."
+                ],
+                [
+                  "Smell",
+                  "What could you smell?",
+                  "The smell of grilled sausages."
+                ],
+                [
+                  "Touch",
+                  "What did you touch or feel?",
+                  "The stadium seat felt cold."
+                ],
+                [
+                  "Taste",
+                  "What did you taste?",
+                  "The hotdog tasted really good."
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Peer review checklist"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspect",
+                  "Question"
+                ],
+                [
+                  "Title",
+                  "Is a title provided?"
+                ],
+                [
+                  "Organisation",
+                  "Does each paragraph have only one topic?"
+                ],
+                [
+                  "Introduction",
+                  "Does the first paragraph introduce the sports event?"
+                ],
+                [
+                  "Content",
+                  "Do the other paragraphs cover location, companion, and sensory details?"
+                ],
+                [
+                  "Word choice",
+                  "Are vivid adjectives used to draw pictures in the reader's mind?"
+                ],
+                [
+                  "Length",
+                  "Is the text between 100 and 200 words?"
+                ],
+                [
+                  "Multimodal",
+                  "Has the text used another mode, for example pictures?"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng2-first-paragraph",
+              "question": "What should the first paragraph of a recount do?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Introduce the sports event that is talked about",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "List the final score and all statistics"
+                },
+                {
+                  "id": "c",
+                  "text": "Give the writer's final opinion only"
+                }
+              ],
+              "explanation": "Paragraf pertama adalah orientasi yang memperkenalkan peristiwa; rincian dan opini menyusul."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Planning a sports event"
+            },
+            {
+              "type": "paragraph",
+              "text": "A sports event proposal needs clear goals, a suitable venue, and a realistic budget. Check the venue's accessibility (parking and public transport), capacity (participants, team, and supporters), and available equipment (toilets, fields, audience space). The budget may come from grants, sponsors, or ticket sales. Present the plan with text, tables, and images."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Goals: why the event is held, how many participants, and which values are promoted.",
+                "Venue: accessibility, capacity, and equipment.",
+                "Budget: grants, financial support from sponsors, and income from ticket sales.",
+                "Presentation: use charts, graphs, and documents to inform the audience."
+              ]
+            },
+            {
+              "type": "scenario",
+              "id": "sc-eng2-event",
+              "title": "Planning a school sports event",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Your class plans a football match. A friend suggests inviting 2,000 spectators to the school field, which has no parking area. What do you do?",
+                  "choices": [
+                    {
+                      "text": "Check the venue's capacity and accessibility before inviting spectators",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Kapasitas dan aksesibilitas harus diperiksa sebelum jumlah penonton ditetapkan."
+                    },
+                    {
+                      "text": "Invite 2,000 people anyway and hope for the best",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Mengabaikan kapasitas dan akses membuat acara berisiko dan tidak nyaman."
+                    },
+                    {
+                      "text": "Cancel the event without checking anything",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Membatalkan tanpa memeriksa menghilangkan peluang acara yang mungkin layak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "The budget is short. What is the best next step?",
+                  "choices": [
+                    {
+                      "text": "Look for sponsors and plan ticket sales",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Sponsor dan penjualan tiket adalah sumber dana yang disebut dalam perencanaan acara."
+                    },
+                    {
+                      "text": "Remove the equipment and safety items from the plan",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Mengurangi perlengkapan dan keamanan membahayakan peserta dan penonton."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "On the day, the field is overcrowded and some spectators stand in the road. What do you do?",
+                  "choices": [
+                    {
+                      "text": "Limit entry and open an overflow area with clear information",
+                      "next": "n7",
+                      "score": 1,
+                      "feedback": "Tindakan darurat membantu, tetapi masalahnya berasal dari perencanaan kapasitas."
+                    },
+                    {
+                      "text": "Ignore it because the match is more important",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "Keselamatan penonton tidak boleh diabaikan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "The teacher asks why you cancelled. What do you say?",
+                  "choices": [
+                    {
+                      "text": "Explain that you needed to check capacity, access, and budget first",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Alasan yang jujur dan berbasis perencanaan dapat diterima."
+                    },
+                    {
+                      "text": "Say there was no reason",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "Keputusan tanpa alasan tidak dapat dipertanggungjawabkan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "The event plan is realistic: the venue fits the audience and the budget has clear sources."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "The plan saves money but risks the safety and comfort of participants and spectators."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "The immediate problem is handled, but next time plan capacity before advertising the event."
+                },
+                {
+                  "id": "n8",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "The event loses trust because safety and planning were ignored."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-eng2-vocab",
+              "title": "Vocabulary sprint: sports events",
+              "time_limit": 75,
+              "items": [
+                {
+                  "question": "Another word for \"happened\" is …",
+                  "answer": "took place"
+                },
+                {
+                  "question": "A match with no goal is …",
+                  "answer": "scoreless"
+                },
+                {
+                  "question": "The other team in a match is the …",
+                  "answer": "opponent"
+                },
+                {
+                  "question": "An action that breaks the rules is a …",
+                  "answer": "foul"
+                },
+                {
+                  "question": "Competed against each other is …",
+                  "answer": "clashed"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Kosakata ini muncul dalam teks recount olahraga.",
+                "wrong": "Baca ulang Glossary dan cocokkan kata dengan konteks kalimatnya."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng2-reorientation",
+              "question": "Which sentence is a reorientation?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "I consider this match to be interesting because we never know which team is going to win.",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "The match took place about 5 years ago."
+                },
+                {
+                  "id": "c",
+                  "text": "The ball was passed to the main striker."
+                }
+              ],
+              "explanation": "Reorientasi berisi komentar atau perasaan penulis tentang pengalaman, bukan peristiwa atau latar waktu."
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Sports Events — Mudah",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "A personal recount retells …",
+              "options": [
+                {
+                  "text": "the writer's past experience",
+                  "correct": true
+                },
+                {
+                  "text": "an imaginary future event"
+                },
+                {
+                  "text": "the steps of making food"
+                },
+                {
+                  "text": "the features of an object"
+                }
+              ],
+              "explanation": "Personal recount menceritakan kembali pengalaman masa lalu penulis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which part of a recount comes first?",
+              "options": [
+                {
+                  "text": "Orientation",
+                  "correct": true
+                },
+                {
+                  "text": "Reorientation"
+                },
+                {
+                  "text": "Series of events"
+                },
+                {
+                  "text": "Conclusion"
+                }
+              ],
+              "explanation": "Orientation memperkenalkan peristiwa sebelum rangkaian kejadian diceritakan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does \"scoreless\" mean?",
+              "options": [
+                {
+                  "text": "No goal was scored",
+                  "correct": true
+                },
+                {
+                  "text": "One team scored many goals"
+                },
+                {
+                  "text": "The match was cancelled"
+                },
+                {
+                  "text": "The players did not run"
+                }
+              ],
+              "explanation": "Scoreless berarti tidak ada gol yang tercipta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which one is one of the five senses?",
+              "options": [
+                {
+                  "text": "Taste",
+                  "correct": true
+                },
+                {
+                  "text": "Running"
+                },
+                {
+                  "text": "Shouting"
+                },
+                {
+                  "text": "Scoring"
+                }
+              ],
+              "explanation": "Pancaindra adalah sight, hearing, smell, touch, dan taste."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which action shows good spectator etiquette?",
+              "options": [
+                {
+                  "text": "Keep comments positive",
+                  "correct": true
+                },
+                {
+                  "text": "Throw litter on the field"
+                },
+                {
+                  "text": "Use profanity"
+                },
+                {
+                  "text": "Yell continuously"
+                }
+              ],
+              "explanation": "Etika penonton yang baik termasuk menjaga komentar tetap positif dan tidak membuang sampah."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Sports Events — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "\"The football match took place about 5 years ago.\" The phrase \"took place\" means …",
+              "options": [
+                {
+                  "text": "happened",
+                  "correct": true
+                },
+                {
+                  "text": "was cancelled"
+                },
+                {
+                  "text": "was watched"
+                },
+                {
+                  "text": "was scored"
+                }
+              ],
+              "explanation": "Took place berarti terjadi atau berlangsung."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why did nobody know which team was favourite?",
+              "options": [
+                {
+                  "text": "Both teams had a similar number of past wins.",
+                  "correct": true
+                },
+                {
+                  "text": "The teams had never played football."
+                },
+                {
+                  "text": "The final was cancelled."
+                },
+                {
+                  "text": "One team was much stronger than the other."
+                }
+              ],
+              "explanation": "Teks menyebut jumlah kemenangan kedua tim hampir sama sepanjang sejarah pertemuan mereka."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How did the writer feel while his team was not playing well?",
+              "options": [
+                {
+                  "text": "Nervous",
+                  "correct": true
+                },
+                {
+                  "text": "Sleepy"
+                },
+                {
+                  "text": "Proud of the opponent"
+                },
+                {
+                  "text": "Uninterested"
+                }
+              ],
+              "explanation": "Penulis mengaku \"I was getting nervous in the stadium\"."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In Agam's story, \"it was a bit chewy, but it was smooth and tasted really good.\" The word \"it\" refers to …",
+              "options": [
+                {
+                  "text": "the hotdog",
+                  "correct": true
+                },
+                {
+                  "text": "the stadium"
+                },
+                {
+                  "text": "the match"
+                },
+                {
+                  "text": "the ticket"
+                }
+              ],
+              "explanation": "Kata \"it\" merujuk pada hotdog yang sedang dikunyah penutur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence is the reorientation of Andi's recount?",
+              "options": [
+                {
+                  "text": "I consider this match to be interesting because we never know which team is going to win.",
+                  "correct": true
+                },
+                {
+                  "text": "The match took place about 5 years ago."
+                },
+                {
+                  "text": "The game continued scoreless up until half time."
+                },
+                {
+                  "text": "All the supporters were screaming."
+                }
+              ],
+              "explanation": "Reorientasi berisi komentar penulis tentang pertandingan, bukan kejadian atau latar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which detail appeals to the sense of hearing?",
+              "options": [
+                {
+                  "text": "The supporters were screaming and encouraging their teams.",
+                  "correct": true
+                },
+                {
+                  "text": "The hotdog tasted really good."
+                },
+                {
+                  "text": "The seat felt cold."
+                },
+                {
+                  "text": "The striker wore a white jersey."
+                }
+              ],
+              "explanation": "Sorakan adalah bunyi, jadi termasuk detail pendengaran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happened when the second half started?",
+              "options": [
+                {
+                  "text": "The intensity of the game increased.",
+                  "correct": true
+                },
+                {
+                  "text": "Both teams stopped playing."
+                },
+                {
+                  "text": "The supporters went home."
+                },
+                {
+                  "text": "The match was moved to another stadium."
+                }
+              ],
+              "explanation": "Teks menyebut intensitas pertandingan meningkat pada babak kedua."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which actions are good spectator etiquette? Choose all that apply.",
+              "options": [
+                {
+                  "text": "Keep comments positive",
+                  "correct": true
+                },
+                {
+                  "text": "Congratulate the winning team",
+                  "correct": true
+                },
+                {
+                  "text": "Stay quiet during the national anthem",
+                  "correct": true
+                },
+                {
+                  "text": "Throw litter on the field",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga perilaku pertama menjaga suasana pertandingan; membuang sampah melanggar etika penonton."
+            },
+            {
+              "type": "matching",
+              "question": "Match each word with its meaning.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "took place"
+                },
+                {
+                  "id": "o1",
+                  "text": "clashed"
+                },
+                {
+                  "id": "o2",
+                  "text": "scoreless"
+                },
+                {
+                  "id": "o3",
+                  "text": "opponent"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "happened",
+                  "o1": "competed against each other",
+                  "o2": "with no goal scored",
+                  "o3": "the other team"
+                }
+              },
+              "explanation": "Keempat kata kunci ini muncul dalam teks recount olahraga dan dapat ditebak dari konteks."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Put the parts of Andi's recount in the correct order.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "The event was a national club football tournament."
+                },
+                {
+                  "id": "o1",
+                  "text": "The match took place about 5 years ago."
+                },
+                {
+                  "id": "o2",
+                  "text": "The game continued scoreless until my team scored."
+                },
+                {
+                  "id": "o3",
+                  "text": "I consider this match interesting and exciting."
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Orientasi → latar pertandingan → rangkaian kejadian → reorientasi."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Sports Events — Sulit",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Why does the paragraph \"But when the game actually started…\" belong to the series of events?",
+              "options": [
+                {
+                  "text": "It retells what happened during the match in time order.",
+                  "correct": true
+                },
+                {
+                  "text": "It introduces the writer's identity."
+                },
+                {
+                  "text": "It gives the final comment about the match."
+                },
+                {
+                  "text": "It lists the rules of football."
+                }
+              ],
+              "explanation": "Paragraf itu menceritakan kejadian saat pertandingan berlangsung, sehingga termasuk rangkaian peristiwa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can you infer from \"their number of wins was pretty much the same\"?",
+              "options": [
+                {
+                  "text": "The final was difficult to predict.",
+                  "correct": true
+                },
+                {
+                  "text": "One team always won easily."
+                },
+                {
+                  "text": "The teams never played each other."
+                },
+                {
+                  "text": "The tournament was cancelled."
+                }
+              ],
+              "explanation": "Kemenangan yang seimbang membuat tidak ada tim yang jelas lebih unggul, sehingga hasil sulit diprediksi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the writer's main purpose in the text?",
+              "options": [
+                {
+                  "text": "To retell a memorable sports experience",
+                  "correct": true
+                },
+                {
+                  "text": "To persuade readers to play football"
+                },
+                {
+                  "text": "To explain the history of football rules"
+                },
+                {
+                  "text": "To describe a football player's physical features"
+                }
+              ],
+              "explanation": "Teks adalah personal recount yang menceritakan pengalaman menonton pertandingan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence uses the past tense correctly?",
+              "options": [
+                {
+                  "text": "The game continued scoreless until half time.",
+                  "correct": true
+                },
+                {
+                  "text": "The game continue scoreless until half time."
+                },
+                {
+                  "text": "The game is continue scoreless yesterday."
+                },
+                {
+                  "text": "The game will continued scoreless last week."
+                }
+              ],
+              "explanation": "Recount memakai past tense: continued. Pilihan lain salah bentuk atau mencampur waktu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which detail appeals to the sense of sight?",
+              "options": [
+                {
+                  "text": "The ball was passed to the main striker.",
+                  "correct": true
+                },
+                {
+                  "text": "The supporters were screaming."
+                },
+                {
+                  "text": "The hotdog tasted good."
+                },
+                {
+                  "text": "The air smelled of grilled sausages."
+                }
+              ],
+              "explanation": "Melihat bola dioper ke striker adalah pengalaman visual."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why should a recount include sensory details?",
+              "options": [
+                {
+                  "text": "They help readers imagine the experience.",
+                  "correct": true
+                },
+                {
+                  "text": "They make the text longer without a purpose."
+                },
+                {
+                  "text": "They replace the need for a structure."
+                },
+                {
+                  "text": "They hide the writer's feelings."
+                }
+              ],
+              "explanation": "Detail pancaindra membuat pembaca seolah ikut mengalami peristiwa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does the writer put \"rough and tough\" in quotation marks?",
+              "options": [
+                {
+                  "text": "To highlight the physical style of play",
+                  "correct": true
+                },
+                {
+                  "text": "To show that the words are misspelled"
+                },
+                {
+                  "text": "To quote the referee's decision"
+                },
+                {
+                  "text": "To indicate a foreign language"
+                }
+              ],
+              "explanation": "Tanda kutip menyorot gaya bermain yang keras dan fisik, bukan kesalahan ejaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence is an orientation rather than an event?",
+              "options": [
+                {
+                  "text": "The sporting event that I would like to talk about was a national club football tournament.",
+                  "correct": true
+                },
+                {
+                  "text": "The ball was passed to the main striker."
+                },
+                {
+                  "text": "The supporters were screaming."
+                },
+                {
+                  "text": "My team scored a goal."
+                }
+              ],
+              "explanation": "Kalimat pertama memperkenalkan peristiwa yang akan diceritakan, jadi termasuk orientasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which revision makes \"The match was good\" more vivid?",
+              "options": [
+                {
+                  "text": "The match was exciting because the score stayed level until the final minutes.",
+                  "correct": true
+                },
+                {
+                  "text": "The match was very very good."
+                },
+                {
+                  "text": "The match was good and nice and fun."
+                },
+                {
+                  "text": "The match was better than any other match ever."
+                }
+              ],
+              "explanation": "Revisi yang baik menambahkan alasan dan detail konkret, bukan mengulang kata sifat atau opini."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which information is NOT needed in the orientation?",
+              "options": [
+                {
+                  "text": "The final score of the match",
+                  "correct": true
+                },
+                {
+                  "text": "When the event happened"
+                },
+                {
+                  "text": "Where the event happened"
+                },
+                {
+                  "text": "Who was involved"
+                }
+              ],
+              "explanation": "Orientasi memperkenalkan latar; hasil akhir biasanya muncul di rangkaian peristiwa atau reorientasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does the writer mention \"about 5 years ago\"?",
+              "options": [
+                {
+                  "text": "To set the time of the experience",
+                  "correct": true
+                },
+                {
+                  "text": "To show the final score"
+                },
+                {
+                  "text": "To describe the stadium"
+                },
+                {
+                  "text": "To introduce the opponent's coach"
+                }
+              ],
+              "explanation": "Keterangan waktu membantu pembaca mengetahui kapan pengalaman itu terjadi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can you infer about the writer's loyalty?",
+              "options": [
+                {
+                  "text": "He strongly wanted his team to win.",
+                  "correct": true
+                },
+                {
+                  "text": "He supported both teams equally."
+                },
+                {
+                  "text": "He did not care about the result."
+                },
+                {
+                  "text": "He wanted the opponent to win."
+                }
+              ],
+              "explanation": "Penulis mengatakan ia ingin timnya menang \"at all costs\" dan gugup saat timnya tertinggal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which question checks a venue's accessibility?",
+              "options": [
+                {
+                  "text": "Is it easy to reach by public transport and is there enough parking?",
+                  "correct": true
+                },
+                {
+                  "text": "How many goals were scored?"
+                },
+                {
+                  "text": "Who is the star player?"
+                },
+                {
+                  "text": "What colour is the team jersey?"
+                }
+              ],
+              "explanation": "Aksesibilitas berkaitan dengan kemudahan mencapai lokasi dan ketersediaan parkir."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which factors should be considered when planning a sports event? Choose all that apply.",
+              "options": [
+                {
+                  "text": "Specific goals",
+                  "correct": true
+                },
+                {
+                  "text": "A suitable venue",
+                  "correct": true
+                },
+                {
+                  "text": "A realistic budget",
+                  "correct": true
+                },
+                {
+                  "text": "Ignoring the spectators' comfort",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tujuan, lokasi, dan anggaran adalah faktor utama; kenyamanan penonton justru harus diperhatikan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Arrange the writing process of a sports event recount.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Take notes about the event"
+                },
+                {
+                  "id": "s1",
+                  "text": "Complete the planning table"
+                },
+                {
+                  "id": "s2",
+                  "text": "Write the first draft"
+                },
+                {
+                  "id": "s3",
+                  "text": "Do a peer review"
+                },
+                {
+                  "id": "s4",
+                  "text": "Revise and publish"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Catatan → tabel rencana → draft → tinjauan teman → revisi dan publikasi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

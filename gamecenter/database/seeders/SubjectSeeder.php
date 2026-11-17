@@ -11,7 +11,10 @@ class SubjectSeeder extends Seeder
     /**
      * Mata pelajaran per jenjang/kelas.
      *
-     * @var array<string, array<int, array{name: string, slug: string, group: string, icon: string, color: string}>>
+     * `grades` (opsional) membatasi mapel ke jenjang kelas tertentu; tanpa kunci
+     * ini mapel berlaku untuk semua kelas pada jenjang tersebut.
+     *
+     * @var array<string, array<int, array{name: string, slug: string, group: string, icon: string, color: string, grades?: array<int, int>}>>
      */
     private array $catalog = [
         'paud' => [
@@ -60,6 +63,8 @@ class SubjectSeeder extends Seeder
             ['name' => 'Matematika', 'slug' => 'matematika', 'group' => 'Wajib', 'icon' => '➗', 'color' => 'blue'],
             ['name' => 'Bahasa Inggris', 'slug' => 'bahasa-inggris', 'group' => 'Wajib', 'icon' => '🔤', 'color' => 'indigo'],
             ['name' => 'Sejarah', 'slug' => 'sejarah', 'group' => 'Wajib', 'icon' => '🏛️', 'color' => 'stone'],
+            // IPS terpadu (sejarah, sosiologi, ekonomi, geografi) hanya di Fase E/kelas X.
+            ['name' => 'Ilmu Pengetahuan Sosial', 'slug' => 'ips', 'group' => 'IPS', 'icon' => '🌏', 'color' => 'green', 'grades' => [10]],
             ['name' => 'Informatika', 'slug' => 'informatika', 'group' => 'Wajib', 'icon' => '💻', 'color' => 'cyan'],
             ['name' => 'PJOK', 'slug' => 'pjok', 'group' => 'Wajib', 'icon' => '⚽', 'color' => 'lime'],
             ['name' => 'Fisika', 'slug' => 'fisika', 'group' => 'IPA', 'icon' => '🧪', 'color' => 'violet'],
@@ -81,7 +86,7 @@ class SubjectSeeder extends Seeder
             ['name' => 'Informatika', 'slug' => 'informatika', 'group' => 'Wajib', 'icon' => '💻', 'color' => 'cyan'],
             ['name' => 'PJOK', 'slug' => 'pjok', 'group' => 'Wajib', 'icon' => '⚽', 'color' => 'lime'],
             ['name' => 'Projek IPAS', 'slug' => 'ipas', 'group' => 'Wajib', 'icon' => '🔬', 'color' => 'teal'],
-            ['name' => 'Pemrograman Dasar', 'slug' => 'pemrograman-dasar', 'group' => 'Kejuruan', 'icon' => '⌨️', 'color' => 'sky'],
+            ['name' => 'Pemrograman Dasar', 'slug' => 'pemrograman-dasar', 'group' => 'Kejuruan', 'icon' => '⌨️', 'color' => 'sky', 'grades' => [10]],
             ['name' => 'Prakarya dan Kewirausahaan', 'slug' => 'prakarya', 'group' => 'Keterampilan', 'icon' => '🛠️', 'color' => 'red'],
             ['name' => 'Seni Budaya', 'slug' => 'seni-budaya', 'group' => 'Seni', 'icon' => '🎭', 'color' => 'violet'],
         ],
@@ -99,8 +104,8 @@ class SubjectSeeder extends Seeder
             }
 
             foreach ($this->catalog[$levelSlug] as $index => $subject) {
-                // Pemrograman Dasar hanya untuk SMK kelas 10.
-                if ($subject['slug'] === 'pemrograman-dasar' && $class->grade_level !== 10) {
+                // Mapel bermuatan `grades` hanya dibuat untuk kelas yang disebut.
+                if (isset($subject['grades']) && ! in_array($class->grade_level, $subject['grades'], true)) {
                     continue;
                 }
 

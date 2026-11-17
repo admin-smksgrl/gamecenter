@@ -1,0 +1,1382 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-inggris",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ENG 1",
+      "title": "Great Athletes",
+      "description": "Membaca teks deskriptif tentang atlet hebat, mengenali struktur dan ciri bahasanya, lalu menulis serta menyajikan deskripsi atlet pilihan sendiri.",
+      "learning_objectives": [
+        "Identify context, main ideas and detailed information from an oral and verbal descriptive text presented in multimodal form about great athletes.",
+        "Communicate simple ideas and opinions in various discussions, collaborative activities, and presentations orally to describe great athletes.",
+        "Write a descriptive text about an athlete with an appropriate structure of organization and linguistic features and present it."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Buku Bahasa Inggris Work in Progress untuk SMA/SMK/MA Kelas X, Bab 1 — Great Athletes",
+      "materials": [
+        {
+          "type": "text",
+          "title": "What Is a Descriptive Text?",
+          "duration": 240,
+          "source_reference": "Bab 1 — Great Athletes (halaman 4)",
+          "content": "## Definition\n\nDescriptive text is a text that explains and describes a person, place, or thing. It uses adjectives and adverbs. It aims to describe a person, place, or thing. It consists of the identification of a person, place, or thing and their description.\n\n### Structure\n\n| Part | Content | Example from the Ronaldo text |\n|---|---|---|\n| Identification | Introduces the person being described | Cristiano Ronaldo has very strong determination. |\n| Description | Details physical features, personality, habits, and achievements | His speed, his jumping height, his trophies, his generosity |\n\n### Language features\n\n- Adjectives describe qualities: strong, skillful, confident, humble, generous.\n- Adverbs show how or how often: very, continuously, easily, approximately.\n- The simple present tense states general facts: He has very strong determination.\n- A specific participant is named: Cristiano Ronaldo, not a footballer.\n\nA picture is part of the multimodal text. Picture 1.7 shows Cristiano Ronaldo practising his skill and supports the verbal description of his ability.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Descriptive text",
+                  "definition": "A text that explains and describes a person, place, or thing using adjectives and adverbs."
+                },
+                {
+                  "term": "Identification",
+                  "definition": "The first part of a descriptive text; it introduces the person, place, or thing being described."
+                },
+                {
+                  "term": "Description",
+                  "definition": "The part that gives details about physical features, personality, habits, or achievements."
+                },
+                {
+                  "term": "Adjective",
+                  "definition": "A word that describes a quality, for example strong, skillful, humble, generous."
+                },
+                {
+                  "term": "Adverb",
+                  "definition": "A word that tells how, how often, or how much, for example very, easily, continuously."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Definition"
+            },
+            {
+              "type": "paragraph",
+              "text": "Descriptive text is a text that explains and describes a person, place, or thing. It uses adjectives and adverbs. It aims to describe a person, place, or thing. It consists of the identification of a person, place, or thing and their description."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-eng1-structure",
+              "engine": "mermaid",
+              "title": "Structure of a descriptive text",
+              "code": "flowchart TD\n  A[Identification: who or what is described] --> B[Description: physical features, personality, habits, achievements]\n  B --> C[Reader gets a clear picture of the person]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Structure"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Part",
+                  "Content",
+                  "Example from the Ronaldo text"
+                ],
+                [
+                  "Identification",
+                  "Introduces the person being described",
+                  "Cristiano Ronaldo has very strong determination."
+                ],
+                [
+                  "Description",
+                  "Details physical features, personality, habits, and achievements",
+                  "His speed, his jumping height, his trophies, his generosity"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Language features"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Adjectives describe qualities: strong, skillful, confident, humble, generous.",
+                "Adverbs show how or how often: very, continuously, easily, approximately.",
+                "The simple present tense states general facts: He has very strong determination.",
+                "A specific participant is named: Cristiano Ronaldo, not a footballer."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "A picture is part of the multimodal text. Picture 1.7 shows Cristiano Ronaldo practising his skill and supports the verbal description of his ability."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng1-purpose",
+              "question": "What is the main purpose of a descriptive text?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "To describe a person, place, or thing",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "To tell a sequence of past events"
+                },
+                {
+                  "id": "c",
+                  "text": "To argue that one opinion is correct"
+                }
+              ],
+              "explanation": "A descriptive text explains and describes a person, place, or thing so that the reader can picture it clearly."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng1-identification",
+              "question": "Which part of a descriptive text introduces the person being described?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Identification",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Description"
+                },
+                {
+                  "id": "c",
+                  "text": "Complication"
+                }
+              ],
+              "explanation": "Identification comes first and introduces the person, place, or thing. Description follows with details."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Reading: Cristiano Ronaldo",
+          "duration": 240,
+          "source_reference": "Bab 1 — Great Athletes (halaman 11-16)",
+          "content": "## Cristiano Ronaldo\n\nCristiano Ronaldo has very strong determination. He used to train very hard since his childhood. He knew that a footballer requires good stamina because a football match requires a player to run at least 10 kilometers in a single match. Sometimes, he even trained himself continuously from morning until evening. He also challenged himself by playing along with older players.\n\nHe becomes so skillful and confident that his opponents cannot figure out how to stop Ronaldo from making a goal. Normal football players will use their single leg of their dominant side body, but Ronaldo can easily use both of his legs efficiently to make goals. In addition to that, he can use his head to score goals as well.\n\nHe is also one of the fastest football players in football history. Ronaldo can run with a speed of 33.6 kilometers per hour. That is why he is also known as a rocket man. This helps Ronaldo to do his famous free-kick. Ronaldo's free-kick speed is approximately 130 kilometers per hour.\n\nWhile jumping, Ronaldo's G-force is five times higher than that of a cheetah. He can jump up to 78 cm in the air; this jumping height is much more compared to any basketball player. In his young age, he has won many trophies and broken records including winning the prestigious FIFA Ballon d'Or award five times and created a world record by scoring the most goals in international football in September 2021. Currently his net worth is around $500 million and this makes him one of the richest athletes.\n\nAdapted from: https://youthmotivator4life.com/cristiano-ronaldo-biography/\n\n### Which paragraph gives which information?\n\n| Information | Paragraph |\n|---|---|\n| Training | 1 |\n| Goal skills | 2 |\n| Speed | 3 |\n| Jumps and success | 4 |\n\n### Physical features, personality, or achievement?\n\n### Values behind the achievements\n\nOther descriptions highlight his virtues. He is kind and humble, his blood type is A negative, and he donates blood to a blood bank. He is thoughtful and maintains his health by not smoking or drinking alcohol. He is generous and donates to poor and underprivileged people. He treats fans courteously; once he apologised personally to a spectator who was injured by his kick and gave him his jersey.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Stamina",
+                  "definition": "Physical strength that lets someone keep running or playing for a long time."
+                },
+                {
+                  "term": "Determination",
+                  "definition": "A strong will to keep trying even when something is difficult."
+                },
+                {
+                  "term": "Free-kick",
+                  "definition": "A kick awarded to a team after a foul in football."
+                },
+                {
+                  "term": "G-force",
+                  "definition": "The force felt when a body accelerates or changes direction, measured relative to gravity."
+                },
+                {
+                  "term": "Net worth",
+                  "definition": "The value of someone's assets minus their debts."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cristiano Ronaldo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Cristiano Ronaldo has very strong determination. He used to train very hard since his childhood. He knew that a footballer requires good stamina because a football match requires a player to run at least 10 kilometers in a single match. Sometimes, he even trained himself continuously from morning until evening. He also challenged himself by playing along with older players."
+            },
+            {
+              "type": "paragraph",
+              "text": "He becomes so skillful and confident that his opponents cannot figure out how to stop Ronaldo from making a goal. Normal football players will use their single leg of their dominant side body, but Ronaldo can easily use both of his legs efficiently to make goals. In addition to that, he can use his head to score goals as well."
+            },
+            {
+              "type": "paragraph",
+              "text": "He is also one of the fastest football players in football history. Ronaldo can run with a speed of 33.6 kilometers per hour. That is why he is also known as a rocket man. This helps Ronaldo to do his famous free-kick. Ronaldo's free-kick speed is approximately 130 kilometers per hour."
+            },
+            {
+              "type": "paragraph",
+              "text": "While jumping, Ronaldo's G-force is five times higher than that of a cheetah. He can jump up to 78 cm in the air; this jumping height is much more compared to any basketball player. In his young age, he has won many trophies and broken records including winning the prestigious FIFA Ballon d'Or award five times and created a world record by scoring the most goals in international football in September 2021. Currently his net worth is around $500 million and this makes him one of the richest athletes."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Adapted from: https://youthmotivator4life.com/cristiano-ronaldo-biography/"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Which paragraph gives which information?"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Information",
+                  "Paragraph"
+                ],
+                [
+                  "Training",
+                  "1"
+                ],
+                [
+                  "Goal skills",
+                  "2"
+                ],
+                [
+                  "Speed",
+                  "3"
+                ],
+                [
+                  "Jumps and success",
+                  "4"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Physical features, personality, or achievement?"
+            },
+            {
+              "type": "categorize",
+              "id": "cat-eng1-details",
+              "prompt": "Group each detail from the text into the correct category.",
+              "buckets": [
+                {
+                  "id": "physical",
+                  "label": "Physical features"
+                },
+                {
+                  "id": "personality",
+                  "label": "Personality"
+                },
+                {
+                  "id": "achievement",
+                  "label": "Achievements"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "runs 33.6 kilometers per hour",
+                  "bucket": "physical"
+                },
+                {
+                  "id": "i2",
+                  "text": "very strong determination",
+                  "bucket": "personality"
+                },
+                {
+                  "id": "i3",
+                  "text": "FIFA Ballon d'Or five times",
+                  "bucket": "achievement"
+                },
+                {
+                  "id": "i4",
+                  "text": "jumps up to 78 cm",
+                  "bucket": "physical"
+                },
+                {
+                  "id": "i5",
+                  "text": "kind and humble",
+                  "bucket": "personality"
+                },
+                {
+                  "id": "i6",
+                  "text": "world record in September 2021",
+                  "bucket": "achievement"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Detail fisik, sifat, dan prestasi dipisahkan dengan jelas.",
+                "wrong": "Periksa lagi: fisik = tubuh dan kemampuan gerak, sifat = watak, prestasi = trofi dan rekor."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng1-main-idea",
+              "question": "What is the main idea of the text?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Ronaldo's determination, skills, and achievements make him a great athlete",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Ronaldo is the richest athlete in the world"
+                },
+                {
+                  "id": "c",
+                  "text": "Football is more dangerous than basketball"
+                }
+              ],
+              "explanation": "The text explains Ronaldo's training, goal skills, speed, jumping ability, and achievements — all supporting the idea that he is a great athlete."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng1-gforce",
+              "question": "The sentence \"Ronaldo's G-force is five times higher than that of a cheetah\" suggests that …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "his jumping force is extraordinary",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "he runs slower than a cheetah"
+                },
+                {
+                  "id": "c",
+                  "text": "cheetahs also play football"
+                }
+              ],
+              "explanation": "The comparison with a cheetah emphasizes how powerful Ronaldo's jump is, not his running speed or the cheetah's habits."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Values behind the achievements"
+            },
+            {
+              "type": "paragraph",
+              "text": "Other descriptions highlight his virtues. He is kind and humble, his blood type is A negative, and he donates blood to a blood bank. He is thoughtful and maintains his health by not smoking or drinking alcohol. He is generous and donates to poor and underprivileged people. He treats fans courteously; once he apologised personally to a spectator who was injured by his kick and gave him his jersey."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng1-virtue",
+              "question": "Which detail shows that Ronaldo is generous?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "He donates to poor and underprivileged people",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "He can run 33.6 kilometers per hour"
+                },
+                {
+                  "id": "c",
+                  "text": "He has won the Ballon d'Or five times"
+                }
+              ],
+              "explanation": "Generosity is shown by giving to others. Running speed and trophies are physical ability and achievement, not generosity."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Writing a Description of an Athlete",
+          "duration": 240,
+          "source_reference": "Bab 1 — Great Athletes (halaman 17-25)",
+          "content": "## From notes to a paragraph\n\nA description is built from accurate notes. Choose an athlete, then collect the athlete's profile: name, nickname, date of birth, sport, height, weight, hair and skin tone, personality, and achievements. Group the notes in a mind map before you write.\n\n### Steps\n\n1. Choose an athlete you know well.\n1. Take notes on profile, physical features, personality, and achievements.\n1. Make a mind map to group the notes.\n1. Write the identification paragraph, then the description paragraphs.\n1. Do a peer review using the checklist.\n1. Revise and publish your writing.\n\n### Peer review checklist\n\n| Aspect | Question |\n|---|---|\n| Title | Is a title provided? |\n| Organisation | Does each paragraph have only one topic? |\n| Introduction | Does the first paragraph introduce the athlete? |\n| Content | Are profile, physical features, values, and achievements included? |\n| Word choice | Are vivid adjectives used to draw a picture in the reader's mind? |\n| Length | Is the text between 100 and 200 words? |\n\n### Useful sentence frames\n\n… is my favourite …. He/She was born in … on …. He/She has a … body with the height of … centimetres and weight … kilograms. His/Her skin colour is … with a … face and a … smile. He/She inspires me because …. For example, he/she ….",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "From notes to a paragraph"
+            },
+            {
+              "type": "paragraph",
+              "text": "A description is built from accurate notes. Choose an athlete, then collect the athlete's profile: name, nickname, date of birth, sport, height, weight, hair and skin tone, personality, and achievements. Group the notes in a mind map before you write."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Steps"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Choose an athlete you know well.",
+                "Take notes on profile, physical features, personality, and achievements.",
+                "Make a mind map to group the notes.",
+                "Write the identification paragraph, then the description paragraphs.",
+                "Do a peer review using the checklist.",
+                "Revise and publish your writing."
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-eng1-steps",
+              "prompt": "Put the writing steps in the correct order.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Choose an athlete"
+                },
+                {
+                  "id": "s2",
+                  "text": "Take notes on the athlete"
+                },
+                {
+                  "id": "s3",
+                  "text": "Make a mind map"
+                },
+                {
+                  "id": "s4",
+                  "text": "Write the first draft"
+                },
+                {
+                  "id": "s5",
+                  "text": "Do a peer review"
+                },
+                {
+                  "id": "s6",
+                  "text": "Revise and publish"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5",
+                "s6"
+              ],
+              "feedback": {
+                "correct": "Urutan tepat: catat dulu, susun peta pikiran, baru menulis dan meninjau.",
+                "wrong": "Ingat: menulis draft dilakukan setelah catatan dan peta pikiran selesai."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Peer review checklist"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspect",
+                  "Question"
+                ],
+                [
+                  "Title",
+                  "Is a title provided?"
+                ],
+                [
+                  "Organisation",
+                  "Does each paragraph have only one topic?"
+                ],
+                [
+                  "Introduction",
+                  "Does the first paragraph introduce the athlete?"
+                ],
+                [
+                  "Content",
+                  "Are profile, physical features, values, and achievements included?"
+                ],
+                [
+                  "Word choice",
+                  "Are vivid adjectives used to draw a picture in the reader's mind?"
+                ],
+                [
+                  "Length",
+                  "Is the text between 100 and 200 words?"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Useful sentence frames"
+            },
+            {
+              "type": "paragraph",
+              "text": "… is my favourite …. He/She was born in … on …. He/She has a … body with the height of … centimetres and weight … kilograms. His/Her skin colour is … with a … face and a … smile. He/She inspires me because …. For example, he/she …."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng1-personality",
+              "question": "Which sentence describes personality rather than physical appearance?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "He is generous and humble.",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "He is 187 centimetres tall."
+                },
+                {
+                  "id": "c",
+                  "text": "He has curly hair and dark skin."
+                }
+              ],
+              "explanation": "Generous and humble are qualities of character. Height, hair, and skin are physical features."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-eng1-review",
+              "title": "Peer review session",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Your partner's draft lists only height, weight, and trophies. It has no sentence about personality. What do you do?",
+                  "choices": [
+                    {
+                      "text": "Ask your partner to add a sentence about values or virtues with evidence",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "A complete description includes personality, not only statistics."
+                    },
+                    {
+                      "text": "Say the draft is perfect because the numbers are correct",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Correct numbers do not make a description complete."
+                    },
+                    {
+                      "text": "Rewrite the whole draft yourself without telling your partner",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Helping is good, but the writer must understand the revision."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Your partner adds: \"He is very kind.\" Is that enough?",
+                  "choices": [
+                    {
+                      "text": "Ask for evidence, for example \"He donates to poor people.\"",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "A virtue becomes convincing when it is supported by a fact."
+                    },
+                    {
+                      "text": "Accept it because kind is an adjective",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "It is an adjective, but without evidence the claim is weak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "The teacher asks why the draft has no personality. What happens next?",
+                  "choices": [
+                    {
+                      "text": "You and your partner add a personality paragraph together",
+                      "next": "n7",
+                      "score": 1,
+                      "feedback": "The draft can still be repaired, but the missed review cost time."
+                    },
+                    {
+                      "text": "You insist that statistics are the only important part",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "A description that ignores personality is incomplete."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Your partner does not understand your changes. What do you do?",
+                  "choices": [
+                    {
+                      "text": "Explain each change and let your partner rewrite it",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Peer review should help the writer improve, not replace the writer."
+                    },
+                    {
+                      "text": "Submit your version as your partner's work",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "Submitting someone else's work is dishonest."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "The draft now has accurate facts, clear personality, and evidence. Both of you understand the revision."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "The draft has a personality sentence, but it is still a claim without support. Add an example."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "The draft is repaired late. Next time, check personality during the peer review."
+                },
+                {
+                  "id": "n8",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "The description stays incomplete or dishonest, so the reader cannot trust it."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-eng1-vocab",
+              "title": "Vocabulary sprint: describing athletes",
+              "time_limit": 75,
+              "items": [
+                {
+                  "question": "A strong will to keep trying is called …",
+                  "answer": "determination"
+                },
+                {
+                  "question": "Physical strength to keep playing for a long time is …",
+                  "answer": "stamina"
+                },
+                {
+                  "question": "Someone who does not brag about himself is …",
+                  "answer": "humble"
+                },
+                {
+                  "question": "Someone who likes to give to others is …",
+                  "answer": "generous"
+                },
+                {
+                  "question": "Height, weight, hair, and skin tone are … features.",
+                  "answer": "physical"
+                }
+              ],
+              "feedback": {
+                "correct": "Semua tepat. Kosakata ini dipakai saat menulis deskripsi atlet.",
+                "wrong": "Ulangi Glossary pada materi ini, lalu tulis satu kalimat untuk tiap kata."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng1-first-paragraph",
+              "question": "What should the first paragraph of a description do?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Introduce the athlete being described",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "List every trophy in alphabetical order"
+                },
+                {
+                  "id": "c",
+                  "text": "Give the writer's opinion about the sport"
+                }
+              ],
+              "explanation": "The first paragraph is the identification: it introduces the person before the details are given."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng1-opinion-revision",
+              "question": "A draft says, \"Ronaldo is the best player ever.\" What is the best revision for a descriptive text?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Ronaldo has won the FIFA Ballon d'Or five times.",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Ronaldo is better than every player in the world."
+                },
+                {
+                  "id": "c",
+                  "text": "Everybody must agree that Ronaldo is the best."
+                }
+              ],
+              "explanation": "A description should use verifiable facts. Winning the Ballon d'Or five times can be checked; \"the best ever\" is an opinion."
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Great Athletes — Mudah",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does a descriptive text mainly do?",
+              "options": [
+                {
+                  "text": "Describe a person, place, or thing",
+                  "correct": true
+                },
+                {
+                  "text": "Tell a story in time order"
+                },
+                {
+                  "text": "Explain how a machine works"
+                },
+                {
+                  "text": "Persuade readers to buy a product"
+                }
+              ],
+              "explanation": "Teks deskriptif menggambarkan orang, tempat, atau benda agar pembaca dapat membayangkannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The word \"determination\" is closest in meaning to …",
+              "options": [
+                {
+                  "text": "a strong will to keep trying",
+                  "correct": true
+                },
+                {
+                  "text": "a fast running speed"
+                },
+                {
+                  "text": "a tall body"
+                },
+                {
+                  "text": "a famous trophy"
+                }
+              ],
+              "explanation": "Determination is the inner strength to keep trying; the other options are physical or external things."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How fast can Cristiano Ronaldo run according to the text?",
+              "options": [
+                {
+                  "text": "33.6 kilometers per hour",
+                  "correct": true
+                },
+                {
+                  "text": "130 kilometers per hour"
+                },
+                {
+                  "text": "10 kilometers per hour"
+                },
+                {
+                  "text": "78 kilometers per hour"
+                }
+              ],
+              "explanation": "Teks menyebut kecepatan lari 33.6 km/jam; 130 km/jam adalah kecepatan tendangan bebasnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which one is a physical feature?",
+              "options": [
+                {
+                  "text": "curly hair",
+                  "correct": true
+                },
+                {
+                  "text": "generous",
+                  "correct": false
+                },
+                {
+                  "text": "humble",
+                  "correct": false
+                },
+                {
+                  "text": "determined",
+                  "correct": false
+                }
+              ],
+              "explanation": "Curly hair terlihat secara fisik; generous, humble, dan determined adalah sifat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is Ronaldo called \"a rocket man\"?",
+              "options": [
+                {
+                  "text": "Because he runs very fast",
+                  "correct": true
+                },
+                {
+                  "text": "Because he works for a space agency"
+                },
+                {
+                  "text": "Because he jumps from an airplane"
+                },
+                {
+                  "text": "Because he wears a rocket costume"
+                }
+              ],
+              "explanation": "Julukan rocket man muncul setelah teks menyebut kecepatan larinya 33.6 km/jam."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Great Athletes — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which part comes first in a descriptive text?",
+              "options": [
+                {
+                  "text": "Identification",
+                  "correct": true
+                },
+                {
+                  "text": "Description"
+                },
+                {
+                  "text": "Conclusion"
+                },
+                {
+                  "text": "Recommendation"
+                }
+              ],
+              "explanation": "Identification memperkenalkan tokoh; description menyusul dengan rincian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence contains an adverb?",
+              "options": [
+                {
+                  "text": "He trained continuously from morning until evening.",
+                  "correct": true
+                },
+                {
+                  "text": "He has strong determination."
+                },
+                {
+                  "text": "Ronaldo is a footballer."
+                },
+                {
+                  "text": "His free-kick is famous."
+                }
+              ],
+              "explanation": "\"Continuously\" adalah adverb yang menerangkan cara ia berlatih."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does a footballer need good stamina?",
+              "options": [
+                {
+                  "text": "A player has to run at least 10 kilometers in a single match.",
+                  "correct": true
+                },
+                {
+                  "text": "A player has to lift heavy weights before the match."
+                },
+                {
+                  "text": "A player has to score with his head."
+                },
+                {
+                  "text": "A player has to give interviews after the match."
+                }
+              ],
+              "explanation": "Teks menyebut pertandingan menuntut pemain berlari minimal 10 kilometer, sehingga stamina penting."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What makes Ronaldo different from normal football players in scoring goals?",
+              "options": [
+                {
+                  "text": "He can use both legs and his head.",
+                  "correct": true
+                },
+                {
+                  "text": "He only uses his right leg."
+                },
+                {
+                  "text": "He never takes free-kicks."
+                },
+                {
+                  "text": "He plays as a goalkeeper."
+                }
+              ],
+              "explanation": "Pemain biasa memakai satu kaki dominan; Ronaldo dapat memakai kedua kaki dan kepalanya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How fast is Ronaldo's free-kick approximately?",
+              "options": [
+                {
+                  "text": "130 kilometers per hour",
+                  "correct": true
+                },
+                {
+                  "text": "33.6 kilometers per hour"
+                },
+                {
+                  "text": "10 kilometers per hour"
+                },
+                {
+                  "text": "78 kilometers per hour"
+                }
+              ],
+              "explanation": "Teks memisahkan kecepatan lari (33.6 km/jam) dari kecepatan tendangan bebas (sekitar 130 km/jam)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can you infer from Ronaldo's G-force being five times higher than a cheetah's?",
+              "options": [
+                {
+                  "text": "His jumping force is extraordinary.",
+                  "correct": true
+                },
+                {
+                  "text": "He can run faster than a cheetah."
+                },
+                {
+                  "text": "He owns a pet cheetah."
+                },
+                {
+                  "text": "He cannot jump at all."
+                }
+              ],
+              "explanation": "Perbandingan G-force menekankan kekuatan lompatan, bukan kecepatan lari."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which detail supports the idea that Ronaldo is generous?",
+              "options": [
+                {
+                  "text": "He donates to poor and underprivileged people.",
+                  "correct": true
+                },
+                {
+                  "text": "He has a blood type of A negative."
+                },
+                {
+                  "text": "He can jump 78 centimeters."
+                },
+                {
+                  "text": "He has won the Ballon d'Or five times."
+                }
+              ],
+              "explanation": "Memberi kepada orang miskin adalah bukti kedermawanan; pilihan lain adalah fakta fisik atau prestasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which statements about Ronaldo are true according to the text? Choose all that apply.",
+              "options": [
+                {
+                  "text": "He trained hard since his childhood.",
+                  "correct": true
+                },
+                {
+                  "text": "He won the FIFA Ballon d'Or five times.",
+                  "correct": true
+                },
+                {
+                  "text": "He can score with both legs and his head.",
+                  "correct": true
+                },
+                {
+                  "text": "He is a professional basketball player.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga pernyataan pertama ada di teks; Ronaldo adalah pemain sepak bola, bukan pemain basket."
+            },
+            {
+              "type": "matching",
+              "question": "Match each information with the paragraph that gives it.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Training"
+                },
+                {
+                  "id": "o1",
+                  "text": "Goal skills"
+                },
+                {
+                  "id": "o2",
+                  "text": "Speed"
+                },
+                {
+                  "id": "o3",
+                  "text": "Jumps and success"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "Paragraph 1",
+                  "o1": "Paragraph 2",
+                  "o2": "Paragraph 3",
+                  "o3": "Paragraph 4"
+                }
+              },
+              "explanation": "Teks disusun berurutan: latihan, kemampuan mencetak gol, kecepatan, lalu lompatan dan prestasi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Put the description-writing steps in the correct order.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Choose an athlete"
+                },
+                {
+                  "id": "o1",
+                  "text": "Take notes on the athlete"
+                },
+                {
+                  "id": "o2",
+                  "text": "Make a mind map"
+                },
+                {
+                  "id": "o3",
+                  "text": "Write the first draft"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Catatan dan peta pikiran mendahului penulisan draft agar isinya teratur."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Great Athletes — Sulit",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Why did Ronaldo challenge himself by playing with older players?",
+              "options": [
+                {
+                  "text": "To push himself to improve against stronger opponents",
+                  "correct": true
+                },
+                {
+                  "text": "Because there were no players his age"
+                },
+                {
+                  "text": "Because he wanted to become a coach"
+                },
+                {
+                  "text": "Because older players paid him"
+                }
+              ],
+              "explanation": "Bermain dengan pemain yang lebih tua adalah cara menantang diri agar kemampuan meningkat; teks menyebutnya sebagai challenge."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which statement is an opinion rather than a fact from the text?",
+              "options": [
+                {
+                  "text": "Ronaldo is the greatest footballer of all time.",
+                  "correct": true
+                },
+                {
+                  "text": "Ronaldo can run 33.6 kilometers per hour."
+                },
+                {
+                  "text": "Ronaldo has won the Ballon d'Or five times."
+                },
+                {
+                  "text": "Ronaldo can jump up to 78 centimeters."
+                }
+              ],
+              "explanation": "Opini tidak dapat diverifikasi. Tiga pilihan lain berupa angka dan prestasi yang tercatat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of Picture 1.7 in relation to the verbal text?",
+              "options": [
+                {
+                  "text": "It supports the description of Ronaldo's skill.",
+                  "correct": true
+                },
+                {
+                  "text": "It replaces the need to read the text."
+                },
+                {
+                  "text": "It gives a different athlete's statistics."
+                },
+                {
+                  "text": "It explains the rules of football."
+                }
+              ],
+              "explanation": "Gambar adalah bagian teks multimodal; fungsinya mendukung dan memperjelas deskripsi verbal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In \"players of right-handed or left-handed use their respective legs\", the word \"dominant\" means …",
+              "options": [
+                {
+                  "text": "the side that is stronger or used more",
+                  "correct": true
+                },
+                {
+                  "text": "the side that is injured"
+                },
+                {
+                  "text": "the side that is weaker"
+                },
+                {
+                  "text": "both sides at the same time"
+                }
+              ],
+              "explanation": "Dominan berarti sisi yang lebih kuat atau lebih sering dipakai, misalnya kaki kanan bagi pemain kidal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can be inferred from Ronaldo's net worth of around $500 million?",
+              "options": [
+                {
+                  "text": "He is one of the richest athletes.",
+                  "correct": true
+                },
+                {
+                  "text": "He earns nothing from football."
+                },
+                {
+                  "text": "He is poorer than most players."
+                },
+                {
+                  "text": "He gives away all his money."
+                }
+              ],
+              "explanation": "Teks langsung menyimpulkan bahwa kekayaan bersihnya menjadikannya salah satu atlet terkaya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which detail best shows Ronaldo's determination?",
+              "options": [
+                {
+                  "text": "He trained continuously from morning until evening.",
+                  "correct": true
+                },
+                {
+                  "text": "He has a blood type of A negative."
+                },
+                {
+                  "text": "He has curly hair."
+                },
+                {
+                  "text": "He owns a jersey."
+                }
+              ],
+              "explanation": "Latihan terus-menerus dari pagi hingga malam menunjukkan kemauan keras, inti dari determination."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main idea of paragraph 4?",
+              "options": [
+                {
+                  "text": "Ronaldo's jumping ability and his achievements",
+                  "correct": true
+                },
+                {
+                  "text": "Ronaldo's blood donation habit"
+                },
+                {
+                  "text": "The rules of a free-kick"
+                },
+                {
+                  "text": "Ronaldo's childhood school"
+                }
+              ],
+              "explanation": "Paragraf 4 membahas G-force, lompatan 78 cm, trofi, Ballon d'Or, rekor, dan kekayaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which revision makes \"Ronaldo is good\" more descriptive?",
+              "options": [
+                {
+                  "text": "Ronaldo is a skillful and confident footballer who can score with both legs and his head.",
+                  "correct": true
+                },
+                {
+                  "text": "Ronaldo is very very good."
+                },
+                {
+                  "text": "Ronaldo is good at everything."
+                },
+                {
+                  "text": "Ronaldo is better than everyone."
+                }
+              ],
+              "explanation": "Deskripsi yang baik memakai adjective yang spesifik dan bukti kemampuan, bukan pengulangan kata atau opini."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a descriptive text, what follows the identification?",
+              "options": [
+                {
+                  "text": "The description of features, habits, and achievements",
+                  "correct": true
+                },
+                {
+                  "text": "A list of references"
+                },
+                {
+                  "text": "A new identification of another person"
+                },
+                {
+                  "text": "The writer's signature"
+                }
+              ],
+              "explanation": "Setelah identification, teks menguraikan description secara rinci."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence uses the simple present correctly for a general description?",
+              "options": [
+                {
+                  "text": "He has very strong determination.",
+                  "correct": true
+                },
+                {
+                  "text": "He is having very strong determination yesterday."
+                },
+                {
+                  "text": "He will have very strong determination last year."
+                },
+                {
+                  "text": "He had been have strong determination tomorrow."
+                }
+              ],
+              "explanation": "Simple present dipakai untuk fakta umum; pilihan lain salah bentuk waktu dan keterangan waktunya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to the message if the picture is deleted from the biography?",
+              "options": [
+                {
+                  "text": "The verbal description remains, but readers lose visual support.",
+                  "correct": true
+                },
+                {
+                  "text": "The whole text becomes false."
+                },
+                {
+                  "text": "The text turns into a narrative."
+                },
+                {
+                  "text": "The text can no longer be read."
+                }
+              ],
+              "explanation": "Gambar memperkuat pesan, tetapi teks verbal tetap menyampaikan informasi tanpa gambar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which pairing of virtue and evidence is correct?",
+              "options": [
+                {
+                  "text": "Generous — donates to poor and underprivileged people",
+                  "correct": true
+                },
+                {
+                  "text": "Humble — runs 33.6 kilometers per hour"
+                },
+                {
+                  "text": "Thoughtful — won the Ballon d'Or five times"
+                },
+                {
+                  "text": "Skillful — has a blood type of A negative"
+                }
+              ],
+              "explanation": "Setiap sifat harus didukung bukti yang sesuai; hanya pasangan pertama yang cocok."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A peer reviewer finds an unsupported claim in your description. What should you do?",
+              "options": [
+                {
+                  "text": "Replace it with a verifiable fact or add evidence",
+                  "correct": true
+                },
+                {
+                  "text": "Keep it because it sounds impressive"
+                },
+                {
+                  "text": "Add more adjectives to make it stronger"
+                },
+                {
+                  "text": "Delete the whole paragraph"
+                }
+              ],
+              "explanation": "Klaim tanpa bukti dilemahkan dengan fakta yang dapat diverifikasi, bukan dengan kata sifat tambahan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which are language features of a descriptive text? Choose all that apply.",
+              "options": [
+                {
+                  "text": "Adjectives such as strong and generous",
+                  "correct": true
+                },
+                {
+                  "text": "Adverbs such as very and easily",
+                  "correct": true
+                },
+                {
+                  "text": "The simple present tense for general facts",
+                  "correct": true
+                },
+                {
+                  "text": "Sequence words such as first, then, finally",
+                  "correct": false
+                }
+              ],
+              "explanation": "Adjectives, adverbs, dan simple present adalah ciri deskripsi. Kata urutan lebih khas teks prosedur atau narasi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Arrange the writing process from notes to publication.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Take notes on the athlete"
+                },
+                {
+                  "id": "s1",
+                  "text": "Make a mind map"
+                },
+                {
+                  "id": "s2",
+                  "text": "Write the first draft"
+                },
+                {
+                  "id": "s3",
+                  "text": "Do a peer review"
+                },
+                {
+                  "id": "s4",
+                  "text": "Revise and publish"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Catatan → peta pikiran → draft → tinjauan teman → revisi dan publikasi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

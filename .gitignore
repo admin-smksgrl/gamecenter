@@ -31,3 +31,7 @@ gamecenter/tmp-*
 # Berkas sistem
 .DS_Store
 Thumbs.db
+
+# Cache Python (skrip tools)
+__pycache__/
+*.pyc

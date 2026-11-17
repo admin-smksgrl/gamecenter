@@ -1,0 +1,1376 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-inggris",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ENG 4",
+      "title": "Healthy Foods",
+      "description": "Membaca tips makan sehat, memahami teks prosedur tentang makanan, lalu menulis prosedur dan tantangan makan sehat lima hari.",
+      "learning_objectives": [
+        "Identify context, main ideas and detailed information from an oral and verbal procedure text presented in multimodal form about healthy foods.",
+        "Communicate simple ideas and opinions in various discussions, collaborative activities and presentations orally about healthy foods.",
+        "Write a procedure text about healthy foods with an appropriate structure of organization and linguistic features and present it."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Buku Bahasa Inggris Work in Progress untuk SMA/SMK/MA Kelas X, Bab 4 — Healthy Foods",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Simple Tips for Healthy Eating",
+          "duration": 240,
+          "source_reference": "Bab 4 — Healthy Foods (halaman 84-86)",
+          "content": "## Why eat healthier?\n\nAll of us know about the benefits of eating healthier. Proper nutrition helps us prevent cancer, heart disease, and other serious ailments. It allows us to lose weight and keep the pounds off. Eating healthier also helps to enhance our mood substantially and increases our chances of living longer and enjoying well-being while we are alive. The text simplifies the rules for eating healthier for those who are interested in improving the way they eat.\n\n### Six simple tips\n\n1. Eat real food, not processed food.\n1. Eat a variety of different foods.\n1. Cook more than eating out.\n1. Stop eating before you are full.\n1. Eat at the dining table, not in your car or at your desk.\n1. Drink water and forget everything else.\n\n| Tip | Key idea | Example |\n|---|---|---|\n| Eat real food | Choose food in its natural state | Fresh vegetables instead of canned vegetables |\n| Eat a variety | Different foods give different nutrients | Rice, vegetables, fruit, beans, and fish |\n| Cook more | Control what goes into your food and save money | Home-cooked meals instead of takeaway food |\n| Stop before full | The stomach needs time to signal that it is full | Leave some room in your stomach |\n| Eat at a table | Focus on the meal and avoid eating unconsciously | Sit at the dining table, not at your desk |\n| Drink water | Water is the healthiest drink | Water instead of soda or energy drinks |\n\n### Foods to limit\n\nProcessed foods have been greatly modified and contain a lot of ingredients that do not exist in the food naturally. Examples are convenience snacks such as potato chips and baked crisps, white bread, cereals, canned vegetables, canned meats, canned fruit, granola bars, candy bars, white sugar, bleached flour, beef jerky, soda, sports drinks, margarine, packaged cookies, frozen dinners, processed meats like hot dogs, canned soups, fruit juices, and ketchup.\n\nAdapted from: http://www.skilledatlife.com/16-simple-rules-for-healthy-eating/ — Retrieved: 12 February 2022.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Nutrition",
+                  "definition": "The food and substances that a body needs to stay healthy and grow."
+                },
+                {
+                  "term": "Processed food",
+                  "definition": "Food that has been modified in a factory and contains many added ingredients."
+                },
+                {
+                  "term": "Nutrient",
+                  "definition": "A substance in food that the body uses for energy, growth, and health."
+                },
+                {
+                  "term": "Satiated",
+                  "definition": "Feeling completely full."
+                },
+                {
+                  "term": "Additive",
+                  "definition": "A substance added to food, often to change its colour, taste, or shelf life."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Why eat healthier?"
+            },
+            {
+              "type": "paragraph",
+              "text": "All of us know about the benefits of eating healthier. Proper nutrition helps us prevent cancer, heart disease, and other serious ailments. It allows us to lose weight and keep the pounds off. Eating healthier also helps to enhance our mood substantially and increases our chances of living longer and enjoying well-being while we are alive. The text simplifies the rules for eating healthier for those who are interested in improving the way they eat."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Six simple tips"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Eat real food, not processed food.",
+                "Eat a variety of different foods.",
+                "Cook more than eating out.",
+                "Stop eating before you are full.",
+                "Eat at the dining table, not in your car or at your desk.",
+                "Drink water and forget everything else."
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-eng4-tips",
+              "engine": "mermaid",
+              "title": "The six healthy eating tips",
+              "code": "flowchart LR\n  A[Real food] --> B[Variety]\n  B --> C[Cook at home]\n  C --> D[Stop before full]\n  D --> E[Eat at a table]\n  E --> F[Drink water]"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tip",
+                  "Key idea",
+                  "Example"
+                ],
+                [
+                  "Eat real food",
+                  "Choose food in its natural state",
+                  "Fresh vegetables instead of canned vegetables"
+                ],
+                [
+                  "Eat a variety",
+                  "Different foods give different nutrients",
+                  "Rice, vegetables, fruit, beans, and fish"
+                ],
+                [
+                  "Cook more",
+                  "Control what goes into your food and save money",
+                  "Home-cooked meals instead of takeaway food"
+                ],
+                [
+                  "Stop before full",
+                  "The stomach needs time to signal that it is full",
+                  "Leave some room in your stomach"
+                ],
+                [
+                  "Eat at a table",
+                  "Focus on the meal and avoid eating unconsciously",
+                  "Sit at the dining table, not at your desk"
+                ],
+                [
+                  "Drink water",
+                  "Water is the healthiest drink",
+                  "Water instead of soda or energy drinks"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Foods to limit"
+            },
+            {
+              "type": "paragraph",
+              "text": "Processed foods have been greatly modified and contain a lot of ingredients that do not exist in the food naturally. Examples are convenience snacks such as potato chips and baked crisps, white bread, cereals, canned vegetables, canned meats, canned fruit, granola bars, candy bars, white sugar, bleached flour, beef jerky, soda, sports drinks, margarine, packaged cookies, frozen dinners, processed meats like hot dogs, canned soups, fruit juices, and ketchup."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-eng4-food",
+              "prompt": "Group each food as real food or processed food.",
+              "buckets": [
+                {
+                  "id": "real",
+                  "label": "Real food"
+                },
+                {
+                  "id": "processed",
+                  "label": "Processed food"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "fresh vegetables",
+                  "bucket": "real"
+                },
+                {
+                  "id": "i2",
+                  "text": "potato chips",
+                  "bucket": "processed"
+                },
+                {
+                  "id": "i3",
+                  "text": "canned meat",
+                  "bucket": "processed"
+                },
+                {
+                  "id": "i4",
+                  "text": "fresh fruit",
+                  "bucket": "real"
+                },
+                {
+                  "id": "i5",
+                  "text": "frozen dinner",
+                  "bucket": "processed"
+                },
+                {
+                  "id": "i6",
+                  "text": "home-cooked rice",
+                  "bucket": "real"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Makanan olahan pabrik mengandung banyak bahan tambahan; makanan asli masih mendekati bentuk alaminya.",
+                "wrong": "Ingat: makanan kaleng, camilan kemasan, dan makanan beku adalah olahan; sayur dan buah segar adalah makanan asli."
+              }
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Adapted from: http://www.skilledatlife.com/16-simple-rules-for-healthy-eating/ — Retrieved: 12 February 2022."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng4-variety",
+              "question": "Why should we eat a variety of different foods?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Different foods provide different nutrients.",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Variety makes food more expensive."
+                },
+                {
+                  "id": "c",
+                  "text": "One food already contains every nutrient."
+                }
+              ],
+              "explanation": "Setiap bahan makanan memiliki susunan gizi sendiri, sehingga variasi membantu memenuhi semua kebutuhan gizi."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng4-water",
+              "question": "According to the text, what is the healthiest drink?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Water",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Energy drinks"
+                },
+                {
+                  "id": "c",
+                  "text": "Flavoured soda"
+                }
+              ],
+              "explanation": "Teks menyebut air sebagai minuman paling sehat; soda dan minuman energi justru harus dihindari."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng4-satiated",
+              "question": "The word \"satiated\" is closest in meaning to …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "completely full",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "very hungry"
+                },
+                {
+                  "id": "c",
+                  "text": "slightly thirsty"
+                }
+              ],
+              "explanation": "Satiated berarti merasa kenyang sepenuhnya."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Understanding Food Procedure Texts",
+          "duration": 240,
+          "source_reference": "Bab 4 — Healthy Foods (halaman 83-87)",
+          "content": "## Parts of a spoken procedure\n\nA procedure text gives instructions for doing a particular activity. It can also explain how something works. It consists of a goal or purpose, may or may not contain materials, and steps. In a spoken dialogue, the parts can appear as an opening, a goal, a series of suggestions, and a closing.\n\n| Part | Example from the dialogue |\n|---|---|\n| Opening | Hi, Sidar. How are you? |\n| Goal | Always eat the right foods so you can stay healthy. |\n| Series of suggestions | First, take medicine for your stomach ache. Then after it gets better you need to mind what you eat. |\n| Closing | One last thing, don't eat too much spicy food like that cireng with hot sauce. Okay, see you then. |\n\n### Language focus\n\n- Imperatives give direct advice: take, mind, don't eat.\n- Sequence words organise the advice: first, then, after it gets better, one last thing.\n- The word \"this\" can refer back to a whole rule or sentence.\n- Caffeine should be avoided because it can disturb health, especially when someone is not well.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Opening",
+                  "definition": "The greeting or beginning part of a spoken procedure text."
+                },
+                {
+                  "term": "Goal",
+                  "definition": "The purpose of the procedure, for example staying healthy by eating right."
+                },
+                {
+                  "term": "Series of suggestions",
+                  "definition": "The ordered advice that tells the listener what to do."
+                },
+                {
+                  "term": "Closing",
+                  "definition": "The ending part that signals the conversation is finished."
+                },
+                {
+                  "term": "Caffeine",
+                  "definition": "A substance in coffee, tea, and some drinks that can keep people awake."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Parts of a spoken procedure"
+            },
+            {
+              "type": "paragraph",
+              "text": "A procedure text gives instructions for doing a particular activity. It can also explain how something works. It consists of a goal or purpose, may or may not contain materials, and steps. In a spoken dialogue, the parts can appear as an opening, a goal, a series of suggestions, and a closing."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Part",
+                  "Example from the dialogue"
+                ],
+                [
+                  "Opening",
+                  "Hi, Sidar. How are you?"
+                ],
+                [
+                  "Goal",
+                  "Always eat the right foods so you can stay healthy."
+                ],
+                [
+                  "Series of suggestions",
+                  "First, take medicine for your stomach ache. Then after it gets better you need to mind what you eat."
+                ],
+                [
+                  "Closing",
+                  "One last thing, don't eat too much spicy food like that cireng with hot sauce. Okay, see you then."
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Language focus"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Imperatives give direct advice: take, mind, don't eat.",
+                "Sequence words organise the advice: first, then, after it gets better, one last thing.",
+                "The word \"this\" can refer back to a whole rule or sentence.",
+                "Caffeine should be avoided because it can disturb health, especially when someone is not well."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng4-dialogue-part",
+              "question": "\"Hi, Sidar. How are you?\" belongs to which part of the spoken procedure?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Opening",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Goal"
+                },
+                {
+                  "id": "c",
+                  "text": "Closing"
+                }
+              ],
+              "explanation": "Sapaan di awal percakapan termasuk bagian opening."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng4-this",
+              "question": "In \"Following this rule also reduces the chances of eating when you are bored\", the word \"this\" refers to …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "eating at the dining table, not in your car or at your desk",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "drinking water and forgetting everything else"
+                },
+                {
+                  "id": "c",
+                  "text": "cooking more than eating out"
+                }
+              ],
+              "explanation": "\"This rule\" merujuk pada aturan tepat sebelumnya, yaitu makan di meja makan, bukan di mobil atau meja kerja."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng4-caffeine",
+              "question": "Why should caffeine be avoided when someone is unwell?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "It can disturb the body's condition and recovery.",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "It makes food taste better."
+                },
+                {
+                  "id": "c",
+                  "text": "It is a source of protein."
+                }
+              ],
+              "explanation": "Dalam dialog, kafein disebut sebagai hal yang perlu dihindari saat sakit agar kondisi tubuh tidak makin terganggu."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Writing a Healthy Eating Challenge",
+          "duration": 240,
+          "source_reference": "Bab 4 — Healthy Foods (halaman 89-96)",
+          "content": "## Dos and don'ts of healthy eating\n\n| Dos | Don'ts |\n|---|---|\n| Drink plenty of water | Eat after 7 P.M. |\n| Watch your portion sizes | Skip meals |\n| Make healthy food choices | Forbid yourself a particular food |\n| Only eat in certain settings, such as the kitchen table | Eat while you watch TV |\n| Eat home-cooked meals | Eat sugary snacks |\n| Eat slowly | Be a picky eater |\n\n### Draft your procedure\n\nComplete a draft with a title, a purpose, and numbered steps. The purpose should be written in clear sentences, and the steps must be in the correct order. A good procedure text is between 100 and 200 words, uses correct spelling and punctuation, and may include a picture.\n\n| Part | What to write |\n|---|---|\n| Title | A clear name for your healthy eating guide |\n| Purpose | What the reader will achieve by following the text |\n| Steps | Numbered instructions in the correct order |\n\n### Plan a five-day challenge\n\n1. Name the challenge.\n1. Write the objective: why the challenge is made.\n1. Identify the target: who should do the challenge.\n1. Set the time: how long the challenge will take.\n1. Write the steps or stages for completing the challenge.\n1. Publish the challenge and invite others to share their experience.\n\nPossible challenges include no sugary drinks, local food only for lunch, homemade breakfast, a healthy plate, non-rice carbohydrate for dinner, two litres of water a day, and fruit for a snack. A strong challenge is transformative, feasible, equitable, and scalable.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dos and don'ts of healthy eating"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Dos",
+                  "Don'ts"
+                ],
+                [
+                  "Drink plenty of water",
+                  "Eat after 7 P.M."
+                ],
+                [
+                  "Watch your portion sizes",
+                  "Skip meals"
+                ],
+                [
+                  "Make healthy food choices",
+                  "Forbid yourself a particular food"
+                ],
+                [
+                  "Only eat in certain settings, such as the kitchen table",
+                  "Eat while you watch TV"
+                ],
+                [
+                  "Eat home-cooked meals",
+                  "Eat sugary snacks"
+                ],
+                [
+                  "Eat slowly",
+                  "Be a picky eater"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Draft your procedure"
+            },
+            {
+              "type": "paragraph",
+              "text": "Complete a draft with a title, a purpose, and numbered steps. The purpose should be written in clear sentences, and the steps must be in the correct order. A good procedure text is between 100 and 200 words, uses correct spelling and punctuation, and may include a picture."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Part",
+                  "What to write"
+                ],
+                [
+                  "Title",
+                  "A clear name for your healthy eating guide"
+                ],
+                [
+                  "Purpose",
+                  "What the reader will achieve by following the text"
+                ],
+                [
+                  "Steps",
+                  "Numbered instructions in the correct order"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Plan a five-day challenge"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Name the challenge.",
+                "Write the objective: why the challenge is made.",
+                "Identify the target: who should do the challenge.",
+                "Set the time: how long the challenge will take.",
+                "Write the steps or stages for completing the challenge.",
+                "Publish the challenge and invite others to share their experience."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Possible challenges include no sugary drinks, local food only for lunch, homemade breakfast, a healthy plate, non-rice carbohydrate for dinner, two litres of water a day, and fruit for a snack. A strong challenge is transformative, feasible, equitable, and scalable."
+            },
+            {
+              "type": "sort",
+              "id": "srt-eng4-challenge",
+              "prompt": "Put the challenge-planning steps in the correct order.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Name the challenge"
+                },
+                {
+                  "id": "s2",
+                  "text": "Write the objective"
+                },
+                {
+                  "id": "s3",
+                  "text": "Identify the target"
+                },
+                {
+                  "id": "s4",
+                  "text": "Set the time"
+                },
+                {
+                  "id": "s5",
+                  "text": "Write the steps"
+                },
+                {
+                  "id": "s6",
+                  "text": "Publish the challenge"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5",
+                "s6"
+              ],
+              "feedback": {
+                "correct": "Urutan tepat: nama, tujuan, sasaran, waktu, langkah, lalu publikasi.",
+                "wrong": "Ingat: langkah dibuat setelah sasaran dan waktu ditentukan."
+              }
+            },
+            {
+              "type": "scenario",
+              "id": "sc-eng4-canteen",
+              "title": "Choosing lunch at the school canteen",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "At the canteen you can buy fried chicken with a sugary drink or rice with vegetables and water. What do you choose?",
+                  "choices": [
+                    {
+                      "text": "Rice with vegetables and water",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Pilihan ini mengandung makanan asli, sayur, dan air, sesuai tips makan sehat."
+                    },
+                    {
+                      "text": "Fried chicken with a sugary drink",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Gorengan dan minuman manis tinggi kalori serta rendah gizi."
+                    },
+                    {
+                      "text": "Skip lunch and eat a snack later",
+                      "next": "n4",
+                      "score": 0,
+                      "feedback": "Melewatkan makan bukan kebiasaan sehat."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Your friend says the vegetables are boring. What do you suggest?",
+                  "choices": [
+                    {
+                      "text": "Try a variety of vegetables and fruit so the meal stays interesting",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Variasi makanan membantu memenuhi berbagai zat gizi sekaligus menjaga selera."
+                    },
+                    {
+                      "text": "Replace the vegetables with candy",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Permen bukan pengganti sayur dan justru menambah gula."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "After lunch you feel thirsty. What do you drink?",
+                  "choices": [
+                    {
+                      "text": "Water",
+                      "next": "n7",
+                      "score": 1,
+                      "feedback": "Air adalah pilihan terbaik, meski pilihan makan sebelumnya kurang sehat."
+                    },
+                    {
+                      "text": "Another sugary drink",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "Minuman manis menambah gula dan kalori."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Your friend asks why skipping lunch is a problem. What do you say?",
+                  "choices": [
+                    {
+                      "text": "Skipping meals can reduce energy and make you overeat later",
+                      "next": "n5",
+                      "score": 1,
+                      "feedback": "Melewatkan makan dapat membuat energi turun dan porsi makan berikutnya berlebihan."
+                    },
+                    {
+                      "text": "Skipping meals is the best way to stay healthy",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Melewatkan makan bukan anjuran dalam daftar dos and don'ts."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "You build a balanced meal with variety and water. The choice supports healthy eating."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "The meal becomes less nutritious and does not support the healthy eating goal."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "The drink is healthy, but the meal itself still needs improvement."
+                },
+                {
+                  "id": "n8",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "More sugar is added, so the healthy eating goal is further away."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-eng4-vocab",
+              "title": "Vocabulary sprint: healthy foods",
+              "time_limit": 75,
+              "items": [
+                {
+                  "question": "Food changed in a factory is called … food.",
+                  "answer": "processed"
+                },
+                {
+                  "question": "Feeling completely full is being …",
+                  "answer": "satiated"
+                },
+                {
+                  "question": "A substance in coffee that keeps people awake is …",
+                  "answer": "caffeine"
+                },
+                {
+                  "question": "The food substances the body needs are called …",
+                  "answer": "nutrients"
+                },
+                {
+                  "question": "A substance added to food is an …",
+                  "answer": "additive"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Kosakata ini dipakai dalam tips dan prosedur makan sehat.",
+                "wrong": "Baca ulang Glossary, lalu tulis satu kalimat untuk setiap kata."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng4-challenge-plan",
+              "question": "Which part states who should do the challenge?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Target",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Objective"
+                },
+                {
+                  "id": "c",
+                  "text": "Name"
+                }
+              ],
+              "explanation": "Target menentukan siapa yang menjadi sasaran tantangan."
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Healthy Foods — Mudah",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which is an example of real food?",
+              "options": [
+                {
+                  "text": "Fresh vegetables",
+                  "correct": true
+                },
+                {
+                  "text": "Potato chips"
+                },
+                {
+                  "text": "Canned meat"
+                },
+                {
+                  "text": "Frozen dinner"
+                }
+              ],
+              "explanation": "Sayur segar masih mendekati bentuk alaminya; pilihan lain adalah makanan olahan pabrik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the healthiest drink according to the text?",
+              "options": [
+                {
+                  "text": "Water",
+                  "correct": true
+                },
+                {
+                  "text": "Soda"
+                },
+                {
+                  "text": "Energy drink"
+                },
+                {
+                  "text": "Sweet tea"
+                }
+              ],
+              "explanation": "Teks menyebut air sebagai minuman paling sehat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When should you stop eating?",
+              "options": [
+                {
+                  "text": "Before you feel completely full",
+                  "correct": true
+                },
+                {
+                  "text": "Only after you cannot move"
+                },
+                {
+                  "text": "After eating two large portions"
+                },
+                {
+                  "text": "When the plate is empty"
+                }
+              ],
+              "explanation": "Tips keempat: berhenti makan sebelum merasa kenyang sepenuhnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where should you eat your meals?",
+              "options": [
+                {
+                  "text": "At a proper dining table",
+                  "correct": true
+                },
+                {
+                  "text": "In a car"
+                },
+                {
+                  "text": "At a desk"
+                },
+                {
+                  "text": "In front of the television"
+                }
+              ],
+              "explanation": "Tips kelima: makan di meja makan, bukan di mobil atau meja kerja."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is \"satiated\" closest in meaning to?",
+              "options": [
+                {
+                  "text": "Full",
+                  "correct": true
+                },
+                {
+                  "text": "Hungry"
+                },
+                {
+                  "text": "Thirsty"
+                },
+                {
+                  "text": "Sleepy"
+                }
+              ],
+              "explanation": "Satiated berarti kenyang."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Healthy Foods — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Why is cooking your own food healthier?",
+              "options": [
+                {
+                  "text": "You can control what goes into your food.",
+                  "correct": true
+                },
+                {
+                  "text": "It always takes less time."
+                },
+                {
+                  "text": "It uses more chemicals."
+                },
+                {
+                  "text": "It replaces vegetables with snacks."
+                }
+              ],
+              "explanation": "Memasak sendiri memungkinkan pengaturan bahan dan menghindari bahan tambahan yang tidak sehat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why should you eat a variety of foods?",
+              "options": [
+                {
+                  "text": "To get all the nutrients the body needs",
+                  "correct": true
+                },
+                {
+                  "text": "To make every meal taste the same"
+                },
+                {
+                  "text": "To avoid vegetables"
+                },
+                {
+                  "text": "To eat only processed food"
+                }
+              ],
+              "explanation": "Variasi makanan membantu memenuhi kebutuhan gizi yang berbeda-beda."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which food is processed?",
+              "options": [
+                {
+                  "text": "Canned soup",
+                  "correct": true
+                },
+                {
+                  "text": "Fresh fruit"
+                },
+                {
+                  "text": "Home-cooked rice"
+                },
+                {
+                  "text": "Fresh vegetables"
+                }
+              ],
+              "explanation": "Sup kalengan adalah makanan olahan pabrik, sedangkan yang lain makanan asli."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does \"this\" refer to in \"Following this rule also reduces the chances of eating when you are bored\"?",
+              "options": [
+                {
+                  "text": "Eating at the dining table, not in your car or at your desk",
+                  "correct": true
+                },
+                {
+                  "text": "Drinking water",
+                  "correct": false
+                },
+                {
+                  "text": "Cooking more often"
+                },
+                {
+                  "text": "Eating a variety of foods"
+                }
+              ],
+              "explanation": "Kata \"this\" merujuk pada aturan tepat sebelum kalimat itu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which part of the dialogue is the goal?",
+              "options": [
+                {
+                  "text": "Always eat the right foods so you can stay healthy.",
+                  "correct": true
+                },
+                {
+                  "text": "Hi, Sidar. How are you?"
+                },
+                {
+                  "text": "Okay, see you then."
+                },
+                {
+                  "text": "First, take medicine for your stomach ache."
+                }
+              ],
+              "explanation": "Goal menyatakan tujuan yang ingin dicapai, yaitu makan makanan yang tepat agar tetap sehat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which is a \"don't\" in healthy eating?",
+              "options": [
+                {
+                  "text": "Skip meals",
+                  "correct": true
+                },
+                {
+                  "text": "Drink plenty of water"
+                },
+                {
+                  "text": "Watch your portion sizes"
+                },
+                {
+                  "text": "Eat slowly"
+                }
+              ],
+              "explanation": "Melewatkan makan termasuk daftar don'ts; pilihan lain adalah dos."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the purpose of a five-day healthy eating challenge?",
+              "options": [
+                {
+                  "text": "To help people build a healthier habit in a set period",
+                  "correct": true
+                },
+                {
+                  "text": "To make people eat only processed food"
+                },
+                {
+                  "text": "To replace all meals with snacks"
+                },
+                {
+                  "text": "To avoid drinking water"
+                }
+              ],
+              "explanation": "Tantangan dirancang untuk membangun kebiasaan sehat dalam waktu tertentu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which are examples of processed food? Choose all that apply.",
+              "options": [
+                {
+                  "text": "Potato chips",
+                  "correct": true
+                },
+                {
+                  "text": "Canned meat",
+                  "correct": true
+                },
+                {
+                  "text": "Frozen dinner",
+                  "correct": true
+                },
+                {
+                  "text": "Fresh fruit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Chips, daging kaleng, dan makanan beku adalah olahan; buah segar bukan."
+            },
+            {
+              "type": "matching",
+              "question": "Match each tip with its key idea.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Eat real food"
+                },
+                {
+                  "id": "o1",
+                  "text": "Eat a variety"
+                },
+                {
+                  "id": "o2",
+                  "text": "Cook more"
+                },
+                {
+                  "id": "o3",
+                  "text": "Drink water"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "choose food in its natural state",
+                  "o1": "get different nutrients",
+                  "o2": "control what goes into your food",
+                  "o3": "choose the healthiest drink"
+                }
+              },
+              "explanation": "Setiap tips menekankan prinsip yang berbeda dalam makan sehat."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Put the challenge-planning parts in order.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Name the challenge"
+                },
+                {
+                  "id": "o1",
+                  "text": "Write the objective"
+                },
+                {
+                  "id": "o2",
+                  "text": "Identify the target"
+                },
+                {
+                  "id": "o3",
+                  "text": "Write the steps"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Nama → tujuan → sasaran → langkah pelaksanaan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Healthy Foods — Sulit",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the main idea of the reading text?",
+              "options": [
+                {
+                  "text": "Healthy eating can be improved by following six simple rules.",
+                  "correct": true
+                },
+                {
+                  "text": "Processed food is always cheaper than real food."
+                },
+                {
+                  "text": "Cooking is too difficult for students."
+                },
+                {
+                  "text": "Water should be replaced by sports drinks."
+                }
+              ],
+              "explanation": "Teks menyajikan enam tips sederhana untuk makan lebih sehat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does the writer say that food served through a window is almost never healthy?",
+              "options": [
+                {
+                  "text": "It usually comes from takeaway or drive-through food.",
+                  "correct": true
+                },
+                {
+                  "text": "It is always cold."
+                },
+                {
+                  "text": "It contains too many vegetables."
+                },
+                {
+                  "text": "It is cooked at home."
+                }
+              ],
+              "explanation": "Makanan lewat jendela merujuk pada layanan cepat saji, yang umumnya kurang sehat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can you infer about eating while watching TV?",
+              "options": [
+                {
+                  "text": "You may eat unconsciously and consume more than needed.",
+                  "correct": true
+                },
+                {
+                  "text": "It helps you focus on your meal."
+                },
+                {
+                  "text": "It always makes food healthier."
+                },
+                {
+                  "text": "It replaces the need for dinner."
+                }
+              ],
+              "explanation": "Teks menyebut makan sambil melakukan hal lain membuat kita makan tanpa sadar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence best states the goal of a text titled \"How to Eat Healthily\"?",
+              "options": [
+                {
+                  "text": "This text explains steps to build healthier eating habits.",
+                  "correct": true
+                },
+                {
+                  "text": "I ate fried rice yesterday."
+                },
+                {
+                  "text": "Food is very interesting."
+                },
+                {
+                  "text": "My mother cooks every day."
+                }
+              ],
+              "explanation": "Goal harus menyatakan tujuan yang akan dicapai pembaca, bukan cerita pribadi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is a varied diet more nutritious than eating only one type of food?",
+              "options": [
+                {
+                  "text": "Different foods have different nutritional make-ups.",
+                  "correct": true
+                },
+                {
+                  "text": "One food contains every nutrient."
+                },
+                {
+                  "text": "Variety removes the need for water."
+                },
+                {
+                  "text": "Variety means eating more processed food."
+                }
+              ],
+              "explanation": "Setiap bahan makanan memiliki susunan gizi sendiri, sehingga variasi melengkapi kebutuhan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence uses the imperative correctly?",
+              "options": [
+                {
+                  "text": "Drink plenty of water every day.",
+                  "correct": true
+                },
+                {
+                  "text": "He drinks plenty of water."
+                },
+                {
+                  "text": "Drinking plenty of water is good."
+                },
+                {
+                  "text": "She drank plenty of water."
+                }
+              ],
+              "explanation": "Imperatif dimulai dengan kata kerja dasar: Drink."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of numbering the steps in a procedure text?",
+              "options": [
+                {
+                  "text": "To show the order the reader should follow",
+                  "correct": true
+                },
+                {
+                  "text": "To make the text longer"
+                },
+                {
+                  "text": "To replace the title"
+                },
+                {
+                  "text": "To hide the goal"
+                }
+              ],
+              "explanation": "Nomor menunjukkan urutan langkah agar pembaca mudah mengikuti."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which criticism of a healthy eating draft is most useful?",
+              "options": [
+                {
+                  "text": "Your second step repeats the first; combine them and add a time detail.",
+                  "correct": true
+                },
+                {
+                  "text": "Your draft is good."
+                },
+                {
+                  "text": "I do not like vegetables."
+                },
+                {
+                  "text": "You should write a story instead."
+                }
+              ],
+              "explanation": "Kritik yang berguna menunjukkan masalah konkret dan saran perbaikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What makes a challenge \"scalable\"?",
+              "options": [
+                {
+                  "text": "It can be expanded, replicated, or adapted to more participants.",
+                  "correct": true
+                },
+                {
+                  "text": "It can only be done by one person."
+                },
+                {
+                  "text": "It must be finished in one hour."
+                },
+                {
+                  "text": "It cannot be shared with others."
+                }
+              ],
+              "explanation": "Scalable berarti tantangan dapat diperluas dan diadaptasi untuk lebih banyak peserta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can you infer about adolescents' eating habits from the enrichment text?",
+              "options": [
+                {
+                  "text": "Many eat too little protein, fruit, and vegetables and too much sodium and fast food.",
+                  "correct": true
+                },
+                {
+                  "text": "All adolescents eat perfectly balanced meals."
+                },
+                {
+                  "text": "Adolescents never eat fast food."
+                },
+                {
+                  "text": "Fruit and vegetables are their main food."
+                }
+              ],
+              "explanation": "Teks pengayaan menyebut konsumsi protein, buah, dan sayur yang kurang serta natrium dan fast food yang berlebihan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is adolescence a critical period for nutrition?",
+              "options": [
+                {
+                  "text": "Habits formed then often last into adulthood.",
+                  "correct": true
+                },
+                {
+                  "text": "Nutrition only matters in adulthood."
+                },
+                {
+                  "text": "Teenagers do not need nutrients."
+                },
+                {
+                  "text": "Eating habits never change."
+                }
+              ],
+              "explanation": "Teks menyebut kebiasaan pada masa remaja sering terbawa hingga dewasa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which revision makes a healthy eating tip clearer?",
+              "options": [
+                {
+                  "text": "Eat at least one fruit or vegetable with every meal.",
+                  "correct": true
+                },
+                {
+                  "text": "Eat better."
+                },
+                {
+                  "text": "Food should be nice."
+                },
+                {
+                  "text": "Try to maybe eat something healthy sometimes."
+                }
+              ],
+              "explanation": "Tips yang jelas memberi tindakan konkret yang dapat langsung dilakukan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why should a procedure text mention the time needed for a challenge?",
+              "options": [
+                {
+                  "text": "Readers need to know how long they must commit.",
+                  "correct": true
+                },
+                {
+                  "text": "Time makes the text longer."
+                },
+                {
+                  "text": "The time replaces the steps."
+                },
+                {
+                  "text": "Readers do not need any information about time."
+                }
+              ],
+              "explanation": "Waktu pelaksanaan membantu pembaca memahami komitmen dan jadwal tantangan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which statements reflect the text's advice? Choose all that apply.",
+              "options": [
+                {
+                  "text": "Choose real food over processed food.",
+                  "correct": true
+                },
+                {
+                  "text": "Drink water instead of sugary drinks.",
+                  "correct": true
+                },
+                {
+                  "text": "Stop eating before you are completely full.",
+                  "correct": true
+                },
+                {
+                  "text": "Skip meals to lose weight quickly.",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga pernyataan pertama adalah tips teks; melewatkan makan justru ada di daftar don'ts."
+            },
+            {
+              "type": "puzzle",
+              "question": "Arrange the process of creating a healthy eating challenge.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Choose the challenge topic"
+                },
+                {
+                  "id": "s1",
+                  "text": "Write the objective and target"
+                },
+                {
+                  "id": "s2",
+                  "text": "Set the time and steps"
+                },
+                {
+                  "id": "s3",
+                  "text": "Publish the challenge"
+                },
+                {
+                  "id": "s4",
+                  "text": "Ask participants to share their experience"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Topik → tujuan dan sasaran → waktu dan langkah → publikasi → refleksi peserta."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

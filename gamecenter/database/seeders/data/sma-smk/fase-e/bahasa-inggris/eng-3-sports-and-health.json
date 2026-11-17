@@ -1,0 +1,1346 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "bahasa-inggris",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ENG 3",
+      "title": "Sports and Health",
+      "description": "Membaca dan menulis teks prosedur tentang olahraga dan kesehatan: mengenali tujuan, langkah, dan kalimat imperatif, lalu menyusun tips kesehatan serta kampanye poster.",
+      "learning_objectives": [
+        "Identify context, main ideas and detailed information from an oral and verbal procedure text presented in multimodal form about sports and health.",
+        "Communicate simple ideas and opinions in various discussions, collaborative activities and presentations orally about sports and health.",
+        "Write a procedure text about sports and health with an appropriate structure of organization and linguistic features and present it."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "Buku Bahasa Inggris Work in Progress untuk SMA/SMK/MA Kelas X, Bab 3 — Sports and Health",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Procedure Text",
+          "duration": 240,
+          "source_reference": "Bab 3 — Sports and Health (halaman 54)",
+          "content": "## What is a procedure text?\n\nA procedure text is a text that gives instructions for doing a particular activity. It can also serve to explain how something works. It aims to give instruction or to explain how something can be done. It uses imperative and consists of goal or purpose, may or may not contain materials, and steps.\n\n### Structure\n\n| Part | Function | Example |\n|---|---|---|\n| Goal or purpose | States what the reader will do or achieve | How to stay healthy as a student |\n| Materials (optional) | Lists the things needed | A pair of running shoes, a water bottle |\n| Steps | Gives ordered instructions | First, exercise for 30 minutes. Then, drink enough water. |\n\n### Language features\n\n- Imperative sentences begin with a verb: Eat healthy food. Get eight hours of sleep.\n- Action verbs name the activity: exercise, brush, drink, avoid.\n- Sequence words show the order: first, next, then, after that, finally.\n- Adverbs tell how or how often: regularly, daily, slowly, carefully.\n\nA procedure text is judged by whether the reader can follow the steps and reach the goal without asking extra questions.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Procedure text",
+                  "definition": "A text that gives instructions for doing a particular activity or explains how something works."
+                },
+                {
+                  "term": "Goal",
+                  "definition": "The purpose of the procedure; it tells the reader what will be achieved."
+                },
+                {
+                  "term": "Materials",
+                  "definition": "The things needed to do the activity; this part may or may not be present."
+                },
+                {
+                  "term": "Steps",
+                  "definition": "The ordered instructions that must be followed to reach the goal."
+                },
+                {
+                  "term": "Imperative",
+                  "definition": "A sentence that gives a command or instruction, for example \"Eat healthy food.\""
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "What is a procedure text?"
+            },
+            {
+              "type": "paragraph",
+              "text": "A procedure text is a text that gives instructions for doing a particular activity. It can also serve to explain how something works. It aims to give instruction or to explain how something can be done. It uses imperative and consists of goal or purpose, may or may not contain materials, and steps."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-eng3-structure",
+              "engine": "mermaid",
+              "title": "Structure of a procedure text",
+              "code": "flowchart TD\n  A[Goal or purpose: what will be achieved] --> B[Materials: things needed, optional]\n  B --> C[Steps: ordered instructions]\n  C --> D[Result: the goal is achieved]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Structure"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Part",
+                  "Function",
+                  "Example"
+                ],
+                [
+                  "Goal or purpose",
+                  "States what the reader will do or achieve",
+                  "How to stay healthy as a student"
+                ],
+                [
+                  "Materials (optional)",
+                  "Lists the things needed",
+                  "A pair of running shoes, a water bottle"
+                ],
+                [
+                  "Steps",
+                  "Gives ordered instructions",
+                  "First, exercise for 30 minutes. Then, drink enough water."
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Language features"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Imperative sentences begin with a verb: Eat healthy food. Get eight hours of sleep.",
+                "Action verbs name the activity: exercise, brush, drink, avoid.",
+                "Sequence words show the order: first, next, then, after that, finally.",
+                "Adverbs tell how or how often: regularly, daily, slowly, carefully."
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "A procedure text is judged by whether the reader can follow the steps and reach the goal without asking extra questions."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng3-purpose",
+              "question": "What is the purpose of a procedure text?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "To give instructions for doing an activity",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "To retell a past experience"
+                },
+                {
+                  "id": "c",
+                  "text": "To describe a person's appearance"
+                }
+              ],
+              "explanation": "Teks prosedur memberi petunjuk langkah demi langkah agar pembaca dapat melakukan aktivitas."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng3-imperative",
+              "question": "Which sentence is an imperative?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Drink enough water every day.",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "I drank enough water yesterday."
+                },
+                {
+                  "id": "c",
+                  "text": "Water is important."
+                }
+              ],
+              "explanation": "Imperatif dimulai dengan kata kerja perintah, seperti \"Drink\"."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Reading: Health Tips and Self-care",
+          "duration": 240,
+          "source_reference": "Bab 3 — Sports and Health (halaman 55-64)",
+          "content": "## Everyday health habits\n\nA class survey lists habits that support health: exercise, eat healthy foods, check your weight, get eight hours of sleep, brush and floss your teeth, and wear sunscreen when you go outside. Self-care means to practise things including hygiene and nutrition to keep yourself physically and mentally healthy.\n\n### Mental health tips\n\n1. Engross yourself shortly with what is around you.\n1. Remind yourself that some things can go wrong.\n1. Mind your bodily well-being.\n1. Talk about your problem with someone you trust.\n1. Convince yourself that by the end of the day everything is going to be fine.\n\n### Habits for weight loss\n\n1. Avoid a sedentary lifestyle and begin to move around.\n1. Do not miss your morning meals.\n1. Drink water first thing when you get up from sleep.\n1. Keep enough gap between your dinner and your sleep.\n1. Do not take a big portion for your lunch.\n\n| Mental health | Physical health |\n|---|---|\n| Talk to someone you trust | Exercise regularly |\n| Accept that some things can go wrong | Eat healthy foods |\n| Mind your bodily well-being | Get eight hours of sleep |\n| Convince yourself things will be fine | Wear sunscreen outside |",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Self-care",
+                  "definition": "Practising things such as hygiene and nutrition to keep yourself physically and mentally healthy."
+                },
+                {
+                  "term": "Mental health",
+                  "definition": "The condition of your mind and emotions."
+                },
+                {
+                  "term": "Sedentary lifestyle",
+                  "definition": "A way of life with little physical movement."
+                },
+                {
+                  "term": "Nutrient",
+                  "definition": "A substance in food that the body needs to stay healthy."
+                },
+                {
+                  "term": "Sunscreen",
+                  "definition": "A product that protects the skin from sunlight."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Everyday health habits"
+            },
+            {
+              "type": "paragraph",
+              "text": "A class survey lists habits that support health: exercise, eat healthy foods, check your weight, get eight hours of sleep, brush and floss your teeth, and wear sunscreen when you go outside. Self-care means to practise things including hygiene and nutrition to keep yourself physically and mentally healthy."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mental health tips"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Engross yourself shortly with what is around you.",
+                "Remind yourself that some things can go wrong.",
+                "Mind your bodily well-being.",
+                "Talk about your problem with someone you trust.",
+                "Convince yourself that by the end of the day everything is going to be fine."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Habits for weight loss"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Avoid a sedentary lifestyle and begin to move around.",
+                "Do not miss your morning meals.",
+                "Drink water first thing when you get up from sleep.",
+                "Keep enough gap between your dinner and your sleep.",
+                "Do not take a big portion for your lunch."
+              ]
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Mental health",
+                  "Physical health"
+                ],
+                [
+                  "Talk to someone you trust",
+                  "Exercise regularly"
+                ],
+                [
+                  "Accept that some things can go wrong",
+                  "Eat healthy foods"
+                ],
+                [
+                  "Mind your bodily well-being",
+                  "Get eight hours of sleep"
+                ],
+                [
+                  "Convince yourself things will be fine",
+                  "Wear sunscreen outside"
+                ]
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-eng3-health",
+              "prompt": "Group each habit as mental or physical self-care.",
+              "buckets": [
+                {
+                  "id": "mental",
+                  "label": "Mental health"
+                },
+                {
+                  "id": "physical",
+                  "label": "Physical health"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Talk to someone you trust",
+                  "bucket": "mental"
+                },
+                {
+                  "id": "i2",
+                  "text": "Exercise for thirty minutes",
+                  "bucket": "physical"
+                },
+                {
+                  "id": "i3",
+                  "text": "Accept that some things can go wrong",
+                  "bucket": "mental"
+                },
+                {
+                  "id": "i4",
+                  "text": "Get eight hours of sleep",
+                  "bucket": "physical"
+                },
+                {
+                  "id": "i5",
+                  "text": "Convince yourself that things will be fine",
+                  "bucket": "mental"
+                },
+                {
+                  "id": "i6",
+                  "text": "Wear sunscreen when going outside",
+                  "bucket": "physical"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Kesehatan mental berkaitan dengan pikiran dan emosi, kesehatan fisik dengan tubuh.",
+                "wrong": "Periksa lagi: tips tentang perasaan dan pikiran termasuk mental; kebiasaan tubuh termasuk fisik."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng3-water",
+              "question": "According to the weight-loss habits, what should you drink first thing in the morning?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Water",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Sweet tea"
+                },
+                {
+                  "id": "c",
+                  "text": "Coffee with sugar"
+                }
+              ],
+              "explanation": "Kebiasaan yang dianjurkan adalah minum air putih begitu bangun tidur."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng3-sleep-gap",
+              "question": "Why should there be enough gap between dinner and sleep?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "To give the body time to digest before resting",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "So you can eat another meal before sleeping"
+                },
+                {
+                  "id": "c",
+                  "text": "Because dinner should be skipped"
+                }
+              ],
+              "explanation": "Jarak antara makan malam dan tidur memberi tubuh waktu mencerna makanan."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Writing Health Tips and a Campaign",
+          "duration": 240,
+          "source_reference": "Bab 3 — Sports and Health (halaman 65-74)",
+          "content": "## Plan your procedure text\n\nBefore writing, decide which aspect of health you will write about and who your readers are. Then fill in an organizer with a title, a purpose, and the steps. The purpose should be written in clear sentences, and the steps must be in the correct order.\n\n| Part of organizer | Question to answer |\n|---|---|\n| Title | What is the text about? |\n| Purpose | What will the reader achieve? |\n| Steps | What should the reader do first, next, and finally? |\n\n### Steps to write\n\n1. Choose the health aspect and the target reader.\n1. Collect enough sources to support your tips.\n1. Write the title and the purpose.\n1. List the steps in the correct order using imperatives.\n1. Do a peer review.\n1. Revise and publish the text, for example as an infographic.\n\n### Peer review checklist\n\n| Aspect | Question |\n|---|---|\n| Title | Do you write the text title? |\n| Purpose | Is your purpose written in clear sentences? |\n| Steps | Are your steps clear and in the correct order? |\n| Sentences | Are your sentences complete and easy to understand? |\n| Mechanics | Are the spelling and punctuation correct? |\n| Length | Is the text between 100 and 200 words? |\n| Multimodal | Does the text use another mode, for example a picture? |\n\n### Health campaign poster\n\n- Choose the aspect of health you want to promote.\n- Identify your target audience.\n- Check that your sources support the campaign message.\n- Use text, image, layout, and font to present the message clearly.\n- Make sure the poster is free of spelling mistakes.\n- Publish the poster to the media of your choice.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Plan your procedure text"
+            },
+            {
+              "type": "paragraph",
+              "text": "Before writing, decide which aspect of health you will write about and who your readers are. Then fill in an organizer with a title, a purpose, and the steps. The purpose should be written in clear sentences, and the steps must be in the correct order."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Part of organizer",
+                  "Question to answer"
+                ],
+                [
+                  "Title",
+                  "What is the text about?"
+                ],
+                [
+                  "Purpose",
+                  "What will the reader achieve?"
+                ],
+                [
+                  "Steps",
+                  "What should the reader do first, next, and finally?"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Steps to write"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Choose the health aspect and the target reader.",
+                "Collect enough sources to support your tips.",
+                "Write the title and the purpose.",
+                "List the steps in the correct order using imperatives.",
+                "Do a peer review.",
+                "Revise and publish the text, for example as an infographic."
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-eng3-writing",
+              "prompt": "Put the writing steps in the correct order.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Choose the health aspect and target reader"
+                },
+                {
+                  "id": "s2",
+                  "text": "Collect supporting sources"
+                },
+                {
+                  "id": "s3",
+                  "text": "Write the title and purpose"
+                },
+                {
+                  "id": "s4",
+                  "text": "List the steps using imperatives"
+                },
+                {
+                  "id": "s5",
+                  "text": "Do a peer review"
+                },
+                {
+                  "id": "s6",
+                  "text": "Revise and publish"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5",
+                "s6"
+              ],
+              "feedback": {
+                "correct": "Urutan tepat: tentukan topik dan pembaca, kumpulkan sumber, tulis, tinjau, lalu publikasikan.",
+                "wrong": "Ingat: langkah ditulis setelah tujuan, dan publikasi dilakukan setelah revisi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Peer review checklist"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspect",
+                  "Question"
+                ],
+                [
+                  "Title",
+                  "Do you write the text title?"
+                ],
+                [
+                  "Purpose",
+                  "Is your purpose written in clear sentences?"
+                ],
+                [
+                  "Steps",
+                  "Are your steps clear and in the correct order?"
+                ],
+                [
+                  "Sentences",
+                  "Are your sentences complete and easy to understand?"
+                ],
+                [
+                  "Mechanics",
+                  "Are the spelling and punctuation correct?"
+                ],
+                [
+                  "Length",
+                  "Is the text between 100 and 200 words?"
+                ],
+                [
+                  "Multimodal",
+                  "Does the text use another mode, for example a picture?"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Health campaign poster"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Choose the aspect of health you want to promote.",
+                "Identify your target audience.",
+                "Check that your sources support the campaign message.",
+                "Use text, image, layout, and font to present the message clearly.",
+                "Make sure the poster is free of spelling mistakes.",
+                "Publish the poster to the media of your choice."
+              ]
+            },
+            {
+              "type": "scenario",
+              "id": "sc-eng3-advice",
+              "title": "Giving health advice",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "A classmate says, \"I can't keep my eyes open in morning classes.\" What advice do you give?",
+                  "choices": [
+                    {
+                      "text": "Suggest getting eight hours of sleep and keeping a regular bedtime",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Kurang tidur adalah penyebab umum kantuk di kelas; sarannya sesuai dan dapat dilakukan."
+                    },
+                    {
+                      "text": "Tell them to drink more coffee every morning",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Kopi hanya menutupi gejala dan tidak memperbaiki kebiasaan tidur."
+                    },
+                    {
+                      "text": "Say it is not a health problem",
+                      "next": "n4",
+                      "score": 0,
+                      "feedback": "Kantuk berlebihan dapat mengganggu belajar dan perlu ditangani."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Your classmate also says they often skip breakfast. What do you suggest?",
+                  "choices": [
+                    {
+                      "text": "Do not miss morning meals and choose healthy food",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Sarapan membantu energi dan konsentrasi; sarannya sesuai kebiasaan sehat."
+                    },
+                    {
+                      "text": "Skip lunch instead to balance the calories",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Melewatkan makan lagi memperburuk pola makan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "A week later your classmate still feels sleepy. What do you do?",
+                  "choices": [
+                    {
+                      "text": "Review the sleep habit and suggest talking to a trusted adult or doctor",
+                      "next": "n7",
+                      "score": 1,
+                      "feedback": "Mencari bantuan yang tepat lebih baik daripada terus memberi solusi yang sama."
+                    },
+                    {
+                      "text": "Tell them to drink even more coffee",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "Menambah kopi tidak menyelesaikan penyebab masalah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Your classmate asks why sleep matters. What do you say?",
+                  "choices": [
+                    {
+                      "text": "Sleep helps the body recover and the mind concentrate",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Penjelasan yang benar membantu teman memahami alasan di balik saran."
+                    },
+                    {
+                      "text": "Sleep is only for young children",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "Remaja juga membutuhkan tidur yang cukup."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Your friend now has a clear, realistic plan for sleep and breakfast."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Skipping another meal makes the problem worse instead of balancing it."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "The advice is adjusted and professional help is considered when needed."
+                },
+                {
+                  "id": "n8",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "The real cause is ignored, so the problem continues."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-eng3-imperatives",
+              "title": "Imperative sprint: health tips",
+              "time_limit": 75,
+              "items": [
+                {
+                  "question": "Ubah menjadi imperatif: \"You should drink water.\" → … water.",
+                  "answer": "drink"
+                },
+                {
+                  "question": "Ubah menjadi imperatif: \"You should eat healthy food.\" → … healthy food.",
+                  "answer": "eat"
+                },
+                {
+                  "question": "Ubah menjadi imperatif: \"You should not skip breakfast.\" → … skip breakfast.",
+                  "answer": "do not"
+                },
+                {
+                  "question": "Kata urutan pertama dalam langkah: …",
+                  "answer": "first"
+                },
+                {
+                  "question": "Kata urutan terakhir dalam langkah: …",
+                  "answer": "finally"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Imperatif dimulai dengan kata kerja, dan kata urutan membantu pembaca mengikuti langkah.",
+                "wrong": "Ingat pola imperatif: kata kerja dasar di awal kalimat, tanpa subjek."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-eng3-peer-review",
+              "question": "A peer reviewer says your steps are out of order. What should you do?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Reorder the steps so the reader can follow them",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Add more adjectives to the title"
+                },
+                {
+                  "id": "c",
+                  "text": "Delete the purpose sentence"
+                }
+              ],
+              "explanation": "Teks prosedur harus berurutan; memperbaiki urutan adalah prioritas utama."
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Sports and Health — Mudah",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "A procedure text gives …",
+              "options": [
+                {
+                  "text": "instructions for doing an activity",
+                  "correct": true
+                },
+                {
+                  "text": "a description of a person"
+                },
+                {
+                  "text": "a story about the past"
+                },
+                {
+                  "text": "an opinion about a film"
+                }
+              ],
+              "explanation": "Teks prosedur memberi petunjuk melakukan suatu aktivitas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which part states what the reader will achieve?",
+              "options": [
+                {
+                  "text": "Goal or purpose",
+                  "correct": true
+                },
+                {
+                  "text": "Materials"
+                },
+                {
+                  "text": "Steps"
+                },
+                {
+                  "text": "Reorientation"
+                }
+              ],
+              "explanation": "Goal atau purpose menyatakan tujuan yang akan dicapai pembaca."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence is an imperative?",
+              "options": [
+                {
+                  "text": "Get eight hours of sleep.",
+                  "correct": true
+                },
+                {
+                  "text": "I get eight hours of sleep."
+                },
+                {
+                  "text": "Sleep is important."
+                },
+                {
+                  "text": "She slept well."
+                }
+              ],
+              "explanation": "Imperatif dimulai dengan kata kerja perintah, yaitu \"Get\"."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does \"self-care\" include?",
+              "options": [
+                {
+                  "text": "Hygiene and nutrition",
+                  "correct": true
+                },
+                {
+                  "text": "Ignoring your feelings"
+                },
+                {
+                  "text": "Skipping meals"
+                },
+                {
+                  "text": "Staying awake all night"
+                }
+              ],
+              "explanation": "Self-care mencakup kebiasaan seperti kebersihan dan gizi untuk menjaga kesehatan fisik dan mental."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many hours of sleep does the survey mention?",
+              "options": [
+                {
+                  "text": "Eight hours",
+                  "correct": true
+                },
+                {
+                  "text": "Two hours"
+                },
+                {
+                  "text": "Twelve hours"
+                },
+                {
+                  "text": "Four hours"
+                }
+              ],
+              "explanation": "Daftar kebiasaan sehat menyebut \"get 8 hours of sleep\"."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Sports and Health — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which part may or may not be present in a procedure text?",
+              "options": [
+                {
+                  "text": "Materials",
+                  "correct": true
+                },
+                {
+                  "text": "Goal"
+                },
+                {
+                  "text": "Steps"
+                },
+                {
+                  "text": "Title"
+                }
+              ],
+              "explanation": "Teks prosedur selalu punya tujuan dan langkah; materials bersifat opsional."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which word shows the order of steps?",
+              "options": [
+                {
+                  "text": "Then",
+                  "correct": true
+                },
+                {
+                  "text": "Because"
+                },
+                {
+                  "text": "Although"
+                },
+                {
+                  "text": "However"
+                }
+              ],
+              "explanation": "Then adalah kata urutan; because, although, dan however menunjukkan sebab atau pertentangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What should you do first thing in the morning to support weight loss?",
+              "options": [
+                {
+                  "text": "Drink water",
+                  "correct": true
+                },
+                {
+                  "text": "Eat a big lunch"
+                },
+                {
+                  "text": "Stay in bed all morning"
+                },
+                {
+                  "text": "Skip breakfast"
+                }
+              ],
+              "explanation": "Kebiasaan yang dianjurkan adalah minum air putih setelah bangun tidur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which habit helps mental health?",
+              "options": [
+                {
+                  "text": "Talking about your problem with someone you trust",
+                  "correct": true
+                },
+                {
+                  "text": "Keeping all problems secret"
+                },
+                {
+                  "text": "Skipping sleep"
+                },
+                {
+                  "text": "Avoiding all physical activity"
+                }
+              ],
+              "explanation": "Berbagi masalah dengan orang yang dipercaya adalah tips kesehatan mental dalam teks."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is a sedentary lifestyle unhealthy?",
+              "options": [
+                {
+                  "text": "It involves too little physical movement.",
+                  "correct": true
+                },
+                {
+                  "text": "It involves too much exercise."
+                },
+                {
+                  "text": "It means eating too many vegetables."
+                },
+                {
+                  "text": "It means sleeping eight hours."
+                }
+              ],
+              "explanation": "Sedentary lifestyle berarti gaya hidup dengan sedikit gerak, sehingga dianjurkan untuk bergerak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What makes a procedure text easy to follow?",
+              "options": [
+                {
+                  "text": "Clear steps in the correct order",
+                  "correct": true
+                },
+                {
+                  "text": "Many difficult adjectives"
+                },
+                {
+                  "text": "A long personal story"
+                },
+                {
+                  "text": "No title"
+                }
+              ],
+              "explanation": "Langkah yang jelas dan berurutan adalah inti teks prosedur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence uses an imperative correctly?",
+              "options": [
+                {
+                  "text": "Avoid a sedentary lifestyle.",
+                  "correct": true
+                },
+                {
+                  "text": "He avoids a sedentary lifestyle."
+                },
+                {
+                  "text": "Avoiding a sedentary lifestyle is good."
+                },
+                {
+                  "text": "She avoided a sedentary lifestyle."
+                }
+              ],
+              "explanation": "Imperatif memakai kata kerja dasar di awal: Avoid."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which habits are mentioned in the health survey? Choose all that apply.",
+              "options": [
+                {
+                  "text": "Exercise",
+                  "correct": true
+                },
+                {
+                  "text": "Eat healthy foods",
+                  "correct": true
+                },
+                {
+                  "text": "Wear sunscreen outside",
+                  "correct": true
+                },
+                {
+                  "text": "Skip breakfast every day",
+                  "correct": false
+                }
+              ],
+              "explanation": "Survei menyebut olahraga, makan sehat, dan tabir surya; melewatkan sarapan bukan kebiasaan sehat."
+            },
+            {
+              "type": "matching",
+              "question": "Match each part of a procedure text with its function.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Goal"
+                },
+                {
+                  "id": "o1",
+                  "text": "Materials"
+                },
+                {
+                  "id": "o2",
+                  "text": "Steps"
+                },
+                {
+                  "id": "o3",
+                  "text": "Imperative"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "states what will be achieved",
+                  "o1": "lists the things needed",
+                  "o2": "gives ordered instructions",
+                  "o3": "gives a command or instruction"
+                }
+              },
+              "explanation": "Setiap bagian punya fungsi berbeda dalam membangun teks prosedur."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Put the health text-writing steps in order.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Choose the health aspect"
+                },
+                {
+                  "id": "o1",
+                  "text": "Write the purpose"
+                },
+                {
+                  "id": "o2",
+                  "text": "List the steps"
+                },
+                {
+                  "id": "o3",
+                  "text": "Do a peer review"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Topik → tujuan → langkah → tinjauan teman."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Sports and Health — Sulit",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Why should a procedure text use imperatives?",
+              "options": [
+                {
+                  "text": "They directly tell the reader what to do.",
+                  "correct": true
+                },
+                {
+                  "text": "They describe the writer's feelings."
+                },
+                {
+                  "text": "They retell a past event."
+                },
+                {
+                  "text": "They compare two opinions."
+                }
+              ],
+              "explanation": "Imperatif memberi perintah langsung sehingga pembaca tahu tindakan yang harus dilakukan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can you infer about a person who often skips breakfast and sleeps late?",
+              "options": [
+                {
+                  "text": "Their daily habits may affect their energy and concentration.",
+                  "correct": true
+                },
+                {
+                  "text": "They are definitely an athlete."
+                },
+                {
+                  "text": "They have perfect mental health."
+                },
+                {
+                  "text": "They never feel tired."
+                }
+              ],
+              "explanation": "Kebiasaan makan dan tidur memengaruhi energi serta konsentrasi, sesuai tips kesehatan dalam teks."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence best states the purpose of a text titled \"How to Stay Healthy as a Student\"?",
+              "options": [
+                {
+                  "text": "This text explains how students can build healthy daily habits.",
+                  "correct": true
+                },
+                {
+                  "text": "I was a healthy student last year."
+                },
+                {
+                  "text": "Students are interesting people."
+                },
+                {
+                  "text": "Healthy food is delicious."
+                }
+              ],
+              "explanation": "Pernyataan tujuan harus menjelaskan apa yang akan dicapai pembaca, bukan menceritakan pengalaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which detail supports the idea that self-care includes prevention?",
+              "options": [
+                {
+                  "text": "Wearing sunscreen when going outside",
+                  "correct": true
+                },
+                {
+                  "text": "Watching television all day"
+                },
+                {
+                  "text": "Eating junk food every night"
+                },
+                {
+                  "text": "Never checking your weight"
+                }
+              ],
+              "explanation": "Tabir surya mencegah kerusakan kulit, sehingga termasuk perawatan preventif."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the effect of adding \"first, next, then, finally\" to the steps?",
+              "options": [
+                {
+                  "text": "The reader can follow the order clearly.",
+                  "correct": true
+                },
+                {
+                  "text": "The text becomes a narrative."
+                },
+                {
+                  "text": "The steps become optional."
+                },
+                {
+                  "text": "The purpose disappears."
+                }
+              ],
+              "explanation": "Kata urutan menunjukkan urutan langkah sehingga teks mudah diikuti."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is the materials section optional in a procedure text?",
+              "options": [
+                {
+                  "text": "Some activities do not need special tools or ingredients.",
+                  "correct": true
+                },
+                {
+                  "text": "Materials are never important."
+                },
+                {
+                  "text": "Every procedure must have materials."
+                },
+                {
+                  "text": "Materials replace the steps."
+                }
+              ],
+              "explanation": "Aktivitas seperti berolahraga ringan mungkin tidak memerlukan bahan khusus, sehingga bagian materials boleh tidak ada."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which comment is the most useful peer review for a procedure text?",
+              "options": [
+                {
+                  "text": "Your second and third steps are swapped; reorder them.",
+                  "correct": true
+                },
+                {
+                  "text": "Your text is nice."
+                },
+                {
+                  "text": "I like the colour of your paper."
+                },
+                {
+                  "text": "You should write about something else."
+                }
+              ],
+              "explanation": "Umpan balik yang berguna menunjukkan masalah konkret dan cara memperbaikinya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the best way to conclude a procedure text about staying healthy?",
+              "options": [
+                {
+                  "text": "State the result or a short encouraging closing related to the goal",
+                  "correct": true
+                },
+                {
+                  "text": "Introduce a completely new topic"
+                },
+                {
+                  "text": "List the writer's childhood memories"
+                },
+                {
+                  "text": "Repeat the title ten times"
+                }
+              ],
+              "explanation": "Penutup yang baik mengaitkan langkah dengan tujuan, bukan membuka topik baru."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which statement about health campaigns is supported by the text?",
+              "options": [
+                {
+                  "text": "A poster should use text, image, layout, and font effectively.",
+                  "correct": true
+                },
+                {
+                  "text": "A poster should hide its target audience."
+                },
+                {
+                  "text": "A poster needs no sources."
+                },
+                {
+                  "text": "A poster must be written in one long paragraph."
+                }
+              ],
+              "explanation": "Teks menekankan penggunaan teks, gambar, tata letak, dan font yang baik, serta sumber yang mendukung pesan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can you infer about the relationship between self-care and caring for others?",
+              "options": [
+                {
+                  "text": "People who care for themselves are better able to care for others.",
+                  "correct": true
+                },
+                {
+                  "text": "Caring for others means ignoring yourself."
+                },
+                {
+                  "text": "Self-care and caring for others cannot coexist."
+                },
+                {
+                  "text": "Only doctors need self-care."
+                }
+              ],
+              "explanation": "Teks menyebut bahwa setelah cukup merawat diri, seseorang mampu merawat orang lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which revision makes a step clearer?",
+              "options": [
+                {
+                  "text": "Drink a glass of water after you wake up.",
+                  "correct": true
+                },
+                {
+                  "text": "Water is good."
+                },
+                {
+                  "text": "Maybe drink something."
+                },
+                {
+                  "text": "Drinking is a thing people do."
+                }
+              ],
+              "explanation": "Langkah yang jelas memakai kata kerja imperatif dan rincian yang dapat langsung diikuti."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sentence uses the correct punctuation for an imperative list?",
+              "options": [
+                {
+                  "text": "First, exercise. Next, drink water. Finally, sleep early.",
+                  "correct": true
+                },
+                {
+                  "text": "First exercise next drink water finally sleep early"
+                },
+                {
+                  "text": "First, exercise, next, drink water, finally, sleep early,"
+                },
+                {
+                  "text": "first exercise; Next drink water; finally sleep early"
+                }
+              ],
+              "explanation": "Setiap langkah adalah kalimat terpisah; kata urutan diikuti koma dan diakhiri titik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does a health campaign need a clear target audience?",
+              "options": [
+                {
+                  "text": "The message and design can be adjusted to the people it addresses.",
+                  "correct": true
+                },
+                {
+                  "text": "So the poster can be as long as possible"
+                },
+                {
+                  "text": "So the writer can avoid research"
+                },
+                {
+                  "text": "So the poster needs no images"
+                }
+              ],
+              "explanation": "Mengetahui audiens membantu memilih pesan, gambar, dan gaya bahasa yang tepat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Which are language features of a procedure text? Choose all that apply.",
+              "options": [
+                {
+                  "text": "Imperative sentences",
+                  "correct": true
+                },
+                {
+                  "text": "Action verbs",
+                  "correct": true
+                },
+                {
+                  "text": "Sequence words",
+                  "correct": true
+                },
+                {
+                  "text": "A long personal story",
+                  "correct": false
+                }
+              ],
+              "explanation": "Imperatif, kata kerja aksi, dan kata urutan adalah ciri prosedur; cerita pribadi milik recount."
+            },
+            {
+              "type": "puzzle",
+              "question": "Arrange the steps of producing a health poster.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Choose the health aspect"
+                },
+                {
+                  "id": "s1",
+                  "text": "Identify the target audience"
+                },
+                {
+                  "id": "s2",
+                  "text": "Sketch the poster"
+                },
+                {
+                  "id": "s3",
+                  "text": "Check spelling and layout"
+                },
+                {
+                  "id": "s4",
+                  "text": "Publish the poster"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Topik → audiens → sketsa → pemeriksaan → publikasi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

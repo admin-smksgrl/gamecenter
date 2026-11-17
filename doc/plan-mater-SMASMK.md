@@ -1,7 +1,7 @@
 # Rencana Materi Game — SMA & SMK
 
 **Disusun:** 16 November 2026
-**Status:** 🟡 Tahap 0–1c selesai (34 chapter / 1.020 soal: Matematika 13, Informatika 8, Bahasa Indonesia 5, IPA 8 — Fisika 2, Kimia 3, Biologi 3); Tahap 2–5 belum dikerjakan
+**Status:** 🟡 Kelas X hampir tuntas: 54 chapter / 1.620 soal (Matematika 13, Informatika 8, Bahasa Indonesia 5, Bahasa Inggris 6, IPA 8, Pancasila 4, PAI 10). Berikutnya: IPS X (8 bab), lalu sisa Kelas X dan Fase F.
 **Cakupan:** Fase E (Kelas 10) dan Fase F (Kelas 11–12), jenjang SMA & SMK
 **Sumber data:** `data/kurmer/SMKSMA/` (BUKU AJAR, CP, ATP, KKTP, MAPEL, PROSEM, PROTA)
 
@@ -588,7 +588,13 @@ Bentuk satu berkas JSON (satu mapel):
    jawaban, ketepatan tingkat kesulitan, dan kesesuaian bahasa dengan siswa.
    Catatan perbaikan dikirim ke berkas JSON lalu diimpor ulang; halaman admin
    hanya untuk meninjau.
-6. **Opsional:** tambahkan 1–2 soal `simulation` per chapter agar sesuai
+6. ~~**Bahasa Inggris X**~~ ✅ selesai (18 Nov 2026): 6 chapter / 180 soal,
+   termasuk ENG 6 Fractured Stories (3 materi, 30 soal, 8 checkpoint,
+   skenario dan tantangan).
+7. **Opsional:** tambahkan 1–2 soal `simulation` per chapter agar sesuai
    rencana §8.
-7. **Mulai Tahap 2** — Fisika, Kimia, Biologi, Bahasa Indonesia, Bahasa
-   Inggris (15 chapter / 450 soal).
+8. **(Berikutnya) IPS X** — 8 bab dari `IPS_BG_KLS_X_Rev.pdf`, dipetakan ke
+   empat mapel (Sejarah, Sosiologi, Ekonomi, Geografi). Mapel `ips` sudah
+   didaftarkan pada `SubjectSeeder` untuk Kelas X dan siap menerima chapter.
+9. **Lalu sisa Kelas X:** PJOK, Prakarya, Kepercayaan, Projek IPAS, mapel
+   kejuruan SMK; setelah itu Kelas XI dan XII.

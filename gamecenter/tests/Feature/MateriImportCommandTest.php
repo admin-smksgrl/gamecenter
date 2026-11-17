@@ -270,6 +270,7 @@ class MateriImportCommandTest extends TestCase
             'MA 5.1', 'MA 5.2', 'MA 6.1', 'MA 6.2', 'MA 6.3', 'MA 7.1', 'MA 8.1',
             'INF 1', 'INF 2', 'INF 3', 'INF 4', 'INF 5', 'INF 6', 'INF 7', 'INF 8',
             'BI 1', 'BI 2', 'BI 3', 'BI 4', 'BI 5',
+            'ENG 1', 'ENG 2', 'ENG 3', 'ENG 4', 'ENG 5', 'ENG 6',
             'FIS 1', 'FIS 2',
             'KIM 1', 'KIM 2', 'KIM 3',
             'BIO 1', 'BIO 2', 'BIO 3',
@@ -316,11 +317,12 @@ class MateriImportCommandTest extends TestCase
             $this->assertContains($type, $types, "tipe soal {$type} belum dipakai materi bawaan");
         }
 
-        $this->assertSame(48, Chapter::query()->whereIn('code', [
+        $this->assertSame(54, Chapter::query()->whereIn('code', [
             'MA 1.1', 'MA 1.2', 'MA 2.1', 'MA 2.2', 'MA 3.1', 'MA 4.1',
             'MA 5.1', 'MA 5.2', 'MA 6.1', 'MA 6.2', 'MA 6.3', 'MA 7.1', 'MA 8.1',
             'INF 1', 'INF 2', 'INF 3', 'INF 4', 'INF 5', 'INF 6', 'INF 7', 'INF 8',
             'BI 1', 'BI 2', 'BI 3', 'BI 4', 'BI 5',
+            'ENG 1', 'ENG 2', 'ENG 3', 'ENG 4', 'ENG 5', 'ENG 6',
             'FIS 1', 'FIS 2', 'KIM 1', 'KIM 2', 'KIM 3',
             'BIO 1', 'BIO 2', 'BIO 3',
             'PAN 1', 'PAN 2', 'PAN 3', 'PAN 4',
@@ -328,7 +330,7 @@ class MateriImportCommandTest extends TestCase
             'PAI 6', 'PAI 7', 'PAI 8', 'PAI 9', 'PAI 10',
         ])->count());
 
-        $this->assertSame(1440, Question::query()->count());
+        $this->assertSame(1620, Question::query()->count());
     }
 
     public function test_material_blocks_are_imported_while_legacy_markdown_stays(): void

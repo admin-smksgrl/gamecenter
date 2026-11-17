@@ -8,7 +8,47 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-18 03:00 WIB (rilis 0.33.0).
+**Terakhir diperbarui:** 2026-11-18 04:15 WIB (rilis 0.34.0).
+
+## [0.34.0] - 2026-11-18 04:15 WIB
+
+**Batch 11 — Bahasa Inggris X tuntas 6/6 bab (ENG 1–ENG 6, 180 soal).**
+
+### Ditambah
+- **ENG 1 Great Athletes** — glosarium teks deskriptif, diagram struktur
+  identification–description, tabel ciri bahasa, membaca teks Cristiano
+  Ronaldo, kelompokkan fakta/opini, checkpoint, skenario “Menulis deskripsi
+  atlet”, dan tantangan kilat.
+- **ENG 2 Sports Events** — teks recount pribadi, diagram alur peristiwa,
+  tabel kata kerja lampau dan kata penghubung waktu, membaca pengalaman
+  menonton pertandingan, urutan kejadian, checkpoint, skenario dan tantangan.
+- **ENG 3 Sports and Health** — teks prosedur, tabel struktur goal–steps,
+  membaca tips kesehatan, kelompokkan kebiasaan sehat/tidak sehat, checkpoint,
+  skenario kampanye kesehatan, dan tantangan kilat.
+- **ENG 4 Healthy Foods** — prosedur dan tips pola makan sehat, tabel
+  perbandingan pilihan makanan, kelompokkan makanan bergizi/kurang bergizi,
+  checkpoint, skenario “Tantangan makan sehat”, dan tantangan kilat.
+- **ENG 5 Graffiti** — dua teks ekspositori berseberangan, diagram struktur
+  analytical exposition, tabel argumen–bukti, kelompokkan pernyataan
+  Text 1/Text 2/both/neither, checkpoint, skenario survei publik, dan
+  tantangan kilat.
+- **ENG 6 Fractured Stories** — glosarium unsur naratif, diagram
+  orientation–complication–resolution, tabel struktur dan unsur intrinsik,
+  kartu hafalan, membaca Little Red Riding Hood versi tradisional dan versi
+  serigala, kelompokkan detail kedua versi, urutan langkah menulis cerita
+  pecahan, skenario “Menceritakan ulang Cinderella”, dan tantangan unsur cerita.
+- **Mapel IPS (Kelas X)** pada `SubjectSeeder`, sehingga IPS terpadu siap
+  menerima chapter Sejarah/Sosiologi/Ekonomi/Geografi pada batch berikutnya.
+- Batasan jenjang mapel kini memakai kunci `grades` yang umum: **IPS** hanya
+  Kelas X dan **Pemrograman Dasar** hanya SMK Kelas X.
+
+### Verifikasi
+- `gamecenter:materi-import --dry-run` → **54 berkas, 0 gagal**;
+  impor sungguhan menambah **1 chapter / 3 materi / 3 asesmen / 30 soal**.
+- `gamecenter:materi-coverage` → **55 dari 58 chapter memenuhi minimum §5.3**,
+  **2.095 blok**. Bahasa Inggris **6/6 lengkap**; sisa tiga chapter di luar
+  cakupan SMA/SMK (PAUD 1.1, TK 1.1, MTK 7.1).
+- `php artisan test` → **139 lulus, 1 dilewati, 1.179 asertion**.
 
 ## [0.33.0] - 2026-11-18 03:00 WIB
 
