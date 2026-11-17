@@ -22,21 +22,655 @@
           "title": "Berfoya-foya dan Riya' Sum'ah",
           "duration": 320,
           "source_reference": "Bab 3",
-          "content": "## Berfoya-foya\n\n**Berfoya-foya** adalah membelanjakan harta untuk hal yang **tidak bermanfaat** dan **berlebihan**.\n\n### Dalil\n\nQ.S. al-Isra'/17: 26–27 melarang berlebih-lebihan dan menyebut **pemboros sebagai saudara setan**.\n\n### Akibat\n\n- keuangan tidak terkendali\n- kebutuhan pokok terabaikan\n- tabungan tidak terbentuk\n\n### Cara menghindari\n\nmenyusun **skala prioritas** kebutuhan dan membiasakan menabung.\n\n## Riya' dan sum'ah\n\n| Istilah | Makna | Harapan |\n|---|---|---|\n| **Riya'** | beramal agar **dilihat** orang | pujian lewat penglihatan |\n| **Sum'ah** | beramal agar **didengar** orang | pujian lewat pendengaran |\n\nKeduanya merusak **niat** sehingga amal tidak lagi murni untuk Allah.\n\n### Cara menghindari\n\n- menanamkan niat **ikhlas**\n- **menyembunyikan** amal yang bisa disembunyikan\n- memeriksa kembali tujuan beramal\n- berteman dengan orang saleh dan meminta nasihat"
+          "content": "## Berfoya-foya\n\n**Berfoya-foya** adalah membelanjakan harta untuk hal yang **tidak bermanfaat** dan **berlebihan**.\n\n### Dalil\n\nQ.S. al-Isra'/17: 26–27 melarang berlebih-lebihan dan menyebut **pemboros sebagai saudara setan**.\n\n### Akibat\n\n- keuangan tidak terkendali\n- kebutuhan pokok terabaikan\n- tabungan tidak terbentuk\n\n### Cara menghindari\n\nmenyusun **skala prioritas** kebutuhan dan membiasakan menabung.\n\n## Riya' dan sum'ah\n\n| Istilah | Makna | Harapan |\n|---|---|---|\n| **Riya'** | beramal agar **dilihat** orang | pujian lewat penglihatan |\n| **Sum'ah** | beramal agar **didengar** orang | pujian lewat pendengaran |\n\nKeduanya merusak **niat** sehingga amal tidak lagi murni untuk Allah.\n\n### Cara menghindari\n\n- menanamkan niat **ikhlas**\n- **menyembunyikan** amal yang bisa disembunyikan\n- memeriksa kembali tujuan beramal\n- berteman dengan orang saleh dan meminta nasihat",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Berfoya-foya",
+                  "definition": "Membelanjakan harta untuk hal yang tidak bermanfaat dan berlebihan."
+                },
+                {
+                  "term": "Riya'",
+                  "definition": "Beramal agar dilihat orang sehingga mengharap pujian lewat penglihatan."
+                },
+                {
+                  "term": "Sum'ah",
+                  "definition": "Beramal agar didengar orang sehingga mengharap pujian lewat pendengaran."
+                },
+                {
+                  "term": "Ikhlas",
+                  "definition": "Beramal murni untuk Allah tanpa mengharap pujian manusia."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Berfoya-foya"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Berfoya-foya** adalah membelanjakan harta untuk hal yang **tidak bermanfaat** dan **berlebihan**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dalil"
+            },
+            {
+              "type": "paragraph",
+              "text": "Q.S. al-Isra'/17: 26–27 melarang berlebih-lebihan dan menyebut **pemboros sebagai saudara setan**."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai3-pemboros",
+              "question": "Q.S. al-Isra'/17: 26–27 menyebut pemboros sebagai…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Saudara setan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Orang yang paling dermawan"
+                },
+                {
+                  "id": "c",
+                  "text": "Orang yang paling sabar"
+                }
+              ],
+              "explanation": "Ayat tersebut melarang berlebih-lebihan dan menyebut pemboros sebagai saudara setan karena membelanjakan harta tanpa manfaat."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Akibat"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "keuangan tidak terkendali",
+                "kebutuhan pokok terabaikan",
+                "tabungan tidak terbentuk"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Cara menghindari"
+            },
+            {
+              "type": "paragraph",
+              "text": "menyusun **skala prioritas** kebutuhan dan membiasakan menabung."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Riya' dan sum'ah"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Istilah",
+                  "Makna",
+                  "Harapan"
+                ],
+                [
+                  "**Riya'**",
+                  "beramal agar **dilihat** orang",
+                  "pujian lewat penglihatan"
+                ],
+                [
+                  "**Sum'ah**",
+                  "beramal agar **didengar** orang",
+                  "pujian lewat pendengaran"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Keduanya merusak **niat** sehingga amal tidak lagi murni untuk Allah."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Cara menghindari"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menanamkan niat **ikhlas**",
+                "**menyembunyikan** amal yang bisa disembunyikan",
+                "memeriksa kembali tujuan beramal",
+                "berteman dengan orang saleh dan meminta nasihat"
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai3-riya-sumah",
+              "prompt": "Kelompokkan bentuk amal yang dirusak niat berikut.",
+              "buckets": [
+                {
+                  "id": "riya",
+                  "label": "Riya'"
+                },
+                {
+                  "id": "sumah",
+                  "label": "Sum'ah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "r1",
+                  "text": "Beramal agar dilihat orang",
+                  "bucket": "riya"
+                },
+                {
+                  "id": "r2",
+                  "text": "Mengharap pujian lewat penglihatan",
+                  "bucket": "riya"
+                },
+                {
+                  "id": "r3",
+                  "text": "Beramal agar didengar orang",
+                  "bucket": "sumah"
+                },
+                {
+                  "id": "r4",
+                  "text": "Mengharap pujian lewat pendengaran",
+                  "bucket": "sumah"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — riya' lewat penglihatan, sum'ah lewat pendengaran. Keduanya merusak kemurnian niat.",
+                "wrong": "Riya' = ingin dilihat; sum'ah = ingin didengar. Keduanya mengharap pujian manusia."
+              }
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Takabur dan Hasad",
           "duration": 320,
           "source_reference": "Bab 3",
-          "content": "## Takabur\n\n**Takabur** berarti **membanggakan diri** dan merasa lebih tinggi dari orang lain.\n\nContoh di sekolah: merendahkan teman yang nilainya lebih rendah.\n\nLawan dari takabur adalah **tawadu** (rendah hati).\n\n### Batas percaya diri dan takabur\n\n| Percaya diri | Takabur |\n|---|---|\n| tidak merendahkan orang | **merendahkan** orang lain |\n\n### Akibat\n\nsulit **menerima kebenaran** dan nasihat sehingga sulit berkembang.\n\n## Hasad\n\n**Hasad** adalah iri dan benci atas nikmat yang diperoleh orang lain, bahkan berharap nikmat itu **hilang**.\n\n### Hasad vs ghibtah\n\n| Hasad | Ghibtah |\n|---|---|\n| berharap nikmat orang **hilang** | ingin kebaikan serupa, nikmat orang tetap |\n| merusak hubungan | memotivasi berusaha |\n\n### Penawarnya\n\n**Syukur** atas nikmat sendiri mengalihkan perhatian dari perbandingan yang memicu iri."
+          "content": "## Takabur\n\n**Takabur** berarti **membanggakan diri** dan merasa lebih tinggi dari orang lain.\n\nContoh di sekolah: merendahkan teman yang nilainya lebih rendah.\n\nLawan dari takabur adalah **tawadu** (rendah hati).\n\n### Batas percaya diri dan takabur\n\n| Percaya diri | Takabur |\n|---|---|\n| tidak merendahkan orang | **merendahkan** orang lain |\n\n### Akibat\n\nsulit **menerima kebenaran** dan nasihat sehingga sulit berkembang.\n\n## Hasad\n\n**Hasad** adalah iri dan benci atas nikmat yang diperoleh orang lain, bahkan berharap nikmat itu **hilang**.\n\n### Hasad vs ghibtah\n\n| Hasad | Ghibtah |\n|---|---|\n| berharap nikmat orang **hilang** | ingin kebaikan serupa, nikmat orang tetap |\n| merusak hubungan | memotivasi berusaha |\n\n### Penawarnya\n\n**Syukur** atas nikmat sendiri mengalihkan perhatian dari perbandingan yang memicu iri.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Takabur"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Takabur** berarti **membanggakan diri** dan merasa lebih tinggi dari orang lain."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh di sekolah: merendahkan teman yang nilainya lebih rendah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lawan dari takabur adalah **tawadu** (rendah hati)."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pai3-takabur",
+              "engine": "mermaid",
+              "title": "Takabur dan tawadu: dua arah yang berlawanan",
+              "code": "flowchart LR\n  A[Percaya diri] --> B[Tidak merendahkan orang]\n  C[Takabur] --> D[Merendahkan orang lain]\n  C --> E[Sulit menerima kebenaran dan nasihat]\n  F[Tawadu] --> G[Rendah hati]\n  G --> H[Mudah menerima nasihat]\n  G --> I[Mudah berkembang]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Batas percaya diri dan takabur"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Percaya diri",
+                  "Takabur"
+                ],
+                [
+                  "tidak merendahkan orang",
+                  "**merendahkan** orang lain"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Akibat"
+            },
+            {
+              "type": "paragraph",
+              "text": "sulit **menerima kebenaran** dan nasihat sehingga sulit berkembang."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hasad"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Hasad** adalah iri dan benci atas nikmat yang diperoleh orang lain, bahkan berharap nikmat itu **hilang**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Hasad vs ghibtah"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Hasad",
+                  "Ghibtah"
+                ],
+                [
+                  "berharap nikmat orang **hilang**",
+                  "ingin kebaikan serupa, nikmat orang tetap"
+                ],
+                [
+                  "merusak hubungan",
+                  "memotivasi berusaha"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai3-hasad",
+              "question": "Iri dan benci atas nikmat orang lain, bahkan berharap nikmat itu hilang, disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Hasad",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Ghibtah"
+                },
+                {
+                  "id": "c",
+                  "text": "Tawadu"
+                }
+              ],
+              "explanation": "Hasad berharap nikmat orang lain hilang dan merusak hubungan. Ghibtah justru ingin kebaikan serupa sementara nikmat orang tetap."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai3-hasad-ghibtah",
+              "prompt": "Kelompokkan sikap berikut ke dalam hasad atau ghibtah.",
+              "buckets": [
+                {
+                  "id": "hasad",
+                  "label": "Hasad"
+                },
+                {
+                  "id": "ghibtah",
+                  "label": "Ghibtah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "h1",
+                  "text": "Berharap nikmat orang lain hilang",
+                  "bucket": "hasad"
+                },
+                {
+                  "id": "h2",
+                  "text": "Merusak hubungan",
+                  "bucket": "hasad"
+                },
+                {
+                  "id": "h3",
+                  "text": "Ingin kebaikan serupa, nikmat orang tetap",
+                  "bucket": "ghibtah"
+                },
+                {
+                  "id": "h4",
+                  "text": "Memotivasi diri untuk berusaha",
+                  "bucket": "ghibtah"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — hasad merusak karena menginginkan nikmat orang hilang, ghibtah memotivasi tanpa merugikan siapa pun.",
+                "wrong": "Hasad menginginkan nikmat orang hilang; ghibtah ingin kebaikan serupa dan membiarkan nikmat orang tetap."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Penawarnya"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Syukur** atas nikmat sendiri mengalihkan perhatian dari perbandingan yang memicu iri."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Ikhlas dan Muhasabah",
           "duration": 280,
           "source_reference": "Bab 3",
-          "content": "## Ikhlas\n\n**Ikhlas** = beramal **murni untuk Allah**, tanpa mengharap pujian manusia.\n\n## Muhasabah\n\n**Muhasabah** adalah memeriksa **niat dan perilaku sendiri** setiap hari — bukan menilai kesalahan orang lain.\n\n## Langkah membersihkan hati dari riya'\n\n1. Menyadari adanya dorongan riya'\n2. Memberbaharui niat hanya untuk Allah\n3. Membiasakan amal yang tidak diketahui orang\n4. Memeriksa kembali tujuan beramal\n5. Berteman dengan orang saleh dan meminta nasihat\n\n## Penerapan praktis\n\n| Perilaku tercela | Pengganti terpuji |\n|---|---|\n| berfoya-foya | hidup sederhana dan menabung |\n| riya' dan sum'ah | ikhlas |\n| takabur | tawadu |\n| hasad | syukur dan ghibtah |\n\n**Catatan:** riya' kecil (riya' al-asghar) muncul saat ibadah sedikit dihiasi keinginan dipuji — tetap perlu diwaspadai."
+          "content": "## Ikhlas\n\n**Ikhlas** = beramal **murni untuk Allah**, tanpa mengharap pujian manusia.\n\n## Muhasabah\n\n**Muhasabah** adalah memeriksa **niat dan perilaku sendiri** setiap hari — bukan menilai kesalahan orang lain.\n\n## Langkah membersihkan hati dari riya'\n\n1. Menyadari adanya dorongan riya'\n2. Memberbaharui niat hanya untuk Allah\n3. Membiasakan amal yang tidak diketahui orang\n4. Memeriksa kembali tujuan beramal\n5. Berteman dengan orang saleh dan meminta nasihat\n\n## Penerapan praktis\n\n| Perilaku tercela | Pengganti terpuji |\n|---|---|\n| berfoya-foya | hidup sederhana dan menabung |\n| riya' dan sum'ah | ikhlas |\n| takabur | tawadu |\n| hasad | syukur dan ghibtah |\n\n**Catatan:** riya' kecil (riya' al-asghar) muncul saat ibadah sedikit dihiasi keinginan dipuji — tetap perlu diwaspadai.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ikhlas"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Ikhlas** = beramal **murni untuk Allah**, tanpa mengharap pujian manusia."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Muhasabah"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Muhasabah** adalah memeriksa **niat dan perilaku sendiri** setiap hari — bukan menilai kesalahan orang lain."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Langkah membersihkan hati dari riya'"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Menyadari adanya dorongan riya'",
+                "Memberbaharui niat hanya untuk Allah",
+                "Membiasakan amal yang tidak diketahui orang",
+                "Memeriksa kembali tujuan beramal",
+                "Berteman dengan orang saleh dan meminta nasihat"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai3-ikhlas",
+              "prompt": "Urutkan langkah membersihkan hati dari riya'.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Menyadari adanya dorongan riya'"
+                },
+                {
+                  "id": "s2",
+                  "text": "Memperbarui niat hanya untuk Allah"
+                },
+                {
+                  "id": "s3",
+                  "text": "Membiasakan amal yang tidak diketahui orang"
+                },
+                {
+                  "id": "s4",
+                  "text": "Memeriksa kembali tujuan beramal"
+                },
+                {
+                  "id": "s5",
+                  "text": "Berteman dengan orang saleh dan meminta nasihat"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar — sadari dorongannya, perbarui niat, biasakan amal tersembunyi, periksa tujuan, lalu minta nasihat orang saleh.",
+                "wrong": "Mulai dari menyadari dorongan riya', lalu perbarui niat dan biasakan amal yang tidak diketahui orang."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penerapan praktis"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Perilaku tercela",
+                  "Pengganti terpuji"
+                ],
+                [
+                  "berfoya-foya",
+                  "hidup sederhana dan menabung"
+                ],
+                [
+                  "riya' dan sum'ah",
+                  "ikhlas"
+                ],
+                [
+                  "takabur",
+                  "tawadu"
+                ],
+                [
+                  "hasad",
+                  "syukur dan ghibtah"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Catatan:** riya' kecil (riya' al-asghar) muncul saat ibadah sedikit dihiasi keinginan dipuji — tetap perlu diwaspadai."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai3-pengganti",
+              "prompt": "Pisahkan perilaku tercela dari pengganti terpuji yang diajarkan materi.",
+              "buckets": [
+                {
+                  "id": "tercela",
+                  "label": "Perilaku tercela"
+                },
+                {
+                  "id": "terpuji",
+                  "label": "Pengganti terpuji"
+                }
+              ],
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Berfoya-foya",
+                  "bucket": "tercela"
+                },
+                {
+                  "id": "t2",
+                  "text": "Hidup sederhana dan menabung",
+                  "bucket": "terpuji"
+                },
+                {
+                  "id": "t3",
+                  "text": "Riya' dan sum'ah",
+                  "bucket": "tercela"
+                },
+                {
+                  "id": "t4",
+                  "text": "Ikhlas",
+                  "bucket": "terpuji"
+                },
+                {
+                  "id": "t5",
+                  "text": "Takabur",
+                  "bucket": "tercela"
+                },
+                {
+                  "id": "t6",
+                  "text": "Tawadu",
+                  "bucket": "terpuji"
+                },
+                {
+                  "id": "t7",
+                  "text": "Hasad",
+                  "bucket": "tercela"
+                },
+                {
+                  "id": "t8",
+                  "text": "Syukur dan ghibtah",
+                  "bucket": "terpuji"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — setiap perilaku tercela punya pengganti terpuji: sederhana, ikhlas, tawadu, dan syukur.",
+                "wrong": "Pasangannya: berfoya-foya → sederhana, riya' → ikhlas, takabur → tawadu, hasad → syukur dan ghibtah."
+              }
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pai3-riya",
+              "title": "Amal yang mulai mengharap pujian",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu menjadi relawan bakti sosial. Seorang teman mengambil fotomu saat sedang bekerja dan ingin mengunggahnya. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Meminta unggahan tidak menonjolkan dirimu",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Menyembunyikan amal yang bisa disembunyikan menjaga niat tetap ikhlas."
+                    },
+                    {
+                      "text": "Membiarkannya karena itu bisa memotivasi orang lain",
+                      "next": "n3",
+                      "score": 1,
+                      "feedback": "Bisa bermanfaat, tetapi periksa lagi apakah ada dorongan ingin dipuji."
+                    },
+                    {
+                      "text": "Meminta unggahan dibuat semenarik mungkin agar banyak yang memuji",
+                      "next": "n4",
+                      "score": 0,
+                      "feedback": "Keinginan dipuji menggeser tujuan amal dari Allah kepada manusia."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Temanmu tetap mengunggah foto itu tanpa menyebut namamu. Bagaimana perasaanmu?",
+                  "choices": [
+                    {
+                      "text": "Biasa saja karena amal tidak perlu diketahui orang",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Amal yang tidak diketahui orang justru lebih terjaga dari riya'."
+                    },
+                    {
+                      "text": "Kecewa karena namamu tidak disebut",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Kekecewaan itu tanda niat mulai bercampur harapan pujian."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Unggahan itu mendapat banyak pujian. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengingatkan diri bahwa amal hanya untuk Allah",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Memperbarui niat setelah pujian datang menjaga amal tetap murni."
+                    },
+                    {
+                      "text": "Membalas komentar agar pujian bertambah",
+                      "next": "n4",
+                      "score": 0,
+                      "feedback": "Menambah pujian yang diharapkan memperkuat riya'."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Kegiatan bakti sosial berikutnya tiba. Apa keputusanmu?",
+                  "choices": [
+                    {
+                      "text": "Ikut tanpa memberi tahu siapa pun",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Membiasakan amal yang tidak diketahui orang melatih ikhlas."
+                    },
+                    {
+                      "text": "Ikut hanya jika ada yang mendokumentasikan",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Syarat dokumentasi menunjukkan amal bergantung pada pengakuan orang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Amal tetap berjalan dan niat terjaga. Kamu belajar menikmati kebaikan tanpa perlu pujian."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Kamu menyadari ada rasa kecewa. Itu tanda awal riya' yang bisa diperbaiki dengan memperbarui niat."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Amal menjadi bergantung pada pengakuan orang. Riya' tumbuh dan nilai amal berkurang."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pai3-hati",
+              "title": "Tantangan Kilat: Membersihkan Hati",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Membelanjakan harta berlebihan untuk hal tak bermanfaat disebut…",
+                  "answer": "berfoya-foya"
+                },
+                {
+                  "question": "Beramal agar dilihat orang disebut…",
+                  "answer": "riya"
+                },
+                {
+                  "question": "Beramal agar didengar orang disebut…",
+                  "answer": "sumah"
+                },
+                {
+                  "question": "Membanggakan diri dan merasa lebih tinggi disebut…",
+                  "answer": "takabur"
+                },
+                {
+                  "question": "Lawan takabur yang berarti rendah hati disebut…",
+                  "answer": "tawadu"
+                },
+                {
+                  "question": "Iri pada nikmat orang sampai berharap nikmat itu hilang disebut…",
+                  "answer": "hasad"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — kenali nama penyakit hati agar bisa diganti dengan ikhlas, tawadu, dan syukur.",
+                "wrong": "Berfoya-foya, riya', sum'ah, takabur, hasad — semuanya disembuhkan dengan ikhlas dan muhasabah."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

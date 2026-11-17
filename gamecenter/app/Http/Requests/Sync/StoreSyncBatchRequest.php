@@ -20,7 +20,7 @@ class StoreSyncBatchRequest extends FormRequest
         return [
             'items' => ['required', 'array', 'min:1', 'max:50'],
             'items.*.uuid' => ['required', 'uuid', 'distinct'],
-            'items.*.type' => ['required', Rule::in(['session', 'progress', 'answer'])],
+            'items.*.type' => ['required', Rule::in(['session', 'progress', 'answer', 'material_block'])],
             'items.*.recorded_at' => ['nullable', 'date'],
             'items.*.payload' => ['required', 'array'],
         ];

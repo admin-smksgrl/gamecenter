@@ -22,21 +22,579 @@
           "title": "Mahabbah — Mencintai Allah",
           "duration": 320,
           "source_reference": "Bab 7",
-          "content": "## Mahabbah\n\n**Mahabbah** berarti rasa **cinta kepada Allah**.\n\n### Tanda mencintai Allah\n\n- menjalankan **perintah-Nya**\n- menjauhi **larangan-Nya**\n- memperbanyak **zikir dan doa**\n- **mencintai Rasulullah** dan menjalankan sunahnya\n\nHadis menegaskan bahwa tanda cinta kepada Allah adalah mengikuti Rasulullah.\n\n## Cara menumbuhkan cinta\n\n1. Mengenali **nikmat** Allah\n2. Memperbanyak **ibadah**\n3. Merenungkan **nama dan sifat** Allah\n4. Memperbanyak **zikir dan doa**\n\n## Bukti cinta\n\nCinta sejati melahirkan **ketaatan**, bukan sekadar pengakuan lisan.\n\n## Optimalisasi akal\n\nAkal dipakai untuk **merenungkan tanda kebesaran Allah** di alam — bukan ditinggalkan."
+          "content": "## Mahabbah\n\n**Mahabbah** berarti rasa **cinta kepada Allah**.\n\n### Tanda mencintai Allah\n\n- menjalankan **perintah-Nya**\n- menjauhi **larangan-Nya**\n- memperbanyak **zikir dan doa**\n- **mencintai Rasulullah** dan menjalankan sunahnya\n\nHadis menegaskan bahwa tanda cinta kepada Allah adalah mengikuti Rasulullah.\n\n## Cara menumbuhkan cinta\n\n1. Mengenali **nikmat** Allah\n2. Memperbanyak **ibadah**\n3. Merenungkan **nama dan sifat** Allah\n4. Memperbanyak **zikir dan doa**\n\n## Bukti cinta\n\nCinta sejati melahirkan **ketaatan**, bukan sekadar pengakuan lisan.\n\n## Optimalisasi akal\n\nAkal dipakai untuk **merenungkan tanda kebesaran Allah** di alam — bukan ditinggalkan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Mahabbah",
+                  "definition": "Rasa cinta kepada Allah yang diwujudkan dengan menjalankan perintah dan menjauhi larangan-Nya."
+                },
+                {
+                  "term": "Zikir",
+                  "definition": "Mengingat Allah dengan menyebut nama-Nya, termasuk memperbanyak doa."
+                },
+                {
+                  "term": "Sunah",
+                  "definition": "Cara dan ajaran Rasulullah Saw. yang diikuti sebagai tanda cinta kepada Allah."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mahabbah"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Mahabbah** berarti rasa **cinta kepada Allah**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tanda mencintai Allah"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menjalankan **perintah-Nya**",
+                "menjauhi **larangan-Nya**",
+                "memperbanyak **zikir dan doa**",
+                "**mencintai Rasulullah** dan menjalankan sunahnya"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Hadis menegaskan bahwa tanda cinta kepada Allah adalah mengikuti Rasulullah."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai7-tanda",
+              "question": "Menurut hadis, tanda cinta kepada Allah adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Mengikuti Rasulullah Saw.",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Memperbanyak bicara tentang cinta"
+                },
+                {
+                  "id": "c",
+                  "text": "Menjauhi pergaulan sehari-hari"
+                }
+              ],
+              "explanation": "Cinta sejati melahirkan ketaatan. Hadis menegaskan bahwa tanda cinta kepada Allah adalah mengikuti Rasulullah dan menjalankan sunahnya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cara menumbuhkan cinta"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mengenali **nikmat** Allah",
+                "Memperbanyak **ibadah**",
+                "Merenungkan **nama dan sifat** Allah",
+                "Memperbanyak **zikir dan doa**"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai7-cinta",
+              "prompt": "Urutkan cara menumbuhkan cinta kepada Allah.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Mengenali nikmat Allah"
+                },
+                {
+                  "id": "s2",
+                  "text": "Memperbanyak ibadah"
+                },
+                {
+                  "id": "s3",
+                  "text": "Merenungkan nama dan sifat Allah"
+                },
+                {
+                  "id": "s4",
+                  "text": "Memperbanyak zikir dan doa"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — kenali nikmat-Nya, perbanyak ibadah, renungkan nama dan sifat-Nya, lalu perbanyak zikir dan doa.",
+                "wrong": "Mulai dari mengenali nikmat Allah, lalu ibadah, perenungan, dan zikir."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bukti cinta"
+            },
+            {
+              "type": "paragraph",
+              "text": "Cinta sejati melahirkan **ketaatan**, bukan sekadar pengakuan lisan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Optimalisasi akal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Akal dipakai untuk **merenungkan tanda kebesaran Allah** di alam — bukan ditinggalkan."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Khauf dan Raja'",
           "duration": 320,
           "source_reference": "Bab 7",
-          "content": "## Khauf\n\n**Khauf** = rasa **takut** kepada Allah atas perbuatan salah.\n\nDorongannya: menjauhi larangan dan menjaga diri dari pelanggaran.\n\n## Raja'\n\n**Raja'** = **berharap** penuh pada rahmat dan ampunan Allah.\n\n## Keseimbangan keduanya\n\n| Jika berlebihan | Akibat |\n|---|---|\n| khauf tanpa raja' | **putus asa** dari rahmat Allah |\n| raja' tanpa khauf | **meremehkan dosa** dan merasa aman |\n\nKarena itu keduanya harus berjalan **seimbang**: tidak putus asa dan tidak meremehkan dosa.\n\n## Penerapan\n\n- **jujur** dalam ujian karena sadar diawasi Allah\n- **husnuzan** kepada Allah atas setiap ketetapan\n- menjauhi kecurangan dalam pekerjaan"
+          "content": "## Khauf\n\n**Khauf** = rasa **takut** kepada Allah atas perbuatan salah.\n\nDorongannya: menjauhi larangan dan menjaga diri dari pelanggaran.\n\n## Raja'\n\n**Raja'** = **berharap** penuh pada rahmat dan ampunan Allah.\n\n## Keseimbangan keduanya\n\n| Jika berlebihan | Akibat |\n|---|---|\n| khauf tanpa raja' | **putus asa** dari rahmat Allah |\n| raja' tanpa khauf | **meremehkan dosa** dan merasa aman |\n\nKarena itu keduanya harus berjalan **seimbang**: tidak putus asa dan tidak meremehkan dosa.\n\n## Penerapan\n\n- **jujur** dalam ujian karena sadar diawasi Allah\n- **husnuzan** kepada Allah atas setiap ketetapan\n- menjauhi kecurangan dalam pekerjaan",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Khauf"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Khauf** = rasa **takut** kepada Allah atas perbuatan salah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dorongannya: menjauhi larangan dan menjaga diri dari pelanggaran."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Raja'"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Raja'** = **berharap** penuh pada rahmat dan ampunan Allah."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Keseimbangan keduanya"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jika berlebihan",
+                  "Akibat"
+                ],
+                [
+                  "khauf tanpa raja'",
+                  "**putus asa** dari rahmat Allah"
+                ],
+                [
+                  "raja' tanpa khauf",
+                  "**meremehkan dosa** dan merasa aman"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena itu keduanya harus berjalan **seimbang**: tidak putus asa dan tidak meremehkan dosa."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pai7-khauf-raja",
+              "engine": "mermaid",
+              "title": "Khauf dan raja' harus berjalan seimbang",
+              "code": "flowchart TD\n  A[Khauf: takut kepada Allah] --> B[Menjauhi larangan]\n  C[Raja': berharap rahmat Allah] --> D[Berhusnuzan dan beramal]\n  A --> E[Seimbang]\n  C --> E\n  E --> F[Tidak putus asa]\n  E --> G[Tidak meremehkan dosa]"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai7-putus-asa",
+              "question": "Khauf yang berlebihan tanpa raja' dapat menyebabkan…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Putus asa dari rahmat Allah",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Meremehkan dosa"
+                },
+                {
+                  "id": "c",
+                  "text": "Merasa aman dari azab"
+                }
+              ],
+              "explanation": "Khauf tanpa raja' membuat seseorang putus asa, sedangkan raja' tanpa khauf membuatnya meremehkan dosa dan merasa aman."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai7-khauf-raja",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam khauf atau raja'.",
+              "buckets": [
+                {
+                  "id": "khauf",
+                  "label": "Khauf"
+                },
+                {
+                  "id": "raja",
+                  "label": "Raja'"
+                }
+              ],
+              "items": [
+                {
+                  "id": "k1",
+                  "text": "Takut kepada Allah atas perbuatan salah",
+                  "bucket": "khauf"
+                },
+                {
+                  "id": "k2",
+                  "text": "Mendorong menjauhi larangan",
+                  "bucket": "khauf"
+                },
+                {
+                  "id": "k3",
+                  "text": "Berharap penuh pada rahmat dan ampunan Allah",
+                  "bucket": "raja"
+                },
+                {
+                  "id": "k4",
+                  "text": "Berhusnuzan atas setiap ketetapan Allah",
+                  "bucket": "raja"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — khauf mendorong menjauhi larangan, raja' menumbuhkan harapan dan husnuzan.",
+                "wrong": "Khauf itu rasa takut yang mendorong taat; raja' itu harapan pada rahmat dan ampunan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penerapan"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**jujur** dalam ujian karena sadar diawasi Allah",
+                "**husnuzan** kepada Allah atas setiap ketetapan",
+                "menjauhi kecurangan dalam pekerjaan"
+              ]
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Tawakal dan Penerapannya",
           "duration": 280,
           "source_reference": "Bab 7",
-          "content": "## Tawakal\n\n**Tawakal** = menyerahkan hasil kepada Allah **setelah berusaha maksimal**.\n\n### Tawakal ≠ malas\n\n| Tawakal | Malas |\n|---|---|\n| setelah usaha maksimal | tanpa usaha |\n| diiringi doa | meninggalkan kewajiban |\n| menerima hasil dengan sabar | menyesali tanpa upaya |\n\n## Langkah tawakal pada ujian\n\n1. Belajar dengan **sungguh-sungguh**\n2. **Berdoa** memohon kemudahan\n3. Mengerjakan ujian dengan **jujur**\n4. Menerima hasil dengan **sabar**\n5. **Mengevaluasi** dan memperbaiki diri\n\n## Tawakal pada musibah\n\nBersabar, **berusaha memperbaiki**, dan menyerahkan hasil kepada Allah.\n\n## Keseimbangan hidup\n\nBekerja untuk dunia **tanpa melupakan** ibadah dan akhirat. Syukur diwujudkan dengan **memanfaatkan nikmat** untuk kebaikan."
+          "content": "## Tawakal\n\n**Tawakal** = menyerahkan hasil kepada Allah **setelah berusaha maksimal**.\n\n### Tawakal ≠ malas\n\n| Tawakal | Malas |\n|---|---|\n| setelah usaha maksimal | tanpa usaha |\n| diiringi doa | meninggalkan kewajiban |\n| menerima hasil dengan sabar | menyesali tanpa upaya |\n\n## Langkah tawakal pada ujian\n\n1. Belajar dengan **sungguh-sungguh**\n2. **Berdoa** memohon kemudahan\n3. Mengerjakan ujian dengan **jujur**\n4. Menerima hasil dengan **sabar**\n5. **Mengevaluasi** dan memperbaiki diri\n\n## Tawakal pada musibah\n\nBersabar, **berusaha memperbaiki**, dan menyerahkan hasil kepada Allah.\n\n## Keseimbangan hidup\n\nBekerja untuk dunia **tanpa melupakan** ibadah dan akhirat. Syukur diwujudkan dengan **memanfaatkan nikmat** untuk kebaikan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tawakal"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Tawakal** = menyerahkan hasil kepada Allah **setelah berusaha maksimal**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tawakal ≠ malas"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tawakal",
+                  "Malas"
+                ],
+                [
+                  "setelah usaha maksimal",
+                  "tanpa usaha"
+                ],
+                [
+                  "diiringi doa",
+                  "meninggalkan kewajiban"
+                ],
+                [
+                  "menerima hasil dengan sabar",
+                  "menyesali tanpa upaya"
+                ]
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai7-tawakal",
+              "prompt": "Kelompokkan sikap berikut ke dalam tawakal atau malas.",
+              "buckets": [
+                {
+                  "id": "tawakal",
+                  "label": "Tawakal"
+                },
+                {
+                  "id": "malas",
+                  "label": "Malas"
+                }
+              ],
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Berusaha maksimal lalu menyerahkan hasil kepada Allah",
+                  "bucket": "tawakal"
+                },
+                {
+                  "id": "t2",
+                  "text": "Diiringi doa",
+                  "bucket": "tawakal"
+                },
+                {
+                  "id": "t3",
+                  "text": "Menerima hasil dengan sabar",
+                  "bucket": "tawakal"
+                },
+                {
+                  "id": "t4",
+                  "text": "Tanpa usaha",
+                  "bucket": "malas"
+                },
+                {
+                  "id": "t5",
+                  "text": "Meninggalkan kewajiban",
+                  "bucket": "malas"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — tawakal dilakukan setelah usaha maksimal dan diiringi doa, bukan pengganti usaha.",
+                "wrong": "Tawakal bukan malas: usaha tetap maksimal, doa menyertai, lalu hasil diterima dengan sabar."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Langkah tawakal pada ujian"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Belajar dengan **sungguh-sungguh**",
+                "**Berdoa** memohon kemudahan",
+                "Mengerjakan ujian dengan **jujur**",
+                "Menerima hasil dengan **sabar**",
+                "**Mengevaluasi** dan memperbaiki diri"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai7-ujian",
+              "prompt": "Urutkan langkah tawakal dalam menghadapi ujian.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Belajar dengan sungguh-sungguh"
+                },
+                {
+                  "id": "s2",
+                  "text": "Berdoa memohon kemudahan"
+                },
+                {
+                  "id": "s3",
+                  "text": "Mengerjakan ujian dengan jujur"
+                },
+                {
+                  "id": "s4",
+                  "text": "Menerima hasil dengan sabar"
+                },
+                {
+                  "id": "s5",
+                  "text": "Mengevaluasi dan memperbaiki diri"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar — belajar, berdoa, jujur saat ujian, sabar menerima hasil, lalu evaluasi.",
+                "wrong": "Usaha belajar tetap lebih dulu, doa menyertai, lalu hasilnya diterima dengan sabar."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tawakal pada musibah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bersabar, **berusaha memperbaiki**, dan menyerahkan hasil kepada Allah."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Keseimbangan hidup"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bekerja untuk dunia **tanpa melupakan** ibadah dan akhirat. Syukur diwujudkan dengan **memanfaatkan nikmat** untuk kebaikan."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pai7-ujian",
+              "title": "Hasil ujian tidak sesuai harapan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu sudah belajar, tetapi nilai ujian masih rendah. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menerima hasil dengan sabar lalu mengevaluasi cara belajar",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Tawakal berarti menerima hasil dengan sabar dan tetap berusaha memperbaiki diri."
+                    },
+                    {
+                      "text": "Menyalahkan guru dan soal yang dianggap tidak adil",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menyalahkan pihak lain menutup peluang memperbaiki cara belajar sendiri."
+                    },
+                    {
+                      "text": "Merasa sedih dan berhenti berusaha",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Sedih itu wajar, tetapi berhenti berusaha membuat hasil berikutnya tidak berubah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Teman menawarkan bocoran soal ujian berikutnya. Apa sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Menolak karena kejujuran bagian dari tawakal",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Jujur saat ujian adalah wujud tawakal setelah berusaha; bocoran bukan usaha."
+                    },
+                    {
+                      "text": "Menerima agar nilainya naik",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Nilai naik dengan cara curang menghilangkan keberkahan dan kejujuran."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Guru menjelaskan bahwa soal sesuai materi. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Memeriksa catatan dan meminta bantuan belajar",
+                      "next": "n2",
+                      "score": 1,
+                      "feedback": "Memeriksa diri sendiri lebih berguna daripada menyalahkan pihak lain."
+                    },
+                    {
+                      "text": "Tetap yakin gurunya salah",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Menolak penjelasan membuat masalah yang sama terulang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Beberapa hari kemudian kamu masih kecewa. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Berdoa, bangkit, dan menyusun jadwal belajar baru",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Doa dan usaha baru memulihkan semangat tanpa melupakan tawakal."
+                    },
+                    {
+                      "text": "Membiarkan nilai itu dan tidak belajar lagi",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Berhenti belajar membuat kekecewaan berulang di ujian berikutnya."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kamu menerima hasil dengan sabar, tetap jujur, dan memperbaiki cara belajar. Tawakal berjalan bersama usaha."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Nilai mungkin naik, tetapi kejujuran hilang. Tawakal tidak pernah berarti mencari jalan curang."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Kekecewaan berubah menjadi keputusasaan. Tanpa usaha baru, hasil berikutnya sulit berubah."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pai7-hati",
+              "title": "Tantangan Kilat: Mahabbah, Khauf, Raja', Tawakal",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Rasa cinta kepada Allah disebut…",
+                  "answer": "mahabbah"
+                },
+                {
+                  "question": "Rasa takut kepada Allah atas perbuatan salah disebut…",
+                  "answer": "khauf"
+                },
+                {
+                  "question": "Berharap penuh pada rahmat dan ampunan Allah disebut…",
+                  "answer": "raja"
+                },
+                {
+                  "question": "Menyerahkan hasil kepada Allah setelah usaha maksimal disebut…",
+                  "answer": "tawakal"
+                },
+                {
+                  "question": "Tanda cinta kepada Allah adalah mengikuti…",
+                  "answer": "rasulullah"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — cinta melahirkan ketaatan, takut dan harap berjalan seimbang, tawakal menyertai usaha.",
+                "wrong": "Ingat: mahabbah, khauf, raja', tawakal, dan mengikuti Rasulullah sebagai tanda cinta."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

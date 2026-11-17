@@ -23,21 +23,609 @@
           "title": "Akhlak Madzmumah: Ghadhab dan Pengendalian Emosi",
           "duration": 320,
           "source_reference": "Bab 8",
-          "content": "## Akhlak madzmumah dan mahmudah\n\n| Istilah | Makna |\n|---|---|\n| **madzmumah** | akhlak **tercela** |\n| **mahmudah** | akhlak **terpuji** |\n\n## Ghadhab\n\n**Ghadhab** = sikap **temperamental** atau mudah marah.\n\n### Penyebab\n\n- emosi tidak terkendali\n- **ego** yang tinggi\n\n### Dampak\n\n- hubungan sosial rusak\n- keputusan diambil berdasarkan emosi\n- berpotensi berujung pada **kekerasan**\n\n## Cara mengendalikan marah\n\n1. **Menyadari** emosi muncul\n2. **Menahan diri dan diam**\n3. Mengambil **wudu** atau memindahkan posisi\n4. Berpikir dan memilih **respons terbaik**\n\nZikir dan doa menenangkan hati sehingga emosi lebih mudah dikendalikan."
+          "content": "## Akhlak madzmumah dan mahmudah\n\n| Istilah | Makna |\n|---|---|\n| **madzmumah** | akhlak **tercela** |\n| **mahmudah** | akhlak **terpuji** |\n\n## Ghadhab\n\n**Ghadhab** = sikap **temperamental** atau mudah marah.\n\n### Penyebab\n\n- emosi tidak terkendali\n- **ego** yang tinggi\n\n### Dampak\n\n- hubungan sosial rusak\n- keputusan diambil berdasarkan emosi\n- berpotensi berujung pada **kekerasan**\n\n## Cara mengendalikan marah\n\n1. **Menyadari** emosi muncul\n2. **Menahan diri dan diam**\n3. Mengambil **wudu** atau memindahkan posisi\n4. Berpikir dan memilih **respons terbaik**\n\nZikir dan doa menenangkan hati sehingga emosi lebih mudah dikendalikan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Akhlak madzmumah",
+                  "definition": "Akhlak tercela yang merusak hubungan dengan Allah dan manusia."
+                },
+                {
+                  "term": "Akhlak mahmudah",
+                  "definition": "Akhlak terpuji yang mendatangkan kebaikan bagi diri dan lingkungan."
+                },
+                {
+                  "term": "Ghadhab",
+                  "definition": "Sikap temperamental atau mudah marah karena emosi dan ego tidak terkendali."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Akhlak madzmumah dan mahmudah"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Istilah",
+                  "Makna"
+                ],
+                [
+                  "**madzmumah**",
+                  "akhlak **tercela**"
+                ],
+                [
+                  "**mahmudah**",
+                  "akhlak **terpuji**"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ghadhab"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Ghadhab** = sikap **temperamental** atau mudah marah."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai8-ghadhab",
+              "question": "Sikap temperamental atau mudah marah disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Ghadhab",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Husnuzan"
+                },
+                {
+                  "id": "c",
+                  "text": "Syaja'ah"
+                }
+              ],
+              "explanation": "Ghadhab adalah akhlak madzmumah berupa mudah marah. Dampaknya merusak hubungan sosial dan membuat keputusan diambil berdasarkan emosi."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Penyebab"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "emosi tidak terkendali",
+                "**ego** yang tinggi"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dampak"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "hubungan sosial rusak",
+                "keputusan diambil berdasarkan emosi",
+                "berpotensi berujung pada **kekerasan**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cara mengendalikan marah"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Menyadari** emosi muncul",
+                "**Menahan diri dan diam**",
+                "Mengambil **wudu** atau memindahkan posisi",
+                "Berpikir dan memilih **respons terbaik**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Zikir dan doa menenangkan hati sehingga emosi lebih mudah dikendalikan."
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai8-marah",
+              "prompt": "Urutkan cara mengendalikan marah.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Menyadari emosi muncul"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menahan diri dan diam"
+                },
+                {
+                  "id": "s3",
+                  "text": "Mengambil wudu atau memindahkan posisi"
+                },
+                {
+                  "id": "s4",
+                  "text": "Berpikir dan memilih respons terbaik"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — sadari, tahan diri, ambil wudu atau pindah posisi, lalu pilih respons terbaik.",
+                "wrong": "Mulai dari menyadari emosi, menahan diri, meredakan dengan wudu, baru memilih respons."
+              }
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Akhlak Mahmudah dan Kontrol Diri",
           "duration": 320,
           "source_reference": "Bab 8",
-          "content": "## Kontrol diri\n\n**Kontrol diri** = kemampuan mengendalikan **emosi dan dorongan** diri.\n\n### Manfaat\n\n- hubungan sosial lebih baik\n- keputusan lebih matang\n- emosi lebih **stabil**\n\nPengendalian diri memungkinkan keputusan diambil dengan **pertimbangan**, bukan emosi.\n\n## Sabar\n\n**Sabar** = menahan diri dari keluh kesah **dan tetap berusaha**.\n\n## Husnuzan\n\n**Husnuzan** = berprasangka baik. Contoh: tidak menuduh teman yang terlambat tanpa bukti.\n\n## Akhlak mahmudah lain\n\n- **jujur**\n- **tolong-menolong** — membantu teman yang kesulitan belajar\n- **tawadu** — rendah hati\n\n## Prinsip pembiasaan\n\nAkhlak terbentuk melalui **kebiasaan yang diulang**, bukan hanya pengetahuan."
+          "content": "## Kontrol diri\n\n**Kontrol diri** = kemampuan mengendalikan **emosi dan dorongan** diri.\n\n### Manfaat\n\n- hubungan sosial lebih baik\n- keputusan lebih matang\n- emosi lebih **stabil**\n\nPengendalian diri memungkinkan keputusan diambil dengan **pertimbangan**, bukan emosi.\n\n## Sabar\n\n**Sabar** = menahan diri dari keluh kesah **dan tetap berusaha**.\n\n## Husnuzan\n\n**Husnuzan** = berprasangka baik. Contoh: tidak menuduh teman yang terlambat tanpa bukti.\n\n## Akhlak mahmudah lain\n\n- **jujur**\n- **tolong-menolong** — membantu teman yang kesulitan belajar\n- **tawadu** — rendah hati\n\n## Prinsip pembiasaan\n\nAkhlak terbentuk melalui **kebiasaan yang diulang**, bukan hanya pengetahuan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kontrol diri"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Kontrol diri** = kemampuan mengendalikan **emosi dan dorongan** diri."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Manfaat"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "hubungan sosial lebih baik",
+                "keputusan lebih matang",
+                "emosi lebih **stabil**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengendalian diri memungkinkan keputusan diambil dengan **pertimbangan**, bukan emosi."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pai8-kontrol",
+              "engine": "mermaid",
+              "title": "Kontrol diri dan manfaatnya",
+              "code": "flowchart LR\n  A[Kontrol diri] --> B[Mengendalikan emosi dan dorongan]\n  B --> C[Hubungan sosial lebih baik]\n  B --> D[Keputusan lebih matang]\n  B --> E[Emosi lebih stabil]\n  F[Pembiasaan yang diulang] --> A"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sabar"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Sabar** = menahan diri dari keluh kesah **dan tetap berusaha**."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Husnuzan"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Husnuzan** = berprasangka baik. Contoh: tidak menuduh teman yang terlambat tanpa bukti."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai8-husnuzan",
+              "question": "Berprasangka baik, misalnya tidak menuduh teman yang terlambat tanpa bukti, disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Husnuzan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Ghadhab"
+                },
+                {
+                  "id": "c",
+                  "text": "Syaja'ah"
+                }
+              ],
+              "explanation": "Husnuzan adalah berprasangka baik. Sikap ini mencegah tuduhan tanpa bukti yang merusak hubungan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Akhlak mahmudah lain"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**jujur**",
+                "**tolong-menolong** — membantu teman yang kesulitan belajar",
+                "**tawadu** — rendah hati"
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai8-akhlak",
+              "prompt": "Kelompokkan sikap berikut ke dalam akhlak mahmudah atau madzmumah.",
+              "buckets": [
+                {
+                  "id": "mahmudah",
+                  "label": "Akhlak mahmudah"
+                },
+                {
+                  "id": "madzmumah",
+                  "label": "Akhlak madzmumah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "a1",
+                  "text": "Sabar",
+                  "bucket": "mahmudah"
+                },
+                {
+                  "id": "a2",
+                  "text": "Husnuzan",
+                  "bucket": "mahmudah"
+                },
+                {
+                  "id": "a3",
+                  "text": "Jujur",
+                  "bucket": "mahmudah"
+                },
+                {
+                  "id": "a4",
+                  "text": "Tolong-menolong",
+                  "bucket": "mahmudah"
+                },
+                {
+                  "id": "a5",
+                  "text": "Tawadu",
+                  "bucket": "mahmudah"
+                },
+                {
+                  "id": "a6",
+                  "text": "Ghadhab",
+                  "bucket": "madzmumah"
+                },
+                {
+                  "id": "a7",
+                  "text": "Mudah marah karena ego tinggi",
+                  "bucket": "madzmumah"
+                },
+                {
+                  "id": "a8",
+                  "text": "Menuduh teman tanpa bukti",
+                  "bucket": "madzmumah"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — sabar, husnuzan, jujur, tolong-menolong, dan tawadu adalah akhlak mahmudah.",
+                "wrong": "Ghadhab, mudah marah, dan menuduh tanpa bukti termasuk akhlak madzmumah."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Prinsip pembiasaan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Akhlak terbentuk melalui **kebiasaan yang diulang**, bukan hanya pengetahuan."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Syaja'ah — Keberanian Membela Kebenaran",
           "duration": 280,
           "source_reference": "Bab 8",
-          "content": "## Syaja'ah\n\n**Syaja'ah** = **berani membela kebenaran**.\n\n### Berani vs nekat\n\n| Syaja'ah | Nekat |\n|---|---|\n| berdasar **kebenaran** | tanpa arah |\n| **mempertimbangkan risiko** | tanpa pertimbangan |\n| disertai **ilmu** | tanpa ilmu |\n\nTanpa ilmu, keberanian dapat berubah menjadi **kenekatan**.\n\n## Contoh bagi pelajar\n\n- berani **mengakui kesalahan** di depan kelas\n- berani **menolak ajakan curang**\n- berani menyampaikan pendapat benar dengan **santun**\n\n## Langkah menumbuhkan\n\n1. Memahami nilai akhlak yang ingin dibiasakan\n2. Menetapkan **target perilaku harian**\n3. Melaksanakan secara **konsisten**\n4. Meminta **umpan balik** dari guru atau teman\n5. **Mengevaluasi** dan memperbaiki\n\n## Jika terlanjur salah\n\nMeminta **maaf** dan memperbaiki perilaku pada kesempatan berikutnya."
+          "content": "## Syaja'ah\n\n**Syaja'ah** = **berani membela kebenaran**.\n\n### Berani vs nekat\n\n| Syaja'ah | Nekat |\n|---|---|\n| berdasar **kebenaran** | tanpa arah |\n| **mempertimbangkan risiko** | tanpa pertimbangan |\n| disertai **ilmu** | tanpa ilmu |\n\nTanpa ilmu, keberanian dapat berubah menjadi **kenekatan**.\n\n## Contoh bagi pelajar\n\n- berani **mengakui kesalahan** di depan kelas\n- berani **menolak ajakan curang**\n- berani menyampaikan pendapat benar dengan **santun**\n\n## Langkah menumbuhkan\n\n1. Memahami nilai akhlak yang ingin dibiasakan\n2. Menetapkan **target perilaku harian**\n3. Melaksanakan secara **konsisten**\n4. Meminta **umpan balik** dari guru atau teman\n5. **Mengevaluasi** dan memperbaiki\n\n## Jika terlanjur salah\n\nMeminta **maaf** dan memperbaiki perilaku pada kesempatan berikutnya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Syaja'ah"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Syaja'ah** = **berani membela kebenaran**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Berani vs nekat"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Syaja'ah",
+                  "Nekat"
+                ],
+                [
+                  "berdasar **kebenaran**",
+                  "tanpa arah"
+                ],
+                [
+                  "**mempertimbangkan risiko**",
+                  "tanpa pertimbangan"
+                ],
+                [
+                  "disertai **ilmu**",
+                  "tanpa ilmu"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Tanpa ilmu, keberanian dapat berubah menjadi **kenekatan**."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai8-syajaah",
+              "question": "Keberanian yang didasari kebenaran, pertimbangan risiko, dan ilmu disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Syaja'ah",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Nekat"
+                },
+                {
+                  "id": "c",
+                  "text": "Ghadhab"
+                }
+              ],
+              "explanation": "Syaja'ah adalah berani membela kebenaran dengan pertimbangan dan ilmu. Tanpa ilmu, keberanian berubah menjadi kenekatan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh bagi pelajar"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "berani **mengakui kesalahan** di depan kelas",
+                "berani **menolak ajakan curang**",
+                "berani menyampaikan pendapat benar dengan **santun**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Langkah menumbuhkan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Memahami nilai akhlak yang ingin dibiasakan",
+                "Menetapkan **target perilaku harian**",
+                "Melaksanakan secara **konsisten**",
+                "Meminta **umpan balik** dari guru atau teman",
+                "**Mengevaluasi** dan memperbaiki"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai8-syajaah",
+              "prompt": "Urutkan langkah menumbuhkan syaja'ah.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Memahami nilai akhlak yang ingin dibiasakan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menetapkan target perilaku harian"
+                },
+                {
+                  "id": "s3",
+                  "text": "Melaksanakan secara konsisten"
+                },
+                {
+                  "id": "s4",
+                  "text": "Meminta umpan balik dari guru atau teman"
+                },
+                {
+                  "id": "s5",
+                  "text": "Mengevaluasi dan memperbaiki"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar — pahami nilainya, tetapkan target, lakukan konsisten, minta umpan balik, lalu evaluasi.",
+                "wrong": "Mulai dari memahami nilai akhlak, lalu target harian, konsistensi, umpan balik, dan evaluasi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jika terlanjur salah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Meminta **maaf** dan memperbaiki perilaku pada kesempatan berikutnya."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pai8-curang",
+              "title": "Ajakan curang saat ujian",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Saat ujian, teman sebangku meminta jawabanmu. Ia sudah sering membantumu belajar. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menolak dengan santun dan fokus pada ujian sendiri",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Syaja'ah berarti berani menolak ajakan curang meski kepada teman yang baik."
+                    },
+                    {
+                      "text": "Memberi jawaban karena tidak enak hati",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tidak enak hati bukan alasan membenarkan kecurangan; keduanya ikut salah."
+                    },
+                    {
+                      "text": "Pura-pura tidak mendengar",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Menghindar mencegah kecurangan, tetapi teman tetap belum tahu batasnya."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Setelah ujian, temanmu kecewa dan menjauh. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Menjelaskan alasannya dengan santun dan menawarkan belajar bersama",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Menjelaskan dengan santun menjaga hubungan sekaligus menegakkan kebenaran."
+                    },
+                    {
+                      "text": "Membiarkannya menjauh karena merasa benar",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Pendirianmu benar, tetapi membiarkan hubungan rusak tanpa penjelasan belum ideal."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Guru menyadari ada jawaban yang sama. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengakui kesalahan dan menerima konsekuensinya",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Berani mengakui kesalahan adalah bagian dari syaja'ah dan langkah memperbaiki diri."
+                    },
+                    {
+                      "text": "Menyalahkan teman yang meminta jawaban",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Melepas tanggung jawab tidak menyelesaikan masalah dan menambah keburukan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Temanmu tetap memaksa dengan menyodorkan kertas. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menolak tegas dan melapor kepada pengawas bila perlu",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Menolak tegas dan meminta bantuan pengawas melindungi integritas ujian."
+                    },
+                    {
+                      "text": "Memberi sedikit jawaban agar ia berhenti memaksa",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Memberi sedikit tetap merupakan kecurangan dan tidak menyelesaikan masalah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kebenaran dijaga dengan cara santun. Kamu berani menolak curang tanpa kehilangan pertemanan."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Kamu tidak ikut curang, tetapi hubungan perlu diperbaiki dengan penjelasan yang santun."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Kecurangan terjadi dan tanggung jawab dilempar. Kepercayaan guru dan teman berkurang."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pai8-akhlak",
+              "title": "Tantangan Kilat: Akhlak dan Keberanian",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Akhlak tercela disebut…",
+                  "answer": "madzmumah"
+                },
+                {
+                  "question": "Akhlak terpuji disebut…",
+                  "answer": "mahmudah"
+                },
+                {
+                  "question": "Mudah marah disebut…",
+                  "answer": "ghadhab"
+                },
+                {
+                  "question": "Berprasangka baik disebut…",
+                  "answer": "husnuzan"
+                },
+                {
+                  "question": "Berani membela kebenaran disebut…",
+                  "answer": "syajaah"
+                },
+                {
+                  "question": "Keberanian tanpa pertimbangan dan ilmu disebut…",
+                  "answer": "nekat"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — akhlak terpuji dibiasakan, sedangkan marah dan kenekatan dikendalikan dengan ilmu.",
+                "wrong": "Ingat: madzmumah, mahmudah, ghadhab, husnuzan, syaja'ah, dan nekat."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

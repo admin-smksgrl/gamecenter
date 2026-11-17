@@ -20,21 +20,332 @@
           "title": "Dua Persamaan, Dua Hal yang Dicari",
           "duration": 240,
           "source_reference": "Modul Ajar MA 5.1 — Kompetensi Awal",
-          "content": "## Mengapa perlu dua persamaan?\n\nSatu persamaan dengan dua variabel punya **banyak** penyelesaian:\nx + y = 7 bisa berarti (1,6), (2,5), (3,4), dan seterusnya.\n\nTambahkan satu persamaan lagi — x − y = 1 — dan penyelesaiannya menjadi **tunggal**: x = 4 dan y = 3.\n\nItulah gunanya **sistem persamaan linear dua variabel (SPLDV)**: dua persamaan dipakai bersama untuk mengunci satu jawaban.\n\n### Bentuk umum\n\n> a₁x + b₁y = c₁\n> a₂x + b₂y = c₂\n\nx dan y disebut **variabel**, sedangkan a, b, c adalah **koefisien** dan **konstanta**.\n\n### Tiga kemungkinan hasil\n\n| Kondisi | Arti geometris |\n|---|---|\n| Satu penyelesaian | Dua garis berpotongan di satu titik |\n| Tidak ada penyelesaian | Dua garis sejajar |\n| Tak hingga penyelesaian | Dua garis berimpit |"
+          "content": "## Mengapa perlu dua persamaan?\n\nSatu persamaan dengan dua variabel punya **banyak** penyelesaian:\nx + y = 7 bisa berarti (1,6), (2,5), (3,4), dan seterusnya.\n\nTambahkan satu persamaan lagi — x − y = 1 — dan penyelesaiannya menjadi **tunggal**: x = 4 dan y = 3.\n\nItulah gunanya **sistem persamaan linear dua variabel (SPLDV)**: dua persamaan dipakai bersama untuk mengunci satu jawaban.\n\n### Bentuk umum\n\n> a₁x + b₁y = c₁\n> a₂x + b₂y = c₂\n\nx dan y disebut **variabel**, sedangkan a, b, c adalah **koefisien** dan **konstanta**.\n\n### Tiga kemungkinan hasil\n\n| Kondisi | Arti geometris |\n|---|---|\n| Satu penyelesaian | Dua garis berpotongan di satu titik |\n| Tidak ada penyelesaian | Dua garis sejajar |\n| Tak hingga penyelesaian | Dua garis berimpit |",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Variabel",
+                  "definition": "Nilai yang dicari, biasanya x dan y."
+                },
+                {
+                  "term": "Koefisien",
+                  "definition": "Bilangan yang mengalikan variabel pada persamaan."
+                },
+                {
+                  "term": "SPLDV",
+                  "definition": "Sistem persamaan linear dua variabel: dua persamaan dipakai bersama."
+                },
+                {
+                  "term": "Penyelesaian tunggal",
+                  "definition": "Satu pasangan (x, y) yang memenuhi kedua persamaan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa perlu dua persamaan?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Satu persamaan dengan dua variabel punya **banyak** penyelesaian: x + y = 7 bisa berarti (1,6), (2,5), (3,4), dan seterusnya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tambahkan satu persamaan lagi — x − y = 1 — dan penyelesaiannya menjadi **tunggal**: x = 4 dan y = 3."
+            },
+            {
+              "type": "paragraph",
+              "text": "Itulah gunanya **sistem persamaan linear dua variabel (SPLDV)**: dua persamaan dipakai bersama untuk mengunci satu jawaban."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-spl-tunggal",
+              "question": "Penyelesaian sistem x + y = 7 dan x − y = 1 adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "x = 4, y = 3",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "x = 3, y = 4"
+                },
+                {
+                  "id": "c",
+                  "text": "x = 5, y = 2"
+                }
+              ],
+              "explanation": "Jumlahkan kedua persamaan: 2x = 8 → x = 4. Substitusi ke x + y = 7 memberi y = 3, dan 4 − 3 = 1 benar."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Bentuk umum"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "a₁x + b₁y = c₁ a₂x + b₂y = c₂"
+            },
+            {
+              "type": "paragraph",
+              "text": "x dan y disebut **variabel**, sedangkan a, b, c adalah **koefisien** dan **konstanta**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tiga kemungkinan hasil"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kondisi",
+                  "Arti geometris"
+                ],
+                [
+                  "Satu penyelesaian",
+                  "Dua garis berpotongan di satu titik"
+                ],
+                [
+                  "Tidak ada penyelesaian",
+                  "Dua garis sejajar"
+                ],
+                [
+                  "Tak hingga penyelesaian",
+                  "Dua garis berimpit"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-spl-kasus",
+              "engine": "mermaid",
+              "title": "Tiga kemungkinan penyelesaian SPLDV",
+              "code": "flowchart TD\n  A[SPLDV dua variabel] --> B[Dua garis berpotongan]\n  A --> C[Dua garis sejajar]\n  A --> D[Dua garis berimpit]\n  B --> B1[Satu penyelesaian]\n  C --> C1[Tidak ada penyelesaian]\n  D --> D1[Tak hingga penyelesaian]"
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Dua Metode Penyelesaian",
           "duration": 360,
           "source_reference": "Modul Ajar MA 5.1 — Tujuan Pembelajaran",
-          "content": "## 1. Metode substitusi\n\n**Contoh:** 2x + y = 8 dan x − y = 1\n\nLangkah:\n1. Nyatakan satu variabel dari salah satu persamaan: y = 8 − 2x\n2. Substitusikan ke persamaan lain: x − (8 − 2x) = 1\n3. Selesaikan: 3x − 8 = 1 → 3x = 9 → x = 3\n4. Cari pasangannya: y = 8 − 6 = 2\n5. **Periksa:** 2(3) + 2 = 8 ✓ dan 3 − 2 = 1 ✓\n\n## 2. Metode eliminasi\n\n**Contoh:** 3x + 2y = 16 dan 2x + 3y = 19\n\nLangkah:\n1. Jumlahkan kedua persamaan: 5x + 5y = 35 → **x + y = 7**\n2. Kurangkan: x − y = −3\n3. Dari x + y = 7 dan x − y = −3 diperoleh x = 2, y = 5\n\n### Memilih metode\n\n- **Substitusi** lebih mudah bila salah satu koefisien bernilai 1 atau −1.\n- **Eliminasi** lebih mudah bila koefisiennya kecil dan mirip.\n\n**Selalu periksa** hasilmu dengan memasukkannya kembali ke **kedua** persamaan asal."
+          "content": "## 1. Metode substitusi\n\n**Contoh:** 2x + y = 8 dan x − y = 1\n\nLangkah:\n1. Nyatakan satu variabel dari salah satu persamaan: y = 8 − 2x\n2. Substitusikan ke persamaan lain: x − (8 − 2x) = 1\n3. Selesaikan: 3x − 8 = 1 → 3x = 9 → x = 3\n4. Cari pasangannya: y = 8 − 6 = 2\n5. **Periksa:** 2(3) + 2 = 8 ✓ dan 3 − 2 = 1 ✓\n\n## 2. Metode eliminasi\n\n**Contoh:** 3x + 2y = 16 dan 2x + 3y = 19\n\nLangkah:\n1. Jumlahkan kedua persamaan: 5x + 5y = 35 → **x + y = 7**\n2. Kurangkan: x − y = −3\n3. Dari x + y = 7 dan x − y = −3 diperoleh x = 2, y = 5\n\n### Memilih metode\n\n- **Substitusi** lebih mudah bila salah satu koefisien bernilai 1 atau −1.\n- **Eliminasi** lebih mudah bila koefisiennya kecil dan mirip.\n\n**Selalu periksa** hasilmu dengan memasukkannya kembali ke **kedua** persamaan asal.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "1. Metode substitusi"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Contoh:** 2x + y = 8 dan x − y = 1"
+            },
+            {
+              "type": "paragraph",
+              "text": "Langkah:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Nyatakan satu variabel dari salah satu persamaan: y = 8 − 2x",
+                "Substitusikan ke persamaan lain: x − (8 − 2x) = 1",
+                "Selesaikan: 3x − 8 = 1 → 3x = 9 → x = 3",
+                "Cari pasangannya: y = 8 − 6 = 2",
+                "**Periksa:** 2(3) + 2 = 8 ✓ dan 3 − 2 = 1 ✓"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-substitusi",
+              "prompt": "Urutkan langkah metode substitusi untuk 2x + y = 8 dan x − y = 1.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Nyatakan y dari persamaan pertama: y = 8 − 2x"
+                },
+                {
+                  "id": "s2",
+                  "text": "Substitusikan ke persamaan kedua: x − (8 − 2x) = 1"
+                },
+                {
+                  "id": "s3",
+                  "text": "Selesaikan: 3x = 9 sehingga x = 3"
+                },
+                {
+                  "id": "s4",
+                  "text": "Cari y: y = 8 − 6 = 2"
+                },
+                {
+                  "id": "s5",
+                  "text": "Periksa ke kedua persamaan asal"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar: nyatakan satu variabel, substitusi, selesaikan, lalu periksa.",
+                "wrong": "Substitusi selalu memerlukan satu variabel dinyatakan lebih dulu, misalnya y = 8 − 2x."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-spl-substitusi",
+              "question": "Dari 2x + y = 8 dan x − y = 1, nilai y adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "2",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "3"
+                },
+                {
+                  "id": "c",
+                  "text": "8"
+                }
+              ],
+              "explanation": "Substitusi memberi x = 3, lalu y = 8 − 2(3) = 2. Periksa: 3 − 2 = 1 memenuhi persamaan kedua."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "2. Metode eliminasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Contoh:** 3x + 2y = 16 dan 2x + 3y = 19"
+            },
+            {
+              "type": "paragraph",
+              "text": "Langkah:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Jumlahkan kedua persamaan: 5x + 5y = 35 → **x + y = 7**",
+                "Kurangkan: x − y = −3",
+                "Dari x + y = 7 dan x − y = −3 diperoleh x = 2, y = 5"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Memilih metode"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Substitusi** lebih mudah bila salah satu koefisien bernilai 1 atau −1.",
+                "**Eliminasi** lebih mudah bila koefisiennya kecil dan mirip."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Selalu periksa** hasilmu dengan memasukkannya kembali ke **kedua** persamaan asal."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Memodelkan Soal Cerita",
           "duration": 240,
           "source_reference": "Modul Ajar MA 5.1 — Tujuan Pembelajaran",
-          "content": "## Empat langkah memodelkan\n\n1. **Beri nama** yang dicari (mis. b = harga buku, p = harga pulpen)\n2. **Terjemahkan** setiap kalimat menjadi satu persamaan\n3. **Selesaikan** sistemnya\n4. **Kembalikan** ke konteks soal (jangan lupa satuannya)\n\n### Contoh\n\nHarga 2 buku dan 3 pulpen adalah Rp13.000. Harga 1 buku dan 1 pulpen adalah Rp6.000. Berapa harga masing-masing?\n\n- 2b + 3p = 13.000\n- b + p = 6.000 → b = 6.000 − p\n\nSubstitusi: 2(6.000 − p) + 3p = 13.000 → 12.000 + p = 13.000 → **p = 1.000**\nMaka **b = 5.000**.\n\n### Perangkap umum\n\nKalimat **\"tiga kali lebih tua\"** berarti **3×**, bukan 4×. Kalimat **\"selisih\"** berarti pengurangan, dan urutannya menentukan tanda."
+          "content": "## Empat langkah memodelkan\n\n1. **Beri nama** yang dicari (mis. b = harga buku, p = harga pulpen)\n2. **Terjemahkan** setiap kalimat menjadi satu persamaan\n3. **Selesaikan** sistemnya\n4. **Kembalikan** ke konteks soal (jangan lupa satuannya)\n\n### Contoh\n\nHarga 2 buku dan 3 pulpen adalah Rp13.000. Harga 1 buku dan 1 pulpen adalah Rp6.000. Berapa harga masing-masing?\n\n- 2b + 3p = 13.000\n- b + p = 6.000 → b = 6.000 − p\n\nSubstitusi: 2(6.000 − p) + 3p = 13.000 → 12.000 + p = 13.000 → **p = 1.000**\nMaka **b = 5.000**.\n\n### Perangkap umum\n\nKalimat **\"tiga kali lebih tua\"** berarti **3×**, bukan 4×. Kalimat **\"selisih\"** berarti pengurangan, dan urutannya menentukan tanda.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Empat langkah memodelkan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Beri nama** yang dicari (mis. b = harga buku, p = harga pulpen)",
+                "**Terjemahkan** setiap kalimat menjadi satu persamaan",
+                "**Selesaikan** sistemnya",
+                "**Kembalikan** ke konteks soal (jangan lupa satuannya)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh"
+            },
+            {
+              "type": "paragraph",
+              "text": "Harga 2 buku dan 3 pulpen adalah Rp13.000. Harga 1 buku dan 1 pulpen adalah Rp6.000. Berapa harga masing-masing?"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "2b + 3p = 13.000",
+                "b + p = 6.000 → b = 6.000 − p"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Substitusi: 2(6.000 − p) + 3p = 13.000 → 12.000 + p = 13.000 → **p = 1.000** Maka **b = 5.000**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Perangkap umum"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kalimat **\"tiga kali lebih tua\"** berarti **3×**, bukan 4×. Kalimat **\"selisih\"** berarti pengurangan, dan urutannya menentukan tanda."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-spl-cepat",
+              "title": "Tantangan Kilat: SPLDV",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "x + y = 7 dan x − y = 1. Nilai x = …",
+                  "answer": "4"
+                },
+                {
+                  "question": "x + y = 7 dan x − y = 1. Nilai y = …",
+                  "answer": "3"
+                },
+                {
+                  "question": "2b + 3p = 13.000 dan b + p = 6.000. Harga pulpen = … ribu",
+                  "answer": "1"
+                },
+                {
+                  "question": "… maka harga buku = … ribu",
+                  "answer": "5"
+                },
+                {
+                  "question": "3x + 2y = 16 dan 2x + 3y = 19. Nilai x = …",
+                  "answer": "2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — eliminasi dan substitusi sudah dipakai benar.",
+                "wrong": "Jumlahkan atau kurangkan persamaan untuk menghilangkan satu variabel, lalu periksa hasilnya."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

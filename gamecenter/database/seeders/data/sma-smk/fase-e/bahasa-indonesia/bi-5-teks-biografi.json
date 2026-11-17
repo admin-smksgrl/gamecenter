@@ -24,21 +24,622 @@
           "title": "Struktur Biografi dan Ide Pokok",
           "duration": 240,
           "source_reference": "Bab 5 — Teks Biografi",
-          "content": "## Biografi dan autobiografi\n\n- **Biografi** — riwayat hidup tokoh yang ditulis orang lain\n- **Autobiografi** — riwayat hidup yang ditulis tokohnya sendiri\n\nKeduanya wajib berdasarkan **fakta**, bukan khayalan.\n\n### Struktur\n\n| Bagian | Isi |\n|---|---|\n| **Orientasi** | pengenalan tokoh dan latar belakang |\n| **Peristiwa** | rangkaian kejadian penting dalam hidup tokoh |\n| **Reorientasi** | pandangan atau kesan penulis terhadap tokoh |\n\n### Ide pokok dan ide penjelas\n\n**Ide pokok** adalah gagasan utama paragraf. **Ide penjelas** menguraikan, memberi contoh, atau mendukung ide pokok.\n\nCara menemukannya:\n\n1. Baca seluruh paragraf\n2. Tandai kalimat yang paling umum\n3. Periksa kalimat penjelas\n4. Rumuskan ide pokok dengan kalimat sendiri\n\n### Tersurat dan tersirat\n\n**Tersurat** dinyatakan langsung. **Tersirat** perlu disimpulkan, misalnya:\n\n> \"Tokoh itu selalu datang paling awal, sehingga ia dikenal disiplin.\"\n\nKedisiplinan tidak dinyatakan langsung, melainkan disimpulkan dari kebiasaan."
+          "content": "## Biografi dan autobiografi\n\n- **Biografi** — riwayat hidup tokoh yang ditulis orang lain\n- **Autobiografi** — riwayat hidup yang ditulis tokohnya sendiri\n\nKeduanya wajib berdasarkan **fakta**, bukan khayalan.\n\n### Struktur\n\n| Bagian | Isi |\n|---|---|\n| **Orientasi** | pengenalan tokoh dan latar belakang |\n| **Peristiwa** | rangkaian kejadian penting dalam hidup tokoh |\n| **Reorientasi** | pandangan atau kesan penulis terhadap tokoh |\n\n### Ide pokok dan ide penjelas\n\n**Ide pokok** adalah gagasan utama paragraf. **Ide penjelas** menguraikan, memberi contoh, atau mendukung ide pokok.\n\nCara menemukannya:\n\n1. Baca seluruh paragraf\n2. Tandai kalimat yang paling umum\n3. Periksa kalimat penjelas\n4. Rumuskan ide pokok dengan kalimat sendiri\n\n### Tersurat dan tersirat\n\n**Tersurat** dinyatakan langsung. **Tersirat** perlu disimpulkan, misalnya:\n\n> \"Tokoh itu selalu datang paling awal, sehingga ia dikenal disiplin.\"\n\nKedisiplinan tidak dinyatakan langsung, melainkan disimpulkan dari kebiasaan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Biografi",
+                  "definition": "Riwayat hidup tokoh yang ditulis oleh orang lain berdasarkan fakta."
+                },
+                {
+                  "term": "Autobiografi",
+                  "definition": "Riwayat hidup yang ditulis oleh tokohnya sendiri."
+                },
+                {
+                  "term": "Ide pokok",
+                  "definition": "Gagasan utama sebuah paragraf."
+                },
+                {
+                  "term": "Tersirat",
+                  "definition": "Makna yang perlu disimpulkan, tidak dinyatakan langsung."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Biografi dan autobiografi"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Biografi** — riwayat hidup tokoh yang ditulis orang lain",
+                "**Autobiografi** — riwayat hidup yang ditulis tokohnya sendiri"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Keduanya wajib berdasarkan **fakta**, bukan khayalan."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Struktur"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bagian",
+                  "Isi"
+                ],
+                [
+                  "**Orientasi**",
+                  "pengenalan tokoh dan latar belakang"
+                ],
+                [
+                  "**Peristiwa**",
+                  "rangkaian kejadian penting dalam hidup tokoh"
+                ],
+                [
+                  "**Reorientasi**",
+                  "pandangan atau kesan penulis terhadap tokoh"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-bi5-struktur",
+              "engine": "mermaid",
+              "title": "Struktur teks biografi",
+              "code": "flowchart TD\n  A[Orientasi: pengenalan tokoh dan latar belakang] --> B[Peristiwa: rangkaian kejadian penting]\n  B --> C[Reorientasi: pandangan atau kesan penulis]"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi5-struktur",
+              "question": "Bagian biografi yang berisi pandangan atau kesan penulis terhadap tokoh adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Reorientasi",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Orientasi"
+                },
+                {
+                  "id": "c",
+                  "text": "Peristiwa"
+                }
+              ],
+              "explanation": "Orientasi mengenalkan tokoh, peristiwa memuat kejadian penting, dan reorientasi berisi pandangan atau kesan penulis."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Ide pokok dan ide penjelas"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Ide pokok** adalah gagasan utama paragraf. **Ide penjelas** menguraikan, memberi contoh, atau mendukung ide pokok."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cara menemukannya:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Baca seluruh paragraf",
+                "Tandai kalimat yang paling umum",
+                "Periksa kalimat penjelas",
+                "Rumuskan ide pokok dengan kalimat sendiri"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-bi5-ide",
+              "prompt": "Urutkan cara menemukan ide pokok paragraf.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Baca seluruh paragraf"
+                },
+                {
+                  "id": "s2",
+                  "text": "Tandai kalimat yang paling umum"
+                },
+                {
+                  "id": "s3",
+                  "text": "Periksa kalimat penjelas"
+                },
+                {
+                  "id": "s4",
+                  "text": "Rumuskan ide pokok dengan kalimat sendiri"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — baca, tandai kalimat umum, periksa penjelas, lalu rumuskan dengan kalimat sendiri.",
+                "wrong": "Mulai dari membaca seluruh paragraf, lalu tandai kalimat yang paling umum."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tersurat dan tersirat"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Tersurat** dinyatakan langsung. **Tersirat** perlu disimpulkan, misalnya:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Tokoh itu selalu datang paling awal, sehingga ia dikenal disiplin.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Kedisiplinan tidak dinyatakan langsung, melainkan disimpulkan dari kebiasaan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi5-tersirat",
+              "question": "“Tokoh itu selalu datang paling awal, sehingga ia dikenal disiplin.” Watak disiplin dalam kalimat itu bersifat…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Tersirat, disimpulkan dari kebiasaan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Tersurat, dinyatakan langsung"
+                },
+                {
+                  "id": "c",
+                  "text": "Opini tanpa dasar"
+                }
+              ],
+              "explanation": "Tersirat berarti perlu disimpulkan. Kedisiplinan tidak dinyatakan langsung, melainkan disimpulkan dari kebiasaan datang paling awal."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Tanda Baca dan Kata Serapan",
           "duration": 360,
           "source_reference": "Bab 5 — Kaidah Bahasa",
-          "content": "## Tanda baca yang sering keliru\n\n| Salah | Benar |\n|---|---|\n| kalimat berita tanpa titik | diakhiri **titik** |\n| nama kota huruf kecil | **huruf kapital** |\n| kutipan tanpa tanda petik | **tanda petik** untuk kutipan langsung |\n\nContoh benar:\n\n> Ia lahir di Yogyakarta pada 12 Mei 1970.\n\nKesalahan paling umum adalah **menghilangkan titik** di akhir kalimat berita.\n\n## Kata serapan baku\n\n| Tidak baku | Baku |\n|---|---|\n| analisa | **analisis** |\n| efektifitas | **efektivitas** |\n| aktifitas | **aktivitas** |\n\n## Kutipan\n\nKutipan dalam biografi harus **sesuai dengan yang benar-benar diucapkan** dan diapit tanda petik. Kutipan yang dibuat-buat merusak kepercayaan pembaca.\n\n## Mengapa kaidah ini penting?\n\nTanda baca dan kata baku menjaga informasi terbaca tepat dan tidak ambigu — hal mendasar dalam teks faktual seperti biografi."
+          "content": "## Tanda baca yang sering keliru\n\n| Salah | Benar |\n|---|---|\n| kalimat berita tanpa titik | diakhiri **titik** |\n| nama kota huruf kecil | **huruf kapital** |\n| kutipan tanpa tanda petik | **tanda petik** untuk kutipan langsung |\n\nContoh benar:\n\n> Ia lahir di Yogyakarta pada 12 Mei 1970.\n\nKesalahan paling umum adalah **menghilangkan titik** di akhir kalimat berita.\n\n## Kata serapan baku\n\n| Tidak baku | Baku |\n|---|---|\n| analisa | **analisis** |\n| efektifitas | **efektivitas** |\n| aktifitas | **aktivitas** |\n\n## Kutipan\n\nKutipan dalam biografi harus **sesuai dengan yang benar-benar diucapkan** dan diapit tanda petik. Kutipan yang dibuat-buat merusak kepercayaan pembaca.\n\n## Mengapa kaidah ini penting?\n\nTanda baca dan kata baku menjaga informasi terbaca tepat dan tidak ambigu — hal mendasar dalam teks faktual seperti biografi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tanda baca yang sering keliru"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Salah",
+                  "Benar"
+                ],
+                [
+                  "kalimat berita tanpa titik",
+                  "diakhiri **titik**"
+                ],
+                [
+                  "nama kota huruf kecil",
+                  "**huruf kapital**"
+                ],
+                [
+                  "kutipan tanpa tanda petik",
+                  "**tanda petik** untuk kutipan langsung"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh benar:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Ia lahir di Yogyakarta pada 12 Mei 1970."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kesalahan paling umum adalah **menghilangkan titik** di akhir kalimat berita."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi5-titik",
+              "question": "Kesalahan tanda baca yang paling umum dalam kalimat berita adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Menghilangkan titik di akhir kalimat",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Menulis nama kota dengan huruf kapital"
+                },
+                {
+                  "id": "c",
+                  "text": "Memberi tanda petik pada kutipan langsung"
+                }
+              ],
+              "explanation": "Kalimat berita diakhiri titik. Nama kota ditulis dengan huruf kapital dan kutipan langsung memakai tanda petik."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kata serapan baku"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tidak baku",
+                  "Baku"
+                ],
+                [
+                  "analisa",
+                  "**analisis**"
+                ],
+                [
+                  "efektifitas",
+                  "**efektivitas**"
+                ],
+                [
+                  "aktifitas",
+                  "**aktivitas**"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kutipan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kutipan dalam biografi harus **sesuai dengan yang benar-benar diucapkan** dan diapit tanda petik. Kutipan yang dibuat-buat merusak kepercayaan pembaca."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi5-kutipan",
+              "question": "Kutipan dalam biografi harus…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Sesuai dengan yang benar-benar diucapkan dan diapit tanda petik",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Dibuat-buat agar lebih menarik"
+                },
+                {
+                  "id": "c",
+                  "text": "Tanpa tanda petik agar terlihat luwes"
+                }
+              ],
+              "explanation": "Kutipan yang dibuat-buat merusak kepercayaan pembaca. Kutipan harus sesuai ucapan sebenarnya dan diapit tanda petik."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa kaidah ini penting?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tanda baca dan kata baku menjaga informasi terbaca tepat dan tidak ambigu — hal mendasar dalam teks faktual seperti biografi."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-bi5-baku",
+              "prompt": "Kelompokkan kata berikut ke dalam baku atau tidak baku.",
+              "buckets": [
+                {
+                  "id": "baku",
+                  "label": "Baku"
+                },
+                {
+                  "id": "tidak",
+                  "label": "Tidak baku"
+                }
+              ],
+              "items": [
+                {
+                  "id": "b1",
+                  "text": "Analisis",
+                  "bucket": "baku"
+                },
+                {
+                  "id": "b2",
+                  "text": "Efektivitas",
+                  "bucket": "baku"
+                },
+                {
+                  "id": "b3",
+                  "text": "Aktivitas",
+                  "bucket": "baku"
+                },
+                {
+                  "id": "b4",
+                  "text": "Analisa",
+                  "bucket": "tidak"
+                },
+                {
+                  "id": "b5",
+                  "text": "Efektifitas",
+                  "bucket": "tidak"
+                },
+                {
+                  "id": "b6",
+                  "text": "Aktifitas",
+                  "bucket": "tidak"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — bentuk baku: analisis, efektivitas, dan aktivitas.",
+                "wrong": "Bentuk baku memakai -isis, -ivitas, dan -ivitas: analisis, efektivitas, aktivitas."
+              }
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Menulis dan Menyajikan Biografi",
           "duration": 240,
           "source_reference": "Bab 5 — Latihan",
-          "content": "## Langkah menulis biografi\n\n1. Kumpulkan data dari **sumber terpercaya**: wawancara langsung, dokumen resmi, buku atau artikel\n2. Susun **garis waktu** peristiwa penting\n3. Tulis orientasi, peristiwa, dan reorientasi\n4. Sunting ejaan, tanda baca, dan kata serapan\n\nTebakan tanpa verifikasi tidak boleh dipakai.\n\n## Menulis secara logis\n\nPeristiwa disusun dalam **urutan waktu yang jelas** agar riwayat mudah diikuti. Tahun peristiwa sebaiknya dicantumkan karena memberi kerangka waktu dan konteks.\n\n## Menemukan keteladanan\n\nHubungkan **peristiwa** yang dihadapi tokoh dengan **sikap** yang diambilnya. Penilaian watak seperti \"Ia adalah pribadi yang gigih\" perlu didukung bukti peristiwa atau tindakan.\n\n## Menyajikan secara kreatif\n\nPoster, infografis, atau video boleh dipakai, tetapi harus tetap:\n\n- menjaga akurasi fakta\n- menyebut sumber\n- tidak mengganti nama atau tahun penting\n\nBila menemukan biografi tanpa sumber, kritik yang membangun adalah **saran agar penulis mencantumkan sumber datanya**."
+          "content": "## Langkah menulis biografi\n\n1. Kumpulkan data dari **sumber terpercaya**: wawancara langsung, dokumen resmi, buku atau artikel\n2. Susun **garis waktu** peristiwa penting\n3. Tulis orientasi, peristiwa, dan reorientasi\n4. Sunting ejaan, tanda baca, dan kata serapan\n\nTebakan tanpa verifikasi tidak boleh dipakai.\n\n## Menulis secara logis\n\nPeristiwa disusun dalam **urutan waktu yang jelas** agar riwayat mudah diikuti. Tahun peristiwa sebaiknya dicantumkan karena memberi kerangka waktu dan konteks.\n\n## Menemukan keteladanan\n\nHubungkan **peristiwa** yang dihadapi tokoh dengan **sikap** yang diambilnya. Penilaian watak seperti \"Ia adalah pribadi yang gigih\" perlu didukung bukti peristiwa atau tindakan.\n\n## Menyajikan secara kreatif\n\nPoster, infografis, atau video boleh dipakai, tetapi harus tetap:\n\n- menjaga akurasi fakta\n- menyebut sumber\n- tidak mengganti nama atau tahun penting\n\nBila menemukan biografi tanpa sumber, kritik yang membangun adalah **saran agar penulis mencantumkan sumber datanya**.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Langkah menulis biografi"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Kumpulkan data dari **sumber terpercaya**: wawancara langsung, dokumen resmi, buku atau artikel",
+                "Susun **garis waktu** peristiwa penting",
+                "Tulis orientasi, peristiwa, dan reorientasi",
+                "Sunting ejaan, tanda baca, dan kata serapan"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Tebakan tanpa verifikasi tidak boleh dipakai."
+            },
+            {
+              "type": "sort",
+              "id": "srt-bi5-menulis",
+              "prompt": "Urutkan langkah menulis biografi.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Kumpulkan data dari sumber terpercaya"
+                },
+                {
+                  "id": "s2",
+                  "text": "Susun garis waktu peristiwa penting"
+                },
+                {
+                  "id": "s3",
+                  "text": "Tulis orientasi, peristiwa, dan reorientasi"
+                },
+                {
+                  "id": "s4",
+                  "text": "Sunting ejaan, tanda baca, dan kata serapan"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — kumpulkan data, susun garis waktu, tulis, lalu sunting.",
+                "wrong": "Mulai dari mengumpulkan data terpercaya, lalu menyusun garis waktu."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menulis secara logis"
+            },
+            {
+              "type": "paragraph",
+              "text": "Peristiwa disusun dalam **urutan waktu yang jelas** agar riwayat mudah diikuti. Tahun peristiwa sebaiknya dicantumkan karena memberi kerangka waktu dan konteks."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menemukan keteladanan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hubungkan **peristiwa** yang dihadapi tokoh dengan **sikap** yang diambilnya. Penilaian watak seperti \"Ia adalah pribadi yang gigih\" perlu didukung bukti peristiwa atau tindakan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyajikan secara kreatif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Poster, infografis, atau video boleh dipakai, tetapi harus tetap:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menjaga akurasi fakta",
+                "menyebut sumber",
+                "tidak mengganti nama atau tahun penting"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila menemukan biografi tanpa sumber, kritik yang membangun adalah **saran agar penulis mencantumkan sumber datanya**."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-bi5-sumber",
+              "title": "Menilai biografi tanpa sumber",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu membaca biografi tokoh di internet. Isinya menarik, tetapi tidak mencantumkan satu pun sumber. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Memeriksa sumber lain sebelum memercayainya",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Biografi wajib berdasarkan fakta; memeriksa sumber mencegah penyebaran informasi keliru."
+                    },
+                    {
+                      "text": "Langsung membagikannya karena tulisannya bagus",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Membagikan tanpa verifikasi menyebarkan informasi yang belum tentu benar."
+                    },
+                    {
+                      "text": "Mengabaikan seluruh isi karena tidak ada sumber",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Berhati-hati itu baik, tetapi menolak seluruh isi tanpa memeriksa juga tidak membantu."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Ternyata ada perbedaan tahun lahir antara artikel itu dan sumber resmi. Apa sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Memakai sumber resmi dan mencatat perbedaannya",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Tahun penting harus akurat; sumber resmi dan catatan perbedaan menjaga ketepatan."
+                    },
+                    {
+                      "text": "Memilih tahun yang lebih menarik",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Memilih data karena menarik mengorbankan akurasi fakta."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Guru meminta kamu menulis biografi tokoh. Apa langkah pertamamu?",
+                  "choices": [
+                    {
+                      "text": "Mengumpulkan data dari wawancara, dokumen resmi, dan buku",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Sumber terpercaya menjadi dasar biografi yang faktual."
+                    },
+                    {
+                      "text": "Menulis berdasarkan tebakan agar cepat selesai",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Tebakan tanpa verifikasi tidak boleh dipakai dalam biografi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Kamu menemukan kutipan tokoh yang bagus, tetapi tidak yakin kebenarannya. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mencari sumber kutipan atau tidak memakainya",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Kutipan harus sesuai ucapan sebenarnya; jika tidak dapat dipastikan, jangan dipakai."
+                    },
+                    {
+                      "text": "Memakainya dan mengubah sedikit agar lebih menarik",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Mengubah kutipan membuatnya tidak lagi sesuai ucapan asli."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Biografimu akurat dan sumbernya jelas. Keteladanan tokoh disampaikan dengan data, bukan tebakan."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Tulisan tetap ada, tetapi akurasinya belum terjaga. Perbaiki dengan sumber resmi."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Biografi memuat data atau kutipan yang tidak benar. Kepercayaan pembaca hilang."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-bi5-biografi",
+              "title": "Tantangan Kilat: Biografi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Riwayat hidup tokoh yang ditulis orang lain disebut…",
+                  "answer": "biografi"
+                },
+                {
+                  "question": "Riwayat hidup yang ditulis tokohnya sendiri disebut…",
+                  "answer": "autobiografi"
+                },
+                {
+                  "question": "Gagasan utama paragraf disebut ide…",
+                  "answer": "pokok"
+                },
+                {
+                  "question": "Bagian biografi berisi kesan penulis disebut…",
+                  "answer": "reorientasi"
+                },
+                {
+                  "question": "Bentuk baku dari “analisa” adalah…",
+                  "answer": "analisis"
+                },
+                {
+                  "question": "Makna yang perlu disimpulkan disebut…",
+                  "answer": "tersirat"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — biografi yang baik faktual, bersumber jelas, dan mengikuti kaidah bahasa.",
+                "wrong": "Ingat: biografi, autobiografi, ide pokok, reorientasi, analisis, dan tersirat."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

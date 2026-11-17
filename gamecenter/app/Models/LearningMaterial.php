@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 #[Fillable([
     'chapter_id', 'type', 'title', 'content', 'blocks', 'media_url', 'media_type',
@@ -34,6 +35,14 @@ class LearningMaterial extends Model
     public function chapter(): BelongsTo
     {
         return $this->belongsTo(Chapter::class);
+    }
+
+    /**
+     * Skor blok interaktif (formatif) yang dikirim siswa untuk materi ini.
+     */
+    public function blockResponses(): HasMany
+    {
+        return $this->hasMany(MaterialBlockResponse::class, 'material_id');
     }
 
     public function scopeActive(Builder $query): Builder

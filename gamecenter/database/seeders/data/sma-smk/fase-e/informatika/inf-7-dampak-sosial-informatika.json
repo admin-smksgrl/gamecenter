@@ -23,21 +23,428 @@
           "title": "Sejarah Singkat Komputasi",
           "duration": 240,
           "source_reference": "Bab 8 — Sejarah Komputer",
-          "content": "## Tokoh dan tonggak penting\n\n| Tokoh | Kontribusi |\n|---|---|\n| **Blaise Pascal** | Pascaline, kalkulator mekanis |\n| **Charles Babbage** | merancang mesin analitik |\n| **Ada Lovelace** | menulis algoritma untuk mesin analitik |\n| **Alan Turing** | merumuskan mesin Turing, dasar teori komputasi |\n| **Tim Berners-Lee** | mengembangkan World Wide Web |\n\n### Tonggak mesin\n\n- Pascaline — mesin hitung mekanis abad ke-17\n- Mesin analitik — rancangan Babbage yang menjadi cikal bakal komputer\n- ENIAC — salah satu komputer elektronik pertama berskala besar (1940-an)\n- Komputer pribadi — komputer dipakai perorangan\n\n### Revolusi Industri 4.0\n\nDitandai integrasi **otomasi**, **pertukaran data**, dan **kecerdasan artifisial** dalam proses produksi dan layanan."
+          "content": "## Tokoh dan tonggak penting\n\n| Tokoh | Kontribusi |\n|---|---|\n| **Blaise Pascal** | Pascaline, kalkulator mekanis |\n| **Charles Babbage** | merancang mesin analitik |\n| **Ada Lovelace** | menulis algoritma untuk mesin analitik |\n| **Alan Turing** | merumuskan mesin Turing, dasar teori komputasi |\n| **Tim Berners-Lee** | mengembangkan World Wide Web |\n\n### Tonggak mesin\n\n- Pascaline — mesin hitung mekanis abad ke-17\n- Mesin analitik — rancangan Babbage yang menjadi cikal bakal komputer\n- ENIAC — salah satu komputer elektronik pertama berskala besar (1940-an)\n- Komputer pribadi — komputer dipakai perorangan\n\n### Revolusi Industri 4.0\n\nDitandai integrasi **otomasi**, **pertukaran data**, dan **kecerdasan artifisial** dalam proses produksi dan layanan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Mesin Turing",
+                  "definition": "Model teoretis komputasi yang dirumuskan Alan Turing, menjadi dasar ilmu komputer."
+                },
+                {
+                  "term": "ENIAC",
+                  "definition": "Salah satu komputer elektronik pertama berskala besar pada 1940-an."
+                },
+                {
+                  "term": "Revolusi Industri 4.0",
+                  "definition": "Era integrasi otomasi, pertukaran data, dan kecerdasan artifisial dalam produksi dan layanan."
+                },
+                {
+                  "term": "UU ITE",
+                  "definition": "Undang-undang yang mengatur informasi dan transaksi elektronik di Indonesia."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tokoh dan tonggak penting"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tokoh",
+                  "Kontribusi"
+                ],
+                [
+                  "**Blaise Pascal**",
+                  "Pascaline, kalkulator mekanis"
+                ],
+                [
+                  "**Charles Babbage**",
+                  "merancang mesin analitik"
+                ],
+                [
+                  "**Ada Lovelace**",
+                  "menulis algoritma untuk mesin analitik"
+                ],
+                [
+                  "**Alan Turing**",
+                  "merumuskan mesin Turing, dasar teori komputasi"
+                ],
+                [
+                  "**Tim Berners-Lee**",
+                  "mengembangkan World Wide Web"
+                ]
+              ]
+            },
+            {
+              "type": "timeline",
+              "id": "tl-sejarah-komputasi",
+              "title": "Tonggak sejarah komputasi",
+              "items": [
+                {
+                  "when": "1642",
+                  "title": "Pascaline",
+                  "text": "Blaise Pascal membuat kalkulator mekanis."
+                },
+                {
+                  "when": "1837",
+                  "title": "Mesin analitik",
+                  "text": "Charles Babbage merancang cikal bakal komputer."
+                },
+                {
+                  "when": "1843",
+                  "title": "Algoritma pertama",
+                  "text": "Ada Lovelace menulis algoritma untuk mesin analitik."
+                },
+                {
+                  "when": "1936",
+                  "title": "Mesin Turing",
+                  "text": "Alan Turing merumuskan dasar teori komputasi."
+                },
+                {
+                  "when": "1940-an",
+                  "title": "ENIAC",
+                  "text": "Salah satu komputer elektronik pertama berskala besar."
+                },
+                {
+                  "when": "1989",
+                  "title": "World Wide Web",
+                  "text": "Tim Berners-Lee mengembangkan WWW."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-tokoh",
+              "question": "Tokoh yang mengembangkan World Wide Web adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Tim Berners-Lee",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Alan Turing"
+                },
+                {
+                  "id": "c",
+                  "text": "Charles Babbage"
+                }
+              ],
+              "explanation": "Tim Berners-Lee mengembangkan WWW; Turing merumuskan mesin Turing dan Babbage merancang mesin analitik."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tonggak mesin"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Pascaline — mesin hitung mekanis abad ke-17",
+                "Mesin analitik — rancangan Babbage yang menjadi cikal bakal komputer",
+                "ENIAC — salah satu komputer elektronik pertama berskala besar (1940-an)",
+                "Komputer pribadi — komputer dipakai perorangan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Revolusi Industri 4.0"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ditandai integrasi **otomasi**, **pertukaran data**, dan **kecerdasan artifisial** dalam proses produksi dan layanan."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Dampak pada Ekonomi dan Hukum",
           "duration": 360,
           "source_reference": "Bab 8 — Dampak Sosial Informatika",
-          "content": "## Dampak ekonomi\n\n**Positif**\n- lapangan kerja baru: pengembang, analis data, analis keamanan siber\n- efisiensi dan perluasan pasar melalui perdagangan elektronik\n- UMKM dapat memakai katalog daring\n\n**Negatif**\n- otomasi mengurangi pekerjaan rutin\n- penipuan daring\n- kesenjangan digital antar wilayah\n\nOtomasi tidak menghapus semua pekerjaan; pekerjaan berulang berkurang dan keterampilan baru dibutuhkan.\n\n## Dampak hukum\n\nRuang digital memiliki akibat hukum nyata, sehingga muncul:\n\n- **UU ITE** — mengatur informasi dan transaksi elektronik\n- aturan perlindungan data pribadi\n- aturan hak kekayaan intelektual\n\nContoh pelanggaran: pencurian data, penyebaran data pribadi tanpa izin, penyalinan perangkat lunak tanpa lisensi, pencemaran nama baik daring.\n\n## Etika\n\nBila menemukan data pribadi orang lain yang bocor, langkah yang benar adalah melaporkan dan **tidak menyebarkannya**. Menyebarkan data pribadi melanggar privasi dan dapat berimplikasi hukum."
+          "content": "## Dampak ekonomi\n\n**Positif**\n- lapangan kerja baru: pengembang, analis data, analis keamanan siber\n- efisiensi dan perluasan pasar melalui perdagangan elektronik\n- UMKM dapat memakai katalog daring\n\n**Negatif**\n- otomasi mengurangi pekerjaan rutin\n- penipuan daring\n- kesenjangan digital antar wilayah\n\nOtomasi tidak menghapus semua pekerjaan; pekerjaan berulang berkurang dan keterampilan baru dibutuhkan.\n\n## Dampak hukum\n\nRuang digital memiliki akibat hukum nyata, sehingga muncul:\n\n- **UU ITE** — mengatur informasi dan transaksi elektronik\n- aturan perlindungan data pribadi\n- aturan hak kekayaan intelektual\n\nContoh pelanggaran: pencurian data, penyebaran data pribadi tanpa izin, penyalinan perangkat lunak tanpa lisensi, pencemaran nama baik daring.\n\n## Etika\n\nBila menemukan data pribadi orang lain yang bocor, langkah yang benar adalah melaporkan dan **tidak menyebarkannya**. Menyebarkan data pribadi melanggar privasi dan dapat berimplikasi hukum.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dampak ekonomi"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Positif**"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "lapangan kerja baru: pengembang, analis data, analis keamanan siber",
+                "efisiensi dan perluasan pasar melalui perdagangan elektronik",
+                "UMKM dapat memakai katalog daring"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Negatif**"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "otomasi mengurangi pekerjaan rutin",
+                "penipuan daring",
+                "kesenjangan digital antar wilayah"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Otomasi tidak menghapus semua pekerjaan; pekerjaan berulang berkurang dan keterampilan baru dibutuhkan."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-dampak-ekonomi",
+              "prompt": "Kelompokkan dampak informatika pada ekonomi.",
+              "buckets": [
+                {
+                  "id": "positif",
+                  "label": "Dampak positif"
+                },
+                {
+                  "id": "negatif",
+                  "label": "Dampak negatif"
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1",
+                  "text": "Lapangan kerja analis data",
+                  "bucket": "positif"
+                },
+                {
+                  "id": "c2",
+                  "text": "UMKM dapat memakai katalog daring",
+                  "bucket": "positif"
+                },
+                {
+                  "id": "c3",
+                  "text": "Penipuan daring",
+                  "bucket": "negatif"
+                },
+                {
+                  "id": "c4",
+                  "text": "Kesenjangan digital antar wilayah",
+                  "bucket": "negatif"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — informatika membuka pekerjaan baru tetapi juga membawa risiko dan kesenjangan.",
+                "wrong": "Otomasi mengurangi pekerjaan rutin, tetapi keterampilan baru tetap dibutuhkan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dampak hukum"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ruang digital memiliki akibat hukum nyata, sehingga muncul:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**UU ITE** — mengatur informasi dan transaksi elektronik",
+                "aturan perlindungan data pribadi",
+                "aturan hak kekayaan intelektual"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh pelanggaran: pencurian data, penyebaran data pribadi tanpa izin, penyalinan perangkat lunak tanpa lisensi, pencemaran nama baik daring."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Etika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila menemukan data pribadi orang lain yang bocor, langkah yang benar adalah melaporkan dan **tidak menyebarkannya**. Menyebarkan data pribadi melanggar privasi dan dapat berimplikasi hukum."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-etika-data",
+              "question": "Kamu menemukan data pribadi orang lain yang bocor. Langkah yang benar adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Melaporkan dan tidak menyebarkannya",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Menyebarkan agar orang lain berhati-hati"
+                },
+                {
+                  "id": "c",
+                  "text": "Menyimpannya untuk dipakai sendiri"
+                }
+              ],
+              "explanation": "Menyebarkan data pribadi tanpa izin melanggar perlindungan data pribadi dan berakibat hukum; langkah yang benar adalah melaporkan."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Merancang Gagasan dan Karier",
           "duration": 240,
           "source_reference": "Bab 8 — Perancangan Gagasan",
-          "content": "## Dari masalah ke gagasan\n\nGagasan berbasis informatika yang baik selalu dimulai dari **masalah nyata**.\n\nContoh: kemacetan kota → aplikasi pemantau lalu lintas waktu nyata.\n\n### Langkah merancang\n\n1. Mengidentifikasi masalah\n2. Menentukan solusi berbasis komputasi yang sesuai\n3. Merancang rencana pembuatan dan pengujian\n4. Menyajikan gagasan kepada pihak terkait\n\nAgar berkelanjutan, sistem perlu **pemeliharaan**, **pembaruan**, dan masukan pengguna.\n\n## Merancang rencana karier\n\n| Bidang | Dasar yang perlu diperdalam |\n|---|---|\n| Analis data | matematika, statistika, pemrograman |\n| Pengembang perangkat lunak | algoritma, pemrograman, rekayasa perangkat lunak |\n| Keamanan siber | jaringan, sistem operasi, kriptografi |\n| Desain antarmuka | desain, psikologi pengguna, pemrograman web |\n\n### Literasi digital\n\nBukan hanya kemampuan teknis, tetapi juga kesadaran etika, keamanan, dan tanggung jawab sosial — termasuk melindungi data pribadi pengguna."
+          "content": "## Dari masalah ke gagasan\n\nGagasan berbasis informatika yang baik selalu dimulai dari **masalah nyata**.\n\nContoh: kemacetan kota → aplikasi pemantau lalu lintas waktu nyata.\n\n### Langkah merancang\n\n1. Mengidentifikasi masalah\n2. Menentukan solusi berbasis komputasi yang sesuai\n3. Merancang rencana pembuatan dan pengujian\n4. Menyajikan gagasan kepada pihak terkait\n\nAgar berkelanjutan, sistem perlu **pemeliharaan**, **pembaruan**, dan masukan pengguna.\n\n## Merancang rencana karier\n\n| Bidang | Dasar yang perlu diperdalam |\n|---|---|\n| Analis data | matematika, statistika, pemrograman |\n| Pengembang perangkat lunak | algoritma, pemrograman, rekayasa perangkat lunak |\n| Keamanan siber | jaringan, sistem operasi, kriptografi |\n| Desain antarmuka | desain, psikologi pengguna, pemrograman web |\n\n### Literasi digital\n\nBukan hanya kemampuan teknis, tetapi juga kesadaran etika, keamanan, dan tanggung jawab sosial — termasuk melindungi data pribadi pengguna.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari masalah ke gagasan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gagasan berbasis informatika yang baik selalu dimulai dari **masalah nyata**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: kemacetan kota → aplikasi pemantau lalu lintas waktu nyata."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Langkah merancang"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mengidentifikasi masalah",
+                "Menentukan solusi berbasis komputasi yang sesuai",
+                "Merancang rencana pembuatan dan pengujian",
+                "Menyajikan gagasan kepada pihak terkait"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Agar berkelanjutan, sistem perlu **pemeliharaan**, **pembaruan**, dan masukan pengguna."
+            },
+            {
+              "type": "sort",
+              "id": "srt-rancang-gagasan",
+              "prompt": "Urutkan langkah merancang gagasan berbasis informatika.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Mengidentifikasi masalah nyata"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menentukan solusi berbasis komputasi"
+                },
+                {
+                  "id": "s3",
+                  "text": "Merancang rencana pembuatan dan pengujian"
+                },
+                {
+                  "id": "s4",
+                  "text": "Menyajikan gagasan kepada pihak terkait"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — gagasan yang baik selalu dimulai dari masalah nyata.",
+                "wrong": "Tanpa masalah yang jelas, solusi komputasi mudah menjadi sekadar alat tanpa manfaat."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Merancang rencana karier"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bidang",
+                  "Dasar yang perlu diperdalam"
+                ],
+                [
+                  "Analis data",
+                  "matematika, statistika, pemrograman"
+                ],
+                [
+                  "Pengembang perangkat lunak",
+                  "algoritma, pemrograman, rekayasa perangkat lunak"
+                ],
+                [
+                  "Keamanan siber",
+                  "jaringan, sistem operasi, kriptografi"
+                ],
+                [
+                  "Desain antarmuka",
+                  "desain, psikologi pengguna, pemrograman web"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Literasi digital"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bukan hanya kemampuan teknis, tetapi juga kesadaran etika, keamanan, dan tanggung jawab sosial — termasuk melindungi data pribadi pengguna."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-dampak-sosial",
+              "title": "Tantangan Kilat: Dampak Sosial",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Penemu kalkulator mekanis Pascaline → …",
+                  "answer": "Pascal"
+                },
+                {
+                  "question": "Perancang mesin analitik → …",
+                  "answer": "Babbage"
+                },
+                {
+                  "question": "Penulis algoritma pertama untuk mesin analitik → …",
+                  "answer": "Lovelace"
+                },
+                {
+                  "question": "Pengembang World Wide Web → …",
+                  "answer": "Berners-Lee"
+                },
+                {
+                  "question": "Undang-undang transaksi elektronik di Indonesia → UU …",
+                  "answer": "ITE"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — sejarah dan aturan hukum sama pentingnya dengan keterampilan teknis.",
+                "wrong": "Pascal (kalkulator), Babbage (mesin analitik), Lovelace (algoritma), Turing (teori), Berners-Lee (WWW)."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

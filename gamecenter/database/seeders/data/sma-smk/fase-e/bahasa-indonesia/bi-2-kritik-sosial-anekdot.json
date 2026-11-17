@@ -22,21 +22,560 @@
           "title": "Anekdot, Eksposisi, dan Stand Up Comedy",
           "duration": 240,
           "source_reference": "Bab 2 — Kritik Lewat Senyuman",
-          "content": "## Tiga bentuk penyampai kritik\n\n| Bentuk | Ciri |\n|---|---|\n| **Anekdot** | cerita singkat lucu yang menyindir |\n| **Eksposisi** | gagasan disertai alasan dan bukti |\n| **Stand up comedy** | lawakan tunggal berisi kritik sosial |\n\n### Struktur anekdot\n\n1. **Orientasi** — pengenalan tokoh dan situasi\n2. **Komplikasi** — masalah atau kejadian tak terduga\n3. **Koda** — penutup berisi pesan atau simpulan\n\n### Mengapa memakai humor?\n\nHumor menarik perhatian lebih dulu, sehingga pesan kritik lebih mudah diterima **tanpa konfrontasi langsung**.\n\nAnekdot yang berhasil membuat pembaca **langsung menangkap pesan kritiknya** tanpa perlu dijelaskan panjang."
+          "content": "## Tiga bentuk penyampai kritik\n\n| Bentuk | Ciri |\n|---|---|\n| **Anekdot** | cerita singkat lucu yang menyindir |\n| **Eksposisi** | gagasan disertai alasan dan bukti |\n| **Stand up comedy** | lawakan tunggal berisi kritik sosial |\n\n### Struktur anekdot\n\n1. **Orientasi** — pengenalan tokoh dan situasi\n2. **Komplikasi** — masalah atau kejadian tak terduga\n3. **Koda** — penutup berisi pesan atau simpulan\n\n### Mengapa memakai humor?\n\nHumor menarik perhatian lebih dulu, sehingga pesan kritik lebih mudah diterima **tanpa konfrontasi langsung**.\n\nAnekdot yang berhasil membuat pembaca **langsung menangkap pesan kritiknya** tanpa perlu dijelaskan panjang.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Anekdot",
+                  "definition": "Cerita singkat lucu yang menyindir dan menyampaikan kritik sosial."
+                },
+                {
+                  "term": "Eksposisi",
+                  "definition": "Teks yang menyampaikan gagasan disertai alasan dan bukti."
+                },
+                {
+                  "term": "Stand up comedy",
+                  "definition": "Lawakan tunggal yang berisi kritik sosial."
+                },
+                {
+                  "term": "Koda",
+                  "definition": "Penutup anekdot yang berisi pesan atau simpulan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga bentuk penyampai kritik"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bentuk",
+                  "Ciri"
+                ],
+                [
+                  "**Anekdot**",
+                  "cerita singkat lucu yang menyindir"
+                ],
+                [
+                  "**Eksposisi**",
+                  "gagasan disertai alasan dan bukti"
+                ],
+                [
+                  "**Stand up comedy**",
+                  "lawakan tunggal berisi kritik sosial"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Struktur anekdot"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Orientasi** — pengenalan tokoh dan situasi",
+                "**Komplikasi** — masalah atau kejadian tak terduga",
+                "**Koda** — penutup berisi pesan atau simpulan"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-bi2-struktur",
+              "prompt": "Urutkan struktur anekdot.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Orientasi — pengenalan tokoh dan situasi"
+                },
+                {
+                  "id": "s2",
+                  "text": "Komplikasi — masalah atau kejadian tak terduga"
+                },
+                {
+                  "id": "s3",
+                  "text": "Koda — penutup berisi pesan atau simpulan"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3"
+              ],
+              "feedback": {
+                "correct": "Benar — orientasi, komplikasi, lalu koda.",
+                "wrong": "Urutannya: orientasi, komplikasi, dan koda."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengapa memakai humor?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Humor menarik perhatian lebih dulu, sehingga pesan kritik lebih mudah diterima **tanpa konfrontasi langsung**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Anekdot yang berhasil membuat pembaca **langsung menangkap pesan kritiknya** tanpa perlu dijelaskan panjang."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi2-humor",
+              "question": "Mengapa anekdot memakai humor?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Agar pesan kritik lebih mudah diterima tanpa konfrontasi langsung",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Agar kritik tidak perlu memiliki pesan"
+                },
+                {
+                  "id": "c",
+                  "text": "Agar pembaca tidak memahami isinya"
+                }
+              ],
+              "explanation": "Humor menarik perhatian lebih dulu sehingga pesan kritik lebih mudah diterima. Anekdot yang baik membuat pembaca langsung menangkap pesan kritiknya."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Membedakan Fakta, Opini, dan Kritik Santun",
           "duration": 360,
           "source_reference": "Bab 2 — Kaidah Bahasa Kritik Sosial",
-          "content": "## Fakta dan opini\n\n| Fakta | Opini |\n|---|---|\n| \"Antrean rata-rata 45 menit\" | \"Pelayanan di kantor itu sangat buruk\" |\n| \"Jumlah keluhan naik 30 persen\" | \"Petugas seharusnya lebih ramah\" |\n\nPenanda opini: **sebaiknya**, **seharusnya**, **sangat**, **buruk**, **terbaik**.\n\n## Kritik, celaan, dan ancaman\n\n**Kritik** disertai alasan dan bertujuan memperbaiki:\n\n> \"Pelayanan antrean masih perlu diperbaiki karena banyak keluhan.\"\n\n**Celaan** hanya menyerang:\n\n> \"Petugasnya semuanya tidak becus.\"\n\n**Ancaman** menekan pihak lain:\n\n> \"Kalau tidak menurut, saya akan…\"\n\n## Kaidah bahasa\n\nKritik sosial disampaikan dengan kalimat **santun**, tidak menyerang pribadi, dan sebaiknya didukung **data atau kejadian nyata**. Kritik yang berpijak pada kenyataan lebih sulit dibantah dan lebih bermanfaat.\n\n## Menyimak secara aural\n\nMenyimak **aural** berarti melalui pendengaran, misalnya ketika menyimak lawakan tunggal. Pada teks **visual**, pesan dibangun oleh perpaduan gambar dan kata."
+          "content": "## Fakta dan opini\n\n| Fakta | Opini |\n|---|---|\n| \"Antrean rata-rata 45 menit\" | \"Pelayanan di kantor itu sangat buruk\" |\n| \"Jumlah keluhan naik 30 persen\" | \"Petugas seharusnya lebih ramah\" |\n\nPenanda opini: **sebaiknya**, **seharusnya**, **sangat**, **buruk**, **terbaik**.\n\n## Kritik, celaan, dan ancaman\n\n**Kritik** disertai alasan dan bertujuan memperbaiki:\n\n> \"Pelayanan antrean masih perlu diperbaiki karena banyak keluhan.\"\n\n**Celaan** hanya menyerang:\n\n> \"Petugasnya semuanya tidak becus.\"\n\n**Ancaman** menekan pihak lain:\n\n> \"Kalau tidak menurut, saya akan…\"\n\n## Kaidah bahasa\n\nKritik sosial disampaikan dengan kalimat **santun**, tidak menyerang pribadi, dan sebaiknya didukung **data atau kejadian nyata**. Kritik yang berpijak pada kenyataan lebih sulit dibantah dan lebih bermanfaat.\n\n## Menyimak secara aural\n\nMenyimak **aural** berarti melalui pendengaran, misalnya ketika menyimak lawakan tunggal. Pada teks **visual**, pesan dibangun oleh perpaduan gambar dan kata.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fakta dan opini"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Fakta",
+                  "Opini"
+                ],
+                [
+                  "\"Antrean rata-rata 45 menit\"",
+                  "\"Pelayanan di kantor itu sangat buruk\""
+                ],
+                [
+                  "\"Jumlah keluhan naik 30 persen\"",
+                  "\"Petugas seharusnya lebih ramah\""
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Penanda opini: **sebaiknya**, **seharusnya**, **sangat**, **buruk**, **terbaik**."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-bi2-fakta-opini",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam fakta atau opini.",
+              "buckets": [
+                {
+                  "id": "fakta",
+                  "label": "Fakta"
+                },
+                {
+                  "id": "opini",
+                  "label": "Opini"
+                }
+              ],
+              "items": [
+                {
+                  "id": "f1",
+                  "text": "Antrean rata-rata 45 menit",
+                  "bucket": "fakta"
+                },
+                {
+                  "id": "f2",
+                  "text": "Jumlah keluhan naik 30 persen",
+                  "bucket": "fakta"
+                },
+                {
+                  "id": "f3",
+                  "text": "Pelayanan di kantor itu sangat buruk",
+                  "bucket": "opini"
+                },
+                {
+                  "id": "f4",
+                  "text": "Petugas seharusnya lebih ramah",
+                  "bucket": "opini"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — angka dan kejadian terukur adalah fakta; penilaian dan saran adalah opini.",
+                "wrong": "Penanda opini antara lain sebaiknya, seharusnya, sangat, buruk, dan terbaik."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kritik, celaan, dan ancaman"
+            },
+            {
+              "type": "diagram",
+              "id": "dg-bi2-kritik",
+              "engine": "mermaid",
+              "title": "Kritik, celaan, dan ancaman",
+              "code": "flowchart LR\n  A[Kritik] --> A1[Disertai alasan]\n  A1 --> A2[Bertujuan memperbaiki]\n  B[Celaan] --> B1[Hanya menyerang]\n  C[Ancaman] --> C1[Menekan pihak lain]"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Kritik** disertai alasan dan bertujuan memperbaiki:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Pelayanan antrean masih perlu diperbaiki karena banyak keluhan.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "**Celaan** hanya menyerang:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Petugasnya semuanya tidak becus.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "**Ancaman** menekan pihak lain:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Kalau tidak menurut, saya akan…\""
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi2-kritik",
+              "question": "Pernyataan “Petugasnya semuanya tidak becus” termasuk…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Celaan karena hanya menyerang",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Kritik karena disertai alasan"
+                },
+                {
+                  "id": "c",
+                  "text": "Fakta karena menyebut petugas"
+                }
+              ],
+              "explanation": "Kritik disertai alasan dan bertujuan memperbaiki; celaan hanya menyerang. Kalimat itu menyerang tanpa alasan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kaidah bahasa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kritik sosial disampaikan dengan kalimat **santun**, tidak menyerang pribadi, dan sebaiknya didukung **data atau kejadian nyata**. Kritik yang berpijak pada kenyataan lebih sulit dibantah dan lebih bermanfaat."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyimak secara aural"
+            },
+            {
+              "type": "paragraph",
+              "text": "Menyimak **aural** berarti melalui pendengaran, misalnya ketika menyimak lawakan tunggal. Pada teks **visual**, pesan dibangun oleh perpaduan gambar dan kata."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi2-aural",
+              "question": "Menyimak melalui pendengaran, misalnya saat menyimak lawakan tunggal, disebut menyimak…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Aural",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Visual"
+                },
+                {
+                  "id": "c",
+                  "text": "Skimming"
+                }
+              ],
+              "explanation": "Menyimak aural berarti melalui pendengaran. Pada teks visual, pesan dibangun oleh perpaduan gambar dan kata."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Menyampaikan Simpati dan Pendapat",
           "duration": 240,
           "source_reference": "Bab 2 — Latihan",
-          "content": "## Menyampaikan simpati\n\nSimpati yang tepat disertai **alasan** yang menunjukkan pemahaman terhadap isi kritik.\n\n> \"Saya memahami keluhan warga karena datanya jelas dan masuk akal.\"\n\nBukan:\n\n> \"Semua kritik itu pasti salah.\"\n\n## Menyampaikan pendapat pro atau kontra\n\nBaik pro maupun kontra sebaiknya disampaikan dengan **alasan logis** dan **bahasa santun**.\n\n## Latihan menyusun anekdot\n\n1. Pilih masalah sosial nyata, misalnya antrean layanan publik\n2. Susun cerita singkat dengan tokoh dan latar\n3. Tambahkan kelucuan pada bagian **komplikasi**\n4. Tutup dengan **koda** berisi pesan kritik\n\n### Contoh koda\n\n> \"Begitulah, kalau antrean terus begini, urusan kecil pun jadi sehari.\"\n\n### Yang perlu dihindari\n\n- menyebut nama pribadi tanpa bukti\n- menyebarkan tuduhan tanpa sumber\n- memakai kata kasar agar terkesan tegas"
+          "content": "## Menyampaikan simpati\n\nSimpati yang tepat disertai **alasan** yang menunjukkan pemahaman terhadap isi kritik.\n\n> \"Saya memahami keluhan warga karena datanya jelas dan masuk akal.\"\n\nBukan:\n\n> \"Semua kritik itu pasti salah.\"\n\n## Menyampaikan pendapat pro atau kontra\n\nBaik pro maupun kontra sebaiknya disampaikan dengan **alasan logis** dan **bahasa santun**.\n\n## Latihan menyusun anekdot\n\n1. Pilih masalah sosial nyata, misalnya antrean layanan publik\n2. Susun cerita singkat dengan tokoh dan latar\n3. Tambahkan kelucuan pada bagian **komplikasi**\n4. Tutup dengan **koda** berisi pesan kritik\n\n### Contoh koda\n\n> \"Begitulah, kalau antrean terus begini, urusan kecil pun jadi sehari.\"\n\n### Yang perlu dihindari\n\n- menyebut nama pribadi tanpa bukti\n- menyebarkan tuduhan tanpa sumber\n- memakai kata kasar agar terkesan tegas",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyampaikan simpati"
+            },
+            {
+              "type": "paragraph",
+              "text": "Simpati yang tepat disertai **alasan** yang menunjukkan pemahaman terhadap isi kritik."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Saya memahami keluhan warga karena datanya jelas dan masuk akal.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Bukan:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Semua kritik itu pasti salah.\""
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyampaikan pendapat pro atau kontra"
+            },
+            {
+              "type": "paragraph",
+              "text": "Baik pro maupun kontra sebaiknya disampaikan dengan **alasan logis** dan **bahasa santun**."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Latihan menyusun anekdot"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Pilih masalah sosial nyata, misalnya antrean layanan publik",
+                "Susun cerita singkat dengan tokoh dan latar",
+                "Tambahkan kelucuan pada bagian **komplikasi**",
+                "Tutup dengan **koda** berisi pesan kritik"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-bi2-menyusun",
+              "prompt": "Urutkan langkah menyusun anekdot.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Pilih masalah sosial nyata"
+                },
+                {
+                  "id": "s2",
+                  "text": "Susun cerita singkat dengan tokoh dan latar"
+                },
+                {
+                  "id": "s3",
+                  "text": "Tambahkan kelucuan pada bagian komplikasi"
+                },
+                {
+                  "id": "s4",
+                  "text": "Tutup dengan koda berisi pesan kritik"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — pilih masalah, susun cerita, tambahkan kelucuan, lalu tutup dengan koda.",
+                "wrong": "Mulai dari memilih masalah sosial nyata, lalu menyusun cerita dan komplikasi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh koda"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Begitulah, kalau antrean terus begini, urusan kecil pun jadi sehari.\""
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Yang perlu dihindari"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menyebut nama pribadi tanpa bukti",
+                "menyebarkan tuduhan tanpa sumber",
+                "memakai kata kasar agar terkesan tegas"
+              ]
+            },
+            {
+              "type": "scenario",
+              "id": "sc-bi2-kritik",
+              "title": "Menyampaikan kritik tentang antrean kantin",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu kesal karena antrean kantin sangat panjang. Kamu ingin menyampaikan kritik di media sosial sekolah. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menulis kritik santun disertai data dan usulan perbaikan",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Kritik yang baik disertai alasan, data, dan tujuan memperbaiki."
+                    },
+                    {
+                      "text": "Menulis celaan terhadap petugas kantin",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Celaan hanya menyerang dan tidak membantu perbaikan."
+                    },
+                    {
+                      "text": "Menyebarkan keluhan tanpa data agar cepat viral",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Keluhan tanpa data mudah dibantah dan tidak memberi solusi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Ada teman yang membalas dengan kata kasar. Apa sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Membalas dengan santun dan mengajak fokus pada solusi",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Kritik sosial dijaga dengan bahasa santun dan fokus pada perbaikan."
+                    },
+                    {
+                      "text": "Membalas dengan kata kasar yang lebih keras",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Membalas kasar mengubah kritik menjadi konflik."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Petugas kantin membaca unggahanmu dan merasa tersinggung. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Meminta maaf dan menyampaikan kritik dengan alasan",
+                      "next": "n2",
+                      "score": 1,
+                      "feedback": "Meminta maaf lalu menyampaikan alasan memulihkan hubungan."
+                    },
+                    {
+                      "text": "Membiarkan karena merasa berhak mengkritik",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Kritik tetap harus santun dan tidak menyerang pribadi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Guru menyarankan membuat anekdot agar pesannya lebih diterima. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menyusun anekdot dengan koda berisi kritik yang jelas",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Anekdot membuat kritik lebih mudah diterima tanpa konfrontasi langsung."
+                    },
+                    {
+                      "text": "Menambahkan tuduhan tanpa sumber agar lebih lucu",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Tuduhan tanpa sumber merusak kredibilitas dan dapat merugikan orang lain."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kritikmu disampaikan dengan santun dan data. Petugas menanggapi dan antrean mulai diperbaiki."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Pesan kritikmu sampai, tetapi caranya membuat suasana memanas. Perbaiki dengan bahasa santun."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Kritik berubah menjadi konflik. Orang menolak pesan karena caranya menyerang."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-bi2-anekdot",
+              "title": "Tantangan Kilat: Anekdot dan Kritik Sosial",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Cerita singkat lucu yang menyindir disebut…",
+                  "answer": "anekdot"
+                },
+                {
+                  "question": "Bagian pengenalan tokoh dan situasi disebut…",
+                  "answer": "orientasi"
+                },
+                {
+                  "question": "Bagian masalah atau kejadian tak terduga disebut…",
+                  "answer": "komplikasi"
+                },
+                {
+                  "question": "Penutup berisi pesan kritik disebut…",
+                  "answer": "koda"
+                },
+                {
+                  "question": "Kritik yang hanya menyerang disebut…",
+                  "answer": "celaan"
+                },
+                {
+                  "question": "Menyimak melalui pendengaran disebut menyimak…",
+                  "answer": "aural"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — anekdot mengkritik lewat humor, bukan celaan.",
+                "wrong": "Ingat struktur anekdot dan bedakan kritik, celaan, serta ancaman."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

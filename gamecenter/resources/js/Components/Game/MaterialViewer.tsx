@@ -1,5 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 
+import BlockRenderer from '@/Components/Material/BlockRenderer';
+import { Inline } from '@/Components/Material/Blocks/TextBlocks';
+import { normalizeBlocks, legacyValueBlocks } from '@/lib/material/blocks';
+import type { MaterialBlockPayload } from '@/lib/material/store';
 import { cn } from '@/lib/utils';
 
 export interface MaterialProp {
@@ -8,7 +12,8 @@ export interface MaterialProp {
     type_label: string;
     title: string;
     content: string | null;
-    blocks: Array<{ type: string; value: string }> | null;
+    /** Blok interaktif (plan-materi-interaktif §3.2). Kosong = pakai markdown. */
+    blocks: unknown[] | null;
     media_url: string | null;
     media_type: string | null;
     duration: number | null;
@@ -22,6 +27,8 @@ interface MaterialViewerProps {
     initialRead: number;
     isLoggedIn: boolean;
     onRead: (readCount: number) => void;
+    /** Dipanggil setiap blok aktivitas selesai diperiksa (plan §3.4.2). */
+    onBlockRecord?: (payload: MaterialBlockPayload) => void;
 }
 
 const TYPE_ICON: Record<string, string> = {
@@ -30,6 +37,8 @@ const TYPE_ICON: Record<string, string> = {
     image: '🖼️',
     audio: '🔊',
     interactive: '🧩',
+    visual: '📊',
+    scenario: '🎭',
     game: '🎮',
 };
 
@@ -174,26 +183,6 @@ function parseBlocks(content: string): Block[] {
     return blocks;
 }
 
-function Inline({ text }: { text: string }) {
-    const parts = text.split(/(\*\*[^*]+\*\*|`[^`]+`)/g);
-
-    return (
-        <>
-            {parts.map((part, index) => {
-                if (part.startsWith('**') && part.endsWith('**')) {
-                    return <strong key={index}>{part.slice(2, -2)}</strong>;
-                }
-
-                if (part.startsWith('`') && part.endsWith('`')) {
-                    return <code key={index}>{part.slice(1, -1)}</code>;
-                }
-
-                return <span key={index}>{part}</span>;
-            })}
-        </>
-    );
-}
-
 function MaterialBody({ content }: { content: string }) {
     const blocks = useMemo(() => parseBlocks(content), [content]);
 
@@ -263,6 +252,58 @@ function MaterialBody({ content }: { content: string }) {
     );
 }
 
+/**
+ * Memilih sumber render (plan §3.3):
+ * - materi dengan blok baru → `BlockRenderer`;
+ * - materi lama → markdown, ditambah daftar blok `{type, value}` bila ada
+ *   (bentuk lama yang masih dipakai materi PAUD/TK).
+ */
+function MaterialContent({
+    material,
+    onBlockRecord,
+}: {
+    material: MaterialProp;
+    onBlockRecord?: (payload: MaterialBlockPayload) => void;
+}) {
+    const blocks = useMemo(
+        () => normalizeBlocks(material.blocks),
+        [material.blocks],
+    );
+    const legacyBlocks = useMemo(
+        () => legacyValueBlocks(material.blocks),
+        [material.blocks],
+    );
+
+    if (blocks.length > 0) {
+        return (
+            <BlockRenderer
+                blocks={blocks}
+                materialId={material.id}
+                onRecord={onBlockRecord}
+            />
+        );
+    }
+
+    return (
+        <>
+            {material.content && <MaterialBody content={material.content} />}
+
+            {legacyBlocks.length > 0 && (
+                <ul className="mt-2 grid gap-1">
+                    {legacyBlocks.map((block, index) => (
+                        <li
+                            key={index}
+                            className="rounded-lg bg-surface px-2.5 py-1.5 text-[10.5px] font-medium text-ink/55 ring-1 ring-rule"
+                        >
+                            {block.value}
+                        </li>
+                    ))}
+                </ul>
+            )}
+        </>
+    );
+}
+
 function formatMaterialDuration(seconds: number | null): string | null {
     if (!seconds || seconds <= 0) {
         return null;
@@ -279,6 +320,7 @@ export default function MaterialViewer({
     initialRead,
     isLoggedIn,
     onRead,
+    onBlockRecord,
 }: MaterialViewerProps) {
     const key = storageKey(chapterId);
     const [readIds, setReadIds] = useState<number[]>(() => loadReadIds(key));
@@ -409,9 +451,11 @@ export default function MaterialViewer({
                             {isOpen && (
                                 <div className="px-4 pb-4 sm:px-5">
                                     <div className="rounded-xl border border-rule bg-canvas/40 px-3.5 py-3">
-                                        {material.content ? (
-                                            <MaterialBody
-                                                content={material.content}
+                                        {material.content ||
+                                        (material.blocks?.length ?? 0) > 0 ? (
+                                            <MaterialContent
+                                                material={material}
+                                                onBlockRecord={onBlockRecord}
                                             />
                                         ) : (
                                             <p className="text-[11px] font-medium text-ink/45">
@@ -420,22 +464,6 @@ export default function MaterialViewer({
                                                 sesi bermain.
                                             </p>
                                         )}
-
-                                        {material.blocks &&
-                                            material.blocks.length > 0 && (
-                                                <ul className="mt-2 grid gap-1">
-                                                    {material.blocks.map(
-                                                        (block, blockIndex) => (
-                                                            <li
-                                                                key={blockIndex}
-                                                                className="rounded-lg bg-surface px-2.5 py-1.5 text-[10.5px] font-medium text-ink/55 ring-1 ring-rule"
-                                                            >
-                                                                {block.value}
-                                                            </li>
-                                                        ),
-                                                    )}
-                                                </ul>
-                                            )}
 
                                         {material.source_reference && (
                                             <p className="mt-2 text-[9px] font-medium text-ink/30">

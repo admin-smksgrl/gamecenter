@@ -23,21 +23,639 @@
           "title": "Fikih Muamalah dan Akad",
           "duration": 320,
           "source_reference": "Bab 4",
-          "content": "## Fikih muamalah\n\n**Fikih muamalah** mengatur hubungan antar manusia dalam urusan **sosial-ekonomi**, termasuk transaksi.\n\n## Akad\n\n**Akad** = perjanjian antara pihak yang bertransaksi sebagai dasar ikatan hak dan kewajiban.\n\n### Akad yang sering dipakai\n\n| Akad | Pengertian |\n|---|---|\n| **mudarabah** | kerja sama usaha dengan **bagi hasil** sesuai nisbah |\n| **musyarakah** | kerja sama **modal** |\n| **wadiah** | **titipan** dana yang dapat diambil kembali |\n| **tabarru'** | dana **tolong-menolong** untuk menanggung risiko |\n\n## Riba\n\n**Riba** adalah tambahan yang diambil **tanpa imbalan yang sah**, misalnya bunga pinjaman.\n\n### Mengapa dilarang?\n\n- menimbulkan **ketidakadilan**\n- membebani pihak yang lemah\n- risiko tidak ditanggung bersama\n\n## Menghindari gharar\n\n**Gharar** = ketidakjelasan. Transaksi harus jelas agar hak kedua pihak terlindungi.\n\n## Utang yang sehat\n\n1. Pastikan kebutuhan benar-benar penting\n2. Hitung kemampuan membayar\n3. Pilih lembaga dan akad yang jelas dan halal\n4. **Catat kesepakatan** secara tertulis\n5. Lunasi tepat waktu"
+          "content": "## Fikih muamalah\n\n**Fikih muamalah** mengatur hubungan antar manusia dalam urusan **sosial-ekonomi**, termasuk transaksi.\n\n## Akad\n\n**Akad** = perjanjian antara pihak yang bertransaksi sebagai dasar ikatan hak dan kewajiban.\n\n### Akad yang sering dipakai\n\n| Akad | Pengertian |\n|---|---|\n| **mudarabah** | kerja sama usaha dengan **bagi hasil** sesuai nisbah |\n| **musyarakah** | kerja sama **modal** |\n| **wadiah** | **titipan** dana yang dapat diambil kembali |\n| **tabarru'** | dana **tolong-menolong** untuk menanggung risiko |\n\n## Riba\n\n**Riba** adalah tambahan yang diambil **tanpa imbalan yang sah**, misalnya bunga pinjaman.\n\n### Mengapa dilarang?\n\n- menimbulkan **ketidakadilan**\n- membebani pihak yang lemah\n- risiko tidak ditanggung bersama\n\n## Menghindari gharar\n\n**Gharar** = ketidakjelasan. Transaksi harus jelas agar hak kedua pihak terlindungi.\n\n## Utang yang sehat\n\n1. Pastikan kebutuhan benar-benar penting\n2. Hitung kemampuan membayar\n3. Pilih lembaga dan akad yang jelas dan halal\n4. **Catat kesepakatan** secara tertulis\n5. Lunasi tepat waktu",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Akad",
+                  "definition": "Perjanjian antara pihak yang bertransaksi sebagai dasar ikatan hak dan kewajiban."
+                },
+                {
+                  "term": "Mudarabah",
+                  "definition": "Kerja sama usaha dengan bagi hasil sesuai nisbah yang disepakati."
+                },
+                {
+                  "term": "Musyarakah",
+                  "definition": "Kerja sama modal antara pihak-pihak yang bertransaksi."
+                },
+                {
+                  "term": "Wadiah",
+                  "definition": "Titipan dana yang dapat diambil kembali oleh pemiliknya."
+                },
+                {
+                  "term": "Tabarru'",
+                  "definition": "Dana tolong-menolong untuk menanggung risiko bersama."
+                },
+                {
+                  "term": "Riba",
+                  "definition": "Tambahan yang diambil tanpa imbalan yang sah, misalnya bunga pinjaman."
+                },
+                {
+                  "term": "Gharar",
+                  "definition": "Ketidakjelasan dalam transaksi yang dapat merugikan salah satu pihak."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fikih muamalah"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Fikih muamalah** mengatur hubungan antar manusia dalam urusan **sosial-ekonomi**, termasuk transaksi."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Akad"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Akad** = perjanjian antara pihak yang bertransaksi sebagai dasar ikatan hak dan kewajiban."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Akad yang sering dipakai"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Akad",
+                  "Pengertian"
+                ],
+                [
+                  "**mudarabah**",
+                  "kerja sama usaha dengan **bagi hasil** sesuai nisbah"
+                ],
+                [
+                  "**musyarakah**",
+                  "kerja sama **modal**"
+                ],
+                [
+                  "**wadiah**",
+                  "**titipan** dana yang dapat diambil kembali"
+                ],
+                [
+                  "**tabarru'**",
+                  "dana **tolong-menolong** untuk menanggung risiko"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pai4-akad",
+              "engine": "mermaid",
+              "title": "Memilih akad sesuai kebutuhan transaksi",
+              "code": "flowchart LR\n  A[Kebutuhan transaksi] --> B[Pilih akad]\n  B --> C[Mudarabah: kerja sama bagi hasil]\n  B --> D[Musyarakah: kerja sama modal]\n  B --> E[Wadiah: titipan dana]\n  B --> F[Tabarru': dana tolong-menolong]\n  C --> G[Catat kesepakatan tertulis]\n  D --> G\n  E --> G\n  F --> G"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Riba"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Riba** adalah tambahan yang diambil **tanpa imbalan yang sah**, misalnya bunga pinjaman."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengapa dilarang?"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menimbulkan **ketidakadilan**",
+                "membebani pihak yang lemah",
+                "risiko tidak ditanggung bersama"
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai4-riba",
+              "question": "Tambahan yang diambil tanpa imbalan yang sah, misalnya bunga pinjaman, disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Riba",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Gharar"
+                },
+                {
+                  "id": "c",
+                  "text": "Wadiah"
+                }
+              ],
+              "explanation": "Riba dilarang karena menimbulkan ketidakadilan, membebani pihak yang lemah, dan membuat risiko tidak ditanggung bersama. Gharar adalah ketidakjelasan akad."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menghindari gharar"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Gharar** = ketidakjelasan. Transaksi harus jelas agar hak kedua pihak terlindungi."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Utang yang sehat"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Pastikan kebutuhan benar-benar penting",
+                "Hitung kemampuan membayar",
+                "Pilih lembaga dan akad yang jelas dan halal",
+                "**Catat kesepakatan** secara tertulis",
+                "Lunasi tepat waktu"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai4-utang",
+              "prompt": "Urutkan langkah berutang secara sehat.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Pastikan kebutuhan benar-benar penting"
+                },
+                {
+                  "id": "s2",
+                  "text": "Hitung kemampuan membayar"
+                },
+                {
+                  "id": "s3",
+                  "text": "Pilih lembaga dan akad yang jelas dan halal"
+                },
+                {
+                  "id": "s4",
+                  "text": "Catat kesepakatan secara tertulis"
+                },
+                {
+                  "id": "s5",
+                  "text": "Lunasi tepat waktu"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar — pastikan kebutuhan, hitung kemampuan, pilih akad halal, catat, lalu lunasi tepat waktu.",
+                "wrong": "Mulai dari memastikan kebutuhan penting dan kemampuan membayar sebelum memilih akad."
+              }
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Asuransi Syariah",
           "duration": 300,
           "source_reference": "Bab 4",
-          "content": "## Prinsip dasar\n\nAsuransi syariah dibangun di atas **ta'awun** — saling menolong dalam menanggung musibah.\n\n## Dana tabarru'\n\nPeserta menyisihkan dana **tabarru'** (dana kebajikan) yang dikumpulkan untuk saling menanggung risiko.\n\n### Konsekuensi\n\n- risiko ditanggung **bersama**\n- bukan perpindahan risiko ke perusahaan semata\n- pengelolaan menghindari **riba** dan **gharar**\n\n## Perbandingan\n\n| Asuransi konvensional | Asuransi syariah |\n|---|---|\n| premi menjadi milik perusahaan | ada **dana tabarru'** bersama |\n| mengandung unsur bunga | berbasis akad dan bagi hasil |\n\n## Manfaat\n\nMemberi perlindungan sekaligus menumbuhkan solidaritas antar peserta."
+          "content": "## Prinsip dasar\n\nAsuransi syariah dibangun di atas **ta'awun** — saling menolong dalam menanggung musibah.\n\n## Dana tabarru'\n\nPeserta menyisihkan dana **tabarru'** (dana kebajikan) yang dikumpulkan untuk saling menanggung risiko.\n\n### Konsekuensi\n\n- risiko ditanggung **bersama**\n- bukan perpindahan risiko ke perusahaan semata\n- pengelolaan menghindari **riba** dan **gharar**\n\n## Perbandingan\n\n| Asuransi konvensional | Asuransi syariah |\n|---|---|\n| premi menjadi milik perusahaan | ada **dana tabarru'** bersama |\n| mengandung unsur bunga | berbasis akad dan bagi hasil |\n\n## Manfaat\n\nMemberi perlindungan sekaligus menumbuhkan solidaritas antar peserta.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Prinsip dasar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Asuransi syariah dibangun di atas **ta'awun** — saling menolong dalam menanggung musibah."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai4-asuransi",
+              "prompt": "Kelompokkan ciri berikut ke dalam asuransi konvensional atau syariah.",
+              "buckets": [
+                {
+                  "id": "konvensional",
+                  "label": "Konvensional"
+                },
+                {
+                  "id": "syariah",
+                  "label": "Syariah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "a1",
+                  "text": "Premi menjadi milik perusahaan",
+                  "bucket": "konvensional"
+                },
+                {
+                  "id": "a2",
+                  "text": "Mengandung unsur bunga",
+                  "bucket": "konvensional"
+                },
+                {
+                  "id": "a3",
+                  "text": "Ada dana tabarru' bersama",
+                  "bucket": "syariah"
+                },
+                {
+                  "id": "a4",
+                  "text": "Berbasis akad dan bagi hasil",
+                  "bucket": "syariah"
+                },
+                {
+                  "id": "a5",
+                  "text": "Risiko ditanggung bersama",
+                  "bucket": "syariah"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — asuransi syariah berbasis ta'awun dan dana tabarru', bukan perpindahan risiko dengan bunga.",
+                "wrong": "Ciri syariah: dana tabarru', akad dan bagi hasil, risiko ditanggung bersama. Konvensional: premi milik perusahaan dan mengandung bunga."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dana tabarru'"
+            },
+            {
+              "type": "paragraph",
+              "text": "Peserta menyisihkan dana **tabarru'** (dana kebajikan) yang dikumpulkan untuk saling menanggung risiko."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai4-tabarru",
+              "question": "Dana kebajikan yang dikumpulkan peserta asuransi syariah untuk saling menanggung risiko disebut dana…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Tabarru'",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Mudarabah"
+                },
+                {
+                  "id": "c",
+                  "text": "Wadiah"
+                }
+              ],
+              "explanation": "Dana tabarru' adalah dana tolong-menolong. Prinsip dasarnya ta'awun: peserta saling menanggung musibah, bukan memindahkan risiko kepada perusahaan."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Konsekuensi"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "risiko ditanggung **bersama**",
+                "bukan perpindahan risiko ke perusahaan semata",
+                "pengelolaan menghindari **riba** dan **gharar**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perbandingan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Asuransi konvensional",
+                  "Asuransi syariah"
+                ],
+                [
+                  "premi menjadi milik perusahaan",
+                  "ada **dana tabarru'** bersama"
+                ],
+                [
+                  "mengandung unsur bunga",
+                  "berbasis akad dan bagi hasil"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Manfaat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Memberi perlindungan sekaligus menumbuhkan solidaritas antar peserta."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Bank dan Koperasi Syariah",
           "duration": 300,
           "source_reference": "Bab 4",
-          "content": "## Bank syariah\n\nBeroperasi dengan **akad syariah** dan **menghindari bunga**.\n\n### Produk umum\n\n- **wadiah** — titipan dana\n- **mudarabah** — pembiayaan bagi hasil\n- **musyarakah** — penyertaan modal\n\n## Koperasi syariah\n\nBerbasis **keanggotaan** dan melayani anggota dengan akad syariah.\n\nManfaatnya: akses **pembiayaan** dan **simpanan** sesuai kemampuan tanpa jerat bunga.\n\n## Etika memilih lembaga keuangan\n\n1. Pahami kebutuhan keuangan\n2. Periksa akad dan produk\n3. Pastikan **legalitas** lewat izin resmi\n4. Baca dan pahami perjanjian\n\n## Waspada pinjaman online ilegal\n\nRisikonya: **bunga dan denda mencekik** serta **penyalahgunaan data pribadi**.\n\n## Wirausaha syariah bagi pelajar\n\n- produk **halal**\n- **jujur** dan tidak menipu\n- tidak mengambil untung curang\n\n## Dana kebajikan\n\n**Zakat** dan dana kebajikan dikelola untuk menyeimbangkan ekonomi dan mengurangi kesenjangan."
+          "content": "## Bank syariah\n\nBeroperasi dengan **akad syariah** dan **menghindari bunga**.\n\n### Produk umum\n\n- **wadiah** — titipan dana\n- **mudarabah** — pembiayaan bagi hasil\n- **musyarakah** — penyertaan modal\n\n## Koperasi syariah\n\nBerbasis **keanggotaan** dan melayani anggota dengan akad syariah.\n\nManfaatnya: akses **pembiayaan** dan **simpanan** sesuai kemampuan tanpa jerat bunga.\n\n## Etika memilih lembaga keuangan\n\n1. Pahami kebutuhan keuangan\n2. Periksa akad dan produk\n3. Pastikan **legalitas** lewat izin resmi\n4. Baca dan pahami perjanjian\n\n## Waspada pinjaman online ilegal\n\nRisikonya: **bunga dan denda mencekik** serta **penyalahgunaan data pribadi**.\n\n## Wirausaha syariah bagi pelajar\n\n- produk **halal**\n- **jujur** dan tidak menipu\n- tidak mengambil untung curang\n\n## Dana kebajikan\n\n**Zakat** dan dana kebajikan dikelola untuk menyeimbangkan ekonomi dan mengurangi kesenjangan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bank syariah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Beroperasi dengan **akad syariah** dan **menghindari bunga**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Produk umum"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**wadiah** — titipan dana",
+                "**mudarabah** — pembiayaan bagi hasil",
+                "**musyarakah** — penyertaan modal"
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai4-wadiah",
+              "question": "Produk bank syariah berupa titipan dana yang dapat diambil kembali disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Wadiah",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Mudarabah"
+                },
+                {
+                  "id": "c",
+                  "text": "Musyarakah"
+                }
+              ],
+              "explanation": "Wadiah adalah titipan, mudarabah adalah pembiayaan bagi hasil, dan musyarakah adalah penyertaan modal."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Koperasi syariah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Berbasis **keanggotaan** dan melayani anggota dengan akad syariah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Manfaatnya: akses **pembiayaan** dan **simpanan** sesuai kemampuan tanpa jerat bunga."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Etika memilih lembaga keuangan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Pahami kebutuhan keuangan",
+                "Periksa akad dan produk",
+                "Pastikan **legalitas** lewat izin resmi",
+                "Baca dan pahami perjanjian"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai4-etika",
+              "prompt": "Urutkan etika memilih lembaga keuangan.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Pahami kebutuhan keuangan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Periksa akad dan produk"
+                },
+                {
+                  "id": "s3",
+                  "text": "Pastikan legalitas lewat izin resmi"
+                },
+                {
+                  "id": "s4",
+                  "text": "Baca dan pahami perjanjian"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — pahami kebutuhan, periksa akad, pastikan legalitas, lalu baca perjanjian.",
+                "wrong": "Kebutuhan dulu, lalu akad, legalitas, dan terakhir membaca perjanjian sebelum menandatangani."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Waspada pinjaman online ilegal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Risikonya: **bunga dan denda mencekik** serta **penyalahgunaan data pribadi**."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Wirausaha syariah bagi pelajar"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "produk **halal**",
+                "**jujur** dan tidak menipu",
+                "tidak mengambil untung curang"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dana kebajikan"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Zakat** dan dana kebajikan dikelola untuk menyeimbangkan ekonomi dan mengurangi kesenjangan."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pai4-pinjol",
+              "title": "Tawaran pinjaman online untuk membeli gawai",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Seorang teman mengirim tautan pinjaman online: dananya cair cepat tanpa jaminan. Kamu ingin membeli gawai baru. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Memeriksa legalitas dan membaca perjanjian lebih dulu",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Langkah pertama adalah memastikan legalitas lewat izin resmi dan memahami isi perjanjian."
+                    },
+                    {
+                      "text": "Mengajukan pinjaman karena prosesnya mudah",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Kemudahan bukan jaminan aman; pinjaman ilegal sering membawa bunga dan denda mencekik."
+                    },
+                    {
+                      "text": "Menunda dan menghitung apakah gawai itu benar-benar kebutuhan",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Menunda itu baik, tetapi kebutuhan dan kemampuan membayar perlu dihitung dengan jelas."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Ternyata penyedia itu tidak memiliki izin resmi. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Membatalkan dan mencari lembaga berizin",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Legalitas melindungi hak. Lembaga berizin terikat aturan dan akad yang jelas."
+                    },
+                    {
+                      "text": "Tetap meminjam dalam jumlah kecil karena dianggap aman",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Jumlah kecil tidak menghapus risiko penyalahgunaan data dan denda yang mencekik."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Beberapa minggu kemudian tagihan membengkak karena denda. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengakui keadaan kepada orang tua dan mencari bantuan",
+                      "next": "n7",
+                      "score": 1,
+                      "feedback": "Terbuka kepada keluarga lebih baik daripada berutang lagi untuk menutup utang."
+                    },
+                    {
+                      "text": "Meminjam lagi dari aplikasi lain untuk menutup tagihan",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "Berutang untuk membayar utang membuat beban berlipat dan sulit berhenti."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Setelah dihitung, gawai baru belum mendesak. Apa keputusanmu?",
+                  "choices": [
+                    {
+                      "text": "Menabung bertahap dan membeli tanpa utang berbunga",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Menabung sesuai kemampuan menghindari jerat bunga dan menjaga keuangan sehat."
+                    },
+                    {
+                      "text": "Tetap meminjam agar bisa membeli sekarang",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Membeli sekarang dengan utang berbunga mengorbankan keamanan keuangan nanti."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kamu memilih lembaga berizin atau menabung sendiri. Keuangan aman dan data pribadi terlindungi."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Pinjaman berjalan, tetapi kamu masih menanggung bunga dan risiko di kemudian hari."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Beban terasa, tetapi keterbukaan kepada keluarga membuka jalan penyelesaian yang lebih aman."
+                },
+                {
+                  "id": "n8",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Utang baru menutup utang lama. Tagihan makin besar dan tekanan terus bertambah."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pai4-syariah",
+              "title": "Tantangan Kilat: Akad dan Lembaga Keuangan Syariah",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Perjanjian dasar transaksi disebut…",
+                  "answer": "akad"
+                },
+                {
+                  "question": "Kerja sama usaha dengan bagi hasil disebut…",
+                  "answer": "mudarabah"
+                },
+                {
+                  "question": "Kerja sama modal disebut…",
+                  "answer": "musyarakah"
+                },
+                {
+                  "question": "Titipan dana yang dapat diambil kembali disebut…",
+                  "answer": "wadiah"
+                },
+                {
+                  "question": "Dana tolong-menolong untuk menanggung risiko disebut…",
+                  "answer": "tabarru"
+                },
+                {
+                  "question": "Tambahan tanpa imbalan sah disebut…",
+                  "answer": "riba"
+                },
+                {
+                  "question": "Ketidakjelasan dalam transaksi disebut…",
+                  "answer": "gharar"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — akad yang jelas dan halal melindungi kedua pihak dari riba dan gharar.",
+                "wrong": "Ingat istilahnya: akad, mudarabah, musyarakah, wadiah, tabarru', riba, dan gharar."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

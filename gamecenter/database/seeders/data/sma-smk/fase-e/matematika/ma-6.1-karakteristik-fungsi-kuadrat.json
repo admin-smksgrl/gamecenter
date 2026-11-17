@@ -20,21 +20,346 @@
           "title": "Bentuk dan Arah Parabola",
           "duration": 240,
           "source_reference": "Modul Ajar MA 6.1 — Kompetensi Awal",
-          "content": "## Fungsi kuadrat dan grafiknya\n\nFungsi kuadrat berbentuk\n\n> **f(x) = ax² + bx + c**, dengan a ≠ 0\n\nGrafiknya disebut **parabola**. Sifat paling dasar ditentukan oleh tanda **a**:\n\n| Nilai a | Arah terbuka | Puncak |\n|---|---|---|\n| a > 0 | ke **atas** | titik **terendah** (nilai minimum) |\n| a < 0 | ke **bawah** | titik **tertinggi** (nilai maksimum) |\n\nContoh: f(x) = 2x² − 3x + 1 → a = 2 > 0 → terbuka ke atas.\nContoh: f(x) = −x² + 4x → a = −1 < 0 → terbuka ke bawah.\n\n### Yang perlu dicatat\n\n- Bila a = 0, fungsinya menjadi **linear**, bukan kuadrat.\n- Semakin besar |a|, semakin **sempit** parabolanya; semakin kecil |a|, semakin lebar.\n- Grafik selalu memotong sumbu-y di **(0, c)**."
+          "content": "## Fungsi kuadrat dan grafiknya\n\nFungsi kuadrat berbentuk\n\n> **f(x) = ax² + bx + c**, dengan a ≠ 0\n\nGrafiknya disebut **parabola**. Sifat paling dasar ditentukan oleh tanda **a**:\n\n| Nilai a | Arah terbuka | Puncak |\n|---|---|---|\n| a > 0 | ke **atas** | titik **terendah** (nilai minimum) |\n| a < 0 | ke **bawah** | titik **tertinggi** (nilai maksimum) |\n\nContoh: f(x) = 2x² − 3x + 1 → a = 2 > 0 → terbuka ke atas.\nContoh: f(x) = −x² + 4x → a = −1 < 0 → terbuka ke bawah.\n\n### Yang perlu dicatat\n\n- Bila a = 0, fungsinya menjadi **linear**, bukan kuadrat.\n- Semakin besar |a|, semakin **sempit** parabolanya; semakin kecil |a|, semakin lebar.\n- Grafik selalu memotong sumbu-y di **(0, c)**.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Fungsi kuadrat dan grafiknya",
+              "level": 2
+            },
+            {
+              "type": "paragraph",
+              "text": "Fungsi kuadrat berbentuk **f(x) = ax² + bx + c** dengan a ≠ 0. Grafiknya disebut **parabola**, dan sifat paling dasar ditentukan oleh tanda a."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "a > 0 → parabola terbuka **ke atas**, puncaknya titik terendah (nilai minimum).",
+                "a < 0 → parabola terbuka **ke bawah**, puncaknya titik tertinggi (nilai maksimum).",
+                "Grafik selalu memotong sumbu-y di **(0, c)**.",
+                "Semakin besar |a|, semakin sempit parabolanya."
+              ]
+            },
+            {
+              "type": "chart",
+              "kind": "line",
+              "title": "Tinggi bola h(t) = −5t² + 20t",
+              "data": [
+                {
+                  "label": "0 s",
+                  "value": 0
+                },
+                {
+                  "label": "1 s",
+                  "value": 15
+                },
+                {
+                  "label": "2 s",
+                  "value": 20
+                },
+                {
+                  "label": "3 s",
+                  "value": 15
+                },
+                {
+                  "label": "4 s",
+                  "value": 0
+                }
+              ],
+              "desc": "Karena a = −5 < 0, grafiknya parabola terbuka ke bawah: bola naik sampai 20 m pada detik ke-2, lalu turun lagi dan menyentuh tanah pada detik ke-4."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Nilai a",
+                  "Arah terbuka",
+                  "Puncak"
+                ],
+                [
+                  "a > 0",
+                  "ke atas",
+                  "titik terendah (minimum)"
+                ],
+                [
+                  "a < 0",
+                  "ke bawah",
+                  "titik tertinggi (maksimum)"
+                ]
+              ]
+            },
+            {
+              "type": "hotspots",
+              "image_url": "/media/matematika/ma-6-1/grafik-b-hal196.png",
+              "image_source": {
+                "book": "Matematika-BG-KLS-X.pdf",
+                "page": 196,
+                "figure": "Grafik y = -x² + 4x + 4"
+              },
+              "caption": "Parabola y = −x² + 4x + 4 dari buku Matematika Kelas X. Ketuk tiap titik untuk melihat namanya.",
+              "points": [
+                {
+                  "id": "puncak",
+                  "x": 0.44,
+                  "y": 0.11,
+                  "label": "Titik puncak (2, 8)",
+                  "body": "Karena a = −1 < 0, parabola terbuka ke bawah, sehingga titik puncak adalah nilai **maksimum** fungsi."
+                },
+                {
+                  "id": "sumbu-y",
+                  "x": 0.17,
+                  "y": 0.5,
+                  "label": "Titik potong sumbu-y (0, 4)",
+                  "body": "Substitusi x = 0 memberi f(0) = c = 4. Grafik selalu melewati (0, c)."
+                },
+                {
+                  "id": "sumbu-x",
+                  "x": 0.82,
+                  "y": 0.89,
+                  "label": "Titik potong sumbu-x (4,8; 0)",
+                  "body": "Di sini f(x) = 0. Ada dua titik potong karena diskriminan D = b² − 4ac = 16 + 16 > 0."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Yang perlu dicatat",
+              "level": 3
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Bila a = 0, fungsinya menjadi linear — bukan kuadrat. Itulah sebabnya syarat **a ≠ 0** selalu ditulis."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Puncak, Sumbu Simetri, dan Diskriminan",
           "duration": 360,
           "source_reference": "Modul Ajar MA 6.1 — Tujuan Pembelajaran",
-          "content": "## Tiga alat utama\n\n**1. Sumbu simetri** — garis vertikal yang membelah parabola menjadi dua bagian cermin:\n\n> x = −b / (2a)\n\n**2. Titik puncak (vertex)** — titik pada sumbu simetri:\n\n> x_p = −b / (2a), lalu y_p = f(x_p)\n\n**3. Diskriminan** — penentu jumlah titik potong dengan sumbu-x:\n\n> D = b² − 4ac\n\n| Nilai D | Arti |\n|---|---|\n| D > 0 | memotong sumbu-x di **dua** titik |\n| D = 0 | **menyinggung** sumbu-x di satu titik |\n| D < 0 | **tidak** memotong sumbu-x |\n\n### Contoh lengkap\n\nf(x) = x² − 8x + 12\n- a = 1, b = −8, c = 12\n- Sumbu simetri: x = 8/2 = **4**\n- Nilai minimum: f(4) = 16 − 32 + 12 = **−4** → puncak (4, −4)\n- D = 64 − 48 = 16 > 0 → memotong sumbu-x di dua titik, yaitu x = 2 dan x = 6\n\n**Cek cepat:** bila a > 0 dan D < 0, parabola seluruhnya di atas sumbu-x — fungsinya selalu bernilai positif."
+          "content": "## Tiga alat utama\n\n**1. Sumbu simetri** — garis vertikal yang membelah parabola menjadi dua bagian cermin:\n\n> x = −b / (2a)\n\n**2. Titik puncak (vertex)** — titik pada sumbu simetri:\n\n> x_p = −b / (2a), lalu y_p = f(x_p)\n\n**3. Diskriminan** — penentu jumlah titik potong dengan sumbu-x:\n\n> D = b² − 4ac\n\n| Nilai D | Arti |\n|---|---|\n| D > 0 | memotong sumbu-x di **dua** titik |\n| D = 0 | **menyinggung** sumbu-x di satu titik |\n| D < 0 | **tidak** memotong sumbu-x |\n\n### Contoh lengkap\n\nf(x) = x² − 8x + 12\n- a = 1, b = −8, c = 12\n- Sumbu simetri: x = 8/2 = **4**\n- Nilai minimum: f(4) = 16 − 32 + 12 = **−4** → puncak (4, −4)\n- D = 64 − 48 = 16 > 0 → memotong sumbu-x di dua titik, yaitu x = 2 dan x = 6\n\n**Cek cepat:** bila a > 0 dan D < 0, parabola seluruhnya di atas sumbu-x — fungsinya selalu bernilai positif.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Titik puncak",
+                  "definition": "Titik tertinggi atau terendah parabola, terletak pada sumbu simetri."
+                },
+                {
+                  "term": "Sumbu simetri",
+                  "definition": "Garis vertikal x = −b/2a yang membagi parabola menjadi dua bagian sama."
+                },
+                {
+                  "term": "Diskriminan",
+                  "definition": "Nilai D = b² − 4ac yang menentukan jumlah titik potong dengan sumbu-x."
+                },
+                {
+                  "term": "Akar-akar",
+                  "definition": "Nilai x saat y = 0, yaitu titik tempat parabola memotong sumbu-x."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga alat utama"
+            },
+            {
+              "type": "paragraph",
+              "text": "**1. Sumbu simetri** — garis vertikal yang membelah parabola menjadi dua bagian cermin:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "x = −b / (2a)"
+            },
+            {
+              "type": "paragraph",
+              "text": "**2. Titik puncak (vertex)** — titik pada sumbu simetri:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "x_p = −b / (2a), lalu y_p = f(x_p)"
+            },
+            {
+              "type": "paragraph",
+              "text": "**3. Diskriminan** — penentu jumlah titik potong dengan sumbu-x:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "D = b² − 4ac"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Nilai D",
+                  "Arti"
+                ],
+                [
+                  "D > 0",
+                  "memotong sumbu-x di **dua** titik"
+                ],
+                [
+                  "D = 0",
+                  "**menyinggung** sumbu-x di satu titik"
+                ],
+                [
+                  "D < 0",
+                  "**tidak** memotong sumbu-x"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-kuadrat-puncak",
+              "question": "Parabola y = x² − 4x + 3 punya sumbu simetri di…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "x = 2",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "x = −2"
+                },
+                {
+                  "id": "c",
+                  "text": "x = 4"
+                }
+              ],
+              "explanation": "Sumbu simetri x = −b/2a = −(−4)/(2·1) = 2. Substitusi x = 2 memberi titik puncak (2, −1)."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh lengkap"
+            },
+            {
+              "type": "paragraph",
+              "text": "f(x) = x² − 8x + 12"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "a = 1, b = −8, c = 12",
+                "Sumbu simetri: x = 8/2 = **4**",
+                "Nilai minimum: f(4) = 16 − 32 + 12 = **−4** → puncak (4, −4)",
+                "D = 64 − 48 = 16 > 0 → memotong sumbu-x di dua titik, yaitu x = 2 dan x = 6"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Cek cepat:** bila a > 0 dan D < 0, parabola seluruhnya di atas sumbu-x — fungsinya selalu bernilai positif."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Membaca Parabola di Sekitar Kita",
           "duration": 240,
           "source_reference": "Modul Ajar MA 6.1 — Penerapan",
-          "content": "## Parabola di dunia nyata\n\n**Lintasan bola** — tinggi bola h(t) = −5t² + 20t. Karena a = −5 < 0, terbuka ke bawah dan mencapai **tinggi maksimum**:\nt = −20 ÷ (2 × −5) = 2 detik, lalu h(2) = −20 + 40 = 20 meter.\n\n**Laba perusahaan** — laba L(x) = −x² + 100x − 900. Puncaknya di x = 50 dengan laba maksimum L(50) = −2.500 + 5.000 − 900 = 1.600.\n\n**Jembatan lengkung** — bentuk lengkungannya parabola; puncaknya di tengah bentang.\n\n### Latihan\n\nTentukan arah terbuka, sumbu simetri, dan nilai ekstrem dari f(x) = −2x² + 8x − 5.\n\n<details>\n<summary>Lihat jawaban</summary>\n\na = −2 < 0 → **terbuka ke bawah**.\nx = −8 ÷ (2 × −2) = −8 ÷ −4 = **2**.\nf(2) = −8 + 16 − 5 = **3** → nilai **maksimum** 3 di titik (2, 3).\n\n</details>"
+          "content": "## Parabola di dunia nyata\n\n**Lintasan bola** — tinggi bola h(t) = −5t² + 20t. Karena a = −5 < 0, terbuka ke bawah dan mencapai **tinggi maksimum**:\nt = −20 ÷ (2 × −5) = 2 detik, lalu h(2) = −20 + 40 = 20 meter.\n\n**Laba perusahaan** — laba L(x) = −x² + 100x − 900. Puncaknya di x = 50 dengan laba maksimum L(50) = −2.500 + 5.000 − 900 = 1.600.\n\n**Jembatan lengkung** — bentuk lengkungannya parabola; puncaknya di tengah bentang.\n\n### Latihan\n\nTentukan arah terbuka, sumbu simetri, dan nilai ekstrem dari f(x) = −2x² + 8x − 5.\n\n<details>\n<summary>Lihat jawaban</summary>\n\na = −2 < 0 → **terbuka ke bawah**.\nx = −8 ÷ (2 × −2) = −8 ÷ −4 = **2**.\nf(2) = −8 + 16 − 5 = **3** → nilai **maksimum** 3 di titik (2, 3).\n\n</details>",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Parabola di dunia nyata"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Lintasan bola** — tinggi bola h(t) = −5t² + 20t. Karena a = −5 < 0, terbuka ke bawah dan mencapai **tinggi maksimum**: t = −20 ÷ (2 × −5) = 2 detik, lalu h(2) = −20 + 40 = 20 meter."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Laba perusahaan** — laba L(x) = −x² + 100x − 900. Puncaknya di x = 50 dengan laba maksimum L(50) = −2.500 + 5.000 − 900 = 1.600."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Jembatan lengkung** — bentuk lengkungannya parabola; puncaknya di tengah bentang."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-kuadrat-diskriminan",
+              "question": "Jika diskriminan sebuah fungsi kuadrat bernilai negatif, grafiknya…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Tidak memotong sumbu-x",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Memotong sumbu-x di dua titik"
+                },
+                {
+                  "id": "c",
+                  "text": "Menyinggung sumbu-x di satu titik"
+                }
+              ],
+              "explanation": "D < 0 berarti persamaan kuadrat tidak punya akar real, sehingga parabola tidak menyentuh sumbu-x sama sekali."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Latihan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tentukan arah terbuka, sumbu simetri, dan nilai ekstrem dari f(x) = −2x² + 8x − 5."
+            },
+            {
+              "type": "paragraph",
+              "text": "<details> <summary>Lihat jawaban</summary>"
+            },
+            {
+              "type": "paragraph",
+              "text": "a = −2 < 0 → **terbuka ke bawah**. x = −8 ÷ (2 × −2) = −8 ÷ −4 = **2**. f(2) = −8 + 16 − 5 = **3** → nilai **maksimum** 3 di titik (2, 3)."
+            },
+            {
+              "type": "paragraph",
+              "text": "</details>"
+            },
+            {
+              "type": "challenge",
+              "id": "ch-kuadrat-cepat",
+              "title": "Tantangan Kilat: Karakteristik Parabola",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "y = x² − 6x + 5. Sumbu simetri x = …",
+                  "answer": "3"
+                },
+                {
+                  "question": "y = x² − 6x + 5. Nilai diskriminan D = …",
+                  "answer": "16"
+                },
+                {
+                  "question": "y = x² − 4x + 3 memotong sumbu-x di x = 1 dan x = …",
+                  "answer": "3"
+                },
+                {
+                  "question": "Parabola y = −x² + 2x terbuka ke arah …",
+                  "answer": "bawah"
+                },
+                {
+                  "question": "y = x² − 4x + 3. Nilai minimum y = …",
+                  "answer": "-1"
+                }
+              ],
+              "feedback": {
+                "correct": "Semua tepat — ciri parabola sudah terbaca cepat.",
+                "wrong": "Ingat: x puncak = −b/2a, D = b² − 4ac, dan tanda a menentukan arah bukaan."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

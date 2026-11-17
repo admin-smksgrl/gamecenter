@@ -24,21 +24,569 @@
           "title": "Tiga Tingkat Keanekaragaman Hayati",
           "duration": 240,
           "source_reference": "Bab VI — Keanekaragaman Hayati",
-          "content": "## Tiga tingkat\n\n| Tingkat | Contoh |\n|---|---|\n| **Gen** | variasi warna bunga pada satu jenis mawar |\n| **Jenis** | kucing, harimau, singa (satu famili, beda spesies) |\n| **Ekosistem** | mangrove, padang rumput, sawah |\n\n## Mengapa Indonesia sangat kaya?\n\n- letak di daerah **tropis** dengan iklim mendukung\n- wilayah **kepulauan** sehingga banyak habitat terpisah\n\n## Endemik\n\nSpesies **endemik** hanya hidup secara alami di wilayah tertentu, misalnya **komodo** di Nusa Tenggara.\n\n## Manfaat\n\n- sumber pangan dan obat-obatan\n- bahan bangunan dan energi\n- jasa ekosistem: penyerbukan, kesuburan tanah, pengaturan air\n\n## Mengapa variasi gen penting?\n\nVariasi genetik memberi peluang sebagian individu **beradaptasi** saat lingkungan berubah, sehingga jenis itu tidak mudah punah."
+          "content": "## Tiga tingkat\n\n| Tingkat | Contoh |\n|---|---|\n| **Gen** | variasi warna bunga pada satu jenis mawar |\n| **Jenis** | kucing, harimau, singa (satu famili, beda spesies) |\n| **Ekosistem** | mangrove, padang rumput, sawah |\n\n## Mengapa Indonesia sangat kaya?\n\n- letak di daerah **tropis** dengan iklim mendukung\n- wilayah **kepulauan** sehingga banyak habitat terpisah\n\n## Endemik\n\nSpesies **endemik** hanya hidup secara alami di wilayah tertentu, misalnya **komodo** di Nusa Tenggara.\n\n## Manfaat\n\n- sumber pangan dan obat-obatan\n- bahan bangunan dan energi\n- jasa ekosistem: penyerbukan, kesuburan tanah, pengaturan air\n\n## Mengapa variasi gen penting?\n\nVariasi genetik memberi peluang sebagian individu **beradaptasi** saat lingkungan berubah, sehingga jenis itu tidak mudah punah.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Endemik",
+                  "definition": "Spesies yang hanya hidup secara alami di wilayah tertentu, misalnya komodo."
+                },
+                {
+                  "term": "Taksonomi",
+                  "definition": "Ilmu pengelompokan makhluk hidup berdasarkan persamaan ciri."
+                },
+                {
+                  "term": "Genus",
+                  "definition": "Takson di atas spesies yang mengelompokkan spesies berkerabat dekat."
+                },
+                {
+                  "term": "Jasa ekosistem",
+                  "definition": "Manfaat ekosistem bagi manusia, seperti penyerbukan dan pengaturan air."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga tingkat"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tingkat",
+                  "Contoh"
+                ],
+                [
+                  "**Gen**",
+                  "variasi warna bunga pada satu jenis mawar"
+                ],
+                [
+                  "**Jenis**",
+                  "kucing, harimau, singa (satu famili, beda spesies)"
+                ],
+                [
+                  "**Ekosistem**",
+                  "mangrove, padang rumput, sawah"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-tingkat-hayati",
+              "engine": "mermaid",
+              "title": "Tiga tingkat keanekaragaman hayati",
+              "code": "flowchart TD\n  A[Keanekaragaman hayati] --> B[Tingkat gen]\n  A --> C[Tingkat jenis]\n  A --> D[Tingkat ekosistem]\n  B --> B1[Variasi dalam satu spesies]\n  C --> C1[Berbagai spesies dalam satu famili]\n  D --> D1[Mangrove, sawah, padang rumput]"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa Indonesia sangat kaya?"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "letak di daerah **tropis** dengan iklim mendukung",
+                "wilayah **kepulauan** sehingga banyak habitat terpisah"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Endemik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Spesies **endemik** hanya hidup secara alami di wilayah tertentu, misalnya **komodo** di Nusa Tenggara."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-endemik",
+              "question": "Komodo hanya hidup alami di Nusa Tenggara. Status ini disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Endemik",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Kosmopolitan"
+                },
+                {
+                  "id": "c",
+                  "text": "Invasif"
+                }
+              ],
+              "explanation": "Endemik berarti penyebaran alaminya terbatas pada satu wilayah. Karena itu kehilangan habitat di wilayah tersebut langsung mengancam jenisnya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Manfaat"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "sumber pangan dan obat-obatan",
+                "bahan bangunan dan energi",
+                "jasa ekosistem: penyerbukan, kesuburan tanah, pengaturan air"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa variasi gen penting?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Variasi genetik memberi peluang sebagian individu **beradaptasi** saat lingkungan berubah, sehingga jenis itu tidak mudah punah."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Klasifikasi dan Ekosistem",
           "duration": 360,
           "source_reference": "Bab VI — Klasifikasi dan Ekosistem",
-          "content": "## Taksonomi\n\nUrutan takson dari umum ke khusus:\n\n> **Kingdom → Filum → Kelas → Ordo → Famili → Genus → Spesies**\n\nSemakin ke bawah, anggotanya makin sedikit tetapi persamaan cirinya makin banyak.\n\n**Genus** mengelompokkan beberapa spesies yang berkerabat dekat.\n\n## Kelompok tumbuhan\n\n| Kelompok | Ciri |\n|---|---|\n| Lumut | belum punya akar, batang, daun sejati |\n| Berbiji terbuka | biji tidak dilindungi bakal buah |\n| Berbiji tertutup | biji terlindungi bakal buah |\n\n## Komponen ekosistem\n\n| Komponen | Isi |\n|---|---|\n| **Biotik** | makhluk hidup |\n| **Abiotik** | cahaya, air, suhu, tanah |\n\n## Peran dalam ekosistem\n\n- **Produsen** — tumbuhan hijau\n- **Konsumen I** — herbivora, memakan tumbuhan langsung\n- **Konsumen II ke atas** — karnivora\n- **Pengurai** — bakteri dan jamur\n\n## Rantai makanan\n\n> padi → tikus → ular → elang\n\nPanah menunjukkan arah perpindahan **energi** dari yang dimakan ke pemakannya. Rantai selalu diawali produsen."
+          "content": "## Taksonomi\n\nUrutan takson dari umum ke khusus:\n\n> **Kingdom → Filum → Kelas → Ordo → Famili → Genus → Spesies**\n\nSemakin ke bawah, anggotanya makin sedikit tetapi persamaan cirinya makin banyak.\n\n**Genus** mengelompokkan beberapa spesies yang berkerabat dekat.\n\n## Kelompok tumbuhan\n\n| Kelompok | Ciri |\n|---|---|\n| Lumut | belum punya akar, batang, daun sejati |\n| Berbiji terbuka | biji tidak dilindungi bakal buah |\n| Berbiji tertutup | biji terlindungi bakal buah |\n\n## Komponen ekosistem\n\n| Komponen | Isi |\n|---|---|\n| **Biotik** | makhluk hidup |\n| **Abiotik** | cahaya, air, suhu, tanah |\n\n## Peran dalam ekosistem\n\n- **Produsen** — tumbuhan hijau\n- **Konsumen I** — herbivora, memakan tumbuhan langsung\n- **Konsumen II ke atas** — karnivora\n- **Pengurai** — bakteri dan jamur\n\n## Rantai makanan\n\n> padi → tikus → ular → elang\n\nPanah menunjukkan arah perpindahan **energi** dari yang dimakan ke pemakannya. Rantai selalu diawali produsen.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Taksonomi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Urutan takson dari umum ke khusus:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**Kingdom → Filum → Kelas → Ordo → Famili → Genus → Spesies**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Semakin ke bawah, anggotanya makin sedikit tetapi persamaan cirinya makin banyak."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Genus** mengelompokkan beberapa spesies yang berkerabat dekat."
+            },
+            {
+              "type": "sort",
+              "id": "srt-taksonomi",
+              "prompt": "Urutkan takson dari yang paling umum ke paling khusus.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Kingdom"
+                },
+                {
+                  "id": "t2",
+                  "text": "Filum"
+                },
+                {
+                  "id": "t3",
+                  "text": "Kelas"
+                },
+                {
+                  "id": "t4",
+                  "text": "Ordo"
+                },
+                {
+                  "id": "t5",
+                  "text": "Famili"
+                },
+                {
+                  "id": "t6",
+                  "text": "Genus"
+                },
+                {
+                  "id": "t7",
+                  "text": "Spesies"
+                }
+              ],
+              "answer": [
+                "t1",
+                "t2",
+                "t3",
+                "t4",
+                "t5",
+                "t6",
+                "t7"
+              ],
+              "feedback": {
+                "correct": "Benar: semakin ke bawah, anggota makin sedikit tetapi ciri persamaannya makin banyak.",
+                "wrong": "Ingat urutan Kingdom → Filum → Kelas → Ordo → Famili → Genus → Spesies."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kelompok tumbuhan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kelompok",
+                  "Ciri"
+                ],
+                [
+                  "Lumut",
+                  "belum punya akar, batang, daun sejati"
+                ],
+                [
+                  "Berbiji terbuka",
+                  "biji tidak dilindungi bakal buah"
+                ],
+                [
+                  "Berbiji tertutup",
+                  "biji terlindungi bakal buah"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Komponen ekosistem"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Komponen",
+                  "Isi"
+                ],
+                [
+                  "**Biotik**",
+                  "makhluk hidup"
+                ],
+                [
+                  "**Abiotik**",
+                  "cahaya, air, suhu, tanah"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peran dalam ekosistem"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Produsen** — tumbuhan hijau",
+                "**Konsumen I** — herbivora, memakan tumbuhan langsung",
+                "**Konsumen II ke atas** — karnivora",
+                "**Pengurai** — bakteri dan jamur"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rantai makanan"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "padi → tikus → ular → elang"
+            },
+            {
+              "type": "paragraph",
+              "text": "Panah menunjukkan arah perpindahan **energi** dari yang dimakan ke pemakannya. Rantai selalu diawali produsen."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-rantai-energi",
+              "question": "Pada rantai makanan padi → tikus → ular → elang, panah menunjukkan…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Arah perpindahan energi dari yang dimakan ke pemakannya",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Arah perpindahan suhu lingkungan"
+                },
+                {
+                  "id": "c",
+                  "text": "Jumlah populasi setiap jenis"
+                }
+              ],
+              "explanation": "Panah selalu menunjuk pemakan, yaitu arah energi berpindah. Rantai makanan selalu diawali produsen karena hanya produsen yang menangkap energi matahari."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Pelestarian dan Interaksi",
           "duration": 240,
           "source_reference": "Bab VI — Pelestarian",
-          "content": "## In situ dan ex situ\n\n| Jenis | Tempat | Contoh |\n|---|---|---|\n| **In situ** | habitat asli | taman nasional, cagar alam |\n| **Ex situ** | luar habitat asli | kebun binatang, penangkaran, bank benih |\n\nIn situ lebih utama karena ekosistem asli tetap utuh. Ex situ membantu, tetapi jumlah individu dan variasi genetiknya terbatas sehingga **tidak dapat menggantikan** ekosistem yang hilang.\n\n## Dampak gangguan rantai makanan\n\nBila ular hilang dari padi → tikus → ular → elang:\n\n- populasi tikus **meningkat**\n- tanaman padi **menurun**\n\nPredator menjaga keseimbangan populasi di bawahnya.\n\n## Jenis interaksi\n\n| Interaksi | Penjelasan | Contoh |\n|---|---|---|\n| Mutualisme | kedua untung | kupu-kupu dan bunga |\n| Parasitisme | satu untung, satu rugi | kutu pengisap darah |\n| Predasi | pemangsa dan mangsa | harimau dan rusa |\n\n## Upaya pelestarian\n\n1. Identifikasi jenis dan habitat yang terancam\n2. Tentukan penyebab ancaman\n3. Rancang tindakan in situ atau ex situ\n4. Laksanakan, pantau, evaluasi\n\nAncaman terbesar umumnya adalah **hilangnya habitat**."
+          "content": "## In situ dan ex situ\n\n| Jenis | Tempat | Contoh |\n|---|---|---|\n| **In situ** | habitat asli | taman nasional, cagar alam |\n| **Ex situ** | luar habitat asli | kebun binatang, penangkaran, bank benih |\n\nIn situ lebih utama karena ekosistem asli tetap utuh. Ex situ membantu, tetapi jumlah individu dan variasi genetiknya terbatas sehingga **tidak dapat menggantikan** ekosistem yang hilang.\n\n## Dampak gangguan rantai makanan\n\nBila ular hilang dari padi → tikus → ular → elang:\n\n- populasi tikus **meningkat**\n- tanaman padi **menurun**\n\nPredator menjaga keseimbangan populasi di bawahnya.\n\n## Jenis interaksi\n\n| Interaksi | Penjelasan | Contoh |\n|---|---|---|\n| Mutualisme | kedua untung | kupu-kupu dan bunga |\n| Parasitisme | satu untung, satu rugi | kutu pengisap darah |\n| Predasi | pemangsa dan mangsa | harimau dan rusa |\n\n## Upaya pelestarian\n\n1. Identifikasi jenis dan habitat yang terancam\n2. Tentukan penyebab ancaman\n3. Rancang tindakan in situ atau ex situ\n4. Laksanakan, pantau, evaluasi\n\nAncaman terbesar umumnya adalah **hilangnya habitat**.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "In situ dan ex situ"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis",
+                  "Tempat",
+                  "Contoh"
+                ],
+                [
+                  "**In situ**",
+                  "habitat asli",
+                  "taman nasional, cagar alam"
+                ],
+                [
+                  "**Ex situ**",
+                  "luar habitat asli",
+                  "kebun binatang, penangkaran, bank benih"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "In situ lebih utama karena ekosistem asli tetap utuh. Ex situ membantu, tetapi jumlah individu dan variasi genetiknya terbatas sehingga **tidak dapat menggantikan** ekosistem yang hilang."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dampak gangguan rantai makanan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila ular hilang dari padi → tikus → ular → elang:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "populasi tikus **meningkat**",
+                "tanaman padi **menurun**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Predator menjaga keseimbangan populasi di bawahnya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jenis interaksi"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Interaksi",
+                  "Penjelasan",
+                  "Contoh"
+                ],
+                [
+                  "Mutualisme",
+                  "kedua untung",
+                  "kupu-kupu dan bunga"
+                ],
+                [
+                  "Parasitisme",
+                  "satu untung, satu rugi",
+                  "kutu pengisap darah"
+                ],
+                [
+                  "Predasi",
+                  "pemangsa dan mangsa",
+                  "harimau dan rusa"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Upaya pelestarian"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identifikasi jenis dan habitat yang terancam",
+                "Tentukan penyebab ancaman",
+                "Rancang tindakan in situ atau ex situ",
+                "Laksanakan, pantau, evaluasi"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Ancaman terbesar umumnya adalah **hilangnya habitat**."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-in-situ",
+              "prompt": "Kelompokkan upaya pelestarian berikut.",
+              "buckets": [
+                {
+                  "id": "insitu",
+                  "label": "In situ"
+                },
+                {
+                  "id": "exsitu",
+                  "label": "Ex situ"
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1",
+                  "text": "Taman nasional",
+                  "bucket": "insitu"
+                },
+                {
+                  "id": "c2",
+                  "text": "Kebun binatang",
+                  "bucket": "exsitu"
+                },
+                {
+                  "id": "c3",
+                  "text": "Cagar alam",
+                  "bucket": "insitu"
+                },
+                {
+                  "id": "c4",
+                  "text": "Penangkaran hewan",
+                  "bucket": "exsitu"
+                },
+                {
+                  "id": "c5",
+                  "text": "Bank benih",
+                  "bucket": "exsitu"
+                },
+                {
+                  "id": "c6",
+                  "text": "Restorasi mangrove di habitat aslinya",
+                  "bucket": "insitu"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — in situ menjaga ekosistem asli, ex situ memindahkan individu ke luar habitat.",
+                "wrong": "Tanyakan: apakah individu tetap di habitat aslinya? Jika ya, in situ."
+              }
+            },
+            {
+              "type": "scenario",
+              "id": "sc-ular-sawah",
+              "title": "Ular hilang, tikus meledak",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Petani mengeluh populasi tikus meledak setelah banyak ular ditangkap untuk dijual. Apa tindakanmu sebagai anggota kelompok pelestarian?",
+                  "choices": [
+                    {
+                      "text": "Mengembalikan ular dan menjaga habitat sawah",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Predator alami menjaga populasi di bawahnya — ini pengendalian hayati, bukan sekadar menambah racun."
+                    },
+                    {
+                      "text": "Menyemprot pestisida dosis tinggi",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Pestisida membunuh tikus, tetapi juga serangga penyerbuk dan musuh alami lain."
+                    },
+                    {
+                      "text": "Menangkap lebih banyak ular untuk dijual",
+                      "next": "n4",
+                      "score": 0,
+                      "feedback": "Menjual predator justru memperparah ledakan hama di sawah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Ular kembali, tetapi sebagian petani takut dan ingin membunuhnya. Langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Sosialisasi peran ular sebagai predator alami",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Penjelasan menurunkan ketakutan dan membuat warga ikut menjaga predator."
+                    },
+                    {
+                      "text": "Membiarkan tanpa penjelasan",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Populasi pulih, tetapi tanpa pemahaman warga, ular bisa kembali dibunuh."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Tikus berkurang, tetapi serangga penyerbuk ikut mati dan biaya pestisida naik. Langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Beralih ke pengendalian hayati bersama predator alami",
+                      "next": "n5",
+                      "score": 1,
+                      "feedback": "Koreksi tepat: kembalikan keseimbangan ekosistem, bukan menambah bahan kimia."
+                    },
+                    {
+                      "text": "Menambah dosis pestisida",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Dosis lebih tinggi memperbesar kerusakan ekosistem dan biaya petani."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Penangkapan makin banyak, tikus makin banyak, dan petani mulai merugi. Langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Menghentikan penangkapan dan memulihkan habitat",
+                      "next": "n5",
+                      "score": 1,
+                      "feedback": "Menghentikan pemicu masalah adalah langkah pertama yang benar."
+                    },
+                    {
+                      "text": "Melanjutkan penjualan karena untung",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Keuntungan jangka pendek dibayar dengan gagal panen berulang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "text": "Ular kembali, tikus terkendali, dan petani menghemat biaya pestisida. Rantai makanan pulih.",
+                  "end": true,
+                  "outcome": "good"
+                },
+                {
+                  "id": "n6",
+                  "text": "Populasi ular pulih, tetapi ketakutan warga masih ada sehingga sebagian ular kembali dibunuh.",
+                  "end": true,
+                  "outcome": "neutral"
+                },
+                {
+                  "id": "n7",
+                  "text": "Hama makin kebal, biaya naik, dan penyerbuk hilang sehingga hasil panen menurun.",
+                  "end": true,
+                  "outcome": "bad"
+                }
+              ]
+            }
+          ]
         }
       ],
       "assessments": [

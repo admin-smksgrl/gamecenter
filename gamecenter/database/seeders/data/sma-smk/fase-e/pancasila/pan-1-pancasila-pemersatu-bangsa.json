@@ -23,21 +23,406 @@
           "title": "Cara Pandang Para Pendiri Bangsa",
           "duration": 300,
           "source_reference": "Bab 1 Unit 1",
-          "content": "## Mengapa perlu ditelusuri?\n\nPancasila tidak lahir seketika. Ia lahir dari **perdebatan panjang** para pendiri bangsa yang berbeda latar belakang keyakinan dan daerah.\n\n## Tiga usulan dasar negara (sidang pertama BPUPK, 29 Mei – 1 Juni 1945)\n\n| Tanggal | Tokoh | Gagasan pokok |\n|---|---|---|\n| 29 Mei 1945 | **Mohammad Yamin** | peri kebangsaan, peri kemanusiaan, peri ketuhanan, peri kerakyatan, kesejahteraan rakyat |\n| 31 Mei 1945 | **Soepomo** | negara **persatuan** yang bersifat kekeluargaan, musyawarah |\n| 1 Juni 1945 | **Soekarno** | lima sila yang diberi nama **Pancasila** |\n\n## Piagam Jakarta\n\n**Panitia Sembilan** dibentuk 1 Juni 1945 dan pada **22 Juni 1945** menghasilkan **Piagam Jakarta**. Rumusan sila pertama memuat tujuh kata tambahan.\n\n## Perubahan tujuh kata\n\nTokoh dari **Indonesia timur** mengajukan keberatan karena rumusan itu berpotensi memecah keutuhan bangsa yang beragam. Setelah berdiskusi, **tujuh kata diubah** sehingga sila pertama menjadi **Ketuhanan Yang Maha Esa**.\n\n## Pengesahan\n\nPada **18 Agustus 1945**, PPKI mengesahkan UUD 1945 dan rumusan Pancasila. Sejak itu Pancasila sah menjadi dasar negara yang mengikat seluruh rakyat."
+          "content": "## Mengapa perlu ditelusuri?\n\nPancasila tidak lahir seketika. Ia lahir dari **perdebatan panjang** para pendiri bangsa yang berbeda latar belakang keyakinan dan daerah.\n\n## Tiga usulan dasar negara (sidang pertama BPUPK, 29 Mei – 1 Juni 1945)\n\n| Tanggal | Tokoh | Gagasan pokok |\n|---|---|---|\n| 29 Mei 1945 | **Mohammad Yamin** | peri kebangsaan, peri kemanusiaan, peri ketuhanan, peri kerakyatan, kesejahteraan rakyat |\n| 31 Mei 1945 | **Soepomo** | negara **persatuan** yang bersifat kekeluargaan, musyawarah |\n| 1 Juni 1945 | **Soekarno** | lima sila yang diberi nama **Pancasila** |\n\n## Piagam Jakarta\n\n**Panitia Sembilan** dibentuk 1 Juni 1945 dan pada **22 Juni 1945** menghasilkan **Piagam Jakarta**. Rumusan sila pertama memuat tujuh kata tambahan.\n\n## Perubahan tujuh kata\n\nTokoh dari **Indonesia timur** mengajukan keberatan karena rumusan itu berpotensi memecah keutuhan bangsa yang beragam. Setelah berdiskusi, **tujuh kata diubah** sehingga sila pertama menjadi **Ketuhanan Yang Maha Esa**.\n\n## Pengesahan\n\nPada **18 Agustus 1945**, PPKI mengesahkan UUD 1945 dan rumusan Pancasila. Sejak itu Pancasila sah menjadi dasar negara yang mengikat seluruh rakyat.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "BPUPKI",
+                  "definition": "Badan Penyelidik Usaha-Usaha Persiapan Kemerdekaan Indonesia yang menyidangkan dasar negara."
+                },
+                {
+                  "term": "Piagam Jakarta",
+                  "definition": "Rumusan dasar negara hasil Panitia Sembilan, 22 Juni 1945."
+                },
+                {
+                  "term": "Musyawarah",
+                  "definition": "Cara mengambil keputusan bersama dengan saling mendengar hingga mencapai kesepakatan."
+                },
+                {
+                  "term": "Integralistik",
+                  "definition": "Pandangan bahwa negara dan rakyat merupakan satu kesatuan yang tidak terpisah."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa perlu ditelusuri?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pancasila tidak lahir seketika. Ia lahir dari **perdebatan panjang** para pendiri bangsa yang berbeda latar belakang keyakinan dan daerah."
+            },
+            {
+              "type": "timeline",
+              "id": "tl-perumusan-pancasila",
+              "title": "Empat momen perumusan Pancasila",
+              "items": [
+                {
+                  "when": "29 Mei 1945",
+                  "title": "Usulan Mr. Soepomo",
+                  "text": "Dalam sidang BPUPKI, Soepomo mengusulkan dasar negara yang bersifat integralistik."
+                },
+                {
+                  "when": "1 Juni 1945",
+                  "title": "Pidato Ir. Soekarno",
+                  "text": "Soekarno memperkenalkan lima sila yang kemudian dikenal sebagai Pancasila."
+                },
+                {
+                  "when": "22 Juni 1945",
+                  "title": "Piagam Jakarta",
+                  "text": "Panitia Sembilan menyusun rumusan dasar negara yang memuat tujuh kata pada sila pertama."
+                },
+                {
+                  "when": "18 Agustus 1945",
+                  "title": "Pengesahan UUD 1945",
+                  "text": "Tujuh kata dihapus demi persatuan, lalu Pancasila disahkan bersama UUD 1945 oleh PPKI."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga usulan dasar negara (sidang pertama BPUPK, 29 Mei – 1 Juni 1945)"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tanggal",
+                  "Tokoh",
+                  "Gagasan pokok"
+                ],
+                [
+                  "29 Mei 1945",
+                  "**Mohammad Yamin**",
+                  "peri kebangsaan, peri kemanusiaan, peri ketuhanan, peri kerakyatan, kesejahteraan rakyat"
+                ],
+                [
+                  "31 Mei 1945",
+                  "**Soepomo**",
+                  "negara **persatuan** yang bersifat kekeluargaan, musyawarah"
+                ],
+                [
+                  "1 Juni 1945",
+                  "**Soekarno**",
+                  "lima sila yang diberi nama **Pancasila**"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Piagam Jakarta"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Panitia Sembilan** dibentuk 1 Juni 1945 dan pada **22 Juni 1945** menghasilkan **Piagam Jakarta**. Rumusan sila pertama memuat tujuh kata tambahan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan1-pendiri",
+              "question": "Mengapa tujuh kata pada sila pertama Piagam Jakarta diubah sebelum Pancasila disahkan?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Agar menjaga persatuan seluruh wilayah Indonesia yang majemuk",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Karena rumusan sebelumnya tidak dibahas dalam sidang"
+                },
+                {
+                  "id": "c",
+                  "text": "Supaya teks Pancasila menjadi lebih pendek"
+                }
+              ],
+              "explanation": "Perubahan itu hasil musyawarah para pendiri untuk merangkul seluruh golongan. Persatuan diutamakan di atas kepentingan satu kelompok, sesuai sila ketiga."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perubahan tujuh kata"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tokoh dari **Indonesia timur** mengajukan keberatan karena rumusan itu berpotensi memecah keutuhan bangsa yang beragam. Setelah berdiskusi, **tujuh kata diubah** sehingga sila pertama menjadi **Ketuhanan Yang Maha Esa**."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pengesahan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada **18 Agustus 1945**, PPKI mengesahkan UUD 1945 dan rumusan Pancasila. Sejak itu Pancasila sah menjadi dasar negara yang mengikat seluruh rakyat."
+            }
+          ]
         },
         {
-          "type": "text",
+          "type": "scenario",
           "title": "Menerapkan Pancasila dalam Kehidupan Berbangsa",
           "duration": 300,
           "source_reference": "Bab 1 Unit 2",
-          "content": "## Pengamalan per sila\n\n| Sila | Contoh perilaku |\n|---|---|\n| 1 | menghormati teman yang beribadah sesuai agamanya |\n| 2 | memperlakukan semua orang secara manusiawi, tidak kasar kepada siapapun |\n| 3 | kerja bakti, festival budaya, cinta produk dalam negeri |\n| 4 | kesepakatan kelas, musyawarah, menghargai pendapat berbeda |\n| 5 | bersikap adil, bekerja keras, menghargai hasil karya orang lain |\n\n## Tingkatan pengamalan\n\n1. **Diri sendiri** — jujur, disiplin, bertanggung jawab\n2. **Keluarga** — menghormati orang tua, berbagi tugas rumah\n3. **Sekolah** — kesepakatan kelas yang dipatuhi bersama\n4. **Masyarakat** — gotong royong, menolong tetangga\n5. **Bangsa dan negara** — menjaga persatuan, membayar pajak\n\n## Kunci\n\nNilai Pancasila **baru bermakna bila diwujudkan dalam perilaku**, bukan sebatas hafalan."
+          "content": "## Pengamalan per sila\n\n| Sila | Contoh perilaku |\n|---|---|\n| 1 | menghormati teman yang beribadah sesuai agamanya |\n| 2 | memperlakukan semua orang secara manusiawi, tidak kasar kepada siapapun |\n| 3 | kerja bakti, festival budaya, cinta produk dalam negeri |\n| 4 | kesepakatan kelas, musyawarah, menghargai pendapat berbeda |\n| 5 | bersikap adil, bekerja keras, menghargai hasil karya orang lain |\n\n## Tingkatan pengamalan\n\n1. **Diri sendiri** — jujur, disiplin, bertanggung jawab\n2. **Keluarga** — menghormati orang tua, berbagi tugas rumah\n3. **Sekolah** — kesepakatan kelas yang dipatuhi bersama\n4. **Masyarakat** — gotong royong, menolong tetangga\n5. **Bangsa dan negara** — menjaga persatuan, membayar pajak\n\n## Kunci\n\nNilai Pancasila **baru bermakna bila diwujudkan dalam perilaku**, bukan sebatas hafalan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pengamalan per sila"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Sila",
+                  "Contoh perilaku"
+                ],
+                [
+                  "1",
+                  "menghormati teman yang beribadah sesuai agamanya"
+                ],
+                [
+                  "2",
+                  "memperlakukan semua orang secara manusiawi, tidak kasar kepada siapapun"
+                ],
+                [
+                  "3",
+                  "kerja bakti, festival budaya, cinta produk dalam negeri"
+                ],
+                [
+                  "4",
+                  "kesepakatan kelas, musyawarah, menghargai pendapat berbeda"
+                ],
+                [
+                  "5",
+                  "bersikap adil, bekerja keras, menghargai hasil karya orang lain"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tingkatan pengamalan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Diri sendiri** — jujur, disiplin, bertanggung jawab",
+                "**Keluarga** — menghormati orang tua, berbagi tugas rumah",
+                "**Sekolah** — kesepakatan kelas yang dipatuhi bersama",
+                "**Masyarakat** — gotong royong, menolong tetangga",
+                "**Bangsa dan negara** — menjaga persatuan, membayar pajak"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kunci"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nilai Pancasila **baru bermakna bila diwujudkan dalam perilaku**, bukan sebatas hafalan."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-rapat-kelas",
+              "title": "Rapat kelas menentukan penggunaan dana kas",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Rapat kelas membahas dana kas yang tersisa. Kamu punya usul berbeda dari ketua kelas. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mendengarkan semua usul lebih dulu",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Sila ke-4 membuka ruang musyawarah: semua pendapat didengar sebelum diputuskan."
+                    },
+                    {
+                      "text": "Menyela dan memaksa usulmu diterima",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Memaksa pendapat menutup musyawarah — bertentangan dengan nilai kerakyatan yang dipimpin oleh hikmat kebijaksanaan."
+                    },
+                    {
+                      "text": "Diam saja dan mengikuti mayoritas",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Tidak memaksakan pendapat itu baik, tetapi menyimpan gagasan membuat keputusan kehilangan satu sudut pandang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Usulmu berbeda dengan ketua kelas. Ia mengajak menyelesaikan dengan voting cepat. Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Mengusulkan musyawarah dengan alasan yang jelas",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Musyawarah mengutamakan kesepakatan, sedangkan voting baru dipakai bila kesepakatan tidak tercapai."
+                    },
+                    {
+                      "text": "Setuju voting agar rapat cepat selesai",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Voting sah, tetapi terburu-buru membuat sebagian anggota merasa tidak dilibatkan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Suasana memanas. Teman sebangkumu tersinggung dan berhenti bicara. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Minta maaf dan membuka ruang bicara lagi",
+                      "next": "n2",
+                      "score": 1,
+                      "feedback": "Mengakui kekeliruan memulihkan musyawarah — sila ke-2 dan ke-4 berjalan bersama."
+                    },
+                    {
+                      "text": "Merasa benar lalu keluar ruangan",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Meninggalkan forum membuat keputusan diambil tanpa suaramu dan tanpa perdamaian."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Guru wali kelas meminta pendapatmu secara langsung. Apa yang kamu sampaikan?",
+                  "choices": [
+                    {
+                      "text": "Menyampaikan pendapat disertai alasan dan data",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Pendapat yang beralasan menghormati akal sehat dan membantu kelas memutuskan lebih baik."
+                    },
+                    {
+                      "text": "Tetap mengikuti suara terbanyak saja",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Aman, tetapi gagasan yang mungkin berguna tidak pernah diuji dalam diskusi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kelas menyepakati keputusan bersama. Semua merasa didengar, dan dana kas dipakai untuk hal yang disetujui bersama."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Keputusan diambil cepat, tetapi beberapa teman masih kecewa karena merasa tidak dilibatkan."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Dana kas diputuskan tanpa diskusi yang sehat. Kepercayaan kelas menurun dan rapat berikutnya jadi tegang."
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Peluang dan Tantangan Penerapan Pancasila",
           "duration": 280,
           "source_reference": "Bab 1 Unit 3",
-          "content": "## Tantangan\n\n- **hoaks** dan disinformasi yang cepat menyebar\n- **ujaran kebencian** di media sosial\n- **polarisasi** akibat ruang gema (setiap orang hanya bertemu pendapat yang sama)\n- **mengutamakan kepentingan golongan** di atas kepentingan bersama\n- gaya hidup konsumtif dan individualistis\n\n## Peluang\n\n- media digital memberi **jangkauan luas** untuk menyebarkan konten positif\n- generasi muda kreatif dalam menyampaikan pesan toleransi\n- akses informasi memudahkan belajar nilai kebangsaan\n\n## Sikap yang diperlukan\n\n| Tantangan | Sikap |\n|---|---|\n| hoaks | memeriksa sumber sebelum menyebarkan |\n| ujaran kebencian | menahan diri, melaporkan, tidak ikut menyebarkan |\n| polarisasi | membuka dialog dan mendengarkan pendapat berbeda |\n\nSikap dalam diskusi: **mendengarkan** pendapat berbeda lalu menyampaikan argumen dengan **alasan yang jelas** — bukan memotong atau memaksa."
+          "content": "## Tantangan\n\n- **hoaks** dan disinformasi yang cepat menyebar\n- **ujaran kebencian** di media sosial\n- **polarisasi** akibat ruang gema (setiap orang hanya bertemu pendapat yang sama)\n- **mengutamakan kepentingan golongan** di atas kepentingan bersama\n- gaya hidup konsumtif dan individualistis\n\n## Peluang\n\n- media digital memberi **jangkauan luas** untuk menyebarkan konten positif\n- generasi muda kreatif dalam menyampaikan pesan toleransi\n- akses informasi memudahkan belajar nilai kebangsaan\n\n## Sikap yang diperlukan\n\n| Tantangan | Sikap |\n|---|---|\n| hoaks | memeriksa sumber sebelum menyebarkan |\n| ujaran kebencian | menahan diri, melaporkan, tidak ikut menyebarkan |\n| polarisasi | membuka dialog dan mendengarkan pendapat berbeda |\n\nSikap dalam diskusi: **mendengarkan** pendapat berbeda lalu menyampaikan argumen dengan **alasan yang jelas** — bukan memotong atau memaksa.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tantangan"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**hoaks** dan disinformasi yang cepat menyebar",
+                "**ujaran kebencian** di media sosial",
+                "**polarisasi** akibat ruang gema (setiap orang hanya bertemu pendapat yang sama)",
+                "**mengutamakan kepentingan golongan** di atas kepentingan bersama",
+                "gaya hidup konsumtif dan individualistis"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peluang"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "media digital memberi **jangkauan luas** untuk menyebarkan konten positif",
+                "generasi muda kreatif dalam menyampaikan pesan toleransi",
+                "akses informasi memudahkan belajar nilai kebangsaan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sikap yang diperlukan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tantangan",
+                  "Sikap"
+                ],
+                [
+                  "hoaks",
+                  "memeriksa sumber sebelum menyebarkan"
+                ],
+                [
+                  "ujaran kebencian",
+                  "menahan diri, melaporkan, tidak ikut menyebarkan"
+                ],
+                [
+                  "polarisasi",
+                  "membuka dialog dan mendengarkan pendapat berbeda"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Sikap dalam diskusi: **mendengarkan** pendapat berbeda lalu menyampaikan argumen dengan **alasan yang jelas** — bukan memotong atau memaksa."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan1-tantangan",
+              "question": "Berita bohong yang menyudutkan satu kelompok paling tepat dihadapi dengan cara…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Membalas dengan berita bohong lain yang lebih keras"
+                },
+                {
+                  "id": "b",
+                  "text": "Memverifikasi sumber lalu mengajak diskusi dengan santun",
+                  "correct": true
+                },
+                {
+                  "id": "c",
+                  "text": "Menyebarkan ke semua grup agar cepat ramai"
+                }
+              ],
+              "explanation": "Sila kedua dan ketiga menuntut sikap adil dan menjaga persatuan. Verifikasi sumber mencegah perpecahan, sedangkan membalas hoaks justru memperluas konflik."
+            }
+          ]
         },
         {
           "type": "text",

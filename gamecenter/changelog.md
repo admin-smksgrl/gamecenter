@@ -8,7 +8,712 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-16 20:40 WIB (rilis 0.18.0).
+**Terakhir diperbarui:** 2026-11-18 03:00 WIB (rilis 0.33.0).
+
+## [0.33.0] - 2026-11-18 03:00 WIB
+
+**Batch 10 — PEMDAS 1.1 menjadi interaktif; konversi materi SMA/SMK selesai.**
+
+### Ditambah
+- **PEMDAS 1.1 Algoritma dan Logika (materi Algoritma)** — glosarium (algoritma,
+  pseudocode, input, output), diagram alur menghitung luas persegi panjang,
+  urutan langkah menghitung luas, checkpoint pseudocode, dan checkpoint luas.
+- **PEMDAS 1.1 materi Flowchart dan Logika** — glosarium (flowchart, proses,
+  keputusan, logika boolean), tabel simbol flowchart, daftar aturan logika,
+  diagram keputusan kelulusan, kelompokkan simbol flowchart, checkpoint
+  `true AND false`, checkpoint `if (nilai >= 70)`, skenario “Membaca flowchart
+  kelulusan dengan jujur”, dan tantangan kilat 5 butir.
+- Kedua materi tetap menyimpan teks aslinya sebagai blok teks, sehingga
+  `MaterialViewer` menampilkan teori sekaligus aktivitas.
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **49 dari 52 chapter lengkap**, **1.850 blok**
+  (1.469 blok teks + 381 aktivitas/visual). Hanya **PAUD 1.1**, **TK 1.1**, dan
+  **MTK 7.1** yang tidak dikonversi karena di luar cakupan SMA/SMK.
+- `php artisan test` → **138 lulus, 1 dilewati, 1.147 asertion**.
+- Audit fidelitas: **0 materi** menyembunyikan isi.
+- Tes regresi baru `test_pemdas_chapter_from_curated_seeder_stays_interactive`
+  menjaga PEMDAS 1.1 tetap punya blok teks dan memenuhi minimum §5.3.
+
+## [0.32.0] - 2026-11-18 02:30 WIB
+
+**Batch 9 — Bahasa Indonesia tuntas 5/5 bab.**
+
+### Ditambah
+- **BI 1 Laporan Hasil Observasi** — diagram struktur laporan, glosarium
+  (laporan hasil observasi, objektif, faktual, opini), checkpoint ciri bahasa,
+  kelompokkan fakta/opini, urutan tiga hal yang diperiksa untuk akurasi,
+  checkpoint bias, checkpoint teks eksplanasi, checkpoint diagram lingkaran,
+  skenario “Presentasi laporan hasil observasi”, dan tantangan kilat 6 butir.
+- **BI 2 Kritik Sosial lewat Anekdot** — glosarium (anekdot, eksposisi, stand
+  up comedy, koda), urutan struktur anekdot, checkpoint alasan memakai humor,
+  diagram kritik/celaan/ancaman, kelompokkan fakta/opini, checkpoint celaan,
+  checkpoint menyimak aural, urutan menyusun anekdot, skenario “Menyampaikan
+  kritik tentang antrean kantin”, dan tantangan kilat 6 butir.
+- **BI 3 Hikayat dan Cerpen** — diagram perbandingan hikayat/cerpen, glosarium
+  (hikayat, kata arkais, cerpen, amanat), checkpoint kata arkais, kelompokkan
+  ciri hikayat/cerpen, checkpoint karakterisasi tidak langsung, urutan bagian
+  plot, checkpoint antagonis, urutan menulis fiksi dari nilai hikayat, skenario
+  “Mempublikasikan cerpen di media digital”, dan tantangan kilat 6 butir.
+- **BI 4 Teks Negosiasi** — glosarium (negosiasi, debat, kompromi), urutan
+  struktur negosiasi, checkpoint beda negosiasi/debat, diagram bahasa santun,
+  kelompokkan kalimat santun/menekan, checkpoint menolak dengan santun,
+  checkpoint isi kesepakatan, urutan menyiapkan negosiasi, skenario “Menawar
+  harga perlengkapan kelas”, dan tantangan kilat 6 butir.
+- **BI 5 Teks Biografi** — diagram struktur biografi, glosarium (biografi,
+  autobiografi, ide pokok, tersirat), checkpoint reorientasi, urutan menemukan
+  ide pokok, checkpoint makna tersirat, kelompokkan kata baku/tidak baku,
+  checkpoint kutipan, checkpoint tanda titik, urutan menulis biografi, skenario
+  “Menilai biografi tanpa sumber”, dan tantangan kilat 6 butir.
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **Bahasa Indonesia 5/5 chapter lengkap**;
+  total aplikasi **48 dari 52 chapter**, **1.828 blok** (1.459 blok teks + 369
+  aktivitas/visual).
+- Tes fidelitas dan coverage lulus; satu tes dilewati karena seluruh chapter
+  pada seeder utama sudah memenuhi minimum.
+- Audit fidelitas: **0 materi** menyembunyikan isi.
+
+## [0.31.0] - 2026-11-18 02:00 WIB
+
+**Batch 8 — Pancasila tuntas 4/4 bab.**
+
+### Ditambah
+- **PAN 2 Membangun Budaya Taat Hukum** — lini masa perjalanan konstitusi
+  Indonesia, glosarium (konstitusi, konvensi, norma), checkpoint konstitusi,
+  kelompokkan sumber dan contoh empat norma, urutan hierarki peraturan,
+  diagram Pancasila sebagai sumber segala sumber hukum, checkpoint asas lex
+  superior, checkpoint perda yang bertentangan dengan UU, urutan membuat
+  kesepakatan, checkpoint analisis peraturan, tantangan kilat 6 butir,
+  kelompokkan pelanggaran menurut sanksi, dan skenario “Lampu merah di jalan
+  yang sepi”.
+- **PAN 3 Mengelola Kebinekaan** — diagram identitas given/pilihan beserta
+  pembentuknya, glosarium, kelompokkan contoh identitas, checkpoint Bhinneka
+  Tunggal Ika, urutan tahap kolaborasi, checkpoint sikap dalam pertukaran
+  budaya global, kelompokkan sikap terbuka/menutup/menerima tanpa saring,
+  kelompokkan empat kearifan lokal menurut daerah, checkpoint kebinekaan
+  sebagai modal sosial, skenario “Festival budaya kelas”, dan tantangan kilat
+  6 butir.
+- **PAN 4 Menjadi Warga Negara yang Baik** — glosarium (paham kebangsaan,
+  nasionalisme, chauvinisme, patriotisme), kelompokkan nasionalisme/chauvinisme,
+  checkpoint wujud patriotisme, diagram empat unsur negara, urutan unsur
+  Montevideo, checkpoint Pasal 25A, kelompokkan ancaman militer/nonmiliter,
+  diagram jalur penyelesaian sengketa batas, checkpoint Sipadan-Ligitan,
+  checkpoint Ambalat, skenario “Berita bohong tentang wilayah Indonesia”, dan
+  tantangan kilat 6 butir.
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **Pancasila 4/4 chapter lengkap**; total
+  aplikasi **43 dari 52 chapter**, **1.597 blok** (1.279 blok teks + 318
+  aktivitas/visual).
+- Tes fidelitas dan coverage lulus (5 tes / 80 asertion).
+- Audit fidelitas: **0 materi** menyembunyikan isi.
+
+## [0.30.0] - 2026-11-18 01:30 WIB
+
+**Batch 7b — PAI 6 sampai PAI 10, PAI tuntas 10/10 bab.**
+
+### Ditambah
+- **PAI 6 Pergaulan Bebas dan Zina** — diagram larangan bertahap, glosarium
+  (zina, muhsan, ghayr muhsan, pornografi), checkpoint larangan mendekati zina,
+  checkpoint istilah muhsan, kelompokkan pergaulan bebas/sehat, checkpoint
+  dampak pada belajar, urutan menghadapi tekanan teman, skenario “Tekanan teman
+  untuk melanggar batas”, dan tantangan kilat 5 butir.
+- **PAI 7 Mahabbah, Khauf, Raja', Tawakal** — glosarium, checkpoint tanda cinta
+  kepada Allah, urutan cara menumbuhkan cinta, diagram keseimbangan khauf dan
+  raja', checkpoint akibat khauf tanpa raja', kelompokkan khauf/raja',
+  kelompokkan tawakal/malas, urutan tawakal menghadapi ujian, skenario “Hasil
+  ujian tidak sesuai harapan”, dan tantangan kilat 5 butir.
+- **PAI 8 Akhlak Madzmumah dan Mahmudah** — glosarium, checkpoint ghadhab,
+  urutan mengendalikan marah, diagram kontrol diri dan manfaatnya, checkpoint
+  husnuzan, kelompokkan akhlak mahmudah/madzmumah, checkpoint syaja'ah, urutan
+  menumbuhkan syaja'ah, skenario “Ajakan curang saat ujian”, dan tantangan
+  kilat 6 butir.
+- **PAI 9 Al-Kulliyatu al-Khamsah** — diagram lima prinsip, glosarium
+  (al-kulliyatu al-khamsah, kulliyah, maqashid syariah, hifzhu al-din), urutan
+  lima prinsip, checkpoint alasan agama pertama, kelompokkan contoh penerapan
+  per prinsip, checkpoint keterkaitan akal dan jiwa, urutan menyelesaikan
+  masalah, skenario “Tekanan teman untuk mencoba zat berbahaya”, dan tantangan
+  kilat 6 butir.
+- **PAI 10 Wali Songo** — diagram empat kunci keberhasilan dakwah, glosarium
+  (Wali Songo, dakwah, pesantren, dai), kelompokkan sembilan wali menurut
+  pendekatan, checkpoint arti Wali Songo, glosarium dakwah moderat, checkpoint
+  bi al-hikmah, urutan strategi dakwah damai, kelompokkan sikap dakwah
+  moderat, checkpoint dampak terhadap budaya, skenario “Menghargai teman yang
+  berbeda keyakinan”, dan tantangan kilat 6 butir.
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **PAI 10/10 chapter lengkap**; total aplikasi
+  **40 dari 52 chapter**, **1.463 blok** (1.181 blok teks + 282
+  aktivitas/visual).
+- Tes fidelitas dan coverage lulus (5 tes / 80 asertion).
+- Audit fidelitas: **0 materi** menyembunyikan isi.
+
+## [0.29.0] - 2026-11-18 01:00 WIB
+
+**Batch 7a — PAI 1 sampai PAI 5 menjadi materi interaktif.**
+
+### Ditambah
+- **PAI 1 Kompetisi dalam Kebaikan dan Etos Kerja** — diagram ciri fastabiqul
+  khairat, glosarium (fastabiqul khairat, asbabun nuzul, syariat, istiqamah),
+  checkpoint asbabun nuzul, kelompokkan sikap kompetisi benar/salah, urutan
+  tiga syarat pekerjaan, checkpoint Q.S. at-Taubah/9: 105, kelompokkan etos
+  kerja seimbang/berlebihan, skenario “Melihat teman lebih berprestasi”, dan
+  tantangan kilat 5 butir.
+- **PAI 2 Syu'abul Iman** — glosarium (syu'abul iman, iman, tauhid, rukun
+  iman), checkpoint cabang iman tertinggi, checkpoint tiga unsur iman, diagram
+  tiga wilayah cabang iman, kelompokkan amal hati/lisan/perbuatan, checkpoint
+  ihsan, urutan langkah menumbuhkan cabang iman, skenario “Menahan amarah saat
+  diejek”, dan tantangan kilat 5 butir.
+- **PAI 3 Berfoya-foya, Riya', Sum'ah, Takabur, Hasad** — glosarium, checkpoint
+  pemboros sebagai saudara setan, kelompokkan riya'/sum'ah, diagram takabur vs
+  tawadu, checkpoint hasad, kelompokkan hasad/ghibtah, urutan langkah
+  membersihkan hati dari riya', kelompokkan perilaku tercela dan penggantinya,
+  skenario “Amal yang mulai mengharap pujian”, dan tantangan kilat 6 butir.
+- **PAI 4 Asuransi, Bank, dan Koperasi Syariah** — diagram memilih akad,
+  glosarium tujuh istilah (akad, mudarabah, musyarakah, wadiah, tabarru', riba,
+  gharar), checkpoint riba, urutan utang sehat, kelompokkan ciri asuransi
+  konvensional/syariah, checkpoint dana tabarru', checkpoint wadiah, urutan
+  etika memilih lembaga keuangan, skenario “Tawaran pinjaman online untuk
+  membeli gawai”, dan tantangan kilat 7 butir.
+- **PAI 5 Meneladani Ulama Penyebar Islam** — diagram lima jalur masuknya
+  Islam, checkpoint kerajaan Islam pertama, kelompokkan kesultanan menurut
+  wilayah, glosarium (ulama, pesantren, mufasir, sufi), kelompokkan tokoh
+  menurut daerah, checkpoint Hamzah Fansuri, checkpoint pesantren, kelompokkan
+  sikap terhadap budaya, skenario “Berdakwah di lingkungan sekolah yang
+  beragam”, dan tantangan kilat 6 butir.
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **PAI 1–5 lengkap 5/5**; total aplikasi
+  **35 dari 52 chapter**, **1.268 blok** (1.035 blok teks + 233 aktivitas/visual).
+- `php artisan test` → 23 tes terkait materi lulus (356 asertion), termasuk
+  `MateriContentFidelityTest` dan `MateriCoverageCommandTest`.
+- Audit fidelitas: **0 materi** menyembunyikan isi.
+
+## [0.28.0] - 2026-11-18 00:30 WIB
+
+**Batch 6 (Informatika tuntas 8/8 bab) + pemulihan teks materi yang hilang.**
+
+### Ditambah
+- **INF 2 Teknologi Informasi dan Komunikasi** — diagram alur integrasi data,
+  glosarium (pengolah kata, pengolah angka, tautkan, tanamkan), checkpoint
+  link/embed, urutan langkah mail merge, checkpoint pivot table, dan tantangan
+  kilat 5 butir.
+- **INF 3 Sistem Komputer** — diagram empat kelompok komponen, glosarium (ALU,
+  control unit, register, RAM, cache), checkpoint RAM volatile, urutan proses
+  boot, checkpoint siklus fetch-decode-execute, dan tantangan kilat 5 butir.
+- **INF 4 Jaringan Komputer dan Internet** — diagram LAN → internet,
+  glosarium (LAN, switch, router, access point, alamat IP), checkpoint router,
+  kelompokkan media kabel/nirkabel, checkpoint bandwidth, dan tantangan kilat
+  proteksi data.
+- **INF 5 Analisis Data** — grafik batang survei hobi 40 siswa, glosarium
+  (data, informasi, sel, rentang), checkpoint AVERAGE, urutan tahapan analisis,
+  checkpoint data kotor, kelompokkan jenis grafik, checkpoint rata-rata,
+  dan tantangan kilat.
+- **INF 6 Algoritma dan Pemrograman** — diagram algoritma luas, glosarium
+  (algoritma, variabel, konstanta, mod), checkpoint 7 mod 2, urutan keluaran
+  perulangan, checkpoint keputusan bersarang, dan tantangan kilat pelacakan.
+- **INF 7 Dampak Sosial Informatika** — lini masa sejarah komputasi,
+  glosarium (mesin Turing, ENIAC, Revolusi Industri 4.0, UU ITE), checkpoint
+  WWW, kelompokkan dampak ekonomi, checkpoint etika data, urutan merancang
+  gagasan, dan tantangan kilat.
+- **INF 8 Praktika Lintas Bidang** — diagram abstraksi sistem perpustakaan,
+  glosarium (abstraksi, kolaborasi digital, prototipe, kasus uji), checkpoint
+  abstraksi, urutan membangun artefak, checkpoint hasil uji, dan tantangan
+  kilat.
+
+### Diperbaiki
+- **Teks materi tidak lagi hilang dari layar.** `MaterialViewer` merender
+  `blocks` **atau** markdown, bukan keduanya. Batch 2–6 hanya menambahkan blok
+  interaktif, sehingga **79 materi** (7.745 kata penjelasan) tidak pernah
+  tampil — siswa hanya melihat grafik, glosarium, dan soal tanpa uraiannya.
+  Kini seluruh isi markdown dikonversi menjadi blok teks (`heading`,
+  `paragraph`, `list`, `table`, `callout`, `code`), dan blok interaktif
+  disisipkan pada bagian yang paling relevan: glosarium di awal
+  (*pre-training*), checkpoint setelah konsep dijelaskan, visual setelah tabel
+  atau bagian yang cocok, tantangan/skenario di akhir. **85 materi** diperbaiki.
+- **`gamecenter:materi-coverage`** menambah kolom **Blok** dan **Teori** serta
+  peringatan **"teks tidak tampil"** bila ada materi berblok tanpa blok teks.
+- **`tests/Feature/MateriContentFidelityTest.php`** (baru) — mengunci dua
+  aturan: materi berblok wajib punya blok teks (≥70 % kata konten) dan setiap
+  judul `##`/`###` wajib muncul sebagai blok judul.
+
+### Diubah
+- **`public/sw.js`** — `CACHE_VERSION` 0.28.0.
+- **`tools/rapikan-blok-fase5.py`** (baru) — konverter markdown → blok teks
+  dengan penempatan blok interaktif berbasis kecocokan kata kunci; idempoten
+  (melewati materi yang teksnya sudah lengkap).
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **Informatika 8/8 chapter lengkap**;
+  total aplikasi **30 dari 52 chapter**, **1.062 blok** (185 aktivitas/visual +
+  877 blok teks).
+- `php artisan test` **140 tes / 1.148 asertion** lulus.
+- Audit fidelitas: **0 materi** menyembunyikan isi (sebelumnya 79).
+
+## [0.27.0] - 2026-11-17 23:55 WIB
+
+**Skala konten §5.3 batch 5 — Matematika tuntas 13/13 bab.**
+
+### Ditambah
+- **MA 6.2 Membentuk & Mengubah Bentuk Fungsi Kuadrat** — diagram tiga bentuk
+  (umum, puncak, faktor), glosarium, checkpoint bentuk puncak, urutan langkah
+  melengkapi kuadrat, checkpoint (x − 5)² − 7, dan tantangan kilat 5 butir.
+- **MA 6.3 Masalah dengan Fungsi Kuadrat** — grafik garis h(t) = −5t² + 20t,
+  glosarium (maksimum, minimum, tujuan, akar), checkpoint a < 0, urutan empat
+  langkah baku, checkpoint pagar taman 450 m², dan tantangan kilat (hasil kali
+  100, laba 100 ribu, tinggi 20 m, mendarat 4 detik).
+- **MA 7.1 Statistika** — grafik batang data 7, 8, 8, 9, 10, glosarium (mean,
+  median, modus, jangkauan), checkpoint median data genap, kelompokkan ukuran
+  yang terpengaruh nilai ekstrem, checkpoint kasus gaji direktur, dan tantangan
+  kilat (total 40, data kelima 8, jangkauan 3, modus 8, mean baru 11).
+- **MA 8.1 Peluang** — grafik batang banyak pasangan dua dadu (jumlah 2–7),
+  glosarium (ruang sampel, kejadian, komplemen, saling bebas), checkpoint
+  n(S) = 36, urutan langkah menghitung peluang, checkpoint komplemen 5/6, dan
+  tantangan kilat (4, 8, 36, 1/6, 5/6).
+
+### Diubah
+- **`public/sw.js`** — `CACHE_VERSION` 0.27.0.
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **Matematika 13/13 chapter lengkap §5.3**;
+  total aplikasi **23 dari 52 chapter, 159 blok interaktif** (sebelumnya 19
+  chapter / 135 blok).
+- `php artisan test` **137 tes / 1.132 asertion** lulus setelah impor ulang.
+- Uji browser (CDP + vision): `/main/43` (MA 6.3) grafik h(t) dengan puncak
+  (2, 20) dan titik mendarat (4, 0) tampil benar; `/main/55` (MA 7.1) grafik
+  data + glosarium + soal median; materi 2 menampilkan "Kelompokkan ukuran
+  statistika"; `/main/58` (MA 8.1) dirender tanpa galat. Tidak ada galat konsol.
+
+## [0.26.0] - 2026-11-17 23:05 WIB
+
+**Skala konten §5.3 batch 4: Matematika lanjutan + perbaikan diagram.**
+
+### Ditambah
+- **MA 3.1 Vektor** — diagram komponen v = (3, 4), glosarium (skalar, vektor,
+  komponen, vektor satuan), checkpoint panjang vektor, urutan langkah vektor
+  satuan, checkpoint AB = (3, 4), dan tantangan kilat 5 butir.
+- **MA 4.1 Trigonometri** — glosarium (sin, cos, tan, identitas), checkpoint
+  definisi tan, grafik batang nilai sin pada sudut istimewa, checkpoint
+  tan 90° tak terdefinisi, dan tantangan kilat (90°, tan 45°, identitas,
+  sin 30° = cos 60°, tinggi tiang 10 m).
+- **MA 5.1 Sistem Persamaan Linear** — diagram tiga kemungkinan penyelesaian,
+  glosarium, checkpoint penyelesaian tunggal, urutan langkah substitusi,
+  checkpoint nilai y, dan tantangan kilat (x, y, harga pulpen/buku, x = 2).
+- **MA 5.2 Pertidaksamaan Linear** — diagram pemilihan garis penuh/putus-putus,
+  glosarium, checkpoint uji titik asal, urutan langkah nilai optimum,
+  checkpoint maksimum 13 di (2, 3), dan tantangan kilat (luas 16, uji titik,
+  nilai 12, "penuh", "balik").
+
+### Diperbaiki
+- **`resources/js/lib/material/diagram.ts`** — label node kini **dibungkus ke
+  beberapa baris** (`wrapLabel`) dan tinggi kotak menyesuaikan jumlah baris,
+  dengan pemotongan aman untuk kata yang lebih panjang dari kotak. Sebelumnya
+  label panjang seperti "Tanda kurang dari sama dengan atau lebih dari sama
+  dengan" terpotong di tepi kotak; kini semua diagram aman.
+- **`public/sw.js`** — `CACHE_VERSION` 0.26.0.
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **19 dari 52 chapter** memenuhi §5.3, total
+  **135 blok interaktif** (sebelumnya 15 chapter / 112 blok).
+- `php artisan test` **137 tes / 1.132 asertion** lulus setelah impor ulang.
+- `./node_modules/.bin/tsc --noEmit` bersih; `npm run build` sukses.
+- Uji browser (CDP + vision): `/main/46` (MA 3.1) diagram vektor + glosarium +
+  Cek pemahaman tampil rapi; `/main/52` (MA 5.2) dua label cabang panjang kini
+  terbungkus dua baris **tanpa terpotong**; `/main/91` (BIO 1) diagram virus
+  seluruh label berada di dalam kotak. Tidak ada galat konsol.
+
+## [0.25.0] - 2026-11-17 22:15 WIB
+
+**Skala konten §5.3 batch 3: Fisika 2 dan Matematika (eksponen lanjut).**
+
+### Ditambah
+- **FIS 2 Usaha, Energi, dan Energi Terbarukan** — glosarium (usaha, daya, Ek,
+  Ep), grafik batang faktor cos θ (0°, 30°, 60°, 90°), checkpoint "usaha nol
+  saat gaya tegak lurus", urutan langkah kekekalan energi mekanik, checkpoint
+  jatuh bebas (10 m/s), kelompokkan sumber terbarukan/fosil, dan tantangan
+  kilat 5 butir (60 J, 12 W, PLTA, kuadrat, 0 J).
+- **MA 1.2 Logaritma** — glosarium (logaritma, basis, numerus, ln), grafik
+  batang ²log x (1–16), checkpoint ⁵log 1 = 0, urutan langkah menggabungkan
+  log, checkpoint ²log 8² = 6, dan tantangan kilat (²log 16, ²log 8, ⁹log 1,
+  pH, desibel).
+- **MA 2.1 Barisan** — glosarium (barisan, beda, rasio, suku pertama), grafik
+  garis aritmetika vs geometri, checkpoint beda b = 4, urutan langkah mencari
+  beda dari U₃ dan U₇, checkpoint U₁₀ = 41, dan tantangan kilat (U₁₀ = 41,
+  U₈ = 384, 40 kursi, r = 3, b = 4).
+- **MA 2.2 Deret** — glosarium (deret, Sₙ, konvergen, Uₙ = Sₙ − Sₙ₋₁), grafik
+  batang jumlah kumulatif S₁–S₅, checkpoint U₅ = 14, urutan langkah menghitung
+  S₁₀, checkpoint deret tak hingga = 16, dan tantangan kilat (210, 242, 16, 1,
+  Rp2.850.000).
+
+### Diubah
+- **`public/sw.js`** — `CACHE_VERSION` 0.25.0.
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **15 dari 52 chapter** memenuhi §5.3, total
+  **112 blok interaktif** (sebelumnya 11 chapter / 87 blok).
+- `php artisan test` **137 tes / 1.132 asertion** lulus setelah impor ulang
+  (48 chapter, 146 materi, 1.440 soal, 5.148 opsi).
+- Uji browser (CDP + vision): `/main/103` (FIS 2) menampilkan glosarium,
+  grafik batang "Faktor cos θ pada usaha", dan "Cek pemahaman" tanpa tumpang
+  tindih; `/main/25` (MA 1.2) menampilkan glosarium, grafik "Nilai ²log x",
+  dan soal pilihan; kelompokkan sumber energi tampil pada materi 3. Tidak ada
+  galat konsol.
+
+## [0.24.0] - 2026-11-17 21:30 WIB
+
+**Skala konten §5.3 batch 2: Kimia & Biologi.**
+
+### Ditambah
+- **KIM 1 Struktur Atom dan Nanoteknologi** — diagram susunan atom, glosarium
+  (nomor atom, nomor massa, isotop, elektron valensi), 2 checkpoint, dan
+  tantangan kilat 5 butir (proton, isotop, neutron, kulit M, skala nano).
+- **KIM 2 Hukum Dasar Kimia** — glosarium, urutan langkah menyetarakan reaksi,
+  lini masa Lavoisier–Proust–Dalton–Gay Lussac, aktivitas kelompokkan hukum,
+  checkpoint penyetaraan, dan tantangan hitungan (88 g, 32 g, 6 g, 20 L, 64 g).
+- **KIM 3 Kimia Hijau** — glosarium, diagram siklus kerja kimia hijau,
+  checkpoint prinsip pencegahan, kelompokkan penerapan/pelanggaran, dan
+  skenario 7 node "sampah plastik kantin" (3 akhir: baik/netral/buruk).
+- **BIO 1 Virus dan Peranannya** — diagram struktur virus, glosarium, 2
+  checkpoint (parasit obligat, siklus lisogenik), urutan 5 tahap siklus litik,
+  dan tantangan istilah (bakteriofag, kapsid, Plasmodium, RNA, viroida).
+- **BIO 2 Keanekaragaman Hayati** — diagram tiga tingkat, glosarium, 2
+  checkpoint (endemik, aliran energi), urutan 7 takson, kelompokkan in situ/ex
+  situ, dan skenario 7 node "ular hilang, tikus meledak".
+- **BIO 3 Perubahan Iklim** — diagram efek rumah kaca, glosarium, checkpoint
+  gas non-GRK & pemutihan karang, kelompokkan mitigasi/adaptasi, dan skenario
+  7 node "dana kecil untuk program iklim sekolah".
+
+### Diubah
+- **`tests/Feature/MateriCoverageCommandTest.php`** — tes chapter "belum
+  lengkap" kini memilih chapter pertama dari `--only-incomplete`, sehingga
+  tidak usang setiap batch konversi selesai.
+- **`public/sw.js`** — `CACHE_VERSION` 0.24.0.
+
+### Verifikasi
+- `gamecenter:materi-coverage` → **11 dari 52 chapter** memenuhi §5.3,
+  total **87 blok interaktif** (sebelumnya 5 chapter / 52 blok).
+- `php artisan test` **137 tes / 1.132 asertion** lulus setelah impor ulang
+  (48 chapter, 146 materi, 1.440 soal, 5.148 opsi).
+- Uji browser (CDP): `/main/106` (KIM 1) menampilkan diagram atom, glosarium,
+  dan "Cek pemahaman"; `/main/94` (BIO 2) skenario "ular" berjalan dua langkah
+  dan berakhir "Skenario selesai · Keputusan yang baik · Skor keputusan 4 dari
+  4 (100%)"; kelompokkan in situ/ex situ tampil "0/6 sudah dipilih". Tidak ada
+  galat konsol.
+
+## [0.23.1] - 2026-11-17 20:35 WIB
+
+**Toast "Tidak tersambung ke server" kini bisa ditindaklanjuti.**
+
+### Diubah
+- **`inertia:networkError`** (`resources/js/app.tsx`) — toast kegagalan jaringan
+  tidak lagi menutup sendiri dan menyediakan tombol **Coba lagi**; sebelumnya
+  siswa hanya melihat pesan dan tidak tahu harus berbuat apa.
+- **Pesan lebih jujur** (`resources/js/lib/friendly-error.ts`) — deskripsi
+  menyebut dua kemungkinan nyata: internet terputus **atau** server tidak
+  merespons, bukan hanya menyalahkan koneksi pengguna.
+- **`resources/js/lib/connection.ts`** (baru) — `retryConnection()` mengecek
+  `/up` lebih dulu: bila server siap halaman dimuat ulang, bila belum muncul
+  toast "Server belum siap"/"Masih tidak tersambung" sehingga tidak ada
+  reload sia-sia ke halaman galat peramban.
+- **`resources/js/lib/toast.ts` + `ToastHub`** — toast mendukung `action`
+  (label + callback) dengan durasi lebih panjang.
+- **`public/sw.js`** — `CACHE_VERSION` 0.23.1.
+
+### Penyebab insiden
+Server pengembangan `php artisan serve` di port 8000 berhenti (proses dimatikan
+saat bersih-bersih pengujian), sehingga setiap navigasi Inertia gagal
+`fetch`. Server sudah dijalankan kembali; aplikasi normal.
+
+### Verifikasi
+- `./node_modules/.bin/tsc --noEmit` bersih; `npm run build` sukses.
+- Uji browser (CDP): server dimatikan → klik menu memunculkan toast
+  "Tidak tersambung ke server … Coba lagi"; tekan **Coba lagi** saat server
+  masih mati → muncul "Masih tidak tersambung" **tanpa** reload; server
+  dinyalakan lalu **Coba lagi** → halaman `/panduan` termuat normal, tanpa
+  pesan galat.
+- `php artisan test tests/Feature/ProgressPageTest.php tests/Feature/ChapterRecapPanelTest.php`
+  lulus (8 tes / 85 asertion).
+
+## [0.23.0] - 2026-11-17 19:40 WIB
+
+**Rekap formatif & skala konten (Fase 5 `plan-materi-interaktif.md`).**
+
+### Ditambah
+- **`BlockPracticeReport`** (`app/Services/Materi/BlockPracticeReport.php`) —
+  satu sumber data untuk laporan siswa, rekap guru, CSV, dan audit blok:
+  `forStudent()`, `forChapter()`, `chapterCsv()`, `blockAudit()`, plus label
+  tipe blok berbahasa Indonesia.
+- **Kartu "Latihan interaktif" di `/progres`** (Fase 5.5) — ringkasan blok
+  dikerjakan/tuntas/rata-rata skor, lalu daftar per materi berisi chip tipe
+  blok + skor dan tautan "Buka". Diberi keterangan tegas **formatif, bukan
+  nilai rapor**; kosong jika siswa belum mengerjakan blok.
+- **Rekap guru di panel Filament** (Fase 5.3) — bagian "Latihan interaktif
+  (formatif)" pada halaman chapter: total blok/siswa/tuntas/rata-rata, tabel
+  **per blok** (materi, id blok, tipe, tuntas, percobaan, rata-rata) dan tabel
+  **per siswa** (nama, kelas, blok, percobaan, rata-rata, terakhir).
+- **Ekspor CSV** (Fase 5.4) — aksi header "Ekspor CSV skor blok" pada halaman
+  chapter (muncul bila ada skor). Berisi satu baris per siswa × blok dengan
+  BOM UTF-8 supaya rapi dibuka di Excel, dan nama bernilai koma tetap dikutip.
+- **Pratinjau & validasi blok** (Fase 5.2) — bagian baru di halaman chapter:
+  daftar blok tiap materi beserta tipe, id, ringkasan, dan status validasi
+  dari `BlockSchema`; blok bermasalah ditandai merah beserta pesan galatnya.
+- **`php artisan gamecenter:materi-coverage`** (Fase 5.1) — laporan kesiapan
+  konten per chapter terhadap minimum §5.3 (visual, ≥2 aktivitas,
+  skenario/tantangan, glossary/flashcards, checkpoint per ±500 kata) dengan
+  opsi `--chapter=`, `--json`, `--only-incomplete`.
+- **Konten batch 1** — PAN 1, MA 1.1, MA 6.1, INF 1, dan FIS 1 kini memenuhi
+  minimum §5.3: lini masa perumusan Pancasila, grafik 2^x, glosarium,
+  checkpoint beralasan, tantangan kilat, dan urutan langkah eksponen.
+
+### Diubah
+- **`LearningMaterial`** — relasi `blockResponses()` untuk rekap/CSV.
+- **`ProgressController`** — mengirim prop `block_practice` (terpisah dari
+  statistik sesi).
+- **`public/sw.js`** — `CACHE_VERSION` 0.23.0.
+
+### Verifikasi
+- `php artisan test` **137 tes / 1.133 asertion** lulus (bertambah 13 tes:
+  laporan 5, panel 4, cakupan 3).
+- `./node_modules/.bin/tsc --noEmit` bersih; `npm run build` sukses.
+- `gamecenter:materi-coverage` → 5/52 chapter "lengkap" (batch 1), 52 blok
+  interaktif; sisanya tercatat sebagai backlog 5.1.
+- Uji browser: kartu "Latihan interaktif" tampil di `/progres` dengan chip
+  skenario/tantangan; panel chapter menampilkan rekap per siswa + per blok,
+  pratinjau validasi "semua blok valid", dan aksi ekspor CSV.
+
+## [0.22.1] - 2026-11-17 18:20 WIB
+
+**Perbaikan pesan galat saat server tidak terjangkau.**
+
+### Diperbaiki
+- **Toast "Layanan sedang sibuk" yang menyesatkan.** Service worker dulu
+  mengubah kegagalan jaringan pada kunjungan Inertia (`X-Inertia`) menjadi
+  respons buatan berstatus **503**, sehingga aplikasi menampilkan "Layanan
+  sedang sibuk — kami sedang menyiapkan layanan kembali" padahal masalahnya
+  server/HP sedang offline. Sekarang request Inertia diteruskan langsung ke
+  jaringan tanpa intercept, jadi Inertia memicu `inertia:networkError` dan
+  pengguna melihat pesan yang benar: **"Tidak tersambung ke server"** beserta
+  saran memeriksa koneksi. Fungsi `networkOnlyJson` dihapus.
+- **`public/sw.js`** — `CACHE_VERSION` 0.22.1 agar service worker lama
+  diganti saat halaman berikutnya dibuka.
+
+### Verifikasi
+- Reproduksi: server dimatikan → klik tautan Inertia → sebelumnya toast
+  "Layanan sedang sibuk" (status 503 buatan SW). Sesudah perbaikan → toast
+  "Tidak tersambung ke server", tanpa status 503.
+- Server hidup kembali → navigasi Inertia normal, cache shell tetap 0.22.1.
+
+## [0.22.0] - 2026-11-17 17:35 WIB
+
+**Skenario bercabang dan tantangan kilat (Fase 4 `plan-materi-interaktif.md`).**
+
+### Ditambah
+- **`ScenarioBlock.tsx`** — pemutar skenario bercabang: situasi → pilihan →
+  umpan balik → lanjut, ringkasan seluruh keputusan di akhir, skor keputusan
+  (bukan nilai akademik) yang disimpan lewat `useBlockAnswer`, tombol
+  "Ulangi skenario", dan seluruh pilihan berupa `<button>` agar bisa dipakai
+  keyboard (plan §7.2). Satu skenario menghasilkan satu baris
+  `material_block_responses` dengan `details.path` + `details.choices` untuk
+  pembahasan guru.
+- **`ChallengeBlock.tsx`** — tantangan kilat berwaktu: 5–8 butir jawaban
+  singkat, hitung mundur 60–120 detik yang **boleh dimatikan** sebelum mulai,
+  pencocokan jawaban toleran huruf besar/kecil, spasi, dan tanda baca, lalu
+  daftar butir yang salah beserta jawaban benarnya. Rekor pribadi memakai
+  mekanisme skor blok yang sama (best score, jumlah percobaan).
+- **`ScenarioValidator`** (`app/Services/Materi/ScenarioValidator.php`) —
+  pemeriksa graf skenario: id node unik, `next` harus menunjuk node yang ada,
+  setiap node bercabang minimal satu pilihan, semua node dapat dicapai dari
+  `start`, setiap node punya jalan menuju node akhir (menangkap siklus tak
+  berujung), minimal satu node `end`, dan maksimal 15 node. Dipakai
+  `BlockSchema` sehingga validator materi dan perintah impor ikut memeriksanya.
+- **`tests/Unit/ScenarioValidatorTest.php`** (10 tes) + satu tes impor baru
+  yang memastikan skenario Pancasila valid dan tantangan matematika berisi
+  5–8 butir.
+
+### Diubah
+- **`BlockRenderer.tsx`** — `scenario` dan `challenge` kini dirender; daftar
+  `PENDING_LABEL` kosong karena 18 tipe blok sudah punya tampilan. Tipe blok
+  di luar skema tetap jatuh ke catatan "belum tersedia".
+- **Konten PAN 1** — submateri "Menerapkan Pancasila dalam Kehidupan
+  Berbangsa" bertipe `scenario` dengan skenario rapat kelas 7 node (tiga
+  akhir: baik/netral/kurang) dan satu callout.
+- **Konten MA 1.1** — submateri "Sifat-Sifat Eksponen" ditutup tantangan
+  kilat 6 butir / 90 detik tentang sifat pangkat.
+- **`public/sw.js`** — `CACHE_VERSION` 0.22.0.
+
+### Verifikasi
+- `./node_modules/.bin/tsc --noEmit` bersih; `npm run build` sukses.
+- `php artisan test` **124 tes / 997 asertion** lulus (bertambah 11 tes).
+- `php artisan gamecenter:materi-import` tanpa galat validasi (0 chapter
+  baru, 146 materi diperbarui).
+- Uji browser (Chrome CDP): skenario PAN 1 menampilkan 3 pilihan, umpan balik
+  muncul setelah memilih, ringkasan akhir berisi 2 keputusan + skor, dan skor
+  tersimpan di localStorage (`gamecenter.blocks.112` → `sc-rapat-kelas`);
+  tantangan MA 1.1 menghitung mundur, menerima jawaban "8" sebagai benar,
+  menampilkan "Jawabanmu: 9 · seharusnya 8" untuk butir yang salah, dan
+  mencatat rekor 100%. Tidak ada error konsol, dan kedua baris blok masuk
+  `material_block_responses` (skor 100, completed) lewat antrean sync.
+
+## [0.21.0] - 2026-11-17 16:20 WIB
+
+**Visual learning: diagram, grafik, gambar berlabel, lini masa, dan aktivitas
+beri label (Fase 0 + Fase 3 `plan-materi-interaktif.md`).**
+
+### Ditambah
+- **`tools/pdf-extract-images.py`** — pipeline aset buku ajar: mengekstrak
+  gambar raster (dimensi & ukuran minimum, konversi CMYK→RGB, dedupe via
+  checksum) **dan** merender potongan halaman (`--render-pages`,
+  `--render-clip`, `--render-dpi`) untuk figur vektor. Setiap berkas tercatat
+  di manifest `tools/out/*.json`: book, page, xref, w, h, checksum.
+- **`doc/aset-gambar.md`** — cara pakai pipeline, arti manifest, aturan
+  `image_source` + caption, dan batasan yang ditemui.
+- **Blok `chart`** (`VisualBlocks.tsx`) — grafik batang, garis, dan lingkaran
+  sebagai SVG sendiri (tanpa pustaka grafik), label sumbu dirapikan dan
+  diunikkan, ringkasan data dipakai sebagai teks alternatif.
+- **Blok `diagram`** — renderer `resources/js/lib/material/diagram.ts` untuk
+  subset Mermaid (`graph TD|LR`, `A[kotak]`, `A(bulat)`, `A{keputusan}`,
+  `A -->|label| B`), termasuk tata letak per rank dan panah. Kode tak dikenal
+  ditampilkan apa adanya, bukan kotak kosong.
+- **Blok `hotspots`** — gambar buku ajar dengan titik ternormalisasi (0..1),
+  panel bacaan per titik, hitungan “terbuka n dari m”, dan daftar teks untuk
+  pembaca layar.
+- **Blok `timeline`** — lini masa vertikal dengan titik, tahun, judul, dan
+  keterangan.
+- **Blok `label`** (dinilai) — pilih label lalu ketuk titik pada gambar;
+  skor = proporsi titik benar, bisa diulang, jawaban benar ditampilkan.
+- **Aset**: `public/media/matematika/ma-6-1/grafik-b-hal196.png`
+  (Matematika-BG-KLS-X.pdf hlm. 196) beserta manifest
+  `tools/out/ma-6-1-grafik-b.json`.
+- **Service worker**: `/media/` masuk daftar aset statis sehingga gambar buku
+  tetap tampil offline; `CACHE_VERSION` naik ke `0.21.0`.
+
+### Diubah
+- **INF/MA/FIS memakai visual**: MA 6.1 “Bentuk dan Arah Parabola” (grafik
+  garis, tabel, gambar parabola berlabel), FIS 1 “Besaran, Satuan, dan Alat
+  Ukur” (diagram, lini masa), FIS 1 “Ketidakpastian Pengukuran” (grafik
+  batang selisih pengukuran). Teks markdown lama tetap tersimpan sebagai
+  fallback.
+- **`BlockRenderer`** — blok `scenario` dan `challenge` saja yang masih
+  ditandai “belum tersedia”.
+- **`MaterialBlockType`** dokumentasi `diagram.engine`: `mermaid` = subset
+  yang dirender sendiri, `svg` = SVG manual yang disanitasi.
+
+### Catatan teknis
+- Mermaid **tidak** dipakai di halaman materi: pada lingkungan aplikasi ini
+  Mermaid 11 dan 12 salah mengukur lebar label (~10× terlalu besar) sehingga
+  diagram menyebar dengan kotak kecil — bug yang juga terlihat pada diagram
+  halaman Panduan. Renderer sendiri menghilangkan chunk ~660 kB dari halaman
+  materi dan membuat diagram tetap tampil offline. Pustaka Mermaid tetap
+  terpasang untuk halaman Panduan.
+- Posisi titik `hotspots` ditentukan dari hasil render halaman lalu diperiksa
+  ulang lewat tangkapan layar peramban.
+
+### Verifikasi
+- `./node_modules/.bin/tsc --noEmit` lulus; `npm run build` lulus.
+- `php artisan test` lulus: **113 tes / 958 asersi** (tes baru memastikan blok
+  visual MA/FIS terimpor, `image_source` book+page terisi, berkas gambar ada di
+  `public/`, dan koordinat titik dalam 0..1).
+- `gamecenter:materi-import`: 48 bab + 146 materi diperbarui, tanpa galat
+  validasi untuk blok visual baru.
+- Uji peramban (akun siswa): grafik garis MA 6.1 tampil, tiga titik gambar
+  parabola tepat di puncak, potong sumbu-y, dan potong sumbu-x; diagram FIS 1
+  padat dan terbaca; lini masa rapi; grafik batang “Selisih …” dengan sumbu
+  0–0,2 tanpa label dobel.
+
+## [0.20.0] - 2026-11-17 15:40 WIB
+
+**Blok interaktif dasar dan penyimpanan skor formatif (Fase 2 `plan-materi-interaktif.md`).**
+
+### Ditambah
+- **Blok hafalan** `glossary` (istilah yang bisa dibuka) dan `flashcards`
+  (kartu bolak-balik + “Sudah ingat” / “Ulangi semua”) di
+  `.../Material/Blocks/RecallBlocks.tsx`. Tidak dinilai.
+- **Blok `checkpoint`** — kuis satu pilihan dengan penjelasan mengapa jawaban
+  benar/salah, bisa diulang, umpan balik diumumkan `aria-live`.
+- **Blok `sort`** — urutan bisa diubah dengan drag **atau** tombol ↑ ↓
+  (wajib untuk keyboard, plan §7.2), butir yang salah ditandai merah dan boleh
+  diulang.
+- **Blok `categorize`** — tiap butir diberi tombol keranjang (`aria-pressed`),
+  skor dihitung dari jumlah penempatan benar.
+- **`resources/js/lib/material/store.ts`** — penyimpanan jawaban blok di
+  `localStorage` per materi: skor terbaik, jumlah percobaan, dan jawaban
+  terakhir; tetap bekerja untuk tamu dan saat offline.
+- **`useBlockAnswer`** — hook yang menyatukan penyimpanan lokal dengan
+  pelaporan ke antrean sync.
+- **Tabel `material_block_responses`** + model `MaterialBlockResponse`
+  (unik per `user_id` + `material_id` + `block_id`, indeks per tipe blok).
+- **`App\Services\Materi\BlockSchema`** — validasi seluruh 18 tipe blok:
+  id unik, blok aktivitas wajib `id` + `feedback`, `checkpoint` wajib tepat
+  satu jawaban benar + penjelasan, `sort.answer` harus cocok dengan `items`,
+  `categorize`/`label` merujuk keranjang/pilihan yang ada, blok gambar wajib
+  `image_source` (book + page), `scenario` wajib `start` dan `next` valid.
+- **Item sync `material_block`** — divalidasi di `SyncService` (blok harus ada
+  di materi, bertipe aktivitas, tipenya cocok) lalu disimpan idempoten dengan
+  skor terbaik dan `attempts` tertinggi.
+- **Isi contoh**: materi “Empat Pilar Berpikir Komputasional” (INF 1) kini
+  memuat glosarium, satu `sort` urutan berpikir komputasional, dan dua
+  `checkpoint`.
+
+### Diubah
+- **`MaterialViewer` / `IntroPanel`** meneruskan `onBlockRecord` sehingga skor
+  blok diantrekan lewat `syncService` saat siswa masuk; tamu tetap mendapat
+  progres lokal.
+- **`SyncItemType`** menambah `material_block`, dan `StoreSyncBatchRequest`
+  menerima tipe item tersebut.
+
+### Verifikasi
+- `./node_modules/.bin/tsc --noEmit` lulus; `npm run build` lulus.
+- `php artisan test` lulus: **112 tes / 921 asersi** (sebelumnya 98/885),
+  termasuk 11 tes `BlockSchema` dan 3 tes sync blok (tersimpan, idempoten,
+  menolak blok asing/tipe salah).
+- `php artisan migrate` + `gamecenter:materi-import` dijalankan; berkas INF 1
+  lolos validasi blok baru.
+- Uji peramban dengan akun siswa: glosarium terbuka, `sort` bisa disusun
+  dengan tombol sampai skor 100, `checkpoint` benar/salah memberi umpan balik,
+  dan baris `material_block_responses` tersimpan di server
+  (`srt-urutan` 100/4×, `cp-pilar-1` 100/1×, `cp-pilar-2` 100/2×).
+  Setelah muat ulang, skor “Terbaik” tetap tampil dari penyimpanan lokal.
+
+### Catatan
+- Skor blok **tidak** masuk `game_sessions` maupun nilai rapor; rekap untuk
+  guru dan kartu di `/progres` menyusul di Fase 5 (plan §5.5).
+
+## [0.19.0] - 2026-11-17 15:05 WIB
+
+**Fondasi materi interaktif (Fase 1 `plan-materi-interaktif.md`).**
+
+### Ditambah
+- **Model data blok materi** `resources/js/lib/material/blocks.ts`: union
+  `MaterialBlock` untuk 18 tipe blok (teks, visual, hafalan, aktivitas) plus
+  `normalizeBlocks()` / `legacyValueBlocks()` yang menyaring data agar satu blok
+  rusak tidak menjatuhkan seluruh materi.
+- **`BlockRenderer`** (`resources/js/Components/Material/BlockRenderer.tsx`)
+  yang merangkai blok sesuai urutan. Tipe yang renderer-nya baru datang pada
+  Fase 2–4 ditampilkan sebagai catatan kecil, bukan halaman kosong.
+- **Blok teks** `heading`, `paragraph`, `list` (termasuk daftar bernomor),
+  `table`, `callout`, dan `code` di `.../Material/Blocks/TextBlocks.tsx`.
+- **Gaya `.material-prose h4` dan `ol`** agar daftar bernomor dan subjudul
+  level 4 punya tampilan setara heading lama.
+- **Contoh isi**: materi pertama bab `INF 1 — Berpikir Komputasional` kini
+  memakai `blocks` (heading, paragraf, tabel empat pilar, daftar bernomor,
+  callout) sebagai bukti jalur render baru. Teks aslinya tetap disimpan.
+
+### Diubah
+- **`MaterialViewer`** memilih sumber render (plan §3.3): materi ber-`blocks`
+  dirender lewat `BlockRenderer`; materi lama tetap memakai markdown, dan blok
+  gaya lama `{ type, value }` (materi PAUD/TK) tetap tampil sebagai daftar.
+- **`Inline`** dipindah ke `TextBlocks.tsx` agar jalur markdown dan blok baru
+  memakai penanda tebal/kode yang sama.
+- **`MaterialType`** menambah `visual` dan `scenario` beserta label dan ikonnya.
+
+### Verifikasi
+- `./node_modules/.bin/tsc --noEmit` lulus; `npm run build` lulus.
+- `php artisan test` lulus (98 tes, 885 asersi), termasuk dua tes baru:
+  blok INF 1 terimpor utuh dengan materi lain tetap markdown, dan tipe materi
+  `visual`/`scenario` dikenali.
+- Pratinjau peramban: materi INF 1 tampil dengan daftar bernomor dan kotak info;
+  materi PAUD "Cari Pasangan Bentuk" tetap menampilkan blok `{type, value}`.
 
 ## [0.18.0] - 2026-11-16 20:40 WIB
 

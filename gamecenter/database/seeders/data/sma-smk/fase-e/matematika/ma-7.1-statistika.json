@@ -22,21 +22,372 @@
           "title": "Tiga Ukuran Pemusatan",
           "duration": 240,
           "source_reference": "Bab 7 — Ukuran Pemusatan Data",
-          "content": "## Ringkasan tiga ukuran\n\n| Ukuran | Cara memperoleh | Kapan cocok |\n|---|---|---|\n| **Mean** (rata-rata) | jumlah data ÷ banyak data | data tanpa nilai ekstrem |\n| **Median** | nilai tengah setelah diurutkan | ada nilai ekstrem |\n| **Modus** | nilai paling sering muncul | data berupa kategori |\n\n### Contoh\n\nData: 7, 8, 8, 9, 10\n- Mean = (7 + 8 + 8 + 9 + 10) ÷ 5 = 42 ÷ 5 = **8,4**\n- Median = data ke-3 = **8**\n- Modus = **8** (muncul dua kali)\n\n### Median untuk data genap\n\nBila banyak data genap, tidak ada satu nilai tengah. Median diambil dari **rata-rata dua nilai tengah**:\n\nData 1, 2, 3, 4, 5, 6 → median = (3 + 4) ÷ 2 = **3,5**\n\n### Data harus diurutkan\n\nMedian hanya benar bila data sudah **diurutkan lebih dulu**. Ini kesalahan yang paling sering terjadi."
+          "content": "## Ringkasan tiga ukuran\n\n| Ukuran | Cara memperoleh | Kapan cocok |\n|---|---|---|\n| **Mean** (rata-rata) | jumlah data ÷ banyak data | data tanpa nilai ekstrem |\n| **Median** | nilai tengah setelah diurutkan | ada nilai ekstrem |\n| **Modus** | nilai paling sering muncul | data berupa kategori |\n\n### Contoh\n\nData: 7, 8, 8, 9, 10\n- Mean = (7 + 8 + 8 + 9 + 10) ÷ 5 = 42 ÷ 5 = **8,4**\n- Median = data ke-3 = **8**\n- Modus = **8** (muncul dua kali)\n\n### Median untuk data genap\n\nBila banyak data genap, tidak ada satu nilai tengah. Median diambil dari **rata-rata dua nilai tengah**:\n\nData 1, 2, 3, 4, 5, 6 → median = (3 + 4) ÷ 2 = **3,5**\n\n### Data harus diurutkan\n\nMedian hanya benar bila data sudah **diurutkan lebih dulu**. Ini kesalahan yang paling sering terjadi.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Mean",
+                  "definition": "Jumlah seluruh data dibagi banyak data (rata-rata)."
+                },
+                {
+                  "term": "Median",
+                  "definition": "Nilai tengah setelah data diurutkan; untuk data genap diambil rata-rata dua nilai tengah."
+                },
+                {
+                  "term": "Modus",
+                  "definition": "Nilai yang paling sering muncul dalam data."
+                },
+                {
+                  "term": "Jangkauan",
+                  "definition": "Selisih data terbesar dan data terkecil, menggambarkan sebaran data."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ringkasan tiga ukuran"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Ukuran",
+                  "Cara memperoleh",
+                  "Kapan cocok"
+                ],
+                [
+                  "**Mean** (rata-rata)",
+                  "jumlah data ÷ banyak data",
+                  "data tanpa nilai ekstrem"
+                ],
+                [
+                  "**Median**",
+                  "nilai tengah setelah diurutkan",
+                  "ada nilai ekstrem"
+                ],
+                [
+                  "**Modus**",
+                  "nilai paling sering muncul",
+                  "data berupa kategori"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "ch-data-tunggal",
+              "kind": "bar",
+              "title": "Data 7, 8, 8, 9, 10",
+              "desc": "Grafik batang lima data: 7 muncul sekali, 8 muncul dua kali, 9 sekali, dan 10 sekali. Mean 8,4; median 8; modus 8.",
+              "data": [
+                {
+                  "label": "7",
+                  "value": 1
+                },
+                {
+                  "label": "8",
+                  "value": 2
+                },
+                {
+                  "label": "9",
+                  "value": 1
+                },
+                {
+                  "label": "10",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh"
+            },
+            {
+              "type": "paragraph",
+              "text": "Data: 7, 8, 8, 9, 10"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Mean = (7 + 8 + 8 + 9 + 10) ÷ 5 = 42 ÷ 5 = **8,4**",
+                "Median = data ke-3 = **8**",
+                "Modus = **8** (muncul dua kali)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Median untuk data genap"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila banyak data genap, tidak ada satu nilai tengah. Median diambil dari **rata-rata dua nilai tengah**:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Data 1, 2, 3, 4, 5, 6 → median = (3 + 4) ÷ 2 = **3,5**"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-median-genap",
+              "question": "Median dari data 1, 2, 3, 4, 5, 6 adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "3,5",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "3"
+                },
+                {
+                  "id": "c",
+                  "text": "4"
+                }
+              ],
+              "explanation": "Banyak data genap, jadi median = rata-rata dua nilai tengah = (3 + 4) ÷ 2 = 3,5. Data harus diurutkan lebih dulu."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Data harus diurutkan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Median hanya benar bila data sudah **diurutkan lebih dulu**. Ini kesalahan yang paling sering terjadi."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Ukuran Penyebaran dan Pengaruh Nilai Ekstrem",
           "duration": 360,
           "source_reference": "Bab 7 — Ukuran Penyebaran Data",
-          "content": "## Jangkauan\n\n> **Jangkauan = data terbesar − data terkecil**\n\nData 7, 8, 8, 9, 10 → jangkauan = 10 − 7 = **3**.\n\nJangkauan memberi gambaran seberapa **tersebar** datanya.\n\n## Siapa yang paling terpengaruh nilai ekstrem?\n\n| Ukuran | Terpengaruh nilai ekstrem? |\n|---|---|\n| Mean | **Ya**, karena memakai seluruh nilai |\n| Median | Tidak, hanya melihat posisi tengah |\n| Modus | Tidak, hanya melihat frekuensi |\n\n### Contoh nyata\n\nGaji di sebuah kantor: 4 orang bergaji 5 juta dan 1 direktur bergaji 100 juta.\n- Mean = (4 × 5 + 100) ÷ 5 = 24 juta → terlihat \"tinggi\" padahal tidak ada yang bergaji segitu\n- Median = 5 juta → jauh lebih menggambarkan keadaan sebenarnya\n\nItulah sebabnya data bergaji biasanya dilaporkan dengan **median**.\n\n## Sifat pergeseran\n\nBila **setiap** data ditambah konstanta k, maka mean dan median juga bertambah k — bentuk distribusinya hanya bergeser."
+          "content": "## Jangkauan\n\n> **Jangkauan = data terbesar − data terkecil**\n\nData 7, 8, 8, 9, 10 → jangkauan = 10 − 7 = **3**.\n\nJangkauan memberi gambaran seberapa **tersebar** datanya.\n\n## Siapa yang paling terpengaruh nilai ekstrem?\n\n| Ukuran | Terpengaruh nilai ekstrem? |\n|---|---|\n| Mean | **Ya**, karena memakai seluruh nilai |\n| Median | Tidak, hanya melihat posisi tengah |\n| Modus | Tidak, hanya melihat frekuensi |\n\n### Contoh nyata\n\nGaji di sebuah kantor: 4 orang bergaji 5 juta dan 1 direktur bergaji 100 juta.\n- Mean = (4 × 5 + 100) ÷ 5 = 24 juta → terlihat \"tinggi\" padahal tidak ada yang bergaji segitu\n- Median = 5 juta → jauh lebih menggambarkan keadaan sebenarnya\n\nItulah sebabnya data bergaji biasanya dilaporkan dengan **median**.\n\n## Sifat pergeseran\n\nBila **setiap** data ditambah konstanta k, maka mean dan median juga bertambah k — bentuk distribusinya hanya bergeser.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jangkauan"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**Jangkauan = data terbesar − data terkecil**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Data 7, 8, 8, 9, 10 → jangkauan = 10 − 7 = **3**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jangkauan memberi gambaran seberapa **tersebar** datanya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Siapa yang paling terpengaruh nilai ekstrem?"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Ukuran",
+                  "Terpengaruh nilai ekstrem?"
+                ],
+                [
+                  "Mean",
+                  "**Ya**, karena memakai seluruh nilai"
+                ],
+                [
+                  "Median",
+                  "Tidak, hanya melihat posisi tengah"
+                ],
+                [
+                  "Modus",
+                  "Tidak, hanya melihat frekuensi"
+                ]
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-ukuran-ekstrem",
+              "prompt": "Kelompokkan ukuran statistika berdasarkan pengaruh nilai ekstrem.",
+              "buckets": [
+                {
+                  "id": "terpengaruh",
+                  "label": "Terpengaruh nilai ekstrem"
+                },
+                {
+                  "id": "aman",
+                  "label": "Tidak terpengaruh"
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1",
+                  "text": "Mean",
+                  "bucket": "terpengaruh"
+                },
+                {
+                  "id": "c2",
+                  "text": "Median",
+                  "bucket": "aman"
+                },
+                {
+                  "id": "c3",
+                  "text": "Modus",
+                  "bucket": "aman"
+                },
+                {
+                  "id": "c4",
+                  "text": "Jangkauan",
+                  "bucket": "terpengaruh"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — mean dan jangkauan memakai nilai ekstrem, median dan modus tidak.",
+                "wrong": "Mean memakai seluruh nilai dan jangkauan memakai nilai terbesar/terkecil, jadi keduanya ikut berubah."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh nyata"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gaji di sebuah kantor: 4 orang bergaji 5 juta dan 1 direktur bergaji 100 juta."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Mean = (4 × 5 + 100) ÷ 5 = 24 juta → terlihat \"tinggi\" padahal tidak ada yang bergaji segitu",
+                "Median = 5 juta → jauh lebih menggambarkan keadaan sebenarnya"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Itulah sebabnya data bergaji biasanya dilaporkan dengan **median**."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-gaji-median",
+              "question": "Empat pegawai bergaji 5 juta dan satu direktur bergaji 100 juta. Ukuran yang paling menggambarkan keadaan sebenarnya adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Median, yaitu 5 juta",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Mean, yaitu 24 juta"
+                },
+                {
+                  "id": "c",
+                  "text": "Jangkauan, yaitu 95 juta"
+                }
+              ],
+              "explanation": "Mean tertarik oleh gaji direktur sehingga terlihat jauh lebih tinggi daripada kenyataan. Median tetap 5 juta karena hanya melihat posisi tengah."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sifat pergeseran"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila **setiap** data ditambah konstanta k, maka mean dan median juga bertambah k — bentuk distribusinya hanya bergeser."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Menafsirkan Data Nyata",
           "duration": 240,
           "source_reference": "Bab 7 — Penerapan",
-          "content": "## Latihan bertahap\n\n**1. Mencari data yang hilang**\nRata-rata 5 data adalah 8. Empat di antaranya 6, 7, 9, dan 10. Berapa data kelima?\n\n- Jumlah seluruh data = 5 × 8 = 40\n- Jumlah empat data = 32\n- Data kelima = 40 − 32 = **8**\n\n**2. Rata-rata setelah penambahan**\nRata-rata 4 data adalah 10, lalu ditambah data bernilai 15.\n\n- Jumlah awal = 40, menjadi 55\n- Banyak data menjadi 5\n- Rata-rata baru = 55 ÷ 5 = **11**\n\n### Rangkuman cara berpikir\n\nSelalu kembali ke **jumlah total** = mean × banyak data. Hampir semua soal mean dapat diselesaikan dengan cara ini."
+          "content": "## Latihan bertahap\n\n**1. Mencari data yang hilang**\nRata-rata 5 data adalah 8. Empat di antaranya 6, 7, 9, dan 10. Berapa data kelima?\n\n- Jumlah seluruh data = 5 × 8 = 40\n- Jumlah empat data = 32\n- Data kelima = 40 − 32 = **8**\n\n**2. Rata-rata setelah penambahan**\nRata-rata 4 data adalah 10, lalu ditambah data bernilai 15.\n\n- Jumlah awal = 40, menjadi 55\n- Banyak data menjadi 5\n- Rata-rata baru = 55 ÷ 5 = **11**\n\n### Rangkuman cara berpikir\n\nSelalu kembali ke **jumlah total** = mean × banyak data. Hampir semua soal mean dapat diselesaikan dengan cara ini.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Latihan bertahap"
+            },
+            {
+              "type": "paragraph",
+              "text": "**1. Mencari data yang hilang** Rata-rata 5 data adalah 8. Empat di antaranya 6, 7, 9, dan 10. Berapa data kelima?"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Jumlah seluruh data = 5 × 8 = 40",
+                "Jumlah empat data = 32",
+                "Data kelima = 40 − 32 = **8**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**2. Rata-rata setelah penambahan** Rata-rata 4 data adalah 10, lalu ditambah data bernilai 15."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Jumlah awal = 40, menjadi 55",
+                "Banyak data menjadi 5",
+                "Rata-rata baru = 55 ÷ 5 = **11**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Rangkuman cara berpikir"
+            },
+            {
+              "type": "paragraph",
+              "text": "Selalu kembali ke **jumlah total** = mean × banyak data. Hampir semua soal mean dapat diselesaikan dengan cara ini."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-statistika-cepat",
+              "title": "Tantangan Kilat: Statistika",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Mean 5 data adalah 8. Jumlah seluruh data = …",
+                  "answer": "40"
+                },
+                {
+                  "question": "Empat data 6, 7, 9, 10 dengan mean 8. Data kelima = …",
+                  "answer": "8"
+                },
+                {
+                  "question": "Jangkauan data 7, 8, 8, 9, 10 = …",
+                  "answer": "3"
+                },
+                {
+                  "question": "Modus data 7, 8, 8, 9, 10 = …",
+                  "answer": "8"
+                },
+                {
+                  "question": "Mean 4 data 10 lalu ditambah data 15. Mean baru = …",
+                  "answer": "11"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — selalu mulai dari jumlah total = mean × banyak data.",
+                "wrong": "Kembalikan mean ke jumlah total lebih dulu, lalu tambahkan atau kurangkan data baru."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

@@ -26,21 +26,357 @@
           "title": "Kerja Tim Digital dan Abstraksi",
           "duration": 240,
           "source_reference": "Bab 9 — Praktika Lintas Bidang",
-          "content": "## Budaya kerja tim digital\n\nTim yang sehat bersifat **inklusif**: setiap anggota dihargai dan didengar.\n\nKunci kerja tim:\n- pembagian tugas yang jelas\n- komunikasi rutin\n- pencatatan keputusan bersama\n- tidak mengambil alih tugas orang lain tanpa memberi tahu\n\n### Alat kolaborasi\n\nDokumen daring memungkinkan beberapa orang menyunting bersamaan, dengan riwayat perubahan yang terlacak.\n\n## Abstraksi\n\n**Abstraksi** menyederhanakan masalah dengan mengambil hanya bagian pentingnya.\n\nContoh: sistem peminjaman perpustakaan diabstraksi menjadi model **buku**, **anggota**, dan **transaksi peminjaman**. Warna rak atau merek komputer petugas bukan bagian dari abstraksi.\n\nKegunaan abstraksi: masalah menjadi lebih mudah dianalisis dan diimplementasikan.\n\n## Kapan komputer tepat dipakai?\n\nSistem komputasi paling bermanfaat untuk persoalan yang **berulang**, **berukuran besar**, dan **berbasis aturan** yang jelas."
+          "content": "## Budaya kerja tim digital\n\nTim yang sehat bersifat **inklusif**: setiap anggota dihargai dan didengar.\n\nKunci kerja tim:\n- pembagian tugas yang jelas\n- komunikasi rutin\n- pencatatan keputusan bersama\n- tidak mengambil alih tugas orang lain tanpa memberi tahu\n\n### Alat kolaborasi\n\nDokumen daring memungkinkan beberapa orang menyunting bersamaan, dengan riwayat perubahan yang terlacak.\n\n## Abstraksi\n\n**Abstraksi** menyederhanakan masalah dengan mengambil hanya bagian pentingnya.\n\nContoh: sistem peminjaman perpustakaan diabstraksi menjadi model **buku**, **anggota**, dan **transaksi peminjaman**. Warna rak atau merek komputer petugas bukan bagian dari abstraksi.\n\nKegunaan abstraksi: masalah menjadi lebih mudah dianalisis dan diimplementasikan.\n\n## Kapan komputer tepat dipakai?\n\nSistem komputasi paling bermanfaat untuk persoalan yang **berulang**, **berukuran besar**, dan **berbasis aturan** yang jelas.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Abstraksi",
+                  "definition": "Menyederhanakan masalah dengan mengambil hanya bagian pentingnya."
+                },
+                {
+                  "term": "Kolaborasi digital",
+                  "definition": "Kerja tim memakai dokumen dan alat daring dengan riwayat perubahan terlacak."
+                },
+                {
+                  "term": "Prototipe",
+                  "definition": "Versi awal yang murah dan cepat untuk menguji gagasan sebelum dikembangkan penuh."
+                },
+                {
+                  "term": "Kasus uji",
+                  "definition": "Skenario pengujian beserta hasil yang diharapkan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Budaya kerja tim digital"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tim yang sehat bersifat **inklusif**: setiap anggota dihargai dan didengar."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kunci kerja tim:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "pembagian tugas yang jelas",
+                "komunikasi rutin",
+                "pencatatan keputusan bersama",
+                "tidak mengambil alih tugas orang lain tanpa memberi tahu"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Alat kolaborasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dokumen daring memungkinkan beberapa orang menyunting bersamaan, dengan riwayat perubahan yang terlacak."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Abstraksi"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Abstraksi** menyederhanakan masalah dengan mengambil hanya bagian pentingnya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: sistem peminjaman perpustakaan diabstraksi menjadi model **buku**, **anggota**, dan **transaksi peminjaman**. Warna rak atau merek komputer petugas bukan bagian dari abstraksi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kegunaan abstraksi: masalah menjadi lebih mudah dianalisis dan diimplementasikan."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-abstraksi",
+              "engine": "mermaid",
+              "title": "Abstraksi sistem peminjaman perpustakaan",
+              "code": "flowchart LR\n  A[Sistem perpustakaan] --> B[Buku]\n  A --> C[Anggota]\n  A --> D[Transaksi peminjaman]\n  B --> E[Model yang dianalisis]\n  C --> E\n  D --> E"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-abstraksi",
+              "question": "Pada abstraksi sistem peminjaman perpustakaan, hal berikut TIDAK termasuk bagian abstraksi…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Warna rak buku",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Buku"
+                },
+                {
+                  "id": "c",
+                  "text": "Transaksi peminjaman"
+                }
+              ],
+              "explanation": "Abstraksi hanya mengambil bagian penting: buku, anggota, dan transaksi. Warna rak atau merek komputer petugas tidak mempengaruhi model."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kapan komputer tepat dipakai?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sistem komputasi paling bermanfaat untuk persoalan yang **berulang**, **berukuran besar**, dan **berbasis aturan** yang jelas."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Membangun dan Menguji Artefak",
           "duration": 360,
           "source_reference": "Bab 9 — Artefak Komputasi",
-          "content": "## Artefak komputasi\n\nArtefak komputasi adalah karya hasil proses komputasi: program, model, atau desain yang dapat dijalankan dan ditunjukkan.\n\n### Urutan tahapan\n\n1. Mengenali dan mendefinisikan persoalan\n2. Mengembangkan model atau abstraksi\n3. Membuat artefak komputasi\n4. Menguji dan mendokumentasikan\n5. Mempresentasikan\n\nLangkah pertama **selalu** memahami persoalan dan kebutuhan pengguna — bukan langsung menulis kode.\n\n## Prototipe\n\nVersi awal yang murah dan cepat untuk menguji gagasan. Prototipe membuat kesalahan konsep ditemukan lebih awal.\n\n## Pengujian\n\nRencana pengujian memuat **kasus uji** beserta **hasil yang diharapkan**.\n\nUntuk fitur login, kasus uji minimal mencakup:\n- kata sandi benar\n- kata sandi salah\n- kolom kosong\n\n### Bila hasil tidak sesuai harapan\n\nJangan mengubah harapan agar cocok, dan jangan menghapus kasus uji. Telusuri penyebab, perbaiki, lalu **uji ulang**.\n\n## Dokumentasi\n\nMencatat proses dan keputusan proyek. Bagi anggota baru, dokumentasi yang baik membuatnya jauh lebih cepat memahami proyek."
+          "content": "## Artefak komputasi\n\nArtefak komputasi adalah karya hasil proses komputasi: program, model, atau desain yang dapat dijalankan dan ditunjukkan.\n\n### Urutan tahapan\n\n1. Mengenali dan mendefinisikan persoalan\n2. Mengembangkan model atau abstraksi\n3. Membuat artefak komputasi\n4. Menguji dan mendokumentasikan\n5. Mempresentasikan\n\nLangkah pertama **selalu** memahami persoalan dan kebutuhan pengguna — bukan langsung menulis kode.\n\n## Prototipe\n\nVersi awal yang murah dan cepat untuk menguji gagasan. Prototipe membuat kesalahan konsep ditemukan lebih awal.\n\n## Pengujian\n\nRencana pengujian memuat **kasus uji** beserta **hasil yang diharapkan**.\n\nUntuk fitur login, kasus uji minimal mencakup:\n- kata sandi benar\n- kata sandi salah\n- kolom kosong\n\n### Bila hasil tidak sesuai harapan\n\nJangan mengubah harapan agar cocok, dan jangan menghapus kasus uji. Telusuri penyebab, perbaiki, lalu **uji ulang**.\n\n## Dokumentasi\n\nMencatat proses dan keputusan proyek. Bagi anggota baru, dokumentasi yang baik membuatnya jauh lebih cepat memahami proyek.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Artefak komputasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Artefak komputasi adalah karya hasil proses komputasi: program, model, atau desain yang dapat dijalankan dan ditunjukkan."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Urutan tahapan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mengenali dan mendefinisikan persoalan",
+                "Mengembangkan model atau abstraksi",
+                "Membuat artefak komputasi",
+                "Menguji dan mendokumentasikan",
+                "Mempresentasikan"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Langkah pertama **selalu** memahami persoalan dan kebutuhan pengguna — bukan langsung menulis kode."
+            },
+            {
+              "type": "sort",
+              "id": "srt-artefak",
+              "prompt": "Urutkan tahapan membangun artefak komputasi.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Mengenali dan mendefinisikan persoalan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Mengembangkan model atau abstraksi"
+                },
+                {
+                  "id": "s3",
+                  "text": "Membuat artefak komputasi"
+                },
+                {
+                  "id": "s4",
+                  "text": "Menguji dan mendokumentasikan"
+                },
+                {
+                  "id": "s5",
+                  "text": "Mempresentasikan"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar — langkah pertama selalu memahami persoalan, bukan langsung menulis kode.",
+                "wrong": "Menulis kode sebelum persoalan dipahami membuat solusi melenceng dari kebutuhan pengguna."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Prototipe"
+            },
+            {
+              "type": "paragraph",
+              "text": "Versi awal yang murah dan cepat untuk menguji gagasan. Prototipe membuat kesalahan konsep ditemukan lebih awal."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pengujian"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rencana pengujian memuat **kasus uji** beserta **hasil yang diharapkan**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk fitur login, kasus uji minimal mencakup:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "kata sandi benar",
+                "kata sandi salah",
+                "kolom kosong"
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-hasil-uji",
+              "question": "Hasil pengujian ternyata tidak sesuai harapan. Tindakan yang benar adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Menelusuri penyebab, memperbaiki, lalu menguji ulang",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Mengubah harapan agar cocok dengan hasil"
+                },
+                {
+                  "id": "c",
+                  "text": "Menghapus kasus uji yang gagal"
+                }
+              ],
+              "explanation": "Harapan dan kasus uji adalah acuan kebenaran. Mengubahnya hanya menyembunyikan kesalahan."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Bila hasil tidak sesuai harapan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jangan mengubah harapan agar cocok, dan jangan menghapus kasus uji. Telusuri penyebab, perbaiki, lalu **uji ulang**."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dokumentasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mencatat proses dan keputusan proyek. Bagi anggota baru, dokumentasi yang baik membuatnya jauh lebih cepat memahami proyek."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Mengomunikasikan Hasil",
           "duration": 240,
           "source_reference": "Bab 9 — Presentasi dan HAKI",
-          "content": "## Isi presentasi proyek\n\nPresentasi yang lengkap memuat:\n\n1. **masalah** yang dihadapi\n2. **solusi** yang diusulkan\n3. **cara kerja** solusi\n4. **hasil pengujian** sebagai bukti\n\nMenyebutkan **keterbatasan** solusi secara jujur menunjukkan pemahaman mendalam dan membuka arah perbaikan.\n\n## Visualisasi\n\nVisualisasi memudahkan audiens memahami temuan. Namun memanipulasi data — memilih hanya yang menguntungkan — merusak kepercayaan dan menyesatkan pengambil keputusan.\n\n## Hak kekayaan intelektual\n\nSaat memakai gambar atau karya orang lain:\n\n- periksa **lisensi**\n- cantumkan **sumber**\n- jangan mengakuinya sebagai karya sendiri\n\nHak cipta atas karya siswa dalam proyek sekolah dimiliki oleh **siswa sebagai pencipta**. Pihak lain memerlukan izin atau lisensi untuk memakainya."
+          "content": "## Isi presentasi proyek\n\nPresentasi yang lengkap memuat:\n\n1. **masalah** yang dihadapi\n2. **solusi** yang diusulkan\n3. **cara kerja** solusi\n4. **hasil pengujian** sebagai bukti\n\nMenyebutkan **keterbatasan** solusi secara jujur menunjukkan pemahaman mendalam dan membuka arah perbaikan.\n\n## Visualisasi\n\nVisualisasi memudahkan audiens memahami temuan. Namun memanipulasi data — memilih hanya yang menguntungkan — merusak kepercayaan dan menyesatkan pengambil keputusan.\n\n## Hak kekayaan intelektual\n\nSaat memakai gambar atau karya orang lain:\n\n- periksa **lisensi**\n- cantumkan **sumber**\n- jangan mengakuinya sebagai karya sendiri\n\nHak cipta atas karya siswa dalam proyek sekolah dimiliki oleh **siswa sebagai pencipta**. Pihak lain memerlukan izin atau lisensi untuk memakainya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Isi presentasi proyek"
+            },
+            {
+              "type": "paragraph",
+              "text": "Presentasi yang lengkap memuat:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**masalah** yang dihadapi",
+                "**solusi** yang diusulkan",
+                "**cara kerja** solusi",
+                "**hasil pengujian** sebagai bukti"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Menyebutkan **keterbatasan** solusi secara jujur menunjukkan pemahaman mendalam dan membuka arah perbaikan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Visualisasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Visualisasi memudahkan audiens memahami temuan. Namun memanipulasi data — memilih hanya yang menguntungkan — merusak kepercayaan dan menyesatkan pengambil keputusan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hak kekayaan intelektual"
+            },
+            {
+              "type": "paragraph",
+              "text": "Saat memakai gambar atau karya orang lain:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "periksa **lisensi**",
+                "cantumkan **sumber**",
+                "jangan mengakuinya sebagai karya sendiri"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Hak cipta atas karya siswa dalam proyek sekolah dimiliki oleh **siswa sebagai pencipta**. Pihak lain memerlukan izin atau lisensi untuk memakainya."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-praktika",
+              "title": "Tantangan Kilat: Praktika Lintas Bidang",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Kasus uji fitur login minimal: kata sandi benar, salah, dan kolom …",
+                  "answer": "kosong"
+                },
+                {
+                  "question": "Versi awal murah untuk menguji gagasan → …",
+                  "answer": "prototipe"
+                },
+                {
+                  "question": "Sebelum memakai gambar orang lain, periksa …",
+                  "answer": "lisensi"
+                },
+                {
+                  "question": "Hak cipta karya siswa dalam proyek sekolah dimiliki oleh …",
+                  "answer": "siswa"
+                },
+                {
+                  "question": "Memilih hanya data yang menguntungkan saat visualisasi akan merusak …",
+                  "answer": "kepercayaan"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — uji, dokumentasikan, dan komunikasikan hasilnya dengan jujur.",
+                "wrong": "Keterbatasan yang disebut jujur justru menunjukkan pemahaman mendalam."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

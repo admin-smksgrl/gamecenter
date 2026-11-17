@@ -22,7 +22,179 @@
           "title": "Empat Pilar Berpikir Komputasional",
           "duration": 240,
           "source_reference": "Modul Ajar Informatika Bab 2 — Tujuan Pembelajaran",
-          "content": "## Berpikir seperti komputer, bukan menjadi komputer\n\nBerpikir komputasional adalah cara menyusun solusi secara **sistematis** sehingga langkah-langkahnya jelas dan dapat dijalankan mesin. Ada empat pilar:\n\n| Pilar | Arti | Contoh |\n|---|---|---|\n| **Dekomposisi** | memecah masalah besar menjadi bagian kecil | membagi aplikasi menjadi modul |\n| **Pengenalan pola** | menemukan kesamaan antar masalah | menyadari total belanja dan total nilai sama-sama penjumlahan |\n| **Abstraksi** | menyaring detail yang tidak perlu | mengabaikan warna saat merancang basis data |\n| **Algoritma** | menyusun langkah penyelesaian | urutan langkah memasak |\n\n### Urutan berpikirnya\n\n1. Pahami masalahnya\n2. Pecah menjadi bagian kecil (dekomposisi)\n3. Cari pola dan buang detail tak perlu (pola + abstraksi)\n4. Susun langkahnya (algoritma)\n\nKeempatnya bekerja berurutan, bukan terpisah-pisah."
+          "content": "## Berpikir seperti komputer, bukan menjadi komputer\n\nBerpikir komputasional adalah cara menyusun solusi secara **sistematis** sehingga langkah-langkahnya jelas dan dapat dijalankan mesin. Ada empat pilar:\n\n| Pilar | Arti | Contoh |\n|---|---|---|\n| **Dekomposisi** | memecah masalah besar menjadi bagian kecil | membagi aplikasi menjadi modul |\n| **Pengenalan pola** | menemukan kesamaan antar masalah | menyadari total belanja dan total nilai sama-sama penjumlahan |\n| **Abstraksi** | menyaring detail yang tidak perlu | mengabaikan warna saat merancang basis data |\n| **Algoritma** | menyusun langkah penyelesaian | urutan langkah memasak |\n\n### Urutan berpikirnya\n\n1. Pahami masalahnya\n2. Pecah menjadi bagian kecil (dekomposisi)\n3. Cari pola dan buang detail tak perlu (pola + abstraksi)\n4. Susun langkahnya (algoritma)\n\nKeempatnya bekerja berurutan, bukan terpisah-pisah.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "gl-pilar",
+              "terms": [
+                {
+                  "term": "Dekomposisi",
+                  "definition": "Memecah masalah besar menjadi bagian-bagian kecil yang bisa dikerjakan sendiri-sendiri."
+                },
+                {
+                  "term": "Pengenalan pola",
+                  "definition": "Menemukan kesamaan antar masalah sehingga solusi yang sudah ada bisa dipakai ulang."
+                },
+                {
+                  "term": "Abstraksi",
+                  "definition": "Menyaring detail yang tidak perlu agar hanya bagian penting yang dikerjakan."
+                },
+                {
+                  "term": "Algoritma",
+                  "definition": "Menyusun langkah penyelesaian yang urut dan jelas sehingga bisa dijalankan mesin."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Berpikir seperti komputer, bukan menjadi komputer"
+            },
+            {
+              "type": "paragraph",
+              "text": "Berpikir komputasional adalah cara menyusun solusi secara **sistematis** sehingga langkah-langkahnya jelas dan dapat dijalankan mesin. Ada empat pilar:"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Pilar",
+                  "Arti",
+                  "Contoh"
+                ],
+                [
+                  "**Dekomposisi**",
+                  "memecah masalah besar menjadi bagian kecil",
+                  "membagi aplikasi menjadi modul"
+                ],
+                [
+                  "**Pengenalan pola**",
+                  "menemukan kesamaan antar masalah",
+                  "menyadari total belanja dan total nilai sama-sama penjumlahan"
+                ],
+                [
+                  "**Abstraksi**",
+                  "menyaring detail yang tidak perlu",
+                  "mengabaikan warna saat merancang basis data"
+                ],
+                [
+                  "**Algoritma**",
+                  "menyusun langkah penyelesaian",
+                  "urutan langkah memasak"
+                ]
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-urutan",
+              "prompt": "Urutkan langkah berpikir komputasional dari yang pertama.",
+              "items": [
+                {
+                  "id": "s3",
+                  "text": "Cari pola dan buang detail tak perlu (pola + abstraksi)"
+                },
+                {
+                  "id": "s1",
+                  "text": "Pahami masalahnya"
+                },
+                {
+                  "id": "s4",
+                  "text": "Susun langkahnya (algoritma)"
+                },
+                {
+                  "id": "s2",
+                  "text": "Pecah menjadi bagian kecil (dekomposisi)"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Tepat: pahami masalah → pecah → cari pola/buang detail → susun algoritma.",
+                "wrong": "Mulai dari memahami masalah, baru memecahnya menjadi bagian kecil."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pilar-1",
+              "question": "Pilar mana yang menyaring detail agar hanya bagian penting yang dikerjakan?",
+              "choices": [
+                {
+                  "id": "c1",
+                  "text": "Dekomposisi"
+                },
+                {
+                  "id": "c2",
+                  "text": "Abstraksi",
+                  "correct": true
+                },
+                {
+                  "id": "c3",
+                  "text": "Algoritma"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar, itu abstraksi.",
+                "wrong": "Belum tepat. Menyaring detail adalah abstraksi."
+              },
+              "explanation": "Abstraksi membuang detail yang tidak perlu; dekomposisi memecah masalah, algoritma menyusun langkah."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pilar-2",
+              "question": "Keempat pilar berpikir komputasional bekerja bagaimana?",
+              "choices": [
+                {
+                  "id": "c1",
+                  "text": "Terpisah, cukup pilih satu yang paling cocok"
+                },
+                {
+                  "id": "c2",
+                  "text": "Berurutan dan saling melengkapi",
+                  "correct": true
+                },
+                {
+                  "id": "c3",
+                  "text": "Hanya dipakai saat menulis program komputer"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar, keempatnya berurutan.",
+                "wrong": "Keempatnya bekerja berurutan, bukan terpisah."
+              },
+              "explanation": "Masalah dipahami, dipecah, dicari polanya, lalu disusun langkahnya. Berpikir komputasional juga dipakai di luar pemrograman."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pilar-berpikir",
+              "engine": "mermaid",
+              "title": "Alur berpikir komputasional",
+              "code": "flowchart TD\n  A[Masalah] --> B[Dekomposisi]\n  B --> C[Pengenalan pola]\n  C --> D[Abstraksi]\n  D --> E[Algoritma]\n  E --> F[Solusi]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Urutan berpikirnya"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Pahami masalahnya",
+                "Pecah menjadi bagian kecil (dekomposisi)",
+                "Cari pola dan buang detail tak perlu (pola + abstraksi)",
+                "Susun langkahnya (algoritma)"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Keempatnya bekerja berurutan, bukan terpisah-pisah."
+            }
+          ]
         },
         {
           "type": "text",
@@ -36,7 +208,97 @@
           "title": "Stack, Queue, dan Sorting",
           "duration": 240,
           "source_reference": "Modul Ajar Informatika Bab 2 — Pertemuan 3",
-          "content": "## Dua struktur data dasar\n\n**Stack (LIFO)** — terakhir masuk, pertama keluar.\nOperasi: `push` menambah di puncak, `pop` mengeluarkan dari puncak.\nAnalogi: tumpukan piring, fitur *undo*.\n\n**Queue (FIFO)** — pertama masuk, pertama keluar.\nOperasi: `enqueue` menambah di belakang, `dequeue` mengeluarkan dari depan.\nAnalogi: antrean kasir, antrean cetak dokumen.\n\n### Contoh penelusuran stack\n\nStack berisi `4, 7, 2` dengan **2 di puncak**.\n- `push(9)` → stack menjadi `4, 7, 2, 9`\n- `pop()` → mengeluarkan **9**, sehingga tersisa `4, 7, 2`\n\n### Sorting\n\n**Bubble sort** membandingkan dua data bersebelahan dan menukarnya bila urutannya salah. Setiap putaran memindahkan nilai terbesar ke posisi paling akhir.\n\nData `8, 3, 5, 1` satu putaran pertama:\n- 8 dan 3 ditukar → `3, 8, 5, 1`\n- 8 dan 5 ditukar → `3, 5, 8, 1`\n- 8 dan 1 ditukar → `3, 5, 1, 8`\n\nHasil akhir putaran pertama: **3, 5, 1, 8**."
+          "content": "## Dua struktur data dasar\n\n**Stack (LIFO)** — terakhir masuk, pertama keluar.\nOperasi: `push` menambah di puncak, `pop` mengeluarkan dari puncak.\nAnalogi: tumpukan piring, fitur *undo*.\n\n**Queue (FIFO)** — pertama masuk, pertama keluar.\nOperasi: `enqueue` menambah di belakang, `dequeue` mengeluarkan dari depan.\nAnalogi: antrean kasir, antrean cetak dokumen.\n\n### Contoh penelusuran stack\n\nStack berisi `4, 7, 2` dengan **2 di puncak**.\n- `push(9)` → stack menjadi `4, 7, 2, 9`\n- `pop()` → mengeluarkan **9**, sehingga tersisa `4, 7, 2`\n\n### Sorting\n\n**Bubble sort** membandingkan dua data bersebelahan dan menukarnya bila urutannya salah. Setiap putaran memindahkan nilai terbesar ke posisi paling akhir.\n\nData `8, 3, 5, 1` satu putaran pertama:\n- 8 dan 3 ditukar → `3, 8, 5, 1`\n- 8 dan 5 ditukar → `3, 5, 8, 1`\n- 8 dan 1 ditukar → `3, 5, 1, 8`\n\nHasil akhir putaran pertama: **3, 5, 1, 8**.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dua struktur data dasar"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Stack (LIFO)** — terakhir masuk, pertama keluar. Operasi: `push` menambah di puncak, `pop` mengeluarkan dari puncak. Analogi: tumpukan piring, fitur undo."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Queue (FIFO)** — pertama masuk, pertama keluar. Operasi: `enqueue` menambah di belakang, `dequeue` mengeluarkan dari depan. Analogi: antrean kasir, antrean cetak dokumen."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh penelusuran stack"
+            },
+            {
+              "type": "paragraph",
+              "text": "Stack berisi `4, 7, 2` dengan **2 di puncak**."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "`push(9)` → stack menjadi `4, 7, 2, 9`",
+                "`pop()` → mengeluarkan **9**, sehingga tersisa `4, 7, 2`"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sorting"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Bubble sort** membandingkan dua data bersebelahan dan menukarnya bila urutannya salah. Setiap putaran memindahkan nilai terbesar ke posisi paling akhir."
+            },
+            {
+              "type": "paragraph",
+              "text": "Data `8, 3, 5, 1` satu putaran pertama:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "8 dan 3 ditukar → `3, 8, 5, 1`",
+                "8 dan 5 ditukar → `3, 5, 8, 1`",
+                "8 dan 1 ditukar → `3, 5, 1, 8`"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasil akhir putaran pertama: **3, 5, 1, 8**."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-inf-istilah",
+              "title": "Tantangan Kilat: Istilah Berpikir Komputasional",
+              "time_limit": 75,
+              "items": [
+                {
+                  "question": "Memecah masalah besar menjadi bagian kecil disebut …",
+                  "answer": "dekomposisi"
+                },
+                {
+                  "question": "Mengambil ciri penting dan mengabaikan detail disebut …",
+                  "answer": "abstraksi"
+                },
+                {
+                  "question": "Langkah berurutan yang pasti selesai disebut …",
+                  "answer": "algoritma"
+                },
+                {
+                  "question": "Struktur data yang memakai aturan terakhir masuk pertama keluar adalah …",
+                  "answer": "stack"
+                },
+                {
+                  "question": "Struktur data yang memakai aturan pertama masuk pertama keluar adalah …",
+                  "answer": "queue"
+                }
+              ],
+              "feedback": {
+                "correct": "Semua tepat — istilah dasar sudah melekat.",
+                "wrong": "Ulangi bagian Empat Pilar: dekomposisi, pola, abstraksi, algoritma."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

@@ -22,21 +22,370 @@
           "title": "Ruang Sampel dan Kejadian",
           "duration": 240,
           "source_reference": "Bab 8 — Ruang Sampel",
-          "content": "## Tiga istilah dasar\n\n- **Percobaan** — kegiatan yang hasilnya tidak dapat dipastikan, misalnya melempar dadu\n- **Ruang sampel (S)** — himpunan semua hasil yang mungkin\n- **Kejadian (A)** — himpunan hasil yang kita inginkan\n\nSatu anggota ruang sampel disebut **titik sampel**.\n\n### Contoh\n\n| Percobaan | Ruang sampel | Banyak anggota |\n|---|---|---|\n| Satu koin | {A, G} | 2 |\n| Satu dadu | {1, 2, 3, 4, 5, 6} | 6 |\n| Dua koin | {AA, AG, GA, GG} | 4 |\n| Dua dadu | pasangan (a, b) | 36 |\n\n### Aturan perkalian\n\nBila percobaan terdiri atas beberapa tahap, banyak anggota ruang sampel adalah **hasil kali** banyak kemungkinan tiap tahap:\n\ndua dadu → 6 × 6 = **36**\ntiga koin → 2 × 2 × 2 = **8**"
+          "content": "## Tiga istilah dasar\n\n- **Percobaan** — kegiatan yang hasilnya tidak dapat dipastikan, misalnya melempar dadu\n- **Ruang sampel (S)** — himpunan semua hasil yang mungkin\n- **Kejadian (A)** — himpunan hasil yang kita inginkan\n\nSatu anggota ruang sampel disebut **titik sampel**.\n\n### Contoh\n\n| Percobaan | Ruang sampel | Banyak anggota |\n|---|---|---|\n| Satu koin | {A, G} | 2 |\n| Satu dadu | {1, 2, 3, 4, 5, 6} | 6 |\n| Dua koin | {AA, AG, GA, GG} | 4 |\n| Dua dadu | pasangan (a, b) | 36 |\n\n### Aturan perkalian\n\nBila percobaan terdiri atas beberapa tahap, banyak anggota ruang sampel adalah **hasil kali** banyak kemungkinan tiap tahap:\n\ndua dadu → 6 × 6 = **36**\ntiga koin → 2 × 2 × 2 = **8**",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Ruang sampel",
+                  "definition": "Himpunan semua hasil yang mungkin dari suatu percobaan."
+                },
+                {
+                  "term": "Kejadian",
+                  "definition": "Himpunan hasil yang kita inginkan, bagian dari ruang sampel."
+                },
+                {
+                  "term": "Komplemen",
+                  "definition": "Kejadian \"bukan A\" dengan peluang P(Aᶜ) = 1 − P(A)."
+                },
+                {
+                  "term": "Kejadian saling bebas",
+                  "definition": "Dua kejadian yang peluangnya tidak saling memengaruhi: P(A dan B) = P(A) × P(B)."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga istilah dasar"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Percobaan** — kegiatan yang hasilnya tidak dapat dipastikan, misalnya melempar dadu",
+                "**Ruang sampel (S)** — himpunan semua hasil yang mungkin",
+                "**Kejadian (A)** — himpunan hasil yang kita inginkan"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Satu anggota ruang sampel disebut **titik sampel**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Percobaan",
+                  "Ruang sampel",
+                  "Banyak anggota"
+                ],
+                [
+                  "Satu koin",
+                  "{A, G}",
+                  "2"
+                ],
+                [
+                  "Satu dadu",
+                  "{1, 2, 3, 4, 5, 6}",
+                  "6"
+                ],
+                [
+                  "Dua koin",
+                  "{AA, AG, GA, GG}",
+                  "4"
+                ],
+                [
+                  "Dua dadu",
+                  "pasangan (a, b)",
+                  "36"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "ch-peluang-dadu",
+              "kind": "bar",
+              "title": "Banyak pasangan dua dadu untuk jumlah 2 sampai 7",
+              "desc": "Grafik batang dari 36 pasangan: jumlah 2 ada 1, jumlah 3 ada 2, jumlah 4 ada 3, jumlah 5 ada 4, jumlah 6 ada 5, jumlah 7 ada 6 pasangan.",
+              "data": [
+                {
+                  "label": "2",
+                  "value": 1
+                },
+                {
+                  "label": "3",
+                  "value": 2
+                },
+                {
+                  "label": "4",
+                  "value": 3
+                },
+                {
+                  "label": "5",
+                  "value": 4
+                },
+                {
+                  "label": "6",
+                  "value": 5
+                },
+                {
+                  "label": "7",
+                  "value": 6
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Aturan perkalian"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila percobaan terdiri atas beberapa tahap, banyak anggota ruang sampel adalah **hasil kali** banyak kemungkinan tiap tahap:"
+            },
+            {
+              "type": "paragraph",
+              "text": "dua dadu → 6 × 6 = **36** tiga koin → 2 × 2 × 2 = **8**"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-ruang-sampel-dadu",
+              "question": "Banyak anggota ruang sampel pelemparan dua dadu adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "36",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "12"
+                },
+                {
+                  "id": "c",
+                  "text": "18"
+                }
+              ],
+              "explanation": "Aturan perkalian: dadu pertama 6 kemungkinan dan dadu kedua 6 kemungkinan, sehingga 6 × 6 = 36 pasangan berurutan."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Menghitung Peluang",
           "duration": 360,
           "source_reference": "Bab 8 — Peluang Kejadian",
-          "content": "## Rumus dasar\n\n> **P(A) = n(A) ÷ n(S)**\n\ndengan n(A) banyak hasil yang diinginkan dan n(S) banyak anggota ruang sampel.\n\n### Kisaran nilai peluang\n\n> **0 ≤ P(A) ≤ 1**\n\n- P = 0 → kejadian **mustahil**\n- P = 1 → kejadian **pasti**\n\n### Contoh\n\nPeluang muncul mata dadu lebih dari 2:\n- Hasil yang diinginkan: {3, 4, 5, 6} → n(A) = 4\n- Ruang sampel: 6\n- P = 4/6 = **2/3**\n\n## Peluang komplemen\n\nKejadian \"tidak A\" disebut komplemen A, ditulis Aᶜ.\n\n> **P(Aᶜ) = 1 − P(A)**\n\nContoh: peluang muncul bukan mata 6 = 1 − 1/6 = **5/6**.\n\n### Kapan komplemen dipakai?\n\nBila menghitung langsung terasa panjang. Contoh: \"paling sedikit satu angka\" pada tiga koin lebih mudah dihitung lewat komplemen \"ketiganya gambar\", yaitu 1 − 1/8 = 7/8."
+          "content": "## Rumus dasar\n\n> **P(A) = n(A) ÷ n(S)**\n\ndengan n(A) banyak hasil yang diinginkan dan n(S) banyak anggota ruang sampel.\n\n### Kisaran nilai peluang\n\n> **0 ≤ P(A) ≤ 1**\n\n- P = 0 → kejadian **mustahil**\n- P = 1 → kejadian **pasti**\n\n### Contoh\n\nPeluang muncul mata dadu lebih dari 2:\n- Hasil yang diinginkan: {3, 4, 5, 6} → n(A) = 4\n- Ruang sampel: 6\n- P = 4/6 = **2/3**\n\n## Peluang komplemen\n\nKejadian \"tidak A\" disebut komplemen A, ditulis Aᶜ.\n\n> **P(Aᶜ) = 1 − P(A)**\n\nContoh: peluang muncul bukan mata 6 = 1 − 1/6 = **5/6**.\n\n### Kapan komplemen dipakai?\n\nBila menghitung langsung terasa panjang. Contoh: \"paling sedikit satu angka\" pada tiga koin lebih mudah dihitung lewat komplemen \"ketiganya gambar\", yaitu 1 − 1/8 = 7/8.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rumus dasar"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**P(A) = n(A) ÷ n(S)**"
+            },
+            {
+              "type": "paragraph",
+              "text": "dengan n(A) banyak hasil yang diinginkan dan n(S) banyak anggota ruang sampel."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kisaran nilai peluang"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**0 ≤ P(A) ≤ 1**"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "P = 0 → kejadian **mustahil**",
+                "P = 1 → kejadian **pasti**"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-hitung-peluang",
+              "prompt": "Urutkan langkah menghitung peluang suatu kejadian.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Tentukan ruang sampel dan banyak anggotanya n(S)"
+                },
+                {
+                  "id": "s2",
+                  "text": "Tentukan kejadian yang diinginkan dan n(A)"
+                },
+                {
+                  "id": "s3",
+                  "text": "Bagi: P(A) = n(A) ÷ n(S)"
+                },
+                {
+                  "id": "s4",
+                  "text": "Periksa hasilnya berada antara 0 dan 1"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: ruang sampel, kejadian, bagi, lalu periksa kisarannya.",
+                "wrong": "Pembilang adalah hasil yang diinginkan, penyebut adalah seluruh ruang sampel."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh"
+            },
+            {
+              "type": "paragraph",
+              "text": "Peluang muncul mata dadu lebih dari 2:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Hasil yang diinginkan: {3, 4, 5, 6} → n(A) = 4",
+                "Ruang sampel: 6",
+                "P = 4/6 = **2/3**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peluang komplemen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kejadian \"tidak A\" disebut komplemen A, ditulis Aᶜ."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**P(Aᶜ) = 1 − P(A)**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: peluang muncul bukan mata 6 = 1 − 1/6 = **5/6**."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-komplemen",
+              "question": "Peluang muncul bukan mata 6 pada satu dadu adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "5/6",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "1/6"
+                },
+                {
+                  "id": "c",
+                  "text": "1/5"
+                }
+              ],
+              "explanation": "Gunakan komplemen: P(bukan 6) = 1 − P(6) = 1 − 1/6 = 5/6."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kapan komplemen dipakai?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila menghitung langsung terasa panjang. Contoh: \"paling sedikit satu angka\" pada tiga koin lebih mudah dihitung lewat komplemen \"ketiganya gambar\", yaitu 1 − 1/8 = 7/8."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Dua Dadu dan Kejadian Bebas",
           "duration": 240,
           "source_reference": "Bab 8 — Penerapan",
-          "content": "## Menghitung pasangan dua dadu\n\nRuang sampel dua dadu berisi 36 pasangan berurutan.\n\n**Peluang jumlah 7:**\npasangannya (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 pasangan\nP = 6/36 = **1/6**\n\n**Peluang jumlah 2:**\nhanya (1,1) → P = **1/36**\n\nPerhatikan bahwa jumlah 7 jauh lebih mungkin muncul daripada jumlah 2.\n\n## Kejadian saling bebas\n\nDua kejadian saling bebas bila terjadinya yang satu **tidak memengaruhi** peluang yang lain.\n\n> **P(A dan B) = P(A) × P(B)**\n\nContoh: koin dan dadu dilempar bersamaan. Peluang muncul angka **dan** mata genap:\n1/2 × 3/6 = 1/2 × 1/2 = **1/4**"
+          "content": "## Menghitung pasangan dua dadu\n\nRuang sampel dua dadu berisi 36 pasangan berurutan.\n\n**Peluang jumlah 7:**\npasangannya (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 pasangan\nP = 6/36 = **1/6**\n\n**Peluang jumlah 2:**\nhanya (1,1) → P = **1/36**\n\nPerhatikan bahwa jumlah 7 jauh lebih mungkin muncul daripada jumlah 2.\n\n## Kejadian saling bebas\n\nDua kejadian saling bebas bila terjadinya yang satu **tidak memengaruhi** peluang yang lain.\n\n> **P(A dan B) = P(A) × P(B)**\n\nContoh: koin dan dadu dilempar bersamaan. Peluang muncul angka **dan** mata genap:\n1/2 × 3/6 = 1/2 × 1/2 = **1/4**",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menghitung pasangan dua dadu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ruang sampel dua dadu berisi 36 pasangan berurutan."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Peluang jumlah 7:** pasangannya (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 pasangan P = 6/36 = **1/6**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Peluang jumlah 2:** hanya (1,1) → P = **1/36**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Perhatikan bahwa jumlah 7 jauh lebih mungkin muncul daripada jumlah 2."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kejadian saling bebas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dua kejadian saling bebas bila terjadinya yang satu **tidak memengaruhi** peluang yang lain."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**P(A dan B) = P(A) × P(B)**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: koin dan dadu dilempar bersamaan. Peluang muncul angka **dan** mata genap: 1/2 × 3/6 = 1/2 × 1/2 = **1/4**"
+            },
+            {
+              "type": "challenge",
+              "id": "ch-peluang-cepat",
+              "title": "Tantangan Kilat: Peluang",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Dua koin dilempar. n(S) = …",
+                  "answer": "4"
+                },
+                {
+                  "question": "Tiga koin dilempar. n(S) = …",
+                  "answer": "8"
+                },
+                {
+                  "question": "Dua dadu dilempar. n(S) = …",
+                  "answer": "36"
+                },
+                {
+                  "question": "Peluang jumlah 7 pada dua dadu = 1/…",
+                  "answer": "6"
+                },
+                {
+                  "question": "Peluang bukan mata 6 pada satu dadu = 5/…",
+                  "answer": "6"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — aturan perkalian dan komplemen sudah dipakai benar.",
+                "wrong": "Hitung n(S) dengan aturan perkalian, lalu bandingkan dengan n(A)."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

@@ -21,21 +21,355 @@
           "title": "Logaritma adalah Kebalikan Eksponen",
           "duration": 240,
           "source_reference": "Modul Ajar MA 1.2 — Kompetensi Awal",
-          "content": "## Pertanyaan yang dijawab logaritma\n\nEksponen bertanya: **\"2 pangkat berapa hasilnya 8?\"**\nLogaritma menjawab pertanyaan itu.\n\nKarena 2³ = 8, maka **²log 8 = 3**.\n\nSecara umum:\n\n> **ᵃlog b = c** berarti **aᶜ = b**\n\nSyaratnya: a > 0, a ≠ 1, dan b > 0.\n\n### Membaca notasi\n\n| Bentuk logaritma | Artinya | Nilai |\n|---|---|---|\n| ²log 8 | 2 pangkat berapa = 8 | 3 |\n| ³log 9 | 3 pangkat berapa = 9 | 2 |\n| ¹⁰log 100 | 10 pangkat berapa = 100 | 2 |\n| ⁵log 1 | 5 pangkat berapa = 1 | 0 |\n\n**Perhatikan:** ⁵log 1 = 0 karena 5⁰ = 1. Logaritma dari 1 selalu 0."
+          "content": "## Pertanyaan yang dijawab logaritma\n\nEksponen bertanya: **\"2 pangkat berapa hasilnya 8?\"**\nLogaritma menjawab pertanyaan itu.\n\nKarena 2³ = 8, maka **²log 8 = 3**.\n\nSecara umum:\n\n> **ᵃlog b = c** berarti **aᶜ = b**\n\nSyaratnya: a > 0, a ≠ 1, dan b > 0.\n\n### Membaca notasi\n\n| Bentuk logaritma | Artinya | Nilai |\n|---|---|---|\n| ²log 8 | 2 pangkat berapa = 8 | 3 |\n| ³log 9 | 3 pangkat berapa = 9 | 2 |\n| ¹⁰log 100 | 10 pangkat berapa = 100 | 2 |\n| ⁵log 1 | 5 pangkat berapa = 1 | 0 |\n\n**Perhatikan:** ⁵log 1 = 0 karena 5⁰ = 1. Logaritma dari 1 selalu 0.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Logaritma",
+                  "definition": "Pangkat yang harus diberikan pada basis agar hasilnya sama dengan numerus: ᵃlog b = c berarti aᶜ = b."
+                },
+                {
+                  "term": "Basis",
+                  "definition": "Bilangan pokok logaritma, harus positif dan tidak sama dengan 1."
+                },
+                {
+                  "term": "Numerus",
+                  "definition": "Bilangan yang dicari logaritmanya, harus lebih besar dari nol."
+                },
+                {
+                  "term": "Logaritma natural",
+                  "definition": "Logaritma dengan basis e ≈ 2,718, ditulis ln."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pertanyaan yang dijawab logaritma"
+            },
+            {
+              "type": "paragraph",
+              "text": "Eksponen bertanya: **\"2 pangkat berapa hasilnya 8?\"** Logaritma menjawab pertanyaan itu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena 2³ = 8, maka **²log 8 = 3**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Secara umum:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**ᵃlog b = c** berarti **aᶜ = b**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Syaratnya: a > 0, a ≠ 1, dan b > 0."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Membaca notasi"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bentuk logaritma",
+                  "Artinya",
+                  "Nilai"
+                ],
+                [
+                  "²log 8",
+                  "2 pangkat berapa = 8",
+                  "3"
+                ],
+                [
+                  "³log 9",
+                  "3 pangkat berapa = 9",
+                  "2"
+                ],
+                [
+                  "¹⁰log 100",
+                  "10 pangkat berapa = 100",
+                  "2"
+                ],
+                [
+                  "⁵log 1",
+                  "5 pangkat berapa = 1",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Perhatikan:** ⁵log 1 = 0 karena 5⁰ = 1. Logaritma dari 1 selalu 0."
+            },
+            {
+              "type": "chart",
+              "id": "ch-log2",
+              "kind": "bar",
+              "title": "Nilai ²log x untuk x = 1, 2, 4, 8, 16",
+              "desc": "Setiap kali numerus berlipat dua, nilai logaritma bertambah satu: ²log 1 = 0, ²log 2 = 1, ²log 4 = 2, ²log 8 = 3, ²log 16 = 4.",
+              "data": [
+                {
+                  "label": "1",
+                  "value": 0
+                },
+                {
+                  "label": "2",
+                  "value": 1
+                },
+                {
+                  "label": "4",
+                  "value": 2
+                },
+                {
+                  "label": "8",
+                  "value": 3
+                },
+                {
+                  "label": "16",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-log-definisi",
+              "question": "Nilai ⁵log 1 adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "0",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "1"
+                },
+                {
+                  "id": "c",
+                  "text": "5"
+                }
+              ],
+              "explanation": "Karena 5⁰ = 1, maka ⁵log 1 = 0. Logaritma dari 1 selalu bernilai nol untuk basis apa pun yang sah."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Sifat-Sifat Logaritma",
           "duration": 360,
           "source_reference": "Modul Ajar MA 1.2 — Tujuan Pembelajaran 1",
-          "content": "## Tujuh sifat yang dipakai terus\n\n| Sifat | Contoh |\n|---|---|\n| ᵃlog (b × c) = ᵃlog b + ᵃlog c | ²log 4 + ²log 8 = ²log 32 = 5 |\n| ᵃlog (b ÷ c) = ᵃlog b − ᵃlog c | ²log 16 − ²log 2 = ²log 8 = 3 |\n| ᵃlog bⁿ = n × ᵃlog b | ²log 8² = 2 × 3 = 6 |\n| ᵃlog a = 1 | ⁷log 7 = 1 |\n| ᵃlog 1 = 0 | ⁹log 1 = 0 |\n| ᵃlog b = ¹/(ᵇlog a) | ²log 8 = 1/(⁸log 2) |\n| ᵃ^ᵐlog bⁿ = (n/m) × ᵃlog b | ⁴log 8 = (3/2) × ²log 2 = 3/2 |\n\n### Strategi mengerjakan\n\nUntuk soal seperti **²log 6 + ²log 8 − ²log 3**:\n1. Semua basis sudah sama (2), jadi boleh digabung.\n2. Gabungkan: ²log (6 × 8 ÷ 3) = ²log 16.\n3. Hitung: ²log 16 = **4**.\n\n**Kesalahan umum:** menjumlahkan hasil logaritmanya secara langsung (3 + 3 = 6) padahal yang benar adalah mengalikan bilangan di dalamnya lebih dulu."
+          "content": "## Tujuh sifat yang dipakai terus\n\n| Sifat | Contoh |\n|---|---|\n| ᵃlog (b × c) = ᵃlog b + ᵃlog c | ²log 4 + ²log 8 = ²log 32 = 5 |\n| ᵃlog (b ÷ c) = ᵃlog b − ᵃlog c | ²log 16 − ²log 2 = ²log 8 = 3 |\n| ᵃlog bⁿ = n × ᵃlog b | ²log 8² = 2 × 3 = 6 |\n| ᵃlog a = 1 | ⁷log 7 = 1 |\n| ᵃlog 1 = 0 | ⁹log 1 = 0 |\n| ᵃlog b = ¹/(ᵇlog a) | ²log 8 = 1/(⁸log 2) |\n| ᵃ^ᵐlog bⁿ = (n/m) × ᵃlog b | ⁴log 8 = (3/2) × ²log 2 = 3/2 |\n\n### Strategi mengerjakan\n\nUntuk soal seperti **²log 6 + ²log 8 − ²log 3**:\n1. Semua basis sudah sama (2), jadi boleh digabung.\n2. Gabungkan: ²log (6 × 8 ÷ 3) = ²log 16.\n3. Hitung: ²log 16 = **4**.\n\n**Kesalahan umum:** menjumlahkan hasil logaritmanya secara langsung (3 + 3 = 6) padahal yang benar adalah mengalikan bilangan di dalamnya lebih dulu.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tujuh sifat yang dipakai terus"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Sifat",
+                  "Contoh"
+                ],
+                [
+                  "ᵃlog (b × c) = ᵃlog b + ᵃlog c",
+                  "²log 4 + ²log 8 = ²log 32 = 5"
+                ],
+                [
+                  "ᵃlog (b ÷ c) = ᵃlog b − ᵃlog c",
+                  "²log 16 − ²log 2 = ²log 8 = 3"
+                ],
+                [
+                  "ᵃlog bⁿ = n × ᵃlog b",
+                  "²log 8² = 2 × 3 = 6"
+                ],
+                [
+                  "ᵃlog a = 1",
+                  "⁷log 7 = 1"
+                ],
+                [
+                  "ᵃlog 1 = 0",
+                  "⁹log 1 = 0"
+                ],
+                [
+                  "ᵃlog b = ¹/(ᵇlog a)",
+                  "²log 8 = 1/(⁸log 2)"
+                ],
+                [
+                  "ᵃ^ᵐlog bⁿ = (n/m) × ᵃlog b",
+                  "⁴log 8 = (3/2) × ²log 2 = 3/2"
+                ]
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-gabung-log",
+              "prompt": "Urutkan langkah menghitung ²log 6 + ²log 8 − ²log 3.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Periksa bahwa semua basis sama, yaitu 2"
+                },
+                {
+                  "id": "s2",
+                  "text": "Gabungkan menjadi ²log (6 × 8 ÷ 3)"
+                },
+                {
+                  "id": "s3",
+                  "text": "Sederhanakan numerus menjadi 16"
+                },
+                {
+                  "id": "s4",
+                  "text": "Hitung ²log 16 = 4"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: samakan basis, gabungkan numerus, sederhanakan, lalu hitung.",
+                "wrong": "Jangan menjumlah nilai lognya langsung; gabungkan dulu bilangan di dalam log."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-log-pangkat",
+              "question": "Nilai ²log 8² adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "6",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "3"
+                },
+                {
+                  "id": "c",
+                  "text": "9"
+                }
+              ],
+              "explanation": "Gunakan ᵃlog bⁿ = n × ᵃlog b: ²log 8² = 2 × ²log 8 = 2 × 3 = 6."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Strategi mengerjakan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk soal seperti **²log 6 + ²log 8 − ²log 3**:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Semua basis sudah sama (2), jadi boleh digabung.",
+                "Gabungkan: ²log (6 × 8 ÷ 3) = ²log 16.",
+                "Hitung: ²log 16 = **4**."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Kesalahan umum:** menjumlahkan hasil logaritmanya secara langsung (3 + 3 = 6) padahal yang benar adalah mengalikan bilangan di dalamnya lebih dulu."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Logaritma di Dunia Nyata",
           "duration": 240,
           "source_reference": "Modul Ajar MA 1.2 — Tujuan Pembelajaran 2",
-          "content": "Logaritma dipakai ketika besaran berubah **sangat cepat** — begitu cepat sehingga skala biasa tidak nyaman.\n\n### Tiga contoh nyata\n\n**1. Skala Richter (gempa)**\nKekuatan gempa memakai logaritma basis 10. Gempa berkekuatan 6 sepuluh kali lebih kuat dari kekuatan 5, bukan 1,2 kali.\n\n**2. Tingkat keasaman (pH)**\npH = −log[H⁺]. Air murni punya [H⁺] = 10⁻⁷, jadi pH = 7.\n\n**3. Intensitas bunyi (desibel)**\nBunyi 60 dB sepuluh kali lebih kuat dari 50 dB.\n\n### Latihan cepat\n\nSebuah larutan punya [H⁺] = 10⁻⁴. Berapa pH-nya?\n\n<details>\n<summary>Lihat jawaban</summary>\n\npH = −log(10⁻⁴) = −(−4) = **4**. Larutan ini bersifat asam.\n\n</details>"
+          "content": "Logaritma dipakai ketika besaran berubah **sangat cepat** — begitu cepat sehingga skala biasa tidak nyaman.\n\n### Tiga contoh nyata\n\n**1. Skala Richter (gempa)**\nKekuatan gempa memakai logaritma basis 10. Gempa berkekuatan 6 sepuluh kali lebih kuat dari kekuatan 5, bukan 1,2 kali.\n\n**2. Tingkat keasaman (pH)**\npH = −log[H⁺]. Air murni punya [H⁺] = 10⁻⁷, jadi pH = 7.\n\n**3. Intensitas bunyi (desibel)**\nBunyi 60 dB sepuluh kali lebih kuat dari 50 dB.\n\n### Latihan cepat\n\nSebuah larutan punya [H⁺] = 10⁻⁴. Berapa pH-nya?\n\n<details>\n<summary>Lihat jawaban</summary>\n\npH = −log(10⁻⁴) = −(−4) = **4**. Larutan ini bersifat asam.\n\n</details>",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Logaritma dipakai ketika besaran berubah **sangat cepat** — begitu cepat sehingga skala biasa tidak nyaman."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tiga contoh nyata"
+            },
+            {
+              "type": "paragraph",
+              "text": "**1. Skala Richter (gempa)** Kekuatan gempa memakai logaritma basis 10. Gempa berkekuatan 6 sepuluh kali lebih kuat dari kekuatan 5, bukan 1,2 kali."
+            },
+            {
+              "type": "paragraph",
+              "text": "**2. Tingkat keasaman (pH)** pH = −log[H⁺]. Air murni punya [H⁺] = 10⁻⁷, jadi pH = 7."
+            },
+            {
+              "type": "paragraph",
+              "text": "**3. Intensitas bunyi (desibel)** Bunyi 60 dB sepuluh kali lebih kuat dari 50 dB."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Latihan cepat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebuah larutan punya [H⁺] = 10⁻⁴. Berapa pH-nya?"
+            },
+            {
+              "type": "paragraph",
+              "text": "<details> <summary>Lihat jawaban</summary>"
+            },
+            {
+              "type": "paragraph",
+              "text": "pH = −log(10⁻⁴) = −(−4) = **4**. Larutan ini bersifat asam."
+            },
+            {
+              "type": "paragraph",
+              "text": "</details>"
+            },
+            {
+              "type": "challenge",
+              "id": "ch-logaritma-cepat",
+              "title": "Tantangan Kilat: Logaritma",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "²log 16 = …",
+                  "answer": "4"
+                },
+                {
+                  "question": "²log 8 = …",
+                  "answer": "3"
+                },
+                {
+                  "question": "⁹log 1 = …",
+                  "answer": "0"
+                },
+                {
+                  "question": "Larutan dengan [H⁺] = 10⁻⁴ memiliki pH = …",
+                  "answer": "4"
+                },
+                {
+                  "question": "Bunyi 60 dB … kali lebih kuat daripada 50 dB",
+                  "answer": "10"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — definisi dan sifat logaritma sudah melekat.",
+                "wrong": "Ingat ᵃlog b = c berarti aᶜ = b, serta ᵃlog bⁿ = n × ᵃlog b."
+              }
+            }
+          ]
         }
       ],
       "assessments": [
@@ -48,10 +382,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ²log 8 adalah …",
               "options": [
-                { "text": "2", "correct": false },
-                { "text": "3", "correct": true },
-                { "text": "4", "correct": false },
-                { "text": "8", "correct": false }
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "8",
+                  "correct": false
+                }
               ],
               "explanation": "²log 8 = 3 karena 2³ = 8.",
               "hint": "Tanyakan: 2 pangkat berapa hasilnya 8?"
@@ -60,10 +406,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ³log 9 adalah …",
               "options": [
-                { "text": "2", "correct": true },
-                { "text": "3", "correct": false },
-                { "text": "9", "correct": false },
-                { "text": "1/2", "correct": false }
+                {
+                  "text": "2",
+                  "correct": true
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "9",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                }
               ],
               "explanation": "³log 9 = 2 karena 3² = 9.",
               "hint": "3 dikalikan dirinya berapa kali agar menjadi 9?"
@@ -72,10 +430,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ⁵log 1 adalah …",
               "options": [
-                { "text": "−1", "correct": false },
-                { "text": "0", "correct": true },
-                { "text": "1", "correct": false },
-                { "text": "5", "correct": false }
+                {
+                  "text": "−1",
+                  "correct": false
+                },
+                {
+                  "text": "0",
+                  "correct": true
+                },
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                }
               ],
               "explanation": "Setiap bilangan positif berpangkat 0 hasilnya 1, sehingga ⁵log 1 = 0.",
               "hint": "5 pangkat berapa hasilnya 1?"
@@ -84,10 +454,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ⁷log 7 adalah …",
               "options": [
-                { "text": "0", "correct": false },
-                { "text": "1", "correct": true },
-                { "text": "7", "correct": false },
-                { "text": "49", "correct": false }
+                {
+                  "text": "0",
+                  "correct": false
+                },
+                {
+                  "text": "1",
+                  "correct": true
+                },
+                {
+                  "text": "7",
+                  "correct": false
+                },
+                {
+                  "text": "49",
+                  "correct": false
+                }
               ],
               "explanation": "ᵃlog a = 1 karena a¹ = a.",
               "hint": "Basis dan bilangan di dalam log sama."
@@ -96,10 +478,22 @@
               "type": "multiple_choice",
               "question": "Bentuk 10² = 100 jika ditulis sebagai logaritma adalah …",
               "options": [
-                { "text": "¹⁰log 100 = 2", "correct": true },
-                { "text": "¹⁰log 2 = 100", "correct": false },
-                { "text": "²log 100 = 10", "correct": false },
-                { "text": "¹⁰⁰log 10 = 2", "correct": false }
+                {
+                  "text": "¹⁰log 100 = 2",
+                  "correct": true
+                },
+                {
+                  "text": "¹⁰log 2 = 100",
+                  "correct": false
+                },
+                {
+                  "text": "²log 100 = 10",
+                  "correct": false
+                },
+                {
+                  "text": "¹⁰⁰log 10 = 2",
+                  "correct": false
+                }
               ],
               "explanation": "aᶜ = b setara dengan ᵃlog b = c. Dengan a = 10, c = 2, b = 100 diperoleh ¹⁰log 100 = 2.",
               "hint": "Basis menjadi basis log, pangkat menjadi hasil."
@@ -115,10 +509,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ²log 4 + ²log 8 adalah …",
               "options": [
-                { "text": "5", "correct": true },
-                { "text": "6", "correct": false },
-                { "text": "12", "correct": false },
-                { "text": "32", "correct": false }
+                {
+                  "text": "5",
+                  "correct": true
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": false
+                },
+                {
+                  "text": "32",
+                  "correct": false
+                }
               ],
               "explanation": "Gunakan sifat penjumlahan: ²log 4 + ²log 8 = ²log 32 = 5.",
               "hint": "Penjumlahan log menjadi perkalian di dalam."
@@ -127,10 +533,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ²log 16 − ²log 2 adalah …",
               "options": [
-                { "text": "2", "correct": false },
-                { "text": "3", "correct": true },
-                { "text": "4", "correct": false },
-                { "text": "8", "correct": false }
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "8",
+                  "correct": false
+                }
               ],
               "explanation": "²log 16 − ²log 2 = ²log (16 ÷ 2) = ²log 8 = 3.",
               "hint": "Pengurangan log menjadi pembagian di dalam."
@@ -139,10 +557,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ³log 81 adalah …",
               "options": [
-                { "text": "3", "correct": false },
-                { "text": "4", "correct": true },
-                { "text": "9", "correct": false },
-                { "text": "27", "correct": false }
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "9",
+                  "correct": false
+                },
+                {
+                  "text": "27",
+                  "correct": false
+                }
               ],
               "explanation": "81 = 3⁴, sehingga ³log 81 = 4.",
               "hint": "Tulis 81 sebagai pangkat dari 3."
@@ -151,10 +581,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ⁴log 64 adalah …",
               "options": [
-                { "text": "2", "correct": false },
-                { "text": "3", "correct": true },
-                { "text": "4", "correct": false },
-                { "text": "16", "correct": false }
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "16",
+                  "correct": false
+                }
               ],
               "explanation": "64 = 4³, sehingga ⁴log 64 = 3.",
               "hint": "4 pangkat berapa hasilnya 64?"
@@ -163,10 +605,22 @@
               "type": "multiple_choice",
               "question": "Jika ²log x = 5, maka nilai x adalah …",
               "options": [
-                { "text": "10", "correct": false },
-                { "text": "25", "correct": false },
-                { "text": "32", "correct": true },
-                { "text": "52", "correct": false }
+                {
+                  "text": "10",
+                  "correct": false
+                },
+                {
+                  "text": "25",
+                  "correct": false
+                },
+                {
+                  "text": "32",
+                  "correct": true
+                },
+                {
+                  "text": "52",
+                  "correct": false
+                }
               ],
               "explanation": "²log x = 5 berarti 2⁵ = x, sehingga x = 32.",
               "hint": "Ubah kembali ke bentuk pangkat."
@@ -175,10 +629,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ²log (8 × 4) adalah …",
               "options": [
-                { "text": "5", "correct": true },
-                { "text": "6", "correct": false },
-                { "text": "12", "correct": false },
-                { "text": "32", "correct": false }
+                {
+                  "text": "5",
+                  "correct": true
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "12",
+                  "correct": false
+                },
+                {
+                  "text": "32",
+                  "correct": false
+                }
               ],
               "explanation": "8 × 4 = 32, dan ²log 32 = 5 karena 2⁵ = 32.",
               "hint": "Kalikan dulu bilangan di dalam log."
@@ -187,10 +653,22 @@
               "type": "multiple_answer",
               "question": "Manakah yang bernilai 3? Pilih semua yang benar.",
               "options": [
-                { "text": "²log 8", "correct": true },
-                { "text": "³log 27", "correct": true },
-                { "text": "⁴log 16", "correct": false },
-                { "text": "⁵log 125", "correct": true }
+                {
+                  "text": "²log 8",
+                  "correct": true
+                },
+                {
+                  "text": "³log 27",
+                  "correct": true
+                },
+                {
+                  "text": "⁴log 16",
+                  "correct": false
+                },
+                {
+                  "text": "⁵log 125",
+                  "correct": true
+                }
               ],
               "explanation": "²log 8 = 3, ³log 27 = 3, dan ⁵log 125 = 3. Sedangkan ⁴log 16 = 2 karena 4² = 16.",
               "hint": "Periksa satu per satu dengan bentuk pangkatnya."
@@ -199,13 +677,30 @@
               "type": "matching",
               "question": "Jodohkan bentuk logaritma dengan nilainya.",
               "options": [
-                { "id": "l1", "text": "²log 8" },
-                { "id": "l2", "text": "³log 81" },
-                { "id": "l3", "text": "⁵log 25" },
-                { "id": "l4", "text": "¹⁰log 1000" }
+                {
+                  "id": "l1",
+                  "text": "²log 8"
+                },
+                {
+                  "id": "l2",
+                  "text": "³log 81"
+                },
+                {
+                  "id": "l3",
+                  "text": "⁵log 25"
+                },
+                {
+                  "id": "l4",
+                  "text": "¹⁰log 1000"
+                }
               ],
               "correct": {
-                "map": { "l1": "3", "l2": "4", "l3": "2", "l4": "3" }
+                "map": {
+                  "l1": "3",
+                  "l2": "4",
+                  "l3": "2",
+                  "l4": "3"
+                }
               },
               "explanation": "²log 8 = 3 (2³), ³log 81 = 4 (3⁴), ⁵log 25 = 2 (5²), dan ¹⁰log 1000 = 3 (10³).",
               "hint": "Ubah tiap bilangan menjadi pangkat dari basisnya."
@@ -214,10 +709,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ⁶log 36 adalah …",
               "options": [
-                { "text": "1", "correct": false },
-                { "text": "2", "correct": true },
-                { "text": "6", "correct": false },
-                { "text": "36", "correct": false }
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": true
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                },
+                {
+                  "text": "36",
+                  "correct": false
+                }
               ],
               "explanation": "36 = 6², sehingga ⁶log 36 = 2.",
               "hint": "Berapa kali 6 dikalikan dirinya agar menjadi 36?"
@@ -226,13 +733,30 @@
               "type": "drag_drop",
               "question": "Pasangkan setiap bilangan dengan bentuk pangkatnya, lalu tentukan nilai logaritmanya.",
               "options": [
-                { "id": "d1", "text": "²log 16" },
-                { "id": "d2", "text": "³log 3" },
-                { "id": "d3", "text": "⁵log 1" },
-                { "id": "d4", "text": "⁴log 2" }
+                {
+                  "id": "d1",
+                  "text": "²log 16"
+                },
+                {
+                  "id": "d2",
+                  "text": "³log 3"
+                },
+                {
+                  "id": "d3",
+                  "text": "⁵log 1"
+                },
+                {
+                  "id": "d4",
+                  "text": "⁴log 2"
+                }
               ],
               "correct": {
-                "map": { "d1": "4", "d2": "1", "d3": "0", "d4": "1/2" }
+                "map": {
+                  "d1": "4",
+                  "d2": "1",
+                  "d3": "0",
+                  "d4": "1/2"
+                }
               },
               "explanation": "²log 16 = 4 (2⁴), ³log 3 = 1, ⁵log 1 = 0, dan ⁴log 2 = 1/2 karena 4^(1/2) = 2.",
               "hint": "Ingat ⁴log 2 berarti 4 pangkat berapa yang hasilnya 2."
@@ -248,10 +772,22 @@
               "type": "multiple_choice",
               "question": "Jika ²log 3 = a, maka ²log 12 dinyatakan dalam a adalah …",
               "options": [
-                { "text": "a + 2", "correct": true },
-                { "text": "2a", "correct": false },
-                { "text": "a + 3", "correct": false },
-                { "text": "4a", "correct": false }
+                {
+                  "text": "a + 2",
+                  "correct": true
+                },
+                {
+                  "text": "2a",
+                  "correct": false
+                },
+                {
+                  "text": "a + 3",
+                  "correct": false
+                },
+                {
+                  "text": "4a",
+                  "correct": false
+                }
               ],
               "explanation": "12 = 4 × 3, sehingga ²log 12 = ²log 4 + ²log 3 = 2 + a."
             },
@@ -259,10 +795,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ²log 6 + ²log 8 − ²log 3 adalah …",
               "options": [
-                { "text": "3", "correct": false },
-                { "text": "4", "correct": true },
-                { "text": "5", "correct": false },
-                { "text": "6", "correct": false }
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "6",
+                  "correct": false
+                }
               ],
               "explanation": "Gabungkan: ²log (6 × 8 ÷ 3) = ²log 16 = 4."
             },
@@ -270,10 +818,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ⁴log 8 adalah …",
               "options": [
-                { "text": "1/2", "correct": false },
-                { "text": "2/3", "correct": false },
-                { "text": "3/2", "correct": true },
-                { "text": "2", "correct": false }
+                {
+                  "text": "1/2",
+                  "correct": false
+                },
+                {
+                  "text": "2/3",
+                  "correct": false
+                },
+                {
+                  "text": "3/2",
+                  "correct": true
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                }
               ],
               "explanation": "⁴log 8 = ⁴log (2³) = (3/2) × ²log 2 = 3/2. Cara lain: 4^(3/2) = (√4)³ = 8."
             },
@@ -281,10 +841,22 @@
               "type": "multiple_choice",
               "question": "Jika ³log 2 = p, maka ³log 24 dinyatakan dalam p adalah …",
               "options": [
-                { "text": "p + 1", "correct": false },
-                { "text": "3p + 1", "correct": true },
-                { "text": "3p", "correct": false },
-                { "text": "p + 3", "correct": false }
+                {
+                  "text": "p + 1",
+                  "correct": false
+                },
+                {
+                  "text": "3p + 1",
+                  "correct": true
+                },
+                {
+                  "text": "3p",
+                  "correct": false
+                },
+                {
+                  "text": "p + 3",
+                  "correct": false
+                }
               ],
               "explanation": "24 = 8 × 3 = 2³ × 3, sehingga ³log 24 = 3(³log 2) + ³log 3 = 3p + 1."
             },
@@ -292,10 +864,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ²log 0,25 adalah …",
               "options": [
-                { "text": "−2", "correct": true },
-                { "text": "−1", "correct": false },
-                { "text": "1/2", "correct": false },
-                { "text": "2", "correct": false }
+                {
+                  "text": "−2",
+                  "correct": true
+                },
+                {
+                  "text": "−1",
+                  "correct": false
+                },
+                {
+                  "text": "1/2",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": false
+                }
               ],
               "explanation": "0,25 = 1/4 = 2⁻², sehingga ²log 0,25 = −2."
             },
@@ -303,10 +887,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ²⁷log 9 adalah …",
               "options": [
-                { "text": "1/3", "correct": false },
-                { "text": "2/3", "correct": true },
-                { "text": "3/2", "correct": false },
-                { "text": "3", "correct": false }
+                {
+                  "text": "1/3",
+                  "correct": false
+                },
+                {
+                  "text": "2/3",
+                  "correct": true
+                },
+                {
+                  "text": "3/2",
+                  "correct": false
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                }
               ],
               "explanation": "27 = 3³ dan 9 = 3², sehingga ²⁷log 9 = (2/3) × ³log 3 = 2/3."
             },
@@ -314,10 +910,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ⁵log 100 − ⁵log 4 adalah …",
               "options": [
-                { "text": "2", "correct": true },
-                { "text": "4", "correct": false },
-                { "text": "5", "correct": false },
-                { "text": "25", "correct": false }
+                {
+                  "text": "2",
+                  "correct": true
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "5",
+                  "correct": false
+                },
+                {
+                  "text": "25",
+                  "correct": false
+                }
               ],
               "explanation": "⁵log 100 − ⁵log 4 = ⁵log (100 ÷ 4) = ⁵log 25 = 2."
             },
@@ -325,10 +933,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ³log 2 × ²log 9 adalah …",
               "options": [
-                { "text": "1", "correct": false },
-                { "text": "2", "correct": true },
-                { "text": "3", "correct": false },
-                { "text": "18", "correct": false }
+                {
+                  "text": "1",
+                  "correct": false
+                },
+                {
+                  "text": "2",
+                  "correct": true
+                },
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "18",
+                  "correct": false
+                }
               ],
               "explanation": "Gunakan sifat ᵃlog b × ᵇlog c = ᵃlog c: ³log 9 = 2."
             },
@@ -336,10 +956,22 @@
               "type": "multiple_choice",
               "question": "Jika ²log 3 = a dan ²log 5 = b, maka ²log 45 dinyatakan dalam a dan b adalah …",
               "options": [
-                { "text": "a + b", "correct": false },
-                { "text": "2a + b", "correct": true },
-                { "text": "a + 2b", "correct": false },
-                { "text": "2a + 2b", "correct": false }
+                {
+                  "text": "a + b",
+                  "correct": false
+                },
+                {
+                  "text": "2a + b",
+                  "correct": true
+                },
+                {
+                  "text": "a + 2b",
+                  "correct": false
+                },
+                {
+                  "text": "2a + 2b",
+                  "correct": false
+                }
               ],
               "explanation": "45 = 9 × 5 = 3² × 5, sehingga ²log 45 = 2(²log 3) + ²log 5 = 2a + b."
             },
@@ -347,10 +979,22 @@
               "type": "multiple_choice",
               "question": "Jika ⁵log x = 3, maka nilai x adalah …",
               "options": [
-                { "text": "15", "correct": false },
-                { "text": "53", "correct": false },
-                { "text": "125", "correct": true },
-                { "text": "243", "correct": false }
+                {
+                  "text": "15",
+                  "correct": false
+                },
+                {
+                  "text": "53",
+                  "correct": false
+                },
+                {
+                  "text": "125",
+                  "correct": true
+                },
+                {
+                  "text": "243",
+                  "correct": false
+                }
               ],
               "explanation": "⁵log x = 3 berarti 5³ = x, sehingga x = 125."
             },
@@ -358,10 +1002,22 @@
               "type": "multiple_choice",
               "question": "Nilai pH larutan dengan [H⁺] = 10⁻⁵ adalah …",
               "options": [
-                { "text": "3", "correct": false },
-                { "text": "4", "correct": false },
-                { "text": "5", "correct": true },
-                { "text": "10", "correct": false }
+                {
+                  "text": "3",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": false
+                },
+                {
+                  "text": "5",
+                  "correct": true
+                },
+                {
+                  "text": "10",
+                  "correct": false
+                }
               ],
               "explanation": "pH = −log[H⁺] = −log(10⁻⁵) = 5. Larutan bersifat asam karena pH < 7."
             },
@@ -369,10 +1025,22 @@
               "type": "multiple_choice",
               "question": "Nilai dari ²log 48 − ²log 3 adalah …",
               "options": [
-                { "text": "2", "correct": false },
-                { "text": "4", "correct": true },
-                { "text": "16", "correct": false },
-                { "text": "45", "correct": false }
+                {
+                  "text": "2",
+                  "correct": false
+                },
+                {
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "text": "16",
+                  "correct": false
+                },
+                {
+                  "text": "45",
+                  "correct": false
+                }
               ],
               "explanation": "²log (48 ÷ 3) = ²log 16 = 4."
             },
@@ -380,10 +1048,22 @@
               "type": "multiple_answer",
               "question": "Manakah pernyataan yang benar? Pilih semua yang benar.",
               "options": [
-                { "text": "⁸log 1 = 0", "correct": true },
-                { "text": "²log 1 = 2", "correct": false },
-                { "text": "⁹log 9 = 1", "correct": true },
-                { "text": "³log 0 = 1", "correct": false }
+                {
+                  "text": "⁸log 1 = 0",
+                  "correct": true
+                },
+                {
+                  "text": "²log 1 = 2",
+                  "correct": false
+                },
+                {
+                  "text": "⁹log 9 = 1",
+                  "correct": true
+                },
+                {
+                  "text": "³log 0 = 1",
+                  "correct": false
+                }
               ],
               "explanation": "⁸log 1 = 0 dan ⁹log 9 = 1 benar. ²log 1 = 0 (bukan 2), dan ³log 0 tidak terdefinisi karena logaritma hanya untuk bilangan positif."
             },
@@ -391,13 +1071,30 @@
               "type": "puzzle",
               "question": "Susun langkah menyelesaikan ²log x = 4 dari yang pertama sampai terakhir.",
               "options": [
-                { "id": "p1", "text": "Tulis definisi logaritma sebagai bentuk pangkat" },
-                { "id": "p2", "text": "Peroleh 2⁴ = x" },
-                { "id": "p3", "text": "Hitung nilai 2⁴" },
-                { "id": "p4", "text": "Simpulkan x = 16" }
+                {
+                  "id": "p1",
+                  "text": "Tulis definisi logaritma sebagai bentuk pangkat"
+                },
+                {
+                  "id": "p2",
+                  "text": "Peroleh 2⁴ = x"
+                },
+                {
+                  "id": "p3",
+                  "text": "Hitung nilai 2⁴"
+                },
+                {
+                  "id": "p4",
+                  "text": "Simpulkan x = 16"
+                }
               ],
               "correct": {
-                "order": ["p1", "p2", "p3", "p4"]
+                "order": [
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
               },
               "explanation": "Ubah ke bentuk pangkat: 2⁴ = x, lalu hitung 2⁴ = 16 sehingga x = 16."
             },
@@ -405,13 +1102,30 @@
               "type": "drag_drop",
               "question": "Kelompokkan setiap bentuk ke nilainya yang tepat.",
               "options": [
-                { "id": "g1", "text": "²log 32" },
-                { "id": "g2", "text": "³log 1" },
-                { "id": "g3", "text": "⁵log 5" },
-                { "id": "g4", "text": "⁴log 2" }
+                {
+                  "id": "g1",
+                  "text": "²log 32"
+                },
+                {
+                  "id": "g2",
+                  "text": "³log 1"
+                },
+                {
+                  "id": "g3",
+                  "text": "⁵log 5"
+                },
+                {
+                  "id": "g4",
+                  "text": "⁴log 2"
+                }
               ],
               "correct": {
-                "map": { "g1": "5", "g2": "0", "g3": "1", "g4": "1/2" }
+                "map": {
+                  "g1": "5",
+                  "g2": "0",
+                  "g3": "1",
+                  "g4": "1/2"
+                }
               },
               "explanation": "²log 32 = 5, ³log 1 = 0, ⁵log 5 = 1, dan ⁴log 2 = 1/2."
             }

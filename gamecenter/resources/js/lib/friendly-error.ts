@@ -68,7 +68,7 @@ export function friendlyNetworkError(): FriendlyError {
     return {
         title: 'Tidak tersambung ke server',
         description:
-            'Periksa koneksi internetmu, lalu coba lagi. Permainan yang tersimpan di perangkat tetap aman.',
+            'Internetmu terputus atau server tidak merespons. Permainan yang tersimpan di perangkat tetap aman.',
     };
 }
 

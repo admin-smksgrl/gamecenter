@@ -22,7 +22,7 @@ export const OFFLINE_STORES = {
 export type OfflineStoreName =
     (typeof OFFLINE_STORES)[keyof typeof OFFLINE_STORES];
 
-export type SyncItemType = 'session' | 'progress' | 'answer';
+export type SyncItemType = 'session' | 'progress' | 'answer' | 'material_block';
 
 export type SyncItemStatus = 'pending' | 'sending' | 'failed';
 

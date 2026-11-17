@@ -7,6 +7,7 @@ use App\Filament\Resources\Chapters\Pages\ViewChapter;
 use App\Models\Chapter;
 use App\Models\LearningMaterial;
 use App\Models\Question;
+use App\Services\Materi\BlockPracticeReport;
 use Filament\Actions\ViewAction;
 use Filament\Facades\Filament;
 use Filament\Infolists\Components\TextEntry;
@@ -198,6 +199,28 @@ class ChapterResource extends Resource
                                     . '</tbody></table>'
                         )),
                 ]),
+            Section::make('Latihan interaktif (formatif)')
+                ->description('Skor blok dari tabel material_block_responses. Formatif — tidak memengaruhi nilai sesi/rapor.')
+                ->columnSpanFull()
+                ->schema([
+                    TextEntry::make('block_recap')
+                        ->hiddenLabel()
+                        ->extraAttributes(['class' => 'gc-infolist-block'])
+                        ->state(fn (Chapter $record): HtmlString => new HtmlString(
+                            self::blockRecapTables(app(BlockPracticeReport::class)->forChapter($record))
+                        )),
+                ]),
+            Section::make('Pratinjau & validasi blok')
+                ->description('Blok yang gagal validasi akan ditolak saat impor; daftar ini membantu menemukan blok rusak sebelum diimpor ulang.')
+                ->columnSpanFull()
+                ->schema([
+                    TextEntry::make('block_audit')
+                        ->hiddenLabel()
+                        ->extraAttributes(['class' => 'gc-infolist-block'])
+                        ->state(fn (Chapter $record): HtmlString => new HtmlString(
+                            self::blockAuditTable(app(BlockPracticeReport::class)->blockAudit($record))
+                        )),
+                ]),
             Section::make('Asesmen & soal')
                 ->columnSpanFull()
                 ->schema([
@@ -212,6 +235,151 @@ class ChapterResource extends Resource
                         )),
                 ]),
         ]);
+    }
+
+    /**
+     * Rekap skor blok: ringkasan angka, tabel per blok, lalu tabel per siswa.
+     *
+     * @param  array<string, mixed>  $recap
+     */
+    private static function blockRecapTables(array $recap): string
+    {
+        $totals = $recap['totals'];
+
+        if (($totals['blocks'] ?? 0) === 0) {
+            return '<p class="text-sm text-gray-500">Belum ada siswa yang mengerjakan blok interaktif pada chapter ini.</p>';
+        }
+
+        $summary = sprintf(
+            '<p class="text-sm"><strong>%d</strong> blok dikerjakan oleh <strong>%d</strong> siswa · '
+            . '<strong>%d</strong> tuntas · rata-rata skor <strong>%d</strong> · %d percobaan</p>',
+            (int) $totals['blocks'],
+            (int) $totals['students'],
+            (int) $totals['completed'],
+            (int) $totals['average_score'],
+            (int) $totals['attempts'],
+        );
+
+        $blockRows = collect($recap['blocks'])
+            ->map(fn (array $row): string => sprintf(
+                '<tr class="border-t border-gray-200 align-top dark:border-white/10">'
+                . '<td class="py-2 pe-3 break-words">%s</td>'
+                . '<td class="py-2 pe-3 break-words"><span class="text-gray-500">%s</span><br>%s</td>'
+                . '<td class="py-2 pe-3">%s</td>'
+                . '<td class="py-2 pe-3 text-center tabular-nums">%d / %d</td>'
+                . '<td class="py-2 pe-3 text-center tabular-nums">%d</td>'
+                . '<td class="py-2 text-center font-medium tabular-nums">%d</td></tr>',
+                e($row['material_title'] ?? '—'),
+                e($row['block_id']),
+                e($row['label']),
+                e($row['label']),
+                (int) $row['completed'],
+                (int) $row['students'],
+                (int) $row['attempts'],
+                (int) $row['average_score'],
+            ))
+            ->implode('');
+
+        $studentRows = collect($recap['students'])
+            ->map(fn (array $row): string => sprintf(
+                '<tr class="border-t border-gray-200 align-top dark:border-white/10">'
+                . '<td class="py-2 pe-3 break-words">%s<br><span class="text-gray-500">%s</span></td>'
+                . '<td class="py-2 pe-3">%s</td>'
+                . '<td class="py-2 pe-3 text-center tabular-nums">%d / %d</td>'
+                . '<td class="py-2 pe-3 text-center tabular-nums">%d</td>'
+                . '<td class="py-2 pe-3 text-center font-medium tabular-nums">%d</td>'
+                . '<td class="py-2 text-gray-500">%s</td></tr>',
+                e($row['name'] ?? '—'),
+                e($row['username'] ?? ''),
+                e($row['class_name'] ?? '—'),
+                (int) $row['completed'],
+                (int) $row['blocks'],
+                (int) $row['attempts'],
+                (int) $row['average_score'],
+                e($row['last_answered_at']?->format('d M Y H:i') ?? '—'),
+            ))
+            ->implode('');
+
+        return $summary
+            . '<p class="mt-3 font-medium">Per blok</p>'
+            . '<table class="w-full table-fixed text-sm"><colgroup>'
+            . '<col style="width:24%"><col style="width:24%"><col style="width:12%">'
+            . '<col style="width:12%"><col style="width:10%"><col style="width:10%">'
+            . '</colgroup><thead><tr class="text-left text-gray-500">'
+            . '<th class="py-1 pe-3">Materi</th><th class="py-1 pe-3">Blok</th>'
+            . '<th class="py-1 pe-3">Tipe</th><th class="py-1 pe-3 text-center">Tuntas</th>'
+            . '<th class="py-1 pe-3 text-center">Coba</th><th class="py-1 text-center">Rata²</th>'
+            . '</tr></thead><tbody>' . $blockRows . '</tbody></table>'
+            . '<p class="mt-4 font-medium">Per siswa</p>'
+            . '<table class="w-full table-fixed text-sm"><colgroup>'
+            . '<col style="width:30%"><col style="width:12%">'
+            . '<col style="width:12%"><col style="width:10%"><col style="width:10%"><col>'
+            . '</colgroup><thead><tr class="text-left text-gray-500">'
+            . '<th class="py-1 pe-3">Siswa</th><th class="py-1 pe-3">Kelas</th>'
+            . '<th class="py-1 pe-3 text-center">Blok</th><th class="py-1 pe-3 text-center">Coba</th>'
+            . '<th class="py-1 pe-3 text-center">Rata²</th><th class="py-1">Terakhir</th>'
+            . '</tr></thead><tbody>' . $studentRows . '</tbody></table>';
+    }
+
+    /**
+     * Pratinjau blok + peringatan blok yang gagal validasi (Fase 5.2).
+     *
+     * @param  array<int, array<string, mixed>>  $rows
+     */
+    private static function blockAuditTable(array $rows): string
+    {
+        if ($rows === []) {
+            return '<p class="text-sm text-gray-500">Chapter ini belum memakai blok interaktif (materi lama berbasis markdown).</p>';
+        }
+
+        $broken = collect($rows)->filter(fn (array $row): bool => $row['problems'] !== [])->count();
+
+        $header = sprintf(
+            '<p class="text-sm"><strong>%d</strong> blok di <strong>%d</strong> materi · %s</p>',
+            count($rows),
+            collect($rows)->pluck('material_title')->unique()->count(),
+            $broken === 0
+                ? '<span class="text-success-600 dark:text-success-400">semua blok valid</span>'
+                : sprintf('<span class="text-danger-600 dark:text-danger-400">%d blok bermasalah</span>', $broken),
+        );
+
+        $body = collect($rows)
+            ->map(function (array $row): string {
+                $status = $row['problems'] === []
+                    ? '<span class="text-success-600 dark:text-success-400">valid</span>'
+                    : '<ul class="list-disc ps-4 text-danger-600 dark:text-danger-400">'
+                        . collect($row['problems'])
+                            ->map(fn (string $problem): string => '<li>' . e($problem) . '</li>')
+                            ->implode('')
+                        . '</ul>';
+
+                return sprintf(
+                    '<tr class="border-t border-gray-200 align-top dark:border-white/10">'
+                    . '<td class="py-2 pe-3 break-words">%s</td>'
+                    . '<td class="py-2 pe-3 text-center tabular-nums">%d</td>'
+                    . '<td class="py-2 pe-3">%s</td>'
+                    . '<td class="py-2 pe-3 break-words text-gray-500">%s</td>'
+                    . '<td class="py-2 pe-3 break-words">%s</td>'
+                    . '<td class="py-2">%s</td></tr>',
+                    e($row['material_title'] ?? '—'),
+                    (int) $row['index'],
+                    e($row['type']),
+                    e($row['id']),
+                    e($row['summary'] !== '' ? $row['summary'] : '—'),
+                    $status,
+                );
+            })
+            ->implode('');
+
+        return $header
+            . '<table class="w-full table-fixed text-sm"><colgroup>'
+            . '<col style="width:22%"><col style="width:4%"><col style="width:11%">'
+            . '<col style="width:12%"><col style="width:21%"><col>'
+            . '</colgroup><thead><tr class="text-left text-gray-500">'
+            . '<th class="py-1 pe-3">Materi</th><th class="py-1 pe-3">#</th>'
+            . '<th class="py-1 pe-3">Tipe</th><th class="py-1 pe-3">ID</th>'
+            . '<th class="py-1 pe-3">Ringkasan</th><th class="py-1">Validasi</th>'
+            . '</tr></thead><tbody>' . $body . '</tbody></table>';
     }
 
     /**

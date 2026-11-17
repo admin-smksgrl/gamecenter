@@ -23,21 +23,335 @@
           "title": "Dari Barisan ke Deret",
           "duration": 240,
           "source_reference": "Modul Ajar MA 2.2 — Kompetensi Awal",
-          "content": "## Deret adalah jumlah suku-suku barisan\n\n**Barisan** menuliskan suku-sukunya berurutan:\n2, 5, 8, 11, 14\n\n**Deret** menjumlahkannya:\n2 + 5 + 8 + 11 + 14 = 40\n\nNotasi **Sₙ** berarti jumlah **n suku pertama**.\n\nDari contoh di atas, S₅ = 40.\n\n### Hubungan penting\n\n> **Uₙ = Sₙ − Sₙ₋₁**\n\nSuku ke-n diperoleh dari selisih dua jumlah berurutan. Contoh: bila S₅ = 40 dan S₄ = 26, maka U₅ = 40 − 26 = 14. Ini cocok dengan barisan di atas.\n\n### Dua rumus jumlah\n\n| Deret | Rumus Sₙ |\n|---|---|\n| Aritmetika | Sₙ = (n/2) × (a + Uₙ) atau Sₙ = (n/2) × (2a + (n − 1)b) |\n| Geometri | Sₙ = a(rⁿ − 1)/(r − 1) untuk r ≠ 1 |\n\nRumus aritmetika punya dua bentuk yang sama nilainya — pilih yang datanya tersedia."
+          "content": "## Deret adalah jumlah suku-suku barisan\n\n**Barisan** menuliskan suku-sukunya berurutan:\n2, 5, 8, 11, 14\n\n**Deret** menjumlahkannya:\n2 + 5 + 8 + 11 + 14 = 40\n\nNotasi **Sₙ** berarti jumlah **n suku pertama**.\n\nDari contoh di atas, S₅ = 40.\n\n### Hubungan penting\n\n> **Uₙ = Sₙ − Sₙ₋₁**\n\nSuku ke-n diperoleh dari selisih dua jumlah berurutan. Contoh: bila S₅ = 40 dan S₄ = 26, maka U₅ = 40 − 26 = 14. Ini cocok dengan barisan di atas.\n\n### Dua rumus jumlah\n\n| Deret | Rumus Sₙ |\n|---|---|\n| Aritmetika | Sₙ = (n/2) × (a + Uₙ) atau Sₙ = (n/2) × (2a + (n − 1)b) |\n| Geometri | Sₙ = a(rⁿ − 1)/(r − 1) untuk r ≠ 1 |\n\nRumus aritmetika punya dua bentuk yang sama nilainya — pilih yang datanya tersedia.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Deret",
+                  "definition": "Jumlah suku-suku suatu barisan, ditulis dengan tanda tambah."
+                },
+                {
+                  "term": "Sₙ",
+                  "definition": "Jumlah n suku pertama barisan."
+                },
+                {
+                  "term": "Deret konvergen",
+                  "definition": "Deret geometri tak hingga dengan |r| < 1 yang jumlahnya menuju satu nilai tetap."
+                },
+                {
+                  "term": "Suku ke-n dari jumlah",
+                  "definition": "Uₙ = Sₙ − Sₙ₋₁, selisih dua jumlah berurutan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Deret adalah jumlah suku-suku barisan"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Barisan** menuliskan suku-sukunya berurutan: 2, 5, 8, 11, 14"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Deret** menjumlahkannya: 2 + 5 + 8 + 11 + 14 = 40"
+            },
+            {
+              "type": "paragraph",
+              "text": "Notasi **Sₙ** berarti jumlah **n suku pertama**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dari contoh di atas, S₅ = 40."
+            },
+            {
+              "type": "chart",
+              "id": "ch-jumlah-kumulatif",
+              "kind": "bar",
+              "title": "Jumlah kumulatif 2 + 5 + 8 + 11 + 14",
+              "desc": "Grafik batang jumlah kumulatif: S1 = 2, S2 = 7, S3 = 15, S4 = 26, S5 = 40.",
+              "data": [
+                {
+                  "label": "S1",
+                  "value": 2
+                },
+                {
+                  "label": "S2",
+                  "value": 7
+                },
+                {
+                  "label": "S3",
+                  "value": 15
+                },
+                {
+                  "label": "S4",
+                  "value": 26
+                },
+                {
+                  "label": "S5",
+                  "value": 40
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Hubungan penting"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**Uₙ = Sₙ − Sₙ₋₁**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Suku ke-n diperoleh dari selisih dua jumlah berurutan. Contoh: bila S₅ = 40 dan S₄ = 26, maka U₅ = 40 − 26 = 14. Ini cocok dengan barisan di atas."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-sn-selisih",
+              "question": "Jika S₅ = 40 dan S₄ = 26, maka U₅ = …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "14",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "40"
+                },
+                {
+                  "id": "c",
+                  "text": "66"
+                }
+              ],
+              "explanation": "Uₙ = Sₙ − Sₙ₋₁, sehingga U₅ = 40 − 26 = 14 — sesuai suku kelima barisan 2, 5, 8, 11, 14."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dua rumus jumlah"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Deret",
+                  "Rumus Sₙ"
+                ],
+                [
+                  "Aritmetika",
+                  "Sₙ = (n/2) × (a + Uₙ) atau Sₙ = (n/2) × (2a + (n − 1)b)"
+                ],
+                [
+                  "Geometri",
+                  "Sₙ = a(rⁿ − 1)/(r − 1) untuk r ≠ 1"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Rumus aritmetika punya dua bentuk yang sama nilainya — pilih yang datanya tersedia."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Menggunakan Rumus Jumlah",
           "duration": 360,
           "source_reference": "Modul Ajar MA 2.2 — Tujuan Pembelajaran 1 & 2",
-          "content": "## Contoh deret aritmetika\n\nHitung S₁₀ dari 3 + 7 + 11 + …\n\na = 3, b = 4, n = 10.\nS₁₀ = (10/2) × (2 × 3 + 9 × 4) = 5 × (6 + 36) = 5 × 42 = **210**\n\n## Contoh deret geometri\n\nHitung S₅ dari 2 + 6 + 18 + …\n\na = 2, r = 3, n = 5.\nS₅ = 2(3⁵ − 1)/(3 − 1) = 2(243 − 1)/2 = 2 × 121 = **242**\n\nPeriksa langsung: 2 + 6 + 18 + 54 + 162 = 242. Benar.\n\n### Deret geometri tak hingga\n\nBila |r| < 1, jumlah tak hingga **konvergen** ke satu nilai:\n\n> **S∞ = a / (1 − r)**\n\nContoh: 8 + 4 + 2 + 1 + … (a = 8, r = 1/2)\nS∞ = 8 / (1 − 1/2) = 8 / 0,5 = **16**\n\n**Syarat mutlak:** rumus S∞ hanya berlaku bila |r| < 1. Untuk r = 2 deretnya membesar tanpa batas dan tidak punya jumlah."
+          "content": "## Contoh deret aritmetika\n\nHitung S₁₀ dari 3 + 7 + 11 + …\n\na = 3, b = 4, n = 10.\nS₁₀ = (10/2) × (2 × 3 + 9 × 4) = 5 × (6 + 36) = 5 × 42 = **210**\n\n## Contoh deret geometri\n\nHitung S₅ dari 2 + 6 + 18 + …\n\na = 2, r = 3, n = 5.\nS₅ = 2(3⁵ − 1)/(3 − 1) = 2(243 − 1)/2 = 2 × 121 = **242**\n\nPeriksa langsung: 2 + 6 + 18 + 54 + 162 = 242. Benar.\n\n### Deret geometri tak hingga\n\nBila |r| < 1, jumlah tak hingga **konvergen** ke satu nilai:\n\n> **S∞ = a / (1 − r)**\n\nContoh: 8 + 4 + 2 + 1 + … (a = 8, r = 1/2)\nS∞ = 8 / (1 − 1/2) = 8 / 0,5 = **16**\n\n**Syarat mutlak:** rumus S∞ hanya berlaku bila |r| < 1. Untuk r = 2 deretnya membesar tanpa batas dan tidak punya jumlah.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh deret aritmetika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hitung S₁₀ dari 3 + 7 + 11 + …"
+            },
+            {
+              "type": "paragraph",
+              "text": "a = 3, b = 4, n = 10. S₁₀ = (10/2) × (2 × 3 + 9 × 4) = 5 × (6 + 36) = 5 × 42 = **210**"
+            },
+            {
+              "type": "sort",
+              "id": "srt-jumlah-aritmetika",
+              "prompt": "Urutkan langkah menghitung S₁₀ dari 3 + 7 + 11 + …",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Tentukan a = 3, b = 4, dan n = 10"
+                },
+                {
+                  "id": "s2",
+                  "text": "Pilih rumus Sₙ = (n/2)(2a + (n − 1)b)"
+                },
+                {
+                  "id": "s3",
+                  "text": "Substitusi: (10/2)(6 + 9 × 4)"
+                },
+                {
+                  "id": "s4",
+                  "text": "Hitung: 5 × 42 = 210"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: tentukan unsur, pilih rumus, substitusi, lalu hitung.",
+                "wrong": "Mulai dengan mencatat a, b, dan n agar substitusi tidak tertukar."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh deret geometri"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hitung S₅ dari 2 + 6 + 18 + …"
+            },
+            {
+              "type": "paragraph",
+              "text": "a = 2, r = 3, n = 5. S₅ = 2(3⁵ − 1)/(3 − 1) = 2(243 − 1)/2 = 2 × 121 = **242**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Periksa langsung: 2 + 6 + 18 + 54 + 162 = 242. Benar."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Deret geometri tak hingga"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila |r| < 1, jumlah tak hingga **konvergen** ke satu nilai:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**S∞ = a / (1 − r)**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: 8 + 4 + 2 + 1 + … (a = 8, r = 1/2) S∞ = 8 / (1 − 1/2) = 8 / 0,5 = **16**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Syarat mutlak:** rumus S∞ hanya berlaku bila |r| < 1. Untuk r = 2 deretnya membesar tanpa batas dan tidak punya jumlah."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-tak-hingga",
+              "question": "Jumlah tak hingga 8 + 4 + 2 + 1 + … adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "16",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "15"
+                },
+                {
+                  "id": "c",
+                  "text": "Tidak punya jumlah karena deretnya membesar"
+                }
+              ],
+              "explanation": "a = 8 dan r = ½ (|r| < 1), sehingga S∞ = a/(1 − r) = 8/0,5 = 16."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Deret di Keuangan & Sains",
           "duration": 240,
           "source_reference": "Modul Ajar MA 2.2 — Tujuan Pembelajaran 4",
-          "content": "## Tiga penerapan nyata\n\n**1. Menabung bertahap (aritmetika)**\nBulan pertama menabung Rp100.000, lalu naik Rp25.000 tiap bulan. Total setelah 1 tahun:\nS₁₂ = (12/2) × (2 × 100.000 + 11 × 25.000) = 6 × (200.000 + 275.000) = **Rp2.850.000**\n\n**2. Bunga majemuk (geometri)**\nUang Rp1.000.000 dengan bunga 10% per tahun menjadi 1.000.000 × 1,1ⁿ. Ini barisan geometri dengan r = 1,1.\n\n**3. Pantulan bola (tak hingga)**\nBola dijatuhkan dari 2 m dan memantul setinggi 3/4 tinggi sebelumnya. Panjang lintasan totalnya membentuk deret geometri tak hingga.\n\n### Latihan\n\nHitung 1/2 + 1/4 + 1/8 + … tak hingga.\n\n<details>\n<summary>Lihat jawaban</summary>\n\na = 1/2 dan r = 1/2, sehingga S∞ = (1/2)/(1 − 1/2) = (1/2)/(1/2) = **1**.\n\n</details>"
+          "content": "## Tiga penerapan nyata\n\n**1. Menabung bertahap (aritmetika)**\nBulan pertama menabung Rp100.000, lalu naik Rp25.000 tiap bulan. Total setelah 1 tahun:\nS₁₂ = (12/2) × (2 × 100.000 + 11 × 25.000) = 6 × (200.000 + 275.000) = **Rp2.850.000**\n\n**2. Bunga majemuk (geometri)**\nUang Rp1.000.000 dengan bunga 10% per tahun menjadi 1.000.000 × 1,1ⁿ. Ini barisan geometri dengan r = 1,1.\n\n**3. Pantulan bola (tak hingga)**\nBola dijatuhkan dari 2 m dan memantul setinggi 3/4 tinggi sebelumnya. Panjang lintasan totalnya membentuk deret geometri tak hingga.\n\n### Latihan\n\nHitung 1/2 + 1/4 + 1/8 + … tak hingga.\n\n<details>\n<summary>Lihat jawaban</summary>\n\na = 1/2 dan r = 1/2, sehingga S∞ = (1/2)/(1 − 1/2) = (1/2)/(1/2) = **1**.\n\n</details>",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga penerapan nyata"
+            },
+            {
+              "type": "paragraph",
+              "text": "**1. Menabung bertahap (aritmetika)** Bulan pertama menabung Rp100.000, lalu naik Rp25.000 tiap bulan. Total setelah 1 tahun: S₁₂ = (12/2) × (2 × 100.000 + 11 × 25.000) = 6 × (200.000 + 275.000) = **Rp2.850.000**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**2. Bunga majemuk (geometri)** Uang Rp1.000.000 dengan bunga 10% per tahun menjadi 1.000.000 × 1,1ⁿ. Ini barisan geometri dengan r = 1,1."
+            },
+            {
+              "type": "paragraph",
+              "text": "**3. Pantulan bola (tak hingga)** Bola dijatuhkan dari 2 m dan memantul setinggi 3/4 tinggi sebelumnya. Panjang lintasan totalnya membentuk deret geometri tak hingga."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Latihan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hitung 1/2 + 1/4 + 1/8 + … tak hingga."
+            },
+            {
+              "type": "paragraph",
+              "text": "<details> <summary>Lihat jawaban</summary>"
+            },
+            {
+              "type": "paragraph",
+              "text": "a = 1/2 dan r = 1/2, sehingga S∞ = (1/2)/(1 − 1/2) = (1/2)/(1/2) = **1**."
+            },
+            {
+              "type": "paragraph",
+              "text": "</details>"
+            },
+            {
+              "type": "challenge",
+              "id": "ch-deret-cepat",
+              "title": "Tantangan Kilat: Deret",
+              "time_limit": 100,
+              "items": [
+                {
+                  "question": "S₁₀ dari 3 + 7 + 11 + … = …",
+                  "answer": "210"
+                },
+                {
+                  "question": "S₅ dari 2 + 6 + 18 + … = …",
+                  "answer": "242"
+                },
+                {
+                  "question": "8 + 4 + 2 + … tak hingga = …",
+                  "answer": "16"
+                },
+                {
+                  "question": "½ + ¼ + ⅛ + … tak hingga = …",
+                  "answer": "1"
+                },
+                {
+                  "question": "Tabungan 100 ribu, naik 25 ribu/bulan. Total 12 bulan = … ribu rupiah",
+                  "answer": "2850"
+                }
+              ],
+              "feedback": {
+                "correct": "Semua tepat — rumus jumlah aritmetika dan geometri sudah dipakai benar.",
+                "wrong": "Periksa n, a, dan b/r; untuk tak hingga pastikan |r| < 1 lebih dulu."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

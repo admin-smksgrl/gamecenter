@@ -25,21 +25,445 @@
           "title": "Besaran, Satuan, dan Alat Ukur",
           "duration": 240,
           "source_reference": "Bab 1 — Pengukuran",
-          "content": "## Mengukur berarti membandingkan\n\n**Pengukuran** adalah kegiatan membandingkan suatu besaran dengan besaran lain yang sejenis sebagai acuan.\n\n### Besaran pokok dan turunan\n\n| Besaran pokok | Satuan SI |\n|---|---|\n| Panjang | meter (m) |\n| Massa | kilogram (kg) |\n| Waktu | sekon (s) |\n| Suhu | kelvin (K) |\n| Kuat arus | ampere (A) |\n\n**Besaran turunan** tersusun dari besaran pokok, misalnya:\n\n- gaya = kg·m/s² (newton)\n- energi = kg·m²/s² (joule)\n- tekanan = kg/(m·s²) (pascal)\n\n### Besaran skalar dan vektor\n\nSkalar hanya punya besar; vektor punya besar dan arah.\n\n### Memilih alat ukur\n\n| Alat | Ketelitian | Kegunaan |\n|---|---|---|\n| Mistar | 1 mm | panjang benda biasa |\n| Jangka sorong | 0,1 mm atau 0,05 mm | diameter luar/dalam, kedalaman |\n| Mikrometer sekrup | 0,01 mm | benda sangat tipis |\n\nJangka sorong 20 skala nonius memiliki ketelitian 1 mm ÷ 20 = 0,05 mm."
+          "content": "## Mengukur berarti membandingkan\n\n**Pengukuran** adalah kegiatan membandingkan suatu besaran dengan besaran lain yang sejenis sebagai acuan.\n\n### Besaran pokok dan turunan\n\n| Besaran pokok | Satuan SI |\n|---|---|\n| Panjang | meter (m) |\n| Massa | kilogram (kg) |\n| Waktu | sekon (s) |\n| Suhu | kelvin (K) |\n| Kuat arus | ampere (A) |\n\n**Besaran turunan** tersusun dari besaran pokok, misalnya:\n\n- gaya = kg·m/s² (newton)\n- energi = kg·m²/s² (joule)\n- tekanan = kg/(m·s²) (pascal)\n\n### Besaran skalar dan vektor\n\nSkalar hanya punya besar; vektor punya besar dan arah.\n\n### Memilih alat ukur\n\n| Alat | Ketelitian | Kegunaan |\n|---|---|---|\n| Mistar | 1 mm | panjang benda biasa |\n| Jangka sorong | 0,1 mm atau 0,05 mm | diameter luar/dalam, kedalaman |\n| Mikrometer sekrup | 0,01 mm | benda sangat tipis |\n\nJangka sorong 20 skala nonius memiliki ketelitian 1 mm ÷ 20 = 0,05 mm.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengukur berarti membandingkan"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pengukuran** adalah kegiatan membandingkan suatu besaran dengan besaran lain yang sejenis sebagai acuan."
+            },
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "when": "1875",
+                  "title": "Konvensi Meter",
+                  "body": "17 negara menandatangani kesepakatan satuan internasional dan mendirikan BIPM di Paris."
+                },
+                {
+                  "when": "1960",
+                  "title": "Sistem SI resmi",
+                  "body": "Conférence Générale des Poids et Mesures menetapkan tujuh besaran pokok sebagai dasar Sistem Internasional."
+                },
+                {
+                  "when": "1983",
+                  "title": "Meter dari kecepatan cahaya",
+                  "body": "Satu meter didefinisikan dari jarak yang ditempuh cahaya dalam 1/299.792.458 sekon."
+                },
+                {
+                  "when": "2019",
+                  "title": "Kilogram lepas dari silinder logam",
+                  "body": "Kilogram, ampere, kelvin, dan mol kini didefinisikan lewat konstanta fisika, bukan benda fisik di lemari besi."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Besaran pokok dan turunan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Besaran pokok",
+                  "Satuan SI"
+                ],
+                [
+                  "Panjang",
+                  "meter (m)"
+                ],
+                [
+                  "Massa",
+                  "kilogram (kg)"
+                ],
+                [
+                  "Waktu",
+                  "sekon (s)"
+                ],
+                [
+                  "Suhu",
+                  "kelvin (K)"
+                ],
+                [
+                  "Kuat arus",
+                  "ampere (A)"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Besaran turunan** tersusun dari besaran pokok, misalnya:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "gaya = kg·m/s² (newton)",
+                "energi = kg·m²/s² (joule)",
+                "tekanan = kg/(m·s²) (pascal)"
+              ]
+            },
+            {
+              "type": "diagram",
+              "engine": "mermaid",
+              "desc": "Tujuh besaran pokok (panjang, massa, waktu, suhu, dan lainnya) digabung menghasilkan besaran turunan seperti kecepatan, luas, dan massa jenis.",
+              "code": "graph TD\n  A[Besaran pokok] --> B[Panjang - meter]\n  A --> C[Massa - kilogram]\n  A --> D[Waktu - sekon]\n  A --> E[Suhu - kelvin]\n  B --> F[Besaran turunan]\n  C --> F\n  D --> F\n  F --> G[Kecepatan = m/s]\n  F --> H[Luas = m2]\n  F --> I[Massa jenis = kg/m3]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Besaran skalar dan vektor"
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalar hanya punya besar; vektor punya besar dan arah."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Memilih alat ukur"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Alat",
+                  "Ketelitian",
+                  "Kegunaan"
+                ],
+                [
+                  "Mistar",
+                  "1 mm",
+                  "panjang benda biasa"
+                ],
+                [
+                  "Jangka sorong",
+                  "0,1 mm atau 0,05 mm",
+                  "diameter luar/dalam, kedalaman"
+                ],
+                [
+                  "Mikrometer sekrup",
+                  "0,01 mm",
+                  "benda sangat tipis"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Jangka sorong 20 skala nonius memiliki ketelitian 1 mm ÷ 20 = 0,05 mm."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Angka Penting dan Notasi Ilmiah",
           "duration": 360,
           "source_reference": "Bab 1 — Pengolahan Data",
-          "content": "## Angka penting\n\nAngka penting menunjukkan ketelitian hasil pengukuran.\n\n**Aturan:**\n\n1. Angka bukan nol selalu angka penting\n2. Angka nol di **depan** bukan angka penting (`0,003050` → mulai dari 3)\n3. Angka nol **di antara** angka bukan nol selalu penting\n4. Angka nol **di belakang** setelah koma adalah angka penting\n\nContoh: `0,003050` punya 4 angka penting (3, 0, 5, 0).\n\n## Aturan hitung\n\n| Operasi | Aturan |\n|---|---|\n| Perkalian/pembagian | ikuti jumlah angka penting **paling sedikit** |\n| Penjumlahan/pengurangan | ikuti jumlah **desimal paling sedikit** |\n\nContoh perkalian: 2,7 × 1,5 = 4,05 → ditulis **4,1** (dua angka penting).\n\nContoh penjumlahan: 4,56 + 1,2 = 5,76 → ditulis **5,8** (satu desimal).\n\n## Notasi ilmiah\n\n> a × 10ⁿ, dengan 1 ≤ a < 10\n\n- 0,00042 m = 4,2 × 10⁻⁴ m\n- 3200 m dengan dua angka penting = 3,2 × 10³ m\n- 1 nanometer = 10⁻⁹ m"
+          "content": "## Angka penting\n\nAngka penting menunjukkan ketelitian hasil pengukuran.\n\n**Aturan:**\n\n1. Angka bukan nol selalu angka penting\n2. Angka nol di **depan** bukan angka penting (`0,003050` → mulai dari 3)\n3. Angka nol **di antara** angka bukan nol selalu penting\n4. Angka nol **di belakang** setelah koma adalah angka penting\n\nContoh: `0,003050` punya 4 angka penting (3, 0, 5, 0).\n\n## Aturan hitung\n\n| Operasi | Aturan |\n|---|---|\n| Perkalian/pembagian | ikuti jumlah angka penting **paling sedikit** |\n| Penjumlahan/pengurangan | ikuti jumlah **desimal paling sedikit** |\n\nContoh perkalian: 2,7 × 1,5 = 4,05 → ditulis **4,1** (dua angka penting).\n\nContoh penjumlahan: 4,56 + 1,2 = 5,76 → ditulis **5,8** (satu desimal).\n\n## Notasi ilmiah\n\n> a × 10ⁿ, dengan 1 ≤ a < 10\n\n- 0,00042 m = 4,2 × 10⁻⁴ m\n- 3200 m dengan dua angka penting = 3,2 × 10³ m\n- 1 nanometer = 10⁻⁹ m",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Besaran pokok",
+                  "definition": "Besaran yang tidak diturunkan dari besaran lain, misalnya panjang, massa, dan waktu."
+                },
+                {
+                  "term": "Besaran turunan",
+                  "definition": "Besaran yang disusun dari besaran pokok, misalnya kecepatan dan gaya."
+                },
+                {
+                  "term": "Notasi ilmiah",
+                  "definition": "Penulisan angka sebagai a × 10ⁿ dengan 1 ≤ a < 10."
+                },
+                {
+                  "term": "Ketidakpastian mutlak",
+                  "definition": "Setengah dari nilai skala terkecil alat ukur, ditulis ±."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Angka penting"
+            },
+            {
+              "type": "paragraph",
+              "text": "Angka penting menunjukkan ketelitian hasil pengukuran."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Aturan:**"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Angka bukan nol selalu angka penting",
+                "Angka nol di **depan** bukan angka penting (`0,003050` → mulai dari 3)",
+                "Angka nol **di antara** angka bukan nol selalu penting",
+                "Angka nol **di belakang** setelah koma adalah angka penting"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: `0,003050` punya 4 angka penting (3, 0, 5, 0)."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-besaran-turunan",
+              "question": "Manakah yang termasuk besaran turunan?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Kecepatan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Massa"
+                },
+                {
+                  "id": "c",
+                  "text": "Waktu"
+                }
+              ],
+              "explanation": "Kecepatan disusun dari panjang dan waktu (m/s), jadi termasuk turunan. Massa dan waktu adalah besaran pokok."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Aturan hitung"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Operasi",
+                  "Aturan"
+                ],
+                [
+                  "Perkalian/pembagian",
+                  "ikuti jumlah angka penting **paling sedikit**"
+                ],
+                [
+                  "Penjumlahan/pengurangan",
+                  "ikuti jumlah **desimal paling sedikit**"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh perkalian: 2,7 × 1,5 = 4,05 → ditulis **4,1** (dua angka penting)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh penjumlahan: 4,56 + 1,2 = 5,76 → ditulis **5,8** (satu desimal)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Notasi ilmiah"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "a × 10ⁿ, dengan 1 ≤ a < 10"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "0,00042 m = 4,2 × 10⁻⁴ m",
+                "3200 m dengan dua angka penting = 3,2 × 10³ m",
+                "1 nanometer = 10⁻⁹ m"
+              ]
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Ketidakpastian Pengukuran",
           "duration": 240,
           "source_reference": "Bab 1 — Ketidakpastian",
-          "content": "## Mengapa hasil ukur tidak pernah pasti?\n\nKarena alat punya skala terkecil dan pengamat punya keterbatasan membaca.\n\n### Ketidakpastian pembacaan tunggal\n\nBiasanya **setengah skala terkecil**: mistar dengan skala 1 mm → ±0,5 mm.\n\nPenulisannya: **(5,20 ± 0,05) cm**, artinya nilai sebenarnya berada di sekitar 5,20 cm dengan batas 0,05 cm.\n\n### Ketidakpastian pengukuran berulang\n\n> Δx = ½ × (nilai terbesar − nilai terkecil)\n\nContoh data: 12,0; 12,4; 12,1; 12,3; 12,2 cm\n\n- Rata-rata = 61,0 ÷ 5 = **12,2 cm**\n- Δx = ½ × (12,4 − 12,0) = **0,2 cm**\n- Hasil: (12,2 ± 0,2) cm\n\n### Dua jenis kesalahan\n\n| Jenis | Sifat | Contoh |\n|---|---|---|\n| **Sistematis** | tetap, searah, dapat dikoreksi | kalibrasi alat salah |\n| **Acak** | tidak berpola | pengamat lelah, getaran |\n\nPengukuran berulang meredam kesalahan **acak**, bukan kesalahan sistematis.\n\n### Langkah percobaan\n\n1. Rumuskan kasus yang diselidiki\n2. Pilih besaran dan alat ukur yang sesuai\n3. Ukur berulang dan catat\n4. Olah dengan aturan angka penting, lalu simpulkan"
+          "content": "## Mengapa hasil ukur tidak pernah pasti?\n\nKarena alat punya skala terkecil dan pengamat punya keterbatasan membaca.\n\n### Ketidakpastian pembacaan tunggal\n\nBiasanya **setengah skala terkecil**: mistar dengan skala 1 mm → ±0,5 mm.\n\nPenulisannya: **(5,20 ± 0,05) cm**, artinya nilai sebenarnya berada di sekitar 5,20 cm dengan batas 0,05 cm.\n\n### Ketidakpastian pengukuran berulang\n\n> Δx = ½ × (nilai terbesar − nilai terkecil)\n\nContoh data: 12,0; 12,4; 12,1; 12,3; 12,2 cm\n\n- Rata-rata = 61,0 ÷ 5 = **12,2 cm**\n- Δx = ½ × (12,4 − 12,0) = **0,2 cm**\n- Hasil: (12,2 ± 0,2) cm\n\n### Dua jenis kesalahan\n\n| Jenis | Sifat | Contoh |\n|---|---|---|\n| **Sistematis** | tetap, searah, dapat dikoreksi | kalibrasi alat salah |\n| **Acak** | tidak berpola | pengamat lelah, getaran |\n\nPengukuran berulang meredam kesalahan **acak**, bukan kesalahan sistematis.\n\n### Langkah percobaan\n\n1. Rumuskan kasus yang diselidiki\n2. Pilih besaran dan alat ukur yang sesuai\n3. Ukur berulang dan catat\n4. Olah dengan aturan angka penting, lalu simpulkan",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa hasil ukur tidak pernah pasti?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena alat punya skala terkecil dan pengamat punya keterbatasan membaca."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Ketidakpastian pembacaan tunggal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Biasanya **setengah skala terkecil**: mistar dengan skala 1 mm → ±0,5 mm."
+            },
+            {
+              "type": "paragraph",
+              "text": "Penulisannya: **(5,20 ± 0,05) cm**, artinya nilai sebenarnya berada di sekitar 5,20 cm dengan batas 0,05 cm."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Ketidakpastian pengukuran berulang"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Δx = ½ × (nilai terbesar − nilai terkecil)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh data: 12,0; 12,4; 12,1; 12,3; 12,2 cm"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Rata-rata = 61,0 ÷ 5 = **12,2 cm**",
+                "Δx = ½ × (12,4 − 12,0) = **0,2 cm**",
+                "Hasil: (12,2 ± 0,2) cm"
+              ]
+            },
+            {
+              "type": "chart",
+              "kind": "bar",
+              "title": "Selisih tiap pengukuran dari rata-rata 12,2 cm",
+              "data": [
+                {
+                  "label": "1",
+                  "value": 0.2
+                },
+                {
+                  "label": "2",
+                  "value": 0.2
+                },
+                {
+                  "label": "3",
+                  "value": 0.1
+                },
+                {
+                  "label": "4",
+                  "value": 0.1
+                },
+                {
+                  "label": "5",
+                  "value": 0.0
+                }
+              ],
+              "desc": "Lima kali pengukuran memberi selisih 0,2; 0,2; 0,1; 0,1; dan 0,0 cm dari rata-rata. Selisih terbesar 0,2 cm dipakai menghitung ketidakpastian berulang."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dua jenis kesalahan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis",
+                  "Sifat",
+                  "Contoh"
+                ],
+                [
+                  "**Sistematis**",
+                  "tetap, searah, dapat dikoreksi",
+                  "kalibrasi alat salah"
+                ],
+                [
+                  "**Acak**",
+                  "tidak berpola",
+                  "pengamat lelah, getaran"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengukuran berulang meredam kesalahan **acak**, bukan kesalahan sistematis."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Langkah percobaan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Rumuskan kasus yang diselidiki",
+                "Pilih besaran dan alat ukur yang sesuai",
+                "Ukur berulang dan catat",
+                "Olah dengan aturan angka penting, lalu simpulkan"
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-ketidakpastian",
+              "question": "Hasil pengukuran 12,50 cm dengan ketidakpastian ±0,05 cm paling tepat dilaporkan sebagai…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "(12,50 ± 0,05) cm",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "12,5 cm saja"
+                },
+                {
+                  "id": "c",
+                  "text": "(12,50 ± 0,5) cm"
+                }
+              ],
+              "explanation": "Ketidakpastian ditulis dengan jumlah desimal yang sama dengan hasil ukur. Menuliskannya menjaga kejujuran tingkat ketelitian alat."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-fis-satuan",
+              "title": "Tantangan Kilat: Satuan & Alat Ukur",
+              "time_limit": 75,
+              "items": [
+                {
+                  "question": "Satuan SI untuk panjang adalah …",
+                  "answer": "meter"
+                },
+                {
+                  "question": "Satuan SI untuk massa adalah …",
+                  "answer": "kilogram"
+                },
+                {
+                  "question": "Alat ukur diameter dalam silinder adalah …",
+                  "answer": "jangka sorong"
+                },
+                {
+                  "question": "Ketelitian mikrometer sekrup adalah … mm",
+                  "answer": "0,01"
+                },
+                {
+                  "question": "Angka 0,00250 memiliki … angka penting",
+                  "answer": "3"
+                }
+              ],
+              "feedback": {
+                "correct": "Semua tepat — satuan dan alat ukur sudah dikenali.",
+                "wrong": "Periksa tabel besaran pokok dan skala terkecil tiap alat ukur."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

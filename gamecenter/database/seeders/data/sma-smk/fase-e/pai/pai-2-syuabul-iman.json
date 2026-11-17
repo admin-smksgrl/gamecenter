@@ -23,21 +23,550 @@
           "title": "Hakikat Syu'abul Iman",
           "duration": 320,
           "source_reference": "Bab 2",
-          "content": "## Arti\n\n**Syu'abul iman** berarti **cabang-cabang iman**.\n\nRasulullah Saw. bersabda bahwa iman memiliki **lebih dari tujuh puluh cabang**. Hadis ini diriwayatkan oleh **Muslim**.\n\n## Iman menurut istilah\n\n> Membenarkan dengan **hati**, mengucapkan dengan **lisan**, dan mengamalkan dengan **perbuatan**.\n\nJadi iman bukan hanya keyakinan, melainkan juga ucapan dan amal.\n\n## Puncak dan dasar cabang iman\n\n| Kedudukan | Cabang |\n|---|---|\n| tertinggi | ucapan **la ilaha illallah** |\n| terendah | **menghilangkan gangguan** di jalan |\n| istimewa | **rasa malu** |\n\n## Hubungan dengan rukun iman\n\n- **Rukun iman** (enam) = pilar keyakinan\n- **Syu'abul iman** = amal yang tumbuh dari keyakinan itu\n\nTauhid adalah **akar**; cabang iman tumbuh dari akar tersebut."
+          "content": "## Arti\n\n**Syu'abul iman** berarti **cabang-cabang iman**.\n\nRasulullah Saw. bersabda bahwa iman memiliki **lebih dari tujuh puluh cabang**. Hadis ini diriwayatkan oleh **Muslim**.\n\n## Iman menurut istilah\n\n> Membenarkan dengan **hati**, mengucapkan dengan **lisan**, dan mengamalkan dengan **perbuatan**.\n\nJadi iman bukan hanya keyakinan, melainkan juga ucapan dan amal.\n\n## Puncak dan dasar cabang iman\n\n| Kedudukan | Cabang |\n|---|---|\n| tertinggi | ucapan **la ilaha illallah** |\n| terendah | **menghilangkan gangguan** di jalan |\n| istimewa | **rasa malu** |\n\n## Hubungan dengan rukun iman\n\n- **Rukun iman** (enam) = pilar keyakinan\n- **Syu'abul iman** = amal yang tumbuh dari keyakinan itu\n\nTauhid adalah **akar**; cabang iman tumbuh dari akar tersebut.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Syu'abul iman",
+                  "definition": "Cabang-cabang iman, yaitu amal yang tumbuh dari keyakinan tauhid."
+                },
+                {
+                  "term": "Iman",
+                  "definition": "Membenarkan dengan hati, mengucapkan dengan lisan, dan mengamalkan dengan perbuatan."
+                },
+                {
+                  "term": "Tauhid",
+                  "definition": "Keyakinan bahwa Allah itu satu; menjadi akar bagi seluruh cabang iman."
+                },
+                {
+                  "term": "Rukun iman",
+                  "definition": "Enam pilar keyakinan yang menjadi dasar keimanan seorang muslim."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Arti"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Syu'abul iman** berarti **cabang-cabang iman**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rasulullah Saw. bersabda bahwa iman memiliki **lebih dari tujuh puluh cabang**. Hadis ini diriwayatkan oleh **Muslim**."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Iman menurut istilah"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Membenarkan dengan **hati**, mengucapkan dengan **lisan**, dan mengamalkan dengan **perbuatan**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jadi iman bukan hanya keyakinan, melainkan juga ucapan dan amal."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai2-istilah",
+              "question": "Iman menurut istilah adalah membenarkan dengan hati, mengucapkan dengan…, dan mengamalkan dengan perbuatan.",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Lisan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Hati"
+                },
+                {
+                  "id": "c",
+                  "text": "Tulisan"
+                }
+              ],
+              "explanation": "Iman mencakup tiga hal sekaligus: pembenaran hati, pengucapan lisan, dan pengamalan perbuatan. Jadi iman bukan hanya keyakinan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Puncak dan dasar cabang iman"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kedudukan",
+                  "Cabang"
+                ],
+                [
+                  "tertinggi",
+                  "ucapan **la ilaha illallah**"
+                ],
+                [
+                  "terendah",
+                  "**menghilangkan gangguan** di jalan"
+                ],
+                [
+                  "istimewa",
+                  "**rasa malu**"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai2-puncak",
+              "question": "Cabang iman yang kedudukannya paling tinggi adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Ucapan la ilaha illallah",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Menghilangkan gangguan di jalan"
+                },
+                {
+                  "id": "c",
+                  "text": "Rasa malu"
+                }
+              ],
+              "explanation": "Kalimat tauhid adalah cabang tertinggi, menghilangkan gangguan di jalan adalah cabang terendah, sedangkan rasa malu disebut cabang yang istimewa."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hubungan dengan rukun iman"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Rukun iman** (enam) = pilar keyakinan",
+                "**Syu'abul iman** = amal yang tumbuh dari keyakinan itu"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Tauhid adalah **akar**; cabang iman tumbuh dari akar tersebut."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Macam-Macam Cabang Iman",
           "duration": 320,
           "source_reference": "Bab 2",
-          "content": "## Tiga wilayah cabang iman\n\n| Wilayah | Contoh |\n|---|---|\n| **hati** | malu, tawakal, sabar, menahan amarah |\n| **lisan** | jujur, menjauhi ghibah, mengucapkan kalimat tauhid |\n| **perbuatan** | salat, menolong teman, menghilangkan gangguan di jalan, menjaga kebersihan |\n\n## Perbandingan\n\n| Istilah | Fokus |\n|---|---|\n| **islam** | amal lahir |\n| **iman** | keyakinan |\n| **ihsan** | kualitas dan kesadaran beribadah |\n\nKetiganya dijelaskan dalam **hadis Jibril**.\n\n## Contoh pembiasaan\n\n- **jujur** — mengatakan hasil ujian apa adanya\n- **disiplin** — mengerjakan tugas tepat waktu\n- **malu** — menahan diri dari perbuatan tercela\n- **tolong-menolong** — membantu teman yang kesulitan\n\n## Manfaat memahami syu'abul iman\n\nMengetahui **amal apa saja** yang dapat memperkuat iman sehingga ibadah tidak berhenti pada ritual."
+          "content": "## Tiga wilayah cabang iman\n\n| Wilayah | Contoh |\n|---|---|\n| **hati** | malu, tawakal, sabar, menahan amarah |\n| **lisan** | jujur, menjauhi ghibah, mengucapkan kalimat tauhid |\n| **perbuatan** | salat, menolong teman, menghilangkan gangguan di jalan, menjaga kebersihan |\n\n## Perbandingan\n\n| Istilah | Fokus |\n|---|---|\n| **islam** | amal lahir |\n| **iman** | keyakinan |\n| **ihsan** | kualitas dan kesadaran beribadah |\n\nKetiganya dijelaskan dalam **hadis Jibril**.\n\n## Contoh pembiasaan\n\n- **jujur** — mengatakan hasil ujian apa adanya\n- **disiplin** — mengerjakan tugas tepat waktu\n- **malu** — menahan diri dari perbuatan tercela\n- **tolong-menolong** — membantu teman yang kesulitan\n\n## Manfaat memahami syu'abul iman\n\nMengetahui **amal apa saja** yang dapat memperkuat iman sehingga ibadah tidak berhenti pada ritual.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga wilayah cabang iman"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Wilayah",
+                  "Contoh"
+                ],
+                [
+                  "**hati**",
+                  "malu, tawakal, sabar, menahan amarah"
+                ],
+                [
+                  "**lisan**",
+                  "jujur, menjauhi ghibah, mengucapkan kalimat tauhid"
+                ],
+                [
+                  "**perbuatan**",
+                  "salat, menolong teman, menghilangkan gangguan di jalan, menjaga kebersihan"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pai2-wilayah",
+              "engine": "mermaid",
+              "title": "Tiga wilayah cabang iman yang tumbuh dari tauhid",
+              "code": "flowchart TD\n  A[Akar: tauhid] --> B[Wilayah hati]\n  A --> C[Wilayah lisan]\n  A --> D[Wilayah perbuatan]\n  B --> B1[Malu, tawakal, sabar, menahan amarah]\n  C --> C1[Jujur, menjauhi ghibah, kalimat tauhid]\n  D --> D1[Salat, menolong teman, menjaga kebersihan]"
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai2-wilayah",
+              "prompt": "Kelompokkan amal berikut menurut wilayah cabang imannya.",
+              "buckets": [
+                {
+                  "id": "hati",
+                  "label": "Hati"
+                },
+                {
+                  "id": "lisan",
+                  "label": "Lisan"
+                },
+                {
+                  "id": "perbuatan",
+                  "label": "Perbuatan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "w1",
+                  "text": "Malu",
+                  "bucket": "hati"
+                },
+                {
+                  "id": "w2",
+                  "text": "Tawakal",
+                  "bucket": "hati"
+                },
+                {
+                  "id": "w3",
+                  "text": "Menahan amarah",
+                  "bucket": "hati"
+                },
+                {
+                  "id": "w4",
+                  "text": "Jujur",
+                  "bucket": "lisan"
+                },
+                {
+                  "id": "w5",
+                  "text": "Menjauhi ghibah",
+                  "bucket": "lisan"
+                },
+                {
+                  "id": "w6",
+                  "text": "Salat",
+                  "bucket": "perbuatan"
+                },
+                {
+                  "id": "w7",
+                  "text": "Menolong teman",
+                  "bucket": "perbuatan"
+                },
+                {
+                  "id": "w8",
+                  "text": "Menghilangkan gangguan di jalan",
+                  "bucket": "perbuatan"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — hati berisi sikap batin, lisan berisi ucapan, dan perbuatan berisi amal nyata.",
+                "wrong": "Perhatikan letaknya: sikap batin di hati, ucapan di lisan, dan tindakan nyata di perbuatan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perbandingan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Istilah",
+                  "Fokus"
+                ],
+                [
+                  "**islam**",
+                  "amal lahir"
+                ],
+                [
+                  "**iman**",
+                  "keyakinan"
+                ],
+                [
+                  "**ihsan**",
+                  "kualitas dan kesadaran beribadah"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Ketiganya dijelaskan dalam **hadis Jibril**."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai2-ihsan",
+              "question": "Kualitas dan kesadaran beribadah, sebagaimana dijelaskan dalam hadis Jibril, disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Ihsan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Islam"
+                },
+                {
+                  "id": "c",
+                  "text": "Iman"
+                }
+              ],
+              "explanation": "Islam menekankan amal lahir, iman menekankan keyakinan, dan ihsan menekankan kualitas serta kesadaran beribadah."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh pembiasaan"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**jujur** — mengatakan hasil ujian apa adanya",
+                "**disiplin** — mengerjakan tugas tepat waktu",
+                "**malu** — menahan diri dari perbuatan tercela",
+                "**tolong-menolong** — membantu teman yang kesulitan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Manfaat memahami syu'abul iman"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mengetahui **amal apa saja** yang dapat memperkuat iman sehingga ibadah tidak berhenti pada ritual."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Mewujudkan Ketauhidan dalam Karakter",
           "duration": 300,
           "source_reference": "Bab 2",
-          "content": "## Tauhid melahirkan akhlak\n\nTauhid yang benar **tercermin pada perilaku mulia**. Bukan sekadar pengakuan lisan.\n\n## Langkah menumbuhkan cabang iman\n\n1. **Memahami** makna cabang iman\n2. **Memilih** satu amal kecil untuk dibiasakan\n3. **Melaksanakan** secara istiqamah\n4. **Mengevaluasi** dan menambah amal lain\n\n## Contoh penerapan di sekolah\n\n- mengerjakan tugas **tepat waktu**\n- berkata **jujur** meski berat\n- **menahan amarah** saat diejek lalu membalas dengan baik\n- **memindahkan** batu atau sampah dari jalan\n\n## Kunci\n\nIman tumbuh melalui **amal yang diulang**, bukan hanya diketahui. Karena itu pembiasaan lebih efektif daripada pengetahuan semata."
+          "content": "## Tauhid melahirkan akhlak\n\nTauhid yang benar **tercermin pada perilaku mulia**. Bukan sekadar pengakuan lisan.\n\n## Langkah menumbuhkan cabang iman\n\n1. **Memahami** makna cabang iman\n2. **Memilih** satu amal kecil untuk dibiasakan\n3. **Melaksanakan** secara istiqamah\n4. **Mengevaluasi** dan menambah amal lain\n\n## Contoh penerapan di sekolah\n\n- mengerjakan tugas **tepat waktu**\n- berkata **jujur** meski berat\n- **menahan amarah** saat diejek lalu membalas dengan baik\n- **memindahkan** batu atau sampah dari jalan\n\n## Kunci\n\nIman tumbuh melalui **amal yang diulang**, bukan hanya diketahui. Karena itu pembiasaan lebih efektif daripada pengetahuan semata.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tauhid melahirkan akhlak"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tauhid yang benar **tercermin pada perilaku mulia**. Bukan sekadar pengakuan lisan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Langkah menumbuhkan cabang iman"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Memahami** makna cabang iman",
+                "**Memilih** satu amal kecil untuk dibiasakan",
+                "**Melaksanakan** secara istiqamah",
+                "**Mengevaluasi** dan menambah amal lain"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai2-langkah",
+              "prompt": "Urutkan langkah menumbuhkan cabang iman dalam kehidupan sehari-hari.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Memahami makna cabang iman"
+                },
+                {
+                  "id": "s2",
+                  "text": "Memilih satu amal kecil untuk dibiasakan"
+                },
+                {
+                  "id": "s3",
+                  "text": "Melaksanakan secara istiqamah"
+                },
+                {
+                  "id": "s4",
+                  "text": "Mengevaluasi dan menambah amal lain"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: pahami, pilih satu amal, biasakan, lalu evaluasi dan tambah amal lain.",
+                "wrong": "Mulai dari pemahaman, lalu pilih satu amal kecil, biasakan, dan evaluasi sebelum menambah amal."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh penerapan di sekolah"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "mengerjakan tugas **tepat waktu**",
+                "berkata **jujur** meski berat",
+                "**menahan amarah** saat diejek lalu membalas dengan baik",
+                "**memindahkan** batu atau sampah dari jalan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kunci"
+            },
+            {
+              "type": "paragraph",
+              "text": "Iman tumbuh melalui **amal yang diulang**, bukan hanya diketahui. Karena itu pembiasaan lebih efektif daripada pengetahuan semata."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pai2-amarah",
+              "title": "Menahan amarah saat diejek",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Di grup kelas, seseorang mengunggah foto lama milikmu dengan keterangan yang mengejek. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menahan amarah dan menanyakan baik-baik maksudnya",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Menahan amarah adalah cabang iman di wilayah hati; bertanya baik-baik membuka jalan penyelesaian."
+                    },
+                    {
+                      "text": "Membalas dengan ejekan yang lebih keras",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Membalas dengan keburukan menambah dosa dan memperpanjang masalah."
+                    },
+                    {
+                      "text": "Diam, tetapi menyimpan dendam",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Diam lebih baik daripada membalas, tetapi dendam masih mengganggu hati."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Ia meminta maaf dan menghapus unggahan. Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Memaafkan dan tetap berteman baik",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Memaafkan menutup masalah dan menjaga persaudaraan."
+                    },
+                    {
+                      "text": "Memaafkan, tetapi mengingatnya untuk dibalas nanti",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Maaf yang disimpan bersama rencana balas belum menjadi maaf yang tulus."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Guru menegur kalian berdua karena keributan di grup. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengakui bagian kesalahanku dan berhenti membalas",
+                      "next": "n2",
+                      "score": 1,
+                      "feedback": "Mengakui kesalahan menghentikan rangkaian balas-membalas."
+                    },
+                    {
+                      "text": "Menyalahkan teman sepenuhnya",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Melepas tanggung jawab membuat masalah tidak selesai dan menyakiti hubungan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Beberapa hari kemudian kamu masih merasa kesal setiap mengingatnya. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Memaafkan dan mendoakan kebaikannya",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Memaafkan disertai doa membersihkan hati dan menguatkan cabang iman."
+                    },
+                    {
+                      "text": "Menjauhinya tanpa penjelasan",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Menjauh bisa meredakan, tetapi tanpa penjelasan hubungan tetap retak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Amarah diredam, masalah selesai dengan baik, dan hati tetap bersih. Cabang iman di wilayah hati tumbuh."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Masalah tidak meledak, tetapi sisa rasa kesal masih tersimpan. Hati belum sepenuhnya lapang."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Balas-membalas membuat suasana kelas memanas dan keduanya mendapat teguran."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pai2-cabang",
+              "title": "Tantangan Kilat: Cabang-Cabang Iman",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Cabang-cabang iman disebut…",
+                  "answer": "syuabul iman"
+                },
+                {
+                  "question": "Cabang iman tertinggi adalah ucapan…",
+                  "answer": "la ilaha illallah"
+                },
+                {
+                  "question": "Cabang iman terendah adalah menghilangkan… di jalan",
+                  "answer": "gangguan"
+                },
+                {
+                  "question": "Cabang iman yang istimewa adalah rasa…",
+                  "answer": "malu"
+                },
+                {
+                  "question": "Kualitas dan kesadaran beribadah disebut…",
+                  "answer": "ihsan"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — iman bercabang pada hati, lisan, dan perbuatan, lalu tumbuh melalui pembiasaan.",
+                "wrong": "Cabang tertinggi: la ilaha illallah; terendah: menghilangkan gangguan; istimewa: rasa malu."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

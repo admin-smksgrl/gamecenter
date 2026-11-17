@@ -25,21 +25,391 @@
           "title": "Variabel, Ekspresi, dan Algoritma",
           "duration": 240,
           "source_reference": "Bab 7 — Algoritma dan Pemrograman",
-          "content": "## Algoritma\n\nAlgoritma adalah urutan langkah yang **jelas**, **berhingga**, dan **logis** untuk menyelesaikan masalah.\n\nContoh algoritma menghitung luas persegi panjang:\n\n1. Baca panjang\n2. Baca lebar\n3. Hitung luas = panjang × lebar\n4. Cetak luas\n\n## Variabel dan tipe data\n\n**Variabel** menyimpan nilai yang dapat berubah selama program berjalan; **konstanta** nilainya tetap.\n\n| Tipe data | Isi | Contoh |\n|---|---|---|\n| integer | bilangan bulat | 42 |\n| real/float | bilangan pecahan | 3,14 |\n| string | teks | \"halo\" |\n| boolean | benar/salah | true |\n\n## Ekspresi dan operator\n\n| Operator | Arti |\n|---|---|\n| + − * / | aritmetika (perkalian memakai *) |\n| mod | sisa pembagian |\n| == != | perbandingan kesamaan / ketidaksamaan |\n| < > ≤ ≥ | perbandingan |\n\nPerkalian dan pembagian dikerjakan sebelum penjumlahan dan pengurangan, seperti pada matematika."
+          "content": "## Algoritma\n\nAlgoritma adalah urutan langkah yang **jelas**, **berhingga**, dan **logis** untuk menyelesaikan masalah.\n\nContoh algoritma menghitung luas persegi panjang:\n\n1. Baca panjang\n2. Baca lebar\n3. Hitung luas = panjang × lebar\n4. Cetak luas\n\n## Variabel dan tipe data\n\n**Variabel** menyimpan nilai yang dapat berubah selama program berjalan; **konstanta** nilainya tetap.\n\n| Tipe data | Isi | Contoh |\n|---|---|---|\n| integer | bilangan bulat | 42 |\n| real/float | bilangan pecahan | 3,14 |\n| string | teks | \"halo\" |\n| boolean | benar/salah | true |\n\n## Ekspresi dan operator\n\n| Operator | Arti |\n|---|---|\n| + − * / | aritmetika (perkalian memakai *) |\n| mod | sisa pembagian |\n| == != | perbandingan kesamaan / ketidaksamaan |\n| < > ≤ ≥ | perbandingan |\n\nPerkalian dan pembagian dikerjakan sebelum penjumlahan dan pengurangan, seperti pada matematika.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Algoritma",
+                  "definition": "Urutan langkah yang jelas, berhingga, dan logis untuk menyelesaikan masalah."
+                },
+                {
+                  "term": "Variabel",
+                  "definition": "Penampung nilai yang dapat berubah selama program berjalan."
+                },
+                {
+                  "term": "Konstanta",
+                  "definition": "Penampung nilai yang nilainya tetap selama program berjalan."
+                },
+                {
+                  "term": "Mod",
+                  "definition": "Operator sisa pembagian, misalnya 7 mod 2 = 1."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Algoritma"
+            },
+            {
+              "type": "paragraph",
+              "text": "Algoritma adalah urutan langkah yang **jelas**, **berhingga**, dan **logis** untuk menyelesaikan masalah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh algoritma menghitung luas persegi panjang:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Baca panjang",
+                "Baca lebar",
+                "Hitung luas = panjang × lebar",
+                "Cetak luas"
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-algoritma-luas",
+              "engine": "mermaid",
+              "title": "Algoritma menghitung luas persegi panjang",
+              "code": "flowchart TD\n  A[Mulai] --> B[Baca panjang]\n  B --> C[Baca lebar]\n  C --> D[luas = panjang x lebar]\n  D --> E[Cetak luas]\n  E --> F[Selesai]"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Variabel dan tipe data"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Variabel** menyimpan nilai yang dapat berubah selama program berjalan; **konstanta** nilainya tetap."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tipe data",
+                  "Isi",
+                  "Contoh"
+                ],
+                [
+                  "integer",
+                  "bilangan bulat",
+                  "42"
+                ],
+                [
+                  "real/float",
+                  "bilangan pecahan",
+                  "3,14"
+                ],
+                [
+                  "string",
+                  "teks",
+                  "\"halo\""
+                ],
+                [
+                  "boolean",
+                  "benar/salah",
+                  "true"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-mod",
+              "question": "Hasil dari 7 mod 2 adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "1",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "3"
+                },
+                {
+                  "id": "c",
+                  "text": "2"
+                }
+              ],
+              "explanation": "7 = 3 × 2 + 1, sehingga sisanya 1. Bilangan genap selalu memiliki x mod 2 = 0."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ekspresi dan operator"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Operator",
+                  "Arti"
+                ],
+                [
+                  "+ − * /",
+                  "aritmetika (perkalian memakai *)"
+                ],
+                [
+                  "mod",
+                  "sisa pembagian"
+                ],
+                [
+                  "== !=",
+                  "perbandingan kesamaan / ketidaksamaan"
+                ],
+                [
+                  "< > ≤ ≥",
+                  "perbandingan"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Perkalian dan pembagian dikerjakan sebelum penjumlahan dan pengurangan, seperti pada matematika."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Keputusan, Perulangan, dan Fungsi",
           "duration": 360,
           "source_reference": "Bab 7 — Struktur Kontrol",
-          "content": "## Struktur keputusan\n\n```\njika kondisi maka\n    aksi1\nselain itu\n    aksi2\n```\n\nAksi hanya dijalankan bila kondisi bernilai **benar**.\n\n**Keputusan bersarang** — keputusan di dalam keputusan lain, dipakai saat kondisi kedua hanya perlu diperiksa bila kondisi pertama terpenuhi.\n\n```\njika nilai ≥ 75 maka cetak \"A\"\nselain itu jika nilai ≥ 60 maka cetak \"B\"\n```\n\nPada contoh itu, nilai 80 langsung mencetak \"A\" tanpa memeriksa kondisi kedua.\n\n## Struktur perulangan\n\n```\nselama kondisi\n    aksi\n```\n\n**Wajib punya kondisi berhenti.** Tanpa itu perulangan berjalan terus tanpa akhir.\n\nContoh: `i = 0; selama i < 3: cetak i; i = i + 1` menghasilkan keluaran 0 1 2.\n\n## Fungsi\n\nFungsi membungkus langkah agar dapat dipakai ulang.\n\n- **parameter** — nama nilai di dalam fungsi\n- **argumen** — nilai yang dikirim saat fungsi dipanggil\n\nKelebihan fungsi: perbaikan cukup di satu tempat sehingga kesalahan lebih mudah diperbaiki."
+          "content": "## Struktur keputusan\n\n```\njika kondisi maka\n    aksi1\nselain itu\n    aksi2\n```\n\nAksi hanya dijalankan bila kondisi bernilai **benar**.\n\n**Keputusan bersarang** — keputusan di dalam keputusan lain, dipakai saat kondisi kedua hanya perlu diperiksa bila kondisi pertama terpenuhi.\n\n```\njika nilai ≥ 75 maka cetak \"A\"\nselain itu jika nilai ≥ 60 maka cetak \"B\"\n```\n\nPada contoh itu, nilai 80 langsung mencetak \"A\" tanpa memeriksa kondisi kedua.\n\n## Struktur perulangan\n\n```\nselama kondisi\n    aksi\n```\n\n**Wajib punya kondisi berhenti.** Tanpa itu perulangan berjalan terus tanpa akhir.\n\nContoh: `i = 0; selama i < 3: cetak i; i = i + 1` menghasilkan keluaran 0 1 2.\n\n## Fungsi\n\nFungsi membungkus langkah agar dapat dipakai ulang.\n\n- **parameter** — nama nilai di dalam fungsi\n- **argumen** — nilai yang dikirim saat fungsi dipanggil\n\nKelebihan fungsi: perbaikan cukup di satu tempat sehingga kesalahan lebih mudah diperbaiki.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur keputusan"
+            },
+            {
+              "type": "code",
+              "text": "jika kondisi maka\n    aksi1\nselain itu\n    aksi2"
+            },
+            {
+              "type": "paragraph",
+              "text": "Aksi hanya dijalankan bila kondisi bernilai **benar**."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Keputusan bersarang** — keputusan di dalam keputusan lain, dipakai saat kondisi kedua hanya perlu diperiksa bila kondisi pertama terpenuhi."
+            },
+            {
+              "type": "code",
+              "text": "jika nilai ≥ 75 maka cetak \"A\"\nselain itu jika nilai ≥ 60 maka cetak \"B\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada contoh itu, nilai 80 langsung mencetak \"A\" tanpa memeriksa kondisi kedua."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bersarang",
+              "question": "Pada keputusan bersarang: jika nilai ≥ 75 cetak \"A\" selain itu jika nilai ≥ 60 cetak \"B\". Nilai 80 menghasilkan…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "\"A\" tanpa memeriksa kondisi kedua",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "\"B\""
+                },
+                {
+                  "id": "c",
+                  "text": "\"A\" dan \"B\""
+                }
+              ],
+              "explanation": "Kondisi pertama sudah benar, sehingga percabangan berhenti di sana dan kondisi kedua tidak diperiksa."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur perulangan"
+            },
+            {
+              "type": "code",
+              "text": "selama kondisi\n    aksi"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Wajib punya kondisi berhenti.** Tanpa itu perulangan berjalan terus tanpa akhir."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: `i = 0; selama i < 3: cetak i; i = i + 1` menghasilkan keluaran 0 1 2."
+            },
+            {
+              "type": "sort",
+              "id": "srt-urutan-keluaran",
+              "prompt": "Urutkan keluaran program: i = 0; selama i < 3: cetak i; i = i + 1.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "0"
+                },
+                {
+                  "id": "s2",
+                  "text": "1"
+                },
+                {
+                  "id": "s3",
+                  "text": "2"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3"
+              ],
+              "feedback": {
+                "correct": "Benar — perulangan berhenti saat i = 3 karena kondisi i < 3 tidak lagi benar.",
+                "wrong": "Periksa kondisinya: selama i < 3, jadi 0, 1, 2 yang tercetak, bukan 3."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fungsi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fungsi membungkus langkah agar dapat dipakai ulang."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**parameter** — nama nilai di dalam fungsi",
+                "**argumen** — nilai yang dikirim saat fungsi dipanggil"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Kelebihan fungsi: perbaikan cukup di satu tempat sehingga kesalahan lebih mudah diperbaiki."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Melacak Jalan Program",
           "duration": 240,
           "source_reference": "Bab 7 — Latihan",
-          "content": "## Melacak program langkah demi langkah\n\n**Contoh 1 — penjumlahan berulang**\n\n```\njumlah = 0\nuntuk i dari 1 sampai 5:\n    jumlah = jumlah + i\n```\n\n| i | jumlah setelah iterasi |\n|---|---|\n| 1 | 1 |\n| 2 | 3 |\n| 3 | 6 |\n| 4 | 10 |\n| 5 | 15 |\n\nHasil akhir **15**.\n\n**Contoh 2 — penggandaan**\n\n`n = 1`, lalu diulang lima kali `n = n × 2` → 1 × 2⁵ = **32**.\n\n**Contoh 3 — sisa bagi**\n\n`7 mod 2 = 1` karena 7 = 3 × 2 + 1.\n\nBilangan genap memiliki `x mod 2 = 0`.\n\n## Cara berlatih\n\nJangan menebak. Buat **tabel pelacakan**: satu baris per iterasi, satu kolom per variabel. Kesalahan logika paling sering muncul pada iterasi pertama dan terakhir."
+          "content": "## Melacak program langkah demi langkah\n\n**Contoh 1 — penjumlahan berulang**\n\n```\njumlah = 0\nuntuk i dari 1 sampai 5:\n    jumlah = jumlah + i\n```\n\n| i | jumlah setelah iterasi |\n|---|---|\n| 1 | 1 |\n| 2 | 3 |\n| 3 | 6 |\n| 4 | 10 |\n| 5 | 15 |\n\nHasil akhir **15**.\n\n**Contoh 2 — penggandaan**\n\n`n = 1`, lalu diulang lima kali `n = n × 2` → 1 × 2⁵ = **32**.\n\n**Contoh 3 — sisa bagi**\n\n`7 mod 2 = 1` karena 7 = 3 × 2 + 1.\n\nBilangan genap memiliki `x mod 2 = 0`.\n\n## Cara berlatih\n\nJangan menebak. Buat **tabel pelacakan**: satu baris per iterasi, satu kolom per variabel. Kesalahan logika paling sering muncul pada iterasi pertama dan terakhir.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Melacak program langkah demi langkah"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Contoh 1 — penjumlahan berulang**"
+            },
+            {
+              "type": "code",
+              "text": "jumlah = 0\nuntuk i dari 1 sampai 5:\n    jumlah = jumlah + i"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "i",
+                  "jumlah setelah iterasi"
+                ],
+                [
+                  "1",
+                  "1"
+                ],
+                [
+                  "2",
+                  "3"
+                ],
+                [
+                  "3",
+                  "6"
+                ],
+                [
+                  "4",
+                  "10"
+                ],
+                [
+                  "5",
+                  "15"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasil akhir **15**."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Contoh 2 — penggandaan**"
+            },
+            {
+              "type": "paragraph",
+              "text": "`n = 1`, lalu diulang lima kali `n = n × 2` → 1 × 2⁵ = **32**."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Contoh 3 — sisa bagi**"
+            },
+            {
+              "type": "paragraph",
+              "text": "`7 mod 2 = 1` karena 7 = 3 × 2 + 1."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bilangan genap memiliki `x mod 2 = 0`."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cara berlatih"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jangan menebak. Buat **tabel pelacakan**: satu baris per iterasi, satu kolom per variabel. Kesalahan logika paling sering muncul pada iterasi pertama dan terakhir."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-lacak-program",
+              "title": "Tantangan Kilat: Melacak Program",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "jumlah = 0; untuk i 1..5: jumlah = jumlah + i. Hasil = …",
+                  "answer": "15"
+                },
+                {
+                  "question": "n = 1 diulang 5 kali n = n x 2. Nilai akhir = …",
+                  "answer": "32"
+                },
+                {
+                  "question": "7 mod 2 = …",
+                  "answer": "1"
+                },
+                {
+                  "question": "Bilangan genap: x mod 2 = …",
+                  "answer": "0"
+                },
+                {
+                  "question": "10 mod 3 = …",
+                  "answer": "1"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — tabel pelacakan satu baris per iterasi membuat hasilnya pasti.",
+                "wrong": "Jangan menebak: catat nilai variabel setelah setiap iterasi."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

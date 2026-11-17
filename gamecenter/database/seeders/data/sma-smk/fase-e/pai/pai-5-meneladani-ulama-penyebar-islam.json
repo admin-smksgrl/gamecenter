@@ -22,21 +22,601 @@
           "title": "Jalur Masuknya Islam dan Kerajaan Islam Indonesia",
           "duration": 320,
           "source_reference": "Bab 5",
-          "content": "## Jalur masuknya Islam\n\n1. **Perdagangan** — pedagang muslim dari Arab, Persia, dan Gujarat\n2. **Perkawinan** — pedagang menikah dengan penduduk setempat\n3. **Pendidikan** — pesantren dan pengajaran agama\n4. **Tasawuf** — pendekatan spiritual yang mudah diterima\n5. **Kesenian** — wayang, gamelan, sastra\n\n## Kesultanan besar\n\n| Kesultanan | Wilayah |\n|---|---|\n| **Samudra Pasai** | Aceh — kerajaan Islam **pertama** |\n| **Demak** | Jawa Tengah — kerajaan Islam besar pertama di Jawa |\n| **Cirebon dan Banten** | Jawa Barat |\n| **Mataram Islam** | Jawa Tengah bagian selatan |\n| **Aceh Darussalam** | Aceh |\n| **Gowa-Tallo** | Sulawesi Selatan |\n| **Ternate dan Tidore** | Maluku |\n\n## Mengapa Islam mudah diterima?\n\n- disebarkan **secara damai**\n- **akomodatif** terhadap budaya yang tidak bertentangan dengan syariat\n- tidak menghapus bahasa dan tradisi setempat"
+          "content": "## Jalur masuknya Islam\n\n1. **Perdagangan** — pedagang muslim dari Arab, Persia, dan Gujarat\n2. **Perkawinan** — pedagang menikah dengan penduduk setempat\n3. **Pendidikan** — pesantren dan pengajaran agama\n4. **Tasawuf** — pendekatan spiritual yang mudah diterima\n5. **Kesenian** — wayang, gamelan, sastra\n\n## Kesultanan besar\n\n| Kesultanan | Wilayah |\n|---|---|\n| **Samudra Pasai** | Aceh — kerajaan Islam **pertama** |\n| **Demak** | Jawa Tengah — kerajaan Islam besar pertama di Jawa |\n| **Cirebon dan Banten** | Jawa Barat |\n| **Mataram Islam** | Jawa Tengah bagian selatan |\n| **Aceh Darussalam** | Aceh |\n| **Gowa-Tallo** | Sulawesi Selatan |\n| **Ternate dan Tidore** | Maluku |\n\n## Mengapa Islam mudah diterima?\n\n- disebarkan **secara damai**\n- **akomodatif** terhadap budaya yang tidak bertentangan dengan syariat\n- tidak menghapus bahasa dan tradisi setempat",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jalur masuknya Islam"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Perdagangan** — pedagang muslim dari Arab, Persia, dan Gujarat",
+                "**Perkawinan** — pedagang menikah dengan penduduk setempat",
+                "**Pendidikan** — pesantren dan pengajaran agama",
+                "**Tasawuf** — pendekatan spiritual yang mudah diterima",
+                "**Kesenian** — wayang, gamelan, sastra"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kesultanan besar"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kesultanan",
+                  "Wilayah"
+                ],
+                [
+                  "**Samudra Pasai**",
+                  "Aceh — kerajaan Islam **pertama**"
+                ],
+                [
+                  "**Demak**",
+                  "Jawa Tengah — kerajaan Islam besar pertama di Jawa"
+                ],
+                [
+                  "**Cirebon dan Banten**",
+                  "Jawa Barat"
+                ],
+                [
+                  "**Mataram Islam**",
+                  "Jawa Tengah bagian selatan"
+                ],
+                [
+                  "**Aceh Darussalam**",
+                  "Aceh"
+                ],
+                [
+                  "**Gowa-Tallo**",
+                  "Sulawesi Selatan"
+                ],
+                [
+                  "**Ternate dan Tidore**",
+                  "Maluku"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai5-kerajaan",
+              "question": "Kerajaan Islam pertama di Indonesia yang terletak di Aceh adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Samudra Pasai",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Demak"
+                },
+                {
+                  "id": "c",
+                  "text": "Gowa-Tallo"
+                }
+              ],
+              "explanation": "Samudra Pasai di Aceh adalah kerajaan Islam pertama. Demak adalah kerajaan Islam besar pertama di Jawa, sedangkan Gowa-Tallo berada di Sulawesi Selatan."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai5-kerajaan",
+              "prompt": "Kelompokkan kesultanan berikut menurut wilayahnya.",
+              "buckets": [
+                {
+                  "id": "aceh",
+                  "label": "Aceh"
+                },
+                {
+                  "id": "jawa",
+                  "label": "Jawa"
+                },
+                {
+                  "id": "sulawesi",
+                  "label": "Sulawesi"
+                },
+                {
+                  "id": "maluku",
+                  "label": "Maluku"
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1",
+                  "text": "Samudra Pasai",
+                  "bucket": "aceh"
+                },
+                {
+                  "id": "c2",
+                  "text": "Aceh Darussalam",
+                  "bucket": "aceh"
+                },
+                {
+                  "id": "c3",
+                  "text": "Demak",
+                  "bucket": "jawa"
+                },
+                {
+                  "id": "c4",
+                  "text": "Mataram Islam",
+                  "bucket": "jawa"
+                },
+                {
+                  "id": "c5",
+                  "text": "Gowa-Tallo",
+                  "bucket": "sulawesi"
+                },
+                {
+                  "id": "c6",
+                  "text": "Ternate dan Tidore",
+                  "bucket": "maluku"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — Samudra Pasai dan Aceh Darussalam di Aceh, Demak dan Mataram Islam di Jawa, Gowa-Tallo di Sulawesi, Ternate–Tidore di Maluku.",
+                "wrong": "Periksa peta: Aceh di ujung barat, Jawa di tengah, Sulawesi dan Maluku di timur."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa Islam mudah diterima?"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "disebarkan **secara damai**",
+                "**akomodatif** terhadap budaya yang tidak bertentangan dengan syariat",
+                "tidak menghapus bahasa dan tradisi setempat"
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pai5-jalur",
+              "engine": "mermaid",
+              "title": "Lima jalur masuknya Islam ke Nusantara",
+              "code": "flowchart LR\n  A[Perdagangan] --> F[Islam diterima secara damai]\n  B[Perkawinan] --> F\n  C[Pendidikan] --> F\n  D[Tasawuf] --> F\n  E[Kesenian] --> F\n  F --> G[Bersifat akomodatif terhadap budaya]\n  G --> H[Tidak menghapus bahasa dan tradisi setempat]"
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Tokoh Ulama Penyebar Islam",
           "duration": 320,
           "source_reference": "Bab 5",
-          "content": "## Ulama Nusantara\n\n| Tokoh | Daerah | Peran |\n|---|---|---|\n| **Hamzah Fansuri** | Aceh | ulama sufi, penulis tasawuf |\n| **Abdurrauf as-Singkili** | Aceh | mufasir Al-Qur'an, pembimbing masyarakat |\n| **Syekh Yusuf** | Gowa | ulama dan pejuang |\n| **Sultan Agung** | Mataram | memadukan Islam dan budaya Jawa dalam dakwah |\n| **Buya Hamka** | Sumatra Barat | ulama dan penulis |\n| **Kiai** | jawa dan madura | panutan dan pembimbing keagamaan masyarakat |\n\n## Peran lembaga\n\n**Pesantren** menjadi pusat pendidikan yang:\n\n- mendidik **santri**\n- melahirkan dai dan ulama\n- menjadi penggerak perubahan sosial\n\n**Jaringan ulama** antarwilayah memungkinkan pertukaran ilmu dan memperkuat pendidikan Islam."
+          "content": "## Ulama Nusantara\n\n| Tokoh | Daerah | Peran |\n|---|---|---|\n| **Hamzah Fansuri** | Aceh | ulama sufi, penulis tasawuf |\n| **Abdurrauf as-Singkili** | Aceh | mufasir Al-Qur'an, pembimbing masyarakat |\n| **Syekh Yusuf** | Gowa | ulama dan pejuang |\n| **Sultan Agung** | Mataram | memadukan Islam dan budaya Jawa dalam dakwah |\n| **Buya Hamka** | Sumatra Barat | ulama dan penulis |\n| **Kiai** | jawa dan madura | panutan dan pembimbing keagamaan masyarakat |\n\n## Peran lembaga\n\n**Pesantren** menjadi pusat pendidikan yang:\n\n- mendidik **santri**\n- melahirkan dai dan ulama\n- menjadi penggerak perubahan sosial\n\n**Jaringan ulama** antarwilayah memungkinkan pertukaran ilmu dan memperkuat pendidikan Islam.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Ulama",
+                  "definition": "Orang yang berilmu agama dan menjadi panutan serta pembimbing masyarakat."
+                },
+                {
+                  "term": "Pesantren",
+                  "definition": "Pusat pendidikan Islam yang mendidik santri serta melahirkan dai dan ulama."
+                },
+                {
+                  "term": "Mufasir",
+                  "definition": "Ulama yang menjelaskan dan menafsirkan isi Al-Qur'an."
+                },
+                {
+                  "term": "Sufi",
+                  "definition": "Ulama yang menekankan pendekatan spiritual dan penulisan tasawuf."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ulama Nusantara"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tokoh",
+                  "Daerah",
+                  "Peran"
+                ],
+                [
+                  "**Hamzah Fansuri**",
+                  "Aceh",
+                  "ulama sufi, penulis tasawuf"
+                ],
+                [
+                  "**Abdurrauf as-Singkili**",
+                  "Aceh",
+                  "mufasir Al-Qur'an, pembimbing masyarakat"
+                ],
+                [
+                  "**Syekh Yusuf**",
+                  "Gowa",
+                  "ulama dan pejuang"
+                ],
+                [
+                  "**Sultan Agung**",
+                  "Mataram",
+                  "memadukan Islam dan budaya Jawa dalam dakwah"
+                ],
+                [
+                  "**Buya Hamka**",
+                  "Sumatra Barat",
+                  "ulama dan penulis"
+                ],
+                [
+                  "**Kiai**",
+                  "jawa dan madura",
+                  "panutan dan pembimbing keagamaan masyarakat"
+                ]
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai5-tokoh",
+              "prompt": "Kelompokkan ulama berikut menurut daerahnya.",
+              "buckets": [
+                {
+                  "id": "aceh",
+                  "label": "Aceh"
+                },
+                {
+                  "id": "gowa",
+                  "label": "Gowa"
+                },
+                {
+                  "id": "mataram",
+                  "label": "Mataram"
+                },
+                {
+                  "id": "sumbar",
+                  "label": "Sumatra Barat"
+                }
+              ],
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Hamzah Fansuri",
+                  "bucket": "aceh"
+                },
+                {
+                  "id": "t2",
+                  "text": "Abdurrauf as-Singkili",
+                  "bucket": "aceh"
+                },
+                {
+                  "id": "t3",
+                  "text": "Syekh Yusuf",
+                  "bucket": "gowa"
+                },
+                {
+                  "id": "t4",
+                  "text": "Sultan Agung",
+                  "bucket": "mataram"
+                },
+                {
+                  "id": "t5",
+                  "text": "Buya Hamka",
+                  "bucket": "sumbar"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — Hamzah Fansuri dan Abdurrauf as-Singkili dari Aceh, Syekh Yusuf dari Gowa, Sultan Agung dari Mataram, Buya Hamka dari Sumatra Barat.",
+                "wrong": "Ingat pasangannya: Aceh, Gowa, Mataram, dan Sumatra Barat masing-masing punya tokoh yang disebut di materi."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai5-hamzah",
+              "question": "Ulama sufi dari Aceh yang dikenal sebagai penulis karya tasawuf adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Hamzah Fansuri",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Buya Hamka"
+                },
+                {
+                  "id": "c",
+                  "text": "Sultan Agung"
+                }
+              ],
+              "explanation": "Hamzah Fansuri adalah ulama sufi dari Aceh dan penulis tasawuf. Buya Hamka berasal dari Sumatra Barat, sedangkan Sultan Agung dari Mataram."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peran lembaga"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pesantren** menjadi pusat pendidikan yang:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "mendidik **santri**",
+                "melahirkan dai dan ulama",
+                "menjadi penggerak perubahan sosial"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Jaringan ulama** antarwilayah memungkinkan pertukaran ilmu dan memperkuat pendidikan Islam."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai5-pesantren",
+              "question": "Lembaga yang menjadi pusat pendidikan, mendidik santri, dan melahirkan dai serta ulama adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Pesantren",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Pasar"
+                },
+                {
+                  "id": "c",
+                  "text": "Keraton"
+                }
+              ],
+              "explanation": "Pesantren menjadi pusat pendidikan Islam: mendidik santri, melahirkan dai dan ulama, serta menjadi penggerak perubahan sosial."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Keteladanan Ulama dalam Bermasyarakat",
           "duration": 280,
           "source_reference": "Bab 5",
-          "content": "## Tiga keteladanan utama\n\n1. **Dakwah damai** — santun, tidak memaksa\n2. **Menghargai perbedaan** — menjaga persatuan\n3. **Menghargai budaya** — mengakomodasi budaya yang tidak bertentangan dengan syariat\n\n## Akomodasi budaya\n\n**Sunan Kalijaga** berdakwah melalui **wayang dan gamelan**. Media yang akrab membuat pesan mudah dipahami dan diingat.\n\nPrinsipnya: **memilih budaya yang bermanfaat** dan tidak menabrak nilai agama — bukan menerima semuanya dan bukan menolak semuanya.\n\n## Meneladani di sekolah\n\n- menyebarkan kebaikan dengan **santun**\n- menghargai teman yang berbeda keyakinan\n- mengharumkan nama sekolah melalui **prestasi** dan **akhlak**\n\n## Pelajaran\n\nUlama menggabungkan **ilmu, keteladanan, dan keberanian membela kebenaran** — contoh Syekh Yusuf."
+          "content": "## Tiga keteladanan utama\n\n1. **Dakwah damai** — santun, tidak memaksa\n2. **Menghargai perbedaan** — menjaga persatuan\n3. **Menghargai budaya** — mengakomodasi budaya yang tidak bertentangan dengan syariat\n\n## Akomodasi budaya\n\n**Sunan Kalijaga** berdakwah melalui **wayang dan gamelan**. Media yang akrab membuat pesan mudah dipahami dan diingat.\n\nPrinsipnya: **memilih budaya yang bermanfaat** dan tidak menabrak nilai agama — bukan menerima semuanya dan bukan menolak semuanya.\n\n## Meneladani di sekolah\n\n- menyebarkan kebaikan dengan **santun**\n- menghargai teman yang berbeda keyakinan\n- mengharumkan nama sekolah melalui **prestasi** dan **akhlak**\n\n## Pelajaran\n\nUlama menggabungkan **ilmu, keteladanan, dan keberanian membela kebenaran** — contoh Syekh Yusuf.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga keteladanan utama"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Dakwah damai** — santun, tidak memaksa",
+                "**Menghargai perbedaan** — menjaga persatuan",
+                "**Menghargai budaya** — mengakomodasi budaya yang tidak bertentangan dengan syariat"
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai5-budaya",
+              "prompt": "Kelompokkan sikap terhadap budaya setempat sesuai prinsip dakwah ulama.",
+              "buckets": [
+                {
+                  "id": "diterima",
+                  "label": "Diakomodasi"
+                },
+                {
+                  "id": "ditolak",
+                  "label": "Tidak diakomodasi"
+                }
+              ],
+              "items": [
+                {
+                  "id": "b1",
+                  "text": "Wayang sebagai media dakwah",
+                  "bucket": "diterima"
+                },
+                {
+                  "id": "b2",
+                  "text": "Gamelan sebagai media dakwah",
+                  "bucket": "diterima"
+                },
+                {
+                  "id": "b3",
+                  "text": "Bahasa dan tradisi setempat yang tidak bertentangan dengan syariat",
+                  "bucket": "diterima"
+                },
+                {
+                  "id": "b4",
+                  "text": "Tradisi yang menabrak nilai agama",
+                  "bucket": "ditolak"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — ulama memilih budaya yang bermanfaat dan tidak menabrak nilai agama, bukan menerima atau menolak semuanya.",
+                "wrong": "Prinsipnya selektif: budaya yang bermanfaat diakomodasi, yang bertentangan dengan syariat ditolak."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Akomodasi budaya"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Sunan Kalijaga** berdakwah melalui **wayang dan gamelan**. Media yang akrab membuat pesan mudah dipahami dan diingat."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prinsipnya: **memilih budaya yang bermanfaat** dan tidak menabrak nilai agama — bukan menerima semuanya dan bukan menolak semuanya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Meneladani di sekolah"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menyebarkan kebaikan dengan **santun**",
+                "menghargai teman yang berbeda keyakinan",
+                "mengharumkan nama sekolah melalui **prestasi** dan **akhlak**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pelajaran"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ulama menggabungkan **ilmu, keteladanan, dan keberanian membela kebenaran** — contoh Syekh Yusuf."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pai5-dakwah",
+              "title": "Berdakwah di lingkungan sekolah yang beragam",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kelasmu punya teman dari berbagai keyakinan. Kamu ingin berbagi kebaikan. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menjadi teladan akhlak dan menawarkan bantuan tanpa memaksa",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Dakwah damai menampilkan keteladanan, bukan paksaan — sesuai cara ulama menyebarkan Islam."
+                    },
+                    {
+                      "text": "Mendebat keyakinan teman agar ia berubah",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Debat yang menyerang membuat orang menjauh dan bertentangan dengan dakwah santun."
+                    },
+                    {
+                      "text": "Tidak berbuat apa-apa karena takut salah bicara",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Hati-hati itu baik, tetapi menahan kebaikan membuat teladan tidak terlihat."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Sekolah mengadakan festival budaya. Ada usulan menampilkan kesenian daerah. Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Mendukung selama tidak bertentangan dengan syariat",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Akomodasi budaya yang bermanfaat adalah cara ulama mendekatkan pesan tanpa menghapus tradisi."
+                    },
+                    {
+                      "text": "Menolak semua kesenian daerah",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Menolak semuanya bertentangan dengan sikap akomodatif ulama terhadap budaya yang tidak melanggar syariat."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Temanmu tersinggung dan menjauh. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Meminta maaf dan memperbaiki cara berbicara",
+                      "next": "n2",
+                      "score": 1,
+                      "feedback": "Meminta maaf memulihkan hubungan dan membuka jalan dakwah yang lebih santun."
+                    },
+                    {
+                      "text": "Merasa benar dan membiarkannya menjauh",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Membiarkan perpecahan menghilangkan kesempatan menampilkan akhlak baik."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Seorang teman bertanya tentang ajaran Islam. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menjelaskan dengan santun sesuai pengetahuan dan mengajak bertanya kepada guru",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Menjelaskan dengan santun dan merujuk kepada guru menjaga kebenaran sekaligus kerukunan."
+                    },
+                    {
+                      "text": "Menjawab sebisanya tanpa peduli benar atau salah",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Menjawab tanpa dasar berisiko menyampaikan ajaran yang keliru."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kebaikan tersampaikan lewat keteladanan. Teman-teman menghargai sikapmu dan persatuan kelas terjaga."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Niatmu baik, tetapi caranya belum tepat. Perbaiki dengan belajar dan bertanya kepada guru."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Hubungan renggang dan pesan kebaikan tidak tersampaikan. Dakwah santun justru menjaga hubungan."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pai5-ulama",
+              "title": "Tantangan Kilat: Ulama Penyebar Islam",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Kerajaan Islam pertama di Indonesia di Aceh adalah…",
+                  "answer": "samudra pasai"
+                },
+                {
+                  "question": "Kerajaan Islam besar pertama di Jawa adalah…",
+                  "answer": "demak"
+                },
+                {
+                  "question": "Ulama sufi penulis tasawuf dari Aceh adalah Hamzah…",
+                  "answer": "fansuri"
+                },
+                {
+                  "question": "Ulama dan pejuang dari Gowa adalah Syekh…",
+                  "answer": "yusuf"
+                },
+                {
+                  "question": "Sunan yang berdakwah melalui wayang dan gamelan adalah Sunan…",
+                  "answer": "kalijaga"
+                },
+                {
+                  "question": "Pusat pendidikan yang melahirkan dai dan ulama disebut…",
+                  "answer": "pesantren"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — jalur damai, akomodasi budaya, dan keteladanan membuat Islam mudah diterima di Nusantara.",
+                "wrong": "Ingat: Samudra Pasai, Demak, Hamzah Fansuri, Syekh Yusuf, Sunan Kalijaga, dan pesantren."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

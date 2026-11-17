@@ -22,21 +22,359 @@
           "title": "Komponen Penyusun Sistem Komputer",
           "duration": 240,
           "source_reference": "Modul Ajar Informatika Bab 4 — Pertemuan 1",
-          "content": "## Empat kelompok komponen\n\n| Kelompok | Contoh | Tugas |\n|---|---|---|\n| **Masukan** | keyboard, mouse, scanner | memasukkan data |\n| **Proses** | CPU | mengolah data |\n| **Keluaran** | monitor, printer, speaker | menampilkan hasil |\n| **Penyimpanan** | RAM, hard disk, SSD | menyimpan data |\n\n### Di dalam CPU\n\n- **ALU** — melakukan operasi aritmetika dan logika\n- **Control unit** — mengatur urutan pengambilan dan pelaksanaan instruksi\n- **Register** — penyimpan kecil berkecepatan sangat tinggi\n- **Cache** — menyimpan data yang sering dipakai agar tidak perlu diambil jauh dari RAM\n\n### RAM vs hard disk\n\n| | RAM | Hard disk / SSD |\n|---|---|---|\n| Sifat | sementara (volatile) | permanen |\n| Kecepatan | sangat cepat | lebih lambat |\n| Isi saat daya putus | **hilang** | tetap |\n\nItulah sebabnya pekerjaan yang belum disimpan akan hilang bila listrik padam — datanya masih berada di RAM."
+          "content": "## Empat kelompok komponen\n\n| Kelompok | Contoh | Tugas |\n|---|---|---|\n| **Masukan** | keyboard, mouse, scanner | memasukkan data |\n| **Proses** | CPU | mengolah data |\n| **Keluaran** | monitor, printer, speaker | menampilkan hasil |\n| **Penyimpanan** | RAM, hard disk, SSD | menyimpan data |\n\n### Di dalam CPU\n\n- **ALU** — melakukan operasi aritmetika dan logika\n- **Control unit** — mengatur urutan pengambilan dan pelaksanaan instruksi\n- **Register** — penyimpan kecil berkecepatan sangat tinggi\n- **Cache** — menyimpan data yang sering dipakai agar tidak perlu diambil jauh dari RAM\n\n### RAM vs hard disk\n\n| | RAM | Hard disk / SSD |\n|---|---|---|\n| Sifat | sementara (volatile) | permanen |\n| Kecepatan | sangat cepat | lebih lambat |\n| Isi saat daya putus | **hilang** | tetap |\n\nItulah sebabnya pekerjaan yang belum disimpan akan hilang bila listrik padam — datanya masih berada di RAM.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "ALU",
+                  "definition": "Bagian CPU yang melakukan operasi aritmetika dan logika."
+                },
+                {
+                  "term": "Control unit",
+                  "definition": "Bagian CPU yang mengatur urutan pengambilan dan pelaksanaan instruksi."
+                },
+                {
+                  "term": "Register",
+                  "definition": "Penyimpan kecil berkecepatan sangat tinggi di dalam CPU."
+                },
+                {
+                  "term": "RAM",
+                  "definition": "Memori sementara yang isinya hilang saat daya putus."
+                },
+                {
+                  "term": "Cache",
+                  "definition": "Penyimpan data yang sering dipakai agar tidak perlu diambil jauh dari RAM."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Empat kelompok komponen"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kelompok",
+                  "Contoh",
+                  "Tugas"
+                ],
+                [
+                  "**Masukan**",
+                  "keyboard, mouse, scanner",
+                  "memasukkan data"
+                ],
+                [
+                  "**Proses**",
+                  "CPU",
+                  "mengolah data"
+                ],
+                [
+                  "**Keluaran**",
+                  "monitor, printer, speaker",
+                  "menampilkan hasil"
+                ],
+                [
+                  "**Penyimpanan**",
+                  "RAM, hard disk, SSD",
+                  "menyimpan data"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-sistem-komputer",
+              "engine": "mermaid",
+              "title": "Empat kelompok komponen sistem komputer",
+              "code": "flowchart LR\n  A[Masukan: keyboard, mouse, scanner] --> B[CPU: ALU, control unit, register]\n  B --> C[Keluaran: monitor, printer, speaker]\n  B <--> D[Penyimpanan: RAM, hard disk, SSD]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Di dalam CPU"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**ALU** — melakukan operasi aritmetika dan logika",
+                "**Control unit** — mengatur urutan pengambilan dan pelaksanaan instruksi",
+                "**Register** — penyimpan kecil berkecepatan sangat tinggi",
+                "**Cache** — menyimpan data yang sering dipakai agar tidak perlu diambil jauh dari RAM"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "RAM vs hard disk"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "",
+                  "RAM",
+                  "Hard disk / SSD"
+                ],
+                [
+                  "Sifat",
+                  "sementara (volatile)",
+                  "permanen"
+                ],
+                [
+                  "Kecepatan",
+                  "sangat cepat",
+                  "lebih lambat"
+                ],
+                [
+                  "Isi saat daya putus",
+                  "**hilang**",
+                  "tetap"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Itulah sebabnya pekerjaan yang belum disimpan akan hilang bila listrik padam — datanya masih berada di RAM."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-ram-volatile",
+              "question": "Pekerjaan yang belum disimpan hilang saat listrik padam karena datanya masih berada di…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "RAM",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Hard disk"
+                },
+                {
+                  "id": "c",
+                  "text": "SSD"
+                }
+              ],
+              "explanation": "RAM bersifat volatile: isinya hilang saat daya putus. Hard disk dan SSD bersifat permanen sehingga data tersimpan meski daya mati."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Cara Kerja Komputer dan Peran Sistem Operasi",
           "duration": 360,
           "source_reference": "Modul Ajar Informatika Bab 4 — Tujuan Pembelajaran",
-          "content": "## Siklus kerja CPU\n\n> **fetch → decode → execute**\n\n1. **Fetch** — mengambil instruksi dari memori\n2. **Decode** — menerjemahkan instruksi\n3. **Execute** — melaksanakan instruksi\n\nSiklus ini berulang sangat cepat, miliaran kali per detik.\n\n## Proses menyalakan komputer\n\n> **POST → bootloader → sistem operasi**\n\n- **POST** memeriksa perangkat keras\n- **Bootloader** mencari dan memuat sistem operasi\n- **Sistem operasi** siap dijalankan\n\nFirmware seperti BIOS/UEFI berjalan lebih dulu karena sistem operasi belum dimuat.\n\n## Tugas sistem operasi\n\n1. **Manajemen proses** — menjadwalkan pemakaian CPU (multitasking)\n2. **Manajemen memori** — membagi memori antarprogram dan melindungi ruang alamat\n3. **Manajemen berkas** — membuat, memindahkan, menghapus berkas dan folder\n4. **Manajemen perangkat** — melalui **device driver**\n\nBila RAM hampir penuh, sistem operasi memindahkan sebagian isi memori ke media penyimpanan. Ini disebut **memori virtual (swap)**, dan konsekuensinya kinerja menurun karena penyimpanan lebih lambat daripada RAM."
+          "content": "## Siklus kerja CPU\n\n> **fetch → decode → execute**\n\n1. **Fetch** — mengambil instruksi dari memori\n2. **Decode** — menerjemahkan instruksi\n3. **Execute** — melaksanakan instruksi\n\nSiklus ini berulang sangat cepat, miliaran kali per detik.\n\n## Proses menyalakan komputer\n\n> **POST → bootloader → sistem operasi**\n\n- **POST** memeriksa perangkat keras\n- **Bootloader** mencari dan memuat sistem operasi\n- **Sistem operasi** siap dijalankan\n\nFirmware seperti BIOS/UEFI berjalan lebih dulu karena sistem operasi belum dimuat.\n\n## Tugas sistem operasi\n\n1. **Manajemen proses** — menjadwalkan pemakaian CPU (multitasking)\n2. **Manajemen memori** — membagi memori antarprogram dan melindungi ruang alamat\n3. **Manajemen berkas** — membuat, memindahkan, menghapus berkas dan folder\n4. **Manajemen perangkat** — melalui **device driver**\n\nBila RAM hampir penuh, sistem operasi memindahkan sebagian isi memori ke media penyimpanan. Ini disebut **memori virtual (swap)**, dan konsekuensinya kinerja menurun karena penyimpanan lebih lambat daripada RAM.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Siklus kerja CPU"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**fetch → decode → execute**"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Fetch** — mengambil instruksi dari memori",
+                "**Decode** — menerjemahkan instruksi",
+                "**Execute** — melaksanakan instruksi"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Siklus ini berulang sangat cepat, miliaran kali per detik."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-siklus-cpu",
+              "question": "Urutan siklus kerja CPU adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "fetch → decode → execute",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "decode → fetch → execute"
+                },
+                {
+                  "id": "c",
+                  "text": "execute → decode → fetch"
+                }
+              ],
+              "explanation": "CPU mengambil instruksi (fetch), menerjemahkannya (decode), lalu melaksanakannya (execute) — berulang miliaran kali per detik."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Proses menyalakan komputer"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**POST → bootloader → sistem operasi**"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**POST** memeriksa perangkat keras",
+                "**Bootloader** mencari dan memuat sistem operasi",
+                "**Sistem operasi** siap dijalankan"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Firmware seperti BIOS/UEFI berjalan lebih dulu karena sistem operasi belum dimuat."
+            },
+            {
+              "type": "sort",
+              "id": "srt-boot",
+              "prompt": "Urutkan proses menyalakan komputer sampai siap dipakai.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "POST memeriksa perangkat keras"
+                },
+                {
+                  "id": "s2",
+                  "text": "Bootloader mencari dan memuat sistem operasi"
+                },
+                {
+                  "id": "s3",
+                  "text": "Sistem operasi berjalan dan siap dipakai"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3"
+              ],
+              "feedback": {
+                "correct": "Benar: POST, bootloader, lalu sistem operasi.",
+                "wrong": "Firmware berjalan lebih dulu karena sistem operasi belum dimuat."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tugas sistem operasi"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Manajemen proses** — menjadwalkan pemakaian CPU (multitasking)",
+                "**Manajemen memori** — membagi memori antarprogram dan melindungi ruang alamat",
+                "**Manajemen berkas** — membuat, memindahkan, menghapus berkas dan folder",
+                "**Manajemen perangkat** — melalui **device driver**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila RAM hampir penuh, sistem operasi memindahkan sebagian isi memori ke media penyimpanan. Ini disebut **memori virtual (swap)**, dan konsekuensinya kinerja menurun karena penyimpanan lebih lambat daripada RAM."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Mekanisme Interaksi Manusia dan Komputer",
           "duration": 240,
           "source_reference": "Modul Ajar Informatika Bab 4 — Interaksi Manusia dan Komputer",
-          "content": "## Perjalanan satu ketukan tombol\n\n1. Pengguna menekan tombol pada **keyboard** (perangkat masukan)\n2. **Sistem operasi** menerima sinyal dan meneruskannya ke aplikasi yang aktif\n3. **Aplikasi dan CPU** mengolah data\n4. Hasilnya dikirim ke **monitor** (perangkat keluaran)\n\nSemua ini terjadi dalam waktu yang tidak terasa.\n\n### Mengapa antarmuka penting?\n\nInteraksi manusia–komputer mempelajari bagaimana pengguna berkomunikasi dengan sistem. Antarmuka yang baik membuat pengguna tidak perlu memahami detail teknis di baliknya.\n\n### Latihan\n\nMengapa sistem operasi dapat menghentikan program yang tidak merespons?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nKarena sistem operasi yang **menjadwalkan proses** dan **mengalokasikan sumber daya**. Program berjalan di bawah kendalinya, sehingga ia berwenang menghentikannya.\n\n</details>"
+          "content": "## Perjalanan satu ketukan tombol\n\n1. Pengguna menekan tombol pada **keyboard** (perangkat masukan)\n2. **Sistem operasi** menerima sinyal dan meneruskannya ke aplikasi yang aktif\n3. **Aplikasi dan CPU** mengolah data\n4. Hasilnya dikirim ke **monitor** (perangkat keluaran)\n\nSemua ini terjadi dalam waktu yang tidak terasa.\n\n### Mengapa antarmuka penting?\n\nInteraksi manusia–komputer mempelajari bagaimana pengguna berkomunikasi dengan sistem. Antarmuka yang baik membuat pengguna tidak perlu memahami detail teknis di baliknya.\n\n### Latihan\n\nMengapa sistem operasi dapat menghentikan program yang tidak merespons?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nKarena sistem operasi yang **menjadwalkan proses** dan **mengalokasikan sumber daya**. Program berjalan di bawah kendalinya, sehingga ia berwenang menghentikannya.\n\n</details>",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perjalanan satu ketukan tombol"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Pengguna menekan tombol pada **keyboard** (perangkat masukan)",
+                "**Sistem operasi** menerima sinyal dan meneruskannya ke aplikasi yang aktif",
+                "**Aplikasi dan CPU** mengolah data",
+                "Hasilnya dikirim ke **monitor** (perangkat keluaran)"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Semua ini terjadi dalam waktu yang tidak terasa."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengapa antarmuka penting?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Interaksi manusia–komputer mempelajari bagaimana pengguna berkomunikasi dengan sistem. Antarmuka yang baik membuat pengguna tidak perlu memahami detail teknis di baliknya."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Latihan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mengapa sistem operasi dapat menghentikan program yang tidak merespons?"
+            },
+            {
+              "type": "paragraph",
+              "text": "<details> <summary>Lihat jawaban</summary>"
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena sistem operasi yang **menjadwalkan proses** dan **mengalokasikan sumber daya**. Program berjalan di bawah kendalinya, sehingga ia berwenang menghentikannya."
+            },
+            {
+              "type": "paragraph",
+              "text": "</details>"
+            },
+            {
+              "type": "challenge",
+              "id": "ch-sistem-komputer",
+              "title": "Tantangan Kilat: Sistem Komputer",
+              "time_limit": 70,
+              "items": [
+                {
+                  "question": "Mengambil instruksi dari memori → tahap …",
+                  "answer": "fetch"
+                },
+                {
+                  "question": "Menerjemahkan instruksi → tahap …",
+                  "answer": "decode"
+                },
+                {
+                  "question": "Melaksanakan instruksi → tahap …",
+                  "answer": "execute"
+                },
+                {
+                  "question": "Memeriksa perangkat keras saat komputer menyala → …",
+                  "answer": "POST"
+                },
+                {
+                  "question": "Menjadwalkan pemakaian CPU antarprogram → manajemen …",
+                  "answer": "proses"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — fetch, decode, execute berulang sangat cepat.",
+                "wrong": "Ingat urutannya: ambil dulu, terjemahkan, baru laksanakan."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

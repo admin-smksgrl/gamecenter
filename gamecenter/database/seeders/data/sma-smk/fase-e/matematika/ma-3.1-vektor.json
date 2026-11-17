@@ -22,21 +22,327 @@
           "title": "Besaran Vektor dan Skalar",
           "duration": 240,
           "source_reference": "Bab 3 — Vektor dan Operasinya",
-          "content": "## Dua jenis besaran\n\n**Skalar** hanya punya besar. Contoh: massa, suhu, panjang, waktu.\n\n**Vektor** punya besar **dan arah**. Contoh: perpindahan, kecepatan, gaya, percepatan.\n\nPerhatikan bedanya:\n- \"jarak 5 km\" → skalar\n- \"bergeser 5 km ke utara\" → vektor\n\n### Notasi vektor\n\nVektor pada bidang ditulis dengan dua komponen:\n\n> **v = (x, y)**\n\nKomponen x menunjukkan arah mendatar, komponen y menunjukkan arah tegak.\n\n### Panjang vektor\n\n> **|v| = √(x² + y²)**\n\nContoh: v = (3, 4) → |v| = √(9 + 16) = **5**.\n\nPanjang selalu bernilai positif karena merupakan jarak. Vektor nol (0, 0) panjangnya nol."
+          "content": "## Dua jenis besaran\n\n**Skalar** hanya punya besar. Contoh: massa, suhu, panjang, waktu.\n\n**Vektor** punya besar **dan arah**. Contoh: perpindahan, kecepatan, gaya, percepatan.\n\nPerhatikan bedanya:\n- \"jarak 5 km\" → skalar\n- \"bergeser 5 km ke utara\" → vektor\n\n### Notasi vektor\n\nVektor pada bidang ditulis dengan dua komponen:\n\n> **v = (x, y)**\n\nKomponen x menunjukkan arah mendatar, komponen y menunjukkan arah tegak.\n\n### Panjang vektor\n\n> **|v| = √(x² + y²)**\n\nContoh: v = (3, 4) → |v| = √(9 + 16) = **5**.\n\nPanjang selalu bernilai positif karena merupakan jarak. Vektor nol (0, 0) panjangnya nol.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Skalar",
+                  "definition": "Besaran yang hanya punya besar, misalnya massa, suhu, dan waktu."
+                },
+                {
+                  "term": "Vektor",
+                  "definition": "Besaran yang punya besar sekaligus arah, misalnya perpindahan dan gaya."
+                },
+                {
+                  "term": "Komponen vektor",
+                  "definition": "Bagian mendatar (x) dan tegak (y) yang menyusun sebuah vektor."
+                },
+                {
+                  "term": "Vektor satuan",
+                  "definition": "Vektor berpanjang 1 yang menunjukkan arah vektor asal, v̂ = v ÷ |v|."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dua jenis besaran"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Skalar** hanya punya besar. Contoh: massa, suhu, panjang, waktu."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Vektor** punya besar **dan arah**. Contoh: perpindahan, kecepatan, gaya, percepatan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Perhatikan bedanya:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "\"jarak 5 km\" → skalar",
+                "\"bergeser 5 km ke utara\" → vektor"
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-vektor-komponen",
+              "engine": "mermaid",
+              "title": "Vektor v = (3, 4) dan komponennya",
+              "code": "flowchart LR\n  V[Vektor v] --> X[Komponen x = 3]\n  V --> Y[Komponen y = 4]\n  X --> P[Panjang v = akar 3 kuadrat + 4 kuadrat]\n  Y --> P\n  P --> H[Hasil panjang = 5]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Notasi vektor"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vektor pada bidang ditulis dengan dua komponen:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**v = (x, y)**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Komponen x menunjukkan arah mendatar, komponen y menunjukkan arah tegak."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-panjang-vektor",
+              "question": "Panjang vektor v = (3, 4) adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "5",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "7"
+                },
+                {
+                  "id": "c",
+                  "text": "12"
+                }
+              ],
+              "explanation": "|v| = √(3² + 4²) = √(9 + 16) = √25 = 5. Panjang dihitung dengan Pythagoras, bukan dengan menjumlahkan komponen."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Panjang vektor"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**|v| = √(x² + y²)**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: v = (3, 4) → |v| = √(9 + 16) = **5**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Panjang selalu bernilai positif karena merupakan jarak. Vektor nol (0, 0) panjangnya nol."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Operasi pada Vektor",
           "duration": 360,
           "source_reference": "Bab 3 — Operasi Vektor",
-          "content": "## Tiga operasi dasar\n\n**1. Penjumlahan** — jumlahkan per komponen:\n(2, 3) + (4, 1) = (2 + 4, 3 + 1) = **(6, 4)**\n\n**2. Pengurangan** — kurangkan per komponen:\n(5, 2) − (3, 7) = (5 − 3, 2 − 7) = **(2, −5)**\n\n**3. Perkalian skalar** — kalikan setiap komponen:\n3 × (2, −1) = (3 × 2, 3 × (−1)) = **(6, −3)**\n\n### Vektor dari dua titik\n\nVektor dari A ke B dihitung **titik akhir − titik awal**:\n\n> AB = B − A\n\nContoh: A(1, 2) dan B(4, 6) → AB = (3, 4) dengan panjang 5.\n\n### Vektor satuan\n\nVektor satuan memiliki panjang 1 dan menunjukkan **arah** vektor asal:\n\n> v̂ = v ÷ |v|\n\nContoh: (3, 4) dengan |v| = 5 → v̂ = **(3/5, 4/5)**.\n\n### Vektor sejajar\n\nDua vektor sejajar bila yang satu merupakan kelipatan skalar yang lain. Contoh: a = (−2, 5) dan b = (4, −10) karena b = −2a."
+          "content": "## Tiga operasi dasar\n\n**1. Penjumlahan** — jumlahkan per komponen:\n(2, 3) + (4, 1) = (2 + 4, 3 + 1) = **(6, 4)**\n\n**2. Pengurangan** — kurangkan per komponen:\n(5, 2) − (3, 7) = (5 − 3, 2 − 7) = **(2, −5)**\n\n**3. Perkalian skalar** — kalikan setiap komponen:\n3 × (2, −1) = (3 × 2, 3 × (−1)) = **(6, −3)**\n\n### Vektor dari dua titik\n\nVektor dari A ke B dihitung **titik akhir − titik awal**:\n\n> AB = B − A\n\nContoh: A(1, 2) dan B(4, 6) → AB = (3, 4) dengan panjang 5.\n\n### Vektor satuan\n\nVektor satuan memiliki panjang 1 dan menunjukkan **arah** vektor asal:\n\n> v̂ = v ÷ |v|\n\nContoh: (3, 4) dengan |v| = 5 → v̂ = **(3/5, 4/5)**.\n\n### Vektor sejajar\n\nDua vektor sejajar bila yang satu merupakan kelipatan skalar yang lain. Contoh: a = (−2, 5) dan b = (4, −10) karena b = −2a.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga operasi dasar"
+            },
+            {
+              "type": "paragraph",
+              "text": "**1. Penjumlahan** — jumlahkan per komponen: (2, 3) + (4, 1) = (2 + 4, 3 + 1) = **(6, 4)**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**2. Pengurangan** — kurangkan per komponen: (5, 2) − (3, 7) = (5 − 3, 2 − 7) = **(2, −5)**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**3. Perkalian skalar** — kalikan setiap komponen: 3 × (2, −1) = (3 × 2, 3 × (−1)) = **(6, −3)**"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Vektor dari dua titik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vektor dari A ke B dihitung **titik akhir − titik awal**:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "AB = B − A"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: A(1, 2) dan B(4, 6) → AB = (3, 4) dengan panjang 5."
+            },
+            {
+              "type": "sort",
+              "id": "srt-vektor-satuan",
+              "prompt": "Urutkan langkah menentukan vektor satuan dari v = (3, 4).",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Hitung panjang vektor: |v| = 5"
+                },
+                {
+                  "id": "s2",
+                  "text": "Bagi setiap komponen dengan |v|"
+                },
+                {
+                  "id": "s3",
+                  "text": "Tulis hasilnya: v̂ = (3/5, 4/5)"
+                },
+                {
+                  "id": "s4",
+                  "text": "Periksa panjang v̂ = 1"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: panjang dulu, bagi komponen, lalu periksa hasilnya berpanjang 1.",
+                "wrong": "Vektor satuan selalu dibagi dengan panjang vektor, bukan dengan komponen terbesar."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-vektor-ab",
+              "question": "Vektor AB dari A(1, 2) ke B(4, 6) adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "(3, 4)",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "(−3, −4)"
+                },
+                {
+                  "id": "c",
+                  "text": "(5, 8)"
+                }
+              ],
+              "explanation": "AB = B − A = (4 − 1, 6 − 2) = (3, 4). Arahnya dari A ke B, jadi titik akhir dikurangi titik awal."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Vektor satuan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vektor satuan memiliki panjang 1 dan menunjukkan **arah** vektor asal:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "v̂ = v ÷ |v|"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: (3, 4) dengan |v| = 5 → v̂ = **(3/5, 4/5)**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Vektor sejajar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dua vektor sejajar bila yang satu merupakan kelipatan skalar yang lain. Contoh: a = (−2, 5) dan b = (4, −10) karena b = −2a."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Vektor dalam Perjalanan",
           "duration": 240,
           "source_reference": "Bab 3 — Penerapan Vektor",
-          "content": "## Penerapan sederhana\n\nSebuah perahu bergerak **4 km ke timur** lalu **3 km ke utara**. Perpindahannya bukan 7 km, melainkan vektor (4, 3) dengan panjang:\n\n√(16 + 9) = **5 km**\n\nKarena kedua arah tegak lurus, perpindahannya membentuk segitiga siku-siku.\n\n### Latihan\n\nDua vektor saling tegak lurus masing-masing berpanjang 6 dan 8. Berapa panjang resultannya?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nKarena tegak lurus, resultannya √(6² + 8²) = √100 = **10**.\n\n</details>\n\n**Perhatikan:** penjumlahan panjang (6 + 8 = 14) hanya berlaku bila arahnya sama — bukan bila tegak lurus."
+          "content": "## Penerapan sederhana\n\nSebuah perahu bergerak **4 km ke timur** lalu **3 km ke utara**. Perpindahannya bukan 7 km, melainkan vektor (4, 3) dengan panjang:\n\n√(16 + 9) = **5 km**\n\nKarena kedua arah tegak lurus, perpindahannya membentuk segitiga siku-siku.\n\n### Latihan\n\nDua vektor saling tegak lurus masing-masing berpanjang 6 dan 8. Berapa panjang resultannya?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nKarena tegak lurus, resultannya √(6² + 8²) = √100 = **10**.\n\n</details>\n\n**Perhatikan:** penjumlahan panjang (6 + 8 = 14) hanya berlaku bila arahnya sama — bukan bila tegak lurus.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penerapan sederhana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebuah perahu bergerak **4 km ke timur** lalu **3 km ke utara**. Perpindahannya bukan 7 km, melainkan vektor (4, 3) dengan panjang:"
+            },
+            {
+              "type": "paragraph",
+              "text": "√(16 + 9) = **5 km**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena kedua arah tegak lurus, perpindahannya membentuk segitiga siku-siku."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Latihan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dua vektor saling tegak lurus masing-masing berpanjang 6 dan 8. Berapa panjang resultannya?"
+            },
+            {
+              "type": "paragraph",
+              "text": "<details> <summary>Lihat jawaban</summary>"
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena tegak lurus, resultannya √(6² + 8²) = √100 = **10**."
+            },
+            {
+              "type": "paragraph",
+              "text": "</details>"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Perhatikan:** penjumlahan panjang (6 + 8 = 14) hanya berlaku bila arahnya sama — bukan bila tegak lurus."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-vektor-cepat",
+              "title": "Tantangan Kilat: Vektor",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Panjang vektor (3, 4) = …",
+                  "answer": "5"
+                },
+                {
+                  "question": "Panjang vektor (6, 8) = …",
+                  "answer": "10"
+                },
+                {
+                  "question": "Panjang vektor nol (0, 0) = …",
+                  "answer": "0"
+                },
+                {
+                  "question": "Dua vektor tegak lurus berpanjang 6 dan 8. Panjang resultannya …",
+                  "answer": "10"
+                },
+                {
+                  "question": "Perpindahan 4 km timur lalu 3 km utara memiliki panjang … km",
+                  "answer": "5"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — panjang resultan dihitung dengan Pythagoras, bukan dijumlah langsung.",
+                "wrong": "Untuk vektor tegak lurus gunakan akar dari jumlah kuadrat komponen."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

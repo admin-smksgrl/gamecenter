@@ -5,14 +5,16 @@
  * - Navigasi: network-first, fallback ke halaman HTML ter-cache, lalu
  *   /offline.html bila belum pernah dibuka.
  * - Aset statis (/build, font, ikon): cache-first.
- * - Request Inertia (X-Inertia): network-only (respons JSON tidak di-cache
- *   agar data pengguna tidak tersimpan di perangkat bersama).
+ * - Request Inertia (X-Inertia): diteruskan langsung ke jaringan tanpa
+ *   intercept (respons JSON tidak di-cache agar data pengguna tidak
+ *   tersimpan di perangkat bersama, dan kegagalan jaringan tetap terbaca
+ *   sebagai error jaringan oleh Inertia).
  * - POST /keluar: bersihkan cache halaman berisi data pengguna.
  *
  * Naikkan CACHE_VERSION setiap rilis agar cache lama dibuang.
  */
 
-const CACHE_VERSION = '0.18.0';
+const CACHE_VERSION = '0.33.0';
 const SHELL_CACHE = `gamecenter-shell-${CACHE_VERSION}`;
 const PAGE_CACHE = `gamecenter-pages-${CACHE_VERSION}`;
 const ASSET_CACHE = `gamecenter-assets-${CACHE_VERSION}`;
@@ -71,9 +73,11 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
+    // Kunjungan Inertia (X-Inertia) sengaja TIDAK di-intercept. Saat server
+    // tidak terjangkau, biarkan fetch gagal secara alami supaya aplikasi
+    // menampilkan pesan "Tidak tersambung ke server", bukan pesan 503
+    // "Layanan sedang sibuk" yang menyesatkan (lihat changelog 0.22.1).
     if (request.headers.get('X-Inertia')) {
-        event.respondWith(networkOnlyJson(request));
-
         return;
     }
 
@@ -134,22 +138,6 @@ async function handleNavigation(request) {
         const offline = await caches.match(OFFLINE_URL);
 
         return offline ?? Response.error();
-    }
-}
-
-async function networkOnlyJson(request) {
-    try {
-        return await fetch(request);
-    } catch {
-        return new Response(
-            JSON.stringify({
-                message: 'Kamu sedang offline. Muat ulang halaman saat kembali online.',
-            }),
-            {
-                status: 503,
-                headers: { 'Content-Type': 'application/json' },
-            },
-        );
     }
 }
 
@@ -216,6 +204,9 @@ function isStaticAsset(pathname) {
         pathname.startsWith('/fonts/') ||
         pathname.startsWith('/css/') ||
         pathname.startsWith('/js/') ||
+        // Gambar buku ajar hasil ekstraksi (plan §6.0) ikut di-cache supaya
+        // blok visual tetap tampil saat offline.
+        pathname.startsWith('/media/') ||
         /\.(?:css|js|woff2?|ttf|png|jpe?g|svg|ico|webp)$/i.test(pathname)
     );
 }

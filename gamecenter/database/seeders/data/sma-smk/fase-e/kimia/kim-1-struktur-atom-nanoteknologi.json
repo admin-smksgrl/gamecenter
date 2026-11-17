@@ -24,7 +24,119 @@
           "title": "Partikel Penyusun Atom",
           "duration": 240,
           "source_reference": "Bab III — Struktur Atom",
-          "content": "## Tiga partikel dasar\n\n| Partikel | Muatan | Letak |\n|---|---|---|\n| Proton | positif | inti |\n| Neutron | netral | inti |\n| Elektron | negatif | kulit atom |\n\n### Nomor atom dan nomor massa\n\n> **Nomor atom (Z) = jumlah proton**\n> **Nomor massa (A) = proton + neutron**\n\nAtom netral memiliki jumlah elektron = jumlah proton.\n\nContoh: Z = 12, A = 24 → proton 12, elektron 12, neutron 24 − 12 = **12**.\n\n### Isotop\n\nAtom dengan **nomor atom sama** tetapi **nomor massa berbeda**. Contoh ¹²C dan ¹⁴C sama-sama 6 proton, tetapi neutronnya 6 dan 8.\n\nSifat kimia isotop mirip karena konfigurasi elektronnya sama."
+          "content": "## Tiga partikel dasar\n\n| Partikel | Muatan | Letak |\n|---|---|---|\n| Proton | positif | inti |\n| Neutron | netral | inti |\n| Elektron | negatif | kulit atom |\n\n### Nomor atom dan nomor massa\n\n> **Nomor atom (Z) = jumlah proton**\n> **Nomor massa (A) = proton + neutron**\n\nAtom netral memiliki jumlah elektron = jumlah proton.\n\nContoh: Z = 12, A = 24 → proton 12, elektron 12, neutron 24 − 12 = **12**.\n\n### Isotop\n\nAtom dengan **nomor atom sama** tetapi **nomor massa berbeda**. Contoh ¹²C dan ¹⁴C sama-sama 6 proton, tetapi neutronnya 6 dan 8.\n\nSifat kimia isotop mirip karena konfigurasi elektronnya sama.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Nomor atom (Z)",
+                  "definition": "Jumlah proton dalam inti atom; menentukan jenis unsur."
+                },
+                {
+                  "term": "Nomor massa (A)",
+                  "definition": "Jumlah proton ditambah neutron, ditulis sebagai bilangan bulat."
+                },
+                {
+                  "term": "Isotop",
+                  "definition": "Atom dengan nomor atom sama tetapi nomor massa berbeda, misalnya ¹²C dan ¹⁴C."
+                },
+                {
+                  "term": "Elektron valensi",
+                  "definition": "Elektron pada kulit terluar yang menentukan sifat kimia atom."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga partikel dasar"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Partikel",
+                  "Muatan",
+                  "Letak"
+                ],
+                [
+                  "Proton",
+                  "positif",
+                  "inti"
+                ],
+                [
+                  "Neutron",
+                  "netral",
+                  "inti"
+                ],
+                [
+                  "Elektron",
+                  "negatif",
+                  "kulit atom"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-atom",
+              "engine": "mermaid",
+              "title": "Susunan partikel penyusun atom",
+              "code": "flowchart TD\n  A[Atom netral] --> B[Inti atom]\n  A --> C[Kulit elektron]\n  B --> D[Proton: positif]\n  B --> E[Neutron: netral]\n  C --> F[Elektron: negatif]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Nomor atom dan nomor massa"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**Nomor atom (Z) = jumlah proton** **Nomor massa (A) = proton + neutron**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Atom netral memiliki jumlah elektron = jumlah proton."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: Z = 12, A = 24 → proton 12, elektron 12, neutron 24 − 12 = **12**."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-atom-neutron",
+              "question": "Atom dengan nomor atom Z = 12 dan nomor massa A = 24 memiliki … neutron.",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "12",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "24"
+                },
+                {
+                  "id": "c",
+                  "text": "36"
+                }
+              ],
+              "explanation": "Neutron = A − Z = 24 − 12 = 12. Jumlah proton dan elektron tetap 12 karena atom netral."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Isotop"
+            },
+            {
+              "type": "paragraph",
+              "text": "Atom dengan **nomor atom sama** tetapi **nomor massa berbeda**. Contoh ¹²C dan ¹⁴C sama-sama 6 proton, tetapi neutronnya 6 dan 8."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sifat kimia isotop mirip karena konfigurasi elektronnya sama."
+            }
+          ]
         },
         {
           "type": "text",
@@ -38,7 +150,128 @@
           "title": "Nanoteknologi",
           "duration": 240,
           "source_reference": "Bab III — Nanoteknologi",
-          "content": "## Skala nano\n\n> 1 nanometer = **10⁻⁹ meter**\n\nNanoteknologi memanipulasi materi pada skala 1–100 nm. 50 nm = 50 × 10⁻⁹ = 5 × 10⁻⁸ m.\n\n### Mengapa sifatnya berubah?\n\nPada ukuran nano, **rasio luas permukaan terhadap volume** sangat besar. Akibatnya reaktivitas dan sifat mekanik, optik, serta listrik material dapat berbeda dari bentuk besarnya.\n\n### Penerapan\n\n| Bidang | Contoh |\n|---|---|\n| Kesehatan | penghantaran obat langsung ke sel target |\n| Material | baja lebih kuat dan ringan |\n| Lingkungan | filter air dan pembersih polutan |\n| Energi | sel surya lebih efisien |\n\nPenghantaran obat berbasis nano membuat obat mencapai sel target sehingga **efek samping berkurang**.\n\n### Konsep kunci\n\nSifat materi **bukan hanya** ditentukan jenis atomnya, tetapi juga **ukuran dan susunannya**."
+          "content": "## Skala nano\n\n> 1 nanometer = **10⁻⁹ meter**\n\nNanoteknologi memanipulasi materi pada skala 1–100 nm. 50 nm = 50 × 10⁻⁹ = 5 × 10⁻⁸ m.\n\n### Mengapa sifatnya berubah?\n\nPada ukuran nano, **rasio luas permukaan terhadap volume** sangat besar. Akibatnya reaktivitas dan sifat mekanik, optik, serta listrik material dapat berbeda dari bentuk besarnya.\n\n### Penerapan\n\n| Bidang | Contoh |\n|---|---|\n| Kesehatan | penghantaran obat langsung ke sel target |\n| Material | baja lebih kuat dan ringan |\n| Lingkungan | filter air dan pembersih polutan |\n| Energi | sel surya lebih efisien |\n\nPenghantaran obat berbasis nano membuat obat mencapai sel target sehingga **efek samping berkurang**.\n\n### Konsep kunci\n\nSifat materi **bukan hanya** ditentukan jenis atomnya, tetapi juga **ukuran dan susunannya**.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Skala nano"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "1 nanometer = **10⁻⁹ meter**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nanoteknologi memanipulasi materi pada skala 1–100 nm. 50 nm = 50 × 10⁻⁹ = 5 × 10⁻⁸ m."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-nano-skala",
+              "question": "Ukuran 50 nm sama dengan …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "5 × 10⁻⁸ m",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "5 × 10⁻⁷ m"
+                },
+                {
+                  "id": "c",
+                  "text": "5 × 10⁻⁹ m"
+                }
+              ],
+              "explanation": "1 nm = 10⁻⁹ m, jadi 50 nm = 50 × 10⁻⁹ m = 5 × 10⁻⁸ m."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengapa sifatnya berubah?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada ukuran nano, **rasio luas permukaan terhadap volume** sangat besar. Akibatnya reaktivitas dan sifat mekanik, optik, serta listrik material dapat berbeda dari bentuk besarnya."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Penerapan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bidang",
+                  "Contoh"
+                ],
+                [
+                  "Kesehatan",
+                  "penghantaran obat langsung ke sel target"
+                ],
+                [
+                  "Material",
+                  "baja lebih kuat dan ringan"
+                ],
+                [
+                  "Lingkungan",
+                  "filter air dan pembersih polutan"
+                ],
+                [
+                  "Energi",
+                  "sel surya lebih efisien"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Penghantaran obat berbasis nano membuat obat mencapai sel target sehingga **efek samping berkurang**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Konsep kunci"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sifat materi **bukan hanya** ditentukan jenis atomnya, tetapi juga **ukuran dan susunannya**."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-atom-cepat",
+              "title": "Tantangan Kilat: Atom & Nano",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Partikel bermuatan positif di dalam inti atom adalah …",
+                  "answer": "proton"
+                },
+                {
+                  "question": "Atom dengan nomor atom sama tetapi nomor massa berbeda disebut …",
+                  "answer": "isotop"
+                },
+                {
+                  "question": "Jumlah neutron atom dengan Z = 12 dan A = 24 adalah …",
+                  "answer": "12"
+                },
+                {
+                  "question": "Kulit M maksimum berisi … elektron",
+                  "answer": "18"
+                },
+                {
+                  "question": "50 nm sama dengan … × 10⁻⁹ m",
+                  "answer": "50"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — hubungan Z, A, neutron, dan skala nano sudah kuat.",
+                "wrong": "Ingat: neutron = A − Z, kapasitas kulit 2-8-18-32, dan 1 nm = 10⁻⁹ m."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

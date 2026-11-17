@@ -9,6 +9,8 @@ enum MaterialType: string
     case Image = 'image';
     case Audio = 'audio';
     case Interactive = 'interactive';
+    case Visual = 'visual';
+    case Scenario = 'scenario';
     case Game = 'game';
 
     public function label(): string
@@ -19,6 +21,8 @@ enum MaterialType: string
             self::Image => 'Gambar',
             self::Audio => 'Audio',
             self::Interactive => 'Interaktif',
+            self::Visual => 'Visual',
+            self::Scenario => 'Skenario',
             self::Game => 'Mini Game',
         };
     }

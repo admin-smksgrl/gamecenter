@@ -8,6 +8,7 @@ import {
     friendlyHttpError,
     friendlyNetworkError,
 } from '@/lib/friendly-error';
+import { retryConnection } from '@/lib/connection';
 import { toast } from '@/lib/toast';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Game Center Edukasi';
@@ -44,7 +45,15 @@ if (typeof document !== 'undefined') {
     document.addEventListener('inertia:networkError', (event) => {
         const friendly = friendlyNetworkError();
 
-        toast.error(friendly.title, friendly.description);
+        // Toast tetap terbuka sampai siswa menutupnya atau menekan Coba lagi,
+        // karena kegagalan jaringan butuh tindakan lanjutan.
+        toast.show({
+            tone: 'error',
+            title: friendly.title,
+            description: friendly.description,
+            duration: 0,
+            action: { label: 'Coba lagi', onClick: () => void retryConnection() },
+        });
         event.preventDefault();
     });
 }

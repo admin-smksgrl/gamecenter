@@ -111,6 +111,9 @@ class PlayPageTest extends TestCase
             $this->assertArrayHasKey('content', $materials[0]);
             $this->assertArrayHasKey('type_label', $materials[0]);
             $this->assertSame(1, $materials[0]['order']);
+            // Materi lama tidak punya blok: renderer memakai markdown (plan §3.3).
+            $this->assertArrayHasKey('blocks', $materials[0]);
+            $this->assertNull($materials[0]['blocks']);
         });
     }
 

@@ -24,21 +24,655 @@
           "title": "Identitas Individu dan Identitas Kelompok",
           "duration": 320,
           "source_reference": "Bab 3 Unit 1–2",
-          "content": "## Apa itu identitas?\n\n**Identitas** adalah ciri yang melekat pada diri seseorang atau kelompok yang membedakannya dari yang lain.\n\n### Dua jenis identitas\n\n| Jenis | Ciri | Contoh |\n|---|---|---|\n| **Given** (diberi) | diperoleh sejak lahir, tidak dipilih | suku bangsa, daerah asal, warna kulit, jenis kelamin |\n| **Pilihan** | dibentuk melalui usaha | profesi, prestasi, keahlian, agama yang dipeluk setelah dewasa |\n\n### Pembentuk identitas\n\n- **keluarga** — nilai pertama yang ditanamkan\n- **lingkungan sosial** — teman, sekolah, masyarakat\n- **pengalaman hidup** — keberhasilan dan kegagalan\n- **pendidikan** — pengetahuan dan keterampilan\n\n## Keragaman identitas bangsa\n\nIndonesia memiliki ribuan suku, ratusan bahasa daerah, dan beragam agama serta kepercayaan. Semboyan **Bhinneka Tunggal Ika** — *berbeda-beda tetapi tetap satu jua* — menegaskan bahwa persatuan tidak berarti penyeragaman.\n\n### Manfaat mengenali keragaman\n\n- menumbuhkan **saling menghargai**\n- mencegah **prasangka** dan konflik\n- memperluas wawasan dan jaringan kerja sama"
+          "content": "## Apa itu identitas?\n\n**Identitas** adalah ciri yang melekat pada diri seseorang atau kelompok yang membedakannya dari yang lain.\n\n### Dua jenis identitas\n\n| Jenis | Ciri | Contoh |\n|---|---|---|\n| **Given** (diberi) | diperoleh sejak lahir, tidak dipilih | suku bangsa, daerah asal, warna kulit, jenis kelamin |\n| **Pilihan** | dibentuk melalui usaha | profesi, prestasi, keahlian, agama yang dipeluk setelah dewasa |\n\n### Pembentuk identitas\n\n- **keluarga** — nilai pertama yang ditanamkan\n- **lingkungan sosial** — teman, sekolah, masyarakat\n- **pengalaman hidup** — keberhasilan dan kegagalan\n- **pendidikan** — pengetahuan dan keterampilan\n\n## Keragaman identitas bangsa\n\nIndonesia memiliki ribuan suku, ratusan bahasa daerah, dan beragam agama serta kepercayaan. Semboyan **Bhinneka Tunggal Ika** — *berbeda-beda tetapi tetap satu jua* — menegaskan bahwa persatuan tidak berarti penyeragaman.\n\n### Manfaat mengenali keragaman\n\n- menumbuhkan **saling menghargai**\n- mencegah **prasangka** dan konflik\n- memperluas wawasan dan jaringan kerja sama",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Identitas",
+                  "definition": "Ciri yang melekat pada diri seseorang atau kelompok yang membedakannya dari yang lain."
+                },
+                {
+                  "term": "Identitas given",
+                  "definition": "Identitas yang diperoleh sejak lahir dan tidak dipilih, seperti suku bangsa dan daerah asal."
+                },
+                {
+                  "term": "Identitas pilihan",
+                  "definition": "Identitas yang dibentuk melalui usaha, seperti profesi, prestasi, dan keahlian."
+                },
+                {
+                  "term": "Bhinneka Tunggal Ika",
+                  "definition": "Berbeda-beda tetapi tetap satu jua; persatuan tidak berarti penyeragaman."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Apa itu identitas?"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Identitas** adalah ciri yang melekat pada diri seseorang atau kelompok yang membedakannya dari yang lain."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dua jenis identitas"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis",
+                  "Ciri",
+                  "Contoh"
+                ],
+                [
+                  "**Given** (diberi)",
+                  "diperoleh sejak lahir, tidak dipilih",
+                  "suku bangsa, daerah asal, warna kulit, jenis kelamin"
+                ],
+                [
+                  "**Pilihan**",
+                  "dibentuk melalui usaha",
+                  "profesi, prestasi, keahlian, agama yang dipeluk setelah dewasa"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pan3-identitas",
+              "engine": "mermaid",
+              "title": "Dua jenis identitas dan pembentuknya",
+              "code": "flowchart TD\n  A[Identitas] --> B[Given: diperoleh sejak lahir]\n  A --> C[Pilihan: dibentuk melalui usaha]\n  B --> B1[Suku bangsa, daerah asal, warna kulit, jenis kelamin]\n  C --> C1[Profesi, prestasi, keahlian]\n  D[Keluarga] --> A\n  E[Lingkungan sosial] --> A\n  F[Pengalaman hidup] --> A\n  G[Pendidikan] --> A"
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pan3-identitas",
+              "prompt": "Kelompokkan contoh identitas berikut.",
+              "buckets": [
+                {
+                  "id": "given",
+                  "label": "Identitas given"
+                },
+                {
+                  "id": "pilihan",
+                  "label": "Identitas pilihan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Suku bangsa",
+                  "bucket": "given"
+                },
+                {
+                  "id": "i2",
+                  "text": "Daerah asal",
+                  "bucket": "given"
+                },
+                {
+                  "id": "i3",
+                  "text": "Warna kulit",
+                  "bucket": "given"
+                },
+                {
+                  "id": "i4",
+                  "text": "Jenis kelamin",
+                  "bucket": "given"
+                },
+                {
+                  "id": "i5",
+                  "text": "Profesi",
+                  "bucket": "pilihan"
+                },
+                {
+                  "id": "i6",
+                  "text": "Prestasi",
+                  "bucket": "pilihan"
+                },
+                {
+                  "id": "i7",
+                  "text": "Keahlian",
+                  "bucket": "pilihan"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — identitas given diperoleh sejak lahir, identitas pilihan dibentuk melalui usaha.",
+                "wrong": "Suku, daerah asal, warna kulit, dan jenis kelamin adalah given; profesi, prestasi, dan keahlian adalah pilihan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Pembentuk identitas"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**keluarga** — nilai pertama yang ditanamkan",
+                "**lingkungan sosial** — teman, sekolah, masyarakat",
+                "**pengalaman hidup** — keberhasilan dan kegagalan",
+                "**pendidikan** — pengetahuan dan keterampilan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Keragaman identitas bangsa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Indonesia memiliki ribuan suku, ratusan bahasa daerah, dan beragam agama serta kepercayaan. Semboyan **Bhinneka Tunggal Ika** — berbeda-beda tetapi tetap satu jua — menegaskan bahwa persatuan tidak berarti penyeragaman."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan3-bhinneka",
+              "question": "Semboyan Bhinneka Tunggal Ika menegaskan bahwa persatuan…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Tidak berarti penyeragaman",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Mengharuskan semua budaya disamakan"
+                },
+                {
+                  "id": "c",
+                  "text": "Hanya berlaku bagi satu suku"
+                }
+              ],
+              "explanation": "Bhinneka Tunggal Ika berarti berbeda-beda tetapi tetap satu. Persatuan tidak menghapus keragaman, melainkan menghargainya."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Manfaat mengenali keragaman"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menumbuhkan **saling menghargai**",
+                "mencegah **prasangka** dan konflik",
+                "memperluas wawasan dan jaringan kerja sama"
+              ]
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Kolaborasi dan Pertukaran Budaya",
           "duration": 320,
           "source_reference": "Bab 3 Unit 3–4",
-          "content": "## Kolaborasi antarbudaya di Indonesia\n\nIndonesia terbentuk dari keragaman budaya. Kolaborasi terjadi melalui:\n\n- **gotong royong** antarwarga berbeda latar belakang\n- **musyawarah** desa yang melibatkan berbagai kelompok\n- pertukaran tenaga dan pengetahuan antar daerah\n\n### Tahap kolaborasi\n\n1. Mengenali identitas diri dan kelompok sendiri\n2. Mengenali dan menghargai identitas kelompok lain\n3. Menemukan tujuan bersama\n4. Bekerja sama dengan pembagian peran yang adil\n5. Merefleksikan hasil kerja sama\n\n## Pertukaran budaya di pentas global\n\nSikap yang diperlukan: **bangga pada budaya sendiri sekaligus terbuka** mempelajari budaya lain.\n\n| Sikap | Akibat |\n|---|---|\n| terbuka dan kritis | budaya saling memperkaya |\n| menutup diri total | kehilangan peluang belajar |\n| menerima tanpa menyaring | kehilangan jati diri |\n\nPenyaringan dilakukan dengan **nilai Pancasila dan budaya sendiri**.\n\nContoh pertukaran yang sehat: kolaborasi musisi dua negara yang menggabungkan alat musik tradisional."
+          "content": "## Kolaborasi antarbudaya di Indonesia\n\nIndonesia terbentuk dari keragaman budaya. Kolaborasi terjadi melalui:\n\n- **gotong royong** antarwarga berbeda latar belakang\n- **musyawarah** desa yang melibatkan berbagai kelompok\n- pertukaran tenaga dan pengetahuan antar daerah\n\n### Tahap kolaborasi\n\n1. Mengenali identitas diri dan kelompok sendiri\n2. Mengenali dan menghargai identitas kelompok lain\n3. Menemukan tujuan bersama\n4. Bekerja sama dengan pembagian peran yang adil\n5. Merefleksikan hasil kerja sama\n\n## Pertukaran budaya di pentas global\n\nSikap yang diperlukan: **bangga pada budaya sendiri sekaligus terbuka** mempelajari budaya lain.\n\n| Sikap | Akibat |\n|---|---|\n| terbuka dan kritis | budaya saling memperkaya |\n| menutup diri total | kehilangan peluang belajar |\n| menerima tanpa menyaring | kehilangan jati diri |\n\nPenyaringan dilakukan dengan **nilai Pancasila dan budaya sendiri**.\n\nContoh pertukaran yang sehat: kolaborasi musisi dua negara yang menggabungkan alat musik tradisional.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kolaborasi antarbudaya di Indonesia"
+            },
+            {
+              "type": "paragraph",
+              "text": "Indonesia terbentuk dari keragaman budaya. Kolaborasi terjadi melalui:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**gotong royong** antarwarga berbeda latar belakang",
+                "**musyawarah** desa yang melibatkan berbagai kelompok",
+                "pertukaran tenaga dan pengetahuan antar daerah"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pan3-kolaborasi",
+              "prompt": "Urutkan tahap kolaborasi antarbudaya.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Mengenali identitas diri dan kelompok sendiri"
+                },
+                {
+                  "id": "s2",
+                  "text": "Mengenali dan menghargai identitas kelompok lain"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menemukan tujuan bersama"
+                },
+                {
+                  "id": "s4",
+                  "text": "Bekerja sama dengan pembagian peran yang adil"
+                },
+                {
+                  "id": "s5",
+                  "text": "Merefleksikan hasil kerja sama"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar — kenali diri, hargai yang lain, temukan tujuan, bekerja sama, lalu refleksi.",
+                "wrong": "Mulai dari mengenali identitas sendiri, lalu menghargai identitas kelompok lain."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tahap kolaborasi"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mengenali identitas diri dan kelompok sendiri",
+                "Mengenali dan menghargai identitas kelompok lain",
+                "Menemukan tujuan bersama",
+                "Bekerja sama dengan pembagian peran yang adil",
+                "Merefleksikan hasil kerja sama"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pertukaran budaya di pentas global"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sikap yang diperlukan: **bangga pada budaya sendiri sekaligus terbuka** mempelajari budaya lain."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Sikap",
+                  "Akibat"
+                ],
+                [
+                  "terbuka dan kritis",
+                  "budaya saling memperkaya"
+                ],
+                [
+                  "menutup diri total",
+                  "kehilangan peluang belajar"
+                ],
+                [
+                  "menerima tanpa menyaring",
+                  "kehilangan jati diri"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Penyaringan dilakukan dengan **nilai Pancasila dan budaya sendiri**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh pertukaran yang sehat: kolaborasi musisi dua negara yang menggabungkan alat musik tradisional."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan3-global",
+              "question": "Sikap yang diperlukan dalam pertukaran budaya di pentas global adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Bangga pada budaya sendiri sekaligus terbuka mempelajari budaya lain",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Menutup diri dari semua budaya asing"
+                },
+                {
+                  "id": "c",
+                  "text": "Menerima semua budaya asing tanpa menyaring"
+                }
+              ],
+              "explanation": "Sikap terbuka dan kritis membuat budaya saling memperkaya. Penyaringan dilakukan dengan nilai Pancasila dan budaya sendiri."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pan3-sikap",
+              "prompt": "Kelompokkan sikap berikut menurut akibatnya.",
+              "buckets": [
+                {
+                  "id": "terbuka",
+                  "label": "Terbuka dan kritis"
+                },
+                {
+                  "id": "menutup",
+                  "label": "Menutup diri total"
+                },
+                {
+                  "id": "tanpa-saring",
+                  "label": "Menerima tanpa menyaring"
+                }
+              ],
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Budaya saling memperkaya",
+                  "bucket": "terbuka"
+                },
+                {
+                  "id": "s2",
+                  "text": "Kehilangan peluang belajar",
+                  "bucket": "menutup"
+                },
+                {
+                  "id": "s3",
+                  "text": "Kehilangan jati diri",
+                  "bucket": "tanpa-saring"
+                },
+                {
+                  "id": "s4",
+                  "text": "Menyaring dengan nilai Pancasila dan budaya sendiri",
+                  "bucket": "terbuka"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — terbuka dan kritis memperkaya, menutup diri kehilangan peluang, menerima tanpa saring kehilangan jati diri.",
+                "wrong": "Sikap terbaik adalah terbuka sekaligus kritis dengan penyaringan nilai Pancasila."
+              }
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Belajar dari Kekayaan Tradisi",
           "duration": 300,
           "source_reference": "Bab 3 Unit 5",
-          "content": "## Kearifan lokal\n\n**Kearifan lokal** adalah pengetahuan dan praktik masyarakat setempat yang diwariskan turun-temurun.\n\n| Kearifan lokal | Daerah | Fungsi |\n|---|---|---|\n| **Subak** | Bali | irigasi sawah berbasis gotong royong |\n| **Sasi** | Maluku dan Papua | larangan memanen pada waktu tertentu agar sumber daya pulih |\n| **Pranata mangsa** | Jawa | kalender tanam berdasarkan tanda alam |\n| **Lubuk larangan** | Sumatra | larangan menangkap ikan di bagian sungai tertentu |\n\nSubak menjadi contoh **pengelolaan sumber daya partisipatif dan lestari**, bukan penghambat modernisasi.\n\n## Makna hidup dalam kebinekaan\n\n- perbedaan adalah **kekayaan**, bukan ancaman\n- kebinekaan menyediakan **jaringan kerja sama dan pengetahuan luas** — inilah **modal sosial** pembangunan\n\n## Kebanggaan pada produk dalam negeri\n\nMenggunakan produk dalam negeri mendorong **industri lokal tumbuh**, membuka lapangan kerja, dan menjaga tradisi tetap hidup."
+          "content": "## Kearifan lokal\n\n**Kearifan lokal** adalah pengetahuan dan praktik masyarakat setempat yang diwariskan turun-temurun.\n\n| Kearifan lokal | Daerah | Fungsi |\n|---|---|---|\n| **Subak** | Bali | irigasi sawah berbasis gotong royong |\n| **Sasi** | Maluku dan Papua | larangan memanen pada waktu tertentu agar sumber daya pulih |\n| **Pranata mangsa** | Jawa | kalender tanam berdasarkan tanda alam |\n| **Lubuk larangan** | Sumatra | larangan menangkap ikan di bagian sungai tertentu |\n\nSubak menjadi contoh **pengelolaan sumber daya partisipatif dan lestari**, bukan penghambat modernisasi.\n\n## Makna hidup dalam kebinekaan\n\n- perbedaan adalah **kekayaan**, bukan ancaman\n- kebinekaan menyediakan **jaringan kerja sama dan pengetahuan luas** — inilah **modal sosial** pembangunan\n\n## Kebanggaan pada produk dalam negeri\n\nMenggunakan produk dalam negeri mendorong **industri lokal tumbuh**, membuka lapangan kerja, dan menjaga tradisi tetap hidup.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kearifan lokal"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Kearifan lokal** adalah pengetahuan dan praktik masyarakat setempat yang diwariskan turun-temurun."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kearifan lokal",
+                  "Daerah",
+                  "Fungsi"
+                ],
+                [
+                  "**Subak**",
+                  "Bali",
+                  "irigasi sawah berbasis gotong royong"
+                ],
+                [
+                  "**Sasi**",
+                  "Maluku dan Papua",
+                  "larangan memanen pada waktu tertentu agar sumber daya pulih"
+                ],
+                [
+                  "**Pranata mangsa**",
+                  "Jawa",
+                  "kalender tanam berdasarkan tanda alam"
+                ],
+                [
+                  "**Lubuk larangan**",
+                  "Sumatra",
+                  "larangan menangkap ikan di bagian sungai tertentu"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Subak menjadi contoh **pengelolaan sumber daya partisipatif dan lestari**, bukan penghambat modernisasi."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pan3-kearifan",
+              "prompt": "Kelompokkan kearifan lokal berikut menurut daerahnya.",
+              "buckets": [
+                {
+                  "id": "bali",
+                  "label": "Bali"
+                },
+                {
+                  "id": "maluku",
+                  "label": "Maluku dan Papua"
+                },
+                {
+                  "id": "jawa",
+                  "label": "Jawa"
+                },
+                {
+                  "id": "sumatra",
+                  "label": "Sumatra"
+                }
+              ],
+              "items": [
+                {
+                  "id": "k1",
+                  "text": "Subak — irigasi sawah berbasis gotong royong",
+                  "bucket": "bali"
+                },
+                {
+                  "id": "k2",
+                  "text": "Sasi — larangan memanen agar sumber daya pulih",
+                  "bucket": "maluku"
+                },
+                {
+                  "id": "k3",
+                  "text": "Pranata mangsa — kalender tanam berdasarkan tanda alam",
+                  "bucket": "jawa"
+                },
+                {
+                  "id": "k4",
+                  "text": "Lubuk larangan — larangan menangkap ikan di bagian sungai tertentu",
+                  "bucket": "sumatra"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — Subak di Bali, Sasi di Maluku dan Papua, Pranata mangsa di Jawa, Lubuk larangan di Sumatra.",
+                "wrong": "Cocokkan daerahnya: Bali, Maluku/Papua, Jawa, dan Sumatra."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Makna hidup dalam kebinekaan"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "perbedaan adalah **kekayaan**, bukan ancaman",
+                "kebinekaan menyediakan **jaringan kerja sama dan pengetahuan luas** — inilah **modal sosial** pembangunan"
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan3-modal",
+              "question": "Kebinekaan disebut modal sosial pembangunan karena…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Menyediakan jaringan kerja sama dan pengetahuan yang luas",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Mengharuskan semua orang memiliki budaya yang sama"
+                },
+                {
+                  "id": "c",
+                  "text": "Membatasi kerja sama hanya pada satu daerah"
+                }
+              ],
+              "explanation": "Perbedaan adalah kekayaan. Kebinekaan menyediakan jaringan kerja sama dan pengetahuan luas yang menjadi modal sosial pembangunan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kebanggaan pada produk dalam negeri"
+            },
+            {
+              "type": "paragraph",
+              "text": "Menggunakan produk dalam negeri mendorong **industri lokal tumbuh**, membuka lapangan kerja, dan menjaga tradisi tetap hidup."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pan3-festival",
+              "title": "Festival budaya kelas",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kelasmu mengadakan festival budaya. Beberapa teman ingin menampilkan budaya daerahnya, tetapi ada yang malu karena minoritas. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengajak semua tampil dan memberi panggung yang setara",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Kolaborasi antarbudaya menghargai setiap identitas dan membagi peran secara adil."
+                    },
+                    {
+                      "text": "Memilih budaya yang paling populer agar acara ramai",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Mengutamakan yang populer membuat kelompok lain merasa tidak dihargai."
+                    },
+                    {
+                      "text": "Membiarkan yang malu tidak tampil",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Tidak memaksa itu baik, tetapi belum mengajak dan memberi ruang yang setara."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Saat latihan, ada kelompok yang mengejek tarian daerah lain. Apa sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Mengingatkan bahwa perbedaan adalah kekayaan",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Menghargai keragaman mencegah prasangka dan konflik."
+                    },
+                    {
+                      "text": "Ikut tertawa agar suasana tidak tegang",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Ikut menertawakan budaya lain memperkuat prasangka."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Kelompok yang budayanya tidak dipilih kecewa. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Meminta maaf dan membuka kesempatan tampil di sesi lain",
+                      "next": "n2",
+                      "score": 1,
+                      "feedback": "Membuka kesempatan kembali memulihkan rasa dihargai."
+                    },
+                    {
+                      "text": "Mengatakan bahwa pilihan sudah final",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Menutup ruang membuat kekecewaan menjadi konflik."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Teman yang malu akhirnya bertanya apakah boleh ikut. Apa jawabmu?",
+                  "choices": [
+                    {
+                      "text": "Menyambut dan membantunya berlatih",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Menyambut dan mendampingi mewujudkan kolaborasi yang setara."
+                    },
+                    {
+                      "text": "Menyuruhnya tampil sendiri tanpa bantuan",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Membiarkan sendiri membuatnya semakin ragu dan tidak terlibat."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Semua kelompok tampil dan saling menghargai. Kebinekaan menjadi kekuatan kelas, bukan sumber perpecahan."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Acara berjalan, tetapi sebagian teman belum merasa dihargai. Perbaiki dengan sikap yang lebih terbuka."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Kekecewaan berubah menjadi perpecahan. Keputusan tanpa musyawarah melemahkan kerja sama."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pan3-kebinekaan",
+              "title": "Tantangan Kilat: Kebinekaan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Identitas yang diperoleh sejak lahir disebut identitas…",
+                  "answer": "given"
+                },
+                {
+                  "question": "Identitas yang dibentuk melalui usaha disebut identitas…",
+                  "answer": "pilihan"
+                },
+                {
+                  "question": "Semboyan bangsa Indonesia adalah Bhinneka Tunggal…",
+                  "answer": "ika"
+                },
+                {
+                  "question": "Irigasi sawah berbasis gotong royong di Bali disebut…",
+                  "answer": "subak"
+                },
+                {
+                  "question": "Larangan memanen agar sumber daya pulih di Maluku dan Papua disebut…",
+                  "answer": "sasi"
+                },
+                {
+                  "question": "Kebinekaan menjadi modal… pembangunan",
+                  "answer": "sosial"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — identitas, kearifan lokal, dan sikap terbuka menjadikan kebinekaan kekuatan.",
+                "wrong": "Ingat: identitas given/pilihan, Bhinneka Tunggal Ika, Subak, Sasi, dan modal sosial."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

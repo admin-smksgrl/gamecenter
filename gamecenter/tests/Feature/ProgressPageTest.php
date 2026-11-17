@@ -5,6 +5,8 @@ namespace Tests\Feature;
 use App\Enums\ProgressStatus;
 use App\Models\Assessment;
 use App\Models\GameSession;
+use App\Models\LearningMaterial;
+use App\Models\MaterialBlockResponse;
 use App\Models\SessionResult;
 use App\Models\User;
 use App\Models\UserProgress;
@@ -131,6 +133,67 @@ class ProgressPageTest extends TestCase
         });
     }
 
+    public function test_progress_page_shows_formative_block_practice(): void
+    {
+        $user = User::factory()->create();
+
+        $assessment = Assessment::query()->with('chapter.subject.classRoom.educationLevel')->firstOrFail();
+        $chapter = $assessment->chapter;
+
+        $material = LearningMaterial::query()->create([
+            'chapter_id' => $chapter->id,
+            'type' => 'interactive',
+            'title' => 'Latihan Eksponen',
+            'content' => 'Teks asli.',
+            'order' => 1,
+            'is_active' => true,
+        ]);
+
+        MaterialBlockResponse::query()->create([
+            'user_id' => $user->id,
+            'material_id' => $material->id,
+            'block_id' => 'cp-1',
+            'block_type' => 'checkpoint',
+            'score' => 100,
+            'max_score' => 100,
+            'attempts' => 2,
+            'is_completed' => true,
+            'last_answered_at' => now(),
+        ]);
+
+        MaterialBlockResponse::query()->create([
+            'user_id' => $user->id,
+            'material_id' => $material->id,
+            'block_id' => 'srt-1',
+            'block_type' => 'sort',
+            'score' => 60,
+            'max_score' => 100,
+            'attempts' => 1,
+            'is_completed' => false,
+            'last_answered_at' => now(),
+        ]);
+
+        $response = $this->actingAs($user)->get('/progres');
+
+        $response->assertOk();
+        $response->assertInertia(function (AssertableInertia $page) use ($material) {
+            $props = $page->toArray()['props'];
+            $practice = $props['block_practice'];
+
+            $this->assertSame(2, $practice['totals']['blocks']);
+            $this->assertSame(1, $practice['totals']['completed']);
+            $this->assertSame(3, $practice['totals']['attempts']);
+            $this->assertSame(80, $practice['totals']['average_score']);
+
+            $this->assertCount(1, $practice['materials']);
+            $this->assertSame($material->id, $practice['materials'][0]['material_id']);
+            $this->assertSame('Latihan Eksponen', $practice['materials'][0]['material_title']);
+            $this->assertCount(2, $practice['materials'][0]['block_rows']);
+            $this->assertSame('Cek pemahaman', $practice['materials'][0]['block_rows'][0]['label']);
+            $this->assertSame('Urutkan', $practice['materials'][0]['block_rows'][1]['label']);
+        });
+    }
+
     public function test_empty_progress_page_is_rendered_with_zero_stats(): void
     {
         $user = User::factory()->create();
@@ -143,6 +206,8 @@ class ProgressPageTest extends TestCase
 
             $this->assertSame([], $props['progress']);
             $this->assertSame([], $props['sessions']);
+            $this->assertSame(0, $props['block_practice']['totals']['blocks']);
+            $this->assertSame([], $props['block_practice']['materials']);
             $this->assertSame(0, $props['stats']['sessions']);
             $this->assertSame(0, $props['stats']['materials_read']);
             $this->assertSame(0, $props['stats']['average_score']);

@@ -21,21 +21,318 @@
           "title": "Dari Persamaan ke Pertidaksamaan",
           "duration": 240,
           "source_reference": "Bab 5 — Pertidaksamaan Linear",
-          "content": "## Penyelesaiannya berupa daerah\n\nPersamaan x + y = 5 menghasilkan **garis**. Pertidaksamaan x + y ≤ 5 menghasilkan **daerah**.\n\nGaris itu disebut **garis batas** dan membagi bidang menjadi dua bagian. Salah satunya menjadi daerah penyelesaian.\n\n### Garis penuh atau putus-putus?\n\n| Tanda | Garis batas | Titik pada garis |\n|---|---|---|\n| < atau > | putus-putus | tidak termasuk |\n| ≤ atau ≥ | penuh | termasuk |\n\n### Langkah menggambar\n\n1. Ubah tanda pertidaksamaan menjadi **=** untuk menggambar garis batas\n2. Tentukan garis penuh atau putus-putus\n3. **Uji satu titik** (biasanya (0, 0)) untuk menentukan sisi daerah\n4. Arsir daerah yang memenuhi\n\n### Contoh\n\nx + y ≤ 5. Uji titik (0, 0): 0 + 0 = 0 ≤ 5 benar. Berarti daerah penyelesaian memuat titik asal."
+          "content": "## Penyelesaiannya berupa daerah\n\nPersamaan x + y = 5 menghasilkan **garis**. Pertidaksamaan x + y ≤ 5 menghasilkan **daerah**.\n\nGaris itu disebut **garis batas** dan membagi bidang menjadi dua bagian. Salah satunya menjadi daerah penyelesaian.\n\n### Garis penuh atau putus-putus?\n\n| Tanda | Garis batas | Titik pada garis |\n|---|---|---|\n| < atau > | putus-putus | tidak termasuk |\n| ≤ atau ≥ | penuh | termasuk |\n\n### Langkah menggambar\n\n1. Ubah tanda pertidaksamaan menjadi **=** untuk menggambar garis batas\n2. Tentukan garis penuh atau putus-putus\n3. **Uji satu titik** (biasanya (0, 0)) untuk menentukan sisi daerah\n4. Arsir daerah yang memenuhi\n\n### Contoh\n\nx + y ≤ 5. Uji titik (0, 0): 0 + 0 = 0 ≤ 5 benar. Berarti daerah penyelesaian memuat titik asal.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Garis batas",
+                  "definition": "Garis yang diperoleh dengan mengubah tanda pertidaksamaan menjadi tanda sama dengan."
+                },
+                {
+                  "term": "Daerah penyelesaian",
+                  "definition": "Wilayah bidang yang memenuhi semua pertidaksamaan pada sistem."
+                },
+                {
+                  "term": "Titik pojok",
+                  "definition": "Titik pertemuan garis-garis batas; tempat nilai optimum berada."
+                },
+                {
+                  "term": "Uji titik",
+                  "definition": "Memasukkan satu titik ke pertidaksamaan untuk menentukan sisi daerah yang benar."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penyelesaiannya berupa daerah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Persamaan x + y = 5 menghasilkan **garis**. Pertidaksamaan x + y ≤ 5 menghasilkan **daerah**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Garis itu disebut **garis batas** dan membagi bidang menjadi dua bagian. Salah satunya menjadi daerah penyelesaian."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Garis penuh atau putus-putus?"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tanda",
+                  "Garis batas",
+                  "Titik pada garis"
+                ],
+                [
+                  "< atau >",
+                  "putus-putus",
+                  "tidak termasuk"
+                ],
+                [
+                  "≤ atau ≥",
+                  "penuh",
+                  "termasuk"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-garis-batas",
+              "engine": "mermaid",
+              "title": "Memilih garis penuh atau putus-putus",
+              "code": "flowchart TD\n  A[Pertidaksamaan linear] --> B[Tanda kurang dari atau lebih dari]\n  A --> C[Tanda kurang dari sama dengan atau lebih dari sama dengan]\n  B --> B1[Garis putus-putus, titik tidak termasuk]\n  C --> C1[Garis penuh, titik termasuk]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Langkah menggambar"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Ubah tanda pertidaksamaan menjadi **=** untuk menggambar garis batas",
+                "Tentukan garis penuh atau putus-putus",
+                "**Uji satu titik** (biasanya (0, 0)) untuk menentukan sisi daerah",
+                "Arsir daerah yang memenuhi"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh"
+            },
+            {
+              "type": "paragraph",
+              "text": "x + y ≤ 5. Uji titik (0, 0): 0 + 0 = 0 ≤ 5 benar. Berarti daerah penyelesaian memuat titik asal."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-uji-titik",
+              "question": "Apakah titik (0, 0) memenuhi x + y ≤ 5?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Ya, karena 0 + 0 = 0 ≤ 5",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Tidak, karena 0 lebih kecil dari 5"
+                },
+                {
+                  "id": "c",
+                  "text": "Tidak bisa ditentukan tanpa gambar"
+                }
+              ],
+              "explanation": "Substitusi (0, 0) memberi 0 ≤ 5 yang bernilai benar, sehingga daerah penyelesaian memuat titik asal."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Sistem Pertidaksamaan dan Nilai Optimum",
           "duration": 360,
           "source_reference": "Bab 5 — Sistem Pertidaksamaan Linear",
-          "content": "## Menggabungkan beberapa pertidaksamaan\n\nDaerah penyelesaian sistem adalah **irisan** dari semua daerah masing-masing.\n\nContoh: x ≥ 0, y ≥ 0, dan x + y ≤ 4 membentuk daerah segitiga dengan titik pojok (0,0), (4,0), dan (0,4).\n\n### Aturan penting\n\nBila kedua ruas pertidaksamaan dikalikan atau dibagi **bilangan negatif**, arah tanda harus **dibalik**:\n\n> 2 < 3 → dikali −1 menjadi −2 > −3\n\n### Mencari nilai optimum\n\nNilai maksimum atau minimum fungsi tujuan pada daerah tertutup **selalu berada di titik pojok**. Langkahnya:\n\n1. Gambar garis batas dan arsir daerahnya\n2. Tentukan semua titik pojok\n3. Substitusikan setiap titik pojok ke fungsi tujuan\n4. Pilih nilai terbesar (maksimum) atau terkecil (minimum)\n\n### Contoh\n\nFungsi tujuan 2x + 3y pada titik pojok (0,0), (5,0), (0,4), dan (2,3):\nnilainya 0, 10, 12, dan **13** → maksimum 13 di titik (2, 3)."
+          "content": "## Menggabungkan beberapa pertidaksamaan\n\nDaerah penyelesaian sistem adalah **irisan** dari semua daerah masing-masing.\n\nContoh: x ≥ 0, y ≥ 0, dan x + y ≤ 4 membentuk daerah segitiga dengan titik pojok (0,0), (4,0), dan (0,4).\n\n### Aturan penting\n\nBila kedua ruas pertidaksamaan dikalikan atau dibagi **bilangan negatif**, arah tanda harus **dibalik**:\n\n> 2 < 3 → dikali −1 menjadi −2 > −3\n\n### Mencari nilai optimum\n\nNilai maksimum atau minimum fungsi tujuan pada daerah tertutup **selalu berada di titik pojok**. Langkahnya:\n\n1. Gambar garis batas dan arsir daerahnya\n2. Tentukan semua titik pojok\n3. Substitusikan setiap titik pojok ke fungsi tujuan\n4. Pilih nilai terbesar (maksimum) atau terkecil (minimum)\n\n### Contoh\n\nFungsi tujuan 2x + 3y pada titik pojok (0,0), (5,0), (0,4), dan (2,3):\nnilainya 0, 10, 12, dan **13** → maksimum 13 di titik (2, 3).",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menggabungkan beberapa pertidaksamaan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Daerah penyelesaian sistem adalah **irisan** dari semua daerah masing-masing."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: x ≥ 0, y ≥ 0, dan x + y ≤ 4 membentuk daerah segitiga dengan titik pojok (0,0), (4,0), dan (0,4)."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Aturan penting"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila kedua ruas pertidaksamaan dikalikan atau dibagi **bilangan negatif**, arah tanda harus **dibalik**:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "2 < 3 → dikali −1 menjadi −2 > −3"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mencari nilai optimum"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nilai maksimum atau minimum fungsi tujuan pada daerah tertutup **selalu berada di titik pojok**. Langkahnya:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Gambar garis batas dan arsir daerahnya",
+                "Tentukan semua titik pojok",
+                "Substitusikan setiap titik pojok ke fungsi tujuan",
+                "Pilih nilai terbesar (maksimum) atau terkecil (minimum)"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-nilai-optimum",
+              "prompt": "Urutkan langkah mencari nilai optimum pada daerah penyelesaian.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Gambar garis batas dan arsir daerahnya"
+                },
+                {
+                  "id": "s2",
+                  "text": "Tentukan semua titik pojok"
+                },
+                {
+                  "id": "s3",
+                  "text": "Substitusikan setiap titik pojok ke fungsi tujuan"
+                },
+                {
+                  "id": "s4",
+                  "text": "Pilih nilai terbesar atau terkecil sesuai pertanyaan"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: gambar daerah, ambil titik pojok, hitung, lalu pilih nilai ekstremnya.",
+                "wrong": "Nilai optimum selalu diperiksa di titik pojok, bukan di tengah daerah."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-nilai-optimum",
+              "question": "Fungsi tujuan 2x + 3y pada titik pojok (0,0), (5,0), (0,4), dan (2,3). Nilai maksimumnya adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "13 di titik (2, 3)",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "12 di titik (0, 4)"
+                },
+                {
+                  "id": "c",
+                  "text": "10 di titik (5, 0)"
+                }
+              ],
+              "explanation": "Nilai di tiap titik: 0, 10, 12, dan 13. Nilai terbesar 13 muncul di titik pojok (2, 3)."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fungsi tujuan 2x + 3y pada titik pojok (0,0), (5,0), (0,4), dan (2,3): nilainya 0, 10, 12, dan **13** → maksimum 13 di titik (2, 3)."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Latihan Daerah Penyelesaian",
           "duration": 240,
           "source_reference": "Bab 5 — Latihan",
-          "content": "## Dua latihan bertahap\n\n**1. Luas daerah**\nDaerah x ≥ 0, y ≥ 0, 2x + y ≤ 8 membentuk segitiga dengan titik (0,0), (4,0), dan (0,8).\n\nLuas = ½ × 4 × 8 = **16 satuan luas**\n\n**2. Uji titik**\nApakah (1, 2) memenuhi 3x + 2y ≥ 7?\n\n3(1) + 2(2) = 7, dan 7 ≥ 7 **benar** → titik itu termasuk penyelesaian.\n\n### Yang sering keliru\n\n- Lupa membalik tanda setelah mengalikan dengan bilangan negatif\n- Memakai garis penuh untuk tanda < atau >\n- Menguji titik yang justru berada pada garis batas sehingga hasilnya ambigu\n\nPilih titik uji yang **jelas** di salah satu sisi, misalnya titik asal bila garis tidak melewatinya."
+          "content": "## Dua latihan bertahap\n\n**1. Luas daerah**\nDaerah x ≥ 0, y ≥ 0, 2x + y ≤ 8 membentuk segitiga dengan titik (0,0), (4,0), dan (0,8).\n\nLuas = ½ × 4 × 8 = **16 satuan luas**\n\n**2. Uji titik**\nApakah (1, 2) memenuhi 3x + 2y ≥ 7?\n\n3(1) + 2(2) = 7, dan 7 ≥ 7 **benar** → titik itu termasuk penyelesaian.\n\n### Yang sering keliru\n\n- Lupa membalik tanda setelah mengalikan dengan bilangan negatif\n- Memakai garis penuh untuk tanda < atau >\n- Menguji titik yang justru berada pada garis batas sehingga hasilnya ambigu\n\nPilih titik uji yang **jelas** di salah satu sisi, misalnya titik asal bila garis tidak melewatinya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dua latihan bertahap"
+            },
+            {
+              "type": "paragraph",
+              "text": "**1. Luas daerah** Daerah x ≥ 0, y ≥ 0, 2x + y ≤ 8 membentuk segitiga dengan titik (0,0), (4,0), dan (0,8)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Luas = ½ × 4 × 8 = **16 satuan luas**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**2. Uji titik** Apakah (1, 2) memenuhi 3x + 2y ≥ 7?"
+            },
+            {
+              "type": "paragraph",
+              "text": "3(1) + 2(2) = 7, dan 7 ≥ 7 **benar** → titik itu termasuk penyelesaian."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Yang sering keliru"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Lupa membalik tanda setelah mengalikan dengan bilangan negatif",
+                "Memakai garis penuh untuk tanda < atau >",
+                "Menguji titik yang justru berada pada garis batas sehingga hasilnya ambigu"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Pilih titik uji yang **jelas** di salah satu sisi, misalnya titik asal bila garis tidak melewatinya."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pertidaksamaan-cepat",
+              "title": "Tantangan Kilat: Pertidaksamaan",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Luas daerah x ≥ 0, y ≥ 0, 2x + y ≤ 8 adalah … satuan luas",
+                  "answer": "16"
+                },
+                {
+                  "question": "Apakah (1, 2) memenuhi 3x + 2y ≥ 7? Jawab ya atau tidak",
+                  "answer": "ya"
+                },
+                {
+                  "question": "Nilai 2x + 3y di titik (0, 4) adalah …",
+                  "answer": "12"
+                },
+                {
+                  "question": "Tanda ≤ memakai garis … (penuh/putus-putus)",
+                  "answer": "penuh"
+                },
+                {
+                  "question": "Setelah dikali bilangan negatif, arah tanda harus … (balik/tetap)",
+                  "answer": "balik"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — garis batas, uji titik, dan nilai optimum sudah dipahami.",
+                "wrong": "Ingat: ≤/≥ memakai garis penuh, dan tanda dibalik setelah dikali bilangan negatif."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

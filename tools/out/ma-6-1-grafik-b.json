@@ -1,0 +1,58 @@
+{
+  "source": "data/kurmer/SMKSMA/BUKU AJAR/KELAS X/Matematika-BG-KLS-X.pdf",
+  "book": "Matematika-BG-KLS-X.pdf",
+  "generated_with": "tools/pdf-extract-images.py",
+  "pymupdf": "2.1",
+  "min_size": 900,
+  "min_bytes": 2048,
+  "pages": "196",
+  "count": 1,
+  "skipped": {
+    "small": 0,
+    "tiny": 0,
+    "duplicate": 0,
+    "empty": 0
+  },
+  "assets": [
+    {
+      "book": "Matematika-BG-KLS-X.pdf",
+      "page": 196,
+      "xref": null,
+      "w": 580,
+      "h": 803,
+      "bytes": 39322,
+      "file": "grafik-b-hal196.png",
+      "checksum": "48a1fae703ea40d9",
+      "kind": "render",
+      "clip": [
+        0.15,
+        0.47,
+        0.5,
+        0.82
+      ],
+      "dpi": 220,
+      "url": "/media/matematika/ma-6-1/grafik-b-hal196.png"
+    }
+  ],
+  "rendered": [
+    {
+      "book": "Matematika-BG-KLS-X.pdf",
+      "page": 196,
+      "xref": null,
+      "w": 580,
+      "h": 803,
+      "bytes": 39322,
+      "file": "grafik-b-hal196.png",
+      "checksum": "48a1fae703ea40d9",
+      "kind": "render",
+      "clip": [
+        0.15,
+        0.47,
+        0.5,
+        0.82
+      ],
+      "dpi": 220,
+      "url": "/media/matematika/ma-6-1/grafik-b-hal196.png"
+    }
+  ]
+}

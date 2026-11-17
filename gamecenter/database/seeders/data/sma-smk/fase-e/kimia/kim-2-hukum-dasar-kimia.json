@@ -24,21 +24,409 @@
           "title": "Ciri dan Persamaan Reaksi Kimia",
           "duration": 240,
           "source_reference": "Bab IV — Reaksi Kimia",
-          "content": "## Ciri reaksi kimia\n\n1. Terbentuk **gas**\n2. Terjadi **perubahan warna**\n3. Terbentuk **endapan**\n4. Terjadi **perubahan suhu** (eksoterm atau endoterm)\n\n| Jenis | Kalor | Contoh |\n|---|---|---|\n| **Eksoterm** | dilepaskan ke lingkungan | pembakaran, pernapasan |\n| **Endoterm** | diserap dari lingkungan | fotosintesis |\n\n## Menuliskan persamaan reaksi\n\n```\nreaktan → produk\n```\n\n**Koefisien** ditulis di depan rumus dan boleh diubah saat menyetarakan. **Indeks** (angka kecil di dalam rumus) tidak boleh diubah karena mengubah zatnya.\n\nContoh setara:\n\n> **2H₂ + O₂ → 2H₂O**\n\nDiperiksa: 4 atom H dan 2 atom O di kedua ruas.\n\n### Langkah penyetaraan\n\n1. Tulis rumus reaktan dan produk\n2. Hitung jumlah atom setiap unsur\n3. Tambahkan koefisien agar jumlahnya sama\n4. Periksa ulang semua unsur\n\n**Katalis** mempercepat reaksi dengan menurunkan energi aktivasi dan tidak ikut terpakai."
+          "content": "## Ciri reaksi kimia\n\n1. Terbentuk **gas**\n2. Terjadi **perubahan warna**\n3. Terbentuk **endapan**\n4. Terjadi **perubahan suhu** (eksoterm atau endoterm)\n\n| Jenis | Kalor | Contoh |\n|---|---|---|\n| **Eksoterm** | dilepaskan ke lingkungan | pembakaran, pernapasan |\n| **Endoterm** | diserap dari lingkungan | fotosintesis |\n\n## Menuliskan persamaan reaksi\n\n```\nreaktan → produk\n```\n\n**Koefisien** ditulis di depan rumus dan boleh diubah saat menyetarakan. **Indeks** (angka kecil di dalam rumus) tidak boleh diubah karena mengubah zatnya.\n\nContoh setara:\n\n> **2H₂ + O₂ → 2H₂O**\n\nDiperiksa: 4 atom H dan 2 atom O di kedua ruas.\n\n### Langkah penyetaraan\n\n1. Tulis rumus reaktan dan produk\n2. Hitung jumlah atom setiap unsur\n3. Tambahkan koefisien agar jumlahnya sama\n4. Periksa ulang semua unsur\n\n**Katalis** mempercepat reaksi dengan menurunkan energi aktivasi dan tidak ikut terpakai.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Reaktan",
+                  "definition": "Zat yang bereaksi, ditulis di ruas kiri persamaan reaksi."
+                },
+                {
+                  "term": "Produk",
+                  "definition": "Zat hasil reaksi, ditulis di ruas kanan persamaan reaksi."
+                },
+                {
+                  "term": "Koefisien",
+                  "definition": "Angka di depan rumus zat yang boleh diubah saat menyetarakan reaksi."
+                },
+                {
+                  "term": "Katalis",
+                  "definition": "Zat yang mempercepat reaksi dengan menurunkan energi aktivasi tanpa ikut terpakai."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ciri reaksi kimia"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Terbentuk **gas**",
+                "Terjadi **perubahan warna**",
+                "Terbentuk **endapan**",
+                "Terjadi **perubahan suhu** (eksoterm atau endoterm)"
+              ]
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis",
+                  "Kalor",
+                  "Contoh"
+                ],
+                [
+                  "**Eksoterm**",
+                  "dilepaskan ke lingkungan",
+                  "pembakaran, pernapasan"
+                ],
+                [
+                  "**Endoterm**",
+                  "diserap dari lingkungan",
+                  "fotosintesis"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menuliskan persamaan reaksi"
+            },
+            {
+              "type": "code",
+              "text": "reaktan → produk"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Koefisien** ditulis di depan rumus dan boleh diubah saat menyetarakan. **Indeks** (angka kecil di dalam rumus) tidak boleh diubah karena mengubah zatnya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh setara:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**2H₂ + O₂ → 2H₂O**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Diperiksa: 4 atom H dan 2 atom O di kedua ruas."
+            },
+            {
+              "type": "sort",
+              "id": "srt-setara-reaksi",
+              "prompt": "Urutkan langkah menyetarakan persamaan reaksi.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Tulis rumus reaktan dan produk"
+                },
+                {
+                  "id": "s2",
+                  "text": "Hitung jumlah atom setiap unsur"
+                },
+                {
+                  "id": "s3",
+                  "text": "Tambahkan koefisien agar jumlah atom sama"
+                },
+                {
+                  "id": "s4",
+                  "text": "Periksa ulang semua unsur"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Urutan benar: tulis, hitung, setarakan, lalu periksa ulang.",
+                "wrong": "Mulai dari menulis persamaan, baru menghitung atom sebelum menambah koefisien."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-setara-air",
+              "question": "Pada persamaan 2H₂ + O₂ → 2H₂O, jumlah atom H di ruas kiri adalah …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "4",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "2"
+                },
+                {
+                  "id": "c",
+                  "text": "1"
+                }
+              ],
+              "explanation": "Koefisien 2 dikalikan indeks 2 pada H₂ menghasilkan 4 atom H, sama dengan 2 × 2 pada 2H₂O."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Langkah penyetaraan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Tulis rumus reaktan dan produk",
+                "Hitung jumlah atom setiap unsur",
+                "Tambahkan koefisien agar jumlahnya sama",
+                "Periksa ulang semua unsur"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Katalis** mempercepat reaksi dengan menurunkan energi aktivasi dan tidak ikut terpakai."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Empat Hukum Dasar Kimia",
           "duration": 360,
           "source_reference": "Bab IV — Hukum Dasar Kimia",
-          "content": "## 1. Hukum Lavoisier (Kekekalan Massa)\n\n> Massa zat sebelum reaksi = massa zat sesudah reaksi\n\nContoh: 56 g besi + 32 g belerang → **88 g** besi sulfida.\n\n## 2. Hukum Proust (Perbandingan Tetap)\n\nPerbandingan massa unsur dalam suatu senyawa selalu tetap.\n\nPada CO₂, massa C : O = 3 : 8. Jadi 12 g C memerlukan (8/3) × 12 = 32 g O, dan menghasilkan 44 g CO₂.\n\nPada MgO, massa Mg : O = 3 : 2. Jadi 9 g Mg memerlukan (2/3) × 9 = **6 g** O.\n\n## 3. Hukum Dalton (Perbandingan Berganda)\n\nBila dua unsur membentuk lebih dari satu senyawa, perbandingan massa unsur pada senyawa-senyawa itu merupakan bilangan bulat sederhana.\n\n## 4. Hukum Gay Lussac (Perbandingan Volume)\n\nPada suhu dan tekanan sama, perbandingan volume gas sebanding dengan perbandingan **koefisien**.\n\nContoh: N₂ + 3H₂ → 2NH₃. Volume 10 L N₂ menghasilkan **20 L** NH₃.\n\n## Kunci mengerjakan soal\n\nPerbandingan koefisien adalah jembatan antara zat yang diketahui dan yang ditanyakan."
+          "content": "## 1. Hukum Lavoisier (Kekekalan Massa)\n\n> Massa zat sebelum reaksi = massa zat sesudah reaksi\n\nContoh: 56 g besi + 32 g belerang → **88 g** besi sulfida.\n\n## 2. Hukum Proust (Perbandingan Tetap)\n\nPerbandingan massa unsur dalam suatu senyawa selalu tetap.\n\nPada CO₂, massa C : O = 3 : 8. Jadi 12 g C memerlukan (8/3) × 12 = 32 g O, dan menghasilkan 44 g CO₂.\n\nPada MgO, massa Mg : O = 3 : 2. Jadi 9 g Mg memerlukan (2/3) × 9 = **6 g** O.\n\n## 3. Hukum Dalton (Perbandingan Berganda)\n\nBila dua unsur membentuk lebih dari satu senyawa, perbandingan massa unsur pada senyawa-senyawa itu merupakan bilangan bulat sederhana.\n\n## 4. Hukum Gay Lussac (Perbandingan Volume)\n\nPada suhu dan tekanan sama, perbandingan volume gas sebanding dengan perbandingan **koefisien**.\n\nContoh: N₂ + 3H₂ → 2NH₃. Volume 10 L N₂ menghasilkan **20 L** NH₃.\n\n## Kunci mengerjakan soal\n\nPerbandingan koefisien adalah jembatan antara zat yang diketahui dan yang ditanyakan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "1. Hukum Lavoisier (Kekekalan Massa)"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Massa zat sebelum reaksi = massa zat sesudah reaksi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: 56 g besi + 32 g belerang → **88 g** besi sulfida."
+            },
+            {
+              "type": "timeline",
+              "id": "tl-hukum-kimia",
+              "title": "Empat hukum dasar kimia dan penemunya",
+              "items": [
+                {
+                  "when": "1789",
+                  "title": "Lavoisier — kekekalan massa",
+                  "text": "Massa zat sebelum dan sesudah reaksi selalu sama."
+                },
+                {
+                  "when": "1799",
+                  "title": "Proust — perbandingan tetap",
+                  "text": "Perbandingan massa unsur dalam satu senyawa selalu tetap."
+                },
+                {
+                  "when": "1803",
+                  "title": "Dalton — perbandingan berganda",
+                  "text": "Bila dua unsur membentuk beberapa senyawa, perbandingan massanya bilangan bulat sederhana."
+                },
+                {
+                  "when": "1808",
+                  "title": "Gay Lussac — perbandingan volume",
+                  "text": "Pada suhu dan tekanan sama, volume gas sebanding dengan koefisiennya."
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-hukum-kimia",
+              "prompt": "Kelompokkan pernyataan ke hukum yang sesuai.",
+              "buckets": [
+                {
+                  "id": "lavoisier",
+                  "label": "Lavoisier"
+                },
+                {
+                  "id": "proust",
+                  "label": "Proust"
+                },
+                {
+                  "id": "gaylussac",
+                  "label": "Gay Lussac"
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1",
+                  "text": "Massa 56 g besi + 32 g belerang menghasilkan 88 g besi sulfida",
+                  "bucket": "lavoisier"
+                },
+                {
+                  "id": "c2",
+                  "text": "Massa C : O pada CO₂ selalu 3 : 8",
+                  "bucket": "proust"
+                },
+                {
+                  "id": "c3",
+                  "text": "10 L N₂ menghasilkan 20 L NH₃ pada suhu dan tekanan sama",
+                  "bucket": "gaylussac"
+                },
+                {
+                  "id": "c4",
+                  "text": "Tidak ada massa yang hilang saat kayu terbakar dalam wadah tertutup",
+                  "bucket": "lavoisier"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — setiap pernyataan cocok dengan bunyi hukumnya.",
+                "wrong": "Bedakan: massa tetap (Lavoisier), perbandingan massa tetap (Proust), volume sebanding koefisien (Gay Lussac)."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "2. Hukum Proust (Perbandingan Tetap)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Perbandingan massa unsur dalam suatu senyawa selalu tetap."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada CO₂, massa C : O = 3 : 8. Jadi 12 g C memerlukan (8/3) × 12 = 32 g O, dan menghasilkan 44 g CO₂."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada MgO, massa Mg : O = 3 : 2. Jadi 9 g Mg memerlukan (2/3) × 9 = **6 g** O."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "3. Hukum Dalton (Perbandingan Berganda)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila dua unsur membentuk lebih dari satu senyawa, perbandingan massa unsur pada senyawa-senyawa itu merupakan bilangan bulat sederhana."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "4. Hukum Gay Lussac (Perbandingan Volume)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada suhu dan tekanan sama, perbandingan volume gas sebanding dengan perbandingan **koefisien**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: N₂ + 3H₂ → 2NH₃. Volume 10 L N₂ menghasilkan **20 L** NH₃."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kunci mengerjakan soal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Perbandingan koefisien adalah jembatan antara zat yang diketahui dan yang ditanyakan."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Menyelesaikan Kasus Sehari-hari",
           "duration": 240,
           "source_reference": "Bab IV — Penerapan",
-          "content": "## Empat langkah stoikiometri\n\n1. Tulis dan **setarakan** persamaan reaksi\n2. Tentukan mol zat yang diketahui\n3. Gunakan **perbandingan koefisien** untuk mencari mol zat yang ditanya\n4. Ubah mol menjadi massa atau volume\n\n## Contoh 1 — massa produk\n\n2 g hidrogen bereaksi dengan 16 g oksigen. Perbandingan massa H : O dalam air adalah 1 : 8, sehingga keduanya **tepat habis** dan tidak ada sisa.\n\n## Contoh 2 — massa reaktan yang hilang\n\n24 g karbon dibakar sempurna menghasilkan 88 g CO₂. Massa oksigen yang bereaksi = 88 − 24 = **64 g**.\n\n## Contoh 3 — reaksi dengan sisa\n\nJika 4 g hidrogen direaksikan dengan 32 g oksigen, massa air = 4 + 32 = **36 g** (tidak ada sisa karena perbandingan 1 : 8 terpenuhi).\n\n## Faktor yang mempercepat reaksi\n\n- suhu lebih tinggi → tumbukan lebih sering\n- konsentrasi lebih besar\n- luas permukaan lebih besar\n- adanya **katalis**\n\nSemua ini menurunkan hambatan sehingga reaksi berlangsung lebih cepat, **tanpa** mengubah hasil akhir."
+          "content": "## Empat langkah stoikiometri\n\n1. Tulis dan **setarakan** persamaan reaksi\n2. Tentukan mol zat yang diketahui\n3. Gunakan **perbandingan koefisien** untuk mencari mol zat yang ditanya\n4. Ubah mol menjadi massa atau volume\n\n## Contoh 1 — massa produk\n\n2 g hidrogen bereaksi dengan 16 g oksigen. Perbandingan massa H : O dalam air adalah 1 : 8, sehingga keduanya **tepat habis** dan tidak ada sisa.\n\n## Contoh 2 — massa reaktan yang hilang\n\n24 g karbon dibakar sempurna menghasilkan 88 g CO₂. Massa oksigen yang bereaksi = 88 − 24 = **64 g**.\n\n## Contoh 3 — reaksi dengan sisa\n\nJika 4 g hidrogen direaksikan dengan 32 g oksigen, massa air = 4 + 32 = **36 g** (tidak ada sisa karena perbandingan 1 : 8 terpenuhi).\n\n## Faktor yang mempercepat reaksi\n\n- suhu lebih tinggi → tumbukan lebih sering\n- konsentrasi lebih besar\n- luas permukaan lebih besar\n- adanya **katalis**\n\nSemua ini menurunkan hambatan sehingga reaksi berlangsung lebih cepat, **tanpa** mengubah hasil akhir.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Empat langkah stoikiometri"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Tulis dan **setarakan** persamaan reaksi",
+                "Tentukan mol zat yang diketahui",
+                "Gunakan **perbandingan koefisien** untuk mencari mol zat yang ditanya",
+                "Ubah mol menjadi massa atau volume"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh 1 — massa produk"
+            },
+            {
+              "type": "paragraph",
+              "text": "2 g hidrogen bereaksi dengan 16 g oksigen. Perbandingan massa H : O dalam air adalah 1 : 8, sehingga keduanya **tepat habis** dan tidak ada sisa."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh 2 — massa reaktan yang hilang"
+            },
+            {
+              "type": "paragraph",
+              "text": "24 g karbon dibakar sempurna menghasilkan 88 g CO₂. Massa oksigen yang bereaksi = 88 − 24 = **64 g**."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh 3 — reaksi dengan sisa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jika 4 g hidrogen direaksikan dengan 32 g oksigen, massa air = 4 + 32 = **36 g** (tidak ada sisa karena perbandingan 1 : 8 terpenuhi)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Faktor yang mempercepat reaksi"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "suhu lebih tinggi → tumbukan lebih sering",
+                "konsentrasi lebih besar",
+                "luas permukaan lebih besar",
+                "adanya **katalis**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Semua ini menurunkan hambatan sehingga reaksi berlangsung lebih cepat, **tanpa** mengubah hasil akhir."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-stoikiometri-cepat",
+              "title": "Tantangan Kilat: Hitungan Hukum Dasar",
+              "time_limit": 100,
+              "items": [
+                {
+                  "question": "56 g besi + 32 g belerang → … g besi sulfida",
+                  "answer": "88"
+                },
+                {
+                  "question": "Pada CO₂, 12 g C memerlukan … g oksigen (C : O = 3 : 8)",
+                  "answer": "32"
+                },
+                {
+                  "question": "Pada MgO, 9 g Mg memerlukan … g oksigen (Mg : O = 3 : 2)",
+                  "answer": "6"
+                },
+                {
+                  "question": "N₂ + 3H₂ → 2NH₃. Volume 10 L N₂ menghasilkan … L NH₃",
+                  "answer": "20"
+                },
+                {
+                  "question": "24 g karbon membentuk 88 g CO₂. Massa oksigen yang bereaksi = … g",
+                  "answer": "64"
+                }
+              ],
+              "feedback": {
+                "correct": "Semua tepat — perbandingan koefisien sudah dipakai dengan benar.",
+                "wrong": "Gunakan perbandingan koefisien atau perbandingan massa unsur, lalu periksa satuannya."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

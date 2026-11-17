@@ -23,21 +23,366 @@
           "title": "Struktur dan Ciri Virus",
           "duration": 240,
           "source_reference": "Bab II — Virus",
-          "content": "## Virus bukan sel\n\nVirus hanya terdiri atas:\n\n- **materi genetik** — DNA **atau** RNA\n- **kapsid** — selubung protein\n- kadang selubung tambahan dari lipid\n\nVirus **tidak memiliki** sitoplasma, ribosom, maupun mitokondria. Karena itu virus disebut **parasit obligat intraseluler**: hanya dapat bereproduksi di dalam sel hidup.\n\n### Ukuran\n\nSekitar 20–300 nm, jauh lebih kecil dari bakteri sehingga lolos dari penyaring air biasa.\n\n### Kekhususan inang\n\nVirus hanya menyerang sel yang memiliki **reseptor** cocok. Karena itu virus tertentu hanya menyerang jenis sel atau jaringan tertentu.\n\nVirus yang menyerang bakteri disebut **bakteriofag**.\n\n**Viroida** hanya berupa RNA tanpa kapsid dan menyerang tanaman.\n\n## Perdebatan status\n\nVirus tidak memiliki metabolisme sendiri, sehingga sebagian ilmuwan tidak menggolongkannya sebagai makhluk hidup."
+          "content": "## Virus bukan sel\n\nVirus hanya terdiri atas:\n\n- **materi genetik** — DNA **atau** RNA\n- **kapsid** — selubung protein\n- kadang selubung tambahan dari lipid\n\nVirus **tidak memiliki** sitoplasma, ribosom, maupun mitokondria. Karena itu virus disebut **parasit obligat intraseluler**: hanya dapat bereproduksi di dalam sel hidup.\n\n### Ukuran\n\nSekitar 20–300 nm, jauh lebih kecil dari bakteri sehingga lolos dari penyaring air biasa.\n\n### Kekhususan inang\n\nVirus hanya menyerang sel yang memiliki **reseptor** cocok. Karena itu virus tertentu hanya menyerang jenis sel atau jaringan tertentu.\n\nVirus yang menyerang bakteri disebut **bakteriofag**.\n\n**Viroida** hanya berupa RNA tanpa kapsid dan menyerang tanaman.\n\n## Perdebatan status\n\nVirus tidak memiliki metabolisme sendiri, sehingga sebagian ilmuwan tidak menggolongkannya sebagai makhluk hidup.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Kapsid",
+                  "definition": "Selubung protein yang membungkus materi genetik virus."
+                },
+                {
+                  "term": "Parasit obligat intraseluler",
+                  "definition": "Organisme yang hanya dapat bereproduksi di dalam sel hidup lain."
+                },
+                {
+                  "term": "Bakteriofag",
+                  "definition": "Virus yang menyerang bakteri."
+                },
+                {
+                  "term": "Viroida",
+                  "definition": "Partikel infeksius berupa RNA tanpa kapsid yang menyerang tanaman."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Virus bukan sel"
+            },
+            {
+              "type": "paragraph",
+              "text": "Virus hanya terdiri atas:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**materi genetik** — DNA **atau** RNA",
+                "**kapsid** — selubung protein",
+                "kadang selubung tambahan dari lipid"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Virus **tidak memiliki** sitoplasma, ribosom, maupun mitokondria. Karena itu virus disebut **parasit obligat intraseluler**: hanya dapat bereproduksi di dalam sel hidup."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-struktur-virus",
+              "engine": "mermaid",
+              "title": "Bagian-bagian virus",
+              "code": "flowchart TD\n  V[Virus] --> G[Materi genetik: DNA atau RNA]\n  V --> K[Kapsid: selubung protein]\n  K --> S[Kadang selubung lipid tambahan]\n  V --> R[Membutuhkan reseptor sel hidup]"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-virus-parasit",
+              "question": "Mengapa virus disebut parasit obligat intraseluler?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Karena tidak punya ribosom dan metabolisme sendiri, sehingga harus memakai sel hidup",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Karena virus selalu menyerang manusia"
+                },
+                {
+                  "id": "c",
+                  "text": "Karena virus dapat membuat makanan sendiri"
+                }
+              ],
+              "explanation": "Virus tidak memiliki sitoplasma, ribosom, maupun mitokondria. Tanpa sel inang ia tidak dapat menyintesis protein atau menggandakan diri."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Ukuran"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sekitar 20–300 nm, jauh lebih kecil dari bakteri sehingga lolos dari penyaring air biasa."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kekhususan inang"
+            },
+            {
+              "type": "paragraph",
+              "text": "Virus hanya menyerang sel yang memiliki **reseptor** cocok. Karena itu virus tertentu hanya menyerang jenis sel atau jaringan tertentu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Virus yang menyerang bakteri disebut **bakteriofag**."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Viroida** hanya berupa RNA tanpa kapsid dan menyerang tanaman."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perdebatan status"
+            },
+            {
+              "type": "paragraph",
+              "text": "Virus tidak memiliki metabolisme sendiri, sehingga sebagian ilmuwan tidak menggolongkannya sebagai makhluk hidup."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Replikasi Virus",
           "duration": 360,
           "source_reference": "Bab II — Replikasi Virus",
-          "content": "## Siklus litik\n\n| Tahap | Kejadian |\n|---|---|\n| **Adsorpsi** | virus menempel pada reseptor sel inang |\n| **Penetrasi** | materi genetik virus masuk (bakteriofag memakai enzim lisozim) |\n| **Sintesis** | sel inang membuat bagian-bagian virus baru |\n| **Perakitan** | bagian-bagian disusun menjadi virion |\n| **Lisis** | sel inang pecah, virus baru keluar |\n\n## Siklus lisogenik\n\nMateri genetik virus **menyisip** ke DNA inang dan ikut diperbanyak bersama sel inang. Virus dapat aktif kembali dan masuk siklus litik.\n\nPerbedaan kunci: **litik langsung menghancurkan sel**, lisogenik menyisipkan materi genetik tanpa segera membunuh sel.\n\n## Mengapa cepat bermutasi?\n\nMateri genetik virus sering berupa RNA yang tidak stabil saat diperbanyak, sehingga kesalahan replikasi lebih sering terjadi."
+          "content": "## Siklus litik\n\n| Tahap | Kejadian |\n|---|---|\n| **Adsorpsi** | virus menempel pada reseptor sel inang |\n| **Penetrasi** | materi genetik virus masuk (bakteriofag memakai enzim lisozim) |\n| **Sintesis** | sel inang membuat bagian-bagian virus baru |\n| **Perakitan** | bagian-bagian disusun menjadi virion |\n| **Lisis** | sel inang pecah, virus baru keluar |\n\n## Siklus lisogenik\n\nMateri genetik virus **menyisip** ke DNA inang dan ikut diperbanyak bersama sel inang. Virus dapat aktif kembali dan masuk siklus litik.\n\nPerbedaan kunci: **litik langsung menghancurkan sel**, lisogenik menyisipkan materi genetik tanpa segera membunuh sel.\n\n## Mengapa cepat bermutasi?\n\nMateri genetik virus sering berupa RNA yang tidak stabil saat diperbanyak, sehingga kesalahan replikasi lebih sering terjadi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Siklus litik"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tahap",
+                  "Kejadian"
+                ],
+                [
+                  "**Adsorpsi**",
+                  "virus menempel pada reseptor sel inang"
+                ],
+                [
+                  "**Penetrasi**",
+                  "materi genetik virus masuk (bakteriofag memakai enzim lisozim)"
+                ],
+                [
+                  "**Sintesis**",
+                  "sel inang membuat bagian-bagian virus baru"
+                ],
+                [
+                  "**Perakitan**",
+                  "bagian-bagian disusun menjadi virion"
+                ],
+                [
+                  "**Lisis**",
+                  "sel inang pecah, virus baru keluar"
+                ]
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-litik",
+              "prompt": "Urutkan tahap siklus litik.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Adsorpsi — virus menempel pada reseptor sel inang"
+                },
+                {
+                  "id": "s2",
+                  "text": "Penetrasi — materi genetik virus masuk"
+                },
+                {
+                  "id": "s3",
+                  "text": "Sintesis — sel inang membuat bagian-bagian virus"
+                },
+                {
+                  "id": "s4",
+                  "text": "Perakitan — bagian-bagian disusun menjadi virion"
+                },
+                {
+                  "id": "s5",
+                  "text": "Lisis — sel inang pecah dan virus keluar"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Tepat: menempel, masuk, menyintesis, merakit, lalu memecahkan sel.",
+                "wrong": "Mulai dari adsorpsi, dan ingat lisis selalu tahap terakhir karena sel inang pecah."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Siklus lisogenik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Materi genetik virus **menyisip** ke DNA inang dan ikut diperbanyak bersama sel inang. Virus dapat aktif kembali dan masuk siklus litik."
+            },
+            {
+              "type": "paragraph",
+              "text": "Perbedaan kunci: **litik langsung menghancurkan sel**, lisogenik menyisipkan materi genetik tanpa segera membunuh sel."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-lisogenik",
+              "question": "Ciri khas siklus lisogenik adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Materi genetik virus menyisip ke DNA inang tanpa segera membunuhnya",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Sel inang langsung pecah pada tahap pertama"
+                },
+                {
+                  "id": "c",
+                  "text": "Virus tidak membutuhkan sel inang"
+                }
+              ],
+              "explanation": "Pada lisogenik, DNA virus menyisip dan ikut diperbanyak bersama sel inang. Virus dapat aktif kembali dan berpindah ke siklus litik."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa cepat bermutasi?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Materi genetik virus sering berupa RNA yang tidak stabil saat diperbanyak, sehingga kesalahan replikasi lebih sering terjadi."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Peran Virus dan Pencegahan",
           "duration": 240,
           "source_reference": "Bab II — Peranan Virus",
-          "content": "## Peran merugikan\n\n| Penyakit | Penyebab |\n|---|---|\n| Influenza | virus influenza |\n| COVID-19 | SARS-CoV-2 (koronavirus) |\n| Campak, polio | virus |\n| Mosaik pada tanaman | virus tanaman |\n\nPerhatikan: **tifus** dan **disentri amuba** bukan disebabkan virus, melainkan bakteri; **malaria** oleh Plasmodium.\n\n## Peran menguntungkan\n\n- pembuatan **vaksin**\n- **terapi gen** dengan virus sebagai vektor\n- **bioteknologi** dan rekayasa genetika\n- pengendalian hama (biopestisida)\n\n## Mengapa antibiotik tidak mempan?\n\nAntibiotik menyerang dinding sel atau ribosom **bakteri**. Virus tidak memiliki keduanya, sehingga antibiotik tidak berpengaruh.\n\n## Pencegahan penularan\n\n1. Mencuci tangan dengan sabun\n2. Memakai masker saat sakit\n3. **Vaksinasi**\n4. Menjaga jarak dan tidak berbagi alat makan\n\nVaksin melatih sistem imun mengenali patogen tanpa menimbulkan penyakit berat.\n\n## Penularan droplet\n\nPenderita batuk → percikan keluar → terhirup orang lain → virus menginfeksi saluran pernapasan."
+          "content": "## Peran merugikan\n\n| Penyakit | Penyebab |\n|---|---|\n| Influenza | virus influenza |\n| COVID-19 | SARS-CoV-2 (koronavirus) |\n| Campak, polio | virus |\n| Mosaik pada tanaman | virus tanaman |\n\nPerhatikan: **tifus** dan **disentri amuba** bukan disebabkan virus, melainkan bakteri; **malaria** oleh Plasmodium.\n\n## Peran menguntungkan\n\n- pembuatan **vaksin**\n- **terapi gen** dengan virus sebagai vektor\n- **bioteknologi** dan rekayasa genetika\n- pengendalian hama (biopestisida)\n\n## Mengapa antibiotik tidak mempan?\n\nAntibiotik menyerang dinding sel atau ribosom **bakteri**. Virus tidak memiliki keduanya, sehingga antibiotik tidak berpengaruh.\n\n## Pencegahan penularan\n\n1. Mencuci tangan dengan sabun\n2. Memakai masker saat sakit\n3. **Vaksinasi**\n4. Menjaga jarak dan tidak berbagi alat makan\n\nVaksin melatih sistem imun mengenali patogen tanpa menimbulkan penyakit berat.\n\n## Penularan droplet\n\nPenderita batuk → percikan keluar → terhirup orang lain → virus menginfeksi saluran pernapasan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peran merugikan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Penyakit",
+                  "Penyebab"
+                ],
+                [
+                  "Influenza",
+                  "virus influenza"
+                ],
+                [
+                  "COVID-19",
+                  "SARS-CoV-2 (koronavirus)"
+                ],
+                [
+                  "Campak, polio",
+                  "virus"
+                ],
+                [
+                  "Mosaik pada tanaman",
+                  "virus tanaman"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Perhatikan: **tifus** dan **disentri amuba** bukan disebabkan virus, melainkan bakteri; **malaria** oleh Plasmodium."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peran menguntungkan"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "pembuatan **vaksin**",
+                "**terapi gen** dengan virus sebagai vektor",
+                "**bioteknologi** dan rekayasa genetika",
+                "pengendalian hama (biopestisida)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa antibiotik tidak mempan?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Antibiotik menyerang dinding sel atau ribosom **bakteri**. Virus tidak memiliki keduanya, sehingga antibiotik tidak berpengaruh."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pencegahan penularan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mencuci tangan dengan sabun",
+                "Memakai masker saat sakit",
+                "**Vaksinasi**",
+                "Menjaga jarak dan tidak berbagi alat makan"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vaksin melatih sistem imun mengenali patogen tanpa menimbulkan penyakit berat."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penularan droplet"
+            },
+            {
+              "type": "paragraph",
+              "text": "Penderita batuk → percikan keluar → terhirup orang lain → virus menginfeksi saluran pernapasan."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-virus-cepat",
+              "title": "Tantangan Kilat: Istilah Virus",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Virus yang menyerang bakteri disebut …",
+                  "answer": "bakteriofag"
+                },
+                {
+                  "question": "Selubung protein virus disebut …",
+                  "answer": "kapsid"
+                },
+                {
+                  "question": "Malaria disebabkan oleh …",
+                  "answer": "plasmodium"
+                },
+                {
+                  "question": "Materi genetik virus berupa DNA atau …",
+                  "answer": "rna"
+                },
+                {
+                  "question": "Viroida hanya berupa RNA tanpa …",
+                  "answer": "kapsid"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — istilah kunci virus sudah dikuasai.",
+                "wrong": "Ulangi bagian struktur virus: kapsid, materi genetik, bakteriofag, viroida."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

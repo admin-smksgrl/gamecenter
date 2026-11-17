@@ -26,28 +26,809 @@
           "title": "Konstitusi dan Norma dalam Kehidupan Sehari-hari",
           "duration": 340,
           "source_reference": "Bab 2 Unit 1–2",
-          "content": "## Apa itu konstitusi?\n\n**Konstitusi** adalah hukum dasar yang mengatur penyelenggaraan negara dan hubungan negara dengan warga negara.\n\n### Tujuan konstitusi\n\n- membatasi kekuasaan negara\n- menjamin hak-hak warga negara\n- memberi kepastian hukum\n\n### Jenis konstitusi\n\n| Jenis | Makna |\n|---|---|\n| tertulis | naskah resmi, seperti UUD 1945 |\n| tidak tertulis | konvensi atau kebiasaan ketatanegaraan |\n\n### Sejarah konstitusi Indonesia\n\n1. **UUD 1945** — disahkan PPKI 18 Agustus 1945\n2. **Konstitusi RIS** — 1949\n3. **UUDS 1950**\n4. **UUD 1945** — kembali berlaku melalui Dekrit Presiden 5 Juli 1959\n5. **UUD 1945 hasil amandemen** — 1999–2002\n\n## Empat macam norma\n\n| Norma | Sumber | Sanksi |\n|---|---|---|\n| **Agama** | Tuhan | dosa, hukuman akhirat |\n| **Kesusilaan** | hati nurani | rasa bersalah |\n| **Kesopanan** | kebiasaan masyarakat | celaan, pandangan tidak baik |\n| **Hukum** | negara | sanksi tegas dan memaksa |\n\nContoh: mengucapkan **permisi** adalah norma kesopanan; melanggar lalu lintas adalah pelanggaran norma **hukum**."
+          "content": "## Apa itu konstitusi?\n\n**Konstitusi** adalah hukum dasar yang mengatur penyelenggaraan negara dan hubungan negara dengan warga negara.\n\n### Tujuan konstitusi\n\n- membatasi kekuasaan negara\n- menjamin hak-hak warga negara\n- memberi kepastian hukum\n\n### Jenis konstitusi\n\n| Jenis | Makna |\n|---|---|\n| tertulis | naskah resmi, seperti UUD 1945 |\n| tidak tertulis | konvensi atau kebiasaan ketatanegaraan |\n\n### Sejarah konstitusi Indonesia\n\n1. **UUD 1945** — disahkan PPKI 18 Agustus 1945\n2. **Konstitusi RIS** — 1949\n3. **UUDS 1950**\n4. **UUD 1945** — kembali berlaku melalui Dekrit Presiden 5 Juli 1959\n5. **UUD 1945 hasil amandemen** — 1999–2002\n\n## Empat macam norma\n\n| Norma | Sumber | Sanksi |\n|---|---|---|\n| **Agama** | Tuhan | dosa, hukuman akhirat |\n| **Kesusilaan** | hati nurani | rasa bersalah |\n| **Kesopanan** | kebiasaan masyarakat | celaan, pandangan tidak baik |\n| **Hukum** | negara | sanksi tegas dan memaksa |\n\nContoh: mengucapkan **permisi** adalah norma kesopanan; melanggar lalu lintas adalah pelanggaran norma **hukum**.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Konstitusi",
+                  "definition": "Hukum dasar yang mengatur penyelenggaraan negara dan hubungan negara dengan warga negara."
+                },
+                {
+                  "term": "Konvensi",
+                  "definition": "Kebiasaan ketatanegaraan yang tidak tertulis tetapi dijalankan dalam praktik."
+                },
+                {
+                  "term": "Norma",
+                  "definition": "Aturan yang menjadi pedoman perilaku, dengan sumber dan sanksi masing-masing."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Apa itu konstitusi?"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Konstitusi** adalah hukum dasar yang mengatur penyelenggaraan negara dan hubungan negara dengan warga negara."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan2-konstitusi",
+              "question": "Hukum dasar yang mengatur penyelenggaraan negara dan hubungan negara dengan warga negara disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Konstitusi",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Konvensi"
+                },
+                {
+                  "id": "c",
+                  "text": "Peraturan daerah"
+                }
+              ],
+              "explanation": "Konstitusi adalah hukum dasar. Tujuannya membatasi kekuasaan negara, menjamin hak warga, dan memberi kepastian hukum."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tujuan konstitusi"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "membatasi kekuasaan negara",
+                "menjamin hak-hak warga negara",
+                "memberi kepastian hukum"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Jenis konstitusi"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis",
+                  "Makna"
+                ],
+                [
+                  "tertulis",
+                  "naskah resmi, seperti UUD 1945"
+                ],
+                [
+                  "tidak tertulis",
+                  "konvensi atau kebiasaan ketatanegaraan"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sejarah konstitusi Indonesia"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**UUD 1945** — disahkan PPKI 18 Agustus 1945",
+                "**Konstitusi RIS** — 1949",
+                "**UUDS 1950**",
+                "**UUD 1945** — kembali berlaku melalui Dekrit Presiden 5 Juli 1959",
+                "**UUD 1945 hasil amandemen** — 1999–2002"
+              ]
+            },
+            {
+              "type": "timeline",
+              "id": "tl-pan2-konstitusi",
+              "title": "Perjalanan konstitusi Indonesia",
+              "items": [
+                {
+                  "when": "18 Agustus 1945",
+                  "title": "UUD 1945 disahkan",
+                  "text": "PPKI mengesahkan UUD 1945 sebagai hukum dasar negara."
+                },
+                {
+                  "when": "1949",
+                  "title": "Konstitusi RIS",
+                  "text": "Indonesia berbentuk negara serikat dengan Konstitusi RIS."
+                },
+                {
+                  "when": "1950",
+                  "title": "UUDS 1950",
+                  "text": "Kembali ke bentuk negara kesatuan dengan UUDS 1950."
+                },
+                {
+                  "when": "5 Juli 1959",
+                  "title": "Dekrit Presiden",
+                  "text": "UUD 1945 kembali berlaku melalui Dekrit Presiden."
+                },
+                {
+                  "when": "1999–2002",
+                  "title": "Amandemen UUD 1945",
+                  "text": "UUD 1945 diperbarui melalui amandemen bertahap."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Empat macam norma"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Norma",
+                  "Sumber",
+                  "Sanksi"
+                ],
+                [
+                  "**Agama**",
+                  "Tuhan",
+                  "dosa, hukuman akhirat"
+                ],
+                [
+                  "**Kesusilaan**",
+                  "hati nurani",
+                  "rasa bersalah"
+                ],
+                [
+                  "**Kesopanan**",
+                  "kebiasaan masyarakat",
+                  "celaan, pandangan tidak baik"
+                ],
+                [
+                  "**Hukum**",
+                  "negara",
+                  "sanksi tegas dan memaksa"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: mengucapkan **permisi** adalah norma kesopanan; melanggar lalu lintas adalah pelanggaran norma **hukum**."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pan2-norma",
+              "prompt": "Kelompokkan sumber dan contoh berikut menurut macam normanya.",
+              "buckets": [
+                {
+                  "id": "agama",
+                  "label": "Norma agama"
+                },
+                {
+                  "id": "kesusilaan",
+                  "label": "Norma kesusilaan"
+                },
+                {
+                  "id": "kesopanan",
+                  "label": "Norma kesopanan"
+                },
+                {
+                  "id": "hukum",
+                  "label": "Norma hukum"
+                }
+              ],
+              "items": [
+                {
+                  "id": "n1",
+                  "text": "Sumbernya Tuhan",
+                  "bucket": "agama"
+                },
+                {
+                  "id": "n2",
+                  "text": "Sumbernya hati nurani",
+                  "bucket": "kesusilaan"
+                },
+                {
+                  "id": "n3",
+                  "text": "Sumbernya kebiasaan masyarakat",
+                  "bucket": "kesopanan"
+                },
+                {
+                  "id": "n4",
+                  "text": "Sumbernya negara",
+                  "bucket": "hukum"
+                },
+                {
+                  "id": "n5",
+                  "text": "Mengucapkan permisi",
+                  "bucket": "kesopanan"
+                },
+                {
+                  "id": "n6",
+                  "text": "Melanggar lalu lintas",
+                  "bucket": "hukum"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — setiap norma punya sumber dan sanksi berbeda: agama, kesusilaan, kesopanan, dan hukum.",
+                "wrong": "Agama bersumber dari Tuhan, kesusilaan dari hati nurani, kesopanan dari kebiasaan, hukum dari negara."
+              }
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Pancasila, UUD 1945, dan Hierarki Peraturan",
           "duration": 340,
           "source_reference": "Bab 2 Unit 3–6",
-          "content": "## Hubungan Pancasila dan UUD 1945\n\n**Pancasila adalah sumber dari segala sumber hukum.** Semua peraturan harus bersumber pada nilai Pancasila dan tidak boleh bertentangan dengannya. UUD 1945 adalah **penjabaran hukum** dari nilai tersebut.\n\n## Hierarki peraturan perundang-undangan (UU 12/2011)\n\n1. **UUD NRI Tahun 1945**\n2. **TAP MPR**\n3. **Undang-Undang / Peraturan Pemerintah Pengganti Undang-Undang**\n4. **Peraturan Pemerintah (PP)**\n5. **Peraturan Presiden (Perpres)**\n6. **Peraturan Daerah Provinsi**\n7. **Peraturan Daerah Kabupaten/Kota**\n\n## Asas penting\n\n| Asas | Arti |\n|---|---|\n| **lex superior derogat legi inferiori** | peraturan lebih rendah tidak boleh bertentangan dengan yang lebih tinggi |\n| **lex specialis derogat legi generali** | aturan khusus mengesampingkan aturan umum |\n| **lex posterior derogat legi priori** | aturan baru mengesampingkan aturan lama |\n\n## Sinkron dan tumpang tindih\n\n- **Sinkron** — peraturan saling mendukung, tidak bertentangan\n- **Tumpang tindih** — dua aturan mengatur hal sama secara berbeda\n\nTumpang tindih menyebabkan **kebingungan penegakan** dan **ketidakpastian hukum**.\n\nJika peraturan daerah bertentangan dengan undang-undang, peraturan daerah itu **tidak sah** dan harus dibatalkan."
+          "content": "## Hubungan Pancasila dan UUD 1945\n\n**Pancasila adalah sumber dari segala sumber hukum.** Semua peraturan harus bersumber pada nilai Pancasila dan tidak boleh bertentangan dengannya. UUD 1945 adalah **penjabaran hukum** dari nilai tersebut.\n\n## Hierarki peraturan perundang-undangan (UU 12/2011)\n\n1. **UUD NRI Tahun 1945**\n2. **TAP MPR**\n3. **Undang-Undang / Peraturan Pemerintah Pengganti Undang-Undang**\n4. **Peraturan Pemerintah (PP)**\n5. **Peraturan Presiden (Perpres)**\n6. **Peraturan Daerah Provinsi**\n7. **Peraturan Daerah Kabupaten/Kota**\n\n## Asas penting\n\n| Asas | Arti |\n|---|---|\n| **lex superior derogat legi inferiori** | peraturan lebih rendah tidak boleh bertentangan dengan yang lebih tinggi |\n| **lex specialis derogat legi generali** | aturan khusus mengesampingkan aturan umum |\n| **lex posterior derogat legi priori** | aturan baru mengesampingkan aturan lama |\n\n## Sinkron dan tumpang tindih\n\n- **Sinkron** — peraturan saling mendukung, tidak bertentangan\n- **Tumpang tindih** — dua aturan mengatur hal sama secara berbeda\n\nTumpang tindih menyebabkan **kebingungan penegakan** dan **ketidakpastian hukum**.\n\nJika peraturan daerah bertentangan dengan undang-undang, peraturan daerah itu **tidak sah** dan harus dibatalkan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hubungan Pancasila dan UUD 1945"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pancasila adalah sumber dari segala sumber hukum.** Semua peraturan harus bersumber pada nilai Pancasila dan tidak boleh bertentangan dengannya. UUD 1945 adalah **penjabaran hukum** dari nilai tersebut."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pan2-hierarki",
+              "engine": "mermaid",
+              "title": "Pancasila sebagai sumber dari segala sumber hukum",
+              "code": "flowchart TD\n  A[Pancasila: sumber segala sumber hukum] --> B[UUD NRI 1945]\n  B --> C[TAP MPR]\n  C --> D[UU dan Perppu]\n  D --> E[Peraturan Pemerintah]\n  E --> F[Peraturan Presiden]\n  F --> G[Perda Provinsi]\n  G --> H[Perda Kabupaten dan Kota]"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hierarki peraturan perundang-undangan (UU 12/2011)"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**UUD NRI Tahun 1945**",
+                "**TAP MPR**",
+                "**Undang-Undang / Peraturan Pemerintah Pengganti Undang-Undang**",
+                "**Peraturan Pemerintah (PP)**",
+                "**Peraturan Presiden (Perpres)**",
+                "**Peraturan Daerah Provinsi**",
+                "**Peraturan Daerah Kabupaten/Kota**"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pan2-hierarki",
+              "prompt": "Urutkan hierarki peraturan perundang-undangan dari tertinggi.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "UUD NRI Tahun 1945"
+                },
+                {
+                  "id": "s2",
+                  "text": "TAP MPR"
+                },
+                {
+                  "id": "s3",
+                  "text": "Undang-Undang / Perppu"
+                },
+                {
+                  "id": "s4",
+                  "text": "Peraturan Pemerintah"
+                },
+                {
+                  "id": "s5",
+                  "text": "Peraturan Presiden"
+                },
+                {
+                  "id": "s6",
+                  "text": "Peraturan Daerah Provinsi"
+                },
+                {
+                  "id": "s7",
+                  "text": "Peraturan Daerah Kabupaten/Kota"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5",
+                "s6",
+                "s7"
+              ],
+              "feedback": {
+                "correct": "Benar — UUD 1945, TAP MPR, UU/Perppu, PP, Perpres, Perda Provinsi, lalu Perda Kabupaten/Kota.",
+                "wrong": "Urutkan dari yang tertinggi: UUD 1945 → TAP MPR → UU/Perppu → PP → Perpres → Perda Provinsi → Perda Kabupaten/Kota."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Asas penting"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Asas",
+                  "Arti"
+                ],
+                [
+                  "**lex superior derogat legi inferiori**",
+                  "peraturan lebih rendah tidak boleh bertentangan dengan yang lebih tinggi"
+                ],
+                [
+                  "**lex specialis derogat legi generali**",
+                  "aturan khusus mengesampingkan aturan umum"
+                ],
+                [
+                  "**lex posterior derogat legi priori**",
+                  "aturan baru mengesampingkan aturan lama"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan2-superior",
+              "question": "Asas yang menyatakan peraturan lebih rendah tidak boleh bertentangan dengan peraturan lebih tinggi adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Lex superior derogat legi inferiori",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Lex specialis derogat legi generali"
+                },
+                {
+                  "id": "c",
+                  "text": "Lex posterior derogat legi priori"
+                }
+              ],
+              "explanation": "Lex superior mengatur hubungan antarjenjang. Lex specialis berarti aturan khusus mengesampingkan aturan umum, dan lex posterior berarti aturan baru mengesampingkan aturan lama."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sinkron dan tumpang tindih"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Sinkron** — peraturan saling mendukung, tidak bertentangan",
+                "**Tumpang tindih** — dua aturan mengatur hal sama secara berbeda"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Tumpang tindih menyebabkan **kebingungan penegakan** dan **ketidakpastian hukum**."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jika peraturan daerah bertentangan dengan undang-undang, peraturan daerah itu **tidak sah** dan harus dibatalkan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan2-perda",
+              "question": "Jika peraturan daerah bertentangan dengan undang-undang, peraturan daerah itu…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Tidak sah dan harus dibatalkan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Tetap berlaku karena dibuat lebih dulu"
+                },
+                {
+                  "id": "c",
+                  "text": "Otomatis mengubah undang-undang"
+                }
+              ],
+              "explanation": "Karena kedudukannya lebih rendah, perda yang bertentangan dengan UU tidak sah dan harus dibatalkan agar tidak menimbulkan ketidakpastian hukum."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Membuat Kesepakatan dan Menganalisis Peraturan",
           "duration": 320,
           "source_reference": "Bab 2 Unit 4, 7",
-          "content": "## Membuat kesepakatan bersama\n\n1. **Membuka** pertemuan dan menyepakati agenda\n2. **Menampung** semua pendapat tanpa memotong\n3. **Membahas** usulan dan mencari titik temu\n4. **Menyetujui** hasil musyawarah (sedapat mungkin mufakat)\n5. **Mencatat** dan menandatangani kesepakatan\n\nKesepakatan bersama lebih kuat daripada keputusan sepihak karena pihak yang terlibat **merasa terikat** dan ikut bertanggung jawab.\n\n## Menganalisis sebuah peraturan\n\nPertanyaan yang dipakai:\n\n1. Apakah peraturan ini diarahkan untuk mencapai **tujuan pendirian negara**?\n2. Apakah ia **melayani rakyat kebanyakan**?\n3. Apakah ia berpotensi **melanggar hak** atau menimbulkan ketidakadilan?\n4. Apakah pelaksanaannya **dapat dipantau**?\n\n## Budaya taat hukum\n\nTaat hukum bukan karena takut petugas, melainkan karena **kesadaran**. Contohnya berhenti di lampu merah meskipun jalan sepi.\n\nPerbaikan aturan yang tidak sesuai dilakukan melalui **jalur resmi**, bukan dengan melanggar diam-diam."
+          "content": "## Membuat kesepakatan bersama\n\n1. **Membuka** pertemuan dan menyepakati agenda\n2. **Menampung** semua pendapat tanpa memotong\n3. **Membahas** usulan dan mencari titik temu\n4. **Menyetujui** hasil musyawarah (sedapat mungkin mufakat)\n5. **Mencatat** dan menandatangani kesepakatan\n\nKesepakatan bersama lebih kuat daripada keputusan sepihak karena pihak yang terlibat **merasa terikat** dan ikut bertanggung jawab.\n\n## Menganalisis sebuah peraturan\n\nPertanyaan yang dipakai:\n\n1. Apakah peraturan ini diarahkan untuk mencapai **tujuan pendirian negara**?\n2. Apakah ia **melayani rakyat kebanyakan**?\n3. Apakah ia berpotensi **melanggar hak** atau menimbulkan ketidakadilan?\n4. Apakah pelaksanaannya **dapat dipantau**?\n\n## Budaya taat hukum\n\nTaat hukum bukan karena takut petugas, melainkan karena **kesadaran**. Contohnya berhenti di lampu merah meskipun jalan sepi.\n\nPerbaikan aturan yang tidak sesuai dilakukan melalui **jalur resmi**, bukan dengan melanggar diam-diam.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat kesepakatan bersama"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Membuka** pertemuan dan menyepakati agenda",
+                "**Menampung** semua pendapat tanpa memotong",
+                "**Membahas** usulan dan mencari titik temu",
+                "**Menyetujui** hasil musyawarah (sedapat mungkin mufakat)",
+                "**Mencatat** dan menandatangani kesepakatan"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Kesepakatan bersama lebih kuat daripada keputusan sepihak karena pihak yang terlibat **merasa terikat** dan ikut bertanggung jawab."
+            },
+            {
+              "type": "sort",
+              "id": "srt-pan2-kesepakatan",
+              "prompt": "Urutkan langkah membuat kesepakatan bersama.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Membuka pertemuan dan menyepakati agenda"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menampung semua pendapat tanpa memotong"
+                },
+                {
+                  "id": "s3",
+                  "text": "Membahas usulan dan mencari titik temu"
+                },
+                {
+                  "id": "s4",
+                  "text": "Menyetujui hasil musyawarah, sedapat mungkin mufakat"
+                },
+                {
+                  "id": "s5",
+                  "text": "Mencatat dan menandatangani kesepakatan"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar — buka agenda, tampung pendapat, bahas, setujui, lalu catat dan tanda tangani.",
+                "wrong": "Mulai dari membuka pertemuan dan agenda, lalu menampung pendapat sebelum membahas."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menganalisis sebuah peraturan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pertanyaan yang dipakai:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Apakah peraturan ini diarahkan untuk mencapai **tujuan pendirian negara**?",
+                "Apakah ia **melayani rakyat kebanyakan**?",
+                "Apakah ia berpotensi **melanggar hak** atau menimbulkan ketidakadilan?",
+                "Apakah pelaksanaannya **dapat dipantau**?"
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan2-analisis",
+              "question": "Saat menganalisis sebuah peraturan, pertanyaan yang tepat adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Apakah peraturan melayani rakyat kebanyakan dan tidak melanggar hak?",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Apakah peraturan menguntungkan pejabat pembuatnya?"
+                },
+                {
+                  "id": "c",
+                  "text": "Apakah peraturan cukup panjang?"
+                }
+              ],
+              "explanation": "Analisis peraturan menimbang tujuan negara, pelayanan kepada rakyat, perlindungan hak, dan kemungkinan pengawasan pelaksanaannya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Budaya taat hukum"
+            },
+            {
+              "type": "paragraph",
+              "text": "Taat hukum bukan karena takut petugas, melainkan karena **kesadaran**. Contohnya berhenti di lampu merah meskipun jalan sepi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Perbaikan aturan yang tidak sesuai dilakukan melalui **jalur resmi**, bukan dengan melanggar diam-diam."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pan2-hukum",
+              "title": "Tantangan Kilat: Konstitusi dan Norma",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Hukum dasar negara disebut…",
+                  "answer": "konstitusi"
+                },
+                {
+                  "question": "UUD 1945 disahkan PPKI pada 18… 1945",
+                  "answer": "agustus"
+                },
+                {
+                  "question": "Norma yang bersumber dari hati nurani adalah norma…",
+                  "answer": "kesusilaan"
+                },
+                {
+                  "question": "Aturan khusus mengesampingkan aturan umum: lex… derogat legi generali",
+                  "answer": "specialis"
+                },
+                {
+                  "question": "Aturan baru mengesampingkan aturan lama: lex posterior derogat legi…",
+                  "answer": "priori"
+                },
+                {
+                  "question": "Taat hukum karena kesadaran, bukan karena…",
+                  "answer": "takut"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — konstitusi, norma, dan asas peraturan menjaga kepastian hukum.",
+                "wrong": "Ingat: konstitusi, norma kesusilaan, lex specialis, lex posterior, dan taat hukum karena kesadaran."
+              }
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Hak, Kewajiban, dan Penegakan Aturan",
           "duration": 280,
           "source_reference": "Bab 2 Pendalaman",
-          "content": "## Keseimbangan hak dan kewajiban\n\n> Hak seseorang dibatasi oleh hak orang lain.\n\nContoh: hak berpendapat diimbangi kewajiban menghormati pendapat berbeda.\n\n## Sanksi sebagai alat penegakan\n\n| Pelanggaran | Norma | Sanksi |\n|---|---|---|\n| mencuri | hukum | pidana |\n| berbohong kepada orang tua | kesusilaan | rasa bersalah |\n| tidak menghormati guru | kesopanan | teguran |\n| meninggalkan ibadah | agama | dosa |\n\n## Peran sosialisasi\n\nPeraturan yang tidak diketahui warga sulit dipatuhi. Karena itu sosialisasi dilakukan melalui sekolah, media, dan penyuluhan.\n\n## Peran sekolah\n\nTata tertib sekolah adalah latihan bersikap taat aturan: datang tepat waktu, memakai seragam sesuai ketentuan, dan mengikuti ujian dengan jujur."
+          "content": "## Keseimbangan hak dan kewajiban\n\n> Hak seseorang dibatasi oleh hak orang lain.\n\nContoh: hak berpendapat diimbangi kewajiban menghormati pendapat berbeda.\n\n## Sanksi sebagai alat penegakan\n\n| Pelanggaran | Norma | Sanksi |\n|---|---|---|\n| mencuri | hukum | pidana |\n| berbohong kepada orang tua | kesusilaan | rasa bersalah |\n| tidak menghormati guru | kesopanan | teguran |\n| meninggalkan ibadah | agama | dosa |\n\n## Peran sosialisasi\n\nPeraturan yang tidak diketahui warga sulit dipatuhi. Karena itu sosialisasi dilakukan melalui sekolah, media, dan penyuluhan.\n\n## Peran sekolah\n\nTata tertib sekolah adalah latihan bersikap taat aturan: datang tepat waktu, memakai seragam sesuai ketentuan, dan mengikuti ujian dengan jujur.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Keseimbangan hak dan kewajiban"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Hak seseorang dibatasi oleh hak orang lain."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: hak berpendapat diimbangi kewajiban menghormati pendapat berbeda."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sanksi sebagai alat penegakan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Pelanggaran",
+                  "Norma",
+                  "Sanksi"
+                ],
+                [
+                  "mencuri",
+                  "hukum",
+                  "pidana"
+                ],
+                [
+                  "berbohong kepada orang tua",
+                  "kesusilaan",
+                  "rasa bersalah"
+                ],
+                [
+                  "tidak menghormati guru",
+                  "kesopanan",
+                  "teguran"
+                ],
+                [
+                  "meninggalkan ibadah",
+                  "agama",
+                  "dosa"
+                ]
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pan2-sanksi",
+              "prompt": "Kelompokkan pelanggaran berikut menurut norma dan sanksinya.",
+              "buckets": [
+                {
+                  "id": "hukum",
+                  "label": "Norma hukum — pidana"
+                },
+                {
+                  "id": "kesusilaan",
+                  "label": "Norma kesusilaan — rasa bersalah"
+                },
+                {
+                  "id": "kesopanan",
+                  "label": "Norma kesopanan — teguran"
+                },
+                {
+                  "id": "agama",
+                  "label": "Norma agama — dosa"
+                }
+              ],
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Mencuri",
+                  "bucket": "hukum"
+                },
+                {
+                  "id": "s2",
+                  "text": "Berbohong kepada orang tua",
+                  "bucket": "kesusilaan"
+                },
+                {
+                  "id": "s3",
+                  "text": "Tidak menghormati guru",
+                  "bucket": "kesopanan"
+                },
+                {
+                  "id": "s4",
+                  "text": "Meninggalkan ibadah",
+                  "bucket": "agama"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — sanksi mengikuti norma yang dilanggar, dari pidana sampai dosa.",
+                "wrong": "Mencuri → hukum, berbohong kepada orang tua → kesusilaan, tidak menghormati guru → kesopanan, meninggalkan ibadah → agama."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peran sosialisasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Peraturan yang tidak diketahui warga sulit dipatuhi. Karena itu sosialisasi dilakukan melalui sekolah, media, dan penyuluhan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peran sekolah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tata tertib sekolah adalah latihan bersikap taat aturan: datang tepat waktu, memakai seragam sesuai ketentuan, dan mengikuti ujian dengan jujur."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pan2-lampu-merah",
+              "title": "Lampu merah di jalan yang sepi",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Malam hari, jalan sangat sepi. Lampu merah menyala dan tidak ada kendaraan lain. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Tetap berhenti karena taat hukum adalah kesadaran",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Budaya taat hukum bukan karena takut petugas, melainkan karena kesadaran."
+                    },
+                    {
+                      "text": "Menerobos karena jalan sepi dan tidak ada petugas",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menerobos saat tidak diawasi menunjukkan ketaatan hanya karena takut sanksi."
+                    },
+                    {
+                      "text": "Berhenti, tetapi hanya karena takut kamera tilang",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Berhenti itu benar, tetapi alasannya belum menunjukkan kesadaran hukum."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Temanmu bertanya mengapa kamu tetap berhenti padahal sepi. Apa jawabmu?",
+                  "choices": [
+                    {
+                      "text": "Karena aturan berlaku tanpa menunggu ada petugas",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Aturan berlaku terus; kesadaran membuat kita taat tanpa pengawasan."
+                    },
+                    {
+                      "text": "Karena takut ditilang kalau ada kamera",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Takut sanksi masih lebih baik daripada melanggar, tetapi belum menjadi kesadaran."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Di persimpangan berikutnya ada razia. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengakui pernah menerobos dan berjanji tidak mengulangi",
+                      "next": "n7",
+                      "score": 1,
+                      "feedback": "Mengakui dan memperbaiki diri adalah langkah menuju ketaatan yang sadar."
+                    },
+                    {
+                      "text": "Berhenti hanya saat ada razia dan menerobos lagi setelahnya",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "Taat hanya saat diawasi bukan budaya taat hukum."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Kamera ternyata tidak berfungsi. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Tetap berhenti karena aturan tetap berlaku",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Ketaatan tidak bergantung pada ada atau tidaknya pengawasan."
+                    },
+                    {
+                      "text": "Menerobos karena tidak akan tertangkap",
+                      "next": "n8",
+                      "score": 0,
+                      "feedback": "Melanggar saat tidak diawasi menunjukkan hukum hanya dipatuhi karena takut."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kamu taat karena kesadaran. Budaya taat hukum terbentuk dari kebiasaan kecil seperti ini."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Kamu berhenti, tetapi masih bergantung pada rasa takut. Kesadaran hukum perlu dilatih."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Kamu mengakui kesalahan dan mulai memperbaiki diri. Itu langkah yang lebih baik."
+                },
+                {
+                  "id": "n8",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Ketaatan hanya muncul saat diawasi. Pelanggaran akan terulang setiap kali tidak ada petugas."
+                }
+              ]
+            }
+          ]
         }
       ],
       "assessments": [

@@ -1,11 +1,18 @@
 export type ToastTone = 'success' | 'error' | 'info' | 'warning';
 
+/** Tombol opsional pada toast, misalnya "Coba lagi" setelah gagal tersambung. */
+export interface ToastAction {
+    label: string;
+    onClick: () => void;
+}
+
 export interface ToastInput {
     tone?: ToastTone;
     title: string;
     description?: string | null;
     /** Durasi tampil dalam milidetik. Isi 0 agar toast tidak menutup sendiri. */
     duration?: number;
+    action?: ToastAction | null;
 }
 
 export interface ToastItem {
@@ -14,6 +21,7 @@ export interface ToastItem {
     title: string;
     description: string | null;
     duration: number;
+    action: ToastAction | null;
 }
 
 type Listener = () => void;
@@ -83,7 +91,10 @@ export function pushToast(input: ToastInput): number {
         tone,
         title: input.title,
         description: input.description?.trim() || null,
-        duration: input.duration ?? (tone === 'error' ? 7000 : 4800),
+        duration:
+            input.duration ??
+            (tone === 'error' ? (input.action ? 12000 : 7000) : 4800),
+        action: input.action ?? null,
     };
 
     toasts = [...toasts, item].slice(-MAX_VISIBLE);

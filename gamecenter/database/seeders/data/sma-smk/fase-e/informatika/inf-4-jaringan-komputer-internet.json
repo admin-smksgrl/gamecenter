@@ -22,21 +22,373 @@
           "title": "Jaringan Lokal dan Internet",
           "duration": 240,
           "source_reference": "Bab 5 — Jaringan Komputer dan Internet",
-          "content": "## Dari jaringan kecil ke jaringan global\n\n**LAN** (Local Area Network) menghubungkan perangkat dalam wilayah terbatas: satu ruangan, satu gedung, atau satu sekolah.\n\n**Internet** adalah jaringan global yang menghubungkan jutaan jaringan lokal di seluruh dunia.\n\n### Perangkat penghubung\n\n| Perangkat | Fungsi |\n|---|---|\n| **Switch** | menghubungkan perangkat dalam satu jaringan lokal |\n| **Router** | meneruskan paket antar jaringan berbeda, termasuk ke internet |\n| **Access point** | memancarkan sinyal nirkabel |\n| **Modem** | mengubah sinyal digital ke sinyal saluran komunikasi |\n\n### Alamat IP\n\nSetiap perangkat memiliki alamat IP sebagai identitas, misalnya 192.168.1.1 pada IPv4 yang terdiri atas empat bilangan dipisahkan titik.\n\n### Intranet\n\nIntranet memakai teknologi internet tetapi aksesnya terbatas untuk kalangan tertentu, misalnya sistem internal sekolah."
+          "content": "## Dari jaringan kecil ke jaringan global\n\n**LAN** (Local Area Network) menghubungkan perangkat dalam wilayah terbatas: satu ruangan, satu gedung, atau satu sekolah.\n\n**Internet** adalah jaringan global yang menghubungkan jutaan jaringan lokal di seluruh dunia.\n\n### Perangkat penghubung\n\n| Perangkat | Fungsi |\n|---|---|\n| **Switch** | menghubungkan perangkat dalam satu jaringan lokal |\n| **Router** | meneruskan paket antar jaringan berbeda, termasuk ke internet |\n| **Access point** | memancarkan sinyal nirkabel |\n| **Modem** | mengubah sinyal digital ke sinyal saluran komunikasi |\n\n### Alamat IP\n\nSetiap perangkat memiliki alamat IP sebagai identitas, misalnya 192.168.1.1 pada IPv4 yang terdiri atas empat bilangan dipisahkan titik.\n\n### Intranet\n\nIntranet memakai teknologi internet tetapi aksesnya terbatas untuk kalangan tertentu, misalnya sistem internal sekolah.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "LAN",
+                  "definition": "Jaringan yang menghubungkan perangkat dalam wilayah terbatas seperti satu gedung atau sekolah."
+                },
+                {
+                  "term": "Switch",
+                  "definition": "Menghubungkan perangkat dalam satu jaringan lokal."
+                },
+                {
+                  "term": "Router",
+                  "definition": "Meneruskan paket antar jaringan berbeda, termasuk ke internet."
+                },
+                {
+                  "term": "Access point",
+                  "definition": "Memancarkan sinyal nirkabel agar perangkat dapat terhubung tanpa kabel."
+                },
+                {
+                  "term": "Alamat IP",
+                  "definition": "Identitas numerik setiap perangkat di jaringan, misalnya 192.168.1.1 pada IPv4."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari jaringan kecil ke jaringan global"
+            },
+            {
+              "type": "paragraph",
+              "text": "**LAN** (Local Area Network) menghubungkan perangkat dalam wilayah terbatas: satu ruangan, satu gedung, atau satu sekolah."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Internet** adalah jaringan global yang menghubungkan jutaan jaringan lokal di seluruh dunia."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Perangkat penghubung"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Perangkat",
+                  "Fungsi"
+                ],
+                [
+                  "**Switch**",
+                  "menghubungkan perangkat dalam satu jaringan lokal"
+                ],
+                [
+                  "**Router**",
+                  "meneruskan paket antar jaringan berbeda, termasuk ke internet"
+                ],
+                [
+                  "**Access point**",
+                  "memancarkan sinyal nirkabel"
+                ],
+                [
+                  "**Modem**",
+                  "mengubah sinyal digital ke sinyal saluran komunikasi"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-jaringan",
+              "engine": "mermaid",
+              "title": "Perangkat penghubung dari LAN ke internet",
+              "code": "flowchart LR\n  A[Komputer di LAN] --> B[Switch]\n  C[Laptop nirkabel] --> D[Access point]\n  D --> B\n  B --> E[Router]\n  E --> F[Modem]\n  F --> G[Internet]"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-router",
+              "question": "Perangkat yang meneruskan paket antar jaringan berbeda, termasuk ke internet, adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Router",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Switch"
+                },
+                {
+                  "id": "c",
+                  "text": "Access point"
+                }
+              ],
+              "explanation": "Switch hanya menghubungkan perangkat dalam satu jaringan lokal, sedangkan router menghubungkan jaringan lokal dengan jaringan lain."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Alamat IP"
+            },
+            {
+              "type": "paragraph",
+              "text": "Setiap perangkat memiliki alamat IP sebagai identitas, misalnya 192.168.1.1 pada IPv4 yang terdiri atas empat bilangan dipisahkan titik."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Intranet"
+            },
+            {
+              "type": "paragraph",
+              "text": "Intranet memakai teknologi internet tetapi aksesnya terbatas untuk kalangan tertentu, misalnya sistem internal sekolah."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Konektivitas Kabel dan Nirkabel",
           "duration": 360,
           "source_reference": "Bab 5 — Konektivitas",
-          "content": "## Dua cara menghubungkan perangkat\n\n**Kabel** — data mengalir melalui media fisik:\n- kabel UTP (Ethernet, standar IEEE 802.3)\n- serat optik, memakai cahaya sehingga sangat cepat dan tahan gangguan\n\n**Nirkabel** — data dipancarkan sebagai gelombang elektromagnetik:\n- Wi-Fi (standar IEEE 802.11)\n- Bluetooth untuk jarak pendek\n- jaringan seluler 4G/5G untuk komunikasi data melalui HP\n\n### Perbandingan\n\n| Aspek | Kabel | Nirkabel |\n|---|---|---|\n| Stabilitas | tinggi | rentan gangguan |\n| Mobilitas | terbatas | tinggi |\n| Keamanan | lebih sulit disadap | lebih mudah disadap |\n\n### Bandwidth\n\nBandwidth menyatakan banyaknya data yang dapat dikirim per satuan waktu, diukur dalam bit per detik. Semakin besar bandwidth, semakin banyak data yang dapat lewat.\n\n### Generasi seluler\n\nSetiap generasi (2G, 3G, 4G, 5G) meningkatkan kecepatan data dan menurunkan latensi. 5G menawarkan latensi sangat rendah sehingga cocok untuk aplikasi waktu nyata."
+          "content": "## Dua cara menghubungkan perangkat\n\n**Kabel** — data mengalir melalui media fisik:\n- kabel UTP (Ethernet, standar IEEE 802.3)\n- serat optik, memakai cahaya sehingga sangat cepat dan tahan gangguan\n\n**Nirkabel** — data dipancarkan sebagai gelombang elektromagnetik:\n- Wi-Fi (standar IEEE 802.11)\n- Bluetooth untuk jarak pendek\n- jaringan seluler 4G/5G untuk komunikasi data melalui HP\n\n### Perbandingan\n\n| Aspek | Kabel | Nirkabel |\n|---|---|---|\n| Stabilitas | tinggi | rentan gangguan |\n| Mobilitas | terbatas | tinggi |\n| Keamanan | lebih sulit disadap | lebih mudah disadap |\n\n### Bandwidth\n\nBandwidth menyatakan banyaknya data yang dapat dikirim per satuan waktu, diukur dalam bit per detik. Semakin besar bandwidth, semakin banyak data yang dapat lewat.\n\n### Generasi seluler\n\nSetiap generasi (2G, 3G, 4G, 5G) meningkatkan kecepatan data dan menurunkan latensi. 5G menawarkan latensi sangat rendah sehingga cocok untuk aplikasi waktu nyata.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dua cara menghubungkan perangkat"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Kabel** — data mengalir melalui media fisik:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "kabel UTP (Ethernet, standar IEEE 802.3)",
+                "serat optik, memakai cahaya sehingga sangat cepat dan tahan gangguan"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Nirkabel** — data dipancarkan sebagai gelombang elektromagnetik:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Wi-Fi (standar IEEE 802.11)",
+                "Bluetooth untuk jarak pendek",
+                "jaringan seluler 4G/5G untuk komunikasi data melalui HP"
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-kabel-nirkabel",
+              "prompt": "Kelompokkan media transmisi berikut.",
+              "buckets": [
+                {
+                  "id": "kabel",
+                  "label": "Berbasis kabel"
+                },
+                {
+                  "id": "nirkabel",
+                  "label": "Nirkabel"
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1",
+                  "text": "Kabel UTP (IEEE 802.3)",
+                  "bucket": "kabel"
+                },
+                {
+                  "id": "c2",
+                  "text": "Serat optik",
+                  "bucket": "kabel"
+                },
+                {
+                  "id": "c3",
+                  "text": "Wi-Fi (IEEE 802.11)",
+                  "bucket": "nirkabel"
+                },
+                {
+                  "id": "c4",
+                  "text": "Bluetooth",
+                  "bucket": "nirkabel"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — UTP dan serat optik memakai media fisik, Wi-Fi dan Bluetooth memakai gelombang elektromagnetik.",
+                "wrong": "Media fisik (kabel) memakai tembaga atau cahaya; nirkabel memancarkan gelombang elektromagnetik."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Perbandingan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspek",
+                  "Kabel",
+                  "Nirkabel"
+                ],
+                [
+                  "Stabilitas",
+                  "tinggi",
+                  "rentan gangguan"
+                ],
+                [
+                  "Mobilitas",
+                  "terbatas",
+                  "tinggi"
+                ],
+                [
+                  "Keamanan",
+                  "lebih sulit disadap",
+                  "lebih mudah disadap"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Bandwidth"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bandwidth menyatakan banyaknya data yang dapat dikirim per satuan waktu, diukur dalam bit per detik. Semakin besar bandwidth, semakin banyak data yang dapat lewat."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bandwidth",
+              "question": "Bandwidth menyatakan…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Banyaknya data yang dapat dikirim per satuan waktu",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Jarak jangkauan sinyal nirkabel"
+                },
+                {
+                  "id": "c",
+                  "text": "Banyak perangkat yang dapat terhubung"
+                }
+              ],
+              "explanation": "Bandwidth diukur dalam bit per detik: semakin besar, semakin banyak data yang dapat lewat pada waktu yang sama."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Generasi seluler"
+            },
+            {
+              "type": "paragraph",
+              "text": "Setiap generasi (2G, 3G, 4G, 5G) meningkatkan kecepatan data dan menurunkan latensi. 5G menawarkan latensi sangat rendah sehingga cocok untuk aplikasi waktu nyata."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Memproteksi Data Pribadi",
           "duration": 240,
           "source_reference": "Bab 5 — Proteksi Data",
-          "content": "## Mengapa data pribadi berharga?\n\nData pribadi seperti NIK, nomor telepon, alamat, dan riwayat keuangan dapat dipakai untuk menyamar, memeras, atau merugikan pemiliknya.\n\n### Langkah perlindungan\n\n1. Pakai kata sandi **kuat** dan **berbeda** untuk setiap akun\n2. Aktifkan **verifikasi dua langkah**\n3. **Enkripsi** dokumen penting sebelum dikirim\n4. Hindari Wi-Fi publik terbuka, atau gunakan **VPN**\n5. Periksa kebenaran situs sebelum memasukkan data\n\n### Enkripsi\n\nEnkripsi mengubah data menjadi bentuk yang tidak dapat dibaca tanpa kunci.\n\n- **Simetris** — satu kunci yang sama untuk mengunci dan membuka\n- **Asimetris** — pasangan kunci publik dan privat\n\n### Keterbatasan enkripsi\n\nEnkripsi hanya sekuat pengelolaan kuncinya. Bila kunci bocor atau hilang, perlindungannya ikut hilang. Karena itu kata sandi enkripsi sebaiknya dikirim melalui **saluran berbeda** dari dokumennya.\n\n### HTTPS\n\nHTTPS adalah HTTP yang dienkripsi dengan TLS, sehingga isi komunikasi dengan situs web tidak dapat dibaca pihak lain."
+          "content": "## Mengapa data pribadi berharga?\n\nData pribadi seperti NIK, nomor telepon, alamat, dan riwayat keuangan dapat dipakai untuk menyamar, memeras, atau merugikan pemiliknya.\n\n### Langkah perlindungan\n\n1. Pakai kata sandi **kuat** dan **berbeda** untuk setiap akun\n2. Aktifkan **verifikasi dua langkah**\n3. **Enkripsi** dokumen penting sebelum dikirim\n4. Hindari Wi-Fi publik terbuka, atau gunakan **VPN**\n5. Periksa kebenaran situs sebelum memasukkan data\n\n### Enkripsi\n\nEnkripsi mengubah data menjadi bentuk yang tidak dapat dibaca tanpa kunci.\n\n- **Simetris** — satu kunci yang sama untuk mengunci dan membuka\n- **Asimetris** — pasangan kunci publik dan privat\n\n### Keterbatasan enkripsi\n\nEnkripsi hanya sekuat pengelolaan kuncinya. Bila kunci bocor atau hilang, perlindungannya ikut hilang. Karena itu kata sandi enkripsi sebaiknya dikirim melalui **saluran berbeda** dari dokumennya.\n\n### HTTPS\n\nHTTPS adalah HTTP yang dienkripsi dengan TLS, sehingga isi komunikasi dengan situs web tidak dapat dibaca pihak lain.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa data pribadi berharga?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Data pribadi seperti NIK, nomor telepon, alamat, dan riwayat keuangan dapat dipakai untuk menyamar, memeras, atau merugikan pemiliknya."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Langkah perlindungan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Pakai kata sandi **kuat** dan **berbeda** untuk setiap akun",
+                "Aktifkan **verifikasi dua langkah**",
+                "**Enkripsi** dokumen penting sebelum dikirim",
+                "Hindari Wi-Fi publik terbuka, atau gunakan **VPN**",
+                "Periksa kebenaran situs sebelum memasukkan data"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Enkripsi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Enkripsi mengubah data menjadi bentuk yang tidak dapat dibaca tanpa kunci."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Simetris** — satu kunci yang sama untuk mengunci dan membuka",
+                "**Asimetris** — pasangan kunci publik dan privat"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Keterbatasan enkripsi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Enkripsi hanya sekuat pengelolaan kuncinya. Bila kunci bocor atau hilang, perlindungannya ikut hilang. Karena itu kata sandi enkripsi sebaiknya dikirim melalui **saluran berbeda** dari dokumennya."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "HTTPS"
+            },
+            {
+              "type": "paragraph",
+              "text": "HTTPS adalah HTTP yang dienkripsi dengan TLS, sehingga isi komunikasi dengan situs web tidak dapat dibaca pihak lain."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-keamanan-data",
+              "title": "Tantangan Kilat: Proteksi Data",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Enkripsi dengan satu kunci untuk mengunci dan membuka → …",
+                  "answer": "simetris"
+                },
+                {
+                  "question": "Enkripsi dengan pasangan kunci publik dan privat → …",
+                  "answer": "asimetris"
+                },
+                {
+                  "question": "Protokol situs yang lalu lintasnya terenkripsi → …",
+                  "answer": "HTTPS"
+                },
+                {
+                  "question": "Jaringan virtual untuk mengamankan Wi-Fi publik → …",
+                  "answer": "VPN"
+                },
+                {
+                  "question": "Langkah keamanan selain kata sandi saat masuk akun → verifikasi … langkah",
+                  "answer": "dua"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — kata sandi kuat, verifikasi dua langkah, dan enkripsi saling melengkapi.",
+                "wrong": "Enkripsi hanya sekuat pengelolaan kuncinya, jadi kirim kunci lewat saluran berbeda."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

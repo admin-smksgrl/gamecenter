@@ -6,6 +6,7 @@ use App\Enums\ProgressStatus;
 use App\Enums\QuestionType;
 use App\Models\Assessment;
 use App\Models\GameSession;
+use App\Models\LearningMaterial;
 use App\Models\Question;
 use App\Models\SyncQueue;
 use App\Models\User;
@@ -404,12 +405,160 @@ class SyncApiTest extends TestCase
         $this->assertSame(15, $answer->time_spent);
     }
 
+    public function test_material_block_response_is_stored_as_formative_score(): void
+    {
+        $user = $this->student();
+        $material = $this->interactiveMaterial();
+
+        $response = $this->actingAs($user, 'sanctum')->postJson('/api/sync', [
+            'items' => [$this->blockItem($material, [
+                'block_id' => 'cp-1',
+                'block_type' => 'checkpoint',
+                'score' => 100,
+                'attempts' => 1,
+                'is_completed' => true,
+                'details' => ['selected' => 'c2'],
+            ])],
+        ]);
+
+        $response->assertOk()
+            ->assertJsonPath('results.0.status', 'completed')
+            ->assertJsonPath('summary.completed', 1);
+
+        $this->assertDatabaseHas('material_block_responses', [
+            'user_id' => $user->id,
+            'material_id' => $material->id,
+            'block_id' => 'cp-1',
+            'block_type' => 'checkpoint',
+            'score' => 100,
+            'max_score' => 100,
+            'attempts' => 1,
+            'is_completed' => true,
+        ]);
+
+        // Skor blok formatif: tidak boleh membuat sesi permainan baru.
+        $this->assertDatabaseCount('game_sessions', 0);
+    }
+
+    public function test_material_block_resync_keeps_best_score_and_highest_attempts(): void
+    {
+        $user = $this->student();
+        $material = $this->interactiveMaterial();
+
+        $this->actingAs($user, 'sanctum')->postJson('/api/sync', [
+            'items' => [$this->blockItem($material, [
+                'score' => 60,
+                'attempts' => 2,
+                'is_completed' => true,
+            ])],
+        ])->assertOk();
+
+        // Kiriman ulang yang lebih rendah (mis. antrean offline diulang).
+        $this->actingAs($user, 'sanctum')->postJson('/api/sync', [
+            'items' => [$this->blockItem($material, [
+                'score' => 40,
+                'attempts' => 1,
+                'is_completed' => false,
+            ])],
+        ])->assertOk();
+
+        $this->assertDatabaseCount('material_block_responses', 1);
+
+        $row = \App\Models\MaterialBlockResponse::query()->firstOrFail();
+
+        $this->assertSame(60, $row->score);
+        $this->assertSame(2, $row->attempts);
+        $this->assertTrue($row->is_completed);
+        $this->assertNotNull($row->first_completed_at);
+    }
+
+    public function test_material_block_rejects_unknown_block_or_type(): void
+    {
+        $user = $this->student();
+        $material = $this->interactiveMaterial();
+
+        $this->actingAs($user, 'sanctum')->postJson('/api/sync', [
+            'items' => [$this->blockItem($material, ['block_id' => 'tidak-ada'])],
+        ])->assertOk()->assertJsonPath('results.0.status', 'failed');
+
+        // Blok teks tidak dinilai sehingga tidak boleh dikirim.
+        $this->actingAs($user, 'sanctum')->postJson('/api/sync', [
+            'items' => [$this->blockItem($material, [
+                'block_id' => 'p-1',
+                'block_type' => 'paragraph',
+            ])],
+        ])->assertOk()->assertJsonPath('results.0.status', 'failed');
+
+        // Tipe yang dikirim harus sama dengan tipe blok di materi.
+        $this->actingAs($user, 'sanctum')->postJson('/api/sync', [
+            'items' => [$this->blockItem($material, [
+                'block_id' => 'cp-1',
+                'block_type' => 'sort',
+            ])],
+        ])->assertOk()->assertJsonPath('results.0.status', 'failed');
+
+        $this->assertDatabaseCount('material_block_responses', 0);
+    }
+
     private function student(): User
     {
         return User::factory()->create([
             'username' => 'pemain-uji',
             'email' => 'pemain-uji@gamecenter.test',
         ]);
+    }
+
+    /**
+     * Materi dengan blok aktivitas untuk tes sync blok (plan §3.4.1).
+     */
+    private function interactiveMaterial(): LearningMaterial
+    {
+        return LearningMaterial::query()->create([
+            'chapter_id' => $this->easyAssessment()->chapter_id,
+            'type' => 'interactive',
+            'title' => 'Latihan Interaktif',
+            'content' => 'Isi materi.',
+            'blocks' => [
+                ['type' => 'paragraph', 'id' => 'p-1', 'text' => 'Isi materi.'],
+                [
+                    'type' => 'checkpoint',
+                    'id' => 'cp-1',
+                    'question' => 'Dua pangkat tiga?',
+                    'choices' => [
+                        ['id' => 'c1', 'text' => '6'],
+                        ['id' => 'c2', 'text' => '8', 'correct' => true],
+                    ],
+                    'explanation' => '2 × 2 × 2 = 8.',
+                ],
+            ],
+            'duration' => 120,
+            'order' => 90,
+            'is_active' => true,
+        ]);
+    }
+
+    /**
+     * @param  array<string, mixed>  $overrides
+     * @return array<string, mixed>
+     */
+    private function blockItem(LearningMaterial $material, array $overrides = []): array
+    {
+        return [
+            'uuid' => (string) Str::uuid(),
+            'type' => 'material_block',
+            'recorded_at' => now()->toIso8601String(),
+            'payload' => [
+                'material_id' => $material->id,
+                'block_id' => 'cp-1',
+                'block_type' => 'checkpoint',
+                'score' => 100,
+                'max_score' => 100,
+                'attempts' => 1,
+                'is_completed' => true,
+                'last_answered_at' => now()->toIso8601String(),
+                ...$overrides,
+            ],
+        ];
     }
 
     private function easyAssessment(): Assessment

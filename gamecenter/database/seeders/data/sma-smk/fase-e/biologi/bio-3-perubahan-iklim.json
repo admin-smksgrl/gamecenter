@@ -23,21 +23,460 @@
           "title": "Pemanasan Global dan Efek Rumah Kaca",
           "duration": 240,
           "source_reference": "Bab VIII — Perubahan Iklim",
-          "content": "## Pemanasan global\n\nKenaikan **suhu rata-rata** atmosfer dan permukaan bumi.\n\n## Efek rumah kaca\n\nGas rumah kaca meneruskan cahaya matahari masuk, tetapi **menahan panas inframerah** yang dipancarkan bumi. Tanpanya bumi terlalu dingin; bila berlebihan, bumi terlalu panas.\n\n### Gas rumah kaca utama\n\n| Gas | Sumber utama |\n|---|---|\n| **CO₂** | pembakaran bahan bakar fosil, penebangan hutan |\n| **Metana (CH₄)** | peternakan, lahan basah, sampah |\n| **N₂O** | pupuk, pembakaran |\n\nOksigen dan nitrogen **bukan** gas rumah kaca.\n\n### Mengapa metana penting meski kadarnya kecil?\n\nMetana menahan panas jauh lebih kuat **per molekul** daripada CO₂.\n\n### Fungsi hutan\n\nHutan menyerap CO₂ melalui fotosintesis sehingga berperan sebagai **rosot karbon**. Hutan yang hilang tidak lagi menyerap karbon, bahkan melepaskannya bila dibakar."
+          "content": "## Pemanasan global\n\nKenaikan **suhu rata-rata** atmosfer dan permukaan bumi.\n\n## Efek rumah kaca\n\nGas rumah kaca meneruskan cahaya matahari masuk, tetapi **menahan panas inframerah** yang dipancarkan bumi. Tanpanya bumi terlalu dingin; bila berlebihan, bumi terlalu panas.\n\n### Gas rumah kaca utama\n\n| Gas | Sumber utama |\n|---|---|\n| **CO₂** | pembakaran bahan bakar fosil, penebangan hutan |\n| **Metana (CH₄)** | peternakan, lahan basah, sampah |\n| **N₂O** | pupuk, pembakaran |\n\nOksigen dan nitrogen **bukan** gas rumah kaca.\n\n### Mengapa metana penting meski kadarnya kecil?\n\nMetana menahan panas jauh lebih kuat **per molekul** daripada CO₂.\n\n### Fungsi hutan\n\nHutan menyerap CO₂ melalui fotosintesis sehingga berperan sebagai **rosot karbon**. Hutan yang hilang tidak lagi menyerap karbon, bahkan melepaskannya bila dibakar.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Pemanasan global",
+                  "definition": "Kenaikan suhu rata-rata atmosfer dan permukaan bumi."
+                },
+                {
+                  "term": "Gas rumah kaca",
+                  "definition": "Gas yang meneruskan cahaya matahari tetapi menahan panas inframerah, misalnya CO₂ dan CH₄."
+                },
+                {
+                  "term": "Rosot karbon",
+                  "definition": "Penyerap karbon alami seperti hutan yang menyerap CO₂ melalui fotosintesis."
+                },
+                {
+                  "term": "Mitigasi",
+                  "definition": "Tindakan mengurangi penyebab perubahan iklim, misalnya memakai energi terbarukan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pemanasan global"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kenaikan **suhu rata-rata** atmosfer dan permukaan bumi."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Efek rumah kaca"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gas rumah kaca meneruskan cahaya matahari masuk, tetapi **menahan panas inframerah** yang dipancarkan bumi. Tanpanya bumi terlalu dingin; bila berlebihan, bumi terlalu panas."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-efek-rumah-kaca",
+              "engine": "mermaid",
+              "title": "Alur efek rumah kaca",
+              "code": "flowchart LR\n  A[Cahaya matahari] --> B[Permukaan bumi]\n  B --> C[Panas inframerah dipancarkan]\n  C --> D[Gas rumah kaca menahan panas]\n  D --> B"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Gas rumah kaca utama"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Gas",
+                  "Sumber utama"
+                ],
+                [
+                  "**CO₂**",
+                  "pembakaran bahan bakar fosil, penebangan hutan"
+                ],
+                [
+                  "**Metana (CH₄)**",
+                  "peternakan, lahan basah, sampah"
+                ],
+                [
+                  "**N₂O**",
+                  "pupuk, pembakaran"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Oksigen dan nitrogen **bukan** gas rumah kaca."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-grk-bukan",
+              "question": "Gas berikut yang BUKAN gas rumah kaca adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Oksigen (O₂)",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Karbon dioksida (CO₂)"
+                },
+                {
+                  "id": "c",
+                  "text": "Metana (CH₄)"
+                }
+              ],
+              "explanation": "Oksigen dan nitrogen tidak menyerap panas inframerah secara berarti. Gas rumah kaca utama adalah CO₂, CH₄, dan N₂O."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengapa metana penting meski kadarnya kecil?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Metana menahan panas jauh lebih kuat **per molekul** daripada CO₂."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Fungsi hutan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hutan menyerap CO₂ melalui fotosintesis sehingga berperan sebagai **rosot karbon**. Hutan yang hilang tidak lagi menyerap karbon, bahkan melepaskannya bila dibakar."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Dampak Perubahan Iklim",
           "duration": 360,
           "source_reference": "Bab VIII — Dampak",
-          "content": "## Dampak lingkungan\n\n| Dampak | Penyebab |\n|---|---|\n| Es kutub mencair → muka air laut naik | suhu naik |\n| Pemutihan terumbu karang | suhu air laut naik, karang melepas alga simbiotik |\n| Banjir dan kekeringan panjang | atmosfer menyimpan lebih banyak energi dan uap air |\n| Pergeseran musim | perubahan pola iklim |\n\n## Dampak sosial-ekonomi\n\n- gagal panen karena masa tanam terganggu\n- kenaikan harga pangan\n- kota pesisir rawan banjir dan abrasi\n- gangguan kesehatan: dehidrasi, penyakit panas, gangguan pernapasan\n\n## Mengapa disebut masalah global?\n\nKarena atmosfer bersifat **global**: emisi di satu wilayah terakumulasi dan memengaruhi seluruh bumi. Dampaknya melintasi batas negara.\n\n## Aktivitas manusia penyebab\n\n- pembakaran bahan bakar fosil\n- penebangan dan pembakaran hutan\n- peternakan besar\n- pembakaran sampah"
+          "content": "## Dampak lingkungan\n\n| Dampak | Penyebab |\n|---|---|\n| Es kutub mencair → muka air laut naik | suhu naik |\n| Pemutihan terumbu karang | suhu air laut naik, karang melepas alga simbiotik |\n| Banjir dan kekeringan panjang | atmosfer menyimpan lebih banyak energi dan uap air |\n| Pergeseran musim | perubahan pola iklim |\n\n## Dampak sosial-ekonomi\n\n- gagal panen karena masa tanam terganggu\n- kenaikan harga pangan\n- kota pesisir rawan banjir dan abrasi\n- gangguan kesehatan: dehidrasi, penyakit panas, gangguan pernapasan\n\n## Mengapa disebut masalah global?\n\nKarena atmosfer bersifat **global**: emisi di satu wilayah terakumulasi dan memengaruhi seluruh bumi. Dampaknya melintasi batas negara.\n\n## Aktivitas manusia penyebab\n\n- pembakaran bahan bakar fosil\n- penebangan dan pembakaran hutan\n- peternakan besar\n- pembakaran sampah",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dampak lingkungan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Dampak",
+                  "Penyebab"
+                ],
+                [
+                  "Es kutub mencair → muka air laut naik",
+                  "suhu naik"
+                ],
+                [
+                  "Pemutihan terumbu karang",
+                  "suhu air laut naik, karang melepas alga simbiotik"
+                ],
+                [
+                  "Banjir dan kekeringan panjang",
+                  "atmosfer menyimpan lebih banyak energi dan uap air"
+                ],
+                [
+                  "Pergeseran musim",
+                  "perubahan pola iklim"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-karang",
+              "question": "Pemutihan terumbu karang (coral bleaching) terjadi karena…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Suhu air laut naik sehingga karang melepas alga simbiotiknya",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Karang kekurangan cahaya matahari"
+                },
+                {
+                  "id": "c",
+                  "text": "Karang berpindah ke perairan yang lebih dingin"
+                }
+              ],
+              "explanation": "Karang bergantung pada alga simbiotik untuk makanan dan warna. Saat suhu naik, alga dilepas sehingga karang memutih dan rentan mati."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dampak sosial-ekonomi"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "gagal panen karena masa tanam terganggu",
+                "kenaikan harga pangan",
+                "kota pesisir rawan banjir dan abrasi",
+                "gangguan kesehatan: dehidrasi, penyakit panas, gangguan pernapasan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa disebut masalah global?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena atmosfer bersifat **global**: emisi di satu wilayah terakumulasi dan memengaruhi seluruh bumi. Dampaknya melintasi batas negara."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Aktivitas manusia penyebab"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "pembakaran bahan bakar fosil",
+                "penebangan dan pembakaran hutan",
+                "peternakan besar",
+                "pembakaran sampah"
+              ]
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Solusi dan Aksi Nyata",
           "duration": 240,
           "source_reference": "Bab VIII — Solusi",
-          "content": "## Mitigasi (mengurangi penyebab)\n\n- memakai **energi terbarukan**\n- menghemat listrik\n- memakai transportasi publik\n- mengurangi sampah dan mendaur ulang\n- menanam pohon dan merestorasi **mangrove**\n\n## Adaptasi (menyesuaikan diri)\n\n- memilih varietas **tahan kekeringan**\n- mengatur jadwal tanam berdasarkan prakiraan cuaca\n- membangun perlindungan pesisir\n\n## Kesepakatan internasional\n\n**Protokol Kyoto** dan **Persetujuan Paris** mengatur penurunan emisi gas rumah kaca.\n\n## Aksi di sekolah\n\n1. Hemat listrik: matikan alat yang tidak dipakai\n2. Pilah sampah dan kompos sampah organik\n3. Tanam pohon di lingkungan sekolah\n4. Kurangi kemasan sekali pakai\n\n## Langkah merancang solusi\n\n1. Identifikasi fakta perubahan lingkungan di sekitar\n2. Analisis aktivitas manusia penyebabnya\n3. Rancang solusi yang dapat dilakukan\n4. Laksanakan dan **ukur hasilnya**\n\nTanpa pengukuran, kita tidak tahu apakah solusinya benar-benar bekerja."
+          "content": "## Mitigasi (mengurangi penyebab)\n\n- memakai **energi terbarukan**\n- menghemat listrik\n- memakai transportasi publik\n- mengurangi sampah dan mendaur ulang\n- menanam pohon dan merestorasi **mangrove**\n\n## Adaptasi (menyesuaikan diri)\n\n- memilih varietas **tahan kekeringan**\n- mengatur jadwal tanam berdasarkan prakiraan cuaca\n- membangun perlindungan pesisir\n\n## Kesepakatan internasional\n\n**Protokol Kyoto** dan **Persetujuan Paris** mengatur penurunan emisi gas rumah kaca.\n\n## Aksi di sekolah\n\n1. Hemat listrik: matikan alat yang tidak dipakai\n2. Pilah sampah dan kompos sampah organik\n3. Tanam pohon di lingkungan sekolah\n4. Kurangi kemasan sekali pakai\n\n## Langkah merancang solusi\n\n1. Identifikasi fakta perubahan lingkungan di sekitar\n2. Analisis aktivitas manusia penyebabnya\n3. Rancang solusi yang dapat dilakukan\n4. Laksanakan dan **ukur hasilnya**\n\nTanpa pengukuran, kita tidak tahu apakah solusinya benar-benar bekerja.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mitigasi (mengurangi penyebab)"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "memakai **energi terbarukan**",
+                "menghemat listrik",
+                "memakai transportasi publik",
+                "mengurangi sampah dan mendaur ulang",
+                "menanam pohon dan merestorasi **mangrove**"
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-mitigasi-adaptasi",
+              "prompt": "Kelompokkan tindakan berikut sebagai mitigasi atau adaptasi.",
+              "buckets": [
+                {
+                  "id": "mitigasi",
+                  "label": "Mitigasi"
+                },
+                {
+                  "id": "adaptasi",
+                  "label": "Adaptasi"
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1",
+                  "text": "Memakai energi terbarukan",
+                  "bucket": "mitigasi"
+                },
+                {
+                  "id": "c2",
+                  "text": "Menanam varietas tahan kekeringan",
+                  "bucket": "adaptasi"
+                },
+                {
+                  "id": "c3",
+                  "text": "Memakai transportasi publik",
+                  "bucket": "mitigasi"
+                },
+                {
+                  "id": "c4",
+                  "text": "Mengatur jadwal tanam berdasarkan prakiraan cuaca",
+                  "bucket": "adaptasi"
+                },
+                {
+                  "id": "c5",
+                  "text": "Menanam dan merestorasi mangrove",
+                  "bucket": "mitigasi"
+                },
+                {
+                  "id": "c6",
+                  "text": "Membangun perlindungan pesisir",
+                  "bucket": "adaptasi"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — mitigasi menyerang penyebab, adaptasi menyesuaikan diri dengan dampak.",
+                "wrong": "Tanyakan: tindakan ini menurunkan emisi (mitigasi) atau mengurangi kerugian akibat dampak (adaptasi)?"
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Adaptasi (menyesuaikan diri)"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "memilih varietas **tahan kekeringan**",
+                "mengatur jadwal tanam berdasarkan prakiraan cuaca",
+                "membangun perlindungan pesisir"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kesepakatan internasional"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Protokol Kyoto** dan **Persetujuan Paris** mengatur penurunan emisi gas rumah kaca."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Aksi di sekolah"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Hemat listrik: matikan alat yang tidak dipakai",
+                "Pilah sampah dan kompos sampah organik",
+                "Tanam pohon di lingkungan sekolah",
+                "Kurangi kemasan sekali pakai"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Langkah merancang solusi"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Identifikasi fakta perubahan lingkungan di sekitar",
+                "Analisis aktivitas manusia penyebabnya",
+                "Rancang solusi yang dapat dilakukan",
+                "Laksanakan dan **ukur hasilnya**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Tanpa pengukuran, kita tidak tahu apakah solusinya benar-benar bekerja."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-aksi-iklim-sekolah",
+              "title": "Dana kecil untuk program iklim sekolah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Sekolah memberi dana kecil untuk program peduli iklim. Kamu ketua tim. Langkah pertama?",
+                  "choices": [
+                    {
+                      "text": "Audit pemakaian listrik lalu ganti lampu hemat energi",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Mitigasi paling terukur: listrik sekolah sebagian besar berasal dari bahan bakar fosil."
+                    },
+                    {
+                      "text": "Membeli banyak bibit pohon tanpa rencana perawatan",
+                      "next": "n3",
+                      "score": 1,
+                      "feedback": "Menanam pohon itu baik, tetapi tanpa perawatan bibit mati dan karbon tidak terserap."
+                    },
+                    {
+                      "text": "Membuat poster ajakan saja",
+                      "next": "n4",
+                      "score": 0,
+                      "feedback": "Kampanye tanpa tindakan dan pengukuran tidak menurunkan emisi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Listrik turun 12% dan sisa dana masih ada. Apa langkah berikutnya?",
+                  "choices": [
+                    {
+                      "text": "Menanam pohon disertai jadwal perawatan dan pencatatan",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Gabungan efisiensi energi dan penyerapan karbon memberi hasil yang bisa diukur."
+                    },
+                    {
+                      "text": "Menyimpan sisa dana tanpa evaluasi",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Hasil awal baik, tetapi tanpa evaluasi program berhenti di satu titik."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Sebagian bibit mati karena tidak dirawat. Apa tindakanmu?",
+                  "choices": [
+                    {
+                      "text": "Membuat jadwal perawatan dan menghitung pohon yang hidup",
+                      "next": "n5",
+                      "score": 1,
+                      "feedback": "Memperbaiki dengan data membuat program berikutnya lebih berhasil."
+                    },
+                    {
+                      "text": "Membiarkan karena bibit sudah dibeli",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Tanpa perawatan, dana terbuang dan penyerapan karbon tetap nol."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Poster terpasang, tetapi tidak ada perubahan yang bisa diukur. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Memulai audit listrik dan mencatat hasilnya",
+                      "next": "n5",
+                      "score": 1,
+                      "feedback": "Tindakan terukur lebih berdampak daripada ajakan tanpa bukti."
+                    },
+                    {
+                      "text": "Tetap fokus pada poster",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Tanpa pengukuran, sekolah tidak tahu apakah programnya bekerja."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "text": "Listrik turun, pohon terawat, dan hasilnya dicatat. Sekolah punya bukti untuk melanjutkan program.",
+                  "end": true,
+                  "outcome": "good"
+                },
+                {
+                  "id": "n6",
+                  "text": "Lampu hemat energi bertahan, tetapi tidak ada program lanjutan karena hasil tidak dievaluasi.",
+                  "end": true,
+                  "outcome": "neutral"
+                },
+                {
+                  "id": "n7",
+                  "text": "Dana habis tanpa hasil terukur, dan sekolah kehilangan kepercayaan pada program iklim.",
+                  "end": true,
+                  "outcome": "bad"
+                }
+              ]
+            }
+          ]
         }
       ],
       "assessments": [

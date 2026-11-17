@@ -20,21 +20,322 @@
           "title": "Tiga Wajah Fungsi Kuadrat",
           "duration": 240,
           "source_reference": "Modul Ajar MA 6.2 — Kompetensi Awal",
-          "content": "## Satu fungsi, tiga bentuk\n\nFungsi kuadrat yang sama dapat ditulis dengan tiga cara. Masing-masing memperlihatkan informasi yang berbeda.\n\n| Bentuk | Rumus | Langsung terlihat |\n|---|---|---|\n| **Umum** | f(x) = ax² + bx + c | titik potong sumbu-y, yaitu (0, c) |\n| **Puncak** | f(x) = a(x − p)² + q | titik puncak (p, q) |\n| **Faktor** | f(x) = a(x − x₁)(x − x₂) | titik potong sumbu-x, yaitu x₁ dan x₂ |\n\nContoh untuk f(x) = x² − 4x + 3:\n\n- Umum: x² − 4x + 3 → memotong sumbu-y di (0, 3)\n- Puncak: (x − 2)² − 1 → puncak (2, −1)\n- Faktor: (x − 1)(x − 3) → memotong sumbu-x di 1 dan 3\n\nKetiganya **fungsi yang sama** — hanya sudut pandangnya berbeda. Nilai **a** selalu sama pada ketiga bentuk."
+          "content": "## Satu fungsi, tiga bentuk\n\nFungsi kuadrat yang sama dapat ditulis dengan tiga cara. Masing-masing memperlihatkan informasi yang berbeda.\n\n| Bentuk | Rumus | Langsung terlihat |\n|---|---|---|\n| **Umum** | f(x) = ax² + bx + c | titik potong sumbu-y, yaitu (0, c) |\n| **Puncak** | f(x) = a(x − p)² + q | titik puncak (p, q) |\n| **Faktor** | f(x) = a(x − x₁)(x − x₂) | titik potong sumbu-x, yaitu x₁ dan x₂ |\n\nContoh untuk f(x) = x² − 4x + 3:\n\n- Umum: x² − 4x + 3 → memotong sumbu-y di (0, 3)\n- Puncak: (x − 2)² − 1 → puncak (2, −1)\n- Faktor: (x − 1)(x − 3) → memotong sumbu-x di 1 dan 3\n\nKetiganya **fungsi yang sama** — hanya sudut pandangnya berbeda. Nilai **a** selalu sama pada ketiga bentuk.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Bentuk umum",
+                  "definition": "f(x) = ax² + bx + c; titik potong sumbu-y langsung terbaca di (0, c)."
+                },
+                {
+                  "term": "Bentuk puncak",
+                  "definition": "f(x) = a(x − p)² + q; titik puncak langsung terbaca (p, q)."
+                },
+                {
+                  "term": "Bentuk faktor",
+                  "definition": "f(x) = a(x − x₁)(x − x₂); titik potong sumbu-x adalah x₁ dan x₂."
+                },
+                {
+                  "term": "Melengkapi kuadrat",
+                  "definition": "Teknik mengubah bentuk umum menjadi bentuk puncak dengan menambah dan mengurangi kuadrat setengah koefisien x."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Satu fungsi, tiga bentuk"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fungsi kuadrat yang sama dapat ditulis dengan tiga cara. Masing-masing memperlihatkan informasi yang berbeda."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bentuk",
+                  "Rumus",
+                  "Langsung terlihat"
+                ],
+                [
+                  "**Umum**",
+                  "f(x) = ax² + bx + c",
+                  "titik potong sumbu-y, yaitu (0, c)"
+                ],
+                [
+                  "**Puncak**",
+                  "f(x) = a(x − p)² + q",
+                  "titik puncak (p, q)"
+                ],
+                [
+                  "**Faktor**",
+                  "f(x) = a(x − x₁)(x − x₂)",
+                  "titik potong sumbu-x, yaitu x₁ dan x₂"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh untuk f(x) = x² − 4x + 3:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Umum: x² − 4x + 3 → memotong sumbu-y di (0, 3)",
+                "Puncak: (x − 2)² − 1 → puncak (2, −1)",
+                "Faktor: (x − 1)(x − 3) → memotong sumbu-x di 1 dan 3"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Ketiganya **fungsi yang sama** — hanya sudut pandangnya berbeda. Nilai **a** selalu sama pada ketiga bentuk."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-tiga-bentuk",
+              "engine": "mermaid",
+              "title": "Tiga bentuk fungsi kuadrat dan informasi yang terlihat",
+              "code": "flowchart TD\n  A[Fungsi kuadrat yang sama] --> B[Bentuk umum: ax2 + bx + c]\n  A --> C[Bentuk puncak: a(x - p)2 + q]\n  A --> D[Bentuk faktor: a(x - x1)(x - x2)]\n  B --> B1[Titik potong sumbu-y]\n  C --> C1[Titik puncak]\n  D --> D1[Titik potong sumbu-x]"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bentuk-puncak",
+              "question": "Bentuk yang paling cepat menunjukkan titik puncak parabola adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "f(x) = 2(x − 3)² − 5",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "f(x) = 2x² − 12x + 13"
+                },
+                {
+                  "id": "c",
+                  "text": "f(x) = 2(x − 1)(x − 5)"
+                }
+              ],
+              "explanation": "Bentuk puncak a(x − p)² + q memperlihatkan puncak (3, −5) secara langsung, tanpa menghitung lagi."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Melengkapi Kuadrat Sempurna",
           "duration": 360,
           "source_reference": "Modul Ajar MA 6.2 — Tujuan Pembelajaran",
-          "content": "## Dari bentuk umum ke bentuk puncak\n\n**Langkah 1.** Faktorkan a dari dua suku pertama:\nf(x) = a(x² + (b/a)x) + c\n\n**Langkah 2.** Ambil **setengah** koefisien x, lalu kuadratkan.\n\n**Langkah 3.** Tambahkan dan kurangkan bilangan itu di dalam kurung.\n\n**Langkah 4.** Sederhanakan.\n\n### Contoh tanpa a\n\nf(x) = x² − 10x + 18\n- Setengah dari −10 adalah −5, kuadratnya 25\n- x² − 10x = (x − 5)² − 25\n- f(x) = (x − 5)² − 25 + 18 = **(x − 5)² − 7**\n\n### Contoh dengan a\n\nf(x) = 2x² + 8x + 11\n- 2(x² + 4x) + 11\n- Setengah dari 4 adalah 2, kuadratnya 4\n- 2[(x + 2)² − 4] + 11 = 2(x + 2)² − 8 + 11 = **2(x + 2)² + 3**\n\n### Rumus pintas\n\n> p = −b/(2a) dan q = c − b²/(4a)\n\nHasil ini bisa dipakai untuk memeriksa jawabanmu."
+          "content": "## Dari bentuk umum ke bentuk puncak\n\n**Langkah 1.** Faktorkan a dari dua suku pertama:\nf(x) = a(x² + (b/a)x) + c\n\n**Langkah 2.** Ambil **setengah** koefisien x, lalu kuadratkan.\n\n**Langkah 3.** Tambahkan dan kurangkan bilangan itu di dalam kurung.\n\n**Langkah 4.** Sederhanakan.\n\n### Contoh tanpa a\n\nf(x) = x² − 10x + 18\n- Setengah dari −10 adalah −5, kuadratnya 25\n- x² − 10x = (x − 5)² − 25\n- f(x) = (x − 5)² − 25 + 18 = **(x − 5)² − 7**\n\n### Contoh dengan a\n\nf(x) = 2x² + 8x + 11\n- 2(x² + 4x) + 11\n- Setengah dari 4 adalah 2, kuadratnya 4\n- 2[(x + 2)² − 4] + 11 = 2(x + 2)² − 8 + 11 = **2(x + 2)² + 3**\n\n### Rumus pintas\n\n> p = −b/(2a) dan q = c − b²/(4a)\n\nHasil ini bisa dipakai untuk memeriksa jawabanmu.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari bentuk umum ke bentuk puncak"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Langkah 1.** Faktorkan a dari dua suku pertama: f(x) = a(x² + (b/a)x) + c"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Langkah 2.** Ambil **setengah** koefisien x, lalu kuadratkan."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Langkah 3.** Tambahkan dan kurangkan bilangan itu di dalam kurung."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Langkah 4.** Sederhanakan."
+            },
+            {
+              "type": "sort",
+              "id": "srt-lengkapi-kuadrat",
+              "prompt": "Urutkan langkah melengkapi kuadrat sempurna.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Faktorkan a dari dua suku pertama"
+                },
+                {
+                  "id": "s2",
+                  "text": "Ambil setengah koefisien x lalu kuadratkan"
+                },
+                {
+                  "id": "s3",
+                  "text": "Tambahkan dan kurangkan bilangan itu di dalam kurung"
+                },
+                {
+                  "id": "s4",
+                  "text": "Sederhanakan menjadi bentuk puncak"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: faktorkan a, ambil setengah koefisien, tambah-kurang, lalu sederhanakan.",
+                "wrong": "Setengah koefisien x adalah kunci; jangan lupa menambah dan mengurangi bilangan yang sama."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-puncak-lengkap",
+              "question": "Bentuk puncak dari f(x) = x² − 10x + 18 adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "(x − 5)² − 7",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "(x − 5)² + 18"
+                },
+                {
+                  "id": "c",
+                  "text": "(x + 5)² − 7"
+                }
+              ],
+              "explanation": "Setengah dari −10 adalah −5 dan kuadratnya 25, sehingga x² − 10x = (x − 5)² − 25. Maka f(x) = (x − 5)² − 25 + 18 = (x − 5)² − 7."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh tanpa a"
+            },
+            {
+              "type": "paragraph",
+              "text": "f(x) = x² − 10x + 18"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Setengah dari −10 adalah −5, kuadratnya 25",
+                "x² − 10x = (x − 5)² − 25",
+                "f(x) = (x − 5)² − 25 + 18 = **(x − 5)² − 7**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh dengan a"
+            },
+            {
+              "type": "paragraph",
+              "text": "f(x) = 2x² + 8x + 11"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "2(x² + 4x) + 11",
+                "Setengah dari 4 adalah 2, kuadratnya 4",
+                "2[(x + 2)² − 4] + 11 = 2(x + 2)² − 8 + 11 = **2(x + 2)² + 3**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Rumus pintas"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "p = −b/(2a) dan q = c − b²/(4a)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasil ini bisa dipakai untuk memeriksa jawabanmu."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Membentuk Fungsi dari Data",
           "duration": 240,
           "source_reference": "Modul Ajar MA 6.2 — Tujuan Pembelajaran",
-          "content": "## Tiga situasi pembentukan fungsi\n\n**1. Diketahui akar-akarnya**\nGunakan bentuk faktor: f(x) = a(x − x₁)(x − x₂).\nAkar 2 dan 5 dengan a = 1 → f(x) = (x − 2)(x − 5) = x² − 7x + 10.\n\n**2. Diketahui titik puncaknya**\nGunakan bentuk puncak: f(x) = a(x − p)² + q.\nPuncak (1, 2) melalui (0, 5): f(x) = a(x − 1)² + 2 dan a + 2 = 5 → a = 3.\n\n**3. Diketahui tiga titik sembarang**\nGunakan bentuk umum dan selesaikan sistem tiga persamaan. Karena c langsung terbaca dari titik dengan x = 0, mulailah dari titik itu.\n\n### Latihan\n\nTentukan fungsi kuadrat yang memotong sumbu-x di −3 dan 1 serta melalui (0, −3).\n\n<details>\n<summary>Lihat jawaban</summary>\n\nf(x) = a(x + 3)(x − 1). Substitusi (0, −3): a(3)(−1) = −3 → −3a = −3 → a = 1.\nMaka f(x) = (x + 3)(x − 1) = **x² + 2x − 3**.\n\n</details>"
+          "content": "## Tiga situasi pembentukan fungsi\n\n**1. Diketahui akar-akarnya**\nGunakan bentuk faktor: f(x) = a(x − x₁)(x − x₂).\nAkar 2 dan 5 dengan a = 1 → f(x) = (x − 2)(x − 5) = x² − 7x + 10.\n\n**2. Diketahui titik puncaknya**\nGunakan bentuk puncak: f(x) = a(x − p)² + q.\nPuncak (1, 2) melalui (0, 5): f(x) = a(x − 1)² + 2 dan a + 2 = 5 → a = 3.\n\n**3. Diketahui tiga titik sembarang**\nGunakan bentuk umum dan selesaikan sistem tiga persamaan. Karena c langsung terbaca dari titik dengan x = 0, mulailah dari titik itu.\n\n### Latihan\n\nTentukan fungsi kuadrat yang memotong sumbu-x di −3 dan 1 serta melalui (0, −3).\n\n<details>\n<summary>Lihat jawaban</summary>\n\nf(x) = a(x + 3)(x − 1). Substitusi (0, −3): a(3)(−1) = −3 → −3a = −3 → a = 1.\nMaka f(x) = (x + 3)(x − 1) = **x² + 2x − 3**.\n\n</details>",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga situasi pembentukan fungsi"
+            },
+            {
+              "type": "paragraph",
+              "text": "**1. Diketahui akar-akarnya** Gunakan bentuk faktor: f(x) = a(x − x₁)(x − x₂). Akar 2 dan 5 dengan a = 1 → f(x) = (x − 2)(x − 5) = x² − 7x + 10."
+            },
+            {
+              "type": "paragraph",
+              "text": "**2. Diketahui titik puncaknya** Gunakan bentuk puncak: f(x) = a(x − p)² + q. Puncak (1, 2) melalui (0, 5): f(x) = a(x − 1)² + 2 dan a + 2 = 5 → a = 3."
+            },
+            {
+              "type": "paragraph",
+              "text": "**3. Diketahui tiga titik sembarang** Gunakan bentuk umum dan selesaikan sistem tiga persamaan. Karena c langsung terbaca dari titik dengan x = 0, mulailah dari titik itu."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Latihan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tentukan fungsi kuadrat yang memotong sumbu-x di −3 dan 1 serta melalui (0, −3)."
+            },
+            {
+              "type": "paragraph",
+              "text": "<details> <summary>Lihat jawaban</summary>"
+            },
+            {
+              "type": "paragraph",
+              "text": "f(x) = a(x + 3)(x − 1). Substitusi (0, −3): a(3)(−1) = −3 → −3a = −3 → a = 1. Maka f(x) = (x + 3)(x − 1) = **x² + 2x − 3**."
+            },
+            {
+              "type": "paragraph",
+              "text": "</details>"
+            },
+            {
+              "type": "challenge",
+              "id": "ch-bentuk-kuadrat-cepat",
+              "title": "Tantangan Kilat: Bentuk Fungsi Kuadrat",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Akar 2 dan 5 dengan a = 1. Suku tetapnya = …",
+                  "answer": "10"
+                },
+                {
+                  "question": "Puncak (1, 2) melalui (0, 5). Nilai a = …",
+                  "answer": "3"
+                },
+                {
+                  "question": "Memotong sumbu-x di −3 dan 1 serta melalui (0, −3). Nilai a = …",
+                  "answer": "1"
+                },
+                {
+                  "question": "f(x) = x² − 4x + 3. Puncak p = …",
+                  "answer": "2"
+                },
+                {
+                  "question": "f(x) = 2x² + 8x + 11. Bentuk puncak 2(x + 2)² + q, q = …",
+                  "answer": "3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — memilih bentuk yang sesuai data adalah kuncinya.",
+                "wrong": "Diketahui akar → bentuk faktor; diketahui puncak → bentuk puncak; tiga titik → bentuk umum."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

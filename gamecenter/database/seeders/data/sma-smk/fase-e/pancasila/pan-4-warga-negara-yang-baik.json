@@ -22,21 +22,612 @@
           "title": "Paham Kebangsaan dan Nasionalisme",
           "duration": 320,
           "source_reference": "Bab 4 Unit 1",
-          "content": "## Paham kebangsaan\n\n**Paham kebangsaan** adalah kesadaran bahwa rakyat Indonesia bersatu sebagai **satu bangsa** yang melampaui perbedaan suku, agama, dan daerah.\n\nDasar filosofisnya adalah **Pancasila**, terutama sila **Persatuan Indonesia**.\n\n## Nasionalisme\n\n**Nasionalisme** adalah kesetiaan pada bangsa yang diwujudkan melalui:\n\n- rela berkorban\n- menjaga keutuhan bangsa\n- berprestasi dan mengharumkan nama negara\n\n### Nasionalisme vs chauvinisme\n\n| | Nasionalisme | Chauvinisme |\n|---|---|---|\n| Sikap pada bangsa sendiri | bangga dan setia | mengagung-agungkan |\n| Sikap pada bangsa lain | menghargai | merendahkan |\n| Akibat | kerja sama terjaga | hubungan rusak |\n\n## Patriotisme\n\n**Patriotisme** adalah cinta dan kesiapan membela tanah air. Wujudnya bisa sederhana: menghormati simbol negara, menaati hukum, menjaga kerukunan, dan mengikuti kegiatan kebangsaan."
+          "content": "## Paham kebangsaan\n\n**Paham kebangsaan** adalah kesadaran bahwa rakyat Indonesia bersatu sebagai **satu bangsa** yang melampaui perbedaan suku, agama, dan daerah.\n\nDasar filosofisnya adalah **Pancasila**, terutama sila **Persatuan Indonesia**.\n\n## Nasionalisme\n\n**Nasionalisme** adalah kesetiaan pada bangsa yang diwujudkan melalui:\n\n- rela berkorban\n- menjaga keutuhan bangsa\n- berprestasi dan mengharumkan nama negara\n\n### Nasionalisme vs chauvinisme\n\n| | Nasionalisme | Chauvinisme |\n|---|---|---|\n| Sikap pada bangsa sendiri | bangga dan setia | mengagung-agungkan |\n| Sikap pada bangsa lain | menghargai | merendahkan |\n| Akibat | kerja sama terjaga | hubungan rusak |\n\n## Patriotisme\n\n**Patriotisme** adalah cinta dan kesiapan membela tanah air. Wujudnya bisa sederhana: menghormati simbol negara, menaati hukum, menjaga kerukunan, dan mengikuti kegiatan kebangsaan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Paham kebangsaan",
+                  "definition": "Kesadaran bahwa rakyat Indonesia bersatu sebagai satu bangsa yang melampaui perbedaan."
+                },
+                {
+                  "term": "Nasionalisme",
+                  "definition": "Kesetiaan pada bangsa yang diwujudkan melalui pengorbanan, menjaga keutuhan, dan berprestasi."
+                },
+                {
+                  "term": "Chauvinisme",
+                  "definition": "Sikap mengagung-agungkan bangsa sendiri dan merendahkan bangsa lain."
+                },
+                {
+                  "term": "Patriotisme",
+                  "definition": "Cinta dan kesiapan membela tanah air, termasuk menghormati simbol negara dan menaati hukum."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Paham kebangsaan"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Paham kebangsaan** adalah kesadaran bahwa rakyat Indonesia bersatu sebagai **satu bangsa** yang melampaui perbedaan suku, agama, dan daerah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dasar filosofisnya adalah **Pancasila**, terutama sila **Persatuan Indonesia**."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Nasionalisme"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Nasionalisme** adalah kesetiaan pada bangsa yang diwujudkan melalui:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "rela berkorban",
+                "menjaga keutuhan bangsa",
+                "berprestasi dan mengharumkan nama negara"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Nasionalisme vs chauvinisme"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "",
+                  "Nasionalisme",
+                  "Chauvinisme"
+                ],
+                [
+                  "Sikap pada bangsa sendiri",
+                  "bangga dan setia",
+                  "mengagung-agungkan"
+                ],
+                [
+                  "Sikap pada bangsa lain",
+                  "menghargai",
+                  "merendahkan"
+                ],
+                [
+                  "Akibat",
+                  "kerja sama terjaga",
+                  "hubungan rusak"
+                ]
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pan4-nasionalisme",
+              "prompt": "Kelompokkan sikap berikut ke dalam nasionalisme atau chauvinisme.",
+              "buckets": [
+                {
+                  "id": "nasionalisme",
+                  "label": "Nasionalisme"
+                },
+                {
+                  "id": "chauvinisme",
+                  "label": "Chauvinisme"
+                }
+              ],
+              "items": [
+                {
+                  "id": "n1",
+                  "text": "Bangga dan setia pada bangsa sendiri",
+                  "bucket": "nasionalisme"
+                },
+                {
+                  "id": "n2",
+                  "text": "Menghargai bangsa lain",
+                  "bucket": "nasionalisme"
+                },
+                {
+                  "id": "n3",
+                  "text": "Kerja sama antarbangsa terjaga",
+                  "bucket": "nasionalisme"
+                },
+                {
+                  "id": "n4",
+                  "text": "Mengagung-agungkan bangsa sendiri",
+                  "bucket": "chauvinisme"
+                },
+                {
+                  "id": "n5",
+                  "text": "Merendahkan bangsa lain",
+                  "bucket": "chauvinisme"
+                },
+                {
+                  "id": "n6",
+                  "text": "Hubungan antarbangsa rusak",
+                  "bucket": "chauvinisme"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — nasionalisme bangga tanpa merendahkan; chauvinisme mengagungkan diri dan merendahkan bangsa lain.",
+                "wrong": "Nasionalisme menghargai bangsa lain; chauvinisme merendahkannya sehingga hubungan rusak."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Patriotisme"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Patriotisme** adalah cinta dan kesiapan membela tanah air. Wujudnya bisa sederhana: menghormati simbol negara, menaati hukum, menjaga kerukunan, dan mengikuti kegiatan kebangsaan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan4-patriotisme",
+              "question": "Wujud patriotisme yang sederhana bagi pelajar adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Menghormati simbol negara, menaati hukum, dan menjaga kerukunan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Merendahkan budaya bangsa lain"
+                },
+                {
+                  "id": "c",
+                  "text": "Menolak semua kerja sama internasional"
+                }
+              ],
+              "explanation": "Patriotisme tidak harus berupa tindakan besar. Menghormati simbol negara, menaati hukum, menjaga kerukunan, dan mengikuti kegiatan kebangsaan adalah wujudnya."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "NKRI dan Kedaulatan Wilayah",
           "duration": 320,
           "source_reference": "Bab 4 Unit 2",
-          "content": "## Unsur pembentuk negara (Konvensi Montevideo 1933)\n\n1. **wilayah**\n2. **rakyat**\n3. **pemerintahan**\n4. **pengakuan negara lain**\n\n## Dasar hukum\n\n**Pasal 25A UUD NRI Tahun 1945**: negara kesatuan yang berbentuk republik dengan wilayah yang ditetapkan undang-undang.\n\n## Negara kesatuan dan otonomi\n\nDaerah menjalankan **otonomi** untuk mengurus urusannya sendiri, tetapi tetap **di dalam kerangka NKRI**. Otonomi bukan jalan menuju pemisahan diri.\n\n## Peta resmi negara\n\nPeta resmi adalah **dokumen hukum** yang menegaskan batas wilayah. Karena itu pemalsuan atau pengubahan peta menyangkut kedaulatan.\n\n## Ancaman\n\n| Jenis | Contoh |\n|---|---|\n| militer | invasi, blokade |\n| nonmiliter | berita bohong yang memecah belah, ancaman ideologi |\n\n## Peran pelajar\n\nMemahami batas wilayah dan **menolak disinformasi** tentang wilayah Indonesia adalah bentuk menjaga kedaulatan."
+          "content": "## Unsur pembentuk negara (Konvensi Montevideo 1933)\n\n1. **wilayah**\n2. **rakyat**\n3. **pemerintahan**\n4. **pengakuan negara lain**\n\n## Dasar hukum\n\n**Pasal 25A UUD NRI Tahun 1945**: negara kesatuan yang berbentuk republik dengan wilayah yang ditetapkan undang-undang.\n\n## Negara kesatuan dan otonomi\n\nDaerah menjalankan **otonomi** untuk mengurus urusannya sendiri, tetapi tetap **di dalam kerangka NKRI**. Otonomi bukan jalan menuju pemisahan diri.\n\n## Peta resmi negara\n\nPeta resmi adalah **dokumen hukum** yang menegaskan batas wilayah. Karena itu pemalsuan atau pengubahan peta menyangkut kedaulatan.\n\n## Ancaman\n\n| Jenis | Contoh |\n|---|---|\n| militer | invasi, blokade |\n| nonmiliter | berita bohong yang memecah belah, ancaman ideologi |\n\n## Peran pelajar\n\nMemahami batas wilayah dan **menolak disinformasi** tentang wilayah Indonesia adalah bentuk menjaga kedaulatan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Unsur pembentuk negara (Konvensi Montevideo 1933)"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**wilayah**",
+                "**rakyat**",
+                "**pemerintahan**",
+                "**pengakuan negara lain**"
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pan4-montevideo",
+              "engine": "mermaid",
+              "title": "Empat unsur pembentuk negara",
+              "code": "flowchart LR\n  A[Unsur pembentuk negara] --> B[Wilayah]\n  A --> C[Rakyat]\n  A --> D[Pemerintahan]\n  A --> E[Pengakuan negara lain]\n  B --> F[NKRI berdasarkan Pasal 25A UUD 1945]\n  C --> F\n  D --> F\n  E --> F"
+            },
+            {
+              "type": "sort",
+              "id": "srt-pan4-unsur",
+              "prompt": "Urutkan unsur pembentuk negara menurut Konvensi Montevideo 1933.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Wilayah"
+                },
+                {
+                  "id": "s2",
+                  "text": "Rakyat"
+                },
+                {
+                  "id": "s3",
+                  "text": "Pemerintahan"
+                },
+                {
+                  "id": "s4",
+                  "text": "Pengakuan negara lain"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — wilayah, rakyat, pemerintahan, lalu pengakuan negara lain.",
+                "wrong": "Urutannya: wilayah, rakyat, pemerintahan, dan pengakuan negara lain."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dasar hukum"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pasal 25A UUD NRI Tahun 1945**: negara kesatuan yang berbentuk republik dengan wilayah yang ditetapkan undang-undang."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan4-pasal",
+              "question": "Pasal yang menegaskan negara kesatuan berbentuk republik dengan wilayah yang ditetapkan undang-undang adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Pasal 25A UUD NRI Tahun 1945",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Pasal 1 UUD NRI Tahun 1945"
+                },
+                {
+                  "id": "c",
+                  "text": "Pasal 31 UUD NRI Tahun 1945"
+                }
+              ],
+              "explanation": "Pasal 25A menegaskan negara kesatuan berbentuk republik dengan wilayah yang ditetapkan undang-undang."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Negara kesatuan dan otonomi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Daerah menjalankan **otonomi** untuk mengurus urusannya sendiri, tetapi tetap **di dalam kerangka NKRI**. Otonomi bukan jalan menuju pemisahan diri."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peta resmi negara"
+            },
+            {
+              "type": "paragraph",
+              "text": "Peta resmi adalah **dokumen hukum** yang menegaskan batas wilayah. Karena itu pemalsuan atau pengubahan peta menyangkut kedaulatan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ancaman"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis",
+                  "Contoh"
+                ],
+                [
+                  "militer",
+                  "invasi, blokade"
+                ],
+                [
+                  "nonmiliter",
+                  "berita bohong yang memecah belah, ancaman ideologi"
+                ]
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pan4-ancaman",
+              "prompt": "Kelompokkan ancaman berikut.",
+              "buckets": [
+                {
+                  "id": "militer",
+                  "label": "Ancaman militer"
+                },
+                {
+                  "id": "nonmiliter",
+                  "label": "Ancaman nonmiliter"
+                }
+              ],
+              "items": [
+                {
+                  "id": "a1",
+                  "text": "Invasi",
+                  "bucket": "militer"
+                },
+                {
+                  "id": "a2",
+                  "text": "Blokade",
+                  "bucket": "militer"
+                },
+                {
+                  "id": "a3",
+                  "text": "Berita bohong yang memecah belah",
+                  "bucket": "nonmiliter"
+                },
+                {
+                  "id": "a4",
+                  "text": "Ancaman ideologi",
+                  "bucket": "nonmiliter"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — invasi dan blokade bersifat militer; hoaks dan ancaman ideologi bersifat nonmiliter.",
+                "wrong": "Ancaman militer memakai kekuatan bersenjata; nonmiliter menyerang ideologi, informasi, dan persatuan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peran pelajar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Memahami batas wilayah dan **menolak disinformasi** tentang wilayah Indonesia adalah bentuk menjaga kedaulatan."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Sengketa Batas Wilayah Indonesia dan Malaysia",
           "duration": 300,
           "source_reference": "Bab 4 Unit 3",
-          "content": "## Kasus Sipadan dan Ligitan\n\n- Dua pulau kecil di **Selat Makassar**, dekat perbatasan Kalimantan Timur dan Sabah\n- Klaim Indonesia dan Malaysia berlangsung lama\n- **Mahkamah Internasional** memutuskan pada **2002** bahwa kedua pulau menjadi milik **Malaysia**\n- Pertimbangan utama: bukti **pengelolaan nyata** (effective occupation) oleh Malaysia\n\n**Pelajaran:** klaim tanpa bukti historis dan pengelolaan nyata di lapangan sulit dipertahankan.\n\n## Kasus Ambalat\n\n- Terletak di **Laut Sulawesi**, menyangkut **batas landas kontinen** dan hak eksplorasi\n- Menguat setelah Malaysia menerbitkan peta yang mencakup blok Ambalat\n- Persoalannya bukan kepemilikan pulau, tetapi **batas laut dan hak pengelolaan**\n- Penyelesaian ditempuh melalui **diplomasi** dan perundingan batas\n\n## Jalur penyelesaian yang sah\n\n1. perundingan dan diplomasi\n2. mekanisme hukum internasional\n3. penguatan dokumen historis dan peta resmi\n4. menjaga wilayah secara **nyata** di lapangan\n\n## Sikap yang perlu dihindari\n\nMenggunakan kekerasan tanpa dasar, mengabaikan klaim, atau menyerahkan wilayah begitu saja."
+          "content": "## Kasus Sipadan dan Ligitan\n\n- Dua pulau kecil di **Selat Makassar**, dekat perbatasan Kalimantan Timur dan Sabah\n- Klaim Indonesia dan Malaysia berlangsung lama\n- **Mahkamah Internasional** memutuskan pada **2002** bahwa kedua pulau menjadi milik **Malaysia**\n- Pertimbangan utama: bukti **pengelolaan nyata** (effective occupation) oleh Malaysia\n\n**Pelajaran:** klaim tanpa bukti historis dan pengelolaan nyata di lapangan sulit dipertahankan.\n\n## Kasus Ambalat\n\n- Terletak di **Laut Sulawesi**, menyangkut **batas landas kontinen** dan hak eksplorasi\n- Menguat setelah Malaysia menerbitkan peta yang mencakup blok Ambalat\n- Persoalannya bukan kepemilikan pulau, tetapi **batas laut dan hak pengelolaan**\n- Penyelesaian ditempuh melalui **diplomasi** dan perundingan batas\n\n## Jalur penyelesaian yang sah\n\n1. perundingan dan diplomasi\n2. mekanisme hukum internasional\n3. penguatan dokumen historis dan peta resmi\n4. menjaga wilayah secara **nyata** di lapangan\n\n## Sikap yang perlu dihindari\n\nMenggunakan kekerasan tanpa dasar, mengabaikan klaim, atau menyerahkan wilayah begitu saja.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kasus Sipadan dan Ligitan"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Dua pulau kecil di **Selat Makassar**, dekat perbatasan Kalimantan Timur dan Sabah",
+                "Klaim Indonesia dan Malaysia berlangsung lama",
+                "**Mahkamah Internasional** memutuskan pada **2002** bahwa kedua pulau menjadi milik **Malaysia**",
+                "Pertimbangan utama: bukti **pengelolaan nyata** (effective occupation) oleh Malaysia"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pelajaran:** klaim tanpa bukti historis dan pengelolaan nyata di lapangan sulit dipertahankan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan4-sipadan",
+              "question": "Pertimbangan utama Mahkamah Internasional dalam putusan Sipadan dan Ligitan tahun 2002 adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Bukti pengelolaan nyata oleh Malaysia",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Jumlah penduduk kedua pulau"
+                },
+                {
+                  "id": "c",
+                  "text": "Luas wilayah masing-masing negara"
+                }
+              ],
+              "explanation": "Mahkamah Internasional memutuskan kedua pulau menjadi milik Malaysia dengan pertimbangan bukti pengelolaan nyata (effective occupation)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kasus Ambalat"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Terletak di **Laut Sulawesi**, menyangkut **batas landas kontinen** dan hak eksplorasi",
+                "Menguat setelah Malaysia menerbitkan peta yang mencakup blok Ambalat",
+                "Persoalannya bukan kepemilikan pulau, tetapi **batas laut dan hak pengelolaan**",
+                "Penyelesaian ditempuh melalui **diplomasi** dan perundingan batas"
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pan4-ambalat",
+              "question": "Sengketa Ambalat menyangkut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Batas landas kontinen dan hak eksplorasi di Laut Sulawesi",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Kepemilikan pulau di Selat Makassar"
+                },
+                {
+                  "id": "c",
+                  "text": "Batas darat antara Kalimantan dan Sabah"
+                }
+              ],
+              "explanation": "Ambalat terletak di Laut Sulawesi dan menyangkut batas landas kontinen serta hak eksplorasi, bukan kepemilikan pulau. Penyelesaiannya ditempuh melalui diplomasi."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jalur penyelesaian yang sah"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "perundingan dan diplomasi",
+                "mekanisme hukum internasional",
+                "penguatan dokumen historis dan peta resmi",
+                "menjaga wilayah secara **nyata** di lapangan"
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pan4-sengketa",
+              "engine": "mermaid",
+              "title": "Jalur penyelesaian sengketa batas wilayah",
+              "code": "flowchart LR\n  A[Sengketa batas wilayah] --> B[Perundingan dan diplomasi]\n  A --> C[Mekanisme hukum internasional]\n  A --> D[Penguatan dokumen historis dan peta resmi]\n  A --> E[Menjaga wilayah secara nyata di lapangan]\n  B --> F[Penyelesaian damai]\n  C --> F\n  D --> F\n  E --> F"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sikap yang perlu dihindari"
+            },
+            {
+              "type": "paragraph",
+              "text": "Menggunakan kekerasan tanpa dasar, mengabaikan klaim, atau menyerahkan wilayah begitu saja."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pan4-disinformasi",
+              "title": "Berita bohong tentang wilayah Indonesia",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Di grup kelas beredar unggahan yang menyebut sebagian wilayah Indonesia sudah dijual ke negara lain. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Memeriksa sumber resmi sebelum menyebarkan",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Menolak disinformasi tentang wilayah adalah bentuk menjaga kedaulatan."
+                    },
+                    {
+                      "text": "Langsung meneruskan karena khawatir ketinggalan informasi",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Meneruskan tanpa memeriksa memperluas berita bohong yang memecah belah."
+                    },
+                    {
+                      "text": "Mengabaikan dan keluar dari grup",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Tidak menyebarkan itu baik, tetapi belum membantu meluruskan informasi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Ternyata unggahan itu tidak memiliki sumber resmi. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Mengingatkan grup dan membagikan sumber resmi",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Meluruskan dengan sumber resmi mencegah hoaks menyebar lebih jauh."
+                    },
+                    {
+                      "text": "Diam saja karena sudah tahu itu bohong",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Tidak menyebarkan itu baik, tetapi diam membiarkan orang lain percaya hoaks."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Beberapa teman mulai marah dan menyalahkan pemerintah. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengakui belum memeriksa dan mengajak mencari sumber resmi",
+                      "next": "n2",
+                      "score": 1,
+                      "feedback": "Mengakui kekeliruan dan mengajak memeriksa sumber memulihkan suasana."
+                    },
+                    {
+                      "text": "Terus membela unggahan itu",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Membela informasi tanpa bukti memperbesar perpecahan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Guru membahas pentingnya literasi informasi. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mulai memeriksa sumber setiap informasi tentang wilayah negara",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Literasi informasi membuat kita ikut menjaga kedaulatan secara sadar."
+                    },
+                    {
+                      "text": "Tetap mengabaikan semua berita tentang wilayah",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Mengabaikan semua berita membuat kita tidak peka terhadap isu kedaulatan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Hoaks tidak menyebar dan grup kembali tenang. Kamu ikut menjaga persatuan dan kedaulatan."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Kamu tidak ikut menyebarkan hoaks, tetapi belum membantu orang lain memahami kebenarannya."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Perpecahan meluas dan hoaks makin dipercaya. Membela informasi tanpa bukti merugikan persatuan."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pan4-warga",
+              "title": "Tantangan Kilat: Warga Negara yang Baik",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Kesetiaan pada bangsa disebut…",
+                  "answer": "nasionalisme"
+                },
+                {
+                  "question": "Mengagung-agungkan bangsa sendiri dan merendahkan bangsa lain disebut…",
+                  "answer": "chauvinisme"
+                },
+                {
+                  "question": "Cinta dan kesiapan membela tanah air disebut…",
+                  "answer": "patriotisme"
+                },
+                {
+                  "question": "Konvensi tentang unsur negara disepakati di Montevideo tahun…",
+                  "answer": "1933"
+                },
+                {
+                  "question": "Pasal yang menegaskan NKRI adalah Pasal…",
+                  "answer": "25a"
+                },
+                {
+                  "question": "Putusan Sipadan dan Ligitan keluar tahun…",
+                  "answer": "2002"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — kebangsaan yang sehat bangga tanpa merendahkan bangsa lain.",
+                "wrong": "Ingat: nasionalisme, chauvinisme, patriotisme, Montevideo 1933, Pasal 25A, dan putusan 2002."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

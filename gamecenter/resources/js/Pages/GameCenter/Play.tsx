@@ -30,6 +30,7 @@ import {
     sessionBadges,
 } from '@/lib/game/gamification';
 import { offlineDb } from '@/lib/offline/offline-db';
+import type { MaterialBlockPayload } from '@/lib/material/store';
 import { syncService } from '@/lib/offline/sync-service';
 import {
     DIFFICULTY_META,
@@ -445,6 +446,21 @@ export default function Play({
             .catch(() => undefined);
     }
 
+    /**
+     * Skor blok interaktif bersifat formatif (plan §3.4): disimpan untuk siswa
+     * dan guru, tetapi tidak menambah skor sesi. Tamu tetap mendapat progres
+     * lokal lewat `lib/material/store`; hanya pengguna masuk yang disinkronkan.
+     */
+    function handleBlockRecord(payload: MaterialBlockPayload) {
+        if (!user) {
+            return;
+        }
+
+        void syncService
+            .enqueue('material_block', { ...payload })
+            .catch(() => undefined);
+    }
+
     const stageProps = question
         ? {
               question,
@@ -480,6 +496,7 @@ export default function Play({
                             userXp={user?.xp ?? 0}
                             onStart={startGame}
                             onMaterialRead={handleMaterialRead}
+                            onBlockRecord={handleBlockRecord}
                         />
                     )}
 
@@ -876,6 +893,7 @@ function IntroPanel({
     userXp,
     onStart,
     onMaterialRead,
+    onBlockRecord,
 }: {
     assessment: AssessmentProp;
     context: ContextProp;
@@ -891,6 +909,7 @@ function IntroPanel({
     userXp: number;
     onStart: () => void;
     onMaterialRead: (readCount: number) => void;
+    onBlockRecord: (payload: MaterialBlockPayload) => void;
 }) {
     const theme = subjectTheme(context.subject_color);
     const difficulty = DIFFICULTY_META[assessment.difficulty];
@@ -1075,6 +1094,7 @@ function IntroPanel({
                 initialRead={progress?.materials_read ?? 0}
                 isLoggedIn={isLoggedIn}
                 onRead={onMaterialRead}
+                onBlockRecord={onBlockRecord}
             />
 
             <div className="mt-3 grid gap-2 sm:grid-cols-3">

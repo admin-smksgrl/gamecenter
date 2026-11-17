@@ -24,21 +24,555 @@
           "title": "Q.S. al-Maidah/5: 48 — Berlomba dalam Kebaikan",
           "duration": 320,
           "source_reference": "Bab 1",
-          "content": "## Isi ayat\n\nQ.S. al-Maidah/5: 48 antara lain menegaskan:\n\n> \"Untuk setiap umat di antara kamu, Kami berikan **aturan dan jalan yang terang**.\"\n\nLalu Allah memerintahkan:\n\n> \"**Berlomba-lombalah dalam kebaikan.**\"\n\n## Konsep fastabiqul khairat\n\n**Fastabiqul khairat** berarti berlomba dan bersegera mengerjakan **kebaikan**.\n\n### Ciri kompetisi yang benar\n\n- caranya **halal dan berakhlak**\n- tidak **merugikan** orang lain\n- tujuannya memperbaiki kualitas bersama\n\n## Asbabun nuzul\n\nAyat ini turun berkaitan dengan **perubahan arah kiblat** dan penegasan bahwa setiap umat memiliki **syariat** sendiri.\n\n### Pemahaman yang tepat\n\n| Salah | Benar |\n|---|---|\n| memaksa umat lain mengikuti syariat kita | menghargai keberagaman, tetap **istiqamah** pada syariat sendiri |\n| berlaku sinis pada pemeluk agama lain | berlomba dalam kebaikan bersama |\n\n**Sababun nuzul tidak menghapus perintah ayat**, hanya menjelaskan konteks turunnya."
+          "content": "## Isi ayat\n\nQ.S. al-Maidah/5: 48 antara lain menegaskan:\n\n> \"Untuk setiap umat di antara kamu, Kami berikan **aturan dan jalan yang terang**.\"\n\nLalu Allah memerintahkan:\n\n> \"**Berlomba-lombalah dalam kebaikan.**\"\n\n## Konsep fastabiqul khairat\n\n**Fastabiqul khairat** berarti berlomba dan bersegera mengerjakan **kebaikan**.\n\n### Ciri kompetisi yang benar\n\n- caranya **halal dan berakhlak**\n- tidak **merugikan** orang lain\n- tujuannya memperbaiki kualitas bersama\n\n## Asbabun nuzul\n\nAyat ini turun berkaitan dengan **perubahan arah kiblat** dan penegasan bahwa setiap umat memiliki **syariat** sendiri.\n\n### Pemahaman yang tepat\n\n| Salah | Benar |\n|---|---|\n| memaksa umat lain mengikuti syariat kita | menghargai keberagaman, tetap **istiqamah** pada syariat sendiri |\n| berlaku sinis pada pemeluk agama lain | berlomba dalam kebaikan bersama |\n\n**Sababun nuzul tidak menghapus perintah ayat**, hanya menjelaskan konteks turunnya.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Fastabiqul khairat",
+                  "definition": "Berlomba dan bersegera mengerjakan kebaikan, bukan berlomba mengejar keunggulan dengan mengorbankan orang lain."
+                },
+                {
+                  "term": "Asbabun nuzul",
+                  "definition": "Sebab atau peristiwa yang melatarbelakangi turunnya suatu ayat."
+                },
+                {
+                  "term": "Syariat",
+                  "definition": "Aturan dan jalan yang Allah tetapkan untuk setiap umat."
+                },
+                {
+                  "term": "Istiqamah",
+                  "definition": "Konsisten dan teguh berada di jalan yang benar."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Isi ayat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Q.S. al-Maidah/5: 48 antara lain menegaskan:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Untuk setiap umat di antara kamu, Kami berikan **aturan dan jalan yang terang**.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Lalu Allah memerintahkan:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"**Berlomba-lombalah dalam kebaikan.**\""
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Konsep fastabiqul khairat"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Fastabiqul khairat** berarti berlomba dan bersegera mengerjakan **kebaikan**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Ciri kompetisi yang benar"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "caranya **halal dan berakhlak**",
+                "tidak **merugikan** orang lain",
+                "tujuannya memperbaiki kualitas bersama"
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-fastabiqul-khairat",
+              "engine": "mermaid",
+              "title": "Ciri kompetisi yang benar menurut fastabiqul khairat",
+              "code": "flowchart LR\n  A[Syariat setiap umat] --> B[Berlomba dalam kebaikan]\n  B --> C[Cara halal dan berakhlak]\n  B --> D[Tidak merugikan orang lain]\n  B --> E[Tujuan memperbaiki kualitas bersama]\n  C --> F[Fastabiqul khairat]\n  D --> F\n  E --> F"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Asbabun nuzul"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ayat ini turun berkaitan dengan **perubahan arah kiblat** dan penegasan bahwa setiap umat memiliki **syariat** sendiri."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai1-asbab",
+              "question": "Peristiwa yang menjadi latar turunnya Q.S. al-Maidah/5: 48 adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Perubahan arah kiblat dan penegasan bahwa setiap umat punya syariat",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Perang Badar antara kaum muslim dan Quraisy"
+                },
+                {
+                  "id": "c",
+                  "text": "Pembebasan kota Mekah tanpa pertumpahan darah"
+                }
+              ],
+              "explanation": "Ayat ini turun berkaitan dengan perubahan arah kiblat dan menegaskan bahwa setiap umat memiliki syariat sendiri, sehingga kita menghargai keberagaman tanpa meninggalkan istiqamah."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Pemahaman yang tepat"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Salah",
+                  "Benar"
+                ],
+                [
+                  "memaksa umat lain mengikuti syariat kita",
+                  "menghargai keberagaman, tetap **istiqamah** pada syariat sendiri"
+                ],
+                [
+                  "berlaku sinis pada pemeluk agama lain",
+                  "berlomba dalam kebaikan bersama"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Sababun nuzul tidak menghapus perintah ayat**, hanya menjelaskan konteks turunnya."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai1-kompetisi",
+              "prompt": "Kelompokkan sikap berikut ke dalam kompetisi yang benar atau yang salah.",
+              "buckets": [
+                {
+                  "id": "benar",
+                  "label": "Kompetisi yang benar"
+                },
+                {
+                  "id": "salah",
+                  "label": "Kompetisi yang salah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "k1",
+                  "text": "Caranya halal dan berakhlak",
+                  "bucket": "benar"
+                },
+                {
+                  "id": "k2",
+                  "text": "Tidak merugikan orang lain",
+                  "bucket": "benar"
+                },
+                {
+                  "id": "k3",
+                  "text": "Tujuannya memperbaiki kualitas bersama",
+                  "bucket": "benar"
+                },
+                {
+                  "id": "k4",
+                  "text": "Memaksa umat lain mengikuti syariat kita",
+                  "bucket": "salah"
+                },
+                {
+                  "id": "k5",
+                  "text": "Bersikap sinis kepada pemeluk agama lain",
+                  "bucket": "salah"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — kompetisi dalam kebaikan menjaga cara, tidak merugikan, dan mengutamakan kualitas bersama.",
+                "wrong": "Kompetisi yang benar tetap menghargai keberagaman dan tidak memaksa keyakinan orang lain."
+              }
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Q.S. at-Taubah/9: 105 — Etos Kerja",
           "duration": 300,
           "source_reference": "Bab 1",
-          "content": "## Isi ayat\n\n> \"Bekerjalah kamu, maka Allah akan melihat pekerjaanmu, begitu juga Rasul-Nya dan orang-orang mukmin.\"\n\n## Makna\n\n**Etos kerja** = semangat bekerja **keras, sungguh-sungguh, dan bertanggung jawab**.\n\n### Tiga syarat pekerjaan\n\n1. **halal** caranya\n2. **bermanfaat** hasilnya\n3. **sungguh-sungguh** pelaksanaannya\n\n## Hadis tentang rezeki\n\nRasulullah Saw. bersabda bahwa sebaik-baik rezeki adalah hasil **usaha tangan sendiri** dan **jual beli yang bersih**.\n\n## Kosa kata kunci\n\n| Istilah | Makna |\n|---|---|\n| **amanah** | tanggung jawab atas tugas yang diberikan |\n| **istiqamah** | konsisten di jalan yang benar |\n\n## Keseimbangan\n\nEtos kerja diimbangi **ibadah** dan **istirahat** — kerja berlebihan merusak jasmani dan ruhani."
+          "content": "## Isi ayat\n\n> \"Bekerjalah kamu, maka Allah akan melihat pekerjaanmu, begitu juga Rasul-Nya dan orang-orang mukmin.\"\n\n## Makna\n\n**Etos kerja** = semangat bekerja **keras, sungguh-sungguh, dan bertanggung jawab**.\n\n### Tiga syarat pekerjaan\n\n1. **halal** caranya\n2. **bermanfaat** hasilnya\n3. **sungguh-sungguh** pelaksanaannya\n\n## Hadis tentang rezeki\n\nRasulullah Saw. bersabda bahwa sebaik-baik rezeki adalah hasil **usaha tangan sendiri** dan **jual beli yang bersih**.\n\n## Kosa kata kunci\n\n| Istilah | Makna |\n|---|---|\n| **amanah** | tanggung jawab atas tugas yang diberikan |\n| **istiqamah** | konsisten di jalan yang benar |\n\n## Keseimbangan\n\nEtos kerja diimbangi **ibadah** dan **istirahat** — kerja berlebihan merusak jasmani dan ruhani.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Isi ayat"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Bekerjalah kamu, maka Allah akan melihat pekerjaanmu, begitu juga Rasul-Nya dan orang-orang mukmin.\""
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai1-etos",
+              "question": "Ayat yang memerintahkan bekerja dan menegaskan bahwa pekerjaan dilihat Allah, Rasul-Nya, serta orang-orang mukmin adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Q.S. at-Taubah/9: 105",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Q.S. al-Maidah/5: 48"
+                },
+                {
+                  "id": "c",
+                  "text": "Q.S. al-Isra'/17: 26"
+                }
+              ],
+              "explanation": "Q.S. at-Taubah/9: 105 berisi perintah bekerja dan menegaskan bahwa hasil kerja akan dilihat Allah, Rasul-Nya, dan orang-orang mukmin."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Makna"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Etos kerja** = semangat bekerja **keras, sungguh-sungguh, dan bertanggung jawab**."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai1-seimbang",
+              "prompt": "Kelompokkan kebiasaan bekerja berikut.",
+              "buckets": [
+                {
+                  "id": "seimbang",
+                  "label": "Etos kerja seimbang"
+                },
+                {
+                  "id": "berlebihan",
+                  "label": "Kerja berlebihan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "b1",
+                  "text": "Bekerja keras dan bertanggung jawab",
+                  "bucket": "seimbang"
+                },
+                {
+                  "id": "b2",
+                  "text": "Tetap menunaikan ibadah",
+                  "bucket": "seimbang"
+                },
+                {
+                  "id": "b3",
+                  "text": "Mengabaikan istirahat",
+                  "bucket": "berlebihan"
+                },
+                {
+                  "id": "b4",
+                  "text": "Memaksakan diri sampai jasmani dan ruhani rusak",
+                  "bucket": "berlebihan"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — etos kerja diimbangi ibadah dan istirahat, karena kerja berlebihan merusak jasmani dan ruhani.",
+                "wrong": "Etos kerja yang sehat tetap menyisakan waktu untuk ibadah dan istirahat."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tiga syarat pekerjaan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**halal** caranya",
+                "**bermanfaat** hasilnya",
+                "**sungguh-sungguh** pelaksanaannya"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai1-syarat",
+              "prompt": "Urutkan tiga syarat pekerjaan yang diterima menurut materi.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Halal caranya"
+                },
+                {
+                  "id": "s2",
+                  "text": "Bermanfaat hasilnya"
+                },
+                {
+                  "id": "s3",
+                  "text": "Sungguh-sungguh pelaksanaannya"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3"
+              ],
+              "feedback": {
+                "correct": "Benar: halal caranya, bermanfaat hasilnya, lalu dikerjakan dengan sungguh-sungguh.",
+                "wrong": "Urutan syaratnya: halal caranya, bermanfaat hasilnya, dan sungguh-sungguh pelaksanaannya."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hadis tentang rezeki"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rasulullah Saw. bersabda bahwa sebaik-baik rezeki adalah hasil **usaha tangan sendiri** dan **jual beli yang bersih**."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kosa kata kunci"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Istilah",
+                  "Makna"
+                ],
+                [
+                  "**amanah**",
+                  "tanggung jawab atas tugas yang diberikan"
+                ],
+                [
+                  "**istiqamah**",
+                  "konsisten di jalan yang benar"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Keseimbangan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Etos kerja diimbangi **ibadah** dan **istirahat** — kerja berlebihan merusak jasmani dan ruhani."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Penerapan Kompetisi dan Etos Kerja",
           "duration": 280,
           "source_reference": "Bab 1 Latihan",
-          "content": "## Di sekolah\n\n- berlomba prestasi **tanpa** merugikan teman\n- mengerjakan tugas kelompok sesuai kesepakatan dan membantu yang kesulitan\n- mengajak teman **belajar bersama** menjelang ujian\n- tidak menyebarkan jawaban ujian\n\n## Di lingkungan\n\n- berlomba menabung untuk membantu korban bencana\n- mengisi media sosial dengan **konten edukasi**\n\n## Langkah penerapan\n\n1. Menetapkan **niat** berbuat baik\n2. Memilih kebaikan yang **bermanfaat dan realistis**\n3. Melaksanakan dengan **sungguh-sungguh**\n4. Mengajak teman ikut berbuat baik\n5. Menjaga **konsistensi** dan mengevaluasi diri\n\n## Sikap pada prestasi orang lain\n\nSaat melihat teman lebih berprestasi: **termotivasi** berusaha lebih baik dan tetap **mendoakan** kebaikannya — bukan mencela atau iri."
+          "content": "## Di sekolah\n\n- berlomba prestasi **tanpa** merugikan teman\n- mengerjakan tugas kelompok sesuai kesepakatan dan membantu yang kesulitan\n- mengajak teman **belajar bersama** menjelang ujian\n- tidak menyebarkan jawaban ujian\n\n## Di lingkungan\n\n- berlomba menabung untuk membantu korban bencana\n- mengisi media sosial dengan **konten edukasi**\n\n## Langkah penerapan\n\n1. Menetapkan **niat** berbuat baik\n2. Memilih kebaikan yang **bermanfaat dan realistis**\n3. Melaksanakan dengan **sungguh-sungguh**\n4. Mengajak teman ikut berbuat baik\n5. Menjaga **konsistensi** dan mengevaluasi diri\n\n## Sikap pada prestasi orang lain\n\nSaat melihat teman lebih berprestasi: **termotivasi** berusaha lebih baik dan tetap **mendoakan** kebaikannya — bukan mencela atau iri.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Di sekolah"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "berlomba prestasi **tanpa** merugikan teman",
+                "mengerjakan tugas kelompok sesuai kesepakatan dan membantu yang kesulitan",
+                "mengajak teman **belajar bersama** menjelang ujian",
+                "tidak menyebarkan jawaban ujian"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Di lingkungan"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "berlomba menabung untuk membantu korban bencana",
+                "mengisi media sosial dengan **konten edukasi**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Langkah penerapan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Menetapkan **niat** berbuat baik",
+                "Memilih kebaikan yang **bermanfaat dan realistis**",
+                "Melaksanakan dengan **sungguh-sungguh**",
+                "Mengajak teman ikut berbuat baik",
+                "Menjaga **konsistensi** dan mengevaluasi diri"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sikap pada prestasi orang lain"
+            },
+            {
+              "type": "paragraph",
+              "text": "Saat melihat teman lebih berprestasi: **termotivasi** berusaha lebih baik dan tetap **mendoakan** kebaikannya — bukan mencela atau iri."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pai1-prestasi",
+              "title": "Melihat teman lebih berprestasi",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Pengumuman lomba: namamu tidak muncul, tetapi nama teman sebangkumu masuk tiga besar. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengucapkan selamat dan bertanya cara ia belajar",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Fastabiqul khairat mendorong kita termotivasi dan belajar dari keberhasilan orang lain."
+                    },
+                    {
+                      "text": "Diam saja lalu mencari alasan mengapa ia menang",
+                      "next": "n3",
+                      "score": 1,
+                      "feedback": "Diam bukan kesalahan, tetapi membuang kesempatan belajar dari keberhasilannya."
+                    },
+                    {
+                      "text": "Menyebarkan anggapan bahwa ia menang dengan cara curang",
+                      "next": "n4",
+                      "score": 0,
+                      "feedback": "Menuduh tanpa bukti merugikan orang lain dan bertentangan dengan kompetisi yang berakhlak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Temanmu menawarkan belajar bersama untuk lomba berikutnya. Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Menerima dan menyusun jadwal belajar bersama",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Belajar bersama memperbaiki kualitas kalian berdua — inilah kompetisi dalam kebaikan."
+                    },
+                    {
+                      "text": "Menerima, tetapi menyembunyikan materi yang kamu punya",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Belajar bersama tetap berjalan, tetapi menyembunyikan materi membuatnya tidak maksimal."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Guru menanyakan siapa yang ingin ikut lomba berikutnya. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mendaftar dan meminta masukan dari teman yang menang",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Bertanya kepada yang lebih berpengalaman adalah cara sehat mengejar ketertinggalan."
+                    },
+                    {
+                      "text": "Tidak mendaftar karena merasa tidak mungkin menang",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Menyerah sebelum berusaha menutup peluang memperbaiki diri."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Kabar tuduhanmu sampai ke guru. Temanmu kecewa. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Minta maaf dan mengakui bahwa itu hanya prasangka",
+                      "next": "n5",
+                      "score": 1,
+                      "feedback": "Mengakui kekeliruan memulihkan hubungan dan menjaga akhlak kompetisi."
+                    },
+                    {
+                      "text": "Membela diri karena merasa tersaingi",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Membela prasangka hanya memperbesar kerugian yang sudah terjadi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kalian belajar bersama, saling mendorong, dan sama-sama meningkat. Prestasi teman menjadi motivasi, bukan ancaman."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Belajar bersama berjalan setengah hati. Persaingan tidak merusak, tetapi kerja samanya belum maksimal."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Kekecewaan dan prasangka membuat hubungan renggang. Kesempatan memperbaiki diri justru terlewat."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pai1-kompetisi",
+              "title": "Tantangan Kilat: Kompetisi dan Etos Kerja",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Berlomba dan bersegera mengerjakan kebaikan disebut…",
+                  "answer": "fastabiqul khairat"
+                },
+                {
+                  "question": "Sebab turunnya suatu ayat disebut…",
+                  "answer": "asbabun nuzul"
+                },
+                {
+                  "question": "Konsisten di jalan yang benar disebut…",
+                  "answer": "istiqamah"
+                },
+                {
+                  "question": "Tanggung jawab atas tugas yang diberikan disebut…",
+                  "answer": "amanah"
+                },
+                {
+                  "question": "Sebaik-baik rezeki berasal dari usaha… sendiri",
+                  "answer": "tangan"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — kompetisi dalam kebaikan berjalan bersama etos kerja yang halal dan bertanggung jawab.",
+                "wrong": "Ingat: fastabiqul khairat, asbabun nuzul, istiqamah, amanah, dan rezeki dari usaha tangan sendiri."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

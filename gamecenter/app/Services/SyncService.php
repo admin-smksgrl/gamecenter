@@ -9,11 +9,14 @@ use App\Enums\SyncStatus;
 use App\Models\Assessment;
 use App\Models\Chapter;
 use App\Models\GameSession;
+use App\Models\LearningMaterial;
+use App\Models\MaterialBlockResponse;
 use App\Models\Question;
 use App\Models\SessionAnswer;
 use App\Models\SyncQueue;
 use App\Models\User;
 use App\Models\UserProgress;
+use App\Services\Materi\BlockSchema;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
@@ -104,6 +107,7 @@ class SyncService
                     'session' => $this->processSession($user, $item),
                     'progress' => $this->processProgress($user, $item),
                     'answer' => $this->processAnswer($user, $item),
+                    'material_block' => $this->processMaterialBlock($user, $item),
                 };
             });
 
@@ -533,6 +537,91 @@ class SyncService
         );
 
         return [$isCorrect, $isCorrect ? $points : 0];
+    }
+
+    /**
+     * Menyimpan hasil kerja satu blok interaktif materi (plan §3.4.1).
+     *
+     * Idempoten: baris dikunci oleh (user_id, material_id, block_id) dan nilai
+     * terbaik dipertahankan, sehingga kiriman ulang dari antrean offline tidak
+     * pernah menurunkan skor atau menggandakan baris.
+     */
+    private function processMaterialBlock(User $user, array $item): void
+    {
+        $data = $this->validatePayload($item['payload'], [
+            'material_id' => ['required', 'integer', 'exists:learning_materials,id'],
+            'block_id' => ['required', 'string', 'max:64'],
+            'block_type' => ['required', 'string', 'max:32'],
+            'score' => ['required', 'integer', 'min:0', 'max:100'],
+            'max_score' => ['nullable', 'integer', 'min:1', 'max:100'],
+            'attempts' => ['nullable', 'integer', 'min:1', 'max:1000'],
+            'is_completed' => ['nullable', 'boolean'],
+            'details' => ['nullable', 'array', 'max:50'],
+            'last_answered_at' => ['nullable', 'date'],
+        ]);
+
+        $material = LearningMaterial::query()
+            ->with('chapter')
+            ->findOrFail($data['material_id']);
+
+        if (! $material->is_active || $material->chapter?->is_active !== true) {
+            throw ValidationException::withMessages([
+                'material_id' => 'Materi sudah tidak aktif.',
+            ]);
+        }
+
+        $block = collect($material->blocks ?? [])
+            ->first(fn ($candidate) => is_array($candidate)
+                && (string) ($candidate['id'] ?? '') === (string) $data['block_id']);
+
+        if (! is_array($block)) {
+            throw ValidationException::withMessages([
+                'block_id' => 'Blok tidak ditemukan pada materi ini.',
+            ]);
+        }
+
+        $type = (string) ($block['type'] ?? '');
+
+        if (! in_array($type, BlockSchema::ACTIVITY_TYPES, true)) {
+            throw ValidationException::withMessages([
+                'block_id' => 'Blok ini tidak dinilai sehingga tidak boleh dikirim.',
+            ]);
+        }
+
+        if ($type !== (string) $data['block_type']) {
+            throw ValidationException::withMessages([
+                'block_type' => 'Tipe blok tidak cocok dengan materi.',
+            ]);
+        }
+
+        $answeredAt = isset($data['last_answered_at'])
+            ? Carbon::parse($data['last_answered_at'])
+            : now();
+
+        $response = MaterialBlockResponse::query()->firstOrNew([
+            'user_id' => $user->id,
+            'material_id' => $material->id,
+            'block_id' => (string) $data['block_id'],
+        ]);
+
+        $isCompleted = (bool) ($data['is_completed'] ?? false)
+            || (bool) ($response->is_completed ?? false);
+
+        $response->fill([
+            'block_type' => $type,
+            'score' => max((int) ($response->score ?? 0), (int) $data['score']),
+            'max_score' => max((int) ($response->max_score ?? 100), (int) ($data['max_score'] ?? 100)),
+            'attempts' => max((int) ($response->attempts ?? 0), (int) ($data['attempts'] ?? 1)),
+            'is_completed' => $isCompleted,
+            'details' => $data['details'] ?? $response->details,
+            'last_answered_at' => $answeredAt,
+        ]);
+
+        if ($isCompleted && $response->first_completed_at === null) {
+            $response->first_completed_at = $answeredAt;
+        }
+
+        $response->save();
     }
 
     private function nextStreak(User $user, Carbon $playedAt): int

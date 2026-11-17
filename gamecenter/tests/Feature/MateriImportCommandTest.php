@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Models\Assessment;
 use App\Models\Chapter;
+use App\Models\LearningMaterial;
 use App\Models\Question;
 use App\Models\Subject;
 use App\Services\Materi\MateriImporter;
@@ -328,5 +329,135 @@ class MateriImportCommandTest extends TestCase
         ])->count());
 
         $this->assertSame(1440, Question::query()->count());
+    }
+
+    public function test_material_blocks_are_imported_while_legacy_markdown_stays(): void
+    {
+        $this->seed(SmaSmkMaterialSeeder::class);
+
+        $chapter = Chapter::query()->where('code', 'INF 1')->firstOrFail();
+        $withBlocks = $chapter->materials()->whereNotNull('blocks')->first();
+
+        $this->assertNotNull($withBlocks, 'minimal satu materi INF 1 memakai blocks');
+        $this->assertSame('Empat Pilar Berpikir Komputasional', $withBlocks->title);
+        // Teks asli tidak dibuang: tetap tersimpan sebagai fallback markdown.
+        $this->assertNotNull($withBlocks->content);
+
+        $types = array_column($withBlocks->blocks, 'type');
+
+        // Glosarium tampil lebih dulu (prinsip pre-training, plan §2.1).
+        $this->assertSame('glossary', $types[0]);
+        // Teks asli ikut dirender sebagai blok, bukan hanya tersimpan.
+        $this->assertContains('heading', $types);
+        $this->assertContains('paragraph', $types);
+        $this->assertContains('table', $types);
+        // Aktivitas & visual tetap ada.
+        $this->assertContains('sort', $types);
+        $this->assertContains('diagram', $types);
+        $this->assertCount(2, array_keys($types, 'checkpoint', true));
+
+        $ids = array_values(array_filter(array_column($withBlocks->blocks, 'id')));
+
+        $this->assertSame($ids, array_values(array_unique($ids)), 'id blok harus unik dalam satu materi');
+
+        // Selama konversi Fase 5.1 berjalan, masih ada materi tanpa blok —
+        // jalur markdown lama harus tetap teruji pada data nyata.
+        $legacy = LearningMaterial::query()->whereNull('blocks')->get();
+
+        $this->assertGreaterThan(0, $legacy->count());
+        $this->assertSame(0, $legacy->whereNull('content')->count());
+    }
+
+    public function test_material_type_supports_visual_and_scenario(): void
+    {
+        $this->assertContains('visual', \App\Enums\MaterialType::values());
+        $this->assertContains('scenario', \App\Enums\MaterialType::values());
+        $this->assertSame('Skenario', \App\Enums\MaterialType::Scenario->label());
+        $this->assertSame('Visual', \App\Enums\MaterialType::Visual->label());
+    }
+
+    public function test_visual_blocks_import_with_image_source_and_chart_data(): void
+    {
+        $this->seed(SmaSmkMaterialSeeder::class);
+
+        // Fase 3 (plan §4.1): matematika memakai grafik + gambar berlabel,
+        // fisika memakai diagram, lini masa, dan grafik batang.
+        $matematika = LearningMaterial::query()
+            ->where('title', 'Bentuk dan Arah Parabola')
+            ->firstOrFail();
+        $tipeMat = array_column($matematika->blocks, 'type');
+
+        $this->assertContains('chart', $tipeMat);
+        $this->assertContains('hotspots', $tipeMat);
+
+        $hotspots = collect($matematika->blocks)->firstWhere('type', 'hotspots');
+        $this->assertSame('Matematika-BG-KLS-X.pdf', $hotspots['image_source']['book']);
+        $this->assertSame(196, $hotspots['image_source']['page']);
+        $this->assertNotEmpty($hotspots['caption'], 'gambar berlabel wajib punya caption');
+        $this->assertStringStartsWith('/media/', $hotspots['image_url']);
+        $this->assertFileExists(public_path(ltrim($hotspots['image_url'], '/')));
+
+        foreach ($hotspots['points'] as $point) {
+            $this->assertGreaterThanOrEqual(0, $point['x']);
+            $this->assertLessThanOrEqual(1, $point['x']);
+            $this->assertGreaterThanOrEqual(0, $point['y']);
+            $this->assertLessThanOrEqual(1, $point['y']);
+        }
+
+        $chart = collect($matematika->blocks)->firstWhere('type', 'chart');
+        $this->assertSame('line', $chart['kind']);
+        $this->assertNotEmpty($chart['desc'], 'grafik wajib punya teks alternatif');
+
+        $fisika = LearningMaterial::query()
+            ->where('title', 'Besaran, Satuan, dan Alat Ukur')
+            ->firstOrFail();
+        $tipeFis = array_column($fisika->blocks, 'type');
+
+        $this->assertContains('diagram', $tipeFis);
+        $this->assertContains('timeline', $tipeFis);
+
+        $timeline = collect($fisika->blocks)->firstWhere('type', 'timeline');
+        $this->assertCount(4, $timeline['items']);
+        $this->assertSame('1875', $timeline['items'][0]['when']);
+    }
+
+    public function test_scenario_and_challenge_blocks_import_with_valid_graph(): void
+    {
+        $this->seed(SmaSmkMaterialSeeder::class);
+
+        // Fase 4 (plan §4.4 & §4.6): Pancasila memakai skenario bercabang dan
+        // matematika memakai tantangan kilat di akhir submateri.
+        $pancasila = LearningMaterial::query()
+            ->where('title', 'Menerapkan Pancasila dalam Kehidupan Berbangsa')
+            ->firstOrFail();
+
+        $this->assertSame('scenario', $pancasila->type->value);
+
+        $scenario = collect($pancasila->blocks)->firstWhere('type', 'scenario');
+        $this->assertNotNull($scenario, 'submateri Pancasila wajib punya blok skenario');
+        $this->assertNotEmpty($scenario['id']);
+        $this->assertLessThanOrEqual(15, count($scenario['nodes']));
+        $this->assertSame([], app(\App\Services\Materi\ScenarioValidator::class)
+            ->problems($scenario, 'materi.blocks'));
+
+        $ends = collect($scenario['nodes'])->where('end', true);
+        $this->assertGreaterThanOrEqual(2, $ends->count(), 'skenario butuh beberapa akhir berbeda');
+        $this->assertContains('good', $ends->pluck('outcome')->all());
+
+        $matematika = LearningMaterial::query()
+            ->where('title', 'Sifat-Sifat Eksponen')
+            ->firstOrFail();
+
+        $challenge = collect($matematika->blocks)->firstWhere('type', 'challenge');
+        $this->assertNotNull($challenge, 'submateri matematika wajib punya tantangan kilat');
+        $this->assertNotEmpty($challenge['id']);
+        $this->assertGreaterThanOrEqual(5, count($challenge['items']));
+        $this->assertLessThanOrEqual(8, count($challenge['items']));
+        $this->assertGreaterThan(0, $challenge['time_limit']);
+
+        foreach ($challenge['items'] as $item) {
+            $this->assertNotEmpty($item['question']);
+            $this->assertNotEmpty($item['answer']);
+        }
     }
 }

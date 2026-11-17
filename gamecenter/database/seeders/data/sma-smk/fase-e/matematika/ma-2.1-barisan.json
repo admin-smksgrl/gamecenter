@@ -23,21 +23,366 @@
           "title": "Dua Pola yang Berbeda",
           "duration": 240,
           "source_reference": "Modul Ajar MA 2.1 — Kompetensi Awal",
-          "content": "## Barisan adalah urutan bilangan berpola\n\nPerhatikan dua barisan berikut:\n\n- **2, 5, 8, 11, 14, …** → setiap suku **ditambah 3**\n- **2, 6, 18, 54, …** → setiap suku **dikali 3**\n\nKeduanya berpola, tetapi caranya berbeda:\n\n| | Barisan aritmetika | Barisan geometri |\n|---|---|---|\n| Pola | **ditambah** bilangan tetap | **dikali** bilangan tetap |\n| Nama bilangan tetap | **beda (b)** | **rasio (r)** |\n| Contoh | 2, 5, 8, 11 (b = 3) | 2, 6, 18, 54 (r = 3) |\n\n### Cara membedakan dengan cepat\n\nKurangkan suku berurutan. Bila hasilnya **selalu sama** → aritmetika.\nBagikan suku berurutan. Bila hasilnya **selalu sama** → geometri.\n\nBarisan 4, 8, 12, 16: selisihnya 4, 4, 4 → **aritmetika** dengan b = 4.\nBarisan 3, 9, 27, 81: rasionya 3, 3, 3 → **geometri** dengan r = 3."
+          "content": "## Barisan adalah urutan bilangan berpola\n\nPerhatikan dua barisan berikut:\n\n- **2, 5, 8, 11, 14, …** → setiap suku **ditambah 3**\n- **2, 6, 18, 54, …** → setiap suku **dikali 3**\n\nKeduanya berpola, tetapi caranya berbeda:\n\n| | Barisan aritmetika | Barisan geometri |\n|---|---|---|\n| Pola | **ditambah** bilangan tetap | **dikali** bilangan tetap |\n| Nama bilangan tetap | **beda (b)** | **rasio (r)** |\n| Contoh | 2, 5, 8, 11 (b = 3) | 2, 6, 18, 54 (r = 3) |\n\n### Cara membedakan dengan cepat\n\nKurangkan suku berurutan. Bila hasilnya **selalu sama** → aritmetika.\nBagikan suku berurutan. Bila hasilnya **selalu sama** → geometri.\n\nBarisan 4, 8, 12, 16: selisihnya 4, 4, 4 → **aritmetika** dengan b = 4.\nBarisan 3, 9, 27, 81: rasionya 3, 3, 3 → **geometri** dengan r = 3.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Barisan aritmetika",
+                  "definition": "Barisan yang setiap suku diperoleh dengan menambah bilangan tetap (beda)."
+                },
+                {
+                  "term": "Beda (b)",
+                  "definition": "Selisih tetap antara dua suku berurutan pada barisan aritmetika."
+                },
+                {
+                  "term": "Rasio (r)",
+                  "definition": "Hasil bagi tetap antara dua suku berurutan pada barisan geometri."
+                },
+                {
+                  "term": "Suku pertama (a)",
+                  "definition": "Nilai U₁ yang menjadi titik awal barisan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Barisan adalah urutan bilangan berpola"
+            },
+            {
+              "type": "paragraph",
+              "text": "Perhatikan dua barisan berikut:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**2, 5, 8, 11, 14, …** → setiap suku **ditambah 3**",
+                "**2, 6, 18, 54, …** → setiap suku **dikali 3**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Keduanya berpola, tetapi caranya berbeda:"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "",
+                  "Barisan aritmetika",
+                  "Barisan geometri"
+                ],
+                [
+                  "Pola",
+                  "**ditambah** bilangan tetap",
+                  "**dikali** bilangan tetap"
+                ],
+                [
+                  "Nama bilangan tetap",
+                  "**beda (b)**",
+                  "**rasio (r)**"
+                ],
+                [
+                  "Contoh",
+                  "2, 5, 8, 11 (b = 3)",
+                  "2, 6, 18, 54 (r = 3)"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "ch-banding-barisan",
+              "kind": "line",
+              "title": "Aritmetika (tambah 3) versus geometri (kali 3)",
+              "desc": "Garis aritmetika 2, 5, 8, 11, 14 naik tetap; garis geometri 2, 6, 18, 54 naik makin cepat.",
+              "data": [
+                {
+                  "label": "1",
+                  "value": 2
+                },
+                {
+                  "label": "2",
+                  "value": 5
+                },
+                {
+                  "label": "3",
+                  "value": 8
+                },
+                {
+                  "label": "4",
+                  "value": 11
+                },
+                {
+                  "label": "5",
+                  "value": 14
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Cara membedakan dengan cepat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kurangkan suku berurutan. Bila hasilnya **selalu sama** → aritmetika. Bagikan suku berurutan. Bila hasilnya **selalu sama** → geometri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Barisan 4, 8, 12, 16: selisihnya 4, 4, 4 → **aritmetika** dengan b = 4. Barisan 3, 9, 27, 81: rasionya 3, 3, 3 → **geometri** dengan r = 3."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-beda-barisan",
+              "question": "Barisan 4, 8, 12, 16, … adalah barisan…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Aritmetika dengan b = 4",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Geometri dengan r = 4"
+                },
+                {
+                  "id": "c",
+                  "text": "Aritmetika dengan b = 2"
+                }
+              ],
+              "explanation": "Selisih suku berurutan selalu 4 (8 − 4 = 4, 12 − 8 = 4), jadi barisan aritmetika dengan beda 4."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Rumus Suku ke-n",
           "duration": 360,
           "source_reference": "Modul Ajar MA 2.1 — Tujuan Pembelajaran 2 & 3",
-          "content": "## Dua rumus utama\n\n**Aritmetika**\n> Uₙ = a + (n − 1)b\n\n**Geometri**\n> Uₙ = a × rⁿ⁻¹\n\ndengan **a = U₁** (suku pertama), **b = beda**, **r = rasio**.\n\n### Contoh aritmetika\n\nBarisan 5, 9, 13, 17, … dengan a = 5 dan b = 4.\nU₁₀ = 5 + (10 − 1) × 4 = 5 + 36 = **41**\n\n### Contoh geometri\n\nBarisan 3, 6, 12, 24, … dengan a = 3 dan r = 2.\nU₈ = 3 × 2⁷ = 3 × 128 = **384**\n\n### Menentukan beda atau rasio dari dua suku\n\nBila U₃ = 11 dan U₇ = 27 (aritmetika):\n- Selisih indeks = 7 − 3 = 4 langkah\n- Selisih nilai = 27 − 11 = 16\n- b = 16 ÷ 4 = **4**\n\n**Tips:** pangkat pada rumus geometri selalu **(n − 1)**, bukan n. Ini kesalahan paling sering."
+          "content": "## Dua rumus utama\n\n**Aritmetika**\n> Uₙ = a + (n − 1)b\n\n**Geometri**\n> Uₙ = a × rⁿ⁻¹\n\ndengan **a = U₁** (suku pertama), **b = beda**, **r = rasio**.\n\n### Contoh aritmetika\n\nBarisan 5, 9, 13, 17, … dengan a = 5 dan b = 4.\nU₁₀ = 5 + (10 − 1) × 4 = 5 + 36 = **41**\n\n### Contoh geometri\n\nBarisan 3, 6, 12, 24, … dengan a = 3 dan r = 2.\nU₈ = 3 × 2⁷ = 3 × 128 = **384**\n\n### Menentukan beda atau rasio dari dua suku\n\nBila U₃ = 11 dan U₇ = 27 (aritmetika):\n- Selisih indeks = 7 − 3 = 4 langkah\n- Selisih nilai = 27 − 11 = 16\n- b = 16 ÷ 4 = **4**\n\n**Tips:** pangkat pada rumus geometri selalu **(n − 1)**, bukan n. Ini kesalahan paling sering.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dua rumus utama"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Aritmetika**"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Uₙ = a + (n − 1)b"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Geometri**"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Uₙ = a × rⁿ⁻¹"
+            },
+            {
+              "type": "paragraph",
+              "text": "dengan **a = U₁** (suku pertama), **b = beda**, **r = rasio**."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh aritmetika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Barisan 5, 9, 13, 17, … dengan a = 5 dan b = 4. U₁₀ = 5 + (10 − 1) × 4 = 5 + 36 = **41**"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-suku-ke-n",
+              "question": "Barisan 5, 9, 13, 17, … memiliki U₁₀ = …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "41",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "45"
+                },
+                {
+                  "id": "c",
+                  "text": "40"
+                }
+              ],
+              "explanation": "a = 5, b = 4, sehingga U₁₀ = 5 + (10 − 1) × 4 = 5 + 36 = 41."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh geometri"
+            },
+            {
+              "type": "paragraph",
+              "text": "Barisan 3, 6, 12, 24, … dengan a = 3 dan r = 2. U₈ = 3 × 2⁷ = 3 × 128 = **384**"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Menentukan beda atau rasio dari dua suku"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila U₃ = 11 dan U₇ = 27 (aritmetika):"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Selisih indeks = 7 − 3 = 4 langkah",
+                "Selisih nilai = 27 − 11 = 16",
+                "b = 16 ÷ 4 = **4**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Tips:** pangkat pada rumus geometri selalu **(n − 1)**, bukan n. Ini kesalahan paling sering."
+            },
+            {
+              "type": "sort",
+              "id": "srt-cari-beda",
+              "prompt": "Urutkan langkah menentukan beda bila U₃ = 11 dan U₇ = 27.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Hitung selisih indeks: 7 − 3 = 4 langkah"
+                },
+                {
+                  "id": "s2",
+                  "text": "Hitung selisih nilai: 27 − 11 = 16"
+                },
+                {
+                  "id": "s3",
+                  "text": "Bagi selisih nilai dengan selisih indeks: 16 ÷ 4"
+                },
+                {
+                  "id": "s4",
+                  "text": "Peroleh beda b = 4"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: beda = selisih nilai dibagi selisih indeks.",
+                "wrong": "Hitung dulu jarak indeks antar dua suku, baru bagi selisih nilainya."
+              }
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Barisan di Kehidupan Sehari-hari",
           "duration": 240,
           "source_reference": "Modul Ajar MA 2.1 — Tujuan Pembelajaran 4",
-          "content": "## Kapan memakai yang mana?\n\n**Aritmetika** — bila perubahan bersifat **tetap jumlahnya**:\n- Gaji naik Rp200.000 setiap tahun\n- Tabungan ditambah Rp50.000 setiap bulan\n- Kursi bioskop bertambah 4 per baris\n\n**Geometri** — bila perubahan bersifat **tetap kelipatannya**:\n- Bakteri berlipat dua setiap jam\n- Harga barang turun 10% per tahun\n- Bunga majemuk 5% per tahun\n\n### Latihan\n\nSebuah bioskop punya 12 kursi di baris pertama, dan setiap baris berikutnya bertambah 4 kursi. Berapa kursi di baris ke-8?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nPertambahannya tetap → **aritmetika** dengan a = 12, b = 4.\nU₈ = 12 + 7 × 4 = 12 + 28 = **40 kursi**.\n\n</details>\n\nPerhatikan: yang ditanya baris ke-8, jadi dipakai (8 − 1) = 7 langkah, bukan 8."
+          "content": "## Kapan memakai yang mana?\n\n**Aritmetika** — bila perubahan bersifat **tetap jumlahnya**:\n- Gaji naik Rp200.000 setiap tahun\n- Tabungan ditambah Rp50.000 setiap bulan\n- Kursi bioskop bertambah 4 per baris\n\n**Geometri** — bila perubahan bersifat **tetap kelipatannya**:\n- Bakteri berlipat dua setiap jam\n- Harga barang turun 10% per tahun\n- Bunga majemuk 5% per tahun\n\n### Latihan\n\nSebuah bioskop punya 12 kursi di baris pertama, dan setiap baris berikutnya bertambah 4 kursi. Berapa kursi di baris ke-8?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nPertambahannya tetap → **aritmetika** dengan a = 12, b = 4.\nU₈ = 12 + 7 × 4 = 12 + 28 = **40 kursi**.\n\n</details>\n\nPerhatikan: yang ditanya baris ke-8, jadi dipakai (8 − 1) = 7 langkah, bukan 8.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kapan memakai yang mana?"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Aritmetika** — bila perubahan bersifat **tetap jumlahnya**:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gaji naik Rp200.000 setiap tahun",
+                "Tabungan ditambah Rp50.000 setiap bulan",
+                "Kursi bioskop bertambah 4 per baris"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Geometri** — bila perubahan bersifat **tetap kelipatannya**:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Bakteri berlipat dua setiap jam",
+                "Harga barang turun 10% per tahun",
+                "Bunga majemuk 5% per tahun"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Latihan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebuah bioskop punya 12 kursi di baris pertama, dan setiap baris berikutnya bertambah 4 kursi. Berapa kursi di baris ke-8?"
+            },
+            {
+              "type": "paragraph",
+              "text": "<details> <summary>Lihat jawaban</summary>"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pertambahannya tetap → **aritmetika** dengan a = 12, b = 4. U₈ = 12 + 7 × 4 = 12 + 28 = **40 kursi**."
+            },
+            {
+              "type": "paragraph",
+              "text": "</details>"
+            },
+            {
+              "type": "paragraph",
+              "text": "Perhatikan: yang ditanya baris ke-8, jadi dipakai (8 − 1) = 7 langkah, bukan 8."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-barisan-cepat",
+              "title": "Tantangan Kilat: Barisan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "5, 9, 13, … memiliki U₁₀ = …",
+                  "answer": "41"
+                },
+                {
+                  "question": "3, 6, 12, 24, … memiliki U₈ = …",
+                  "answer": "384"
+                },
+                {
+                  "question": "Baris pertama 12 kursi, tiap baris +4. Baris ke-8 = … kursi",
+                  "answer": "40"
+                },
+                {
+                  "question": "Barisan 3, 9, 27, 81 memiliki rasio …",
+                  "answer": "3"
+                },
+                {
+                  "question": "U₃ = 11 dan U₇ = 27 pada barisan aritmetika. Beda b = …",
+                  "answer": "4"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — rumus Uₙ dan penentuan beda/rasio sudah dipakai benar.",
+                "wrong": "Ingat Uₙ = a + (n − 1)b dan Uₙ = a × rⁿ⁻¹; pangkatnya (n − 1), bukan n."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

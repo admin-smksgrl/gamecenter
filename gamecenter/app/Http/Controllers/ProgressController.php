@@ -8,6 +8,7 @@ use App\Models\Achievement;
 use App\Models\GameSession;
 use App\Models\User;
 use App\Models\UserProgress;
+use App\Services\Materi\BlockPracticeReport;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Inertia\Inertia;
@@ -26,7 +27,7 @@ class ProgressController extends Controller
     /**
      * Ringkasan progres, riwayat sesi, dan koleksi lencana siswa.
      */
-    public function index(Request $request): Response
+    public function index(Request $request, BlockPracticeReport $blockPractice): Response
     {
         $user = $request->user();
         $user->loadMissing('classRoom.educationLevel');
@@ -107,6 +108,9 @@ class ProgressController extends Controller
                 'achievements_total' => $achievementRows->count(),
             ],
             'activity' => $this->weeklyActivity($allSessions),
+            // Skor blok interaktif bersifat formatif (plan §3.4.1) — terpisah
+            // dari statistik sesi/rapor di atas.
+            'block_practice' => $blockPractice->forStudent($user),
             'progress' => $progressRows->map(function (UserProgress $row) {
                 $chapter = $row->chapter;
                 $subject = $chapter?->subject;

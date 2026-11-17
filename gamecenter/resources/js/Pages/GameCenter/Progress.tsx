@@ -100,6 +100,45 @@ interface AchievementItem {
     unlocked_at: string | null;
 }
 
+interface BlockPracticeRow {
+    block_id: string;
+    block_type: string;
+    label: string;
+    score: number;
+    attempts: number;
+    is_completed: boolean;
+    last_answered_at: string | null;
+}
+
+interface BlockPracticeMaterial {
+    material_id: number;
+    material_title: string | null;
+    chapter_id: number | null;
+    chapter_code: string | null;
+    chapter_title: string | null;
+    subject_name: string | null;
+    subject_icon: string | null;
+    subject_color: string | null;
+    level_theme: string;
+    assessment_id: number | null;
+    blocks: number;
+    completed: number;
+    average_score: number;
+    attempts: number;
+    last_answered_at: string | null;
+    block_rows: BlockPracticeRow[];
+}
+
+interface BlockPractice {
+    totals: {
+        blocks: number;
+        completed: number;
+        attempts: number;
+        average_score: number;
+    };
+    materials: BlockPracticeMaterial[];
+}
+
 interface Props {
     user: ProgressUser;
     stats: ProgressStats;
@@ -107,6 +146,7 @@ interface Props {
     progress: ChapterProgress[];
     sessions: SessionHistory[];
     achievements: AchievementItem[];
+    block_practice: BlockPractice;
     [key: string]: unknown;
 }
 
@@ -198,6 +238,18 @@ function SectionTitle({
     );
 }
 
+function scoreTone(score: number): string {
+    if (score >= 80) {
+        return 'bg-emerald-100 text-emerald-800';
+    }
+
+    if (score >= 60) {
+        return 'bg-amber-100 text-amber-800';
+    }
+
+    return 'bg-red-tint text-red';
+}
+
 export default function Progress({
     user,
     stats,
@@ -205,6 +257,7 @@ export default function Progress({
     progress,
     sessions,
     achievements,
+    block_practice,
 }: Props) {
     const maxActivity = Math.max(1, ...activity.map((day) => day.sessions));
     const unlocked = achievements.filter((item) => item.unlocked);
@@ -513,6 +566,168 @@ export default function Progress({
                                             })}
                                         </ul>
                                     )}
+                                </section>
+
+                                {/* ── Latihan interaktif ─────────── */}
+                                <section className="mt-4">
+                                    <SectionTitle
+                                        eyebrow="Formatif · bukan nilai rapor"
+                                        title="Latihan interaktif"
+                                    />
+
+                                    <div className="rounded-[22px] border border-rule bg-surface p-4 shadow-card">
+                                        <div className="flex flex-wrap items-center gap-2">
+                                            <span className="rounded-full bg-red-tint px-2.5 py-1 text-[9px] font-bold text-red">
+                                                {formatNumber(
+                                                    block_practice.totals.blocks,
+                                                )}{' '}
+                                                blok dikerjakan
+                                            </span>
+                                            <span className="rounded-full bg-ink/5 px-2.5 py-1 text-[9px] font-bold text-ink/45">
+                                                {formatNumber(
+                                                    block_practice.totals
+                                                        .completed,
+                                                )}{' '}
+                                                tuntas
+                                            </span>
+                                            <span
+                                                className={cn(
+                                                    'rounded-full px-2.5 py-1 text-[9px] font-bold',
+                                                    scoreTone(
+                                                        block_practice.totals
+                                                            .average_score,
+                                                    ),
+                                                )}
+                                            >
+                                                Rata-rata{' '}
+                                                {
+                                                    block_practice.totals
+                                                        .average_score
+                                                }
+                                                %
+                                            </span>
+                                        </div>
+
+                                        <p className="mt-2 text-[9.5px] leading-relaxed font-medium text-ink/40">
+                                            Skor latihan mandiri per blok
+                                            (cek pemahaman, urutkan, skenario,
+                                            tantangan). Tidak masuk nilai
+                                            rapor — hanya untuk melihat bagian
+                                            mana yang perlu diulang.
+                                        </p>
+
+                                        {block_practice.materials.length ===
+                                        0 ? (
+                                            <p className="mt-3 rounded-xl border border-dashed border-rule bg-canvas/50 px-3 py-4 text-center text-[10px] font-medium text-ink/40">
+                                                Belum ada blok interaktif yang
+                                                dikerjakan. Buka materi dan
+                                                coba cek pemahamannya.
+                                            </p>
+                                        ) : (
+                                            <ul className="mt-3 grid gap-2">
+                                                {block_practice.materials.map(
+                                                    (material) => {
+                                                        const theme =
+                                                            subjectTheme(
+                                                                material.subject_color,
+                                                            );
+
+                                                        return (
+                                                            <li
+                                                                key={
+                                                                    material.material_id
+                                                                }
+                                                                className={cn(
+                                                                    'rounded-2xl border bg-canvas/40 px-3 py-2.5',
+                                                                    theme.border,
+                                                                )}
+                                                            >
+                                                                <div className="flex flex-wrap items-start gap-2">
+                                                                    <span
+                                                                        className={cn(
+                                                                            'grid h-8 w-8 shrink-0 place-items-center rounded-xl text-[14px]',
+                                                                            theme.tile,
+                                                                        )}
+                                                                    >
+                                                                        {material.subject_icon ??
+                                                                            '📘'}
+                                                                    </span>
+
+                                                                    <div className="min-w-0 flex-1">
+                                                                        <p className="truncate text-[11.5px] font-bold text-ink">
+                                                                            {material.material_title ??
+                                                                                'Materi'}
+                                                                        </p>
+                                                                        <p className="mt-0.5 truncate text-[9px] font-semibold text-ink/40">
+                                                                            {material.subject_name ??
+                                                                                'Mapel'}{' '}
+                                                                            ·{' '}
+                                                                            {material.chapter_title ??
+                                                                                'Bab'}
+                                                                        </p>
+                                                                    </div>
+
+                                                                    <div className="flex shrink-0 items-center gap-1.5">
+                                                                        <span
+                                                                            className={cn(
+                                                                                'rounded-full px-2 py-0.5 text-[9px] font-bold tabular-nums',
+                                                                                scoreTone(
+                                                                                    material.average_score,
+                                                                                ),
+                                                                            )}
+                                                                        >
+                                                                            {
+                                                                                material.average_score
+                                                                            }
+                                                                            %
+                                                                        </span>
+                                                                        {material.assessment_id && (
+                                                                            <Link
+                                                                                href={`/main/${material.assessment_id}`}
+                                                                                className="inline-flex h-7 items-center rounded-lg border border-rule bg-surface px-2 text-[9px] font-bold text-ink/55 transition-colors hover:text-red"
+                                                                            >
+                                                                                Buka
+                                                                            </Link>
+                                                                        )}
+                                                                    </div>
+                                                                </div>
+
+                                                                <ul className="mt-2 flex flex-wrap gap-1">
+                                                                    {material.block_rows.map(
+                                                                        (row) => (
+                                                                            <li
+                                                                                key={
+                                                                                    row.block_id
+                                                                                }
+                                                                                className={cn(
+                                                                                    'rounded-full px-2 py-0.5 text-[8.5px] font-bold',
+                                                                                    row.is_completed
+                                                                                        ? scoreTone(
+                                                                                              row.score,
+                                                                                          )
+                                                                                        : 'bg-ink/5 text-ink/40',
+                                                                                )}
+                                                                                title={`${row.label} · ${row.score}% · ${row.attempts}× dicoba`}
+                                                                            >
+                                                                                {
+                                                                                    row.label
+                                                                                }{' '}
+                                                                                ·{' '}
+                                                                                {
+                                                                                    row.score
+                                                                                }
+                                                                                %
+                                                                            </li>
+                                                                        ),
+                                                                    )}
+                                                                </ul>
+                                                            </li>
+                                                        );
+                                                    },
+                                                )}
+                                            </ul>
+                                        )}
+                                    </div>
                                 </section>
 
                                 {/* ── Riwayat sesi ───────────────── */}

@@ -24,21 +24,438 @@
           "title": "Apa Itu Kimia Hijau?",
           "duration": 240,
           "source_reference": "Bab V — Kimia Hijau",
-          "content": "## Definisi\n\nKimia hijau adalah pendekatan dalam kimia untuk **mengurangi atau menghilangkan** penggunaan dan produksi zat berbahaya bagi manusia dan lingkungan.\n\nDirumuskan melalui **12 prinsip** oleh Anastas dan Warner.\n\n### Prinsip yang paling sering dibahas\n\n| Prinsip | Makna |\n|---|---|\n| Pencegahan limbah | mencegah lebih baik daripada mengolah |\n| Efisiensi atom | sebagian besar atom reaktan menjadi produk |\n| Bahan kimia lebih aman | hindari pelarut beracun |\n| Efisiensi energi | jalankan reaksi pada suhu dan tekanan wajar |\n| Bahan baku terbarukan | gunakan sumber yang dapat pulih |\n| Desain untuk degradasi | produk mudah terurai setelah dipakai |\n\n### Mengapa mencegah lebih utama?\n\nKarena pengolahan limbah tetap memerlukan **energi, biaya, dan menyisakan risiko**. Bila limbah tidak terbentuk, seluruh rantai masalahnya hilang.\n\n### Manfaat jangka panjang\n\nLimbah dan energi yang terbuang berkurang, sehingga biaya pengolahan dan risiko denda pencemaran menurun."
+          "content": "## Definisi\n\nKimia hijau adalah pendekatan dalam kimia untuk **mengurangi atau menghilangkan** penggunaan dan produksi zat berbahaya bagi manusia dan lingkungan.\n\nDirumuskan melalui **12 prinsip** oleh Anastas dan Warner.\n\n### Prinsip yang paling sering dibahas\n\n| Prinsip | Makna |\n|---|---|\n| Pencegahan limbah | mencegah lebih baik daripada mengolah |\n| Efisiensi atom | sebagian besar atom reaktan menjadi produk |\n| Bahan kimia lebih aman | hindari pelarut beracun |\n| Efisiensi energi | jalankan reaksi pada suhu dan tekanan wajar |\n| Bahan baku terbarukan | gunakan sumber yang dapat pulih |\n| Desain untuk degradasi | produk mudah terurai setelah dipakai |\n\n### Mengapa mencegah lebih utama?\n\nKarena pengolahan limbah tetap memerlukan **energi, biaya, dan menyisakan risiko**. Bila limbah tidak terbentuk, seluruh rantai masalahnya hilang.\n\n### Manfaat jangka panjang\n\nLimbah dan energi yang terbuang berkurang, sehingga biaya pengolahan dan risiko denda pencemaran menurun.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Kimia hijau",
+                  "definition": "Pendekatan kimia untuk mengurangi atau menghilangkan zat berbahaya bagi manusia dan lingkungan."
+                },
+                {
+                  "term": "Efisiensi atom",
+                  "definition": "Bagian atom reaktan yang berubah menjadi produk; makin tinggi, makin sedikit limbah."
+                },
+                {
+                  "term": "Pencegahan limbah",
+                  "definition": "Prinsip utama kimia hijau: mencegah limbah lebih baik daripada mengolahnya setelah terbentuk."
+                },
+                {
+                  "term": "Degradasi",
+                  "definition": "Terurainya produk secara alami setelah dipakai sehingga tidak menumpuk di lingkungan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Definisi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kimia hijau adalah pendekatan dalam kimia untuk **mengurangi atau menghilangkan** penggunaan dan produksi zat berbahaya bagi manusia dan lingkungan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dirumuskan melalui **12 prinsip** oleh Anastas dan Warner."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-siklus-hijau",
+              "engine": "mermaid",
+              "title": "Siklus kegiatan kimia hijau",
+              "code": "flowchart LR\n  A[Amati masalah] --> B[Pilih prinsip kimia hijau]\n  B --> C[Rancang kegiatan]\n  C --> D[Laksanakan dan catat]\n  D --> E[Evaluasi dan perbaiki]\n  E --> B"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Prinsip yang paling sering dibahas"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Prinsip",
+                  "Makna"
+                ],
+                [
+                  "Pencegahan limbah",
+                  "mencegah lebih baik daripada mengolah"
+                ],
+                [
+                  "Efisiensi atom",
+                  "sebagian besar atom reaktan menjadi produk"
+                ],
+                [
+                  "Bahan kimia lebih aman",
+                  "hindari pelarut beracun"
+                ],
+                [
+                  "Efisiensi energi",
+                  "jalankan reaksi pada suhu dan tekanan wajar"
+                ],
+                [
+                  "Bahan baku terbarukan",
+                  "gunakan sumber yang dapat pulih"
+                ],
+                [
+                  "Desain untuk degradasi",
+                  "produk mudah terurai setelah dipakai"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-hijau-prinsip",
+              "question": "Menurut kimia hijau, tindakan yang paling utama adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Mencegah limbah terbentuk sejak awal",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Mengolah limbah yang sudah terbentuk"
+                },
+                {
+                  "id": "c",
+                  "text": "Membuang limbah ke saluran air agar tidak menumpuk"
+                }
+              ],
+              "explanation": "Prinsip pertama kimia hijau adalah pencegahan. Mengolah limbah tetap memerlukan energi dan biaya serta menyisakan risiko."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengapa mencegah lebih utama?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena pengolahan limbah tetap memerlukan **energi, biaya, dan menyisakan risiko**. Bila limbah tidak terbentuk, seluruh rantai masalahnya hilang."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Manfaat jangka panjang"
+            },
+            {
+              "type": "paragraph",
+              "text": "Limbah dan energi yang terbuang berkurang, sehingga biaya pengolahan dan risiko denda pencemaran menurun."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Penerapan dan Pelanggaran",
           "duration": 360,
           "source_reference": "Bab V — Penerapan Kimia Hijau",
-          "content": "## Penerapan di rumah dan sekolah\n\n- memisahkan sampah organik dan anorganik\n- mematikan lampu dan alat yang tidak dipakai\n- memakai wadah pakai ulang di kantin\n- mengurangi pemakaian bahan kimia berlebih saat praktikum\n- memilah dan mengolah limbah praktikum\n\n## Penerapan di industri\n\n| Prinsip | Contoh |\n|---|---|\n| Pelarut lebih aman | mengganti klorin dengan hidrogen peroksida |\n| Katalis | menurunkan energi aktivasi |\n| Bahan terbarukan | minyak kelapa untuk bahan sabun |\n| Daur ulang | memakai kembali sisa bahan |\n\n## Contoh pelanggaran\n\n- memakai pelarut beracun hanya karena lebih murah\n- membuang limbah ke saluran air tanpa pengolahan\n- membakar sampah plastik di halaman\n\n## Studi kasus: semburan lumpur panas Sidoarjo\n\nSemburan tersebut menutup lahan, memaksa warga mengungsi, dan merusak lingkungan sekitar — contoh nyata dampak kegiatan yang tidak memperhatikan prinsip keamanan dan pencegahan.\n\n## Hubungan dengan pembangunan berkelanjutan\n\nKimia hijau menyediakan cara memenuhi kebutuhan sekarang **tanpa merusak kemampuan generasi berikutnya** memenuhi kebutuhannya."
+          "content": "## Penerapan di rumah dan sekolah\n\n- memisahkan sampah organik dan anorganik\n- mematikan lampu dan alat yang tidak dipakai\n- memakai wadah pakai ulang di kantin\n- mengurangi pemakaian bahan kimia berlebih saat praktikum\n- memilah dan mengolah limbah praktikum\n\n## Penerapan di industri\n\n| Prinsip | Contoh |\n|---|---|\n| Pelarut lebih aman | mengganti klorin dengan hidrogen peroksida |\n| Katalis | menurunkan energi aktivasi |\n| Bahan terbarukan | minyak kelapa untuk bahan sabun |\n| Daur ulang | memakai kembali sisa bahan |\n\n## Contoh pelanggaran\n\n- memakai pelarut beracun hanya karena lebih murah\n- membuang limbah ke saluran air tanpa pengolahan\n- membakar sampah plastik di halaman\n\n## Studi kasus: semburan lumpur panas Sidoarjo\n\nSemburan tersebut menutup lahan, memaksa warga mengungsi, dan merusak lingkungan sekitar — contoh nyata dampak kegiatan yang tidak memperhatikan prinsip keamanan dan pencegahan.\n\n## Hubungan dengan pembangunan berkelanjutan\n\nKimia hijau menyediakan cara memenuhi kebutuhan sekarang **tanpa merusak kemampuan generasi berikutnya** memenuhi kebutuhannya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penerapan di rumah dan sekolah"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "memisahkan sampah organik dan anorganik",
+                "mematikan lampu dan alat yang tidak dipakai",
+                "memakai wadah pakai ulang di kantin",
+                "mengurangi pemakaian bahan kimia berlebih saat praktikum",
+                "memilah dan mengolah limbah praktikum"
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-hijau-penerapan",
+              "prompt": "Kelompokkan tindakan berikut sebagai penerapan atau pelanggaran kimia hijau.",
+              "buckets": [
+                {
+                  "id": "terap",
+                  "label": "Penerapan"
+                },
+                {
+                  "id": "langgar",
+                  "label": "Pelanggaran"
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1",
+                  "text": "Memakai wadah pakai ulang di kantin",
+                  "bucket": "terap"
+                },
+                {
+                  "id": "c2",
+                  "text": "Membakar sampah plastik di halaman sekolah",
+                  "bucket": "langgar"
+                },
+                {
+                  "id": "c3",
+                  "text": "Mengganti pelarut klorin dengan hidrogen peroksida",
+                  "bucket": "terap"
+                },
+                {
+                  "id": "c4",
+                  "text": "Membuang limbah praktikum ke saluran air tanpa pengolahan",
+                  "bucket": "langgar"
+                },
+                {
+                  "id": "c5",
+                  "text": "Memilah limbah praktikum sebelum dibuang",
+                  "bucket": "terap"
+                },
+                {
+                  "id": "c6",
+                  "text": "Memakai pelarut beracun karena lebih murah",
+                  "bucket": "langgar"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — penerapan mengurangi bahaya sejak awal, pelanggaran memindahkan bahaya ke lingkungan.",
+                "wrong": "Tanyakan: apakah tindakan ini mengurangi zat berbahaya, atau justru menambah pencemaran?"
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penerapan di industri"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Prinsip",
+                  "Contoh"
+                ],
+                [
+                  "Pelarut lebih aman",
+                  "mengganti klorin dengan hidrogen peroksida"
+                ],
+                [
+                  "Katalis",
+                  "menurunkan energi aktivasi"
+                ],
+                [
+                  "Bahan terbarukan",
+                  "minyak kelapa untuk bahan sabun"
+                ],
+                [
+                  "Daur ulang",
+                  "memakai kembali sisa bahan"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh pelanggaran"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "memakai pelarut beracun hanya karena lebih murah",
+                "membuang limbah ke saluran air tanpa pengolahan",
+                "membakar sampah plastik di halaman"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Studi kasus: semburan lumpur panas Sidoarjo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Semburan tersebut menutup lahan, memaksa warga mengungsi, dan merusak lingkungan sekitar — contoh nyata dampak kegiatan yang tidak memperhatikan prinsip keamanan dan pencegahan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hubungan dengan pembangunan berkelanjutan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kimia hijau menyediakan cara memenuhi kebutuhan sekarang **tanpa merusak kemampuan generasi berikutnya** memenuhi kebutuhannya."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Merancang Kegiatan Kimia Hijau",
           "duration": 240,
           "source_reference": "Bab V — Latihan",
-          "content": "## Siklus kegiatan\n\n1. Amati masalah lingkungan di sekitar sekolah\n2. Pilih prinsip kimia hijau yang sesuai\n3. Rancang kegiatan dan alat yang dibutuhkan\n4. Laksanakan, catat, lalu simpulkan\n5. Evaluasi dan perbaiki\n\n## Contoh rancangan\n\n**Masalah:** sampah plastik kantin menumpuk.\n\n**Rancangan yang sesuai prinsip:**\n\n- menyediakan wadah pakai ulang\n- memilah sampah organik untuk dikompos\n- mengurangi kemasan sekali pakai\n\n**Rancangan yang salah:** membakar sampah plastik atau menimbunnya.\n\n## Konsep efisiensi atom\n\nReaksi ideal mengubah **sebagian besar atom reaktan menjadi produk**, bukan menjadi limbah. Semakin tinggi efisiensi atom, semakin sedikit bahan terbuang.\n\n## Tantangan\n\nDi negara berkembang, hambatan utama adalah **biaya awal teknologi** dan kebutuhan peningkatan keterampilan pekerja. Karena itu penerapan sering dimulai dari langkah sederhana yang berdampak nyata."
+          "content": "## Siklus kegiatan\n\n1. Amati masalah lingkungan di sekitar sekolah\n2. Pilih prinsip kimia hijau yang sesuai\n3. Rancang kegiatan dan alat yang dibutuhkan\n4. Laksanakan, catat, lalu simpulkan\n5. Evaluasi dan perbaiki\n\n## Contoh rancangan\n\n**Masalah:** sampah plastik kantin menumpuk.\n\n**Rancangan yang sesuai prinsip:**\n\n- menyediakan wadah pakai ulang\n- memilah sampah organik untuk dikompos\n- mengurangi kemasan sekali pakai\n\n**Rancangan yang salah:** membakar sampah plastik atau menimbunnya.\n\n## Konsep efisiensi atom\n\nReaksi ideal mengubah **sebagian besar atom reaktan menjadi produk**, bukan menjadi limbah. Semakin tinggi efisiensi atom, semakin sedikit bahan terbuang.\n\n## Tantangan\n\nDi negara berkembang, hambatan utama adalah **biaya awal teknologi** dan kebutuhan peningkatan keterampilan pekerja. Karena itu penerapan sering dimulai dari langkah sederhana yang berdampak nyata.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Siklus kegiatan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Amati masalah lingkungan di sekitar sekolah",
+                "Pilih prinsip kimia hijau yang sesuai",
+                "Rancang kegiatan dan alat yang dibutuhkan",
+                "Laksanakan, catat, lalu simpulkan",
+                "Evaluasi dan perbaiki"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh rancangan"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Masalah:** sampah plastik kantin menumpuk."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Rancangan yang sesuai prinsip:**"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menyediakan wadah pakai ulang",
+                "memilah sampah organik untuk dikompos",
+                "mengurangi kemasan sekali pakai"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Rancangan yang salah:** membakar sampah plastik atau menimbunnya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Konsep efisiensi atom"
+            },
+            {
+              "type": "paragraph",
+              "text": "Reaksi ideal mengubah **sebagian besar atom reaktan menjadi produk**, bukan menjadi limbah. Semakin tinggi efisiensi atom, semakin sedikit bahan terbuang."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tantangan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Di negara berkembang, hambatan utama adalah **biaya awal teknologi** dan kebutuhan peningkatan keterampilan pekerja. Karena itu penerapan sering dimulai dari langkah sederhana yang berdampak nyata."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-hijau-kantin",
+              "title": "Sampah plastik kantin menumpuk",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Setiap hari kantin sekolah menghasilkan tumpukan sampah plastik. Kamu diminta mengusulkan solusi yang sesuai prinsip kimia hijau. Apa usulmu?",
+                  "choices": [
+                    {
+                      "text": "Mengganti kemasan sekali pakai dengan wadah pakai ulang",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Tepat: mencegah limbah sejak awal adalah prinsip pertama kimia hijau."
+                    },
+                    {
+                      "text": "Membakar sampah plastik di belakang kantin",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Pembakaran plastik menghasilkan asap beracun — memindahkan masalah ke udara, bukan menyelesaikannya."
+                    },
+                    {
+                      "text": "Menimbun sampah plastik di lubang tanah",
+                      "next": "n4",
+                      "score": 0,
+                      "feedback": "Penimbunan tidak menghilangkan limbah dan berisiko mencemari tanah serta air."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Wadah pakai ulang diterima, tetapi sampah organik dari kantin masih menumpuk. Langkah berikutnya?",
+                  "choices": [
+                    {
+                      "text": "Ajukan pemilahan sampah organik untuk dikompos",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Lengkap: pengurangan sumber plus pengolahan organik menutup dua alur limbah sekaligus."
+                    },
+                    {
+                      "text": "Cukup sampai wadah pakai ulang saja",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Bagus untuk plastik, tetapi sampah organik tetap menjadi masalah yang tidak terselesaikan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Warga sekolah mengeluh sesak napas karena asap pembakaran. Apa tindakanmu?",
+                  "choices": [
+                    {
+                      "text": "Menghentikan pembakaran dan mengusulkan pemilahan sampah",
+                      "next": "n5",
+                      "score": 1,
+                      "feedback": "Koreksi yang baik. Memperbaiki kesalahan lebih bernilai daripada mempertahankannya."
+                    },
+                    {
+                      "text": "Melanjutkan pembakaran karena lebih murah dan cepat",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Biaya murah hari ini menjadi biaya kesehatan yang jauh lebih besar kemudian."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Timbunan mulai berbau dan air tanah di dekatnya berbau tidak sedap. Langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Menghentikan penimbunan dan mengusulkan pemilahan",
+                      "next": "n5",
+                      "score": 1,
+                      "feedback": "Tepat: hentikan sumber pencemaran, lalu kelola limbah dengan cara yang benar."
+                    },
+                    {
+                      "text": "Menimbun lebih dalam agar baunya tidak tercium",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Menutup bau tidak menghilangkan pencemaran; air tanah tetap terancam."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "text": "Kantin kini memakai wadah pakai ulang, memilah sampah, dan mengompos sisa organik. Limbah plastik turun dan biaya kebersihan berkurang.",
+                  "end": true,
+                  "outcome": "good"
+                },
+                {
+                  "id": "n6",
+                  "text": "Sampah plastik berkurang, tetapi sampah organik masih membusuk di tempat terbuka dan mengundang lalat.",
+                  "end": true,
+                  "outcome": "neutral"
+                },
+                {
+                  "id": "n7",
+                  "text": "Masalah bergeser: asap atau air tanah tercemar, sementara warga sekitar menanggung dampaknya.",
+                  "end": true,
+                  "outcome": "bad"
+                }
+              ]
+            }
+          ]
         }
       ],
       "assessments": [

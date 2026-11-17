@@ -21,21 +21,352 @@
           "title": "Tiga Aplikasi, Satu Alur Kerja",
           "duration": 240,
           "source_reference": "Modul Ajar Informatika Bab 3 — Tujuan Pembelajaran",
-          "content": "## Aplikasi perkantoran dan perannya\n\n| Aplikasi | Fungsi utama | Contoh isi |\n|---|---|---|\n| **Pengolah kata** | menyusun dokumen teks | surat, laporan, makalah |\n| **Pengolah angka** | menghitung dan menganalisis data | tabel nilai, anggaran, grafik |\n| **Presentasi** | menyampaikan gagasan secara visual | slide rapat, materi pelajaran |\n\n### Mengapa perlu integrasi?\n\nPekerjaan nyata jarang berada dalam satu aplikasi saja. Laporan biasanya memuat **tabel hasil hitungan** dari pengolah angka, dan presentasi memuat **grafik** dari data yang sama.\n\nTanpa integrasi, data harus diketik ulang — lambat dan rawan salah.\n\n### Tiga cara memindahkan data\n\n1. **Salin–tempel biasa** → data menjadi teks atau tabel mati, tidak ikut berubah\n2. **Tautkan (link)** → objek menyimpan **rujukan** ke berkas sumber, ikut berubah saat sumber diperbarui\n3. **Tanamkan (embed)** → objek **disimpan di dalam** dokumen tujuan, mandiri tetapi tidak ikut berubah"
+          "content": "## Aplikasi perkantoran dan perannya\n\n| Aplikasi | Fungsi utama | Contoh isi |\n|---|---|---|\n| **Pengolah kata** | menyusun dokumen teks | surat, laporan, makalah |\n| **Pengolah angka** | menghitung dan menganalisis data | tabel nilai, anggaran, grafik |\n| **Presentasi** | menyampaikan gagasan secara visual | slide rapat, materi pelajaran |\n\n### Mengapa perlu integrasi?\n\nPekerjaan nyata jarang berada dalam satu aplikasi saja. Laporan biasanya memuat **tabel hasil hitungan** dari pengolah angka, dan presentasi memuat **grafik** dari data yang sama.\n\nTanpa integrasi, data harus diketik ulang — lambat dan rawan salah.\n\n### Tiga cara memindahkan data\n\n1. **Salin–tempel biasa** → data menjadi teks atau tabel mati, tidak ikut berubah\n2. **Tautkan (link)** → objek menyimpan **rujukan** ke berkas sumber, ikut berubah saat sumber diperbarui\n3. **Tanamkan (embed)** → objek **disimpan di dalam** dokumen tujuan, mandiri tetapi tidak ikut berubah",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Pengolah kata",
+                  "definition": "Aplikasi untuk menyusun dokumen teks seperti surat, laporan, dan makalah."
+                },
+                {
+                  "term": "Pengolah angka",
+                  "definition": "Aplikasi untuk menghitung dan menganalisis data berbentuk tabel, misalnya nilai dan anggaran."
+                },
+                {
+                  "term": "Tautkan (link)",
+                  "definition": "Objek hanya menyimpan rujukan ke berkas sumber, sehingga ikut berubah saat sumber diperbarui."
+                },
+                {
+                  "term": "Tanamkan (embed)",
+                  "definition": "Objek disimpan di dalam dokumen tujuan sehingga tetap utuh meski berkas sumber dihapus."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Aplikasi perkantoran dan perannya"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aplikasi",
+                  "Fungsi utama",
+                  "Contoh isi"
+                ],
+                [
+                  "**Pengolah kata**",
+                  "menyusun dokumen teks",
+                  "surat, laporan, makalah"
+                ],
+                [
+                  "**Pengolah angka**",
+                  "menghitung dan menganalisis data",
+                  "tabel nilai, anggaran, grafik"
+                ],
+                [
+                  "**Presentasi**",
+                  "menyampaikan gagasan secara visual",
+                  "slide rapat, materi pelajaran"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-alur-integrasi",
+              "engine": "mermaid",
+              "title": "Alur integrasi data antar aplikasi perkantoran",
+              "code": "flowchart LR\n  A[Hitung di pengolah angka] --> B[Pindahkan tabel]\n  B --> C[Tautkan: rujukan ke berkas sumber]\n  B --> D[Tanamkan: objek ikut tersimpan]\n  C --> E[Laporan di pengolah kata]\n  D --> E\n  E --> F[Grafik di presentasi]"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengapa perlu integrasi?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pekerjaan nyata jarang berada dalam satu aplikasi saja. Laporan biasanya memuat **tabel hasil hitungan** dari pengolah angka, dan presentasi memuat **grafik** dari data yang sama."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tanpa integrasi, data harus diketik ulang — lambat dan rawan salah."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tiga cara memindahkan data"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Salin–tempel biasa** → data menjadi teks atau tabel mati, tidak ikut berubah",
+                "**Tautkan (link)** → objek menyimpan **rujukan** ke berkas sumber, ikut berubah saat sumber diperbarui",
+                "**Tanamkan (embed)** → objek **disimpan di dalam** dokumen tujuan, mandiri tetapi tidak ikut berubah"
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-link",
+              "question": "Objek yang menyimpan rujukan ke berkas sumber sehingga ikut berubah saat sumber diperbarui disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Tautan (link)",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Tanaman (embed)"
+                },
+                {
+                  "id": "c",
+                  "text": "Salin–tempel biasa"
+                }
+              ],
+              "explanation": "Link menyimpan rujukan, embed menyimpan salinan objek di dalam dokumen, sedangkan salin–tempel biasa menghasilkan data mati yang tidak ikut berubah."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Fitur Lanjut dan Mail Merge",
           "duration": 360,
           "source_reference": "Modul Ajar Informatika Bab 3 — Kegiatan Pembelajaran",
-          "content": "## Fitur lanjut tiap aplikasi\n\n**Pengolah kata**\n- Gaya **heading** → dasar daftar isi otomatis\n- **Page break** memindahkan ke halaman baru; **section break** mengizinkan format berbeda per bagian\n- **Mail merge** membuat banyak surat dari satu dokumen induk\n\n**Pengolah angka**\n- **Pivot table** merangkum data besar menjadi ringkasan\n- **VLOOKUP** mencari nilai kunci lalu mengambil nilai dari kolom lain\n- **Conditional formatting** mewarnai sel otomatis sesuai aturan\n- **Data validation** membatasi nilai yang boleh dimasukkan\n- **Freeze panes** menjaga baris judul tetap terlihat\n\n**Presentasi**\n- **Slide master** mengatur tampilan dasar seluruh slide\n- Ekspor ke **MP4** untuk dijadikan video\n\n### Mail merge dalam empat langkah\n\n1. Siapkan **dokumen induk**\n2. Siapkan **sumber data** penerima\n3. Sisipkan **medan (field)** ke dokumen\n4. Jalankan **penggabungan**, lalu simpan hasil\n\n### Referensi absolut vs relatif\n\nPada pengolah angka, `A1` adalah referensi **relatif** — bergeser saat rumus disalin. `$A$1` adalah referensi **absolut** — tetap walaupun disalin. Bila `A1` disalin satu kolom ke kanan dan satu baris ke bawah, ia menjadi `B2`; sedangkan `$A$1` tetap `$A$1`."
+          "content": "## Fitur lanjut tiap aplikasi\n\n**Pengolah kata**\n- Gaya **heading** → dasar daftar isi otomatis\n- **Page break** memindahkan ke halaman baru; **section break** mengizinkan format berbeda per bagian\n- **Mail merge** membuat banyak surat dari satu dokumen induk\n\n**Pengolah angka**\n- **Pivot table** merangkum data besar menjadi ringkasan\n- **VLOOKUP** mencari nilai kunci lalu mengambil nilai dari kolom lain\n- **Conditional formatting** mewarnai sel otomatis sesuai aturan\n- **Data validation** membatasi nilai yang boleh dimasukkan\n- **Freeze panes** menjaga baris judul tetap terlihat\n\n**Presentasi**\n- **Slide master** mengatur tampilan dasar seluruh slide\n- Ekspor ke **MP4** untuk dijadikan video\n\n### Mail merge dalam empat langkah\n\n1. Siapkan **dokumen induk**\n2. Siapkan **sumber data** penerima\n3. Sisipkan **medan (field)** ke dokumen\n4. Jalankan **penggabungan**, lalu simpan hasil\n\n### Referensi absolut vs relatif\n\nPada pengolah angka, `A1` adalah referensi **relatif** — bergeser saat rumus disalin. `$A$1` adalah referensi **absolut** — tetap walaupun disalin. Bila `A1` disalin satu kolom ke kanan dan satu baris ke bawah, ia menjadi `B2`; sedangkan `$A$1` tetap `$A$1`.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fitur lanjut tiap aplikasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pengolah kata**"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Gaya **heading** → dasar daftar isi otomatis",
+                "**Page break** memindahkan ke halaman baru; **section break** mengizinkan format berbeda per bagian",
+                "**Mail merge** membuat banyak surat dari satu dokumen induk"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pengolah angka**"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Pivot table** merangkum data besar menjadi ringkasan",
+                "**VLOOKUP** mencari nilai kunci lalu mengambil nilai dari kolom lain",
+                "**Conditional formatting** mewarnai sel otomatis sesuai aturan",
+                "**Data validation** membatasi nilai yang boleh dimasukkan",
+                "**Freeze panes** menjaga baris judul tetap terlihat"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Presentasi**"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**Slide master** mengatur tampilan dasar seluruh slide",
+                "Ekspor ke **MP4** untuk dijadikan video"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-mail-merge",
+              "prompt": "Urutkan langkah membuat surat massal dengan mail merge.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Siapkan dokumen induk"
+                },
+                {
+                  "id": "s2",
+                  "text": "Siapkan sumber data penerima"
+                },
+                {
+                  "id": "s3",
+                  "text": "Sisipkan medan (field) ke dokumen"
+                },
+                {
+                  "id": "s4",
+                  "text": "Jalankan penggabungan lalu simpan hasil"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: induk, sumber data, medan, lalu gabungkan.",
+                "wrong": "Medan hanya bisa disisipkan setelah dokumen induk dan sumber data siap."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pivot",
+              "question": "Fitur pengolah angka yang merangkum data berukuran besar menjadi ringkasan adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Pivot table",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Freeze panes"
+                },
+                {
+                  "id": "c",
+                  "text": "Data validation"
+                }
+              ],
+              "explanation": "Freeze panes menjaga baris judul tetap terlihat dan data validation membatasi nilai yang boleh dimasukkan, bukan merangkum data."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mail merge dalam empat langkah"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Siapkan **dokumen induk**",
+                "Siapkan **sumber data** penerima",
+                "Sisipkan **medan (field)** ke dokumen",
+                "Jalankan **penggabungan**, lalu simpan hasil"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Referensi absolut vs relatif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada pengolah angka, `A1` adalah referensi **relatif** — bergeser saat rumus disalin. `$A$1` adalah referensi **absolut** — tetap walaupun disalin. Bila `A1` disalin satu kolom ke kanan dan satu baris ke bawah, ia menjadi `B2`; sedangkan `$A$1` tetap `$A$1`."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Kapan Memakai Link, Kapan Embed",
           "duration": 240,
           "source_reference": "Modul Ajar Informatika Bab 3 — Penerapan",
-          "content": "## Memilih cara integrasi\n\n**Gunakan link** bila data sumber masih akan diperbarui dan dokumen tujuan harus selalu mengikuti angka terbaru. Contoh: laporan bulanan yang mengambil tabel dari berkas perhitungan bersama.\n\n**Gunakan embed** bila dokumen harus tetap utuh walaupun berkas sumber dipindahkan atau dihapus. Contoh: makalah yang dikirim ke orang lain.\n\n### Konsekuensi yang sering ditanyakan\n\n| | Link | Embed |\n|---|---|---|\n| Ikut berubah saat sumber diubah | **Ya** (saat diperbarui) | Tidak |\n| Ukuran dokumen | Kecil | Lebih besar |\n| Bergantung pada berkas sumber | Ya | Tidak |\n\n### Latihan\n\nSebuah tabel Excel di-link ke dokumen Word. Angka di Excel diubah. Apakah dokumen Word langsung berubah?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nIkut berubah, tetapi **saat objek diperbarui** (atau saat dokumen dibuka dengan pembaruan tautan). Dokumen tidak berubah seketika pada detik yang sama.\n\n</details>"
+          "content": "## Memilih cara integrasi\n\n**Gunakan link** bila data sumber masih akan diperbarui dan dokumen tujuan harus selalu mengikuti angka terbaru. Contoh: laporan bulanan yang mengambil tabel dari berkas perhitungan bersama.\n\n**Gunakan embed** bila dokumen harus tetap utuh walaupun berkas sumber dipindahkan atau dihapus. Contoh: makalah yang dikirim ke orang lain.\n\n### Konsekuensi yang sering ditanyakan\n\n| | Link | Embed |\n|---|---|---|\n| Ikut berubah saat sumber diubah | **Ya** (saat diperbarui) | Tidak |\n| Ukuran dokumen | Kecil | Lebih besar |\n| Bergantung pada berkas sumber | Ya | Tidak |\n\n### Latihan\n\nSebuah tabel Excel di-link ke dokumen Word. Angka di Excel diubah. Apakah dokumen Word langsung berubah?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nIkut berubah, tetapi **saat objek diperbarui** (atau saat dokumen dibuka dengan pembaruan tautan). Dokumen tidak berubah seketika pada detik yang sama.\n\n</details>",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Memilih cara integrasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Gunakan link** bila data sumber masih akan diperbarui dan dokumen tujuan harus selalu mengikuti angka terbaru. Contoh: laporan bulanan yang mengambil tabel dari berkas perhitungan bersama."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Gunakan embed** bila dokumen harus tetap utuh walaupun berkas sumber dipindahkan atau dihapus. Contoh: makalah yang dikirim ke orang lain."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Konsekuensi yang sering ditanyakan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "",
+                  "Link",
+                  "Embed"
+                ],
+                [
+                  "Ikut berubah saat sumber diubah",
+                  "**Ya** (saat diperbarui)",
+                  "Tidak"
+                ],
+                [
+                  "Ukuran dokumen",
+                  "Kecil",
+                  "Lebih besar"
+                ],
+                [
+                  "Bergantung pada berkas sumber",
+                  "Ya",
+                  "Tidak"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Latihan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebuah tabel Excel di-link ke dokumen Word. Angka di Excel diubah. Apakah dokumen Word langsung berubah?"
+            },
+            {
+              "type": "paragraph",
+              "text": "<details> <summary>Lihat jawaban</summary>"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ikut berubah, tetapi **saat objek diperbarui** (atau saat dokumen dibuka dengan pembaruan tautan). Dokumen tidak berubah seketika pada detik yang sama."
+            },
+            {
+              "type": "paragraph",
+              "text": "</details>"
+            },
+            {
+              "type": "challenge",
+              "id": "ch-link-embed",
+              "title": "Tantangan Kilat: Link atau Embed?",
+              "time_limit": 70,
+              "items": [
+                {
+                  "question": "Ikut berubah saat berkas sumber diperbarui → …",
+                  "answer": "link"
+                },
+                {
+                  "question": "Dokumen tetap utuh walau sumber dihapus → …",
+                  "answer": "embed"
+                },
+                {
+                  "question": "Ukuran dokumen tujuan lebih kecil → …",
+                  "answer": "link"
+                },
+                {
+                  "question": "Bergantung pada keberadaan berkas sumber → …",
+                  "answer": "link"
+                },
+                {
+                  "question": "Objek disimpan di dalam dokumen tujuan → …",
+                  "answer": "embed"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — link untuk data yang terus berubah, embed untuk dokumen yang harus utuh.",
+                "wrong": "Link = rujukan (kecil, ikut berubah, bergantung sumber); embed = salinan tersimpan (lebih besar, mandiri)."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

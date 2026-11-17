@@ -25,21 +25,551 @@
           "title": "Dalil dan Larangan Mendekati Zina",
           "duration": 320,
           "source_reference": "Bab 6",
-          "content": "## Q.S. al-Isra'/17: 32\n\n> \"Dan janganlah kamu mendekati zina; sesungguhnya zina itu adalah perbuatan yang keji dan jalan yang buruk.\"\n\n### Dua penekanan\n\n1. larangan **mendekati** zina, bukan hanya perbuatannya\n2. zina disebut **keji** dan **jalan yang buruk**\n\nKarena larangan mencakup **hal-hal yang mendekati**: menjaga pandangan, menjaga pergaulan, menghindari konten pornografi.\n\n## Q.S. an-Nur/24: 2\n\nMenetapkan hukuman **dera seratus kali** bagi pezina, disertai penegasan agar tidak ada rasa belas kasihan yang menghalangi pelaksanaan hukum Allah.\n\n### Istilah\n\n| Istilah | Makna |\n|---|---|\n| **muhsan** | sudah pernah menikah |\n| **ghayr muhsan** | belum pernah menikah |\n\n## Kunci pemahaman\n\nLarangan ditegakkan **bertahap**: mencegah dorongan dahulu, kemudian menetapkan hukum bagi pelanggaran."
+          "content": "## Q.S. al-Isra'/17: 32\n\n> \"Dan janganlah kamu mendekati zina; sesungguhnya zina itu adalah perbuatan yang keji dan jalan yang buruk.\"\n\n### Dua penekanan\n\n1. larangan **mendekati** zina, bukan hanya perbuatannya\n2. zina disebut **keji** dan **jalan yang buruk**\n\nKarena larangan mencakup **hal-hal yang mendekati**: menjaga pandangan, menjaga pergaulan, menghindari konten pornografi.\n\n## Q.S. an-Nur/24: 2\n\nMenetapkan hukuman **dera seratus kali** bagi pezina, disertai penegasan agar tidak ada rasa belas kasihan yang menghalangi pelaksanaan hukum Allah.\n\n### Istilah\n\n| Istilah | Makna |\n|---|---|\n| **muhsan** | sudah pernah menikah |\n| **ghayr muhsan** | belum pernah menikah |\n\n## Kunci pemahaman\n\nLarangan ditegakkan **bertahap**: mencegah dorongan dahulu, kemudian menetapkan hukum bagi pelanggaran.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Zina",
+                  "definition": "Perbuatan keji dan jalan yang buruk; Islam melarang mendekatinya, bukan hanya melakukannya."
+                },
+                {
+                  "term": "Muhsan",
+                  "definition": "Sebutan bagi orang yang sudah pernah menikah."
+                },
+                {
+                  "term": "Ghayr muhsan",
+                  "definition": "Sebutan bagi orang yang belum pernah menikah."
+                },
+                {
+                  "term": "Pornografi",
+                  "definition": "Konten berisi kecabulan yang wajib dihindari karena termasuk hal yang mendekati zina."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Q.S. al-Isra'/17: 32"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Dan janganlah kamu mendekati zina; sesungguhnya zina itu adalah perbuatan yang keji dan jalan yang buruk.\""
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dua penekanan"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "larangan **mendekati** zina, bukan hanya perbuatannya",
+                "zina disebut **keji** dan **jalan yang buruk**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena larangan mencakup **hal-hal yang mendekati**: menjaga pandangan, menjaga pergaulan, menghindari konten pornografi."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pai6-bertahap",
+              "engine": "mermaid",
+              "title": "Larangan zina ditegakkan bertahap",
+              "code": "flowchart LR\n  A[Mencegah dorongan] --> B[Menjaga pandangan]\n  A --> C[Menjaga pergaulan]\n  A --> D[Menghindari konten pornografi]\n  B --> E[Tidak mendekati zina]\n  C --> E\n  D --> E\n  E --> F[Hukum bagi pelanggaran]"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai6-mendekati",
+              "question": "Q.S. al-Isra'/17: 32 melarang…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Mendekati zina, bukan hanya perbuatannya",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Menikah sebelum mampu"
+                },
+                {
+                  "id": "c",
+                  "text": "Menuntut ilmu agama"
+                }
+              ],
+              "explanation": "Ayat melarang mendekati zina. Karena itu menjaga pandangan, menjaga pergaulan, dan menghindari konten pornografi termasuk perintah yang harus dijalankan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Q.S. an-Nur/24: 2"
+            },
+            {
+              "type": "paragraph",
+              "text": "Menetapkan hukuman **dera seratus kali** bagi pezina, disertai penegasan agar tidak ada rasa belas kasihan yang menghalangi pelaksanaan hukum Allah."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Istilah"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Istilah",
+                  "Makna"
+                ],
+                [
+                  "**muhsan**",
+                  "sudah pernah menikah"
+                ],
+                [
+                  "**ghayr muhsan**",
+                  "belum pernah menikah"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai6-muhsan",
+              "question": "Istilah untuk orang yang sudah pernah menikah adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Muhsan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Ghayr muhsan"
+                },
+                {
+                  "id": "c",
+                  "text": "Mukallaf"
+                }
+              ],
+              "explanation": "Muhsan berarti sudah pernah menikah, sedangkan ghayr muhsan berarti belum pernah menikah."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kunci pemahaman"
+            },
+            {
+              "type": "paragraph",
+              "text": "Larangan ditegakkan **bertahap**: mencegah dorongan dahulu, kemudian menetapkan hukum bagi pelanggaran."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Bentuk dan Bahaya Pergaulan Bebas",
           "duration": 320,
           "source_reference": "Bab 6",
-          "content": "## Apa itu pergaulan bebas?\n\nPergaulan **tanpa batas** yang melanggar norma agama dan sosial.\n\n### Bentuknya\n\n- berduaan di tempat sepi\n- bercanda yang melampaui batas\n- menyebarkan foto atau data pribadi\n- mengikuti ajakan melanggar aturan\n- menikmati **konten pornografi**\n\n## Bahaya\n\n| Bidang | Dampak |\n|---|---|\n| **belajar** | waktu dan fokus berkurang, prestasi menurun |\n| **kesehatan** | risiko penyakit menular |\n| **sosial** | melemahkan ikatan keluarga |\n| **masa depan** | kehilangan kesempatan pendidikan dan karier |\n| **akhlak** | rusaknya cara pandang terhadap tubuh dan martabat |\n\n## Pergaulan sehat\n\nDitandai oleh **saling menghormati batas** dan membawa **manfaat**. Contohnya bekerja sama dalam tugas dengan menjaga etika."
+          "content": "## Apa itu pergaulan bebas?\n\nPergaulan **tanpa batas** yang melanggar norma agama dan sosial.\n\n### Bentuknya\n\n- berduaan di tempat sepi\n- bercanda yang melampaui batas\n- menyebarkan foto atau data pribadi\n- mengikuti ajakan melanggar aturan\n- menikmati **konten pornografi**\n\n## Bahaya\n\n| Bidang | Dampak |\n|---|---|\n| **belajar** | waktu dan fokus berkurang, prestasi menurun |\n| **kesehatan** | risiko penyakit menular |\n| **sosial** | melemahkan ikatan keluarga |\n| **masa depan** | kehilangan kesempatan pendidikan dan karier |\n| **akhlak** | rusaknya cara pandang terhadap tubuh dan martabat |\n\n## Pergaulan sehat\n\nDitandai oleh **saling menghormati batas** dan membawa **manfaat**. Contohnya bekerja sama dalam tugas dengan menjaga etika.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Apa itu pergaulan bebas?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pergaulan **tanpa batas** yang melanggar norma agama dan sosial."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai6-pergaulan",
+              "prompt": "Kelompokkan bentuk pergaulan berikut.",
+              "buckets": [
+                {
+                  "id": "bebas",
+                  "label": "Pergaulan bebas"
+                },
+                {
+                  "id": "sehat",
+                  "label": "Pergaulan sehat"
+                }
+              ],
+              "items": [
+                {
+                  "id": "p1",
+                  "text": "Berduaan di tempat sepi",
+                  "bucket": "bebas"
+                },
+                {
+                  "id": "p2",
+                  "text": "Bercanda yang melampaui batas",
+                  "bucket": "bebas"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menyebarkan foto atau data pribadi tanpa izin",
+                  "bucket": "bebas"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menikmati konten pornografi",
+                  "bucket": "bebas"
+                },
+                {
+                  "id": "p5",
+                  "text": "Bekerja sama tugas dengan menjaga etika",
+                  "bucket": "sehat"
+                },
+                {
+                  "id": "p6",
+                  "text": "Saling menghormati batas dan membawa manfaat",
+                  "bucket": "sehat"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — pergaulan sehat saling menghormati batas dan membawa manfaat, bukan melanggar norma.",
+                "wrong": "Pergaulan bebas melanggar norma agama dan sosial; pergaulan sehat menjaga batas serta memberi manfaat."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Bentuknya"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "berduaan di tempat sepi",
+                "bercanda yang melampaui batas",
+                "menyebarkan foto atau data pribadi",
+                "mengikuti ajakan melanggar aturan",
+                "menikmati **konten pornografi**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bahaya"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bidang",
+                  "Dampak"
+                ],
+                [
+                  "**belajar**",
+                  "waktu dan fokus berkurang, prestasi menurun"
+                ],
+                [
+                  "**kesehatan**",
+                  "risiko penyakit menular"
+                ],
+                [
+                  "**sosial**",
+                  "melemahkan ikatan keluarga"
+                ],
+                [
+                  "**masa depan**",
+                  "kehilangan kesempatan pendidikan dan karier"
+                ],
+                [
+                  "**akhlak**",
+                  "rusaknya cara pandang terhadap tubuh dan martabat"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai6-bahaya",
+              "question": "Dampak pergaulan bebas pada bidang belajar adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Waktu dan fokus berkurang sehingga prestasi menurun",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Prestasi meningkat karena lebih banyak teman"
+                },
+                {
+                  "id": "c",
+                  "text": "Tidak ada dampak sama sekali"
+                }
+              ],
+              "explanation": "Pergaulan bebas menyita waktu dan fokus belajar. Dampak lainnya menyentuh kesehatan, sosial, masa depan, dan akhlak."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pergaulan sehat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ditandai oleh **saling menghormati batas** dan membawa **manfaat**. Contohnya bekerja sama dalam tugas dengan menjaga etika."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Menjaga Kehormatan Diri",
           "duration": 280,
           "source_reference": "Bab 6",
-          "content": "## Upaya pencegahan\n\n### Diri sendiri\n\n- menetapkan **prinsip dan batas** pergaulan\n- **memilih teman** yang baik\n- **memelihara pandangan**\n- menjaga **privasi** di media sosial\n\n### Keluarga\n\n- komunikasi **terbuka**\n- bimbingan agama\n- pengawasan **wajar**\n\n### Sekolah\n\n- pembinaan dan **bimbingan konseling**\n- kegiatan **ekstrakurikuler** positif\n- pengisian waktu dengan aktivitas produktif\n\n## Menghadapi tekanan teman\n\n1. Menyadari ajakan itu melanggar nilai\n2. Mengingat tujuan dan masa depan diri\n3. Menolak dengan **tegas dan santun**\n4. Mencari teman dan kegiatan positif\n5. Meminta **dukungan** orang tua atau guru\n\n## Jika sudah terlanjur salah\n\n**Taubat**: menyesali, **berhenti**, dan memperbaiki diri dengan amal saleh. Langkah perbaikan ditempuh melalui bimbingan guru atau keluarga."
+          "content": "## Upaya pencegahan\n\n### Diri sendiri\n\n- menetapkan **prinsip dan batas** pergaulan\n- **memilih teman** yang baik\n- **memelihara pandangan**\n- menjaga **privasi** di media sosial\n\n### Keluarga\n\n- komunikasi **terbuka**\n- bimbingan agama\n- pengawasan **wajar**\n\n### Sekolah\n\n- pembinaan dan **bimbingan konseling**\n- kegiatan **ekstrakurikuler** positif\n- pengisian waktu dengan aktivitas produktif\n\n## Menghadapi tekanan teman\n\n1. Menyadari ajakan itu melanggar nilai\n2. Mengingat tujuan dan masa depan diri\n3. Menolak dengan **tegas dan santun**\n4. Mencari teman dan kegiatan positif\n5. Meminta **dukungan** orang tua atau guru\n\n## Jika sudah terlanjur salah\n\n**Taubat**: menyesali, **berhenti**, dan memperbaiki diri dengan amal saleh. Langkah perbaikan ditempuh melalui bimbingan guru atau keluarga.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Upaya pencegahan"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Diri sendiri"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menetapkan **prinsip dan batas** pergaulan",
+                "**memilih teman** yang baik",
+                "**memelihara pandangan**",
+                "menjaga **privasi** di media sosial"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Keluarga"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "komunikasi **terbuka**",
+                "bimbingan agama",
+                "pengawasan **wajar**"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sekolah"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "pembinaan dan **bimbingan konseling**",
+                "kegiatan **ekstrakurikuler** positif",
+                "pengisian waktu dengan aktivitas produktif"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menghadapi tekanan teman"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Menyadari ajakan itu melanggar nilai",
+                "Mengingat tujuan dan masa depan diri",
+                "Menolak dengan **tegas dan santun**",
+                "Mencari teman dan kegiatan positif",
+                "Meminta **dukungan** orang tua atau guru"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai6-tekanan",
+              "prompt": "Urutkan langkah menghadapi tekanan teman agar tidak terjerumus.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Menyadari ajakan itu melanggar nilai"
+                },
+                {
+                  "id": "s2",
+                  "text": "Mengingat tujuan dan masa depan diri"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menolak dengan tegas dan santun"
+                },
+                {
+                  "id": "s4",
+                  "text": "Mencari teman dan kegiatan positif"
+                },
+                {
+                  "id": "s5",
+                  "text": "Meminta dukungan orang tua atau guru"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar — sadari, ingat tujuan, tolak dengan santun, cari lingkungan positif, lalu minta dukungan.",
+                "wrong": "Mulai dari menyadari bahwa ajakan itu melanggar nilai, lalu menolaknya dengan tegas dan santun."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jika sudah terlanjur salah"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Taubat**: menyesali, **berhenti**, dan memperbaiki diri dengan amal saleh. Langkah perbaikan ditempuh melalui bimbingan guru atau keluarga."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pai6-tekanan",
+              "title": "Tekanan teman untuk melanggar batas",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Sepulang sekolah, teman-teman mengajak berduaan di tempat sepi. Mereka bilang semua orang juga begitu. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menolak dengan tegas dan santun, lalu pulang bersama teman lain",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Menolak dengan tegas dan santun menjaga batas tanpa harus memutus pertemanan."
+                    },
+                    {
+                      "text": "Ikut sebentar agar tidak dianggap sombong",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Ikut karena takut dianggap sombong berarti menyerahkan prinsip kepada tekanan teman."
+                    },
+                    {
+                      "text": "Diam saja dan mencari alasan untuk pergi",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Pergi itu aman, tetapi alasan yang tidak jelas membuat ajakan bisa terulang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Mereka mengejekmu penakut. Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Tetap tenang dan mengingat tujuan serta masa depanmu",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Ejekan tidak mengubah nilai. Mengingat tujuan membuat pendirian lebih kuat."
+                    },
+                    {
+                      "text": "Membalas ejekan dengan kata-kata kasar",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Membalas dengan kasar memperpanjang masalah dan merusak akhlak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Kamu merasa tidak nyaman dan ingin berhenti. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Berhenti, minta maaf, dan menjauh dari kebiasaan itu",
+                      "next": "n2",
+                      "score": 1,
+                      "feedback": "Berhenti dan memperbaiki diri adalah langkah taubat yang benar."
+                    },
+                    {
+                      "text": "Melanjutkan karena sudah terlanjur ikut",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Sudah terlanjur bukan alasan untuk melanjutkan pelanggaran."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Keesokan harinya mereka mengajak lagi. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menolak jelas dan mengajak mereka ke kegiatan yang bermanfaat",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Penolakan jelas disertai ajakan positif memutus kebiasaan tanpa memutus pertemanan."
+                    },
+                    {
+                      "text": "Menghindar tanpa penjelasan dan menjauhi semua teman",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Menjauh aman, tetapi tanpa penjelasan kamu kehilangan dukungan teman yang baik."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kamu menjaga batas, tetap punya teman, dan mengisi waktu dengan kegiatan positif. Prinsipmu menguat."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Kamu terhindar dari ajakan itu, tetapi caranya belum ideal. Perbaiki dengan komunikasi yang santun."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Pelanggaran berlanjut dan kamu kehilangan kendali atas pilihan sendiri. Segera minta bantuan guru atau keluarga."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pai6-pergaulan",
+              "title": "Tantangan Kilat: Menjaga Kehormatan Diri",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Surah yang melarang mendekati zina adalah al-Isra' ayat…",
+                  "answer": "32"
+                },
+                {
+                  "question": "Orang yang sudah pernah menikah disebut…",
+                  "answer": "muhsan"
+                },
+                {
+                  "question": "Orang yang belum pernah menikah disebut ghayr…",
+                  "answer": "muhsan"
+                },
+                {
+                  "question": "Menyesali, berhenti, dan memperbaiki diri disebut…",
+                  "answer": "taubat"
+                },
+                {
+                  "question": "Pergaulan sehat ditandai saling menghormati…",
+                  "answer": "batas"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — menjaga batas dan memilih lingkungan positif melindungi masa depan.",
+                "wrong": "Ingat: larangan mendekati zina, istilah muhsan, taubat, dan pergaulan yang menghormati batas."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

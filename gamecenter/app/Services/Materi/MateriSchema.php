@@ -16,6 +16,10 @@ class MateriSchema
 {
     public const VERSION = 1;
 
+    public function __construct(
+        private readonly BlockSchema $blocks = new BlockSchema,
+    ) {}
+
     /**
      * Tipe soal yang kuncinya disimpan di kolom `options`.
      *
@@ -161,6 +165,10 @@ class MateriSchema
         if (! $this->filledString($material['content'] ?? null)) {
             $problems[] = "{$path}.content wajib diisi";
         }
+
+        // Blok interaktif (plan §3.2) diperiksa terpisah agar aturannya bisa
+        // diuji sendiri; daftar kosong berarti tidak ada blok.
+        $problems = [...$problems, ...$this->blocks->problems($material['blocks'] ?? null, $path)];
 
         return $problems;
     }

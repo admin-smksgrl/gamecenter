@@ -23,21 +23,633 @@
           "title": "Wali Songo dan Metode Dakwahnya",
           "duration": 320,
           "source_reference": "Bab 10",
-          "content": "## Wali Songo\n\n**Wali Songo** = **sembilan wali** penyebar Islam di Jawa.\n\n| Wali | Pendekatan |\n|---|---|\n| **Sunan Gresik** | membuka jalan dakwah melalui **pendidikan** |\n| **Sunan Ampel** | berdakwah di Ampel Denta, **Surabaya** |\n| **Sunan Bonang** | **gamelan dan tembang** |\n| **Sunan Drajat** | **kepedulian sosial** pada fakir miskin dan anak yatim |\n| **Sunan Kudus** | menghormati **tradisi** masyarakat |\n| **Sunan Giri** | **pesantren** dan permainan anak |\n| **Sunan Kalijaga** | **wayang** dan gamelan |\n| **Sunan Muria** | masyarakat **pedesaan dan pegunungan** |\n| **Sunan Gunung Jati** | Cirebon dan **Banten** |\n\n## Mengapa berhasil?\n\n- pendekatan **budaya** yang akrab tanpa **memaksa**\n- **bertahap** dan sabar\n- **keteladanan** perilaku sederhana\n\n## Pendidikan sebagai kunci\n\nPesantren melahirkan banyak **dai** sehingga dakwah berlanjut lintas generasi."
+          "content": "## Wali Songo\n\n**Wali Songo** = **sembilan wali** penyebar Islam di Jawa.\n\n| Wali | Pendekatan |\n|---|---|\n| **Sunan Gresik** | membuka jalan dakwah melalui **pendidikan** |\n| **Sunan Ampel** | berdakwah di Ampel Denta, **Surabaya** |\n| **Sunan Bonang** | **gamelan dan tembang** |\n| **Sunan Drajat** | **kepedulian sosial** pada fakir miskin dan anak yatim |\n| **Sunan Kudus** | menghormati **tradisi** masyarakat |\n| **Sunan Giri** | **pesantren** dan permainan anak |\n| **Sunan Kalijaga** | **wayang** dan gamelan |\n| **Sunan Muria** | masyarakat **pedesaan dan pegunungan** |\n| **Sunan Gunung Jati** | Cirebon dan **Banten** |\n\n## Mengapa berhasil?\n\n- pendekatan **budaya** yang akrab tanpa **memaksa**\n- **bertahap** dan sabar\n- **keteladanan** perilaku sederhana\n\n## Pendidikan sebagai kunci\n\nPesantren melahirkan banyak **dai** sehingga dakwah berlanjut lintas generasi.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Wali Songo",
+                  "definition": "Sembilan wali penyebar Islam di Jawa yang berdakwah dengan pendekatan budaya."
+                },
+                {
+                  "term": "Dakwah",
+                  "definition": "Upaya menyampaikan dan mengajak kepada ajaran Islam dengan cara yang bijak."
+                },
+                {
+                  "term": "Pesantren",
+                  "definition": "Lembaga pendidikan Islam yang melahirkan dai sehingga dakwah berlanjut lintas generasi."
+                },
+                {
+                  "term": "Dai",
+                  "definition": "Penyampai ajaran Islam yang dibina melalui pendidikan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Wali Songo"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Wali Songo** = **sembilan wali** penyebar Islam di Jawa."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Wali",
+                  "Pendekatan"
+                ],
+                [
+                  "**Sunan Gresik**",
+                  "membuka jalan dakwah melalui **pendidikan**"
+                ],
+                [
+                  "**Sunan Ampel**",
+                  "berdakwah di Ampel Denta, **Surabaya**"
+                ],
+                [
+                  "**Sunan Bonang**",
+                  "**gamelan dan tembang**"
+                ],
+                [
+                  "**Sunan Drajat**",
+                  "**kepedulian sosial** pada fakir miskin dan anak yatim"
+                ],
+                [
+                  "**Sunan Kudus**",
+                  "menghormati **tradisi** masyarakat"
+                ],
+                [
+                  "**Sunan Giri**",
+                  "**pesantren** dan permainan anak"
+                ],
+                [
+                  "**Sunan Kalijaga**",
+                  "**wayang** dan gamelan"
+                ],
+                [
+                  "**Sunan Muria**",
+                  "masyarakat **pedesaan dan pegunungan**"
+                ],
+                [
+                  "**Sunan Gunung Jati**",
+                  "Cirebon dan **Banten**"
+                ]
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai10-wali",
+              "prompt": "Kelompokkan Wali Songo menurut pendekatan dakwah yang menonjol.",
+              "buckets": [
+                {
+                  "id": "pendidikan",
+                  "label": "Pendidikan"
+                },
+                {
+                  "id": "budaya",
+                  "label": "Seni dan budaya"
+                },
+                {
+                  "id": "sosial",
+                  "label": "Kepedulian sosial"
+                },
+                {
+                  "id": "wilayah",
+                  "label": "Wilayah dakwah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "w1",
+                  "text": "Sunan Gresik — membuka jalan melalui pendidikan",
+                  "bucket": "pendidikan"
+                },
+                {
+                  "id": "w2",
+                  "text": "Sunan Giri — pesantren dan permainan anak",
+                  "bucket": "pendidikan"
+                },
+                {
+                  "id": "w3",
+                  "text": "Sunan Bonang — gamelan dan tembang",
+                  "bucket": "budaya"
+                },
+                {
+                  "id": "w4",
+                  "text": "Sunan Kalijaga — wayang dan gamelan",
+                  "bucket": "budaya"
+                },
+                {
+                  "id": "w5",
+                  "text": "Sunan Kudus — menghormati tradisi masyarakat",
+                  "bucket": "budaya"
+                },
+                {
+                  "id": "w6",
+                  "text": "Sunan Drajat — peduli fakir miskin dan anak yatim",
+                  "bucket": "sosial"
+                },
+                {
+                  "id": "w7",
+                  "text": "Sunan Muria — masyarakat pedesaan dan pegunungan",
+                  "bucket": "sosial"
+                },
+                {
+                  "id": "w8",
+                  "text": "Sunan Ampel — berdakwah di Ampel Denta, Surabaya",
+                  "bucket": "wilayah"
+                },
+                {
+                  "id": "w9",
+                  "text": "Sunan Gunung Jati — Cirebon dan Banten",
+                  "bucket": "wilayah"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — setiap wali menonjol pada satu pendekatan, tetapi semuanya memakai cara damai.",
+                "wrong": "Perhatikan kata kuncinya: pendidikan, gamelan/wayang/tradisi, kepedulian sosial, atau nama wilayah."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai10-sembilan",
+              "question": "Wali Songo berarti…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Sembilan wali penyebar Islam di Jawa",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Sembilan kerajaan Islam di Jawa"
+                },
+                {
+                  "id": "c",
+                  "text": "Sembilan kitab tasawuf"
+                }
+              ],
+              "explanation": "Wali Songo adalah sembilan wali penyebar Islam di Jawa. Mereka berdakwah melalui budaya, pendidikan, dan keteladanan tanpa memaksa."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa berhasil?"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "pendekatan **budaya** yang akrab tanpa **memaksa**",
+                "**bertahap** dan sabar",
+                "**keteladanan** perilaku sederhana"
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-pai10-kunci",
+              "engine": "mermaid",
+              "title": "Empat kunci keberhasilan dakwah Wali Songo",
+              "code": "flowchart TD\n  A[Wali Songo] --> B[Pendekatan budaya yang akrab]\n  A --> C[Dakwah bertahap dan sabar]\n  A --> D[Keteladanan perilaku sederhana]\n  A --> E[Pendidikan lewat pesantren]\n  E --> F[Melahirkan dai lintas generasi]"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pendidikan sebagai kunci"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pesantren melahirkan banyak **dai** sehingga dakwah berlanjut lintas generasi."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Dakwah Moderat: Bi al-Hikmah wa al-Mau'idlatil Hasanah",
           "duration": 320,
           "source_reference": "Bab 10",
-          "content": "## Tiga prinsip dakwah moderat\n\n| Istilah | Makna |\n|---|---|\n| **bi al-hikmah** | cara **bijak** dan tepat sasaran |\n| **al-mau'idlatil hasanah** | **nasihat** yang baik dan menyentuh hati |\n| **mujadalah ahsan** | berdiskusi dengan cara terbaik |\n\n## Tanpa paksaan\n\nKeimanan tumbuh dari **kesadaran**, bukan tekanan. Karena itu dakwah tanpa paksaan lebih menjaga makna iman.\n\n## Menghormati adat\n\nMenjaga adat **yang tidak bertentangan** dengan syariat membangun **kepercayaan** sehingga pesan lebih mudah diterima.\n\nBukan menempatkan adat di atas agama, bukan pula menghapus adat sepenuhnya.\n\n## Strategi dakwah damai\n\n1. Mengenali **bahasa dan budaya** masyarakat\n2. Memilih **media yang akrab**\n3. Menyampaikan ajaran **bertahap** dengan hikmah\n4. Menjadi **teladan** dalam perilaku\n5. **Membina** masyarakat melalui pendidikan dan kegiatan sosial"
+          "content": "## Tiga prinsip dakwah moderat\n\n| Istilah | Makna |\n|---|---|\n| **bi al-hikmah** | cara **bijak** dan tepat sasaran |\n| **al-mau'idlatil hasanah** | **nasihat** yang baik dan menyentuh hati |\n| **mujadalah ahsan** | berdiskusi dengan cara terbaik |\n\n## Tanpa paksaan\n\nKeimanan tumbuh dari **kesadaran**, bukan tekanan. Karena itu dakwah tanpa paksaan lebih menjaga makna iman.\n\n## Menghormati adat\n\nMenjaga adat **yang tidak bertentangan** dengan syariat membangun **kepercayaan** sehingga pesan lebih mudah diterima.\n\nBukan menempatkan adat di atas agama, bukan pula menghapus adat sepenuhnya.\n\n## Strategi dakwah damai\n\n1. Mengenali **bahasa dan budaya** masyarakat\n2. Memilih **media yang akrab**\n3. Menyampaikan ajaran **bertahap** dengan hikmah\n4. Menjadi **teladan** dalam perilaku\n5. **Membina** masyarakat melalui pendidikan dan kegiatan sosial",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Bi al-hikmah",
+                  "definition": "Cara dakwah yang bijak dan tepat sasaran."
+                },
+                {
+                  "term": "Al-mau'idlatil hasanah",
+                  "definition": "Nasihat yang baik dan menyentuh hati."
+                },
+                {
+                  "term": "Mujadalah ahsan",
+                  "definition": "Berdiskusi dengan cara terbaik tanpa menyerang."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga prinsip dakwah moderat"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Istilah",
+                  "Makna"
+                ],
+                [
+                  "**bi al-hikmah**",
+                  "cara **bijak** dan tepat sasaran"
+                ],
+                [
+                  "**al-mau'idlatil hasanah**",
+                  "**nasihat** yang baik dan menyentuh hati"
+                ],
+                [
+                  "**mujadalah ahsan**",
+                  "berdiskusi dengan cara terbaik"
+                ]
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai10-hikmah",
+              "question": "Dakwah dengan cara bijak dan tepat sasaran disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Bi al-hikmah",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Mujadalah ahsan"
+                },
+                {
+                  "id": "c",
+                  "text": "Al-mau'idlatil hasanah"
+                }
+              ],
+              "explanation": "Bi al-hikmah berarti cara bijak dan tepat sasaran; al-mau'idlatil hasanah adalah nasihat yang baik; mujadalah ahsan adalah diskusi dengan cara terbaik."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-pai10-moderat",
+              "prompt": "Kelompokkan sikap berikut sesuai atau tidak sesuai dengan dakwah moderat.",
+              "buckets": [
+                {
+                  "id": "sesuai",
+                  "label": "Sesuai dakwah moderat"
+                },
+                {
+                  "id": "tidak",
+                  "label": "Tidak sesuai"
+                }
+              ],
+              "items": [
+                {
+                  "id": "m1",
+                  "text": "Dakwah tanpa paksaan",
+                  "bucket": "sesuai"
+                },
+                {
+                  "id": "m2",
+                  "text": "Menjaga adat yang tidak bertentangan dengan syariat",
+                  "bucket": "sesuai"
+                },
+                {
+                  "id": "m3",
+                  "text": "Memberi nasihat yang baik dan menyentuh hati",
+                  "bucket": "sesuai"
+                },
+                {
+                  "id": "m4",
+                  "text": "Memaksa orang beribadah",
+                  "bucket": "tidak"
+                },
+                {
+                  "id": "m5",
+                  "text": "Menempatkan adat di atas agama",
+                  "bucket": "tidak"
+                },
+                {
+                  "id": "m6",
+                  "text": "Menghapus seluruh adat masyarakat",
+                  "bucket": "tidak"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — dakwah moderat mengajak dengan kesadaran dan menghormati adat yang tidak melanggar syariat.",
+                "wrong": "Tanpa paksaan, nasihat baik, dan adat yang tidak bertentangan dengan syariat adalah ciri dakwah moderat."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tanpa paksaan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Keimanan tumbuh dari **kesadaran**, bukan tekanan. Karena itu dakwah tanpa paksaan lebih menjaga makna iman."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menghormati adat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Menjaga adat **yang tidak bertentangan** dengan syariat membangun **kepercayaan** sehingga pesan lebih mudah diterima."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bukan menempatkan adat di atas agama, bukan pula menghapus adat sepenuhnya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Strategi dakwah damai"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Mengenali **bahasa dan budaya** masyarakat",
+                "Memilih **media yang akrab**",
+                "Menyampaikan ajaran **bertahap** dengan hikmah",
+                "Menjadi **teladan** dalam perilaku",
+                "**Membina** masyarakat melalui pendidikan dan kegiatan sosial"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-pai10-strategi",
+              "prompt": "Urutkan strategi dakwah damai.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Mengenali bahasa dan budaya masyarakat"
+                },
+                {
+                  "id": "s2",
+                  "text": "Memilih media yang akrab"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menyampaikan ajaran bertahap dengan hikmah"
+                },
+                {
+                  "id": "s4",
+                  "text": "Menjadi teladan dalam perilaku"
+                },
+                {
+                  "id": "s5",
+                  "text": "Membina masyarakat melalui pendidikan dan kegiatan sosial"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar — kenali masyarakat, pilih media akrab, sampaikan bertahap, beri teladan, lalu bina.",
+                "wrong": "Mulai dari mengenali bahasa dan budaya, lalu media akrab dan penyampaian bertahap."
+              }
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Keteladanan Wali Songo bagi Pelajar",
           "duration": 280,
           "source_reference": "Bab 10",
-          "content": "## Nilai yang dapat diteladani\n\n- **menghargai perbedaan** keyakinan\n- **sabar dan tekun** berdakwah\n- **sederhana** dalam hidup\n- **konsisten** belajar dan beribadah meski bertahap\n\n## Contoh di sekolah\n\n- menyebarkan kebaikan dengan **santun**\n- tidak mencela keyakinan orang lain\n- konsisten belajar dan beribadah\n- ikut kegiatan sosial bersama teman lintas latar belakang\n\n## Yang harus dihindari\n\n- memaksa orang beribadah\n- menghina keyakinan lain\n- menyebarkan ujaran kebencian\n- menerima seluruh adat tanpa penyaringan\n\n## Dampak dakwah Wali Songo\n\nBudaya yang tidak bertentangan dengan Islam **tetap dilestarikan** sehingga dakwah diterima luas tanpa mencabut akar budaya masyarakat."
+          "content": "## Nilai yang dapat diteladani\n\n- **menghargai perbedaan** keyakinan\n- **sabar dan tekun** berdakwah\n- **sederhana** dalam hidup\n- **konsisten** belajar dan beribadah meski bertahap\n\n## Contoh di sekolah\n\n- menyebarkan kebaikan dengan **santun**\n- tidak mencela keyakinan orang lain\n- konsisten belajar dan beribadah\n- ikut kegiatan sosial bersama teman lintas latar belakang\n\n## Yang harus dihindari\n\n- memaksa orang beribadah\n- menghina keyakinan lain\n- menyebarkan ujaran kebencian\n- menerima seluruh adat tanpa penyaringan\n\n## Dampak dakwah Wali Songo\n\nBudaya yang tidak bertentangan dengan Islam **tetap dilestarikan** sehingga dakwah diterima luas tanpa mencabut akar budaya masyarakat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Nilai yang dapat diteladani"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**menghargai perbedaan** keyakinan",
+                "**sabar dan tekun** berdakwah",
+                "**sederhana** dalam hidup",
+                "**konsisten** belajar dan beribadah meski bertahap"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh di sekolah"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "menyebarkan kebaikan dengan **santun**",
+                "tidak mencela keyakinan orang lain",
+                "konsisten belajar dan beribadah",
+                "ikut kegiatan sosial bersama teman lintas latar belakang"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Yang harus dihindari"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "memaksa orang beribadah",
+                "menghina keyakinan lain",
+                "menyebarkan ujaran kebencian",
+                "menerima seluruh adat tanpa penyaringan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dampak dakwah Wali Songo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Budaya yang tidak bertentangan dengan Islam **tetap dilestarikan** sehingga dakwah diterima luas tanpa mencabut akar budaya masyarakat."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pai10-dampak",
+              "question": "Dampak dakwah Wali Songo terhadap budaya masyarakat adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Budaya yang tidak bertentangan dengan Islam tetap dilestarikan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Seluruh budaya lama dihapus"
+                },
+                {
+                  "id": "c",
+                  "text": "Budaya dijadikan pengganti ajaran Islam"
+                }
+              ],
+              "explanation": "Wali Songo melestarikan budaya yang tidak bertentangan dengan Islam, sehingga dakwah diterima luas tanpa mencabut akar budaya masyarakat."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-pai10-berbeda",
+              "title": "Menghargai teman yang berbeda keyakinan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kelasmu punya teman yang berbeda keyakinan. Ia sedang merayakan hari besarnya. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menghormati dan tetap berteman baik",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Menghargai perbedaan keyakinan adalah keteladanan Wali Songo dalam bermasyarakat."
+                    },
+                    {
+                      "text": "Menjauhinya karena berbeda keyakinan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menjauh karena berbeda keyakinan bertentangan dengan sikap menghargai perbedaan."
+                    },
+                    {
+                      "text": "Diam saja agar tidak salah bicara",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Diam tidak merusak, tetapi belum menunjukkan sikap menghargai secara nyata."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Seorang teman mengajakmu menghina keyakinan orang lain di grup kelas. Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Menolak dan mengingatkan agar tidak menghina",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Menolak ujaran kebencian adalah wujud dakwah santun dan menjaga persatuan."
+                    },
+                    {
+                      "text": "Ikut tertawa agar tidak dianggap sok suci",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Ikut menghina keyakinan orang lain merusak persatuan dan melanggar akhlak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Temanmu menyadari sikapmu dan bertanya mengapa kamu menjauh. Apa jawabmu?",
+                  "choices": [
+                    {
+                      "text": "Meminta maaf dan menjelaskan bahwa perbedaan bukan alasan menjauh",
+                      "next": "n2",
+                      "score": 1,
+                      "feedback": "Mengakui kekeliruan memulihkan hubungan dan menunjukkan keteladanan."
+                    },
+                    {
+                      "text": "Mengatakan bahwa keyakinannya yang membuatmu menjauh",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Menjadikan keyakinan orang lain sebagai alasan menjauh melukai dan tidak adil."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Guru membahas pentingnya menghargai perbedaan. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mulai berteman dan bekerja sama tanpa membedakan keyakinan",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Bekerja sama tanpa membedakan keyakinan mewujudkan sikap menghargai perbedaan."
+                    },
+                    {
+                      "text": "Tetap menjaga jarak agar aman",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Aman untuk diri sendiri, tetapi belum melatih sikap menghargai perbedaan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Kamu menghargai perbedaan dan menjaga persatuan. Kebaikan tersampaikan lewat keteladanan, bukan paksaan."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Tidak terjadi konflik, tetapi sikapmu belum sepenuhnya mencerminkan keteladanan ulama."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Temanmu terluka dan hubungan memanas. Perbedaan keyakinan tidak boleh menjadi alasan merendahkan."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-pai10-walisongo",
+              "title": "Tantangan Kilat: Wali Songo",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Wali Songo berarti sembilan…",
+                  "answer": "wali"
+                },
+                {
+                  "question": "Sunan yang berdakwah melalui wayang dan gamelan adalah Sunan…",
+                  "answer": "kalijaga"
+                },
+                {
+                  "question": "Sunan yang berdakwah melalui gamelan dan tembang adalah Sunan…",
+                  "answer": "bonang"
+                },
+                {
+                  "question": "Sunan yang membuka jalan dakwah melalui pendidikan adalah Sunan…",
+                  "answer": "gresik"
+                },
+                {
+                  "question": "Dakwah dengan cara bijak dan tepat sasaran disebut bi al-…",
+                  "answer": "hikmah"
+                },
+                {
+                  "question": "Nasihat yang baik dan menyentuh hati disebut al-mau'idlatil…",
+                  "answer": "hasanah"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — dakwah Wali Songo damai, bertahap, dan menghargai budaya yang tidak melanggar syariat.",
+                "wrong": "Ingat: Kalijaga, Bonang, Gresik, bi al-hikmah, dan al-mau'idlatil hasanah."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

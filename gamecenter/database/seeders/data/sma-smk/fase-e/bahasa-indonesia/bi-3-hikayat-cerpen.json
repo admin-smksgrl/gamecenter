@@ -23,21 +23,605 @@
           "title": "Hikayat dan Cerpen: Dua Zaman",
           "duration": 240,
           "source_reference": "Bab 3 — Nilai dalam Cerita Lintas Zaman",
-          "content": "## Hikayat\n\nKarya **sastra lama Melayu** yang menceritakan kesaktian dan keajaiban.\n\nCiri bahasa: banyak **kata arkais**, seperti *alkisah*, *syahdan*, *hatta*.\n\n## Cerpen\n\nCerita pendek **modern** yang memusatkan cerita pada satu peristiwa utama dengan tokoh terbatas.\n\n| Aspek | Hikayat | Cerpen |\n|---|---|---|\n| Zaman | sastra lama | modern |\n| Bahasa | kata arkais | bahasa masa kini |\n| Unsur khas | kesaktian, keajaiban | konflik batin, realisme |\n| Fokus | riwayat tokoh | satu peristiwa |\n\n## Unsur intrinsik\n\n- **tema** — gagasan utama cerita\n- **alur** — rangkaian peristiwa berdasarkan sebab-akibat\n- **latar** — tempat, waktu, dan suasana\n- **tokoh** — pelaku cerita\n- **amanat** — pesan moral bagi pembaca\n\n## Nilai kehidupan\n\nHikayat memuat **nilai moral**, **nilai sosial**, dan **nilai budaya**. Nilai itu dapat dikaitkan dengan kehidupan masa kini untuk menemukan relevansinya."
+          "content": "## Hikayat\n\nKarya **sastra lama Melayu** yang menceritakan kesaktian dan keajaiban.\n\nCiri bahasa: banyak **kata arkais**, seperti *alkisah*, *syahdan*, *hatta*.\n\n## Cerpen\n\nCerita pendek **modern** yang memusatkan cerita pada satu peristiwa utama dengan tokoh terbatas.\n\n| Aspek | Hikayat | Cerpen |\n|---|---|---|\n| Zaman | sastra lama | modern |\n| Bahasa | kata arkais | bahasa masa kini |\n| Unsur khas | kesaktian, keajaiban | konflik batin, realisme |\n| Fokus | riwayat tokoh | satu peristiwa |\n\n## Unsur intrinsik\n\n- **tema** — gagasan utama cerita\n- **alur** — rangkaian peristiwa berdasarkan sebab-akibat\n- **latar** — tempat, waktu, dan suasana\n- **tokoh** — pelaku cerita\n- **amanat** — pesan moral bagi pembaca\n\n## Nilai kehidupan\n\nHikayat memuat **nilai moral**, **nilai sosial**, dan **nilai budaya**. Nilai itu dapat dikaitkan dengan kehidupan masa kini untuk menemukan relevansinya.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Hikayat",
+                  "definition": "Karya sastra lama Melayu yang menceritakan kesaktian dan keajaiban."
+                },
+                {
+                  "term": "Kata arkais",
+                  "definition": "Kata lama yang sudah jarang dipakai, seperti alkisah, syahdan, dan hatta."
+                },
+                {
+                  "term": "Cerpen",
+                  "definition": "Cerita pendek modern yang memusatkan cerita pada satu peristiwa utama dengan tokoh terbatas."
+                },
+                {
+                  "term": "Amanat",
+                  "definition": "Pesan moral yang ingin disampaikan cerita kepada pembaca."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hikayat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Karya **sastra lama Melayu** yang menceritakan kesaktian dan keajaiban."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ciri bahasa: banyak **kata arkais**, seperti alkisah, syahdan, hatta."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-bi3-ciri",
+              "prompt": "Kelompokkan ciri berikut ke dalam hikayat atau cerpen.",
+              "buckets": [
+                {
+                  "id": "hikayat",
+                  "label": "Hikayat"
+                },
+                {
+                  "id": "cerpen",
+                  "label": "Cerpen"
+                }
+              ],
+              "items": [
+                {
+                  "id": "h1",
+                  "text": "Sastra lama Melayu",
+                  "bucket": "hikayat"
+                },
+                {
+                  "id": "h2",
+                  "text": "Kesaktian dan keajaiban",
+                  "bucket": "hikayat"
+                },
+                {
+                  "id": "h3",
+                  "text": "Kata arkais",
+                  "bucket": "hikayat"
+                },
+                {
+                  "id": "c1",
+                  "text": "Cerita pendek modern",
+                  "bucket": "cerpen"
+                },
+                {
+                  "id": "c2",
+                  "text": "Konflik batin dan realisme",
+                  "bucket": "cerpen"
+                },
+                {
+                  "id": "c3",
+                  "text": "Fokus pada satu peristiwa",
+                  "bucket": "cerpen"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — hikayat berciri sastra lama dan kesaktian, cerpen berciri modern dan realisme.",
+                "wrong": "Hikayat: sastra lama, kata arkais, kesaktian. Cerpen: modern, konflik batin, satu peristiwa."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cerpen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Cerita pendek **modern** yang memusatkan cerita pada satu peristiwa utama dengan tokoh terbatas."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspek",
+                  "Hikayat",
+                  "Cerpen"
+                ],
+                [
+                  "Zaman",
+                  "sastra lama",
+                  "modern"
+                ],
+                [
+                  "Bahasa",
+                  "kata arkais",
+                  "bahasa masa kini"
+                ],
+                [
+                  "Unsur khas",
+                  "kesaktian, keajaiban",
+                  "konflik batin, realisme"
+                ],
+                [
+                  "Fokus",
+                  "riwayat tokoh",
+                  "satu peristiwa"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-bi3-banding",
+              "engine": "mermaid",
+              "title": "Hikayat dan cerpen: dua zaman, dua ciri",
+              "code": "flowchart LR\n  A[Hikayat] --> A1[Sastra lama Melayu]\n  A --> A2[Kata arkais]\n  A --> A3[Kesaktian dan keajaiban]\n  B[Cerpen] --> B1[Cerita pendek modern]\n  B --> B2[Bahasa masa kini]\n  B --> B3[Konflik batin dan realisme]"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi3-arkais",
+              "question": "Kata “alkisah”, “syahdan”, dan “hatta” merupakan contoh…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Kata arkais dalam hikayat",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Kata serapan modern dalam cerpen"
+                },
+                {
+                  "id": "c",
+                  "text": "Istilah teknis laporan"
+                }
+              ],
+              "explanation": "Hikayat banyak memakai kata arkais, yaitu kata lama yang sudah jarang dipakai. Cerpen modern memakai bahasa masa kini."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Unsur intrinsik"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**tema** — gagasan utama cerita",
+                "**alur** — rangkaian peristiwa berdasarkan sebab-akibat",
+                "**latar** — tempat, waktu, dan suasana",
+                "**tokoh** — pelaku cerita",
+                "**amanat** — pesan moral bagi pembaca"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Nilai kehidupan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hikayat memuat **nilai moral**, **nilai sosial**, dan **nilai budaya**. Nilai itu dapat dikaitkan dengan kehidupan masa kini untuk menemukan relevansinya."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Karakterisasi dan Plot",
           "duration": 360,
           "source_reference": "Bab 3 — Menilai Karakterisasi dan Plot",
-          "content": "## Karakterisasi langsung dan tidak langsung\n\n**Langsung** — penulis menjelaskan:\n\n> \"Ia adalah orang yang dermawan.\"\n\n**Tidak langsung** — watak disimpulkan dari tindakan:\n\n> \"Dengan tangan gemetar ia menyerahkan seluruh bekalnya kepada pengemis itu.\"\n\nKarakterisasi dapat diketahui melalui **dialog, tindakan, penilaian tokoh lain**, dan penjelasan narator.\n\n## Plot\n\nPlot bukan sekadar urutan waktu, melainkan rangkaian peristiwa yang **saling menyebabkan**.\n\n| Bagian | Isi |\n|---|---|\n| orientasi | pengenalan |\n| komplikasi | munculnya konflik |\n| klimaks | puncak ketegangan |\n| resolusi | penyelesaian |\n\n## Alur maju dan mundur\n\n- **maju** — dari awal ke akhir\n- **mundur** — memakai kilas balik\n\n## Protagonis dan antagonis\n\nProtagonis mendukung jalannya cerita, antagonis menentangnya dan menciptakan konflik.\n\n## Menilai dalam konteks\n\nNilai yang berlaku pada masa lalu berbeda dengan masa kini, sehingga karakterisasi tokoh hikayat perlu dipahami dalam konteksnya. Pembacaan kontekstual membuat karya lama tetap bermakna."
+          "content": "## Karakterisasi langsung dan tidak langsung\n\n**Langsung** — penulis menjelaskan:\n\n> \"Ia adalah orang yang dermawan.\"\n\n**Tidak langsung** — watak disimpulkan dari tindakan:\n\n> \"Dengan tangan gemetar ia menyerahkan seluruh bekalnya kepada pengemis itu.\"\n\nKarakterisasi dapat diketahui melalui **dialog, tindakan, penilaian tokoh lain**, dan penjelasan narator.\n\n## Plot\n\nPlot bukan sekadar urutan waktu, melainkan rangkaian peristiwa yang **saling menyebabkan**.\n\n| Bagian | Isi |\n|---|---|\n| orientasi | pengenalan |\n| komplikasi | munculnya konflik |\n| klimaks | puncak ketegangan |\n| resolusi | penyelesaian |\n\n## Alur maju dan mundur\n\n- **maju** — dari awal ke akhir\n- **mundur** — memakai kilas balik\n\n## Protagonis dan antagonis\n\nProtagonis mendukung jalannya cerita, antagonis menentangnya dan menciptakan konflik.\n\n## Menilai dalam konteks\n\nNilai yang berlaku pada masa lalu berbeda dengan masa kini, sehingga karakterisasi tokoh hikayat perlu dipahami dalam konteksnya. Pembacaan kontekstual membuat karya lama tetap bermakna.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Karakterisasi langsung dan tidak langsung"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Langsung** — penulis menjelaskan:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Ia adalah orang yang dermawan.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "**Tidak langsung** — watak disimpulkan dari tindakan:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Dengan tangan gemetar ia menyerahkan seluruh bekalnya kepada pengemis itu.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Karakterisasi dapat diketahui melalui **dialog, tindakan, penilaian tokoh lain**, dan penjelasan narator."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi3-karakterisasi",
+              "question": "“Dengan tangan gemetar ia menyerahkan seluruh bekalnya kepada pengemis itu.” Watak tokoh disampaikan secara…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Tidak langsung, melalui tindakan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Langsung, melalui penjelasan penulis"
+                },
+                {
+                  "id": "c",
+                  "text": "Melalui daftar kata sifat"
+                }
+              ],
+              "explanation": "Karakterisasi tidak langsung membuat pembaca menyimpulkan watak dari tindakan, dialog, atau penilaian tokoh lain."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Plot"
+            },
+            {
+              "type": "paragraph",
+              "text": "Plot bukan sekadar urutan waktu, melainkan rangkaian peristiwa yang **saling menyebabkan**."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bagian",
+                  "Isi"
+                ],
+                [
+                  "orientasi",
+                  "pengenalan"
+                ],
+                [
+                  "komplikasi",
+                  "munculnya konflik"
+                ],
+                [
+                  "klimaks",
+                  "puncak ketegangan"
+                ],
+                [
+                  "resolusi",
+                  "penyelesaian"
+                ]
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-bi3-plot",
+              "prompt": "Urutkan bagian plot cerita.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Orientasi — pengenalan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Komplikasi — munculnya konflik"
+                },
+                {
+                  "id": "s3",
+                  "text": "Klimaks — puncak ketegangan"
+                },
+                {
+                  "id": "s4",
+                  "text": "Resolusi — penyelesaian"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — orientasi, komplikasi, klimaks, lalu resolusi.",
+                "wrong": "Plot bergerak dari orientasi ke komplikasi, klimaks, dan resolusi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Alur maju dan mundur"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**maju** — dari awal ke akhir",
+                "**mundur** — memakai kilas balik"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Protagonis dan antagonis"
+            },
+            {
+              "type": "paragraph",
+              "text": "Protagonis mendukung jalannya cerita, antagonis menentangnya dan menciptakan konflik."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-bi3-antagonis",
+              "question": "Tokoh yang menentang jalannya cerita dan menciptakan konflik disebut…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Antagonis",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Protagonis"
+                },
+                {
+                  "id": "c",
+                  "text": "Narator"
+                }
+              ],
+              "explanation": "Protagonis mendukung jalannya cerita, sedangkan antagonis menentangnya dan menciptakan konflik."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menilai dalam konteks"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nilai yang berlaku pada masa lalu berbeda dengan masa kini, sehingga karakterisasi tokoh hikayat perlu dipahami dalam konteksnya. Pembacaan kontekstual membuat karya lama tetap bermakna."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Menulis Fiksi dari Nilai Hikayat",
           "duration": 240,
           "source_reference": "Bab 3 — Latihan Menulis",
-          "content": "## Dari nilai lama ke cerita baru\n\n1. Pilih nilai kehidupan dari hikayat, misalnya kesetiaan atau keberanian\n2. Tentukan tokoh dan latar **masa kini**\n3. Susun alur konflik yang mencerminkan nilai itu\n4. Tutup dengan penyelesaian yang bermakna\n\n### Kaidah bahasa yang wajib diperhatikan\n\n- tanda baca **dialog** yang tepat\n- ejaan sesuai kaidah\n- paragraf yang jelas\n\n### Latar suasana\n\n> \"Angin malam menusuk, membuat siapa pun ingin segera pulang.\"\n\nKalimat itu menggambarkan **latar suasana**, bukan latar tempat atau waktu.\n\n### Kritik sastra yang baik\n\nBerfokus pada **keterpaduan unsur** dan **kedalaman pesan**, bukan selera pribadi atau popularitas penulis.\n\n### Publikasi digital\n\nSaat mempublikasikan cerpen, pastikan karya itu **karya sendiri** dan tidak melanggar hak cipta. Alih wahana ke narasi digital mengubah **bentuk penyajian**, bukan isi cerita."
+          "content": "## Dari nilai lama ke cerita baru\n\n1. Pilih nilai kehidupan dari hikayat, misalnya kesetiaan atau keberanian\n2. Tentukan tokoh dan latar **masa kini**\n3. Susun alur konflik yang mencerminkan nilai itu\n4. Tutup dengan penyelesaian yang bermakna\n\n### Kaidah bahasa yang wajib diperhatikan\n\n- tanda baca **dialog** yang tepat\n- ejaan sesuai kaidah\n- paragraf yang jelas\n\n### Latar suasana\n\n> \"Angin malam menusuk, membuat siapa pun ingin segera pulang.\"\n\nKalimat itu menggambarkan **latar suasana**, bukan latar tempat atau waktu.\n\n### Kritik sastra yang baik\n\nBerfokus pada **keterpaduan unsur** dan **kedalaman pesan**, bukan selera pribadi atau popularitas penulis.\n\n### Publikasi digital\n\nSaat mempublikasikan cerpen, pastikan karya itu **karya sendiri** dan tidak melanggar hak cipta. Alih wahana ke narasi digital mengubah **bentuk penyajian**, bukan isi cerita.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari nilai lama ke cerita baru"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Pilih nilai kehidupan dari hikayat, misalnya kesetiaan atau keberanian",
+                "Tentukan tokoh dan latar **masa kini**",
+                "Susun alur konflik yang mencerminkan nilai itu",
+                "Tutup dengan penyelesaian yang bermakna"
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-bi3-menulis",
+              "prompt": "Urutkan langkah menulis fiksi dari nilai hikayat.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Pilih nilai kehidupan dari hikayat"
+                },
+                {
+                  "id": "s2",
+                  "text": "Tentukan tokoh dan latar masa kini"
+                },
+                {
+                  "id": "s3",
+                  "text": "Susun alur konflik yang mencerminkan nilai itu"
+                },
+                {
+                  "id": "s4",
+                  "text": "Tutup dengan penyelesaian yang bermakna"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar — pilih nilai, tentukan tokoh dan latar, susun konflik, lalu beri penyelesaian.",
+                "wrong": "Mulai dari memilih nilai kehidupan, lalu tokoh dan latar masa kini."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kaidah bahasa yang wajib diperhatikan"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "tanda baca **dialog** yang tepat",
+                "ejaan sesuai kaidah",
+                "paragraf yang jelas"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Latar suasana"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "\"Angin malam menusuk, membuat siapa pun ingin segera pulang.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Kalimat itu menggambarkan **latar suasana**, bukan latar tempat atau waktu."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kritik sastra yang baik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Berfokus pada **keterpaduan unsur** dan **kedalaman pesan**, bukan selera pribadi atau popularitas penulis."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Publikasi digital"
+            },
+            {
+              "type": "paragraph",
+              "text": "Saat mempublikasikan cerpen, pastikan karya itu **karya sendiri** dan tidak melanggar hak cipta. Alih wahana ke narasi digital mengubah **bentuk penyajian**, bukan isi cerita."
+            },
+            {
+              "type": "scenario",
+              "id": "sc-bi3-publikasi",
+              "title": "Mempublikasikan cerpen di media digital",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu menulis cerpen berdasarkan nilai hikayat. Teman menawarkan mengunggahnya di akun komunitas tanpa mencantumkan namamu. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Memastikan nama penulis tetap dicantumkan",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Publikasi digital harus menghormati karya sendiri; nama penulis tetap dicantumkan."
+                    },
+                    {
+                      "text": "Membiarkan tanpa nama agar cepat dipublikasikan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Membiarkan karya tanpa nama membuka peluang klaim oleh orang lain."
+                    },
+                    {
+                      "text": "Menolak semua publikasi digital",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Menolak semua membuat karya tidak dikenal, padahal publikasi digital boleh dilakukan dengan aman."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Seseorang menyalin cerpenmu dan mengaku sebagai penulisnya. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Menunjukkan bukti karyamu dan melaporkan pelanggaran hak cipta",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Karya sendiri dilindungi; bukti dan pelaporan yang benar menjaga hak cipta."
+                    },
+                    {
+                      "text": "Membalas dengan menyalin karya orang lain juga",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Membalas dengan pelanggaran baru tidak menyelesaikan masalah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Cerpenmu viral, tetapi namamu tidak disebut. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menghubungi pengunggah dan meminta nama penulis dicantumkan",
+                      "next": "n5",
+                      "score": 1,
+                      "feedback": "Meminta pencantuman nama adalah langkah tepat sebelum menempuh jalur lain."
+                    },
+                    {
+                      "text": "Diam saja karena yang penting karya dibaca",
+                      "next": "n7",
+                      "score": 0,
+                      "feedback": "Diam membiarkan hak penulis diabaikan dan berpotensi diulang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Guru menawarkan membantu publikasi yang aman. Apa jawabmu?",
+                  "choices": [
+                    {
+                      "text": "Menerima dan mempelajari cara menjaga hak cipta",
+                      "next": "n5",
+                      "score": 2,
+                      "feedback": "Publikasi aman tetap menjaga karya sendiri dan tidak melanggar hak cipta."
+                    },
+                    {
+                      "text": "Menolak karena takut karyanya dinilai",
+                      "next": "n6",
+                      "score": 1,
+                      "feedback": "Takut dinilai membuat karya tidak berkembang; publikasi bisa dimulai dengan aman."
+                    }
+                  ]
+                },
+                {
+                  "id": "n5",
+                  "end": true,
+                  "outcome": "good",
+                  "text": "Cerpenmu terbit dengan nama penulis yang jelas. Alih wahana mengubah bentuk penyajian, bukan isi cerita."
+                },
+                {
+                  "id": "n6",
+                  "end": true,
+                  "outcome": "neutral",
+                  "text": "Karya belum terbit atau masalah belum tuntas, tetapi kamu masih punya kesempatan memperbaikinya."
+                },
+                {
+                  "id": "n7",
+                  "end": true,
+                  "outcome": "bad",
+                  "text": "Nama penulis hilang dan karyamu berisiko diklaim orang lain. Hak cipta perlu dijaga sejak awal."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-bi3-sastra",
+              "title": "Tantangan Kilat: Hikayat dan Cerpen",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Karya sastra lama Melayu yang menceritakan kesaktian disebut…",
+                  "answer": "hikayat"
+                },
+                {
+                  "question": "Kata lama seperti alkisah dan hatta disebut kata…",
+                  "answer": "arkais"
+                },
+                {
+                  "question": "Pesan moral dalam cerita disebut…",
+                  "answer": "amanat"
+                },
+                {
+                  "question": "Bagian plot berisi puncak ketegangan disebut…",
+                  "answer": "klimaks"
+                },
+                {
+                  "question": "Tokoh yang menentang jalannya cerita disebut…",
+                  "answer": "antagonis"
+                },
+                {
+                  "question": "Latar yang menggambarkan keadaan perasaan disebut latar…",
+                  "answer": "suasana"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — hikayat dan cerpen sama-sama menyimpan nilai yang bisa relevan hari ini.",
+                "wrong": "Ingat: hikayat, kata arkais, amanat, klimaks, antagonis, dan latar suasana."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

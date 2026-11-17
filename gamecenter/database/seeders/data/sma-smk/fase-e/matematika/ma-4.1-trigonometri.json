@@ -22,21 +22,334 @@
           "title": "Tiga Perbandingan Dasar",
           "duration": 240,
           "source_reference": "Bab 4 — Perbandingan Trigonometri",
-          "content": "## Segitiga siku-siku dan tiga perbandingan\n\nPerhatikan satu sudut lancip θ. Sisi segitiga dibagi menjadi tiga peran:\n\n- **sisi depan** — berhadapan dengan θ\n- **sisi samping** — bersebelahan dengan θ\n- **sisi miring (hipotenusa)** — sisi terpanjang, di depan sudut siku-siku\n\nMaka:\n\n> **sin θ = depan ÷ miring**\n> **cos θ = samping ÷ miring**\n> **tan θ = depan ÷ samping**\n\n### Contoh\n\nSegitiga dengan sisi tegak 3 dan 4 memiliki sisi miring √(9 + 16) = 5.\nUntuk sudut yang berhadapan dengan sisi 3: sin θ = 3/5 dan cos θ = 4/5.\n\n### Hubungan ketiganya\n\n> tan θ = sin θ ÷ cos θ\n\n### Identitas penting\n\n> **sin² θ + cos² θ = 1**\n\nIdentitas ini berlaku untuk **setiap** sudut, bukan hanya sudut istimewa."
+          "content": "## Segitiga siku-siku dan tiga perbandingan\n\nPerhatikan satu sudut lancip θ. Sisi segitiga dibagi menjadi tiga peran:\n\n- **sisi depan** — berhadapan dengan θ\n- **sisi samping** — bersebelahan dengan θ\n- **sisi miring (hipotenusa)** — sisi terpanjang, di depan sudut siku-siku\n\nMaka:\n\n> **sin θ = depan ÷ miring**\n> **cos θ = samping ÷ miring**\n> **tan θ = depan ÷ samping**\n\n### Contoh\n\nSegitiga dengan sisi tegak 3 dan 4 memiliki sisi miring √(9 + 16) = 5.\nUntuk sudut yang berhadapan dengan sisi 3: sin θ = 3/5 dan cos θ = 4/5.\n\n### Hubungan ketiganya\n\n> tan θ = sin θ ÷ cos θ\n\n### Identitas penting\n\n> **sin² θ + cos² θ = 1**\n\nIdentitas ini berlaku untuk **setiap** sudut, bukan hanya sudut istimewa.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Sinus (sin)",
+                  "definition": "Perbandingan sisi depan sudut dengan sisi miring."
+                },
+                {
+                  "term": "Kosinus (cos)",
+                  "definition": "Perbandingan sisi samping sudut dengan sisi miring."
+                },
+                {
+                  "term": "Tangen (tan)",
+                  "definition": "Perbandingan sisi depan dengan sisi samping, tan θ = sin θ ÷ cos θ."
+                },
+                {
+                  "term": "Identitas Pythagoras",
+                  "definition": "sin² θ + cos² θ = 1, berlaku untuk setiap sudut."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Segitiga siku-siku dan tiga perbandingan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Perhatikan satu sudut lancip θ. Sisi segitiga dibagi menjadi tiga peran:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**sisi depan** — berhadapan dengan θ",
+                "**sisi samping** — bersebelahan dengan θ",
+                "**sisi miring (hipotenusa)** — sisi terpanjang, di depan sudut siku-siku"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Maka:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**sin θ = depan ÷ miring** **cos θ = samping ÷ miring** **tan θ = depan ÷ samping**"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-tan-definisi",
+              "question": "Pada segitiga siku-siku, tan θ sama dengan…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "sisi depan ÷ sisi samping",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "sisi samping ÷ sisi miring"
+                },
+                {
+                  "id": "c",
+                  "text": "sisi miring ÷ sisi depan"
+                }
+              ],
+              "explanation": "tan θ = depan ÷ samping, atau setara dengan sin θ ÷ cos θ. Sisi miring dipakai oleh sinus dan kosinus."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh"
+            },
+            {
+              "type": "paragraph",
+              "text": "Segitiga dengan sisi tegak 3 dan 4 memiliki sisi miring √(9 + 16) = 5. Untuk sudut yang berhadapan dengan sisi 3: sin θ = 3/5 dan cos θ = 4/5."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Hubungan ketiganya"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "tan θ = sin θ ÷ cos θ"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Identitas penting"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**sin² θ + cos² θ = 1**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Identitas ini berlaku untuk **setiap** sudut, bukan hanya sudut istimewa."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Sudut Istimewa",
           "duration": 360,
           "source_reference": "Bab 4 — Nilai Sudut Istimewa",
-          "content": "## Tabel yang perlu dihafal\n\n| Sudut | sin | cos | tan |\n|---|---|---|---|\n| 0° | 0 | 1 | 0 |\n| 30° | 1/2 | √3/2 | √3/3 |\n| 45° | √2/2 | √2/2 | 1 |\n| 60° | √3/2 | 1/2 | √3 |\n| 90° | 1 | 0 | tidak terdefinisi |\n\n### Pola yang membantu\n\n- Nilai **sinus** naik dari 0 menuju 1.\n- Nilai **kosinus** turun dari 1 menuju 0.\n- sin 30° = cos 60°, dan sin 60° = cos 30° — sudut yang berpenyiku bertukar nilai.\n- sin 45° = cos 45° karena sudutnya tepat 45°.\n\n### Mengapa tan 90° tidak terdefinisi?\n\ntan θ = sin θ ÷ cos θ. Pada 90°, cos 90° = 0, sehingga pembaginya nol — dan pembagian dengan nol tidak terdefinisi."
+          "content": "## Tabel yang perlu dihafal\n\n| Sudut | sin | cos | tan |\n|---|---|---|---|\n| 0° | 0 | 1 | 0 |\n| 30° | 1/2 | √3/2 | √3/3 |\n| 45° | √2/2 | √2/2 | 1 |\n| 60° | √3/2 | 1/2 | √3 |\n| 90° | 1 | 0 | tidak terdefinisi |\n\n### Pola yang membantu\n\n- Nilai **sinus** naik dari 0 menuju 1.\n- Nilai **kosinus** turun dari 1 menuju 0.\n- sin 30° = cos 60°, dan sin 60° = cos 30° — sudut yang berpenyiku bertukar nilai.\n- sin 45° = cos 45° karena sudutnya tepat 45°.\n\n### Mengapa tan 90° tidak terdefinisi?\n\ntan θ = sin θ ÷ cos θ. Pada 90°, cos 90° = 0, sehingga pembaginya nol — dan pembagian dengan nol tidak terdefinisi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tabel yang perlu dihafal"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Sudut",
+                  "sin",
+                  "cos",
+                  "tan"
+                ],
+                [
+                  "0°",
+                  "0",
+                  "1",
+                  "0"
+                ],
+                [
+                  "30°",
+                  "1/2",
+                  "√3/2",
+                  "√3/3"
+                ],
+                [
+                  "45°",
+                  "√2/2",
+                  "√2/2",
+                  "1"
+                ],
+                [
+                  "60°",
+                  "√3/2",
+                  "1/2",
+                  "√3"
+                ],
+                [
+                  "90°",
+                  "1",
+                  "0",
+                  "tidak terdefinisi"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Pola yang membantu"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Nilai **sinus** naik dari 0 menuju 1.",
+                "Nilai **kosinus** turun dari 1 menuju 0.",
+                "sin 30° = cos 60°, dan sin 60° = cos 30° — sudut yang berpenyiku bertukar nilai.",
+                "sin 45° = cos 45° karena sudutnya tepat 45°."
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "ch-sin-istimewa",
+              "kind": "bar",
+              "title": "Nilai sin pada sudut istimewa",
+              "desc": "Grafik batang nilai sinus: 0 derajat = 0; 30 derajat = 0,5; 45 derajat = 0,707; 60 derajat = 0,866; 90 derajat = 1.",
+              "data": [
+                {
+                  "label": "0°",
+                  "value": 0
+                },
+                {
+                  "label": "30°",
+                  "value": 0.5
+                },
+                {
+                  "label": "45°",
+                  "value": 0.71
+                },
+                {
+                  "label": "60°",
+                  "value": 0.87
+                },
+                {
+                  "label": "90°",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengapa tan 90° tidak terdefinisi?"
+            },
+            {
+              "type": "paragraph",
+              "text": "tan θ = sin θ ÷ cos θ. Pada 90°, cos 90° = 0, sehingga pembaginya nol — dan pembagian dengan nol tidak terdefinisi."
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-tan-90",
+              "question": "Mengapa tan 90° tidak terdefinisi?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Karena cos 90° = 0 sehingga terjadi pembagian dengan nol",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Karena sin 90° = 0"
+                },
+                {
+                  "id": "c",
+                  "text": "Karena segitiga tidak punya sudut 90°"
+                }
+              ],
+              "explanation": "tan θ = sin θ ÷ cos θ. Pada 90°, cos 90° = 0, dan pembagian dengan nol tidak terdefinisi."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Mengukur Tinggi dengan Sudut",
           "duration": 240,
           "source_reference": "Bab 4 — Penerapan Trigonometri",
-          "content": "## Sudut elevasi\n\nSudut elevasi adalah sudut antara garis pandang mendatar dan arah pandang ke atas. Trigonometri memungkinkan kita mengukur tinggi benda tanpa memanjatnya.\n\n### Contoh 1 — tangga\n\nTangga 5 m bersandar dan membentuk sudut 60° dengan tanah. Tinggi ujung tangga:\n\ntinggi = 5 × sin 60° = 5 × (√3/2) = **2,5√3 m**\n\n### Contoh 2 — tiang\n\nDari jarak 10 m, sudut elevasi puncak tiang 45°. Tinggi tiang:\n\ntinggi = 10 × tan 45° = 10 × 1 = **10 m**\n\n### Cara memilih perbandingan\n\nTanyakan: sisi mana yang **diketahui** dan sisi mana yang **dicari**?\n\n- diketahui miring, dicari depan → **sinus**\n- diketahui miring, dicari samping → **kosinus**\n- diketahui samping, dicari depan (atau sebaliknya) → **tangen**"
+          "content": "## Sudut elevasi\n\nSudut elevasi adalah sudut antara garis pandang mendatar dan arah pandang ke atas. Trigonometri memungkinkan kita mengukur tinggi benda tanpa memanjatnya.\n\n### Contoh 1 — tangga\n\nTangga 5 m bersandar dan membentuk sudut 60° dengan tanah. Tinggi ujung tangga:\n\ntinggi = 5 × sin 60° = 5 × (√3/2) = **2,5√3 m**\n\n### Contoh 2 — tiang\n\nDari jarak 10 m, sudut elevasi puncak tiang 45°. Tinggi tiang:\n\ntinggi = 10 × tan 45° = 10 × 1 = **10 m**\n\n### Cara memilih perbandingan\n\nTanyakan: sisi mana yang **diketahui** dan sisi mana yang **dicari**?\n\n- diketahui miring, dicari depan → **sinus**\n- diketahui miring, dicari samping → **kosinus**\n- diketahui samping, dicari depan (atau sebaliknya) → **tangen**",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sudut elevasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sudut elevasi adalah sudut antara garis pandang mendatar dan arah pandang ke atas. Trigonometri memungkinkan kita mengukur tinggi benda tanpa memanjatnya."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh 1 — tangga"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tangga 5 m bersandar dan membentuk sudut 60° dengan tanah. Tinggi ujung tangga:"
+            },
+            {
+              "type": "paragraph",
+              "text": "tinggi = 5 × sin 60° = 5 × (√3/2) = **2,5√3 m**"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh 2 — tiang"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dari jarak 10 m, sudut elevasi puncak tiang 45°. Tinggi tiang:"
+            },
+            {
+              "type": "paragraph",
+              "text": "tinggi = 10 × tan 45° = 10 × 1 = **10 m**"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Cara memilih perbandingan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tanyakan: sisi mana yang **diketahui** dan sisi mana yang **dicari**?"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "diketahui miring, dicari depan → **sinus**",
+                "diketahui miring, dicari samping → **kosinus**",
+                "diketahui samping, dicari depan (atau sebaliknya) → **tangen**"
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-trigonometri-cepat",
+              "title": "Tantangan Kilat: Trigonometri",
+              "time_limit": 80,
+              "items": [
+                {
+                  "question": "Sudut yang nilai kosinusnya 0 adalah … derajat",
+                  "answer": "90"
+                },
+                {
+                  "question": "tan 45° = …",
+                  "answer": "1"
+                },
+                {
+                  "question": "sin² θ + cos² θ = …",
+                  "answer": "1"
+                },
+                {
+                  "question": "sin 30° = cos … derajat",
+                  "answer": "60"
+                },
+                {
+                  "question": "Sudut elevasi 45° dari jarak 10 m memberi tinggi tiang … m",
+                  "answer": "10"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — perbandingan dan sudut istimewa sudah dikenali.",
+                "wrong": "Ingat tan = depan/samping dan nilai istimewa sin 30° = ½, sin 45° = ½√2."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

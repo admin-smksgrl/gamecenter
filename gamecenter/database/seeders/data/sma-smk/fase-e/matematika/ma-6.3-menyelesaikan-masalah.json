@@ -20,21 +20,338 @@
           "title": "Dari Soal Cerita ke Fungsi Kuadrat",
           "duration": 240,
           "source_reference": "Modul Ajar MA 6.3 — Kompetensi Awal",
-          "content": "## Pola yang berulang\n\nBanyak soal cerita berbentuk **\"berapa nilai terbesar atau terkecil\"**. Semuanya dapat diselesaikan dengan satu pola: susun fungsi kuadratnya, lalu cari titik puncaknya.\n\nContoh paling sering:\n\n| Situasi | Bentuk fungsi |\n|---|---|\n| Dua bilangan berjumlah tetap S | P = x(S − x) |\n| Persegi panjang berkeliling K | L = x(K/2 − x) |\n| Bola dilempar | h(t) = −5t² + v₀t + h₀ |\n| Laba usaha | L(x) = −ax² + bx − c |\n\nSemuanya berbentuk **−x² + bx + …** dengan a negatif, sehingga puncaknya adalah **nilai maksimum**.\n\n### Kunci membedakan maksimum dan minimum\n\n- **a < 0** → parabola terbuka ke bawah → puncak adalah **nilai maksimum** (cocok untuk soal \"terbesar\").\n- **a > 0** → parabola terbuka ke atas → puncak adalah **nilai minimum** (cocok untuk soal \"terkecil\", misalnya biaya)."
+          "content": "## Pola yang berulang\n\nBanyak soal cerita berbentuk **\"berapa nilai terbesar atau terkecil\"**. Semuanya dapat diselesaikan dengan satu pola: susun fungsi kuadratnya, lalu cari titik puncaknya.\n\nContoh paling sering:\n\n| Situasi | Bentuk fungsi |\n|---|---|\n| Dua bilangan berjumlah tetap S | P = x(S − x) |\n| Persegi panjang berkeliling K | L = x(K/2 − x) |\n| Bola dilempar | h(t) = −5t² + v₀t + h₀ |\n| Laba usaha | L(x) = −ax² + bx − c |\n\nSemuanya berbentuk **−x² + bx + …** dengan a negatif, sehingga puncaknya adalah **nilai maksimum**.\n\n### Kunci membedakan maksimum dan minimum\n\n- **a < 0** → parabola terbuka ke bawah → puncak adalah **nilai maksimum** (cocok untuk soal \"terbesar\").\n- **a > 0** → parabola terbuka ke atas → puncak adalah **nilai minimum** (cocok untuk soal \"terkecil\", misalnya biaya).",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Nilai maksimum",
+                  "definition": "Nilai terbesar fungsi, terjadi di titik puncak saat parabola terbuka ke bawah (a < 0)."
+                },
+                {
+                  "term": "Nilai minimum",
+                  "definition": "Nilai terkecil fungsi, terjadi di titik puncak saat parabola terbuka ke atas (a > 0)."
+                },
+                {
+                  "term": "Fungsi tujuan",
+                  "definition": "Fungsi yang hendak dimaksimumkan atau diminimumkan, misalnya luas atau laba."
+                },
+                {
+                  "term": "Akar fungsi",
+                  "definition": "Nilai variabel yang membuat fungsi bernilai nol, misalnya waktu saat bola menyentuh tanah."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pola yang berulang"
+            },
+            {
+              "type": "paragraph",
+              "text": "Banyak soal cerita berbentuk **\"berapa nilai terbesar atau terkecil\"**. Semuanya dapat diselesaikan dengan satu pola: susun fungsi kuadratnya, lalu cari titik puncaknya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh paling sering:"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Situasi",
+                  "Bentuk fungsi"
+                ],
+                [
+                  "Dua bilangan berjumlah tetap S",
+                  "P = x(S − x)"
+                ],
+                [
+                  "Persegi panjang berkeliling K",
+                  "L = x(K/2 − x)"
+                ],
+                [
+                  "Bola dilempar",
+                  "h(t) = −5t² + v₀t + h₀"
+                ],
+                [
+                  "Laba usaha",
+                  "L(x) = −ax² + bx − c"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Semuanya berbentuk **−x² + bx + …** dengan a negatif, sehingga puncaknya adalah **nilai maksimum**."
+            },
+            {
+              "type": "chart",
+              "id": "ch-tinggi-bola",
+              "kind": "line",
+              "title": "Tinggi bola h(t) = −5t² + 20t",
+              "desc": "Grafik garis: t = 0 tinggi 0 m, t = 1 tinggi 15 m, t = 2 tinggi 20 m (puncak), t = 3 tinggi 15 m, t = 4 tinggi 0 m (menyentuh tanah).",
+              "data": [
+                {
+                  "label": "0",
+                  "value": 0
+                },
+                {
+                  "label": "1",
+                  "value": 15
+                },
+                {
+                  "label": "2",
+                  "value": 20
+                },
+                {
+                  "label": "3",
+                  "value": 15
+                },
+                {
+                  "label": "4",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-maks-min",
+              "question": "Fungsi laba L(x) = −2x² + 40x − 100 memiliki a negatif. Titik puncaknya merupakan…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Nilai maksimum laba",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Nilai minimum laba"
+                },
+                {
+                  "id": "c",
+                  "text": "Titik potong sumbu-x"
+                }
+              ],
+              "explanation": "a < 0 membuat parabola terbuka ke bawah, sehingga titik puncak adalah nilai maksimum — sesuai pertanyaan laba terbesar."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kunci membedakan maksimum dan minimum"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**a < 0** → parabola terbuka ke bawah → puncak adalah **nilai maksimum** (cocok untuk soal \"terbesar\").",
+                "**a > 0** → parabola terbuka ke atas → puncak adalah **nilai minimum** (cocok untuk soal \"terkecil\", misalnya biaya)."
+              ]
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Langkah Penyelesaian Soal Terapan",
           "duration": 360,
           "source_reference": "Modul Ajar MA 6.3 — Tujuan Pembelajaran",
-          "content": "## Empat langkah baku\n\n**1. Beri nama variabel** yang berubah — biasanya x = banyak barang, t = waktu, atau p = panjang.\n\n**2. Susun fungsi tujuan.** Tulis luas, laba, atau tinggi sebagai fungsi satu variabel. Bila ada dua variabel, gunakan syarat yang diketahui untuk menghilangkan salah satunya.\n\n**3. Cari puncak:** x = −b / (2a), lalu hitung nilai fungsinya.\n\n**4. Tafsirkan** dalam konteks soal beserta satuannya.\n\n### Contoh lengkap\n\nPagar 60 m dipakai untuk tiga sisi taman; sisi keempat adalah dinding. Berapa luas terbesar?\n\n- Sisi tegak x, sisi sejajar dinding = 60 − 2x\n- Luas L(x) = x(60 − 2x) = −2x² + 60x\n- Puncak: x = −60 ÷ (2 × −2) = **15**\n- Luas = 15(60 − 30) = **450 m²**\n\n### Soal \"kapan\" bukan \"berapa\"\n\nBila soal menanyakan **waktu** benda menyentuh tanah, jangan cari puncak — cari akar dengan membuat h(t) = 0. Puncak menjawab **berapa tinggi maksimum**, akar menjawab **kapan menyentuh tanah**."
+          "content": "## Empat langkah baku\n\n**1. Beri nama variabel** yang berubah — biasanya x = banyak barang, t = waktu, atau p = panjang.\n\n**2. Susun fungsi tujuan.** Tulis luas, laba, atau tinggi sebagai fungsi satu variabel. Bila ada dua variabel, gunakan syarat yang diketahui untuk menghilangkan salah satunya.\n\n**3. Cari puncak:** x = −b / (2a), lalu hitung nilai fungsinya.\n\n**4. Tafsirkan** dalam konteks soal beserta satuannya.\n\n### Contoh lengkap\n\nPagar 60 m dipakai untuk tiga sisi taman; sisi keempat adalah dinding. Berapa luas terbesar?\n\n- Sisi tegak x, sisi sejajar dinding = 60 − 2x\n- Luas L(x) = x(60 − 2x) = −2x² + 60x\n- Puncak: x = −60 ÷ (2 × −2) = **15**\n- Luas = 15(60 − 30) = **450 m²**\n\n### Soal \"kapan\" bukan \"berapa\"\n\nBila soal menanyakan **waktu** benda menyentuh tanah, jangan cari puncak — cari akar dengan membuat h(t) = 0. Puncak menjawab **berapa tinggi maksimum**, akar menjawab **kapan menyentuh tanah**.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Empat langkah baku"
+            },
+            {
+              "type": "paragraph",
+              "text": "**1. Beri nama variabel** yang berubah — biasanya x = banyak barang, t = waktu, atau p = panjang."
+            },
+            {
+              "type": "paragraph",
+              "text": "**2. Susun fungsi tujuan.** Tulis luas, laba, atau tinggi sebagai fungsi satu variabel. Bila ada dua variabel, gunakan syarat yang diketahui untuk menghilangkan salah satunya."
+            },
+            {
+              "type": "paragraph",
+              "text": "**3. Cari puncak:** x = −b / (2a), lalu hitung nilai fungsinya."
+            },
+            {
+              "type": "paragraph",
+              "text": "**4. Tafsirkan** dalam konteks soal beserta satuannya."
+            },
+            {
+              "type": "sort",
+              "id": "srt-soal-terapan",
+              "prompt": "Urutkan langkah menyelesaikan soal terapan fungsi kuadrat.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Beri nama variabel yang berubah"
+                },
+                {
+                  "id": "s2",
+                  "text": "Susun fungsi tujuan dari syarat soal"
+                },
+                {
+                  "id": "s3",
+                  "text": "Cari puncak x = −b/(2a) lalu hitung nilainya"
+                },
+                {
+                  "id": "s4",
+                  "text": "Tafsirkan hasil beserta satuannya"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Benar: beri nama, susun fungsi, cari puncak, lalu tafsirkan.",
+                "wrong": "Sebelum mencari puncak, pastikan fungsinya sudah dalam satu variabel."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh lengkap"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pagar 60 m dipakai untuk tiga sisi taman; sisi keempat adalah dinding. Berapa luas terbesar?"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Sisi tegak x, sisi sejajar dinding = 60 − 2x",
+                "Luas L(x) = x(60 − 2x) = −2x² + 60x",
+                "Puncak: x = −60 ÷ (2 × −2) = **15**",
+                "Luas = 15(60 − 30) = **450 m²**"
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-pagar-taman",
+              "question": "Pagar 60 m dipakai untuk tiga sisi taman (sisi keempat dinding). Luas terbesar yang dapat dibuat adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "450 m²",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "900 m²"
+                },
+                {
+                  "id": "c",
+                  "text": "300 m²"
+                }
+              ],
+              "explanation": "L(x) = x(60 − 2x) = −2x² + 60x. Puncak di x = 15, sehingga L = 15 × 30 = 450 m²."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Soal \"kapan\" bukan \"berapa\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Bila soal menanyakan **waktu** benda menyentuh tanah, jangan cari puncak — cari akar dengan membuat h(t) = 0. Puncak menjawab **berapa tinggi maksimum**, akar menjawab **kapan menyentuh tanah**."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Tiga Contoh Nyata",
           "duration": 240,
           "source_reference": "Modul Ajar MA 6.3 — Penerapan",
-          "content": "## Latihan bertahap\n\n**1. Dua bilangan berjumlah 20.**\nHasil kali P = x(20 − x) = −x² + 20x. Puncak di x = 10, hasil kali **100**.\n\n**2. Laba L(x) = −2x² + 40x − 100.**\nx = 10 dan L(10) = −200 + 400 − 100 = **100** ribu rupiah.\n\n**3. Bola h(t) = −5t² + 20t.**\n- Tinggi maksimum: t = 2 → h = **20 m**\n- Menyentuh tanah: −5t(t − 4) = 0 → t = **4 detik**\n\nPerhatikan bedanya: pertanyaan tinggi memakai puncak, pertanyaan waktu mendarat memakai akar.\n\n### Uji dirimu\n\nSebuah toko menjual 20 barang seharga Rp50.000. Setiap penurunan Rp1.000 menambah 1 barang terjual. Berapa pendapatan maksimumnya?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nR = (50 − x)(20 + x) ribu = −x² + 30x + 1.000.\nPuncak di x = 15, sehingga harga Rp35.000 dan terjual 35 barang.\nPendapatan = 35 × 35 = **Rp1.225.000**.\n\n</details>"
+          "content": "## Latihan bertahap\n\n**1. Dua bilangan berjumlah 20.**\nHasil kali P = x(20 − x) = −x² + 20x. Puncak di x = 10, hasil kali **100**.\n\n**2. Laba L(x) = −2x² + 40x − 100.**\nx = 10 dan L(10) = −200 + 400 − 100 = **100** ribu rupiah.\n\n**3. Bola h(t) = −5t² + 20t.**\n- Tinggi maksimum: t = 2 → h = **20 m**\n- Menyentuh tanah: −5t(t − 4) = 0 → t = **4 detik**\n\nPerhatikan bedanya: pertanyaan tinggi memakai puncak, pertanyaan waktu mendarat memakai akar.\n\n### Uji dirimu\n\nSebuah toko menjual 20 barang seharga Rp50.000. Setiap penurunan Rp1.000 menambah 1 barang terjual. Berapa pendapatan maksimumnya?\n\n<details>\n<summary>Lihat jawaban</summary>\n\nR = (50 − x)(20 + x) ribu = −x² + 30x + 1.000.\nPuncak di x = 15, sehingga harga Rp35.000 dan terjual 35 barang.\nPendapatan = 35 × 35 = **Rp1.225.000**.\n\n</details>",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Latihan bertahap"
+            },
+            {
+              "type": "paragraph",
+              "text": "**1. Dua bilangan berjumlah 20.** Hasil kali P = x(20 − x) = −x² + 20x. Puncak di x = 10, hasil kali **100**."
+            },
+            {
+              "type": "paragraph",
+              "text": "**2. Laba L(x) = −2x² + 40x − 100.** x = 10 dan L(10) = −200 + 400 − 100 = **100** ribu rupiah."
+            },
+            {
+              "type": "paragraph",
+              "text": "**3. Bola h(t) = −5t² + 20t.**"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Tinggi maksimum: t = 2 → h = **20 m**",
+                "Menyentuh tanah: −5t(t − 4) = 0 → t = **4 detik**"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Perhatikan bedanya: pertanyaan tinggi memakai puncak, pertanyaan waktu mendarat memakai akar."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Uji dirimu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebuah toko menjual 20 barang seharga Rp50.000. Setiap penurunan Rp1.000 menambah 1 barang terjual. Berapa pendapatan maksimumnya?"
+            },
+            {
+              "type": "paragraph",
+              "text": "<details> <summary>Lihat jawaban</summary>"
+            },
+            {
+              "type": "paragraph",
+              "text": "R = (50 − x)(20 + x) ribu = −x² + 30x + 1.000. Puncak di x = 15, sehingga harga Rp35.000 dan terjual 35 barang. Pendapatan = 35 × 35 = **Rp1.225.000**."
+            },
+            {
+              "type": "paragraph",
+              "text": "</details>"
+            },
+            {
+              "type": "challenge",
+              "id": "ch-kuadrat-terapan",
+              "title": "Tantangan Kilat: Soal Terapan",
+              "time_limit": 100,
+              "items": [
+                {
+                  "question": "Dua bilangan berjumlah 20. Hasil kali maksimumnya …",
+                  "answer": "100"
+                },
+                {
+                  "question": "L(x) = −2x² + 40x − 100. Puncak di x = …",
+                  "answer": "10"
+                },
+                {
+                  "question": "Laba maksimum L(10) = … ribu rupiah",
+                  "answer": "100"
+                },
+                {
+                  "question": "h(t) = −5t² + 20t. Tinggi maksimum … m",
+                  "answer": "20"
+                },
+                {
+                  "question": "h(t) = −5t² + 20t. Bola menyentuh tanah pada t = … detik",
+                  "answer": "4"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — puncak untuk \"berapa\", akar untuk \"kapan\".",
+                "wrong": "Pertanyaan tinggi memakai puncak; pertanyaan waktu mendarat memakai akar h(t) = 0."
+              }
+            }
+          ]
         }
       ],
       "assessments": [

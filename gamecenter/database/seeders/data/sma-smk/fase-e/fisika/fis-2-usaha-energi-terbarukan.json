@@ -27,21 +27,481 @@
           "title": "Usaha dan Bentuk Energi",
           "duration": 240,
           "source_reference": "Bab VII — Energi",
-          "content": "## Usaha\n\n> **W = F × s × cos θ**\n\nUsaha terjadi bila gaya menyebabkan **perpindahan**.\n\n| Situasi | Usaha |\n|---|---|\n| gaya searah perpindahan | positif (F × s) |\n| gaya tegak lurus | nol (cos 90° = 0) |\n| gaya berlawanan arah | negatif |\n\nContoh: 20 N menggeser benda 3 m → W = 60 J.\n\n## Bentuk-bentuk energi\n\n| Bentuk | Rumus |\n|---|---|\n| Kinetik | Ek = ½mv² |\n| Potensial gravitasi | Ep = mgh |\n| Kalor, kimia, listrik, bunyi, cahaya | bergantung konteks |\n\n## Daya\n\n> **P = W ÷ t** (satuan watt)\n\nUsaha 60 J dalam 5 sekon → daya 12 W.\n\n## Konversi energi\n\nEnergi tidak hilang, hanya **berubah bentuk**. Kincir air mengubah energi kinetik air menjadi gerak putar; bola jatuh mengubah energi potensial menjadi kinetik."
+          "content": "## Usaha\n\n> **W = F × s × cos θ**\n\nUsaha terjadi bila gaya menyebabkan **perpindahan**.\n\n| Situasi | Usaha |\n|---|---|\n| gaya searah perpindahan | positif (F × s) |\n| gaya tegak lurus | nol (cos 90° = 0) |\n| gaya berlawanan arah | negatif |\n\nContoh: 20 N menggeser benda 3 m → W = 60 J.\n\n## Bentuk-bentuk energi\n\n| Bentuk | Rumus |\n|---|---|\n| Kinetik | Ek = ½mv² |\n| Potensial gravitasi | Ep = mgh |\n| Kalor, kimia, listrik, bunyi, cahaya | bergantung konteks |\n\n## Daya\n\n> **P = W ÷ t** (satuan watt)\n\nUsaha 60 J dalam 5 sekon → daya 12 W.\n\n## Konversi energi\n\nEnergi tidak hilang, hanya **berubah bentuk**. Kincir air mengubah energi kinetik air menjadi gerak putar; bola jatuh mengubah energi potensial menjadi kinetik.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Usaha",
+                  "definition": "Hasil kali gaya dengan perpindahan searah gaya, W = F × s × cos θ."
+                },
+                {
+                  "term": "Daya",
+                  "definition": "Usaha yang dilakukan per satuan waktu, P = W ÷ t, satuannya watt."
+                },
+                {
+                  "term": "Energi kinetik",
+                  "definition": "Energi yang dimiliki benda karena bergerak, Ek = ½mv²."
+                },
+                {
+                  "term": "Energi potensial",
+                  "definition": "Energi yang dimiliki benda karena posisinya, Ep = mgh."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Usaha"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**W = F × s × cos θ**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Usaha terjadi bila gaya menyebabkan **perpindahan**."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Situasi",
+                  "Usaha"
+                ],
+                [
+                  "gaya searah perpindahan",
+                  "positif (F × s)"
+                ],
+                [
+                  "gaya tegak lurus",
+                  "nol (cos 90° = 0)"
+                ],
+                [
+                  "gaya berlawanan arah",
+                  "negatif"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: 20 N menggeser benda 3 m → W = 60 J."
+            },
+            {
+              "type": "chart",
+              "id": "ch-usaha-sudut",
+              "kind": "bar",
+              "title": "Faktor cos θ pada usaha",
+              "desc": "Grafik batang: cos 0 derajat = 1, cos 60 derajat = 0,5, cos 90 derajat = 0, sehingga usaha menjadi nol saat gaya tegak lurus perpindahan.",
+              "data": [
+                {
+                  "label": "0°",
+                  "value": 1
+                },
+                {
+                  "label": "30°",
+                  "value": 0.87
+                },
+                {
+                  "label": "60°",
+                  "value": 0.5
+                },
+                {
+                  "label": "90°",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-usaha-tegak-lurus",
+              "question": "Seseorang membawa tas dengan tangan lurus ke bawah sambil berjalan mendatar. Usaha oleh gaya angkat tangan terhadap tas adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Nol, karena gaya tegak lurus perpindahan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "Positif sebesar m × g × s"
+                },
+                {
+                  "id": "c",
+                  "text": "Negatif karena tas berayun"
+                }
+              ],
+              "explanation": "Usaha W = F × s × cos θ. Gaya angkat ke atas tegak lurus perpindahan mendatar, sehingga cos 90° = 0 dan usahanya nol."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bentuk-bentuk energi"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bentuk",
+                  "Rumus"
+                ],
+                [
+                  "Kinetik",
+                  "Ek = ½mv²"
+                ],
+                [
+                  "Potensial gravitasi",
+                  "Ep = mgh"
+                ],
+                [
+                  "Kalor, kimia, listrik, bunyi, cahaya",
+                  "bergantung konteks"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Daya"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**P = W ÷ t** (satuan watt)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Usaha 60 J dalam 5 sekon → daya 12 W."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Konversi energi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Energi tidak hilang, hanya **berubah bentuk**. Kincir air mengubah energi kinetik air menjadi gerak putar; bola jatuh mengubah energi potensial menjadi kinetik."
+            }
+          ]
         },
         {
           "type": "text",
           "title": "Hukum Kekekalan Energi Mekanik",
           "duration": 360,
           "source_reference": "Bab VII — Energi Mekanik",
-          "content": "## Energi mekanik\n\n> **Em = Ep + Ek**\n\n**Hukum Kekekalan Energi Mekanik** berlaku bila **tidak ada gesekan** atau gaya luar lain:\n\n> Ep₁ + Ek₁ = Ep₂ + Ek₂\n\nArtinya jumlahnya **tetap**; hanya bentuknya yang bertukar.\n\n### Contoh\n\nBola dilepas dari ketinggian 5 m (g = 10 m/s²):\n\n- di atas: Ep = mgh, Ek = 0\n- di tanah: Ep = 0, Ek = ½mv²\n\nmgh = ½mv² → v = √(2gh) = √100 = **10 m/s**\n\n### Sifat penting\n\n| Perubahan | Akibat pada energi |\n|---|---|\n| h menjadi 2h | Ep menjadi 2 kali |\n| v menjadi 2v | Ek menjadi 4 kali |\n\n### Bila ada gesekan\n\nSebagian energi mekanik berubah menjadi **kalor**, sehingga energi mekanik berkurang. Usaha gaya gesek bernilai negatif.\n\nContoh: dorongan 40 J melawan gesekan 40 J → usaha total **0 J**."
+          "content": "## Energi mekanik\n\n> **Em = Ep + Ek**\n\n**Hukum Kekekalan Energi Mekanik** berlaku bila **tidak ada gesekan** atau gaya luar lain:\n\n> Ep₁ + Ek₁ = Ep₂ + Ek₂\n\nArtinya jumlahnya **tetap**; hanya bentuknya yang bertukar.\n\n### Contoh\n\nBola dilepas dari ketinggian 5 m (g = 10 m/s²):\n\n- di atas: Ep = mgh, Ek = 0\n- di tanah: Ep = 0, Ek = ½mv²\n\nmgh = ½mv² → v = √(2gh) = √100 = **10 m/s**\n\n### Sifat penting\n\n| Perubahan | Akibat pada energi |\n|---|---|\n| h menjadi 2h | Ep menjadi 2 kali |\n| v menjadi 2v | Ek menjadi 4 kali |\n\n### Bila ada gesekan\n\nSebagian energi mekanik berubah menjadi **kalor**, sehingga energi mekanik berkurang. Usaha gaya gesek bernilai negatif.\n\nContoh: dorongan 40 J melawan gesekan 40 J → usaha total **0 J**.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Energi mekanik"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "**Em = Ep + Ek**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Hukum Kekekalan Energi Mekanik** berlaku bila **tidak ada gesekan** atau gaya luar lain:"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Ep₁ + Ek₁ = Ep₂ + Ek₂"
+            },
+            {
+              "type": "paragraph",
+              "text": "Artinya jumlahnya **tetap**; hanya bentuknya yang bertukar."
+            },
+            {
+              "type": "sort",
+              "id": "srt-kekekalan-energi",
+              "prompt": "Urutkan langkah menyelesaikan soal kekekalan energi mekanik.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Tentukan titik awal dan titik akhir lintasan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Tulis Ep + Ek di kedua titik"
+                },
+                {
+                  "id": "s3",
+                  "text": "Samakan jumlah energi di kedua titik (tanpa gesekan)"
+                },
+                {
+                  "id": "s4",
+                  "text": "Selesaikan persamaan untuk besaran yang ditanya"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+              ],
+              "feedback": {
+                "correct": "Urutan benar: pilih titik, tulis energi, samakan, lalu hitung.",
+                "wrong": "Mulai dengan menentukan dua titik, baru menuliskan Ep dan Ek pada masing-masing."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Contoh"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bola dilepas dari ketinggian 5 m (g = 10 m/s²):"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "di atas: Ep = mgh, Ek = 0",
+                "di tanah: Ep = 0, Ek = ½mv²"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "mgh = ½mv² → v = √(2gh) = √100 = **10 m/s**"
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-jatuh-bebas",
+              "question": "Bola dilepas dari ketinggian 5 m tanpa gesekan (g = 10 m/s²). Kecepatannya saat menyentuh tanah adalah…",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "10 m/s",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "5 m/s"
+                },
+                {
+                  "id": "c",
+                  "text": "50 m/s"
+                }
+              ],
+              "explanation": "mgh = ½mv² sehingga v = √(2gh) = √(2 × 10 × 5) = √100 = 10 m/s. Massa tidak memengaruhi hasil."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sifat penting"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Perubahan",
+                  "Akibat pada energi"
+                ],
+                [
+                  "h menjadi 2h",
+                  "Ep menjadi 2 kali"
+                ],
+                [
+                  "v menjadi 2v",
+                  "Ek menjadi 4 kali"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Bila ada gesekan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebagian energi mekanik berubah menjadi **kalor**, sehingga energi mekanik berkurang. Usaha gaya gesek bernilai negatif."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh: dorongan 40 J melawan gesekan 40 J → usaha total **0 J**."
+            }
+          ]
         },
         {
           "type": "interactive",
           "title": "Energi Terbarukan dan Prototipe",
           "duration": 240,
           "source_reference": "Bab VII — Energi Terbarukan",
-          "content": "## Sumber energi\n\n| Terbarukan | Tidak terbarukan |\n|---|---|\n| matahari, angin, air, panas bumi, biomassa | batu bara, minyak bumi, gas alam |\n\n### Pembangkit di Indonesia\n\n- **PLTA** — air\n- **PLTB** — angin\n- **PLTS** — cahaya matahari\n- **PLTP** — panas bumi\n- **PLTU** — uap dari bahan bakar fosil\n\n### Kelebihan dan kekurangan\n\n| Sumber | Kelebihan | Kekurangan |\n|---|---|---|\n| Angin | tanpa emisi saat beroperasi | bergantung kondisi angin |\n| Surya | melimpah | perlu penyimpanan karena cuaca |\n| Fosil | pasokan stabil | terbatas dan beremisi |\n\n## Merancang prototipe\n\n1. Temukan masalah ketersediaan energi di lingkungan\n2. Temukan potensi sumber energi setempat\n3. Rancang alat atau prototipe\n4. Buat, uji, lalu **perbaiki** rancangan\n\nPenghematan energi penting karena sumber fosil terbatas dan menghasilkan emisi."
+          "content": "## Sumber energi\n\n| Terbarukan | Tidak terbarukan |\n|---|---|\n| matahari, angin, air, panas bumi, biomassa | batu bara, minyak bumi, gas alam |\n\n### Pembangkit di Indonesia\n\n- **PLTA** — air\n- **PLTB** — angin\n- **PLTS** — cahaya matahari\n- **PLTP** — panas bumi\n- **PLTU** — uap dari bahan bakar fosil\n\n### Kelebihan dan kekurangan\n\n| Sumber | Kelebihan | Kekurangan |\n|---|---|---|\n| Angin | tanpa emisi saat beroperasi | bergantung kondisi angin |\n| Surya | melimpah | perlu penyimpanan karena cuaca |\n| Fosil | pasokan stabil | terbatas dan beremisi |\n\n## Merancang prototipe\n\n1. Temukan masalah ketersediaan energi di lingkungan\n2. Temukan potensi sumber energi setempat\n3. Rancang alat atau prototipe\n4. Buat, uji, lalu **perbaiki** rancangan\n\nPenghematan energi penting karena sumber fosil terbatas dan menghasilkan emisi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sumber energi"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Terbarukan",
+                  "Tidak terbarukan"
+                ],
+                [
+                  "matahari, angin, air, panas bumi, biomassa",
+                  "batu bara, minyak bumi, gas alam"
+                ]
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-energi-sumber",
+              "prompt": "Kelompokkan sumber energi berikut.",
+              "buckets": [
+                {
+                  "id": "terbarukan",
+                  "label": "Terbarukan"
+                },
+                {
+                  "id": "fosil",
+                  "label": "Tidak terbarukan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "c1",
+                  "text": "Panas bumi",
+                  "bucket": "terbarukan"
+                },
+                {
+                  "id": "c2",
+                  "text": "Batu bara",
+                  "bucket": "fosil"
+                },
+                {
+                  "id": "c3",
+                  "text": "Angin",
+                  "bucket": "terbarukan"
+                },
+                {
+                  "id": "c4",
+                  "text": "Minyak bumi",
+                  "bucket": "fosil"
+                },
+                {
+                  "id": "c5",
+                  "text": "Biomassa",
+                  "bucket": "terbarukan"
+                },
+                {
+                  "id": "c6",
+                  "text": "Gas alam",
+                  "bucket": "fosil"
+                }
+              ],
+              "feedback": {
+                "correct": "Benar — sumber terbarukan dapat pulih, fosil terbatas dan beremisi.",
+                "wrong": "Sumber terbarukan terus tersedia (matahari, angin, air, panas bumi, biomassa)."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Pembangkit di Indonesia"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "**PLTA** — air",
+                "**PLTB** — angin",
+                "**PLTS** — cahaya matahari",
+                "**PLTP** — panas bumi",
+                "**PLTU** — uap dari bahan bakar fosil"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kelebihan dan kekurangan"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Sumber",
+                  "Kelebihan",
+                  "Kekurangan"
+                ],
+                [
+                  "Angin",
+                  "tanpa emisi saat beroperasi",
+                  "bergantung kondisi angin"
+                ],
+                [
+                  "Surya",
+                  "melimpah",
+                  "perlu penyimpanan karena cuaca"
+                ],
+                [
+                  "Fosil",
+                  "pasokan stabil",
+                  "terbatas dan beremisi"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Merancang prototipe"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Temukan masalah ketersediaan energi di lingkungan",
+                "Temukan potensi sumber energi setempat",
+                "Rancang alat atau prototipe",
+                "Buat, uji, lalu **perbaiki** rancangan"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Penghematan energi penting karena sumber fosil terbatas dan menghasilkan emisi."
+            },
+            {
+              "type": "challenge",
+              "id": "ch-energi-cepat",
+              "title": "Tantangan Kilat: Usaha & Energi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Gaya 20 N menggeser benda 3 m searah. Usaha = … J",
+                  "answer": "60"
+                },
+                {
+                  "question": "Usaha 60 J dalam 5 sekon menghasilkan daya … W",
+                  "answer": "12"
+                },
+                {
+                  "question": "Pembangkit listrik tenaga air disingkat …",
+                  "answer": "plta"
+                },
+                {
+                  "question": "Energi kinetik berbanding … dengan kecepatan (tulis 'kuadrat' atau 'lurus')",
+                  "answer": "kuadrat"
+                },
+                {
+                  "question": "Gaya tegak lurus perpindahan menghasilkan usaha … J",
+                  "answer": "0"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat — rumus usaha, daya, dan konversi energi sudah dipakai benar.",
+                "wrong": "Ingat W = F·s·cos θ, P = W/t, dan Ek = ½mv² (kuadrat terhadap v)."
+              }
+            }
+          ]
         }
       ],
       "assessments": [
