@@ -12,7 +12,7 @@ Seluruh materi berasal dari buku ajar dan modul ajar **Kurikulum Merdeka**
 | | |
 |---|---|
 | Repo | <https://github.com/admin-smksgrl/gamecenter> |
-| Versi rilis | **0.34.0** ([changelog](gamecenter/changelog.md)) |
+| Versi rilis | **0.35.0** ([changelog](gamecenter/changelog.md)) |
 | Bahasa antarmuka | Indonesia |
 | Lisensi kode | MIT |
 
@@ -204,13 +204,13 @@ gamecenter/                 aplikasi Laravel
 ├── database/
 │   ├── migrations/         21 migrasi
 │   └── seeders/            jenjang, kelas, mapel, materi kurasi
-│       └── data/sma-smk/   54 berkas JSON bab (1.620 soal)
+│       └── data/sma-smk/   56 berkas JSON bab (1.680 soal)
 ├── resources/
 │   ├── css/                token tema (merah #e60012 + putih)
 │   ├── js/Pages/           Inertia pages (GameCenter, Guide, Membership, Auth)
 │   └── js/Components/      mesin game, toast, layout
 ├── routes/                 web.php, api.php
-├── tests/                  141 tes (Feature + Unit)
+├── tests/                  143 tes (Feature + Unit)
 └── public/sw.js            service worker PWA
 
 doc/                        rencana, laporan per fase, peta cakupan materi
@@ -228,10 +228,10 @@ artisan, serve.bat          pintasan menjalankan dari folder induk
 | Jenjang | 6 (PAUD, TK, SD-MI, SMP-MTs, SMA, SMK) |
 | Rombel | 18 |
 | Mata pelajaran | 182 |
-| Bab | 58 (54 kurasi SMA/SMK + 4 contoh) |
-| Materi | 172 |
-| Soal | 1.680 (mudah/sedang/sulit, 5 tipe soal interaktif) |
-| Asesmen | 174 |
+| Bab | 60 (56 kurasi SMA/SMK + 4 contoh) |
+| Materi | 178 |
+| Soal | 1.740 (mudah/sedang/sulit, 5 tipe soal interaktif) |
+| Asesmen | 180 |
 
 Jenjang **SD-MI** sudah punya rombel dan mapel tetapi belum punya bab; halaman
 menampilkan pemberitahuan bahwa materinya sedang disiapkan.
@@ -300,7 +300,7 @@ Satu warna untuk semua jenjang: **merah `#e60012` di atas putih**.
 
 ## 11. Kualitas & pengujian
 
-- **141 tes / 1.270 asersi** mencakup katalog, permainan, hasil, progres, auth,
+- **143 tes / 1.315 asersi** mencakup katalog, permainan, hasil, progres, auth,
   keanggotaan, impor materi, panel admin, dan perintah deploy-check.
 - **Importer** menolak berkas yang melanggar skema (jumlah materi/asesmen, soal
   per tingkat kesulitan, `explanation` kosong, `hint` pada soal sulit, simbol
@@ -330,7 +330,7 @@ Rincian: [doc/fase-5-implementasi.md](doc/fase-5-implementasi.md).
 | [doc/peta-cakupan-materi.md](doc/peta-cakupan-materi.md) | Peta cakupan 88 buku ajar / ±253 bab + urutan pengerjaan |
 | [doc/fase-4-implementasi.md](doc/fase-4-implementasi.md) | Tema, navigasi jenjang, dan keputusan desain |
 | [doc/fase-5-implementasi.md](doc/fase-5-implementasi.md) | Kesiapan deploy & gerbang rilis |
-| [gamecenter/changelog.md](gamecenter/changelog.md) | Riwayat rilis 0.1.0 → 0.34.0 |
+| [gamecenter/changelog.md](gamecenter/changelog.md) | Riwayat rilis 0.1.0 → 0.35.0 |
 | [gamecenter/README.md](gamecenter/README.md) | Catatan teknis aplikasi (skema, halaman, API) |
 
 ## 14. Peta jalan
@@ -340,12 +340,13 @@ Rincian: [doc/fase-5-implementasi.md](doc/fase-5-implementasi.md).
 - Mesin permainan 6 tipe soal, gamifikasi, progres, hasil, pembahasan.
 - Offline-first (IndexedDB + antrean sinkronisasi + PWA).
 - Keanggotaan, pusat bantuan, dashboard admin.
-- Materi SMA/SMK: 54 bab kurasi (Matematika, Informatika, Bahasa Indonesia, IPA,
-  Pancasila, PAI, Bahasa Inggris) = 1.620 soal.
+- Materi SMA/SMK: 56 bab kurasi (Matematika, Informatika, Bahasa Indonesia, IPA,
+  Pancasila, PAI, Bahasa Inggris, IPS) = 1.680 soal.
 - Navigasi jenjang Indonesia + satu tema merah/putih.
 
 **Berikutnya**
-1. Tahap 2 materi: IPS X (8 bab; Bahasa Inggris X sudah tuntas 6/6).
+1. Tahap 2 materi: sisa IPS X — bab Ekonomi dan Geografi (Sejarah dan
+   Sosiologi sudah tayang).
 2. Sisa Kelas X: PJOK, Prakarya, Sejarah, Kepercayaan, Projek IPAS; lalu mapel
    kejuruan SMK.
 3. Kelas XI (17 buku) dan XII (18 buku).

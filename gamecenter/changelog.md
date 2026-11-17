@@ -8,7 +8,38 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-18 04:15 WIB (rilis 0.34.0).
+**Terakhir diperbarui:** 2026-11-18 05:00 WIB (rilis 0.35.0).
+
+## [0.35.0] - 2026-11-18 05:00 WIB
+
+**Batch 12 — IPS X dimulai: 2 dari 4 bab (Sejarah dan Sosiologi).**
+
+### Ditambah
+- **IPS 1 Manusia, Ruang, dan Waktu** (kajian ilmu sejarah) — glosarium istilah
+  sejarah, diagram cara kerja ilmu sejarah, tabel kronologi/periodisasi/
+  anakronisme, diagram tiga dimensi sejarah, garis waktu Nusantara,
+  kelompokkan pertanyaan diakronik/sinkronik, glosarium sumber sejarah, tabel
+  jenis sumber, urutan lima langkah penelitian, skenario “Meneliti sejarah
+  sekolah”, dan tantangan istilah.
+- **IPS 2 Individu dan Masyarakat** (kajian sosiologi) — diagram dari individu
+  sampai masyarakat, tabel tokoh (Comte, Durkheim, Weber), tabel empat tipe
+  tindakan sosial, tabel bentuk interaksi asosiatif/disosiatif, kelompokkan
+  contoh interaksi, glosarium nilai–norma–lembaga, urutan penelitian sosial,
+  skenario “Konflik di kelas”, dan tantangan istilah sosiologi.
+- Kedua bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan
+  campuran pilihan ganda, jawaban ganda, menjodohkan, seret-lepas, dan susun
+  urutan; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- Mapel **IPS Kelas X** kini benar-benar terisi (2 bab, 6 materi, 60 soal).
+
+### Verifikasi
+- `gamecenter:materi-import` → 56 berkas, **0 gagal**; impor sungguhan
+  menambah **2 bab / 6 materi / 6 asesmen / 60 soal** (opsi jawaban 6.012).
+- `gamecenter:materi-coverage` → **57 dari 60 chapter** memenuhi minimum §5.3,
+  **2.165 blok**. IPS 1 (36 blok) dan IPS 2 (34 blok) lengkap.
+- `php artisan test` → **143 lulus, 1 dilewati, 1.315 asertion**; tes baru
+  menjaga kedua bab IPS memenuhi §5.3 dan halaman `/main/{asesmen}` IPS 1
+  menyajikan 3 materi serta 5 soal.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.34.0] - 2026-11-18 04:15 WIB
 

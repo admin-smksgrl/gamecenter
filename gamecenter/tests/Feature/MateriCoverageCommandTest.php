@@ -107,6 +107,58 @@ class MateriCoverageCommandTest extends TestCase
         }
     }
 
+    public function test_ips_chapters_meet_the_plan_minimums(): void
+    {
+        // Dua bab IPS X pertama (rilis 0.35.0): sejarah dan sosiologi. Bab
+        // ekonomi dan geografi menyusul, tetapi yang sudah ada tidak boleh
+        // kehilangan blok interaktif.
+        foreach (['IPS 1', 'IPS 2'] as $code) {
+            $row = $this->coverage($code)['chapters'][0];
+
+            $this->assertTrue(
+                $row['complete'],
+                "{$code} belum memenuhi §5.3: " . implode(', ', $row['missing']),
+            );
+            $this->assertSame(0, $row['hidden'], "{$code} menyembunyikan isi materi");
+            $this->assertGreaterThan(0, $row['theory'], "{$code} tidak punya blok teks");
+            $this->assertGreaterThanOrEqual(1, $row['visual'], "{$code} tidak punya blok visual");
+            $this->assertGreaterThanOrEqual(2, $row['activities'], "{$code} butuh dua blok aktivitas");
+            $this->assertGreaterThanOrEqual(1, $row['scenario'], "{$code} butuh skenario atau tantangan");
+            $this->assertGreaterThanOrEqual(1, $row['recall'], "{$code} butuh glossary atau flashcards");
+            $this->assertGreaterThanOrEqual(
+                $row['required_checkpoints'],
+                $row['checkpoints'],
+                "{$code} butuh {$row['required_checkpoints']} checkpoint",
+            );
+        }
+    }
+
+    public function test_ips_play_page_serves_three_materials_and_five_easy_questions(): void
+    {
+        $assessment = Assessment::query()
+            ->whereHas('chapter', fn ($query) => $query->where('code', 'IPS 1'))
+            ->where('difficulty', 'easy')
+            ->firstOrFail();
+
+        $response = $this->get("/main/{$assessment->id}");
+
+        $response->assertOk();
+        $response->assertInertia(function (AssertableInertia $page) {
+            $props = $page->toArray()['props'];
+
+            $this->assertSame('Manusia, Ruang, dan Waktu', $props['context']['chapter_title']);
+            $this->assertSame('ips', $props['context']['subject_slug'] ?? 'ips');
+            $this->assertCount(5, $props['questions']);
+            $this->assertCount(3, $props['materials']);
+
+            $first = $props['materials'][0];
+            $types = array_column($first['blocks'], 'type');
+
+            $this->assertContains('glossary', $types);
+            $this->assertContains('checkpoint', $types);
+        });
+    }
+
     public function test_eng_6_play_page_serves_material_blocks_and_questions(): void
     {
         $assessment = Assessment::query()
