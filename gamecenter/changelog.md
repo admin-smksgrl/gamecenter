@@ -8,7 +8,41 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-18 05:00 WIB (rilis 0.35.0).
+**Terakhir diperbarui:** 2026-11-18 06:05 WIB (rilis 0.36.0).
+
+## [0.36.0] - 2026-11-18 06:05 WIB
+
+**Batch 12 tuntas — buku IPS Kelas X 4/4 bab.**
+
+### Ditambah
+- **IPS 3 Manusia dan Upaya Pemenuhan Kebutuhan** (kajian ilmu ekonomi) —
+  glosarium istilah ekonomi, diagram tiga pertanyaan pokok ekonomi, tabel
+  kebutuhan vs keinginan, kelompokkan kebutuhan/keinginan, diagram alur
+  produksi–distribusi–konsumsi, tabel pelaku ekonomi, urutkan perjalanan beras,
+  diagram dan tabel permintaan–penawaran, grafik permintaan, kelompokkan bank
+  vs lembaga keuangan nonbank, skenario “Uang saku bulan ini”, dan tantangan
+  istilah.
+- **IPS 4 Manusia, Ruang, dan Lingkungan** (kajian geografi) — glosarium
+  objek dan aspek geografi, diagram tiga sudut pandang geografi, tabel konsep
+  geografi, kelompokkan aspek fisik/sosial, tabel komponen peta, alur kerja
+  SIG, grafik suhu menurut ketinggian, urutan langkah SIG, glosarium geosfer,
+  diagram hubungan antarsfera, tabel jenis bencana dan mitigasi, garis waktu
+  evakuasi gempa, kelompokkan mitigasi/adaptasi, skenario “Banjir di
+  kampungmu”, kartu lapisan geosfer, dan tantangan istilah.
+- Kedua bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan
+  campuran pilihan ganda, jawaban ganda, menjodohkan, seret-lepas, dan susun
+  urutan; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- **Buku IPS X kini lengkap 4/4 bab** (Sejarah, Sosiologi, Ekonomi, Geografi),
+  seluruhnya memenuhi minimum §5.3.
+
+### Verifikasi
+- `gamecenter:materi-import` → 58 berkas, **0 gagal**; impor sungguhan
+  menambah **4 bab / 12 materi / 12 asesmen / 120 soal** (opsi jawaban 6.224).
+- `gamecenter:materi-coverage` → **59 dari 62 chapter** memenuhi minimum §5.3,
+  **2.227 blok**. IPS 1–4: 36, 34, 32, dan 30 blok, semuanya ✅.
+- `php artisan test` → **143 lulus, 1 dilewati, 1.347 asertion**; tes impor
+  mengharapkan 58 bab dan 1.740 soal, tes cakupan memeriksa keempat bab IPS.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.35.0] - 2026-11-18 05:00 WIB
 

@@ -1,6 +1,6 @@
 # Peta Cakupan Materi — Semua Buku Ajar SMA/SMK
 
-**Diperbarui:** 18 November 2026 (rilis 0.35.0)
+**Diperbarui:** 18 November 2026 (rilis 0.36.0)
 **Prinsip:** **satu buku = seluruh bab**, tidak ada buku yang diambil sebagian.
 Setiap bab = 3+ materi + 30 soal (5 mudah / 10 sedang / 15 sulit).
 
@@ -19,7 +19,7 @@ Status hanya boleh ditandai ✅ bila **seluruh** bab dalam buku itu sudah diimpo
 | Buku yang daftar isinya belum terbaca otomatis | 23 |
 
 Perkiraan bila seluruh 253 bab dikerjakan: **253 chapter / 7.590 soal**.
-Saat ini **56 chapter / 1.680 soal** selesai (22 %).
+Saat ini **58 chapter / 1.740 soal** selesai (23 %).
 
 ---
 
@@ -34,7 +34,7 @@ Saat ini **56 chapter / 1.680 soal** selesai (22 %).
 | Pendidikan Pancasila | `Pendidikan-Pancasila-BG-KLS-X.pdf` | 4 | 4 | ✅ SELESAI |
 | PAI dan Budi Pekerti | `Islam-BG-KLS-X.pdf` | 10 | 10 | ✅ SELESAI |
 | Bahasa Inggris | `Bahasa-Inggris-BS-KLS-X.pdf` | 6 | 6 | ✅ SELESAI |
-| IPS (Sejarah/Geografi/Sosiologi/Ekonomi) | `IPS_BG_KLS_X_Rev.pdf` + 4 modul ajar IPS | 4 | 2 | 🟡 2/4 (Sejarah, Sosiologi) |
+| IPS (Sejarah/Geografi/Sosiologi/Ekonomi) | `IPS_BG_KLS_X_Rev.pdf` + 4 modul ajar IPS | 4 | 4 | ✅ tuntas |
 | PJOK | `PJOK-BG-KLS-X.pdf` | 8 | 0 | ⬜ belum |
 | Prakarya (4 aspek) | `Prakarya-*-BG-KLS-X.pdf` | 4 × 4 | 0 | ⬜ belum |
 | Sejarah | `Sejarah-BG-KLS-X.pdf` | ? | 0 | ⬜ daftar isi perlu dipetakan |
@@ -108,7 +108,7 @@ Setiap tahap menyelesaikan **buku utuh**, bukan sebagian bab.
 | 1c | IPA X | 1 buku (8 bab) | 8 | ✅ |
 | 1d | **Pancasila X + PAI X** | 2 buku (4 + 10 bab) | 14 | ✅ |
 | 2a | Bahasa Inggris X | 1 buku | 6 | ✅ |
-| 2b | **IPS X** | 1 buku + 4 modul (4 chapter) | 4 | 🟡 2/4 — **berikutnya: Ekonomi + Geografi** |
+| 2b | **IPS X** | 1 buku + 4 modul (4 chapter) | 4 | ✅ 4/4 selesai |
 | 3 | PJOK X + Prakarya X + Kepercayaan X + Projek IPAS | 7 buku | ±23 | ⬜ |
 | 4 | Sejarah X + SMK kejuruan (7 buku) | 8 buku | ±40 | ⬜ |
 | 5 | Kelas XI (17 buku) | 17 buku | ±60 | ⬜ |

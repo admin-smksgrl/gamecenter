@@ -109,10 +109,10 @@ class MateriCoverageCommandTest extends TestCase
 
     public function test_ips_chapters_meet_the_plan_minimums(): void
     {
-        // Dua bab IPS X pertama (rilis 0.35.0): sejarah dan sosiologi. Bab
-        // ekonomi dan geografi menyusul, tetapi yang sudah ada tidak boleh
-        // kehilangan blok interaktif.
-        foreach (['IPS 1', 'IPS 2'] as $code) {
+        // Empat bab IPS X (rilis 0.35.0 dan 0.36.0) selesai: sejarah,
+        // sosiologi, ekonomi, dan geografi. Tes menjaga minimum §5.3 tetap
+        // terpenuhi saat isi diperbarui.
+        foreach (['IPS 1', 'IPS 2', 'IPS 3', 'IPS 4'] as $code) {
             $row = $this->coverage($code)['chapters'][0];
 
             $this->assertTrue(

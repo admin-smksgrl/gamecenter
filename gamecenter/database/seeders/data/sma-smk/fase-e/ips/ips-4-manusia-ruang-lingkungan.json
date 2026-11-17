@@ -1,0 +1,1336 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "ips",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "IPS 4",
+      "title": "Manusia, Ruang, dan Lingkungan",
+      "description": "Mengenali geografi sebagai ilmu tentang ruang dan interaksi manusia dengan lingkungan, membaca peta serta penginderaan jauh dan SIG, dan menjelaskan fenomena geosfer beserta upaya mitigasi bencana.",
+      "learning_objectives": [
+        "Menjelaskan objek studi, pendekatan, konsep, dan prinsip geografi.",
+        "Membedakan aspek fisik dan aspek sosial dalam kajian geografi.",
+        "Membaca informasi pada peta serta memanfaatkan penginderaan jauh dan SIG.",
+        "Mengidentifikasi fenomena geosfer di lingkungan sekitar.",
+        "Menjelaskan upaya mitigasi bencana sederhana di lingkungan tempat tinggal."
+      ],
+      "estimated_minutes": 120,
+      "source_reference": "Modul Ajar IPS (Geografi) Fase E Kelas X — Manusia, Ruang dan Lingkungan; Panduan Guru IPS Kelas X Edisi Revisi 2023, Kajian Geografi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Geografi: Objek, Pendekatan, dan Konsep",
+          "duration": 240,
+          "source_reference": "Modul Ajar IPS (Geografi) — objek, pendekatan, konsep, dan prinsip geografi",
+          "content": "## Apa yang dikaji geografi?\n\nGeografi mempelajari ruang, yaitu tempat berbagai gejala alam dan kehidupan manusia saling berhubungan. Ketika hujan deras menyebabkan banjir di kota, geografi tidak hanya mencatat curah hujan. Geografi juga menanyakan bagaimana bentuk lahan, tata guna lahan, dan perilaku warga kota ikut menentukan besar kecilnya banjir.\n\n### Konsep dan prinsip geografi\n\n| Konsep | Inti | Contoh |\n|---|---|---|\n| Lokasi | Letak suatu tempat | Sekolah berada di Jalan Melati |\n| Jarak | Ruang antara dua tempat | Rumah ke sekolah 3 km |\n| Keterjangkauan | Mudah atau sulitnya suatu tempat dicapai | Desa terpencil sulit dijangkau saat hujan |\n| Pola | Susunan atau bentuk persebaran | Permukiman memanjang mengikuti jalan |\n| Agitasi | Keterkaitan gejala yang satu dengan yang lain | Kemiringan lahan berhubungan dengan erosi |\n\nPrinsip geografi membantu menjelaskan temuan. Prinsip persebaran melihat di mana gejala terjadi, prinsip interelasi melihat hubungan antargejala, prinsip deskripsi menjelaskan dengan kata dan gambar, dan prinsip korologi menggabungkan persebaran, hubungan, dan penjelasan dalam satu wilayah.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Geografi",
+                  "definition": "Ilmu yang mempelajari ruang permukaan bumi beserta kehidupan manusia di dalamnya."
+                },
+                {
+                  "term": "Objek material",
+                  "definition": "Sasaran kajian geografi, yaitu permukaan bumi dan seluruh gejala di atasnya."
+                },
+                {
+                  "term": "Objek formal",
+                  "definition": "Sudut pandang yang dipakai geografi, yaitu keruangan, kelingkungan, dan kewilayahan."
+                },
+                {
+                  "term": "Aspek fisik",
+                  "definition": "Gejala alam seperti iklim, bentuk lahan, tanah, air, dan tumbuhan."
+                },
+                {
+                  "term": "Aspek sosial",
+                  "definition": "Gejala manusia seperti penduduk, pemukiman, kegiatan ekonomi, dan budaya."
+                },
+                {
+                  "term": "Geosfer",
+                  "definition": "Lapisan bumi beserta seluruh gejala alam dan kehidupan di permukaannya."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Apa yang dikaji geografi?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Geografi mempelajari ruang, yaitu tempat berbagai gejala alam dan kehidupan manusia saling berhubungan. Ketika hujan deras menyebabkan banjir di kota, geografi tidak hanya mencatat curah hujan. Geografi juga menanyakan bagaimana bentuk lahan, tata guna lahan, dan perilaku warga kota ikut menentukan besar kecilnya banjir."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-ips4-objek",
+              "engine": "mermaid",
+              "title": "Tiga sudut pandang geografi",
+              "code": "flowchart TD\n  A[Objek formal geografi] --> B[Keruangan: di mana dan mengapa di sana]\n  A --> C[Kelingkungan: hubungan manusia dan alam]\n  A --> D[Kewilayahan: perbedaan antarwilayah]\n  B --> E[Contoh: sebaran permukiman]\n  C --> E\n  D --> E"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Konsep dan prinsip geografi"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Konsep",
+                  "Inti",
+                  "Contoh"
+                ],
+                [
+                  "Lokasi",
+                  "Letak suatu tempat",
+                  "Sekolah berada di Jalan Melati"
+                ],
+                [
+                  "Jarak",
+                  "Ruang antara dua tempat",
+                  "Rumah ke sekolah 3 km"
+                ],
+                [
+                  "Keterjangkauan",
+                  "Mudah atau sulitnya suatu tempat dicapai",
+                  "Desa terpencil sulit dijangkau saat hujan"
+                ],
+                [
+                  "Pola",
+                  "Susunan atau bentuk persebaran",
+                  "Permukiman memanjang mengikuti jalan"
+                ],
+                [
+                  "Agitasi",
+                  "Keterkaitan gejala yang satu dengan yang lain",
+                  "Kemiringan lahan berhubungan dengan erosi"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Prinsip geografi membantu menjelaskan temuan. Prinsip persebaran melihat di mana gejala terjadi, prinsip interelasi melihat hubungan antargejala, prinsip deskripsi menjelaskan dengan kata dan gambar, dan prinsip korologi menggabungkan persebaran, hubungan, dan penjelasan dalam satu wilayah."
+            },
+            {
+              "type": "categorize",
+              "id": "cat-ips4-aspek",
+              "prompt": "Kelompokkan setiap gejala sebagai aspek fisik atau aspek sosial.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Aspek fisik"
+                },
+                {
+                  "id": "b2",
+                  "label": "Aspek sosial"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Curah hujan tinggi pada bulan Desember",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Penduduk bermigrasi ke kota mencari kerja",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Kemiringan lereng di perbukitan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Pasar tradisional ramai setiap pagi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Jenis tanah vulkanik yang subur",
+                  "bucket": "b1"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Aspek fisik berasal dari alam, aspek sosial dari kegiatan manusia.",
+                "wrong": "Periksa apakah gejala itu terjadi tanpa campur tangan manusia atau karena kegiatan manusia."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-ips4-1",
+              "question": "Sudut pandang geografi yang menekankan hubungan manusia dan lingkungan disebut …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "kelingkungan",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "kewilayahan"
+                },
+                {
+                  "id": "c",
+                  "text": "keruangan"
+                },
+                {
+                  "id": "d",
+                  "text": "kesejarahan"
+                }
+              ],
+              "explanation": "Objek formal geografi mencakup keruangan, kelingkungan, dan kewilayahan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Peta, Penginderaan Jauh, dan SIG",
+          "duration": 240,
+          "source_reference": "Modul Ajar IPS (Geografi) — peta, penginderaan jauh, dan SIG",
+          "content": "## Membaca peta\n\nPeta adalah gambaran permukaan bumi pada bidang datar dengan skala tertentu. Peta membantu kita mengetahui letak, jarak, arah, dan luas suatu wilayah. Tanpa peta, perencanaan jalan, penataan permukiman, dan penanganan bencana akan berjalan tanpa arah.\n\n| Komponen peta | Fungsi |\n|---|---|\n| Judul | Menunjukkan isi peta |\n| Skala | Membandingkan jarak pada peta dengan jarak sebenarnya |\n| Legenda | Menjelaskan arti simbol pada peta |\n| Arah mata angin | Menunjukkan orientasi peta |\n| Sumber dan tahun | Menunjukkan asal dan waktu data |\n\nPeta berskala 1:100.000 berarti 1 cm pada peta mewakili 100.000 cm atau 1 km pada jarak sebenarnya. Jarak 4 cm pada peta itu sama dengan 4 km di lapangan.\n\n### Penginderaan jauh dan SIG\n\n- Penginderaan jauh merekam objek di permukaan bumi dari jarak jauh, misalnya dengan satelit atau drone.\n- Hasil penginderaan jauh berupa citra yang dapat menunjukkan tutupan lahan, hutan, dan permukiman.\n- SIG mengolah dan menganalisis data berlapis (peta, citra, data lapangan) menjadi informasi keruangan.\n- Manfaatnya antara lain pemantauan banjir, perencanaan tata ruang, dan pemetaan lahan pertanian.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membaca peta"
+            },
+            {
+              "type": "paragraph",
+              "text": "Peta adalah gambaran permukaan bumi pada bidang datar dengan skala tertentu. Peta membantu kita mengetahui letak, jarak, arah, dan luas suatu wilayah. Tanpa peta, perencanaan jalan, penataan permukiman, dan penanganan bencana akan berjalan tanpa arah."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Komponen peta",
+                  "Fungsi"
+                ],
+                [
+                  "Judul",
+                  "Menunjukkan isi peta"
+                ],
+                [
+                  "Skala",
+                  "Membandingkan jarak pada peta dengan jarak sebenarnya"
+                ],
+                [
+                  "Legenda",
+                  "Menjelaskan arti simbol pada peta"
+                ],
+                [
+                  "Arah mata angin",
+                  "Menunjukkan orientasi peta"
+                ],
+                [
+                  "Sumber dan tahun",
+                  "Menunjukkan asal dan waktu data"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Peta berskala 1:100.000 berarti 1 cm pada peta mewakili 100.000 cm atau 1 km pada jarak sebenarnya. Jarak 4 cm pada peta itu sama dengan 4 km di lapangan."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Penginderaan jauh dan SIG"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Penginderaan jauh merekam objek di permukaan bumi dari jarak jauh, misalnya dengan satelit atau drone.",
+                "Hasil penginderaan jauh berupa citra yang dapat menunjukkan tutupan lahan, hutan, dan permukiman.",
+                "SIG mengolah dan menganalisis data berlapis (peta, citra, data lapangan) menjadi informasi keruangan.",
+                "Manfaatnya antara lain pemantauan banjir, perencanaan tata ruang, dan pemetaan lahan pertanian."
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "dg-ips4-sig",
+              "engine": "mermaid",
+              "title": "Alur kerja SIG",
+              "code": "flowchart LR\n  A[Data lapangan] --> D[Masukan data]\n  B[Citra satelit] --> D\n  C[Peta tematik] --> D\n  D --> E[Pengolahan dan analisis]\n  E --> F[Keluaran: peta dan laporan]\n  F --> G[Keputusan perencanaan]"
+            },
+            {
+              "type": "chart",
+              "id": "ch-ips4-suhu",
+              "kind": "bar",
+              "title": "Suhu udara rata-rata menurut ketinggian tempat",
+              "caption": "Semakin tinggi tempat, semakin rendah suhu udaranya.",
+              "data": [
+                {
+                  "label": "0 m",
+                  "value": 26
+                },
+                {
+                  "label": "500 m",
+                  "value": 23
+                },
+                {
+                  "label": "1.000 m",
+                  "value": 20
+                },
+                {
+                  "label": "1.500 m",
+                  "value": 17
+                }
+              ]
+            },
+            {
+              "type": "sort",
+              "id": "srt-ips4-sig",
+              "prompt": "Urutkan langkah memanfaatkan SIG untuk memetakan daerah rawan banjir.",
+              "items": [
+                {
+                  "id": "s1",
+                  "text": "Mengumpulkan data curah hujan dan bentuk lahan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Memasukkan data ke dalam SIG"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menganalisis wilayah yang berpotensi tergenang"
+                },
+                {
+                  "id": "s4",
+                  "text": "Menyusun peta rawan banjir"
+                },
+                {
+                  "id": "s5",
+                  "text": "Menyampaikan hasil kepada warga dan pemerintah"
+                }
+              ],
+              "answer": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+              ],
+              "feedback": {
+                "correct": "Benar. Data, pemasukan, analisis, penyajian, lalu pemanfaatan.",
+                "wrong": "Mulailah dari pengumpulan data, akhiri dengan pemanfaatan hasil oleh warga."
+              }
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-ips4-2",
+              "question": "Komponen peta yang menjelaskan arti simbol disebut …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "legenda",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "skala"
+                },
+                {
+                  "id": "c",
+                  "text": "judul"
+                },
+                {
+                  "id": "d",
+                  "text": "sumber"
+                }
+              ],
+              "explanation": "Legenda menghubungkan simbol pada peta dengan maknanya."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Fenomena Geosfer dan Mitigasi Bencana",
+          "duration": 240,
+          "source_reference": "Modul Ajar IPS (Geografi) — fenomena geosfer dan mitigasi bencana",
+          "content": "## Empat lapisan yang saling berhubungan\n\nGeosfer terdiri atas litosfer, atmosfer, hidrosfer, dan antroposfer. Keempatnya saling memengaruhi. Penebangan hutan di lereng (antroposfer dan litosfer) membuat air hujan tidak tertahan, sehingga debit sungai naik dan banjir melanda permukiman di hilir (hidrosfer). Peristiwa itu menunjukkan bahwa masalah lingkungan jarang berdiri sendiri.\n\n| Jenis bencana | Penyebab utama | Mitigasi sederhana |\n|---|---|---|\n| Banjir | Curah hujan tinggi, drainase buruk, lahan tertutup bangunan | Membersihkan saluran air, membuat sumur resapan |\n| Tanah longsor | Lereng curam, tutupan vegetasi berkurang | Menanam pohon di lereng, tidak membangun di zona rawan |\n| Gempa bumi | Pergerakan lempeng bumi | Mengenali jalur evakuasi, memperkuat bangunan |\n| Kekeringan | Curah hujan rendah, air tanah berlebih dipakai | Memanen air hujan, menghemat pemakaian air |",
+          "blocks": [
+            {
+              "type": "glossary",
+              "terms": [
+                {
+                  "term": "Litosfer",
+                  "definition": "Lapisan batuan dan tanah pada permukaan bumi."
+                },
+                {
+                  "term": "Atmosfer",
+                  "definition": "Lapisan udara yang menyelimuti bumi dan mengatur cuaca serta iklim."
+                },
+                {
+                  "term": "Hidrosfer",
+                  "definition": "Seluruh perairan di bumi, termasuk laut, sungai, dan air tanah."
+                },
+                {
+                  "term": "Antroposfer",
+                  "definition": "Bagian geosfer yang berkaitan dengan kehidupan manusia."
+                },
+                {
+                  "term": "Mitigasi",
+                  "definition": "Upaya mengurangi risiko dan dampak bencana."
+                },
+                {
+                  "term": "Adaptasi",
+                  "definition": "Penyesuaian diri terhadap keadaan lingkungan yang berubah."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Empat lapisan yang saling berhubungan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Geosfer terdiri atas litosfer, atmosfer, hidrosfer, dan antroposfer. Keempatnya saling memengaruhi. Penebangan hutan di lereng (antroposfer dan litosfer) membuat air hujan tidak tertahan, sehingga debit sungai naik dan banjir melanda permukiman di hilir (hidrosfer). Peristiwa itu menunjukkan bahwa masalah lingkungan jarang berdiri sendiri."
+            },
+            {
+              "type": "diagram",
+              "id": "dg-ips4-geosfer",
+              "engine": "mermaid",
+              "title": "Hubungan antarsfera",
+              "code": "flowchart TD\n  A[Atmosfer: hujan lebat] --> B[Litosfer: lereng gundul]\n  B --> C[Hidrosfer: aliran permukaan meningkat]\n  C --> D[Antroposfer: permukiman tergenang]\n  D --> E[Mitigasi: reboisasi dan drainase]"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis bencana",
+                  "Penyebab utama",
+                  "Mitigasi sederhana"
+                ],
+                [
+                  "Banjir",
+                  "Curah hujan tinggi, drainase buruk, lahan tertutup bangunan",
+                  "Membersihkan saluran air, membuat sumur resapan"
+                ],
+                [
+                  "Tanah longsor",
+                  "Lereng curam, tutupan vegetasi berkurang",
+                  "Menanam pohon di lereng, tidak membangun di zona rawan"
+                ],
+                [
+                  "Gempa bumi",
+                  "Pergerakan lempeng bumi",
+                  "Mengenali jalur evakuasi, memperkuat bangunan"
+                ],
+                [
+                  "Kekeringan",
+                  "Curah hujan rendah, air tanah berlebih dipakai",
+                  "Memanen air hujan, menghemat pemakaian air"
+                ]
+              ]
+            },
+            {
+              "type": "timeline",
+              "id": "tl-ips4-evakuasi",
+              "title": "Urutan tindakan saat gempa di sekolah",
+              "items": [
+                {
+                  "when": "Saat guncangan",
+                  "title": "Berlindung di bawah meja dan lindungi kepala"
+                },
+                {
+                  "when": "Guncangan mereda",
+                  "title": "Keluar dengan tertib menuju titik kumpul"
+                },
+                {
+                  "when": "Di titik kumpul",
+                  "title": "Absensi untuk memastikan semua siswa hadir"
+                },
+                {
+                  "when": "Setelah aman",
+                  "title": "Ikuti arahan guru dan petugas, jangan kembali ke gedung"
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "cat-ips4-mitigasi",
+              "prompt": "Kelompokkan upaya berikut sebagai mitigasi atau adaptasi.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Mitigasi"
+                },
+                {
+                  "id": "b2",
+                  "label": "Adaptasi"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Menanam pohon di lereng yang gundul",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Mengubah jadwal tanam mengikuti musim hujan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Membuat saluran drainase yang lebih lebar",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Memilih varietas tanaman yang tahan kering",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Menyusun jalur evakuasi sekolah",
+                  "bucket": "b1"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Mitigasi mengurangi risiko, adaptasi menyesuaikan diri dengan keadaan.",
+                "wrong": "Tanyakan: apakah upaya itu mengurangi penyebab risiko atau menyesuaikan cara hidup?"
+              }
+            },
+            {
+              "type": "scenario",
+              "id": "sc-ips4-banjir",
+              "title": "Banjir di kampungmu",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Hujan deras tiga hari membuat air sungai meluap ke permukiman. Warga mulai panik. Apa langkah pertamamu?",
+                  "choices": [
+                    {
+                      "text": "Mengikuti arahan petugas dan membantu warga rentan mengungsi",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Menyelamatkan warga rentan adalah prioritas saat banjir."
+                    },
+                    {
+                      "text": "Merekam kejadian dari tepi sungai",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Mendekati sungai saat banjir membahayakan diri sendiri."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Air mulai surut. Warga ingin segera membersihkan rumah. Apa yang perlu dilakukan lebih dahulu?",
+                  "choices": [
+                    {
+                      "text": "Memeriksa keamanan listrik dan kebersihan air sebelum membersihkan rumah",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Sengatan listrik dan penyakit pascabanjir adalah risiko utama."
+                    },
+                    {
+                      "text": "Langsung membersihkan tanpa memeriksa apa pun",
+                      "next": "n5",
+                      "score": 0,
+                      "feedback": "Sambungan listrik yang terendam dapat menyebabkan kecelakaan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Kamu terperangkap di titik yang tergenang dan harus menunggu bantuan.",
+                  "choices": [
+                    {
+                      "text": "Menghubungi petugas dan naik ke tempat lebih tinggi",
+                      "next": "n4",
+                      "score": 1,
+                      "feedback": "Mencari tempat tinggi dan meminta bantuan adalah tindakan tepat."
+                    },
+                    {
+                      "text": "Berjalan menembus arus untuk pulang",
+                      "next": "n6",
+                      "score": 0,
+                      "feedback": "Arus banjir dapat menyeret orang dewasa sekalipun."
+                    }
+                  ]
+                },
+                {
+                  "id": "n4",
+                  "text": "Warga tertolong dan risiko pascabanjir berkurang.",
+                  "end": true,
+                  "outcome": "good"
+                },
+                {
+                  "id": "n5",
+                  "text": "Pembersihan berjalan, tetapi ada warga terluka karena listrik.",
+                  "end": true,
+                  "outcome": "neutral"
+                },
+                {
+                  "id": "n6",
+                  "text": "Kamu terbawa arus dan harus dievakuasi petugas.",
+                  "end": true,
+                  "outcome": "bad"
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "cp-ips4-3",
+              "question": "Upaya mengurangi risiko dan dampak bencana disebut …",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "mitigasi",
+                  "correct": true
+                },
+                {
+                  "id": "b",
+                  "text": "migrasi"
+                },
+                {
+                  "id": "c",
+                  "text": "agitasi"
+                },
+                {
+                  "id": "d",
+                  "text": "evaluasi"
+                }
+              ],
+              "explanation": "Mitigasi menurunkan risiko bencana, misalnya dengan reboisasi dan jalur evakuasi."
+            },
+            {
+              "type": "flashcards",
+              "id": "fc-ips4-sfera",
+              "title": "Kartu lapisan geosfer",
+              "cards": [
+                {
+                  "front": "Litosfer",
+                  "back": "Lapisan batuan dan tanah di permukaan bumi."
+                },
+                {
+                  "front": "Atmosfer",
+                  "back": "Lapisan udara yang mengatur cuaca dan iklim."
+                },
+                {
+                  "front": "Hidrosfer",
+                  "back": "Seluruh perairan bumi: laut, sungai, air tanah."
+                },
+                {
+                  "front": "Antroposfer",
+                  "back": "Bagian geosfer yang berkaitan dengan kehidupan manusia."
+                }
+              ]
+            },
+            {
+              "type": "challenge",
+              "id": "ch-ips4-istilah",
+              "title": "Kilat istilah geografi",
+              "time_limit": 75,
+              "feedback": {
+                "correct": "Tepat. Istilah ini dipakai sepanjang bab.",
+                "wrong": "Baca ulang Glossary dan hubungkan istilah dengan satu tempat di sekitar rumahmu."
+              },
+              "items": [
+                {
+                  "question": "Ilmu tentang ruang dan interaksi manusia dengan lingkungan",
+                  "answer": "geografi"
+                },
+                {
+                  "question": "Gambaran permukaan bumi pada bidang datar berskala",
+                  "answer": "peta"
+                },
+                {
+                  "question": "Perekaman objek dari jarak jauh dengan satelit atau drone",
+                  "answer": "penginderaan jauh"
+                },
+                {
+                  "question": "Sistem yang mengolah data berlapis menjadi informasi keruangan",
+                  "answer": "SIG"
+                },
+                {
+                  "question": "Upaya mengurangi risiko bencana",
+                  "answer": "mitigasi"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Manusia, Ruang, dan Lingkungan — Mudah",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ilmu yang mempelajari ruang permukaan bumi beserta kehidupan manusia di dalamnya adalah …",
+              "options": [
+                {
+                  "text": "geografi",
+                  "correct": true
+                },
+                {
+                  "text": "sosiologi"
+                },
+                {
+                  "text": "ekonomi"
+                },
+                {
+                  "text": "sejarah"
+                }
+              ],
+              "explanation": "Geografi mempelajari ruang dan interaksi manusia dengan lingkungannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gambaran permukaan bumi pada bidang datar dengan skala tertentu disebut …",
+              "options": [
+                {
+                  "text": "peta",
+                  "correct": true
+                },
+                {
+                  "text": "globe"
+                },
+                {
+                  "text": "denah"
+                },
+                {
+                  "text": "foto"
+                }
+              ],
+              "explanation": "Peta menyajikan permukaan bumi pada bidang datar dengan skala."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Komponen peta yang menjelaskan arti simbol adalah …",
+              "options": [
+                {
+                  "text": "legenda",
+                  "correct": true
+                },
+                {
+                  "text": "judul"
+                },
+                {
+                  "text": "skala"
+                },
+                {
+                  "text": "sumber"
+                }
+              ],
+              "explanation": "Legenda memuat arti simbol yang dipakai pada peta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lapisan udara yang menyelimuti bumi disebut …",
+              "options": [
+                {
+                  "text": "atmosfer",
+                  "correct": true
+                },
+                {
+                  "text": "litosfer"
+                },
+                {
+                  "text": "hidrosfer"
+                },
+                {
+                  "text": "antroposfer"
+                }
+              ],
+              "explanation": "Atmosfer adalah lapisan udara yang mengatur cuaca dan iklim."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Upaya mengurangi risiko dan dampak bencana disebut …",
+              "options": [
+                {
+                  "text": "mitigasi",
+                  "correct": true
+                },
+                {
+                  "text": "migrasi"
+                },
+                {
+                  "text": "adaptasi"
+                },
+                {
+                  "text": "evakuasi"
+                }
+              ],
+              "explanation": "Mitigasi adalah upaya mengurangi risiko bencana."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Manusia, Ruang, dan Lingkungan — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Objek formal geografi mencakup …",
+              "options": [
+                {
+                  "text": "keruangan, kelingkungan, dan kewilayahan",
+                  "correct": true
+                },
+                {
+                  "text": "flora dan fauna"
+                },
+                {
+                  "text": "batuan dan mineral"
+                },
+                {
+                  "text": "penduduk dan pemerintahan"
+                }
+              ],
+              "explanation": "Geografi melihat objek material dari sudut keruangan, kelingkungan, dan kewilayahan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Curah hujan dan jenis tanah termasuk aspek …",
+              "options": [
+                {
+                  "text": "fisik",
+                  "correct": true
+                },
+                {
+                  "text": "sosial"
+                },
+                {
+                  "text": "budaya"
+                },
+                {
+                  "text": "ekonomi"
+                }
+              ],
+              "explanation": "Aspek fisik mencakup gejala alam seperti iklim dan tanah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Konsep geografi yang membahas keterkaitan gejala satu dengan yang lain adalah …",
+              "options": [
+                {
+                  "text": "agitasi",
+                  "correct": true
+                },
+                {
+                  "text": "lokasi"
+                },
+                {
+                  "text": "jarak"
+                },
+                {
+                  "text": "pola"
+                }
+              ],
+              "explanation": "Konsep agitasi melihat keterkaitan antargejala."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peta berskala 1:100.000 berarti 1 cm pada peta sama dengan …",
+              "options": [
+                {
+                  "text": "1 km di lapangan",
+                  "correct": true
+                },
+                {
+                  "text": "100 m di lapangan"
+                },
+                {
+                  "text": "10 km di lapangan"
+                },
+                {
+                  "text": "1 m di lapangan"
+                }
+              ],
+              "explanation": "100.000 cm sama dengan 1 km."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perekaman objek permukaan bumi dari jarak jauh disebut …",
+              "options": [
+                {
+                  "text": "penginderaan jauh",
+                  "correct": true
+                },
+                {
+                  "text": "pengukuran langsung"
+                },
+                {
+                  "text": "wawancara"
+                },
+                {
+                  "text": "observasi kelas"
+                }
+              ],
+              "explanation": "Penginderaan jauh memakai satelit, pesawat, atau drone untuk merekam objek."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem yang mengolah data berlapis menjadi informasi keruangan disebut …",
+              "options": [
+                {
+                  "text": "SIG",
+                  "correct": true
+                },
+                {
+                  "text": "GPS"
+                },
+                {
+                  "text": "kompas"
+                },
+                {
+                  "text": "termometer"
+                }
+              ],
+              "explanation": "SIG (Sistem Informasi Geografis) mengolah dan menganalisis data keruangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu penyebab banjir di kota adalah …",
+              "options": [
+                {
+                  "text": "drainase buruk dan lahan tertutup bangunan",
+                  "correct": true
+                },
+                {
+                  "text": "banyaknya pohon di halaman"
+                },
+                {
+                  "text": "sumur resapan yang cukup"
+                },
+                {
+                  "text": "saluran air yang lebar"
+                }
+              ],
+              "explanation": "Drainase buruk dan permukaan yang tertutup beton menghambat air meresap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menanam pohon di lereng gundul merupakan upaya …",
+              "options": [
+                {
+                  "text": "mitigasi tanah longsor",
+                  "correct": true
+                },
+                {
+                  "text": "adaptasi kekeringan"
+                },
+                {
+                  "text": "evakuasi gempa"
+                },
+                {
+                  "text": "pemetaan wilayah"
+                }
+              ],
+              "explanation": "Akar pohon menahan tanah sehingga mengurangi risiko longsor."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk komponen peta? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Judul",
+                  "correct": true
+                },
+                {
+                  "text": "Skala",
+                  "correct": true
+                },
+                {
+                  "text": "Legenda",
+                  "correct": true
+                },
+                {
+                  "text": "Daftar hadir siswa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Judul, skala, dan legenda adalah komponen peta; daftar hadir bukan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur kerja SIG dari data sampai keputusan.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "Masukan data"
+                },
+                {
+                  "id": "o1",
+                  "text": "Pengolahan dan analisis"
+                },
+                {
+                  "id": "o2",
+                  "text": "Keluaran berupa peta"
+                },
+                {
+                  "id": "o3",
+                  "text": "Keputusan perencanaan"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "1",
+                  "o1": "2",
+                  "o2": "3",
+                  "o3": "4"
+                }
+              },
+              "explanation": "Data dimasukkan, dianalisis, disajikan, lalu dipakai untuk keputusan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Manusia, Ruang, dan Lingkungan — Sulit",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa banjir tidak dapat dijelaskan hanya dari curah hujan?",
+              "options": [
+                {
+                  "text": "Karena bentuk lahan, tutupan lahan, dan drainase juga menentukan besar aliran air",
+                  "correct": true
+                },
+                {
+                  "text": "Karena curah hujan tidak pernah tercatat"
+                },
+                {
+                  "text": "Karena banjir hanya disebabkan sampah"
+                },
+                {
+                  "text": "Karena banjir tidak berhubungan dengan ruang"
+                }
+              ],
+              "explanation": "Banjir adalah hasil interaksi beberapa gejala, bukan satu faktor tunggal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan mitigasi dan adaptasi adalah …",
+              "options": [
+                {
+                  "text": "mitigasi mengurangi risiko, adaptasi menyesuaikan diri dengan keadaan",
+                  "correct": true
+                },
+                {
+                  "text": "mitigasi dilakukan setelah bencana, adaptasi sebelum bencana"
+                },
+                {
+                  "text": "adaptasi hanya untuk gempa"
+                },
+                {
+                  "text": "keduanya sama saja"
+                }
+              ],
+              "explanation": "Mitigasi menurunkan risiko; adaptasi menyesuaikan cara hidup dengan keadaan lingkungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip geografi yang menggabungkan persebaran, hubungan, dan penjelasan dalam satu wilayah adalah …",
+              "options": [
+                {
+                  "text": "korologi",
+                  "correct": true
+                },
+                {
+                  "text": "deskripsi"
+                },
+                {
+                  "text": "persebaran"
+                },
+                {
+                  "text": "interelasi"
+                }
+              ],
+              "explanation": "Prinsip korologi memadukan kajian persebaran, interelasi, dan deskripsi pada suatu wilayah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa penginderaan jauh bermanfaat dalam penanganan bencana?",
+              "options": [
+                {
+                  "text": "Karena dapat merekam wilayah luas dengan cepat tanpa menyentuh lokasi",
+                  "correct": true
+                },
+                {
+                  "text": "Karena dapat menggantikan seluruh petugas di lapangan"
+                },
+                {
+                  "text": "Karena tidak membutuhkan data"
+                },
+                {
+                  "text": "Karena hanya dipakai di laboratorium"
+                }
+              ],
+              "explanation": "Citra satelit memberi gambaran cepat wilayah yang sulit dijangkau."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan antara penebangan hutan di lereng dan banjir di hilir menunjukkan …",
+              "options": [
+                {
+                  "text": "keterkaitan antarsfera dalam satu ruang",
+                  "correct": true
+                },
+                {
+                  "text": "bahwa geografi hanya mempelajari peta"
+                },
+                {
+                  "text": "bahwa bencana tidak dapat dikurangi"
+                },
+                {
+                  "text": "bahwa cuaca tidak berpengaruh"
+                }
+              ],
+              "explanation": "Perubahan pada litosfer dan antroposfer memengaruhi hidrosfer di wilayah lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa data lapangan tetap diperlukan meskipun sudah ada citra satelit?",
+              "options": [
+                {
+                  "text": "Karena citra perlu diperiksa kebenarannya dengan keadaan sebenarnya di lapangan",
+                  "correct": true
+                },
+                {
+                  "text": "Karena citra satelit selalu salah"
+                },
+                {
+                  "text": "Karena data lapangan lebih murah"
+                },
+                {
+                  "text": "Karena SIG tidak dapat mengolah citra"
+                }
+              ],
+              "explanation": "Data lapangan dipakai untuk verifikasi dan pelengkap analisis citra."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tindakan yang tepat saat gempa ketika berada di dalam kelas adalah …",
+              "options": [
+                {
+                  "text": "berlindung di bawah meja dan melindungi kepala, lalu keluar setelah guncangan mereda",
+                  "correct": true
+                },
+                {
+                  "text": "berlari keluar saat guncangan masih kuat"
+                },
+                {
+                  "text": "berdiri dekat jendela"
+                },
+                {
+                  "text": "menunggu tanpa mengikuti arahan guru"
+                }
+              ],
+              "explanation": "Melindungi kepala dan menghindari jendela mengurangi risiko cedera."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa sumur resapan membantu mengurangi banjir?",
+              "options": [
+                {
+                  "text": "Karena air hujan meresap ke dalam tanah, bukan langsung mengalir ke saluran",
+                  "correct": true
+                },
+                {
+                  "text": "Karena menambah jumlah air sungai"
+                },
+                {
+                  "text": "Karena mempercepat aliran permukaan"
+                },
+                {
+                  "text": "Karena menutup permukaan tanah"
+                }
+              ],
+              "explanation": "Sumur resapan memperbesar peresapan air sehingga aliran permukaan berkurang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suhu udara turun seiring bertambahnya ketinggian. Hal ini menunjukkan hubungan antara …",
+              "options": [
+                {
+                  "text": "atmosfer dan relief permukaan bumi",
+                  "correct": true
+                },
+                {
+                  "text": "hidrosfer dan penduduk"
+                },
+                {
+                  "text": "litosfer dan ekonomi"
+                },
+                {
+                  "text": "antroposfer dan peta"
+                }
+              ],
+              "explanation": "Ketinggian tempat memengaruhi suhu udara sebagai gejala atmosfer."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa akibat membangun permukiman di zona rawan longsor?",
+              "options": [
+                {
+                  "text": "Risiko korban dan kerugian meningkat saat hujan lebat",
+                  "correct": true
+                },
+                {
+                  "text": "Tanah menjadi lebih stabil"
+                },
+                {
+                  "text": "Longsor tidak mungkin terjadi"
+                },
+                {
+                  "text": "Curah hujan berkurang"
+                }
+              ],
+              "explanation": "Membangun di zona rawan memperbesar risiko bencana."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa peta rawan bencana penting bagi warga?",
+              "options": [
+                {
+                  "text": "Karena membantu warga mengetahui titik aman dan jalur evakuasi",
+                  "correct": true
+                },
+                {
+                  "text": "Karena menggantikan kebutuhan mitigasi"
+                },
+                {
+                  "text": "Karena memastikan bencana tidak terjadi"
+                },
+                {
+                  "text": "Karena hanya dibutuhkan pemerintah"
+                }
+              ],
+              "explanation": "Peta rawan bencana menjadi dasar kesiapsiagaan warga."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa peta rawan bencana perlu diperbarui secara berkala?",
+              "options": [
+                {
+                  "text": "Karena perubahan tata guna lahan dan jumlah penduduk mengubah tingkat risiko",
+                  "correct": true
+                },
+                {
+                  "text": "Karena peta lama selalu salah"
+                },
+                {
+                  "text": "Karena bencana tidak pernah berulang"
+                },
+                {
+                  "text": "Karena peta hanya dipakai sekali"
+                }
+              ],
+              "explanation": "Risiko berubah ketika permukiman, drainase, dan tutupan lahan berubah, sehingga peta perlu diperbarui."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah upaya mitigasi banjir? Pilih semua yang benar.",
+              "options": [
+                {
+                  "text": "Membersihkan saluran air",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat sumur resapan",
+                  "correct": true
+                },
+                {
+                  "text": "Menanam pohon di area resapan",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang sampah ke sungai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga hal pertama mengurangi aliran permukaan; membuang sampah memperparah banjir."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan lapisan geosfer dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "o0",
+                  "text": "litosfer"
+                },
+                {
+                  "id": "o1",
+                  "text": "atmosfer"
+                },
+                {
+                  "id": "o2",
+                  "text": "hidrosfer"
+                },
+                {
+                  "id": "o3",
+                  "text": "antroposfer"
+                }
+              ],
+              "correct": {
+                "map": {
+                  "o0": "lapisan batuan dan tanah",
+                  "o1": "lapisan udara yang mengatur cuaca",
+                  "o2": "seluruh perairan di bumi",
+                  "o3": "bagian geosfer yang berkaitan dengan kehidupan manusia"
+                }
+              },
+              "explanation": "Keempat lapisan itu saling memengaruhi dalam ruang."
+            },
+            {
+              "type": "puzzle",
+              "question": "Susun langkah penelitian geografi sederhana tentang banjir di lingkungan sekolah.",
+              "options": [
+                {
+                  "id": "s0",
+                  "text": "Menentukan masalah"
+                },
+                {
+                  "id": "s1",
+                  "text": "Mengumpulkan data lapangan"
+                },
+                {
+                  "id": "s2",
+                  "text": "Menganalisis data"
+                },
+                {
+                  "id": "s3",
+                  "text": "Menyimpulkan"
+                },
+                {
+                  "id": "s4",
+                  "text": "Menyusun laporan dan rekomendasi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "s0",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s4"
+                ]
+              },
+              "explanation": "Masalah, data, analisis, simpulan, lalu laporan berisi rekomendasi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

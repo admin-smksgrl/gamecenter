@@ -1,7 +1,7 @@
 # Rencana Materi Game — SMA & SMK
 
 **Disusun:** 16 November 2026
-**Status:** 🟡 Kelas X hampir tuntas: 56 chapter / 1.680 soal (Matematika 13, Informatika 8, Bahasa Indonesia 5, Bahasa Inggris 6, IPA 8, Pancasila 4, PAI 10, IPS 2 dari 4). Berikutnya: bab Ekonomi dan Geografi IPS, lalu sisa Kelas X dan Fase F.
+**Status:** 🟡 Kelas X hampir tuntas: 58 chapter / 1.740 soal (Matematika 13, Informatika 8, Bahasa Indonesia 5, Bahasa Inggris 6, IPA 8, Pancasila 4, PAI 10, IPS 4). Berikutnya: PJOK, Prakarya, Kepercayaan, Projek IPAS, lalu Fase F.
 **Cakupan:** Fase E (Kelas 10) dan Fase F (Kelas 11–12), jenjang SMA & SMK
 **Sumber data:** `data/kurmer/SMKSMA/` (BUKU AJAR, CP, ATP, KKTP, MAPEL, PROSEM, PROTA)
 
@@ -593,10 +593,9 @@ Bentuk satu berkas JSON (satu mapel):
    skenario dan tantangan).
 7. **Opsional:** tambahkan 1–2 soal `simulation` per chapter agar sesuai
    rencana §8.
-8. **IPS X** — buku IPS X punya **4 bab** yang sejalan dengan empat modul
-   ajar (Sejarah, Sosiologi, Ekonomi, Geografi). Bab 1 “Manusia, Ruang, dan
-   Waktu” dan Bab 2 “Individu dan Masyarakat” sudah tayang (rilis 0.35.0).
-   **Berikutnya:** bab Ekonomi (“Manusia dan Upaya Pemenuhan Kebutuhan”) dan
-   Geografi (“Manusia, Ruang, dan Lingkungan”).
+8. **IPS X tuntas 4/4** (rilis 0.35.0 dan 0.36.0): Manusia, Ruang, dan Waktu
+   (sejarah), Individu dan Masyarakat (sosiologi), Manusia dan Upaya
+   Pemenuhan Kebutuhan (ekonomi), serta Manusia, Ruang, dan Lingkungan
+   (geografi).
 9. **Lalu sisa Kelas X:** PJOK, Prakarya, Kepercayaan, Projek IPAS, mapel
-   kejuruan SMK; setelah itu Kelas XI dan XII.
+   kejuruan SMK; setelah itu mapel Fase F (Kelas XI–XII).
