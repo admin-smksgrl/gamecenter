@@ -1,0 +1,1288 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "kepercayaan",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "KEP 2",
+      "title": "Menumbuhkan Budi Pekerti Luhur dalam Diri",
+      "description": "Menghayati lima aspek budi pekerti pribadi—kedudukan, memandang, makan, berbicara, dan berjalan—serta menyeimbangkan kewajiban dan hak melalui kerja keras, ikhlas berbagi, dan berbakti.",
+      "learning_objectives": [
+        "Menghayati sikap jujur mencintai kebenaran sesuai kehendak Tuhan Yang Maha Esa.",
+        "Mengamalkan sikap bertanggung jawab terhadap kewajiban yang diemban serta santun, pemaaf, dan adi luhung.",
+        "Mengomunikasikan manfaat budi luhur pribadi dalam interaksi dengan keluarga, teman, dan masyarakat."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 2 Menumbuhkan Budi Pekerti Luhur Dalam Diri; CP Fase E Pendidikan Kepercayaan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Apa itu budi pekerti luhur?",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 2 Menumbuhkan Budi Pekerti Luhur Dalam Diri; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Kejujuran sebagai dasar semua sikap\n\nBudi pekerti luhur berarti sikap moral dan kelakuan baik dalam menjalani kehidupan. Ia tampak pada orang yang tepat janji, sopan, bertutur lembut, menghargai orang lain, serta jujur, adil, dan terpercaya.\n\nCiri pokok budi luhur di berbagai suku Nusantara adalah kejujuran, hati yang lurus, tulus, dan kebenaran. Sifat itu hadir dalam pikiran dan perasaan, ucapan, serta tampak pada tindakan.\n\nKejujuran bukan sekadar tidak berbohong. Ia adalah kesesuaian pikiran, ucapan, dan tindakan dengan sifat lurus serta tulus hati, yang didorong oleh kuasa jalan kebenaran.\n\nBudi luhur tidak cukup dipelajari dari ucapan; ia dipelajari dengan melakukan kebajikan setiap hari.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "kep-2-budi-pekerti-luhur-glosarium",
+              "terms": [
+                {
+                  "term": "Budi pekerti luhur",
+                  "definition": "Sikap moral dan kelakuan baik yang lahir dari kebenaran dan nilai kemanusiaan."
+                },
+                {
+                  "term": "Mawas diri",
+                  "definition": "Sikap meninjau dan menilai diri sendiri sebelum menilai orang lain."
+                },
+                {
+                  "term": "Hawa nafsu",
+                  "definition": "Dorongan keinginan diri yang cenderung mengarah pada keburukan bila dituruti."
+                },
+                {
+                  "term": "Kedudukan",
+                  "definition": "Posisi seseorang dalam lingkungan yang melekatkan kewajiban dan tanggung jawab."
+                },
+                {
+                  "term": "Kesantunan",
+                  "definition": "Sikap sopan dan menghargai orang lain melalui tutur kata serta perilaku."
+                },
+                {
+                  "term": "Integritas",
+                  "definition": "Kesesuaian antara pikiran, ucapan, dan tindakan dalam kebenaran."
+                },
+                {
+                  "term": "Proporsional",
+                  "definition": "Sesuai dengan bobot, porsi, dan tanggung jawab masing-masing."
+                },
+                {
+                  "term": "Kebajikan",
+                  "definition": "Perbuatan baik yang dilakukan dengan tulus tanpa pamrih."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kejujuran sebagai dasar semua sikap"
+            },
+            {
+              "type": "paragraph",
+              "text": "Budi pekerti luhur berarti sikap moral dan kelakuan baik dalam menjalani kehidupan. Ia tampak pada orang yang tepat janji, sopan, bertutur lembut, menghargai orang lain, serta jujur, adil, dan terpercaya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ciri pokok budi luhur di berbagai suku Nusantara adalah kejujuran, hati yang lurus, tulus, dan kebenaran. Sifat itu hadir dalam pikiran dan perasaan, ucapan, serta tampak pada tindakan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kejujuran bukan sekadar tidak berbohong. Ia adalah kesesuaian pikiran, ucapan, dan tindakan dengan sifat lurus serta tulus hati, yang didorong oleh kuasa jalan kebenaran."
+            },
+            {
+              "type": "diagram",
+              "id": "kep-2-budi-pekerti-luhur-diagram",
+              "engine": "mermaid",
+              "title": "Alur terjadinya perilaku berbudi luhur",
+              "code": "flowchart LR\n  A[Berpikir jujur] --> B[Berbicara benar]\n  B --> C[Bertindak benar]\n  C --> D[Kebiasaan budi luhur]\n  D --> E[Mendarah daging menjadi tabiat]\n  E --> A"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Budi luhur tidak cukup dipelajari dari ucapan; ia dipelajari dengan melakukan kebajikan setiap hari."
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-2-budi-pekerti-luhur-cp-1",
+              "question": "Alur terjadinya perilaku menurut buku adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "berpikir – berbicara – bertindak",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "bertindak – berpikir – berbicara"
+                },
+                {
+                  "id": "c2",
+                  "text": "berbicara – bertindak – berpikir"
+                },
+                {
+                  "id": "c3",
+                  "text": "berpikir – bertindak – berbicara"
+                }
+              ],
+              "explanation": "Perilaku berbudi luhur dimulai dari pikiran jujur, lalu ucapan, kemudian tindakan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Lima aspek budi pekerti pribadi",
+          "duration": 300,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 2 Menumbuhkan Budi Pekerti Luhur Dalam Diri; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Duduk, memandang, makan, berbicara, dan berjalan\n\nAspek pertama, sikap duduk dan kedudukan benar: tahu diri dalam mengambil tempat, peran, dan bagian. Kedudukan yang tinggi justru memikul kewajiban serta tanggung jawab yang lebih besar, bukan menuntut hak yang lebih banyak.\n\nAspek kedua, memandang dan dilihat: mata adalah jendela hidup, tetapi pandangan dapat tertipu nafsu. Peribahasa mengingatkan, “lalat di seberang terlihat jelas, gajah di depan mata tak terlihat”, karena nafsu meninggikan diri.\n\nAspek ketiga, makan dan nafkah: kecukupan gizi, pantangan, dan puasa melatih mengekang selera. Aspek keempat, berbicara dan mendengar: santun berarti bersamaan dengan martabat dan penghargaan, terbiasa dengan kata tolong, maaf, dan terima kasih.\n\nAspek kelima, berjalan dan berperilaku benar: bertindak dalam batas wajar menurut hukum, norma, dan aturan, tidak kurang dan tidak lebih dari kepatutan.\n\n| Aspek | Inti sikap | Contoh penerapan |\n|---|---|---|\n| Duduk dan kedudukan | Tahu diri dan memikul kewajiban | Tidak mengambil bagian melebihi kepatutan |\n| Memandang dan dilihat | Menahan pandangan merendahkan | Tidak menilai orang dari penampilan |\n| Makan dan nafkah | Sederhana dan halal | Tidak boros, berbagi kepada yang lemah |\n| Berbicara dan mendengar | Santun, terbuka, cerdas mendengar | Meminta maaf dan berterima kasih |\n| Berjalan dan berperilaku | Taat asas dan batas wajar | Mematuhi aturan sekolah dan lalu lintas |\n\n### Keseimbangan kewajiban dan hak\n\n- Kedudukan setiap orang sama di depan hukum, tetapi pembagian hak dan kewajiban bersifat proporsional sesuai bobot tanggung jawab.\n- Keseimbangan itu ibarat dua sisi dacing: memikul kewajiban dengan tulus membuat sisi hak tidak menjungkal ke atas.\n- Budi luhur menuntun kehati-hatian serta menahan diri terhadap wewenang dan hak, dengan mengutamakan kebenaran.\n- Wujudnya: rendah hati sambil menjaga martabat, mengejar kualitas sambil introspeksi, berprestasi sambil ikhlas berbagi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Duduk, memandang, makan, berbicara, dan berjalan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Aspek pertama, sikap duduk dan kedudukan benar: tahu diri dalam mengambil tempat, peran, dan bagian. Kedudukan yang tinggi justru memikul kewajiban serta tanggung jawab yang lebih besar, bukan menuntut hak yang lebih banyak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Aspek kedua, memandang dan dilihat: mata adalah jendela hidup, tetapi pandangan dapat tertipu nafsu. Peribahasa mengingatkan, “lalat di seberang terlihat jelas, gajah di depan mata tak terlihat”, karena nafsu meninggikan diri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Aspek ketiga, makan dan nafkah: kecukupan gizi, pantangan, dan puasa melatih mengekang selera. Aspek keempat, berbicara dan mendengar: santun berarti bersamaan dengan martabat dan penghargaan, terbiasa dengan kata tolong, maaf, dan terima kasih."
+            },
+            {
+              "type": "paragraph",
+              "text": "Aspek kelima, berjalan dan berperilaku benar: bertindak dalam batas wajar menurut hukum, norma, dan aturan, tidak kurang dan tidak lebih dari kepatutan."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspek",
+                  "Inti sikap",
+                  "Contoh penerapan"
+                ],
+                [
+                  "Duduk dan kedudukan",
+                  "Tahu diri dan memikul kewajiban",
+                  "Tidak mengambil bagian melebihi kepatutan"
+                ],
+                [
+                  "Memandang dan dilihat",
+                  "Menahan pandangan merendahkan",
+                  "Tidak menilai orang dari penampilan"
+                ],
+                [
+                  "Makan dan nafkah",
+                  "Sederhana dan halal",
+                  "Tidak boros, berbagi kepada yang lemah"
+                ],
+                [
+                  "Berbicara dan mendengar",
+                  "Santun, terbuka, cerdas mendengar",
+                  "Meminta maaf dan berterima kasih"
+                ],
+                [
+                  "Berjalan dan berperilaku",
+                  "Taat asas dan batas wajar",
+                  "Mematuhi aturan sekolah dan lalu lintas"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "kep-2-aspek",
+              "engine": "mermaid",
+              "title": "Lima aspek budi pekerti pribadi",
+              "code": "flowchart LR\n  A[Budi pekerti luhur] --> B[Duduk & kedudukan benar]\n  A --> C[Memandang & dilihat benar]\n  A --> D[Makan & nafkah benar]\n  A --> E[Berbicara & mendengar benar]\n  A --> F[Berjalan & berperilaku benar]\n  F --> G[Landasan hidup berbudi luhur]"
+            },
+            {
+              "type": "categorize",
+              "id": "kep-2-klasifikasi",
+              "prompt": "Kelompokkan perilaku berikut sesuai atau tidak sesuai budi pekerti luhur.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Sesuai budi luhur"
+                },
+                {
+                  "id": "b2",
+                  "label": "Tidak sesuai"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Meminta maaf setelah berbuat salah",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Mendengarkan pendapat teman sampai selesai",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Berbagi bekal kepada teman yang tidak membawa",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Mengambil bagian lebih banyak tanpa memikul tugas",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Menertawakan kekurangan fisik teman",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Mencontek saat ulangan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Mengembalikan uang kembalian yang berlebih",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Membuang makanan karena tidak suka",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Perilaku budi luhur berpangkal pada kejujuran dan penghargaan kepada sesama.",
+                "wrong": "Periksa lagi: perilaku yang merugikan orang lain dan melanggar kejujuran tidak sesuai budi luhur."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Keseimbangan kewajiban dan hak"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kedudukan setiap orang sama di depan hukum, tetapi pembagian hak dan kewajiban bersifat proporsional sesuai bobot tanggung jawab.",
+                "Keseimbangan itu ibarat dua sisi dacing: memikul kewajiban dengan tulus membuat sisi hak tidak menjungkal ke atas.",
+                "Budi luhur menuntun kehati-hatian serta menahan diri terhadap wewenang dan hak, dengan mengutamakan kebenaran.",
+                "Wujudnya: rendah hati sambil menjaga martabat, mengejar kualitas sambil introspeksi, berprestasi sambil ikhlas berbagi."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-2-budi-pekerti-luhur-cp-2",
+              "question": "Menurut buku, kedudukan yang tinggi berarti…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "memikul kewajiban dan tanggung jawab yang besar",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "berhak memperoleh bagian paling banyak"
+                },
+                {
+                  "id": "c2",
+                  "text": "bebas dari aturan yang berlaku"
+                },
+                {
+                  "id": "c3",
+                  "text": "tidak perlu memberi contoh"
+                }
+              ],
+              "explanation": "Kedudukan tinggi adalah amanah untuk memikul tugas yang lebih besar."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 2 Menumbuhkan Budi Pekerti Luhur Dalam Diri; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Kerja keras, ikhlas berbagi, dan berbakti\n\nTuhan menyediakan alam sebagai sumber penghidupan dan menganugerahkan akal budi. Bekerja keras adalah sikap untuk menghidupi diri secara mandiri sekaligus membekali diri mewujudkan budi luhur.\n\nPenghidupan apa pun bentuknya adalah karunia yang diperoleh melalui kerja keras. Cara bersyukur atasnya adalah berbagi kepada yang lemah: hemat, menabung, menyumbang korban bencana, dan menolong teman yang kesusahan.\n\nBerbakti tampak pada kepatuhan dan upaya meringankan beban orang tua, termasuk saat mereka sakit atau menua. Berbakti juga diberikan kepada guru, pembimbing rohani, dan pemimpin yang baik, serta diwujudkan lewat gotong royong di lingkungan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kerja keras, ikhlas berbagi, dan berbakti"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tuhan menyediakan alam sebagai sumber penghidupan dan menganugerahkan akal budi. Bekerja keras adalah sikap untuk menghidupi diri secara mandiri sekaligus membekali diri mewujudkan budi luhur."
+            },
+            {
+              "type": "paragraph",
+              "text": "Penghidupan apa pun bentuknya adalah karunia yang diperoleh melalui kerja keras. Cara bersyukur atasnya adalah berbagi kepada yang lemah: hemat, menabung, menyumbang korban bencana, dan menolong teman yang kesusahan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Berbakti tampak pada kepatuhan dan upaya meringankan beban orang tua, termasuk saat mereka sakit atau menua. Berbakti juga diberikan kepada guru, pembimbing rohani, dan pemimpin yang baik, serta diwujudkan lewat gotong royong di lingkungan."
+            },
+            {
+              "type": "scenario",
+              "id": "kep-2-skenario",
+              "title": "Uang kembalian yang berlebih",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu menerima uang kembalian Rp10.000 lebih dari seharusnya. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengembalikan kelebihan itu kepada penjual",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Mengembalikan hak orang lain adalah wujud kejujuran."
+                    },
+                    {
+                      "text": "Menyimpannya karena penjual tidak sadar",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Mengambil yang bukan hak termasuk perbuatan tercela."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Temanmu mengejek, “Ah, cuma sepuluh ribu.” Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Menjelaskan bahwa jumlah kecil tetap soal kejujuran",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kejujuran tidak diukur dari besar kecilnya nilai."
+                    },
+                    {
+                      "text": "Ikut menertawakan diri karena dianggap bodoh",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menyerah pada ejekan melemahkan integritas."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Kebiasaan mengambil yang bukan hak menjadi bibit ketidakpercayaan.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Kamu dipercaya karena konsisten jujur dalam hal kecil.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "kep-2-budi-pekerti-luhur-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan lima aspek budi pekerti pribadi.",
+                  "back": "Kedudukan, memandang, makan, berbicara, dan berjalan benar."
+                },
+                {
+                  "front": "Apa makna dacing dalam bab ini?",
+                  "back": "Keseimbangan proporsional antara kewajiban dan hak."
+                },
+                {
+                  "front": "Bagaimana cara bersyukur atas penghidupan?",
+                  "back": "Berbagi kepada yang lemah dan bekerja keras."
+                },
+                {
+                  "front": "Mengapa pandangan bisa menipu?",
+                  "back": "Karena nafsu meninggikan diri dan merendahkan orang lain."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-2-budi-pekerti-luhur-cp-3",
+              "question": "Tiga kata yang dibiasakan dalam berbicara santun adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "tolong, maaf, terima kasih",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "cepat, singkat, tegas"
+                },
+                {
+                  "id": "c2",
+                  "text": "keras, lantang, panjang"
+                },
+                {
+                  "id": "c3",
+                  "text": "diam, diam, diam"
+                }
+              ],
+              "explanation": "Kesantunan dibangun dari kebiasaan meminta tolong, memohon maaf, dan berterima kasih."
+            },
+            {
+              "type": "challenge",
+              "id": "kep-2-tantangan",
+              "title": "Tantangan istilah budi pekerti",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Perilaku baik yang tulus tanpa pamrih",
+                  "answer": "Kebajikan"
+                },
+                {
+                  "question": "Menilai diri sebelum menilai orang",
+                  "answer": "Mawas diri"
+                },
+                {
+                  "question": "Kesesuaian pikiran, ucapan, tindakan",
+                  "answer": "Integritas"
+                },
+                {
+                  "question": "Dorongan diri yang cenderung buruk",
+                  "answer": "Hawa nafsu"
+                },
+                {
+                  "question": "Sesuai bobot dan tanggung jawab",
+                  "answer": "Proporsional"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah budi pekerti terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Menumbuhkan Budi Pekerti Luhur dalam Diri — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Budi pekerti luhur berarti…",
+              "options": [
+                {
+                  "text": "sikap moral dan kelakuan baik dalam menjalani kehidupan",
+                  "correct": true
+                },
+                {
+                  "text": "kemampuan menghafal ajaran"
+                },
+                {
+                  "text": "kekayaan harta benda"
+                },
+                {
+                  "text": "kekuasaan atas orang lain"
+                }
+              ],
+              "explanation": "Budi pekerti luhur adalah sikap moral dan kelakuan baik.",
+              "hint": "Lahir dari kebenaran dan nilai kemanusiaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kunci semua sikap berbudi pekerti luhur adalah…",
+              "options": [
+                {
+                  "text": "kejujuran",
+                  "correct": true
+                },
+                {
+                  "text": "kepandaian"
+                },
+                {
+                  "text": "kekayaan"
+                },
+                {
+                  "text": "kekuatan"
+                }
+              ],
+              "explanation": "Kejujuran menjadi dasar seluruh sikap budi luhur.",
+              "hint": "Mengalah untuk mengendalikan nafsu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alur perilaku berbudi luhur menurut buku adalah…",
+              "options": [
+                {
+                  "text": "berpikir – berbicara – bertindak",
+                  "correct": true
+                },
+                {
+                  "text": "bertindak – berpikir – berbicara"
+                },
+                {
+                  "text": "berbicara – berpikir – bertindak"
+                },
+                {
+                  "text": "berpikir – bertindak – berbicara"
+                }
+              ],
+              "explanation": "Perilaku dimulai dari pikiran, lalu ucapan, lalu tindakan.",
+              "hint": "Semua dilandasi kejujuran."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah aspek budi pekerti pribadi menurut buku?",
+              "options": [
+                {
+                  "text": "Duduk dan kedudukan",
+                  "correct": true
+                },
+                {
+                  "text": "Memandang dan dilihat",
+                  "correct": true
+                },
+                {
+                  "text": "Makan dan nafkah",
+                  "correct": true
+                },
+                {
+                  "text": "Menimbun harta",
+                  "correct": false
+                },
+                {
+                  "text": "Mencari pujian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lima aspeknya: kedudukan, memandang, makan, berbicara, berjalan.",
+              "hint": "Harta dan pujian bukan aspek budi pekerti."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri pokok budi luhur di suku Nusantara?",
+              "options": [
+                {
+                  "text": "Kejujuran",
+                  "correct": true
+                },
+                {
+                  "text": "Hati yang lurus",
+                  "correct": true
+                },
+                {
+                  "text": "Tulus",
+                  "correct": true
+                },
+                {
+                  "text": "Kekayaan",
+                  "correct": false
+                },
+                {
+                  "text": "Kekuasaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ciri pokoknya kejujuran, hati lurus, tulus, dan kebenaran.",
+              "hint": "Kekayaan tidak menjadi ukuran."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Menumbuhkan Budi Pekerti Luhur dalam Diri — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Sikap duduk yang benar juga mencakup…",
+              "options": [
+                {
+                  "text": "mengenali kedudukan diri dalam lingkungan",
+                  "correct": true
+                },
+                {
+                  "text": "memilih kursi paling depan"
+                },
+                {
+                  "text": "duduk paling lama"
+                },
+                {
+                  "text": "duduk tanpa bicara"
+                }
+              ],
+              "explanation": "Kedudukan menentukan tugas dan tanggung jawab.",
+              "hint": "Ada tata krama pergaulan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut buku, kedudukan yang tinggi adalah untuk…",
+              "options": [
+                {
+                  "text": "memikul kewajiban dan tanggung jawab yang besar",
+                  "correct": true
+                },
+                {
+                  "text": "memperoleh hak paling banyak"
+                },
+                {
+                  "text": "mendapat pujian"
+                },
+                {
+                  "text": "bebas dari tugas"
+                }
+              ],
+              "explanation": "Kedudukan tinggi berarti amanah yang lebih berat.",
+              "hint": "Bukan untuk menuntut hak lebih."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah wujud kerja keras dan ikhlas berbagi?",
+              "options": [
+                {
+                  "text": "Rajin belajar",
+                  "correct": true
+                },
+                {
+                  "text": "Hemat dan menabung",
+                  "correct": true
+                },
+                {
+                  "text": "Menolong teman yang kesusahan",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari tugas",
+                  "correct": false
+                },
+                {
+                  "text": "Memboroskan uang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kerja keras disertai kepedulian kepada sesama.",
+              "hint": "Pemborosan bertentangan dengan ajaran."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap berbakti menurut buku?",
+              "options": [
+                {
+                  "text": "Mematuhi orang tua",
+                  "correct": true
+                },
+                {
+                  "text": "Meringankan beban orang tua",
+                  "correct": true
+                },
+                {
+                  "text": "Menghormati guru",
+                  "correct": true
+                },
+                {
+                  "text": "Membiarkan orang tua bekerja sendiri",
+                  "correct": false
+                },
+                {
+                  "text": "Mengabaikan nasihat guru",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bakti tampak pada kepatuhan dan upaya meringankan beban.",
+              "hint": "Berlaku juga kepada guru dan pembimbing."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Budi pekerti luhur",
+                  "right": "sikap moral dan kelakuan baik"
+                },
+                {
+                  "id": "m1",
+                  "left": "Mawas diri",
+                  "right": "menilai diri sendiri"
+                },
+                {
+                  "id": "m2",
+                  "left": "Hawa nafsu",
+                  "right": "dorongan diri yang cenderung buruk"
+                },
+                {
+                  "id": "m3",
+                  "left": "Proporsional",
+                  "right": "sesuai bobot tanggung jawab"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "sikap moral dan kelakuan baik",
+                  "m1": "menilai diri sendiri",
+                  "m2": "dorongan diri yang cenderung buruk",
+                  "m3": "sesuai bobot tanggung jawab"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur perilaku berbudi luhur.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Berpikir jujur"
+                },
+                {
+                  "id": "d1",
+                  "text": "Berbicara benar"
+                },
+                {
+                  "id": "d2",
+                  "text": "Bertindak benar"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membiasakan kebajikan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menjadi tabiat"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Perilaku dimulai dari pikiran sampai menjadi kebiasaan.",
+              "hint": "Kebiasaan membentuk tabiat."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan lima aspek budi pekerti pribadi sesuai buku.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Sikap duduk dan kedudukan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memandang dan dilihat"
+                },
+                {
+                  "id": "p2",
+                  "text": "Makan dan nafkah"
+                },
+                {
+                  "id": "p3",
+                  "text": "Berbicara dan mendengar"
+                },
+                {
+                  "id": "p4",
+                  "text": "Berjalan dan berperilaku"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Urutan aspek mengikuti pembahasan bab.",
+              "hint": "Berjalan benar menjadi aspek kelima."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peribahasa “lalat di seberang terlihat jelas, gajah di depan mata tak terlihat” menggambarkan…",
+              "options": [
+                {
+                  "text": "nafsu meninggikan diri",
+                  "correct": true
+                },
+                {
+                  "text": "ketajaman penglihatan"
+                },
+                {
+                  "text": "keindahan alam"
+                },
+                {
+                  "text": "kepandaian berburu"
+                }
+              ],
+              "explanation": "Nafsu membuat orang jeli pada kesalahan orang lain.",
+              "hint": "Sekaligus buta pada kekurangan sendiri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mata disebut sebagai…",
+              "options": [
+                {
+                  "text": "jendela hidup",
+                  "correct": true
+                },
+                {
+                  "text": "cermin hati"
+                },
+                {
+                  "text": "pintu rezeki"
+                },
+                {
+                  "text": "sumber tenaga"
+                }
+              ],
+              "explanation": "Mata adalah jendela hidup kita.",
+              "hint": "Melalui mata kita memandang dan dilihat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah perilaku berbicara yang santun?",
+              "options": [
+                {
+                  "text": "Mengucapkan terima kasih",
+                  "correct": true
+                },
+                {
+                  "text": "Meminta maaf bila salah",
+                  "correct": true
+                },
+                {
+                  "text": "Mendengarkan dengan sungguh-sungguh",
+                  "correct": true
+                },
+                {
+                  "text": "Menyela pembicaraan orang",
+                  "correct": false
+                },
+                {
+                  "text": "Membentak teman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Santun berarti berbicara bermartabat dan menghargai.",
+              "hint": "Menyela dan membentak tidak santun."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Menumbuhkan Budi Pekerti Luhur dalam Diri — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Puasa dan pantangan makanan dalam ajaran kepercayaan bertujuan…",
+              "options": [
+                {
+                  "text": "melatih mengekang hawa nafsu",
+                  "correct": true
+                },
+                {
+                  "text": "menambah berat badan"
+                },
+                {
+                  "text": "menghemat biaya"
+                },
+                {
+                  "text": "menghindari pekerjaan"
+                }
+              ],
+              "explanation": "Pantangan dan puasa melatih diri mengekang selera."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peribahasa “manis jangan keburu ditelan, pahit jangan keburu dimuntahkan” mengajarkan…",
+              "options": [
+                {
+                  "text": "menahan diri terhadap selera",
+                  "correct": true
+                },
+                {
+                  "text": "memilih makanan manis"
+                },
+                {
+                  "text": "menolak obat pahit"
+                },
+                {
+                  "text": "makan dengan cepat"
+                }
+              ],
+              "explanation": "Nasihat itu tentang mengendalikan selera."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tiga kata yang dibiasakan dalam berbicara santun adalah…",
+              "options": [
+                {
+                  "text": "tolong, maaf, terima kasih",
+                  "correct": true
+                },
+                {
+                  "text": "cepat, tepat, hemat"
+                },
+                {
+                  "text": "keras, tegas, lantang"
+                },
+                {
+                  "text": "diam, dengar, diam"
+                }
+              ],
+              "explanation": "Kesantunan dibangun dari tiga kata itu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aspek kelima budi pekerti pribadi adalah…",
+              "options": [
+                {
+                  "text": "berjalan dan berperilaku benar",
+                  "correct": true
+                },
+                {
+                  "text": "berbicara dengan lantang"
+                },
+                {
+                  "text": "mengumpulkan harta"
+                },
+                {
+                  "text": "menghafal ajaran"
+                }
+              ],
+              "explanation": "Aspek kelima adalah berjalan dengan tindakan benar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keseimbangan kewajiban dan hak diibaratkan…",
+              "options": [
+                {
+                  "text": "dua sisi dacing",
+                  "correct": true
+                },
+                {
+                  "text": "satu roda berputar"
+                },
+                {
+                  "text": "tiang bendera"
+                },
+                {
+                  "text": "anak panah"
+                }
+              ],
+              "explanation": "Kewajiban dan hak seperti dua sisi timbangan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh gotong royong di lingkungan?",
+              "options": [
+                {
+                  "text": "Membantu korban bencana",
+                  "correct": true
+                },
+                {
+                  "text": "Menjadi panitia hari kemerdekaan",
+                  "correct": true
+                },
+                {
+                  "text": "Mengikuti kerja bakti",
+                  "correct": true
+                },
+                {
+                  "text": "Menonton dari rumah",
+                  "correct": false
+                },
+                {
+                  "text": "Menyebar berita bohong",
+                  "correct": false
+                }
+              ],
+              "explanation": "Gotong royong diwujudkan dengan hadir dan aktif."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tanda orang mengenal dan mengendalikan diri?",
+              "options": [
+                {
+                  "text": "Mengenali baik dan buruk pada diri",
+                  "correct": true
+                },
+                {
+                  "text": "Membiasakan perbuatan baik",
+                  "correct": true
+                },
+                {
+                  "text": "Menerima kebenaran dengan tekad kuat",
+                  "correct": true
+                },
+                {
+                  "text": "Selalu membenarkan diri",
+                  "correct": false
+                },
+                {
+                  "text": "Menutup hati dari nasihat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengendalian diri dilatih dengan kesadaran dan pembiasaan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Kebajikan",
+                  "right": "perbuatan baik tanpa pamrih"
+                },
+                {
+                  "id": "m1",
+                  "left": "Integritas",
+                  "right": "kesesuaian pikiran, ucapan, tindakan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kesantunan",
+                  "right": "sopan dan menghargai orang lain"
+                },
+                {
+                  "id": "m3",
+                  "left": "Dacing",
+                  "right": "ibarat keseimbangan kewajiban dan hak"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "perbuatan baik tanpa pamrih",
+                  "m1": "kesesuaian pikiran, ucapan, tindakan",
+                  "m2": "sopan dan menghargai orang lain",
+                  "m3": "ibarat keseimbangan kewajiban dan hak"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah mengendalikan nafsu diri.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengenali diri sebenar-benarnya"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menyadari baik dan buruk"
+                },
+                {
+                  "id": "d2",
+                  "text": "Membiasakan meneladani perbuatan baik"
+                },
+                {
+                  "id": "d3",
+                  "text": "Memohon pencerahan Tuhan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menjalankan ajaran dengan tekad kuat"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pengendalian diri dimulai dari kesadaran lalu pembiasaan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan wujud keseimbangan kewajiban dan hak.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Memahami kedudukan diri"
+                },
+                {
+                  "id": "p1",
+                  "text": "Mengetahui kewajiban yang melekat"
+                },
+                {
+                  "id": "p2",
+                  "text": "Memikul tugas dengan tulus"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menahan diri terhadap hak berlebih"
+                },
+                {
+                  "id": "p4",
+                  "text": "Bertindak adil kepada sesama"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Keseimbangan dimulai dari pemahaman kedudukan sampai keadilan tindakan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut buku, hak dan kewajiban bersifat…",
+              "options": [
+                {
+                  "text": "proporsional",
+                  "correct": true
+                },
+                {
+                  "text": "sama rata untuk semua"
+                },
+                {
+                  "text": "berdasarkan usia saja"
+                },
+                {
+                  "text": "berdasarkan kekayaan"
+                }
+              ],
+              "explanation": "Pembagiannya proporsional sesuai bobot tanggung jawab."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Wujud bersyukur atas penghidupan menurut buku adalah…",
+              "options": [
+                {
+                  "text": "berbagi kepada yang lemah",
+                  "correct": true
+                },
+                {
+                  "text": "menyimpan semua hasil"
+                },
+                {
+                  "text": "menambah harta"
+                },
+                {
+                  "text": "membandingkan dengan orang lain"
+                }
+              ],
+              "explanation": "Cara bersyukur adalah berbagi kepada yang lemah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat budi luhur pribadi dalam pergaulan?",
+              "options": [
+                {
+                  "text": "Mudah dipercaya",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga kerukunan",
+                  "correct": true
+                },
+                {
+                  "text": "Menjadi teladan",
+                  "correct": true
+                },
+                {
+                  "text": "Menimbulkan permusuhan",
+                  "correct": false
+                },
+                {
+                  "text": "Membuat orang menjauh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Budi luhur membangun kepercayaan dan kerukunan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Budi pekerti luhur",
+                  "right": "sikap moral dan kelakuan baik"
+                },
+                {
+                  "id": "m1",
+                  "left": "Mawas diri",
+                  "right": "menilai diri sendiri"
+                },
+                {
+                  "id": "m2",
+                  "left": "Hawa nafsu",
+                  "right": "dorongan diri yang cenderung buruk"
+                },
+                {
+                  "id": "m3",
+                  "left": "Proporsional",
+                  "right": "sesuai bobot tanggung jawab"
+                },
+                {
+                  "id": "m4",
+                  "left": "Kebajikan",
+                  "right": "perbuatan baik tanpa pamrih"
+                },
+                {
+                  "id": "m5",
+                  "left": "Integritas",
+                  "right": "kesesuaian pikiran, ucapan, tindakan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "sikap moral dan kelakuan baik",
+                  "m1": "menilai diri sendiri",
+                  "m2": "dorongan diri yang cenderung buruk",
+                  "m3": "sesuai bobot tanggung jawab",
+                  "m4": "perbuatan baik tanpa pamrih",
+                  "m5": "kesesuaian pikiran, ucapan, tindakan"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membiasakan kebajikan harian.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menetapkan niat berbuat baik"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memilih kebajikan yang bisa dilakukan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Melakukan setiap hari"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mencatat capaian perilaku"
+                },
+                {
+                  "id": "d4",
+                  "text": "Meninjau dan memperbaiki diri"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kebajikan dibiasakan lewat niat, tindakan, dan peninjauan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

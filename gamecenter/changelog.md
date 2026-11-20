@@ -8,7 +8,66 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-20 17:08 WIB (rilis 0.42.0).
+**Terakhir diperbarui:** 2026-11-20 17:38 WIB (rilis 0.43.0).
+
+## [0.43.0] - 2026-11-20 17:38 WIB
+
+**Batch 19 — buku Pendidikan Kepercayaan terhadap Tuhan Yang Maha Esa dan Budi
+Pekerti Kelas X tuntas 8/8 bab.**
+
+### Ditambah
+- **KEP 1 Sejarah Kepercayaan terhadap Tuhan Yang Maha Esa** — glosarium
+  kepercayaan, diagram tiga elemen manusia, tabel sebutan Tuhan Nusantara,
+  garis waktu 1908→2016, kelompokkan tipe penghayat/komunitas, jalan perjuangan
+  hak sipil, skenario “Menjelaskan kepercayaan kepada teman”, kartu istilah,
+  dan tantangan.
+- **KEP 2 Menumbuhkan Budi Pekerti Luhur dalam Diri** — glosarium budi pekerti,
+  diagram alur berpikir–berbicara–bertindak, tabel lima aspek (duduk, memandang,
+  makan, berbicara, berjalan), kelompokkan perilaku berbudi luhur/tercela,
+  keseimbangan kewajiban–hak ala dacing, skenario “Uang kembalian yang
+  berlebih”, kartu istilah, dan tantangan.
+- **KEP 3 Budi Pekerti Luhur dalam Kehidupan** — glosarium landasan sosial,
+  diagram lima landasan (ketulusan, kemandirian, welas asih, cinta kebenaran,
+  kedamaian), tabel norma sosial, diagram lingkup diri→global, kelompokkan
+  perilaku budi luhur/tercela, skenario “Teman yang berbeda keyakinan”, kartu
+  istilah, dan tantangan.
+- **KEP 4 Keagungan Tuhan Yang Maha Esa** — glosarium ketuhanan, diagram empat
+  hubungan kewajiban, tabel sifat dan hukum alam, diagram struktur manusia,
+  kelompokkan unsur adi-kodrati/fisik, karunia Tuhan, skenario “Teman bertanya
+  tentang cara menyembah”, kartu istilah, dan tantangan.
+- **KEP 5 Manembah Tuhan Yang Maha Kuasa** — glosarium manembah, diagram empat
+  tahap sujud, tabel religiositas–spiritualitas, kelompokkan ciri keduanya,
+  taraf kecerdasan spiritual, skenario “Mengikuti ritual tanpa penghayatan”,
+  kartu istilah, dan tantangan.
+- **KEP 6 Mencintai Keberagaman Budaya Spiritual Nusantara** — glosarium
+  kearifan lokal, diagram empat klasifikasi nilai, tabel warisan monumental,
+  diagram jalur pewarisan, kelompokkan nilai spiritual/kelestarian alam,
+  skenario “Tradisi yang mulai ditinggalkan”, kartu istilah, dan tantangan.
+- **KEP 7 Mencermati Larangan dan Kewajiban** — glosarium kewajiban, diagram
+  empat kewajiban menuju manembah, tabel orientasi kewajiban dan larangan,
+  diagram tiga nuansa ritual, kelompokkan perbuatan baik/tercela, skenario
+  “Godaan mencontek di ulangan”, kartu istilah, dan tantangan.
+- **KEP 8 Kearifan Lingkungan dan Teknologi Kekinian** — glosarium lingkungan,
+  diagram aliran energi rantai makanan, tabel kearifan lingkungan adat, diagram
+  fotosintesis–respirasi, kelompokkan sampah daur ulang/organik, bioteknologi
+  MOL dan PGPR, skenario “Limbah rumah yang menumpuk”, kartu istilah, dan
+  tantangan.
+- Kedelapan bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan
+  campuran pilihan ganda, jawaban ganda, menjodohkan, seret-lepas, dan susun
+  urutan; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- Mapel **Pendidikan Kepercayaan** (slug `kepercayaan`) ditambahkan ke katalog
+  jenjang **SMA** dan **SMK** pada `SubjectSeeder`; `tools/kepercayaan_common.py`
+  menjadi pembungkus penulis babnya.
+
+### Verifikasi
+- `gamecenter:materi-import --dry-run` → 94 berkas, **0 gagal**.
+- Impor sungguhan menambah **8 bab / 24 materi / 24 asesmen / 240 soal**.
+- `gamecenter:materi-coverage` → **95 dari 98 chapter** memenuhi minimum §5.3,
+  **3.165 blok**. KEP 1–8 masing-masing 26–27 blok, semuanya ✅.
+- `php artisan test` → **154 lulus, 1 dilewati, 1.911 asertion**; tes impor
+  mengharapkan 94 bab dan 2.820 soal, tes cakupan memeriksa kedelapan bab
+  Kepercayaan dan halaman bermain KEP 1.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.42.0] - 2026-11-20 17:08 WIB
 

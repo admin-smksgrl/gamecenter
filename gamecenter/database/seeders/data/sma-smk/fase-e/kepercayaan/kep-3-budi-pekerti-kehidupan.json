@@ -1,0 +1,1288 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "kepercayaan",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "KEP 3",
+      "title": "Budi Pekerti Luhur dalam Kehidupan",
+      "description": "Menerapkan budi pekerti luhur di lingkup keluarga, masyarakat, bangsa, dan pergaulan global melalui lima landasan: ketulusan, kemandirian, welas asih, cinta kebenaran, dan kedamaian.",
+      "learning_objectives": [
+        "Menghayati serta mengamalkan makna pemaaf, toleransi, dan kepedulian antarsesama.",
+        "Menghayati sikap jujur, gotong royong, welas asih, serta cinta damai dalam lingkungan sosial yang luas.",
+        "Menganalisis manfaat budi pekerti pribadi dalam keluarga, teman, masyarakat, berbangsa, dan keragaman global."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 3 Budi Pekerti Luhur Dalam Kehidupan; CP Fase E Pendidikan Kepercayaan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Belajar dengan mempraktikkan",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 3 Budi Pekerti Luhur Dalam Kehidupan; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Kehidupan adalah belajar\n\nSelagi hidup, kita terus belajar dan berusaha melakukan yang terbaik. Budi pekerti luhur tidak perlu menunggu kematangan pribadi; ia dipelajari dengan jalan dipraktikkan.\n\nBelajar budi pekerti berlangsung langsung: mengetahui dengan akal, meyakini dengan hati, menuruti dalam ucapan, dan melakukannya. Tidak ada hasil belajar budi pekerti kecuali setelah diwujudkan dalam tindakan.\n\nKejujuran di sini lebih dalam daripada berkata benar. Ia adalah integritas, yaitu kepercayaan yang selaras dengan budi luhur dari roh suci dalam diri. Oprah Winfrey menyebut integritas sebagai melakukan hal yang benar meski tak ada yang tahu.\n\nSemboyan budi pekerti luhur: keras pada diri sendiri, lembut kepada orang lain.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "kep-3-budi-pekerti-kehidupan-glosarium",
+              "terms": [
+                {
+                  "term": "Ketulusan",
+                  "definition": "Melakukan kebaikan tanpa mengharapkan hasil atau imbalan apa pun."
+                },
+                {
+                  "term": "Kemandirian",
+                  "definition": "Kemampuan menata penghidupan sendiri dengan usaha yang bersih dan halal."
+                },
+                {
+                  "term": "Welas asih",
+                  "definition": "Belas kasih yang diwujudkan dalam tindakan berbagi harta, ilmu, dan kecakapan."
+                },
+                {
+                  "term": "Integritas",
+                  "definition": "Kejujuran yang terpercaya, selaras dengan budi luhur yang terpancar dari roh suci."
+                },
+                {
+                  "term": "Toleransi",
+                  "definition": "Sikap menerima perbedaan latar belakang, keyakinan, dan cara pandang."
+                },
+                {
+                  "term": "Gotong royong",
+                  "definition": "Kerja bersama secara sukarela untuk kepentingan bersama."
+                },
+                {
+                  "term": "Mamayu hayuning sasama",
+                  "definition": "Falsafah Jawa: memelihara keselamatan sesama manusia."
+                },
+                {
+                  "term": "Mamayu hayuning bawana",
+                  "definition": "Falsafah Jawa: memelihara keselamatan alam semesta."
+                },
+                {
+                  "term": "Marakka’ Bola",
+                  "definition": "Tradisi Bugis memindahkan rumah secara bergotong royong."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kehidupan adalah belajar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Selagi hidup, kita terus belajar dan berusaha melakukan yang terbaik. Budi pekerti luhur tidak perlu menunggu kematangan pribadi; ia dipelajari dengan jalan dipraktikkan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Belajar budi pekerti berlangsung langsung: mengetahui dengan akal, meyakini dengan hati, menuruti dalam ucapan, dan melakukannya. Tidak ada hasil belajar budi pekerti kecuali setelah diwujudkan dalam tindakan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kejujuran di sini lebih dalam daripada berkata benar. Ia adalah integritas, yaitu kepercayaan yang selaras dengan budi luhur dari roh suci dalam diri. Oprah Winfrey menyebut integritas sebagai melakukan hal yang benar meski tak ada yang tahu."
+            },
+            {
+              "type": "diagram",
+              "id": "kep-3-budi-pekerti-kehidupan-diagram",
+              "engine": "mermaid",
+              "title": "Lima landasan budi pekerti dalam kehidupan",
+              "code": "flowchart TB\n  A[Budi pekerti luhur kehidupan] --> B[Ketulusan]\n  A --> C[Kemandirian dan berbakti]\n  A --> D[Welas asih berbagi]\n  A --> E[Cinta kebenaran]\n  A --> F[Cinta damai]\n  B --> G[Kerukunan dan kedamaian]\n  F --> G"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Semboyan budi pekerti luhur: keras pada diri sendiri, lembut kepada orang lain."
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-3-budi-pekerti-kehidupan-cp-1",
+              "question": "Urutan belajar budi pekerti menurut buku adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "mengetahui dengan akal – meyakini dengan hati – menuruti dalam ucapan – melakukannya",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "melakukannya – mengetahui – meyakini – mengucapkan"
+                },
+                {
+                  "id": "c2",
+                  "text": "meyakini – melakukannya – mengetahui – mengucapkan"
+                },
+                {
+                  "id": "c3",
+                  "text": "mengucapkan – mengetahui – melakukannya – meyakini"
+                }
+              ],
+              "explanation": "Belajar budi pekerti berjalan dari pengetahuan, keyakinan, ucapan, lalu tindakan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Hidup dalam kebersamaan",
+          "duration": 300,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 3 Budi Pekerti Luhur Dalam Kehidupan; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Ramah-tamah, kerja keras, dan peduli sesama\n\nManusia adalah makhluk sosial yang hidup bersama manusia lain dan alam sekitarnya. Budi luhur pribadi teruji justru ketika dipraktikkan dalam kehidupan bersama dengan norma adat, aturan, hukum, dan budaya yang berlaku.\n\nPerilaku budi luhur sosial dibangun atas norma keramahtamahan, norma penghidupan, adat dan kepedulian, serta gotong royong dan kebersamaan. Kebiasaan senyum, salam, dan sapa dilakukan dengan tulus, bukan basa-basi.\n\nKerja keras dilengkapi kerja cerdas: mengenali potensi, menyegerakan kemauan, tabah menghadapi kegagalan, mandiri, berpikir kritis, kreatif, bekerja sama, menghargai prestasi, berbakti, dan hidup sederhana.\n\n| Norma sosial | Wujud perilaku | Contoh di sekolah |\n|---|---|---|\n| Keramahtamahan | Senyum, salam, sapa, sopan santun | Menyapa guru dan petugas sekolah |\n| Penghidupan | Kerja keras dan kerja cerdas | Belajar tekun dan berwirausaha kecil |\n| Adat dan kepedulian | Hadir dalam acara adat dan sosial | Melayat dan membantu tetangga |\n| Gotong royong | Kerja bersama tanpa pamrih | Kerja bakti dan Marakka’ Bola |\n| Toleransi | Menerima perbedaan | Berteman tanpa membedakan keyakinan |\n\n### Penerapan di keluarga dan masyarakat\n\n- Penerapan dimulai dari diri sendiri, lalu keluarga inti, keluarga besar, tetangga, masyarakat, bangsa, dan pergaulan global.\n- Asas hubungan keluarga: pembiasaan perilaku baik, keteladanan, keterbukaan saling percaya, saling mengingatkan, kebersamaan, dan saling mengisi.\n- Rumah menjadi tempat pertama belajar budi pekerti melalui pembiasaan dan peniruan perilaku, lalu diperkuat kecerdasan spiritual.\n- Di tengah masyarakat, budi luhur tampak pada sikap pemaaf, toleran, peduli, dan cinta damai.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ramah-tamah, kerja keras, dan peduli sesama"
+            },
+            {
+              "type": "paragraph",
+              "text": "Manusia adalah makhluk sosial yang hidup bersama manusia lain dan alam sekitarnya. Budi luhur pribadi teruji justru ketika dipraktikkan dalam kehidupan bersama dengan norma adat, aturan, hukum, dan budaya yang berlaku."
+            },
+            {
+              "type": "paragraph",
+              "text": "Perilaku budi luhur sosial dibangun atas norma keramahtamahan, norma penghidupan, adat dan kepedulian, serta gotong royong dan kebersamaan. Kebiasaan senyum, salam, dan sapa dilakukan dengan tulus, bukan basa-basi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kerja keras dilengkapi kerja cerdas: mengenali potensi, menyegerakan kemauan, tabah menghadapi kegagalan, mandiri, berpikir kritis, kreatif, bekerja sama, menghargai prestasi, berbakti, dan hidup sederhana."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Norma sosial",
+                  "Wujud perilaku",
+                  "Contoh di sekolah"
+                ],
+                [
+                  "Keramahtamahan",
+                  "Senyum, salam, sapa, sopan santun",
+                  "Menyapa guru dan petugas sekolah"
+                ],
+                [
+                  "Penghidupan",
+                  "Kerja keras dan kerja cerdas",
+                  "Belajar tekun dan berwirausaha kecil"
+                ],
+                [
+                  "Adat dan kepedulian",
+                  "Hadir dalam acara adat dan sosial",
+                  "Melayat dan membantu tetangga"
+                ],
+                [
+                  "Gotong royong",
+                  "Kerja bersama tanpa pamrih",
+                  "Kerja bakti dan Marakka’ Bola"
+                ],
+                [
+                  "Toleransi",
+                  "Menerima perbedaan",
+                  "Berteman tanpa membedakan keyakinan"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "kep-3-lingkup",
+              "engine": "mermaid",
+              "title": "Lingkup penerapan budi pekerti luhur",
+              "code": "flowchart LR\n  A[Diri sendiri] --> B[Keluarga inti]\n  B --> C[Keluarga besar dan tetangga]\n  C --> D[Komunitas dan masyarakat]\n  D --> E[Bangsa dan negara]\n  E --> F[Pergaulan global]\n  A --> G[Hubungan dengan alam]\n  C --> G"
+            },
+            {
+              "type": "categorize",
+              "id": "kep-3-klasifikasi",
+              "prompt": "Kelompokkan perilaku berikut sebagai penerapan budi luhur atau perilaku tercela di lingkungan sosial.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Budi luhur"
+                },
+                {
+                  "id": "b2",
+                  "label": "Tercela"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Aktif gotong royong membersihkan lingkungan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Rela mengundur waktu bermain demi kerja kelompok",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Membantu anggota kelompok yang belum paham",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Menerima perbedaan pendapat",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i5",
+                  "text": "Mengejek teman yang rajin berbuat baik",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Mengerjakan tugas teman agar ia dipuji",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Memberi jawaban saat ulangan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i8",
+                  "text": "Hanya berteman dengan yang kaya",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Budi luhur menolong dengan cara benar, bukan dengan melanggar kejujuran.",
+                "wrong": "Periksa lagi: menolong sambil melanggar aturan tetap termasuk perilaku tercela."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Penerapan di keluarga dan masyarakat"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Penerapan dimulai dari diri sendiri, lalu keluarga inti, keluarga besar, tetangga, masyarakat, bangsa, dan pergaulan global.",
+                "Asas hubungan keluarga: pembiasaan perilaku baik, keteladanan, keterbukaan saling percaya, saling mengingatkan, kebersamaan, dan saling mengisi.",
+                "Rumah menjadi tempat pertama belajar budi pekerti melalui pembiasaan dan peniruan perilaku, lalu diperkuat kecerdasan spiritual.",
+                "Di tengah masyarakat, budi luhur tampak pada sikap pemaaf, toleran, peduli, dan cinta damai."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-3-budi-pekerti-kehidupan-cp-2",
+              "question": "Falsafah Jawa yang berarti memelihara keselamatan alam semesta adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "mamayu hayuning bawana",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "mamayu hayuning sasama"
+                },
+                {
+                  "id": "c2",
+                  "text": "sangkan paraning dumadi"
+                },
+                {
+                  "id": "c3",
+                  "text": "manunggaling kawula gusti"
+                }
+              ],
+              "explanation": "Mamayu hayuning sasama untuk sesama manusia, mamayu hayuning bawana untuk alam semesta."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 3 Budi Pekerti Luhur Dalam Kehidupan; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Budi luhur teruji dalam kebersamaan\n\nTradisi Marakka’ Bola dari Bugis menunjukkan gotong royong memindahkan rumah bersama-sama. Nilai itu sejalan dengan norma kebersamaan dan toleransi yang hidup di masyarakat Nusantara.\n\nKetulusan teruji bukan saat dibalas kebaikan, melainkan saat menghadapi situasi sebaliknya. Ketulusan menjaga martabat orang lain, berani meminta maaf, memaafkan, serta memperbaiki dampak kesalahan sendiri maupun orang lain.\n\nHanya pribadi mandiri yang layak berbagi dan pantas berbakti. Penghidupan yang bersih—diperoleh di jalan kebenaran—yang pantas menjadi bakti, dan dari situlah tumbuh cinta serta kedamaian sejati.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Budi luhur teruji dalam kebersamaan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tradisi Marakka’ Bola dari Bugis menunjukkan gotong royong memindahkan rumah bersama-sama. Nilai itu sejalan dengan norma kebersamaan dan toleransi yang hidup di masyarakat Nusantara."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ketulusan teruji bukan saat dibalas kebaikan, melainkan saat menghadapi situasi sebaliknya. Ketulusan menjaga martabat orang lain, berani meminta maaf, memaafkan, serta memperbaiki dampak kesalahan sendiri maupun orang lain."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hanya pribadi mandiri yang layak berbagi dan pantas berbakti. Penghidupan yang bersih—diperoleh di jalan kebenaran—yang pantas menjadi bakti, dan dari situlah tumbuh cinta serta kedamaian sejati."
+            },
+            {
+              "type": "scenario",
+              "id": "kep-3-skenario",
+              "title": "Teman yang berbeda keyakinan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Ada siswa baru berbeda keyakinan yang dijauhi teman sekelas. Apa tindakanmu?",
+                  "choices": [
+                    {
+                      "text": "Mengajaknya bergabung dalam kerja kelompok",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Toleransi diwujudkan dengan menerima dan melibatkan."
+                    },
+                    {
+                      "text": "Ikut menjauh agar tidak dikucilkan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Mengikuti arus justru melanggengkan ketidakadilan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Seorang teman menegur, “Kenapa bergaul dengan dia?” Bagaimana jawabanmu?",
+                  "choices": [
+                    {
+                      "text": "Menjelaskan bahwa perbedaan keyakinan tidak menghalangi persahabatan",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Penjelasan itu menegakkan toleransi dan martabat sesama."
+                    },
+                    {
+                      "text": "Meninggalkan teman baru itu demi ketenangan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Meninggalkannya berarti membiarkan diskriminasi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Ketidakpedulian membuat suasana kelas tidak damai.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Kelas menjadi rukun dan saling menghargai perbedaan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "kep-3-budi-pekerti-kehidupan-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan lima landasan budi luhur kehidupan.",
+                  "back": "Ketulusan, kemandirian, welas asih, cinta kebenaran, dan kedamaian."
+                },
+                {
+                  "front": "Apa makna integritas menurut Oprah Winfrey?",
+                  "back": "Melakukan hal benar meski tak ada yang tahu."
+                },
+                {
+                  "front": "Apa asas hubungan dalam keluarga?",
+                  "back": "Pembiasaan, keteladanan, keterbukaan, saling mengingatkan, kebersamaan, saling mengisi."
+                },
+                {
+                  "front": "Apa itu Marakka’ Bola?",
+                  "back": "Tradisi Bugis gotong royong memindahkan rumah."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-3-budi-pekerti-kehidupan-cp-3",
+              "question": "Menurut buku, hanya pribadi yang layak berbagi dan pantas berbakti adalah pribadi yang…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "mandiri dengan penghidupan bersih",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "memiliki banyak harta warisan"
+                },
+                {
+                  "id": "c2",
+                  "text": "populer di lingkungannya"
+                },
+                {
+                  "id": "c3",
+                  "text": "paling pandai berbicara"
+                }
+              ],
+              "explanation": "Kemandirian dan penghidupan yang bersih menjadi dasar bakti yang layak."
+            },
+            {
+              "type": "challenge",
+              "id": "kep-3-tantangan",
+              "title": "Tantangan istilah budi pekerti sosial",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Berbuat baik tanpa mengharap hasil",
+                  "answer": "Ketulusan"
+                },
+                {
+                  "question": "Belas kasih yang berbagi",
+                  "answer": "Welas asih"
+                },
+                {
+                  "question": "Menerima perbedaan",
+                  "answer": "Toleransi"
+                },
+                {
+                  "question": "Kerja bersama tanpa pamrih",
+                  "answer": "Gotong royong"
+                },
+                {
+                  "question": "Memelihara keselamatan sesama",
+                  "answer": "Mamayu hayuning sasama"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah budi pekerti sosial terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Budi Pekerti Luhur dalam Kehidupan — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Menurut buku, budi pekerti luhur dipelajari dengan jalan…",
+              "options": [
+                {
+                  "text": "dipraktikkan langsung",
+                  "correct": true
+                },
+                {
+                  "text": "dihafalkan"
+                },
+                {
+                  "text": "didengar dari ceramah"
+                },
+                {
+                  "text": "ditulis berulang"
+                }
+              ],
+              "explanation": "Budi pekerti dipelajari dengan mempraktikkannya, bukan sekadar mengetahui.",
+              "hint": "Tidak ada hasil belajar tanpa tindakan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lima landasan budi pekerti luhur kehidupan adalah…",
+              "options": [
+                {
+                  "text": "ketulusan, kemandirian, welas asih, cinta kebenaran, kedamaian",
+                  "correct": true
+                },
+                {
+                  "text": "kekayaan, kekuasaan, kepandaian, ketenaran, keberanian"
+                },
+                {
+                  "text": "kejujuran, keberanian, kekuatan, kecepatan, ketepatan"
+                },
+                {
+                  "text": "sopan, ramah, rajin, rapi, rapat"
+                }
+              ],
+              "explanation": "Kelima landasan itu menjadi jalan kemurnian hati.",
+              "hint": "Sejalan dengan mamayu hayuning sasama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Semboyan budi pekerti luhur menurut buku adalah…",
+              "options": [
+                {
+                  "text": "keras pada diri sendiri, lembut kepada orang lain",
+                  "correct": true
+                },
+                {
+                  "text": "keras kepada semua orang"
+                },
+                {
+                  "text": "lembut kepada diri sendiri"
+                },
+                {
+                  "text": "tegas kepada siapa pun"
+                }
+              ],
+              "explanation": "Semboyan itu menuntut pengendalian diri dan kasih kepada sesama.",
+              "hint": "Menjadi kunci belajar budi pekerti."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah landasan budi pekerti luhur kehidupan?",
+              "options": [
+                {
+                  "text": "Ketulusan",
+                  "correct": true
+                },
+                {
+                  "text": "Kemandirian",
+                  "correct": true
+                },
+                {
+                  "text": "Welas asih",
+                  "correct": true
+                },
+                {
+                  "text": "Kekayaan",
+                  "correct": false
+                },
+                {
+                  "text": "Keternamaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kelima landasan berpusat pada hati dan tindakan.",
+              "hint": "Kekayaan bukan landasan budi luhur."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah norma sosio-kultural yang disebut buku?",
+              "options": [
+                {
+                  "text": "Keramahtamahan",
+                  "correct": true
+                },
+                {
+                  "text": "Gotong royong",
+                  "correct": true
+                },
+                {
+                  "text": "Kepedulian",
+                  "correct": true
+                },
+                {
+                  "text": "Permusuhan",
+                  "correct": false
+                },
+                {
+                  "text": "Persaingan tidak sehat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Norma itu membangun kebersamaan.",
+              "hint": "Permusuhan merusak kebersamaan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Budi Pekerti Luhur dalam Kehidupan — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Menurut Oprah Winfrey, integritas adalah…",
+              "options": [
+                {
+                  "text": "melakukan hal benar meski tak ada yang tahu",
+                  "correct": true
+                },
+                {
+                  "text": "melakukan hal benar agar dipuji"
+                },
+                {
+                  "text": "berbicara benar di depan orang"
+                },
+                {
+                  "text": "menghindari kesalahan orang lain"
+                }
+              ],
+              "explanation": "Integritas diuji tanpa saksi.",
+              "hint": "Ia bekerja dari dalam diri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hanya pribadi yang layak berbagi dan pantas berbakti adalah pribadi yang…",
+              "options": [
+                {
+                  "text": "mandiri dengan penghidupan bersih",
+                  "correct": true
+                },
+                {
+                  "text": "kaya raya"
+                },
+                {
+                  "text": "terkenal"
+                },
+                {
+                  "text": "berpendidikan tinggi"
+                }
+              ],
+              "explanation": "Kemandirian dan penghidupan bersih menjadi dasarnya.",
+              "hint": "Buah penghidupan bersih itulah bakti."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap kerja keras dan cerdas?",
+              "options": [
+                {
+                  "text": "Mengenali potensi diri",
+                  "correct": true
+                },
+                {
+                  "text": "Tabah menghadapi kegagalan",
+                  "correct": true
+                },
+                {
+                  "text": "Bekerja sama dengan mitra",
+                  "correct": true
+                },
+                {
+                  "text": "Menunda pekerjaan",
+                  "correct": false
+                },
+                {
+                  "text": "Bergantung penuh pada orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kerja cerdas menuntut potensi, ketabahan, dan kerja sama.",
+              "hint": "Menunda melemahkan usaha."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah wujud peduli sesama?",
+              "options": [
+                {
+                  "text": "Membantu korban musibah",
+                  "correct": true
+                },
+                {
+                  "text": "Menghibur teman yang sedih",
+                  "correct": true
+                },
+                {
+                  "text": "Berbagi bekal",
+                  "correct": true
+                },
+                {
+                  "text": "Mengejek kekurangan teman",
+                  "correct": false
+                },
+                {
+                  "text": "Menyebar gosip",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kepedulian diwujudkan dalam tindakan nyata.",
+              "hint": "Gosip merusak kerukunan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Ketulusan",
+                  "right": "berbuat baik tanpa mengharap hasil"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kemandirian",
+                  "right": "menata penghidupan sendiri"
+                },
+                {
+                  "id": "m2",
+                  "left": "Welas asih",
+                  "right": "belas kasih dalam tindakan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Integritas",
+                  "right": "jujur meski tak ada yang tahu"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "berbuat baik tanpa mengharap hasil",
+                  "m1": "menata penghidupan sendiri",
+                  "m2": "belas kasih dalam tindakan",
+                  "m3": "jujur meski tak ada yang tahu"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahap belajar budi pekerti luhur.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengetahui dengan akal"
+                },
+                {
+                  "id": "d1",
+                  "text": "Meyakini dengan hati"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menuruti dalam ucapan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Melakukannya dalam tindakan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menjadi kebiasaan hidup"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Belajar bergerak dari pengetahuan sampai kebiasaan.",
+              "hint": "Tindakan menjadi bukti belajar."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan lingkup penerapan budi luhur.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Diri sendiri"
+                },
+                {
+                  "id": "p1",
+                  "text": "Keluarga inti"
+                },
+                {
+                  "id": "p2",
+                  "text": "Keluarga besar dan tetangga"
+                },
+                {
+                  "id": "p3",
+                  "text": "Masyarakat"
+                },
+                {
+                  "id": "p4",
+                  "text": "Bangsa dan pergaulan global"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Penerapan meluas dari diri ke lingkup global.",
+              "hint": "Keluarga menjadi tahap kedua."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tradisi Bugis memindahkan rumah secara bergotong royong disebut…",
+              "options": [
+                {
+                  "text": "Marakka’ Bola",
+                  "correct": true
+                },
+                {
+                  "text": "Mappalili"
+                },
+                {
+                  "text": "Ngaben"
+                },
+                {
+                  "text": "Sekaten"
+                }
+              ],
+              "explanation": "Marakka’ Bola adalah gotong royong memindahkan rumah.",
+              "hint": "Menunjukkan kebersamaan masyarakat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap menerima perbedaan latar belakang dan keyakinan disebut…",
+              "options": [
+                {
+                  "text": "toleransi",
+                  "correct": true
+                },
+                {
+                  "text": "konformitas"
+                },
+                {
+                  "text": "kompetisi"
+                },
+                {
+                  "text": "isolasi"
+                }
+              ],
+              "explanation": "Toleransi menjadi norma kebersamaan.",
+              "hint": "Menjaga kerukunan hidup."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah asas hubungan keluarga menurut buku?",
+              "options": [
+                {
+                  "text": "Pembiasaan perilaku baik",
+                  "correct": true
+                },
+                {
+                  "text": "Keterbukaan saling percaya",
+                  "correct": true
+                },
+                {
+                  "text": "Saling mengingatkan",
+                  "correct": true
+                },
+                {
+                  "text": "Menutup diri",
+                  "correct": false
+                },
+                {
+                  "text": "Saling menjatuhkan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keluarga dibangun dengan kebiasaan, kepercayaan, dan nasihat.",
+              "hint": "Menutup diri menghambat pembelajaran."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Budi Pekerti Luhur dalam Kehidupan — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kebiasaan senyum, salam, dan sapa termasuk norma…",
+              "options": [
+                {
+                  "text": "keramahtamahan",
+                  "correct": true
+                },
+                {
+                  "text": "penghidupan"
+                },
+                {
+                  "text": "hukum pidana"
+                },
+                {
+                  "text": "perdagangan"
+                }
+              ],
+              "explanation": "Keramahtamahan adalah warisan leluhur Nusantara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Falsafah Jawa “mamayu hayuning sasama” berarti…",
+              "options": [
+                {
+                  "text": "memelihara keselamatan sesama manusia",
+                  "correct": true
+                },
+                {
+                  "text": "memelihara alam semesta"
+                },
+                {
+                  "text": "mencari kekayaan"
+                },
+                {
+                  "text": "menuntut ilmu tinggi"
+                }
+              ],
+              "explanation": "Sasama berarti sesama manusia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu asas hubungan dalam keluarga adalah…",
+              "options": [
+                {
+                  "text": "keteladanan",
+                  "correct": true
+                },
+                {
+                  "text": "persaingan"
+                },
+                {
+                  "text": "kerahasiaan mutlak"
+                },
+                {
+                  "text": "pengabaian"
+                }
+              ],
+              "explanation": "Keluarga dibangun dengan keteladanan dan pembiasaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu sikap kerja keras menurut buku adalah…",
+              "options": [
+                {
+                  "text": "berpikir kritis",
+                  "correct": true
+                },
+                {
+                  "text": "menunda pekerjaan"
+                },
+                {
+                  "text": "bergantung pada orang lain"
+                },
+                {
+                  "text": "cepat puas diri"
+                }
+              ],
+              "explanation": "Kerja cerdas memerlukan pikiran kritis dan kreatif."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut buku, hidup sederhana merupakan bentuk…",
+              "options": [
+                {
+                  "text": "rasa syukur kepada Tuhan",
+                  "correct": true
+                },
+                {
+                  "text": "kekurangan harta"
+                },
+                {
+                  "text": "ketakutan sosial"
+                },
+                {
+                  "text": "keterpaksaan"
+                }
+              ],
+              "explanation": "Hidup seperlunya adalah wujud syukur."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh toleransi di sekolah?",
+              "options": [
+                {
+                  "text": "Berteman tanpa membedakan keyakinan",
+                  "correct": true
+                },
+                {
+                  "text": "Menghormati teman yang berbeda suku",
+                  "correct": true
+                },
+                {
+                  "text": "Menerima pendapat berbeda",
+                  "correct": true
+                },
+                {
+                  "text": "Menolak teman beda agama",
+                  "correct": false
+                },
+                {
+                  "text": "Memaksakan pendapat sendiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Toleransi menerima perbedaan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah perilaku ramah lingkungan?",
+              "options": [
+                {
+                  "text": "Memelihara tanaman",
+                  "correct": true
+                },
+                {
+                  "text": "Mengurangi sampah plastik",
+                  "correct": true
+                },
+                {
+                  "text": "Memulihkan lingkungan rusak",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang sampah ke sungai",
+                  "correct": false
+                },
+                {
+                  "text": "Menebang pohon sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ramah lingkungan berarti memelihara dan memulihkan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Toleransi",
+                  "right": "menerima perbedaan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Marakka’ Bola",
+                  "right": "gotong royong memindahkan rumah"
+                },
+                {
+                  "id": "m2",
+                  "left": "Mamayu hayuning sasama",
+                  "right": "memelihara keselamatan sesama"
+                },
+                {
+                  "id": "m3",
+                  "left": "Mamayu hayuning bawana",
+                  "right": "memelihara keselamatan alam"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "menerima perbedaan",
+                  "m1": "gotong royong memindahkan rumah",
+                  "m2": "memelihara keselamatan sesama",
+                  "m3": "memelihara keselamatan alam"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membangun kebiasaan ramah-tamah.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Membiasakan senyum"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memberi salam"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menyapa dengan santun"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membantu tamu atau warga baru"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menjaga ketulusan dalam kebiasaan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kebiasaan dimulai dari yang sederhana sampai ketulusan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan sikap menghadapi kegagalan menurut buku.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menyadari risiko sebagai tantangan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menerima kegagalan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Mengambil pelajaran"
+                },
+                {
+                  "id": "p3",
+                  "text": "Bangkit mencoba lagi"
+                },
+                {
+                  "id": "p4",
+                  "text": "Bersyukur atas hasil kecil"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Kegagalan dihadapi dengan belajar lalu bangkit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penerapan budi luhur pertama-tama dimulai dari…",
+              "options": [
+                {
+                  "text": "diri sendiri dan keluarga inti",
+                  "correct": true
+                },
+                {
+                  "text": "lingkungan global"
+                },
+                {
+                  "text": "organisasi internasional"
+                },
+                {
+                  "text": "pemerintah"
+                }
+              ],
+              "explanation": "Penerapan berawal dari diri lalu keluarga."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap berbagi kepada yang membutuhkan menurut buku disebut…",
+              "options": [
+                {
+                  "text": "welas asih berbagi",
+                  "correct": true
+                },
+                {
+                  "text": "simpati pasif"
+                },
+                {
+                  "text": "transaksi sosial"
+                },
+                {
+                  "text": "kewajiban hukum"
+                }
+              ],
+              "explanation": "Welas asih diwujudkan dalam tindakan berbagi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat menerapkan budi luhur dalam kebersamaan?",
+              "options": [
+                {
+                  "text": "Tercipta kerukunan",
+                  "correct": true
+                },
+                {
+                  "text": "Tumbuh saling percaya",
+                  "correct": true
+                },
+                {
+                  "text": "Lingkungan menjadi damai",
+                  "correct": true
+                },
+                {
+                  "text": "Muncul permusuhan",
+                  "correct": false
+                },
+                {
+                  "text": "Hilangnya kepedulian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Budi luhur membangun kerukunan dan kedamaian."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Ketulusan",
+                  "right": "berbuat baik tanpa mengharap hasil"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kemandirian",
+                  "right": "menata penghidupan sendiri"
+                },
+                {
+                  "id": "m2",
+                  "left": "Welas asih",
+                  "right": "belas kasih dalam tindakan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Integritas",
+                  "right": "jujur meski tak ada yang tahu"
+                },
+                {
+                  "id": "m4",
+                  "left": "Toleransi",
+                  "right": "menerima perbedaan"
+                },
+                {
+                  "id": "m5",
+                  "left": "Marakka’ Bola",
+                  "right": "gotong royong memindahkan rumah"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "berbuat baik tanpa mengharap hasil",
+                  "m1": "menata penghidupan sendiri",
+                  "m2": "belas kasih dalam tindakan",
+                  "m3": "jujur meski tak ada yang tahu",
+                  "m4": "menerima perbedaan",
+                  "m5": "gotong royong memindahkan rumah"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan wujud kepedulian sosial di lingkungan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengenali kebutuhan warga"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menawarkan bantuan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Bergotong royong"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menjaga keberlanjutan bantuan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mensyukuri hasil bersama"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kepedulian bergerak dari mengenali kebutuhan sampai keberlanjutan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,7 +12,7 @@ Seluruh materi berasal dari buku ajar dan modul ajar **Kurikulum Merdeka**
 | | |
 |---|---|
 | Repo | <https://github.com/admin-smksgrl/gamecenter> |
-| Versi rilis | **0.42.0** ([changelog](gamecenter/changelog.md)) |
+| Versi rilis | **0.43.0** ([changelog](gamecenter/changelog.md)) |
 | Bahasa antarmuka | Indonesia |
 | Lisensi kode | MIT |
 
@@ -204,13 +204,13 @@ gamecenter/                 aplikasi Laravel
 ├── database/
 │   ├── migrations/         21 migrasi
 │   └── seeders/            jenjang, kelas, mapel, materi kurasi
-│       └── data/sma-smk/   86 berkas JSON bab (2.580 soal)
+│       └── data/sma-smk/   94 berkas JSON bab (2.820 soal)
 ├── resources/
 │   ├── css/                token tema (merah #e60012 + putih)
 │   ├── js/Pages/           Inertia pages (GameCenter, Guide, Membership, Auth)
 │   └── js/Components/      mesin game, toast, layout
 ├── routes/                 web.php, api.php
-├── tests/                  152 tes (Feature + Unit)
+├── tests/                  154 tes (Feature + Unit)
 └── public/sw.js            service worker PWA
 
 doc/                        rencana, laporan per fase, peta cakupan materi
@@ -228,10 +228,10 @@ artisan, serve.bat          pintasan menjalankan dari folder induk
 | Jenjang | 6 (PAUD, TK, SD-MI, SMP-MTs, SMA, SMK) |
 | Rombel | 18 |
 | Mata pelajaran | 182 |
-| Bab | 90 (86 kurasi SMA/SMK + 4 contoh) |
-| Materi | 268 |
-| Soal | 2.640 (mudah/sedang/sulit, 5 tipe soal interaktif) |
-| Asesmen | 270 |
+| Bab | 98 (93 kurasi SMA/SMK + 5 contoh) |
+| Materi | 292 |
+| Soal | 2.880 (mudah/sedang/sulit, 5 tipe soal interaktif) |
+| Asesmen | 294 |
 
 Jenjang **SD-MI** sudah punya rombel dan mapel tetapi belum punya bab; halaman
 menampilkan pemberitahuan bahwa materinya sedang disiapkan.
@@ -300,7 +300,7 @@ Satu warna untuk semua jenjang: **merah `#e60012` di atas putih**.
 
 ## 11. Kualitas & pengujian
 
-- **152 tes / 1.793 asersi** mencakup katalog, permainan, hasil, progres, auth,
+- **154 tes / 1.911 asersi** mencakup katalog, permainan, hasil, progres, auth,
   keanggotaan, impor materi, panel admin, dan perintah deploy-check.
 - **Importer** menolak berkas yang melanggar skema (jumlah materi/asesmen, soal
   per tingkat kesulitan, `explanation` kosong, `hint` pada soal sulit, simbol
@@ -330,7 +330,7 @@ Rincian: [doc/fase-5-implementasi.md](doc/fase-5-implementasi.md).
 | [doc/peta-cakupan-materi.md](doc/peta-cakupan-materi.md) | Peta cakupan 88 buku ajar / ±253 bab + urutan pengerjaan |
 | [doc/fase-4-implementasi.md](doc/fase-4-implementasi.md) | Tema, navigasi jenjang, dan keputusan desain |
 | [doc/fase-5-implementasi.md](doc/fase-5-implementasi.md) | Kesiapan deploy & gerbang rilis |
-| [gamecenter/changelog.md](gamecenter/changelog.md) | Riwayat rilis 0.1.0 → 0.42.0 |
+| [gamecenter/changelog.md](gamecenter/changelog.md) | Riwayat rilis 0.1.0 → 0.43.0 |
 | [gamecenter/README.md](gamecenter/README.md) | Catatan teknis aplikasi (skema, halaman, API) |
 
 ## 14. Peta jalan
@@ -340,14 +340,16 @@ Rincian: [doc/fase-5-implementasi.md](doc/fase-5-implementasi.md).
 - Mesin permainan 6 tipe soal, gamifikasi, progres, hasil, pembahasan.
 - Offline-first (IndexedDB + antrean sinkronisasi + PWA).
 - Keanggotaan, pusat bantuan, dashboard admin.
-- Materi SMA/SMK: 86 bab kurasi (Matematika, Informatika, Bahasa Indonesia, IPA,
-  Pancasila, PAI, Bahasa Inggris, IPS, PJOK, Prakarya, Projek IPAS) = 2.580 soal.
-- **Buku Kelas X tuntas: 14/14 unit Prakarya, 8/8 bab PJOK, dan 6/6 bab
-  Projek IPAS (SMK).**
+- Materi SMA/SMK: 94 bab kurasi (Matematika, Informatika, Bahasa Indonesia, IPA,
+  Pancasila, PAI, Bahasa Inggris, IPS, PJOK, Prakarya, Projek IPAS, Kepercayaan)
+  = 2.820 soal.
+- **Buku Kelas X tuntas: 14/14 unit Prakarya, 8/8 bab PJOK, 6/6 bab Projek IPAS
+  (SMK), dan 8/8 bab Pendidikan Kepercayaan.**
 - Navigasi jenjang Indonesia + satu tema merah/putih.
 
 **Berikutnya**
-1. Kelas X: Kepercayaan (5 bab), Sejarah, dan buku kejuruan SMK.
+1. Kelas X: Sejarah dan buku kejuruan SMK (Agriteknologi, Animasi, DKV,
+   Otomotif, TJKT, Mesin, Elektronika, Konstruksi).
 2. Kelas XI (17 buku) dan XII (18 buku).
 4. Isi materi SD-MI (struktur rombel dan mapel sudah siap).
 5. Peninjauan guru atas kunci jawaban dan kalibrasi kesulitan.

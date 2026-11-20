@@ -1,0 +1,1289 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "kepercayaan",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "KEP 8",
+      "title": "Kearifan Lingkungan dan Teknologi Kekinian",
+      "description": "Berguru pada alam sebagai wujud mamayu hayuning bawana, memahami eko-spiritualitas masyarakat adat, menelaah kerusakan lingkungan dan bahaya sampah plastik, serta menerapkan bioteknologi pertanian organik.",
+      "learning_objectives": [
+        "Mengamalkan sikap memelihara lingkungan dan kebersihan sebagai bagian ketaatan kepercayaan.",
+        "Menjelaskan konsep berguru pada alam sebagai nilai memelihara lingkungan dalam kepercayaan.",
+        "Menganalisis bahaya sampah plastik dan mempromosikan penanganannya dengan 3R.",
+        "Menyajikan laporan penerapan bioteknologi sederhana pengelolaan limbah organik."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 9 Kearifan Lingkungan dan Teknologi Kekinian; CP Fase E Pendidikan Kepercayaan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Berguru pada alam",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 9 Kearifan Lingkungan dan Teknologi Kekinian; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Belajar dari alam, bukan sekadar tentang alam\n\nDalam filosofi kepercayaan, mamayu hayuning bawana sama artinya dengan wicaksana atau bijaksana. Manusia berkewajiban memelihara alam karena alam adalah tempat berdiam, sumber karunia penghidupan, dan pemberi seluruh persembahan suci.\n\nAda perbedaan besar antara belajar dari alam dan belajar tentang alam. Belajar tentang alam menjadikan alam objek studi yang cenderung dieksploitasi, sedangkan belajar dari alam menjalin hubungan dekat, disertai kerendahan hati dan penghormatan pada misteri proses alam.\n\nKetika kita menyelami pengalaman bersama alam, tumbuh empati dan cinta. Yang kita cintai akan kita rawat, lestarikan, dan lindungi. Mengamati pohon menyadarkan bahwa segala sesuatu saling tersambung.\n\nBernafas dan makan adalah belajar dari alam: setiap sel hidup mengolah makanan untuk memperoleh energi.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "kep-8-kearifan-lingkungan-teknologi-glosarium",
+              "terms": [
+                {
+                  "term": "Mamayu hayuning bawana",
+                  "definition": "Kewajiban memelihara alam, sama artinya dengan wicaksana atau bijaksana."
+                },
+                {
+                  "term": "Eko-spiritualitas",
+                  "definition": "Paradigma religius yang memandang cinta lingkungan sebagai ibadah suci kepada Tuhan."
+                },
+                {
+                  "term": "Fotosintesis",
+                  "definition": "Proses tumbuhan mengubah energi matahari, air, dan CO2 menjadi senyawa gula."
+                },
+                {
+                  "term": "Pemali",
+                  "definition": "Pantangan atau tabu lingkungan yang disertai keyakinan akan ganjaran bila dilanggar."
+                },
+                {
+                  "term": "3R",
+                  "definition": "Reduce, reuse, recycle: mengurangi, memakai ulang, dan mendaur ulang sampah."
+                },
+                {
+                  "term": "MOL",
+                  "definition": "Mikroorganisme lokal yang diperbanyak sederhana untuk kompos dan pupuk cair."
+                },
+                {
+                  "term": "PGPR",
+                  "definition": "Plant Growth Promoting Rhizosphere, mikroba penggiat pertumbuhan yang diperbanyak di laboratorium."
+                },
+                {
+                  "term": "POC",
+                  "definition": "Pupuk organik cair yang dibuat dari bahan organik melalui bantuan mikroorganisme."
+                },
+                {
+                  "term": "Termoplastik",
+                  "definition": "Jenis plastik yang melunak karena panas dan dapat dibentuk ulang."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Belajar dari alam, bukan sekadar tentang alam"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dalam filosofi kepercayaan, mamayu hayuning bawana sama artinya dengan wicaksana atau bijaksana. Manusia berkewajiban memelihara alam karena alam adalah tempat berdiam, sumber karunia penghidupan, dan pemberi seluruh persembahan suci."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ada perbedaan besar antara belajar dari alam dan belajar tentang alam. Belajar tentang alam menjadikan alam objek studi yang cenderung dieksploitasi, sedangkan belajar dari alam menjalin hubungan dekat, disertai kerendahan hati dan penghormatan pada misteri proses alam."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ketika kita menyelami pengalaman bersama alam, tumbuh empati dan cinta. Yang kita cintai akan kita rawat, lestarikan, dan lindungi. Mengamati pohon menyadarkan bahwa segala sesuatu saling tersambung."
+            },
+            {
+              "type": "diagram",
+              "id": "kep-8-kearifan-lingkungan-teknologi-diagram",
+              "engine": "mermaid",
+              "title": "Aliran energi dari matahari ke makhluk hidup",
+              "code": "flowchart LR\n  A[Energi matahari] --> B[Daun melakukan fotosintesis]\n  B --> C[Gula dan glukosa]\n  C --> D[Tumbuhan dan tiap sel hidup]\n  D --> E[Herbivor memakan tumbuhan]\n  E --> F[Karnivor memakan hewan]\n  F --> G[Pengurai menguraikan sisa]\n  G --> H[Molekul sederhana kembali ke alam]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Bernafas dan makan adalah belajar dari alam: setiap sel hidup mengolah makanan untuk memperoleh energi."
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-8-kearifan-lingkungan-teknologi-cp-1",
+              "question": "Belajar “dari” alam menurut buku menghasilkan…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "hubungan dekat, kerendahan hati, dan penghormatan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "penguasaan dan eksploitasi sumber daya"
+                },
+                {
+                  "id": "c2",
+                  "text": "pengubahan alam menjadi produk komersial"
+                },
+                {
+                  "id": "c3",
+                  "text": "pengukuran daya dukung semata"
+                }
+              ],
+              "explanation": "Belajar dari alam menjalin hubungan dekat dan menghormati proses alam."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Eko-spiritualitas masyarakat adat",
+          "duration": 300,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 9 Kearifan Lingkungan dan Teknologi Kekinian; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Alam suci, larangan, dan tabu\n\nKomunitas adat mengembangkan kearifan lingkungan melalui norma, adat istiadat, mitologi, sistem kepercayaan, serta penataan peran. Karena alam dipandang suci, masyarakat tradisional menganut pantangan dan larangan dalam memeliharanya.\n\nEko-spiritualitas adalah paradigma hidup religius: cinta lingkungan menjadi bagian ibadah suci kepada Tuhan. Ia bukan sekadar program perbaikan lingkungan, melainkan tatanan hidup yang mempertanyakan apa yang boleh dan tidak boleh dilakukan pada alam.\n\nLarangan dan tabu disertai pemali, yaitu keyakinan akan ganjaran berupa kesialan atau celaka bagi yang melanggarnya. Contohnya keharusan memelihara mata air, menata pengunaan lahan, dan tidak sembarangan memasuki kawasan hutan.\n\n| Kearifan lingkungan adat | Wujud larangan | Tujuan |\n|---|---|---|\n| Memelihara mata air | Tidak mengotori sumber air | Menjaga ketersediaan air |\n| Menata penggunaan lahan | Tidak menggarap area larangan | Menjaga kesuburan tanah |\n| Menghormati hutan | Tidak sembarangan masuk kawasan hutan | Menjaga keutuhan ekosistem |\n| Kesadaran bersyukur | Ritual syukur atas alam | Mempertahankan kesakralan |\n\n### Krisis lingkungan\n\n- Masalah lingkungan Indonesia mencakup kerusakan hutan dan emisi CO2, limbah industri, limbah plastik domestik, serta pertanian dan perkebunan.\n- Indonesia menempati peringkat tertinggi di dunia untuk pengelolaan limbah domestik dan pencemaran plastik ke lautan.\n- Pertanian dalam negeri kurang efektif: sawah terluas tetapi masih impor beras, ubi, jagung, dan kedelai; pupuk kimia dan pestisida dipakai tidak terkendali.\n- Plastik bersifat sukar terurai di alam dan sejak 2005 menjadi limbah pencemar lautan yang mengkhawatirkan hampir seluruh dunia.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Alam suci, larangan, dan tabu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Komunitas adat mengembangkan kearifan lingkungan melalui norma, adat istiadat, mitologi, sistem kepercayaan, serta penataan peran. Karena alam dipandang suci, masyarakat tradisional menganut pantangan dan larangan dalam memeliharanya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Eko-spiritualitas adalah paradigma hidup religius: cinta lingkungan menjadi bagian ibadah suci kepada Tuhan. Ia bukan sekadar program perbaikan lingkungan, melainkan tatanan hidup yang mempertanyakan apa yang boleh dan tidak boleh dilakukan pada alam."
+            },
+            {
+              "type": "paragraph",
+              "text": "Larangan dan tabu disertai pemali, yaitu keyakinan akan ganjaran berupa kesialan atau celaka bagi yang melanggarnya. Contohnya keharusan memelihara mata air, menata pengunaan lahan, dan tidak sembarangan memasuki kawasan hutan."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kearifan lingkungan adat",
+                  "Wujud larangan",
+                  "Tujuan"
+                ],
+                [
+                  "Memelihara mata air",
+                  "Tidak mengotori sumber air",
+                  "Menjaga ketersediaan air"
+                ],
+                [
+                  "Menata penggunaan lahan",
+                  "Tidak menggarap area larangan",
+                  "Menjaga kesuburan tanah"
+                ],
+                [
+                  "Menghormati hutan",
+                  "Tidak sembarangan masuk kawasan hutan",
+                  "Menjaga keutuhan ekosistem"
+                ],
+                [
+                  "Kesadaran bersyukur",
+                  "Ritual syukur atas alam",
+                  "Mempertahankan kesakralan"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "kep-8-metabolisme",
+              "engine": "mermaid",
+              "title": "Fotosintesis dan respirasi: dua arah daur materi",
+              "code": "flowchart LR\n  A[Energi matahari] --> B[Fotosintesis di kloroplas]\n  B --> C[Air, CO4 --- air dan CO2]\n  C --> D[Senyawa gula sederhana dan glukosa]\n  D --> E[Respirasi sel melepas energi]\n  E --> F[Karbohidrat, lemak, protein]"
+            },
+            {
+              "type": "categorize",
+              "id": "kep-8-klasifikasi",
+              "prompt": "Kelompokkan sampah berikut ke dalam cara penanganan yang sesuai.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Bisa didaur ulang"
+                },
+                {
+                  "id": "b2",
+                  "label": "Bisa diurai alam"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Botol plastik",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Kertas bekas",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Kaleng minuman",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Daun kering",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Sisa buah dan sayur",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Kulit telur",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Kardus kemasan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Pelepah pisang",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Benda yang dapat dilebur atau dipakai lagi, dan bahan organik yang terurai secara alami, dikelola berbeda.",
+                "wrong": "Periksa lagi: bahan organik mudah terurai, sedangkan plastik dan logam tidak."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Krisis lingkungan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Masalah lingkungan Indonesia mencakup kerusakan hutan dan emisi CO2, limbah industri, limbah plastik domestik, serta pertanian dan perkebunan.",
+                "Indonesia menempati peringkat tertinggi di dunia untuk pengelolaan limbah domestik dan pencemaran plastik ke lautan.",
+                "Pertanian dalam negeri kurang efektif: sawah terluas tetapi masih impor beras, ubi, jagung, dan kedelai; pupuk kimia dan pestisida dipakai tidak terkendali.",
+                "Plastik bersifat sukar terurai di alam dan sejak 2005 menjadi limbah pencemar lautan yang mengkhawatirkan hampir seluruh dunia."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-8-kearifan-lingkungan-teknologi-cp-2",
+              "question": "Prinsip reduce, reuse, recycle dikenal dengan sebutan…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "3R",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "2K"
+                },
+                {
+                  "id": "c2",
+                  "text": "HTML"
+                },
+                {
+                  "id": "c3",
+                  "text": "PGPR"
+                }
+              ],
+              "explanation": "3R adalah reduce (mengurangi), reuse (memakai ulang), dan recycle (mendaur ulang)."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 9 Kearifan Lingkungan dan Teknologi Kekinian; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Bioteknologi pertanian organik\n\nPertanian organik adalah sistem bertani selaras alam yang mengembalikan siklus ekologi dalam areal pertanian. Prinsipnya meminimalkan bahan kimia, memperbaiki sifat fisik dan kimia tanah, serta mengembalikan unsur hara organik ke lahan.\n\nMOL atau mikroorganisme lokal adalah mikroba daerah tertentu yang diperbanyak secara sederhana, dipakai untuk kompos, pupuk cair, perbaikan tanah, dan mengurangi serangan penyakit. Bahannya limbah air cucian beras atau air kelapa dengan sedikit gula, difermentasi 7–21 hari.\n\nPGPR menggunakan mikroba teridentifikasi oleh ahli yang diperbanyak dengan metode laboratorium steril secara aerob. Prinsipnya sama dengan MOL, tetapi pengerjaannya lebih kompleks.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bioteknologi pertanian organik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pertanian organik adalah sistem bertani selaras alam yang mengembalikan siklus ekologi dalam areal pertanian. Prinsipnya meminimalkan bahan kimia, memperbaiki sifat fisik dan kimia tanah, serta mengembalikan unsur hara organik ke lahan."
+            },
+            {
+              "type": "paragraph",
+              "text": "MOL atau mikroorganisme lokal adalah mikroba daerah tertentu yang diperbanyak secara sederhana, dipakai untuk kompos, pupuk cair, perbaikan tanah, dan mengurangi serangan penyakit. Bahannya limbah air cucian beras atau air kelapa dengan sedikit gula, difermentasi 7–21 hari."
+            },
+            {
+              "type": "paragraph",
+              "text": "PGPR menggunakan mikroba teridentifikasi oleh ahli yang diperbanyak dengan metode laboratorium steril secara aerob. Prinsipnya sama dengan MOL, tetapi pengerjaannya lebih kompleks."
+            },
+            {
+              "type": "scenario",
+              "id": "kep-8-skenario",
+              "title": "Limbah rumah yang menumpuk",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Sampah dapur organik dan plastik menumpuk di rumah. Apa langkah pertamamu?",
+                  "choices": [
+                    {
+                      "text": "Memisahkan sampah organik dan anorganik",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Pemisahan memudahkan pengelolaan: organik jadi kompos, anorganik didaur ulang."
+                    },
+                    {
+                      "text": "Membuang semuanya ke sungai",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Membuang ke sungai mencemari air dan lingkungan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bagaimana mengelola sampah organik yang menumpuk?",
+                  "choices": [
+                    {
+                      "text": "Membuat kompos dengan bantuan MOL",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kompos memanfaatkan limbah organik untuk menyuburkan tanah."
+                    },
+                    {
+                      "text": "Menimbun plastik bersama bahan organik",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Mencampur plastik merusak proses pembuatan kompos."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Pencemaran makin parah, air dan tanah tercemar.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Limbah menjadi kompos berguna dan lingkungan bersih.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "kep-8-kearifan-lingkungan-teknologi-kartu",
+              "cards": [
+                {
+                  "front": "Apa arti mamayu hayuning bawana?",
+                  "back": "Memelihara alam, sama dengan wicaksana atau bijaksana."
+                },
+                {
+                  "front": "Apa bahan utama pembuatan MOL?",
+                  "back": "Air cucian beras atau air kelapa dengan sedikit gula."
+                },
+                {
+                  "front": "Sebutkan golongan plastik menurut sifatnya.",
+                  "back": "Termostatik dan termoplastik."
+                },
+                {
+                  "front": "Apa perbedaan MOL dan PGPR?",
+                  "back": "MOL dari mikroba lokal sederhana; PGPR dari mikroba teridentifikasi yang diperbanyak di laboratorium."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-8-kearifan-lingkungan-teknologi-cp-3",
+              "question": "MOL difermentasi selama…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "7–21 hari",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "1–2 hari"
+                },
+                {
+                  "id": "c2",
+                  "text": "30–40 hari"
+                },
+                {
+                  "id": "c3",
+                  "text": "3–5 bulan"
+                }
+              ],
+              "explanation": "Bahan MOL difermentasi selama 7–21 hari."
+            },
+            {
+              "type": "challenge",
+              "id": "kep-8-tantangan",
+              "title": "Tantangan istilah lingkungan dan teknologi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Prinsip kurangi, pakai ulang, daur ulang",
+                  "answer": "3R"
+                },
+                {
+                  "question": "Mikroba lokal untuk kompos",
+                  "answer": "MOL"
+                },
+                {
+                  "question": "Pupuk organik cair",
+                  "answer": "POC"
+                },
+                {
+                  "question": "Mikroba diperbanyak di laboratorium",
+                  "answer": "PGPR"
+                },
+                {
+                  "question": "Pantangan lingkungan dengan ganjaran",
+                  "answer": "Pemali"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah lingkungan dan teknologi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Kearifan Lingkungan dan Teknologi Kekinian — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mamayu hayuning bawana sama artinya dengan…",
+              "options": [
+                {
+                  "text": "wicaksana atau bijaksana",
+                  "correct": true
+                },
+                {
+                  "text": "kekuasaan"
+                },
+                {
+                  "text": "keberanian"
+                },
+                {
+                  "text": "kekayaan"
+                }
+              ],
+              "explanation": "Memelihara alam adalah wujud kebijaksanaan.",
+              "hint": "Manusia ditadbirkan sebagai ciptaan yang bijaksana."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Belajar “dari” alam menghasilkan…",
+              "options": [
+                {
+                  "text": "hubungan dekat dan kerendahan hati",
+                  "correct": true
+                },
+                {
+                  "text": "eksploitasi sumber daya"
+                },
+                {
+                  "text": "objek studi"
+                },
+                {
+                  "text": "keuntungan ekonomi"
+                }
+              ],
+              "explanation": "Belajar dari alam menjalin hubungan dekat dengan alam.",
+              "hint": "Menghormati misteri proses alam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proses tumbuhan mengubah energi matahari menjadi senyawa gula disebut…",
+              "options": [
+                {
+                  "text": "fotosintesis",
+                  "correct": true
+                },
+                {
+                  "text": "respirasi"
+                },
+                {
+                  "text": "ekstraksi"
+                },
+                {
+                  "text": "fermentasi"
+                }
+              ],
+              "explanation": "Fotosintesis terjadi di daun dengan energi matahari.",
+              "hint": "Kebalikannya adalah respirasi sel."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah masalah lingkungan yang disebut buku?",
+              "options": [
+                {
+                  "text": "Kerusakan hutan dan emisi CO2",
+                  "correct": true
+                },
+                {
+                  "text": "Limbah industri",
+                  "correct": true
+                },
+                {
+                  "text": "Sampah plastik domestik",
+                  "correct": true
+                },
+                {
+                  "text": "Minimnya media sosial",
+                  "correct": false
+                },
+                {
+                  "text": "Kurangnya wisata",
+                  "correct": false
+                },
+                {
+                  "text": "Mahalnya ponsel",
+                  "correct": false
+                }
+              ],
+              "explanation": "Empat bidang masalah lingkungan dicatat dalam bab ini.",
+              "hint": "Media sosial bukan masalah lingkungan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah golongan plastik menurut sifatnya?",
+              "options": [
+                {
+                  "text": "Termostatik",
+                  "correct": true
+                },
+                {
+                  "text": "Termoplastik",
+                  "correct": true
+                },
+                {
+                  "text": "Biofilik",
+                  "correct": false
+                },
+                {
+                  "text": "Hidrofilik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Plastik dibedakan menjadi termostatik dan termoplastik.",
+              "hint": "Berdasarkan perubahan terhadap panas."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Kearifan Lingkungan dan Teknologi Kekinian — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Hewan yang memakan tumbuhan disebut…",
+              "options": [
+                {
+                  "text": "herbivor",
+                  "correct": true
+                },
+                {
+                  "text": "karnivor"
+                },
+                {
+                  "text": "omnivor"
+                },
+                {
+                  "text": "mikroba"
+                }
+              ],
+              "explanation": "Herbivor memakan tumbuhan.",
+              "hint": "Karnivor memakan hewan lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Golongan pengurai sisa makhluk hidup meliputi…",
+              "options": [
+                {
+                  "text": "jamur, bakteri, dan serangga",
+                  "correct": true
+                },
+                {
+                  "text": "harimau dan elang"
+                },
+                {
+                  "text": "sapi dan kambing"
+                },
+                {
+                  "text": "ikan dan udang"
+                }
+              ],
+              "explanation": "Pengurai memecah bangkai menjadi molekul sederhana.",
+              "hint": "Mengembalikan unsur ke alam."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip pertanian organik?",
+              "options": [
+                {
+                  "text": "Meminimalkan bahan kimia",
+                  "correct": true
+                },
+                {
+                  "text": "Memperbaiki sifat tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Mengembalikan unsur hara",
+                  "correct": true
+                },
+                {
+                  "text": "Memakai pupuk kimia berlebihan",
+                  "correct": false
+                },
+                {
+                  "text": "Menebas hutan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pertanian organik selaras alam dan siklus ekolologi.",
+              "hint": "Pupuk kimia berlebihan merusak tanah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat MOL?",
+              "options": [
+                {
+                  "text": "Membuat kompos",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat pupuk cair",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah produksi tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Menutup rapat limbah plastik",
+                  "correct": false
+                },
+                {
+                  "text": "Mengganti air minum",
+                  "correct": false
+                }
+              ],
+              "explanation": "MOL dipakai untuk kompos, POC, dan perbaikan tanah.",
+              "hint": "MOL tidak untuk membuang plastik."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Mamayu hayuning bawana",
+                  "right": "memelihara alam"
+                },
+                {
+                  "id": "m1",
+                  "left": "Eko-spiritualitas",
+                  "right": "cinta lingkungan sebagai ibadah"
+                },
+                {
+                  "id": "m2",
+                  "left": "Fotosintesis",
+                  "right": "mengubah energi matahari menjadi gula"
+                },
+                {
+                  "id": "m3",
+                  "left": "Pemali",
+                  "right": "pantangan lingkungan dengan ganjaran"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "memelihara alam",
+                  "m1": "cinta lingkungan sebagai ibadah",
+                  "m2": "mengubah energi matahari menjadi gula",
+                  "m3": "pantangan lingkungan dengan ganjaran"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan aliran energi di rantai makanan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Energi matahari"
+                },
+                {
+                  "id": "d1",
+                  "text": "Fotosintesis di daun"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tumbuhan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Herbivor"
+                },
+                {
+                  "id": "d4",
+                  "text": "Karnivor"
+                },
+                {
+                  "id": "d5",
+                  "text": "Pengurai"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4",
+                  "d5"
+                ]
+              },
+              "explanation": "Energi mengalir dari matahari ke pengurai.",
+              "hint": "Pengurai mengembalikan unsur ke alam."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan proses fotosintesis.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Energi matahari diserap daun"
+                },
+                {
+                  "id": "p1",
+                  "text": "Akar menyerap air dan mineral"
+                },
+                {
+                  "id": "p2",
+                  "text": "Daun menyedot CO2"
+                },
+                {
+                  "id": "p3",
+                  "text": "Air terpecah jadi hidrogen dan oksigen"
+                },
+                {
+                  "id": "p4",
+                  "text": "Membentuk gula sederhana dan glukosa"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Fotosintesis memadukan cahaya, air, dan CO2.",
+              "hint": "Hasilnya senyawa gula dan oksigen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Paradigma religius yang memandang cinta lingkungan sebagai ibadah disebut…",
+              "options": [
+                {
+                  "text": "eko-spiritualitas",
+                  "correct": true
+                },
+                {
+                  "text": "materialisme"
+                },
+                {
+                  "text": "humanisme"
+                },
+                {
+                  "text": "sekularisme"
+                }
+              ],
+              "explanation": "Eko-spiritual adalah tatanan hidup religius.",
+              "hint": "Menyertakan cinta lingkungan sebagai ibadah suci."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keyakinan akan ganjaran bagi yang melanggar larangan lingkungan disebut…",
+              "options": [
+                {
+                  "text": "pemali",
+                  "correct": true
+                },
+                {
+                  "text": "pahala"
+                },
+                {
+                  "text": "sembah"
+                },
+                {
+                  "text": "sila"
+                }
+              ],
+              "explanation": "Pemali disertai larangan dan tabu lingkungan.",
+              "hint": "Ganjaran berupa kesialan atau celaka."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah jenis MOL yang disebut buku?",
+              "options": [
+                {
+                  "text": "MOL air beras",
+                  "correct": true
+                },
+                {
+                  "text": "MOL air kelapa",
+                  "correct": true
+                },
+                {
+                  "text": "MOL bongkol pisang",
+                  "correct": true
+                },
+                {
+                  "text": "MOL minyak",
+                  "correct": false
+                },
+                {
+                  "text": "MOL semen",
+                  "correct": false
+                }
+              ],
+              "explanation": "MOL dibuat dari bahan organik daerah setempat.",
+              "hint": "Minyak dan semen bukan bahan MOL."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Kearifan Lingkungan dan Teknologi Kekinian — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu larangan lingkungan masyarakat adat adalah…",
+              "options": [
+                {
+                  "text": "tidak sembarangan memasuki kawasan hutan",
+                  "correct": true
+                },
+                {
+                  "text": "menebang semua pohon"
+                },
+                {
+                  "text": "membuang sampah ke sungai"
+                },
+                {
+                  "text": "menguras mata air"
+                }
+              ],
+              "explanation": "Alam dipandang suci dan sakral."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Masalah lingkungan Indonesia mencakup…",
+              "options": [
+                {
+                  "text": "kerusakan hutan, limbah industri, limbah plastik",
+                  "correct": true
+                },
+                {
+                  "text": "kekurangan air bersih saja"
+                },
+                {
+                  "text": "polusi suara saja"
+                },
+                {
+                  "text": "hanya kemacetan"
+                }
+              ],
+              "explanation": "Empat bidang masalah lingkungan disebut buku."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Indonesia dinilai paling bermasalah dalam hal…",
+              "options": [
+                {
+                  "text": "pengelolaan limbah domestik dan sampah plastik",
+                  "correct": true
+                },
+                {
+                  "text": "ekspor mineral"
+                },
+                {
+                  "text": "produksi tekstil"
+                },
+                {
+                  "text": "pariwisata"
+                }
+              ],
+              "explanation": "Sampah plastik mencemari darat hingga lautan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sejak tahun berapa plastik menjadi perhatian dunia sebagai pencemar lautan?",
+              "options": [
+                {
+                  "text": "2005",
+                  "correct": true
+                },
+                {
+                  "text": "1995"
+                },
+                {
+                  "text": "2015"
+                },
+                {
+                  "text": "2020"
+                }
+              ],
+              "explanation": "Sejak 2005 sampah plastik menjadi limbah pencemar lautan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip reduce, reuse, recycle dikenal sebagai…",
+              "options": [
+                {
+                  "text": "3R",
+                  "correct": true
+                },
+                {
+                  "text": "MOL"
+                },
+                {
+                  "text": "POC"
+                },
+                {
+                  "text": "PGPR"
+                }
+              ],
+              "explanation": "3R adalah kurangi, pakai ulang, daur ulang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah cara penanganan sampah plastik?",
+              "options": [
+                {
+                  "text": "Mengurangi pemakaian plastik",
+                  "correct": true
+                },
+                {
+                  "text": "Memakai ulang kantong",
+                  "correct": true
+                },
+                {
+                  "text": "Mendaur ulang",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang ke laut",
+                  "correct": false
+                },
+                {
+                  "text": "Membakar sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "3R mengurangi, memakai ulang, dan mendaur ulang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap eko-spiritual?",
+              "options": [
+                {
+                  "text": "Menjaga mata air",
+                  "correct": true
+                },
+                {
+                  "text": "Melestarikan hutan",
+                  "correct": true
+                },
+                {
+                  "text": "Bersyukur atas alam",
+                  "correct": true
+                },
+                {
+                  "text": "Mengeksploitasi hutan",
+                  "correct": false
+                },
+                {
+                  "text": "Mengotori sungai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Eko-spiritual mencintai alam sebagai ibadah."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "3R",
+                  "right": "kurangi, pakai ulang, daur ulang"
+                },
+                {
+                  "id": "m1",
+                  "left": "MOL",
+                  "right": "mikroorganisme lokal"
+                },
+                {
+                  "id": "m2",
+                  "left": "PGPR",
+                  "right": "mikroba diperbanyak di laboratorium"
+                },
+                {
+                  "id": "m3",
+                  "left": "POC",
+                  "right": "pupuk organik cair"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "kurangi, pakai ulang, daur ulang",
+                  "m1": "mikroorganisme lokal",
+                  "m2": "mikroba diperbanyak di laboratorium",
+                  "m3": "pupuk organik cair"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat MOL sederhana.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Membersihkan wadah"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menghaluskan gula merah"
+                },
+                {
+                  "id": "d2",
+                  "text": "Melarutkan gula dengan air mendidih"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menambahkan bahan cair hingga 2/3 wadah"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menutup rapat dan memfermentasi 7–21 hari"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "MOL dibuat dari gula dan bahan cair lalu difermentasi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah mengelola sampah dengan 3R.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Memisahkan sampah organik dan anorganik"
+                },
+                {
+                  "id": "p1",
+                  "text": "Mengurangi pemakaian plastik"
+                },
+                {
+                  "id": "p2",
+                  "text": "Memakai ulang barang yang layak"
+                },
+                {
+                  "id": "p3",
+                  "text": "Mendaur ulang anorganik"
+                },
+                {
+                  "id": "p4",
+                  "text": "Membuat kompos dari organik"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Pengelolaan dimulai dari pemisahan lalu 3R."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kegiatan yang meminimalkan bahan kimia dalam lahan pertanian adalah…",
+              "options": [
+                {
+                  "text": "pertanian organik",
+                  "correct": true
+                },
+                {
+                  "text": "pertanian intensif"
+                },
+                {
+                  "text": "monokultur"
+                },
+                {
+                  "text": "agrokimia"
+                }
+              ],
+              "explanation": "Pertanian organik selaras alam dan mengembalikan siklus ekologi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan baku pembuatan MOL adalah…",
+              "options": [
+                {
+                  "text": "limbah air cucian beras atau air kelapa dengan gula",
+                  "correct": true
+                },
+                {
+                  "text": "minyak goreng"
+                },
+                {
+                  "text": "air laut"
+                },
+                {
+                  "text": "semen"
+                }
+              ],
+              "explanation": "MOL dibuat dari limbah cair organik dengan gula."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan tentang fotosintesis?",
+              "options": [
+                {
+                  "text": "Menggunakan energi matahari",
+                  "correct": true
+                },
+                {
+                  "text": "Membentuk gula dan glukosa",
+                  "correct": true
+                },
+                {
+                  "text": "Memerlukan air dan CO2",
+                  "correct": true
+                },
+                {
+                  "text": "Melepaskan energi tanpa makanan",
+                  "correct": false
+                },
+                {
+                  "text": "Hanya terjadi di hewan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Fotosintesis terjadi di daun dan memerlukan cahaya, air, CO2."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Mamayu hayuning bawana",
+                  "right": "memelihara alam"
+                },
+                {
+                  "id": "m1",
+                  "left": "Eko-spiritualitas",
+                  "right": "cinta lingkungan sebagai ibadah"
+                },
+                {
+                  "id": "m2",
+                  "left": "Fotosintesis",
+                  "right": "mengubah energi matahari menjadi gula"
+                },
+                {
+                  "id": "m3",
+                  "left": "Pemali",
+                  "right": "pantangan lingkungan dengan ganjaran"
+                },
+                {
+                  "id": "m4",
+                  "left": "3R",
+                  "right": "kurangi, pakai ulang, daur ulang"
+                },
+                {
+                  "id": "m5",
+                  "left": "MOL",
+                  "right": "mikroorganisme lokal"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "memelihara alam",
+                  "m1": "cinta lingkungan sebagai ibadah",
+                  "m2": "mengubah energi matahari menjadi gula",
+                  "m3": "pantangan lingkungan dengan ganjaran",
+                  "m4": "kurangi, pakai ulang, daur ulang",
+                  "m5": "mikroorganisme lokal"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan sikap menjaga lingkungan menurut buku.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyadari alam sebagai karunia"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mengenali larangan dan tabu adat"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memelihara air, tanah, dan hutan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menerapkan pertanian organik"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mensyukuri alam dalam ritual"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Sikap berjalan dari kesadaran sampai praktik syukur."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

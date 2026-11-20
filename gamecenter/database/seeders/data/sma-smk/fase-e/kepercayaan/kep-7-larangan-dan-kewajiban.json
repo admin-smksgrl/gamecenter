@@ -1,0 +1,1275 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "kepercayaan",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "KEP 7",
+      "title": "Mencermati Larangan dan Kewajiban",
+      "description": "Mengamalkan empat kewajiban penghayat—kerja keras, cinta sesama, memelihara alam, dan manembah—serta menjauhi larangan sebagai rambu hidup di jalan kebenaran dan cinta.",
+      "learning_objectives": [
+        "Mengamalkan perbuatan baik sebagai cerminan sikap religius dan spiritual dalam kehidupan nyata.",
+        "Menganalisis dan menyajikan larangan dan kewajiban dalam kepercayaan berkaitan dengan ketaatan atas perintah Tuhan.",
+        "Menjelaskan keterkaitan nilai kearifan lokal, adat, dan tradisi dengan larangan dalam kepercayaan.",
+        "Menjelaskan tahapan prosedural menjalankan kewajiban dan menghindari larangan."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 8 Mencermati Larangan dan Kewajiban; CP Fase E Pendidikan Kepercayaan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Apa kewajiban penghayat?",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 8 Mencermati Larangan dan Kewajiban; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Empat orientasi kewajiban manusia\n\nKepercayaan adalah ketundukan menyembah dan berserah diri kepada Tuhan dengan syarat sikap budi luhur, yaitu cinta dan kebenaran sejati. Dari sikap itu lahir kewajiban-kewajiban manusia.\n\nKewajiban pertama: bekerja keras dalam kebenaran untuk menghidupi diri dan keluarga, lalu sebagian hasilnya dipakai untuk kebajikan. Kewajiban kedua: mencintai sesama dan menghormati pemimpin.\n\nKewajiban ketiga: aktif menjaga dan memelihara alam sebagai wujud mamayu hayuning bawana. Kewajiban keempat, manembah dengan sujud syukur, menjadi puncak keyakinan dan ketundukan kepada Sang Pencipta.\n\nMenyembah Tuhan sebagai puncak kewajiban tidak boleh mengabaikan tiga kewajiban sebelumnya.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "kep-7-larangan-dan-kewajiban-glosarium",
+              "terms": [
+                {
+                  "term": "Kewajiban",
+                  "definition": "Ketentuan yang harus ditunaikan penghayat sebagai bentuk ketundukan pada perintah Tuhan."
+                },
+                {
+                  "term": "Larangan",
+                  "definition": "Rambu hidup di jalan suci yang memandu pelaksanaan kewajiban agar syarat terpenuhi."
+                },
+                {
+                  "term": "Tabu",
+                  "definition": "Pantangan dalam ritual dan kehidupan komunitas yang tidak boleh dilanggar."
+                },
+                {
+                  "term": "Mawas diri",
+                  "definition": "Sikap mengendapkan hawa nafsu dan mengendalikan hati, pikiran, ucapan, serta tindakan."
+                },
+                {
+                  "term": "Mamayu hayuning bawana",
+                  "definition": "Kewajiban memelihara alam sebagai wujud syukur kepada Tuhan."
+                },
+                {
+                  "term": "Pasahat Tondi",
+                  "definition": "Persembahan ritual pada Parmalim, menyerahkan roh atau hidup kepada Tuhan."
+                },
+                {
+                  "term": "Perbuatan tercela",
+                  "definition": "Perbuatan yang melanggar norma tertulis maupun tidak tertulis di masyarakat."
+                },
+                {
+                  "term": "Tenggang rasa",
+                  "definition": "Sikap mawas sesama dengan menghormati martabat dan hak orang lain."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Empat orientasi kewajiban manusia"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kepercayaan adalah ketundukan menyembah dan berserah diri kepada Tuhan dengan syarat sikap budi luhur, yaitu cinta dan kebenaran sejati. Dari sikap itu lahir kewajiban-kewajiban manusia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kewajiban pertama: bekerja keras dalam kebenaran untuk menghidupi diri dan keluarga, lalu sebagian hasilnya dipakai untuk kebajikan. Kewajiban kedua: mencintai sesama dan menghormati pemimpin."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kewajiban ketiga: aktif menjaga dan memelihara alam sebagai wujud mamayu hayuning bawana. Kewajiban keempat, manembah dengan sujud syukur, menjadi puncak keyakinan dan ketundukan kepada Sang Pencipta."
+            },
+            {
+              "type": "diagram",
+              "id": "kep-7-larangan-dan-kewajiban-diagram",
+              "engine": "mermaid",
+              "title": "Empat kewajiban menuju manembah",
+              "code": "flowchart TB\n  A[Kewajiban 1: kerja keras dalam kebenaran] --> B[Kewajiban 2: cinta sesama dan hormat pemimpin]\n  B --> C[Kewajiban 3: memelihara alam]\n  C --> D[Kewajiban 4: manembah dengan sujud syukur]\n  D --> E[Puncak ketundukan kepada Tuhan]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Menyembah Tuhan sebagai puncak kewajiban tidak boleh mengabaikan tiga kewajiban sebelumnya."
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-7-larangan-dan-kewajiban-cp-1",
+              "question": "Kewajiban yang menjadi puncak berkeyakinan menurut buku adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "manembah dengan sujud syukur",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "menumpuk kekayaan"
+                },
+                {
+                  "id": "c2",
+                  "text": "menguasai wilayah"
+                },
+                {
+                  "id": "c3",
+                  "text": "menghindari pergaulan"
+                }
+              ],
+              "explanation": "Manembah menjadi puncak karena menghimpun ketundukan, syukur, dan kesucian."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Larangan sebagai rambu jalan suci",
+          "duration": 300,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 8 Mencermati Larangan dan Kewajiban; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Boleh dan tidak boleh\n\nPerintah mulanya satu: menyembah Pencipta dan tunduk pada kehendak-Nya. Karena hidup atau roh sedang dipertaruhkan, syarat persembahan harus agung dan suci, sehingga ketentuan selalu berpasangan: yang boleh dan yang tidak boleh.\n\nLarangan memandu pelaksanaan kewajiban agar semua syarat terpenuhi. Contoh sederhana: saat berdoa ada larangan gerak-gerik liar, pandangan tidak fokus, suasana gaduh, atau larangan tertentu bagi wanita yang sedang haid dan baru melahirkan.\n\nLarangan umum terkait martabat kemanusiaan: mencuri, berzina, membunuh, memfitnah, menghina atau merendahkan, menyesatkan atau bertipu daya, serta mengurangi hak orang lain.\n\n| Orientasi kewajiban | Wujud kewajiban | Contoh larangan terkait |\n|---|---|---|\n| Diri sendiri dan keluarga | Mawas diri | Menuruti nafsu dan sikap sombong |\n| Sesama manusia | Tenggang rasa | Memfitnah, menghina, mengurangi hak |\n| Alam dan lingkungan | Memelihara alam | Merusak sumber air dan hutan |\n| Tuhan | Manembah dengan syukur | Meninggalkan ibadah dan larangan ritual |\n\n### Tiga dimensi hubungan kehidupan\n\n- Tiga dimensi hubungan manusia: terhadap Tuhan, terhadap sesama (diri, kerabat, dan manusia lain), serta terhadap alam penghidupan.\n- Setiap ritual mencakup norma ketentuan dari ketiga bentuk hubungan sekaligus.\n- Larangan dan tabu dalam nuansa kepercayaan dianggap paling utama karena berkaitan dengan idealisme.\n- Tindakan sesuai norma disebut perbuatan baik dan beradat; pelanggaran larangan disebut perbuatan tercela.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Boleh dan tidak boleh"
+            },
+            {
+              "type": "paragraph",
+              "text": "Perintah mulanya satu: menyembah Pencipta dan tunduk pada kehendak-Nya. Karena hidup atau roh sedang dipertaruhkan, syarat persembahan harus agung dan suci, sehingga ketentuan selalu berpasangan: yang boleh dan yang tidak boleh."
+            },
+            {
+              "type": "paragraph",
+              "text": "Larangan memandu pelaksanaan kewajiban agar semua syarat terpenuhi. Contoh sederhana: saat berdoa ada larangan gerak-gerik liar, pandangan tidak fokus, suasana gaduh, atau larangan tertentu bagi wanita yang sedang haid dan baru melahirkan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Larangan umum terkait martabat kemanusiaan: mencuri, berzina, membunuh, memfitnah, menghina atau merendahkan, menyesatkan atau bertipu daya, serta mengurangi hak orang lain."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Orientasi kewajiban",
+                  "Wujud kewajiban",
+                  "Contoh larangan terkait"
+                ],
+                [
+                  "Diri sendiri dan keluarga",
+                  "Mawas diri",
+                  "Menuruti nafsu dan sikap sombong"
+                ],
+                [
+                  "Sesama manusia",
+                  "Tenggang rasa",
+                  "Memfitnah, menghina, mengurangi hak"
+                ],
+                [
+                  "Alam dan lingkungan",
+                  "Memelihara alam",
+                  "Merusak sumber air dan hutan"
+                ],
+                [
+                  "Tuhan",
+                  "Manembah dengan syukur",
+                  "Meninggalkan ibadah dan larangan ritual"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "kep-7-ritual",
+              "engine": "mermaid",
+              "title": "Tiga nuansa ritual kehidupan",
+              "code": "flowchart TB\n  A[Ritual kehidupan] --> B[Nuansa kepercayaan ketuhanan]\n  A --> C[Nuansa kekerabatan dan interaksi sosial]\n  A --> D[Nuansa memanfaatkan alam]\n  B --> E[Idealisme dan kesucian]\n  C --> F[Aturan dan larangan sosial]\n  D --> G[Aturan ekologi dan ekonomi]\n  E --> H[Perbuatan baik]\n  F --> H\n  G --> H"
+            },
+            {
+              "type": "categorize",
+              "id": "kep-7-klasifikasi",
+              "prompt": "Kelompokkan perbuatan berikut sebagai perbuatan baik atau perbuatan tercela.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Perbuatan baik"
+                },
+                {
+                  "id": "b2",
+                  "label": "Perbuatan tercela"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Mengembalikan barang temuan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Menolong teman yang kesusahan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Menjaga kebersihan lingkungan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Menyebar kabar bohong",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Mengambil hak orang lain",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Menghina keyakinan teman",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Meminta maaf setelah berbuat salah",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Menipu demi keuntungan",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Perbuatan baik sesuai norma kewajiban, perbuatan tercela melanggar rambu larangan.",
+                "wrong": "Periksa lagi: menipu, menghina, dan memfitnah termasuk perbuatan tercela."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tiga dimensi hubungan kehidupan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Tiga dimensi hubungan manusia: terhadap Tuhan, terhadap sesama (diri, kerabat, dan manusia lain), serta terhadap alam penghidupan.",
+                "Setiap ritual mencakup norma ketentuan dari ketiga bentuk hubungan sekaligus.",
+                "Larangan dan tabu dalam nuansa kepercayaan dianggap paling utama karena berkaitan dengan idealisme.",
+                "Tindakan sesuai norma disebut perbuatan baik dan beradat; pelanggaran larangan disebut perbuatan tercela."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-7-larangan-dan-kewajiban-cp-2",
+              "question": "Pelanggaran larangan kepercayaan dipercaya membawa akibat…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "tidak selamat atau celaka di dunia dan kehidupan rohaniah",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "keuntungan duniawi"
+                },
+                {
+                  "id": "c2",
+                  "text": "kebebasan berperilaku"
+                },
+                {
+                  "id": "c3",
+                  "text": "pujian masyarakat"
+                }
+              ],
+              "explanation": "Ganjaran atas pelanggaran adalah ketidakselamatan di dunia maupun kehidupan rohaniah."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 8 Mencermati Larangan dan Kewajiban; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Menjauhi larangan, mendekat kepada Tuhan\n\nFungsi perintah dan larangan ibarat rambu lalu lintas: tanpa rambu terjadi kekacauan dan kecelakaan. Keselarasan, keseimbangan, dan harmonisasi kehidupan adalah target utama perintah dan larangan Tuhan.\n\nCara menjauhi larangan ada tiga. Pertama, bersyukur dalam keadaan apa pun, sebab semua adalah kehendak dan rencana agung Tuhan. Kedua, berserah diri sepenuh hati: suka cita jangan dianggap keberhasilan sendiri, kesedihan jangan ditanggung berlarut-larut.\n\nKetiga, mawas diri: mengendapkan hawa nafsu, mengendalikan hati, pikiran, ucapan, dan tindakan. Melawan nafsu berlaku bagi siapa pun; semakin tinggi pohon semakin kencang angin menerpanya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menjauhi larangan, mendekat kepada Tuhan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fungsi perintah dan larangan ibarat rambu lalu lintas: tanpa rambu terjadi kekacauan dan kecelakaan. Keselarasan, keseimbangan, dan harmonisasi kehidupan adalah target utama perintah dan larangan Tuhan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cara menjauhi larangan ada tiga. Pertama, bersyukur dalam keadaan apa pun, sebab semua adalah kehendak dan rencana agung Tuhan. Kedua, berserah diri sepenuh hati: suka cita jangan dianggap keberhasilan sendiri, kesedihan jangan ditanggung berlarut-larut."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ketiga, mawas diri: mengendapkan hawa nafsu, mengendalikan hati, pikiran, ucapan, dan tindakan. Melawan nafsu berlaku bagi siapa pun; semakin tinggi pohon semakin kencang angin menerpanya."
+            },
+            {
+              "type": "scenario",
+              "id": "kep-7-skenario",
+              "title": "Godaan mencontek di ulangan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Saat ulangan, temanmu menawarkan kunci jawaban. Apa keputusanmu?",
+                  "choices": [
+                    {
+                      "text": "Menolak dan mengerjakan dengan kemampuan sendiri",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Menolak mencontek menjaga kejujuran dan martabat."
+                    },
+                    {
+                      "text": "Menerimanya karena semua teman melakukannya",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Mengikuti arus tetap melanggar larangan menipu."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Nilai ulanganmu lebih rendah dari teman yang mencontek. Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Menerimanya sebagai pelajaran dan belajar lebih giat",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Menerima hasil dengan mawas diri adalah sikap berbudi luhur."
+                    },
+                    {
+                      "text": "Menyesal tidak ikut mencontek",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Penyesalan itu justru melemahkan tekad kebenaran."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Kebiasaan mencontek merusak kejujuran dan kepercayaan orang lain.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Kamu tetap dipercaya dan hasil belajarmu terus membaik.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "kep-7-larangan-dan-kewajiban-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan empat kewajiban penghayat.",
+                  "back": "Kerja keras, cinta sesama, memelihara alam, dan manembah."
+                },
+                {
+                  "front": "Sebutkan tiga cara menjauhi larangan.",
+                  "back": "Bersyukur, berserah diri sepenuh hati, dan mawas diri."
+                },
+                {
+                  "front": "Mengapa larangan diperlukan?",
+                  "back": "Agar semua syarat kewajiban terpenuhi dan kehidupan selaras."
+                },
+                {
+                  "front": "Apa tiga dimensi hubungan kehidupan manusia?",
+                  "back": "Dengan Tuhan, sesama manusia, dan alam penghidupan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-7-larangan-dan-kewajiban-cp-3",
+              "question": "Menurut buku, larangan memandu…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "pelaksanaan kewajiban agar syarat terpenuhi",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "pembagian harta warisan"
+                },
+                {
+                  "id": "c2",
+                  "text": "pemilihan pemimpin politik"
+                },
+                {
+                  "id": "c3",
+                  "text": "penentuan harga barang"
+                }
+              ],
+              "explanation": "Larangan adalah rambu agar kewajiban dilaksanakan dengan syarat yang lengkap."
+            },
+            {
+              "type": "challenge",
+              "id": "kep-7-tantangan",
+              "title": "Tantangan istilah larangan dan kewajiban",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Rambu hidup di jalan suci",
+                  "answer": "Larangan"
+                },
+                {
+                  "question": "Menjaga alam sebagai syukur",
+                  "answer": "Mamayu hayuning bawana"
+                },
+                {
+                  "question": "Mengendalikan hati, pikiran, ucapan",
+                  "answer": "Mawas diri"
+                },
+                {
+                  "question": "Pantangan dalam ritual",
+                  "answer": "Tabu"
+                },
+                {
+                  "question": "Menghormati martabat sesama",
+                  "answer": "Tenggang rasa"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah larangan dan kewajiban terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Mencermati Larangan dan Kewajiban — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kewajiban pertama penghayat menurut buku adalah…",
+              "options": [
+                {
+                  "text": "bekerja keras dalam kebenaran",
+                  "correct": true
+                },
+                {
+                  "text": "menambah harta"
+                },
+                {
+                  "text": "menguasai wilayah"
+                },
+                {
+                  "text": "berhenti belajar"
+                }
+              ],
+              "explanation": "Kerja keras menghidupi diri dan keluarga di jalan kebenaran.",
+              "hint": "Sebagian hasilnya dipakai berbuat kebajikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kewajiban memelihara alam disebut wujud…",
+              "options": [
+                {
+                  "text": "mamayu hayuning bawana",
+                  "correct": true
+                },
+                {
+                  "text": "sangkan paraning dumadi"
+                },
+                {
+                  "text": "manunggaling kawulo gusti"
+                },
+                {
+                  "text": "tepa selira"
+                }
+              ],
+              "explanation": "Dari alamlah manusia memperoleh penghidupan dan perlengkapan ibadah.",
+              "hint": "Memelihara alam adalah bentuk syukur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Puncak berkeyakinan dalam kepercayaan adalah…",
+              "options": [
+                {
+                  "text": "manembah dengan sujud syukur",
+                  "correct": true
+                },
+                {
+                  "text": "menimbun kekayaan"
+                },
+                {
+                  "text": "menjadi penguasa"
+                },
+                {
+                  "text": "mengumpulkan pengikut"
+                }
+              ],
+              "explanation": "Manembah menjadi puncak ketundukan kepada Pencipta.",
+              "hint": "Disertai kesucian fisik dan psikis."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kewajiban penghayat menurut buku?",
+              "options": [
+                {
+                  "text": "Bekerja keras dalam kebenaran",
+                  "correct": true
+                },
+                {
+                  "text": "Mencintai sesama",
+                  "correct": true
+                },
+                {
+                  "text": "Memelihara alam",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah harta pribadi",
+                  "correct": false
+                },
+                {
+                  "text": "Menguasai orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Empat kewajiban berpusat pada kebenaran dan cinta.",
+              "hint": "Harta dan kekuasaan bukan kewajiban."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah larangan terkait martabat kemanusiaan?",
+              "options": [
+                {
+                  "text": "Mencuri",
+                  "correct": true
+                },
+                {
+                  "text": "Memfitnah",
+                  "correct": true
+                },
+                {
+                  "text": "Mengurangi hak orang lain",
+                  "correct": true
+                },
+                {
+                  "text": "Berbagi makanan",
+                  "correct": false
+                },
+                {
+                  "text": "Menolong orang sakit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Larangan itu melindungi hak asasi hidup, harkat, dan moral.",
+              "hint": "Berbagi dan menolong adalah kebaikan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Mencermati Larangan dan Kewajiban — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ketentuan dalam kepercayaan selalu berpasangan, yaitu…",
+              "options": [
+                {
+                  "text": "yang boleh dan yang tidak boleh",
+                  "correct": true
+                },
+                {
+                  "text": "yang mahal dan yang murah"
+                },
+                {
+                  "text": "yang lama dan yang baru"
+                },
+                {
+                  "text": "yang besar dan yang kecil"
+                }
+              ],
+              "explanation": "Satu kewajiban dan satu larangan.",
+              "hint": "Keduanya saling melengkapi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi larangan menurut buku adalah…",
+              "options": [
+                {
+                  "text": "memandu pelaksanaan kewajiban",
+                  "correct": true
+                },
+                {
+                  "text": "membatasi kebebasan tanpa alasan"
+                },
+                {
+                  "text": "mengumpulkan denda"
+                },
+                {
+                  "text": "menambah aturan"
+                }
+              ],
+              "explanation": "Larangan memastikan syarat kewajiban terpenuhi.",
+              "hint": "Contohnya larangan saat berdoa."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah cara menjauhi larangan?",
+              "options": [
+                {
+                  "text": "Bersyukur",
+                  "correct": true
+                },
+                {
+                  "text": "Berserah diri sepenuh hati",
+                  "correct": true
+                },
+                {
+                  "text": "Mawas diri",
+                  "correct": true
+                },
+                {
+                  "text": "Menunda kewajiban",
+                  "correct": false
+                },
+                {
+                  "text": "Menyalahkan keadaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga cara itu mendekatkan diri kepada Tuhan.",
+              "hint": "Menunda justru menjauhkan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah dimensi hubungan kehidupan manusia?",
+              "options": [
+                {
+                  "text": "Dengan Tuhan",
+                  "correct": true
+                },
+                {
+                  "text": "Dengan sesama manusia",
+                  "correct": true
+                },
+                {
+                  "text": "Dengan alam penghidupan",
+                  "correct": true
+                },
+                {
+                  "text": "Dengan media sosial",
+                  "correct": false
+                },
+                {
+                  "text": "Dengan pasar modal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga dimensi hubungan mencakup ketuhanan, kemanusiaan, dan alam.",
+              "hint": "Media dan pasar bukan dimensi buku."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Kewajiban",
+                  "right": "ketentuan yang harus ditunaikan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Larangan",
+                  "right": "rambu hidup di jalan suci"
+                },
+                {
+                  "id": "m2",
+                  "left": "Tabu",
+                  "right": "pantangan dalam ritual"
+                },
+                {
+                  "id": "m3",
+                  "left": "Mawas diri",
+                  "right": "mengendalikan hati, pikiran, ucapan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "ketentuan yang harus ditunaikan",
+                  "m1": "rambu hidup di jalan suci",
+                  "m2": "pantangan dalam ritual",
+                  "m3": "mengendalikan hati, pikiran, ucapan"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan empat kewajiban penghayat.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Kerja keras dalam kebenaran"
+                },
+                {
+                  "id": "d1",
+                  "text": "Cinta sesama dan hormat pemimpin"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memelihara alam"
+                },
+                {
+                  "id": "d3",
+                  "text": "Manembah dengan sujud syukur"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Kewajiban berjenjang menuju manembah sebagai puncak.",
+              "hint": "Manembah menuntut tiga kewajiban terdahulu."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan cara menjauhi larangan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menyadari diri kecil di hadapan Tuhan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Bersyukur dalam keadaan apa pun"
+                },
+                {
+                  "id": "p2",
+                  "text": "Berserah diri sepenuh hati"
+                },
+                {
+                  "id": "p3",
+                  "text": "Mawas diri melawan nafsu"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menjalankan kewajiban dengan tulus"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Cara itu berawal dari kesadaran lalu kebiasaan.",
+              "hint": "Mawas diri menjadi inti."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu larangan umum terkait martabat kemanusiaan adalah…",
+              "options": [
+                {
+                  "text": "mencuri",
+                  "correct": true
+                },
+                {
+                  "text": "berbagi makanan"
+                },
+                {
+                  "text": "menolong orang"
+                },
+                {
+                  "text": "memberi salam"
+                }
+              ],
+              "explanation": "Larangan umum meliputi mencuri, berzina, dan membunuh.",
+              "hint": "Serta memfitnah dan menghina."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbuatan yang melanggar rambu larangan disebut…",
+              "options": [
+                {
+                  "text": "perbuatan tercela",
+                  "correct": true
+                },
+                {
+                  "text": "perbuatan baik"
+                },
+                {
+                  "text": "perbuatan biasa"
+                },
+                {
+                  "text": "perbuatan netral"
+                }
+              ],
+              "explanation": "Pelanggaran norma disebut perbuatan tercela.",
+              "hint": "Ganjarannya ketidakselamatan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh perbuatan baik?",
+              "options": [
+                {
+                  "text": "Mengembalikan barang temuan",
+                  "correct": true
+                },
+                {
+                  "text": "Menolong yang kesusahan",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga kebersihan lingkungan",
+                  "correct": true
+                },
+                {
+                  "text": "Menipu demi keuntungan",
+                  "correct": false
+                },
+                {
+                  "text": "Menghina orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perbuatan baik sesuai norma kewajiban.",
+              "hint": "Menipu dan menghina tercela."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Mencermati Larangan dan Kewajiban — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi perintah dan larangan diibaratkan seperti…",
+              "options": [
+                {
+                  "text": "rambu lalu lintas",
+                  "correct": true
+                },
+                {
+                  "text": "pajak negara"
+                },
+                {
+                  "text": "iklan produk"
+                },
+                {
+                  "text": "jadwal pelajaran"
+                }
+              ],
+              "explanation": "Tanpa rambu terjadi kekacauan dan kecelakaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara pertama menjauhi larangan adalah…",
+              "options": [
+                {
+                  "text": "bersyukur dalam keadaan apa pun",
+                  "correct": true
+                },
+                {
+                  "text": "mengeluh"
+                },
+                {
+                  "text": "menyalahkan orang lain"
+                },
+                {
+                  "text": "menunda kewajiban"
+                }
+              ],
+              "explanation": "Bersyukur dilakukan sekalipun dalam duka."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap berserah diri sepenuh hati berarti…",
+              "options": [
+                {
+                  "text": "menempatkan hidup pada kehendak Tuhan",
+                  "correct": true
+                },
+                {
+                  "text": "menyerah tanpa usaha"
+                },
+                {
+                  "text": "mengikuti keinginan sendiri"
+                },
+                {
+                  "text": "menghindari tanggung jawab"
+                }
+              ],
+              "explanation": "Suka dan duka dikendalikan Tuhan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mawas diri menurut buku adalah…",
+              "options": [
+                {
+                  "text": "mengendapkan hawa nafsu dan mengendalikan diri",
+                  "correct": true
+                },
+                {
+                  "text": "mencurigai orang lain"
+                },
+                {
+                  "text": "menahan semua perasaan"
+                },
+                {
+                  "text": "menghindari pergaulan"
+                }
+              ],
+              "explanation": "Mawas diri mengendalikan hati, pikiran, ucapan, dan tindakan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ungkapan “semakin tinggi pohon semakin kencang angin menerpanya” mengingatkan…",
+              "options": [
+                {
+                  "text": "semua orang sama-sama berperang melawan nafsu",
+                  "correct": true
+                },
+                {
+                  "text": "pohon besar untuk ditebang"
+                },
+                {
+                  "text": "angin selalu kencang di gunung"
+                },
+                {
+                  "text": "orang tinggi lebih kuat"
+                }
+              ],
+              "explanation": "Orang kaya, terhormat, dan berilmu juga melawan nafsu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah larangan yang berkaitan dengan ritual?",
+              "options": [
+                {
+                  "text": "Gerak-gerik liar saat berdoa",
+                  "correct": true
+                },
+                {
+                  "text": "Pandangan tidak fokus",
+                  "correct": true
+                },
+                {
+                  "text": "Suasana sekitar yang gaduh",
+                  "correct": true
+                },
+                {
+                  "text": "Membaca dengan tenang",
+                  "correct": false
+                },
+                {
+                  "text": "Duduk dengan rapi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Larangan ritual menjaga kesucian dan kekhusyukan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan tentang manembah?",
+              "options": [
+                {
+                  "text": "Puncak berkeyakinan",
+                  "correct": true
+                },
+                {
+                  "text": "Bentuk sujud syukur",
+                  "correct": true
+                },
+                {
+                  "text": "Mempersembahkan yang terbaik",
+                  "correct": true
+                },
+                {
+                  "text": "Cara mencari kekayaan",
+                  "correct": false
+                },
+                {
+                  "text": "Acara hiburan massal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Manembah adalah puncak ketundukan dengan puja-puji."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Mamayu hayuning bawana",
+                  "right": "memelihara alam"
+                },
+                {
+                  "id": "m1",
+                  "left": "Tenggang rasa",
+                  "right": "menghormati martabat sesama"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pasahat Tondi",
+                  "right": "persembahan ritual Parmalim"
+                },
+                {
+                  "id": "m3",
+                  "left": "Perbuatan tercela",
+                  "right": "pelanggaran norma masyarakat"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "memelihara alam",
+                  "m1": "menghormati martabat sesama",
+                  "m2": "persembahan ritual Parmalim",
+                  "m3": "pelanggaran norma masyarakat"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan terbentuknya larangan dalam kepercayaan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Perintah Tuhan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Aturan norma kehidupan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Rambu larangan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menjadi tradisi dan adat"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menjadi pedoman semua aspek hidup"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Larangan berakar dari perintah Tuhan lalu menjadi tradisi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah memenuhi kewajiban kerja keras.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Belajar keras sejak awal"
+                },
+                {
+                  "id": "p1",
+                  "text": "Bekerja keras menghidupi diri"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menghidupi keluarga"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menyisihkan hasil untuk kebajikan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mencintai sesama lebih luas"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Kerja keras berawal dari belajar lalu berbuah kebajikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Larangan dalam doa dan ritual tertentu mencakup…",
+              "options": [
+                {
+                  "text": "tidak saling bicara dan larangan tertentu bagi wanita haid atau baru melahirkan",
+                  "correct": true
+                },
+                {
+                  "text": "membawa makanan"
+                },
+                {
+                  "text": "memakai pakaian"
+                },
+                {
+                  "text": "duduk di kursi"
+                }
+              ],
+              "explanation": "Ketentuan itu bagian kesucian ritual."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbuatan yang sesuai norma kewajiban disebut…",
+              "options": [
+                {
+                  "text": "perbuatan baik",
+                  "correct": true
+                },
+                {
+                  "text": "perbuatan tercela"
+                },
+                {
+                  "text": "perbuatan biasa"
+                },
+                {
+                  "text": "perbuatan bebas"
+                }
+              ],
+              "explanation": "Orang yang melakukannya disebut orang baik dan beradat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap menghadapi penderitaan menurut buku?",
+              "options": [
+                {
+                  "text": "Menerima sebagai pelajaran berharga",
+                  "correct": true
+                },
+                {
+                  "text": "Bersyukur dan manembah",
+                  "correct": true
+                },
+                {
+                  "text": "Menjadikannya penawar keangkuhan",
+                  "correct": true
+                },
+                {
+                  "text": "Menyalahkan Tuhan",
+                  "correct": false
+                },
+                {
+                  "text": "Putus asa berlarut-larut",
+                  "correct": false
+                }
+              ],
+              "explanation": "Orang yang percaya belajar dari penderitaan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Kewajiban",
+                  "right": "ketentuan yang harus ditunaikan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Larangan",
+                  "right": "rambu hidup di jalan suci"
+                },
+                {
+                  "id": "m2",
+                  "left": "Tabu",
+                  "right": "pantangan dalam ritual"
+                },
+                {
+                  "id": "m3",
+                  "left": "Mawas diri",
+                  "right": "mengendalikan hati, pikiran, ucapan"
+                },
+                {
+                  "id": "m4",
+                  "left": "Mamayu hayuning bawana",
+                  "right": "memelihara alam"
+                },
+                {
+                  "id": "m5",
+                  "left": "Tenggang rasa",
+                  "right": "menghormati martabat sesama"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "ketentuan yang harus ditunaikan",
+                  "m1": "rambu hidup di jalan suci",
+                  "m2": "pantangan dalam ritual",
+                  "m3": "mengendalikan hati, pikiran, ucapan",
+                  "m4": "memelihara alam",
+                  "m5": "menghormati martabat sesama"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan sikap menghadapi suka dan duka.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menerima kenyataan hidup"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tidak merayakan suka berlebihan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tidak berlarut dalam sedih"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pasrah berserah kepada Tuhan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mengambil pelajaran dari keduanya"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Suka dan duka dihadapi dengan keseimbangan dan syukur."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

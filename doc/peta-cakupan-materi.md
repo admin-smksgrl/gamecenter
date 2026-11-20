@@ -1,6 +1,6 @@
 # Peta Cakupan Materi — Semua Buku Ajar SMA/SMK
 
-**Diperbarui:** 20 November 2026 (rilis 0.42.0)
+**Diperbarui:** 20 November 2026 (rilis 0.43.0)
 **Prinsip:** **satu buku = seluruh bab**, tidak ada buku yang diambil sebagian.
 Setiap bab = 3+ materi + 30 soal (5 mudah / 10 sedang / 15 sulit).
 
@@ -19,7 +19,7 @@ Status hanya boleh ditandai ✅ bila **seluruh** bab dalam buku itu sudah diimpo
 | Buku yang daftar isinya belum terbaca otomatis | 23 |
 
 Perkiraan bila seluruh 253 bab dikerjakan: **253 chapter / 7.590 soal**.
-Saat ini **86 chapter / 2.580 soal** selesai (34 %).
+Saat ini **94 chapter / 2.820 soal** selesai (37 %).
 
 ---
 
@@ -38,7 +38,7 @@ Saat ini **86 chapter / 2.580 soal** selesai (34 %).
 | PJOK | `PJOK-BG-KLS-X.pdf` | 8 | 8 | ✅ SELESAI |
 | Prakarya (4 aspek) | `Prakarya-*-BG-KLS-X.pdf` | 14 unit | 14 | ✅ SELESAI (Kerajinan 3/3, Rekayasa 4/4, Budi Daya 3/3, Pengolahan 4/4) |
 | Sejarah | `Sejarah-BG-KLS-X.pdf` | ? | 0 | ⬜ daftar isi perlu dipetakan |
-| Kepercayaan | `Kepercayaan-BS-KLS-X.pdf` | 5 | 0 | ⬜ belum |
+| Kepercayaan | `Kepercayaan-BS-KLS-X.pdf` | 8 | 8 | ✅ SELESAI |
 | Projek IPAS | `Projek-IPAS-BS-KLS-X.pdf` | 6 | 6 | ✅ SELESAI (level SMK) |
 | SMK: Agriteknologi | `Agriteknologi-…-Sem-1.pdf` | 6 | 0 | ⬜ belum |
 | SMK: Animasi | `Dasar-Animasi-BS-KLS-X.pdf` | 10 | 0 | ⬜ belum |

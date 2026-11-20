@@ -1,0 +1,1307 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "kepercayaan",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "KEP 1",
+      "title": "Sejarah Kepercayaan terhadap Tuhan Yang Maha Esa",
+      "description": "Menelusuri asal-usul hidup dan kehidupan, keberagaman sistem kepercayaan Nusantara, serta perjuangan penghayat dalam memperoleh pengakuan dan hak sipil sebelum dan sesudah kemerdekaan.",
+      "learning_objectives": [
+        "Memberikan argumentasi tentang asal-usul hidup dan kehidupan dengan beberapa teori asal mula alam semesta.",
+        "Menuliskan sejarah Kepercayaan terhadap Tuhan Yang Maha Esa meliputi konsep kepercayaan, konsep Ketuhanan, dan ajaran budi luhurnya.",
+        "Meneladani perjuangan kepercayaan sebagai nilai sikap dalam kehidupan hingga pergaulan global."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 1 Sejarah Kepercayaan Terhadap Tuhan Yang Maha Esa; CP Fase E Pendidikan Kepercayaan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa perlu mengenal asal-usul?",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 1 Sejarah Kepercayaan Terhadap Tuhan Yang Maha Esa; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Kepercayaan dan asal-usul hidup\n\nKepercayaan terhadap Tuhan Yang Maha Esa secara etimologi berarti mengakui dengan sungguh, meyakini, serta tunduk berserah diri kepada Tuhan Yang Maha Esa, Pencipta yang Maha Besar (Usman Pelly dalam Gultom, 2010).\n\nInti ajarannya ada dua. Pertama, Tuhan Maha Esa dan Maha Kuasa melampaui semua daya yang dikenali manusia. Kedua, tujuan hidup adalah kembali ke asal: roh suci menjadi penghubung kehendak Tuhan, disebut tondi dalam bahasa Batak dan urip dalam bahasa Jawa.\n\nManusia bukan sekadar tubuh biologis. Ada tiga elemen hidup: tubuh sebagai wadah, roh dalam batin sebagai hidup yang hakiki, dan akal sebagai alat berpikir dan merasa yang menyeimbangkan hidup ragawi serta rohani.\n\nAnimisme dan dinamisme bukan bentuk kepercayaan keagamaan, melainkan paham dalam kebudayaan; penghayat menyembah Tuhan Yang Maha Esa.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "kep-1-sejarah-kepercayaan-glosarium",
+              "terms": [
+                {
+                  "term": "Kepercayaan",
+                  "definition": "Pernyataan dan pelaksanaan hubungan manusia dengan Tuhan Yang Maha Esa melalui tata laku tertentu disertai pengamalan budi luhur."
+                },
+                {
+                  "term": "Tondi",
+                  "definition": "Sebutan roh atau hidup dalam bahasa Batak, yaitu dzat Tuhan yang diberikan kepada manusia."
+                },
+                {
+                  "term": "Urip",
+                  "definition": "Sebutan hidup atau roh dalam bahasa Jawa."
+                },
+                {
+                  "term": "Teori nebula",
+                  "definition": "Teori asal tata surya dari pusaran kabut gas panas yang memadat selama jutaan tahun."
+                },
+                {
+                  "term": "The Missing Link",
+                  "definition": "Istilah untuk mata rantai evolusi manusia yang belum ditemukan bukti gamblangnya."
+                },
+                {
+                  "term": "Animisme",
+                  "definition": "Paham dalam kebudayaan tentang kepercayaan pada roh, bukan bentuk kepercayaan keagamaan tersendiri."
+                },
+                {
+                  "term": "Mulajadi Nabolon",
+                  "definition": "Sebutan Tuhan Yang Maha Pencipta dalam kepercayaan Parmalim, Batak Toba."
+                },
+                {
+                  "term": "Marapu",
+                  "definition": "Kepercayaan masyarakat Sumba; surga roh disebut Prai Marapu."
+                },
+                {
+                  "term": "Hak sipil",
+                  "definition": "Hak sebagai warga negara, termasuk pencatatan sipil dan layanan pendidikan."
+                },
+                {
+                  "term": "Sangkan paraning dumadi",
+                  "definition": "Falsafah Jawa: asal dan tujuan akhir segala yang menjadi, yaitu Tuhan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kepercayaan dan asal-usul hidup"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kepercayaan terhadap Tuhan Yang Maha Esa secara etimologi berarti mengakui dengan sungguh, meyakini, serta tunduk berserah diri kepada Tuhan Yang Maha Esa, Pencipta yang Maha Besar (Usman Pelly dalam Gultom, 2010)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Inti ajarannya ada dua. Pertama, Tuhan Maha Esa dan Maha Kuasa melampaui semua daya yang dikenali manusia. Kedua, tujuan hidup adalah kembali ke asal: roh suci menjadi penghubung kehendak Tuhan, disebut tondi dalam bahasa Batak dan urip dalam bahasa Jawa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Manusia bukan sekadar tubuh biologis. Ada tiga elemen hidup: tubuh sebagai wadah, roh dalam batin sebagai hidup yang hakiki, dan akal sebagai alat berpikir dan merasa yang menyeimbangkan hidup ragawi serta rohani."
+            },
+            {
+              "type": "diagram",
+              "id": "kep-1-sejarah-kepercayaan-diagram",
+              "engine": "mermaid",
+              "title": "Tiga elemen manusia hidup",
+              "code": "flowchart TB\n  A[Manusia hidup] --> B[Tubuh biologis: raga sebagai wadah]\n  A --> C[Roh dalam batin: hidup yang hakiki]\n  A --> D[Akal: pikiran dan hati]\n  C --> E[Terhubung pada Tuhan sumber hidup]\n  D --> F[Kebijaksanaan dan keseimbangan hidup]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Animisme dan dinamisme bukan bentuk kepercayaan keagamaan, melainkan paham dalam kebudayaan; penghayat menyembah Tuhan Yang Maha Esa."
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-1-sejarah-kepercayaan-cp-1",
+              "question": "Sebutan roh atau hidup dalam bahasa Batak adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "tondi",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "urip"
+                },
+                {
+                  "id": "c2",
+                  "text": "marapu"
+                },
+                {
+                  "id": "c3",
+                  "text": "kaharingan"
+                }
+              ],
+              "explanation": "Tondi (Batak) dan urip (Jawa) sama-sama menunjuk roh atau hidup pemberian Tuhan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Keberagaman sistem kepercayaan",
+          "duration": 300,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 1 Sejarah Kepercayaan Terhadap Tuhan Yang Maha Esa; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Sebutan Tuhan dan tipe penghayat\n\nPenyebutan Sang Pencipta berbeda menurut bahasa dan budaya: Mulajadi Nabolon pada Parmalim Batak Toba, Mori atau Magholo-Marawi pada Marapu Sumba, Eyang Gusti Agung, Sang Hyang, dan Sangkan Paran pada budaya spiritual Jawa, serta Pangeran di Sunda.\n\nDari sisi pribadi ada dua tipe penghayat: yang menyembah hanya kepada Tuhan Yang Maha Esa, dan yang menyembah Tuhan namun juga menerima kekuatan alam atau astral sebagai tuntunan hidup.\n\nDari sisi komunitas ada dua tipe: komunitas tertutup yang terpusat pada satu daerah etnis, dan komunitas terbuka yang penghayatnya terpencar serta hidup berdampingan dengan pemeluk agama besar.\n\n| Daerah atau komunitas | Sebutan Tuhan | Keterangan |\n|---|---|---|\n| Batak Toba (Parmalim) | Mulajadi Nabolon | Mula berarti awal, Nabolon berarti maha besar |\n| Sumba (Marapu) | Mori atau Magholo-Marawi | Surga roh disebut Prai Marapu |\n| Jawa (budaya spiritual) | Sangkan Paran, Gusti Pangeran | Falsafah sangkan paraning dumadi |\n| Sunda | Pangeran | Berkembang dalam Sunda Wiwitan |\n| Kalimantan (Kaharingan) | Ranying Hatalla Langit | Menyatu dengan adat Dayak |\n\n### Jalan perjuangan penghayat\n\n- Masa pergerakan: paguyuban kebatinan tumbuh tanpa tendensi politik, seperti Sumarah, Subud, Hardo Pusara, dan Purba Jati.\n- Tokoh nasional dari kalangan penghayat antara lain Sudirman (Paguyuban Sumarah) dan KMRT Wongsonegoro yang duduk di BPUPKI.\n- Setelah kemerdekaan, rentetan aturan memperkuat hak sipil: PP 37/2007, Perpres 25/2008, Peraturan Bersama Mendagri dan Menbudpar 43 dan 41/2009, serta Permendiknas 27/2016.\n- Putusan MK 97/PUU-XIV/2016 menegaskan agama dan kepercayaan setara, sesuai Pasal 29 UUD 1945 dan Pasal 28E ayat (1)–(2).",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sebutan Tuhan dan tipe penghayat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Penyebutan Sang Pencipta berbeda menurut bahasa dan budaya: Mulajadi Nabolon pada Parmalim Batak Toba, Mori atau Magholo-Marawi pada Marapu Sumba, Eyang Gusti Agung, Sang Hyang, dan Sangkan Paran pada budaya spiritual Jawa, serta Pangeran di Sunda."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dari sisi pribadi ada dua tipe penghayat: yang menyembah hanya kepada Tuhan Yang Maha Esa, dan yang menyembah Tuhan namun juga menerima kekuatan alam atau astral sebagai tuntunan hidup."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dari sisi komunitas ada dua tipe: komunitas tertutup yang terpusat pada satu daerah etnis, dan komunitas terbuka yang penghayatnya terpencar serta hidup berdampingan dengan pemeluk agama besar."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Daerah atau komunitas",
+                  "Sebutan Tuhan",
+                  "Keterangan"
+                ],
+                [
+                  "Batak Toba (Parmalim)",
+                  "Mulajadi Nabolon",
+                  "Mula berarti awal, Nabolon berarti maha besar"
+                ],
+                [
+                  "Sumba (Marapu)",
+                  "Mori atau Magholo-Marawi",
+                  "Surga roh disebut Prai Marapu"
+                ],
+                [
+                  "Jawa (budaya spiritual)",
+                  "Sangkan Paran, Gusti Pangeran",
+                  "Falsafah sangkan paraning dumadi"
+                ],
+                [
+                  "Sunda",
+                  "Pangeran",
+                  "Berkembang dalam Sunda Wiwitan"
+                ],
+                [
+                  "Kalimantan (Kaharingan)",
+                  "Ranying Hatalla Langit",
+                  "Menyatu dengan adat Dayak"
+                ]
+              ]
+            },
+            {
+              "type": "timeline",
+              "id": "kep-1-timeline",
+              "items": [
+                {
+                  "when": "1908",
+                  "title": "Budi Utomo berdiri",
+                  "body": "Kesadaran berorganisasi penduduk pribumi tumbuh."
+                },
+                {
+                  "when": "1928",
+                  "title": "Sumpah Pemuda",
+                  "body": "Tonggak nasionalisme Indonesia; Indonesia Raya dinyanyikan dua stanza."
+                },
+                {
+                  "when": "1945",
+                  "title": "Pasal 29 UUD 1945",
+                  "body": "Kata “kepercayaan” masuk berkat perjuangan tokoh kepercayaan."
+                },
+                {
+                  "when": "1973",
+                  "title": "TAP MPR IV/1973",
+                  "body": "Pembinaan penghayat kepercayaan diamanatkan negara."
+                },
+                {
+                  "when": "2006",
+                  "title": "UU No. 23/2006",
+                  "body": "Administrasi kependudukan mengakui kolom kepercayaan."
+                },
+                {
+                  "when": "2016",
+                  "title": "Putusan MK 97/PUU-XIV/2016",
+                  "body": "Agama dan kepercayaan dinyatakan setara kedudukannya."
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "kep-1-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam tipe penghayat atau tipe komunitas yang sesuai.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Tipe pribadi"
+                },
+                {
+                  "id": "b2",
+                  "label": "Tipe komunitas"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Menyembah hanya kepada Tuhan Yang Maha Esa",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Menyembah Tuhan dan menerima kekuatan astral",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Penghayat terpusat pada satu daerah etnis",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Penghayat terpencar dan berdampingan dengan agama besar",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Lembaga menjadi wadah pemersatu, bukan wilayah",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Pemimpin tidak berwenang sebagai penguasa politis",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Tipe pribadi menyangkut cara menyembah, tipe komunitas menyangkut sebaran dan kelembagaan.",
+                "wrong": "Periksa lagi: ciri kelembagaan dan sebaran penghayat termasuk tipe komunitas."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Jalan perjuangan penghayat"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Masa pergerakan: paguyuban kebatinan tumbuh tanpa tendensi politik, seperti Sumarah, Subud, Hardo Pusara, dan Purba Jati.",
+                "Tokoh nasional dari kalangan penghayat antara lain Sudirman (Paguyuban Sumarah) dan KMRT Wongsonegoro yang duduk di BPUPKI.",
+                "Setelah kemerdekaan, rentetan aturan memperkuat hak sipil: PP 37/2007, Perpres 25/2008, Peraturan Bersama Mendagri dan Menbudpar 43 dan 41/2009, serta Permendiknas 27/2016.",
+                "Putusan MK 97/PUU-XIV/2016 menegaskan agama dan kepercayaan setara, sesuai Pasal 29 UUD 1945 dan Pasal 28E ayat (1)–(2)."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-1-sejarah-kepercayaan-cp-2",
+              "question": "Tokoh penghayat yang ikut merumuskan Pasal 29 UUD 1945 adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "KMRT Wongsonegoro",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Charles Darwin"
+                },
+                {
+                  "id": "c2",
+                  "text": "Pater W. Schmidt"
+                },
+                {
+                  "id": "c3",
+                  "text": "Usman Pelly"
+                }
+              ],
+              "explanation": "Wongsonegoro adalah tokoh kepercayaan nasional yang duduk di BPUPKI dan pernah menjabat Menteri Pendidikan."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 1 Sejarah Kepercayaan Terhadap Tuhan Yang Maha Esa; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Dari teori asal-usul sampai hak sipil\n\nIlmu pengetahuan menjelaskan asal benda fisik lewat teori nebula dan evolusi, sedangkan kepercayaan menjelaskan asal hidup dan kehidupan rohaniah. Keduanya berbeda titik pandang sehingga tidak dapat diperbandingkan secara langsung.\n\nTeori nebula menyebut tata surya berasal dari pusaran kabut gas panas yang mendingin jutaan tahun. Evolusi berlanjut hingga terbentuk DNA dan RNA, virus, mitokondria, kloroplast, bakteri, lalu tumbuhan dan hewan.\n\nCharles Darwin dalam On the Origin of Species by Means of Natural Selection menyatakan spesies sekarang berasal dari perubahan perlahan spesies sebelumnya, dan individu yang mampu beradaptasi akan bertahan. Namun Darwin tidak membahas asal-usul manusia; celah itulah yang disebut The Missing Link.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari teori asal-usul sampai hak sipil"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ilmu pengetahuan menjelaskan asal benda fisik lewat teori nebula dan evolusi, sedangkan kepercayaan menjelaskan asal hidup dan kehidupan rohaniah. Keduanya berbeda titik pandang sehingga tidak dapat diperbandingkan secara langsung."
+            },
+            {
+              "type": "paragraph",
+              "text": "Teori nebula menyebut tata surya berasal dari pusaran kabut gas panas yang mendingin jutaan tahun. Evolusi berlanjut hingga terbentuk DNA dan RNA, virus, mitokondria, kloroplast, bakteri, lalu tumbuhan dan hewan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Charles Darwin dalam On the Origin of Species by Means of Natural Selection menyatakan spesies sekarang berasal dari perubahan perlahan spesies sebelumnya, dan individu yang mampu beradaptasi akan bertahan. Namun Darwin tidak membahas asal-usul manusia; celah itulah yang disebut The Missing Link."
+            },
+            {
+              "type": "scenario",
+              "id": "kep-1-skenario",
+              "title": "Menjelaskan kepercayaan kepada teman",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Temanmu bertanya, “Kepercayaanmu menyembah apa?” Apa jawaban terbaik?",
+                  "choices": [
+                    {
+                      "text": "Menyembah Tuhan Yang Maha Esa, Pencipta alam semesta",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Jawaban itu sesuai inti ajaran kepercayaan."
+                    },
+                    {
+                      "text": "Menyembah roh leluhur dan benda keramat",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Penghayat menyembah Tuhan; penghormatan leluhur bukan penyembahan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Temanmu menyebut kepercayaan sebagai animisme. Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Menjelaskan bahwa animisme adalah paham budaya, bukan bentuk kepercayaan",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Penjelasan itu meluruskan istilah secara tepat."
+                    },
+                    {
+                      "text": "Diam dan menjauhi teman tersebut",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menjauh tidak membangun saling pengertian."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Salah paham berlanjut dan pergaulan menjadi renggang.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Teman memahami dan menghormati kepercayaanmu.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "kep-1-sejarah-kepercayaan-kartu",
+              "cards": [
+                {
+                  "front": "Apa dua inti ajaran kepercayaan?",
+                  "back": "Tuhan Maha Esa dan Maha Kuasa; tujuan hidup kembali ke asal."
+                },
+                {
+                  "front": "Apa isi teori nebula?",
+                  "back": "Tata surya terbentuk dari pusaran kabut gas panas yang mendingin."
+                },
+                {
+                  "front": "Mengapa Darwin tidak menjelaskan asal manusia?",
+                  "back": "Ia tidak membahasnya; celah bukti itu disebut The Missing Link."
+                },
+                {
+                  "front": "Apa isi Putusan MK 97/PUU-XIV/2016?",
+                  "back": "Agama dan kepercayaan setara kedudukannya sebagai hak konstitusional."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-1-sejarah-kepercayaan-cp-3",
+              "question": "Fosil Homo erectus sebagian ditemukan di pulau…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Jawa",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Sumatra"
+                },
+                {
+                  "id": "c2",
+                  "text": "Bali"
+                },
+                {
+                  "id": "c3",
+                  "text": "Sulawesi"
+                }
+              ],
+              "explanation": "Homo erectus berusia sekitar 2–2,5 juta tahun dan sebagian fosilnya ditemukan di Jawa."
+            },
+            {
+              "type": "challenge",
+              "id": "kep-1-tantangan",
+              "title": "Tantangan istilah sejarah kepercayaan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Roh dalam bahasa Batak",
+                  "answer": "Tondi"
+                },
+                {
+                  "question": "Roh dalam bahasa Jawa",
+                  "answer": "Urip"
+                },
+                {
+                  "question": "Sebutan Tuhan pada Parmalim",
+                  "answer": "Mulajadi Nabolon"
+                },
+                {
+                  "question": "Celah bukti evolusi manusia",
+                  "answer": "The Missing Link"
+                },
+                {
+                  "question": "Penulis On the Origin of Species",
+                  "answer": "Charles Darwin"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah sejarah kepercayaan terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Sejarah Kepercayaan terhadap Tuhan Yang Maha Esa — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Secara etimologi, kepercayaan berarti…",
+              "options": [
+                {
+                  "text": "mengakui, meyakini, dan berserah diri kepada Tuhan Yang Maha Esa",
+                  "correct": true
+                },
+                {
+                  "text": "menolak semua kekuatan gaib"
+                },
+                {
+                  "text": "menyembah benda-benda pusaka"
+                },
+                {
+                  "text": "mengikuti adat tanpa keyakinan"
+                }
+              ],
+              "explanation": "Kepercayaan berarti mengakui sungguh, meyakini, dan tunduk berserah kepada Tuhan.",
+              "hint": "Disertai pengamalan nilai budi luhur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebutan roh kehidupan dalam bahasa Jawa adalah…",
+              "options": [
+                {
+                  "text": "urip",
+                  "correct": true
+                },
+                {
+                  "text": "tondi"
+                },
+                {
+                  "text": "marapu"
+                },
+                {
+                  "text": "kaharingan"
+                }
+              ],
+              "explanation": "Urip (Jawa) dan tondi (Batak) bermakna hidup atau roh.",
+              "hint": "Keduanya dzat Tuhan dalam diri manusia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tiga elemen manusia hidup menurut buku adalah…",
+              "options": [
+                {
+                  "text": "tubuh biologis, roh, dan akal",
+                  "correct": true
+                },
+                {
+                  "text": "tubuh, harta, dan tahta"
+                },
+                {
+                  "text": "roh, alam, dan leluhur"
+                },
+                {
+                  "text": "akal, nafsu, dan tenaga"
+                }
+              ],
+              "explanation": "Manusia terdiri atas raga, roh dalam batin, dan akal.",
+              "hint": "Akal menyeimbangkan hidup ragawi dan rohani."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah elemen manusia hidup menurut buku?",
+              "options": [
+                {
+                  "text": "Tubuh biologis",
+                  "correct": true
+                },
+                {
+                  "text": "Roh dalam batin",
+                  "correct": true
+                },
+                {
+                  "text": "Akal",
+                  "correct": true
+                },
+                {
+                  "text": "Harta warisan",
+                  "correct": false
+                },
+                {
+                  "text": "Kekuasaan politik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Manusia terdiri atas raga, roh, dan akal.",
+              "hint": "Harta dan kekuasaan bukan elemen hidup."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sebutan Tuhan dalam budaya spiritual Nusantara?",
+              "options": [
+                {
+                  "text": "Mulajadi Nabolon",
+                  "correct": true
+                },
+                {
+                  "text": "Sangkan Paran",
+                  "correct": true
+                },
+                {
+                  "text": "Pangeran",
+                  "correct": true
+                },
+                {
+                  "text": "Zeus",
+                  "correct": false
+                },
+                {
+                  "text": "Odin",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sebutan Tuhan menyesuaikan bahasa dan budaya setempat.",
+              "hint": "Zeus dan Odin berasal dari mitologi Eropa."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Sejarah Kepercayaan terhadap Tuhan Yang Maha Esa — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Teori asal tata surya dari kabut gas panas disebut teori…",
+              "options": [
+                {
+                  "text": "nebula",
+                  "correct": true
+                },
+                {
+                  "text": "relativitas"
+                },
+                {
+                  "text": "big bang"
+                },
+                {
+                  "text": "seleksi alam"
+                }
+              ],
+              "explanation": "Teori nebula menyebut tata surya berasal dari pusaran kabut gas.",
+              "hint": "Gas mendingin selama jutaan tahun."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Buku Darwin yang membahas seleksi alam berjudul…",
+              "options": [
+                {
+                  "text": "On the Origin of Species by Means of Natural Selection",
+                  "correct": true
+                },
+                {
+                  "text": "The Descent of Man"
+                },
+                {
+                  "text": "Das Kapital"
+                },
+                {
+                  "text": "Leviathan"
+                }
+              ],
+              "explanation": "Darwin menulis On the Origin of Species by Means of Natural Selection.",
+              "hint": "Buku itu tidak membahas asal usul manusia."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah peraturan yang memperkuat hak sipil penghayat?",
+              "options": [
+                {
+                  "text": "UU No. 23 Tahun 2006",
+                  "correct": true
+                },
+                {
+                  "text": "PP No. 37 Tahun 2007",
+                  "correct": true
+                },
+                {
+                  "text": "Permendiknas No. 27 Tahun 2016",
+                  "correct": true
+                },
+                {
+                  "text": "UU No. 1 Tahun 1970",
+                  "correct": false
+                },
+                {
+                  "text": "PP No. 10 Tahun 1980",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiganya mengatur adminduk dan layanan pendidikan penghayat.",
+              "hint": "Peraturan itu menjamin layanan negara."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah isi ajaran kepercayaan menurut buku?",
+              "options": [
+                {
+                  "text": "Hubungan dengan Tuhan Yang Maha Esa",
+                  "correct": true
+                },
+                {
+                  "text": "Penghayatan tulus dan ikhlas",
+                  "correct": true
+                },
+                {
+                  "text": "Pengamalan budi pekerti luhur",
+                  "correct": true
+                },
+                {
+                  "text": "Penyembahan kepada benda",
+                  "correct": false
+                },
+                {
+                  "text": "Permusuhan antar keyakinan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ajaran kepercayaan menekankan hubungan dengan Tuhan dan budi luhur.",
+              "hint": "Penghayat menyembah Tuhan, bukan benda."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Tondi",
+                  "right": "roh dalam bahasa Batak"
+                },
+                {
+                  "id": "m1",
+                  "left": "Urip",
+                  "right": "hidup dalam bahasa Jawa"
+                },
+                {
+                  "id": "m2",
+                  "left": "Teori nebula",
+                  "right": "asal tata surya dari kabut gas"
+                },
+                {
+                  "id": "m3",
+                  "left": "The Missing Link",
+                  "right": "celah bukti evolusi manusia"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "roh dalam bahasa Batak",
+                  "m1": "hidup dalam bahasa Jawa",
+                  "m2": "asal tata surya dari kabut gas",
+                  "m3": "celah bukti evolusi manusia"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur pembentukan tata surya menurut teori nebula.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Kabut gas panas berputar"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pendinginan selama jutaan tahun"
+                },
+                {
+                  "id": "d2",
+                  "text": "Pembentukan planet"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pusat pusaran menjadi matahari"
+                },
+                {
+                  "id": "d4",
+                  "text": "Bumi memiliki lautan, daratan, dan atmosfer"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kabut gas mendingin lalu membentuk planet dan matahari.",
+              "hint": "Pusat pusaran menjadi bintang."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan tahap evolusi molekul kehidupan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Asam amino dan gula sederhana"
+                },
+                {
+                  "id": "p1",
+                  "text": "DNA dan RNA"
+                },
+                {
+                  "id": "p2",
+                  "text": "Virus, mitokondria, kloroplast"
+                },
+                {
+                  "id": "p3",
+                  "text": "Sel bakteri dan protozoa"
+                },
+                {
+                  "id": "p4",
+                  "text": "Tumbuhan dan hewan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Kehidupan bergerak dari molekul sederhana ke makhluk kompleks.",
+              "hint": "DNA dan RNA dianggap ciri kehidupan paling awal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Istilah untuk mata rantai evolusi manusia yang belum ditemukan adalah…",
+              "options": [
+                {
+                  "text": "The Missing Link",
+                  "correct": true
+                },
+                {
+                  "text": "Homo erectus"
+                },
+                {
+                  "text": "Natural Selection"
+                },
+                {
+                  "text": "Pithecanthropus"
+                }
+              ],
+              "explanation": "Celah bukti itu dikenal sebagai The Missing Link.",
+              "hint": "Diisi penelitian geologi dan paleontologi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebutan Tuhan Yang Pencipta pada Parmalim Batak Toba adalah…",
+              "options": [
+                {
+                  "text": "Mulajadi Nabolon",
+                  "correct": true
+                },
+                {
+                  "text": "Mori"
+                },
+                {
+                  "text": "Sangkan Paran"
+                },
+                {
+                  "text": "Pangeran"
+                }
+              ],
+              "explanation": "Mulajadi Nabolon berarti awal yang maha besar.",
+              "hint": "Diajarkan dalam kepercayaan Parmalim."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah teori asal usul kehidupan yang dibahas?",
+              "options": [
+                {
+                  "text": "Teori nebula",
+                  "correct": true
+                },
+                {
+                  "text": "Teori evolusi Darwin",
+                  "correct": true
+                },
+                {
+                  "text": "Teori seleksi alam",
+                  "correct": true
+                },
+                {
+                  "text": "Teori relativitas umum",
+                  "correct": false
+                },
+                {
+                  "text": "Teori kuantum warna",
+                  "correct": false
+                }
+              ],
+              "explanation": "Buku membahas nebula, evolusi, dan seleksi alam.",
+              "hint": "Relativitas bukan teori asal kehidupan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Sejarah Kepercayaan terhadap Tuhan Yang Maha Esa — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Surga roh dalam kepercayaan Marapu disebut…",
+              "options": [
+                {
+                  "text": "Prai Marapu",
+                  "correct": true
+                },
+                {
+                  "text": "Praja Marapu"
+                },
+                {
+                  "text": "Sorga Mori"
+                },
+                {
+                  "text": "Kaharingan"
+                }
+              ],
+              "explanation": "Penghayat Marapu meyakini hidup kekal di Prai Marapu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Paham kepercayaan pada roh yang ada dalam kebudayaan disebut…",
+              "options": [
+                {
+                  "text": "animisme",
+                  "correct": true
+                },
+                {
+                  "text": "monoteisme"
+                },
+                {
+                  "text": "panteisme"
+                },
+                {
+                  "text": "ateisme"
+                }
+              ],
+              "explanation": "Animisme adalah paham budaya, bukan bentuk kepercayaan keagamaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Falsafah Jawa tentang asal dan tujuan hidup adalah…",
+              "options": [
+                {
+                  "text": "sangkan paraning dumadi",
+                  "correct": true
+                },
+                {
+                  "text": "mamayu hayuning bawana"
+                },
+                {
+                  "text": "manunggaling kawula gusti"
+                },
+                {
+                  "text": "eling lan waspada"
+                }
+              ],
+              "explanation": "Sangkan berarti asal, paran tujuan akhir, dumadi menjadi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Organisasi yang berdiri tahun 1908 sebagai awal kesadaran berorganisasi adalah…",
+              "options": [
+                {
+                  "text": "Budi Utomo",
+                  "correct": true
+                },
+                {
+                  "text": "Sumpah Pemuda"
+                },
+                {
+                  "text": "Paguyuban Sumarah"
+                },
+                {
+                  "text": "BPUPKI"
+                }
+              ],
+              "explanation": "Budi Utomo berdiri pada 1908."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tokoh penghayat dari Paguyuban Sumarah yang menjadi Panglima Besar adalah…",
+              "options": [
+                {
+                  "text": "Sudirman",
+                  "correct": true
+                },
+                {
+                  "text": "Wongsonegoro"
+                },
+                {
+                  "text": "Usman Pelly"
+                },
+                {
+                  "text": "W. Schmidt"
+                }
+              ],
+              "explanation": "Sudirman berasal dari Paguyuban Sumarah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tipe komunitas penghayat?",
+              "options": [
+                {
+                  "text": "Komunitas tertutup",
+                  "correct": true
+                },
+                {
+                  "text": "Komunitas terbuka",
+                  "correct": true
+                },
+                {
+                  "text": "Komunitas politik",
+                  "correct": false
+                },
+                {
+                  "text": "Komunitas dagang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Buku menyebut komunitas tertutup dan terbuka."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tokoh yang berperan dalam perjuangan kepercayaan?",
+              "options": [
+                {
+                  "text": "Sudirman",
+                  "correct": true
+                },
+                {
+                  "text": "KMRT Wongsonegoro",
+                  "correct": true
+                },
+                {
+                  "text": "Mr. Wongsonegoro di BPUPKI",
+                  "correct": true
+                },
+                {
+                  "text": "Charles Darwin",
+                  "correct": false
+                },
+                {
+                  "text": "Pater W. Schmidt",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sudirman dan Wongsonegoro berperan pada masa perjuangan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Mulajadi Nabolon",
+                  "right": "sebutan Tuhan pada Parmalim"
+                },
+                {
+                  "id": "m1",
+                  "left": "Prai Marapu",
+                  "right": "surga roh dalam kepercayaan Sumba"
+                },
+                {
+                  "id": "m2",
+                  "left": "Sangkan paraning dumadi",
+                  "right": "falsafah asal dan tujuan hidup Jawa"
+                },
+                {
+                  "id": "m3",
+                  "left": "Budi Utomo",
+                  "right": "organisasi pribumi tahun 1908"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "sebutan Tuhan pada Parmalim",
+                  "m1": "surga roh dalam kepercayaan Sumba",
+                  "m2": "falsafah asal dan tujuan hidup Jawa",
+                  "m3": "organisasi pribumi tahun 1908"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan peristiwa perjuangan kepercayaan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Budi Utomo 1908"
+                },
+                {
+                  "id": "d1",
+                  "text": "Sumpah Pemuda 1928"
+                },
+                {
+                  "id": "d2",
+                  "text": "Pasal 29 UUD 1945"
+                },
+                {
+                  "id": "d3",
+                  "text": "TAP MPR IV/1973"
+                },
+                {
+                  "id": "d4",
+                  "text": "UU Adminduk 2006"
+                },
+                {
+                  "id": "d5",
+                  "text": "Putusan MK 2016"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4",
+                  "d5"
+                ]
+              },
+              "explanation": "Perjuangan bergerak dari organisasi, deklarasi, konstitusi, sampai putusan MK."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menjelaskan kepercayaan kepada orang lain.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mengenali inti ajaran sendiri"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memilih kata yang mudah dipahami"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menjelaskan perbedaan istilah animisme"
+                },
+                {
+                  "id": "p3",
+                  "text": "Membuka ruang dialog"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menghormati perbedaan keyakinan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Penjelasan dimulai dari pemahaman diri lalu dialog yang saling menghormati."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kata “kepercayaan” dalam Pasal 29 UUD 1945 merupakan hasil perjuangan…",
+              "options": [
+                {
+                  "text": "para tokoh pendiri bangsa",
+                  "correct": true
+                },
+                {
+                  "text": "peneliti Barat"
+                },
+                {
+                  "text": "pemerintah kolonial"
+                },
+                {
+                  "text": "organisasi internasional"
+                }
+              ],
+              "explanation": "Perumusan pasal itu buah perjuangan intelektual tokoh bangsa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Putusan MK yang menyatakan agama dan kepercayaan setara adalah…",
+              "options": [
+                {
+                  "text": "Putusan MK 97/PUU-XIV/2016",
+                  "correct": true
+                },
+                {
+                  "text": "Putusan MK 97/PUU-XIV/2006"
+                },
+                {
+                  "text": "TAP MPR IV/1973"
+                },
+                {
+                  "text": "UU No. 23/2006"
+                }
+              ],
+              "explanation": "Putusan itu mengabulkan gugatan atas UU Adminduk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah hak yang diperjuangkan penghayat?",
+              "options": [
+                {
+                  "text": "Pencatatan sipil",
+                  "correct": true
+                },
+                {
+                  "text": "Layanan pendidikan kepercayaan",
+                  "correct": true
+                },
+                {
+                  "text": "Kolom kepercayaan di KTP",
+                  "correct": true
+                },
+                {
+                  "text": "Pembebasan pajak penuh",
+                  "correct": false
+                },
+                {
+                  "text": "Hak memilih tanpa syarat usia",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perjuangan itu berbuah layanan adminduk dan pendidikan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Tondi",
+                  "right": "roh dalam bahasa Batak"
+                },
+                {
+                  "id": "m1",
+                  "left": "Urip",
+                  "right": "hidup dalam bahasa Jawa"
+                },
+                {
+                  "id": "m2",
+                  "left": "Teori nebula",
+                  "right": "asal tata surya dari kabut gas"
+                },
+                {
+                  "id": "m3",
+                  "left": "The Missing Link",
+                  "right": "celah bukti evolusi manusia"
+                },
+                {
+                  "id": "m4",
+                  "left": "Mulajadi Nabolon",
+                  "right": "sebutan Tuhan pada Parmalim"
+                },
+                {
+                  "id": "m5",
+                  "left": "Prai Marapu",
+                  "right": "surga roh dalam kepercayaan Sumba"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "roh dalam bahasa Batak",
+                  "m1": "hidup dalam bahasa Jawa",
+                  "m2": "asal tata surya dari kabut gas",
+                  "m3": "celah bukti evolusi manusia",
+                  "m4": "sebutan Tuhan pada Parmalim",
+                  "m5": "surga roh dalam kepercayaan Sumba"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan lapisan bukti asal-usul manusia menurut buku.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Fosil manusia purba"
+                },
+                {
+                  "id": "d1",
+                  "text": "Perunutan fosil peradaban"
+                },
+                {
+                  "id": "d2",
+                  "text": "Hipotesis geologi dan antropologi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Celah The Missing Link"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Bukti fosil menuntun hipotesis, namun celah masih ada."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

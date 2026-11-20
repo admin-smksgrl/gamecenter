@@ -63,6 +63,7 @@ class SubjectSeeder extends Seeder
             ['name' => 'Matematika', 'slug' => 'matematika', 'group' => 'Wajib', 'icon' => '➗', 'color' => 'blue'],
             ['name' => 'Bahasa Inggris', 'slug' => 'bahasa-inggris', 'group' => 'Wajib', 'icon' => '🔤', 'color' => 'indigo'],
             ['name' => 'Sejarah', 'slug' => 'sejarah', 'group' => 'Wajib', 'icon' => '🏛️', 'color' => 'stone'],
+            ['name' => 'Pendidikan Kepercayaan terhadap Tuhan Yang Maha Esa dan Budi Pekerti', 'slug' => 'kepercayaan', 'group' => 'Wajib', 'icon' => '🕯️', 'color' => 'amber'],
             // IPS terpadu (sejarah, sosiologi, ekonomi, geografi) hanya di Fase E/kelas X.
             ['name' => 'Ilmu Pengetahuan Sosial', 'slug' => 'ips', 'group' => 'IPS', 'icon' => '🌏', 'color' => 'green', 'grades' => [10]],
             ['name' => 'Informatika', 'slug' => 'informatika', 'group' => 'Wajib', 'icon' => '💻', 'color' => 'cyan'],
@@ -86,6 +87,7 @@ class SubjectSeeder extends Seeder
             ['name' => 'Informatika', 'slug' => 'informatika', 'group' => 'Wajib', 'icon' => '💻', 'color' => 'cyan'],
             ['name' => 'PJOK', 'slug' => 'pjok', 'group' => 'Wajib', 'icon' => '⚽', 'color' => 'lime'],
             ['name' => 'Projek IPAS', 'slug' => 'ipas', 'group' => 'Wajib', 'icon' => '🔬', 'color' => 'teal'],
+            ['name' => 'Pendidikan Kepercayaan terhadap Tuhan Yang Maha Esa dan Budi Pekerti', 'slug' => 'kepercayaan', 'group' => 'Wajib', 'icon' => '🕯️', 'color' => 'amber'],
             ['name' => 'Pemrograman Dasar', 'slug' => 'pemrograman-dasar', 'group' => 'Kejuruan', 'icon' => '⌨️', 'color' => 'sky', 'grades' => [10]],
             ['name' => 'Prakarya dan Kewirausahaan', 'slug' => 'prakarya', 'group' => 'Keterampilan', 'icon' => '🛠️', 'color' => 'red'],
             ['name' => 'Seni Budaya', 'slug' => 'seni-budaya', 'group' => 'Seni', 'icon' => '🎭', 'color' => 'violet'],

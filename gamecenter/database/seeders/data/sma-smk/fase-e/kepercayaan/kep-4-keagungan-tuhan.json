@@ -1,0 +1,1269 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "kepercayaan",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "KEP 4",
+      "title": "Keagungan Tuhan Yang Maha Esa",
+      "description": "Menganalisis keberadaan dan sifat Tuhan melalui akal serta ajaran kepercayaan, memahami Tuhan sebagai Pencipta alam dan manusia, serta menata empat hubungan kewajiban manusia.",
+      "learning_objectives": [
+        "Menghayati dan mengamalkan ajaran Kepercayaan terhadap Tuhan Yang Maha Esa.",
+        "Menghayati serta mengamalkan sikap toleransi dan kepedulian antarsesama.",
+        "Menganalisis konsep Tuhan dan menyembah dalam beragam kepercayaan.",
+        "Menyajikan manfaat sikap toleransi dalam keluarga, masyarakat, berbangsa, dan keragaman global."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 4 Keagungan Tuhan Yang Maha Esa; CP Fase E Pendidikan Kepercayaan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Bagaimana manusia mengenal Tuhan?",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 4 Keagungan Tuhan Yang Maha Esa; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Tuhan itu ada\n\nManusia sangat terbatas ketika hendak menjelaskan keberadaan Tuhan. Kita tidak dapat menggambarkan sosok, rupa, atau bentuk-Nya, sebagaimana kita tahu ada perasaan dan pikiran orang lain meski tak melihat wujudnya.\n\nTuhan berada jauh di tempat yang maha tinggi dan maha rahasia, tetapi juga dekat: hadir dalam hati orang yang sungguh-sungguh meyakini-Nya. Tuhan adalah Sang Pencipta, awal dari segala yang wujud maupun tidak wujud.\n\nKeberadaan Tuhan dapat dipahami lewat akal sehat: rasa ingin tahu akan asal-usul segala yang ada, keteraturan alam, hukum sebab akibat yang berujung pada causa prima, serta kode genetik yang bekerja seperti program dalam sel makhluk hidup.\n\nEsensi kepercayaan adalah keyakinan dan berserah diri, bukan pada ritus yang tampak seperti sesaji atau doa semata.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "kep-4-keagungan-tuhan-glosarium",
+              "terms": [
+                {
+                  "term": "Causa prima",
+                  "definition": "Sebab pertama dari segala sebab, yaitu Tuhan Yang Maha Kuasa."
+                },
+                {
+                  "term": "Adi-kodrati",
+                  "definition": "Sifat yang melampaui kodrat alam, kekal, dan tak berwujud."
+                },
+                {
+                  "term": "Roh",
+                  "definition": "Zat hidup pemberian Tuhan yang bersifat antara ada dan tiada."
+                },
+                {
+                  "term": "Akal budi",
+                  "definition": "Karunia Tuhan berupa hati dan pikiran yang mengendalikan kehendak serta perilaku."
+                },
+                {
+                  "term": "Cipta, Karsa, Rasa",
+                  "definition": "Tiga eksistensi manusia menurut kepercayaan Jawa: pikiran, kehendak, dan perasaan."
+                },
+                {
+                  "term": "Tetralogi kewajiban",
+                  "definition": "Empat hubungan kewajiban manusia: dengan Tuhan, sesama, alam, dan diri sendiri."
+                },
+                {
+                  "term": "Eko-spiritual",
+                  "definition": "Sikap spiritual dalam menjaga hubungan dengan lingkungan alam."
+                },
+                {
+                  "term": "Toleransi",
+                  "definition": "Sikap menghargai perbedaan keyakinan dan cara beribadah orang lain."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tuhan itu ada"
+            },
+            {
+              "type": "paragraph",
+              "text": "Manusia sangat terbatas ketika hendak menjelaskan keberadaan Tuhan. Kita tidak dapat menggambarkan sosok, rupa, atau bentuk-Nya, sebagaimana kita tahu ada perasaan dan pikiran orang lain meski tak melihat wujudnya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tuhan berada jauh di tempat yang maha tinggi dan maha rahasia, tetapi juga dekat: hadir dalam hati orang yang sungguh-sungguh meyakini-Nya. Tuhan adalah Sang Pencipta, awal dari segala yang wujud maupun tidak wujud."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keberadaan Tuhan dapat dipahami lewat akal sehat: rasa ingin tahu akan asal-usul segala yang ada, keteraturan alam, hukum sebab akibat yang berujung pada causa prima, serta kode genetik yang bekerja seperti program dalam sel makhluk hidup."
+            },
+            {
+              "type": "diagram",
+              "id": "kep-4-keagungan-tuhan-diagram",
+              "engine": "mermaid",
+              "title": "Empat hubungan kewajiban manusia",
+              "code": "flowchart TB\n  A[Diri pribadi] --> B[Hubungan dengan Tuhan: laku menyembah]\n  A --> C[Hubungan dengan sesama manusia: laku sosial]\n  A --> D[Hubungan dengan alam: laku eko-spiritual]\n  A --> E[Hubungan dengan diri sendiri: komunikasi batin]\n  C --> F[Kesetaraan sesama ciptaan]\n  D --> F"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Esensi kepercayaan adalah keyakinan dan berserah diri, bukan pada ritus yang tampak seperti sesaji atau doa semata."
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-4-keagungan-tuhan-cp-1",
+              "question": "Sebab pertama dari segala sebab dalam buku disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "causa prima",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "causa materialis"
+                },
+                {
+                  "id": "c2",
+                  "text": "efek domino"
+                },
+                {
+                  "id": "c3",
+                  "text": "hukum bioproses"
+                }
+              ],
+              "explanation": "Causa prima adalah kuasa pertama yang lebih awal daripada alam semesta, yaitu Tuhan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Tuhan Pencipta alam dan manusia",
+          "duration": 300,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 4 Keagungan Tuhan Yang Maha Esa; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Sifat, kuasa, dan ciptaan\n\nTuhan ada dan terdahulu, bersifat mutlak serta abadi. Manusia hanya tahu bahwa Tuhan maha rahasia; sedikit pengetahuan yang kita miliki pun merupakan karunia-Nya.\n\nAlam semesta diciptakan bersama hukum alamnya: kekuatan atau daya, gerakan, dan perubahan. Segala yang berubah itu berbeda dari Sang Pencipta yang kekal.\n\nMakhluk hidup bergantung pada alam namun diberi kemampuan meneruskan kehidupan. Sifat hidup tersimpan dalam DNA dan RNA, lalu virus, bakteri, alga, dan sel hidup mendahului bentuk hewan serta tumbuhan melalui bioproses.\n\nManusia terikat tiga hukum alam: hukum alam yang berubah, hukum bioproses, dan hukum hidup yang sifatnya ada tetapi tiada. Konsep manusia Jawa menyebut Cipta, Karsa, dan Rasa; konsep Batak menekankan roh atau nyawa, akal budi, rasa, dan tubuh.\n\n| Aspek | Penjelasan | Kaitan dengan keagungan Tuhan |\n|---|---|---|\n| Sifat Tuhan | Mutlak, abadi, maha rahasia | Manusia tidak mampu menyibak keberadaan-Nya |\n| Hukum alam | Daya, gerakan, perubahan | Keteraturan menunjukkan adanya Pemelihara |\n| Makhluk hidup | DNA dan RNA menyimpan sifat hidup | Kode genetik diibaratkan ketetapan Tuhan |\n| Manusia | Tubuh, roh, dan akal budi | Roh menjadi penghubung kehendak Tuhan |\n\n### Mengenal karunia Tuhan\n\n- Tuhan menciptakan manusia berbeda dari ciptaan lain dan memberi hidup berdimensi roh.\n- Manusia dikaruniai akal budi yang lebih tinggi daripada kesadaran hewan, serta hati dan rasa.\n- Manusia hidup sebagai makhluk sosial bersama manusia lain, tumbuhan, hewan, dan jasad renik.\n- Kecerdasan spiritual membawa manusia memahami sebagian rahasia Tuhan yang tidak mudah dijelaskan logika tampak.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sifat, kuasa, dan ciptaan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tuhan ada dan terdahulu, bersifat mutlak serta abadi. Manusia hanya tahu bahwa Tuhan maha rahasia; sedikit pengetahuan yang kita miliki pun merupakan karunia-Nya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alam semesta diciptakan bersama hukum alamnya: kekuatan atau daya, gerakan, dan perubahan. Segala yang berubah itu berbeda dari Sang Pencipta yang kekal."
+            },
+            {
+              "type": "paragraph",
+              "text": "Makhluk hidup bergantung pada alam namun diberi kemampuan meneruskan kehidupan. Sifat hidup tersimpan dalam DNA dan RNA, lalu virus, bakteri, alga, dan sel hidup mendahului bentuk hewan serta tumbuhan melalui bioproses."
+            },
+            {
+              "type": "paragraph",
+              "text": "Manusia terikat tiga hukum alam: hukum alam yang berubah, hukum bioproses, dan hukum hidup yang sifatnya ada tetapi tiada. Konsep manusia Jawa menyebut Cipta, Karsa, dan Rasa; konsep Batak menekankan roh atau nyawa, akal budi, rasa, dan tubuh."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspek",
+                  "Penjelasan",
+                  "Kaitan dengan keagungan Tuhan"
+                ],
+                [
+                  "Sifat Tuhan",
+                  "Mutlak, abadi, maha rahasia",
+                  "Manusia tidak mampu menyibak keberadaan-Nya"
+                ],
+                [
+                  "Hukum alam",
+                  "Daya, gerakan, perubahan",
+                  "Keteraturan menunjukkan adanya Pemelihara"
+                ],
+                [
+                  "Makhluk hidup",
+                  "DNA dan RNA menyimpan sifat hidup",
+                  "Kode genetik diibaratkan ketetapan Tuhan"
+                ],
+                [
+                  "Manusia",
+                  "Tubuh, roh, dan akal budi",
+                  "Roh menjadi penghubung kehendak Tuhan"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "kep-4-struktur",
+              "engine": "mermaid",
+              "title": "Struktur manusia menurut kepercayaan Nusantara",
+              "code": "flowchart TB\n  A[Manusia] --> B[Bagian tak berwujud: jiwa dan roh]\n  A --> C[Bagian berwujud: tubuh dari unsur alam]\n  B --> D[Zat hidup pemberian Tuhan]\n  A --> E[Akal budi: hati dan pikiran]\n  E --> F[Kehendak]\n  E --> G[Perbuatan]\n  D --> H[Kembali kepada Pemberi hidup]"
+            },
+            {
+              "type": "categorize",
+              "id": "kep-4-klasifikasi",
+              "prompt": "Kelompokkan unsur berikut sebagai bagian tak berwujud atau bagian berwujud pada manusia.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Tak berwujud (adi-kodrati)"
+                },
+                {
+                  "id": "b2",
+                  "label": "Berwujud (fisik)"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Roh atau nyawa",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Zat hidup pemberian Tuhan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Hati dan pikiran",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Kehendak dan rasa",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i5",
+                  "text": "Tubuh dari unsur tanah",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Air dan udara penyusun tubuh",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Api atau panas tubuh",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i8",
+                  "text": "Jasad yang dapat diraba",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Bagian adi-kodrati bersifat kekal, sedangkan tubuh berasal dari unsur alam yang berubah.",
+                "wrong": "Periksa lagi: unsur tanah, air, udara, dan api menyusun tubuh yang berubah."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengenal karunia Tuhan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Tuhan menciptakan manusia berbeda dari ciptaan lain dan memberi hidup berdimensi roh.",
+                "Manusia dikaruniai akal budi yang lebih tinggi daripada kesadaran hewan, serta hati dan rasa.",
+                "Manusia hidup sebagai makhluk sosial bersama manusia lain, tumbuhan, hewan, dan jasad renik.",
+                "Kecerdasan spiritual membawa manusia memahami sebagian rahasia Tuhan yang tidak mudah dijelaskan logika tampak."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-4-keagungan-tuhan-cp-2",
+              "question": "Tiga eksistensi manusia menurut kepercayaan Jawa adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Cipta, Karsa, Rasa",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Budi, Kersa, Satya"
+                },
+                {
+                  "id": "c2",
+                  "text": "Karya, Daya, Raga"
+                },
+                {
+                  "id": "c3",
+                  "text": "Akal, Hati, Raga"
+                }
+              ],
+              "explanation": "Cipta (pikiran), Karsa (kehendak), dan Rasa (perasaan) adalah eksistensi manusia dalam kepercayaan Jawa."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 4 Keagungan Tuhan Yang Maha Esa; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Menyembah melalui hidup berbudi luhur\n\nPenghayat memaknai kepercayaan sebagai hubungan antara yang dicipta dan Sang Pencipta. Kewajiban menyembah dan memuliakan Tuhan diwujudkan melalui hidup berbudi pekerti luhur yang diwariskan kepada generasi berikutnya.\n\nTuhan memelihara setiap kaum dan memberi pencerahan melalui sosok bijaksana, tanpa ada yang terlewat. Karena semua adalah milik Tuhan, manusia berakal sehat memahami kesetaraan sesama ciptaan di hadapan-Nya.\n\nPengamalan budi luhur mengikuti tangga bertingkat: rumah tangga, lingkup sosial budaya bersama sesama dan alam, lalu lingkup pengamalan spiritual kepada Tuhan. Dari situlah tumbuh sikap toleran dan peduli.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyembah melalui hidup berbudi luhur"
+            },
+            {
+              "type": "paragraph",
+              "text": "Penghayat memaknai kepercayaan sebagai hubungan antara yang dicipta dan Sang Pencipta. Kewajiban menyembah dan memuliakan Tuhan diwujudkan melalui hidup berbudi pekerti luhur yang diwariskan kepada generasi berikutnya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tuhan memelihara setiap kaum dan memberi pencerahan melalui sosok bijaksana, tanpa ada yang terlewat. Karena semua adalah milik Tuhan, manusia berakal sehat memahami kesetaraan sesama ciptaan di hadapan-Nya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengamalan budi luhur mengikuti tangga bertingkat: rumah tangga, lingkup sosial budaya bersama sesama dan alam, lalu lingkup pengamalan spiritual kepada Tuhan. Dari situlah tumbuh sikap toleran dan peduli."
+            },
+            {
+              "type": "scenario",
+              "id": "kep-4-skenario",
+              "title": "Teman bertanya tentang cara menyembah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Temanmu bertanya, “Apakah kamu menyembah matahari atau batu?” Bagaimana jawabanmu?",
+                  "choices": [
+                    {
+                      "text": "Menyembah Tuhan Yang Maha Esa; alam hanya ciptaan-Nya",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Jawaban itu tepat: alam adalah ciptaan, bukan yang disembah."
+                    },
+                    {
+                      "text": "Membiarkan saja karena ia tak akan paham",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Membiarkan salah paham membuat prasangka berlanjut."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Ia bertanya lagi, “Mengapa ritualmu memakai sesaji?” Bagaimana menjelaskannya?",
+                  "choices": [
+                    {
+                      "text": "Sesaji bagian budaya penghormatan; esensi iman ada di hati",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Penjelasan memisahkan esensi keimanan dari ungkapan budaya."
+                    },
+                    {
+                      "text": "Mengatakan sesaji yang menyelamatkan manusia",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Itu keliru; keselamatan bersumber dari Tuhan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Salah paham tumbuh menjadi prasangka terhadap penghayat.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Teman memahami dan menghargai cara beribadah yang berbeda.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "kep-4-keagungan-tuhan-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu causa prima?",
+                  "back": "Sebab pertama dari segala sebab, yaitu Tuhan Yang Maha Kuasa."
+                },
+                {
+                  "front": "Sebutkan tiga hukum alam yang mengikat manusia.",
+                  "back": "Hukum alam berubah, hukum bioproses, dan hukum hidup yang ada-tiada."
+                },
+                {
+                  "front": "Apa empat hubungan kewajiban manusia?",
+                  "back": "Dengan Tuhan, sesama, alam, dan diri sendiri."
+                },
+                {
+                  "front": "Mengapa manusia tidak dapat menggambarkan Tuhan?",
+                  "back": "Karena keterbatasan manusia; Tuhan maha rahasia."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-4-keagungan-tuhan-cp-3",
+              "question": "Kewajiban menyembah Tuhan menurut buku diwujudkan melalui…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "hidup berbudi pekerti luhur",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "memberi sesaji sebanyak mungkin"
+                },
+                {
+                  "id": "c2",
+                  "text": "menghafal mantra"
+                },
+                {
+                  "id": "c3",
+                  "text": "menjauhi pergaulan"
+                }
+              ],
+              "explanation": "Penyembahan diwujudkan melalui hidup berbudi luhur yang diwariskan kepada generasi berikutnya."
+            },
+            {
+              "type": "challenge",
+              "id": "kep-4-tantangan",
+              "title": "Tantangan istilah keagungan Tuhan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Sebab pertama segala sebab",
+                  "answer": "Causa prima"
+                },
+                {
+                  "question": "Sifat melampaui kodrat alam",
+                  "answer": "Adi-kodrati"
+                },
+                {
+                  "question": "Eksistensi manusia Jawa",
+                  "answer": "Cipta Karsa Rasa"
+                },
+                {
+                  "question": "Empat hubungan kewajiban",
+                  "answer": "Tetralogi kewajiban"
+                },
+                {
+                  "question": "Sikap spiritual pada alam",
+                  "answer": "Eko-spiritual"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah keagungan Tuhan terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Keagungan Tuhan Yang Maha Esa — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Menurut buku, Tuhan berada…",
+              "options": [
+                {
+                  "text": "jauh di tempat maha tinggi sekaligus dekat dalam hati yang meyakini",
+                  "correct": true
+                },
+                {
+                  "text": "hanya di tempat ibadah"
+                },
+                {
+                  "text": "hanya di langit"
+                },
+                {
+                  "text": "hanya dalam kitab"
+                }
+              ],
+              "explanation": "Tuhan maha tinggi dan maha rahasia, tetapi dekat bagi yang meyakini.",
+              "hint": "Kedekatan itu dirasakan dalam hati."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sebab pertama dari segala sebab disebut…",
+              "options": [
+                {
+                  "text": "causa prima",
+                  "correct": true
+                },
+                {
+                  "text": "causa materialis"
+                },
+                {
+                  "text": "hukum alam"
+                },
+                {
+                  "text": "bioproses"
+                }
+              ],
+              "explanation": "Causa prima adalah kuasa pertama, yaitu Tuhan.",
+              "hint": "Lebih awal daripada alam semesta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu bukti keberadaan Tuhan melalui akal sehat adalah…",
+              "options": [
+                {
+                  "text": "keteraturan alam semesta",
+                  "correct": true
+                },
+                {
+                  "text": "banyaknya bencana"
+                },
+                {
+                  "text": "perbedaan bahasa"
+                },
+                {
+                  "text": "kemajuan teknologi"
+                }
+              ],
+              "explanation": "Keteraturan peredaran benda langit menunjukkan adanya Pemelihara.",
+              "hint": "Hukum sebab akibat berpangkal pada causa prima."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah argumen akal sehat tentang keberadaan Tuhan?",
+              "options": [
+                {
+                  "text": "Rasa ingin tahu asal-usul segala yang ada",
+                  "correct": true
+                },
+                {
+                  "text": "Keteraturan alam semesta",
+                  "correct": true
+                },
+                {
+                  "text": "Hukum sebab akibat berpangkal pada causa prima",
+                  "correct": true
+                },
+                {
+                  "text": "Banyaknya mitos",
+                  "correct": false
+                },
+                {
+                  "text": "Kebetulan semata",
+                  "correct": false
+                }
+              ],
+              "explanation": "Buku menyebut empat argumen berbasis akal sehat.",
+              "hint": "Kebetulan bukan argumen buku."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah unsur yang menyusun tubuh manusia?",
+              "options": [
+                {
+                  "text": "Tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Air",
+                  "correct": true
+                },
+                {
+                  "text": "Udara",
+                  "correct": true
+                },
+                {
+                  "text": "Roh",
+                  "correct": false
+                },
+                {
+                  "text": "Akal budi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tubuh tersusun dari unsur alam: tanah, air, udara, api.",
+              "hint": "Roh dan akal budi bukan unsur fisik."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Keagungan Tuhan Yang Maha Esa — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kode genetik dalam sel diibaratkan sebagai…",
+              "options": [
+                {
+                  "text": "ketetapan Tuhan",
+                  "correct": true
+                },
+                {
+                  "text": "kesalahan alam"
+                },
+                {
+                  "text": "hasil kebetulan"
+                },
+                {
+                  "text": "ciptaan manusia"
+                }
+              ],
+              "explanation": "Kode sandi gen bekerja seperti program dan dianggap ketetapan Tuhan.",
+              "hint": "Terdiri dari empat senyawa khas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tiga hukum alam yang mengikat manusia adalah…",
+              "options": [
+                {
+                  "text": "hukum alam berubah, bioproses, dan hidup ada-tiada",
+                  "correct": true
+                },
+                {
+                  "text": "hukum adat, pidana, perdata"
+                },
+                {
+                  "text": "hukum fisika, kimia, biologi"
+                },
+                {
+                  "text": "hukum karma, dosa, pahala"
+                }
+              ],
+              "explanation": "Manusia terikat tiga hukum alam menurut buku.",
+              "hint": "Ketiganya berbeda sifat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah karunia Tuhan kepada manusia?",
+              "options": [
+                {
+                  "text": "Hidup berdimensi roh",
+                  "correct": true
+                },
+                {
+                  "text": "Akal budi",
+                  "correct": true
+                },
+                {
+                  "text": "Hati dan rasa",
+                  "correct": true
+                },
+                {
+                  "text": "Kekayaan mutlak",
+                  "correct": false
+                },
+                {
+                  "text": "Kekuasaan tanpa batas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karunia itu berupa hidup, akal budi, hati, dan rasa.",
+              "hint": "Kekayaan bukan karunia yang disebut."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciptaan Tuhan yang disebut buku?",
+              "options": [
+                {
+                  "text": "Matahari dan bintang",
+                  "correct": true
+                },
+                {
+                  "text": "Virus dan bakteri",
+                  "correct": true
+                },
+                {
+                  "text": "Tumbuhan dan hewan",
+                  "correct": true
+                },
+                {
+                  "text": "Robot buatan manusia",
+                  "correct": false
+                },
+                {
+                  "text": "Aplikasi digital",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alam dan makhluk hidup adalah ciptaan Tuhan.",
+              "hint": "Robot dan aplikasi buatan manusia."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Causa prima",
+                  "right": "sebab pertama segala sebab"
+                },
+                {
+                  "id": "m1",
+                  "left": "Adi-kodrati",
+                  "right": "kekal dan tak berwujud"
+                },
+                {
+                  "id": "m2",
+                  "left": "Roh",
+                  "right": "zat hidup pemberian Tuhan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Akal budi",
+                  "right": "hati dan pikiran dari Tuhan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "sebab pertama segala sebab",
+                  "m1": "kekal dan tak berwujud",
+                  "m2": "zat hidup pemberian Tuhan",
+                  "m3": "hati dan pikiran dari Tuhan"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan argumen akal tentang keberadaan Tuhan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Rasa ingin tahu asal-usul"
+                },
+                {
+                  "id": "d1",
+                  "text": "Keteraturan alam semesta"
+                },
+                {
+                  "id": "d2",
+                  "text": "Hukum sebab akibat"
+                },
+                {
+                  "id": "d3",
+                  "text": "Causa prima"
+                },
+                {
+                  "id": "d4",
+                  "text": "Keyakinan akan Sang Pencipta"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Argumen bergerak dari pertanyaan asal sampai kesimpulan adanya Pencipta.",
+              "hint": "Causa prima menjadi puncak argumen."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan proses penciptaan menurut buku.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Awang-awang"
+                },
+                {
+                  "id": "p1",
+                  "text": "Langit dengan matahari dan bintang"
+                },
+                {
+                  "id": "p2",
+                  "text": "Bumi berisi hawa dan air"
+                },
+                {
+                  "id": "p3",
+                  "text": "Bebatuan, logam, dan tanah"
+                },
+                {
+                  "id": "p4",
+                  "text": "Makhluk hidup"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Penciptaan berjalan dari langit, bumi, benda mati, lalu makhluk hidup.",
+              "hint": "Makhluk hidup muncul setelah bumi siap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sifat Tuhan menurut buku adalah…",
+              "options": [
+                {
+                  "text": "mutlak dan abadi",
+                  "correct": true
+                },
+                {
+                  "text": "berubah-ubah"
+                },
+                {
+                  "text": "terbatas"
+                },
+                {
+                  "text": "sementara"
+                }
+              ],
+              "explanation": "Tuhan bersifat mutlak dan abadi, berbeda dari ciptaan yang berubah.",
+              "hint": "Tiada yang menyamai-Nya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut kepercayaan Jawa, manusia memiliki eksistensi…",
+              "options": [
+                {
+                  "text": "Cipta, Karsa, dan Rasa",
+                  "correct": true
+                },
+                {
+                  "text": "roh, nyawa, dan tubuh"
+                },
+                {
+                  "text": "akal, hati, dan nafas"
+                },
+                {
+                  "text": "tubuh, harta, dan tahta"
+                }
+              ],
+              "explanation": "Cipta, Karsa, dan Rasa merupakan eksistensi manusia Jawa.",
+              "hint": "Ketiganya interaksi unsur fisik dan nonfisik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah wujud laku menyembah menurut buku?",
+              "options": [
+                {
+                  "text": "Hidup berbudi pekerti luhur",
+                  "correct": true
+                },
+                {
+                  "text": "Berserah diri kepada Tuhan",
+                  "correct": true
+                },
+                {
+                  "text": "Bersyukur atas karunia",
+                  "correct": true
+                },
+                {
+                  "text": "Menghina keyakinan lain",
+                  "correct": false
+                },
+                {
+                  "text": "Memaksa orang beribadah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penyembahan diwujudkan dalam budi luhur dan syukur.",
+              "hint": "Memaksa melanggar toleransi."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Keagungan Tuhan Yang Maha Esa — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bagian manusia yang bersifat kekal dan tak berwujud disebut…",
+              "options": [
+                {
+                  "text": "adi-kodrati",
+                  "correct": true
+                },
+                {
+                  "text": "biologis"
+                },
+                {
+                  "text": "fisik"
+                },
+                {
+                  "text": "material"
+                }
+              ],
+              "explanation": "Bagian jiwa bersifat adi-kodrati dan kekal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Empat hubungan kewajiban manusia meliputi hubungan dengan…",
+              "options": [
+                {
+                  "text": "Tuhan, sesama manusia, alam, dan diri sendiri",
+                  "correct": true
+                },
+                {
+                  "text": "Tuhan, harta, tahta, keluarga"
+                },
+                {
+                  "text": "alam, hewan, tumbuhan, benda"
+                },
+                {
+                  "text": "guru, teman, tetangga, kerabat"
+                }
+              ],
+              "explanation": "Tetralogi kewajiban mencakup empat hubungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut buku, semua ciptaan Tuhan memiliki kedudukan…",
+              "options": [
+                {
+                  "text": "setara di hadapan Penciptanya",
+                  "correct": true
+                },
+                {
+                  "text": "bertingkat menurut kekayaan"
+                },
+                {
+                  "text": "berbeda menurut suku"
+                },
+                {
+                  "text": "sama persis dalam wujud"
+                }
+              ],
+              "explanation": "Kesetaraan sesama ciptaan lahir dari kesadaran bahwa semua milik Tuhan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Esensi kepercayaan menurut Samad adalah…",
+              "options": [
+                {
+                  "text": "taraf kepercayaan dan berserah diri pada kuasa Tuhan",
+                  "correct": true
+                },
+                {
+                  "text": "banyaknya sesaji"
+                },
+                {
+                  "text": "panjangnya doa"
+                },
+                {
+                  "text": "besarnya persembahan"
+                }
+              ],
+              "explanation": "Esensi kepercayaan bukan pada ritus yang tampak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pater W. Schmidt menyatakan bahwa Tuhan Yang Maha Tinggi…",
+              "options": [
+                {
+                  "text": "telah ada sebelum penyembahan dan magisme",
+                  "correct": true
+                },
+                {
+                  "text": "baru dikenal setelah tulisan"
+                },
+                {
+                  "text": "diciptakan manusia"
+                },
+                {
+                  "text": "hanya dikenal bangsa modern"
+                }
+              ],
+              "explanation": "Konsepsi Satu Tuhan ada pada orang pra-aksara."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap toleransi beragama?",
+              "options": [
+                {
+                  "text": "Menghargai cara ibadah orang lain",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak mencela keyakinan berbeda",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga kerukunan",
+                  "correct": true
+                },
+                {
+                  "text": "Memaksa orang pindah keyakinan",
+                  "correct": false
+                },
+                {
+                  "text": "Menghina ritual orang lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Toleransi menjaga kerukunan tanpa memaksa."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah hukum yang mengikat manusia menurut buku?",
+              "options": [
+                {
+                  "text": "Hukum alam yang berubah",
+                  "correct": true
+                },
+                {
+                  "text": "Hukum bioproses",
+                  "correct": true
+                },
+                {
+                  "text": "Hukum hidup ada-tiada",
+                  "correct": true
+                },
+                {
+                  "text": "Hukum dagang",
+                  "correct": false
+                },
+                {
+                  "text": "Hukum waris",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga hukum alam itu mengikat manusia."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Cipta",
+                  "right": "pikiran dalam konsep Jawa"
+                },
+                {
+                  "id": "m1",
+                  "left": "Karsa",
+                  "right": "kehendak dalam konsep Jawa"
+                },
+                {
+                  "id": "m2",
+                  "left": "Rasa",
+                  "right": "perasaan dalam konsep Jawa"
+                },
+                {
+                  "id": "m3",
+                  "left": "Tetralogi kewajiban",
+                  "right": "empat hubungan kewajiban manusia"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pikiran dalam konsep Jawa",
+                  "m1": "kehendak dalam konsep Jawa",
+                  "m2": "perasaan dalam konsep Jawa",
+                  "m3": "empat hubungan kewajiban manusia"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tingkat pengamalan budi luhur.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Rumah tangga"
+                },
+                {
+                  "id": "d1",
+                  "text": "Lingkup sosial budaya"
+                },
+                {
+                  "id": "d2",
+                  "text": "Lingkup pengamalan spiritual"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2"
+                ]
+              },
+              "explanation": "Pengamalan berjenjang dari rumah sampai spiritual."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menjaga hubungan dengan alam.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mengakui alam sebagai ciptaan Tuhan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memanfaatkan secara bijak"
+                },
+                {
+                  "id": "p2",
+                  "text": "Memelihara dan memulihkan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Berbagi manfaat dengan sesama"
+                },
+                {
+                  "id": "p4",
+                  "text": "Bersyukur kepada Tuhan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Hubungan dengan alam dimulai dari pengakuan lalu pemeliharaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tangga pengamalan budi luhur dimulai dari…",
+              "options": [
+                {
+                  "text": "rumah tangga",
+                  "correct": true
+                },
+                {
+                  "text": "lingkup global"
+                },
+                {
+                  "text": "organisasi"
+                },
+                {
+                  "text": "pemerintahan"
+                }
+              ],
+              "explanation": "Pengamalan dimulai dari rumah tangga, lalu sosial budaya, lalu spiritual."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kemampuan memahami sebagian rahasia Tuhan disebut…",
+              "options": [
+                {
+                  "text": "kecerdasan spiritual",
+                  "correct": true
+                },
+                {
+                  "text": "kecerdasan buatan"
+                },
+                {
+                  "text": "kecerdasan kinestetik"
+                },
+                {
+                  "text": "kecerdasan linguistik"
+                }
+              ],
+              "explanation": "Kecerdasan spiritual bersifat rohaniah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk sikap eko-spiritual?",
+              "options": [
+                {
+                  "text": "Memelihara tanaman",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga kebersihan sungai",
+                  "correct": true
+                },
+                {
+                  "text": "Menghemat air",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang sampah sembarangan",
+                  "correct": false
+                },
+                {
+                  "text": "Menebang hutan tanpa aturan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Eko-spiritual menjaga hubungan dengan alam ciptaan Tuhan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Causa prima",
+                  "right": "sebab pertama segala sebab"
+                },
+                {
+                  "id": "m1",
+                  "left": "Adi-kodrati",
+                  "right": "kekal dan tak berwujud"
+                },
+                {
+                  "id": "m2",
+                  "left": "Roh",
+                  "right": "zat hidup pemberian Tuhan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Akal budi",
+                  "right": "hati dan pikiran dari Tuhan"
+                },
+                {
+                  "id": "m4",
+                  "left": "Cipta",
+                  "right": "pikiran dalam konsep Jawa"
+                },
+                {
+                  "id": "m5",
+                  "left": "Karsa",
+                  "right": "kehendak dalam konsep Jawa"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "sebab pertama segala sebab",
+                  "m1": "kekal dan tak berwujud",
+                  "m2": "zat hidup pemberian Tuhan",
+                  "m3": "hati dan pikiran dari Tuhan",
+                  "m4": "pikiran dalam konsep Jawa",
+                  "m5": "kehendak dalam konsep Jawa"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan unsur manusia dari yang tak berwujud ke berwujud.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Zat hidup adi-kodrati"
+                },
+                {
+                  "id": "d1",
+                  "text": "Roh atau nyawa"
+                },
+                {
+                  "id": "d2",
+                  "text": "Akal budi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tubuh dari unsur alam"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Unsur tak berwujud mendahului tubuh fisik."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

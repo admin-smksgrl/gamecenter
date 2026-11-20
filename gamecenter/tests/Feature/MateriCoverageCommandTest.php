@@ -317,6 +317,57 @@ class MateriCoverageCommandTest extends TestCase
         }
     }
 
+    public function test_kepercayaan_chapters_meet_the_plan_minimums(): void
+    {
+        // Buku Pendidikan Kepercayaan SMA/SMK Kelas X (rilis 0.43.0) tuntas 8/8 bab.
+        foreach (['KEP 1', 'KEP 2', 'KEP 3', 'KEP 4', 'KEP 5', 'KEP 6', 'KEP 7', 'KEP 8'] as $code) {
+            $row = $this->coverage($code)['chapters'][0];
+
+            $this->assertTrue(
+                $row['complete'],
+                "{$code} belum memenuhi §5.3: " . implode(', ', $row['missing']),
+            );
+            $this->assertSame(0, $row['hidden'], "{$code} menyembunyikan isi materi");
+            $this->assertGreaterThan(0, $row['theory'], "{$code} tidak punya blok teks");
+            $this->assertGreaterThanOrEqual(1, $row['visual'], "{$code} tidak punya blok visual");
+            $this->assertGreaterThanOrEqual(2, $row['activities'], "{$code} butuh dua blok aktivitas");
+            $this->assertGreaterThanOrEqual(1, $row['scenario'], "{$code} butuh skenario atau tantangan");
+            $this->assertGreaterThanOrEqual(1, $row['recall'], "{$code} butuh glossary atau flashcards");
+            $this->assertGreaterThanOrEqual(
+                $row['required_checkpoints'],
+                $row['checkpoints'],
+                "{$code} butuh {$row['required_checkpoints']} checkpoint",
+            );
+        }
+    }
+
+    public function test_kepercayaan_play_page_serves_three_materials_and_five_easy_questions(): void
+    {
+        $assessment = Assessment::query()
+            ->whereHas('chapter', fn ($query) => $query->where('code', 'KEP 1'))
+            ->where('difficulty', 'easy')
+            ->firstOrFail();
+
+        $response = $this->get("/main/{$assessment->id}");
+
+        $response->assertOk();
+        $response->assertInertia(function (AssertableInertia $page) {
+            $props = $page->toArray()['props'];
+
+            $this->assertSame('Sejarah Kepercayaan terhadap Tuhan Yang Maha Esa', $props['context']['chapter_title']);
+            $this->assertSame('kepercayaan', $props['context']['subject_slug'] ?? 'kepercayaan');
+            $this->assertCount(5, $props['questions']);
+            $this->assertCount(3, $props['materials']);
+
+            $first = $props['materials'][0];
+            $types = array_column($first['blocks'], 'type');
+
+            $this->assertContains('glossary', $types);
+            $this->assertContains('diagram', $types);
+            $this->assertContains('checkpoint', $types);
+        });
+    }
+
     public function test_ipas_play_page_serves_three_materials_and_five_easy_questions(): void
     {
         $assessment = Assessment::query()

@@ -1,0 +1,1275 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "kepercayaan",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "KEP 6",
+      "title": "Mencintai Keberagaman Budaya Spiritual Nusantara",
+      "description": "Menghayati kearifan lokal sebagai warisan nilai religius dan spiritual, menggali makna karya leluhur seperti aksara dan tradisi, serta mengambil peran sebagai penjaga budaya spiritual Nusantara.",
+      "learning_objectives": [
+        "Menghayati nilai budaya Nusantara dan kearifan lokal sebagai cerminan nilai spiritualitas religius.",
+        "Menghargai budaya dan kearifan lokal sebagai nilai sosial dari masing-masing daerah.",
+        "Mengekspresikan nilai kearifan lokal melalui aktivitas atraksi seni secara kreatif.",
+        "Menjelaskan hasil analisis tentang kesesuaian nilai kearifan lokal di era global."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 7 Mencintai Keberagaman Budaya Spiritual Nusantara; CP Fase E Pendidikan Kepercayaan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Apa itu kearifan lokal?",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 7 Mencintai Keberagaman Budaya Spiritual Nusantara; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Nilai yang diwariskan lintas generasi\n\nKearifan lokal mencakup nilai kehidupan yang berlaku pada tradisi masyarakat lama atau suku asli, dianggap sangat bernilai, telah teruji, dan dianut dari generasi ke generasi.\n\nKearifan lokal sering dikaitkan dengan kebijaksanaan yang melampaui kecerdasan rata-rata manusia sekarang, sehingga disebut local wisdom. Ajaran budi luhur masa lampau masih memengaruhi sikap generasi kini.\n\nNilai kearifan itu terpatri dalam adat, hukum, norma, dan pantangan, terutama diwariskan melalui ritual kehidupan, ritual penghidupan, dan ritual penghormatan kepada leluhur serta pahlawan.\n\nNilai kearifan lokal perlu dijaga agar tidak terkikis menjadi sekadar transaksi sosial “take and give”.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "kep-6-keberagaman-budaya-spiritual-glosarium",
+              "terms": [
+                {
+                  "term": "Kearifan lokal",
+                  "definition": "Nilai kehidupan tradisi masyarakat lama yang teruji dan dianut dari generasi ke generasi."
+                },
+                {
+                  "term": "Local wisdom",
+                  "definition": "Istilah asing untuk kearifan lokal, kebijaksanaan yang melampaui kecerdasan rata-rata."
+                },
+                {
+                  "term": "Abugida",
+                  "definition": "Sistem tulisan yang didasarkan pada konsonan dengan notasi vokal, seperti aksara Nusantara."
+                },
+                {
+                  "term": "Seren Taun",
+                  "definition": "Ritual syukuran panen komunitas budaya spiritual Sunda Buhun."
+                },
+                {
+                  "term": "Eko-spiritual",
+                  "definition": "Nilai menghormati dan menyucikan alam sebagai ciptaan Tuhan."
+                },
+                {
+                  "term": "Tepa selira",
+                  "definition": "Sikap mawas kebersamaan dengan merasakan apa yang dirasakan orang lain."
+                },
+                {
+                  "term": "Pemali",
+                  "definition": "Larangan adat yang berlaku dalam komunitas budaya spiritual."
+                },
+                {
+                  "term": "Rohani",
+                  "definition": "Aspek batin manusia yang menjadi sasaran pendidikan budi luhur."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Nilai yang diwariskan lintas generasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kearifan lokal mencakup nilai kehidupan yang berlaku pada tradisi masyarakat lama atau suku asli, dianggap sangat bernilai, telah teruji, dan dianut dari generasi ke generasi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kearifan lokal sering dikaitkan dengan kebijaksanaan yang melampaui kecerdasan rata-rata manusia sekarang, sehingga disebut local wisdom. Ajaran budi luhur masa lampau masih memengaruhi sikap generasi kini."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nilai kearifan itu terpatri dalam adat, hukum, norma, dan pantangan, terutama diwariskan melalui ritual kehidupan, ritual penghidupan, dan ritual penghormatan kepada leluhur serta pahlawan."
+            },
+            {
+              "type": "diagram",
+              "id": "kep-6-keberagaman-budaya-spiritual-diagram",
+              "engine": "mermaid",
+              "title": "Empat klasifikasi nilai kearifan lokal",
+              "code": "flowchart TB\n  A[Kearifan lokal] --> B[Kesatuan dan persatuan]\n  A --> C[Moralitas sosial]\n  A --> D[Nilai spiritual]\n  A --> E[Kelestarian alam]\n  B --> F[Kerukunan komunitas]\n  C --> F\n  D --> G[Kebijaksanaan dan ketuhanan]\n  E --> G"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Nilai kearifan lokal perlu dijaga agar tidak terkikis menjadi sekadar transaksi sosial “take and give”."
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-6-keberagaman-budaya-spiritual-cp-1",
+              "question": "Sistem tulisan yang didasarkan pada konsonan dengan notasi vokal disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "abugida",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "alfabet"
+                },
+                {
+                  "id": "c2",
+                  "text": "silabis murni"
+                },
+                {
+                  "id": "c3",
+                  "text": "hieroglif"
+                }
+              ],
+              "explanation": "Aksara Nusantara umumnya abugida atau alfasilabis, misalnya Ha Na Ca Ra Ka."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Karya leluhur warisan monumental",
+          "duration": 300,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 7 Mencintai Keberagaman Budaya Spiritual Nusantara; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Aksara, mitos, dan tradisi\n\nKebudayaan terus berkembang karena pelajaran dari peristiwa alam, dinamika internal manusia, dan interaksi antarbudaya. Karya yang meninggalkan tanda bermakna hingga kini menjadi warisan monumental.\n\nLeluhur menyiratkan nilai melalui mitos, cerita, umpama, dan sastra karena daya jangkauannya melampaui ingatan orang yang memulai cerita. Nilai itu digali kembali oleh generasi penerus.\n\nAksara Nusantara menurut banyak ahli mulai dikenal sekitar abad ke-4 Masehi dan masih kerabat aksara Pallawa serta Kawi Jawa. Contoh notasinya: Ha Na Ca Ra Ka; Ba Wa Ma Nga; La Pa Sa Da Ga Ja Ya Nya.\n\n| Warisan | Bentuk | Nilai yang disiratkan |\n|---|---|---|\n| Aksara Jawa | Ha Na Ca Ra Ka | Falsafah sangkan paraning dumadi |\n| Aksara Batak | Font Uli Kozok 2001 | Silsilah, pengobatan, hukum, moral |\n| Mitos dan cerita | Cerita rakyat lisan | Pesan moral lintas generasi |\n| Ritual syukuran | Seren Taun, Sipaha Lima | Syukur atas karunia dan panen |\n| Media tulis | Daun lontar dan batu tulis | Serat, hikayat, dan pokok hukum |\n\n### Tradisi menjaga moralitas\n\n- Kearifan lokal menjadi sumber nilai dan penjaga sikap moral serta karakter kebijaksanaan masyarakat.\n- Nilai moral masyarakat tradisional terjaga melalui penilaian sosial berupa norma kepantasan dan kepatutan.\n- Otoritas adat sebagai penjaga moral kini melemah, terutama di masyarakat urban modern.\n- Pendidikan karakter menumbuhkan budi luhur melalui keteladanan, teguran, dan pembiasaan dalam konteks nyata.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Aksara, mitos, dan tradisi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kebudayaan terus berkembang karena pelajaran dari peristiwa alam, dinamika internal manusia, dan interaksi antarbudaya. Karya yang meninggalkan tanda bermakna hingga kini menjadi warisan monumental."
+            },
+            {
+              "type": "paragraph",
+              "text": "Leluhur menyiratkan nilai melalui mitos, cerita, umpama, dan sastra karena daya jangkauannya melampaui ingatan orang yang memulai cerita. Nilai itu digali kembali oleh generasi penerus."
+            },
+            {
+              "type": "paragraph",
+              "text": "Aksara Nusantara menurut banyak ahli mulai dikenal sekitar abad ke-4 Masehi dan masih kerabat aksara Pallawa serta Kawi Jawa. Contoh notasinya: Ha Na Ca Ra Ka; Ba Wa Ma Nga; La Pa Sa Da Ga Ja Ya Nya."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Warisan",
+                  "Bentuk",
+                  "Nilai yang disiratkan"
+                ],
+                [
+                  "Aksara Jawa",
+                  "Ha Na Ca Ra Ka",
+                  "Falsafah sangkan paraning dumadi"
+                ],
+                [
+                  "Aksara Batak",
+                  "Font Uli Kozok 2001",
+                  "Silsilah, pengobatan, hukum, moral"
+                ],
+                [
+                  "Mitos dan cerita",
+                  "Cerita rakyat lisan",
+                  "Pesan moral lintas generasi"
+                ],
+                [
+                  "Ritual syukuran",
+                  "Seren Taun, Sipaha Lima",
+                  "Syukur atas karunia dan panen"
+                ],
+                [
+                  "Media tulis",
+                  "Daun lontar dan batu tulis",
+                  "Serat, hikayat, dan pokok hukum"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "kep-6-pendidikan",
+              "engine": "mermaid",
+              "title": "Jalur pewarisan kearifan lokal",
+              "code": "flowchart LR\n  A[Sistem kepercayaan leluhur] --> B[Tokoh dan leluhur pencerah]\n  B --> C[Tradisi dan kearifan lokal]\n  C --> D[Ekspresi budaya: seni, ritual, arsitektur]\n  D --> E[Pendidikan karakter generasi muda]\n  E --> F[Penjaga kearifan masa depan]"
+            },
+            {
+              "type": "categorize",
+              "id": "kep-6-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam nilai kearifan lokal yang sesuai.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Nilai spiritual"
+                },
+                {
+                  "id": "b2",
+                  "label": "Nilai kelestarian alam"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Ketundukan pada kehendak Tuhan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Kebijaksanaan dan budi luhur",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Kecerdasan spiritual pemimpin",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Menghormati dan menyucikan alam",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Menjaga hutan dan sumber air",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Ritual syukur atas hasil bumi",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Nilai spiritual berkaitan dengan ketuhanan dan kebijaksanaan, nilai kelestarian alam dengan eko-spiritual.",
+                "wrong": "Periksa lagi: sikap menyucikan alam termasuk nilai kelestarian alam."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tradisi menjaga moralitas"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kearifan lokal menjadi sumber nilai dan penjaga sikap moral serta karakter kebijaksanaan masyarakat.",
+                "Nilai moral masyarakat tradisional terjaga melalui penilaian sosial berupa norma kepantasan dan kepatutan.",
+                "Otoritas adat sebagai penjaga moral kini melemah, terutama di masyarakat urban modern.",
+                "Pendidikan karakter menumbuhkan budi luhur melalui keteladanan, teguran, dan pembiasaan dalam konteks nyata."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-6-keberagaman-budaya-spiritual-cp-2",
+              "question": "Ritual syukuran panen komunitas Sunda Buhun disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Seren Taun",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Sipaha Lima"
+                },
+                {
+                  "id": "c2",
+                  "text": "Wulla Poddu"
+                },
+                {
+                  "id": "c3",
+                  "text": "Marakka Bola"
+                }
+              ],
+              "explanation": "Seren Taun adalah ritual syukuran panen komunitas budaya spiritual Sunda Buhun."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Kepercayaan-BS-KLS-X.pdf Bab 7 Mencintai Keberagaman Budaya Spiritual Nusantara; CP Fase E Pendidikan Kepercayaan",
+          "content": "## Menjadi pamong kearifan lokal\n\nMeski jumlah penghayat relatif kecil, perannya besar karena komunitas penghayat dinilai paling konsisten menyerap dan menerapkan nilai budi luhur yang berkorelasi dengan ritual tradisinya.\n\nPenghayat yang berkualitas siap memberi sumbangsih sebagai penyuluh nilai budi luhur dan spiritualitas berbasis kearifan lokal. Penguatan nilai itu juga menjadi filter terhadap pengaruh negatif globalisasi budaya.\n\nPewarisan berlangsung alami dalam konteks kehidupan: ketika menari seseorang belajar nilai dan norma, ketika bekerja di ladang ia dibimbing kearifan terhadap alam, ketika beritual ia menerima nasehat tata upacara. Semangatnya belajar sepanjang hayat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menjadi pamong kearifan lokal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Meski jumlah penghayat relatif kecil, perannya besar karena komunitas penghayat dinilai paling konsisten menyerap dan menerapkan nilai budi luhur yang berkorelasi dengan ritual tradisinya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Penghayat yang berkualitas siap memberi sumbangsih sebagai penyuluh nilai budi luhur dan spiritualitas berbasis kearifan lokal. Penguatan nilai itu juga menjadi filter terhadap pengaruh negatif globalisasi budaya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pewarisan berlangsung alami dalam konteks kehidupan: ketika menari seseorang belajar nilai dan norma, ketika bekerja di ladang ia dibimbing kearifan terhadap alam, ketika beritual ia menerima nasehat tata upacara. Semangatnya belajar sepanjang hayat."
+            },
+            {
+              "type": "scenario",
+              "id": "kep-6-skenario",
+              "title": "Tradisi yang mulai ditinggalkan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Warga muda mulai meninggalkan ritual syukuran panen di desamu. Apa langkah awalmu?",
+                  "choices": [
+                    {
+                      "text": "Mempelajari makna ritual dan melibatkan pemuda dalam persiapannya",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Pemahaman makna dan keterlibatan menumbuhkan rasa memiliki."
+                    },
+                    {
+                      "text": "Membiarkannya karena tradisi dianggap kuno",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Membiarkan berarti membiarkan kearifan lokal terkikis."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Pemuda mengusulkan ritual ditampilkan sebagai atraksi seni. Bagaimana sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Mendukung dengan tetap menjaga nilai dan tata cara yang sakral",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kreativitas boleh, asal nilai dan kesakralan terjaga."
+                    },
+                    {
+                      "text": "Menolak semua kegiatan seni karena bukan ritual",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menolak kreativitas membuat tradisi makin jauh dari generasi muda."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Tradisi melemah dan nilai kearifan lokal makin terkikis.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Tradisi hidup kembali dan dikenal generasi muda.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "kep-6-keberagaman-budaya-spiritual-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan empat klasifikasi nilai kearifan lokal.",
+                  "back": "Kesatuan dan persatuan, moralitas sosial, nilai spiritual, dan kelestarian alam."
+                },
+                {
+                  "front": "Sejak abad berapa aksara Nusantara dikenal?",
+                  "back": "Sekitar abad ke-4 Masehi, kerabat aksara Pallawa dan Kawi."
+                },
+                {
+                  "front": "Apa makna “mata do guru, roha sisean”?",
+                  "back": "Mata adalah guru, hati dan pikiran menjadi murid."
+                },
+                {
+                  "front": "Mengapa ritual dianggap suci?",
+                  "back": "Karena berhubungan dengan Yang Maha Suci sehingga menuntut kesucian diri."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "kep-6-keberagaman-budaya-spiritual-cp-3",
+              "question": "Peribahasa Batak Toba “tuhe sigaton batange dapoton” bermakna…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "patok pancang tertanam yang harus ditilik, pematang lurus sesuai patok",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "tanah luas harus dijual"
+                },
+                {
+                  "id": "c2",
+                  "text": "hujan turun membawa berkah"
+                },
+                {
+                  "id": "c3",
+                  "text": "batu besar menjadi tempat duduk"
+                }
+              ],
+              "explanation": "Peribahasa itu menegaskan pentingnya keteladanan dan patokan nilai yang dijaga."
+            },
+            {
+              "type": "challenge",
+              "id": "kep-6-tantangan",
+              "title": "Tantangan istilah budaya spiritual",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Nilai kehidupan tradisi yang teruji",
+                  "answer": "Kearifan lokal"
+                },
+                {
+                  "question": "Sistem tulisan konsonan dengan notasi vokal",
+                  "answer": "Abugida"
+                },
+                {
+                  "question": "Ritual syukuran panen Sunda Buhun",
+                  "answer": "Seren Taun"
+                },
+                {
+                  "question": "Merasakan yang dirasakan orang lain",
+                  "answer": "Tepa selira"
+                },
+                {
+                  "question": "Larangan adat dalam komunitas",
+                  "answer": "Pemali"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah budaya spiritual terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Mencintai Keberagaman Budaya Spiritual Nusantara — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Nilai kehidupan tradisi masyarakat lama yang teruji dan dianut lintas generasi disebut…",
+              "options": [
+                {
+                  "text": "kearifan lokal",
+                  "correct": true
+                },
+                {
+                  "text": "globalisasi"
+                },
+                {
+                  "text": "modernisasi"
+                },
+                {
+                  "text": "industrialisasi"
+                }
+              ],
+              "explanation": "Kearifan lokal adalah nilai tradisi yang teruji dan diwariskan.",
+              "hint": "Istilah asingnya local wisdom."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kearifan lokal sering disebut dengan istilah asing…",
+              "options": [
+                {
+                  "text": "local wisdom",
+                  "correct": true
+                },
+                {
+                  "text": "global culture"
+                },
+                {
+                  "text": "social norm"
+                },
+                {
+                  "text": "mass culture"
+                }
+              ],
+              "explanation": "Local wisdom menunjuk kebijaksanaan lokal.",
+              "hint": "Melampaui kecerdasan rata-rata."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu klasifikasi nilai kearifan lokal adalah…",
+              "options": [
+                {
+                  "text": "nilai spiritual",
+                  "correct": true
+                },
+                {
+                  "text": "nilai komersial"
+                },
+                {
+                  "text": "nilai hiburan"
+                },
+                {
+                  "text": "nilai politik praktis"
+                }
+              ],
+              "explanation": "Klasifikasi meliputi kesatuan, moralitas sosial, spiritual, dan kelestarian alam.",
+              "hint": "Nilai spiritual berkaitan dengan ketuhanan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah klasifikasi nilai kearifan lokal?",
+              "options": [
+                {
+                  "text": "Nilai kesatuan dan persatuan",
+                  "correct": true
+                },
+                {
+                  "text": "Moralitas sosial",
+                  "correct": true
+                },
+                {
+                  "text": "Nilai spiritual",
+                  "correct": true
+                },
+                {
+                  "text": "Nilai komersial",
+                  "correct": false
+                },
+                {
+                  "text": "Nilai hiburan massal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Klasifikasi menurut buku ada empat.",
+              "hint": "Nilai komersial tidak termasuk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah warisan monumental leluhur?",
+              "options": [
+                {
+                  "text": "Aksara daerah",
+                  "correct": true
+                },
+                {
+                  "text": "Mitos dan cerita",
+                  "correct": true
+                },
+                {
+                  "text": "Ritual tradisi",
+                  "correct": true
+                },
+                {
+                  "text": "Iklan digital",
+                  "correct": false
+                },
+                {
+                  "text": "Aplikasi pesan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Warisan leluhur berupa aksara, cerita, ritual, dan karya budaya.",
+              "hint": "Iklan digital bukan warisan leluhur."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Mencintai Keberagaman Budaya Spiritual Nusantara — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Menghormati dan menyucikan alam termasuk nilai…",
+              "options": [
+                {
+                  "text": "kelestarian alam",
+                  "correct": true
+                },
+                {
+                  "text": "kesatuan dan persatuan"
+                },
+                {
+                  "text": "moralitas sosial"
+                },
+                {
+                  "text": "nilai spiritual"
+                }
+              ],
+              "explanation": "Nilai kelestarian alam bersifat eko-spiritual.",
+              "hint": "Menjaga hubungan manusia dengan alam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aksara Nusantara menurut banyak ahli mulai dikenal sekitar…",
+              "options": [
+                {
+                  "text": "abad ke-4 Masehi",
+                  "correct": true
+                },
+                {
+                  "text": "abad ke-10 Masehi"
+                },
+                {
+                  "text": "abad ke-16 Masehi"
+                },
+                {
+                  "text": "abad ke-20 Masehi"
+                }
+              ],
+              "explanation": "Aksara Nusantara mulai dikenal sekitar abad ke-4 Masehi.",
+              "hint": "Masih kerabat Pallawa dan Kawi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat mempelajari budaya Nusantara?",
+              "options": [
+                {
+                  "text": "Membangun martabat sebagai pewaris budaya",
+                  "correct": true
+                },
+                {
+                  "text": "Meningkatkan rasa percaya diri bangsa",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga nama baik keluarga dan bangsa",
+                  "correct": true
+                },
+                {
+                  "text": "Merendahkan budaya lain",
+                  "correct": false
+                },
+                {
+                  "text": "Menolak keberagaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Manfaatnya membangun martabat dan percaya diri.",
+              "hint": "Merendahkan budaya lain bertentangan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bentuk ritual yang disebut buku?",
+              "options": [
+                {
+                  "text": "Ritual kehidupan dan penghidupan",
+                  "correct": true
+                },
+                {
+                  "text": "Ritual penghormatan leluhur",
+                  "correct": true
+                },
+                {
+                  "text": "Upacara syukuran panen",
+                  "correct": true
+                },
+                {
+                  "text": "Ritual hiburan komersial",
+                  "correct": false
+                },
+                {
+                  "text": "Ritual politik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ritual mewariskan nilai budi luhur.",
+              "hint": "Ritual komersial bukan tradisi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Kearifan lokal",
+                  "right": "nilai tradisi yang teruji"
+                },
+                {
+                  "id": "m1",
+                  "left": "Local wisdom",
+                  "right": "istilah asing kearifan lokal"
+                },
+                {
+                  "id": "m2",
+                  "left": "Abugida",
+                  "right": "tulisan konsonan dengan notasi vokal"
+                },
+                {
+                  "id": "m3",
+                  "left": "Seren Taun",
+                  "right": "syukuran panen Sunda Buhun"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "nilai tradisi yang teruji",
+                  "m1": "istilah asing kearifan lokal",
+                  "m2": "tulisan konsonan dengan notasi vokal",
+                  "m3": "syukuran panen Sunda Buhun"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan jalur pewarisan kearifan lokal.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Sistem kepercayaan leluhur"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tokoh dan leluhur pencerah"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tradisi dan kearifan lokal"
+                },
+                {
+                  "id": "d3",
+                  "text": "Ekspresi budaya"
+                },
+                {
+                  "id": "d4",
+                  "text": "Pendidikan karakter generasi muda"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pewarisan berjalan dari kepercayaan sampai pendidikan generasi.",
+              "hint": "Pendidikan menjadi ujung rantai."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menggali makna warisan leluhur.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mengenali bentuk warisan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Mempelajari konteks budayanya"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menemukan nilai yang disiratkan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Mempraktikkan dalam kehidupan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mewariskan kepada generasi muda"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Penggalian makna bergerak dari bentuk ke praktik.",
+              "hint": "Pewarisan menutup langkah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem tulisan aksara Nusantara umumnya berbentuk…",
+              "options": [
+                {
+                  "text": "abugida atau alfasilabis",
+                  "correct": true
+                },
+                {
+                  "text": "alfabet Latin murni"
+                },
+                {
+                  "text": "hieroglif"
+                },
+                {
+                  "text": "huruf paku"
+                }
+              ],
+              "explanation": "Aksara Nusantara berbasis konsonan dengan notasi vokal.",
+              "hint": "Contohnya Ha Na Ca Ra Ka."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Leluhur menyiratkan nilai melalui mitos, cerita, umpama, dan sastra karena…",
+              "options": [
+                {
+                  "text": "daya jangkauannya melampaui ingatan penutur awal",
+                  "correct": true
+                },
+                {
+                  "text": "lebih murah biayanya"
+                },
+                {
+                  "text": "lebih singkat"
+                },
+                {
+                  "text": "lebih modern"
+                }
+              ],
+              "explanation": "Cerita bertahan melampaui ingatan orang yang memulainya.",
+              "hint": "Nilai diwariskan turun-temurun."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah nilai yang perlu dipegang masyarakat menurut buku?",
+              "options": [
+                {
+                  "text": "Keberagaman",
+                  "correct": true
+                },
+                {
+                  "text": "Toleransi",
+                  "correct": true
+                },
+                {
+                  "text": "Kebersamaan",
+                  "correct": true
+                },
+                {
+                  "text": "Dominasi satu budaya",
+                  "correct": false
+                },
+                {
+                  "text": "Permusuhan antarsuku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai itu menjaga persatuan dan kesatuan.",
+              "hint": "Dominasi merusak keberagaman."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Mencintai Keberagaman Budaya Spiritual Nusantara — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Media tulis tradisional yang disebut buku adalah…",
+              "options": [
+                {
+                  "text": "daun lontar dan batu tulis",
+                  "correct": true
+                },
+                {
+                  "text": "kertas HVS"
+                },
+                {
+                  "text": "papan tulis"
+                },
+                {
+                  "text": "layar digital"
+                }
+              ],
+              "explanation": "Naskah ditulis pada daun lontar dan batu tulis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ritual syukuran panen komunitas Sunda Buhun disebut…",
+              "options": [
+                {
+                  "text": "Seren Taun",
+                  "correct": true
+                },
+                {
+                  "text": "Sipaha Lima"
+                },
+                {
+                  "text": "Wulla Poddu"
+                },
+                {
+                  "text": "Ngaben"
+                }
+              ],
+              "explanation": "Seren Taun adalah ritual syukuran panen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pendidikan karakter menumbuhkan nilai budi luhur melalui…",
+              "options": [
+                {
+                  "text": "keteladanan, teguran, dan pembiasaan",
+                  "correct": true
+                },
+                {
+                  "text": "hukuman berat"
+                },
+                {
+                  "text": "hafalan panjang"
+                },
+                {
+                  "text": "ujian tertulis"
+                }
+              ],
+              "explanation": "Nilai kearifan lokal dijelaskan dalam konteks praktik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut buku, penghayat kepercayaan berperan sebagai…",
+              "options": [
+                {
+                  "text": "penyuluh nilai budi luhur berbasis kearifan lokal",
+                  "correct": true
+                },
+                {
+                  "text": "penjaga rahasia adat"
+                },
+                {
+                  "text": "pemimpin politik"
+                },
+                {
+                  "text": "pelaku perdagangan budaya"
+                }
+              ],
+              "explanation": "Penghayat menjadi rujukan nilai luhur kearifan lokal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap “tepa selira” berarti…",
+              "options": [
+                {
+                  "text": "mawas kebersamaan dengan merasakan perasaan orang lain",
+                  "correct": true
+                },
+                {
+                  "text": "menonjolkan diri"
+                },
+                {
+                  "text": "menuntut hak"
+                },
+                {
+                  "text": "menjauhi pergaulan"
+                }
+              ],
+              "explanation": "Tepa selira adalah memayu hayu sesama."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah media tulis tradisional Nusantara?",
+              "options": [
+                {
+                  "text": "Daun lontar",
+                  "correct": true
+                },
+                {
+                  "text": "Batu tulis",
+                  "correct": true
+                },
+                {
+                  "text": "Kulit kayu",
+                  "correct": true
+                },
+                {
+                  "text": "Papan ketik",
+                  "correct": false
+                },
+                {
+                  "text": "Layar sentuh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Naskah lama ditulis di lontar, batu, dan kulit kayu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh ekspresi budaya yang lahir dari sistem kepercayaan?",
+              "options": [
+                {
+                  "text": "Tarian ritual",
+                  "correct": true
+                },
+                {
+                  "text": "Arsitektur rumah adat",
+                  "correct": true
+                },
+                {
+                  "text": "Sistem kalender kuno",
+                  "correct": true
+                },
+                {
+                  "text": "Iklan televisi",
+                  "correct": false
+                },
+                {
+                  "text": "Permainan daring",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ekspresi budaya tumbuh dari nilai kepercayaan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Tepa selira",
+                  "right": "merasakan perasaan orang lain"
+                },
+                {
+                  "id": "m1",
+                  "left": "Pemali",
+                  "right": "larangan adat komunitas"
+                },
+                {
+                  "id": "m2",
+                  "left": "Eko-spiritual",
+                  "right": "menyucikan alam ciptaan Tuhan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Uli Kozok",
+                  "right": "pembuat font aksara Batak"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "merasakan perasaan orang lain",
+                  "m1": "larangan adat komunitas",
+                  "m2": "menyucikan alam ciptaan Tuhan",
+                  "m3": "pembuat font aksara Batak"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menyiapkan atraksi seni berbasis kearifan lokal.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Memilih tradisi yang akan diangkat"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mempelajari nilai dan tata caranya"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menyusun kreasi pertunjukan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Berlatih bersama warga"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menampilkan dengan menjaga kesakralan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kreasi seni tetap berpijak pada nilai tradisi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan sikap menjaga moralitas masyarakat.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mengenali norma kepantasan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memberi keteladanan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menegur dengan santun"
+                },
+                {
+                  "id": "p3",
+                  "text": "Membiasakan perilaku baik"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menjaga tradisi bersama"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Penjagaan moral dimulai dari pengenalan norma sampai kebiasaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aksara Batak Toba pertama kali dibuat fontnya oleh…",
+              "options": [
+                {
+                  "text": "Uli Kozok",
+                  "correct": true
+                },
+                {
+                  "text": "Marubat Sitorus"
+                },
+                {
+                  "text": "Poltak Sirait"
+                },
+                {
+                  "text": "Suharto"
+                }
+              ],
+              "explanation": "Prof. Uli Kozok membuat font aksara Batak Toba pada 2001."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ungkapan “mata do guru, roha sisean” bermakna…",
+              "options": [
+                {
+                  "text": "mata adalah guru, hati dan pikiran menjadi murid",
+                  "correct": true
+                },
+                {
+                  "text": "mata harus ditutup saat belajar"
+                },
+                {
+                  "text": "guru harus melihat murid"
+                },
+                {
+                  "text": "murid wajib menatap guru"
+                }
+              ],
+              "explanation": "Pepatah itu mengajarkan belajar dari pengamatan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap penjaga kearifan lokal?",
+              "options": [
+                {
+                  "text": "Mempelajari makna tradisi",
+                  "correct": true
+                },
+                {
+                  "text": "Melibatkan generasi muda",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga kesakralan ritual",
+                  "correct": true
+                },
+                {
+                  "text": "Meninggalkan ritual",
+                  "correct": false
+                },
+                {
+                  "text": "Mengubah ritual tanpa pemahaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penjaga kearifan memahami dan melibatkan generasi muda."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Kearifan lokal",
+                  "right": "nilai tradisi yang teruji"
+                },
+                {
+                  "id": "m1",
+                  "left": "Local wisdom",
+                  "right": "istilah asing kearifan lokal"
+                },
+                {
+                  "id": "m2",
+                  "left": "Abugida",
+                  "right": "tulisan konsonan dengan notasi vokal"
+                },
+                {
+                  "id": "m3",
+                  "left": "Seren Taun",
+                  "right": "syukuran panen Sunda Buhun"
+                },
+                {
+                  "id": "m4",
+                  "left": "Tepa selira",
+                  "right": "merasakan perasaan orang lain"
+                },
+                {
+                  "id": "m5",
+                  "left": "Pemali",
+                  "right": "larangan adat komunitas"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "nilai tradisi yang teruji",
+                  "m1": "istilah asing kearifan lokal",
+                  "m2": "tulisan konsonan dengan notasi vokal",
+                  "m3": "syukuran panen Sunda Buhun",
+                  "m4": "merasakan perasaan orang lain",
+                  "m5": "larangan adat komunitas"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah belajar sepanjang hayat menurut buku.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengamati peristiwa di sekitar"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menanyakan kepada yang lebih tahu"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mengalami dan menjalani sendiri"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mengambil pelajaran"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menerapkan pada kehidupan berikutnya"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Belajar berjalan dari pengamatan sampai penerapan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
