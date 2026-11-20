@@ -1,0 +1,1321 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 10",
+      "title": "Cerita secara Visual",
+      "description": "Membangun unsur cerita film animasi, menyusun shot, scene, dan sequence, menulis sinopsis serta skenario, membuat storyboard, dan menyiapkan pre-visualisasi (animatic).",
+      "learning_objectives": [
+        "Menentukan premise, logline, dan unsur cerita film animasi.",
+        "Membedakan shot, scene, dan sequence beserta angle kamera.",
+        "Menulis sinopsis tiga babak dan skenario animasi.",
+        "Membuat storyboard dan animatic sebagai produk akhir praproduksi."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 10 Cerita secara Visual; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Unsur-unsur cerita",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 10 Cerita secara Visual; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Dari premise menjadi logline\n\nCerita adalah rangkaian kejadian yang dibuat scriptwriter untuk menciptakan konflik antartokoh atau dalam diri tokoh.\n\nPremise adalah ide utama cerita; setelah itu disusun dramatic premise atau logline, yaitu satu kalimat yang menjelaskan peristiwa dalam cerita.\n\nSumber ide cerita sangat beragam: buku, alam, kehidupan sehari-hari, kejadian alam, cerita sejarah, sains, musik, hubungan keluarga, permainan anak, kearifan lokal, dan cerita rakyat.\n\nUnsur cerita animasi meliputi premise, alur atau plot, tokoh/karakter, latar/setting, gaya/style, dan pesan yang ingin disampaikan.\n\nPremise Timun Mas: Timun Mas ingin hidup bahagia bersama Mbok Sirni, tetapi saat berusia tujuh tahun ia harus diserahkan kepada raksasa.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-10-cerita-visual-glosarium",
+              "terms": [
+                {
+                  "term": "Premise",
+                  "definition": "Ide atau gagasan utama yang melatarbelakangi penulisan cerita."
+                },
+                {
+                  "term": "Logline",
+                  "definition": "Satu kalimat yang menjelaskan peristiwa utama dalam cerita."
+                },
+                {
+                  "term": "Shot",
+                  "definition": "Bagian terkecil adegan berupa satu pengambilan gambar."
+                },
+                {
+                  "term": "Scene",
+                  "definition": "Satu atau gabungan beberapa shot."
+                },
+                {
+                  "term": "Sequence",
+                  "definition": "Gabungan beberapa scene membentuk rangkaian cerita."
+                },
+                {
+                  "term": "Close up",
+                  "definition": "Angle kamera untuk menunjukkan ekspresi karakter dalam dialog."
+                },
+                {
+                  "term": "Sinopsis",
+                  "definition": "Uraian isi cerita berisi penokohan dan latar dengan alur dramatis, tiga paragraf."
+                },
+                {
+                  "term": "Skenario",
+                  "definition": "Naskah cerita berurutan per adegan memuat keterangan, setting, waktu, dan dialog."
+                },
+                {
+                  "term": "Storyboard",
+                  "definition": "Gambar dalam panel hasil visualisasi skenario menjadi urutan adegan."
+                },
+                {
+                  "term": "Animatic",
+                  "definition": "Prototipe hasil akhir praproduksi untuk mengukur durasi secara realtime."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari premise menjadi logline"
+            },
+            {
+              "type": "paragraph",
+              "text": "Cerita adalah rangkaian kejadian yang dibuat scriptwriter untuk menciptakan konflik antartokoh atau dalam diri tokoh."
+            },
+            {
+              "type": "paragraph",
+              "text": "Premise adalah ide utama cerita; setelah itu disusun dramatic premise atau logline, yaitu satu kalimat yang menjelaskan peristiwa dalam cerita."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sumber ide cerita sangat beragam: buku, alam, kehidupan sehari-hari, kejadian alam, cerita sejarah, sains, musik, hubungan keluarga, permainan anak, kearifan lokal, dan cerita rakyat."
+            },
+            {
+              "type": "paragraph",
+              "text": "Unsur cerita animasi meliputi premise, alur atau plot, tokoh/karakter, latar/setting, gaya/style, dan pesan yang ingin disampaikan."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-10-cerita-visual-diagram",
+              "engine": "mermaid",
+              "title": "Sumber ide cerita animasi",
+              "code": "flowchart TB\n  A[Sumber ide] --> B[Buku dan cerita rakyat]\n  A --> C[Alam dan kejadian alam]\n  A --> D[Kehidupan sehari-hari dan keluarga]\n  A --> E[Sejarah, sains, musik, permainan]\n  A --> F[Kearifan budaya lokal]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Premise Timun Mas: Timun Mas ingin hidup bahagia bersama Mbok Sirni, tetapi saat berusia tujuh tahun ia harus diserahkan kepada raksasa."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-10-cerita-visual-cp-1",
+              "question": "Ide atau gagasan utama yang melatarbelakangi cerita disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "premise",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "storyboard"
+                },
+                {
+                  "id": "c2",
+                  "text": "animatic"
+                },
+                {
+                  "id": "c3",
+                  "text": "sinopsis"
+                }
+              ],
+              "explanation": "Premise lalu diturunkan menjadi logline."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Shot, scene, dan sequence",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 10 Cerita secara Visual; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Urutan pengambilan adegan\n\nShot adalah bagian terkecil adegan, scene terdiri atas satu atau gabungan beberapa shot, dan sequence adalah gabungan beberapa scene.\n\nAngle kamera memperkuat dramatik: close up untuk dialog, extreme close up untuk emosi ekstrem, medium shot dari pinggang ke atas.\n\nFull shot menampilkan karakter utuh dari kaki sampai kepala untuk memperlihatkan gestur, sedangkan long shot menyorot objek dari jauh untuk menampilkan environment.\n\nPanning menggerakkan kamera searah gerak objek, dapat juga memperlihatkan suasana ruangan.\n\n| Angle/teknik | Penggunaan |\n|---|---|\n| Close up | Adegan dialog, fokus ekspresi |\n| Extreme close up | Emosi ekstrem: kemarahan, kelicikan |\n| Medium shot | Percakapan antarkarakter |\n| Full shot | Karakter utuh dan gestur |\n| Long shot | Environment dan suasana pembuka scene |\n| Panning | Kamera mengikuti gerak objek |\n\n### Storyboard dan animatic\n\n- Sinopsis dibuat tiga paragraf mengikuti struktur tiga babak, sedangkan skenario diuraikan per adegan secara berurutan.\n- Fungsi skenario adalah petunjuk kerja storyboard artist untuk memvisualkan cerita menjadi gambar storyboard.\n- Storyboard dikembangkan Walt Disney tahun 1930 dan menjadi standar studio animasi pada 1937–1938.\n- Storyboard memuat karakteristik tokoh, gerakan, durasi adegan, setting, dan perlakuan kamera beserta keterangan suara.\n- Animatic adalah produk terakhir praproduksi untuk mengukur waktu dan gerakan kamera secara realtime.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Urutan pengambilan adegan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Shot adalah bagian terkecil adegan, scene terdiri atas satu atau gabungan beberapa shot, dan sequence adalah gabungan beberapa scene."
+            },
+            {
+              "type": "paragraph",
+              "text": "Angle kamera memperkuat dramatik: close up untuk dialog, extreme close up untuk emosi ekstrem, medium shot dari pinggang ke atas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Full shot menampilkan karakter utuh dari kaki sampai kepala untuk memperlihatkan gestur, sedangkan long shot menyorot objek dari jauh untuk menampilkan environment."
+            },
+            {
+              "type": "paragraph",
+              "text": "Panning menggerakkan kamera searah gerak objek, dapat juga memperlihatkan suasana ruangan."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Angle/teknik",
+                  "Penggunaan"
+                ],
+                [
+                  "Close up",
+                  "Adegan dialog, fokus ekspresi"
+                ],
+                [
+                  "Extreme close up",
+                  "Emosi ekstrem: kemarahan, kelicikan"
+                ],
+                [
+                  "Medium shot",
+                  "Percakapan antarkarakter"
+                ],
+                [
+                  "Full shot",
+                  "Karakter utuh dan gestur"
+                ],
+                [
+                  "Long shot",
+                  "Environment dan suasana pembuka scene"
+                ],
+                [
+                  "Panning",
+                  "Kamera mengikuti gerak objek"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-10-urutan",
+              "engine": "mermaid",
+              "title": "Hubungan shot, scene, dan sequence",
+              "code": "flowchart LR\n  A[Shot: bagian terkecil] --> B[Scene: gabungan shot]\n  B --> C[Sequence: gabungan scene]\n  C --> D[Film utuh]\n  A --> E[Angle kamera menentukan kesan dramatik]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-10-klasifikasi",
+              "prompt": "Kelompokkan kegiatan sesuai urutan produksi cerita.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Praproduksi naskah"
+                },
+                {
+                  "id": "b2",
+                  "label": "Visualisasi"
+                },
+                {
+                  "id": "b3",
+                  "label": "Pengukuran waktu"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Menulis premise dan logline",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Menyusun sinopsis tiga babak",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Membuat storyboard",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Menentukan angle kamera per shot",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Membuat animatic",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i6",
+                  "text": "Mengukur durasi film sebelum diproduksi",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Naskah dulu, lalu divisualkan, akhirnya diukur waktunya.",
+                "wrong": "Ingat: premise dan sinopsis naskah; storyboard visual; animatic waktu."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Storyboard dan animatic"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sinopsis dibuat tiga paragraf mengikuti struktur tiga babak, sedangkan skenario diuraikan per adegan secara berurutan.",
+                "Fungsi skenario adalah petunjuk kerja storyboard artist untuk memvisualkan cerita menjadi gambar storyboard.",
+                "Storyboard dikembangkan Walt Disney tahun 1930 dan menjadi standar studio animasi pada 1937–1938.",
+                "Storyboard memuat karakteristik tokoh, gerakan, durasi adegan, setting, dan perlakuan kamera beserta keterangan suara.",
+                "Animatic adalah produk terakhir praproduksi untuk mengukur waktu dan gerakan kamera secara realtime."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-10-cerita-visual-cp-2",
+              "question": "Produk terakhir praproduksi animasi untuk mengukur durasi disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "animatic",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "storyboard"
+                },
+                {
+                  "id": "c2",
+                  "text": "sinopsis"
+                },
+                {
+                  "id": "c3",
+                  "text": "skenario"
+                }
+              ],
+              "explanation": "Animatic berupa prototipe berdurasi nyata."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 10 Cerita secara Visual; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Menyusun cerita sampai animatic\n\nSinopsis Timun Mas ditulis berdasarkan scene dan sequence: dari Mbok Sirni yang mendambakan anak hingga Timun Mas yang harus menghadapi raksasa.\n\nTemplate storyboard memuat shot description, audio, effect/graphics, dialogue/narration, scene, shot, dan transition.\n\nAnimatic dibuat setelah storyboard, dubbing, sound effect, dan musik latar, sehingga durasi film sudah diketahui sebelum produksi penuh.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyusun cerita sampai animatic"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sinopsis Timun Mas ditulis berdasarkan scene dan sequence: dari Mbok Sirni yang mendambakan anak hingga Timun Mas yang harus menghadapi raksasa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Template storyboard memuat shot description, audio, effect/graphics, dialogue/narration, scene, shot, dan transition."
+            },
+            {
+              "type": "paragraph",
+              "text": "Animatic dibuat setelah storyboard, dubbing, sound effect, dan musik latar, sehingga durasi film sudah diketahui sebelum produksi penuh."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-10-skenario",
+              "title": "Cerita film pendek belum jelas",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Tim produksimu ingin membuat film pendek, tetapi ide masih kabur. Langkah pertama?",
+                  "choices": [
+                    {
+                      "text": "Menentukan premise dan menuliskan logline satu kalimat",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Premise dan logline memperjelas inti cerita."
+                    },
+                    {
+                      "text": "Langsung menggambar semua adegan tanpa naskah",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa naskah, cerita cenderung kacau dan melebar."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Agar tim memahami cerita, dokumen apa yang dibuat berikutnya?",
+                  "choices": [
+                    {
+                      "text": "Sinopsis tiga babak, skenario, lalu storyboard dan animatic",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Urutan dokumen ini menjadi pedoman produksi."
+                    },
+                    {
+                      "text": "Hanya daftar nama karakter tanpa alur",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Alur dan konflik harus terlihat agar cerita hidup."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Film selesai tetapi ceritanya membingungkan penonton.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Cerita jelas dan durasi terkontrol sehingga produksi lancar.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-10-cerita-visual-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu logline?",
+                  "back": "Satu kalimat yang menjelaskan peristiwa dalam cerita."
+                },
+                {
+                  "front": "Urutan shot, scene, sequence?",
+                  "back": "Shot terkecil, scene gabungan shot, sequence gabungan scene."
+                },
+                {
+                  "front": "Berapa paragraf sinopsis?",
+                  "back": "Tiga paragraf sesuai struktur tiga babak."
+                },
+                {
+                  "front": "Apa isi template storyboard?",
+                  "back": "Shot description, audio, efek, dialog, scene, shot, transition."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-10-cerita-visual-cp-3",
+              "question": "Dokumen yang menjadi petunjuk kerja storyboard artist adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "skenario",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "animatic"
+                },
+                {
+                  "id": "c2",
+                  "text": "premise"
+                },
+                {
+                  "id": "c3",
+                  "text": "sinopsis"
+                }
+              ],
+              "explanation": "Skenario menjadi dasar visualisasi storyboard."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-10-tantangan",
+              "title": "Tantangan istilah cerita visual",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Ide utama cerita",
+                  "answer": "Premise"
+                },
+                {
+                  "question": "Bagian terkecil adegan",
+                  "answer": "Shot"
+                },
+                {
+                  "question": "Gabungan beberapa scene",
+                  "answer": "Sequence"
+                },
+                {
+                  "question": "Gambar panel visualisasi skenario",
+                  "answer": "Storyboard"
+                },
+                {
+                  "question": "Prototipe praproduksi untuk mengukur durasi",
+                  "answer": "Animatic"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah cerita visual terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Cerita secara Visual — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ide utama yang melatarbelakangi cerita disebut…",
+              "options": [
+                {
+                  "text": "premise",
+                  "correct": true
+                },
+                {
+                  "text": "storyboard"
+                },
+                {
+                  "text": "logline"
+                },
+                {
+                  "text": "animatic"
+                }
+              ],
+              "explanation": "Premise lalu dijabarkan jadi logline.",
+              "hint": "Menjadi fondasi cerita."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Satu kalimat yang menjelaskan peristiwa cerita disebut…",
+              "options": [
+                {
+                  "text": "logline",
+                  "correct": true
+                },
+                {
+                  "text": "premise"
+                },
+                {
+                  "text": "sinopsis"
+                },
+                {
+                  "text": "sequence"
+                }
+              ],
+              "explanation": "Disebut juga dramatic premise.",
+              "hint": "Memuat konflik utama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Film yang ide ceritanya berasal dari buku adalah…",
+              "options": [
+                {
+                  "text": "How to Train Your Dragon: The Hidden World",
+                  "correct": true
+                },
+                {
+                  "text": "A Bugs Life"
+                },
+                {
+                  "text": "Ice Age: The Meltdown"
+                },
+                {
+                  "text": "Ron’s Gone Wrong"
+                }
+              ],
+              "explanation": "Diadaptasi dari buku fiksi.",
+              "hint": "Ide dari buku sangat umum."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah unsur cerita animasi?",
+              "options": [
+                {
+                  "text": "Premise",
+                  "correct": true
+                },
+                {
+                  "text": "Alur atau plot",
+                  "correct": true
+                },
+                {
+                  "text": "Latar atau setting",
+                  "correct": true
+                },
+                {
+                  "text": "Rendering",
+                  "correct": false
+                },
+                {
+                  "text": "Compositing",
+                  "correct": false
+                },
+                {
+                  "text": "Dubbing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Unsur cerita membangun narasi.",
+              "hint": "Sisanya tahap teknis."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sumber ide cerita animasi?",
+              "options": [
+                {
+                  "text": "Buku dan cerita rakyat",
+                  "correct": true
+                },
+                {
+                  "text": "Alam dan kejadian alam",
+                  "correct": true
+                },
+                {
+                  "text": "Kehidupan sehari-hari",
+                  "correct": true
+                },
+                {
+                  "text": "Jadwal produksi",
+                  "correct": false
+                },
+                {
+                  "text": "Anggaran",
+                  "correct": false
+                },
+                {
+                  "text": "Kontrak kerja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ide datang dari banyak sumber.",
+              "hint": "Sisanya administrasi."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Cerita secara Visual — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Film animasi yang ide ceritanya bersumber dari alam adalah…",
+              "options": [
+                {
+                  "text": "A Bugs Life",
+                  "correct": true
+                },
+                {
+                  "text": "Coco in Concert"
+                },
+                {
+                  "text": "Battle of Surabaya"
+                },
+                {
+                  "text": "Si Juki Anak Kosan"
+                }
+              ],
+              "explanation": "Menampilkan kehidupan serangga.",
+              "hint": "Alam kaya inspirasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian terkecil dari adegan film disebut…",
+              "options": [
+                {
+                  "text": "shot",
+                  "correct": true
+                },
+                {
+                  "text": "scene"
+                },
+                {
+                  "text": "sequence"
+                },
+                {
+                  "text": "sinopsis"
+                }
+              ],
+              "explanation": "Durasi beberapa detik hingga menit.",
+              "hint": "Ditentukan dengan angle kamera."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah angle kamera yang dibahas?",
+              "options": [
+                {
+                  "text": "Close up",
+                  "correct": true
+                },
+                {
+                  "text": "Extreme close up",
+                  "correct": true
+                },
+                {
+                  "text": "Medium shot",
+                  "correct": true
+                },
+                {
+                  "text": "Render engine",
+                  "correct": false
+                },
+                {
+                  "text": "Keyframe",
+                  "correct": false
+                },
+                {
+                  "text": "Viewport",
+                  "correct": false
+                }
+              ],
+              "explanation": "Angle menentukan kesan dramatik.",
+              "hint": "Sisanya istilah teknis 3D."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah urutan pengambilan adegan?",
+              "options": [
+                {
+                  "text": "Shot",
+                  "correct": true
+                },
+                {
+                  "text": "Scene",
+                  "correct": true
+                },
+                {
+                  "text": "Sequence",
+                  "correct": true
+                },
+                {
+                  "text": "Premise",
+                  "correct": false
+                },
+                {
+                  "text": "Logline",
+                  "correct": false
+                },
+                {
+                  "text": "Sinopsis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Urutan dari bagian terkecil ke besar.",
+              "hint": "Sisanya istilah naskah."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Premise",
+                  "right": "ide utama cerita"
+                },
+                {
+                  "id": "m1",
+                  "left": "Logline",
+                  "right": "ringkasan satu kalimat"
+                },
+                {
+                  "id": "m2",
+                  "left": "Shot",
+                  "right": "bagian terkecil adegan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sequence",
+                  "right": "gabungan beberapa scene"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "ide utama cerita",
+                  "m1": "ringkasan satu kalimat",
+                  "m2": "bagian terkecil adegan",
+                  "m3": "gabungan beberapa scene"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan penulisan naskah animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menentukan premise"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menulis logline"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menyusun sinopsis tiga babak"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menulis skenario"
+                },
+                {
+                  "id": "d4",
+                  "text": "Membuat storyboard dan animatic"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Premise menjadi awal.",
+              "hint": "Animatic menutup praproduksi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan skala adegan dari kecil ke besar.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Shot"
+                },
+                {
+                  "id": "p1",
+                  "text": "Scene"
+                },
+                {
+                  "id": "p2",
+                  "text": "Sequence"
+                },
+                {
+                  "id": "p3",
+                  "text": "Film utuh"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Shot paling kecil.",
+              "hint": "Film utuh paling besar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gabungan beberapa scene membentuk…",
+              "options": [
+                {
+                  "text": "sequence",
+                  "correct": true
+                },
+                {
+                  "text": "shot"
+                },
+                {
+                  "text": "logline"
+                },
+                {
+                  "text": "premise"
+                }
+              ],
+              "explanation": "Sequence lebih besar dari scene.",
+              "hint": "Scene gabungan shot."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Angle kamera untuk menampilkan ekspresi emosi ekstrem adalah…",
+              "options": [
+                {
+                  "text": "extreme close up",
+                  "correct": true
+                },
+                {
+                  "text": "medium shot"
+                },
+                {
+                  "text": "full shot"
+                },
+                {
+                  "text": "long shot"
+                }
+              ],
+              "explanation": "Menyorot mata dan wajah.",
+              "hint": "Mengekspresikan kemarahan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah isi storyboard?",
+              "options": [
+                {
+                  "text": "Shot description",
+                  "correct": true
+                },
+                {
+                  "text": "Dialogue atau narration",
+                  "correct": true
+                },
+                {
+                  "text": "Transition",
+                  "correct": true
+                },
+                {
+                  "text": "Harga sewa",
+                  "correct": false
+                },
+                {
+                  "text": "Gaji kru",
+                  "correct": false
+                },
+                {
+                  "text": "Stok kertas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Storyboard memuat keterangan adegan.",
+              "hint": "Sisanya bukan isi storyboard."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Cerita secara Visual — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Medium shot dibatasi dari…",
+              "options": [
+                {
+                  "text": "pinggang ke atas",
+                  "correct": true
+                },
+                {
+                  "text": "kaki ke kepala"
+                },
+                {
+                  "text": "kepala saja"
+                },
+                {
+                  "text": "mata saja"
+                }
+              ],
+              "explanation": "Cocok untuk percakapan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Full shot memperlihatkan karakter…",
+              "options": [
+                {
+                  "text": "utuh dari ujung kaki sampai ujung kepala",
+                  "correct": true
+                },
+                {
+                  "text": "hanya wajah"
+                },
+                {
+                  "text": "hanya mata"
+                },
+                {
+                  "text": "hanya latar"
+                }
+              ],
+              "explanation": "Memperlihatkan gestur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teknik menggerakkan kamera searah gerak objek disebut…",
+              "options": [
+                {
+                  "text": "panning",
+                  "correct": true
+                },
+                {
+                  "text": "zoom"
+                },
+                {
+                  "text": "tilting"
+                },
+                {
+                  "text": "cut"
+                }
+              ],
+              "explanation": "Dapat juga untuk memperlihatkan ruangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sinopsis cerita dibuat dalam…",
+              "options": [
+                {
+                  "text": "tiga paragraf sesuai struktur tiga babak",
+                  "correct": true
+                },
+                {
+                  "text": "satu paragraf panjang"
+                },
+                {
+                  "text": "lima paragraf"
+                },
+                {
+                  "text": "sepuluh paragraf"
+                }
+              ],
+              "explanation": "Memuat penokohan dan latar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi skenario adalah…",
+              "options": [
+                {
+                  "text": "petunjuk kerja storyboard artist",
+                  "correct": true
+                },
+                {
+                  "text": "menghitung anggaran"
+                },
+                {
+                  "text": "menjual produk"
+                },
+                {
+                  "text": "mengatur gaji"
+                }
+              ],
+              "explanation": "Memuat keterangan, setting, waktu, dialog."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri animatic?",
+              "options": [
+                {
+                  "text": "Prototipe praproduksi",
+                  "correct": true
+                },
+                {
+                  "text": "Mengukur durasi realtime",
+                  "correct": true
+                },
+                {
+                  "text": "Memuat suara dan gerakan kamera",
+                  "correct": true
+                },
+                {
+                  "text": "Film final siap rilis",
+                  "correct": false
+                },
+                {
+                  "text": "Poster promosi",
+                  "correct": false
+                },
+                {
+                  "text": "Naskah tertulis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Animatic mengukur waktu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh film animasi Indonesia bertema kearifan lokal?",
+              "options": [
+                {
+                  "text": "Binekon",
+                  "correct": true
+                },
+                {
+                  "text": "Battle of Surabaya",
+                  "correct": true
+                },
+                {
+                  "text": "Si Juki Anak Kosan",
+                  "correct": true
+                },
+                {
+                  "text": "Toy Story",
+                  "correct": false
+                },
+                {
+                  "text": "Frozen",
+                  "correct": false
+                },
+                {
+                  "text": "Moana",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karya anak bangsa mengangkat lokalitas."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Sinopsis",
+                  "right": "uraian cerita tiga paragraf"
+                },
+                {
+                  "id": "m1",
+                  "left": "Skenario",
+                  "right": "naskah per adegan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Storyboard",
+                  "right": "gambar panel adegan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Animatic",
+                  "right": "prototipe pengukur durasi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "uraian cerita tiga paragraf",
+                  "m1": "naskah per adegan",
+                  "m2": "gambar panel adegan",
+                  "m3": "prototipe pengukur durasi"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pembuatan animatic.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyelesaikan storyboard"
+                },
+                {
+                  "id": "d1",
+                  "text": "Merekam dubbing"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menambahkan sound effect dan musik"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menyusun gambar sesuai durasi suara"
+                },
+                {
+                  "id": "d4",
+                  "text": "Evaluasi dan revisi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Storyboard mendahului suara."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pembuatan storyboard.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Membaca skenario"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memilih scene dan shot"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menentukan angle kamera"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menggambar panel dan keterangan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menambahkan dialog dan efek"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Skenario dibaca dulu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Storyboard pertama kali dikembangkan oleh…",
+              "options": [
+                {
+                  "text": "studio Walt Disney tahun 1930",
+                  "correct": true
+                },
+                {
+                  "text": "Pixar tahun 1995"
+                },
+                {
+                  "text": "Toon Boom tahun 2000"
+                },
+                {
+                  "text": "DreamWorks tahun 1994"
+                }
+              ],
+              "explanation": "Berkembang dari sketsa cerita komik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Animatic dibuat setelah…",
+              "options": [
+                {
+                  "text": "storyboard, dubbing, sound effect, dan musik latar",
+                  "correct": true
+                },
+                {
+                  "text": "film dirilis"
+                },
+                {
+                  "text": "pameran selesai"
+                },
+                {
+                  "text": "poster dicetak"
+                }
+              ],
+              "explanation": "Durasi diketahui dari suara."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah fungsi angle kamera?",
+              "options": [
+                {
+                  "text": "Memperkuat dramatik",
+                  "correct": true
+                },
+                {
+                  "text": "Memudahkan penonton mengikuti alur",
+                  "correct": true
+                },
+                {
+                  "text": "Menentukan keypose adegan",
+                  "correct": true
+                },
+                {
+                  "text": "Menghitung anggaran",
+                  "correct": false
+                },
+                {
+                  "text": "Menyusun jadwal",
+                  "correct": false
+                },
+                {
+                  "text": "Menyeleksi kru",
+                  "correct": false
+                }
+              ],
+              "explanation": "Angle mendukung cerita."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Premise",
+                  "right": "ide utama cerita"
+                },
+                {
+                  "id": "m1",
+                  "left": "Logline",
+                  "right": "ringkasan satu kalimat"
+                },
+                {
+                  "id": "m2",
+                  "left": "Shot",
+                  "right": "bagian terkecil adegan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sequence",
+                  "right": "gabungan beberapa scene"
+                },
+                {
+                  "id": "m4",
+                  "left": "Sinopsis",
+                  "right": "uraian cerita tiga paragraf"
+                },
+                {
+                  "id": "m5",
+                  "left": "Skenario",
+                  "right": "naskah per adegan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "ide utama cerita",
+                  "m1": "ringkasan satu kalimat",
+                  "m2": "bagian terkecil adegan",
+                  "m3": "gabungan beberapa scene",
+                  "m4": "uraian cerita tiga paragraf",
+                  "m5": "naskah per adegan"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan perjalanan ide menjadi film.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Sumber ide"
+                },
+                {
+                  "id": "d1",
+                  "text": "Premise dan logline"
+                },
+                {
+                  "id": "d2",
+                  "text": "Sinopsis dan skenario"
+                },
+                {
+                  "id": "d3",
+                  "text": "Storyboard dan animatic"
+                },
+                {
+                  "id": "d4",
+                  "text": "Produksi dan pascaproduksi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Ide menjadi awal."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI 
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Animasi 
+untuk SMK/MAK Kelas X
+Penulis: Nina Tri Daniati, Rida Mulyadi, Agus Nugroho 
+ISBN: 978-623-194-442-9 (no.jil.lengkap PDF)
+ 
+978-623-194-443-6 (jil.1 PDF)
+B
+A
+B
+Pembuatan 
+Gerak Animasi
+9
+Saat menonton film animasi, apakah kamu pernah mengamati secara detail tentang gerakan 
+objek yang terdapat dalam film tersebut? Misalnya, pada film Zootopia, kamu bisa melihat 
+hewan menjalani kehidupan layaknya manusia. Dengan gerakan animasi yang realistis dan 
+memukau, seolah-olah objek yang dianimasikan tersebut adalah manusia di kehidupan 
+nyata. Contoh lain terdapat dalam film The Lego Movie. Film animasi ini termasuk ke dalam 
+genre action yang mengangkat tema mainan anak-anak berupa lego dengan gerakannya 
+yang terbatas dan sederhana karena sendi-sendinya disesuaikan dengan mainan lego. 
+Menurutmu, pengetahuan apa yang harus dipelajari agar dapat menghasilkan film animasi 
+dengan gerakan yang realitistis dan dramatis agar memberi daya tarik kepada penonton? 
+Pertanyaan tersebut dapat kamu jawab setelah mempelajari materi bab ini dengan saksama. 
+Sekarang, saatnya kamu menjadi animator andal Indonesia, bahkan dunia!
+Ga
+mb
+ar 
+9.1
+ P
+ost
+er 
+Zo
+oto
+pia
+    
+Su
+mb
+er: 
+Zoo
+top
+ia/d
+isn
+ey.
+com
+ (20
+16)
+
+254
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Pertanyaan Pemantik
+1. 
+Bagaimana menciptakan gerak objek digital karakter dan nonkarakter?
+2. 
+Apakah kamu memahami prinsip-prinsip pembuatan gerakan objek 
+karakter dan nonkarakter? 
+Tujuan Pembelajaran
+Setelah mengikuti pembelajaran ini, kamu diharapkan mampu memahami:
+1. 
+gerak objek digital karakter dan nonkarakter; 
+2. 
+pengetahuan, keterampilan, dan sikap kerja yang dibutuhkan dalam 
+membuat gerak objek digital karakter dan nonkarakter;
+3. 
+pengetahuan, keterampilan, dan sikap kerja yang dibutuhkan dalam 
+membuat dasar pergerakan buatan berdasarkan instruksi kerja 
+pergerakan objek.
+Kata Kunci
+in between, karakter, keypose, nonkarakter, objek digital, prinsip animasi
+Peta Konsep
+Pembuatan 
+Gerak 
+Animasi
+Tujuan Pembelajaran
+1. gerak objek digital karakter dan 
+nonkarakter; 
+2. pengetahuan, keterampilan, dan sikap 
+kerja yang dibutuhkan dalam membuat 
+gerak objek digital karakter dan 
+nonkarakter;
+3. pengetahuan, keterampilan, dan sikap 
+kerja yang dibutuhkan dalam membuat 
+dasar pergerakan buatan berdasarkan 
+instruksi kerja pergerakan objek.
+1. Squash and Stretch
+2. Anticipation
+3. Staging
+4. Straight Ahead Action and Pose to Pose
+5. Follow Through and Overlapping Action
+6. Slow In And Slow Out
+7. Arch
+8. Secondary Action
+9. Timing and Spacing
+10. Appeal
+11. Exaggeration
+12. Solid Drawing
+1. Keypose
+2. In Between
+A. Unsur-Unsur Visual
+B. Keypose dan In Between
+
+255
+BAB 9 - Pembuatan Gerak Animasi
+A. Unsur-Unsur Visual
+Gerakan objek karakter dan nonkarakter dalam animasi merupakan gerakan 
+buatan yang diciptakan oleh animator dengan meniru gerakan objek 
+sesungguhnya. Seorang animator harus mengetahui sendi-sendi yang bisa 
+digerakkan. Mengapa demikian? Setiap makhluk hidup, ketika menggerakkan 
+salah satu sendi utamanya, akan berpengaruh pada sendi yang lainnya. Demikian 
+juga untuk benda-benda mati yang dapat digerakkan, ada mekanisme gerak yang 
+harus dipahami oleh seorang animator untuk menggerakkan benda tersebut. 
+Dengan demikian, kamu harus memahami terlebih dahulu pergerakan buatan 
+dan instruksi kerjanya. 
+Pada proses produksi animasi, terdapat objek yang dibuatkan pergerakannya, 
+yaitu objek karakter dan nonkarakter. Objek karakter adalah objek yang seolah-
+olah hidup dan dapat melakukan gerakan atas inisiatifnya sendiri. Objek tersebut 
+dapat berupa manusia, hewan, tumbuhan. Sementara itu, objek nonkarakter di 
+antaranya kamera, lighting, benda-benda seperti aset dan properti yang dapat 
+bergerak apabila mendapatkan stimulus dari objek lain. Misalnya, benda-benda 
+yang menggunakan sistem gerak mekanik, yaitu sepeda, mobil, dan kereta.
+Objek karakter memiliki tiga jenis gerakan, yaitu gerak lokomotor, gerak 
+nonlokomotor, dan gerak manipulatif.
+1. 
+Gerak Lokomotor
+Gerak lokomotor adalah perpindahan gerak objek karakter dari satu titik 
+ke titik lainnya. Tubuh, tulang, dan sendi dapat bergerak karena sistem 
+lokomotor dalam tubuh objek karakter itu sendiri. Contoh gerak lokomotor 
+adalah berlari, berjalan, merangkak, dan melompat.
+2. 
+Gerak Nonlokomotor
+Gerak nonlokomotor adalah objek karakter bergerak tanpa berpindah 
+tempat.  Misalnya, membengkokkan, meregangkan, dan mendorong.
+3. 
+Gerak Manipulatif
+Gerak manipulatif adalah kemampuan objek karakter menggunakan 
+motoriknya untuk menggerakkan bagian tubuh lain atau memanipulasi 
+benda. Contohnya adalah melempar, menangkap, dan memukul.
+Animasi merupakan salah satu film yang banyak digemari, mulai dari 
+anak-anak hingga orang dewasa. Animasi memungkinkanmu menghidupkan 
+imajinasi dan mengubahnya menjadi karya visual yang terasa nyata. Gerakan 
+objek karakter dan nonkarakter yang dianimasikan merupakan tiruan dari 
+gerakan objek tersebut pada kehidupan nyata. 
+
+256
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Membuat gerakan dalam dunia industri animasi merupakan tugas dari 
+seorang animator. Selain memiliki pengetahuan dan pemahaman tentang 
+jenis-jenis objek yang akan dianimasikan, seorang animator harus memiliki 
+kemampuan berakting. Melalui akting tersebut, animator dapat merasakan 
+bagian sendi mana yang bergerak dan ke mana arah perputarannya. Bahkan, ia 
+dapat mengenali sifat karakter untuk mendapatkan penjiwaan dari karakter yang 
+akan dibuat gerakannya, serta menerjemahkan daya tarik karakter secara tepat.
+Eksplorasi 9.1
+Untuk menambah pemahamanmu tentang perbedaan objek karakter dan 
+nonkarakter, berikan tanda centang (√) pada jenis objek yang tepat sesuai 
+gambar yang ada dan berikan alasannya.
+Gambar
+Jenis Objek
+Alasan
+Objek 
+Karakter
+Objek 
+Nonkarakter
+Sumber: Zul Adriano/ id.pinterest.com (2021)
+Sumber: Suravasilie/ id.pinterest.com (2021)
+Sumber: Solistx/ id.pinterest.com (2012)
+
+257
+BAB 9 - Pembuatan Gerak Animasi
+Sumber: Suci Ramadhani/ id.pinterest.com (2021)
+Sumber: Victor De Sepausy/ actualitte.com (2021)
+B. Rumusan 12 Prinsip Animasi
+Agar dapat menciptakan gerakan yang realistis dan dramatis, beberapa gerakan 
+harus dilebih-lebihkan. Animator harus memahami pedoman dan acuan dalam 
+menghidupkan karakter animasi agar tampak nyata dan dinamis. Acuan tersebut 
+sering disebut 12 prinsip animasi. 
+Prinsip animasi tersebut merupakan prinsip dasar pembuatan film animasi 
+yang dirumuskan sekitar tahun 1930 oleh Frank Thomas dan Ollie Johnston. 
+Keduanya merupakan animator dari Walt Disney Studio yang ditulis dalam buku 
+The Illussion of Life. Prinsip tersebut merupakan teori dasar seorang animator 
+untuk mengetahui dan memahami cara menghidupkan karakter animasinya 
+sehingga hasilnya menarik, dinamis, dan dramatis dengan gerakan yang realistis. 
+Selain itu, prinsip tersebut dapat mempertegas ekspresi, gestur, dan kepribadian 
+suatu karakter. Prinsip-prinsip tersebut mencakup dasar-dasar pergerakan, 
+timing, pengayaan visual, dan teknik pembuatan gerak animasi.
+Apa saja 12 prinsip animasi yang harus dikuasai animator itu? Kedua belas 
+prinsip animasi tersebut adalah squash and stretch, antisipation, staging, straight 
+ahead action and pose to pose, follow through and overlapping action, slow in dan 
+slow out, arch, secondary action, timming and spacing, appeal, exaggeration, dan 
+solid drawing. Berikut ini penjelasan mengenai kedua belas prinsip animasi.
+
+258
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+1. Squash and Stretch
+Prinsip squash and stretch 
+merupakan upaya 
+menambahkan efek plastis 
+pada objek. Prinsip ini disebut 
+juga prinsip elastisitas. 
+Penerapan squash and stretch  
+pada objek benda hidup akan 
+memberikan efek gerakan 
+yang dinamis. 
+Penerapan squash and stretch pada objek benda mati akan membuat 
+benda tersebut tampak seperti benda hidup. Perhatikan contohnya penerapan 
+prinsip ini pada bola. Sebuah bola bulat sempurna yang dilempar ke atas 
+lalu jatuh. Pada saat jatuh ke tanah, bola tersebut akan menjadi lonjong 
+horisontal. Setelah memantul kembali, bola tersebut akan berubah menjadi 
+lonjong diagonal. 
+ 
+ 
+Gambar 9.3 Prinsip squash and stretch pada bola
+Sumber: Ninatridania (2022) 
+LITERAKSI
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan squash and stretch, silakan pindai kode QR 
+berikut. Sebagai alternatif, kamu dapat mengetikkan 
+pranala https://www.youtube.com/watch?v=haa7n3
+UGyDc&list=PLBPAj4LJCbv4k92TeKY1fqu2mQhkfad4
+W&index=1 melalui peramban gawai atau personal 
+computer-mu. 
+Gambar 9.2 Prinsip squash and stretch
+Sumber: Ninatridania (2022)
+
+259
+BAB 9 - Pembuatan Gerak Animasi
+2. Anticipation
+Pada prinsipnya, gerakan terbagi dalam tiga bagian, yaitu gerakan awal 
+atau persiapan (antisipasi), gerakan itu sendiri, dan gerakan akhir. Gerakan 
+antisipasi biasa disebut gerakan ancang-ancang. Gerakan ini akan terlihat 
+saat seseorang melompat. Ketika melompat, ia memulainya dengan gerakan 
+pendahuluan yang disebut antisipasi, yaitu menekuk lutut, membungkukkan 
+badan, dan menarik tangan. Setelah itu, ia akan melanjutkannya dengan 
+gerakan inti melompat.
+ 
+ 
+Gambar 9.4 Prinsip Anticipation
+Sumber: Ninatridania (2022)
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan anticipation, silakan pindai kode QR berikut. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://www.youtube.com/watch?v=F8OtE60T8yU&lis
+t=PLBPAj4LJCbv4k92TeKY1fqu2mQhkfad4W&index=2 
+melalui peramban gawai atau personal computer-mu.  
+3. Staging
+Jika menonton sebuah film, kamu pasti tidak ingin terganggu dengan aksi 
+dalam satu stage, bukan? Seorang animator harus dapat menerapkan prinsip 
+animasi staging. Staging adalah prinsip animasi dengan cara menempatkan 
+karakter pada kamera secara tepat untuk membantu menciptakan suasana 
+yang diharapkan. Bahkan, staging dapat menggambarkan adegan yang 
+sedang dan yang akan terjadi sehingga penonton/pemirsa dapat memahami 
+dan mengikuti jalan cerita pada film yang disajikan.
+
+260
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+ 
+ 
+Gambar 9.5 Prinsip staging
+Sumber: Ninatridania (2022)
+Dalam gambar tersebut terdapat 3 atau 4 karakter. Coba kamu periksa 
+siluet setiap karakter tersebut. Dengan siluet, interaksi antarkarakter yang 
+jelas membuat penonton mudah mengerti dan mengetahui yang tengah 
+terjadi. Selain itu, siluet mampu memperlihatkan gestur dan pose karakter 
+adegan yang dilakukan oleh karakter.
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan staging, silakan pindai kode QR berikut. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://www.youtube.com/watch?v=u-SXLaQGg50&lis
+t=PLBPAj4LJCbv4k92TeKY1fqu2mQhkfad4W&index=3 
+melalui peramban gawai atau personal computer-mu.  
+4. Straight Ahead Action and Pose to Pose
+Melihat proses produksi film animasi yang panjang dan rumit, apakah hal 
+tersebut membuatmu penasaran tentang cara industri animasi memenuhi 
+jadwal tayang yang sudah menetap pada tiap hari atau minggu? Tenggat 
+waktu penayangan film membuat industri animasi berusaha bekerja 
+seefektif mungkin untuk mempersingkat waktu pengerjaan. Nah, metode 
+yang dilakukan industri animasi adalah straight ahead action dan pose to 
+pose sehingga dapat menghidupkan adegan melalui gerakan. 
+
+261
+BAB 9 - Pembuatan Gerak Animasi
+Dari kedua metode tersebut, manakah yang lebih efektif pengerjaannya? 
+Berikut perincian kedua metode tersebut.
+a. 
+Straight ahead action adalah metode untuk membuat gerakan dengan 
+menggambar satu per satu atau frame by frame secara berurutan dari 
+awal sampai selesai seorang diri. Setelah menetapkan pose gambar 
+pertama, pose gambar kedua, dan seterusnya sampai selesai. 
+Metode straight ahead action sering disebut metode tradisional. Metode 
+ini memiliki kelemahan dan kelebihan. Kelemahan metode ini adalah 
+kesulitan membuat perencanaan dan susah mengetahui frame mana 
+gambar akan berakhir. Selain itu, metode ini cenderung membutuhkan 
+waktu pengerjaan yang lama. Sementara itu, kelebihan metode ini 
+adalah hasil gambar yang konsisten karena pengerjaan oleh satu 
+orang animator. 
+b. 
+Pose to pose adalah metode pembuatan gerak yang dilakukan oleh dua 
+orang. Pertama, key animator yang bertugas membuat keypose. Kedua, 
+in betweener yang bertugas membuat gambar in between. Biasanya, 
+cara ini diterapkan dalam industri animasi karena memiliki kelebihan 
+waktu pengerjaan yang relatif lebih cepat sehingga melibatkan lebih 
+banyak anggota tim.
+ 
+ 
+ 
+Gambar 9.6 Metode straight ahead action (1) dan pose to pose (2)
+Sumber: Ninatridania (2022)
+
+262
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan straight ahead action and pose to pose, 
+silakan pindai kode QR berikut. Sebagai alternatif, kamu 
+dapat mengetikkan pranala https://www.youtube.com/
+watch?v=v8quCbt4C-c&list=PLBPAj4LJCbv4k92TeKY1fq
+u2mQhkfad4W&index=4 melalui peramban gawai atau 
+personal computer-mu.  
+5. Follow Through and Overlapping Action
+Prinsip follow through merupakan bagian tubuh tertentu yang masih bergerak 
+ketika karakter telah berhenti bergerak. Misalnya, rambut yang tetap bergerak 
+sesaat setelah karakter berhenti berlari. Sementara itu, prinsip overlapping 
+action  dianggap sebagai gerakan yang saling bertindihan. Misalnya, seekor 
+anjing berlari kemudian berhenti, tetapi menyisakan gerakan seperti pada 
+telinga dan lambaian ekornya.
+ 
+ 
+ 
+Gambar 9.7 Prinsip follow through (1) dan overlapping
+Sumber: Ninatridania (2022)
+
+263
+BAB 9 - Pembuatan Gerak Animasi
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan follow through and overlapping action, silakan 
+pindai kode QR berikut. Sebagai alternatif, kamu dapat 
+mengetikkan pranala https://www.youtube.com/watc
+h?v=4OxphYV8W3E&list=PLBPAj4LJCbv4k92TeKY1fqu
+2mQhkfad4W&index=5 melalui peramban gawai atau 
+personal computer-mu.  
+6. Slow In And Slow Out
+Prinsip slow in dan slow out ini menunjukkan bahwa objek membutuhkan 
+peningkatan dan penurunan kecepatan yang berbeda-beda saat bergerak. Slow 
+in terjadi jika sebuah gerakan awal dilakukan secara lambat kemudian 
+menjadi cepat. Slow out terjadi apabila sebuah gerakan objek dari cepat 
+kemudian menjadi lambat. Prinsip ini digunakan untuk membuat gerakan 
+animasi lebih natural dan realistis terutama pada bagian awal aksi dan 
+bagian akhir gerakan. Apabila dilihat dari jumlah frame, di bagian awal 
+akan terlihat lebih rapat, sedikit renggang di bagian tengah, dan tampak 
+lebih rapat lagi di bagian akhir. 
+Sebagai contoh, orang yang akan duduk, gerakannya akan relatif lebih 
+cepat. Ketika berdiri, orang tersebut akan menurunkan kecepatannya 
+sehingga pergerakannya akan terjadi perlambatan. Contoh gerakan selain 
+pada manusia adalah gerakan bouncing ball.
+ 
+ 
+ 
+Gambar 9.8 Prinsip follow through pada Gerakan manusia dan bouncing ball
+Sumber: Ninatridania (2022)
+
+264
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan slow in and slow out, silakan pindai kode QR 
+berikut. Sebagai alternatif, kamu dapat mengetikkan 
+pranala https://www.youtube.com/watch?v=fQBFsT
+qbKhY&list=PLBPAj4LJCbv4k92TeKY1fqu2mQhkfad4
+W&index=6 melalui peramban gawai atau personal 
+computer-mu.  
+7. Arch
+Coba kamu amati objek bergerak yang ada di sekelilingmu, baik manusia, 
+hewan, maupun makhluk hidup lainnya. Kemudian, bandingkan dengan 
+gerakan benda-benda robotik atau benda lain yang pergerakannya 
+menggunakan sistem mekanik. Apakah kamu dapat menemukan 
+perbedaannya?
+Terdapat perbedaan mendasar antara sistem gerak 
+tubuh manusia, binatang, dan makhluk hidup lain yang 
+tidak dimiliki oleh sistem gerak mekanik dan robotik. 
+Sistem gerak manusia, binatang, dan makhluk hidup 
+bergerak mengikuti pola garis lengkung (lingkaran, 
+elips, atau parabola), sedangkan sistem gerak 
+mekanik dan robotik cenderung patah-patah. 
+Pola inilah yang diterapkan pada gerak buatan 
+dalam animasi dan disebut sebagai prinsip arch. 
+Dengan menerapkan prinsip ini, objek dapat bergerak secara halus dan 
+realistis. Sebagai contoh, pada saat seorang berjalan, ayunan tangannya 
+akan membentuk pola lengkung setengah lingkaran.
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan arch, silakan pindai kode QR berikut. Sebagai 
+alternatif, kamu dapat mengetikkan pranala https://
+www.youtube.com/watch?v=I1_tZ9LhJD4&list=PLBPA
+j4LJCbv4k92TeKY1fqu2mQhkfad4W&index=7 melalui 
+peramban gawai atau personal computer-mu.  
+Gambar 9.10 Prinsip arch 
+Sumber: Ninatridania (2022)
+
+265
+BAB 9 - Pembuatan Gerak Animasi
+8. Secondary Action
+Salah satu indikasi sebuah gerakan buatan tampak realistis adalah adanya 
+secondary action. Mengapa demikian? Coba perhatikan diri sendiri atau 
+objek bergerak yang ada di sekitarmu. Saat melakukan gerakan utama, 
+pasti ada gerakan sekunder dari bagian-bagian lain pada objek tersebut 
+yang ikut bergerak. Hal tersebut terjadi karena sistem gerak makhluk hidup 
+dan sistem gerak mekanik merupakan satu kesatuan. 
+Secondary action merupakan gerakan-gerakan tambahan yang tujuannya 
+memperkuat gerakan utama, bukan untuk menjadi pusat perhatian yang 
+dapat mengalihkan perhatian gerakan utama. Secondary action ini sangat 
+penting untuk penerapan pembuatan gerak buatan karena akan memberikan 
+kesan realistis seperti gerakan objek sesungguhnya di kehidupan nyata.
+Sebagai contoh, gerakan pada saat berjalan. Ketika kaki melangkah, 
+tangan berayun untuk mengimbangi langkah kaki. Pinggang akan ikut 
+melenggang dan badan akan condong ke kiri dan ke kanan. 
+ 
+ 
+Gambar 9.11 Prinsip secondary action 
+Sumber: Ninatridania (2022)
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan secondary action, silakan pindai kode QR 
+berikut. Sebagai alternatif, kamu dapat mengetikkan 
+pranala https://www.youtube.com/watch?v=MjBHW
+w1TbP4&list=PLBPAj4LJCbv4k92TeKY1fqu2mQhkfad
+4W&index=8 melalui peramban gawai atau personal 
+computer-mu.  
+
+266
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+9. Timing and Spacing
+Apabila berbicara tentang waktu dalam film animasi, pasti hanya terbayang 
+durasi tayangan film tersebut. Padahal, waktu dalam animasi bukan hanya 
+tentang durasi film, melainkan pengaturan gerakan untuk membangun 
+suasana dan daya tarik suatu film. 
+Gambar 9.12 Timming
+Sumber: Ninatridania (2022)
+Prinsip timing adalah tahapan menentukan waktu kapan sebuah 
+gerakan mulai dilakukan. Tiap-tiap obyek diatur durasi gerakannya untuk 
+menghasilkan gerakan yang berbeda dan dilakukan tepat pada waktunya. 
+Cepat dan lambatnya durasi dalam adegan akan sangat memengaruhi banyak 
+sedikitnya jumlah frame. Gambar dengan sedikit frame akan  menghasilkan 
+gerakan cepat dan patah-patah. Begitu juga gambar dengan jumlah frame 
+yang banyak akan menghasilkan gerakan lambat dan halus. Akan tetapi, 
+gerakan lambat pada kondisi adegan yang tidak tepat justru akan membuat 
+film terkesan membosankan. 
+Pada akting karakter, waktu berpengaruh dalam membangun situasi 
+cerita, suasana hati, emosi, dan reaksi terhadap karakter lain. Misalnya, dalam 
+suasana yang sedih, gerakan karakter atau kamera menjadi lebih lambat. 
+Prinsip spacing adalah pengaturan kepadatan gambar yang akan 
+memengaruhi percepatan dan perlambatan gerak benda. Hal tersebut akan 
+membuat sebuah gerakan lebih realistis. Coba kamu cermati prinsip timing 
+dan spacing pada gambar berikut.
+Gambar 9.13 Timing and spacing
+Sumber: Ninatridania (2022)
+
+267
+BAB 9 - Pembuatan Gerak Animasi
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan timing, silakan pindai kode QR berikut. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://www.youtube.com/watch?v=BarOk2p38LQ&lis
+t=PLBPAj4LJCbv4k92TeKY1fqu2mQhkfad4W&index=9 
+melalui peramban gawai atau personal computer-mu.  
+10. Appeal
+Pada pembuatan animasi, prinsip 
+appeal memiliki dua tujuan. Pertama, 
+sebagai gaya visual pada keseluruhan 
+isi film. Artinya, film memiliki style 
+yang khas untuk membedakan dengan 
+film lainnya sesuai dengan tema dan 
+genrenya. Kedua, sebagai pembeda 
+karakteristik penokohan. Setiap 
+karakter dalam animasi dikembangkan agar memiliki daya tarik yang 
+unik dan memiliki perbedaan dengan karakter lain berdasarkan sifat 
+yang dibawakannya.
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan appeal, silakan pindai kode QR berikut. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://www.youtube.com/watch?v=_SplEuWp0Yw&lis
+t=PLBPAj4LJCbv4k92TeKY1fqu2mQhkfad4W&index=12 
+melalui peramban gawai atau personal computer-mu.  
+11. Exaggeration
+Prinsip exaggeration adalah langkah 
+untuk mendramatisasi sebuah animasi 
+dalam bentuk gambar yang hiperbolis 
+untuk mempertegas tindakan yang sedang 
+dilakukan. Prinsip exaggeration biasanya 
+digunakan pada film bergenre komedi 
+Gambar 9.14 Prinsip appeal
+Sumber: Ninatridania (2022)
+Gambar 9.15 Exaggeration
+Sumber: Ninatridania (2022)
+
+268
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+yang membutuhkan beberapa gerakan ekstrem untuk menegaskan 
+ekspresi tertentu.
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan exaggeration, silakan pindai kode QR berikut. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://www.youtube.com/watch?v=HfFj-VQKiAM&list
+=PLBPAj4LJCbv4k92TeKY1fqu2mQhkfad4W&index=10 
+melalui peramban gawai atau personal computer-mu.  
+12. Solid Drawing
+Solid drawing merupakan prinsip yang menitikberatkan pada kemampuan 
+animator dalam menggambar. Seorang animator harus memiliki pemahaman 
+yang kuat terhadap prinsip-prinsip desain, seperti proporsi, anatomi, 
+komposisi, keseimbangan, dan pencahayaan. Hal tersebut berguna untuk 
+membedakan dan memperkuat karakteristik setiap tokoh animasi sesuai 
+dengan sifat atau penokohannya. 
+ 
+ 
+Gambar 9.16 Solid drawing
+Sumber: Ninatridania (2022)
+LITERAKSI 
+Untuk menambah pengetahuanmu tentang contoh 
+penerapan solid drawing, silakan pindai kode QR berikut. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://www.youtube.com/watch?v=7An0jukOkCI&list
+=PLBPAj4LJCbv4k92TeKY1fqu2mQhkfad4W&index=11 
+melalui peramban gawai atau personal computer-mu.  
+
+269
+BAB 9 - Pembuatan Gerak Animasi
+C. Keypose dan In Between
+Setelah menguasai 12 prinsip animasi, seorang animator juga harus memahami 
+keypose dan in between. Apakah kedua hal tersebut dapat memengaruhi tahapan 
+praproduksi dalam industri animasi? Bacalah secara saksama uraian berikut. 
+1. Keypose
+Pada proses pembuatan gerak, animator memulai pekerjaannya dengan 
+membuat gambar-gambar untuk menandai posisi penting atau ekstrem dari 
+gerakan animasi. Hal inilah yang dinamakan keypose. Disebut key karena 
+berupa gambar posisi-posisi kunci dari gerakan setiap karakter. Peran 
+keypose sangat penting karena untuk menentukan pose awal dan kelanjutan 
+gerakan berikutnya. Animator yang bertanggung jawab untuk membuat 
+keypose disebut dengan key animator. Key animator harus memperhatikan 
+12 prinsip animasi dalam membuat gerakan animasi. 
+Untuk lebih  memahami keypose dapat melihat ilustrasi berikut. Keypose 
+berada pada gerakan kunci di awal, gerakan ekstrem, dan gerakan terakhir.
+  
+ 
+Gambar 9.17 Keypose (1) dan keypose dari suatu adegan gerak objek karakter (2)
+Sumber: The Animator’s Survival Kit, Ninatridania (2022)
+Eksplorasi 9.3
+Untuk mengetahui sejauh mana pemahamanmu terhadap materi, silakan 
+eksplorasi pengetahuanmu dengan mengikuti langkah berikut.
+1. Buatlah kelompok dengan teman sebangkumu. Kemudian, buatlah video 
+referensi gerakan berjalan, berlari, dan melompat secara bergantian. 
+Seorang memperagakan gerakan, seorang merekam video).
+2. Buatlah keypose dari gerakan berdasarkan video referensi 
+yang kamu buat.
+3. Tunjukkan hasil karyamu di depan kelas agar mendapat tanggapan 
+dari kelompok lainnya!
+①
+②
+
+270
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+2. In Between
+Setelah keypose dibuat, proses selanjutnya adalah pembuatan gambar-
+gambar gerakan untuk mengisi di antara gambar keypose. Hal inilah yang 
+dinamakan dengan in between. Banyaknya jumlah gambar in between yang 
+dibuat bergantung pada durasi waktu yang dibutuhkan untuk melakukan 
+gerakan dari keypose satu ke keypose berikutnya. 
+Animator yang bertanggung jawab membuat gambar in between adalah 
+in betweener. Kegiatan ini merupakan serangkaian proses pembuatan 
+gerak animasi. Key animator akan membuat gerakan kunci. Selanjutnya, 
+in betweener akan menerjemahkannya ke dalam gambar in between. 
+Keberhasilan sebuah adegan terjadi apabila key animator dan in betweener 
+dapat menerjemahkan gambar gerakan secara konsisten. Apabila metode 
+ini digunakan, gerakan yang dihasilkan akan tampak realistis. Jika terjadi 
+kesalahan dalam suatu gerakan, hal itu akan mudah diperbaiki karena 
+gerakan kuncinya sudah diketahui.
+Sebagai contoh, gambar adegan yang gambar keypose-nya sudah 
+ditambahkan dengan in between. Apabila digerakkan, gambar tersebut 
+belum sempurna sebagai gerakan yang dramatik, meskipun gerakan adegan 
+tersebut sudah seperti gerakan normal orang berjalan. Oleh karena itu, 
+perlu ditambahkan prinsip-prinsip animasi agar gerakan yang dihasilkan 
+akan semakin natural dan tidak kaku. Perhatikan gambar berikut.
+ 
+ 
+Gambar 9.18 Keypose dan In between
+Sumber: Ninatridania (2022)
+
+271
+BAB 9 - Pembuatan Gerak Animasi
+Eksplorasi 9.4
+Cermati kembali gambar 9.18. Lengkapilah in between dari keypose gerakan 
+karakter manusia yang telah kamu buat pada Ekslorasi 9.3 dengan 
+menerapkan 12 prinsip animasi!
+Rangkuman
+1. 
+Gerakan objek karakter dan nonkarakter dalam animasi merupakan 
+gerakan buatan yang diciptakan oleh animator dengan meniru gerakan 
+objek sesungguhnya.
+2. 
+Objek karakter adalah objek yang dibuat seolah-olah hidup dan dapat 
+melakukan gerakan atas inisiatifnya sendiri. Objek tersebut dapat 
+berupa manusia, hewan, tumbuhan. Sementara itu, objek nonkarakter 
+di antaranya kamera, lighting, benda-benda seperti aset dan properti 
+yang dapat bergerak apabila mendapatkan stimulus dari objek lain. 
+Misalnya, benda-benda yang menggunakan sistem gerak mekanik, 
+yaitu sepeda, mobil, dan kereta.
+3. 
+12 prinsip animasi mencakup dasar-dasar pergerakan, timing, 
+pengayaan visual, dan teknik pembuatan gerak animasi. Adapun dua 
+belas prinsip tersebut adalah squash and stretch, antisipation, staging, 
+straight ahead action and pose to pose, follow through and overlapping 
+action, slow in dan slow out, arch, secondary action, timming and spacing, 
+appeal, exaggeration, dan solid drawing.
+4. 
+Pada proses pembuatan gerak, animator memulai pekerjaannya dengan 
+membuat gambar-gambar untuk menandai posisi-posisi penting atau 
+ekstrem dari gerakan animasi yang dikenal dengan keypose. Animator 
+yang bertanggung jawab untuk membuat keypose disebut dengan 
+key animator.
+5. 
+Setelah keypose dibuat, proses selanjutnya adalah membuat gambar-
+gambar gerakan untuk mengisi di antara gambar keypose yang disebut 
+in between. Animator yang bertanggung jawab membuat gambar in 
+between adalah in betweener.
+
+272
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Asesmen Kompetensi 9
+Pilihlah salah satu jawaban yang paling tepat!
+1. 
+Gambar di samping adalah gambar 
+kunci (keypose) sebuah gerakan. 
+Menurutmu, jenis gerakan yang 
+sedang dilakukan karakter pada 
+gambar tersebut adalah ….
+a. 
+melompat 
+ 
+d. 
+menari
+b. 
+memukul 
+ 
+e. 
+menendang
+c. 
+melempar
+2. 
+Gambar di samping memperlihatkan 
+gerakan bola memantul. Berikut 
+ini pernyataan yang benar tentang 
+prinsip timing and spacing pada 
+animasi bola memantul adalah …
+a. 
+Jarak pada saat pergerakan bola 
+ke atas dan ke bawah. Ketika bola berada di atas akan terlihat semakin 
+cepat dengan frame yang sedikit, sedangkan ketika bola ke arah bawah 
+akan terlihat melambat atau semakin banyak frame-nya.
+b. 
+Jarak pada saat pergerakan bola ke atas dan ke bawah. Ketika bola 
+berada di atas akan terlihat semakin lambat dengan frame yang sedikit, 
+sedangkan ketika bola ke arah bawah akan terlihat semakin cepat atau 
+semakin banyak frame-nya.
+c. 
+Setiap pantulan bola menyentuh tanah atau bidang datar menandakan 
+waktu atau timing, sedangkan jarak dari pantulan pertama ke pantulan 
+ke dua semakin lama semakin menjauh  menandakan spacing.
+d. 
+Waktu pada saat pantulan pertama bola terlihat lebih rendah 
+dibandingkan dengan pergerakan waktu bola ke-2, ke-3 dan seterusnya 
+hingga bola berhenti atau tidak memantul lagi.
+e. 
+Setiap pantulan bola menyentuh tanah atau bidang datar termasuk ke 
+dalam waktu atau timing, sedangkan jarak dari pantulan pertama ke 
+pantulan kedua semakin lama semakin mendekat menandakan spacing.
+
+273
+BAB 9 - Pembuatan Gerak Animasi
+3. 
+Perhatikan gambar kunci untuk gerakan 
+orang berjalan di samping! Urutan 
+proses pembuatan gambar kunci yang 
+benar adalah...
+a. 
+1, 2, 3, 4, 5 
+ 
+c. 
+1, 3, 2, 4, 5 
+ 
+e. 1, 5, 3, 2, 4
+b. 
+1, 3, 5, 2, 4 
+ 
+d. 
+1, 3, 2, 5, 4
+4. 
+Perhatikan 
+gambar 
+di 
+samping! Gambar tersebut 
+yang merupakan gerakan in 
+between adalah .…
+a. 
+1, 3, 5, 9
+b. 
+1, 3, 5, 7, 9
+c. 
+2, 4, 6, 8
+d. 
+2, 3, 4, 6, 7, 8
+e. 
+2, 3, 5, 6, 8
+5. 
+Perhatikan 
+gambar di samping!
+Sebagai seorang key animator, 
+kamu mendapatkan tugas 
+untuk membuat gerakan 
+posisi orang duduk kemudian 
+berjalan. Urutan yang 
+benar adalah .…
+a. 
+4, 3, 2, 1  
+ 
+c. 
+2, 1, 4, 3  
+ 
+e.   1, 2, 4, 3
+b. 
+2, 1, 3, 4  
+ 
+d. 
+1, 2, 3, 4
+6. 
+Seseorang yang sedang berlari dan akan melompat  seperti terlihat pada 
+gambar akan melakukan suatu gerak persiapan  sebelum gerakan  utama 
+dilaksanakan. Hal seperti ini adalah  prinsip animasi ….
+ 
+a. 
+slow in and slow out  
+ 
+ 
+d. follow through
+b. 
+squash and stretch 
+ 
+ 
+ 
+e. anticipation
+c. 
+secondary action
+
+274
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+7. 
+Sebuah bola karet yang dilemparkan ke atas pada saat menyentuh tanah 
+akan ‘gepeng’ kemudian memantul kembali. Adegan ini menerapkan 
+prinsip animasi ….
+a. 
+squash and stretch
+b. 
+straight ahead action
+c. 
+follow through principle
+d. 
+slow in and slow out action
+e. 
+slow out and slow in action
+8. 
+Gambar di samping adalah pergelangan 
+tangan  orang  digambarkan dengan gerakan 
+yang mengikuti pola gerak persendiannya. Prinsip 
+menggambar animasi ini dikenal dengan ….
+a. 
+arcs
+b. 
+timing
+c. 
+staging
+d. 
+exaggeration
+e. 
+solid drawing 
+9. 
+Dari gerakan utama orang meloncat di samping, 
+secondary action-nya adalah .…
+a. 
+tangan ditangkupkan di depan dada
+b. 
+kaki diregangkan semaksimal mungkin
+c. 
+kepala ditundukkan dalam-dalam
+d. 
+tangan direntangkan ke samping tubuh 
+sejajar bahu
+e. 
+kaki ditekuk sampai menyentuh perut
+10. Gambar di samping menggunakan 
+prinsip animasi .…
+a. 
+secondary action
+b. 
+follow through
+c. 
+exaggeration
+d. 
+staging
+e. 
+overlapping action
+
+275
+BAB 9 - Pembuatan Gerak Animasi
+Proyek Praktikum
+I. 
+Petunjuk Umum
+1. 
+Periksalah dengan teliti dokumen proyek praktikum.
+2. 
+Baca dan pahami maksud soal agar tidak terjadi kesalahan pekerjaan.
+3. 
+Bekerjalah dengan memperhatikan jadwal dan alur pengerjaan.
+4. 
+Peralatan utama dan bahan telah disediakan sesuai 
+dengan kebutuhan.
+5. 
+Ketika bekerja, perhatikan keselamatan kerja.
+II.  Alat dan Bahan
+1. 
+PC atau Laptop
+2. 
+Scanner
+3. 
+Lightbox
+4. 
+Pen tablet
+5. 
+Headset
+6. 
+Software (Adobe Photoshop, Adobe After Effect, Toonbom, dll.)
+III.  Soal/ Tugas
+1. 
+Judul Tugas: 
+ 
+Keypose dan in between menggunakan 12 prinsip animasi.
+2. 
+Langkah Kerja:
+a. 
+Periksalah kelengkapan alat dan bahan yang telah disediakan.
+b. 
+Buatlah kelompok dengan teman sebangkumu. Kemudian, 
+buatlah satu video referensi gerakan “Strong Pose” seperti 
+mendorong, melempar bola, mengangkat benda, dll, secara 
+bergantian. Seorang memperagakan gerakan, yang lainnya 
+merekam video.
+c. 
+Buatlah keypose dan in between dengan menerapkan 12 
+prinsip animasi berdasarkan video referensi gerakan yang 
+telah kamu buat.
+Pengayaan
+Jika 70–100% materi di pada bab ini sudah dikuasai, kalian dapat melakukan 
+aktivitas pengayaan dengan membuat video walk cycle/run cycle/jump cycle/
+gerakan strong pose seperti mendorong, melempar bola, mengangkat 
+benda, dll, dari keypose dan in between yang telah kamu buat pada 
+eksplorasi sebelumnya.
+
+276
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Refleksi
+Pada pembelajaran ini, kamu telah mempelajari unsur-unsur visual, 
+pengorganisasian unsur-unsur visual, dan teknik dalam bervisual. Tentunya 
+pengetahuanmu dalam mempersiapkan keterampilan proses praproduksi 
+film animasi menjadi semakin luas. Sekarang, silakan kamu merefleksikan 
+diri dengan memberi tanda centang (√) dalam kolom “Ya” dan “Tidak” 
+untuk setiap pernyataan di bawah ini. Isilah sesuai dengan pendapatmu 
+yang sebenarnya  
+No.
+Pertanyaan
+Ya
+Tidak
+Keterangan
+1.
+Saya mampu mengidentifikasi objek karakter 
+dan objek nonkarakter.
+2.
+Saya mampu menjelaskan jenis-jenis dan 
+pengertian 12 prinsip animasi.
+3.
+Saya mampu mengidentifikasi keypose.
+4.
+Saya mampu mengidentifikasi in between
+5.
+Saya mampu menerapkan 12 prinsip animasi ke 
+dalam gerakan in between yang dibuat.

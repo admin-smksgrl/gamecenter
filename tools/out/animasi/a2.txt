@@ -1,0 +1,1529 @@
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI 
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Animasi 
+untuk SMK/MAK Kelas X
+Penulis: Nina Tri Daniati, Rida Mulyadi, Agus Nugroho
+ISBN: 978-623-194-442-9 (no.jil.lengkap PDF)
+ 
+978-623-194-443-6 (jil.1 PDF)
+B
+A
+B
+Perkembangan Teknologi 
+Industri Animasi
+2
+Teknologi animasi dari masa ke masa menunjukkan perkembangan yang pesat. 
+Sebagaimana yang kamu pahami, animasi bermakna cara menggerakkan objek setahap 
+demi setahap agar terlihat dinamis dan natural sebagaimana yang diimajinasikan 
+manusia. Dalam perjalanannya, penciptaan animasi tidak akan terlepas dari tahapan 
+praproduksi, produksi, hingga pascaproduksi. 
+Bagaimana sejarah perkembangan teknologi dalam proses produksi animasi? Apa 
+saja ragam teknologi digital dalam dunia industri? Apakah kamu memahami product 
+life cycle industri animasi? Beragam pertanyaan tersebut dapat kamu jawab setelah 
+mempelajari bab ini.
+Ga
+mb
+ar 
+2.1
+ S
+ua
+sa
+na 
+di 
+stu
+di
+o a
+ni
+ma
+si  
+  S
+um
+ber
+: fr
+eep
+ik (
+202
+2)
+
+32
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Pertanyaan Pemantik
+1. 
+Siapakah yang pertamakali membuat animasi?
+2. 
+Ada berapa teknik animasi yang kamu ketahui?
+3. 
+Bagaimana teknologi digital dalam dunia industri?
+4. 
+Bagaimanakah reuse dan recycling pada animasi?
+Tujuan Pembelajaran
+Setelah mengikuti pembelajaran ini, peserta didik diharapkan 
+mampu memahami:
+1. 
+sejarah perkembangan animasi;
+2. 
+teknik animasi stop-motion, animasi tradisional dan animasi komputer;
+3. 
+teknologi digital dalam dunia industri; 
+4. 
+product life cycle industri animasi sampai dengan reuse dan recycling.
+Kata Kunci
+sejarah perkembangan animasi, teknik animasi stop-motion, animasi 
+tradisional dan animasi komputer; teknologi digital, life cycle, reuse, recycling
+Peta Konsep
+Perkem-
+bangan
+Teknologi 
+Industri 
+Animasi
+Tujuan Pembelajaran
+1. sejarah perkembangan animasi;
+2. teknik animasi stop-motion, animasi 
+tradisional dan animasi komputer;
+3. teknologi digital dalam dunia industri; 
+4. product life cycle industri animasi sampai 
+dengan reuse dan recycling.
+1. Perkembangan Animasi Dunia
+2. Perkembangan Animasi di Indonesia
+3. Perkembangan Animasi Modern
+1. Teknik Animasi Stop-Motion
+2. Teknik Animasi Tradisional
+3. Teknik Animasi Komputer
+1. Sejarah Teknologi Film
+2. Kemajuan Teknologi Film ke Digital
+3. Digital Cinema Package
+1. Product Life Cycle dalam Bidang Animasi
+2. Daur Ulang Produk Animasi (Film Cycle)
+A. Sejarah Perkembangan
+ 
+Animasi
+B. Mengenal Teknik Animasi 
+C. Teknologi Digital dalam 
+Industri Film
+D. Product Life Cycle 
+
+33
+BAB 2 - Perkembangan Teknologi Industri Animasi
+A. Sejarah Perkembangan Animasi
+Animasi pertama dibuat oleh Fady Saeed dari Mesir tahun 1756. Pada abad 
+XVII  sampai dengan abad XIX, peralatan-peralatan animasi sederhana telah 
+ditemukan sebelum munculnya proyektor film. 
+Sejarah animasi lain mencatat bahwa seorang pelopor animasi berkebangsaan 
+Prancis yaitu Charles Émile Reynaud (8 Desember 1844 – 9 
+Januari 1918) telah membuat eksperimen untuk kali 
+pertamanya memproyeksikan film animasi kartun. 
+Reynaud menciptakan Praksinoskop pada tahun 
+1877 dan Teater Optik pada Desember 1888. 
+Pada 28 Oktober 1892, dia memproyeksikan 
+film animasi di depan umum, Pauvre Pierrot, 
+dalam museum Musée Grévin di Paris. 
+Charles Émile Reynaud melakukan uji coba 
+dengan membuat rangkaian gambar pada sebuah 
+plastik transparan. Kemudian, rangkaian tersebut 
+diputar dengan sebuah alat yang telah diciptakannya, 
+yakni Praksinoskop (1876).
+Pada kurun waktu tahun 1877–1879, Charles 
+Emile Reynaud  membuat beberapa animasi singkat yang menunjukkan gerakan 
+sederhana. Selanjutnya, tahun 1892–1894, ia pun membuat 5 buah film animasi 
+sederhana dan menjadi cikal bakal pengembangan animasi. 
+Pada 18 Oktober 1892, bertempat di Musee Grevin, kota Paris, Prancis, 
+Reynaud menayangkan animasi dengan jumlah putaran dari 500 gambar. 
+Sebelumnya, sejarah film animasi dimulai pada tahun 1890. Film animasi yang 
+dibuat pertama oleh Charles Emile Reynaud adalah film yang menggunakan 
+Praksinoskop dari 12 gambar. 
+Film animasi yang pertama diperkenalkan 
+ke publik berjudul Humorous Phases of Funny 
+Faces, pada 7 April 1906. Film ini dibuat oleh J. 
+Stuart Blackton, jauh sebelum manusia mengenal 
+teknologi gambar bergerak. Blackton merupakan 
+seorang kartunis sebuah surat kabar. Stuart 
+membuat Humorous Phases of Funny Faces dengan 
+teknik stop-motion. Teknik animasi dasar yang 
+digunakan adalah dengan menggambar objek 
+manusia di papan tulis lalu memfilmkannya. Di 
+zaman itu, tayangan film sederhana sudah sangat 
+menghibur meskipun gerakannya sangat sederhana. 
+Gambar 2.2 Praxinoscope 
+Sumber: Alpeza (2018)
+Gambar 2.3 Humorous Phases of 
+Funny Faces dengan teknik stop-
+motion Karya J. Stuart Blackton
+Sumber: Jamie (2018)
+
+34
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Selain seorang kartunis pada media koran, Blackton juga dikenal sebagai 
+jurnalis. Pada 1896, ia meliput penemuan baru Thomas Alfa Edison tentang 
+Vitascope. Sebuah perangkat yang menjadi cikal bakal teknologi proyektor film.
+Teknik film animasi sendiri terus berkembang setelah dikenalkan oleh 
+Blackton. Pada 1914, Earl Hurd menemukan teknik baru dalam membuat film 
+kartun yang disebut cell animation. Teknik ini memisahkan gambar latar belakang 
+diam dengan gambar yang bergerak. Bagian yang bergerak ini digambar di atas 
+seluloid transparan. Pada praktiknya, pada saat pengambilan gambar, animator 
+hanya perlu menumpangkan bagian yang bergerak itu di atas gambar latar 
+belakangnya. Dengan teknik ini, animator hanya perlu membuat bagian gambar 
+yang bergerak saja. Sementara itu, gambar latar belakangnya cukup dibuat satu 
+kali. Teknik inilah yang menjadi acuan untuk membuat film animasi sampai abad XX.
+Film animasi pun bermunculan dengan 
+berbagai teknik. Pada 1928, Walt Disney menjadi 
+animator pertama yang memadukan animasi 
+dan suara melalui film berjudul Steamboat Willie. 
+Film tersebut melahirkan karakter animasi yang 
+dikenal hingga saat ini yaitu Mickey Mouse. Pada 
+film itu, proses pengisi suara Mickey Mouse dan 
+pasangannya, Minnie Mouse, dilakukan oleh Walt 
+Disney sendiri.
+LITERAKSI
+Silakan pindai kode QR berikut ini. Kamu akan melihat 
+cara kerja mutoscope. Sebagai alternatif, kamu juga 
+dapat mengetikkan pranala https://www.youtube.
+com/watch?v=MEeu2RSr4js dalam gawai atau personal 
+computer-mu. Komunikasikan hasil pengamatanmu 
+terhadap sajian tersebut dalam diskusi kelas. 
+1. Perkembangan Animasi Dunia
+Animasi berasal dari kata animation yang dalam bahasa Inggris bermakna to 
+animate yang berarti menggerakkan. Animasi dapat bermakna menggerakkan 
+suatu (gambar atau objek) yang diam. Menurut Fernandez (2002), animasi 
+merupakan suatu proses perekaman dan permainan kembali serangkaian 
+gambar diam atau statis untuk menciptakan suatu ilusi pergerakan 
+seolah-olah hidup.
+Gambar 2.4 Poster film animasi 
+pertama Steamboat Willie karya 
+Disney tahun 1928
+Sumber: YouTube.com/Walt Disney 
+Animation Studios (2019)
+
+35
+BAB 2 - Perkembangan Teknologi Industri Animasi
+Kemunculan animasi tidak terlepas dari beberapa versi ceritanya. 
+Keragaman versi cerita animasi biasanya berkaitan dengan awal mula 
+penciptaan animasi, mulai dari tokoh pencipta, lokasi penciptaan animasi, dan 
+bentuk awal animasi. Berdasarkan hal tersebut, keberagaman kemunculan 
+animasi tersebut menunjukkan bahwa manusia mempunyai kebutuhan 
+yang sama dalam hal memvisualisasikan sebuah gerakan objek. 
+Sejarah animasi dimulai pada zaman purba, dengan ditemukannya 
+lukisan-lukisan pada dinding gua di Spanyol yang menggambarkan 
+“gerak“ dari binatang-binatang. Pada 4000 tahun yang lalu, bangsa Mesir 
+menghidupkan suatu peristiwa dengan gambar-gambar yang dibuat 
+pada dinding.
+Ketika manusia mulai menyadari bahwa gambar bisa dipakai sebagai 
+alternatif media komunikasi, timbullah keinginan menghidupkan lambang-
+lambang tersebut menjadi cermin ekspresi kebudayaan. Hal tersebut 
+terbukti dengan penemuan berbagai artefak pada peradaban Mesir Kuno, 
+2000 tahun Sebelum Masehi. Sebagai contoh, penemuan beberapa panel 
+yang menggambarkan aksi dua pegulat dalam berbagai pose. 
+Bagaimana perkembangan animasi yang timbul setelah masa itu? 
+Berikut ini perkembangan animasi dunia dari masa ke masa.
+a. Era Film Tanpa Suara (The Silent Era: 1900–1930)
+Seorang seniman Amerika Serikat, James Stuart Blackton, mencoba membuat 
+sebuah karya animasi dari objek gambar pada tahun 1906. Berbekal 
+kemampuannya menggambar, ia mencoba menggambar rangkaian objek 
+dengan bentuk perpindahan posisi pada setiap gambarnya. Setelah itu, 
+gambar animasi sederhana terwujud. Bentuk animasi tersebut dilakukan 
+dengan pergantian tayangan rangkaian gambar secara cepat. 
+Awal abad ke-20 menjadi permulaan para seniman bereksperimen 
+membuat dan menyempurnakan karya animasi dengan berbagai teknik 
+animasi. Film animasi pertama adalah Humorous Phase of Funny Face (1906) 
+dan Fantasmagorie (1908). Teknik yang digunakan kedua film tersebut 
+adalah animasi stop-motion dan teknik gambar tradisional. 
+Pada tahun 1914, film Gertie the Dinosaur Winsor karya Mccay muncul. 
+Teknik animasinya menggunakan keyframe. Selanjutnya, tahun 1919, film 
+Felix the Cat dirilis sebagai karya kolaborasi Pat Sullivan dan Otto Messmer. 
+Film tersebut sukses meraih perhatian dari penonton. Selanjutnya, tahun 
+1928, film Steamboat Willie sukses meraih simpati penonton karena sudah 
+menampilkan musik dan suara dari karakternya. Steamboat Willie menjadi 
+film animasi pertama dengan format tampilan yang disertai suara. 
+
+36
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+b. Era Keemasan Animasi (Golden Age of Animation: 1930–1960)
+Pada masa ini, animasi berkembang pesat 
+dan mendapatkan apresiasi yang bagus dari 
+masyarakat karena kemunculan hiburan yang 
+menampilkan gambar gerak. Era Keemasan 
+Animasi (Golden Age) menjadi pertanda 
+transformasi film dari animasi hitam putih 
+menjadi tampilan berwarna. Karakter kartun 
+yang muncul dan menjadi ikon pada masa ini 
+adalah Mickey Mouse, Donald Duck, Popeye, 
+Bugs Bunny, Betty Boop, dan Tom and Jerry. 
+Tahun 1930, animator memproduksi beragam film animasi, seperti 
+Merrie Melodies dan Looney Tunes yang dikembangkan oleh Warnet Brothers. 
+Selain itu, Disney mengeluarkan animasi pertamanya yang berjudul Snow 
+White and The Seven Dwarfs. Film tersebut menggunakan teknik tradisional 
+serta menjadi keunggulan dan karakteristik Disney. Selanjutnya, film yang 
+berdurasi lama muncul, seperti Pinocchio, Fantasia, Dumbo, dan Bambi.
+c. 
+Era Film Animasi Televisi (The American Television Era: 1960–1980-an)
+Era ini ditandai dengan pesatnya teknologi 
+layar kaca atau televisi. Sebenarnya, 
+perkembangan era ini merupakan respons 
+atas pesatnya teknologi televisi. Berbagai 
+studio animasi membuat serial animasi untuk 
+tayang televisi. Tahun 1960, Flintstones yang 
+merupakan karya Hanna-Barbera untuk ABC 
+menjadi serial animasi pertama yang tayang. 
+Pada tiga dekade berikutnya, film animasi 
+Flintstones meraih kesuksesannya. 
+Mengikuti kesuksesan tersebut, muncullah film animasi lainnya, yakni 
+Yogi the Bear dan Pink Panther Show. Bahkan, animasi dari Jepang juga 
+turut meramaikan perkembangan era ini, yakni kemunculan anime yang 
+mulai digemari oleh para penonton Amerika melalui serial Star Blazers 
+dan Robotech. 
+d. Era Animasi Modern (Modern Era: 1980–Sekarang)
+Computer Generated Imagery (CGI) merupakan teknologi animasi yang 
+mengawali terjadinya revolusi dunia animasi. Hal ini terjadi karena adanya 
+pergantian teknik animasi tradisional yang mulai berganti dengan teknologi 
+CGI. Kemampuan perangkat komputer dapat membuat model 3D yang 
+Gambar 2.5 Film animasi 
+klasik Disney
+Sumber: Disney/screeningnotes.com(2013)
+Gambar 2.6 Film animasi 
+televisi Flintstones
+Sumber: Joseph Barbera/imdb.com (2013)
+
+37
+BAB 2 - Perkembangan Teknologi Industri Animasi
+bergerak secara lebih realistis mengikuti imajinasi 
+animator ataupun penonton. Teknik CGI ini 
+mendominasi pengembangan animasi hingga 
+saat ini. Pada 1984, rumah produksi Graphic Group 
+merilis film pendek dengan teknologi CGI, yakni 
+film The Adventures of Andre and Wally B. Studio 
+inilah yang menjadi cikal bakal berdirinya studio 
+animasi Pixar. 
+Pada tahun 1995, Studio Pixar film merilis 
+film animasi 3D populer yaitu Toy Story. Hal 
+ini sekaligus menjadi studio pertama yang kali 
+pertama memproduksi film durasi panjang dengan 
+teknologi CGI.
+2. Perkembangan Animasi di Indonesia
+Sejarah perkembangan animasi di Indonesia tidak sepesat di luar negeri. 
+Sebagai masyarakat yang mempunyai keragaman budaya, Indonesia sudah 
+mengekspresikan cikal bakal seni animasi. Hal ini seiring dengan kebutuhan 
+manusia dalam upaya mendeskripsikan cerita dalam kesehariannya. 
+Deskripsi cerita tersebut ditampilkan dalam bentuk rangkaian gambar 
+sederhana yang mencerminkan proses animasi. Sebagai contoh, dalam 
+manuskrip prasejarah zaman Paleolitikum ditemukan gambar hewan yang 
+kakinya seolah-olah sedang bergerak atau berlari. 
+Bentuk animasi lainnya terdapat dalam 
+pertunjukan wayang pada masyarakat Jawa 
+sejak abad ke-9. Proses penganimasiannya 
+terletak pada teknik proyeksi bayangan 
+wayang pada dinding atau layar pertunjukan. 
+Pada pagelaran wayang, seorang dalang 
+memainkan wayang yang disorot oleh lampu. 
+Bayangan wayang yang dimainkan kemudian 
+diproyeksikan pada sebuah latar. Dalang 
+menggerakkan wayang dengan tangannya 
+dan penonton bisa melihat proyeksi wayang tersebut di layar. Wayang 
+yang terbuat dari kulit transparan memungkinkan untuk pemberian warna 
+sehingga bayangannya terlihat berwarna walaupun tidak sejelas warna 
+yang aslinya pada wayang.
+Tahun 1990-an, animasi mulai berkembang di Indonesia. Akan tetapi, 
+film animasi pertama Indonesia baru muncul pada tahun 2000-an yang 
+Gambar 2.8 Proyeksi bayangan 
+Tokoh wayang kulit Gatotkaca 
+pada dinding layar
+Sumber: freepik (2022)
+Gambar 2.7 Film Adventures of 
+Andre and Wally B
+Sumber: Pixar/disney.
+fandom.com (2014)
+
+38
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+ditandai dengan munculnya film Si Huma, Timun Emas, dan Si Kancil. Seiring 
+perkembangannya, animasi Indonesia terus menghasilkan animasi yang 
+kualitasnya semakin baik. Saat ini, muncul film animasi yang menghiasi 
+layar kaca dalam negeri, baik di televisi maupun melalui platform jejaring 
+media sosial. Misalnya, film Nusa dan Rara, Si Hebring, Adit Sopo Jarwo, 
+dan Si Juki.
+3. Perkembangan Animasi Modern
+Seiring berkembangnya teknologi, film animasi 
+mulai menggunakan teknologi komputer grafis. 
+Teknologi CGI ini diterapkan sebagai efek pada 
+film dalam Tron pada 1982. Akan tetapi, film 
+animasi dengan teknologi CGI baru muncul 
+tahun 1995. Film itu menjadi awal film-film 
+animasi lain yang dibuat dengan teknologi 
+komputer tiga dimensi. 
+Tahukah kamu film animasi 3D pertama? 
+Ya, film animasi 3D pertama adalah Toy Story. 
+Toy Story sendiri mendulang kesuksesan yang 
+berulang dengan perolehan pendapatan yang 
+sangat besar. Toy Story, saat ini, telah tayang 
+hingga 4 film layar lebar. Film Toy Story 4 telah 
+melampaui angka USD1 miliar atau sekitar Rp14,2 
+triliun setelah tayang di berbagai negara.
+LITERAKSI
+Apakah kamu ingin melihat animasi Toy Story yang 
+menggunakan teknologi CGI? Silakan pindai kode 
+QR berikut ini. Komunikasikan hasil pengamatanmu 
+terhadap sajian film tersebut dalam diskusi kelas.
+Sebuah animasi berkembang berdasarkan prinsip dasar dari karakter 
+mata manusia, yaitu persistence of vision (pola penglihatan yang teratur). 
+Paul Roget, Joseph Plateau, dan Pierre Desvigenes, melalui peralatan optiknya 
+berhasil membuktikan bahwa mata manusia cenderung menangkap urutan 
+gambar-gambar pada tenggang waktu tertentu sebagai suatu pola. Memori 
+ingatan manusia akan lebih banyak merekam sebuah gambar bergerak 
+dibandingkan dengan gambar yang diam. Dengan demikian, perkembangan 
+Gambar 2.9 Flyer film Toy Story 
+Sumber: Heritage Auctions, HA.com (1995)
+
+39
+BAB 2 - Perkembangan Teknologi Industri Animasi
+animasi secara umum bisa didefinisikan sebagai suatu sequence gambar 
+yang diekspos pada tenggang waktu tertentu sehingga tercipta sebuah ilusi 
+gambar bergerak. 
+Eksplorasi 2.1
+Untuk memperdalam pemahaman materi sebelumnya, cobalah untuk 
+melakukan eksplorasi berikut. 
+1. Tulislah 5 contoh film animasi yang pernah kamu lihat, baik di layar 
+televisi, layar lebar, maupun jejaring internet. 
+2. Lakukan tinjauan terhadap film animasi tersebut, kemudian isilah 
+tabel berikut.
+No.
+Judul Film
+Asal 
+negara
+Tahun 
+Pembuatan
+Studio 
+Animasi
+Animator
+Era 
+Animasi
+1.
+2.
+3.
+4.
+5.
+B. Mengenal Teknik Animasi
+Dalam perkembangannya, teknik animasi sangat beragam dan menarik. Jika 
+dilihat dari teknik pembuatannya, animasi dapat dikategorikan menjadi 3, yaitu 
+teknik animasi stop-motion, claymation animation, dan animation pixilation. Untuk 
+memahami ketiga teknik pembuatan animasi tersebut, cermatilah uraian berikut.
+1. Teknik Animasi Stop-Motion
+Teknik ini paling banyak digunakan di awal penciptaannya. Teknik animasi 
+stop-motion muncul dari pengambilan gambar yang berupa objek yang 
+digerakkan atau dipindahkan setahap sedikit demi sedikit. Sebagaimana 
+kamu pahami sebelumnya, animasi stop-motion merupakan teknik dalam 
+pembuatan film atau video yang objeknya dipindahkan sedemikian rupa 
+secara fisik. Selanjutnya, direkam pada satu waktu dan disimpan menjadi 
+sebuah frame. Apabila tiap frame ini digabungkan, terciptalah objek yang 
+seolah-olah bergerak atau hidup.
+Teknik animasi stop-motion sering disebut claymation. Dalam 
+pembuatannya, teknik animasi ini sering menggunakan clay (tanah liat) 
+sebagai pembentuk objek yang akan digerakkan secara fisik sedikit demi 
+
+40
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+sedikit. Dalam pengerjaannya, teknik ini memiliki tingkat kesulitan dan 
+memerlukan kesabaran yang tinggi. Wallace and Gromit dan Chicken Run 
+karya Nick Parks merupakan salah satu contoh karya stop-motion animation 
+yang mendulang kesuksesan. 
+Dalam pembuatan animasi atau film, teknik stop-motion dapat dijelaskan 
+sebagai berikut.
+a. Object-Motion (Object Animation)
+Istilah object-motion merupakan 
+animasi 
+stop-motion 
+yang 
+menggerakkan objek bukan gambar, 
+seperti mainan, balok, boneka, dan 
+barang lainnya yang merupakan 
+benda 
+padat. 
+Benda-benda 
+tersebut disusun serta digerakkan 
+dengan cara memindahkan posisi 
+objek sesuai dengan konsep dan 
+digunakan sebagai karakter utama. Pengambilan gambar pada setiap 
+pergerakan objek direkam atau di foto tiap frame. Gambar yang diambil 
+akan dirangkai menjadi gambar tayang tersambung dan menghasilkan 
+sebuah film. 
+Object-motion biasanya digunakan pada video tutorial atau kebutuhan 
+pemasaran (iklan). Salah satu film dengan teknik object-motion adalah 
+Lego the Movie.
+b. Claymation Animation
+Animasi tipe ini menggunakan 
+media yang dapat dibentuk seperti 
+tanah liat, plastisin, dan lilin yang 
+dibuat menjadi sebuah adonan 
+yang kemudian dibentuk menjadi 
+sebuah karakter maupun set 
+tempat berlangsungnya adegan. 
+Setiap objek atau karakter disangga 
+menggunakan kerangka kawat yang 
+disebut dengan armature, untuk 
+memudahkan perpindahan gerakan. 
+Tidak jarang pada satu karakter model clay dibuat dengan stok yang banyak, 
+seperti ekspresi, kostum, dan pose gerakan yang sulit jika digerakkan 
+secara manual. 
+Gambar 2.10 Pengambilan posisi objek pada 
+setiap frame
+Sumber: idseducation.com (2022)
+Gambar 2.11 Claymotion
+Sumber: IDS (2020)
+
+41
+BAB 2 - Perkembangan Teknologi Industri Animasi
+Teknik stop-motion berupa claymation 
+ini melibatkan artis seni rupa dalam 
+membentuk objek-objek yang diinginkan. 
+Dalam pembuatannya, diperlukan kesabaran 
+untuk bisa mengomunikasikan ide antara 
+sutradara, artis seni rupa, dan visual creator 
+yang akan merangkainya menjadi tayangan 
+visual animasi.
+Claymation menjadi sangat populer setelah 
+film animasi stop-motion Chicken Run yang 
+dibuat oleh Nick Park dan Peter Lord sukses 
+ditayangkan di layar televisi. Hasil animasi 
+stop-motion claymation dapat dilihat pada film 
+Chicken Run produksi DreamWorks.
+LITERAKSI
+Apakah kamu ingin melihat teknik animasi stop-motion 
+yang dilakukan oleh Nick Park dan Peter Lord? Silakan 
+pindai kode QR berikut ini. Komunikasikan hasil 
+pengamatanmu terhadap sajian film tersebut dalam 
+diskusi kelas.
+c. 
+Animation Pixilation 
+Teknik ini menggunakan objek 
+hidup seperti manusia yang beraksi 
+(actor) untuk berpose frame by frame 
+untuk menyimulasikan gerakan. 
+Hasil dari film dengan teknik ini 
+tampak animasi yang manusia 
+dan benda sekitarnya bergerak 
+tanpa disentuh oleh aktor. Animasi 
+Pixilation dapat juga digunakan 
+sebagai VFX (visual effect).
+Dalam teknik ini, aktor/aktris dan objek yang ada hanya bergerak per 
+frame. Begitu juga dengan pengondisian manusia dan benda yang ada di 
+sekitarnya secara perlahan agar setiap perpindahannya dapat diambil 
+gambarnya. Sebagai contoh, teknik ini dapat disimak pada tayangan video 
+Michael Parks berikut.
+Gambar 2.13 Pembuatan animasi 
+teknik pixilation
+Sumber: Studiobinder (2022) 
+Gambar 2.12 Poster film Chicken Run
+Sumber: IMDb (2000)
+
+42
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+LITERAKSI
+Apakah kamu ingin melihat teknik animasi pixilation 
+dengan mengambil gambar setiap perubahan posisi 
+orang dan objek yang ada yang dilakukan oleh Michael 
+Parks? Silakan pindai kode QR berikut ini. Komunikasikan 
+hasil pengamatanmu terhadap sajian film tersebut 
+dalam diskusi kelas.
+d. Cutout-Motion Animation
+Teknik Cutout-Motion merupakan tipe animasi 
+stop-motion yang objeknya digerakkan secara 
+perlahan setiap frame—nya berupa potongan 
+kertas 2D yang dikreasikan sedemikian rupa 
+agar tampak hidup dan bergerak. Teknik 
+ini tentunya lebih memudahkan animator 
+karena bisa berkreasi untuk membuat objek 
+gambar terlebih dahulu dengan menggunakan 
+media komputer.
+LITERAKSI
+Apakah kamu ingin melihat teknik animasi cutout-
+motion dengan cara mengambil gambar objek kertas 
+yang telah dipotong dan diambil gambarnya untuk 
+setiap perubahan posisi objek yang ada yang dilakukan 
+oleh Michael Parks? Silakan pindai kode QR berikut ini. 
+Komunikasikan hasil pengamatanmu terhadap sajian 
+film tersebut dalam diskusi kelas.
+e. Puppet Animation
+Teknik Puppet Animation merupakan teknik 
+yang objek pembuatan animasinya adalah 
+boneka/puppet. Layaknya seseorang yang 
+bercerita dengan menggunakan alat peraga 
+boneka, dia bercerita sambil menggerakan 
+objek boneka dengan tangannya. 
+Teknik animasi ini mencoba menyuguhkan 
+cerita bergerak dengan mengambil gambar 
+Gambar 2.14 Proses pembuatan 
+cotout-motion
+Sumber: animationhome (2022)
+Gambar 2.15 Sebuah Film 
+dengan teknik Animasi Boneka 
+karya Tulio Viaro
+Sumber: viddsee (2022) 
+
+43
+BAB 2 - Perkembangan Teknologi Industri Animasi
+posisi perubahan boneka. Tentunya, perpindahan boneka yang dilakukan oleh 
+seorang sutradara berbeda dengan konsep seseorang yang bercerita dengan 
+menggunakan boneka dengan tangan orang bercerita akan terlihat jelas 
+menggerakkan boneka. Dalam teknik puppet animation, setiap perpindahan 
+posisi boneka yang dilakukan oleh sutradaranya akan diambil gambarnya. 
+Setelah itu, setiap frame gambar yang telah diambil akan dirangkai menjadi 
+tayangan bersambung. 
+LITERAKSI
+Apakah kamu ingin melihat teknik animasi puppet motion 
+dengan cara mengambil gambar objek boneka latex 
+yang diambil gambarnya untuk setiap perubahan posisi 
+objek yang ada yang dilakukan oleh Michael Parks? 
+Silakan pindai kode QR berikut ini. Komunikasikan hasil 
+pengamatanmu terhadap sajian film tersebut dalam 
+diskusi kelas. 
+f. 
+Silhouette Animation
+Teknik ini merupakan teknik stop-
+motion sederhana yang meng-
+gunakan sorotan lampu. Sorotan 
+lampu tersebut ditembakkan pada 
+sebuah objek untuk membuat 
+bayangan yang diproyeksikan pada 
+layar atau dinding. Teknik ini seperti 
+halnya tayangan wayang kulit. 
+Hanya saja, bentuk animasi yang 
+dibuat diambil dari rangkaian bayangan yang diambil pada stop-motion 
+dinding atau layar untuk kemudian dirangkai menjadi gambar gerak. Hal 
+yang ditampilkan adalah bayangan dari objek atau aktor dari sorotan lampu 
+yang terang pada latar belakang putih. Biasanya, sering ditambahkan musik 
+agar animasi lebih menawan.
+Seiring dengan berkembangnya waktu dan teknologi, animasi silhouette 
+diciptakan dengan teknologi komputer. Rangkaian gambar silhouette yang 
+sebelumnya telah disiapkan dibuat animasinya dengan berbagai latar. Teknik 
+ini tentunya lebih memudahkan para animator untuk berkreasi membuat 
+silhouette secara lebih beragam.
+Gambar 2.16 Pagelaran wayang kulit 
+Sumber: JP/Tyler Blodgett (2019)
+
+44
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+LITERAKSI
+Apakah kamu ingin melihat teknik silhouette animation 
+dengan menggunakan bantuan komputer yang 
+dilakukan animator dalam kanal DIGA Hub? Silakan 
+pindai kode QR berikut ini. Komunikasikan hasil 
+pengamatanmu terhadap sajian film tersebut dalam 
+diskusi kelas. 
+Eksplorasi 2.2
+Untuk mengetahui sejauh mana pemahamanmu terhadap materi, kerjakanlah 
+kegiatan berikut. 
+1. Buatlah beberapa kelompok di kelasmu. Setiap kelompok terdiri 
+atas 4 orang.
+2. Perwakilan kelompok mengundi untuk mendapatkan pilihan teknik 
+stop-motion animation yang akan didiskusikan.
+3. Setiap kelompok berdiskusi mengenai cara pembuatan teknik stop-
+motion yang terpilih.
+4. Presentasikanlah hasil diskusi di depan kelas dalam bentuk salindia, 
+baik PowerPoint, Prezi, maupun Canva.
+2. Teknik Animasi Tradisional
+Animasi tradisional disebut juga animasi gambar manual dan animasi Cel. 
+Teknik animasi ini mencoba untuk menuangkan gambar posisi sedikit demi 
+sedikit sesuai dengan perubahan gerakan. Untuk menciptakan sebuah 
+gerakan, setiap gambar harus diposisikan bergeser di setiap lembarnya. 
+Untuk membuat satu gerakan, kamu memerlukan banyak gambar yang 
+terangkai pergeserannya. 
+Dalam proses pembuatannya, pembuatan gambar dikerjakan secara 
+manual (gambar tangan) dan proses pergerakannya memakai banyak frame. 
+Setiap satu animasi memerlukan sekitar 20 frame serta waktu dan tenaga 
+yang besar untuk menghasilkan sebuah animasi yang lengkap. Teknik ini 
+disebut teknik animasi tradisional karena teknik animasi ini digunakan 
+pada saat animasi kali pertama dikembangkan.
+Bagaimana cara untuk membuat gerakan agar terangkai dengan baik 
+pergeserannya? Kamu dapat membuat gambar utama terlebih dahulu di 
+atas sebuah media transparan (bisa berupa lembaran plastik transparan). 
+
+45
+BAB 2 - Perkembangan Teknologi Industri Animasi
+Setelah itu, plastik transparan yang sudah ada gambarnya akan menjadi 
+acuan untuk menggambar posisi objek selanjutnya. Agar setiap gambar 
+konsisten, berilah warna yang tetap sesuai dengan gambar masing-masing 
+objek. Setiap gambar perubahan objek pada cel atau media transparan akan 
+difoto satu per satu dan disatukan dengan gambar latar yang telah dibuat 
+terlebih dahulu. Hal ini tentu saja memerlukan kemampuan menggambar 
+yang konsisten serta ketekunan dalam menggambar dan merangkainya 
+menjadi rangkaian gambar tersambung yang akan membentuk animasi. 
+Semakin detail pergeseran gambarnya, semakin sempurna pula gerakan 
+animasi yang dihasilkan.
+Contoh sederhana animasi manual adalah penggunaan teknik manual 
+flipbook. Setiap lembar buku gambar dibuat gambar posisi perubahan 
+gerakan dari objek. Ketika buku tersebut digeser posisi setiap lembarnya, 
+akan terlihat gerakan animasi dari objek yang ada dalam buku tersebut. 
+Gambar 2.17 Rangkaian gambar pada sebuah buku yang disusun menjadi animasi flipbook
+Sumber: Dana Adnan (2023)
+LITERAKSI
+Silakan pindai kode QR berikut ini. Kamu akan melihat contoh 
+pembuatan animasi flipbook. Sebagai alternatif, kamu juga 
+dapat mengetikkan pranala https://www.youtube.com/
+watch?v=Un-BdBSOGKY&pp=ugMICgJpZBABGAE%3D dalam 
+gawai atau personal computer-mu. Komunikasikan hasil 
+pengamatanmu terhadap sajian tersebut dalam diskusi kelas. 
+Eksplorasi 2.3
+Untuk mengetahui sejauh mana potensimu dalam memahami materi ini, simak 
+kembali tayangan yang ada dalam kode QR di atas. Setelah itu, cobalah untuk 
+melakukan eksplorasi berikut.
+1. Buatlah kelompok yang beranggotakan 3 orang. 
+2. Siapkan kertas A4 sebanyak 10 lembar.
+3. 
+Potonglah kertas tersebut menjadi ukuran 15 x 10 cm dan susunlah kertas 
+tersebut menjadi sebuah buku saku kecil.
+4. Buat ulang animasi flipbook yang terdapat pada Literaksi di atas.
+
+46
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Contoh film animasi yang dibuat dengan menggunakan teknik 
+animasi tradisional adalah Mickey Mouse (1928), Pinocchio (194), Alice’s 
+Wonderland (1923).
+  
+Gambar 2.18 Poster film Mickey Mouse (1), Pinocchio (2), dan Alice ‘s Wonderland
+Sumber: Unique Heritage Media (2019), RKO Radio Pictures Inc. (1940), IMDb (1923)
+LITERAKSI
+Silakan tonton film animasi berikut dengan cara memindai kode QR berikut ini.
+1. Film animasi manual Mickey Mouse yang diproduksi Walt 
+Disney pada tahun 1928 pernah menjadi film pertama 
+yang menggunakan suara yang telah tersinkronisasi 
+dengan gambar. 
+2. Film animasi manual Pinocchio yang diproduksi Walt Disney 
+pada tahun 1940 pernah menjadi film animasi terbaik 
+sepanjang masa. Hal yang penting dalam film ini adalah pesan 
+moralnya, yaitu mengajak anak-anak untuk tidak berbohong. 
+3. Film animasi tradisional Alice’s Wonderland yang diproduksi 
+Walt Disney pada tahun 1923 merupakan animasi yang 
+mencoba menggabungkan antara video real dan animasi.
+Komunikasikan hasil pengamatanmu terhadap sajian film tersebut 
+dalam diskusi kelas. 
+a. Jenis-Jenis Animasi Tradisional
+Ada beberapa bentuk teknik animasi tradisional atau cel animation. Perbedaan 
+bentuk animasi tradisional tersebut dibedakan berdasarkan  empat kategori. 
+Pertama, perubahan antara frame satu dan frame yang lainnya. Kedua, objek 
+digambar pada media celluloid sheet (media transparan) yang sekarang 
+telah digantikan oleh lapisan atau layer-layer digital. Ketiga, alur animasi 
+atau path animation. Keempat, cara objek digerakkan sepanjang alur atau 
+path yang telah ditentukan. 
+
+47
+BAB 2 - Perkembangan Teknologi Industri Animasi
+Adapun jenis-jenis animasi tradisional adalah sebagai berikut.
+1) 
+Zoetrope
+Zoetrope dasar diciptakan di China sekitar 180 Masehi oleh Ting Huan. 
+Zoetrope adalah alat yang digunakan untuk membuat citra gambar 
+menjadi bergerak. Alat ini berbahan tembus pandang mirip dengan 
+plastik mika atau plastik cover. Mekanisme kerja alat ini adalah 
+memosisikan Huan berada pada perangkat dengan posisi di atas lampu 
+dan udara sehingga gambar yang dibuat pada media akan tampak 
+bergerak bila Zoetrope diputar pada kecepatan yang sesuai.
+Pada tahun 1834, William George 
+Horner, mengembangkan perang-
+kat Zoetrope yang lebih modern. 
+Struktur dasar alat ini terdiri atas 
+sebuah silinder dengan posisi 
+celah untuk melihat yaitu pada 
+vertikal di sekitar sisi. Serangkaian 
+gambar akan ditempatkan pada 
+sisi tepi bagian silinder dengan 
+posisi berlawanan dengan celah. Ketika silinder mulai diputarkan, 
+kamu bisa melihat melalui celah untuk memperhatikan ilusi animasi. 
+Inilah konsep awal animasi yang menggunakan Zoetrope.
+2) 
+Lentera Ajaib (Magic Lantern)
+Jika saat ini kamu mengenal 
+perangkat proyektor sebagai 
+alat untuk membuat proyeksi 
+gambar pada layar, mekanisme 
+kerja Lentera Ajaib adalah cikal 
+bakal proyektor tersebut. Prinsip 
+kerjanya adalah objek gambar 
+yang tembus pandang akan ditembakkan oleh lampu sehingga objek 
+gambar akan diperbesar dan diproyeksikan pada dinding layar datar. 
+Gambar akan lebih jelas bila kondisi cahaya di dalam ruangan dapat 
+disesuaikan (dikurangi atau bahkan dibuat gelap) sehingga gambar hasil 
+proyeksi akan tampak lebih jelas. Setiap potongan gambar yang disiapkan 
+ke dalam lentera lalu digerakkan secara mekanik sehingga sorot cahaya 
+yang ada pada layar datar akan menampilkan gerakan objek. 
+3) 
+Thaumatrope (1824)
+Awalnya, Thaumatrope adalah sebuah mainan sederhana yang biasa 
+dimainkan pada kurun waktu era Victoria. Thaumatrope adalah benda 
+Gambar 2.19 Zoetrope dan objek 
+posisi gambar
+Sumber: Encyclopedia Britannica (1985)
+Gambar 2.20 Lentera Ajaib
+Sumber: Encyclopedia Britannica (1985)
+
+48
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+berbentuk lingkaran kecil atau sebuah 
+kartu dengan dua gambar yang berbeda 
+pada setiap sisinya. Di setiap sisinya (kiri 
+dan kanan) dipasang sebuah tali atau karet 
+yang objek benda kecil berbentuk lingkaran 
+tersebut menjadi pusat berada di tengahnya. 
+Saat tali atau karet tersebut diputarkan di 
+antara 2 jari tangan kiri dan kanan dengan 
+cepat, dua gambar pada masing-masing sisi 
+tersebut akan terlihat menjadi satu gambar 
+yang bergerak. 
+LITERAKSI
+Silakan pindai kode QR berikut ini. Kamu akan melihat 
+contoh pembuatan animasi thaumatrope. Sebagai alternatif, 
+kamu juga dapat mengetikkan pranala https://www.
+youtube.com/watch?v=5Ra18YYLoCg&pp=ugMICgJpZB
+ABGAE%3D dalam gawai atau personal computer-mu. 
+Komunikasikan hasil pengamatanmu terhadap sajian 
+tersebut dalam diskusi kelas. 
+Eksplorasi 2.4
+Untuk mengetahui sejauh mana pemahaman terhadap materi, simaklah 
+contoh video pada kode QR di atas. Kemudian, cobalah untuk melakukan 
+hal-hal  berikut.
+1. Buatlah kelompok yang terdiri atas 3 orang.
+2. 
+Buatlah thaumatrope dengan karakter yang kamu sukai dengan mengikuti 
+kegiatan pada Literaksi di atas.
+3. Tunjukkan hasil thaumatrope-mu di depan kelas.
+4) 
+Phenakistoscope (1831)
+Phenakistoscope adalah sebuah 
+alat pembuat ilustrasi animasi 
+yang sederhana yang diciptakan 
+oleh Joseph Plateau Simon von 
+Stampfer dari Austria, tahun 
+1830. Alat ini terbuat dari 
+selembar kertas berbentuk 
+lingkaran dengan sisi ujung 
+kertas terdapat celah pada jarak 
+Gambar 2.22 Bentuk Phenakistoscope dan 
+cara kerjanya 
+Sumber:Sumber: Roel Baets (2009)
+Gambar 2.21 Cara kerja 
+sebuah Thaumatrope
+Sumber: Alpeza (2018)
+
+49
+BAB 2 - Perkembangan Teknologi Industri Animasi
+tertentu yang diisi dengan objek gambar berbeda posisi. Kemudian, 
+kertas berbentuk lingkaran tersebut diputar dengan kecepatan tertentu 
+sehingga menghasilkan ilusi animasi. Kata phenakistoscope berasal 
+dari bahasa Yunani yang berarti “menipu”. Hal ini terjadi karena efek 
+tipuan mata yang dihasilkan oleh alat tersebut. 
+LITERAKSI
+Silakan pindai kode QR berikut ini. Kamu akan melihat 
+bentuk dan cara kerja phenakistosope. Sebagai alternatif, 
+kamu juga dapat mengetikkan pranala https://www.
+youtube.com/watch/?v=5N2ffJ5k-6E dalam gawai atau 
+personal computer-mu. Komunikasikan hasil pengamatanmu 
+terhadap sajian tersebut dalam diskusi kelas.
+5) 
+Flipbook (1868)
+John Barnes Linnet pada 1868 
+mematenkan penemuannya 
+berupa 
+teknik 
+pembuatan 
+animasi sederhana yang disebut 
+dengan teknik flipbook. Teknik 
+ini termasuk animasi tradisional 
+yang secara praktis lebih 
+mendekatkan pada teknik animasi 
+modern. Seperti teknik lainnya, 
+teknik flipbook menghasilkan ilusi 
+gerak. Serangkaian gambar yang disusun berurutan yang dibuka secara 
+cepat akan menghasilkan ilusi gerak animasi. Perangkat yang ditemukan 
+tahun 1894 ini digunakan untuk membuka lembaran setiap flipbook 
+ini disebut mutoscope. Prinsip dasar cara kerja alat ini adalah sebuah 
+flipbook (buku gambar) yang disimpan dalam kotak dengan pegangan 
+pemutar untuk memutar dan membalik halaman setiap lembar buku.
+LITERAKSI
+Silakan pindai kode QR berikut ini. Kamu akan melihat 
+cara kerja mutoscope. Sebagai alternatif, kamu juga 
+dapat mengetikkan pranala https://www.youtube.com/
+watch?v=MEeu2RSr4js  dalam gawai atau personal computer-
+mu. Komunikasikan hasil pengamatanmu terhadap sajian 
+tersebut dalam diskusi kelas. 
+6) 
+Praxinoscope (1877)
+Gambar 2.23 Mutoscope dan alat 
+pemutar flipbook
+Sumber: Melinama’s Mutoscope (1965), The Awesomer 
+Stuff (2021)  
+
+50
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Ilmuwan Prancis bernama Charles – Émile Reynaud pada tahun 1877 
+menemukan sebuah alat yang diberi nama Praxinoscope. Alat ini 
+merupakan perkembangan lebih canggih dari perangkat Zoetrope. 
+Mekanisme dasar cara kerja alat ini menggunakan prinsip yang sama 
+yaitu menggunakan strip gambar yang ditempatkan pada bagian dalam 
+objek silinder yang berputar. Hanya saja proses untuk melihat hasil 
+animasinya bukan dilakukan melalui bagian celah, melainkan melalui 
+bagian cermin yang diposisikan sebagai stasioner di bagian dalam silinder 
+atau tabung gambar. Hasilnya animasinya akan terlihat dengan gambar 
+lebih jelas dan kualitas yang lebih baik. Pengembangan versi yang lebih 
+besar dari Praxinoscope adalah Optique Théâtre yang dilakukan Reynaud 
+untuk dapat diproyeksikan ke sebuah layar.
+3. Teknik Animasi Komputer
+Animasi komputer adalah proses untuk menghasilkan gambar bergerak 
+secara digital. Secara keseluruhan, proses pembuatan animasi digital bukan 
+hanya masalah pengerjaan gerak animasi, melainkan pengerjaan yang 
+meliputi pembuatan karakter, pengaturan gerakan, teknik pencahayaan 
+dan penentuan sudut pandang kamera, pemberian suara dan sound effect, 
+serta spesial efeknya. Seluruh proses tersebut menggunakan komputer. 
+Animasi komputer mampu mengajak dan mewujudkan imajinasi manusia 
+secara lebih sempurna. Dengan adanya animasi komputer, segala imajinasi 
+visual yang awalnya tidak mungkin menjadi mungkin dilakukan dan lebih 
+mudah. Hadirnya berbagai peranti lunak yang dapat mendukung pekerjaan 
+animator membuat animasi komputer semakin berkembang. Berbagai studio 
+animasi pun semakin bersaing meraih simpati dari para penontonnya, 
+begitu pula dengan para penggemar animasi. Mereka menunggu kejutan-
+kejutan lainnya yang akan dihadirkan oleh studio animasi saat ini, yaitu 
+film animasi yang menghibur dan berkualitas.
+a. Animasi Komputer 2 Dimensi
+Berdasarkan teknik pembuatannya, animasi komputer 2 dimensi terdiri atas 
+frame animation, vector animation, computational animation, dan morphing. 
+Untuk memahami keempat hal tersebut, cermati uraian berikut. 
+1) 
+Frame Animation, suatu animasi yang dibuat dengan mengubah objek 
+pada setiap frame. Objek-objek tersebut nantinya akan tampak pada 
+lokasi-lokasi yang berbeda pada layar. 
+2) 
+Vector Animation, animasi yang dibuat dengan mengubah bentuk 
+suatu objek. 
+
+51
+BAB 2 - Perkembangan Teknologi Industri Animasi
+3) 
+Computational Animation, animasi yang 
+dibuat dengan memindahkan objek 
+berdasarkan koordinat X dan Y. Koordinat 
+X untuk posisi horizontal dan posisi Y 
+untuk posisi vertikal. 
+4) 
+Morphing, peralihan satu bentuk 
+objek ke bentuk objek lainnya dengan 
+memanipulasi lebih dari satu frame 
+sehingga nantinya akan dihasilkan keseluruhan gerakan yang sangat 
+lembut untuk menampilkan perubahan satu sampai perubahan 
+bentuk lainnya.
+Perkembangan animasi komputer saat ini sangat pesat, mulai dari 
+animasi sederhana menjadi kompleks, desain pemodelan, hingga pengisian 
+suara/dubbing yang dapat dilakukan dengan personal computer (PC). Semua 
+kegalatan (error) dapat diperbaiki dan diubah dengan cepat.
+Amerika Serikat merupakan salah satu negara yang teknologi animasinya 
+telah maju. Hal ini ditandai dengan adanya penghargaan terhadap karya 
+animasi melalui Academy Awards pada tahun 1932. Selain itu, munculnya 
+perusahaan Walt Disney yang merajai produksi film-film animasi khusus 
+anak-anak dan keluarga. Begitu juga dengan sejumlah negara di Eropa 
+seperti Inggris dan Prancis. Bahkan, negara di Asia pun, seperti Jepang, 
+Korea, dan China menunjukkan perhatiannya terhadap potensi teknologi 
+gambar bergerak ini. 
+Industri animasi sebenarnya merupakan tren yang menjanjikan di 
+masa depan, apalagi dengan pemakaian internet yang meningkat secara 
+tajam. Video animasi digunakan untuk berbagai kebutuhan, mulai dari 
+film, iklan komersial, hingga video klip yang bisa diunggah secara mandiri 
+melalui kanal Youtube secara gratis. Pengerjaan video animasi sederhana 
+pun bisa dibuat secara mandiri dengan keterampilan dan perangkat yang 
+cukup. Sejumlah video animasi buatan lokal bisa kamu saksikan di internet, 
+mulai dari yang sederhana hingga spektakuler, yang kualitasnya tak kalah 
+dengan produksi luar negeri.
+Animasi pun beragam jenisnya, mulai dari animasi model dua dimensi 
+(2D) hingga tiga dimensi (3D). Pada animasi 2D, figur animasi dibuat dan 
+diedit di komputer dengan 2D bitmap graphics atau 2D vector graphics. 
+Sementara itu, animasi 3D lebih kompleks karena menambahkan berbagai 
+efek, seperti efek pencahayaan, air, dan api, sehingga seolah-olah menjadi 
+riil dan nyata. Dengan demikian, film animasi 3D lebih banyak bermunculan 
+daripada film animasi 2D.
+Gambar 2.25 Morphing efek pada 
+video musik black and white oleh 
+Michael Jackson
+Sumber: Dimitris Katsafouros/youtube.com
+
+52
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+b. Animasi Komputer 3 Dimensi
+Jenis-jenis animasi 3 dimensi adalah video dan film 3D, 3D interaktif, dan 
+virtual reality 3D. Berikut perincian ketiga jenis animasi 3 dimensi tersebut.
+1) 
+Video dan Film 3D
+Video dan film 3D adalah visual 3D dari gambar yang bergerak yang 
+berada di dunia digital. Visual 3D ini menggunakan gerak grafik untuk 
+memindahkan atau menggerakkan objek di ruang 3D digital. Pada jenis 
+ini, pengguna hanya dapat melihat visual yang disajikan pembuat tanpa 
+terdapat interaksi. 
+2) 
+3D Interaktif
+Berbeda dengan video dan film 3D, 3D interaktif menyuguhkan fitur 
+interaksi yang dapat dilakukan oleh pengguna. Pengguna dapat berada 
+dalam sudut pandang orang pertama atau ketiga dan bergerak dalam 
+dunia 3D pada layar komputer. Salah satu contohnya adalah game.
+3) 
+Virtual Reality 3D
+Teknologi Virtual Reality ini dipopulerkan oleh Jaron Lanier, seorang 
+pelopor teknologi modern, pada tahun 1980. Pada VR, seluruh indra 
+manusia, mulai dari penglihatan, pendengaran, perabaan, hingga 
+penciuman, dapat muncul dalam interaksi 
+yang berlangsung antara manusia dan 
+dunia animasi yang ada dalam media 
+visual. VR bekerja dengan memanipulasi 
+otak manusia melalui berbagai pancaindra 
+untuk menghasilkan sensasi dan ilusi. 
+Akibatnya, semua yang terjadi dalam dunia 
+maya dapat terasa begitu nyata. 
+Cara kerja VR diawali dengan simulasi penglihatan manusia dalam 
+dunia maya melalui komputer. Melalui perangkat yang digunakan 
+dalam VR (kacamata,  headset, dan helm dengan teknologi tertentu), 
+manusia--sebagai pengguna--dapat berinteraksi dengan dunia maya 
+dalam bentuk simulasi. Pada akhirnya, manusia sebagai pengguna 
+akan mendapat feedback yang melibatkan pancaindra, seperti halnya 
+dalam dunia nyata.
+Adapun teknik pembuatan animasi komputer 3 dimensi adalah 
+sebagai berikut.
+1) 
+Computer Generated Imagery (CGI) 
+Gambar 2.26 Ilustrasi 
+virtual reality 
+Sumber: Jay/Phantasma (2021)
+
+53
+BAB 2 - Perkembangan Teknologi Industri Animasi
+CGI adalah sebuah proses pembuatan animasi dengan menggunakan 
+perangkat lunak komputer. CGI merupakan pencitraan 3D digital yang dapat 
+memberikan efek lebih nyata pada sebuah adegan film yang semuanya 
+dibuat menggunakan komputer. CGI tidak memerlukan aktor manusia 
+untuk menghasilkan model yang mudah untuk digerakkan. 
+Pada pembuatannya, CGI dilakukan melalui beberapa tahapan, yaitu 
+pembuatan grafis 3D dasar kemudian ditambahkan efek khusus agar 
+terlihat lebih nyata. Elemen lainnya seperti lighting, tekstur, dan warna akan 
+dikerjakan frame by frame untuk menambahkan detail yang diperlukan.
+CGI juga digunakan untuk membuat sebuah visual effect yang 
+penggunaannya tidak dapat terlepas dari green screen. Pencampuran elemen 
+komputer grafis dengan lokasi dan objek dunia nyata dapat menghasilkan 
+tampilan visual yang sangat baik.
+Tahun 1995, studio animasi Pixar mengeluarkan film animasi layar lebar 
+yang dibuat dengan teknologi CGI. Film yang sukses mendulang pendapatan 
+yang besar, mulai dari Toy Story 1-4. Setelah itu, film yang dikembangkan 
+dengan Teknik CGI bermunculan seperti Avatar (2009), Shrek 2 (2004), Cars 
+2 (2011), dan Life of Pi (2012).
+2) 
+Motion Capture
+Motion capture (Mocap) adalah teknik 
+yang paling banyak digunakan pada 
+saat ini pada industri film animasi dan 
+industri game. Motion capture adalah 
+teknologi yang merekam pergerakan 
+nyata dari aktor manusia ke dalam 
+dunia digital, yang dibantu oleh software 
+perekaman gerak sekaligus pengolahan 
+karakter. Dengan motion capture, detail 
+kecil pergerakan, seperti ekspresi 
+halus pada wajah dan jari-jari serta 
+pergerakan rambut, dapat ditangkap 
+dengan sangat baik. 
+Agar gerak dapat ditangkap dengan jelas, aktor harus menggunakan 
+pakaian khusus yang disebut Mocap Suit yang di dalamnya terdapat perangkat 
+yang mendeteksi gerakan tubuh yang terhubung langsung dengan komputer.
+Eksplorasi 2.5
+Gambar 2.27 Ilustrasi penangkapan gerak 
+pada teknik motion capture
+Sumber: vicon/cgicoffee.com (2018 ) 
+
+54
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Untuk mengetahui sejauh mana pemahamanmu terhadap materi, buatlah 
+video klip atau cuplikan-cuplikan video yang termasuk ke dalam pembuatan 
+animasi komputer 2 dimensi dan 3 dimensi. Adapun ketentuan video tersebut 
+adalah sebagai berikut. 
+1.   Klip pembuatan teknik animasi komputer 2 dimensi terdiri atas 2 klip.
+2.   Klip pembuatan teknik animasi komputer 3 dimensi terdiri atas 2 klip.
+3.   Berikan caption text: judul, studio animasi dan teknik pembuatan dan 
+tahun pembuatan pada setiap cuplikan video yang dipilih.
+4.   Video klip berdurasi 60 sampai dengan 120 detik.
+5.  Format video dikumpulkan dalam format .mp4.
+C. Teknologi Digital dalam Industri Film
+1. Sejarah Teknologi Film
+Pada 1895, Lumiere Brothers menggunakan hasil 
+temuannya yang disebut dengan cinematographe 
+untuk merekam gambar bergerak (motion 
+pictures). Kemudian 1902, mereka bekerja sama 
+dengan George Melies, seorang pionir dalam 
+pembuatan film dan menghasilkan karya film 
+pendek A Trip to the Moon  dan The Impossible 
+Voyage. Sejak itu, teknologi film meluas dan 
+berkembang yang kemudian memiliki warna, 
+animasi, dan suara. Pada tahun 1930 film The Wizard of OZ dan  Snow White 
+and the Seven Dwarves telah menggunakan the three-colour system.
+2. Kemajuan Teknologi Film ke Digital
+Hollywood mulai merekam film secara digital pada awal tahun 2000-an dan 
+pada tahun 2013 telah menjadi hal umum perubahan 35mm film menjadi 
+digital. Salah satunya yang menjadi jalan perubahan itu adalah Computer-
+Generated Imagery (CGI) and special effects (VFX) sebagai inovasi dalam 
+pembuatan film. Misalnya, film Westworld (1973), Tron (1982) , The Matrix 
+(1999), dan Toy Story (1995).
+3. Digital Cinema Package
+Dengan kemajuan teknologi digital tersebut, kebanyakan bioskop atau movie 
+theater besar telah menggunakan proyektor digital yang membutuhkan 
+Digital Cinema Package (DCP). Digital cinema package merupakan format 
+standar untuk pengiriman dan pemutaran film di bioskop digital. 
+Gambar 2.28 Ilustrasi 
+Cinematographe Lumiere Brothers
+Sumber: CrashCourse /youtube.com/@
+crashcourse (2017) 
+
+55
+BAB 2 - Perkembangan Teknologi Industri Animasi
+Digital cinema package memiliki bitrate sekitar 250 Mbps. Sebagai 
+contoh, DCP untuk film Spider Man: No Way Home yang berdurasi 2 jam 28 
+menit adalah sekitar 500 Gb termasuk versi 3D dan versi 4K. Untuk memutar 
+isi dari DCP tersebut diperlukan Key Delivery Message (KDM) karena DCP 
+biasanya terenkripsi.
+LITERAKSI
+Silakan pindai kode QR berikut ini untuk memperdalam 
+materi mengenai DCP. Sebagai alternatif, kamu juga dapat 
+mengetikkan pranala https://youtu.be/uDm7wJgU3Xw dalam 
+gawai atau personal computer-mu. Komunikasikan hasil 
+pengamatanmu terhadap sajian tersebut dalam diskusi kelas. 
+Pengiriman DCP ke bioskop menggunakan DCP secara fisik berupa kotak 
+pengaman berstandar militer berisi hard drive, power adapter, dan kabel 
+kabel pendukung. Adapun media penyimpanan lain untuk DCP menurut 
+sumber simpledcp.com di antaranya: 
+a. 
+Flash drive, menyimpan sampai dengan 
+durasi 15 menit;
+b. 
+USB  Drive, atau disebut juga hardisk external;
+c. 
+CRU Solo, terdiri atas hardisk 500 Gb, casing 
+hardisk khusus DX-115 dan kotak pengaman.
+Untuk saat ini, DCP dapat juga ditransfer secara 
+online melalui satelit atau internet. Pembuatan DCP 
+dari film yang sudah dibuat dapat menggunakan 
+beberapa aplikasi di antaranya Premiere Pro, 
+final Cut Pro, Davinci Resolve atau secara online 
+menggunakan dcpomatic.com.
+Eksplorasi 2.6
+Untuk mengetahui sejauh mana pemahamanmu terhadap materi, buatlah 
+teks prosedur pembuatan Digital Cinema Package dengan memilih salah satu 
+aplikasi berikut. 
+1.  Pembuatan DCP menggunakan aplikasi Adobe Premiere.
+2.  Pembuatan DCP menggunakan aplikasi Davinci Resolve.
+3.  Pembuatan DCP menggunakan Aplikasi DCP-o-matic.
+4.  Kumpulkan teks prosedur dalam bentuk link Google Docs.
+Gambar 2.29 CRU-
+DX115 DCP fisik
+Sumber: turtlecase (2023)
+
+56
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+D. Product Life Cycle 
+Apabila dilihat dari arti katanya, product life cycle terdiri atas tiga kata. Product 
+atau produk berarti barang atau jasa yang kita jual, life memiliki arti hidup/
+kehidupan, dan cycle adalah siklus/putaran. Dengan demikian, product life cycle 
+bermakna siklus hidup suatu produk. Untuk memahami lebih mendalam terkait 
+product life cycle, cermati uraian berikut.
+1. Product Life Cycle dalam Bidang Animasi
+Setiap jenis produk akan memiliki 
+siklus hidupnya masing-masing. Akan 
+ada masanya suatu produk berubah 
+dan hilang dari pasaran atau muncul 
+kembali dengan tampilan yang berbeda. 
+Siklus hidup produk adalah tahapan 
+atau proses perjalanan suatu produk, 
+mulai dari produsen mengenalkan dan 
+memasarkan produknya hingga pada 
+akhirnya tergantikan dengan produk 
+lain yang lebih canggih dan terbaru. Melalui siklus hidup produk ini, produsen 
+akan dapat memutuskan waktu yang tepat untuk melakukan promosi, 
+menurunkan harga, memperluas pasar, hingga mendesain ulang kemasan 
+produk, serta menyusun strategi untuk terus mendukung dan memelihara 
+suatu produk tetap eksis di kalangan masyarakat. Ketika suatu produk telah 
+mencapai titik jenuh, produsen harus segera melakukan inovasi ulang.
+Dalam industri animasi, produk yang dihasilkan juga mengalami 
+siklus hidup yang sama dengan industri lainnya. Hal yang mempengaruhi 
+terjadinya siklus hidup suatu produk adalah perkembangan teknologi, 
+permintaan pasar, stabilitas ekonomi, munculnya kompetitor, penurunan 
+keuntungan, dan kemunduran organisasi. Adapun tahap-tahap dalam siklus 
+hidup produk industri meliputi 4 tahap, yakni introduksi (introduction), 
+pertumbuhan (growth), kematangan (maturity), dan penurunan (decline).
+a. 
+Introduksi (Introduction)
+Pada tahap ini, industri melakukan iklan yang bertujuan memperkenalkan 
+adanya suatu produk baru agar masyarakat mengenal produk dan 
+manfaat produk tersebut. Pada produk-produk film atau serial animasi 
+yang akan tayang pada channel-channel tertentu, baik di televisi, 
+layar lebar/ bioskop, maupun layanan media over-the-top (OTT) atau 
+layanan media yang ditawarkan langsung kepada penonton melalui 
+internet seperti YouTube, Netflix, Disney Hotstar, juga akan melakukan 
+Gambar 2.30 Bagan Product Life Cycle
+Sumber: twi global/twi-global.com
+
+57
+BAB 2 - Perkembangan Teknologi Industri Animasi
+tahapan ini. Bentuk promosi dapat berupa 
+iklan media cetak, poster, dan tayangan trailer 
+iklan media sosial.
+LITERAKSI
+Silakan pindai kode QR berikut 
+ini untuk melihat contoh animasi 
+dalam tahap introduction. Sebagai 
+alternatif, kamu juga dapat 
+mengetikkan pranala https://
+youtu.be/k3AMne2_-O8 dalam 
+gawai atau personal computer-mu. Komunikasikan 
+hasil pengamatanmu terhadap sajian tersebut 
+dalam diskusi kelas. 
+b. 
+Pertumbuhan (Growth)
+Jika sudah berhasil dan dikenal oleh 
+masyarakat, produk akan pindah ke tahap 
+pertumbuhan. Hal ini ditandai dengan 
+meningkatnya permintaan pasar, peningkatan 
+produksi, dan pengembangan potensi produk.
+c. 
+Kematangan (Maturity)
+Fase ini paling menguntungkan karena 
+produk sudah dikenal oleh masyarakat dan 
+dikonsumsi secara terus-menerus. Sementara 
+itu, biaya produksi dan pemasaran semakin 
+menurun. Pada fase ini, mulai muncul produk-
+produk serupa dari kompetitor. Ketika suatu 
+produk sukses, tentu perusahaan lain akan 
+meniru, bahkan dengan peningkatan kualitas 
+atau harga lebih rendah.
+d. 
+Penurunan (Decline)
+Tahapan ini terjadi jika sebuah produk tidak 
+mampu bersaing dengan para kompetitor 
+atau suatu produk mengalami titik jenuh. 
+Hal ini akan berdampak pada kemungkinan 
+kehilangan pangsa pasar dan mulai menurun. 
+Pada tahap ini produsen harus mulai 
+melakukan inovasi ulang suatu produk.
+Gambar 2.32 Salah satu 
+pengembangan produk dari 
+film animasi Push in Boots
+Sumber: DreamWorks Animation/
+universalorlando.com (2023)
+Gambar 2.33 Penayangan film 
+animasi berdampingan dengan 
+kompetitor di layanan streaming 
+Sumber: hbogoasia/hbogoasia.id
+①
+②
+Gambar 2.31 Tahap 
+introduction film animasi 
+melalui YouTube dan Web
+Sumber: (1) KinoCheck/youtube.com/@
+KinoCheck.com (2023) (2) BRIAN D. 
+RENNER/movieinsider.com (2023)  
+
+58
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Eksplorasi 2.7
+Untuk mengetahui sejauh mana pemahamanmu terhadap materi, isilah tabel 
+berikut dengan menelusuri informasi kegiatan pada setiap tahapan pada 
+product life cycle. 
+Pengenalan 
+(introduction)
+Pertumbuhan 
+(Growth)
+Kematangan 
+(Maturity)
+Penurunan 
+(Decline)
+Penjualan
+Biaya
+Laba
+Pelanggan
+Pesaing
+Tujuan Pemasaran
+2. Daur Ulang Produk Animasi (Film Cycle)
+Praktik daur ulang tidak hanya bisa diterapkan pada industri yang 
+menghasilkan limbah, tetapi dapat diterapkan pada industri animasi. 
+Bagaimana cara mendaur ulang produk animasi? Pendaurulangan produk 
+animasi dapat dilakukan dengan cara remaster, remake, reboot, dan 
+reimagining. 
+a. 
+Remaster
+Remaster adalah memperbaiki atau memodifikasi kualitas gambar 
+dari film yang sudah rilis sebelumnya agar gambar tampak lebih baik 
+dari segi warna, kerapatan gambar, dan audio sehingga dapat lebih 
+dinikmati oleh para penonton.
+b. 
+Remake
+Remake adalah melakukan reinkarnasi terhadap produk film animasi 
+lama menjadi film animasi baru yang diproduksi dari nol. Remake 
+film dapat dengan menggunakan teknologi dan teknik baru dengan 
+mempertahankan poin kunci dari film sebelumnya.
+c. 
+Reboot
+Reboot adalah produksi film animasi yang didasarkan pada konsep 
+dasar film, beberapa karakter, dan fondasi dasar cerita film sehingga 
+dapat dikembangkan menjadi film animasi baru dengan tambahan 
+karakter baru.
+d. 
+Reimagining
+Reimagining adalah merupakan produksi film animasi seperti remake, 
+tetapi dengan melakukan minimal satu perubahan besar dibanding film 
+animasinya. Misalnya, dengan fokus kepada karakter lainnya dalam 
+cerita tersebut. 
+
+59
+BAB 2 - Perkembangan Teknologi Industri Animasi
+Eksplorasi 2.8
+Untuk mengetahui sejauh mana pemahaman terhadap materi, kerjakanlah 
+kegiatan sebagai berikut.
+1. Buatlah kelompok terdiri atas 3 orang.
+2. 
+Carilah film animasi yang telah di-remaster, remake, reboot, dan reimagining.
+3. Bandingkanlah sebelum dan sesudah film tersebut didaur ulang. Hal ini 
+harus dibuktikan dengan gambar.
+4. 
+Untuk memudahkanmu dalam membandingkannya, isilah tabel berikut ini.
+Tabel 2.1 Analisis Film Daur Ulang
+No. Judul Animasi Link Film
+Jenis Daur 
+Ulang
+Sebelum
+Sesudah
+Deskripsi Daur 
+Ulang
+1.
+2.
+3.
+4.
+5.
+Rangkuman
+1. 
+Animasi adalah gambar bergerak yang dibuat dengan cara merekam 
+gambar-gambar diam. Kemudian, rekaman tersebut diputar ulang dengan 
+berurutan sehingga terlihat tidak lagi sebagai masing-masing gambar terpisah, 
+tetapi sebagai sebuah kesatuan yang menghasilkan ilusi pergerakan yang 
+tidak terputus.
+2. 
+Teknik animasi stop-motion yaitu object-motion, claymation animation, pixilation 
+animation, cutout-motion animation, puppet animation, dan silhouette animation.
+3. 
+Jenis-jenis perangkat animasi tradisional di antaranya Zoetrope, Lentera Ajaib 
+(Magic Lamb), Thaumatrope, Phenakistoscope, Flipbook, dan Praxinoscope.
+4. 
+Teknik animasi komputer adalah proses pembuatan animasi digital yang 
+meliputi pengerjaan pembuatan karakter, pengaturan gerakan, teknik 
+pencahayaan dan penentuan sudut pandang kamera, pemberian suara 
+dan sound effect, serta spesial efeknya yang dilakukan dengan komputer. 
+5. 
+Animasi komputer 2 dimensi terdiri atas frame animation, vector animation, 
+computational animation, dan morphing. Sementara itu, animasi komputer 3 
+dimensi terdiri atas video dan film 3D, 3D interaktif, virtual reality 3D. Adapun 
+teknik pembuatan animasi komputer 3 dimensi terdiri atas computer generated 
+imagery (CGI) dan motion capture.
+6. 
+Digital cinema package merupakan format standar untuk pengiriman dan 
+pemutaran film di bioskop digital. Media penyimpanan lain untuk DCP 
+menurut sumber simpledcp.com di antaranya flash drive; USB  Drive (hardisk 
+external); CRU Solo terdiri atas hardisk 500 Gb, casing hardisk khusus DX-115, 
+dan kotak pengaman.
+7. 
+Product life cycle adalah konsep yang menggambarkan cara sebuah produk 
+melalui tahapan-tahapan yang berbeda dalam siklus hidupnya, dari awal 
+produksi hingga akhir hayatnya. Adapun tahap dalam siklus hidup produk 
+industri meliputi perencanaan dan pengembangan, produksi, penggunaan, 
+pemilihan, dan penghapusan. 
+
+60
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Asesmen Kompetensi 2
+Pilihlah salah satu jawaban yang paling tepat!
+1. 
+Teknologi motion capture digunakan dalam animasi untuk ….
+a. 
+mereplikasi gerakan manusia ke dalam karakter animasi
+b. 
+menghasilkan efek visual yang realistis
+c. 
+mempercepat proses animasi
+d. 
+membuat suara dan musik pada animasi
+e. 
+mereplikasi gerakan manusia 
+2. 
+Teknologi rendering yang digunakan dalam animasi 3D modern adalah ….
+a. 
+ray tracing
+b. 
+vector graphics
+c. 
+bitmap images
+d. 
+JPEG images
+e. 
+PNG images
+3. 
+Teknologi VR (virtual reality) digunakan dalam industri animasi untuk ….
+a. 
+meningkatkan kualitas grafis pada animasi
+b. 
+meningkatkan interaktif antara penonton dan animasi
+c. 
+mempercepat proses produksi animasi
+d. 
+meningkatkan kualitas audio pada animasi
+e. 
+meningkatkan kualitas video pada animasi
+4. 
+Teknologi AI (artificial intelligence) digunakan dalam animasi untuk ….
+a. 
+mempercepat proses produksi animasi
+b. 
+meningkatkan kualitas animasi secara otomatis
+c. 
+meningkatkan interaktif antara penonton dan animasi
+d. 
+meningkatkan kualitas audio pada animasi
+e. 
+meningkatkan kualitas video pada animasi
+5. 
+Teknologi motion graphics digunakan dalam animasi untuk ….
+a. 
+menciptakan animasi dengan gerakan yang realistis
+b. 
+menciptakan efek visual yang kompleks
+c. 
+membuat karakter animasi yang menarik
+d. 
+meningkatkan interaktif antara penonton dan animasi
+e. 
+menciptakan efek visual yang sederhana
+
+61
+BAB 2 - Perkembangan Teknologi Industri Animasi
+6. 
+Teknologi rotoscoping digunakan dalam animasi untuk ….
+a. 
+membuat animasi dengan gerakan yang realistis
+b. 
+menciptakan efek visual yang kompleks
+c. 
+membuat karakter animasi yang menarik
+d. 
+menggambar ulang adegan nyata ke dalam animasi
+e. 
+menciptakan efek visual yang sederhana
+7. 
+Teknologi compositing digunakan dalam animasi untuk ….
+a. 
+menciptakan efek visual yang kompleks
+b. 
+membuat karakter animasi yang menarik
+c. 
+mempercepat proses produksi animasi
+d. 
+meningkatkan kualitas audio pada animasi
+e. 
+meningkatkan kualitas video pada animasi
+8. 
+Teknologi motion graphics digunakan dalam animasi untuk ….
+a. 
+menciptakan animasi dengan gerakan yang realistis
+b. 
+menciptakan efek visual yang kompleks
+c. 
+membuat karakter animasi yang menarik
+d. 
+meningkatkan interaktif antara penonton dan animasi
+e. 
+menciptakan efek visual yang sederhana
+9. 
+Teknologi 3D printing dapat digunakan dalam animasi untuk ….
+a. 
+mencetak karakter animasi dalam bentuk fisik
+b. 
+meningkatkan kualitas grafis pada animasi
+c. 
+mempercepat proses produksi animasi
+d. 
+meningkatkan interaktif antara penonton dan animasi
+e. 
+meningkatkan kualitas video pada animasi
+10. Teknologi streaming dapat digunakan dalam animasi untuk …..
+a. 
+meningkatkan kualitas audio pada animasi
+b. 
+meningkatkan kualitas grafis pada animasi
+c. 
+mempercepat proses produksi animasi
+d. 
+mengirim animasi secara online kepada penonton
+e. 
+meningkatkan kualitas video pada animasi
+
+62
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Proyek Praktikum
+I. 
+Petunjuk Umum
+1. 
+Periksalah dengan teliti dokumen soal ujian praktik.
+2. 
+Baca dan pahami maksud soal agar tidak terjadi kesalahan pekerjaan.
+3. 
+Bekerjalah dengan memperhatikan jadwal dan alur pengerjaan.
+4. 
+Peralatan utama dan bahan telah disediakan sesuai dengan kebutuhan.
+5. 
+Dalam bekerja, perhatikan selalu keselamatan kerja.
+II. 
+Alat dan Bahan
+1. 
+PC atau Laptop 
+2.    Internet 
+3.    Buku catatan
+III. Soal/Tugas
+1. 
+Judul Tugas
+ 
+Membuat video konten media sosial dengan topik (1) sejarah animasi, 
+(2) teknik animasi dan (3) jenis animasi 
+2. 
+Langkah kerja
+a. 
+Buatlah kelompok terdiri dari 3 orang.
+b. 
+Pilih topik yang akan menjadi konten media sosial.
+c. 
+Lakukan riset dan membuat konsep konten video. 
+d. 
+Lakukan pencarian dan pengumpulan aset gambar dan video. 
+e. 
+Lakukan video editing. 
+f. 
+Kumpulkan video konten media sosial dengan format .mp4.
+g. 
+Lakukan posting konten video ke media sosial.
+3. 
+Sajikan konten video kepada teman-teman kelas.
+Pengayaan
+Silakan untuk mengakses pranala dengan cara memindai kode QR 
+ataupun mengetikkan url lengkapnya di gawai atau komputermu. 
+Setelah itu, berikanlah komentarmu terkait materi yang disajikan pada 
+konten video tersebut!
+https://www.youtube.com/watch?v=v4rP8ji4fgo 
+https://www.youtube.com/watch?v=F4oWpD9vbN0 
+Refleksi
+Pada pembelajaran ini, kamu telah mempelajari perkembangan teknologi industri 
+animasi. Sekarang, silakan kamu merefleksikan diri dengan memberi tanda centang 
+(√) dalam kolom “Ya” dan “Tidak” untuk setiap pernyataan di bawah ini. Isilah sesuai 
+dengan pendapatmu yang sebenarnya.
+No
+Pernyataan
+Ya
+Tidak Ket.
+1.
+Saya mampu menjelaskan sejarah perkembangan animasi.
+2.
+Saya mampu menjelaskan teknik animasi stop-motion, animasi 
+tradisional, dan animasi komputer.
+3.
+Saya mampu menjelaskan teknologi digital dalam dunia industri.
+4.
+Saya mampu menjelaskan product life cycle industri sampai dengan 
+reuse dan recycling.

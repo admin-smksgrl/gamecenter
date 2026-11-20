@@ -1,0 +1,1314 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 5",
+      "title": "Kekayaan Intelektual pada Produksi Animasi",
+      "description": "Memahami kekayaan intelektual (hak cipta, merek, desain industri, paten), penerapan IP dalam industri animasi, lisensi IP, dan produk turunan sebagai sumber pendapatan animasi.",
+      "learning_objectives": [
+        "Menjelaskan konsep kekayaan intelektual dan manfaat pendaftarannya.",
+        "Membedakan hak cipta, merek, desain industri, dan paten.",
+        "Menerapkan IP dalam dua model bisnis studio animasi (jasa dan IP).",
+        "Mengenal lisensi IP dan produk turunan industri animasi."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 5 Kekayaan Intelektual pada Produksi Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Kekayaan intelektual",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 5 Kekayaan Intelektual pada Produksi Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Hak atas karya cipta dan invensi\n\nMenurut DJKI Kemenkumham (2020), kekayaan intelektual adalah hak yang muncul dari hasil pemikiran dalam menciptakan produk yang bermanfaat bagi manusia, misalnya karya seni, penemuan, program komputer, dan merek dagang.\n\nPerlindungan kekayaan intelektual penting agar penemu, seniman, ilmuwan, dan pebisnis diakui sebagai pencipta dan karyanya terlindungi secara legal.\n\nManfaat mendaftarkan IP: perlindungan hukum, antisipasi pelanggaran, menumbuhkan jiwa kompetitif, memperluas segmen pasar, berkolaborasi dengan industri pasangan, dan mempromosikan penelitian.\n\nTipe kekayaan intelektual terbagi menjadi properti industri (paten, desain industri, merek dagang, indikasi geografi) dan hak cipta (sastra, karya seni, karya ilmiah, pertunjukan, penyiaran).\n\nHak cipta diatur UU No. 28 Tahun 2014; hak cipta muncul otomatis setelah karya diwujudkan secara riil dan diumumkan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-5-kekayaan-intelektual-glosarium",
+              "terms": [
+                {
+                  "term": "Kekayaan intelektual",
+                  "definition": "Hak yang muncul dari hasil pemikiran dalam menciptakan produk yang bermanfaat dan menguntungkan."
+                },
+                {
+                  "term": "Hak cipta",
+                  "definition": "Hak khusus pencipta yang muncul otomatis setelah karya direalisasikan dan diumumkan."
+                },
+                {
+                  "term": "Merek",
+                  "definition": "Tanda pembeda produk atau jasa: logo, nama, kata, angka, suara, atau hologram."
+                },
+                {
+                  "term": "Desain industri",
+                  "definition": "Tampilan estetis produk berupa bentuk, konfigurasi, komposisi garis, dan warna."
+                },
+                {
+                  "term": "Paten",
+                  "definition": "Hak yang diberikan kepada penemu atas invensi di bidang teknologi."
+                },
+                {
+                  "term": "Paten sederhana",
+                  "definition": "Penemuan praktis dan simpel, misalnya tusuk gigi, paper clip, dan sticky note."
+                },
+                {
+                  "term": "Lisensi",
+                  "definition": "Proses menyewakan IP yang dilindungi hukum untuk dikombinasikan dengan produk penyewa."
+                },
+                {
+                  "term": "Produk turunan",
+                  "definition": "Produk berbasis karakter IP, misalnya buku, mainan, baju, dan theme park."
+                },
+                {
+                  "term": "Licensing show",
+                  "definition": "Pameran produk IP berlisensi untuk bertemu agen lisensi, mitra, dan jaringan internasional."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hak atas karya cipta dan invensi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Menurut DJKI Kemenkumham (2020), kekayaan intelektual adalah hak yang muncul dari hasil pemikiran dalam menciptakan produk yang bermanfaat bagi manusia, misalnya karya seni, penemuan, program komputer, dan merek dagang."
+            },
+            {
+              "type": "paragraph",
+              "text": "Perlindungan kekayaan intelektual penting agar penemu, seniman, ilmuwan, dan pebisnis diakui sebagai pencipta dan karyanya terlindungi secara legal."
+            },
+            {
+              "type": "paragraph",
+              "text": "Manfaat mendaftarkan IP: perlindungan hukum, antisipasi pelanggaran, menumbuhkan jiwa kompetitif, memperluas segmen pasar, berkolaborasi dengan industri pasangan, dan mempromosikan penelitian."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tipe kekayaan intelektual terbagi menjadi properti industri (paten, desain industri, merek dagang, indikasi geografi) dan hak cipta (sastra, karya seni, karya ilmiah, pertunjukan, penyiaran)."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-5-kekayaan-intelektual-diagram",
+              "engine": "mermaid",
+              "title": "Bagan jenis kekayaan intelektual",
+              "code": "flowchart TB\n  A[Kekayaan Intelektual] --> B[Properti industri]\n  A --> C[Hak cipta]\n  B --> D[Paten, desain industri, merek, indikasi geografi]\n  C --> E[Sastra, seni, karya ilmiah, pertunjukan]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Hak cipta diatur UU No. 28 Tahun 2014; hak cipta muncul otomatis setelah karya diwujudkan secara riil dan diumumkan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-5-kekayaan-intelektual-cp-1",
+              "question": "Hak kekayaan intelektual atas invensi di bidang teknologi disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "paten",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "hak cipta"
+                },
+                {
+                  "id": "c2",
+                  "text": "merek"
+                },
+                {
+                  "id": "c3",
+                  "text": "desain industri"
+                }
+              ],
+              "explanation": "Paten melindungi penemuan teknologi."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Jenis-jenis kekayaan intelektual",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 5 Kekayaan Intelektual pada Produksi Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Hak cipta, merek, desain, dan paten\n\nHak cipta melindungi buku, ceramah, lagu, drama, tari, seni rupa, arsitektur, peta, dan seni batik. Masa perlindungannya diatur UU No. 28 Tahun 2014.\n\nMerek adalah tanda yang membedakan produk atau jasa, berupa gambar, logo, nama, kata, angka, suara, atau hologram. Merek terdaftar dilindungi 10 tahun dan dapat diperpanjang.\n\nDesain industri adalah tampilan estetis produk dari kreasi bentuk, konfigurasi, komposisi garis, dan warna; dilindungi 10 tahun tanpa perpanjangan.\n\nPaten diberikan atas invensi teknologi; paten kompleks dilindungi 20 tahun, paten sederhana 10 tahun. Contoh paten Indonesia: broadband 4G LTE karya Prof. Khoirul Anwar.\n\n| Jenis KI | Obyek yang dilindungi | Masa perlindungan |\n|---|---|---|\n| Hak cipta | Karya tulis, seni, lagu, program | Menurut UU Hak Cipta |\n| Merek | Logo, nama, suara, hologram | 10 tahun, bisa diperpanjang |\n| Desain industri | Bentuk dan tampilan estetis | 10 tahun, tidak diperpanjang |\n| Paten | Invensi teknologi | 20 tahun (sederhana 10) |\n\n### IP pada produksi animasi\n\n- Studio animasi menjalankan dua model bisnis: model jasa (outsourcing sesuai pesanan) dan model IP (mengembangkan karakter sendiri).\n- Di Jepang, 89,7% pendapatan industri animasi tahun 2018 berasal dari lisensi IP lokal; Pokemon menjadi waralaba dengan pendapatan sangat besar.\n- Lisensi IP adalah menyewakan karakter berhak cipta untuk dikombinasikan dengan produk penyewa, misalnya baju dan mainan.\n- Produk turunan IP meliputi buku, video game, suvenir, baju, action figur, makanan, cosplay, hingga theme park.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hak cipta, merek, desain, dan paten"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hak cipta melindungi buku, ceramah, lagu, drama, tari, seni rupa, arsitektur, peta, dan seni batik. Masa perlindungannya diatur UU No. 28 Tahun 2014."
+            },
+            {
+              "type": "paragraph",
+              "text": "Merek adalah tanda yang membedakan produk atau jasa, berupa gambar, logo, nama, kata, angka, suara, atau hologram. Merek terdaftar dilindungi 10 tahun dan dapat diperpanjang."
+            },
+            {
+              "type": "paragraph",
+              "text": "Desain industri adalah tampilan estetis produk dari kreasi bentuk, konfigurasi, komposisi garis, dan warna; dilindungi 10 tahun tanpa perpanjangan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Paten diberikan atas invensi teknologi; paten kompleks dilindungi 20 tahun, paten sederhana 10 tahun. Contoh paten Indonesia: broadband 4G LTE karya Prof. Khoirul Anwar."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis KI",
+                  "Obyek yang dilindungi",
+                  "Masa perlindungan"
+                ],
+                [
+                  "Hak cipta",
+                  "Karya tulis, seni, lagu, program",
+                  "Menurut UU Hak Cipta"
+                ],
+                [
+                  "Merek",
+                  "Logo, nama, suara, hologram",
+                  "10 tahun, bisa diperpanjang"
+                ],
+                [
+                  "Desain industri",
+                  "Bentuk dan tampilan estetis",
+                  "10 tahun, tidak diperpanjang"
+                ],
+                [
+                  "Paten",
+                  "Invensi teknologi",
+                  "20 tahun (sederhana 10)"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-5-ip",
+              "engine": "mermaid",
+              "title": "Model bisnis studio animasi",
+              "code": "flowchart TB\n  A[Studio animasi] --> B[Model jasa: proyek pesanan]\n  A --> C[Model IP: karakter dan cerita]\n  C --> D[Lisensi karakter]\n  D --> E[Merchandise, game, mainan]\n  D --> F[Royalti dan pendapatan lisensi]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-5-klasifikasi",
+              "prompt": "Kelompokkan pernyataan ke jenis kekayaan intelektual yang tepat.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Hak cipta"
+                },
+                {
+                  "id": "b2",
+                  "label": "Merek"
+                },
+                {
+                  "id": "b3",
+                  "label": "Paten"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Melindungi novel dan ceramah",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Tanda pembeda logo dan nama produk",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Melindungi invensi teknologi 4G LTE",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i4",
+                  "text": "Muncul otomatis setelah karya diumumkan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i5",
+                  "text": "Sertifikat berlaku 10 tahun dan bisa diperpanjang",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Melindungi paper clip dan tusuk gigi",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Hak cipta karya; merek pembeda; paten invensi.",
+                "wrong": "Periksa lagi: ciptaan=hak cipta, tanda=merek, teknologi=paten."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "IP pada produksi animasi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Studio animasi menjalankan dua model bisnis: model jasa (outsourcing sesuai pesanan) dan model IP (mengembangkan karakter sendiri).",
+                "Di Jepang, 89,7% pendapatan industri animasi tahun 2018 berasal dari lisensi IP lokal; Pokemon menjadi waralaba dengan pendapatan sangat besar.",
+                "Lisensi IP adalah menyewakan karakter berhak cipta untuk dikombinasikan dengan produk penyewa, misalnya baju dan mainan.",
+                "Produk turunan IP meliputi buku, video game, suvenir, baju, action figur, makanan, cosplay, hingga theme park."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-5-kekayaan-intelektual-cp-2",
+              "question": "Merek terdaftar mendapatkan perlindungan selama…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "10 tahun dan dapat diperpanjang",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "5 tahun tanpa perpanjangan"
+                },
+                {
+                  "id": "c2",
+                  "text": "20 tahun"
+                },
+                {
+                  "id": "c3",
+                  "text": "seumur hidup"
+                }
+              ],
+              "explanation": "Merek bisa diperbarui setelah 10 tahun."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 5 Kekayaan Intelektual pada Produksi Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Menjual dan melindungi karakter\n\nBisnis model IP memperlihatkan perusahaan membeli lisensi karakter untuk membantu menjual barang dagangan atau membuat produk turunan.\n\nLicensing show seperti Hong Kong International Licensing Show menjadi tempat pemilik IP bertemu agen lisensi, mitra, dan jaringan internasional.\n\nPendapatan industri animasi tidak hanya dari film; produk turunan IP Indonesia melampaui nilai tinggi, bahkan di Jepang animasi melampaui industri otomotif.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menjual dan melindungi karakter"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bisnis model IP memperlihatkan perusahaan membeli lisensi karakter untuk membantu menjual barang dagangan atau membuat produk turunan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Licensing show seperti Hong Kong International Licensing Show menjadi tempat pemilik IP bertemu agen lisensi, mitra, dan jaringan internasional."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pendapatan industri animasi tidak hanya dari film; produk turunan IP Indonesia melampaui nilai tinggi, bahkan di Jepang animasi melampaui industri otomotif."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-5-skenario",
+              "title": "Karakter karyamu dijual tanpa izin",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu membuat karakter animasi populer. Suatu hari ada toko menjual baju dengan karakter tersebut tanpa izinmu. Tindakanmu?",
+                  "choices": [
+                    {
+                      "text": "Mengurus pendaftaran IP dan menegakkan hak ciptamu",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "IP terdaftar memberi perlindungan hukum dan hak gugat."
+                    },
+                    {
+                      "text": "Membiarkan saja karena merasa kasihan pada penjual",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Pembajakan merugikan kreator dan industri."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Karaktermu sudah terdaftar. Bagaimana mengembangkan pendapatan?",
+                  "choices": [
+                    {
+                      "text": "Menawarkan lisensi resmi kepada mitra untuk produk turunan",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Lisensi memberi royalti dan menjaga kualitas produk."
+                    },
+                    {
+                      "text": "Menutup semua kerja sama agar karakter tidak dipakai",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "IP justru berkembang lewat lisensi yang sehat."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Pembajakan merajalela dan pendapatanmu terus tergerus.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Karakter dilisensikan ke banyak produk; royalti meningkat pesat.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-5-kekayaan-intelektual-kartu",
+              "cards": [
+                {
+                  "front": "Apa manfaat mendaftarkan kekayaan intelektual?",
+                  "back": "Perlindungan hukum, antisipasi pelanggaran, dan perluasan pasar."
+                },
+                {
+                  "front": "Sebutkan empat tipe KI utama.",
+                  "back": "Hak cipta, merek, desain industri, paten."
+                },
+                {
+                  "front": "Apa itu lisensi IP?",
+                  "back": "Menyewakan IP berlisensi untuk dikombinasikan dengan produk penyewa."
+                },
+                {
+                  "front": "Sebutkan contoh produk turunan IP animasi.",
+                  "back": "Buku, video game, suvenir, baju, action figur, dan theme park."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-5-kekayaan-intelektual-cp-3",
+              "question": "Lisensi IP dalam industri animasi berarti…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "menyewakan karakter berhak cipta untuk produk lain",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "menjual kaos murah tanpa izin"
+                },
+                {
+                  "id": "c2",
+                  "text": "menghapus hak pencipta"
+                },
+                {
+                  "id": "c3",
+                  "text": "mencetak uang"
+                }
+              ],
+              "explanation": "Lisensi memberi royalti kepada pemilik IP."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-5-tantangan",
+              "title": "Tantangan istilah kekayaan intelektual",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Hak atas invensi teknologi",
+                  "answer": "Paten"
+                },
+                {
+                  "question": "Tanda pembeda produk atau jasa",
+                  "answer": "Merek"
+                },
+                {
+                  "question": "Hak atas karya tulis dan seni",
+                  "answer": "Hak cipta"
+                },
+                {
+                  "question": "Menyewakan karakter untuk produk lain",
+                  "answer": "Lisensi"
+                },
+                {
+                  "question": "Baju, mainan, dan theme park dari karakter",
+                  "answer": "Produk turunan"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah kekayaan intelektual terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Kekayaan Intelektual pada Produksi Animasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kekayaan intelektual adalah…",
+              "options": [
+                {
+                  "text": "hak yang muncul dari hasil pemikiran dalam menciptakan produk",
+                  "correct": true
+                },
+                {
+                  "text": "harta berupa uang tunai"
+                },
+                {
+                  "text": "surat izin mengemudi"
+                },
+                {
+                  "text": "sertifikat tanah"
+                }
+              ],
+              "explanation": "Karya cipta dan invensi dilindungi hukum.",
+              "hint": "Menguntungkan bagi manusia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tipe kekayaan intelektual terbagi menjadi…",
+              "options": [
+                {
+                  "text": "properti industri dan hak cipta",
+                  "correct": true
+                },
+                {
+                  "text": "properti tanah dan bangunan"
+                },
+                {
+                  "text": "uang dan saham"
+                },
+                {
+                  "text": "mobil dan rumah"
+                }
+              ],
+              "explanation": "Paten, merek, desain di properti industri.",
+              "hint": "Sastra dan seni di hak cipta."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hak cipta diatur dalam…",
+              "options": [
+                {
+                  "text": "UU No. 28 Tahun 2014",
+                  "correct": true
+                },
+                {
+                  "text": "UU No. 1 Tahun 1970"
+                },
+                {
+                  "text": "PP No. 50 Tahun 2012"
+                },
+                {
+                  "text": "UU No. 13 Tahun 2003"
+                }
+              ],
+              "explanation": "UU 28/2014 tentang Hak Cipta.",
+              "hint": "Muncul otomatis setelah diumumkan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah jenis kekayaan intelektual?",
+              "options": [
+                {
+                  "text": "Hak cipta",
+                  "correct": true
+                },
+                {
+                  "text": "Merek",
+                  "correct": true
+                },
+                {
+                  "text": "Paten",
+                  "correct": true
+                },
+                {
+                  "text": "Pajak kendaraan",
+                  "correct": false
+                },
+                {
+                  "text": "Asuransi jiwa",
+                  "correct": false
+                },
+                {
+                  "text": "Sewa rumah",
+                  "correct": false
+                }
+              ],
+              "explanation": "KI melindungi ciptaan dan invensi.",
+              "hint": "Bukan bagian KI."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah karya yang dilindungi hak cipta?",
+              "options": [
+                {
+                  "text": "Buku dan ceramah",
+                  "correct": true
+                },
+                {
+                  "text": "Lagu dan drama",
+                  "correct": true
+                },
+                {
+                  "text": "Seni rupa dan peta",
+                  "correct": true
+                },
+                {
+                  "text": "Resep rahasia warung",
+                  "correct": false
+                },
+                {
+                  "text": "Jadwal kereta",
+                  "correct": false
+                },
+                {
+                  "text": "Harga sembako",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karya cipta dilindungi UU 28/2014.",
+              "hint": "Bukan karya cipta."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Kekayaan Intelektual pada Produksi Animasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Merek terdaftar dilindungi selama…",
+              "options": [
+                {
+                  "text": "10 tahun dan dapat diperpanjang",
+                  "correct": true
+                },
+                {
+                  "text": "5 tahun sekali"
+                },
+                {
+                  "text": "20 tahun tetap"
+                },
+                {
+                  "text": "2 tahun saja"
+                }
+              ],
+              "explanation": "Sertifikat merek bukti kepemilikan.",
+              "hint": "Bisa diperpanjang terus."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Merek nontradisional berupa…",
+              "options": [
+                {
+                  "text": "bentuk 3 dimensi, hologram, dan suara",
+                  "correct": true
+                },
+                {
+                  "text": "kata dan logo"
+                },
+                {
+                  "text": "hanya warna"
+                },
+                {
+                  "text": "hanya angka"
+                }
+              ],
+              "explanation": "Bentuk, hologram, suara termasuk.",
+              "hint": "Merek tradisional kata dan logo."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri merek?",
+              "options": [
+                {
+                  "text": "Tanda pembeda produk",
+                  "correct": true
+                },
+                {
+                  "text": "Berupa logo atau nama",
+                  "correct": true
+                },
+                {
+                  "text": "Bisa berbentuk suara",
+                  "correct": true
+                },
+                {
+                  "text": "Berupa ide abstrak",
+                  "correct": false
+                },
+                {
+                  "text": "Tanpa dokumen",
+                  "correct": false
+                },
+                {
+                  "text": "Berlaku selamanya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Merek membedakan produk atau jasa.",
+              "hint": "Tanda wajib didaftar."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh paten?",
+              "options": [
+                {
+                  "text": "Penerangan listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Broadband 4G LTE",
+                  "correct": true
+                },
+                {
+                  "text": "Fondasi cakar ayam",
+                  "correct": true
+                },
+                {
+                  "text": "Baju kaos polos",
+                  "correct": false
+                },
+                {
+                  "text": "Makanan ringan",
+                  "correct": false
+                },
+                {
+                  "text": "Pena biasa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Paten melindungi invensi teknologi.",
+              "hint": "Barang biasa bukan invensi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Hak cipta",
+                  "right": "UU No. 28 Tahun 2014"
+                },
+                {
+                  "id": "m1",
+                  "left": "Merek",
+                  "right": "tanda pembeda produk"
+                },
+                {
+                  "id": "m2",
+                  "left": "Desain industri",
+                  "right": "tampilan estetis produk"
+                },
+                {
+                  "id": "m3",
+                  "left": "Paten",
+                  "right": "invensi teknologi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "UU No. 28 Tahun 2014",
+                  "m1": "tanda pembeda produk",
+                  "m2": "tampilan estetis produk",
+                  "m3": "invensi teknologi"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melindungi karya animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyelesaikan karya cipta"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mendaftarkan kekayaan intelektual"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mendapat sertifikat"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menegakkan hak atas pelanggaran"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mengomersialkan lewat lisensi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Karya diselesaikan dulu.",
+              "hint": "Komersialisasi menutup langkah."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pengembangan bisnis model IP.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Membuat karakter unik"
+                },
+                {
+                  "id": "p1",
+                  "text": "Mendaftarkan hak cipta"
+                },
+                {
+                  "id": "p2",
+                  "text": "Membuat produk turunan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menawarkan lisensi"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menerima royalti"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Berawal dari karakter.",
+              "hint": "Royalti menutup pengembangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Desain industri adalah…",
+              "options": [
+                {
+                  "text": "tampilan estetis produk dari bentuk, garis, dan warna",
+                  "correct": true
+                },
+                {
+                  "text": "ide bisnis abstrak"
+                },
+                {
+                  "text": "strategi pemasaran"
+                },
+                {
+                  "text": "jadwal produksi"
+                }
+              ],
+              "explanation": "Hasil kreasi tampilan produk.",
+              "hint": "Dilindungi 10 tahun."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perlindungan desain industri berlangsung…",
+              "options": [
+                {
+                  "text": "10 tahun tanpa perpanjangan",
+                  "correct": true
+                },
+                {
+                  "text": "20 tahun"
+                },
+                {
+                  "text": "5 tahun"
+                },
+                {
+                  "text": "seumur hidup"
+                }
+              ],
+              "explanation": "Berbeda dengan merek.",
+              "hint": "Sertifikat sebagai bukti."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat mendaftarkan KI?",
+              "options": [
+                {
+                  "text": "Perlindungan hukum",
+                  "correct": true
+                },
+                {
+                  "text": "Antisipasi pelanggaran",
+                  "correct": true
+                },
+                {
+                  "text": "Perluasan segmen pasar",
+                  "correct": true
+                },
+                {
+                  "text": "Menaikkan harga sembarang",
+                  "correct": false
+                },
+                {
+                  "text": "Mengurangi kualitas",
+                  "correct": false
+                },
+                {
+                  "text": "Menghapus merek",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pendaftaran memberi perlindungan.",
+              "hint": "Bukan untuk menaikkan harga sewenang-wenang."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Kekayaan Intelektual pada Produksi Animasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Contoh paten penemu Indonesia adalah…",
+              "options": [
+                {
+                  "text": "teknologi broadband 4G LTE Prof. Khoirul Anwar",
+                  "correct": true
+                },
+                {
+                  "text": "radio pertama dunia"
+                },
+                {
+                  "text": "mesin uap"
+                },
+                {
+                  "text": "jam atom"
+                }
+              ],
+              "explanation": "4G LTE dipatenkan ilmuwan Indonesia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Paten hasil invensi kompleks dilindungi selama…",
+              "options": [
+                {
+                  "text": "20 tahun",
+                  "correct": true
+                },
+                {
+                  "text": "10 tahun"
+                },
+                {
+                  "text": "5 tahun"
+                },
+                {
+                  "text": "50 tahun"
+                }
+              ],
+              "explanation": "Paten sederhana 10 tahun."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh paten sederhana adalah…",
+              "options": [
+                {
+                  "text": "tusuk gigi dan paper clip",
+                  "correct": true
+                },
+                {
+                  "text": "telepon pintar"
+                },
+                {
+                  "text": "pesawat jet"
+                },
+                {
+                  "text": "mobil listrik"
+                }
+              ],
+              "explanation": "Penemuan praktis dan simpel."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Model jasa dalam studio animasi adalah…",
+              "options": [
+                {
+                  "text": "mengerjakan proyek dari perusahaan lain",
+                  "correct": true
+                },
+                {
+                  "text": "mengembangkan karakter sendiri"
+                },
+                {
+                  "text": "menjual merchandise"
+                },
+                {
+                  "text": "membangun theme park"
+                }
+              ],
+              "explanation": "Outsourcing sesuai pesanan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bisnis model IP berarti studio…",
+              "options": [
+                {
+                  "text": "mengembangkan karakter dan cerita sendiri",
+                  "correct": true
+                },
+                {
+                  "text": "hanya menerima pesanan"
+                },
+                {
+                  "text": "tidak punya hak cipta"
+                },
+                {
+                  "text": "menjual jasa tenaga"
+                }
+              ],
+              "explanation": "Karakter dilindungi dan dilisensikan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah model bisnis studio animasi?",
+              "options": [
+                {
+                  "text": "Model jasa",
+                  "correct": true
+                },
+                {
+                  "text": "Model IP",
+                  "correct": true
+                },
+                {
+                  "text": "Model investasi saham",
+                  "correct": true
+                },
+                {
+                  "text": "Model koperasi konsumsi",
+                  "correct": false
+                },
+                {
+                  "text": "Model angkutan umum",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jasa dan IP dua model utama."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah produk turunan IP animasi?",
+              "options": [
+                {
+                  "text": "Video game",
+                  "correct": true
+                },
+                {
+                  "text": "Action figur",
+                  "correct": true
+                },
+                {
+                  "text": "Theme park",
+                  "correct": true
+                },
+                {
+                  "text": "Bahan bakar",
+                  "correct": false
+                },
+                {
+                  "text": "Obat-obatan",
+                  "correct": false
+                },
+                {
+                  "text": "Pupuk",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karakter dipakai produk turunan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Paten sederhana",
+                  "right": "tusuk gigi dan paper clip"
+                },
+                {
+                  "id": "m1",
+                  "left": "Lisensi",
+                  "right": "menyewakan IP"
+                },
+                {
+                  "id": "m2",
+                  "left": "Produk turunan",
+                  "right": "merchandise dan theme park"
+                },
+                {
+                  "id": "m3",
+                  "left": "Licensing show",
+                  "right": "pameran produk berlisensi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tusuk gigi dan paper clip",
+                  "m1": "menyewakan IP",
+                  "m2": "merchandise dan theme park",
+                  "m3": "pameran produk berlisensi"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan proses lisensi IP.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pemilik IP mendaftar karya"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menemukan mitra lisensi"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menandatangani perjanjian"
+                },
+                {
+                  "id": "d3",
+                  "text": "Produk turunan diproduksi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Royalti dibayarkan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pendaftaran melindungi IP."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan manfaat pendaftaran KI.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Perlindungan hukum"
+                },
+                {
+                  "id": "p1",
+                  "text": "Antisipasi pelanggaran"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menumbuhkan jiwa kompetitif"
+                },
+                {
+                  "id": "p3",
+                  "text": "Memperluas pasar"
+                },
+                {
+                  "id": "p4",
+                  "text": "Kolaborasi industri"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Hukum jadi dasar perlindungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lisensi IP adalah…",
+              "options": [
+                {
+                  "text": "menyewakan IP yang dilindungi hukum untuk produk lain",
+                  "correct": true
+                },
+                {
+                  "text": "membeli hak orang lain"
+                },
+                {
+                  "text": "menghapus hak cipta"
+                },
+                {
+                  "text": "menyalin karya bebas"
+                }
+              ],
+              "explanation": "Penyewa membayar royalti."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Produk turunan IP animasi meliputi…",
+              "options": [
+                {
+                  "text": "buku, video game, action figur, dan theme park",
+                  "correct": true
+                },
+                {
+                  "text": "bahan bakar, baja, semen"
+                },
+                {
+                  "text": "padi, jagung, singkong"
+                },
+                {
+                  "text": "paspal, beton, aspal"
+                }
+              ],
+              "explanation": "Karakter dipakai di banyak produk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kegiatan yang tepat terkait IP?",
+              "options": [
+                {
+                  "text": "Mendaftarkan karya",
+                  "correct": true
+                },
+                {
+                  "text": "Membeli lisensi resmi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghargai hak pencipta",
+                  "correct": true
+                },
+                {
+                  "text": "Membeli produk bajakan",
+                  "correct": false
+                },
+                {
+                  "text": "Menyalin bebas",
+                  "correct": false
+                },
+                {
+                  "text": "Mengambil tanpa izin",
+                  "correct": false
+                }
+              ],
+              "explanation": "Apresiasi KI menjaga industri."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Hak cipta",
+                  "right": "UU No. 28 Tahun 2014"
+                },
+                {
+                  "id": "m1",
+                  "left": "Merek",
+                  "right": "tanda pembeda produk"
+                },
+                {
+                  "id": "m2",
+                  "left": "Desain industri",
+                  "right": "tampilan estetis produk"
+                },
+                {
+                  "id": "m3",
+                  "left": "Paten",
+                  "right": "invensi teknologi"
+                },
+                {
+                  "id": "m4",
+                  "left": "Paten sederhana",
+                  "right": "tusuk gigi dan paper clip"
+                },
+                {
+                  "id": "m5",
+                  "left": "Lisensi",
+                  "right": "menyewakan IP"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "UU No. 28 Tahun 2014",
+                  "m1": "tanda pembeda produk",
+                  "m2": "tampilan estetis produk",
+                  "m3": "invensi teknologi",
+                  "m4": "tusuk gigi dan paper clip",
+                  "m5": "menyewakan IP"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pengembangan karakter dari ide sampai pasar.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Ide karakter"
+                },
+                {
+                  "id": "d1",
+                  "text": "Desain karakter"
+                },
+                {
+                  "id": "d2",
+                  "text": "Pendaftaran IP"
+                },
+                {
+                  "id": "d3",
+                  "text": "Lisensi produk"
+                },
+                {
+                  "id": "d4",
+                  "text": "Distribusi ke pasar"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Ide menjadi awal."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

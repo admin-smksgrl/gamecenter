@@ -8,7 +8,73 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-20 19:05 WIB (rilis 0.45.0).
+**Terakhir diperbarui:** 2026-11-20 20:15 WIB (rilis 0.46.0).
+
+## [0.46.0] - 2026-11-20 20:15 WIB
+
+**Batch 22 — buku kejuruan kedua: Dasar-Dasar Animasi SMK/MAK Kelas X tuntas
+10/10 bab.**
+
+### Ditambah
+- **ANIM 1 Proses Bisnis Kreatif di Bidang Animasi** — glosarium proses bisnis
+  kreatif, diagram contoh kecelakaan kerja, tabel tiga tahap produksi, diagram
+  pipeline 3D, klasifikasi kegiatan praproduksi/produksi, pola pikir kreatif
+  4P, alur desain tepat sasaran, skenario “Deadline ketat dan mulai lelah”,
+  kartu istilah, dan tantangan.
+- **ANIM 2 Perkembangan Teknologi Industri Animasi** — garis waktu tonggak
+  sejarah animasi, tabel teknik stop-motion/claymation/pixilation, diagram
+  pembagian teknik, klasifikasi objek animasi, teknologi film digital (CGI,
+  DCP, KDM), siklus hidup produk, skenario “Serial animasi yang mulai
+  ditinggalkan”, kartu istilah, dan tantangan.
+- **ANIM 3 Peluang Usaha dan Profesi di Bidang Animasi** — peta profesi per
+  tahap produksi, tabel bisnis jasa vs IP, diagram dua jalur bisnis,
+  klasifikasi pernyataan bisnis, business model canvas dan pitch bible,
+  skenario “Studiomu ingin menarik investor”, kartu istilah, dan tantangan.
+- **ANIM 4 Teknik Dasar Proses Produksi pada Industri Animasi** — pipeline 2D,
+  diagram pipeline 3D, tabel enam elemen ekosistem animasi, klasifikasi tahap
+  produksi/pascaproduksi, model kerja tim Bruce Tuckman, unit kerja studio,
+  skenario “Konflik di tengah produksi”, kartu istilah, dan tantangan.
+- **ANIM 5 Kekayaan Intelektual pada Produksi Animasi** — bagan jenis kekayaan
+  intelektual, tabel masa perlindungan hak cipta/merek/desain/paten, diagram
+  model bisnis studio, klasifikasi jenis KI, lisensi IP dan produk turunan,
+  skenario “Karakter karyamu dijual tanpa izin”, kartu istilah, dan tantangan.
+- **ANIM 6 Quality Control Produksi Animasi** — diagram empat manfaat QC,
+  tabel tiga metode (X-bar R chart, Taguchi, 100% inspection), diagram metode,
+  klasifikasi pernyataan metode, manajemen produksi, key visual, Gantt chart,
+  form revisi, test screening, skenario “Episode jadi tetapi tidak konsisten”,
+  kartu istilah, dan tantangan.
+- **ANIM 7 Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi** —
+  gambaran aplikasi 2D/3D, tabel langkah inking–clean up–coloring, diagram
+  pembuatan aset 2D, klasifikasi aplikasi 2D/3D, dasar antarmuka Photoshop dan
+  Blender, render engine eevee/workbench/cycles, skenario “Komputer lemot saat
+  merender”, kartu istilah, dan tantangan.
+- **ANIM 8 Konsep Dasar Visual** — peta unsur visual, tabel tujuh prinsip
+  desain, diagram jenis perspektif, klasifikasi prinsip desain, proporsi tubuh
+  manusia (7,5–9 kepala) dan anatomi anak (4–7x kepala), skenario “Poster yang
+  kurang enak dilihat”, kartu istilah, dan tantangan.
+- **ANIM 9 Pembuatan Gerak Animasi** — pembagian objek karakter/nonkarakter,
+  tabel inti 12 prinsip animasi, diagram kelompok penerapan prinsip,
+  klasifikasi gerak lokomotor/nonlokomotor/manipulatif, keypose dan in between,
+  skenario “Gerakan kaku dan tidak meyakinkan”, kartu istilah, dan tantangan.
+- **ANIM 10 Cerita secara Visual** — diagram sumber ide cerita, tabel angle
+  kamera, diagram shot–scene–sequence, klasifikasi tahap naskah/visualisasi/
+  pengukuran waktu, sinopsis tiga babak, skenario, storyboard, animatic,
+  skenario “Cerita film pendek belum jelas”, kartu istilah, dan tantangan.
+- Kesepuluh bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan lima
+  tipe soal interaktif; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- `tools/animasi_common.py` menjadi pembungkus penulis bab Animasi
+  (`subject='animasi'`, `folder='animasi'`, level SMK).
+- Mapel baru `animasi` (Dasar-Dasar Animasi) terdaftar di `SubjectSeeder` pada
+  jenjang SMK kelompok Kejuruan, ikon 🎬, warna violet, kelas 10.
+
+### Verifikasi
+- `gamecenter:materi-import` → 114 berkas, **0 gagal**; menambah
+  **10 bab / 30 materi / 30 asesmen / 300 soal**.
+- `gamecenter:materi-coverage` → **115 dari 118 chapter** memenuhi minimum §5.3
+  dengan 3.703 blok interaktif; ANIM 1–ANIM 10 semuanya ✅ lengkap (26–28 blok).
+- `php artisan test` → **160 lulus, 1 dilewati, 2.210 asersi**.
+- `gamecenter:deploy-check` → 13 lulus / 5 peringatan lokal / 0 gagal.
+- Basis data: **118 bab, 341 materi, 3.480 soal, 354 asesmen, 190 mapel**.
 
 ## [0.45.0] - 2026-11-20 19:05 WIB
 

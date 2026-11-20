@@ -1,0 +1,1331 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 8",
+      "title": "Konsep Dasar Visual",
+      "description": "Memahami unsur-unsur visual (titik, garis, bidang, ruang, warna, tekstur, gelap terang), mengorganisasikannya dengan prinsip desain dan perspektif, serta menguasai dasar teknik bervisual seperti anatomi manusia.",
+      "learning_objectives": [
+        "Mengidentifikasi tujuh unsur visual dan maknanya.",
+        "Menerapkan prinsip desain: kesatuan, keseimbangan, kontras, pengulangan, ritme, emphasis, dan proporsi.",
+        "Menggambar dengan proyeksi perspektif satu, dua, dan tiga titik lenyap.",
+        "Menggambar anatomi manusia dan anak sesuai proporsi."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 8 Konsep Dasar Visual; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Unsur-unsur visual",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 8 Konsep Dasar Visual; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Titik, garis, bidang, ruang, warna, tekstur\n\nUnsur visual adalah komponen pembentuk karya visual: titik, garis, bidang, ruang, warna, tekstur, dan gelap terang. Setiap unsur memiliki potensi dan keterbatasannya.\n\nTitik mendasari terbentuknya unsur lain; ukurannya tidak terbatas karena bergantung pada alat dan jarak pandang. Garis lahir ketika titik ditarik melalui goresan.\n\nBidang dibedakan menjadi bidang geometris (teratur, formal) dan bidang organis (bebas, fleksibel). Ruang terbagi menjadi ruang positif (objek utama) dan ruang negatif (ruang kosong).\n\nWarna dijelaskan lewat dua teori: spektrum cahaya Newton dan lingkaran warna pigmen Brewster (primer, sekunder, tersier, netral).\n\nSetiap jenis garis punya makna: horizontal tenang, vertikal kokoh, diagonal dinamis, zig-zag semangat, lengkung luwes, spiral kelahiran.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-8-konsep-dasar-visual-glosarium",
+              "terms": [
+                {
+                  "term": "Titik",
+                  "definition": "Unsur visual paling dasar yang melahirkan garis, bentuk, dan bidang."
+                },
+                {
+                  "term": "Garis nyata",
+                  "definition": "Garis yang dihasilkan melalui goresan alat gambar."
+                },
+                {
+                  "term": "Garis semu",
+                  "definition": "Kesan batas objek yang bersinggungan, bukan goresan."
+                },
+                {
+                  "term": "Bidang geometris",
+                  "definition": "Bidang teratur dan terukur, misalnya segi empat dan lingkaran."
+                },
+                {
+                  "term": "Bidang organis",
+                  "definition": "Bidang bebas menyerupai bentuk kehidupan alam."
+                },
+                {
+                  "term": "Ruang positif",
+                  "definition": "Objek utama dalam gambar."
+                },
+                {
+                  "term": "Ruang negatif",
+                  "definition": "Ruang kosong di sekitar objek utama."
+                },
+                {
+                  "term": "Warna primer",
+                  "definition": "Merah, biru, kuning; warna utama tanpa pencampuran."
+                },
+                {
+                  "term": "Komposisi",
+                  "definition": "Pengorganisasian unsur visual menurut prinsip desain."
+                },
+                {
+                  "term": "Titik lenyap",
+                  "definition": "Titik pusat tempat garis-garis perspektif bertemu."
+                },
+                {
+                  "term": "Proporsi tubuh",
+                  "definition": "Perbandingan tinggi tubuh terhadap tinggi kepala, misalnya 7,5 atau 8 kepala."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Titik, garis, bidang, ruang, warna, tekstur"
+            },
+            {
+              "type": "paragraph",
+              "text": "Unsur visual adalah komponen pembentuk karya visual: titik, garis, bidang, ruang, warna, tekstur, dan gelap terang. Setiap unsur memiliki potensi dan keterbatasannya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Titik mendasari terbentuknya unsur lain; ukurannya tidak terbatas karena bergantung pada alat dan jarak pandang. Garis lahir ketika titik ditarik melalui goresan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bidang dibedakan menjadi bidang geometris (teratur, formal) dan bidang organis (bebas, fleksibel). Ruang terbagi menjadi ruang positif (objek utama) dan ruang negatif (ruang kosong)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warna dijelaskan lewat dua teori: spektrum cahaya Newton dan lingkaran warna pigmen Brewster (primer, sekunder, tersier, netral)."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-8-konsep-dasar-visual-diagram",
+              "engine": "mermaid",
+              "title": "Peta unsur visual",
+              "code": "flowchart TB\n  A[Titik] --> B[Garis]\n  B --> C[Bidang]\n  C --> D[Ruang]\n  D --> E[Warna, tekstur, gelap terang]\n  E --> F[Karya visual utuh]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Setiap jenis garis punya makna: horizontal tenang, vertikal kokoh, diagonal dinamis, zig-zag semangat, lengkung luwes, spiral kelahiran."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-8-konsep-dasar-visual-cp-1",
+              "question": "Unsur visual yang mendasari terbentuknya garis, bentuk, dan bidang adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "titik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "warna"
+                },
+                {
+                  "id": "c2",
+                  "text": "tekstur"
+                },
+                {
+                  "id": "c3",
+                  "text": "ruang negatif"
+                }
+              ],
+              "explanation": "Titik adalah unsur visual paling dasar."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Mengorganisasikan unsur visual",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 8 Konsep Dasar Visual; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Prinsip desain dan perspektif\n\nKomposisi adalah penggabungan unsur visual menurut aturan yang disebut prinsip desain agar karya estetis dan efektif.\n\nPrinsip desain meliputi kesatuan (unity), keseimbangan (balance), kontras (contrast), pengulangan (repetition), ritme (rhythm), emphasis (point of interest), dan proporsi.\n\nKeseimbangan simetris membuat susunan terlihat merata horizontal maupun vertikal; keseimbangan asimetris memakai unsur berbeda dengan bobot sama.\n\nProyeksi perspektif membuat benda tampak bervolume; makin jauh objek dari mata, makin kecil ukurannya. Perspektif dibedakan menjadi satu, dua, dan tiga titik lenyap.\n\n| Prinsip | Makna | Contoh penerapan |\n|---|---|---|\n| Kesatuan | Unsur saling mendukung dan selaras | Kesamaan bentuk dan warna |\n| Keseimbangan | Susunan serasi dan stabil | Simetris atau asimetris |\n| Kontras | Perbedaan unsur agar menonjol | Teks gelap di latar terang |\n| Pengulangan | Menguatkan unsur dengan repetisi | Pola bentuk sama |\n| Ritme | Pola variatif dan konsisten | Garis berombak teratur |\n| Emphasis | Pusat perhatian | Satu bidang berbeda warna |\n| Proporsi | Perbandingan ukuran antarunsur | Hubungan panjang, lebar, tinggi |\n\n### Dasar teknik bervisual\n\n- Proporsi tubuh manusia: normal 7,5 kepala, ideal 8 kepala, fashion 8,5 kepala, heroik 9 kepala.\n- Anatomi anak: usia 1–3 tahun 4x tinggi kepala, 4–6 tahun 5x, 7–9 tahun 6x, dan 10–13 tahun 7x.\n- Laki-laki digambarkan dengan bahu lebar dan dada bidang; perempuan dengan panggul besar dan bahu lebih kecil.\n- Gelap terang (value) menciptakan efek volum pada bangun ruang dalam gambar.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Prinsip desain dan perspektif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Komposisi adalah penggabungan unsur visual menurut aturan yang disebut prinsip desain agar karya estetis dan efektif."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prinsip desain meliputi kesatuan (unity), keseimbangan (balance), kontras (contrast), pengulangan (repetition), ritme (rhythm), emphasis (point of interest), dan proporsi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keseimbangan simetris membuat susunan terlihat merata horizontal maupun vertikal; keseimbangan asimetris memakai unsur berbeda dengan bobot sama."
+            },
+            {
+              "type": "paragraph",
+              "text": "Proyeksi perspektif membuat benda tampak bervolume; makin jauh objek dari mata, makin kecil ukurannya. Perspektif dibedakan menjadi satu, dua, dan tiga titik lenyap."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Prinsip",
+                  "Makna",
+                  "Contoh penerapan"
+                ],
+                [
+                  "Kesatuan",
+                  "Unsur saling mendukung dan selaras",
+                  "Kesamaan bentuk dan warna"
+                ],
+                [
+                  "Keseimbangan",
+                  "Susunan serasi dan stabil",
+                  "Simetris atau asimetris"
+                ],
+                [
+                  "Kontras",
+                  "Perbedaan unsur agar menonjol",
+                  "Teks gelap di latar terang"
+                ],
+                [
+                  "Pengulangan",
+                  "Menguatkan unsur dengan repetisi",
+                  "Pola bentuk sama"
+                ],
+                [
+                  "Ritme",
+                  "Pola variatif dan konsisten",
+                  "Garis berombak teratur"
+                ],
+                [
+                  "Emphasis",
+                  "Pusat perhatian",
+                  "Satu bidang berbeda warna"
+                ],
+                [
+                  "Proporsi",
+                  "Perbandingan ukuran antarunsur",
+                  "Hubungan panjang, lebar, tinggi"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-8-perspektif",
+              "engine": "mermaid",
+              "title": "Jenis proyeksi perspektif",
+              "code": "flowchart TB\n  A[Proyeksi perspektif] --> B[Satu titik lenyap: interior dan rancang bangun]\n  A --> C[Dua titik lenyap: sudut benda]\n  A --> D[Tiga titik lenyap: tampak dramatis]\n  B --> E[Garis batas langit dan tanah: horizon]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-8-klasifikasi",
+              "prompt": "Kelompokkan pernyataan sesuai prinsip desainnya.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Kesatuan"
+                },
+                {
+                  "id": "b2",
+                  "label": "Kontras"
+                },
+                {
+                  "id": "b3",
+                  "label": "Ritme"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Unsur saling mendukung membentuk keselarasan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Teks dibuat menonjol agar mudah dibaca",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Garis bergelombang teratur memberi kesan gerak",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i4",
+                  "text": "Menyamakan bentuk dan warna objek",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i5",
+                  "text": "Menghindari kesan monoton dengan perbedaan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Pola berulang dengan variasi ukuran",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Unity menyatukan, kontras menonjolkan, ritme menggerakkan.",
+                "wrong": "Periksa lagi: kesatuan=selaras, kontras=beda, ritme=pola."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dasar teknik bervisual"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Proporsi tubuh manusia: normal 7,5 kepala, ideal 8 kepala, fashion 8,5 kepala, heroik 9 kepala.",
+                "Anatomi anak: usia 1–3 tahun 4x tinggi kepala, 4–6 tahun 5x, 7–9 tahun 6x, dan 10–13 tahun 7x.",
+                "Laki-laki digambarkan dengan bahu lebar dan dada bidang; perempuan dengan panggul besar dan bahu lebih kecil.",
+                "Gelap terang (value) menciptakan efek volum pada bangun ruang dalam gambar."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-8-konsep-dasar-visual-cp-2",
+              "question": "Proporsi tubuh manusia yang dianggap ideal adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "8 kali tinggi kepala",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "7,5 kali tinggi kepala"
+                },
+                {
+                  "id": "c2",
+                  "text": "6 kali tinggi kepala"
+                },
+                {
+                  "id": "c3",
+                  "text": "9 kali tinggi kepala"
+                }
+              ],
+              "explanation": "Normal 7,5; ideal 8; fashion 8,5; heroik 9."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 8 Konsep Dasar Visual; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Berlatih mengomposisikan gambar\n\nTitik lenyap dijadikan pusat penarikan garis untuk menggambarkan objek; garis batas antara langit dan tanah disebut garis cakrawala (horizon).\n\nPrinsip kontras juga berfungsi sebagai aksesibilitas, misalnya kontras teks dengan latar agar mudah dibaca.\n\nPengulangan yang tidak tepat menimbulkan efek statis dan monoton sehingga perlu variasi agar terasa dinamis.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Berlatih mengomposisikan gambar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Titik lenyap dijadikan pusat penarikan garis untuk menggambarkan objek; garis batas antara langit dan tanah disebut garis cakrawala (horizon)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prinsip kontras juga berfungsi sebagai aksesibilitas, misalnya kontras teks dengan latar agar mudah dibaca."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengulangan yang tidak tepat menimbulkan efek statis dan monoton sehingga perlu variasi agar terasa dinamis."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-8-skenario",
+              "title": "Poster yang kurang enak dilihat",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Poster karyamu dinilai ramai dan tidak nyaman dilihat. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menata ulang dengan prinsip desain: kesatuan, kontras, dan keseimbangan",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Prinsip desain membuat karya estetis dan efektif."
+                    },
+                    {
+                      "text": "Menambahkan lebih banyak unsur tanpa aturan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menambah unsur tanpa komposisi justru makin membingungkan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bagaimana membuat satu bagian menjadi pusat perhatian?",
+                  "choices": [
+                    {
+                      "text": "Menerapkan emphasis dengan kontras warna atau ukuran",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Emphasis mengarahkan pandangan penonton."
+                    },
+                    {
+                      "text": "Menyamakan semua ukuran dan warna",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa perbedaan, tidak ada pusat perhatian."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Poster tetap tidak dipahami penonton.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Poster menjadi jelas, menarik, dan mudah dibaca.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-8-konsep-dasar-visual-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan tujuh unsur visual.",
+                  "back": "Titik, garis, bidang, ruang, warna, tekstur, gelap terang."
+                },
+                {
+                  "front": "Apa beda ruang positif dan negatif?",
+                  "back": "Positif objek utama; negatif ruang kosong di sekitarnya."
+                },
+                {
+                  "front": "Sebutkan tujuh prinsip desain.",
+                  "back": "Kesatuan, keseimbangan, kontras, pengulangan, ritme, emphasis, proporsi."
+                },
+                {
+                  "front": "Apa itu titik lenyap?",
+                  "back": "Titik tempat garis perspektif bertemu."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-8-konsep-dasar-visual-cp-3",
+              "question": "Garis batas antara langit dan tanah dalam perspektif disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "garis cakrawala",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "garis diagonal"
+                },
+                {
+                  "id": "c2",
+                  "text": "garis semu"
+                },
+                {
+                  "id": "c3",
+                  "text": "garis spiral"
+                }
+              ],
+              "explanation": "Horizon menjadi acuan posisi objek."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-8-tantangan",
+              "title": "Tantangan istilah desain visual",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Unsur dasar pembentuk garis dan bidang",
+                  "answer": "Titik"
+                },
+                {
+                  "question": "Bidang teratur dan terukur",
+                  "answer": "Bidang geometris"
+                },
+                {
+                  "question": "Objek utama dalam gambar",
+                  "answer": "Ruang positif"
+                },
+                {
+                  "question": "Prinsip menyatukan unsur agar selaras",
+                  "answer": "Kesatuan"
+                },
+                {
+                  "question": "Titik tempat garis perspektif bertemu",
+                  "answer": "Titik lenyap"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah desain visual terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Konsep Dasar Visual — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Unsur visual yang menjadi dasar terbentuknya garis dan bidang adalah…",
+              "options": [
+                {
+                  "text": "titik",
+                  "correct": true
+                },
+                {
+                  "text": "warna"
+                },
+                {
+                  "text": "tekstur"
+                },
+                {
+                  "text": "gelap terang"
+                }
+              ],
+              "explanation": "Gambar selalu diawali dari titik.",
+              "hint": "Ukuran titik tidak terbatas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Garis yang berupa kesan batas objek bersinggungan disebut…",
+              "options": [
+                {
+                  "text": "garis semu",
+                  "correct": true
+                },
+                {
+                  "text": "garis nyata"
+                },
+                {
+                  "text": "garis tegas"
+                },
+                {
+                  "text": "garis ganda"
+                }
+              ],
+              "explanation": "Bukan hasil goresan.",
+              "hint": "Berbeda dari garis nyata."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Garis horizontal memberi sugesti…",
+              "options": [
+                {
+                  "text": "ketenangan dan kedamaian",
+                  "correct": true
+                },
+                {
+                  "text": "kekuatan dan kekokohan"
+                },
+                {
+                  "text": "semangat dan kegembiraan"
+                },
+                {
+                  "text": "kelahiran"
+                }
+              ],
+              "explanation": "Horisontal terasa tenang.",
+              "hint": "Vertikal terasa kokoh."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah unsur visual?",
+              "options": [
+                {
+                  "text": "Titik",
+                  "correct": true
+                },
+                {
+                  "text": "Garis",
+                  "correct": true
+                },
+                {
+                  "text": "Bidang",
+                  "correct": true
+                },
+                {
+                  "text": "Anggaran",
+                  "correct": false
+                },
+                {
+                  "text": "Jadwal",
+                  "correct": false
+                },
+                {
+                  "text": "Kontrak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Unsur visual membentuk karya.",
+              "hint": "Sisanya administrasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah jenis garis dan maknanya?",
+              "options": [
+                {
+                  "text": "Vertikal: kokoh",
+                  "correct": true
+                },
+                {
+                  "text": "Diagonal: dinamis",
+                  "correct": true
+                },
+                {
+                  "text": "Lengkung: luwes",
+                  "correct": true
+                },
+                {
+                  "text": "Bulat: tebal",
+                  "correct": false
+                },
+                {
+                  "text": "Tipis: mahal",
+                  "correct": false
+                },
+                {
+                  "text": "Panjang: lambat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Setiap garis bermakna.",
+              "hint": "Makna disesuaikan arah dan bentuk."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Konsep Dasar Visual — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Garis zig-zag memberi kesan…",
+              "options": [
+                {
+                  "text": "semangat, ceria, dan gembira",
+                  "correct": true
+                },
+                {
+                  "text": "tenang dan damai"
+                },
+                {
+                  "text": "luwes dan anggun"
+                },
+                {
+                  "text": "masif dan megah"
+                }
+              ],
+              "explanation": "Zig-zag mengesankan semangat.",
+              "hint": "Spiral mengesankan kelahiran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bidang yang teratur dan dapat diukur secara sistematis disebut…",
+              "options": [
+                {
+                  "text": "bidang geometris",
+                  "correct": true
+                },
+                {
+                  "text": "bidang organis"
+                },
+                {
+                  "text": "bidang semu"
+                },
+                {
+                  "text": "bidang negatif"
+                }
+              ],
+              "explanation": "Misalnya segi empat dan lingkaran.",
+              "hint": "Kesan formal."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip desain?",
+              "options": [
+                {
+                  "text": "Kesatuan",
+                  "correct": true
+                },
+                {
+                  "text": "Keseimbangan",
+                  "correct": true
+                },
+                {
+                  "text": "Kontras",
+                  "correct": true
+                },
+                {
+                  "text": "Dubbing",
+                  "correct": false
+                },
+                {
+                  "text": "Rendering",
+                  "correct": false
+                },
+                {
+                  "text": "Compositing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Prinsip mengorganisasi unsur visual.",
+              "hint": "Sisanya istilah produksi animasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah jenis perspektif?",
+              "options": [
+                {
+                  "text": "Satu titik lenyap",
+                  "correct": true
+                },
+                {
+                  "text": "Dua titik lenyap",
+                  "correct": true
+                },
+                {
+                  "text": "Tiga titik lenyap",
+                  "correct": true
+                },
+                {
+                  "text": "Empat titik lenyap",
+                  "correct": false
+                },
+                {
+                  "text": "Perspektif warna",
+                  "correct": false
+                },
+                {
+                  "text": "Perspektif suara",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perspektif digolongkan jumlah titik lenyap.",
+              "hint": "Tidak ada empat titik lenyap."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Titik",
+                  "right": "unsur visual paling dasar"
+                },
+                {
+                  "id": "m1",
+                  "left": "Garis semu",
+                  "right": "kesan batas objek"
+                },
+                {
+                  "id": "m2",
+                  "left": "Bidang geometris",
+                  "right": "teratur dan formal"
+                },
+                {
+                  "id": "m3",
+                  "left": "Ruang negatif",
+                  "right": "ruang kosong sekitar objek"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "unsur visual paling dasar",
+                  "m1": "kesan batas objek",
+                  "m2": "teratur dan formal",
+                  "m3": "ruang kosong sekitar objek"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan unsur visual dari yang paling dasar.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Titik"
+                },
+                {
+                  "id": "d1",
+                  "text": "Garis"
+                },
+                {
+                  "id": "d2",
+                  "text": "Bidang"
+                },
+                {
+                  "id": "d3",
+                  "text": "Ruang dan bentuk"
+                },
+                {
+                  "id": "d4",
+                  "text": "Warna, tekstur, gelap terang"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Titik menjadi awal.",
+              "hint": "Unsur lanjutan menutup rangkaian."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pembuatan gambar perspektif satu titik lenyap.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menentukan garis cakrawala"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menentukan titik lenyap"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menarik garis bantu ke titik lenyap"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menggambar objek sesuai garis bantu"
+                },
+                {
+                  "id": "p4",
+                  "text": "Merapikan dan memberi gelap terang"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Cakrawala ditentukan dulu.",
+              "hint": "Gelap terang menyelesaikan gambar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ruang kosong di sekitar objek utama disebut…",
+              "options": [
+                {
+                  "text": "ruang negatif",
+                  "correct": true
+                },
+                {
+                  "text": "ruang positif"
+                },
+                {
+                  "text": "ruang nyata"
+                },
+                {
+                  "text": "ruang tiga dimensi"
+                }
+              ],
+              "explanation": "Ruang positif adalah objek utama.",
+              "hint": "Keduanya membentuk komposisi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teori spektrum warna ditemukan oleh…",
+              "options": [
+                {
+                  "text": "Sir Isaac Newton",
+                  "correct": true
+                },
+                {
+                  "text": "Brewster"
+                },
+                {
+                  "text": "Einstein"
+                },
+                {
+                  "text": "Da Vinci"
+                }
+              ],
+              "explanation": "Newton memakai prisma.",
+              "hint": "Menghasilkan merah hingga ungu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kategori warna?",
+              "options": [
+                {
+                  "text": "Warna primer",
+                  "correct": true
+                },
+                {
+                  "text": "Warna sekunder",
+                  "correct": true
+                },
+                {
+                  "text": "Warna tersier",
+                  "correct": true
+                },
+                {
+                  "text": "Warna produksi",
+                  "correct": false
+                },
+                {
+                  "text": "Warna kontrak",
+                  "correct": false
+                },
+                {
+                  "text": "Warna jadwal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengelompokan menurut Brewster.",
+              "hint": "Sisanya bukan kategori warna."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Konsep Dasar Visual — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Warna primer menurut Brewster adalah…",
+              "options": [
+                {
+                  "text": "merah, biru, kuning",
+                  "correct": true
+                },
+                {
+                  "text": "hijau, oranye, ungu"
+                },
+                {
+                  "text": "merah-oranye dan biru-hijau"
+                },
+                {
+                  "text": "hitam dan putih"
+                }
+              ],
+              "explanation": "Warna primer tanpa campuran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip yang membuat susunan terasa tenang dan stabil disebut…",
+              "options": [
+                {
+                  "text": "keseimbangan",
+                  "correct": true
+                },
+                {
+                  "text": "kontras"
+                },
+                {
+                  "text": "ritme"
+                },
+                {
+                  "text": "pengulangan"
+                }
+              ],
+              "explanation": "Simetris dan asimetris."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip untuk membuat bagian tertentu menjadi pusat perhatian adalah…",
+              "options": [
+                {
+                  "text": "emphasis",
+                  "correct": true
+                },
+                {
+                  "text": "repetition"
+                },
+                {
+                  "text": "unity"
+                },
+                {
+                  "text": "proporsi"
+                }
+              ],
+              "explanation": "Point of interest dicapai dengan kontras."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kesan makin jauh makin kecil pada perspektif menunjukkan adanya…",
+              "options": [
+                {
+                  "text": "titik lenyap",
+                  "correct": true
+                },
+                {
+                  "text": "garis semu"
+                },
+                {
+                  "text": "bidang organis"
+                },
+                {
+                  "text": "warna tersier"
+                }
+              ],
+              "explanation": "Garis menuju titik lenyap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proporsi tubuh heroik berukuran…",
+              "options": [
+                {
+                  "text": "sembilan kali kepala",
+                  "correct": true
+                },
+                {
+                  "text": "tujuh setengah kepala"
+                },
+                {
+                  "text": "delapan kepala"
+                },
+                {
+                  "text": "delapan setengah kepala"
+                }
+              ],
+              "explanation": "Heroik paling panjang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri bidang organis?",
+              "options": [
+                {
+                  "text": "Menyerupai bentuk alam",
+                  "correct": true
+                },
+                {
+                  "text": "Lengkungan bebas",
+                  "correct": true
+                },
+                {
+                  "text": "Kesan fleksibel",
+                  "correct": true
+                },
+                {
+                  "text": "Terukur sistematis",
+                  "correct": false
+                },
+                {
+                  "text": "Selalu segi empat",
+                  "correct": false
+                },
+                {
+                  "text": "Kesan formal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bidang organis bebas."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah fungsi kontras?",
+              "options": [
+                {
+                  "text": "Memberi penekanan",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga aksesibilitas teks",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari kesan monoton",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus warna",
+                  "correct": false
+                },
+                {
+                  "text": "Menghilangkan bentuk",
+                  "correct": false
+                },
+                {
+                  "text": "Memperkecil gambar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kontras menonjolkan dan memudahkan baca."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Warna primer",
+                  "right": "merah, biru, kuning"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kesatuan",
+                  "right": "unsur saling selaras"
+                },
+                {
+                  "id": "m2",
+                  "left": "Emphasis",
+                  "right": "pusat perhatian"
+                },
+                {
+                  "id": "m3",
+                  "left": "Titik lenyap",
+                  "right": "pusat garis perspektif"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "merah, biru, kuning",
+                  "m1": "unsur saling selaras",
+                  "m2": "pusat perhatian",
+                  "m3": "pusat garis perspektif"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah mengomposisikan karya visual.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menentukan pusat perhatian"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menyusun unsur dengan keseimbangan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menyamakan bentuk dan warna (unity)"
+                },
+                {
+                  "id": "d3",
+                  "text": "Memberi kontras yang cukup"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memeriksa proporsi keseluruhan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pusat perhatian ditetapkan dulu."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan proporsi tubuh dari yang paling pendek rasionya.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Normal 7,5 kepala"
+                },
+                {
+                  "id": "p1",
+                  "text": "Ideal 8 kepala"
+                },
+                {
+                  "id": "p2",
+                  "text": "Fashion 8,5 kepala"
+                },
+                {
+                  "id": "p3",
+                  "text": "Heroik 9 kepala"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Normal paling pendek."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Anak usia 1–3 tahun memiliki panjang anatomi…",
+              "options": [
+                {
+                  "text": "4 kali tinggi kepala",
+                  "correct": true
+                },
+                {
+                  "text": "5 kali tinggi kepala"
+                },
+                {
+                  "text": "6 kali tinggi kepala"
+                },
+                {
+                  "text": "7 kali tinggi kepala"
+                }
+              ],
+              "explanation": "Anak kecil kepalanya relatif besar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip pengulangan yang tidak tepat menimbulkan efek…",
+              "options": [
+                {
+                  "text": "statis dan monoton",
+                  "correct": true
+                },
+                {
+                  "text": "dinamis dan hidup"
+                },
+                {
+                  "text": "seimbang dan stabil"
+                },
+                {
+                  "text": "megah dan masif"
+                }
+              ],
+              "explanation": "Perlu variasi agar menarik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah proporsi tubuh manusia?",
+              "options": [
+                {
+                  "text": "Normal 7,5 kepala",
+                  "correct": true
+                },
+                {
+                  "text": "Ideal 8 kepala",
+                  "correct": true
+                },
+                {
+                  "text": "Fashion 8,5 kepala",
+                  "correct": true
+                },
+                {
+                  "text": "Normal 3 kepala",
+                  "correct": false
+                },
+                {
+                  "text": "Ideal 4 kepala",
+                  "correct": false
+                },
+                {
+                  "text": "Fashion 12 kepala",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proporsi diukur dari tinggi kepala."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Titik",
+                  "right": "unsur visual paling dasar"
+                },
+                {
+                  "id": "m1",
+                  "left": "Garis semu",
+                  "right": "kesan batas objek"
+                },
+                {
+                  "id": "m2",
+                  "left": "Bidang geometris",
+                  "right": "teratur dan formal"
+                },
+                {
+                  "id": "m3",
+                  "left": "Ruang negatif",
+                  "right": "ruang kosong sekitar objek"
+                },
+                {
+                  "id": "m4",
+                  "left": "Warna primer",
+                  "right": "merah, biru, kuning"
+                },
+                {
+                  "id": "m5",
+                  "left": "Kesatuan",
+                  "right": "unsur saling selaras"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "unsur visual paling dasar",
+                  "m1": "kesan batas objek",
+                  "m2": "teratur dan formal",
+                  "m3": "ruang kosong sekitar objek",
+                  "m4": "merah, biru, kuning",
+                  "m5": "unsur saling selaras"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan menggambar anatomi anak dari usia termuda.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Usia 1–3 tahun 4x kepala"
+                },
+                {
+                  "id": "d1",
+                  "text": "Usia 4–6 tahun 5x kepala"
+                },
+                {
+                  "id": "d2",
+                  "text": "Usia 7–9 tahun 6x kepala"
+                },
+                {
+                  "id": "d3",
+                  "text": "Usia 10–13 tahun 7x kepala"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Anak kecil rasionya paling kecil."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -317,6 +317,61 @@ class MateriCoverageCommandTest extends TestCase
         }
     }
 
+    public function test_animasi_chapters_meet_the_plan_minimums(): void
+    {
+        // Buku Dasar-Dasar Animasi SMK Kelas X (rilis 0.46.0) tuntas 10/10 bab.
+        $codes = ['ANIM 1', 'ANIM 2', 'ANIM 3', 'ANIM 4', 'ANIM 5',
+            'ANIM 6', 'ANIM 7', 'ANIM 8', 'ANIM 9', 'ANIM 10'];
+
+        foreach ($codes as $code) {
+            $row = $this->coverage($code)['chapters'][0];
+
+            $this->assertTrue(
+                $row['complete'],
+                "{$code} belum memenuhi §5.3: " . implode(', ', $row['missing']),
+            );
+            $this->assertSame(0, $row['hidden'], "{$code} menyembunyikan isi materi");
+            $this->assertGreaterThan(0, $row['theory'], "{$code} tidak punya blok teks");
+            $this->assertGreaterThanOrEqual(1, $row['visual'], "{$code} tidak punya blok visual");
+            $this->assertGreaterThanOrEqual(2, $row['activities'], "{$code} butuh dua blok aktivitas");
+            $this->assertGreaterThanOrEqual(1, $row['scenario'], "{$code} butuh skenario atau tantangan");
+            $this->assertGreaterThanOrEqual(1, $row['recall'], "{$code} butuh glossary atau flashcards");
+            $this->assertGreaterThanOrEqual(
+                $row['required_checkpoints'],
+                $row['checkpoints'],
+                "{$code} butuh {$row['required_checkpoints']} checkpoint",
+            );
+        }
+    }
+
+    public function test_animasi_play_page_serves_three_materials_and_five_easy_questions(): void
+    {
+        $assessment = Assessment::query()
+            ->whereHas('chapter', fn ($query) => $query->where('code', 'ANIM 7'))
+            ->where('difficulty', 'easy')
+            ->firstOrFail();
+
+        $response = $this->get("/main/{$assessment->id}");
+
+        $response->assertOk();
+        $response->assertInertia(function (AssertableInertia $page) {
+            $props = $page->toArray()['props'];
+
+            $this->assertSame(
+                'Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi',
+                $props['context']['chapter_title'],
+            );
+            $this->assertCount(5, $props['questions']);
+            $this->assertCount(3, $props['materials']);
+
+            $types = array_column($props['materials'][0]['blocks'], 'type');
+
+            $this->assertContains('glossary', $types);
+            $this->assertContains('diagram', $types);
+            $this->assertContains('checkpoint', $types);
+        });
+    }
+
     public function test_tjkt_chapters_meet_the_plan_minimums(): void
     {
         // Buku Dasar-Dasar TJKT SMK Kelas X (rilis 0.45.0) tuntas 6/6 bab.

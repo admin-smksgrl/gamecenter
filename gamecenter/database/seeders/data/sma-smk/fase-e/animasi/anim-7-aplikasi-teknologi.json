@@ -1,0 +1,1311 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 7",
+      "title": "Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi",
+      "description": "Mengenal beragam aplikasi animasi 2D dan 3D, memahami spesifikasi perangkat yang dibutuhkan, serta menguasai dasar Photoshop untuk animasi 2D dan Blender untuk animasi 3D.",
+      "learning_objectives": [
+        "Mengidentifikasi aplikasi animasi 2D dan 3D beserta contoh karya.",
+        "Membaca dan mencocokkan spesifikasi perangkat dengan aplikasi.",
+        "Menguasai dasar antarmuka, inking, clean up, dan coloring di Photoshop.",
+        "Menguasai dasar navigasi, modeling, material, lighting, dan rendering di Blender."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 7 Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Aplikasi animasi 2D dan 3D",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 7 Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Dari pensil ke perangkat digital\n\nDulu animasi dibuat dengan pensil, cat, dan kertas. Kini perangkat digital dan berbagai aplikasi membuka peluang baru bagi animator sebagai digital artist.\n\nAplikasi 2D populer antara lain Adobe Animate, Toon Boom Harmony, TVPaint, Adobe After Effect, serta versi web (Animaker, Powtoon) dan android (FlipaClip).\n\nAplikasi 3D meliputi Autodesk Maya, 3ds Max, Blender (gratis), dan Cinema 4D, dengan versi web (Tinkercad) dan android (Toontastic 3D).\n\nSetiap aplikasi memiliki spesifikasi minimal perangkat agar berjalan baik, misalnya prosesor, RAM, GPU, dan resolusi layar.\n\nCek dulu spesifikasi komputer (RAM, prosesor, GPU) sebelum menginstal aplikasi animasi agar hasil kerja maksimal.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-7-aplikasi-teknologi-glosarium",
+              "terms": [
+                {
+                  "term": "Adobe Animate",
+                  "definition": "Aplikasi animasi 2D untuk kartun, iklan, dan game yang dapat dipublikasikan ke HTML5 dan WebGL."
+                },
+                {
+                  "term": "Toon Boom Harmony",
+                  "definition": "Aplikasi animasi seri TV dan film dengan fitur paperless dan cut-out."
+                },
+                {
+                  "term": "TVPaint",
+                  "definition": "Aplikasi animasi berbasis bitmap yang merepresentasikan media seni alami."
+                },
+                {
+                  "term": "After Effect",
+                  "definition": "Aplikasi untuk motion graphic, visual FX, dan compositing."
+                },
+                {
+                  "term": "Blender",
+                  "definition": "Aplikasi 3D gratis dengan fitur rendering, modeling, sculpting, animasi, dan VFX."
+                },
+                {
+                  "term": "Autodesk Maya",
+                  "definition": "Software 3D profesional untuk karakter realistik dan detail."
+                },
+                {
+                  "term": "Inking",
+                  "definition": "Menebalkan garis sketsa pada layer baru memakai brush tool."
+                },
+                {
+                  "term": "Clean up",
+                  "definition": "Membersihkan dan menebalkan garis akhir memakai brush yang lebih tebal."
+                },
+                {
+                  "term": "Viewport",
+                  "definition": "Area 3D untuk berinteraksi dengan scene saat membuat model dan animasi."
+                },
+                {
+                  "term": "Render engine",
+                  "definition": "Mesin render Blender: eevee, workbench, dan cycles."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari pensil ke perangkat digital"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dulu animasi dibuat dengan pensil, cat, dan kertas. Kini perangkat digital dan berbagai aplikasi membuka peluang baru bagi animator sebagai digital artist."
+            },
+            {
+              "type": "paragraph",
+              "text": "Aplikasi 2D populer antara lain Adobe Animate, Toon Boom Harmony, TVPaint, Adobe After Effect, serta versi web (Animaker, Powtoon) dan android (FlipaClip)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Aplikasi 3D meliputi Autodesk Maya, 3ds Max, Blender (gratis), dan Cinema 4D, dengan versi web (Tinkercad) dan android (Toontastic 3D)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setiap aplikasi memiliki spesifikasi minimal perangkat agar berjalan baik, misalnya prosesor, RAM, GPU, dan resolusi layar."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-7-aplikasi-teknologi-diagram",
+              "engine": "mermaid",
+              "title": "Gambaran ringkas aplikasi animasi",
+              "code": "flowchart LR\n  A[Animasi 2D] --> B[Adobe Animate, Toon Boom]\n  A --> C[TVPaint, After Effect]\n  D[Animasi 3D] --> E[Maya, 3ds Max]\n  D --> F[Blender, Cinema 4D]\n  B & C & E & F --> G[Perangkat sesuai spek minimal]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Cek dulu spesifikasi komputer (RAM, prosesor, GPU) sebelum menginstal aplikasi animasi agar hasil kerja maksimal."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-7-aplikasi-teknologi-cp-1",
+              "question": "Aplikasi 3D yang gratis dan berfitur lengkap adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Blender",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Photoshop"
+                },
+                {
+                  "id": "c2",
+                  "text": "Toon Boom"
+                },
+                {
+                  "id": "c3",
+                  "text": "Adobe Animate"
+                }
+              ],
+              "explanation": "Blender gratis dengan fitur rendering dan modeling."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Dasar Photoshop",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 7 Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Antarmuka, inking, clean up, dan coloring\n\nPhotoshop menyediakan fitur melukis dengan brush tool dan pencil tool serta mengedit warna gambar, berguna saat membuat aset gambar animasi 2D.\n\nAntarmuka Photoshop pada workspace painting mencakup document window, toolbar, option bar, status bar, expanding panels, dan panel groups.\n\nProses membuat aset dilakukan berurutan: inking (menebalkan garis sketsa), clean up (membersihkan dan menebalkan garis akhir), lalu coloring (mewarnai pada layer di bawah clean up).\n\nLayer yang sudah jadi dapat digrup (Ctrl+G) dan digabung (Ctrl+E) sehingga memudahkan pengelolaan gambar.\n\n| Kegiatan | Langkah utama | Alat |\n|---|---|---|\n| Inking | Buat layer baru di atas sketsa | Brush tool |\n| Clean up | Rename layer outline, tebalkan garis | Brush tebal atau pen |\n| Coloring | Layer di bawah clean up | Brush atau paint bucket |\n| Group/merge | Seleksi lalu Ctrl+G / Ctrl+E | Panel layers |\n\n### Dasar Blender\n\n- Antarmuka Blender memiliki workspace layout dengan panel outliner, properties, 3D viewport, toolbar, dan timeline.\n- Navigasi viewport: tombol tengah mouse untuk memutar, scroll untuk zoom, shift + tombol tengah untuk geser.\n- Mode shading terdiri atas wire edges, solid, material, dan rendered; tekan Z untuk memilih.\n- Memanipulasi objek dengan move, rotate, scale; memberi material, lighting, mengatur kamera, lalu rendering.\n- Render engine Blender: eevee (realtime cepat), workbench (pratinjau cepat), dan cycles (raytrace dengan cahaya natural).",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Antarmuka, inking, clean up, dan coloring"
+            },
+            {
+              "type": "paragraph",
+              "text": "Photoshop menyediakan fitur melukis dengan brush tool dan pencil tool serta mengedit warna gambar, berguna saat membuat aset gambar animasi 2D."
+            },
+            {
+              "type": "paragraph",
+              "text": "Antarmuka Photoshop pada workspace painting mencakup document window, toolbar, option bar, status bar, expanding panels, dan panel groups."
+            },
+            {
+              "type": "paragraph",
+              "text": "Proses membuat aset dilakukan berurutan: inking (menebalkan garis sketsa), clean up (membersihkan dan menebalkan garis akhir), lalu coloring (mewarnai pada layer di bawah clean up)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Layer yang sudah jadi dapat digrup (Ctrl+G) dan digabung (Ctrl+E) sehingga memudahkan pengelolaan gambar."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kegiatan",
+                  "Langkah utama",
+                  "Alat"
+                ],
+                [
+                  "Inking",
+                  "Buat layer baru di atas sketsa",
+                  "Brush tool"
+                ],
+                [
+                  "Clean up",
+                  "Rename layer outline, tebalkan garis",
+                  "Brush tebal atau pen"
+                ],
+                [
+                  "Coloring",
+                  "Layer di bawah clean up",
+                  "Brush atau paint bucket"
+                ],
+                [
+                  "Group/merge",
+                  "Seleksi lalu Ctrl+G / Ctrl+E",
+                  "Panel layers"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-7-fase-2d",
+              "engine": "mermaid",
+              "title": "Alur pembuatan aset 2D di Photoshop",
+              "code": "flowchart LR\n  A[Sketsa dengan opacity rendah] --> B[Inking]\n  B --> C[Clean up]\n  C --> D[Coloring]\n  D --> E[Group dan merge layer]\n  E --> F[Aset animasi siap]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-7-klasifikasi",
+              "prompt": "Kelompokkan aplikasi ke kategori 2D atau 3D.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Aplikasi 2D"
+                },
+                {
+                  "id": "b2",
+                  "label": "Aplikasi 3D"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Adobe Animate",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Blender",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Toon Boom Harmony",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Autodesk Maya",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "TVPaint",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Cinema 4D",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. 2D untuk kartun dan gambar datar; 3D untuk model berdimensi.",
+                "wrong": "Ingat: Animate dan Toon Boom 2D; Blender dan Maya 3D."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dasar Blender"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Antarmuka Blender memiliki workspace layout dengan panel outliner, properties, 3D viewport, toolbar, dan timeline.",
+                "Navigasi viewport: tombol tengah mouse untuk memutar, scroll untuk zoom, shift + tombol tengah untuk geser.",
+                "Mode shading terdiri atas wire edges, solid, material, dan rendered; tekan Z untuk memilih.",
+                "Memanipulasi objek dengan move, rotate, scale; memberi material, lighting, mengatur kamera, lalu rendering.",
+                "Render engine Blender: eevee (realtime cepat), workbench (pratinjau cepat), dan cycles (raytrace dengan cahaya natural)."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-7-aplikasi-teknologi-cp-2",
+              "question": "Panel yang menampilkan pengaturan data aktif di Blender disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "properties",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "outliner"
+                },
+                {
+                  "id": "c2",
+                  "text": "toolbar"
+                },
+                {
+                  "id": "c3",
+                  "text": "timeline"
+                }
+              ],
+              "explanation": "Properties mengatur scene, material, dan modifier."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 7 Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Membuat aset dan merender\n\nUntuk membuat aset animasi, siapkan desain karakter, model sheet, storyboard, keyframe, dan inbetween sebagai bahan latihan.\n\nDi Blender, untuk menambahkan objek 3D gunakan menu Add, lalu manipulasi dengan move, rotate, dan scale pada objek tersebut.\n\nRendering dilakukan setelah pengaturan kamera dan render properties; dijalankan dengan render image (F12) atau render animation (Ctrl+F12).",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat aset dan merender"
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk membuat aset animasi, siapkan desain karakter, model sheet, storyboard, keyframe, dan inbetween sebagai bahan latihan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Di Blender, untuk menambahkan objek 3D gunakan menu Add, lalu manipulasi dengan move, rotate, dan scale pada objek tersebut."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rendering dilakukan setelah pengaturan kamera dan render properties; dijalankan dengan render image (F12) atau render animation (Ctrl+F12)."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-7-skenario",
+              "title": "Komputer lemot saat merender",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Aplikasi 3D di komputermu berjalan lambat dan sering macet saat rendering. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Memeriksa spesifikasi dan menyesuaikan proyek dengan kemampuan perangkat",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Menyesuaikan memastikan aplikasi berjalan optimal."
+                    },
+                    {
+                      "text": "Terus memaksa rendering tanpa memperhatikan perangkat",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Perangkat yang tidak sesuai membuat kerja macet dan tidak efisien."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Rendering tetap lambat. Solusinya?",
+                  "choices": [
+                    {
+                      "text": "Menggunakan render engine realtime yang lebih ringan (eevee)",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Eevee fokus pada kecepatan, cocok untuk pratinjau."
+                    },
+                    {
+                      "text": "Menambah beban rendering tanpa mengatur pengaturan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Beban berlebih justru memperlambat dan menghabiskan sumber daya."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Proyek melambat dan deadline tidak tercapai.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Rendering selesai tepat waktu dan kualitas tetap terjaga.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-7-aplikasi-teknologi-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan tiga aplikasi animasi 2D.",
+                  "back": "Adobe Animate, Toon Boom Harmony, TVPaint."
+                },
+                {
+                  "front": "Sebutkan empat aplikasi animasi 3D.",
+                  "back": "Autodesk Maya, 3ds Max, Blender, Cinema 4D."
+                },
+                {
+                  "front": "Apa fungsi render engine cycles?",
+                  "back": "Renderer raytrace yang memberi warna cahaya natural."
+                },
+                {
+                  "front": "Apa yang dimaksud inking?",
+                  "back": "Menebalkan garis sketsa pada layer baru menggunakan brush tool."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-7-aplikasi-teknologi-cp-3",
+              "question": "Urutan pembuatan aset gambar animasi 2D yang benar adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "inking, clean up, coloring",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "coloring, inking, clean up"
+                },
+                {
+                  "id": "c2",
+                  "text": "clean up, coloring, inking"
+                },
+                {
+                  "id": "c3",
+                  "text": "coloring, clean up, inking"
+                }
+              ],
+              "explanation": "Mulai dari menebalkan garis lalu membersihkan dan mewarnai."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-7-tantangan",
+              "title": "Tantangan aplikasi animasi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Aplikasi animasi 2D kartun dan iklan",
+                  "answer": "Adobe Animate"
+                },
+                {
+                  "question": "Aplikasi 3D gratis berfitur lengkap",
+                  "answer": "Blender"
+                },
+                {
+                  "question": "Software 3D untuk karakter realistik",
+                  "answer": "Autodesk Maya"
+                },
+                {
+                  "question": "Menebalkan garis sketsa",
+                  "answer": "Inking"
+                },
+                {
+                  "question": "Mesin render raytrace Blender",
+                  "answer": "Cycles"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah aplikasi animasi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi untuk membuat animasi kartun, iklan, dan game yang dipublikasikan ke HTML5 adalah…",
+              "options": [
+                {
+                  "text": "Adobe Animate",
+                  "correct": true
+                },
+                {
+                  "text": "Blender"
+                },
+                {
+                  "text": "Maya"
+                },
+                {
+                  "text": "Tinkercad"
+                }
+              ],
+              "explanation": "Animate juga ke Canvas dan WebGL.",
+              "hint": "Karya: My Little Pony."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi animasi berbasis bitmap yang menghadirkan media seni alami adalah…",
+              "options": [
+                {
+                  "text": "TVPaint",
+                  "correct": true
+                },
+                {
+                  "text": "Toon Boom"
+                },
+                {
+                  "text": "Photoshop"
+                },
+                {
+                  "text": "Cinema 4D"
+                }
+              ],
+              "explanation": "Bitmap memudahkan media alami.",
+              "hint": "Karya Green Eggs and Ham."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "After Effect utamanya digunakan untuk…",
+              "options": [
+                {
+                  "text": "motion graphic, efek, dan compositing",
+                  "correct": true
+                },
+                {
+                  "text": "modeling 3D"
+                },
+                {
+                  "text": "mencetak poster"
+                },
+                {
+                  "text": "menulis naskah"
+                }
+              ],
+              "explanation": "Setelah efek juga untuk konten online.",
+              "hint": "Kategori: animasi, efek, compositing."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah aplikasi animasi 2D?",
+              "options": [
+                {
+                  "text": "Adobe Animate",
+                  "correct": true
+                },
+                {
+                  "text": "Toon Boom Harmony",
+                  "correct": true
+                },
+                {
+                  "text": "TVPaint",
+                  "correct": true
+                },
+                {
+                  "text": "Autodesk Maya",
+                  "correct": false
+                },
+                {
+                  "text": "Cinema 4D",
+                  "correct": false
+                }
+              ],
+              "explanation": "Animasi 2D untuk kartun dan gambar.",
+              "hint": "Maya dan Cinema 4D aplikasi 3D."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah aplikasi animasi 3D?",
+              "options": [
+                {
+                  "text": "Blender",
+                  "correct": true
+                },
+                {
+                  "text": "Autodesk Maya",
+                  "correct": true
+                },
+                {
+                  "text": "Cinema 4D",
+                  "correct": true
+                },
+                {
+                  "text": "Powtoon",
+                  "correct": false
+                },
+                {
+                  "text": "VideoScribe",
+                  "correct": false
+                }
+              ],
+              "explanation": "3D untuk model berdimensi.",
+              "hint": "Powtoon dan VideoScribe berbasis web 2D."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi animasi 2D berbasis android antara lain…",
+              "options": [
+                {
+                  "text": "FlipaClip dan Animation Desk",
+                  "correct": true
+                },
+                {
+                  "text": "Blender dan Maya"
+                },
+                {
+                  "text": "3ds Max dan Houdini"
+                },
+                {
+                  "text": "ZBrush dan Poser"
+                }
+              ],
+              "explanation": "FlipaClip untuk perangkat android.",
+              "hint": "Dapat membuat di mana pun."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi 3D gratis yang berfitur lengkap adalah…",
+              "options": [
+                {
+                  "text": "Blender",
+                  "correct": true
+                },
+                {
+                  "text": "After Effect"
+                },
+                {
+                  "text": "TVPaint"
+                },
+                {
+                  "text": "Adobe Animate"
+                }
+              ],
+              "explanation": "Fitur rendering, sculpting, dan VFX.",
+              "hint": "Juga video editing dan simulasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bagian antarmuka Photoshop?",
+              "options": [
+                {
+                  "text": "Document window",
+                  "correct": true
+                },
+                {
+                  "text": "Option bar",
+                  "correct": true
+                },
+                {
+                  "text": "Panel groups",
+                  "correct": true
+                },
+                {
+                  "text": "Render engine",
+                  "correct": false
+                },
+                {
+                  "text": "Viewport",
+                  "correct": false
+                },
+                {
+                  "text": "Outliner",
+                  "correct": false
+                }
+              ],
+              "explanation": "Antarmuka photoshop untuk editing gambar.",
+              "hint": "Lainnya antarmuka Blender."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah panel antarmuka Blender?",
+              "options": [
+                {
+                  "text": "Outliner",
+                  "correct": true
+                },
+                {
+                  "text": "Properties",
+                  "correct": true
+                },
+                {
+                  "text": "Timeline",
+                  "correct": true
+                },
+                {
+                  "text": "Status bar Photoshop",
+                  "correct": false
+                },
+                {
+                  "text": "Brushes",
+                  "correct": false
+                },
+                {
+                  "text": "Paint bucket",
+                  "correct": false
+                }
+              ],
+              "explanation": "Panel Blender untuk modeling 3D.",
+              "hint": "Sisanya fitur Photoshop."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Adobe Animate",
+                  "right": "animasi 2D ke HTML5"
+                },
+                {
+                  "id": "m1",
+                  "left": "Toon Boom",
+                  "right": "animasi seri dan film"
+                },
+                {
+                  "id": "m2",
+                  "left": "TVPaint",
+                  "right": "animasi berbasis bitmap"
+                },
+                {
+                  "id": "m3",
+                  "left": "Blender",
+                  "right": "3D gratis dan lengkap"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "animasi 2D ke HTML5",
+                  "m1": "animasi seri dan film",
+                  "m2": "animasi berbasis bitmap",
+                  "m3": "3D gratis dan lengkap"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pembuatan aset 2D di Photoshop.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Membuat sketsa opacity rendah"
+                },
+                {
+                  "id": "d1",
+                  "text": "Melakukan inking"
+                },
+                {
+                  "id": "d2",
+                  "text": "Melakukan clean up"
+                },
+                {
+                  "id": "d3",
+                  "text": "Melakukan coloring"
+                },
+                {
+                  "id": "d4",
+                  "text": "Group dan merge layer"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Berawal dari sketsa.",
+              "hint": "Penggabungan layer menutupnya."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pengerjaan animasi 3D di Blender.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menambahkan objek"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memanipulasi move, rotate, scale"
+                },
+                {
+                  "id": "p2",
+                  "text": "Memasang material"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menambahkan lighting"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mengatur kamera dan rendering"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Objek dibuat dulu.",
+              "hint": "Rendering menghasilkan gambar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Software 3D profesional untuk karakter realistik adalah…",
+              "options": [
+                {
+                  "text": "Autodesk Maya",
+                  "correct": true
+                },
+                {
+                  "text": "Toon Boom"
+                },
+                {
+                  "text": "Powtoon"
+                },
+                {
+                  "text": "Doodly"
+                }
+              ],
+              "explanation": "Tools dan efek seperti ledakan dan kain.",
+              "hint": "Detail dan berkualitas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Render engine Blender yang berbasis raytrace adalah…",
+              "options": [
+                {
+                  "text": "cycles",
+                  "correct": true
+                },
+                {
+                  "text": "eevee"
+                },
+                {
+                  "text": "workbench"
+                },
+                {
+                  "text": "viewport"
+                }
+              ],
+              "explanation": "Cahaya alami natural.",
+              "hint": "Workbench untuk pratinjau cepat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah mode shading Blender?",
+              "options": [
+                {
+                  "text": "Wire edges",
+                  "correct": true
+                },
+                {
+                  "text": "Solid",
+                  "correct": true
+                },
+                {
+                  "text": "Rendered",
+                  "correct": true
+                },
+                {
+                  "text": "Rgb slider",
+                  "correct": false
+                },
+                {
+                  "text": "Layer set",
+                  "correct": false
+                },
+                {
+                  "text": "Blend mode",
+                  "correct": false
+                }
+              ],
+              "explanation": "Empat view mode model 3D.",
+              "hint": "Bukan mode shading."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Render engine realtime Blender fokus pada kecepatan adalah…",
+              "options": [
+                {
+                  "text": "eevee",
+                  "correct": true
+                },
+                {
+                  "text": "cycles"
+                },
+                {
+                  "text": "workbench"
+                },
+                {
+                  "text": "outliner"
+                }
+              ],
+              "explanation": "Dibangun dengan OpenGL."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada antarmuka Blender, panel daftar data file .blend disebut…",
+              "options": [
+                {
+                  "text": "outliner",
+                  "correct": true
+                },
+                {
+                  "text": "properties"
+                },
+                {
+                  "text": "timeline"
+                },
+                {
+                  "text": "viewport"
+                }
+              ],
+              "explanation": "Mengatur scene dan data."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Navigasi 3D viewport dengan tombol tengah mouse berfungsi untuk…",
+              "options": [
+                {
+                  "text": "memutar area viewport",
+                  "correct": true
+                },
+                {
+                  "text": "menghapus objek"
+                },
+                {
+                  "text": "mewarnai model"
+                },
+                {
+                  "text": "menyimpan file"
+                }
+              ],
+              "explanation": "Shift + tombol tengah menggeser."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mode shading solid pada Blender menampilkan…",
+              "options": [
+                {
+                  "text": "bentuk padat model",
+                  "correct": true
+                },
+                {
+                  "text": "garis tepi saja"
+                },
+                {
+                  "text": "material terpasang"
+                },
+                {
+                  "text": "pratinjau render"
+                }
+              ],
+              "explanation": "Solid bentuk padat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Langkah pertama pembuatan aset animasi 2D di Photoshop adalah…",
+              "options": [
+                {
+                  "text": "membuat sketsa dengan opacity rendah",
+                  "correct": true
+                },
+                {
+                  "text": "langsung mewarnai"
+                },
+                {
+                  "text": "menggabungkan layer"
+                },
+                {
+                  "text": "membuat timeline"
+                }
+              ],
+              "explanation": "Sketsa opacity 10–30%."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh aplikasi animasi berbasis web?",
+              "options": [
+                {
+                  "text": "Animaker",
+                  "correct": true
+                },
+                {
+                  "text": "Powtoon",
+                  "correct": true
+                },
+                {
+                  "text": "Doodly",
+                  "correct": true
+                },
+                {
+                  "text": "Autodesk Maya",
+                  "correct": false
+                },
+                {
+                  "text": "ZBrush",
+                  "correct": false
+                },
+                {
+                  "text": "Houdini",
+                  "correct": false
+                }
+              ],
+              "explanation": "Berbasis peramban web."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah langkah pembuatan aset 2D di Photoshop?",
+              "options": [
+                {
+                  "text": "Inking",
+                  "correct": true
+                },
+                {
+                  "text": "Clean up",
+                  "correct": true
+                },
+                {
+                  "text": "Coloring",
+                  "correct": true
+                },
+                {
+                  "text": "Rendering",
+                  "correct": false
+                },
+                {
+                  "text": "Sculpting",
+                  "correct": false
+                },
+                {
+                  "text": "Lighting",
+                  "correct": false
+                }
+              ],
+              "explanation": "Urutan gambar aset 2D."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Autodesk Maya",
+                  "right": "3D karakter realistik"
+                },
+                {
+                  "id": "m1",
+                  "left": "Inking",
+                  "right": "menebalkan garis sketsa"
+                },
+                {
+                  "id": "m2",
+                  "left": "Clean up",
+                  "right": "membersihkan garis akhir"
+                },
+                {
+                  "id": "m3",
+                  "left": "Cycles",
+                  "right": "render raytrace Blender"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "3D karakter realistik",
+                  "m1": "menebalkan garis sketsa",
+                  "m2": "membersihkan garis akhir",
+                  "m3": "render raytrace Blender"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan memilih render engine Blender.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyiapkan scene"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mengatur kamera"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memilih render engine"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mengatur render properties"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menjalankan render image"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Scene disiapkan dulu."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membersihkan gambar animasi.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menyiapkan layer hasil inking"
+                },
+                {
+                  "id": "p1",
+                  "text": "Buat layer baru bernama outline"
+                },
+                {
+                  "id": "p2",
+                  "text": "Gunakan brush yang lebih tebal"
+                },
+                {
+                  "id": "p3",
+                  "text": "Memakai pen tool untuk garis panjang"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menghapus garis bantu"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Bermula dari hasil inking."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Shortcut untuk menggabungkan layer terpilih di Photoshop adalah…",
+              "options": [
+                {
+                  "text": "Ctrl + E",
+                  "correct": true
+                },
+                {
+                  "text": "Ctrl + G"
+                },
+                {
+                  "text": "Ctrl + A"
+                },
+                {
+                  "text": "Ctrl + T"
+                }
+              ],
+              "explanation": "Ctrl+G untuk grup layer."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Membuat objek 3D baru di Blender dilakukan melalui…",
+              "options": [
+                {
+                  "text": "menu Add",
+                  "correct": true
+                },
+                {
+                  "text": "menu Render"
+                },
+                {
+                  "text": "menu Help"
+                },
+                {
+                  "text": "panel Timeline"
+                }
+              ],
+              "explanation": "setelah itu manipulasi move dan scale."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah spesifikasi yang perlu diperhatikan sebelum menginstal aplikasi animasi?",
+              "options": [
+                {
+                  "text": "Prosesor dan RAM",
+                  "correct": true
+                },
+                {
+                  "text": "GPU dan resolusi layar",
+                  "correct": true
+                },
+                {
+                  "text": "Sistem operasi dan penyimpanan",
+                  "correct": true
+                },
+                {
+                  "text": "Jenis kertas",
+                  "correct": false
+                },
+                {
+                  "text": "Warna tinta",
+                  "correct": false
+                },
+                {
+                  "text": "Merek pensil",
+                  "correct": false
+                }
+              ],
+              "explanation": "Spesifikasi perangkat menentukan kelancaran."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Adobe Animate",
+                  "right": "animasi 2D ke HTML5"
+                },
+                {
+                  "id": "m1",
+                  "left": "Toon Boom",
+                  "right": "animasi seri dan film"
+                },
+                {
+                  "id": "m2",
+                  "left": "TVPaint",
+                  "right": "animasi berbasis bitmap"
+                },
+                {
+                  "id": "m3",
+                  "left": "Blender",
+                  "right": "3D gratis dan lengkap"
+                },
+                {
+                  "id": "m4",
+                  "left": "Autodesk Maya",
+                  "right": "3D karakter realistik"
+                },
+                {
+                  "id": "m5",
+                  "left": "Inking",
+                  "right": "menebalkan garis sketsa"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "animasi 2D ke HTML5",
+                  "m1": "animasi seri dan film",
+                  "m2": "animasi berbasis bitmap",
+                  "m3": "3D gratis dan lengkap",
+                  "m4": "3D karakter realistik",
+                  "m5": "menebalkan garis sketsa"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan menginstal aplikasi animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Memeriksa spesifikasi perangkat"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menyambungkan internet"
+                },
+                {
+                  "id": "d2",
+                  "text": "Membuka laman pengunduhan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Masuk akun dan pilih aplikasi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mengikuti instruksi install"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Cek perangkat dulu."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

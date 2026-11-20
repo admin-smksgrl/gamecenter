@@ -1,0 +1,1314 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 6",
+      "title": "Quality Control Produksi Animasi",
+      "description": "Memahami pengertian dan manfaat quality control, tiga tipe metode pengendalian mutu, serta penerapannya di produksi animasi melalui manajemen produksi, key visual, Gantt chart, form revisi, dan test screening.",
+      "learning_objectives": [
+        "Menjelaskan pengertian dan manfaat quality control.",
+        "Membandingkan metode X-bar R chart, Taguchi, dan 100% inspection.",
+        "Menerapkan quality control melalui key visual, Gantt chart, dan form revisi.",
+        "Menjelaskan fungsi test screening dalam menjaga kualitas animasi."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 6 Quality Control Produksi Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Quality control dan manfaatnya",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 6 Quality Control Produksi Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Menjaga mutu di setiap tahap\n\nQuality control adalah proses yang dilakukan perusahaan untuk memastikan produknya berkualitas, meminimalisasi kesalahan manajemen dan staf, serta mengontrol efektivitas waktu dan efisiensi biaya.\n\nQC dapat dikembangkan untuk tingkat perusahaan, divisi, maupun produk individu agar standar kualitas tetap terjaga.\n\nManfaat QC: membangun reputasi, membangun kepercayaan stakeholder, meningkatkan hubungan dengan konsumen, dan menciptakan otomatisasi kerja.\n\nQC ibarat saringan: kesalahan dibuang di tahap awal agar tidak menumpuk dan menghabiskan biaya di tahap akhir.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-6-quality-control-glosarium",
+              "terms": [
+                {
+                  "term": "Quality control",
+                  "definition": "Proses memastikan produk dibuat sesuai standar kualitas dan meminimalisasi kesalahan."
+                },
+                {
+                  "term": "X-bar R chart",
+                  "definition": "Chart control untuk data variabel guna memeriksa kestabilan proses produksi."
+                },
+                {
+                  "term": "Taguchi",
+                  "definition": "Metode QC yang menekankan riset, desain, dan pengembangan produk untuk mengurangi cacat."
+                },
+                {
+                  "term": "100% inspection",
+                  "definition": "Metode menilai seluruh bagian produk untuk menghilangkan kekurangan."
+                },
+                {
+                  "term": "Key visual",
+                  "definition": "Tema grafis yang muncul di seluruh materi iklan: warna, huruf, layout, dan elemen grafik."
+                },
+                {
+                  "term": "Gantt chart",
+                  "definition": "Perangkat perencanaan dan monitoring proyek berisi tugas, pelaksana, waktu, dan target."
+                },
+                {
+                  "term": "Form revisi",
+                  "definition": "Dokumen cetak atau digital untuk mencatat bagian yang perlu direvisi beserta rekomendasinya."
+                },
+                {
+                  "term": "Major revision",
+                  "definition": "Perbaikan mendasar dan banyak sehingga memengaruhi jadwal produksi."
+                },
+                {
+                  "term": "Minor revision",
+                  "definition": "Perbaikan kecil dan teknis yang dapat dikerjakan cepat."
+                },
+                {
+                  "term": "Test screening",
+                  "definition": "Pemutaran pratinjau sebelum rilis untuk mengukur reaksi penonton."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menjaga mutu di setiap tahap"
+            },
+            {
+              "type": "paragraph",
+              "text": "Quality control adalah proses yang dilakukan perusahaan untuk memastikan produknya berkualitas, meminimalisasi kesalahan manajemen dan staf, serta mengontrol efektivitas waktu dan efisiensi biaya."
+            },
+            {
+              "type": "paragraph",
+              "text": "QC dapat dikembangkan untuk tingkat perusahaan, divisi, maupun produk individu agar standar kualitas tetap terjaga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Manfaat QC: membangun reputasi, membangun kepercayaan stakeholder, meningkatkan hubungan dengan konsumen, dan menciptakan otomatisasi kerja."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-6-quality-control-diagram",
+              "engine": "mermaid",
+              "title": "Empat manfaat quality control",
+              "code": "flowchart TB\n  A[Quality control] --> B[Membangun reputasi]\n  A --> C[Kepercayaan stakeholder]\n  A --> D[Hubungan baik dengan konsumen]\n  A --> E[Otomatisasi dan delegasi tugas]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "QC ibarat saringan: kesalahan dibuang di tahap awal agar tidak menumpuk dan menghabiskan biaya di tahap akhir."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-6-quality-control-cp-1",
+              "question": "Quality control bertujuan untuk…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "memastikan produk sesuai standar kualitas",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "mempercepat produksi tanpa standar"
+                },
+                {
+                  "id": "c2",
+                  "text": "menaikkan harga produk"
+                },
+                {
+                  "id": "c3",
+                  "text": "mengurangi jumlah karyawan"
+                }
+              ],
+              "explanation": "QC menjaga mutu dan konsistensi produk."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Metode quality control",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 6 Quality Control Produksi Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## X-bar R chart, Taguchi, dan 100% inspection\n\nX-bar R chart adalah chart control untuk data variabel. Variabel X menunjukkan produk yang diuji, variabel Y menunjukkan sejauh mana varian produk dapat diterima sehingga kecacatan acak atau sistematis dapat diketahui.\n\nMetode Taguchi menekankan peran penelitian dan pengembangan, desain produk, serta pengembangan produk untuk mengurangi cacat dan kegagalan.\n\nMetode 100% inspection menilai seluruh bagian produk untuk menghilangkan kekurangan; pada praktiknya perusahaan besar mencapai sekitar 80% yang mendekati 100%.\n\nPemilihan metode bergantung pada jenis produk dan industrinya; industri animasi memerlukan QC agar gambar dan kualitas animasi konsisten.\n\n| Metode | Penekanan | Ciri khas |\n|---|---|---|\n| X-bar R chart | Stabilitas proses | Grafik variabel X dan Y |\n| Taguchi | Riset dan desain produk | Mengurangi cacat sejak desain |\n| 100% inspection | Pemeriksaan menyeluruh | Menilai semua bagian produk |\n\n### Penerapan pada produksi animasi\n\n- Manajemen produksi mengawasi seluruh jadwal, menyeimbangkan kebutuhan departemen, dan menunjuk project leader.\n- Key visual adalah tema grafis yang muncul di seluruh materi iklan, mencakup warna, huruf, layout, dan elemen grafik.\n- Gantt chart membantu tim memahami hubungan antartugas, status shot, priority shot, dan memprediksi keterlambatan.\n- Form revisi menghasilkan major revision (mendasar, memengaruhi jadwal) dan minor revision (kecil dan teknis).\n- Test screening adalah pemutaran pratinjau sebelum rilis untuk mengukur reaksi penonton.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "X-bar R chart, Taguchi, dan 100% inspection"
+            },
+            {
+              "type": "paragraph",
+              "text": "X-bar R chart adalah chart control untuk data variabel. Variabel X menunjukkan produk yang diuji, variabel Y menunjukkan sejauh mana varian produk dapat diterima sehingga kecacatan acak atau sistematis dapat diketahui."
+            },
+            {
+              "type": "paragraph",
+              "text": "Metode Taguchi menekankan peran penelitian dan pengembangan, desain produk, serta pengembangan produk untuk mengurangi cacat dan kegagalan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Metode 100% inspection menilai seluruh bagian produk untuk menghilangkan kekurangan; pada praktiknya perusahaan besar mencapai sekitar 80% yang mendekati 100%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pemilihan metode bergantung pada jenis produk dan industrinya; industri animasi memerlukan QC agar gambar dan kualitas animasi konsisten."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Metode",
+                  "Penekanan",
+                  "Ciri khas"
+                ],
+                [
+                  "X-bar R chart",
+                  "Stabilitas proses",
+                  "Grafik variabel X dan Y"
+                ],
+                [
+                  "Taguchi",
+                  "Riset dan desain produk",
+                  "Mengurangi cacat sejak desain"
+                ],
+                [
+                  "100% inspection",
+                  "Pemeriksaan menyeluruh",
+                  "Menilai semua bagian produk"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-6-metode",
+              "engine": "mermaid",
+              "title": "Tiga tipe metode quality control",
+              "code": "flowchart TB\n  A[Quality control] --> B[X-bar R chart: kestabilan proses]\n  A --> C[Taguchi: riset dan desain produk]\n  A --> D[100% inspection: periksa seluruh bagian]\n  B --> E[Deteksi cacat acak atau sistematis]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-6-klasifikasi",
+              "prompt": "Kelompokkan pernyataan sesuai metode quality control.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "X-bar R chart"
+                },
+                {
+                  "id": "b2",
+                  "label": "Taguchi"
+                },
+                {
+                  "id": "b3",
+                  "label": "100% inspection"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Memakai grafik variabel X dan Y",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Menekankan riset dan desain produk",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Memeriksa seluruh bagian produk",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i4",
+                  "text": "Mengetahui cacat acak atau sistematis",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i5",
+                  "text": "Mengurangi cacat sejak tahap desain",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Menghilangkan kekurangan pada produk",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Setiap metode punya fokus pemeriksaan yang berbeda.",
+                "wrong": "Ingat: chart untuk proses, Taguchi untuk desain, 100% untuk keseluruhan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Penerapan pada produksi animasi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Manajemen produksi mengawasi seluruh jadwal, menyeimbangkan kebutuhan departemen, dan menunjuk project leader.",
+                "Key visual adalah tema grafis yang muncul di seluruh materi iklan, mencakup warna, huruf, layout, dan elemen grafik.",
+                "Gantt chart membantu tim memahami hubungan antartugas, status shot, priority shot, dan memprediksi keterlambatan.",
+                "Form revisi menghasilkan major revision (mendasar, memengaruhi jadwal) dan minor revision (kecil dan teknis).",
+                "Test screening adalah pemutaran pratinjau sebelum rilis untuk mengukur reaksi penonton."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-6-quality-control-cp-2",
+              "question": "Perangkat perencanaan dan monitoring proyek animasi disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Gantt chart",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "key visual"
+                },
+                {
+                  "id": "c2",
+                  "text": "form revisi"
+                },
+                {
+                  "id": "c3",
+                  "text": "test screening"
+                }
+              ],
+              "explanation": "Gantt chart memetakan tugas, pelaksana, dan target waktu."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 6 Quality Control Produksi Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Mengendalikan mutu produksi\n\nSetiap tahap menghasilkan output: praproduksi menghasilkan naskah dan desain, produksi menghasilkan karakter dan adegan, pascaproduksi menghasilkan film utuh.\n\nMajor revision sangat dihindari; sebaiknya revisi mendasar terjadi di tahap praproduksi agar tidak menghabiskan waktu dan biaya.\n\nTanggung jawab mengisi form revisi berada pada project leader, lead animator, koordinator, bahkan pelanggan sesuai kesepakatan dengan merujuk key visual.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengendalikan mutu produksi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Setiap tahap menghasilkan output: praproduksi menghasilkan naskah dan desain, produksi menghasilkan karakter dan adegan, pascaproduksi menghasilkan film utuh."
+            },
+            {
+              "type": "paragraph",
+              "text": "Major revision sangat dihindari; sebaiknya revisi mendasar terjadi di tahap praproduksi agar tidak menghabiskan waktu dan biaya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tanggung jawab mengisi form revisi berada pada project leader, lead animator, koordinator, bahkan pelanggan sesuai kesepakatan dengan merujuk key visual."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-6-skenario",
+              "title": "Episode jadi tetapi tidak konsisten",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Animasi proyekmu hampir selesai, tetapi banyak adegan tidak sesuai standar visual. Apa langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Memeriksa adegan memakai form revisi dan key visual acuan",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "QC dengan acuan key visual menjaga konsistensi."
+                    },
+                    {
+                      "text": "Mengirim hasil ke klien apa adanya",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa QC, produk gagal memenuhi standar dan merusak reputasi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Revisi apa yang perlu diprioritaskan?",
+                  "choices": [
+                    {
+                      "text": "Merapikan bagian kecil dan teknis lebih dulu (minor revision)",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Minor revision cepat dan tidak mengganggu jadwal."
+                    },
+                    {
+                      "text": "Mengulang seluruh isi film dari awal",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Major revision menghabiskan waktu dan biaya."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Klien menolak hasil; proyek harus diulang dan jadwal molor.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Kualitas animasi terjaga dan proyek diterima klien.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-6-quality-control-kartu",
+              "cards": [
+                {
+                  "front": "Apa empat manfaat quality control?",
+                  "back": "Reputasi, kepercayaan stakeholder, hubungan konsumen, otomatisasi."
+                },
+                {
+                  "front": "Apa itu Gantt chart?",
+                  "back": "Perangkat perencanaan dan monitoring proyek animasi."
+                },
+                {
+                  "front": "Apa beda major dan minor revision?",
+                  "back": "Major bersifat mendasar dan memengaruhi jadwal; minor kecil dan teknis."
+                },
+                {
+                  "front": "Apa itu test screening?",
+                  "back": "Pemutaran pratinjau sebelum rilis untuk mengukur reaksi penonton."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-6-quality-control-cp-3",
+              "question": "Tema grafis yang muncul di seluruh materi iklan disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "key visual",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Gantt chart"
+                },
+                {
+                  "id": "c2",
+                  "text": "form revisi"
+                },
+                {
+                  "id": "c3",
+                  "text": "storyboard"
+                }
+              ],
+              "explanation": "Key visual mencakup warna, huruf, layout, dan elemen grafik."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-6-tantangan",
+              "title": "Tantangan istilah quality control",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Grafik pengendalian mutu proses produksi",
+                  "answer": "X-bar R chart"
+                },
+                {
+                  "question": "Metode QC berfokus pada riset dan desain",
+                  "answer": "Taguchi"
+                },
+                {
+                  "question": "Pemeriksaan seluruh bagian produk",
+                  "answer": "100% inspection"
+                },
+                {
+                  "question": "Perangkat monitoring jadwal proyek",
+                  "answer": "Gantt chart"
+                },
+                {
+                  "question": "Pemutaran pratinjau sebelum rilis",
+                  "answer": "Test screening"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah quality control terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Quality Control Produksi Animasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Quality control merupakan proses untuk…",
+              "options": [
+                {
+                  "text": "memastikan produk dibuat sesuai standar kualitas",
+                  "correct": true
+                },
+                {
+                  "text": "menaikkan harga produk"
+                },
+                {
+                  "text": "mempercepat distribusi"
+                },
+                {
+                  "text": "menambah jumlah karyawan"
+                }
+              ],
+              "explanation": "QC meminimalisasi kesalahan.",
+              "hint": "Mengontrol waktu dan biaya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu manfaat quality control adalah…",
+              "options": [
+                {
+                  "text": "membangun reputasi perusahaan",
+                  "correct": true
+                },
+                {
+                  "text": "menambah hutang"
+                },
+                {
+                  "text": "mengurangi konsumen"
+                },
+                {
+                  "text": "menghapus merek"
+                }
+              ],
+              "explanation": "Produk konsisten membangun reputasi.",
+              "hint": "Juga membangun kepercayaan stakeholder."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Metode yang memakai grafik variabel X dan Y adalah…",
+              "options": [
+                {
+                  "text": "X-bar R chart",
+                  "correct": true
+                },
+                {
+                  "text": "Taguchi"
+                },
+                {
+                  "text": "100% inspection"
+                },
+                {
+                  "text": "test screening"
+                }
+              ],
+              "explanation": "X produk diuji, Y penerimaan varian.",
+              "hint": "Mendeteksi cacat acak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat quality control?",
+              "options": [
+                {
+                  "text": "Membangun reputasi",
+                  "correct": true
+                },
+                {
+                  "text": "Kepercayaan stakeholder",
+                  "correct": true
+                },
+                {
+                  "text": "Hubungan baik dengan konsumen",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah kesalahan",
+                  "correct": false
+                },
+                {
+                  "text": "Mengurangi mutu",
+                  "correct": false
+                },
+                {
+                  "text": "Menghapus standar",
+                  "correct": false
+                }
+              ],
+              "explanation": "QC menjaga mutu dan kepercayaan.",
+              "hint": "Mutu terjaga menghasilkan manfaat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tipe metode quality control?",
+              "options": [
+                {
+                  "text": "X-bar R chart",
+                  "correct": true
+                },
+                {
+                  "text": "Taguchi",
+                  "correct": true
+                },
+                {
+                  "text": "100% inspection",
+                  "correct": true
+                },
+                {
+                  "text": "Storyboard",
+                  "correct": false
+                },
+                {
+                  "text": "Keyframe",
+                  "correct": false
+                },
+                {
+                  "text": "Dubbing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga metode pengendalian mutu.",
+              "hint": "Lainnya istilah produksi."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Quality Control Produksi Animasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Metode QC yang menekankan riset dan desain produk adalah…",
+              "options": [
+                {
+                  "text": "Taguchi",
+                  "correct": true
+                },
+                {
+                  "text": "X-bar R chart"
+                },
+                {
+                  "text": "100% inspection"
+                },
+                {
+                  "text": "form revisi"
+                }
+              ],
+              "explanation": "Fokus mengurangi cacat sejak desain.",
+              "hint": "Memastikan kesesuaian spesifikasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Metode yang memeriksa seluruh bagian produk disebut…",
+              "options": [
+                {
+                  "text": "100% inspection",
+                  "correct": true
+                },
+                {
+                  "text": "sampling acak"
+                },
+                {
+                  "text": "Taguchi"
+                },
+                {
+                  "text": "Gantt chart"
+                }
+              ],
+              "explanation": "Semua bagian dinilai.",
+              "hint": "Angka 80% mendekati 100%."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri X-bar R chart?",
+              "options": [
+                {
+                  "text": "Untuk data variabel",
+                  "correct": true
+                },
+                {
+                  "text": "Menguji kestabilan proses",
+                  "correct": true
+                },
+                {
+                  "text": "Menunjukkan varian yang diterima",
+                  "correct": true
+                },
+                {
+                  "text": "Memeriksa seluruh produk",
+                  "correct": false
+                },
+                {
+                  "text": "Menekankan desain",
+                  "correct": false
+                },
+                {
+                  "text": "Membuat jadwal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Chart memantau kestabilan proses.",
+              "hint": "Variabel X dan Y terlihat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah perangkat manajemen produksi animasi?",
+              "options": [
+                {
+                  "text": "Manajemen produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Gantt chart",
+                  "correct": true
+                },
+                {
+                  "text": "Form revisi",
+                  "correct": true
+                },
+                {
+                  "text": "Kamera video",
+                  "correct": false
+                },
+                {
+                  "text": "Mic karaoke",
+                  "correct": false
+                },
+                {
+                  "text": "Speaker aktif",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perangkat disiapkan sebelum produksi.",
+              "hint": "Alat-alat lain bukan manajemen."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Quality control",
+                  "right": "menjaga standar kualitas"
+                },
+                {
+                  "id": "m1",
+                  "left": "X-bar R chart",
+                  "right": "grafik kestabilan proses"
+                },
+                {
+                  "id": "m2",
+                  "left": "Taguchi",
+                  "right": "riset dan desain produk"
+                },
+                {
+                  "id": "m3",
+                  "left": "100% inspection",
+                  "right": "periksa seluruh bagian"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "menjaga standar kualitas",
+                  "m1": "grafik kestabilan proses",
+                  "m2": "riset dan desain produk",
+                  "m3": "periksa seluruh bagian"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan penerapan QC dalam produksi animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyusun manajemen produksi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menetapkan key visual"
+                },
+                {
+                  "id": "d2",
+                  "text": "Membuat Gantt chart"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mengisi form revisi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Melakukan test screening"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Manajemen disiapkan pertama.",
+              "hint": "Test screening menutup QC."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan penanganan temuan QC.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mencatat temuan di form revisi"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menentukan major atau minor"
+                },
+                {
+                  "id": "p2",
+                  "text": "Merevisi aset"
+                },
+                {
+                  "id": "p3",
+                  "text": "Memeriksa ulang hasil"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menyetujui hasil akhir"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Temuan dicatat dulu.",
+              "hint": "Persetujuan menutup proses."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gantt chart berfungsi untuk…",
+              "options": [
+                {
+                  "text": "perencanaan dan monitoring proyek",
+                  "correct": true
+                },
+                {
+                  "text": "mewarnai karakter"
+                },
+                {
+                  "text": "membuat musik"
+                },
+                {
+                  "text": "mencetak tiket"
+                }
+              ],
+              "explanation": "Menunjukkan posisi pekerjaan dan target.",
+              "hint": "Membantu mengalokasikan sumber daya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Key visual mencakup komponen…",
+              "options": [
+                {
+                  "text": "warna, huruf, layout, dan elemen grafik",
+                  "correct": true
+                },
+                {
+                  "text": "anggaran dan jadwal"
+                },
+                {
+                  "text": "gaji dan kontrak"
+                },
+                {
+                  "text": "stok dan gudang"
+                }
+              ],
+              "explanation": "Tema grafis di seluruh materi iklan.",
+              "hint": "Menjadi acuan produksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komponen key visual?",
+              "options": [
+                {
+                  "text": "Warna dan huruf",
+                  "correct": true
+                },
+                {
+                  "text": "Layout",
+                  "correct": true
+                },
+                {
+                  "text": "Elemen grafik",
+                  "correct": true
+                },
+                {
+                  "text": "Gaji pegawai",
+                  "correct": false
+                },
+                {
+                  "text": "Harga sewa",
+                  "correct": false
+                },
+                {
+                  "text": "Biaya listrik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Key visual berupa tema grafis.",
+              "hint": "Bukan komponen biaya."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Quality Control Produksi Animasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Major revision adalah revisi yang…",
+              "options": [
+                {
+                  "text": "bersifat mendasar dan memengaruhi jadwal produksi",
+                  "correct": true
+                },
+                {
+                  "text": "kecil dan teknis"
+                },
+                {
+                  "text": "hanya kosmetik"
+                },
+                {
+                  "text": "tidak perlu dilakukan"
+                }
+              ],
+              "explanation": "Sebaiknya terjadi di praproduksi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Minor revision bersifat…",
+              "options": [
+                {
+                  "text": "perbaikan kecil dan teknis yang cepat",
+                  "correct": true
+                },
+                {
+                  "text": "perbaikan menyeluruh"
+                },
+                {
+                  "text": "penulisan ulang naskah"
+                },
+                {
+                  "text": "penggantian seluruh tim"
+                }
+              ],
+              "explanation": "Contohnya perbaikan aset animasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Test screening dilakukan untuk…",
+              "options": [
+                {
+                  "text": "mengukur reaksi penonton sebelum rilis",
+                  "correct": true
+                },
+                {
+                  "text": "menghitung pajak"
+                },
+                {
+                  "text": "menaikkan harga"
+                },
+                {
+                  "text": "merekrut staf"
+                }
+              ],
+              "explanation": "Pemutaran pratinjau film."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manajemen produksi bertugas…",
+              "options": [
+                {
+                  "text": "mengawasi jadwal dan kebutuhan seluruh departemen",
+                  "correct": true
+                },
+                {
+                  "text": "menggambar semua karakter"
+                },
+                {
+                  "text": "membuat musik"
+                },
+                {
+                  "text": "menjual produk"
+                }
+              ],
+              "explanation": "Menyeimbangkan dan memprioritaskan kebutuhan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan antartugas dan status shot dapat dipahami melalui…",
+              "options": [
+                {
+                  "text": "Gantt chart",
+                  "correct": true
+                },
+                {
+                  "text": "key visual"
+                },
+                {
+                  "text": "flashcard"
+                },
+                {
+                  "text": "test screening"
+                }
+              ],
+              "explanation": "Gantt chart juga menunjukkan priority shot."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri major revision?",
+              "options": [
+                {
+                  "text": "Bersifat mendasar",
+                  "correct": true
+                },
+                {
+                  "text": "Banyak perbaikan",
+                  "correct": true
+                },
+                {
+                  "text": "Memengaruhi jadwal",
+                  "correct": true
+                },
+                {
+                  "text": "Perbaikan kecil",
+                  "correct": false
+                },
+                {
+                  "text": "Bisa dikerjakan cepat",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak menambah waktu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Major revision berisiko waktu dan biaya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri minor revision?",
+              "options": [
+                {
+                  "text": "Perbaikan teknis kecil",
+                  "correct": true
+                },
+                {
+                  "text": "Cepat dikerjakan",
+                  "correct": true
+                },
+                {
+                  "text": "Contohnya perbaikan aset",
+                  "correct": true
+                },
+                {
+                  "text": "Menulis ulang naskah",
+                  "correct": false
+                },
+                {
+                  "text": "Mengulang produksi",
+                  "correct": false
+                },
+                {
+                  "text": "Mengganti seluruh tim",
+                  "correct": false
+                }
+              ],
+              "explanation": "Minor revision ringan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Key visual",
+                  "right": "tema grafis iklan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Gantt chart",
+                  "right": "monitoring jadwal proyek"
+                },
+                {
+                  "id": "m2",
+                  "left": "Major revision",
+                  "right": "perbaikan mendasar"
+                },
+                {
+                  "id": "m3",
+                  "left": "Test screening",
+                  "right": "pratinjau sebelum rilis"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tema grafis iklan",
+                  "m1": "monitoring jadwal proyek",
+                  "m2": "perbaikan mendasar",
+                  "m3": "pratinjau sebelum rilis"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat Gantt chart.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mendaftar tugas produksi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menentukan pelaksana"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menentukan waktu awal"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menetapkan target selesai"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memantau progres"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Tugas didata dulu."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pengembangan key visual.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Diskusi ide dengan konsumen"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menciptakan solusi kreatif"
+                },
+                {
+                  "id": "p2",
+                  "text": "Presentasi desain"
+                },
+                {
+                  "id": "p3",
+                  "text": "Adaptasi dan penyempurnaan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Kesepakatan key visual"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Ide berawal dari konsumen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dokumen untuk mencatat bagian yang perlu diperbaiki disebut…",
+              "options": [
+                {
+                  "text": "form revisi",
+                  "correct": true
+                },
+                {
+                  "text": "storyboard"
+                },
+                {
+                  "text": "Gantt chart"
+                },
+                {
+                  "text": "key visual"
+                }
+              ],
+              "explanation": "Berisi keterangan dan rekomendasi revisi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Quality control pada animasi bertujuan agar…",
+              "options": [
+                {
+                  "text": "gambar dan kualitas animasi konsisten",
+                  "correct": true
+                },
+                {
+                  "text": "warna sesuka hati"
+                },
+                {
+                  "text": "jumlah episode bertambah"
+                },
+                {
+                  "text": "biaya naik"
+                }
+              ],
+              "explanation": "QC menjaga konsistensi visual."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tujuan manajemen produksi?",
+              "options": [
+                {
+                  "text": "Mengawasi jadwal produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Menyeimbangkan kebutuhan departemen",
+                  "correct": true
+                },
+                {
+                  "text": "Memprioritaskan pekerjaan",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus standar mutu",
+                  "correct": false
+                },
+                {
+                  "text": "Mengabaikan tenggat",
+                  "correct": false
+                },
+                {
+                  "text": "Menutup studio",
+                  "correct": false
+                }
+              ],
+              "explanation": "Manajemen menjaga produksi tepat waktu."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Quality control",
+                  "right": "menjaga standar kualitas"
+                },
+                {
+                  "id": "m1",
+                  "left": "X-bar R chart",
+                  "right": "grafik kestabilan proses"
+                },
+                {
+                  "id": "m2",
+                  "left": "Taguchi",
+                  "right": "riset dan desain produk"
+                },
+                {
+                  "id": "m3",
+                  "left": "100% inspection",
+                  "right": "periksa seluruh bagian"
+                },
+                {
+                  "id": "m4",
+                  "left": "Key visual",
+                  "right": "tema grafis iklan"
+                },
+                {
+                  "id": "m5",
+                  "left": "Gantt chart",
+                  "right": "monitoring jadwal proyek"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "menjaga standar kualitas",
+                  "m1": "grafik kestabilan proses",
+                  "m2": "riset dan desain produk",
+                  "m3": "periksa seluruh bagian",
+                  "m4": "tema grafis iklan",
+                  "m5": "monitoring jadwal proyek"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pemanfaatan hasil test screening.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pemutaran pratinjau"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mencatat reaksi penonton"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menganalisis masukan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Memperbaiki bagian lemah"
+                },
+                {
+                  "id": "d4",
+                  "text": "Merilis versi final"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pratinjau menghasilkan masukan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

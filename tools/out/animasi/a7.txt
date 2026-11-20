@@ -1,0 +1,1503 @@
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI 
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Animasi 
+untuk SMK/MAK Kelas X
+Penulis: Nina Tri Daniati, Rida Mulyadi, Agus Nugroho 
+ISBN: 978-623-194-442-9 (no.jil.lengkap PDF)
+ 
+978-623-194-443-6 (jil.1 PDF)
+B
+A
+B
+Aplikasi Berbasis Teknologi 
+untuk Kebutuhan Industri 
+Animasi
+7
+Tahukah kamu salah satu profesi yang sangat dibutuhkan dan dikenal masyarakat dalam 
+industri animasi? Ya, betul, jawabannya adalah animator. Seperti yang sudah kamu ketahui 
+sebelumnya, animator adalah orang yang membuat ilusi gerak animasi yang menarik dan 
+lucu sehingga dapat memikat hati penonton. Dalam perkembangannya, produksi animasi 
+telah menggunakan berbagai perangkat digital dengan aplikasi khusus animasi. Nah, 
+aplikasi animasi tersebut harus sudah kamu kuasai ketika terjun menjadi seorang animator. 
+Aplikasi animasi apa yang harus kamu kuasai penggunaannya? Bagaimana cara kamu 
+menggunakan aplikasi untuk membuat animasi dua dimensi dan tiga dimensi? Pertanyaan 
+tersebut dapat kamu jawab setelah mempelajari materi bab ini. Jika sudah menguasainya 
+aplikasi berbasis teknologi dengan baik, kamu sudah siap untuk terjun ke industri animasi. 
+Ga
+mb
+ar 
+7.1
+ A
+ni
+ma
+to
+r 2
+ di
+me
+ns
+i    
+Sum
+ber
+: Fo
+x &
+ Co
+/ fo
+xan
+dco
+.de
+sign
+ (20
+19)
+
+168
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Pertanyaan Pemantik
+1. 
+Aplikasi apa saja yang harus dikuasai oleh seorang animator?
+2. 
+Apakah kamu ingin menguasai aplikasi animasi 2 dimensi? 
+3. 
+Apakah kamu ingin menguasai aplikasi animasi 3 dimensi? 
+Tujuan Pembelajaran
+Setelah mengikuti pembelajaran ini, kamu diharapkan mampu:
+1. 
+menyebutkan aplikasi animasi,
+2. 
+menguasai dasar aplikasi animasi 2 dimensi, dan
+3. 
+menguasai dasar aplikasi animasi 3 dimensi. 
+Kata Kunci
+After Effect, aplikasi animasi, aplikasi animasi 2 dimensi, aplikasi animasi 
+3 dimensi, blender, photoshop
+Peta Konsep
+Aplikasi 
+Berbasis 
+Teknologi 
+untuk 
+Kebutuhan 
+Industri 
+Animasi
+Tujuan Pembelajaran
+1. menyebutkan aplikasi animasi,
+2. menguasai dasar aplikasi animasi 2 
+dimensi, dan 
+3. menguasai dasar aplikasi 
+animasi 3 dimensi. 
+1. Aplikasi Animasi 2 Dimensi
+2. Aplikasi Animasi 3 Dimensi
+1. Menguasai Dasar Aplikasi Photoshop
+2. Melakukan Inking
+3. Melakukan Clean Up
+4. Melakukan Coloring
+5. Melakukan Group Layer dan Merge Layer
+6. Menguasai Dasar Aplikasi After Effect
+1. Mencermati Antarmuka Blender
+2. Navigasi pada 3D Viewport
+3. Mode Shading Model 3D 
+4. Menambahkan dan Menghapus Objek 3D
+5. Memanipulasi Objek 3D Menggunakan  
+Move, Rotate, dan Scale
+6. Manipulasi Objek 3D dengan Edit Mode
+7. Memberikan Material atau Texturing
+8. Menambahkan Pencahayaan (Lighting)
+9. Pengaturan Kamera
+10. Melakukan Rendering
+A. Pengenalan Aplikasi Animasi
+B. Menguasai Dasar Aplikasi 
+Animasi 2 Dimensi
+C. Menguasai Dasar Aplikasi 
+Animasi 3 Dimensi
+
+169
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+A. Pengenalan Aplikasi Animasi
+Animasi telah digunakan di berbagai media, mulai dari film, games, iklan, hingga 
+pendidikan. Dulu, pembuatan animasi hanya menggunakan pensil, cat, dan 
+kertas. Dalam perkembangannya, penggunaan perangkat digital dan berbagai 
+aplikasi semakin tak terbantahkan. Bahkan, hal tersebut telah membuka peluang 
+dan kesempatan baru untuk para seniman digital atau animator.  
+Animator merupakan bagian dari digital artist yang memiliki kompetensi 
+konsep desain, menggambar, dan kreativitas. Dalam mewujudkan karya seninya, 
+animator menggunakan perangkat dan aplikasi. Apa saja aplikasi yang biasa 
+digunakan oleh animator di era sekarang? Berikut ini penjelasan secara terperinci 
+mengenai aplikasi dalam pembuatan animasi. 
+1. Aplikasi Animasi 2 Dimensi
+a. 
+Adobe Animate 
+Adobe Animate merupakan aplikasi untuk membuat animasi kartun, 
+iklan, game, konten interaktif yang dapat dipublikasikan ke HTML5, 
+Canvas, Flash Player & Air, WebGL, dan Snap SVG. Film animasi yang 
+diproduksi dengan aplikasi Adobe Animate ini adalah My Little Pony: 
+Equestria Girls – Rainbow Rocks (2014), Lu Over the Wall (2017), dan 
+Arlo the Alligator Boy (2021). 
+b. 
+Toon Boom Harmony
+Toon Boom Harmony merupakan aplikasi untuk animasi seri televisi, 
+film animasi, dan animasi game. Aplikasi Toon Boom menyediakan fitur 
+menggambar, mewarnai, serta animasi untuk paperless dan animasi 
+cut-out. Film Animasi yang diproduksi dengan aplikasi Toon Boom 
+adalah Star vs the Forces of Evil (2015), Weathering with You (2019), dan 
+The Bob’s Burgers Movie (2022). 
+c. 
+TVPaint
+TVPaint merupakan aplikasi animasi berbasis bitmap. Dengan berbasis 
+bitmap, animasi dapat merepresentasikan media seni alami dengan 
+lebih mudah. Film Animasi yang diproduksi dengan aplikasi TVPaint 
+adalah Dawgtown (2018), Green Eggs and Ham series (2018), dan Tonko 
+House’s (2016).
+d. 
+After Effect
+Adobe After Effect merupakan aplikasi untuk membuat motion graphic, 
+Visual FX, konten online, dan presentasi. After Effect utamanya digunakan 
+untuk tiga kategori, yaitu animasi, efek, dan compositing. 
+
+170
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Selain aplikasi tersebut, aplikasi lainnya untuk membuat animasi 2 
+dimensi di antaranya Cartoon Animator, Character Animator, Photoshop, 
+Dragonframe, FlipBook, Moho Pro, OpenToonz, Pencil2D, Synfig Studio, 
+dan Tupitube. Selain animasi yang berbasis aplikasi komputer, ada juga 
+aplikasi animasi 2 dimensi  yang berbasis web sehingga dapat digunakan 
+melalui aplikasi peramban seperti Chrome, Microsoft Edge, dan Firefox. 
+Adapun aplikasi animasi berbasis web adalah Doodly, Vyond, Videoscribe, 
+Animaker, Powtoon, Biteable, dan GoAnimate.
+Dengan perkembangan teknologi yang pesat, pembuatan animasi dapat 
+menggunakan perangkat android sehingga dapat membuat karya animasi 
+di mana pun. Aplikasi animasi berbasis android di antaranya FlipaClip, 
+Animation Desk, Draw Cartoons, PicsArt, dan Animoto.
+Untuk menjalankan aplikasi 2 dimensi, kamu juga harus mempersiapkan 
+perangkat yang sesuai. Setiap aplikasi pasti mempunyai spesifikasi minimal 
+agar aplikasi tersebut dapat berjalan dengan baik. Berikut ini merupakan 
+spesifikasi perangkat salah satu aplikasi animasi 2 dimensi (After Effect). 
+Tabel 7.1
+Persyaratan sistem untuk menjalankan aplikasi After Effect 2022
+Spesifikasi
+Minimal
+Rekomendasi
+Prosesor
+Intel or AMD Quad-
+Core Processor
+8-Core atau di atasnya
+Sistem operasi
+Windows 10 (64 bit)
+Windows 10 (64 bit)
+RAM
+RAM 16 GB 
+Rekomendasi 32 GB 
+GPU
+VRAM 2 GB 
+VRAM 4GB atau lebih 
+Media penyimpanan
+15 GB 
+Rekomendasi 64 GB atau 
+lebih untuk cache
+Resolusi
+1920 x 1080
+1920x1080 atau lebih
+Sumber: Adobe/helpx.adobe.com (2022)
+Eksplorasi 7.1
+Ketika menggunakan aplikasi After Effect, perangkat komputermu harus 
+sesuai agar aplikasi tersebut berjalan dengan baik. Sekarang, periksalah 
+spesifikasi komputer yang ada di sekolahmu atau di rumahmu agar dapat 
+menggunakan aplikasi animasi dua dimensi, yakni After Effect, dengan 
+baik. Untuk memudahkanmu mengerjakannya, catatlah dalam format 
+tabel berikut. 
+
+171
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+ 
+Tabel 7.2 Perbandingan spesifikasi komputer 2 dimensi
+Spesifikasi 
+Minimal
+Komputer
+Kesesuaian
+Pribadi
+Sekolah
+Ya
+Tidak
+Prosesor
+Sistem operasi
+RAM
+GPU
+Media 
+penyimpanan
+Resolusi Layar
+Eksplorasi 7.2
+Pada aktivitas sebelumnya, kamu sudah memeriksa spesifikasi komputer 
+yang ada di sekolahmu atau di rumahmu. Jika spesifikasi minimal sudah 
+terpenuhi, langkah selanjutnya adalah melakukan instalasi aplikasi animasi 
+2 dimensi, yakni Adobe Animate. 
+Agar dapat terinstal dengan baik, ikutilah langkah langkah berikut. 
+1. 
+Nyalakan komputer atau laptopmu.
+2. 
+Sambungkan koneksi internet.
+3. 
+Buka laman https://www.adobe.com/creativecloud/video.html.
+4. 
+Sign in menggunakan akun belajar.id atau buat akun.
+5. 
+Pilih Adobe After Effect kemudian tekan Start Free Trial.
+6. 
+Selanjutnya, ikuti instruksi instalasi sampai selesai.
+2. Aplikasi Animasi 3 Dimensi
+Kamu sudah mengetahui aplikasi untuk animasi 2 dimensi. Sekarang, kamu 
+akan mengenal berbagai aplikasi animasi untuk 3 dimensi. Apa saja aplikasi 
+yang sering digunakan? 
+a. 
+Autodesk Maya
+Maya merupakan software 3D profesional untuk menciptakan karakter 
+yang realistik, detail, dan berkualitas. Aplikasi ini dilengkapi tools dan 
+effect yang menarik, seperti ledakan dan simulasi kain. 
+b. 
+Autodesk 3ds Max
+3ds Max merupakan aplikasi profesional modeling 3D, render, dan 
+animasi dengan tools yang mudah digunakan. Aplikasi ini memiliki 
+fitur automates, dan desain antarmuka yang mudah.
+
+172
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+c. 
+Blender
+Blender merupakan aplikasi 3D yang gratis dan memiliki fitur lengkap, 
+seperti rendering, modeling, sculpting, animation & rigging, VFX, video 
+editing, dan simulasi.
+d. 
+Cinema 4D
+Cinema 4D merupakan aplikasi 3D yang memiliki fitur OCIO color 
+management, capture 3D models, sculpting, dan fitur standar lainnya 
+sebagai aplikasi 3D yang menghasilkan hasil yang memukau.
+Selain keempat aplikasi tersebut, ada juga aplikasi animasi 3 dimensi 
+yang biasa digunakan, yaitu Sketchup, Daz Studio, ZBrush, Houdini, 
+MotionBuilder, CrazyTalk, iClone, Mixamo, LightWave, Akeytsu, Terragen 
+dan Poser. Sementara itu, aplikasi 3d berbasis web di antaranya Tinkercad, 
+Vectary, Third Design, Sculpteo, Selfcad, Clara.io, dan 3D Slash. Adapun 
+aplikasi 3 dimensi yang berbasis android dan iPhone adalah Bot3D Editor, 
+Toontastic 3D, Animate It, Animate Me, Anim8, Plotagon,  dan MJOC2.
+Untuk menjalankan aplikasi 3 dimensi tentu saja dibutuhkan perangkat 
+yang sesuai. Setiap aplikasi pasti mempunyai spesifikasi minimal agar aplikasi 
+tersebut dapat berjalan dengan baik. Berikut ini merupakan spesifikasi 
+perangkat salah satu aplikasi animasi 3 dimensi (Blender).
+Tabel 7.3
+Persyaratan sistem untuk menjalankan aplikasi Blender 
+Spesifikasi
+Minimum
+Rekomendasi
+Prosesor
+4 core 
+8 core
+Ram
+8 Gb
+32 Gb
+GPU
+2 Gb, OpenGL 4.3
+8 Gb
+Input
+Mouse 3 tombol 
+Mouse 3 tombol atau pen 
+tablet
+Resolusi
+-
+2560x1440
+Sumber: blender/blender.org (2022)
+Jika kamu berminat mendalami animasi stop-motion, aplikasi yang 
+direkomendasikan adalah Dragonframe, Stop Motion Studio, Boinx 
+iStopMotion, eclipse Stop Motion Pro, Frames, iKITMovie, dan MonkeyJam. 
+Kamu dapat mencoba menelusuri aplikasi tersebut dalam laman internet. 
+
+173
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+Eksplorasi 7.3
+Kamu sudah mengetahu spesifikasi perangkat komputer agar dapat 
+menjalankan aplikasi 3 dimensi dengan baik. Sekarang, cobalah bandingkan 
+spesifikasi komputer yang ada di sekolahmu dan di rumahmu. Apakah 
+spesifikasi komputer sekolah dan rumahmu bisa menjalankan aplikasi 
+tiga dimensi? Untuk memudahkanmu mengerjakannya, catatlah dalam 
+format tabel berikut. 
+ 
+Tabel 7.4 Perbandingan spesifikasi komputer untuk 3 dimensi
+Spesifikasi 
+Minimal
+Komputer
+Kesesuaian
+Pribadi
+Sekolah
+Ya
+Tidak
+Prosesor
+Sistem operasi
+RAM
+GPU
+Media 
+penyimpanan
+Resolusi Layar
+Eksplorasi 7.4
+Pada aktivitas sebelumnya, kamu sudah memeriksa spesifikasi komputer 
+yang ada di sekolahmu atau di rumahmu. Jika spesifikasi minimal sudah 
+terpenuhi, langkah selanjutnya adalah melakukan instalasi aplikasi animasi 
+3 dimensi, yakni Blender. 
+ 
+Agar dapat terinstal dengan baik, ikutilah langkah langkah berikut. 
+1. 
+Siapkan komputer atau laptop.
+2. 
+Sambungkan koneksi internet.
+3. 
+Buka laman https://www.blender.org/download/.
+4. 
+Klik download Blender.
+5. 
+Buka blender.msi untuk memulai instalasi aplikasi.
+6. 
+Ikuti instruksi instalasi sampai selesai.
+
+174
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+B. Menguasai Dasar Aplikasi Animasi 2 Dimensi
+Penguasaan aplikasi animasi akan membantumu dalam pembuatan karakter, 
+background, storyboard, dan proses lainnya ketika memproduksi animasi. 
+Sekarang, kamu akan menguasai dasar aplikasi animasi 2 dimensi yaitu Photoshop 
+dan After Effect. Selain itu, kamu juga akan membuat proyek animasi 2 dimensi 
+karakter robot dan menguasai dua jenis aplikasi animasi 2 dimensi.
+Photoshop merupakan aplikasi yang menyediakan fitur untuk melukis 
+(painting) dan mengedit warna gambar (image). Dalam hal melukis, Photoshop 
+memiliki fitur brush tool dan pencil tool yang berfungsi sebagai alat menggambar 
+tradisional. Ketika proses produksi animasi 2 dimensi, fitur tersebut berfungsi 
+untuk membuat aset gambar,  seperti membuat karakter, pewarnaan, dan 
+pembuatan animasi.
+1. Menguasai Dasar Aplikasi Photoshop
+Pada aplikasi Photoshop, kamu diharapkan dapat menguasai antarmuka 
+Photoshop; workspace; melakukan inking, clean-up, coloring, group layer, 
+dan merge layer. Setelah itu, kamu dapat membuat aset gambar animasi 2 
+dimensi sendiri. 
+ 
+Hal pertama yang harus kamu perhatikan adalah mencermati tampilan 
+antarmuka Photoshop. Coba kamu perhatikan tampilan berikut. 
+Document 
+window/ Tab
+Toolbar
+Option Bar
+Status Bar
+Expanding 
+Panel
+Panel 
+Group
+ 
+Gambar 7.2 Antarmuka photoshop
+Sumber: Kemendikbudristek/Ridamulyadi (2022)
+
+175
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+Antarmuka (user interface) Photoshop tersebut menggunakan workspace 
+painting. Untuk memilih workspace pada menu bar, pilih Window - 
+Workspace - Painting untuk mengaktifkan workspace painting. Perhatikan 
+gambar berikut.
+ 
+ 
+Gambar 7.3 Pengaturan workspace Photoshop 
+Sumber: Rida Mulyadi/Photoshop
+Pada workspace painting, panel yang aktif adalah sebagai berikut.
+a. 
+Document window/tab: area yang menampilkan gambar (image) yang 
+akan atau sedang diedit, dimanipulasi, dan/atau melakukan kegiatan 
+menggambar, melukis, mewarnai, membuat sketsa, dan memoles gambar.
+b. 
+Toolbar: disebut juga tool pane, yakni tempat berbagai tool untuk 
+melakukan editing gambar, melukis, dan mewarnai.
+c. 
+Option bar: menampilkan pilihan dan pengaturan tool yang dipilih 
+pada toolbar.
+d. 
+Status bar: menampilkan informasi dari gambar dengan berbagai 
+pilihan informasi seperti ukuran fail dokumen, dimensi gambar, dan 
+jumlah layer.
+e. 
+Expanding panels: untuk memperluas toolbar atau panel lainya.
+f. 
+Panel groups: panel-panel yang saling berhubungan dan ditampilkan 
+dalam bentuk tab sehingga dapat menggunakannya dengan cepat dan 
+menghemat ruang.
+2. Melakukan Inking 
+Hal berikutnya adalah inking. Inking dapat dengan mudah kamu lakukan 
+dengan cara berikut.
+a. 
+Persiapkan layer sketsa yang diatur opacity 10% sampai dengan 30%.
+b. 
+Buatlah layer baru untuk melakukan inking.
+c. 
+Lakukan inking dengan menggunakan Brush Tool yang sesuai.
+
+176
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+d. 
+Klik Brush Tool pada toolbar 
+ 
+e. 
+Pilih Brush yang sesuai pada panel Brushes.
+ 
+ 
+Gambar 7.4 Proses digital inking
+Sumber: BaM Animation/youtube.com/c/BaMAnimation (2019)
+3. Melakukan Clean Up
+Berikut ini langkah-langkah yang dapat kamu lakukan ketika 
+melakukan clean up.
+a. 
+Persiapkan layer hasil inking.
+b. 
+Buatlah layer baru untuk melakukan clean up. Rename layer dengan 
+nama outline.
+c. 
+Lakukan clean up menggunakan Brush Tool yang lebih tebal. Kamu juga 
+dapat menggunakan pen tool untuk garis yang lebih panjang.
+ 
+ 
+Gambar 7.5 Proses clean up
+Sumber: BaM Animation/youtube.com/c/BaMAnimation (2021)
+
+177
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+4. Melakukan Coloring
+Berikut ini langkah-langkah yang dapat kamu lakukan ketika 
+melakukan coloring.
+a. 
+Persiapkan layer hasil clean up.
+b. 
+Buatlah layer coloring di bawah layer clean up untuk melakukan coloring 
+pada objek. 
+c. 
+Lakukan coloring dengan menggunakan Brush Tool atau Paint 
+Bucket Tool.
+d. 
+Tambahkan layer untuk shading.
+ 
+ 
+Gambar 7.6 Mewarnai Karakter
+Sumber: BaM Animation/youtube.com/c/BaMAnimation (2018)
+LITERAKSI
+Untuk menambah pengetahuanmu tentang cara 
+melakukan inking, silakan pindai kode QR berikut. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://www.youtube.com/watch?v=4atFicBvhMM 
+melalui peramban gawai atau personal computer-mu. 
+
+178
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Eksplorasi 7.5
+Untuk mengasah kemampuanmu dalam melakukan 
+inking, clean up, dan coloring, cobalah mempraktikkan 
+ketiga hal tersebut pada gambar yang sudah tersedia. 
+Cobalah klik pranala berikut https://drive.google.
+com/file/d/1F9RYph-JcXzaJLJjUsIP3_Z8r22ohVYB/
+view?usp=share_link. Tuntaskan ketiga tahapan tersebut 
+dengan baik. 
+Sebagai tambahan, kamu dapat melihat video tutorial 
+dengan cara memindai kode QR atau mengetikkan 
+pranala berikut https://drive.google.com/drive/ folders/
+1bdhG17lQz3DOnWN78iliUyLFaAbxl5qd? usp=share_link 
+pada perangkat komputermu. 
+5. Melakukan Group Layer dan Merge Layer
+Bagaimana cara kamu melakukan Group dan Merge Layer? Berikut ini 
+beberapa langkah yang dapat kamu lakukan. 
+a. 
+Buka panel layer kemudian seleksi layer outline, layer coloring, dan 
+layer shading. Lalu tekan Ctrl + G agar layer menjadi grup.
+ 
+ 
+Gambar 7.7 Merge layer
+Sumber: Photoshop/Ridamulyadi (2022)
+b. 
+Tekan Ctrl + E pada grup layer untuk melakukan penggabungan layer 
+menjadi satu layer.
+
+179
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+Fitur yang disedikan dalam aplikasi Photoshop sangat banyak. Untuk 
+mempermudah menggunakan fitur tersebut, kamu dapat mencermati 
+penggunaan shortcut key aplikasi Photoshop berikut.
+1. 
+Shortcut key umum 
+Fungsi
+Shortcut Key
+Ubah ukuran gambar
+Control + Alt + i
+Ubah ukuran kanvas
+Control + Alt + c
+Perbesar
+Control + +
+Perkecil
+Control + -
+Skala proporsional
+Tekan dan tahan shift ketika mengubah 
+ukuran objek 
+Skala di tempat (dari pusat objek)
+Tekan dan tahan shift + alt ketika 
+mengubah ukuran objek 
+Tampilkan alat ukur
+Control + r
+Tampilkan atau sembunyikan grid
+Control + ‘
+2. 
+Shortcut untuk layer dan objek
+Fungsi
+Shortcut Key
+Seleksi semua objek
+Control + a
+Membatalkan seleksi
+Control + d
+seleksi kebalikan dari objek yang dipilih
+Shift + Control + i
+Seleksi semua layer
+Control + Alt + a
+Menggabungkan semua layer
+Control + Shift + E
+Seleksi layer selanjutnya bawah atau atas
+Alt + [ OR ]
+Memindahkan layer ke bawah atau atas
+Control + [ OR ]
+Memindahkan layer ke paling bawah atau atas
+Control + Shift + [ OR ]
+Membuat layer baru
+Shift + Control + n
+Mengelompokkan (grup) layer yang terpilih
+Control + g
+Memisahkan grup layer yang terpilih
+Control + Shift + g
+Menggabungkan dan menyatukan layer terpilih
+Control + e
+Menggabungkan semua layer menjadi layer baru 
+di atas layer lain
+Control + Shift + Alt + e
+Mengubah ukuran dan memutar objek
+Control + t
+Beberapa kali pengulangan kembali
+Control + Alt + z
+
+180
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Eksplorasi 7.6
+Dengan menggunakan aplikasi Photoshop, buatlah aset animasi. Dalam 
+pembuatan aset animasi ini, hal yang harus disiapkan adalah gambar 
+pendukung berupa desain karakter, model sheet, storyboard, keyframe, dan 
+inbetween. Sehingga kalian dapat langsung berlatih menguasai aplikasi.
+ 
+ 
+Gambar 7.8 Aset animasi
+Sumber: devalina (2022)
+ 
+Adapun tahap pengerjaan proyek, mulai dari mempersiapkan desain 
+karakter, model sheet atau character sheet, mempersiapkan storyboard, 
+hingga  keyframe dan inbetween. Setelah itu, kamu dapat melakukan inking 
+dan clean up, coloring dan shading, serta melakukan group layer dan save 
+project file dengan nama aset animasi.psd.
+ 
+Untuk pengerjaan aset animasi robot telah 
+disediakan desain karakter, model sheet, storyboard, 
+keyframe, inbetween, dan video suplemen pada 
+pranala https://bit.ly/gbrpsanimasix2d. Kamu juga 
+bisa memindai kode QR berikut. 
+6. Menguasai Dasar Aplikasi After Effect
+Ketika mencoba aplikasi After Effect, ada beberapa hal yang harus kamu 
+perhatikan. Misalnya, kamu harus memperhatikan antarmuka pada After 
+Effect itu sendiri. Selain itu, kamu juga dapat melakukan hal lainnya, mulai 
+dari import asset, animasi frame by frame, animasi motion, compositing, 
+hingga rendering. 
+
+181
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+a. Antarmuka After Effect
+Antarmuka (user interface) After Effect dapat diatur sesuai dengan 
+penggunaannya. Saat ini, workspace yang digunakan adalah workspace 
+animation. Untuk memilih workspace pada menu bar, pilih Window - 
+Workspace - Animation untuk mengaktifkan workspace animation.
+Toolbar
+Kumpulan Panel
+Project
+Composition Timeline
+Composition 
+Window
+Gambar 7.9 Antarmuka After Effect
+Sumber: Photoshop/Ridamulyadi (2022)
+Coba kamu perhatikan kembali antarmuka After Effect tersebut? Pada 
+workspace animation, panel yang aktif adalah sebagai berikut.
+1) 
+Project panel: tempat composition dibuat dan daftar komponen media 
+seperti video, audio, gambar, dan aset lainnya yang telah masuk ke 
+proyek After Effect.
+2) 
+Composition timeline: tempat mengontrol dan mengatur komponen 
+media (layer) yang telah masuk ke dalam composition.
+3) 
+Composition Window: tempat mengatur komponen media dan 
+pratinjau animasi.
+4) 
+Toolbar: kumpulan alat untuk membuat dan mengedit elemen visual.
+5) 
+Panel: kumpulan panel yang muncul sesuai dengan workspace yang aktif.
+
+182
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+b. Melakukan Import Aset
+Setelah memahami antarmuka After Effect, kamu dapat mencoba untuk 
+melakukan import aset. Berikut ini langkah-langkah yang dapat kamu lakukan.
+1) 
+Buatlah proyek baru.
+2) 
+Tekan Ctrl + I, kemudian pilih file aset (.psd)
+3) 
+Pada pilihan Import, pilih Composition - Retain Layer Sizes.
+ 
+ 
+Gambar 7.10 Pengaturan import aset 
+Sumber: Photoshop/Ridamulyadi (2022)
+4) 
+File aset animasi.psd telah di-import menjadi Composition di After Effect.
+c. 
+Melakukan Animasi Frame By Frame 
+Langkah selanjutnya adalah melakukan animasi frame by frame. Berikut 
+ini langkah-langkah yang dapat kamu lakukan. 
+1) 
+Double click pada Composition di panel proyek.
+2) 
+Tekan Alt + ] untuk memotong/trim layer sesuai dengan posisi 
+time indicator.
+ 
+ 
+Gambar 7.11 Tampilan timeline 
+Sumber: Photoshop/Ridamulyadi (2022)
+3) 
+Posisikan layer sesuai dengan posisi pada acuan storyboard, keyframe, 
+dan inbetween. Saat memosisikan layer dapat ditambahkan juga layer 
+background sebagai acuan posisi dan gerakan animasi.
+4) 
+Tekan Space Bar untuk melakukan preview animasi.
+
+183
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+d. Melakukan Animasi Motion
+Setelah melakukan animasi frame by frame, kamu juga bisa melakukan 
+animasi motion. Langkah yang dapat dilakukan adalah sebagai berikut.
+1) 
+Pilihlah layer yang akan diberikan animasi motion.
+2) 
+Tekan P untuk membuka transform position.
+3) 
+Klik ikon Stopwatch (time vary watch) untuk mengaktifkan animasi 
+dan memunculkan keyframe.
+4) 
+Geser time indicator untuk penempatan keyframe ke-2.
+5) 
+Ubahlah value position untuk membuat keyframe ke-2.
+6) 
+Tekan Spacebar untuk preview/play.
+Eksplorasi 7.7
+Untuk mengasah kemampuanmu dalam melakukan 
+import aset, animasi frame by frame, dan animasi motion, 
+cobalah mempraktikkan ketiga hal tersebut pada gambar 
+yang sudah tersedia. Cobalah klik pranala berikut
+https://drive.google.com/file/d/ 1uA166P8sFvFfU7OGb
+SnnH3z4anJaCGnl/view?usp=share_link. Tuntaskan ketiga 
+tahapan tersebut dengan baik.
+ 
+Sebagai tambahan, kamu dapat memindai kode QR 
+atau mengetikkan pranala https://drive.google.com/
+drive/folders/1bxLpPywNZDLKHUh7WRtviPwVfAt9A66B? 
+usp=share_link  melalui peramban gawai atau personal 
+computer-mu.
+e. Melakukan Compositing
+Bagaimana cara kamu melakukan compositing? Berikut ini langkah yang 
+dapat dilakukan. 
+1) 
+Tekan Ctrl + N untuk membuat composition baru. 
+2) 
+Lakukan pengaturan pada composition setting seperti nama, preset, 
+durasi, dan background. Kemudian klik OK.
+
+184
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+ 
+ 
+Gambar 7.12 Pengaturancomposition 
+Sumber: Photoshop/Ridamulyadi (2022)
+3) 
+Double click pada composition di panel proyek untuk membuka 
+composition dan memulai composition.
+4) 
+Masukkan composition animasi dan composition background sebagai layer.
+5) 
+Tambahkan dan posisikan foreground pada composition.
+6) 
+Tekan Space Bar untuk melakukan preview animasi.
+f. 
+Melakukan Rendering
+Animasi berikutnya adalah rendering. Berikut ini langkah-langkah ketika 
+kamu akan melakukan rendering.
+1) 
+Pilih composition yang akan di-render.
+2) 
+Tekan Ctrl + M untuk memasukkan composition ke Render Queue.
+3) 
+Klik Lossless untuk melakukan pengaturan output format video.
+4) 
+Klik pada nama composition di output to untuk mengatur lokasi 
+penyimpanan hasil rendering.
+ 
+ 
+Gambar 7.13 Pengaturan render 
+Sumber: Photoshop/Ridamulyadi (2022)
+5) 
+Klik Render untuk memulai proses rendering.
+Nama
+Durasi
+Background
+Preset
+Lossless
+Lokasi
+
+185
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+Selain beberapa fitur yang telah kamu pelajari, ternyata masih banyak 
+fitur lainnya dalam aplikasi After Effect. Salah satunya adalah fitur dynamic 
+link untuk mengintegrasikan aplikasi Adobe After Effect dengan Adobe 
+Media Encoder dan Adobe Premiere Pro. 
+Untuk mempermudah penggunaan aplikasi, berikut ini daftar shortcut 
+key aplikasi After Effect.
+a. Shortcut Key Dasar
+Fungsi
+Shortcut Key
+Seleksi semua objek
+Control + A
+Membatalkan seleksi semua objek
+F2 / Ctrl + Shift + A
+Menduplikat mask, layer, effects, dsb.
+Ctrl + D
+Mengubah nama folder, layer, dsb.
+Enter
+Memindahkan layer atau objek ke bawah atau atas.
+Ctrl + Alt + panah atas
+Memindahkan layer atau objek ke  paling bawah atau 
+atas.
+Ctrl + Alt + Shift + panah 
+atas / panah bawah
+Membuka pengaturan preferences.
+Ctrl + Alt + ;
+b. Shortcut Key Transform
+Fungsi
+Shortcut Key
+Memunculkan transform anchor point
+A
+Memunculkan transform posisi
+P
+Memunculkan transform skala
+S
+Memunculkan transform opacity
+T
+Memunculkan level audio
+L
+Memunculkan properti mask feather 
+F
+Memunculkan properti mask path
+M
+Memunculkan properti effect
+E
+Memunculkan properti expressions or keyframes
+U
+
+186
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Eksplorasi 7.8 
+Sebelumnya, kamu sudah membuat aset animasi.psd dengan aplikasi 
+Photoshop. Untuk menguasai dasar aplikasi After Effect, kamu akan 
+mengerjakan proyek animasi robot menggunakan aplikasi After Effect.
+ 
+Gambar 7.14 Aset animasi
+Sumber: Devalina (2022)
+ 
+Adapun tahap pengerjaan proyek, mulai dari import 
+asset, animasi frame by frame, compositing, hingga 
+rendering. Untuk pengerjaan aset animasi robot telah 
+disediakan file aset animasi.psd (file photoshop) dan file 
+animasi robot.aep (file After Effect), dan video suplemen 
+pada pranala https://bit.ly/animasix2d. Kamu juga bisa 
+memindai kode QR berikut.
+C. Menguasai Dasar Aplikasi Animasi 3 Dimensi
+Sebelumnya, kamu sudah mengetahui bahwa salah satu aplikasi animasi 3 
+dimensi adalah Blender. Kompetensi dasar apa saja yang harus kamu kuasai 
+ketika menggunakan aplikasi Blender? Hal yang pertama kamu cermati adalah 
+antarmuka Blender. Setelah itu, kamu dapat mencoba fitur yang ada dalam 
+aplikasi Blender tersebut, mulai dari navigasi 3D Viewport; mode shading 
+model 3D; menambahkan dan menghapus objek 3D; memanipulasi objek 3D 
+menggunakan move, rotate dan scale; memanipulasi objek 3D dengan edit mode; 
+memberikan material atau texturing; menambahkan lighting atau pencahayaan; 
+mengatur kamera; hingga melakukan rendering.
+
+187
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+1. Mencermati Antarmuka Blender
+Hal pertama yang harus kamu perhatikan adalah mencermati tampilan 
+antarmuka Blender. Coba kamu perhatikan tampilan berikut. 
+ 
+Gambar 7.15 Antarmuka Blender
+Sumber: Blender/Ridamulyadi (2022)
+Antarmuka (user interface) Blender dapat diatur sesuai dengan 
+penggunaan yang berbeda. Saat ini, workspace yang digunakan adalah 
+workspace layout. Untuk memilih layout pada Blender, pilihlah salah satu 
+Tab layout di bawah ini.
+ 
+ 
+Gambar 7.16 Pengaturanworkspace 
+Sumber: Blender/Ridamulyadi (2022)
+Pada workspace layout, panel yang aktif adalah sebagai berikut.
+a. 
+Outliner, daftar untuk mengatur data pada file .blend (file proyek 
+blender) di antaranya data scene, data video sequencer, dan data apa 
+pun yang telah dimasukan pada file .blend.
+b. 
+Properties, panel yang menunjukkan pengaturan data yang sedang 
+aktif, misalnya scene, world, object, modifier, dan particles.
+c. 
+3D Viewport, area yang digunakan untuk berinteraksi dengan 3D scene 
+dengan tujuan seperti membuat model 3D, melakukan animasi model 
+3D, dan memberikan texture pada model 3D.
+d. 
+Toolbar, panel yang menyediakan berbagai tool dalam pembuatan 
+model 3D atau mengatur 3D scene.
+e. 
+Timeline, panel untuk mengatur keyframe dan menggeser playhead serta 
+play kontrol untuk menjalankan animasi yang telah dibuat.
+Workspace
+Outliner
+Properties
+Timeline
+3D Viewport
+Toolbar
+Tab
+
+188
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+2. Navigasi pada 3D Viewport
+Navigasi dapat dilakukan menggunakan mouse. Lakukan langkah berikut 
+ketika kamu melakukan navigasi 3D Viewport.
+a. 
+Tekan tombol tengah/scroll pada mouse untuk memutar area 3D viewport.
+b. 
+Gunakan scroll pada mouse untuk zoom in dan zoom out pada area 
+3D viewport atau tekan Ctrl + tekan tombol tengah mouse kemudian 
+gerakkan mouse maju dan mundur untuk zoom in dan zoom out.
+c. 
+Tekan Shift + tekan tombol tengah kemudian gerakan mouse untuk 
+menggeser (pan) area 3D viewport.
+d. 
+Untuk melakukan navigasi 3D viewport, kamu dapat menggunakan tool 
+navigasi di sudut kanan area 3D viewport.
+ 
+ 
+Gambar 7.17 Tool navigasi 
+Sumber: Blender/Ridamulyadi (2022)
+3. Mode Shading Model 3D 
+View mode model 3D pada Blender terdiri atas empat view mode, yaitu 
+(1) wire edges untuk menampilkan garis tepi pada model, (2) solid untuk 
+menampilkan bentuk padat model, (3) material untuk menampilkan material 
+yang telah dipasangkan pada model, dan (4) rendered untuk menampilkan 
+pratinjau model 3D yang sudah di-render. Adapun langkah untuk memilih 
+view mode adalah sebagai berikut.
+a. 
+Tekan Z untuk memunculkan pilihan mode shading model 3D. Kemudian, 
+pilih shading yang diinginkan.
+b. 
+Menggunakan shading mode tool.
+3D Viewpoint
+Zoom Tool
+Pan Tool
+Camera View
+Perspective
+/orthographic
+
+189
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+ 
+Solid
+Wireframe
+Material
+Render
+ 
+Gambar 7.18Tool mode shading
+Sumber: Blender/Ridamulyadi (2022)
+4. Menambahkan dan Menghapus Objek 3D
+a. 
+Untuk menghapus objek, pilih objek kemudian klik kanan dan pilih 
+Delete. Kamu juga bisa melakukannya dengan memilih objek kemudian 
+tekan X dan pilih OK atau pilih objek kemudian tekan Delete.
+b. 
+Untuk menambahkan objek, tekan shift + A kemudian pilih objek yang 
+akan ditambahkan atau pilih Add pada menu bar  3D viewport dan pilih 
+objek yang akan ditambahkan.
+ 
+Menambahkan
+ 
+Gambar 7.19 Menambahkan objek
+Sumber: Blender/Ridamulyadi (2022)
+5. Memanipulasi Objek 3D Menggunakan  Move, Rotate, dan Scale 
+Berikut ini langkah-langkah yang dapat 
+kamu lakukan. 
+a. 
+Pilih objek kemudian tekan G untuk 
+mengaktifkan fungsi move dan tekan 
+sumbu X atau Y atau Z untuk pindah posisi 
+sesuai sumbu.
+b. 
+Pilih objek kemudian tekan R untuk 
+mengaktifkan fungsi rotate dan tekan sumbu 
+X atau Y atau Z untuk diputar sesuai sumbu.
+c. 
+Pilih objek kemudian tekan S untuk 
+mengaktifkan fungsi scale dan tekan sumbu X atau Y atau Z untuk 
+mengubah ukuran sesuai sumbu.
+d. 
+Manipulasi move, rotate, dan scale juga dapat menggunakan toolbar.
+Gambar 7.20 Tool transform 
+Sumber: Blender/Ridamulyadi (2022)
+Move
+Rotate
+Scale
+
+190
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+6. Manipulasi Objek 3D dengan Edit Mode
+Edit mode adalah mode untuk mengubah 
+bentuk objek 3D dengan memanipulasi vertex, 
+edge, dan faces menggunakan sumbu koordinat 
+x, y, dan z. 
+Objek 3D merupakan objek yang memiliki 
+ruang dan volume serta memiliki 3 sumbu 
+koordinat yaitu x dan y untuk panjang dan 
+lebar dan z untuk tinggi objek.
+Bagaimana cara untuk melakukan edit 
+mode pada objek 3D? Berikut ini langkah-
+langkah untuk melakukan hal tersebut.
+a. 
+Pilih objek kemudian tekan tab untuk 
+mengaktifkan edit mode.
+b. 
+Untuk memilih vertex, edge dan/atau face, 
+pilih pada tool select mode.
+ 
+Vertex
+Face
+Edge
+Gambar 7.23 Tool edit mode
+Sumber: Blender/Ridamulyadi (2022)
+c. 
+Setelah memilih atau menyeleksi vertex/edge/face, kamu dapat melakukan 
+manipulasi dengan mengubah posisi, ukuran, memutar, atau menghapus. 
+7. Memberikan Material atau Texturing
+Perhatikan langkah berikut untuk memberikan material atau texturing.
+a. 
+Aktifkan workspace shading.
+b. 
+Buatlah material baru dengan klik tanda + New.
+ 
+ 
+Gambar 7.24 Pengaturan material 1
+Sumber: Blender/Ridamulyadi (2022)
+Edge
+Vertex
+Face
+Gambar 7.21 Edit mode 
+Sumber: Blender/Ridamulyadi (2022)
+Sumbu Z
+Sumbu X
+Sumbu Y
+Gambar 7.22 Sumbu objek 3D 
+Sumber: Blender/Ridamulyadi (2022)
+
+191
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+c. 
+Lakukan pemilihan warna pada base color.
+ 
+ 
+Gambar 7.25 Pengaturan material 2
+Sumber: Blender/Ridamulyadi (2022)
+d. 
+Jika pemilihan warna selesai, objek akan berubah warna sesuai dengan 
+yang dipilih.
+8. Menambahkan Pencahayaan (Lighting) 
+Pencahayaan pada Blender terdiri atas empat tipe, yaitu point, sun, spot, 
+dan area. Point adalah lampu yang memberikan cahaya secara merata ke 
+semua arah. Sun adalah lampu dengan kekuatan cahaya yang besar dan 
+memberikan pencahayaan ke seluruh area pada scene. Spot adalah lampu 
+sorot yang memancarkan cahaya ke arah yang ditentukan. Area adalah 
+lampu yang memberikan cahaya satu arah dengan menyesuaikan bentuk 
+yang telah dipilih di antaranya Square, Rectangle, Disc, Ellipse.
+Bagaimana cara untuk menambahkan pencahayaan? Berikut ini langkah-
+langkah yang dapat kamu lakukan. 
+a. 
+Tekan Z dan pilih Shading Rendered agar pratinjau pencahayaan 
+dapat terlihat.
+b. 
+Klik Add kemudian Light dan pilih jenis lampu, misalnya Point.
+c. 
+Pindahkan posisi lampu sesuai dengan keinginan, misalnya posisi 
+di atas objek.
+d. 
+Lakukan pengaturan pada Light Properties untuk perubahan warna 
+cahaya dan kekuatan cahaya.
+Base Color
+
+192
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+ 
+ 
+Gambar 7.26 Pengaturan lighting 
+Sumber: Blender/Ridamulyadi (2022)
+9. Pengaturan Kamera
+Kamera pada Blender berfungsi untuk menunjukkan tampilan scene dari 
+sudut pandang kamera. Untuk melakukan pengaturan kamera, ikutilah 
+langkah berikut.
+a. 
+Klik Add kemudian Camera untuk menambahkan kamera pada scene.
+b. 
+Posisikan kamera sehingga corong kamera mengarah ke objek pada scene.
+c. 
+Klik Camera View untuk melihat tampilan sudut pandang kamera.
+ 
+Gambar 7.27 Pengaturan kamera 
+Sumber: Blender/Ridamulyadi (2022)
+d. 
+Lakukan pengaturan pada camera properties untuk mengubah tipe 
+kamera, focal length, dan sebagainya.
+10. Melakukan Rendering
+Render engine pada Blender terdiri atas tiga tipe, yaitu eevee, workbench, dan 
+cycles. Eevee adalah render engine realtime yang dibangun menggunakan 
+OpenGL berfokus pada kecepatan dan interaktif. Workbench adalah render 
+Camera
+
+193
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+engine yang dioptimalkan untuk rendering yang cepat ketika melakukan 
+pratinjau modeling dan animasi. Cycles adalah render engine berbasis raytrace 
+yang memberikan warna cahaya alami dan natural.
+Bagaimana cara melakukan rendering? Berikut ini beberapa langkah 
+dalam melakukan rendering. 
+a. 
+Pastikan bahwa kamu sudah melakukan pengaturan kamera supaya 
+tampilan scene terlihat baik.
+b. 
+Lakukan pengaturan pada render properties, seperti pemilihan render 
+engine. Misalnya, render engine eevee.
+ 
+ 
+Gambar 7.28 Pengaturan rendering
+Sumber: Blender/Ridamulyadi (2022)
+c. 
+Kemudian pada menu bar, pilih render image (F12) atau render animation 
+(ctrl + F12).
+LITERAKSI
+Untuk menambah pengetahuanmu tentang contoh shading, objek 3D, 
+dan proses modeling 3D, silakan pindai kode QR berikut.  
+• 
+https://www.youtube.com/playlist?list=PLkDbooUD9hUmMWC-
+BoHwNUr_ehGOX_oIg
+• 
+https://youtu.be/2mQiBeM9ckI
+• 
+https://youtu.be/rbyYvmykjQs
+
+194
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Eksplorasi 7.9
+Kamu sudah menguasai dasar aplikasi animasi 3 dimensi dengan aplikasi 
+Blender. Sekarang, cobalah praktikkan hal-hal yang sudah kamu kuasai 
+sebelumnya, mulai dari navigasi 3D Viewport; mode shading model 3D; 
+menambahkan dan menghapus objek 3D; memanipulasi 
+objek 3D menggunakan move, rotate dan scale; 
+memanipulasi objek 3D dengan edit mode; memberikan 
+material atau texturing; menambahkan lighting atau 
+pencahayaan; mengatur kamera; hingga melakukan 
+rendering. Sebagai tambahan, kamu dapat menonton 
+tutorial melalui sajian dalam kode QR berikut. 
+Ketika menggunakan aplikasi Blender, kamu dapat dengan mudah 
+menggunakan shortcut key yang ada dalam aplikasi tersebut. Cobalah kamu 
+praktikkan penggunaan short key berikut ini. 
+Fungsi
+Shortcut Key
+Menu
+Objek properti
+N
+Toolbar
+T
+Menu favorit
+Q
+Pencarian fungsi/fitur
+F3
+Menu mode pie
+Ctrl + Tab
+Menu viewport
+~
+Viewport
+Memunculkan semua objek
+Home
+Menyembunyikan objek
+H
+Memunculkan objek yang disembunyikan
+Alt + H
+Menyembunyikan objek yang tidak diseleksi Shift + H
+Mengaktifkan x-ray
+Alt + Z
+Menu mode shading viewport
+Z
+Mengisolasi objek
+/
+Viewport Navigation
+Orbit view
+Middle click + drag
+Pan view
+Shift + Middle click + drag
+Zoom view
+Scroll wheel; Ctrl + Middle click + drag
+Free pan by cursor
+Shift + ~ + move mouse; Click in 
+Viewport to deactivate
+
+195
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+Object Mode
+Mengaktifkan objek mode atau edit mode
+Tab
+Menambahkan objek baru
+Shift + A
+Mengaktifkan snap
+Shift + Tab
+Object Manipulation
+Memindahkan objek
+G
+Merubah skala objek
+S
+Memutar objek
+R
+Memutar dengan mouse
+RR
+Edit Mode
+Mode vertex
+1
+Mode edge
+2
+Mode face
+3
+Memisahkan objek dari yang diseleksi
+P
+Menggabungkan yang diseleksi
+M
+Vertex dan edge slide
+GG
+Extrude geometry
+E
+Fill face
+F
+Loop cut
+Ctrl + R
+Eksplorasi 7.10 
+Cara terbaik untuk menguasai dasar aplikasi 
+animasi 3 dimensi adalah dengan membuat 
+proyek. Pada proyek ini, kamu akan membuat 
+model 3 dimensi robot sederhana, kemudian 
+memberikan animasi dan terakhir melakukan 
+rendering. Dengan demikian, hasil akhirnya 
+menjadi video animasi robot 3 dimensi.
+Adapun tahap pengerjaan proyek, mulai dari 
+mempersiapkan file gambar model sheet/
+character sheet, memasang model sheet menjadi 
+image reference, modeling 
+badan robot, modeling kepala dan roda robot, modeling 
+tangan, parent object dan output, animasi robot, render 
+image, dan animasi. Untuk pengerjaan proyek animasi 
+robot ini telah disediakan video dan model sheet 
+yang dapat kamu akses melalui pranala https://bit.
+ly/proyekanimasix3d. Kamu juga dapat memindai 
+kode QR berikut. 
+Gambar 7.29 Robot 3D 
+Sumber: Ridamulyadi (2022)
+
+196
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Rangkuman
+1. 
+Pengenalan aplikasi animasi 2 dimensi di antaranya Adobe Animate, Toon 
+Boom Harmony, TVPaint, dan After Effect. Sementara itu, aplikasi animasi 
+3 dimensi di antaranya Autodesk Maya, Autodesk 3ds Max, Blender, 
+dan Cinema 4D.
+2. 
+Penguasaan dasar aplikasi animasi 2 dimensi melalui Adobe Photoshop 
+di antaranya pengenalan antarmuka Photoshop dan pengaturan 
+workspace, melakukan inking menggunakan brush tool, melakukan  clean 
+up menggunakan brush tool dan pen tool, melakukan coloring menggunakan 
+brush tool dan paint bucket tool, melakukan group layer dengan shortcut 
+key Ctrl + G, melakukan merge layer dengan shortcut key Ctrl + E, dan 
+penguasaan shortcut key aplikasi Photoshop.
+3. 
+Penguasaan dasar aplikasi animasi 2 dimensi melalui aplikasi After Effect 
+di antaranya mengenal antarmuka After Effect dan pengaturan workspace; 
+melakukan import aset .psd dengan shortcut Ctrl + I; melakukan animasi 
+frame by frame pada timeline dan melakukan trim layer dengan shortcut key 
+Alt + ]; melakukan animasi motion dengan mengaktifkan ikon stopwatch 
+(time vary watch), melakukan compositing dengan membuat composition 
+baru menggunakan shortcut key Ctrl + N dan menambahkan composition 
+lainya ke composition baru tersebut, melakukan rendering dengan shortcut 
+key Ctrl + M, dan melakukan pengaturan rendering kemudian klik render, 
+hingga penguasaan shortcut key aplikasi After Effect. 
+4. 
+Penguasaan dasar aplikasi animasi 3 dimensi melalui aplikasi Blender 
+di antaranya mengenali antarmuka Blender dan pengaturan workspace; 
+melakukan navigasi pada 3D Viewport seperti zoom (scroll mouse), pan 
+(shift + tekan scroll mouse) atau menggunakan tool navigasi; mengubah 
+mode shading model 3D (mode wire edges, solid, material, dan rendered) 
+menggunakan Z atau menggunakan shading mode tool; menambahkan 
+objek 3D dengan shortcut key Shift + A; menghapus objek 3D dengan tekan 
+X; memanipulasi objek 3D dengan tekan G untuk move, tekan R untuk 
+rotate, tekan S untuk scale, dan/atau menggunakan toolbar; memanipulasi 
+objek 3D dengan tekan Tab untuk mengaktifkan edit mode; memanipulasi 
+vertex, edge, dan face pada objek 3D menggunakan dengan tool select 
+mode; memberikan material atau texturing melalui workspace shading dan 
+membuat material baru dengan memilih pada base color; menambahkan 
+lighting klik Add kemudian memilih jenis lampu; mengatur kamera dan 
+tipe kamera pada camera properties dan klik Camera View untuk melihat 
+tampilan sudut pandang kamera; melakukan rendering dengan shortcut 
+key F12 untuk render image dan Ctrl + F12 untuk render animation; hingga 
+menguasai shortcut key Blender. 
+
+197
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+Asesemen Kompetensi 7
+Pilihlah salah satu jawaban yang paling tepat!
+1. 
+Aplikasi animasi 2 dimensi untuk membuat animasi, efek, dan 
+compositing adalah ….
+a. 
+TV Paint 
+ 
+ 
+c. 
+Toonboom  
+e. 
+After Effect
+b. 
+Adobe Animate  
+d. 
+Flipbook
+2. 
+Berikut ini yang termasuk aplikasi animasi 2 dimensi berbasis web adalah ….
+a. 
+Pencil 2D 
+ 
+ 
+c. 
+Chrome  
+ 
+e. 
+Toonboom
+b. 
+Moho Pro 
+ 
+ 
+d. 
+Animaker
+3. 
+Aplikasi animasi 3 dimensi berbasis web adalah ….
+a. 
+Sketchup 
+ 
+ 
+c. 
+Plotagon 
+ 
+e. 
+Cinema 4D
+b. 
+Third Design 
+ 
+d. 
+3D Max
+4. 
+Software 3D profesional untuk menciptakan karakter yang realistik, detail, 
+dan berkualitas yang dilengkapi tools dan effect yang menarik seperti ledakan 
+dan simulasi kain adalah ….
+a. 
+Autodesk 3ds Max 
+ 
+ 
+d. 
+Cinema 4D
+b. 
+Autodesk Maya  
+ 
+ 
+e. 
+Houdini
+c. 
+Blender
+5. 
+Berikut ini yang tidak termasuk animasi untuk membuat animasi stop 
+motion, yaitu …. 
+a. 
+Autodesk Maya
+b. 
+Boinx iStopMotion
+c. 
+Eclipse Stop Motion Pro
+d. 
+Monkey jam
+e. 
+Dragonframe
+6. 
+Perhatikan prosedur berikut ini!
+(1) Klik brush tool pada toolbar.
+(2) Pilih brush yang sesuai pada panel brushes.
+(3) Buatlah layer baru untuk melakukan inking.
+(4) Siapkan layer sketsa yang diatur opacity 10% sampai 30%.
+(5) Lakukan inking menggunakan tool yang sesuai.
+
+198
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Urutan tahapan yang benar ketika melakukan inking pada aplikasi pengolah 
+gambar, yaitu ….
+a. 
+(1), (2), (3), (4), (5)
+b. 
+(3), (5), (2), (1), (4)
+c. 
+(5), (4), (3), (2), (1)
+d. 
+(3), (5), (1), (4), (2)
+e. 
+(4), (3), (5),(1), (2)
+7. 
+Shortcut untuk mengubah ukuran kanvas pada Adobe Photoshop adalah ….
+a. 
+Control + Alt + c
+b. 
+Control + Alt + i
+c. 
+Control + +
+d. 
+Control + r
+e. 
+Control + Alt + a
+8. 
+Tempat mengontrol dan mengatur komponen media (layer) yang telah 
+masuk ke dalam composition pada After Effect adalah ….
+a. 
+Composition window
+b. 
+Project panel
+c. 
+Toolbar
+d. 
+Composition timeline
+e. 
+Panel
+9. 
+Area untuk berinteraksi dengan 3D scene dengan tujuan seperti membuat 
+model 3D, melakukan animasi model 3D, memberikan texture pada model 
+3D, pada Blender adalah ….
+a. 
+Properties
+b. 
+3D viewport
+c. 
+Toolbar
+d. 
+Timeline
+e. 
+Outliner
+10. Berikut ini yang tidak termasuk ke dalam view mode model 3D pada 
+Blender adalah ….
+a. 
+Shading
+b. 
+Wire edges
+c. 
+Solid
+d. 
+Material
+e. 
+Rendered
+
+199
+BAB 7 - Aplikasi Berbasis Teknologi untuk Kebutuhan Industri Animasi
+Proyek Praktikum
+I. 
+Petunjuk Umum
+1. 
+Periksalah dengan teliti dokumen proyek praktikum.
+2. 
+Baca dan pahami maksud soal agar tidak terjadi kesalahan pekerjaan.
+3. 
+Bekerjalah dengan memperhatikan jadwal dan alur pengerjaan.
+4. 
+Peralatan utama dan bahan telah disediakan sesuai 
+dengan kebutuhan.
+5. 
+Ketika bekerja, perhatikan keselamatan kerja.
+II. Alat dan Bahan
+1. 
+PC atau Laptop
+2. 
+Aplikasi animasi
+III. Soal/Tugas
+1. 
+Judul Tugas 1:
+ 
+Membuat animasi 2 dimensi bouncing ball dari Preston Blair.
+ 
+Sumber: Preston Blair / www.traditionalanimation.com (2017)
+2. 
+Judul Tugas 2: 
+ 
+Membuat animasi Bouncing Ball 3 dimensi.
+3. 
+Langkah kerja Tugas 1 membuat animasi 2 dimensi bouncing ball 
+a. 
+Menggambar key pose dan inbetween pada aplikasi Photoshop 
+sesuai dengan acuan gambar animasi bouncing ball dari 
+Preston Blair.
+b. 
+Melakukan animasi Basic Bouncing Ball pada aplikasi 
+After Effect
+4. 
+Langkah kerja Tugas 2 membuat animasi Bouncing Ball 3 dimensi. 
+a. 
+Membuat model bola 3 dimensi pada aplikasi Blender.
+b. 
+Melakukan animasi Bouncing Ball.
+
+200
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Pengayaan
+Jika 70–100% materi bab ini sudah dikuasai, kamu dapat 
+melakukan aktivitas pengayaan yaitu dengan menyimak 
+dan atau mempraktikkan video Tutorial Toon Boom 
+Bouncing Ball dalam 9 Menit. Silakan pindai kode QR 
+yang disediakan. Sebagai alternatif, kamu juga dapat 
+mengetikkan pranala https://youtu.be/1WtEXMCQukk 
+dalam peramban gawai atau personal computer-mu. 
+Refleksi
+Bagaimana pemahamanmu terhadap materi bab ini? Tentunya pengetahuan 
+dan penguasaan aplikasi animasi 2 dimensi dan 3 dimensi semakin luas. 
+Sekarang, silakan kamu merefleksikan diri dengan memberi tanda centang 
+(√) dalam kolom “Ya” dan “Tidak” untuk setiap pernyataan di bawah ini. 
+Isilah sesuai dengan pendapatmu yang sebenarnya. 
+No
+Pertanyaan
+Ya
+Tidak
+1.
+Saya mampu menyebutkan aplikasi animasi 2 dimensi dan 
+3 dimensi.
+ 
+ 
+2.
+Saya mampu menguasai dasar aplikasi animasi 2 dimensi. 
+ 
+3.
+Saya mampu menguasai dasar aplikasi animasi 3 dimensi. 
+ 

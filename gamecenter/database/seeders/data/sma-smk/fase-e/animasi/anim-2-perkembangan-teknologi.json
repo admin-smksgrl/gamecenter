@@ -1,0 +1,1303 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 2",
+      "title": "Perkembangan Teknologi Industri Animasi",
+      "description": "Menelusuri sejarah animasi dunia, mengenal teknik animasi (stop-motion, claymation, pixilation), memahami teknologi digital dalam industri film, dan membaca product life cycle produk animasi.",
+      "learning_objectives": [
+        "Menjelaskan sejarah perkembangan animasi dunia secara kronologis.",
+        "Membedakan teknik animasi stop-motion, claymation, dan pixilation.",
+        "Memahami peran teknologi digital dalam produksi dan distribusi film.",
+        "Menguraikan empat tahap product life cycle produk animasi."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 2 Perkembangan Teknologi Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Sejarah animasi",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 2 Perkembangan Teknologi Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Dari praxinoscope sampai Steamboat Willie\n\nAnimasi berasal dari kata animation yang bermakna menggerakkan. Menurut Fernandez (2002), animasi adalah proses merekam dan memutar kembali rangkaian gambar diam sehingga tampak hidup.\n\nPada abad XVII–XIX, peralatan animasi sederhana telah ditemukan. Charles Émile Reynaud membuat Praxinoscope (1877) dan Teater Optik (1888), lalu pada 1892 memproyeksikan Pauvre Pierrot di depan umum.\n\nJ. Stuart Blackton membuat Humorous Phases of Funny Faces (1906) dengan teknik stop-motion, lalu Earl Hurd menemukan cell animation (1914) yang memisahkan latar diam dan bagian bergerak.\n\nTahun 1928 Walt Disney memadukan animasi dan suara melalui Steamboat Willie, yang melahirkan karakter Mickey Mouse.\n\nPerubahan teknologi selalu mengubah cara animasi dibuat: dari papan tulis, seluloid, sampai komputer dan CGI.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-2-perkembangan-teknologi-glosarium",
+              "terms": [
+                {
+                  "term": "Animasi",
+                  "definition": "Proses merekam lalu memutar kembali rangkaian gambar diam untuk menciptakan ilusi gerak."
+                },
+                {
+                  "term": "Praxinoscope",
+                  "definition": "Alat proyeksi gambar berputar yang dikembangkan Charles Émile Reynaud."
+                },
+                {
+                  "term": "Cell animation",
+                  "definition": "Teknik memisahkan latar diam dan bagian bergerak pada seluloid transparan, ditemukan Earl Hurd (1914)."
+                },
+                {
+                  "term": "Stop-motion",
+                  "definition": "Teknik memindahkan objek secara fisik sedikit demi sedikit lalu direkam per frame."
+                },
+                {
+                  "term": "Claymation",
+                  "definition": "Stop-motion yang memakai bahan lunak seperti tanah liat atau plastisin, disangga armature."
+                },
+                {
+                  "term": "Object-motion",
+                  "definition": "Stop-motion yang menggerakkan benda padat seperti mainan atau balok."
+                },
+                {
+                  "term": "Pixilation",
+                  "definition": "Stop-motion yang menggunakan manusia sebagai objek yang digerakkan per frame."
+                },
+                {
+                  "term": "CGI",
+                  "definition": "Computer-Generated Imagery, gambar yang dibuat dengan komputer dalam film."
+                },
+                {
+                  "term": "DCP",
+                  "definition": "Digital Cinema Package, format standar pengiriman dan pemutaran film di bioskop digital."
+                },
+                {
+                  "term": "KDM",
+                  "definition": "Key Delivery Message, kunci untuk membuka DCP yang terenkripsi."
+                },
+                {
+                  "term": "Product life cycle",
+                  "definition": "Siklus hidup produk: introduksi, pertumbuhan, kematangan, dan penurunan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari praxinoscope sampai Steamboat Willie"
+            },
+            {
+              "type": "paragraph",
+              "text": "Animasi berasal dari kata animation yang bermakna menggerakkan. Menurut Fernandez (2002), animasi adalah proses merekam dan memutar kembali rangkaian gambar diam sehingga tampak hidup."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada abad XVII–XIX, peralatan animasi sederhana telah ditemukan. Charles Émile Reynaud membuat Praxinoscope (1877) dan Teater Optik (1888), lalu pada 1892 memproyeksikan Pauvre Pierrot di depan umum."
+            },
+            {
+              "type": "paragraph",
+              "text": "J. Stuart Blackton membuat Humorous Phases of Funny Faces (1906) dengan teknik stop-motion, lalu Earl Hurd menemukan cell animation (1914) yang memisahkan latar diam dan bagian bergerak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tahun 1928 Walt Disney memadukan animasi dan suara melalui Steamboat Willie, yang melahirkan karakter Mickey Mouse."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-2-perkembangan-teknologi-diagram",
+              "engine": "mermaid",
+              "title": "Garis waktu tonggak sejarah animasi",
+              "code": "flowchart LR\n  A[1877 Praxinoscope] --> B[1892 Pauvre Pierrot]\n  B --> C[1906 Humorous Phases of Funny Faces]\n  C --> D[1914 Cell animation]\n  D --> E[1928 Steamboat Willie]\n  E --> F[1995 Toy Story animasi CGI]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Perubahan teknologi selalu mengubah cara animasi dibuat: dari papan tulis, seluloid, sampai komputer dan CGI."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-2-perkembangan-teknologi-cp-1",
+              "question": "Film animasi pertama yang memadukan gambar dan suara adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Steamboat Willie (1928)",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Humorous Phases of Funny Faces (1906)"
+                },
+                {
+                  "id": "c2",
+                  "text": "Fantasmagorie (1908)"
+                },
+                {
+                  "id": "c3",
+                  "text": "Pauvre Pierrot (1892)"
+                }
+              ],
+              "explanation": "Steamboat Willie memunculkan Mickey Mouse dan suara."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Teknik animasi",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 2 Perkembangan Teknologi Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Stop-motion, claymation, dan pixilation\n\nDilihat dari teknik pembuatannya, animasi dapat dikategorikan menjadi stop-motion, claymation, dan pixilation. Ketiganya menggerakkan objek secara fisik lalu merekamnya per frame.\n\nStop-motion adalah pengambilan gambar objek yang dipindahkan setahap demi setahap; bila tiap frame digabung, objek seolah bergerak hidup.\n\nClaymation memakai bahan yang dapat dibentuk seperti tanah liat, plastisin, atau lilin, dengan kerangka kawat bernama armature agar mudah digerakkan.\n\nPixilation menggunakan manusia sebagai objek yang diposisikan ulang setiap frame sehingga tampak bergerak tidak wajar dan jenaka.\n\n| Teknik | Objek | Contoh karya |\n|---|---|---|\n| Object-motion | Benda padat: mainan, balok, boneka | Lego the Movie |\n| Claymation | Tanah liat atau plastisin | Chicken Run, Wallace and Gromit |\n| Pixilation | Manusia sebagai objek | Video eksperimen dan iklan |\n\n### Teknologi digital dan siklus produk\n\n- Teknologi film dimulai dari cinematographe Lumiere Brothers (1895) dan berkembang menjadi film berwarna serta bersuara.\n- Sejak awal 2000-an Hollywood merekam film secara digital; CGI dan VFX menjadi inovasi utama, misalnya Toy Story (1995) dan The Matrix (1999).\n- Bioskop digital memutar film melalui Digital Cinema Package (DCP) dengan bitrate sekitar 250 Mbps; DCP terenkripsi dibuka dengan Key Delivery Message (KDM).\n- Product life cycle terdiri atas introduksi, pertumbuhan, kematangan, dan penurunan. Pada titik jenuh, produsen harus berinovasi ulang.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Stop-motion, claymation, dan pixilation"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dilihat dari teknik pembuatannya, animasi dapat dikategorikan menjadi stop-motion, claymation, dan pixilation. Ketiganya menggerakkan objek secara fisik lalu merekamnya per frame."
+            },
+            {
+              "type": "paragraph",
+              "text": "Stop-motion adalah pengambilan gambar objek yang dipindahkan setahap demi setahap; bila tiap frame digabung, objek seolah bergerak hidup."
+            },
+            {
+              "type": "paragraph",
+              "text": "Claymation memakai bahan yang dapat dibentuk seperti tanah liat, plastisin, atau lilin, dengan kerangka kawat bernama armature agar mudah digerakkan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pixilation menggunakan manusia sebagai objek yang diposisikan ulang setiap frame sehingga tampak bergerak tidak wajar dan jenaka."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknik",
+                  "Objek",
+                  "Contoh karya"
+                ],
+                [
+                  "Object-motion",
+                  "Benda padat: mainan, balok, boneka",
+                  "Lego the Movie"
+                ],
+                [
+                  "Claymation",
+                  "Tanah liat atau plastisin",
+                  "Chicken Run, Wallace and Gromit"
+                ],
+                [
+                  "Pixilation",
+                  "Manusia sebagai objek",
+                  "Video eksperimen dan iklan"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-2-teknik",
+              "engine": "mermaid",
+              "title": "Pembagian teknik animasi stop-motion",
+              "code": "flowchart TB\n  A[Stop-motion] --> B[Object-motion: benda padat]\n  A --> C[Claymation: tanah liat]\n  A --> D[Pixilation: manusia]\n  C --> E[Armature sebagai kerangka]\n  A --> F[Direkam per frame lalu digabung]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-2-klasifikasi",
+              "prompt": "Kelompokkan ciri berikut sesuai teknik animasinya.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Stop-motion benda"
+                },
+                {
+                  "id": "b2",
+                  "label": "Claymation"
+                },
+                {
+                  "id": "b3",
+                  "label": "Pixilation"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Menggerakkan mainan dan balok",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Memakai plastisin dan tanah liat",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Manusia menjadi objek yang digerakkan",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i4",
+                  "text": "Boneka disangga kerangka kawat",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Contoh karyanya Lego the Movie",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Gerakan tampak lucu dan tidak wajar",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Setiap teknik berbeda pada objek dan alat yang digerakkan.",
+                "wrong": "Ingat: benda padat object-motion, bahan lunak claymation, manusia pixilation."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Teknologi digital dan siklus produk"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Teknologi film dimulai dari cinematographe Lumiere Brothers (1895) dan berkembang menjadi film berwarna serta bersuara.",
+                "Sejak awal 2000-an Hollywood merekam film secara digital; CGI dan VFX menjadi inovasi utama, misalnya Toy Story (1995) dan The Matrix (1999).",
+                "Bioskop digital memutar film melalui Digital Cinema Package (DCP) dengan bitrate sekitar 250 Mbps; DCP terenkripsi dibuka dengan Key Delivery Message (KDM).",
+                "Product life cycle terdiri atas introduksi, pertumbuhan, kematangan, dan penurunan. Pada titik jenuh, produsen harus berinovasi ulang."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-2-perkembangan-teknologi-cp-2",
+              "question": "Alat proyeksi gambar berputar karya Charles Émile Reynaud adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "praxinoscope",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "cinematographe"
+                },
+                {
+                  "id": "c2",
+                  "text": "mutoscope"
+                },
+                {
+                  "id": "c3",
+                  "text": "kinescope"
+                }
+              ],
+              "explanation": "Reynaud menciptakan praxinoscope dan teater optik."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 2 Perkembangan Teknologi Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Membaca siklus hidup produk animasi\n\nSiklus hidup produk dipengaruhi perkembangan teknologi, permintaan pasar, stabilitas ekonomi, munculnya kompetitor, penurunan keuntungan, dan kemunduran organisasi.\n\nPada tahap introduksi, studio beriklan lewat poster, media cetak, dan trailer di media sosial untuk memperkenalkan produk baru.\n\nTahap kematangan paling menguntungkan karena produk sudah dikenal, tetapi mulai muncul produk serupa dari kompetitor sehingga inovasi ulang menjadi keharusan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membaca siklus hidup produk animasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Siklus hidup produk dipengaruhi perkembangan teknologi, permintaan pasar, stabilitas ekonomi, munculnya kompetitor, penurunan keuntungan, dan kemunduran organisasi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada tahap introduksi, studio beriklan lewat poster, media cetak, dan trailer di media sosial untuk memperkenalkan produk baru."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tahap kematangan paling menguntungkan karena produk sudah dikenal, tetapi mulai muncul produk serupa dari kompetitor sehingga inovasi ulang menjadi keharusan."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-2-skenario",
+              "title": "Serial animasi yang mulai ditinggalkan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Serial animasi studimu dulu populer, kini penonton menurun dan kompetitor muncul dengan kualitas lebih baik. Sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Melakukan inovasi ulang cerita dan tampilan visual",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Titik jenuh harus dijawab dengan inovasi, bukan diam."
+                    },
+                    {
+                      "text": "Membiarkan saja karena dulu pernah sukses",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Produk yang tidak berinovasi akan masuk tahap penurunan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Apa langkah berikutnya agar produk kembali diminati?",
+                  "choices": [
+                    {
+                      "text": "Memperluas pasar dan mengembangkan lisensi produk",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Pengembangan potensi produk memperpanjang siklus hidup."
+                    },
+                    {
+                      "text": "Menaikkan harga tanpa perbaikan kualitas",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Harga naik tanpa nilai tambah mempercepat penurunan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Produk berhenti diproduksi dan studio kehilangan pasar.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Produk diperbarui dan kembali diminati pasar.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-2-perkembangan-teknologi-kartu",
+              "cards": [
+                {
+                  "front": "Siapa pencipta praxinoscope?",
+                  "back": "Charles Émile Reynaud."
+                },
+                {
+                  "front": "Apa fungsi armature pada claymation?",
+                  "back": "Kerangka kawat agar karakter mudah digerakkan dan stabil."
+                },
+                {
+                  "front": "Apa itu DCP?",
+                  "back": "Digital Cinema Package, format standar pengiriman dan pemutaran film bioskop digital."
+                },
+                {
+                  "front": "Sebutkan empat tahap product life cycle.",
+                  "back": "Introduksi, pertumbuhan, kematangan, penurunan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-2-perkembangan-teknologi-cp-3",
+              "question": "Teknik animasi yang menggunakan manusia sebagai objek disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "pixilation",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "claymation"
+                },
+                {
+                  "id": "c2",
+                  "text": "object-motion"
+                },
+                {
+                  "id": "c3",
+                  "text": "cell animation"
+                }
+              ],
+              "explanation": "Pixilation menggerakkan manusia per frame."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-2-tantangan",
+              "title": "Tantangan istilah teknologi animasi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Alat proyeksi Reynaud",
+                  "answer": "Praxinoscope"
+                },
+                {
+                  "question": "Animasi stop-motion berbahan tanah liat",
+                  "answer": "Claymation"
+                },
+                {
+                  "question": "Kerangka kawat penyangga karakter clay",
+                  "answer": "Armature"
+                },
+                {
+                  "question": "Format standar film bioskop digital",
+                  "answer": "Digital Cinema Package"
+                },
+                {
+                  "question": "Kunci pembuka DCP terenkripsi",
+                  "answer": "Key Delivery Message"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah teknologi animasi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Perkembangan Teknologi Industri Animasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Animasi berasal dari kata animation yang bermakna…",
+              "options": [
+                {
+                  "text": "menggerakkan",
+                  "correct": true
+                },
+                {
+                  "text": "menggambar"
+                },
+                {
+                  "text": "mewarnai"
+                },
+                {
+                  "text": "menyunting"
+                }
+              ],
+              "explanation": "Animasi menggerakkan gambar atau objek diam.",
+              "hint": "Akar kata to animate."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Film animasi pertama yang dikenal publik dibuat oleh…",
+              "options": [
+                {
+                  "text": "J. Stuart Blackton",
+                  "correct": true
+                },
+                {
+                  "text": "Walt Disney"
+                },
+                {
+                  "text": "Earl Hurd"
+                },
+                {
+                  "text": "Lumiere Brothers"
+                }
+              ],
+              "explanation": "Blackton membuat Humorous Phases of Funny Faces (1906).",
+              "hint": "Berteknik stop-motion."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teknik cell animation ditemukan pada tahun 1914 oleh…",
+              "options": [
+                {
+                  "text": "Earl Hurd",
+                  "correct": true
+                },
+                {
+                  "text": "Walt Disney"
+                },
+                {
+                  "text": "Nick Park"
+                },
+                {
+                  "text": "Winsor McCay"
+                }
+              ],
+              "explanation": "Cell animation memisahkan latar diam dan bagian bergerak.",
+              "hint": "Menjadi acuan animasi abad XX."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tonggak sejarah animasi dunia?",
+              "options": [
+                {
+                  "text": "Humorous Phases of Funny Faces (1906)",
+                  "correct": true
+                },
+                {
+                  "text": "Steamboat Willie (1928)",
+                  "correct": true
+                },
+                {
+                  "text": "Cell animation (1914)",
+                  "correct": true
+                },
+                {
+                  "text": "Lego the Movie (2014)",
+                  "correct": false
+                },
+                {
+                  "text": "Chicken Run (2000)",
+                  "correct": false
+                },
+                {
+                  "text": "Toy Story (1995)",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiganya penanda awal sejarah animasi.",
+              "hint": "Sisanya karya modern."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri animasi stop-motion?",
+              "options": [
+                {
+                  "text": "Objek dipindahkan bertahap",
+                  "correct": true
+                },
+                {
+                  "text": "Direkam per frame",
+                  "correct": true
+                },
+                {
+                  "text": "Frame digabung menjadi gerak",
+                  "correct": true
+                },
+                {
+                  "text": "Digambar langsung di komputer",
+                  "correct": false
+                },
+                {
+                  "text": "Tanpa perekaman gambar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Stop-motion bersifat fisik.",
+              "hint": "Frame dirangkai menghasilkan ilusi gerak."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Perkembangan Teknologi Industri Animasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Film yang pertama memadukan animasi dan suara adalah…",
+              "options": [
+                {
+                  "text": "Steamboat Willie",
+                  "correct": true
+                },
+                {
+                  "text": "Fantasmagorie"
+                },
+                {
+                  "text": "Gertie the Dinosaur"
+                },
+                {
+                  "text": "Toy Story"
+                }
+              ],
+              "explanation": "Steamboat Willie dirilis 1928.",
+              "hint": "Melahirkan Mickey Mouse."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teknik animasi yang memakai tanah liat atau plastisin disebut…",
+              "options": [
+                {
+                  "text": "claymation",
+                  "correct": true
+                },
+                {
+                  "text": "pixilation"
+                },
+                {
+                  "text": "object-motion"
+                },
+                {
+                  "text": "rotoscoping"
+                }
+              ],
+              "explanation": "Bahan lunak dibentuk menjadi karakter.",
+              "hint": "Disangga armature."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bahan yang dipakai claymation?",
+              "options": [
+                {
+                  "text": "Tanah liat",
+                  "correct": true
+                },
+                {
+                  "text": "Plastisin",
+                  "correct": true
+                },
+                {
+                  "text": "Lilin",
+                  "correct": true
+                },
+                {
+                  "text": "Besi",
+                  "correct": false
+                },
+                {
+                  "text": "Kaca",
+                  "correct": false
+                },
+                {
+                  "text": "Air",
+                  "correct": false
+                }
+              ],
+              "explanation": "Claymation memakai bahan lunak.",
+              "hint": "Bahan lunak mudah dibentuk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap product life cycle?",
+              "options": [
+                {
+                  "text": "Introduksi",
+                  "correct": true
+                },
+                {
+                  "text": "Pertumbuhan",
+                  "correct": true
+                },
+                {
+                  "text": "Kematangan",
+                  "correct": true
+                },
+                {
+                  "text": "Produksi massal",
+                  "correct": false
+                },
+                {
+                  "text": "Distribusi kabel",
+                  "correct": false
+                },
+                {
+                  "text": "Audisi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Siklus hidup produk empat tahap.",
+              "hint": "Ditutup tahap penurunan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Praxinoscope",
+                  "right": "alat proyeksi Reynaud"
+                },
+                {
+                  "id": "m1",
+                  "left": "Cell animation",
+                  "right": "Earl Hurd, 1914"
+                },
+                {
+                  "id": "m2",
+                  "left": "Steamboat Willie",
+                  "right": "animasi pertama bersuara"
+                },
+                {
+                  "id": "m3",
+                  "left": "Claymation",
+                  "right": "stop-motion berbahan tanah liat"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "alat proyeksi Reynaud",
+                  "m1": "Earl Hurd, 1914",
+                  "m2": "animasi pertama bersuara",
+                  "m3": "stop-motion berbahan tanah liat"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tonggak sejarah animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Praxinoscope karya Reynaud"
+                },
+                {
+                  "id": "d1",
+                  "text": "Humorous Phases of Funny Faces"
+                },
+                {
+                  "id": "d2",
+                  "text": "Cell animation Earl Hurd"
+                },
+                {
+                  "id": "d3",
+                  "text": "Steamboat Willie"
+                },
+                {
+                  "id": "d4",
+                  "text": "Toy Story dengan CGI"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Sejarah dimulai dari alat proyeksi sederhana.",
+              "hint": "CGI menutup rangkaian tonggak."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan tahap product life cycle.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Introduksi"
+                },
+                {
+                  "id": "p1",
+                  "text": "Pertumbuhan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Kematangan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Penurunan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Produk dimulai dari perkenalan.",
+              "hint": "Siklus ditutup penurunan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kerangka kawat pada karakter claymation disebut…",
+              "options": [
+                {
+                  "text": "armature",
+                  "correct": true
+                },
+                {
+                  "text": "rigging"
+                },
+                {
+                  "text": "skeleton"
+                },
+                {
+                  "text": "wireframe"
+                }
+              ],
+              "explanation": "Armature memudahkan perpindahan gerakan.",
+              "hint": "Menjaga bentuk karakter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh film dengan teknik object-motion adalah…",
+              "options": [
+                {
+                  "text": "Lego the Movie",
+                  "correct": true
+                },
+                {
+                  "text": "Chicken Run"
+                },
+                {
+                  "text": "Toy Story"
+                },
+                {
+                  "text": "The Matrix"
+                }
+              ],
+              "explanation": "Object-motion menggerakkan benda padat.",
+              "hint": "Mainan dan balok menjadi karakter."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh penggunaan CGI/VFX dalam film?",
+              "options": [
+                {
+                  "text": "Toy Story (1995)",
+                  "correct": true
+                },
+                {
+                  "text": "The Matrix (1999)",
+                  "correct": true
+                },
+                {
+                  "text": "Tron (1982)",
+                  "correct": true
+                },
+                {
+                  "text": "Pauvre Pierrot (1892)",
+                  "correct": false
+                },
+                {
+                  "text": "Humorous Phases of Funny Faces (1906)",
+                  "correct": false
+                }
+              ],
+              "explanation": "CGI dan VFX inovasi film digital.",
+              "hint": "Film 1892–1906 belum memakai CGI."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Perkembangan Teknologi Industri Animasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Animasi yang menggunakan manusia sebagai objek disebut…",
+              "options": [
+                {
+                  "text": "pixilation",
+                  "correct": true
+                },
+                {
+                  "text": "claymation"
+                },
+                {
+                  "text": "object-motion"
+                },
+                {
+                  "text": "cell animation"
+                }
+              ],
+              "explanation": "Manusia diposisikan ulang tiap frame."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat Lumiere Brothers untuk merekam gambar bergerak bernama…",
+              "options": [
+                {
+                  "text": "cinematographe",
+                  "correct": true
+                },
+                {
+                  "text": "praxinoscope"
+                },
+                {
+                  "text": "mutoscope"
+                },
+                {
+                  "text": "vitascope"
+                }
+              ],
+              "explanation": "Cinematographe dipakai sejak 1895."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Format standar pengiriman film ke bioskop digital adalah…",
+              "options": [
+                {
+                  "text": "Digital Cinema Package",
+                  "correct": true
+                },
+                {
+                  "text": "Blu-ray disc"
+                },
+                {
+                  "text": "VHS tape"
+                },
+                {
+                  "text": "MPEG-1"
+                }
+              ],
+              "explanation": "DCP diputar proyektor digital."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "DCP yang terenkripsi dibuka menggunakan…",
+              "options": [
+                {
+                  "text": "Key Delivery Message",
+                  "correct": true
+                },
+                {
+                  "text": "password bioskop"
+                },
+                {
+                  "text": "QR code tiket"
+                },
+                {
+                  "text": "serial number proyektor"
+                }
+              ],
+              "explanation": "KDM menjadi kunci pemutaran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahap siklus hidup produk yang paling menguntungkan adalah…",
+              "options": [
+                {
+                  "text": "kematangan",
+                  "correct": true
+                },
+                {
+                  "text": "introduksi"
+                },
+                {
+                  "text": "pertumbuhan"
+                },
+                {
+                  "text": "penurunan"
+                }
+              ],
+              "explanation": "Produk sudah dikenal dan biaya menurun."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah media penyimpanan DCP fisik?",
+              "options": [
+                {
+                  "text": "Flash drive",
+                  "correct": true
+                },
+                {
+                  "text": "USB drive eksternal",
+                  "correct": true
+                },
+                {
+                  "text": "CRU Solo",
+                  "correct": true
+                },
+                {
+                  "text": "Pita kaset",
+                  "correct": false
+                },
+                {
+                  "text": "Disket",
+                  "correct": false
+                },
+                {
+                  "text": "Kartu memori kamera",
+                  "correct": false
+                }
+              ],
+              "explanation": "DCP dikirim dalam media penyimpanan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah faktor yang memengaruhi siklus hidup produk animasi?",
+              "options": [
+                {
+                  "text": "Perkembangan teknologi",
+                  "correct": true
+                },
+                {
+                  "text": "Permintaan pasar",
+                  "correct": true
+                },
+                {
+                  "text": "Munculnya kompetitor",
+                  "correct": true
+                },
+                {
+                  "text": "Jumlah kursi bioskop",
+                  "correct": false
+                },
+                {
+                  "text": "Warna poster",
+                  "correct": false
+                },
+                {
+                  "text": "Nama studio",
+                  "correct": false
+                }
+              ],
+              "explanation": "Siklus dipengaruhi pasar dan teknologi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Armature",
+                  "right": "kerangka kawat karakter clay"
+                },
+                {
+                  "id": "m1",
+                  "left": "Pixilation",
+                  "right": "manusia sebagai objek animasi"
+                },
+                {
+                  "id": "m2",
+                  "left": "DCP",
+                  "right": "format film bioskop digital"
+                },
+                {
+                  "id": "m3",
+                  "left": "KDM",
+                  "right": "kunci pembuka DCP"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "kerangka kawat karakter clay",
+                  "m1": "manusia sebagai objek animasi",
+                  "m2": "format film bioskop digital",
+                  "m3": "kunci pembuka DCP"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan proses pembuatan animasi stop-motion.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyiapkan objek dan set"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memindahkan objek setahap"
+                },
+                {
+                  "id": "d2",
+                  "text": "Merekam tiap frame"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menggabungkan frame"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menambahkan suara dan efek"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Stop-motion dikerjakan bertahap."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan perkembangan teknologi film.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Cinematographe 1895"
+                },
+                {
+                  "id": "p1",
+                  "text": "Film berwarna three-colour system"
+                },
+                {
+                  "id": "p2",
+                  "text": "Perekaman digital 2000-an"
+                },
+                {
+                  "id": "p3",
+                  "text": "Proyektor dan DCP bioskop digital"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Teknologi film terus berkembang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahap siklus hidup saat produk tergantikan produk lain adalah…",
+              "options": [
+                {
+                  "text": "penurunan",
+                  "correct": true
+                },
+                {
+                  "text": "introduksi"
+                },
+                {
+                  "text": "pertumbuhan"
+                },
+                {
+                  "text": "kematangan"
+                }
+              ],
+              "explanation": "Decline terjadi saat produk jenuh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Animasi dianggap ilusi gerak karena…",
+              "options": [
+                {
+                  "text": "rangkaian gambar diam diputar kembali secara cepat",
+                  "correct": true
+                },
+                {
+                  "text": "gambar dibuat berwarna"
+                },
+                {
+                  "text": "suara ditambahkan"
+                },
+                {
+                  "text": "film diputar lambat"
+                }
+              ],
+              "explanation": "Mata melihat perubahan posisi sebagai gerak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang perlu dilakukan pada tahap introduksi?",
+              "options": [
+                {
+                  "text": "Beriklan di media cetak",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat poster",
+                  "correct": true
+                },
+                {
+                  "text": "Menayangkan trailer",
+                  "correct": true
+                },
+                {
+                  "text": "Menurunkan kualitas",
+                  "correct": false
+                },
+                {
+                  "text": "Menghapus produk",
+                  "correct": false
+                },
+                {
+                  "text": "Menutup studio",
+                  "correct": false
+                }
+              ],
+              "explanation": "Introduksi bertujuan memperkenalkan produk."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Praxinoscope",
+                  "right": "alat proyeksi Reynaud"
+                },
+                {
+                  "id": "m1",
+                  "left": "Cell animation",
+                  "right": "Earl Hurd, 1914"
+                },
+                {
+                  "id": "m2",
+                  "left": "Steamboat Willie",
+                  "right": "animasi pertama bersuara"
+                },
+                {
+                  "id": "m3",
+                  "left": "Claymation",
+                  "right": "stop-motion berbahan tanah liat"
+                },
+                {
+                  "id": "m4",
+                  "left": "Armature",
+                  "right": "kerangka kawat karakter clay"
+                },
+                {
+                  "id": "m5",
+                  "left": "Pixilation",
+                  "right": "manusia sebagai objek animasi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "alat proyeksi Reynaud",
+                  "m1": "Earl Hurd, 1914",
+                  "m2": "animasi pertama bersuara",
+                  "m3": "stop-motion berbahan tanah liat",
+                  "m4": "kerangka kawat karakter clay",
+                  "m5": "manusia sebagai objek animasi"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah memperpanjang siklus hidup produk animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Membaca data penonton"
+                },
+                {
+                  "id": "d1",
+                  "text": "Melakukan inovasi cerita"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memperluas pasar"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mengembangkan lisensi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mengevaluasi hasil"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Inovasi berawal dari data."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1283 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 1",
+      "title": "Proses Bisnis Kreatif di Bidang Animasi",
+      "description": "Memahami K3 di bidang animasi, alur produksi industri animasi (praproduksi, produksi, pascaproduksi), membentuk pola pikir kreatif, dan menghasilkan desain yang tepat sasaran untuk klien.",
+      "learning_objectives": [
+        "Memahami dan menerapkan K3 dalam industri animasi.",
+        "Memahami alur produksi dari praproduksi, produksi, hingga pascaproduksi.",
+        "Mengembangkan pola pikir kreatif dalam menciptakan karya animasi.",
+        "Menghasilkan solusi desain yang tepat sasaran berdasar riset dan kebutuhan klien."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 1 Proses Bisnis Kreatif di Bidang Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "K3 di bidang animasi",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 1 Proses Bisnis Kreatif di Bidang Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Bekerja aman dan sehat di depan komputer\n\nK3 adalah keselamatan dan kesehatan kerja, yaitu upaya memastikan pekerja dapat bekerja dengan aman dan sehat di tempat kerja, termasuk mencegah cedera, kecelakaan, dan masalah kesehatan akibat lingkungan kerja.\n\nPekerja animasi sering duduk lama di depan komputer sehingga berisiko mengalami cedera tangan atau pergelangan, kelelahan mata, hingga kecelakaan listrik. Karena itu K3 sangat penting.\n\nPenerapan K3 meliputi menjaga ventilasi dan kualitas udara, memberi pelatihan dan alat pelindung diri, merawat peralatan teratur, serta memperhatikan kesejahteraan pekerja dan lingkungan sekitar.\n\nAtur posisi ergonomis: monitor sejajar mata, punggung tegak, kaki ditopang, dan istirahat cukup untuk mencegah kelelahan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-1-proses-bisnis-kreatif-glosarium",
+              "terms": [
+                {
+                  "term": "K3",
+                  "definition": "Keselamatan dan Kesehatan Kerja, upaya memastikan pekerja bekerja aman dan sehat."
+                },
+                {
+                  "term": "Alur produksi",
+                  "definition": "Serangkaian tahap produksi terorganisasi dari praproduksi, produksi, hingga pascaproduksi."
+                },
+                {
+                  "term": "3D production pipeline",
+                  "definition": "Jalur produksi animasi 3D dari konsep hingga output akhir dengan urutan terstruktur."
+                },
+                {
+                  "term": "Praproduksi",
+                  "definition": "Tahap merencanakan konsep, menyusun cerita, storyboard, animatic, dan desain."
+                },
+                {
+                  "term": "Animatic",
+                  "definition": "Versi kasar animasi yang dirangkai dengan gambar, suara, dan efek suara."
+                },
+                {
+                  "term": "Rendering",
+                  "definition": "Tahap menggabungkan dan menghasilkan gambar final dari data 3D."
+                },
+                {
+                  "term": "Pascaproduksi",
+                  "definition": "Tahap compositing, koreksi warna, editing, dan finishing."
+                },
+                {
+                  "term": "Ergonomi",
+                  "definition": "Penyesuaian posisi kerja agar nyaman dan mencegah cedera."
+                },
+                {
+                  "term": "Pola pikir kreatif",
+                  "definition": "Kemampuan menghasilkan ide baru dan inovatif, didukung pribadi, proses, pendorong, dan produk. (4P)"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bekerja aman dan sehat di depan komputer"
+            },
+            {
+              "type": "paragraph",
+              "text": "K3 adalah keselamatan dan kesehatan kerja, yaitu upaya memastikan pekerja dapat bekerja dengan aman dan sehat di tempat kerja, termasuk mencegah cedera, kecelakaan, dan masalah kesehatan akibat lingkungan kerja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pekerja animasi sering duduk lama di depan komputer sehingga berisiko mengalami cedera tangan atau pergelangan, kelelahan mata, hingga kecelakaan listrik. Karena itu K3 sangat penting."
+            },
+            {
+              "type": "paragraph",
+              "text": "Penerapan K3 meliputi menjaga ventilasi dan kualitas udara, memberi pelatihan dan alat pelindung diri, merawat peralatan teratur, serta memperhatikan kesejahteraan pekerja dan lingkungan sekitar."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-1-proses-bisnis-kreatif-diagram",
+              "engine": "mermaid",
+              "title": "Beberapa contoh kecelakaan kerja di industri animasi",
+              "code": "flowchart TB\n  A[Kecelakaan kerja animasi] --> B[Cedera tangan, pergelangan, lengan]\n  A --> C[Kecelakaan jatuh di ketinggian]\n  A --> D[Cedera mata karena layar]\n  A --> E[Kecelakaan listrik]\n  A --> F[Kerusakan perangkat dan hilangnya fail]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Atur posisi ergonomis: monitor sejajar mata, punggung tegak, kaki ditopang, dan istirahat cukup untuk mencegah kelelahan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-1-proses-bisnis-kreatif-cp-1",
+              "question": "K3 adalah singkatan dari…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "keselamatan dan kesehatan kerja",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "keuangan dan kualitas kerja"
+                },
+                {
+                  "id": "c2",
+                  "text": "kepuasan dan kecepatan"
+                },
+                {
+                  "id": "c3",
+                  "text": "kompetensi dan karakter"
+                }
+              ],
+              "explanation": "K3 berarti keselamatan dan kesehatan kerja."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Alur produksi animasi",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 1 Proses Bisnis Kreatif di Bidang Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Praproduksi, produksi, pascaproduksi\n\nAlur produksi animasi adalah rangkaian tahap terorganisasi yang mengatur produksi secara sistematis agar hemat waktu, biaya, dan sumber daya, serta menjamin kualitas sesuai standar.\n\nUntuk animasi 3D, alur ini disebut 3D production pipeline: dimulai dari konsep dan skrip, lalu modeling, rigging, texturing, animation, lighting, VFX, dan rendering, kemudian compositing.\n\nPraproduksi menjadi dasar seluruh proses: menentukan ide, menyusun cerita, membuat storyboard, animatic, dan desain karakter serta lingkungan sebelum produksi dimulai.\n\n| Tahap | Kegiatan utama | Contoh tugas |\n|---|---|---|\n| Praproduksi | Ide, cerita, storyboard | Menulis skenario dan desain karakter |\n| Produksi | Membuat aset dan animasi | Modelling, rigging, texturing, rendering |\n| Pascaproduksi | Merapikan hasil akhir | Compositing, koreksi warna, editing |\n\n### Pola pikir kreatif dan desain\n\n- Kreativitas dibangun dari empat komponen 4P: pribadi (person), proses (process), pendorong (press), dan produk kreatif (product).\n- Pola pikir kreatif mendorong pencarian ide baru yang inovatif dan unik dalam karya animasi.\n- Desain yang tepat sasaran mengikuti alur good story (riset cerita), good design (riset target pasar), dan good business (potensi pengembangan produk).\n- Memahami audiens, warna, bentuk, font, serta fungsi dan konteks produk membuat desain menarik dan efektif bagi klien.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Praproduksi, produksi, pascaproduksi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Alur produksi animasi adalah rangkaian tahap terorganisasi yang mengatur produksi secara sistematis agar hemat waktu, biaya, dan sumber daya, serta menjamin kualitas sesuai standar."
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk animasi 3D, alur ini disebut 3D production pipeline: dimulai dari konsep dan skrip, lalu modeling, rigging, texturing, animation, lighting, VFX, dan rendering, kemudian compositing."
+            },
+            {
+              "type": "paragraph",
+              "text": "Praproduksi menjadi dasar seluruh proses: menentukan ide, menyusun cerita, membuat storyboard, animatic, dan desain karakter serta lingkungan sebelum produksi dimulai."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tahap",
+                  "Kegiatan utama",
+                  "Contoh tugas"
+                ],
+                [
+                  "Praproduksi",
+                  "Ide, cerita, storyboard",
+                  "Menulis skenario dan desain karakter"
+                ],
+                [
+                  "Produksi",
+                  "Membuat aset dan animasi",
+                  "Modelling, rigging, texturing, rendering"
+                ],
+                [
+                  "Pascaproduksi",
+                  "Merapikan hasil akhir",
+                  "Compositing, koreksi warna, editing"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-1-pipeline",
+              "engine": "mermaid",
+              "title": "Alur produksi animasi 3D",
+              "code": "flowchart LR\n  A[Praproduksi: ide, skrip, storyboard] --> B[Produksi: modeling dan rigging]\n  B --> C[Produksi: texturing, animation, lighting]\n  C --> D[VFX dan rendering]\n  D --> E[Pascaproduksi: compositing]\n  E --> F[Koreksi warna, editing, final output]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-1-klasifikasi",
+              "prompt": "Kelompokkan kegiatan berikut ke dalam tahap praproduksi atau produksi.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Praproduksi"
+                },
+                {
+                  "id": "b2",
+                  "label": "Produksi"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Menulis skenario cerita",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Membuat model karakter 3D",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Menghasilkan ide dari curah gagasan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Memberi rigging pada karakter",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Membuat storyboard adegan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Animasi pergerakan karakter",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Membuat animatic kasar",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Melakukan rendering",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Praproduksi merencanakan; produksi membuat aset dan gerak.",
+                "wrong": "Periksa lagi: ide, skrip, storyboard, dan animatic adalah praproduksi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Pola pikir kreatif dan desain"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kreativitas dibangun dari empat komponen 4P: pribadi (person), proses (process), pendorong (press), dan produk kreatif (product).",
+                "Pola pikir kreatif mendorong pencarian ide baru yang inovatif dan unik dalam karya animasi.",
+                "Desain yang tepat sasaran mengikuti alur good story (riset cerita), good design (riset target pasar), dan good business (potensi pengembangan produk).",
+                "Memahami audiens, warna, bentuk, font, serta fungsi dan konteks produk membuat desain menarik dan efektif bagi klien."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-1-proses-bisnis-kreatif-cp-2",
+              "question": "Urutan alur produksi animasi yang benar adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "praproduksi, produksi, pascaproduksi",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "produksi, praproduksi, pascaproduksi"
+                },
+                {
+                  "id": "c2",
+                  "text": "pascaproduksi, praproduksi, produksi"
+                },
+                {
+                  "id": "c3",
+                  "text": "produksi, pascaproduksi, praproduksi"
+                }
+              ],
+              "explanation": "Produksi dimulai dari perencanaan, lalu pembuatan, dan diakhiri perapihan."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 1 Proses Bisnis Kreatif di Bidang Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Merencanakan produksi animasi\n\nPerencanaan produksi memastikan seluruh proses berjalan efektif dan efisien dengan memperhitungkan anggaran, tim, dan tenggat waktu (deadline).\n\nDari riset cerita dan karakter, tim menyusun konsep, lalu membuat storyboard untuk memvisualisasikan urutan adegan, aksi, dan arah kamera.\n\nDesain mock up membantu tim melihat produk sebelum diproduksi penuh, termasuk potensi pengembangannya melalui lisensi atau kemitraan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Merencanakan produksi animasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Perencanaan produksi memastikan seluruh proses berjalan efektif dan efisien dengan memperhitungkan anggaran, tim, dan tenggat waktu (deadline)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dari riset cerita dan karakter, tim menyusun konsep, lalu membuat storyboard untuk memvisualisasikan urutan adegan, aksi, dan arah kamera."
+            },
+            {
+              "type": "paragraph",
+              "text": "Desain mock up membantu tim melihat produk sebelum diproduksi penuh, termasuk potensi pengembangannya melalui lisensi atau kemitraan."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-1-skenario",
+              "title": "Deadline ketat dan mulai lelah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Tim produksimu bekerja berjam-jam dan beberapa anggota mengeluh sakit mata serta pergelangan tangan. Sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Memberi jadwal istirahat dan memperbaiki posisi kerja ergonomis",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "K3 menjaga kesehatan dan produktivitas tim jangka panjang."
+                    },
+                    {
+                      "text": "Memaksa lanjut bekerja tanpa istirahat demi mengejar deadline",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Memaksa bekerja berisiko cedera dan menurunkan kualitas."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bagaimana memastikan pekerjaan tetap selesai tepat waktu?",
+                  "choices": [
+                    {
+                      "text": "Menyusun ulang jadwal dengan membagi tugas sesuai kemampuan",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Perencanaan dan pembagian tugas menjaga kualitas serta tenggat."
+                    },
+                    {
+                      "text": "Menyerahkan semua pekerjaan kepada satu orang",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Beban berlebih pada satu orang memperlambat dan memancing kesalahan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Tim jatuh sakit, kualitas anjlok, dan klien kecewa.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Proyek selesai tepat waktu dengan tim yang sehat dan karya berkualitas.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-1-proses-bisnis-kreatif-kartu",
+              "cards": [
+                {
+                  "front": "Apa kepanjangan K3?",
+                  "back": "Keselamatan dan kesehatan kerja."
+                },
+                {
+                  "front": "Sebutkan alur produksi animasi.",
+                  "back": "Praproduksi, produksi, pascaproduksi."
+                },
+                {
+                  "front": "Apa itu animatic?",
+                  "back": "Versi kasar animasi yang dirangkai dengan gambar, suara, dan efek suara."
+                },
+                {
+                  "front": "Apa komponen 4P kreativitas?",
+                  "back": "Pribadi, proses, pendorong, dan produk kreatif."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-1-proses-bisnis-kreatif-cp-3",
+              "question": "Alur desain yang tepat sasaran meliputi…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "good story, good design, good business",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "harga, warna, ukuran"
+                },
+                {
+                  "id": "c2",
+                  "text": "pemasaran, iklan, hadiah"
+                },
+                {
+                  "id": "c3",
+                  "text": "kamera, suara, efek"
+                }
+              ],
+              "explanation": "Desain tepat sasaran berdasar riset cerita, riset pasar, dan potensi bisnis."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-1-tantangan",
+              "title": "Tantangan istilah proses bisnis animasi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Keselamatan dan kesehatan kerja",
+                  "answer": "K3"
+                },
+                {
+                  "question": "Versi kasar animasi",
+                  "answer": "Animatic"
+                },
+                {
+                  "question": "Jalur produksi animasi 3D",
+                  "answer": "3D production pipeline"
+                },
+                {
+                  "question": "Tahap menggabungkan hasil menjadi gambar final",
+                  "answer": "Rendering"
+                },
+                {
+                  "question": "Posisi kerja yang nyaman dan aman",
+                  "answer": "Ergonomi"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah proses bisnis animasi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Proses Bisnis Kreatif di Bidang Animasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "K3 dalam bidang animasi adalah…",
+              "options": [
+                {
+                  "text": "keselamatan dan kesehatan kerja untuk mencegah cedera dan penyakit akibat kerja",
+                  "correct": true
+                },
+                {
+                  "text": "kepemimpinan dan ketepatan"
+                },
+                {
+                  "text": "keuangan dan keterampilan"
+                },
+                {
+                  "text": "kecepatan dan keindahan"
+                }
+              ],
+              "explanation": "K3 melindungi tenaga kerja.",
+              "hint": "Mencakup bahan kimia, alat, dan lingkungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Peraturan yang mengatur keselamatan kerja di Indonesia adalah…",
+              "options": [
+                {
+                  "text": "UU No. 1 Tahun 1970",
+                  "correct": true
+                },
+                {
+                  "text": "UU No. 13 Tahun 2005"
+                },
+                {
+                  "text": "PP No. 5 Tahun 1999"
+                },
+                {
+                  "text": "UU No. 20 Tahun 2003"
+                }
+              ],
+              "explanation": "UU 1/1970 mengatur keselamatan kerja.",
+              "hint": "Juga ada UU 13/2003 dan PP 50/2012."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alur produksi animasi yang benar adalah…",
+              "options": [
+                {
+                  "text": "praproduksi, produksi, pascaproduksi",
+                  "correct": true
+                },
+                {
+                  "text": "produksi, praproduksi, pascaproduksi"
+                },
+                {
+                  "text": "pascaproduksi, produksi, praproduksi"
+                },
+                {
+                  "text": "produksi, pascaproduksi, praproduksi"
+                }
+              ],
+              "explanation": "Produksi dimulai dari perencanaan.",
+              "hint": "Diakhiri perapihan akhir."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah risiko kerja di industri animasi?",
+              "options": [
+                {
+                  "text": "Cedera tangan karena mouse",
+                  "correct": true
+                },
+                {
+                  "text": "Kelelahan mata",
+                  "correct": true
+                },
+                {
+                  "text": "Kecelakaan listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Keracunan makanan laut",
+                  "correct": false
+                },
+                {
+                  "text": "Sengatan matahari",
+                  "correct": false
+                }
+              ],
+              "explanation": "Risiko berkaitan dengan komputer dan listrik.",
+              "hint": "Bukan risiko khas studio animasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahapan praproduksi?",
+              "options": [
+                {
+                  "text": "Penentuan ide",
+                  "correct": true
+                },
+                {
+                  "text": "Penyusunan cerita",
+                  "correct": true
+                },
+                {
+                  "text": "Pembuatan storyboard",
+                  "correct": true
+                },
+                {
+                  "text": "Rendering",
+                  "correct": false
+                },
+                {
+                  "text": "Compositing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Praproduksi merencanakan konsep.",
+              "hint": "Rendering dan compositing bagian produksi."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Proses Bisnis Kreatif di Bidang Animasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Versi kasar animasi yang dirangkai dengan gambar dan suara disebut…",
+              "options": [
+                {
+                  "text": "animatic",
+                  "correct": true
+                },
+                {
+                  "text": "storyboard"
+                },
+                {
+                  "text": "rendering"
+                },
+                {
+                  "text": "compositing"
+                }
+              ],
+              "explanation": "Animatic memvisualkan susunan adegan.",
+              "hint": "Menjadi gambaran bagi klien."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rangkaian gambar kasar urutan cerita disebut…",
+              "options": [
+                {
+                  "text": "storyboard",
+                  "correct": true
+                },
+                {
+                  "text": "animatic"
+                },
+                {
+                  "text": "skenario"
+                },
+                {
+                  "text": "texture"
+                }
+              ],
+              "explanation": "Storyboard memuat deskripsi adegan dan arah kamera.",
+              "hint": "Dasar visualisasi cerita."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahapan produksi animasi 3D?",
+              "options": [
+                {
+                  "text": "Modeling",
+                  "correct": true
+                },
+                {
+                  "text": "Rigging",
+                  "correct": true
+                },
+                {
+                  "text": "Texturing",
+                  "correct": true
+                },
+                {
+                  "text": "Menulis skenario",
+                  "correct": false
+                },
+                {
+                  "text": "Koreksi warna",
+                  "correct": false
+                }
+              ],
+              "explanation": "Produksi membuat aset dan gerak.",
+              "hint": "Skenario praproduksi, koreksi warna pascaproduksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh penerapan K3 bidang animasi?",
+              "options": [
+                {
+                  "text": "Menjaga kualitas udara",
+                  "correct": true
+                },
+                {
+                  "text": "Memberi alat pelindung diri",
+                  "correct": true
+                },
+                {
+                  "text": "Merawat peralatan teratur",
+                  "correct": true
+                },
+                {
+                  "text": "Menghilangkan istirahat",
+                  "correct": false
+                },
+                {
+                  "text": "Mengurangi ventilasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "K3 menjaga keamanan dan kesehatan.",
+              "hint": "Menghilangkan istirahat bertentangan dengan K3."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "K3",
+                  "right": "keselamatan dan kesehatan kerja"
+                },
+                {
+                  "id": "m1",
+                  "left": "Animatic",
+                  "right": "versi kasar animasi"
+                },
+                {
+                  "id": "m2",
+                  "left": "Storyboard",
+                  "right": "gambar kasar urutan cerita"
+                },
+                {
+                  "id": "m3",
+                  "left": "Rendering",
+                  "right": "menghasilkan gambar final"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "keselamatan dan kesehatan kerja",
+                  "m1": "versi kasar animasi",
+                  "m2": "gambar kasar urutan cerita",
+                  "m3": "menghasilkan gambar final"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahap praproduksi animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menentukan ide"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menyusun cerita dan skenario"
+                },
+                {
+                  "id": "d2",
+                  "text": "Membuat storyboard"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membuat animatic"
+                },
+                {
+                  "id": "d4",
+                  "text": "Membuat desain karakter dan lingkungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Praproduksi berawal dari ide.",
+              "hint": "Desain menutup persiapan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan tahap produksi animasi 3D.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Modeling"
+                },
+                {
+                  "id": "p1",
+                  "text": "Rigging"
+                },
+                {
+                  "id": "p2",
+                  "text": "Texturing"
+                },
+                {
+                  "id": "p3",
+                  "text": "Animation dan lighting"
+                },
+                {
+                  "id": "p4",
+                  "text": "Rendering"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Produksi membuat aset lalu menggerakkan.",
+              "hint": "Rendering menghasilkan gambar final."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahap produksi yang membuat model dasar karakter 3D adalah…",
+              "options": [
+                {
+                  "text": "modeling",
+                  "correct": true
+                },
+                {
+                  "text": "rigging"
+                },
+                {
+                  "text": "texturing"
+                },
+                {
+                  "text": "rendering"
+                }
+              ],
+              "explanation": "Modeler membuat model dasar.",
+              "hint": "Rigging memberi tulang/gerak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cedera akibat bekerja terlalu lama dengan mouse terjadi jika…",
+              "options": [
+                {
+                  "text": "posisi tangan tidak ergonomis",
+                  "correct": true
+                },
+                {
+                  "text": "posisi duduk rapi"
+                },
+                {
+                  "text": "layar terlalu gelap"
+                },
+                {
+                  "text": "musik keras"
+                }
+              ],
+              "explanation": "Posisi tangan dan pergelangan harus ergonomis.",
+              "hint": "Tegakkan posisi yang nyaman."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alasan K3 penting bagi animator?",
+              "options": [
+                {
+                  "text": "Sering duduk lama di depan komputer",
+                  "correct": true
+                },
+                {
+                  "text": "Berisiko cedera tangan dan mata",
+                  "correct": true
+                },
+                {
+                  "text": "Menghadapi deadline ketat",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak memakai alat apa pun",
+                  "correct": false
+                },
+                {
+                  "text": "Bekerja tanpa istirahat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bahaya berasal dari komputer dan tekanan kerja.",
+              "hint": "K3 menjaga kesejahteraan pekerja."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Proses Bisnis Kreatif di Bidang Animasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu usaha preventif kecelakaan kerja animasi adalah…",
+              "options": [
+                {
+                  "text": "mengatur posisi kerja ergonomis dan istirahat cukup",
+                  "correct": true
+                },
+                {
+                  "text": "menatap layar terus-menerus"
+                },
+                {
+                  "text": "mempercepat deadline"
+                },
+                {
+                  "text": "menghilangkan ventilasi"
+                }
+              ],
+              "explanation": "Pencegahan menjaga kesehatan dan produktivitas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahap pascaproduksi meliputi…",
+              "options": [
+                {
+                  "text": "compositing, koreksi warna, editing, dan finishing",
+                  "correct": true
+                },
+                {
+                  "text": "modeling dan rigging"
+                },
+                {
+                  "text": "storyboard dan skrip"
+                },
+                {
+                  "text": "curah gagasan"
+                }
+              ],
+              "explanation": "Pascaproduksi merapikan hasil akhir."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Komponen 4P kreativitas meliputi…",
+              "options": [
+                {
+                  "text": "pribadi, proses, pendorong, dan produk kreatif",
+                  "correct": true
+                },
+                {
+                  "text": "pemilu, perdamaian, prestasi"
+                },
+                {
+                  "text": "pasar, promosi, produk"
+                },
+                {
+                  "text": "pikiran, perasaan, perilaku"
+                }
+              ],
+              "explanation": "4P membangun kreativitas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Desain tepat sasaran diawali dari…",
+              "options": [
+                {
+                  "text": "good story berdasar riset dan data",
+                  "correct": true
+                },
+                {
+                  "text": "harga murah"
+                },
+                {
+                  "text": "warna mencolok"
+                },
+                {
+                  "text": "efek khusus"
+                }
+              ],
+              "explanation": "Cerita yang baik komunikatif dan menyentuh audiens."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Memahami audiens target membantu desain…",
+              "options": [
+                {
+                  "text": "menghasilkan pengalaman visual yang menarik",
+                  "correct": true
+                },
+                {
+                  "text": "menyamakan semua gaya"
+                },
+                {
+                  "text": "mengabaikan pengguna"
+                },
+                {
+                  "text": "menghilangkan warna"
+                }
+              ],
+              "explanation": "Riset audiens membuat desain efektif."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahapan pascaproduksi?",
+              "options": [
+                {
+                  "text": "Compositing",
+                  "correct": true
+                },
+                {
+                  "text": "Koreksi warna",
+                  "correct": true
+                },
+                {
+                  "text": "Editing",
+                  "correct": true
+                },
+                {
+                  "text": "Curah gagasan",
+                  "correct": false
+                },
+                {
+                  "text": "Storyboard",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pascaproduksi merapikan hasil final."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri desain yang baik?",
+              "options": [
+                {
+                  "text": "Berdasar riset dan target pasar",
+                  "correct": true
+                },
+                {
+                  "text": "Fungsi dan konteks produk",
+                  "correct": true
+                },
+                {
+                  "text": "Potensi pengembangan bisnis",
+                  "correct": true
+                },
+                {
+                  "text": "Menyalin desain orang lain",
+                  "correct": false
+                },
+                {
+                  "text": "Mengabaikan audiens",
+                  "correct": false
+                }
+              ],
+              "explanation": "Desain baik mempertimbangkan pasar."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Pascaproduksi",
+                  "right": "compositing dan editing"
+                },
+                {
+                  "id": "m1",
+                  "left": "4P",
+                  "right": "pribadi, proses, pendorong, produk"
+                },
+                {
+                  "id": "m2",
+                  "left": "Ergonomi",
+                  "right": "posisi kerja nyaman dan aman"
+                },
+                {
+                  "id": "m3",
+                  "left": "3D production pipeline",
+                  "right": "jalur produksi animasi 3D"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "compositing dan editing",
+                  "m1": "pribadi, proses, pendorong, produk",
+                  "m2": "posisi kerja nyaman dan aman",
+                  "m3": "jalur produksi animasi 3D"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahap pascaproduksi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Compositing"
+                },
+                {
+                  "id": "d1",
+                  "text": "Koreksi warna"
+                },
+                {
+                  "id": "d2",
+                  "text": "Editing"
+                },
+                {
+                  "id": "d3",
+                  "text": "Finishing"
+                },
+                {
+                  "id": "d4",
+                  "text": "Final output"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pascaproduksi menyempurnakan hasil."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan alur desain yang tepat sasaran.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Riset cerita dan audiens"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memahami target pasar"
+                },
+                {
+                  "id": "p2",
+                  "text": "Merancang visual desain"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menguji fungsi dan konteks"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mengembangkan potensi bisnis"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Desain berawal dari riset."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rendering dalam produksi animasi adalah…",
+              "options": [
+                {
+                  "text": "tahap menggabungkan dan menghasilkan gambar final",
+                  "correct": true
+                },
+                {
+                  "text": "tahap menulis skrip"
+                },
+                {
+                  "text": "tahap ide awal"
+                },
+                {
+                  "text": "tahap pemasaran"
+                }
+              ],
+              "explanation": "Rendering dari data 3D menjadi gambar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tujuan dibuatnya alur produksi adalah…",
+              "options": [
+                {
+                  "text": "mengatur produksi sistematis agar hemat waktu, biaya, dan sumber daya",
+                  "correct": true
+                },
+                {
+                  "text": "memperlambat kerja"
+                },
+                {
+                  "text": "menaikkan biaya"
+                },
+                {
+                  "text": "menyembunyikan kesalahan"
+                }
+              ],
+              "explanation": "Alur menjaga efisiensi dan kualitas."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pola pikir kreatif yang sehat?",
+              "options": [
+                {
+                  "text": "Mencari ide baru inovatif",
+                  "correct": true
+                },
+                {
+                  "text": "Terbuka pada umpan balik",
+                  "correct": true
+                },
+                {
+                  "text": "Berdasar riset",
+                  "correct": true
+                },
+                {
+                  "text": "Menolak perubahan",
+                  "correct": false
+                },
+                {
+                  "text": "Menunggu perintah",
+                  "correct": false
+                },
+                {
+                  "text": "Meniru terus-menerus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kreativitas butuh eksplorasi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "K3",
+                  "right": "keselamatan dan kesehatan kerja"
+                },
+                {
+                  "id": "m1",
+                  "left": "Animatic",
+                  "right": "versi kasar animasi"
+                },
+                {
+                  "id": "m2",
+                  "left": "Storyboard",
+                  "right": "gambar kasar urutan cerita"
+                },
+                {
+                  "id": "m3",
+                  "left": "Rendering",
+                  "right": "menghasilkan gambar final"
+                },
+                {
+                  "id": "m4",
+                  "left": "Pascaproduksi",
+                  "right": "compositing dan editing"
+                },
+                {
+                  "id": "m5",
+                  "left": "4P",
+                  "right": "pribadi, proses, pendorong, produk"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "keselamatan dan kesehatan kerja",
+                  "m1": "versi kasar animasi",
+                  "m2": "gambar kasar urutan cerita",
+                  "m3": "menghasilkan gambar final",
+                  "m4": "compositing dan editing",
+                  "m5": "pribadi, proses, pendorong, produk"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan usaha pencegahan kecelakaan kerja animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengatur posisi ergonomis"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menyediakan ventilasi yang baik"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memberi jadwal istirahat"
+                },
+                {
+                  "id": "d3",
+                  "text": "Merawat peralatan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mencadangkan data fail"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pencegahan dari posisi hingga data."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

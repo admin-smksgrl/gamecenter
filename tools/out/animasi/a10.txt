@@ -1,0 +1,1623 @@
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI 
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Animasi 
+untuk SMK/MAK Kelas X
+Penulis: Nina Tri Daniati, Rida Mulyadi, Agus Nugroho 
+ISBN: 978-623-194-442-9 (no.jil.lengkap PDF)
+ 
+978-623-194-443-6 (jil.1 PDF)
+B
+A
+B
+Cerita secara Visual
+10
+Sebuah naskah cerita membutuhkan suatu proses untuk dapat bertransformasi menjadi 
+sebuah film animasi yang menarik. Misalnya, cerita rakyat Timun Mas yang mengisahkan 
+seorang perempuan yang hidup di desa, bekerja sebagai petani, dan tidak mempunyai 
+anak. Ia menginginkan seorang anak agar dapat membantu dan menemaninya bekerja. 
+Selanjutnya, datanglah raksasa yang menawarkan seorang anak dengan syarat, yakni 
+harus menyerahkannya kembali setelah anaknya berusia 6 tahun untuk dimakan. 
+Bagaimana cara kamu memvisualisasikan cerita Timun Mas tersebut menjadi storyboard? 
+Ketika tahapan prapoduksi, kamu dapat membuat perencanaan adegan dalam sebuah 
+storyboard. Tim praproduksi yang menyusun cerita tersebut disebut storyboard artist. 
+Adapun penulis naskahnya disebut scriptwriter. Karena tidak diperankan oleh manusia, 
+tokoh tersebut dibuat gambar karakternya oleh character designer. Dengan demikian, 
+seorang scriptwriter harus mampu menghidupkan karakter tersebut dengan jalan cerita 
+yang menarik. Tertarikkah kamu menjadi seorang scriptwriter? 
+Ga
+mb
+ar 
+10.
+1. 
+Ad
+eg
+an
+ Ti
+mu
+n 
+Ma
+s   
+ Su
+mbe
+r: n
+ina
+trid
+ani
+a (2
+022
+)
+
+278
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Pertanyaan Pemantik
+1. 
+Pernahkah kamu berpikir bagaimana sebuah naskah cerita bisa 
+bertransformasi menjadi film animasi yang menarik dan menghibur? 
+2. 
+Dalam penyajian animasi, ada sebuah tahapan penting yang harus 
+dilewati. Apakah kamu mengetahui dan memahami tahapan tersebut? 
+Tujuan Pembelajaran
+Setelah mengikuti pembelajaran ini, kamu diharapkan mampu:
+1. 
+memahami alur cerita dan unsur-unsur cerita;
+2. 
+menguraikan naskah cerita menjadi skenario cerita;
+3. 
+menyusun shot/scene/sequence storyboard; dan
+4. 
+menyusun pre-visualisasi/animatic.
+Kata Kunci
+3 act structure, premise, sinopsis, skenario, storyboard, animatic 
+Peta Konsep
+Cerita 
+Secara 
+Visual
+Tujuan Pembelajaran
+1. memahami alur cerita dan unsur-
+unsur cerita;
+2. menguraikan naskah cerita menjadi 
+skenario cerita;
+3. menyusun shot/scene/sequence 
+storyboard; dan
+4. menyusun pre-visualisasi/animatic.
+1. Premise
+2. Alur/Plot
+3. Tokoh atau Karakter
+4. Latar atau Setting
+5. Gaya (Style)
+6. Pesan yang akan Disampaikan
+1. Shot
+2. Scene
+3. Sequence
+A. Unsur-Unsur Cerita 
+Film Animasi
+B. Urutan Pengambilan Adegan
+C. Menulis Sinopsis dan 
+Skenario Animasi
+D. Storyboard
+E. Pre-Visualisasi (Animatic)
+
+279
+BAB 10 - Cerita secara Visual
+A. Unsur-Unsur Cerita Film Animasi
+Cerita adalah rangkaian kejadian yang dibuat oleh scriptwriter untuk menciptakan 
+konflik antartokoh atau dalam diri tokoh itu sendiri. Agar terbentuk sebuah 
+cerita, diperlukanlah unsur-unsur pembentuk cerita. Cerita bisa memuat tempat 
+kejadian, waktu, dan hubungan antartokoh. Jika hendak memahami cerita secara 
+mendalam, kamu harus mengetahui unsur-unsur yang ada dalam cerita. Apa 
+saja unsur-unsur cerita tersebut? 
+1. Premise
+Premise adalah ide/gagasan utama yang melatarbelakangi penulisan sebuah 
+cerita. Setelah menemukan premise, proses selanjutnya adalah membuat 
+dramatic premise/logline, yaitu satu kalimat yang menjelaskan peristiwa 
+yang terjadi dalam sebuah cerita.
+Lantas, bagaimana cara menemukan ide untuk sebuah cerita? Berikut 
+ini beberapa sumber untuk mendapatkan ide cerita.
+a. Buku
+Dengan membaca buku, kamu mendapatkan 
+pengetahuan, termasuk ide cerita untuk film 
+animasi. Buku yang bisa menjadi sumber ide 
+cerita berasal dari buku-buku fiksi dan nonfiksi. 
+Salah satu film animasi yang ide ceritanya diambil 
+dari buku berjudul How to Train Your Dragon: 
+The Hidden World.
+b. Alam
+Tanaman, binatang, siklus hidup kupu-kupu, 
+kehidupan semut, dan hal lainnya dapat menjadi 
+ide cerita film animasi. Cerita yang bersumber 
+dari alam ini contohnya film animasi A Bugs Life.
+c. 
+Kehidupan sehari-hari
+Kehidupan sehari-hari seseorang bisa menjadi ide 
+cerita yang menarik. Sebagai contoh, film animasi Si Juki Anak Kosan yang 
+menceritakan kehidupan sehari-hari Juki sebagai mahasiswa dan anak kos.
+Gambar 10.2 Poster film
+How to Train Your Dragon:
+The Hidden World
+Sumber: How to Train Your 
+Dragon: The Hidden World Official/
+dreamworks.com (2019)
+
+280
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+d. Kejadian Alam
+Kejadian alam, seperti gunung meletus, banjir, 
+gletser yang mencair, perubahan kondisi alam 
+dapat menjadi ide cerita yang menarik untuk 
+dianimasikan. Salah satu contoh film animasi 
+yang bersumber dari kejadian alam adalah Ice 
+Age The Meltdown.
+e. Cerita Sejarah
+Ketika belajar mata pelajaran Sejarah atau 
+mendengarkan guru sejarahmu bercerita, adakah 
+cerita sejarah yang membuatmu menarik untuk 
+menjadikannya film animasi? Film Battle of 
+Surabaya merupakan contoh film animasi fiktif 
+yang berlatar belakang sejarah perjuangan 
+bangsa Indonesia saat pertempuran Surabaya 
+10 November 1945.
+f. 
+Perkembangan Ilmu Pengetahuan/Sains
+Ilmu pengetahuan merupakan bagian dari kehidupan manusia yang terus 
+menerus berkembang tanpa ada batasnya. Pada dunia perfilman, sains 
+berkembang menurut imajinasi dari scriptwriter-nya. Salah satu film animasi 
+yang mengangkat tema sains adalah Over The Moon.
+g. Musik
+Musik memberikan inspirasi pada banyak cerita film. Salah satu contoh film 
+animasi yang terinspirasi dari music adalah Coco in Concert Live to Film.
+h. Hubungan Kekeluargaan/Persahabatan
+Pada zaman sekarang, media sosial sangat 
+memengaruhi kehidupan sosial keluarga dan 
+masyarakat. Dampak positif dari media sosial 
+adalah memudahkanmu berinteraksi dengan 
+orang banyak. Sementara itu, dampak negatif 
+media sosial adalah menjauhkan orang-orang yang 
+sudah dekat. Ron’s Gone Wrong merupakan salah 
+satu film animasi yang mengingatkan penonton 
+tentang pentingnya persahabatan di dunia nyata.
+Gambar 10.3 Ice Age: 
+The Meltdown
+Sumber: Ice Age: The Meltdown Official/
+movies.disney.com (2006)
+Gambar 10.4 Poster film Rons Gone Wrong
+Sumber: Rons Gone Wrong/imdb.com (2021)
+
+281
+BAB 10 - Cerita secara Visual
+i. 
+Permainan Anak-Anak
+Permainan anak-anak memberikan ide yang menarik bagi film animasi, 
+baik secara visual maupun cerita. Contoh film animasi yang ide ceritanya 
+berasal dari permainan adalah Origanimals.
+j. 
+Kearifan budaya lokal
+Sebagai warga negara Indonesia, kamu dapat berbangga diri memiliki 
+kekayaan alam, budaya, beragam suku bangsa, ras, dan agama. Semuanya 
+merupakan sumber ide cerita yang tak terbatas bagi seorang scriptwriter 
+film animasi. Contoh film animasi karya anak bangsa yang mengangkat 
+tentang kearifan lokal adalah Binekon.
+Gambar 10.5 Poster film Origanimals (1) dan Binekon (2)
+Sumber: Origanimals (TV series)/imdb.com (2016) dan Binekon Official/www.binekon.com (2012)
+k. Cerita Rakyat
+Indonesia sangat kaya dengan cerita rakyatnya, baik berupa dongeng, 
+legenda, maupun mitos. Cerita-cerita tersebut lahir dari daerah tertentu 
+dan disebarluaskan dari mulut ke mulut secara turun-temurun. Salah satu 
+cerita rakyat yang sangat terkenal adalah Timun Mas. 
+Studi Kasus 10.1
+Premise dan Dramatic Premise
+Pada studi kasus ini, cerita yang digunakan sebagai contoh adalah cerita 
+rakyat Timun Mas. Adakah yang belum pernah mendengar cerita tersebut? 
+Coba kamu ingat kembali jalan cerita Timun Mas. Kemudian, cobalah uraikan 
+berdasarkan premis berikut.
+Tokoh utama 
+: Timun Mas
+Goal (tujuan) 
+: Ingin hidup bahagia dengan ibunya (Mbok Sirni)
+Step (cara) 
+: Membantu dan menemani Ibunya dalam bekerja
+Plot point 1 (hambatan) :  Ketika Timun Mas berusia tujuh tahun, Mbok Sirni 
+harus menyerahkan Timun Mas pada Raksasa 
+untuk dimakan.
+
+282
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Berdasarkan premise cerita rakyat Timun Mas tersebut, kamu dapat 
+menyusun dramatic premise/logline-nya sebagai berikut.
+Timun Mas yang ingin hidup bahagia bersama ibunya (Mbok Sirni) dengan 
+cara membantu dan menemani Ibunya dalam bekerja. Namun, ketika 
+Timun Mas berusia tujuh tahun, Mbok Sirni harus menyerahkan Timun 
+Mas pada raksasa untuk dimakan.
+LITERAKSI
+Banyak cara untuk mendapatkan ide cerita. Salah satunya 
+dengan menonton cerita rakyat. Sekarang, silakan pindai 
+kode QR berikut untuk menonton cerita rakyat Keong 
+Mas. Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://sites.google.com/d/1aDqPkN-DwXzoY9RxfCJxoB-
+bPhQRFyBj/p/1y1J5JusXXqd70HJ0y4kAWNa6fLoQd3z_/
+edit melalui peramban gawai atau personal computer-mu. 
+Ekplorasi 10.1
+Sebelumnya, kamu sudah menonton cerita rakyat Keong Mas melalui 
+kode QR yang disajikan. Sesuai dengan contoh yang sudah kamu pelajari 
+sebelumnya, uraikanlah premise dan dramatic premise cerita Keong Mas. 
+Untuk memudahkanmu mengerjakannya, cermati kembali contoh 
+Studi Kasus 10.1!
+2. Alur/Plot
+Alur/plot cerita adalah rangkaian cerita yang terstruktur menjadi sebuah 
+rangkaian cerita utuh. Pada alur ini, kamu dapat mengurutkan adegan-
+adegan tokoh utama mencapai goal-nya dalam struktur 3 babak (3 acts 
+structure). Struktur 3 babak adalah struktur cerita yang sederhana, yang 
+berisi awal, tengah, dan akhir cerita. Agar alur menarik, scriptwriter harus 
+menghindari jalan cerita yang mudah ditebak.
+ 
+ 
+Gambar 10.6 Skema Struktur 3 Babak
+Sumber: Chandra Endroputro (2020)
+
+283
+BAB 10 - Cerita secara Visual
+Studi Kasus 10.2
+Struktur 3 Babak (3 Act Structure) 
+Pada Struktur 3 Babak (3 Acts Structure), studi kasus melanjutkan 
+premise dan logline pada studi kasus 10.1 pada cerita rakyat Timun Mas. 
+Berdasarkan premise dan logline tersebut dapat dijabarkan menjadi Struktur 
+3 Babak berikut.
+ACT 1/Babak 1/Awal/Setup
+Pada bagian awal, berisi karakter dan dunia yang ada dalam cerita. Bagian 
+ini adalah perkenalan (setup), yakni memperkenalkan situasi, atmosfer 
+film, arah film, gaya film, dan karakter, tanpa konflik besar. Tujuan utama 
+bagian ini adalah membuat pembaca tertarik untuk melanjutkan menikmati 
+cerita dengan cara memberikan informasi yang lengkap sehingga pembaca 
+mudah merasa terhubung dengan karakter dan dunia dalam cerita.
+Setelah pembaca tertarik, tugas berikutnya seorang scriptwriter adalah 
+menjaga agar pembaca tetap mau melanjutkan untuk menonton film. ACT 1 
+ditandai dengan adanya setup, kemudian dilanjutkan dengan inciting incident, 
+sebuah penanda masalah yang membuat karakter harus meninggalkan 
+kehidupan normalnya, untuk mencapai tujuan (goal) atau menyelesaikan 
+masalah (step). Dalam upaya karakter melakukan step, akan muncul 
+hambatan (Plot Point 1) agar cerita dapat terus bergulir menarik perhatian 
+penonton. Plot Point 1 juga merupakan penanda untuk masuk ke ACT 2.
+ 
+ 
+Gambar 10.7. Plot Point ACT 1
+Sumber: Chandra Endroputro (2020)
+SETUP:
+Tokoh utama bernama Timun Mas. 
+Seorang yang bernama Mbok Sirni yang bekerja sebagai petani sangat 
+mendambakan seorang anak untuk menemaninya dan membantunya bekerja.
+INCITING INCIDENT:
+Mbok Sirni menemui Raksasa yang dapat mengabulkan keinginannnya untuk 
+mendapatkan anak.
+
+284
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+GOAL: 
+Timun Mas Ingin hidup bahagia dengan ibunya (Mbok Sirni).
+STEP:
+Membantu dan menemani Ibunya dalam bekerja.
+PLOT POINT 1:
+Ketika Timun Mas berusia tujuh tahun, Mbok Sirni harus menyerahkan Timun 
+Mas pada Raksasa untuk dimakan.
+ACT 2/Babak 2/Tengah/Development
+ACT 2 adalah perjalanan karakter utama menyelesaikan masalah atau 
+mencari jawaban, tetapi tidak menemukan. Pada bagian ini, cerita difokuskan 
+untuk menjaga fokus alur film dan membuat film terus bergulir memikat.
+Pada ACT 2 ini banyak diisi dengan perjalanan untuk menunjukkan bahwa 
+dengan datangnya masalah dan ditutup dengan kegagalan dari karakter 
+utama. Karakter utamanya berada pada posisi terpuruk. Jika kamu sudah 
+men-develop karakter dengan baik, di titik ini, penonton akan menyatu 
+dengan karakter utama dan merasa tidak terima jika karakter utama gagal. 
+Dengan demikian, petualangan dapat berlanjut ke ACT 3.
+ 
+ 
+Gambar 10.8 Plot Point ACT 2
+Sumber: Chandra Endroputro (2020)
+ACTION POINT
+◎ Mbok Sirni mengulur janji agar Raksasa datang beberapa hari lagi.
+◎ Mbok Sirni bersusah payah melakukan perjalanan ke Gunung Kidul untuk 
+mendapatkan piranti dari seorang Pertapa guna mengalahkan Raksasa.
+MID POINT:
+◎ Dalam perjalananya ke Gunung Kidul, Mbok Sirni melewati sungai dan ia 
+menolong seseorang yang hampir terjatuh ke sungai.
+◎ Ternyata orang tersebut adalah Pertapa.
+◎ Pertapa memberikan 4 buah bungkusan kecil sebagai ucapan terima kasihnya, 
+masing-masing di dalamnya terdapat biji mentimun, jarum, garam, dan terasi 
+untuk mengalahkan Raksasa.
+PLOT POINT 2:
+Raksasa datang kembali ke rumah Mbok Sirni.
+
+285
+BAB 10 - Cerita secara Visual
+ACT 3/Babak 3/Akhir/Resolution
+ACT 3 akan ditutup dengan resolusi, hasil dari perjalanan ACT 1 dan ACT 
+2. Agar dapat sampai pada ACT 3, harus menampilkan titik puncak atau 
+klimaks, bisa berupa pertarungan atau usaha terbesar/terakhir karakter 
+utama menyelesaikan masalah. Semua perkembangan skill si karakter 
+utama ditunjukkan dan peranan karakter pendamping diperlihatkan 
+fungsinya terhadap jalan cerita. Pada bagian inilah, scriptwriter dapat 
+menutup cerita (closing point), apakah yang dilakukan karakter utama 
+sudah cukup untuk menyelesaikan masalah (happy ending), atau masih 
+saja tidak mumpuni (sad ending). 
+ 
+ 
+Gambar 10.9. Plot Point ACT 3
+Sumber: Chandra Endroputro (2020)
+RESOLUTION:
+◎ Timun Mas untuk lari ke hutan dengan membawa 4 bungkusan.
+◎ Raksasa mengejar Timun Mas.
+◎ Timun Mas jatuh dan terluka.
+◎ Timun Mas mengambil bungkusan biji mentimun, lalu menebar biji tersebut 
+di hutan.
+◎ Hutan seketika berubah menjadi ladang mentimun yang lebat buahnya. 
+◎ Raksasa tergiur dan memakan buah mentimun untuk menambah tenaganya. 
+◎ Timun Mas menaburkan jarum.
+◎ Dalam sekejap tumbuhlan pohon-pohon bambu yang sangat tinggi dan tajam. 
+◎ Bambu tersebut melukai kaki Raksasa.
+◎ Timun Mas membuka bungkusan garam dan menaburkannya.
+◎ Seketika hutan berubah menjadi lautan luas. 
+◎ Raksasa yang kesakitan dapat melewatinya.
+◎ Timun Mas menaburkan terasi, seketika terbentuklah lautan lumpur mendidih, 
+Raksasa masuk ke dalam lumpur dan akhirnya mati. 
+CLOSING POINT:
+Mbok Sirni dan Timun Mas hidup bahagia.
+
+286
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+LITERAKSI
+Berikut ini terdapat naskah cerita yang berjudul Keong 
+Mas. Sekarang, silakan pindai kode QR berikut untuk 
+membaca secara lengkap cerita rakyat Keong Mas. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://sites.google.com/d/1aDqPkN-DwXzoY9RxfCJxoB-
+bPhQRFyBj/p/1y1J5JusXXqd70HJ0y4kAWNa6fLoQd3z_/
+edit melalui peramban gawai atau personal computer-mu. 
+Ekplorasi 10.2
+Sebelumnya, kamu sudah membaca secara lengkap cerita rakyat Keong 
+Mas melalui kode QR yang disajikan. Sesuai dengan contoh yang sudah 
+kamu pelajari sebelumnya, uraikanlah skema Struktur 3 Babak Keong 
+Mas. Untuk memudahkanmu mengerjakannya, cermati kembali contoh 
+Studi Kasus 10.2!
+Alur/plot cerita juga merupakan penentu teknis dalam bercerita dan 
+pergerakan cerita. Berikut uraian mengenai kedua hal tersebut.
+a. 
+Teknis Bercerita
+Teknis bercerita terdiri atas alur maju, alur mundur, dan alur campuran. 
+Bagaimana ketiga jenis teknis bercerita tersebut?
+1) 
+Alur maju
+Alur maju memiliki tahapan yang lurus, mulai dari pengenalan 
+situasi cerita, pengungkapan peristiwa, konflik, klimaks, antiklimaks, 
+dan penyelesaian.
+2) 
+Alur mundur
+Alur mundur adalah alur cerita yang 
+dimulai dengan penyelesaian. Alur ini 
+lebih banyak digunakan pada cerita-
+cerita yang berlatar masa lampau.
+3) 
+Alur campuran
+Alur campuran adalah alur yang diawali 
+dengan klimaks, dilanjutkan kembali 
+ke masa lampau, dan diakhiri dengan 
+penyelesaian. Contoh film animasi dengan 
+alur campuran adalah Isle of Dogs.
+ 
+Gambar 10.10 Poster film 
+Isle of Dogs
+Sumber: Isle of Dogs/imdb.com (2018)
+
+287
+BAB 10 - Cerita secara Visual
+b. 
+Pergerakan Cerita
+Ada dua cara untuk melihat pergerakan cerita 
+atau jalannya cerita, yaitu character driven 
+dan story driven. 
+1) 
+Character Driven
+Jalan cerita berfokus pada goal/tujuan, 
+motivasi tokoh/karakter utama, konflik 
+internal, dan konflik dengan karakter 
+antagonis. Untuk mencapai goal/tujuan 
+tersebut diperlukan step atau langkah-
+langkah. Pada jalan cerita seperti ini, 
+penonton diajak untuk ikut memikirkan 
+perilaku, pikiran, tindakan, perasaan, 
+keputusan, dan perubahan pada karakter 
+utama untuk mencapai goal/tujuan. Hal 
+yang menjadikan cerita menarik adalah 
+hambatan yang harus dihadapi oleh 
+tokoh/karakter utama untuk mencapai 
+goal/tujuan. Contoh film animasi dengan 
+jalan cerita berfokus pada character 
+driven adalah Ako dan Laut: Batu Bertuah.
+2) 
+Story Driven
+Cerita berjalan fokus pada peristiwa. 
+Plot ini sering digunakan pada film fiksi 
+bergenre fantasi, misteri, dan romance. 
+Contoh film animasi dengan jalan cerita 
+berfokus pada story driven adalah Sintel.
+3. Tokoh atau Karakter
+Tokoh atau karakter merupakan sebutan untuk pelaku dalam sebuah 
+cerita animasi. Sebuah tontonan membutuhkan karakter utama yang tidak 
+hanya menarik, keren, atau lucu, melainkan membutuhkan seseorang yang 
+akan disukai atau diinginkan oleh penontonnya. Agar penonton memiliki 
+ketertarikan terhadap karakter, setiap karakter harus diciptakan unik 
+melalui hal berikut.
+Gambar 10.11 Poster film Ako 
+dan Laut:Batu Bertuah
+Sumber: Ako & Laut Episode Batu 
+Bertuah/indonesiana.tv (2021)
+Gambar 10.12 Poster film Sintel
+Sumber: Sintel/blu-ray.com (2010)
+
+288
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+a. 
+Permasalahan yang Kuat
+Setiap karakter memiliki tujuan, keinginan, atau kebutuhan yang akan 
+menciptakan konflik. Konflik inilah yang akan membuat cerita menjadi 
+lebih menarik. Film-film Disney banyak yang mengangkat permasalahan 
+tersebut. Misalnya, film animasi Moana yang bertujuan menyelamatkan 
+rakyatnya.
+b. 
+Sudut Pandang (Point of View) Karakter
+Sudut pandang berkaitan dengan cara 
+pandang scriptwriter untuk menyajikan tokoh 
+dan berbagai peristiwa kepada penonton 
+dalam sebuah cerita. Sudut pandang tersebut 
+dapat menggunakan sudut pandang orang 
+pertama atau orang ketiga. Sebagai contoh, 
+film animasi Raya menggunakan sudut 
+pandang orang pertama. Semua hal yang 
+berkaitan dengan perasaan, pikiran, tingkah 
+laku, dan kejadian yang dialami tokoh 
+“aku” dalam cerita tersebut menjadi pusat 
+kesadaran dan pusat dari cerita.
+c. 
+Kelemahan Karakter
+Setiap karakter utama yang tercipta seharusnya memiliki kekuatan 
+besar. Akan tetapi, karena suatu hal, kekuatan itu tidak muncul. Hal 
+ini terlihat dalam film animasi The Lion King. 
+d. 
+Sifat Baik Karakter
+Sebuah tontonan membutuhkan karakter utama yang tidak hanya 
+menarik, keren, atau lucu. Karakter utama tersebut harus juga disukai 
+dan diinginkan oleh pendengarnya. Adapun sifat baik karakter yang 
+bisa meningkatkan simpati penonton terhadap karakter utama adalah 
+sebagai berikut.
+1) 
+Sederhana dan Kuat
+Penonton cenderung menyukai karakter yang memilih untuk 
+menahan kekuatan yang sebenarnya kecuali benar-benar diperlukan. 
+Misalnya, tokoh Peter Parker dalam film Spider-Man.
+2) 
+Humoris
+Film animasi banyak digemari karena berfungsi sebagai hiburan. 
+Dengan adanya karakter utama yang humoris, hal itu akan menarik 
+perhatian banyak penonton. Misalnya, tokoh humoris Mr. Bean.
+Gambar 10.13 Poster film 
+Raya and The Last Dragon
+Sumber: Raya and The Last Dragon/
+movies.disney.id (2021)
+
+289
+BAB 10 - Cerita secara Visual
+Gambar 10.14 Cuplikan film Spider-Man 3 (1) dan Mr. Bean
+Sumber: Sony Pictures/Courtesy Everett Collection (2017) dan Mr. Bean World/youtube.com (2019)
+3) 
+Memiliki Moral yang Baik
+Karakter ini biasanya mengutamakan kepentingan orang lain. 
+Terkadang, karakter ini sering kali mengorbankan kepentingan 
+diri mereka sendiri. Hal ini terlihat dalam penggambaran 
+karakter Superman.
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 10.15 Superman: Man of Tomorrow
+Sumber: Liam Crowley/thedirect.com (2020)
+4) 
+Memiliki Tekad yang Kuat
+Penonton cenderung bersimpati dengan karakter yang sangat 
+terobsesi untuk mendapatkan sesuatu. Mereka berusaha keras 
+untuk mendapatkannya, seperti karakter Félicie Milliner dalam 
+film Ballerina.
+5) 
+Karakter Antagonis dan Karakter Pendukung
+Adanya karakter antagonis dan karakter pendukung akan 
+menunjukkan kehidupan karakter utama. Hal ini terlihat dari teman 
+tokoh ketika bergaul, cara pandang orang lain terhadap karakter 
+utama, dan pesaing utamanya. Misalnya, penggunaan karakter pada 
+
+290
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+film Animasi Tangled. Karakter utamanya adalah Rapunzel, yang 
+menceritakan seorang putri raja yang diculik oleh tokoh antagonis 
+bernama Gothel. Sementara itu, karakter pendukungnya bernama 
+Pascal yang merupakan seekor bunglon.
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 10.16 Tangled
+Sumber: Kelly Coffey/insidethemagic.net (2021)
+4. Latar atau Setting
+Latar adalah semua yang berkaitan dengan tempat, waktu, dan suasana 
+yang membentuk dunia yang karakternya hidup dan berinteraksi dengan 
+elemen-elemen animasi lain dalam sebuah film. Latar dalam film animasi 
+berwujud gambar background/environment yang bertujuan menciptakan 
+ruang, seperti lingkungan alam, sosial, budaya, fisik daerah tertentu, dan 
+kisah yang diceritakannya. 
+Dalam visualisasi sebuah film, lebih dari 90% scene didominasi oleh 
+gambar background. Penggambaran background dapat berpengaruh pada 
+meningkat atau menurunnya minat penonton terhadap suatu film. Sebagai 
+contoh, film animasi yang menggunakan gambar background yang kuat 
+adalah Frozen yang mengangkat latar daerah es/salju.
+5. Gaya (Style)
+Gaya dalam film adalah bahasa yang digunakan oleh scriptwriter sebagai 
+pengungkapan perasaannya dalam naskah cerita yang menimbulkan suatu 
+reaksi perasaan tertentu dalam hati penonton. Misalnya, penggunaan gaya 
+bahasa Melayu dalam film animasi Upin dan Ipin.
+
+291
+BAB 10 - Cerita secara Visual
+6. Pesan yang akan Disampaikan
+Pada perkembangan media komunikasi, film 
+dapat mengandung fungsi informatif, edukatif, 
+dan persuasif. Selain sebagai sarana hiburan 
+masyarakat, film berperan sebagai sarana 
+penyampaian konsep, ide, dan gagasan, serta 
+memunculkan dampak positif ataupun dampak 
+negatif dari penayangannya. Hal tersebut dapat 
+terjadi ketika seseorang melihat sebuah film. 
+Pesan yang disampaikan oleh scriptwriter 
+dalam film tersebut secara tidak langsung dapat 
+memengaruhi pola pikir dan pembentukan 
+persepsinya. Sebagai contoh, film animasi Rio 2 
+yang memiliki pesan tentang pentingnya menjaga 
+kelestarian alam.
+B. Urutan Pengambilan Adegan
+Dalam sebuah pembuatan film, baik skala besar maupun kecil (film pendek), 
+terdapat tiga urutan pengambilan adegan berdasarkan cerita yang dibuat oleh 
+penulis, yaitu shot, scene, dan sequence. Lantas, apakah yang dimaksud dengan 
+shot, scene, dan sequence dalam proses pembuatan film? Shot merupakan bagian 
+terkecil dari sebuah adegan, sedangkan scene terdiri atas satu atau gabungan 
+dari beberapa shot. Gabungan dari beberapa scene akan membentuk sequence.
+SEQUENCE
+SCENE
+SHOT
+SCENE
+SCENE
+SCENE
+SCENE
+SHOT
+SHOT
+SHOT
+SHOT
+SHOT
+Gambar 10.18 Ilustrasi shot, scene dan sequence
+Sumber:: csinema.com (2022)
+Untuk memperdalam tentang ketiga urutan dalam pembuatan film, 
+cermatilah uraian berikut. 
+1. Shot
+Shot mengacu pada pengambilan gambar untuk satu bagian saja dengan 
+durasi beberapa detik atau menit bergantung pada kebutuhan. Shot 
+diartikan sebagai metode pengambilan gambar. Pengambilan gambar 
+tersebut menentukan keypose dalam suatu adegan dengan memperhatikan 
+angle kamera. 
+Gambar 10.17 Poster film Rio 2
+Sumber: Rio 2/disney.id (2011)
+
+292
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Penempatan angle yang baik akan memperkuat dramatik sebuah film 
+dan akan mempermudah penonton untuk ikut masuk ke dalam alur cerita. 
+Berikut ini beragam angle kamera dan kesan dramatik yang ditimbulkannya. 
+a. Close Up
+Posisi kamera dengan teknik close up digunakan untuk adegan dialog. Hal 
+tersebut untuk menunjukkan ekspresi karakter tanpa harus terpengaruh 
+oleh background yang umumnya berupa gambar soft/lembut.
+b. Extreme Close Up
+Angle kamera ini bertujuan untuk menekankan tampilan ekspresi mata 
+dan wajah dari karakter. Selain itu, angle kamera ini bertujuan untuk 
+memperlihatkan ekspresi emosi yang ekstrem, seperti kemarahan 
+dan kelicikan.
+c. 
+Medium Shot
+Kamera ini digunakan dengan batas pinggang ke atas. Biasanya, medium 
+shot ini digunakan pada saat adegan percakapan antarkarakter.
+Gambar 10.19 Gambar dengan angle kamera close up (1), extreme close up (2), dan 
+medium shot (3)
+Sumber: ninatridania (2022)
+d. Full Shot
+Angle kamera ini digunakan untuk memperlihatkan karakter secara utuh 
+dari ujung kaki sampai ujung kepala. Kita dapat menggunakan shot semacam 
+ini untuk menunjukkan relasi antarkarakter, terutama untuk menampilkan 
+gestur dari masing-masing karakter.
+Gambar 10.20 Gambar angle kamera full shot
+Sumber:ninatridania (2022)
+
+293
+BAB 10 - Cerita secara Visual
+e. Long Shot
+Teknik pengambilan gambar long shot adalah teknik cara menyorot objek 
+dari jarak jauh agar dapat menampilkan environment dan suasana. Teknik 
+pengambilan gambar ini banyak digunakan pada awal pembukaan scene.
+f. 
+Panning 
+Panning merupakan teknik pengambilan gambar 
+dengan menggerakkan kamera searah dengan arah 
+gerakan objek. Teknik ini dapat digunakan untuk 
+pengambilan gambar objek yang bergerak cepat 
+atau objek yang diam/tidak bergerak. Misalnya, 
+kondisi ruangan, foto-foto yang berjajar di dinding 
+untuk memperlihatkan suasana atau environment.
+Panning digunakan untuk menunjukkan suatu 
+pemandangan yang luas secara menyeluruh. 
+Gerakan pan kamera secara perlahan menimbulkan 
+rasa menanti, sedangkan gerakan pan secara cepat 
+dilakukan untuk menghubungkan dua peristiwa 
+yang terjadi di dua tempat.  Adapun cara untuk melakukan gerakan pan 
+kamera, yaitu secara horisontal dan vertikal.
+1) 
+Horisontal
+Pan horisontal adalah pergerakan kamera ke arah horisontal dari kiri 
+ke kanan, dan sebaliknya. Sebagai contoh, gerakan kamera mengikuti 
+kepala karakter saat berbalik dan melihat keluar melalui jeruji kandang, 
+sedangkan background tetap diam. Tujuan gerakan kamera tersebut 
+adalah mempertegas ekspresi dari karakter. 
+Contoh lainnya terlihat pada gambar 10.38. Karakter berjalan dan kamera 
+bergerak bersamanya menjaga dia di posisi yang sama di layar. Hal itu 
+akan tampak seolah-olah gambar background bergerak di belakangnya.
+2) 
+Vertikal
+Pergerakan kamera secara vertikal, yaitu pergerakan kamera dari atas ke 
+bawah dan sebaliknya. Biasanya, pergerakan ini bertujuan memberikan 
+efek dramatis untuk mempertajam situasi pada suatu kejadian.
+Gambar 10.22 Gambar dengan angle kamera panning vertikal
+Sumber:ninatridania (2022)
+Gambar 10.21 Gambar dengan 
+angle kamera panning horisontal
+Sumber: ninatridania (2022)
+
+294
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+g. Bird Eye-High
+Pengambilan gambar dengan menempatkan kamera pada posisi tampak atas. 
+Biasanya, angle ini untuk menjelaskan situasi ketidakberdayaan. Misalnya, 
+jatuh, peperangan, tsunami, dan banjir.
+h. Worm Eye-Low
+Worm Eye-Low adalah teknik pengambilan gambar dengan menempatkan 
+kamera pada posisi tampak bawah. Apabila menggunakan lensa wide 
+(lensa sudut lebar) atau fish eye, angle ini digunakan untuk mengesankan 
+kekuasaan. Misalnya, raksasa, menara, dan gedung pencakar langit.
+i. 
+Over Shoulder
+Posisi kamera over shoulder ini digunakan pada shot dialog antara dua 
+karakter. Pada posisi ini, pengambilan gambar menerapkan teknik deep of 
+field, yaitu salah satu karakter membelakangi kamera dan terdapat efek blur 
+sebagai foreground. Sementara itu, fokus kamera terdapat pada karakter 
+lain yang menghadap kamera sedikit lebih jauh (dekat dengan background).
+Gambar 10.23 Gambar dengan angle kamera bird eye (1), worm eye (2), over shoulder (3)
+Sumber: ninatridania (2022)
+2. Scene
+Scene dapat didefinisikan sebagai lokasi kejadian. Satu tempat mewakili satu 
+scene, dan di dalam satu scene terdapat berbagai sudut aksi atau beberapa 
+shot. Sebagai contoh, ada dua orang siswa yang sedang makan di kantin 
+sekolah. Lokasinya adalah kantin sekolah dan sedang makan. Meskipun 
+diambil dari berbagai angle shot yang berbeda dengan aksi dan waktunya 
+sama, adegan tersebut dapat disebut satu scene.
+3. Sequence
+Sequence merupakan komposisi atau rangkaian dari beberapa scene yang 
+diambil pada waktu dan lokasi yang berbeda dan disusun secara runtut. 
+Sequence cerita adalah cara untuk membantu mengolaborasi cerita sekaligus 
+
+295
+BAB 10 - Cerita secara Visual
+mengarahkanmu mencapai cerita lebih dramatik. Gabungan dari sequence 
+akan membentuk film secara utuh. Sequence juga akan membantumu 
+mempertajam dan menemukan adegan-adegan seru sebuah cerita.
+Dalam satu babak minimal mengandung 2 sequence hingga muncul plot 
+point. Pada babak kedua yang merupakan pengembangan cerita, jumlah 
+sequence akan menjadi lebih banyak. 
+Studi Kasus 10.3
+Scene dan Squence
+Pada pembahasan ini, studi kasus yang akan digunakan adalah cerita 
+rakyat Timun Mas yang telah diuraikan pada Studi Kasus 10.2 menjadi 3 
+Struktur 3 Babak. Berdasarkan hal tersebut, uraian scene dan sequence-nya 
+adalah sebagai berikut. 
+ACT 1/BABAK 1
+Sekuen 1
+Scene 01 
+◎ Seorang  bernama Mbok Sirni yang bekerja sebagai petani.
+◎ Mbok Sirni sangat mendambakan seorang anak untuk menemani dan membantunya 
+bekerja (goal).
+Scene 02
+◎ Mbok Sirni menemui Raksasa di hutan yang dapat mengabulkan keinginannnya untuk 
+mendapatkan anak (step).
+◎ Mbok Sirni harus setuju untuk menyerahkan anak itu kepada Raksasa ketika ia berusia 
+tujuh tahun untuk dimakan (PoA).
+Sekuen 2
+Scene 03
+◎ Tiap hari, Mbok Sirni merawat tanaman mentimunnya.
+◎ Dari Buah Mentimun, lahirlah Timun Mas.
+◎ Timun Mas bertumbuh menjadi gadis cantik.
+Scene 04
+◎ Raksasa datang (Inciting Incident)
+Scene 05
+◎ Menjaga Timun Mas (goal)
+◎ Mbok Sirni mengulur janjinya (step)
+◎ Mbok Sirni harus menyerahkan Timun Mas 2 hari lagi (plot point 1)
+ACT 2/BABAK 2
+Sekuen 3
+Scene 06
+◎ Karena Mbok Sirni harus menyerahkan Timun Mas 2 hari lagi (Inciting Incident)
+◎ Mengalahkan Raksasa (goal).
+Scene 07
+◎ Mbok Sirni harus menemui Pertapa di Gunung Kidul (step).
+◎ Mbok Sirni harus susah payah melakukan perjalanan ke Gunung Kidul (hambatan).
+
+296
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Sekuen 4
+Scene 07
+◎ Karena Mbok Sirni harus susah payah melakukan perjalanan ke Gunung Kidul (Inciting 
+Incident)
+◎ Mendapatkan piranti dari Pertapa untuk mengalahkan Raksasa (goal).
+◎ Pertapa memberikan 4 buah bungkusan kecil ini, masing-masing didalamnya terdapat 
+biji. mentimun, jarum, garam, dan terasi untuk mengalahkan Raksasa (step).
+Scene 08
+◎ Raksasa datang kembali ke rumah Mbok Sirni (plot point 2).
+ACT 3/BABAK 3
+Sekuen 5
+Scene 09
+◎ Karena Raksasa datang ke rumah Mbok Sirni (Inciting Incident).
+◎ Timun Mas Selamat dan Raksasa kalah (goal).
+Scene 10
+◎ Mbok Sirni menyerahkan 4 bungkusan kepada Timun Mas. 
+◎ Timun Mas untuk lari ke hutan dengan membawa 4 bungkusan (step).
+◎ Raksasa mengejar Timun Mas (hambatan).
+Sekuen 6
+Scene 11
+◎ Karena Raksasa mengejar Timun Mas (inciting incident).
+◎ Raksasa kalah/mati (goal).
+◎ mengambil bungkusan untuk mengalahkan Raksasa (step).
+Closing Point
+Mbok Sirni dan Timun Mas hidup bahagia
+LITERAKSI
+Berikut ini terdapat uraian skema struktur 3 babak dari 
+uraian naskah cerita rakyat Keong Mas. Sekarang, silakan 
+pindai kode QR berikut untuk membaca secara lengkap. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://sites.google.com/d/1aDqPkN-DwXzoY9RxfCJxoB-
+bPhQRFyBj/p/1y1J5JusXXqd70HJ0y4kAWNa6fLoQd3z_/
+edit melalui peramban gawai atau personal computer-mu. 
+Ekplorasi 10.3
+Sebelumnya, kamu sudah menyimak uraian skema 3 babak naskah cerita 
+Keong Mas melalui kode QR yang disajikan. Sekarang, uraikanlah scene dan 
+sequence-nya. Untuk memudahkanmu mengerjakannya, cermati kembali 
+contoh Studi Kasus 10.3!
+
+297
+BAB 10 - Cerita secara Visual
+C. Menulis Sinopsis dan Skenario Animasi
+Sebelum menulis, kamu harus memahami terlebih dahulu sinopsis dan skenario. 
+Adakah perbedaan di antara kedua istilah trersebut? 
+Sinopsis cerita adalah uraian isi cerita yang berisi penokohan dan latar 
+(waktu, tempat, dan peristiwa yang terjadi) yang disampaikan dengan alur 
+dramatis. Untuk memudahkan pembacanya, sinopsis dibuat dalam tiga paragraf 
+sesuai dengan struktur 3 babak. Sementara itu, skenario cerita adalah naskah 
+cerita yang diuraikan sesuai dengan adegannya secara berurutan. Biasanya, 
+hal itu memuat keterangan, tempat, setting, waktu, dan dialog yang disusun 
+berdasarkan struktur dramatik untuk keperluan pembuatan film. Fungsi skenario 
+adalah petunjuk kerja bagi storyboard artist untuk memvisualisasikan naskah 
+cerita dalam bentuk gambar storyboard.
+Studi Kasus 10.4 
+Sinopsis Cerita
+Pembuatan sinopsis cerita ditulis berdasarkan scene dan sequence yang telah 
+dibuat sebelumnya. Untuk mengingatkanmu, simak kembali Studi Kasus 10.3. 
+Berdasarkan scene dan sequence cerita rakyat Timun Mas, uraian sinopsisnya adalah 
+sebagai berikut.
+Pada zaman dahulu kala, di sebuah desa terpencil, tinggalah seorang perempuan 
+bernama Mbok Sirni yang bekerja sebagai petani. Ia hidup seorang diri karena 
+suaminya telah berpulang. Ia sangat mendambakan seorang anak untuk menemani 
+dan membantunya bekerja. Suatu hari, ia menemui Raksasa yang dapat mengabulkan 
+keinginanannya. Namun, ada satu syarat yang harus dipenuhi, yaitu apabila anak itu 
+berusia tujuh tahun, Mbok Sirni harus menyerahkan anak itu kepada Raksasa untuk 
+dimakan. Kemudian Raksasa tersebut memberi Mbok Sirni biji mentimun untuk 
+ditanam di ladangnya. Setiap hari Mbok Sirni merawat tanaman mentimunnya, dan 
+setelah dua minggu, pohon mentimun di ladang tersebut mulai berbuah. Di antara 
+buah mentimun yang ditanamnya, ada satu yang paling besar dan berkilau seperti 
+emas. Dari buah inilah, lahir seorang bayi cantik, kulitnya berkilau kekuningan, 
+dan diberi nama Timun Mas. 
+Beberapa tahun kemudian, tanpa diduga-duga, datanglah Raksasa untuk menagih 
+janji Mbok Sirni. Mbok Sirni amat takut kehilangan Timun Mas. Ia pun berusaha 
+mengulur janjinya agar Raksasa datang 2 hari lagi. Pada suatu malam, Mbok Sirni 
+bermimpi. Dalam mimpinya, ada yang membisikkan bahwa agar anaknya selamat, 
+Timun Mas harus mengalahkan Raksasa. Untuk itu, ia harus menemui seorang 
+Pertapa di Gunung Kidul. Keesokan harinya, Mbok Sirni langsung bergegas pergi ke 
+Gunung Kidul. Dalam perjalanannya ke Gunung Kidul, Mbok Sirni melewati sungai 
+dan menolong seseorang yang hampir terjatuh dalam sungai. Ternyata orang 
+tersebut adalah Pertapa. Kemudian, Pertapa itu memberikan 4 buah bungkusan 
+kecil, masing-masing di dalamnya terdapat biji mentimun, jarum, garam, dan 
+
+298
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+terasi untuk menyelamatkan Timun Mas dari Raksasa itu. Belum sempat Mbok 
+Sirni mengucapkan terima kasih, Pertapa tersebut telah menghilang. Mbok Sirni 
+pun pulang ke rumahnya. Sesampai di rumah, ia menceritakan semua yang telah 
+terjadi kepada Timun Emas. Tak lama kemudian, Raksasa datang menagih janji 
+Mbok Sirni. 
+Mbok Sirni menyuruh Timun Mas untuk lari dengan membawa 4 bungkusan 
+tersebut. Raksasa mengejar Timun Mas yang berlari menyusuri hutan dan sempat 
+terjatuh. Timun Mas teringat dengan keempat bungkusan yang diberikan oleh 
+Ibunya. Kemudian, ia mengambil bungkusan biji mentimun, lalu menebar biji 
+tersebut di hutan. Ajaib, hutan seketika berubah menjadi ladang mentimun yang 
+lebat buahnya. Raksasa tergiur dan memakan buah mentimun untuk menambah 
+tenaganya. Lalu Timun Mas menaburkan jarum. Dalam sekejap, tumbuhlah pohon-
+pohon bambu yang sangat tinggi dan tajam. Bambu tersebut melukai kaki Raksasa. 
+Selanjutnya, Timun Mas membuka bungkusan garam dan ditaburkannya. Seketika, 
+hutan berubah menjadi lautan luas. Meskipun dengan kesakitannya, Raksasa tetap 
+dapat melewatinya. Terakhir, Timun Mas menaburkan terasi. Seketika, terbentuklah 
+lautan lumpur mendidih. Raksasa masuk ke dalam lumpur dan akhirnya mati. 
+Akhirnya, Timun Mas dan Mbok Sirni hidup bahagia dan damai.
+Agar dapat membuat storyboard yang baik dan benar, seorang storyboard 
+artist harus memahami elemen yang ada dalam skenario cerita. Elemen itu di 
+antaranya judul dan scene (scene heading, general description, character name, 
+dan transition). Cermatilah dengan baik Studi Kasus 10.5 berikut. 
+Studi Kasus 10.5
+Skenario Cerita
+Berdasarkan sinopsis cerita Timun Mas yang telah ditulis pada Studi Kasus 
+10.4, uraian skenario ceritanya adalah sebagai berikut.
+Skenario
+Timun Mas
+Penulis cerita
+Anonim
+FADE IN:
+SCENE 1 EXT. LADANG - SIANG
+Pada zaman dahulu, di sebuah desa terpencil, tinggallah 
+seorang perempuan bernama Mbok Sirni yang bekerja sebagai 
+petani. Ia hidup seorang diri karena suaminya telah 
+berpulang. Ia sangat mendambakan seorang anak untuk menemani 
+dan membantunya bekerja. 
+
+299
+BAB 10 - Cerita secara Visual
+SCENE 2 EXT. HUTAN - SIANG
+Suatu hari, ia menemui Raksasa di hutan yang dapat mengabulkan 
+keinginanannya.
+RAKSASA
+(Tegas/garang)
+“Hai petani kecil! Aku akan memberikan engkau seorang 
+anak. Tapi dengan syarat, apabila anak itu berusia tujuh 
+tahun, engkau harus menyerahkan anak itu kepadaku itu 
+untuk kumakan.”
+MBOK SIRNI
+(Takut)
+“Baiklah, saya setuju Tuan.”
+RAKSASA
+(Tegas/garang)
+“Kuberi kau biji mentimun, tanamlah ini di ladangmu 
+sampai berbuah.”
+SCENE 3 EXT. LADANG - SIANG
+Setiap hari, Mbok Sirni merawat tanaman mentimunnya. 
+Setelah dua minggu, pohon mentimun di ladang tersebut mulai 
+berbuah. Di antara buah mentimun yang ditanamnya, ada satu 
+yang paling besar dan berkilau seperti emas.
+MBOK SIRNI
+(Senang)
+ “Wah, besar sekali mentimun ini! Aku akan memetiknya 
+dan membelah buah ini dengan hati-hati.”
+Benar saja, dari buah mentimun tersebut lahirlah seorang 
+bayi cantik, kulitnya berkilau kekuningan.
+BAYI
+(Menangis)
+“Oeek…….”
+MBOK SIRNI
+(Senang)
+“Cantik sekali kamu, Nak. Ibu akan memberimu nama Timun 
+Mas karena kamu lahir dari timun yang berwarna emas.”
+Hari demi hari, Timun Mas tumbuh menjadi gadis cantik 
+yang baik budi pekertinya. Ia juga rajin membantu ibunya 
+untuk bekerja.
+TIMUN MAS 
+(Ceria)
+“Ibu, aku pamit pergi ke hutan untuk mencari 
+kayu bakar.”
+MBOK SIRNI 
+(Khawatir)
+“Iya Nak, berhati-hatilah. Jangan terlalu malam, nanti 
+kamu tersesat.”
+
+300
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+SCENE 4 INT, DI DALAM RUMAH PEDESAAN-SIANG
+Beberapa saat kemudian, tanpa diduga-duga, datanglah Raksasa 
+untuk menagih janji Mbok Sirni.
+RAKSASA
+(Tegas/garang)
+“Hai petani kecil! Aku datang untuk menagih janjimu! 
+Hari ini tepat tahun ke-7 dari aku memberikan biji 
+mentimun untuk kau tanam. 
+Cepat serahkan anak itu! Aku sudah tidak sabar menunggu 
+hari ini untuk makan seorang bocah.”
+SCENE 5 INT, DI DALAM RUMAH PEDESAAN – SIANG
+Mbok Sirni amat takut kehilangan Timun Mas, ia pun berusaha 
+mengulur janjinya.
+MBOK SIRNI
+(Takut)
+“Be..be..begini tuanku, saya punya saran. Apakah engkau 
+berkenan datang ke sini 2 hari lagi? Saya yakin, anak 
+ini akan sangat nikmat untuk disantap.”
+RAKSASA 
+(Tegas/garang)
+“Mmm…, bagus juga saranmu. Baiklah, saya akan datang ke 
+sini dua hari lagi untuk menagih janjimu. Rawatlah baik-
+baik anak itu”
+SCENE 6 INT, DI DALAM RUMAH PEDESAAN – PAGI
+Pada suatu malam, Mbok Sirni bermimpi. Dalam mimpinya, ada 
+yang membisikkan agar Timun Mas selamat, Timun Mas harus 
+mengalahkan Raksasa dengan cara Mbok Sirni harus menemui 
+seorang Pertapa di Gunung Kidul. Keesokan harinya, Mbok 
+Sirni langsung bergegas pergi ke Gunung Kidul.
+MBOK SIRNI
+“Nak, Ibu akan pergi ke Gunung Kidul selama beberapa 
+hari. Ibu sudah menyiapkan makanan di dapur untukmu 
+selama Ibu pergi. Kamu tidak usah pergi ke mana-mana, 
+Ibu khawatir kamu tersesat.”
+TIMUN MAS
+“Ibu, aku ingin ikut.”
+MBOK SIRNI
+“Maaf Nak, kamu tidak boleh ikut. Tinggallah di 
+rumah baik-baik.”
+TIMUN MAS
+ “Baik Bu.”
+SCENE 7 INT, DI GUNUNG - SIANG 
+Dalam perjalanannya ke Gunung Kidul, Mbok Sirni melewati 
+sungai dan ia menolong seseorang yang hampir terjatuh dalam 
+sungai. Ternyata orang tersebut adalah Pertapa.”
+
+301
+BAB 10 - Cerita secara Visual
+PERTAPA
+“Terima kasih engkau telah menolongku, engkau sangat 
+murah hati. Sebagai ucapan terima kasihku, kuberikan 
+4 buah bungkusan kecil ini, masing-masing di dalamnya 
+terdapat biji mentimun, jarum, garam, dan terasi untuk 
+menyelamatkan anakmu dari Raksasa itu.”
+Belum sempat Mbok Sirni mengucapkan terima kasih, pertapa 
+tersebut telah menghilang.
+SCENE 8 INT, DI DALAM RUMAH PEDESAAN 
+Mbok Sirni pun pulang ke rumahnya. Sesampai di rumah, ia 
+menceritakan semua yang telah terjadi kepada Timun Emas. 
+MBOK SIRNI
+“Nak, Ibu sudah menemukan cara mengalahkan Raksasa itu.”
+Kemudian, Raksasa tersebut datang kembali.
+SCENE 9 INT, DI BELAKANG RUMAH PEDESAAN 
+Karena Raksasa datang kembali, Mbok Sirni segera mengajak 
+Timun Mas keluar melalui pintu belakang. 
+TIMUN MAS 
+(Takut)
+“Ibu, aku sangat takut dimakan Raksasa itu. Aku juga 
+tidak mau berpisah dengan Ibu”
+MBOK SIRNI
+“Nak, kamu harus mengalahkan Raksasa itu.”
+SCENE 10 INT, DI BELAKANG RUMAH PEDESAAN 
+Mbok Sirni menyerahkan 4 bungkusan dari Pertapa 
+kepada Timun Mas.
+MBOK SIRNI 
+ “Anakku, bungkusan ini Ibu berikan untukmu. Gunakan 
+ini pada saat kamu berhadapan Raksasa itu. Sebelumnya, 
+kamu harus berdoa kepada Sang Pencipta untuk meminta 
+perlindungan dari-Nya.”
+TIMUN MAS 
+“Baiklah Ibu, aku akan mengikuti saran Ibu.”
+Raksasa mengejar Timun Mas yang berlari menyusuri hutan 
+dan sempat terjatuh.
+SCENE 11 EXT, HUTAN
+Timun Mas teringat dengan keempat bungkusan yang diberikan 
+oleh Ibunya. Kemudian ia mengambil bungkusan biji mentimun, 
+lalu menebar biji tersebut di hutan. Ajaib, hutan seketika 
+berubah menjadi ladang mentimun yang lebat buahnya. Raksasa 
+tergiur dan memakan buah mentimun untuk menambah tenaganya. 
+Lalu, Timun Mas menaburkan jarum. Dalam sekejap tumbuhlah 
+pohon-pohon bambu yang sangat tinggi dan tajam. Bambu 
+tersebut melukai kaki. Selanjutnya, Timun Mas membuka 
+bungkusan garam dan ditaburkannya. Seketika hutan berubah 
+menjadi lautan luas. Meskipun dengan kesakitannya, Raksasa 
+
+302
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+dapat melewatinya. Terakhir, Timun Mas menaburkan terasi. 
+Seketika, terbentuklah lautan lumpur mendidih. Raksasa 
+masuk ke dalam lumpur dan akhirnya mati.
+TIMUN MAS
+(Senang)
+“Terima kasih Sang Pencipta, Engkau telah melindungi 
+hambamu ini.”
+Akhirnya Timun Mas dan Mbok Sirni hidup bahagia dan damai.
+FADE OUT
+Berdasarkan contoh uraian skenario di atas, berikut ini merupakan penjelasan 
+dari elemen-elemen skenario cerita tersebut.
+1. 
+Judul
+Judul adalah salah satu elemen dalam skenario. Judul ditulis terpisah pada 
+pada tengah halaman lembar halaman pertama dan diberi garis bawah.
+Contoh:
+Skenario
+Timun Mas
+Penulis Skenario
+Anonim
+2. 
+Scene
+Scene terdiri atas scene heading; general description; nama karakter, isi 
+dialog, dan parenthetical; serta transition.
+a. 
+Scene Heading
+Film adalah susunan adegan demi adegan. Scene heading adalah penanda 
+sebuah adegan film untuk menyampaikan kepada penonton tentang 
+petunjuk waktu, setting, dan tempat sebuah adegan berlangsung.
+Contoh:
+INT. DI DALAM RUMAH PEDESAAN – MALAM
+INT. atau Interior merupakan keterangan lokasi adegan 
+di dalam ruangan.
+EXT. atau Exterior keterangan lokasi adegan ada 
+di luar ruang.
+RUMAH adalah keterangan SET.
+SET adalah setting atau tempat kejadian adegan yang 
+terlihat di layar monitor.
+
+303
+BAB 10 - Cerita secara Visual
+SIANG dan MALAM adalah keterangan waktu kejadian adegan.
+Batasan waktu siang hari adalah mulai pukul 6 pagi 
+sampai pukul 6 sore dan batasan untuk malam hari 
+dimulai pada pukul 6 sore sampai pukul 6 pagi.
+b. 
+General description
+General description berisi deskripsi visual dari scene heading, mulai dari 
+deskripsi tokoh, kehidupan kesehariannya, motivasi/keinginannya, dan 
+peristiwa yang terjadi. Deskripsi ditulis secara detail tentang karakteristik 
+tokoh yang disampaikan dengan penjelasan rupa, kebiasaan, sampai 
+tindakan yang dilakukan pada adegan tersebut.
+Contoh:
+SCENE 1 EXT. LADANG - SIANG
+Pada zaman dahulu kala, di sebuah desa terpencil tinggalah 
+seorang perempuan bernama Mbok Sirni yang bekerja sebagai 
+petani. Ia hidup hidup seorang diri karena suaminya 
+telah berpulang. Ia sangat mendambakan seorang anak untuk 
+menemaninya dan membantunya bekerja. Suatu hari ia menemui 
+Raksasa di hutan yang dapat mengabulkan keinginanannya.
+c. 
+Nama karakter (character name), isi dialog, dan parenthetical (keterangan 
+perasaan atau gestur karakter)
+Nama tokoh/karakter yang disebutkan hanya yang sedang tampil dalam 
+adegan pada scene tersebut. Untuk penulisan dialog antarkarakter 
+dalam skenario cerita ditulis dengan susunan nama karakter ditulis 
+di bawah deskripsi. Kemudian, di bagian bawah nama tokoh ditulis 
+parenthetical. Setelah itu, dilanjutkan dengan penulisan isi dialog yang 
+sedang dibicarakan.
+Contoh:
+RAKSASA
+(Tegas/garang)
+“Hai petani kecil! Aku akan memberikan engkau seorang 
+anak. Tapi dengan syarat, apabila anak itu berusia tujuh 
+tahun, engkau harus menyerahkan anak itu kepadaku itu 
+untuk kumakan.”
+MBOK SIRNI
+(Takut)
+“Baiklah, saya setuju Tuan.”
+RAKSASA
+(Tegas/garang)
+“Kuberi kau biji mentimun, tanamlah ini di ladangmu 
+sampai berbuah.”
+
+304
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Contoh tersebut merupakan bentuk skenario dalam satu scene. Setelah 
+itu, scene-scene selanjutnya akan disusun berdasarkan urutan cerita 
+dari awal sampai akhir sehingga membentuk satu rangkaian skenario 
+cerita yang utuh.
+d. 
+Transition
+Transition adalah efek visual untuk perpindahan satu scene ke 
+scene yang lain.
+Sebelum scene heading, ada keterangan FADE IN. Fungsi FADE IN adalah 
+sebagai transisi dari gambar gelap ke terang, yaitu masuk pada adegan 
+atau scene pertama. FADE IN merupakan tanda awal dimulainya sebuah 
+cerita, ditulis di halaman pertama, di sebelah kiri atas, sebelum scene satu. 
+Selain FADE IN, ada juga transisi lainnya seperti CUT TO, DISSOLVE TO, 
+dan FADE OUT. Transisi FADE OUT akan ditulis di bawah kanan scene 
+terakhir karena menandakan akhir dari cerita film, yang digambarkan 
+dari gambar terang di akhir cerita ke gambar gelap.
+Contoh:
+FADE IN:
+SCENE 1 EXT. LADANG - SIANG
+Pada zaman dahulu kala, di sebuah desa terpencil tinggalah 
+seorang perempuan yang bernama Mbok Sirni yang bekerja 
+sebagai petani. Ia hidup seorang diri karena suaminya 
+telah berpulang. Ia sangat mendambakan seorang anak untuk 
+menemaninya dan membantunya bekerja. Suatu hari, ia bertemu 
+Raksasa yang dapat mengabulkan keinginannya.
+RAKSASA
+(Tegas/garang)
+“Hai petani kecil! Aku akan memberikan engkau seorang 
+anak. Tapi, dengan syarat apabila anak itu berusia tujuh 
+tahun, engkau harus menyerahkan anak itu kepadaku itu 
+untuk kumakan.”
+MBOK SIRNI
+(Takut)
+“Baiklah, saya setuju Tuan.”
+RAKSASA
+(Tegas/garang)
+“Kuberi kau biji mentimun, tanamlah ini di ladangmu 
+sampai berbuah.”
+Ekplorasi 10.5
+Setelah menyimak contoh skenario cerita Timun Mas (Studi Kasus 10.5) dan 
+sinopsis (Ekplorasi 10.4), susunlah skenario cerita yang baik dan benar!
+
+305
+BAB 10 - Cerita secara Visual
+D. Storyboard
+Storyboard berasal dari gabungan dua kata, yaitu story (cerita) dan board 
+(papan, halaman, panel). Dalam dunia perfilman, storyboard berarti gambar 
+dalam panel yang merupakan hasil dari proses visualisasi dari skenario cerita 
+menjadi urutan gambar adegan sehingga dapat menyampaikan ide cerita secara 
+lebih mudah kepada orang lain. 
+Storyboard pertama kali dikembangkan studio Walt Disney pada tahun 1930, 
+yang merupakan pengembangan buku-buku komik yang berbentuk sketsa cerita. 
+Pada awal tahun 1935, Studio Waltherlantz Production merupakan studio kedua 
+yang mulai memvisualisasikan naskah cerita menjadi storyboard. Kemudian pada 
+tahun 1936, Halman, Ising, dan Leon Schlesinger juga mulai mengembangkan 
+storyboard. Pada perkembangan selanjutnya, tahun 1937-1938, hampir semua 
+studio animasi meninggalkan sketsa cerita dan beralih menggunakan storyboard.
+Gambar 10.24 Contoh storyboard-The Lion King (1994)
+Sumber: jorgenklubien/jorgenklubien.com (1994)
+Pengerjaan dalam industri animasi dilakukan dalam sebuah tim. Agar tidak 
+terjadi mispersepsi, dibutuhkan storyboard artist yang mampu memvisualisasikan 
+skenario cerita melalui gambar berupa lembar storyboard. Hal itu berdasarkan 
+cerita dari penulis sebagai pedoman pengerjaan proses praproduksi hingga proses 
+pascaproduksi film animasi. Tujuannya untuk memberikan informasi kepada 
+tim produksi. Informasi tersebut mencakup karakteristik tokoh, gerakan tokoh, 
+komunikasi antarkarakter, durasi adegan, setting tempat, waktu, dan perlakuan 
+kamera yang dilengkapi dengan keterangan adegan seperti shot, scene, ilustrasi 
+audio (sound effect dan backsound). Dengan demikian, tim produksi mendapatkan 
+gambaran tata letak visual dari adegan seperti yang terlihat melalui scene.
+
+306
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Shot Description:
+Beberapa saat kemudian, tanpa diduga-
+duga datanglah Raksasa untuk menagih 
+janji Mbok Sirni.
+Audio:
+SFX Suasana Tegang
+Effect/Graphics:
+-
+Dialogue/Narration:
+Raksasa:
+“Hai petani kecil! Aku datang untuk 
+menagih janjimu! Hari ini tepat tahun ke-7 
+dari aku memberikan biji mentimun untuk 
+kau tanam. Cepat serahkan anak itu! Aku 
+sudah tidak sabar menunggu hari ini untuk 
+makan seorang bocah.”
+SCENE: 4
+SHOT:
+Shot Description:
+Mbok Sirni menyerahkan 4 bungkusan dari 
+Pertapa kepada Timun Mas
+Audio:
+SFX Suasana Tegang
+Effect/Graphics:
+-
+Dialogue/Narration:
+Mbok Sirni:
+”Anakku, bungkusan ini Ibu berikan 
+untukmu. Gunakan ini pada saat kamu 
+berhadapan Raksasa itu. Sebelumnya, 
+kamu harus berdoa kepada Sang Pencipta 
+untuk meminta perlindungan dari-Nya.”
+SCENE: 4
+SHOT:
+Gambar 10.25 Contoh perancangan storyboard Timun Mas
+Sumber: ninatridania (2022)
+
+307
+BAB 10 - Cerita secara Visual
+Eksplorasi 10.6
+Cobalah untuk menyusun storyboard 
+dari skenario cerita Keong Mas yang 
+terdapat pada Eksplorasi 10.5 dengan 
+menerapkan angle kamera yang tepat 
+dan menggunakan template yang 
+sudah disediakan. Lengkapi pula 
+keterangan elemen yang ada pada 
+template storyboard tersebut!
+Contoh template storyboard:
+ 
+E. Pre-Visualisasi (Animatic)
+Animatic merupakan produk terakhir dari proses praproduksi animasi yang 
+berupa prototipe yang digunakan untuk mengukur waktu secara realtime 
+sebelum film dibuat. Animatic digunakan untuk memastikan cerita yang dibuat 
+sudah sesuai dengan waktu yang ditentukan.
+Pembuatan animatic dilakukan setelah proses pembuatan storyboard, 
+dubbing, sound effect, dan musik latar. Dalam pembuatan animatic, durasi film 
+animasi yang akan dibuat sudah diketahui durasinya dengan melihat durasi 
+suara/sound film animasinya. 
+Pembuatan animatic bermanfaat bagi tim produksi dalam memperhitungkan 
+durasi film animasi. Begitupun dengan seluruh suara yang digunakan, sudut 
+pandang kamera, framing kamera, gerakan kamera, gerakan adegan per scene, 
+dan ekspresi tokoh/karakter. Dengan demikian, proses produksi film animasi 
+secara utuh menjadi lebih mudah karena sudah melalui evaluai dan revisi tim 
+praproduksi secara detail.
+STORYBOARD TEMPLATE 1 
+PRODUCTION TITTLE 
+NAME 
+Shot Description: 
+Audio: 
+SCENE: 
+SHOT: 
+Effect/graphics: 
+Dialogue/narration:
+ Transition:
+SCENE: 
+SHOT: 
+Shot Description: 
+Audio: 
+Effect/graphics: 
+Dialogue/narration:
+ Transition:
+Gambar 10.26 Template Storyboard
+Sumber: ninatridania (2022)
+
+308
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+LITERAKSI
+Berikut ini terdapat contoh animatic yang berjudul Animatic 
+Example for Spongebob Squarepants. Sekarang, silakan 
+pindai kode QR berikut untuk mengamati contoh tersebut. 
+Sebagai alternatif, kamu dapat mengetikkan pranala 
+https://youtu.be/1pMBpoonCiA melalui peramban gawai 
+atau personal computer-mu. 
+Eksplorasi 10.7
+Berdasarkan sajian tontonan yang tersaji melalui kode QR di atas, kemukakan 
+pendapatmu terhadap hasil pengamatan animatic tersebut. Kemudian, lakukan 
+analisis dan sampaikan di depan kelas agar mendapatkan tanggapan dari 
+teman dan gurumu.
+Rangkuman
+1. 
+Unsur-unsur cerita animasi adalah premise, alur/plot, tokoh/karakter, latar/
+setting, gaya/style, dan pesan yang akan disampaikan.
+2. Urutan pengambilan adegan di antaranya shot, scene, dan sequence.
+3. 
+Sinopsis cerita adalah uraian yang berisi tentang penokohan, setting waktu, 
+tempat, dan peristiwa yang terjadi, yang disampaikan dengan alur yang 
+dramatis. Untuk memudahkan pembacanya, sinopsis dibuat dalam tiga 
+paragraf sesuai dengan struktur 3 babak. 
+4. 
+Skenario cerita adalah sebuah naskah cerita yang diuraikan sesuai adegan-
+adegannya secara berurutan, yang di dalamnya memuat keterangan, 
+tempat, setting, waktu, dan dialog yang disusun berdasarkan struktur 
+dramatik untuk keperluan pembuatan film. Fungsi skenario adalah petunjuk 
+kerja bagi storyboard artist untuk memvisualisasikan naskah cerita dalam 
+bentuk gambar storyboard. Elemen skenario di antaranya judul dan 
+scene. Scene terdiri atas scene heading general description, character name, 
+dan transition.
+5. Dalam dunia perfilman, storyboard diartikan sebagai gambar dalam panel 
+yang merupakan hasil dari proses visualisasi dari skenario cerita menjadi 
+urut-urutan gambar adegan sehingga dapat menyampaikan ide cerita 
+secara lebih mudah kepada orang lain. Tujuan storyboard adalah untuk 
+memberikan informasi kepada tim produksi yang mencakup karakteristik 
+tokoh dan cara bergerak tokoh, komunikasi antarkarakter, durasi adegan, 
+setting tempat, waktu, dan perlakuan kamera, serta dilengkapi dengan 
+beberapa keterangan adegan (shot, scene, ilustrasi audio seperti sound 
+effect dan backsound).
+6. Pembuatan animatic dilakukan setelah proses pembuatan storyboard, 
+dubbing, sound effect, dan musik latar. Dalam pembuatan animatic sudah 
+dapat diketahui durasi film animasi yang akan dibuat dengan melihat 
+durasi suara/sound film animasinya.
+
+309
+BAB 10 - Cerita secara Visual
+Asesmen Kompetensi 10
+Pilihlah salah satu jawaban yang paling tepat!
+1. 
+Pengalaman pribadi, lingkungan sekitar, cerita rakyat, atau inspirasi dapat 
+digunakan seorang pembuat naskah cerita untuk mengembangkan ....
+a. 
+log line  
+ 
+c. 
+sinopsis  
+ 
+e.   skenario
+b. 
+premis  
+ 
+d. 
+plot
+2. 
+Di dalam gambar storyboard, pengambilan gambar dengan teknik panning 
+bertujuan untuk ….
+a. 
+membangun kesan heroik yang akan membuat karakter berkesan 
+lebih berwibawa
+b. 
+menunjukkan kesan rendah atau seolah-olah penonton melihat dari 
+bawah objek yang dibidik oleh kamera
+c. 
+mendekatkan kamera kepada sebuah objek agar penonton dapat melihat 
+dan memperhatikan dengan lebih jelas
+d. 
+mengikuti obyek dalam melakukan aksinya seolah-olah penonton ikut 
+merasakannya
+e. 
+memberikan kesan background dan foreground yang lebih jelas 
+kepada penonton
+3. 
+Karakter pada gambar di samping menunjukkan tokoh ….
+a. 
+protagonis  
+c. 
+figuran  
+e. tritagonis
+b. 
+antagonis 
+ 
+d. 
+skeptis
+4. 
+Berikut ini yang merupakan perbedaan skenario dengan 
+storyboard adalah …
+a. 
+Skenario dikerjakan ketika naskah cerita sudah selesai, sedangkan 
+storyboard dikerjakan sebelum menuliskan naskah.
+b. 
+Storyboard adalah uraian isi cerita yang berisi tentang penokohan, 
+setting waktu, tempat, dan peristiwa yang terjadi, yang disampaikan 
+dengan alur yang dramatis, sedangkan skenario cerita adalah sebuah 
+naskah cerita yang diuraikan sesuai adegan-adegannya secara berurutan
+c. 
+Skenario dituangkan dalam bentuk plot cerita, sedangkan storyboard 
+berbentuk gambar dan penjelasan.
+d. 
+Storyboard memberi petunjuk jalan cerita dalam bentuk paparan, 
+sedangkan skenario memberi petunjuk penggambaran scene dalam 
+bentuk visual.
+e. 
+Storyboard dituangkan dalam bentuk plot cerita, sedangkan skenario 
+berbentuk gambar dan penjelasan.
+
+310
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+5. 
+Tahap pengerjaan proses ini dibuat berdasarkan skenario dan dikerjakan oleh 
+seorang artis yang mempunyai kecakapan, ketrampilan, dan pengetahuan 
+yang mendalam tentang sinematografi. Hal ini biasanya disebut sebagai 
+versi visual paling awal dari sebuah film, berbentuk lembaran-lembaran 
+yang menerangkan adegan dan camera movement. Lembaran-lembaran 
+tersebut disebut ….
+a. 
+script 
+ 
+ 
+ 
+c. 
+layout  
+ 
+e.   storyboard
+b. 
+background  
+ 
+d. 
+sinopsis
+6. 
+Dialog dalam storyboard dapat digunakan untuk .…
+a. 
+phonetic sounds disesuaikan dengan gerak mulut untuk disinkronisasikan 
+dengan pergerakan animasi
+b. 
+menghitung frame by frame yang dibutuhkan dalam sebuah film animasi
+c. 
+panduan pemilihan musik pada storyboard-nya 
+d. 
+isian jumlah vokal dalam pergerakan animasi serta fungsi panduan 
+gerak animasi dan gerak kamera
+e. 
+deskripsi catatan bagi animator dan untuk membuat sketsa thumbnail 
+dari gerakan atau action
+7. 
+Gambaran keseluruhan cerita dari sebuah film animasi yang penuturannya 
+sering dibuat menjadi 3 paragraf sesuai alur cerita 3 babak yaitu babak 
+awal, tengah, dan akhir disebut dengan ….
+a. 
+premis  
+ 
+ 
+c. 
+script 
+ 
+ 
+e.    ide cerita
+b. 
+konsep  
+ 
+ 
+d. 
+sinopsis
+8. 
+Adegan yang dapat diceritakan dari penggalan 
+gambar storyboard dari cerita Timun Mas 
+berikut adalah …
+a. 
+Mbok Sirni menyerahkan 4 bungkusan dari 
+Pertapa kepada Timun Mas.
+b. 
+Mbok Sirni takut kehilangan Timun Mas
+c. 
+Mbok Sirni menyuruh Timun Mas mencari kayu bakar
+d. 
+Mbok Sirni dan Timun Mas hidup bahagia
+e. 
+Mbok Srini meminta Timun Mas mengalahkan Raksasa
+9. 
+Pengambilan gambar untuk menjelaskan situasi ketidakberdayaan 
+menggunakan angle kamera .…
+a. 
+worm eye low 
+ 
+c. 
+over shoulder 
+e.   close up
+b. 
+bird eye high 
+ 
+d. 
+panning
+10. Posisi kamera untuk menunjukkan ekspresi karakter tanpa harus terpengaruh 
+oleh background dapat menggunakan angle kamera .…
+a. 
+bird eye high 
+ 
+c. 
+over shoulder 
+d.   close up
+b. 
+worm eye low 
+ 
+e. 
+panning
+
+311
+BAB 10 - Cerita secara Visual
+Proyek Praktikum
+I. 
+Petunjuk Umum
+1. 
+Periksalah dengan teliti dokumen proyek praktikum.
+2. 
+Baca dan pahami maksud soal agar tidak terjadi kesalahan pekerjaan.
+3. 
+Bekerjalah dengan memperhatikan jadwal dan alur pengerjaan.
+4. 
+Peralatan utama dan bahan telah disediakan sesuai 
+dengan kebutuhan.
+5. 
+Ketika bekerja, perhatikan keselamatan kerja.
+II. Alat dan Bahan
+1. 
+PC atau Laptop
+2. 
+Scanner
+3. 
+Lightbox
+4. 
+Pen tablet
+5. 
+Headset
+6. 
+Software (Adobe Photoshop, Adobe After Effect, Toonbom, dll.)
+III. Soal/Tugas
+1. 
+Judul Tugas: 
+ 
+Menyusun Praproduksi
+2. 
+Langkah Kerja:
+a. 
+Periksalah kelengkapan alat dan bahan yang telah disediakan.
+b. 
+Tema: Cerita Rakyat 
+c. 
+Lakukan langkah-langkah di bawah ini sesuai dengan proses 
+praproduksi.
+1) 
+Memahami naskah cerita yang telah kamu pilih.
+2) 
+Menguraikan naskah cerita yang telah kamu pilih untuk 
+disusun menjadi skenario cerita.
+3) 
+Menggambar character design dan model sheet berdasarkan 
+naskah cerita yang telah kamu pilih.
+4) 
+Membuat gambar standar produksi property design 
+berdasarkan naskah cerita yang telah kamu pilih.
+5) 
+Membuat gambar standar produksi environment design 
+berdasarkan naskah cerita yang telah kamu pilih.
+6) 
+Menyusun premise, dramatic premise, struktur 3 babak, 
+scene dan sequence, sinopsis, dan skenario cerita.
+7) 
+Menyusun storyboard berdasarkan skenario cerita yang 
+telah kamu pilih dengan template storyboard yang 
+telah disediakan.
+
+312
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Pengayaan
+Jika 70–100% materi di atas sudah dikuasai, kamu dapat melakukan aktivitas 
+pengayaan, yakni membuat pre-visualisasi (animatic) dengan mengamati 
+storyboard yang telah disusun sebelumnya. Adapun langkah-langkah membuat 
+animatic adalah sebagai berikut.
+• 
+Persiapkan rekaman suara film yang meliputi: dialog, sound effect, musik 
+latar dalam format *.mp3 atau *.wav.
+• 
+Persiapkan ilustrasi hitam putih yang berupa sketsa manual/gambar digital 
+sederhana/modelling 3D sederhana.
+• 
+Susunlah gambar ilustrasi sederhana tersebut dengan menyesuaikan 
+rekaman suara film menggunakan software pengolah video.
+• 
+Simpanlah hasil karya animatic kalian dalam format video seperti MPEG, 
+WMV, dan MOV.
+Refleksi
+Pada pembelajaran ini, kamu telah mempelajari shot, scene, dan sequence; 
+pengambilan gambar dan adegan untuk storyboard; serta urutan proses 
+pembuatan storyboard. Pengetahuan dan keterampilanmu tentang proses 
+pra produksi film animasi menjadi semakin luas. Sekarang, silakan kamu 
+merefleksikan diri dengan memberi tanda centang (√) dalam kolom “Ya” dan 
+“Tidak” untuk setiap pernyataan di bawah ini. Isilah sesuai dengan pendapatmu 
+yang sebenarnya. 
+No.
+Pertanyaan
+Ya
+Tidak Keterangan
+1.
+Saya mampu membedakan naskah cerita dan skenario 
+cerita.
+2.
+Saya mampu menjelaskan pengertian storyboard.
+3.
+Saya mampu menjelaskan fungsi storyboard.
+4.
+Saya mampu menyebutkan elemen-elemen dalam 
+storyboard.
+5.
+Saya mampu menjelaskan perbedaan shot, scene, dan 
+sequence.
+6.
+Saya mampu menyusun shot dengan menentukan keypose 
+dengan angle kamera yang tepat berdasarkan dramatik 
+cerita.
+7.
+Saya mampu menyusun beberapa shot untuk digabung 
+menjadi scene.
+8.
+Saya mampu menyusun beberapa scene untuk digabung 
+menjadi sequence.
+9.
+Saya mampu menyusun storyboard.
+10.
+Saya mampu menambahkan elemen-elemen yang 
+dibutuhkan dalam storyboard sehingga menghasilkan 
+storyboard yang siap digunakan sebagai bahan informasi 
+dan pedoman mulai dari proses praproduksi hingga 
+proses pascaproduksi.

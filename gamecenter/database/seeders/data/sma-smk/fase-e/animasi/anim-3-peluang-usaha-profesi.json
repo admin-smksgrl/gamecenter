@@ -1,0 +1,1284 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 3",
+      "title": "Peluang Usaha dan Profesi di Bidang Animasi",
+      "description": "Memahami beragam profesi di industri animasi beserta tugasnya, membaca peluang usaha (jasa dan IP), serta mengembangkan kewirausahaan melalui technopreneurship, business model canvas, dan pitch bible.",
+      "learning_objectives": [
+        "Mengidentifikasi profesi pada praproduksi, produksi, dan pascaproduksi animasi.",
+        "Membedakan bisnis animasi bidang jasa dan bidang kepemilikan intelektual (IP).",
+        "Menjelaskan peran technopreneur dalam industri animasi.",
+        "Menyusun business model canvas dan pitch bible sederhana."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 3 Peluang Usaha dan Profesi di Bidang Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Profesi dalam industri animasi",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 3 Peluang Usaha dan Profesi di Bidang Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Lebih dari sekadar animator\n\nDi mata orang awam, semua pekerja animasi disebut animator. Padahal animator hanyalah satu dari banyak profesi dengan jenjang kariernya sendiri.\n\nPada praproduksi bekerja scriptwriter, 2D artist (storyboard artist, character designer, background artist, colorist), dan 3D artist.\n\nPada produksi bekerja animator, key drawing, inbetweener, dan layout artist. Pada pascaproduksi bekerja composer, editor, dan compositor.\n\nProduser memegang peran penting: merencanakan anggaran, mengatur waktu, mengelola kontrak, memilih tim, dan menjaga kualitas produksi.\n\nPilih profesi sesuai minat: menulis cerita, menggambar, menggerakkan karakter, atau meracik musik dan efek suara.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-3-peluang-usaha-profesi-glosarium",
+              "terms": [
+                {
+                  "term": "Produser",
+                  "definition": "Perencana anggaran dan waktu produksi, pengelola tim, serta penjaga hubungan dengan klien dan investor."
+                },
+                {
+                  "term": "Scriptwriter",
+                  "definition": "Penulis naskah: mengembangkan konsep cerita, karakter, plot, dan dialog."
+                },
+                {
+                  "term": "Storyboard artist",
+                  "definition": "Menerjemahkan naskah menjadi rangkaian gambar visual."
+                },
+                {
+                  "term": "Layout artist",
+                  "definition": "Mendesain shot frame, angle, pergerakan kamera, dan pencahayaan adegan."
+                },
+                {
+                  "term": "Animator",
+                  "definition": "Pembuat gerakan karakter dan objek melalui keyframe atau motion capture."
+                },
+                {
+                  "term": "Composer",
+                  "definition": "Pembuat musik utama, musik latar, dan efek suara animasi."
+                },
+                {
+                  "term": "Compositor",
+                  "definition": "Menggabungkan elemen-elemen animasi menjadi satu tampilan utuh."
+                },
+                {
+                  "term": "Technopreneur",
+                  "definition": "Wirausaha yang memanfaatkan teknologi untuk menjalankan bisnis."
+                },
+                {
+                  "term": "Business Model Canvas",
+                  "definition": "Kerangka sembilan elemen untuk merancang model bisnis."
+                },
+                {
+                  "term": "Pitch bible",
+                  "definition": "Dokumen presentasi berisi konsep, desain karakter, dan alur untuk menarik investor atau studio."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Lebih dari sekadar animator"
+            },
+            {
+              "type": "paragraph",
+              "text": "Di mata orang awam, semua pekerja animasi disebut animator. Padahal animator hanyalah satu dari banyak profesi dengan jenjang kariernya sendiri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada praproduksi bekerja scriptwriter, 2D artist (storyboard artist, character designer, background artist, colorist), dan 3D artist."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada produksi bekerja animator, key drawing, inbetweener, dan layout artist. Pada pascaproduksi bekerja composer, editor, dan compositor."
+            },
+            {
+              "type": "paragraph",
+              "text": "Produser memegang peran penting: merencanakan anggaran, mengatur waktu, mengelola kontrak, memilih tim, dan menjaga kualitas produksi."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-3-peluang-usaha-profesi-diagram",
+              "engine": "mermaid",
+              "title": "Peta profesi berdasar alur produksi",
+              "code": "flowchart LR\n  A[Praproduksi] --> B[Scriptwriter, 2D artist, 3D artist]\n  C[Produksi] --> D[Animator, key drawing, inbetweener]\n  D --> E[Layout artist]\n  F[Pascaproduksi] --> G[Composer, editor, compositor]\n  A & C & F --> H[Produser mengatur anggaran dan tim]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Pilih profesi sesuai minat: menulis cerita, menggambar, menggerakkan karakter, atau meracik musik dan efek suara."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-3-peluang-usaha-profesi-cp-1",
+              "question": "Profesi yang merencanakan anggaran proyek animasi adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "produser",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "animator"
+                },
+                {
+                  "id": "c2",
+                  "text": "composer"
+                },
+                {
+                  "id": "c3",
+                  "text": "colorist"
+                }
+              ],
+              "explanation": "Produser mengelola anggaran, waktu, dan kontrak."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Peluang usaha animasi",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 3 Peluang Usaha dan Profesi di Bidang Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Bisnis jasa dan bisnis IP\n\nBisnis animasi bidang jasa menawarkan layanan produksi animasi kepada klien, misalnya iklan komersial, serial, atau pengembangan karakter, dan dapat dijalankan sebagai perusahaan maupun freelancer.\n\nBisnis animasi bidang IP berfokus pada pengembangan karakter dan cerita yang dilindungi hak cipta, lalu dipasarkan lewat film, merchandise, atau game. Pendapatannya dari royalti, lisensi, dan penjualan merchandise.\n\nTechnopreneurship adalah wirausaha yang memanfaatkan teknologi. Seorang technopreneur cerdas, inovatif, menyukai teknologi, dan berani mengambil risiko.\n\nAnimasi menciptakan lapangan kerja, meningkatkan pemanfaatan sumber daya lokal, dan membuka peluang bisnis baru di berbagai bidang.\n\n| Aspek | Bisnis jasa | Bisnis IP |\n|---|---|---|\n| Fokus | Layanan untuk klien | Karakter dan cerita sendiri |\n| Lindung | Kontrak kerja | Hak cipta dan lisensi |\n| Pendapatan | Pembayaran proyek | Royalti, merchandise, lisensi |\n| Investasi awal | Lebih kecil | Besar untuk membangun karakter |\n\n### BMC dan pitch bible\n\n- Business Model Canvas memetakan sembilan elemen: segmen pasar, proposisi nilai, saluran distribusi, hubungan pelanggan, sumber pendapatan, aktivitas kunci, sumber daya kunci, mitra kunci, dan struktur biaya.\n- Pitch bible adalah dokumen presentasi yang memperkenalkan proyek animasi kepada investor atau studio: cover page, genre dan target usia, durasi dan episode, premis, serta storylines.\n- Target usia di pitch bible dibagi prasekolah bawah (0–3), prasekolah atas (3–5), anak-anak (6–11), dan remaja (12–15).\n- Langkah menyusun BMC: identifikasi elemen, isi tiap elemen, evaluasi dan perbaiki, lalu implementasikan dalam bisnis.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bisnis jasa dan bisnis IP"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bisnis animasi bidang jasa menawarkan layanan produksi animasi kepada klien, misalnya iklan komersial, serial, atau pengembangan karakter, dan dapat dijalankan sebagai perusahaan maupun freelancer."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bisnis animasi bidang IP berfokus pada pengembangan karakter dan cerita yang dilindungi hak cipta, lalu dipasarkan lewat film, merchandise, atau game. Pendapatannya dari royalti, lisensi, dan penjualan merchandise."
+            },
+            {
+              "type": "paragraph",
+              "text": "Technopreneurship adalah wirausaha yang memanfaatkan teknologi. Seorang technopreneur cerdas, inovatif, menyukai teknologi, dan berani mengambil risiko."
+            },
+            {
+              "type": "paragraph",
+              "text": "Animasi menciptakan lapangan kerja, meningkatkan pemanfaatan sumber daya lokal, dan membuka peluang bisnis baru di berbagai bidang."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspek",
+                  "Bisnis jasa",
+                  "Bisnis IP"
+                ],
+                [
+                  "Fokus",
+                  "Layanan untuk klien",
+                  "Karakter dan cerita sendiri"
+                ],
+                [
+                  "Lindung",
+                  "Kontrak kerja",
+                  "Hak cipta dan lisensi"
+                ],
+                [
+                  "Pendapatan",
+                  "Pembayaran proyek",
+                  "Royalti, merchandise, lisensi"
+                ],
+                [
+                  "Investasi awal",
+                  "Lebih kecil",
+                  "Besar untuk membangun karakter"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-3-bisnis",
+              "engine": "mermaid",
+              "title": "Dua jalur bisnis animasi",
+              "code": "flowchart TB\n  A[Bisnis Animasi] --> B[Bidang Jasa: iklan, serial, produksi]\n  A --> C[Bidang IP: karakter dan cerita]\n  B --> D[Perusahaan atau freelancer]\n  C --> E[Royalti dan lisensi merchandise]\n  C --> F[Hak cipta melindungi karya]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-3-klasifikasi",
+              "prompt": "Kelompokkan pernyataan sesuai jenis bisnis animasi.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Bisnis jasa"
+                },
+                {
+                  "id": "b2",
+                  "label": "Bisnis IP"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Membuat iklan komersial untuk klien",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Menjual merchandise karakter sendiri",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Menerima royalti dari lisensi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Bekerja sebagai freelancer",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i5",
+                  "text": "Karakter dilindungi hak cipta",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Membuat serial sesuai pesanan studio",
+                  "bucket": "b1"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Jasa melayani klien; IP membangun dan menjual karakter sendiri.",
+                "wrong": "Ingat: jasa = layanan; IP = kepemilikan karakter dan cerita."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "BMC dan pitch bible"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Business Model Canvas memetakan sembilan elemen: segmen pasar, proposisi nilai, saluran distribusi, hubungan pelanggan, sumber pendapatan, aktivitas kunci, sumber daya kunci, mitra kunci, dan struktur biaya.",
+                "Pitch bible adalah dokumen presentasi yang memperkenalkan proyek animasi kepada investor atau studio: cover page, genre dan target usia, durasi dan episode, premis, serta storylines.",
+                "Target usia di pitch bible dibagi prasekolah bawah (0–3), prasekolah atas (3–5), anak-anak (6–11), dan remaja (12–15).",
+                "Langkah menyusun BMC: identifikasi elemen, isi tiap elemen, evaluasi dan perbaiki, lalu implementasikan dalam bisnis."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-3-peluang-usaha-profesi-cp-2",
+              "question": "Bisnis animasi yang pendapatannya dari royalti dan penjualan merchandise disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "bisnis bidang IP",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "bisnis bidang jasa"
+                },
+                {
+                  "id": "c2",
+                  "text": "bisnis perdagangan"
+                },
+                {
+                  "id": "c3",
+                  "text": "bisnis jasa konstruksi"
+                }
+              ],
+              "explanation": "Bisnis IP mengembangkan karakter berhak cipta."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 3 Peluang Usaha dan Profesi di Bidang Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Merancang bisnis animasi\n\nAnimator Indonesia seperti Andre Surya (lighting) dan Michael Reynold Tagore (texture) membuktikan profesi animasi membuka karier internasional.\n\nAnimasi dimanfaatkan di pendidikan, kesehatan, industri, keamanan, teknik, dan hiburan, sehingga peluang pasar dan usahanya sangat luas.\n\nDalam pitch bible, premis ditulis singkat 1–2 kalimat yang menjelaskan inti cerita, karakter utama, dan konflik utamanya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Merancang bisnis animasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Animator Indonesia seperti Andre Surya (lighting) dan Michael Reynold Tagore (texture) membuktikan profesi animasi membuka karier internasional."
+            },
+            {
+              "type": "paragraph",
+              "text": "Animasi dimanfaatkan di pendidikan, kesehatan, industri, keamanan, teknik, dan hiburan, sehingga peluang pasar dan usahanya sangat luas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dalam pitch bible, premis ditulis singkat 1–2 kalimat yang menjelaskan inti cerita, karakter utama, dan konflik utamanya."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-3-skenario",
+              "title": "Studiomu ingin menarik investor",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu dan teman-teman memiliki ide serial animasi dan ingin didanai investor. Langkah pertamamu?",
+                  "choices": [
+                    {
+                      "text": "Menyusun pitch bible yang menarik dan komunikatif",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Pitch bible membantu investor memahami visi proyek."
+                    },
+                    {
+                      "text": "Langsung memproduksi tanpa dokumen apa pun",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Investor perlu melihat konsep yang terencana."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Apa yang perlu dijelaskan agar investor yakin?",
+                  "choices": [
+                    {
+                      "text": "Genre, target usia, premis, dan target pasar produk",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "BMC dan pitch bible menunjukkan peluang bisnis yang jelas."
+                    },
+                    {
+                      "text": "Hanya nama karakter tanpa gambaran cerita",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa cerita dan pasar, proyek sulit dinilai layak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Investor menolak karena proyek tidak terdokumentasi dengan baik.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Investor tertarik dan proyek mendapat pendanaan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-3-peluang-usaha-profesi-kartu",
+              "cards": [
+                {
+                  "front": "Siapa yang merencanakan anggaran proyek animasi?",
+                  "back": "Produser."
+                },
+                {
+                  "front": "Apa tugas storyboard artist?",
+                  "back": "Menerjemahkan naskah menjadi rangkaian gambar visual."
+                },
+                {
+                  "front": "Sebutkan sembilan elemen BMC.",
+                  "back": "Segmen pasar, proposisi nilai, saluran, hubungan pelanggan, pendapatan, aktivitas kunci, sumber daya kunci, mitra kunci, struktur biaya."
+                },
+                {
+                  "front": "Apa itu pitch bible?",
+                  "back": "Dokumen presentasi proyek animasi untuk investor atau studio."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-3-peluang-usaha-profesi-cp-3",
+              "question": "Proses pascaproduksi yang menggabungkan elemen animasi menjadi satu tampilan utuh dilakukan oleh…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "compositor",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "scriptwriter"
+                },
+                {
+                  "id": "c2",
+                  "text": "inbetweener"
+                },
+                {
+                  "id": "c3",
+                  "text": "colorist"
+                }
+              ],
+              "explanation": "Compositor menyatukan elemen hasil produksi."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-3-tantangan",
+              "title": "Tantangan profesi dan kewirausahaan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Penulis naskah animasi",
+                  "answer": "Scriptwriter"
+                },
+                {
+                  "question": "Pembuat gerakan karakter",
+                  "answer": "Animator"
+                },
+                {
+                  "question": "Pembuat musik dan efek suara",
+                  "answer": "Composer"
+                },
+                {
+                  "question": "Wirausaha berbasis teknologi",
+                  "answer": "Technopreneur"
+                },
+                {
+                  "question": "Dokumen presentasi untuk investor",
+                  "answer": "Pitch bible"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah profesi dan kewirausahaan terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Peluang Usaha dan Profesi di Bidang Animasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Profesi yang mengelola anggaran dan waktu produksi adalah…",
+              "options": [
+                {
+                  "text": "produser",
+                  "correct": true
+                },
+                {
+                  "text": "composer"
+                },
+                {
+                  "text": "colorist"
+                },
+                {
+                  "text": "inbetweener"
+                }
+              ],
+              "explanation": "Produser memastikan proyek selesai tepat waktu.",
+              "hint": "Ia juga mengurus kontrak dan klien."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tugas scriptwriter adalah…",
+              "options": [
+                {
+                  "text": "menulis skenario dan dialog animasi",
+                  "correct": true
+                },
+                {
+                  "text": "membuat musik"
+                },
+                {
+                  "text": "menggabungkan elemen"
+                },
+                {
+                  "text": "mengatur pencahayaan"
+                }
+              ],
+              "explanation": "Naskah menjadi dasar animasi.",
+              "hint": "Menentukan karakter, plot, dan dialog."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Storyboard artist bertugas…",
+              "options": [
+                {
+                  "text": "menerjemahkan naskah menjadi gambar visual",
+                  "correct": true
+                },
+                {
+                  "text": "merekam suara"
+                },
+                {
+                  "text": "membuat anggaran"
+                },
+                {
+                  "text": "mengompres film"
+                }
+              ],
+              "explanation": "Storyboard memvisualkan cerita.",
+              "hint": "Menjadi panduan produksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah profesi pada praproduksi animasi?",
+              "options": [
+                {
+                  "text": "Scriptwriter",
+                  "correct": true
+                },
+                {
+                  "text": "Storyboard artist",
+                  "correct": true
+                },
+                {
+                  "text": "2D artist",
+                  "correct": true
+                },
+                {
+                  "text": "Compositor",
+                  "correct": false
+                },
+                {
+                  "text": "Editor",
+                  "correct": false
+                }
+              ],
+              "explanation": "Praproduksi menyiapkan naskah dan gambar.",
+              "hint": "Compositor dan editor pascaproduksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah profesi pada produksi animasi?",
+              "options": [
+                {
+                  "text": "Animator",
+                  "correct": true
+                },
+                {
+                  "text": "Key drawing",
+                  "correct": true
+                },
+                {
+                  "text": "Layout artist",
+                  "correct": true
+                },
+                {
+                  "text": "Scriptwriter",
+                  "correct": false
+                },
+                {
+                  "text": "Colorist",
+                  "correct": false
+                }
+              ],
+              "explanation": "Produksi membuat gerakan dan layout.",
+              "hint": "Naskah adalah praproduksi."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Peluang Usaha dan Profesi di Bidang Animasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Profesi pembuat gerakan karakter adalah…",
+              "options": [
+                {
+                  "text": "animator",
+                  "correct": true
+                },
+                {
+                  "text": "editor"
+                },
+                {
+                  "text": "produser"
+                },
+                {
+                  "text": "scriptwriter"
+                }
+              ],
+              "explanation": "Animator mengubah konsep menjadi gerakan.",
+              "hint": "Pakai keyframe atau motion capture."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Inbetweener bertugas membuat…",
+              "options": [
+                {
+                  "text": "gerakan di antara keypose",
+                  "correct": true
+                },
+                {
+                  "text": "lagu tema"
+                },
+                {
+                  "text": "poster film"
+                },
+                {
+                  "text": "kontrak kerja"
+                }
+              ],
+              "explanation": "Inbetween melengkapi keypose.",
+              "hint": "Bekerja dengan key drawing."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah profesi pada pascaproduksi animasi?",
+              "options": [
+                {
+                  "text": "Composer",
+                  "correct": true
+                },
+                {
+                  "text": "Editor",
+                  "correct": true
+                },
+                {
+                  "text": "Compositor",
+                  "correct": true
+                },
+                {
+                  "text": "Inbetweener",
+                  "correct": false
+                },
+                {
+                  "text": "Character designer",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pascaproduksi merapikan hasil akhir.",
+              "hint": "Pembuat gerakan dan desain adalah produksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bentuk bisnis animasi bidang jasa?",
+              "options": [
+                {
+                  "text": "Iklan komersial",
+                  "correct": true
+                },
+                {
+                  "text": "Serial pesanan",
+                  "correct": true
+                },
+                {
+                  "text": "Produksi untuk klien",
+                  "correct": true
+                },
+                {
+                  "text": "Merchandise karakter",
+                  "correct": false
+                },
+                {
+                  "text": "Royalti lisensi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jasa melayani kebutuhan klien.",
+              "hint": "Merchandise dan royalti ciri bisnis IP."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Produser",
+                  "right": "mengatur anggaran dan tim"
+                },
+                {
+                  "id": "m1",
+                  "left": "Scriptwriter",
+                  "right": "menulis skenario"
+                },
+                {
+                  "id": "m2",
+                  "left": "Animator",
+                  "right": "membuat gerakan karakter"
+                },
+                {
+                  "id": "m3",
+                  "left": "Composer",
+                  "right": "musik dan efek suara"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengatur anggaran dan tim",
+                  "m1": "menulis skenario",
+                  "m2": "membuat gerakan karakter",
+                  "m3": "musik dan efek suara"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur cerita sampai tayang.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Naskah scriptwriter"
+                },
+                {
+                  "id": "d1",
+                  "text": "Storyboard artist"
+                },
+                {
+                  "id": "d2",
+                  "text": "Desain karakter"
+                },
+                {
+                  "id": "d3",
+                  "text": "Animasi gerak"
+                },
+                {
+                  "id": "d4",
+                  "text": "Pascaproduksi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Naskah menjadi awal.",
+              "hint": "Pascaproduksi menutup proses."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menyusun BMC.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Identifikasi elemen BMC"
+                },
+                {
+                  "id": "p1",
+                  "text": "Isi tiap elemen"
+                },
+                {
+                  "id": "p2",
+                  "text": "Evaluasi dan perbaiki"
+                },
+                {
+                  "id": "p3",
+                  "text": "Implementasikan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Mulai dari memahami sembilan elemen.",
+              "hint": "Implementasi menutup proses."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Layout artist merancang…",
+              "options": [
+                {
+                  "text": "shot frame, angle, dan pergerakan kamera",
+                  "correct": true
+                },
+                {
+                  "text": "musik latar"
+                },
+                {
+                  "text": "iklan media"
+                },
+                {
+                  "text": "harga tiket"
+                }
+              ],
+              "explanation": "Kamera virtual direplikasi layout artist.",
+              "hint": "Bekerja sama dengan sutradara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Composer dalam animasi bertugas…",
+              "options": [
+                {
+                  "text": "membuat musik dan efek suara",
+                  "correct": true
+                },
+                {
+                  "text": "mewarnai karakter"
+                },
+                {
+                  "text": "menyusun adegan"
+                },
+                {
+                  "text": "membagi anggaran"
+                }
+              ],
+              "explanation": "Composer bekerja sama dengan sutradara.",
+              "hint": "Menciptakan leitmotif karakter."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri seorang technopreneur?",
+              "options": [
+                {
+                  "text": "Cerdas dan inovatif",
+                  "correct": true
+                },
+                {
+                  "text": "Menyukai teknologi",
+                  "correct": true
+                },
+                {
+                  "text": "Berani mengambil risiko",
+                  "correct": true
+                },
+                {
+                  "text": "Menolak perubahan",
+                  "correct": false
+                },
+                {
+                  "text": "Menghindari teknologi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Technopreneur memanfaatkan teknologi.",
+              "hint": "Tidak menghindari inovasi."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Peluang Usaha dan Profesi di Bidang Animasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Compositor bertugas…",
+              "options": [
+                {
+                  "text": "menggabungkan elemen animasi menjadi utuh",
+                  "correct": true
+                },
+                {
+                  "text": "menulis premis"
+                },
+                {
+                  "text": "membuat storyboard"
+                },
+                {
+                  "text": "mengatur tim"
+                }
+              ],
+              "explanation": "Elemen digabung menjadi satu tampilan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bisnis animasi bidang jasa adalah…",
+              "options": [
+                {
+                  "text": "menawarkan layanan animasi kepada klien",
+                  "correct": true
+                },
+                {
+                  "text": "menjual merchandise"
+                },
+                {
+                  "text": "mengembangkan IP"
+                },
+                {
+                  "text": "mengelola royalti"
+                }
+              ],
+              "explanation": "Layanan produksi, iklan, dan serial."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sumber pendapatan bisnis IP berupa…",
+              "options": [
+                {
+                  "text": "royalti, lisensi, dan penjualan merchandise",
+                  "correct": true
+                },
+                {
+                  "text": "gaji bulanan klien"
+                },
+                {
+                  "text": "ongkos kirim"
+                },
+                {
+                  "text": "biaya parkir"
+                }
+              ],
+              "explanation": "Karakter berhak cipta dipasarkan luas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Technopreneur adalah wirausaha yang…",
+              "options": [
+                {
+                  "text": "memanfaatkan teknologi dalam bisnis",
+                  "correct": true
+                },
+                {
+                  "text": "menolak teknologi"
+                },
+                {
+                  "text": "hanya jualan manual"
+                },
+                {
+                  "text": "menghindari risiko"
+                }
+              ],
+              "explanation": "Bisnis melibatkan teknologi secara intens."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Business Model Canvas memetakan…",
+              "options": [
+                {
+                  "text": "sembilan elemen model bisnis",
+                  "correct": true
+                },
+                {
+                  "text": "tiga tahap produksi"
+                },
+                {
+                  "text": "lima warna dasar"
+                },
+                {
+                  "text": "empat komponen K3"
+                }
+              ],
+              "explanation": "Dari segmen pasar hingga struktur biaya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bidang pemanfaatan animasi?",
+              "options": [
+                {
+                  "text": "Pendidikan dan kesehatan",
+                  "correct": true
+                },
+                {
+                  "text": "Industri dan keamanan",
+                  "correct": true
+                },
+                {
+                  "text": "Hiburan dan teknik",
+                  "correct": true
+                },
+                {
+                  "text": "Pertanian tradisional",
+                  "correct": false
+                },
+                {
+                  "text": "Perbankan konvensional",
+                  "correct": false
+                }
+              ],
+              "explanation": "Animasi membantu banyak bidang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bagian dari pitch bible?",
+              "options": [
+                {
+                  "text": "Cover page",
+                  "correct": true
+                },
+                {
+                  "text": "Genre dan target usia",
+                  "correct": true
+                },
+                {
+                  "text": "Premis dan storylines",
+                  "correct": true
+                },
+                {
+                  "text": "Laporan keuangan",
+                  "correct": false
+                },
+                {
+                  "text": "Daftar gaji",
+                  "correct": false
+                },
+                {
+                  "text": "Surat izin bangunan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pitch bible berisi konsep proyek."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Compositor",
+                  "right": "menggabungkan elemen"
+                },
+                {
+                  "id": "m1",
+                  "left": "Technopreneur",
+                  "right": "wirausaha berbasis teknologi"
+                },
+                {
+                  "id": "m2",
+                  "left": "BMC",
+                  "right": "sembilan elemen model bisnis"
+                },
+                {
+                  "id": "m3",
+                  "left": "Pitch bible",
+                  "right": "dokumen untuk investor"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "menggabungkan elemen",
+                  "m1": "wirausaha berbasis teknologi",
+                  "m2": "sembilan elemen model bisnis",
+                  "m3": "dokumen untuk investor"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan bagian pitch bible.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Cover page"
+                },
+                {
+                  "id": "d1",
+                  "text": "Genre dan target usia"
+                },
+                {
+                  "id": "d2",
+                  "text": "Durasi dan episode"
+                },
+                {
+                  "id": "d3",
+                  "text": "Premis"
+                },
+                {
+                  "id": "d4",
+                  "text": "Storylines"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pitch bible dimulai dari sampul."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pembagian target usia penonton animasi.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Prasekolah bawah 0–3 tahun"
+                },
+                {
+                  "id": "p1",
+                  "text": "Prasekolah atas 3–5 tahun"
+                },
+                {
+                  "id": "p2",
+                  "text": "Anak-anak 6–11 tahun"
+                },
+                {
+                  "id": "p3",
+                  "text": "Remaja 12–15 tahun"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Target usia dari termuda."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pitch bible digunakan untuk…",
+              "options": [
+                {
+                  "text": "memperkenalkan proyek animasi kepada investor",
+                  "correct": true
+                },
+                {
+                  "text": "mengganti kontrak"
+                },
+                {
+                  "text": "mengedit film"
+                },
+                {
+                  "text": "mencetak poster"
+                }
+              ],
+              "explanation": "Berisi konsep, desain karakter, dan alur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Animator Indonesia yang berperan dalam film internasional membuktikan…",
+              "options": [
+                {
+                  "text": "profesi animasi membuka karier global",
+                  "correct": true
+                },
+                {
+                  "text": "animasi tidak laku"
+                },
+                {
+                  "text": "artis tidak perlu belajar"
+                },
+                {
+                  "text": "studio asing menutup diri"
+                }
+              ],
+              "explanation": "Andre Surya di lighting, Tagore di texture."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah elemen Business Model Canvas?",
+              "options": [
+                {
+                  "text": "Segmen pasar",
+                  "correct": true
+                },
+                {
+                  "text": "Proposisi nilai",
+                  "correct": true
+                },
+                {
+                  "text": "Mitra kunci",
+                  "correct": true
+                },
+                {
+                  "text": "Lokasi gedung",
+                  "correct": false
+                },
+                {
+                  "text": "Harga kursi",
+                  "correct": false
+                },
+                {
+                  "text": "Merk komputer",
+                  "correct": false
+                }
+              ],
+              "explanation": "BMC memuat sembilan elemen inti."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Produser",
+                  "right": "mengatur anggaran dan tim"
+                },
+                {
+                  "id": "m1",
+                  "left": "Scriptwriter",
+                  "right": "menulis skenario"
+                },
+                {
+                  "id": "m2",
+                  "left": "Animator",
+                  "right": "membuat gerakan karakter"
+                },
+                {
+                  "id": "m3",
+                  "left": "Composer",
+                  "right": "musik dan efek suara"
+                },
+                {
+                  "id": "m4",
+                  "left": "Compositor",
+                  "right": "menggabungkan elemen"
+                },
+                {
+                  "id": "m5",
+                  "left": "Technopreneur",
+                  "right": "wirausaha berbasis teknologi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengatur anggaran dan tim",
+                  "m1": "menulis skenario",
+                  "m2": "membuat gerakan karakter",
+                  "m3": "musik dan efek suara",
+                  "m4": "menggabungkan elemen",
+                  "m5": "wirausaha berbasis teknologi"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membangun bisnis animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Membaca peluang pasar"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menentukan jenis bisnis jasa atau IP"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menyusun BMC"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membuat pitch bible"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memulai produksi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Bisnis berawal dari peluang."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

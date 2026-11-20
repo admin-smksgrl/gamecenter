@@ -1,0 +1,1297 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 4",
+      "title": "Teknik Dasar Proses Produksi pada Industri Animasi",
+      "description": "Memahami pipeline produksi animasi 2D dan 3D, mengenal ekosistem industri animasi Indonesia, serta menerapkan sikap kerja tim, budaya kerja, kode etik, dan unit kerja di studio animasi.",
+      "learning_objectives": [
+        "Menjelaskan tahapan pipeline produksi animasi 2 dimensi dan 3 dimensi.",
+        "Menguraikan enam elemen ekosistem industri animasi.",
+        "Menerapkan kerja tim dengan model Bruce Tuckman.",
+        "Mengenali budaya kerja, kode etik, dan unit kerja studio animasi."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 4 Teknik Dasar Proses Produksi pada Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Pipeline produksi animasi",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 4 Teknik Dasar Proses Produksi pada Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Alur kerja yang terstruktur\n\nProses mewujudkan film animasi disebut pipeline animasi atau alur kerja animasi: sebuah sistem yang terdiri atas manusia, perangkat keras, dan perangkat lunak yang bekerja terurut sesuai jadwal.\n\nPipeline setiap film tidak selalu sama; bergantung pada kebutuhan, jenis animasi, biaya, dan kualitas yang diharapkan.\n\nKedua jenis produksi, 2 dimensi dan 3 dimensi, selalu melewati lima tahap inti: praproduksi, produksi, dan pascaproduksi agar kualitas terjaga.\n\nPada tahap produksi 2D, key animator menggambar gerakan kunci dan inbetweener mengisi frame antara agar gerakan tampak mulus.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-4-teknik-proses-produksi-glosarium",
+              "terms": [
+                {
+                  "term": "Pipeline",
+                  "definition": "Sistem manusia, perangkat keras, dan perangkat lunak yang selaras untuk menyelesaikan produksi secara berurutan."
+                },
+                {
+                  "term": "Script",
+                  "definition": "Versi tertulis proyek berisi alur cerita, deskripsi, lokasi, dialog, dan efek suara."
+                },
+                {
+                  "term": "Storyboard",
+                  "definition": "Versi visual dari script berupa rangkaian gambar adegan."
+                },
+                {
+                  "term": "Key animator",
+                  "definition": "Animator utama yang menggambar gerakan kunci (keyframe) karakter."
+                },
+                {
+                  "term": "Inbetweener",
+                  "definition": "Animator yang mengisi frame antara keyframe agar gerakan halus."
+                },
+                {
+                  "term": "Clean up",
+                  "definition": "Membuat gambar raw menjadi tampilan akhir, membersihkan garis bantu."
+                },
+                {
+                  "term": "Inking and coloring",
+                  "definition": "Menebalkan garis pinggir dan memberi warna pada gambar."
+                },
+                {
+                  "term": "Dubbing",
+                  "definition": "Perekaman suara atau dialog oleh voice actor, termasuk penambahan bahasa dan soundtrack."
+                },
+                {
+                  "term": "Ekosistem",
+                  "definition": "Jaringan unit yang saling bergantung: ide, produksi, distribusi, pameran, apresiasi, dan pendidikan."
+                },
+                {
+                  "term": "Pencil test",
+                  "definition": "Cara memeriksa gerakan dengan memeriksa gambar-gambar berturut-turut."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Alur kerja yang terstruktur"
+            },
+            {
+              "type": "paragraph",
+              "text": "Proses mewujudkan film animasi disebut pipeline animasi atau alur kerja animasi: sebuah sistem yang terdiri atas manusia, perangkat keras, dan perangkat lunak yang bekerja terurut sesuai jadwal."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pipeline setiap film tidak selalu sama; bergantung pada kebutuhan, jenis animasi, biaya, dan kualitas yang diharapkan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kedua jenis produksi, 2 dimensi dan 3 dimensi, selalu melewati lima tahap inti: praproduksi, produksi, dan pascaproduksi agar kualitas terjaga."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-4-teknik-proses-produksi-diagram",
+              "engine": "mermaid",
+              "title": "Pipeline produksi animasi 2D",
+              "code": "flowchart LR\n  A[Praproduksi: ide, script, storyboard] --> B[Produksi: animating]\n  B --> C[Clean up]\n  C --> D[Inking and coloring]\n  D --> E[Pascaproduksi: compositing]\n  E --> F[Dubbing, export/rendering]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Pada tahap produksi 2D, key animator menggambar gerakan kunci dan inbetweener mengisi frame antara agar gerakan tampak mulus."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-4-teknik-proses-produksi-cp-1",
+              "question": "Tahap pertama yang dipikirkan dalam membuat film animasi adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "cerita atau ide",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "anggaran biaya"
+                },
+                {
+                  "id": "c2",
+                  "text": "iklan film"
+                },
+                {
+                  "id": "c3",
+                  "text": "jadwal rilis"
+                }
+              ],
+              "explanation": "Cerita yang bagus lahir dari ide yang inspiratif."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Pipeline 3D dan ekosistem",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 4 Teknik Dasar Proses Produksi pada Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Produksi 3D dan ekosistem industri animasi\n\nPipeline produksi 3D mengikuti urutan modeling, rigging, texturing, animation, lighting, dan rendering, diakhiri compositing serta editing.\n\nEkosistem industri animasi Indonesia merupakan penggabungan unit yang saling bergantung: konsep ide, produksi, distribusi dan promosi, pameran, apresiasi, serta pendidikan.\n\nSekitar 86% orang Indonesia masih menonton televisi, sehingga televisi menjadi media distribusi dan promosi utama bagi studio animasi.\n\nPameran seperti Indonesia Comic Con dan INAMAFEST menjadi media apresiasi, prestasi, dan edukasi bagi pelaku animasi.\n\n| Elemen ekosistem | Peran |\n|---|---|\n| Konsep ide | Sumber cerita dari adaptasi, komik, atau buku |\n| Produksi | Praproduksi hingga pascaproduksi |\n| Distribusi dan promosi | Televisi, bioskop, media sosial, layanan streaming |\n| Pameran | Media apresiasi, prestasi, dan edukasi |\n| Apresiasi | Menumbuhkan jiwa kompetisi sehat |\n| Pendidikan | Formal dan nonformal, dari SMK hingga perguruan tinggi |\n\n### Sikap kerja di studio\n\n- Kerja tim membuat ide lebih kreatif, beban lebih ringan, pekerjaan lebih efisien, dan cepat menemukan solusi saat ada hambatan.\n- Model Bruce Tuckman menggambarkan lima tahap: forming, storming, norming, performing, dan adjourning.\n- Budaya kerja, kode etik, dan unit-unit kerja membantu pembagian tugas dan tanggung jawab di studio animasi.\n- Studio seperti Walt Disney membagi unit produksi menjadi production teams, technology teams, dan studio teams.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Produksi 3D dan ekosistem industri animasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pipeline produksi 3D mengikuti urutan modeling, rigging, texturing, animation, lighting, dan rendering, diakhiri compositing serta editing."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ekosistem industri animasi Indonesia merupakan penggabungan unit yang saling bergantung: konsep ide, produksi, distribusi dan promosi, pameran, apresiasi, serta pendidikan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sekitar 86% orang Indonesia masih menonton televisi, sehingga televisi menjadi media distribusi dan promosi utama bagi studio animasi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pameran seperti Indonesia Comic Con dan INAMAFEST menjadi media apresiasi, prestasi, dan edukasi bagi pelaku animasi."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Elemen ekosistem",
+                  "Peran"
+                ],
+                [
+                  "Konsep ide",
+                  "Sumber cerita dari adaptasi, komik, atau buku"
+                ],
+                [
+                  "Produksi",
+                  "Praproduksi hingga pascaproduksi"
+                ],
+                [
+                  "Distribusi dan promosi",
+                  "Televisi, bioskop, media sosial, layanan streaming"
+                ],
+                [
+                  "Pameran",
+                  "Media apresiasi, prestasi, dan edukasi"
+                ],
+                [
+                  "Apresiasi",
+                  "Menumbuhkan jiwa kompetisi sehat"
+                ],
+                [
+                  "Pendidikan",
+                  "Formal dan nonformal, dari SMK hingga perguruan tinggi"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-4-3d",
+              "engine": "mermaid",
+              "title": "Pipeline produksi animasi 3D",
+              "code": "flowchart LR\n  A[Modeling] --> B[Rigging]\n  B --> C[Texturing]\n  C --> D[Animation]\n  D --> E[Lighting]\n  E --> F[Rendering]\n  F --> G[Compositing dan editing]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-4-klasifikasi",
+              "prompt": "Kelompokkan kegiatan ke dalam tahap produksi 2D atau pascaproduksi 2D.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Produksi 2D"
+                },
+                {
+                  "id": "b2",
+                  "label": "Pascaproduksi 2D"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Menggambar keyframe gerakan kunci",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Mengisi frame antara (inbetween)",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Menebalkan garis dan memberi warna",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Menyatukan scene dan audio (compositing)",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Rekaman suara oleh voice actor",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Export video dengan resolusi tertentu",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Produksi membuat gambar; pascaproduksi merapikan dan mengekspor.",
+                "wrong": "Ingat: menggambar dan mewarnai produksi; compositing dan dubbing pascaproduksi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sikap kerja di studio"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kerja tim membuat ide lebih kreatif, beban lebih ringan, pekerjaan lebih efisien, dan cepat menemukan solusi saat ada hambatan.",
+                "Model Bruce Tuckman menggambarkan lima tahap: forming, storming, norming, performing, dan adjourning.",
+                "Budaya kerja, kode etik, dan unit-unit kerja membantu pembagian tugas dan tanggung jawab di studio animasi.",
+                "Studio seperti Walt Disney membagi unit produksi menjadi production teams, technology teams, dan studio teams."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-4-teknik-proses-produksi-cp-2",
+              "question": "Studio animasi Walt Disney membagi devisinya menjadi…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "production, technology, dan studio teams",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "animasi, iklan, dan berita"
+                },
+                {
+                  "id": "c2",
+                  "text": "akuntansi, hukum, dan pajak"
+                },
+                {
+                  "id": "c3",
+                  "text": "video, audio, dan teks"
+                }
+              ],
+              "explanation": "Pembagian unit memudahkan pembagian tugas."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 4 Teknik Dasar Proses Produksi pada Industri Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Bekerja dalam tim produksi\n\nPada tahap storming, perbedaan kepribadian dan cara bekerja memicu konflik; pemimpin perlu berkomunikasi, menegaskan tugas, dan membina anggota.\n\nPada tahap norming, tim menyetujui rencana, jadwal, dan tugas sesuai kompetensi, lalu kepercayaan dan saling membantu tumbuh.\n\nTweening dilakukan dengan 24 gambar per detik sehingga gerakan tampak halus dan nyata.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bekerja dalam tim produksi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada tahap storming, perbedaan kepribadian dan cara bekerja memicu konflik; pemimpin perlu berkomunikasi, menegaskan tugas, dan membina anggota."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada tahap norming, tim menyetujui rencana, jadwal, dan tugas sesuai kompetensi, lalu kepercayaan dan saling membantu tumbuh."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tweening dilakukan dengan 24 gambar per detik sehingga gerakan tampak halus dan nyata."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-4-skenario",
+              "title": "Konflik di tengah produksi",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Studio animasimu baru memulai proyek. Bagaimana agar tim bekerja efektif?",
+                  "choices": [
+                    {
+                      "text": "Menggelar forming: saling mengenal dan membagi tugas",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Forming membantu anggota memahami tujuan dan perannya."
+                    },
+                    {
+                      "text": "Langsung bekerja masing-masing tanpa koordinasi",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa pembagian peran tim mudah kacau."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Di tengah jalan muncul konflik karena perbedaan cara bekerja. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Pemimpin berkomunikasi, menegaskan tugas, dan menyelesaikan konflik",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Penanganan storming menjaga performa tim."
+                    },
+                    {
+                      "text": "Membiarkan konflik hingga tim pecah",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Konflik yang tidak ditangani menghancurkan produksi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Tim kacau, produksi molor, dan proyek gagal.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Tim mencapai norming dan performing, proyek selesai sesuai jadwal.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-4-teknik-proses-produksi-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu pipeline animasi?",
+                  "back": "Sistem manusia, perangkat keras, dan lunak yang bekerja terurut sesuai jadwal."
+                },
+                {
+                  "front": "Sebutkan tiga tahap utama produksi animasi.",
+                  "back": "Praproduksi, produksi, pascaproduksi."
+                },
+                {
+                  "front": "Sebutkan elemen ekosistem animasi Indonesia.",
+                  "back": "Ide, produksi, distribusi, pameran, apresiasi, pendidikan."
+                },
+                {
+                  "front": "Sebutkan lima tahap model Tuckman.",
+                  "back": "Forming, storming, norming, performing, adjourning."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-4-teknik-proses-produksi-cp-3",
+              "question": "Proses perekaman suara atau dialog oleh voice actor disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "dubbing",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "compositing"
+                },
+                {
+                  "id": "c2",
+                  "text": "clean up"
+                },
+                {
+                  "id": "c3",
+                  "text": "inking"
+                }
+              ],
+              "explanation": "Dubbing adalah pengisian suara dan dialog."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-4-tantangan",
+              "title": "Tantangan istilah proses produksi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Sistem alur kerja produksi animasi",
+                  "answer": "Pipeline"
+                },
+                {
+                  "question": "Gambar gerakan kunci karakter",
+                  "answer": "Keyframe"
+                },
+                {
+                  "question": "Animasi pengisi frame antara",
+                  "answer": "Inbetweener"
+                },
+                {
+                  "question": "Perekaman suara voice actor",
+                  "answer": "Dubbing"
+                },
+                {
+                  "question": "Versi visual dari script",
+                  "answer": "Storyboard"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah proses produksi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Teknik Dasar Proses Produksi pada Industri Animasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pipeline animasi adalah sistem yang terdiri atas…",
+              "options": [
+                {
+                  "text": "manusia, perangkat keras, dan perangkat lunak yang selaras",
+                  "correct": true
+                },
+                {
+                  "text": "manusia dan ponsel saja"
+                },
+                {
+                  "text": "perangkat keras saja"
+                },
+                {
+                  "text": "kamera saja"
+                }
+              ],
+              "explanation": "Pipeline menyelesaikan tugas produksi berurutan.",
+              "hint": "Sesuai jadwal perencanaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahapan utama produksi animasi adalah…",
+              "options": [
+                {
+                  "text": "praproduksi, produksi, dan pascaproduksi",
+                  "correct": true
+                },
+                {
+                  "text": "konsep dan iklan"
+                },
+                {
+                  "text": "sketsa dan warna"
+                },
+                {
+                  "text": "rekaman dan cetak"
+                }
+              ],
+              "explanation": "Ketiga tahap wajib diterapkan.",
+              "hint": "Berlaku 2D maupun 3D."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Script berisi…",
+              "options": [
+                {
+                  "text": "alur cerita, lokasi, dialog, dan efek suara",
+                  "correct": true
+                },
+                {
+                  "text": "hanya gambaran warna"
+                },
+                {
+                  "text": "daftar harga"
+                },
+                {
+                  "text": "jadwal kursus"
+                }
+              ],
+              "explanation": "Script adalah versi tertulis proyek.",
+              "hint": "Dibuat penulis skenario."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahapan praproduksi animasi?",
+              "options": [
+                {
+                  "text": "Membuat ide",
+                  "correct": true
+                },
+                {
+                  "text": "Menyusun script",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat storyboard",
+                  "correct": true
+                },
+                {
+                  "text": "Melakukan clean up",
+                  "correct": false
+                },
+                {
+                  "text": "Melakukan dubbing",
+                  "correct": false
+                }
+              ],
+              "explanation": "Praproduksi merencanakan cerita.",
+              "hint": "Clean up dan dubbing bukan praproduksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahapan produksi animasi 2D?",
+              "options": [
+                {
+                  "text": "Animating",
+                  "correct": true
+                },
+                {
+                  "text": "Clean up",
+                  "correct": true
+                },
+                {
+                  "text": "Inking and coloring",
+                  "correct": true
+                },
+                {
+                  "text": "Compositing",
+                  "correct": false
+                },
+                {
+                  "text": "Pameran",
+                  "correct": false
+                }
+              ],
+              "explanation": "Produksi membuat dan mewarnai gambar.",
+              "hint": "Compositing pascaproduksi."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Teknik Dasar Proses Produksi pada Industri Animasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pembuat gerakan kunci (keyframe) disebut…",
+              "options": [
+                {
+                  "text": "key animator",
+                  "correct": true
+                },
+                {
+                  "text": "inbetweener"
+                },
+                {
+                  "text": "colorist"
+                },
+                {
+                  "text": "editor"
+                }
+              ],
+              "explanation": "Animator utama mendesain gerakan.",
+              "hint": "Menjadi acuan gerak karakter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Inbetweener bertugas…",
+              "options": [
+                {
+                  "text": "mengisi frame antara agar gerakan halus",
+                  "correct": true
+                },
+                {
+                  "text": "menulis naskah"
+                },
+                {
+                  "text": "membuat musik"
+                },
+                {
+                  "text": "mengatur anggaran"
+                }
+              ],
+              "explanation": "Tweening 24 gambar per detik.",
+              "hint": "Menambah kelancaran gerak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahapan pascaproduksi animasi 2D?",
+              "options": [
+                {
+                  "text": "Compositing",
+                  "correct": true
+                },
+                {
+                  "text": "Dubbing",
+                  "correct": true
+                },
+                {
+                  "text": "Export/rendering",
+                  "correct": true
+                },
+                {
+                  "text": "Storyboard",
+                  "correct": false
+                },
+                {
+                  "text": "Ink and coloring",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pascaproduksi merapikan hasil akhir.",
+              "hint": "Storyboard praproduksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah urutan pipeline produksi 3D?",
+              "options": [
+                {
+                  "text": "Modeling",
+                  "correct": true
+                },
+                {
+                  "text": "Rigging",
+                  "correct": true
+                },
+                {
+                  "text": "Texturing",
+                  "correct": true
+                },
+                {
+                  "text": "Dubbing",
+                  "correct": false
+                },
+                {
+                  "text": "Iklan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Modeling hingga texturing awal 3D.",
+              "hint": "Diakhiri lighting dan rendering."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Script",
+                  "right": "versi tertulis proyek"
+                },
+                {
+                  "id": "m1",
+                  "left": "Storyboard",
+                  "right": "versi visual script"
+                },
+                {
+                  "id": "m2",
+                  "left": "Key animator",
+                  "right": "menggambar keyframe"
+                },
+                {
+                  "id": "m3",
+                  "left": "Inbetweener",
+                  "right": "mengisi frame antara"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "versi tertulis proyek",
+                  "m1": "versi visual script",
+                  "m2": "menggambar keyframe",
+                  "m3": "mengisi frame antara"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pipeline produksi animasi 2D.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Ide dan script"
+                },
+                {
+                  "id": "d1",
+                  "text": "Storyboard"
+                },
+                {
+                  "id": "d2",
+                  "text": "Animating"
+                },
+                {
+                  "id": "d3",
+                  "text": "Clean up"
+                },
+                {
+                  "id": "d4",
+                  "text": "Ink and coloring"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Berawal dari cerita.",
+              "hint": "Warna menutup produksi 2D."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pipeline produksi animasi 3D.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Modeling"
+                },
+                {
+                  "id": "p1",
+                  "text": "Rigging"
+                },
+                {
+                  "id": "p2",
+                  "text": "Texturing"
+                },
+                {
+                  "id": "p3",
+                  "text": "Animation dan lighting"
+                },
+                {
+                  "id": "p4",
+                  "text": "Rendering"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Model dibuat terlebih dahulu.",
+              "hint": "Rendering menghasilkan gambar final."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Animation clean up adalah…",
+              "options": [
+                {
+                  "text": "menjadikan gambar raw bersih menjadi tampilan akhir",
+                  "correct": true
+                },
+                {
+                  "text": "merusak gambar"
+                },
+                {
+                  "text": "menghapus adegan"
+                },
+                {
+                  "text": "mengulang produksi"
+                }
+              ],
+              "explanation": "Garis bantu yang tidak perlu dibersihkan.",
+              "hint": "Diserahkan pada inking."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proses menebalkan garis dan memberi warna disebut…",
+              "options": [
+                {
+                  "text": "inking and coloring",
+                  "correct": true
+                },
+                {
+                  "text": "dubbing"
+                },
+                {
+                  "text": "compositing"
+                },
+                {
+                  "text": "rendering"
+                }
+              ],
+              "explanation": "Garis ditebalkan di atas celluloid.",
+              "hint": "Diberi warna."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh pameran animasi?",
+              "options": [
+                {
+                  "text": "Indonesia Comic Con",
+                  "correct": true
+                },
+                {
+                  "text": "Festival Film Indonesia",
+                  "correct": true
+                },
+                {
+                  "text": "INAMAFEST",
+                  "correct": true
+                },
+                {
+                  "text": "Pertandingan sepak bola",
+                  "correct": false
+                },
+                {
+                  "text": "Konser musik rock",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pameran wadah apresiasi dan edukasi.",
+              "hint": "Bukan ajang animasi."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Teknik Dasar Proses Produksi pada Industri Animasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Compositing dalam pascaproduksi 2D adalah…",
+              "options": [
+                {
+                  "text": "menyatukan scene, audio, efek, dan teks",
+                  "correct": true
+                },
+                {
+                  "text": "menggambar karakter"
+                },
+                {
+                  "text": "menulis dialog"
+                },
+                {
+                  "text": "merekrut staf"
+                }
+              ],
+              "explanation": "Komponen disatukan menjadi film utuh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dubbing adalah…",
+              "options": [
+                {
+                  "text": "proses perekaman suara atau dialog oleh voice actor",
+                  "correct": true
+                },
+                {
+                  "text": "menggambar latar"
+                },
+                {
+                  "text": "memilih kamera"
+                },
+                {
+                  "text": "mencetak poster"
+                }
+              ],
+              "explanation": "Voice actor mengisi dialog."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Model Bruce Tuckman tentang kerja tim meliputi…",
+              "options": [
+                {
+                  "text": "forming, storming, norming, performing, adjourning",
+                  "correct": true
+                },
+                {
+                  "text": "memancing, memutar, melukis"
+                },
+                {
+                  "text": "masak, makan, cuci"
+                },
+                {
+                  "text": "belajar, ulangan, libur"
+                }
+              ],
+              "explanation": "Lima tahap evolusi tim."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pada tahap storming, anggota tim…",
+              "options": [
+                {
+                  "text": "menghadapi konflik akibat perbedaan cara bekerja",
+                  "correct": true
+                },
+                {
+                  "text": "bersikap sopan dan menghindari konflik"
+                },
+                {
+                  "text": "membubarkan studio"
+                },
+                {
+                  "text": "mengganti semua staf"
+                }
+              ],
+              "explanation": "Perbedaan memicu konflik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ekosistem animasi Indonesia meliputi…",
+              "options": [
+                {
+                  "text": "ide, produksi, distribusi, pameran, apresiasi, dan pendidikan",
+                  "correct": true
+                },
+                {
+                  "text": "tanah, air, udara"
+                },
+                {
+                  "text": "harga, promo, diskon"
+                },
+                {
+                  "text": "tenaga, modal, pasar"
+                }
+              ],
+              "explanation": "Unit saling bergantung terus-menerus."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat bekerja dalam tim?",
+              "options": [
+                {
+                  "text": "Ide lebih kreatif",
+                  "correct": true
+                },
+                {
+                  "text": "Beban lebih ringan",
+                  "correct": true
+                },
+                {
+                  "text": "Cepat menemukan solusi",
+                  "correct": true
+                },
+                {
+                  "text": "Memperlambat pekerjaan",
+                  "correct": false
+                },
+                {
+                  "text": "Menambah beban",
+                  "correct": false
+                },
+                {
+                  "text": "Menyembunyikan masalah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kolaborasi menguatkan hasil."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap baik dalam kerja tim produksi?",
+              "options": [
+                {
+                  "text": "Saling membantu",
+                  "correct": true
+                },
+                {
+                  "text": "Menghargai perbedaan",
+                  "correct": true
+                },
+                {
+                  "text": "Berkomunikasi terbuka",
+                  "correct": true
+                },
+                {
+                  "text": "Menolak memberi tahu",
+                  "correct": false
+                },
+                {
+                  "text": "Bekerja sendiri-sendiri",
+                  "correct": false
+                },
+                {
+                  "text": "Mengabaikan anggota lain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tim sinergi demi misi studio."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Clean up",
+                  "right": "membersihkan gambar"
+                },
+                {
+                  "id": "m1",
+                  "left": "Compositing",
+                  "right": "menyatukan komponen"
+                },
+                {
+                  "id": "m2",
+                  "left": "Dubbing",
+                  "right": "perekaman dialog"
+                },
+                {
+                  "id": "m3",
+                  "left": "Pencil test",
+                  "right": "memeriksa gerakan animasi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "membersihkan gambar",
+                  "m1": "menyatukan komponen",
+                  "m2": "perekaman dialog",
+                  "m3": "memeriksa gerakan animasi"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahap kerja tim Tuckman.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Forming"
+                },
+                {
+                  "id": "d1",
+                  "text": "Storming"
+                },
+                {
+                  "id": "d2",
+                  "text": "Norming"
+                },
+                {
+                  "id": "d3",
+                  "text": "Performing"
+                },
+                {
+                  "id": "d4",
+                  "text": "Adjourning"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Tim dimulai dari pembentukan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pascaproduksi animasi 2D.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Compositing"
+                },
+                {
+                  "id": "p1",
+                  "text": "Final editing"
+                },
+                {
+                  "id": "p2",
+                  "text": "Dubbing"
+                },
+                {
+                  "id": "p3",
+                  "text": "Export/rendering"
+                },
+                {
+                  "id": "p4",
+                  "text": "Distribusi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Komponen disatukan dulu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Media distribusi utama animasi di Indonesia adalah…",
+              "options": [
+                {
+                  "text": "televisi",
+                  "correct": true
+                },
+                {
+                  "text": "koran"
+                },
+                {
+                  "text": "radio FM"
+                },
+                {
+                  "text": "cerita rakyat"
+                }
+              ],
+              "explanation": "Sekitar 86% orang menonton televisi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Walt Disney membagi unit menjadi…",
+              "options": [
+                {
+                  "text": "production, technology, dan studio teams",
+                  "correct": true
+                },
+                {
+                  "text": "keuangan, hukum, pajak"
+                },
+                {
+                  "text": "lokal, nasional, global"
+                },
+                {
+                  "text": "senin, rabu, jumat"
+                }
+              ],
+              "explanation": "Production teams berisi banyak tim khusus."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tugas key animator?",
+              "options": [
+                {
+                  "text": "Menggambar gerakan kunci",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat catatan penempatan inbetween",
+                  "correct": true
+                },
+                {
+                  "text": "Menentukan jarak gerakan",
+                  "correct": true
+                },
+                {
+                  "text": "Menulis iklan",
+                  "correct": false
+                },
+                {
+                  "text": "Mencetak poster",
+                  "correct": false
+                },
+                {
+                  "text": "Menghitung harga karcis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Key animator mengatur gerak utama."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Script",
+                  "right": "versi tertulis proyek"
+                },
+                {
+                  "id": "m1",
+                  "left": "Storyboard",
+                  "right": "versi visual script"
+                },
+                {
+                  "id": "m2",
+                  "left": "Key animator",
+                  "right": "menggambar keyframe"
+                },
+                {
+                  "id": "m3",
+                  "left": "Inbetweener",
+                  "right": "mengisi frame antara"
+                },
+                {
+                  "id": "m4",
+                  "left": "Clean up",
+                  "right": "membersihkan gambar"
+                },
+                {
+                  "id": "m5",
+                  "left": "Compositing",
+                  "right": "menyatukan komponen"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "versi tertulis proyek",
+                  "m1": "versi visual script",
+                  "m2": "menggambar keyframe",
+                  "m3": "mengisi frame antara",
+                  "m4": "membersihkan gambar",
+                  "m5": "menyatukan komponen"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur distribusi karya animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Selesai produksi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Compositing dan editing"
+                },
+                {
+                  "id": "d2",
+                  "text": "Pembuatan media promosi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tayang di televisi dan bioskop"
+                },
+                {
+                  "id": "d4",
+                  "text": "Apresiasi dan pameran"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Diawali hasil produksi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

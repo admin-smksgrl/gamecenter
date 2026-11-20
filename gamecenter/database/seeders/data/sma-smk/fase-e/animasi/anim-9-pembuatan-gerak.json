@@ -1,0 +1,1333 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "animasi",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "ANIM 9",
+      "title": "Pembuatan Gerak Animasi",
+      "description": "Memahami objek karakter dan nonkarakter, menguasai 12 prinsip animasi warisan Frank Thomas dan Ollie Johnston, serta membuat keypose dan in between untuk gerakan yang realistis.",
+      "learning_objectives": [
+        "Membedakan objek karakter dan nonkarakter serta jenis geraknya.",
+        "Menjelaskan dan menerapkan 12 prinsip animasi.",
+        "Membuat keypose gerakan karakter.",
+        "Membuat gambar in between yang konsisten dengan keypose."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 9 Pembuatan Gerak Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Objek dan gerak animasi",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 9 Pembuatan Gerak Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Karakter, nonkarakter, dan jenis geraknya\n\nGerakan dalam animasi adalah gerakan buatan yang meniru gerakan nyata; animator harus memahami sendi-sendi yang dapat digerakkan dan kaitannya satu sama lain.\n\nObjek karakter adalah objek yang seolah hidup dan bergerak atas inisiatif sendiri, misalnya manusia, hewan, dan tumbuhan.\n\nObjek nonkarakter bergerak karena stimulus objek lain, misalnya kamera, lighting, dan properti mekanik seperti sepeda atau mobil.\n\nObjek karakter memiliki tiga jenis gerak: lokomotor (berpindah tempat), nonlokomotor (tanpa perpindahan), dan manipulatif (menggunakan alat atau objek).\n\nGerak lokomotor berpindah tempat, nonlokomotor bergerak di tempat, manipulatif melibatkan objek lain seperti bola atau alat.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "anim-9-pembuatan-gerak-glosarium",
+              "terms": [
+                {
+                  "term": "Gerak lokomotor",
+                  "definition": "Perpindahan gerak objek karakter dari satu titik ke titik lain."
+                },
+                {
+                  "term": "Squash and stretch",
+                  "definition": "Prinsip elastisitas yang memberi efek plastis pada objek."
+                },
+                {
+                  "term": "Anticipation",
+                  "definition": "Gerakan persiapan atau ancang-ancang sebelum gerakan utama."
+                },
+                {
+                  "term": "Staging",
+                  "definition": "Penempatan karakter pada kamera agar suasana adegan jelas."
+                },
+                {
+                  "term": "Straight ahead action",
+                  "definition": "Menggambar frame demi frame berurutan seorang diri."
+                },
+                {
+                  "term": "Pose to pose",
+                  "definition": "Metode kerja key animator dan inbetweener secara terpisah."
+                },
+                {
+                  "term": "Follow through",
+                  "definition": "Bagian tubuh yang masih bergerak setelah karakter berhenti."
+                },
+                {
+                  "term": "Slow in dan slow out",
+                  "definition": "Perubahan kecepatan gerakan saat mulai dan berhenti."
+                },
+                {
+                  "term": "Exaggeration",
+                  "definition": "Mendramatisasi gerakan secara hiperbolis untuk menegaskan aksi."
+                },
+                {
+                  "term": "Keypose",
+                  "definition": "Gambar posisi kunci atau ekstrem dari gerakan karakter."
+                },
+                {
+                  "term": "In between",
+                  "definition": "Gambar pengisi antara dua keypose agar gerakan tampak halus."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Karakter, nonkarakter, dan jenis geraknya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gerakan dalam animasi adalah gerakan buatan yang meniru gerakan nyata; animator harus memahami sendi-sendi yang dapat digerakkan dan kaitannya satu sama lain."
+            },
+            {
+              "type": "paragraph",
+              "text": "Objek karakter adalah objek yang seolah hidup dan bergerak atas inisiatif sendiri, misalnya manusia, hewan, dan tumbuhan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Objek nonkarakter bergerak karena stimulus objek lain, misalnya kamera, lighting, dan properti mekanik seperti sepeda atau mobil."
+            },
+            {
+              "type": "paragraph",
+              "text": "Objek karakter memiliki tiga jenis gerak: lokomotor (berpindah tempat), nonlokomotor (tanpa perpindahan), dan manipulatif (menggunakan alat atau objek)."
+            },
+            {
+              "type": "diagram",
+              "id": "anim-9-pembuatan-gerak-diagram",
+              "engine": "mermaid",
+              "title": "Pembagian objek dalam animasi",
+              "code": "flowchart TB\n  A[Objek animasi] --> B[Objek karakter]\n  A --> C[Objek nonkarakter]\n  B --> D[Gerak lokomotor]\n  B --> E[Gerak nonlokomotor]\n  B --> F[Gerak manipulatif]\n  C --> G[Kamera, lighting, properti mekanik]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gerak lokomotor berpindah tempat, nonlokomotor bergerak di tempat, manipulatif melibatkan objek lain seperti bola atau alat."
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-9-pembuatan-gerak-cp-1",
+              "question": "Objek yang bergerak karena stimulus objek lain disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "objek nonkarakter",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "objek karakter"
+                },
+                {
+                  "id": "c2",
+                  "text": "objek utama"
+                },
+                {
+                  "id": "c3",
+                  "text": "objek statis"
+                }
+              ],
+              "explanation": "Contohnya kamera, lighting, dan properti mekanik."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "12 prinsip animasi",
+          "duration": 300,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 9 Pembuatan Gerak Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Warisan Frank Thomas dan Ollie Johnston\n\n12 prinsip animasi dirumuskan sekitar tahun 1930 oleh Frank Thomas dan Ollie Johnston dari Walt Disney Studio dalam buku The Illusion of Life.\n\nPrinsip tersebut meliputi squash and stretch, anticipation, staging, straight ahead action and pose to pose, follow through and overlapping action, dan slow in and slow out.\n\nPrinsip lainnya adalah arch (gerak melengkung), secondary action, timing and spacing, appeal, exaggeration, dan solid drawing.\n\nPrinsip-prinsip ini membantu animator mempertegas ekspresi, gestur, dan kepribadian karakter sehingga gerakan terasa realistis, dinamis, dan dramatis.\n\n| Prinsip | Inti |\n|---|---|\n| Squash and stretch | Elastisitas dan efek plastis objek |\n| Anticipation | Gerakan persiapan sebelum aksi utama |\n| Staging | Penempatan karakter agar adegan terbaca |\n| Follow through | Bagian tubuh yang masih bergerak setelah berhenti |\n| Slow in slow out | Gerakan melambat lalu mempercepat dan sebaliknya |\n| Exaggeration | Gerakan hiperbolis untuk menegaskan aksi |\n| Solid drawing | Kemampuan menggambar: proporsi, anatomi, komposisi |\n\n### Keypose dan in between\n\n- Keypose adalah gambar posisi kunci atau ekstrem: gerakan awal, gerakan ekstrem, dan gerakan terakhir.\n- Key animator membuat keypose dengan memperhatikan 12 prinsip animasi.\n- In between adalah gambar pengisi antara keypose; jumlahnya bergantung durasi gerakan.\n- Keberhasilan adegan terjadi bila key animator dan inbetweener menerjemahkan gerakan secara konsisten sehingga hasilnya realistis dan mudah diperbaiki.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Warisan Frank Thomas dan Ollie Johnston"
+            },
+            {
+              "type": "paragraph",
+              "text": "12 prinsip animasi dirumuskan sekitar tahun 1930 oleh Frank Thomas dan Ollie Johnston dari Walt Disney Studio dalam buku The Illusion of Life."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prinsip tersebut meliputi squash and stretch, anticipation, staging, straight ahead action and pose to pose, follow through and overlapping action, dan slow in and slow out."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prinsip lainnya adalah arch (gerak melengkung), secondary action, timing and spacing, appeal, exaggeration, dan solid drawing."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prinsip-prinsip ini membantu animator mempertegas ekspresi, gestur, dan kepribadian karakter sehingga gerakan terasa realistis, dinamis, dan dramatis."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Prinsip",
+                  "Inti"
+                ],
+                [
+                  "Squash and stretch",
+                  "Elastisitas dan efek plastis objek"
+                ],
+                [
+                  "Anticipation",
+                  "Gerakan persiapan sebelum aksi utama"
+                ],
+                [
+                  "Staging",
+                  "Penempatan karakter agar adegan terbaca"
+                ],
+                [
+                  "Follow through",
+                  "Bagian tubuh yang masih bergerak setelah berhenti"
+                ],
+                [
+                  "Slow in slow out",
+                  "Gerakan melambat lalu mempercepat dan sebaliknya"
+                ],
+                [
+                  "Exaggeration",
+                  "Gerakan hiperbolis untuk menegaskan aksi"
+                ],
+                [
+                  "Solid drawing",
+                  "Kemampuan menggambar: proporsi, anatomi, komposisi"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "anim-9-prinsip",
+              "engine": "mermaid",
+              "title": "Kelompok penerapan 12 prinsip animasi",
+              "code": "flowchart TB\n  A[12 prinsip animasi] --> B[Dasar pergerakan: squash dan anticipation]\n  A --> C[Pengaturan adegan: staging dan timing]\n  A --> D[Pengayaan visual: follow through dan secondary action]\n  A --> E[Teknik gerak: pose to pose dan in between]"
+            },
+            {
+              "type": "categorize",
+              "id": "anim-9-klasifikasi",
+              "prompt": "Kelompokkan contoh gerak sesuai jenis gerak objek karakter.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Lokomotor"
+                },
+                {
+                  "id": "b2",
+                  "label": "Nonlokomotor"
+                },
+                {
+                  "id": "b3",
+                  "label": "Manipulatif"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Berjalan dan berlari",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Melompat ke depan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Menekuk lutut di tempat",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Memutar badan tanpa berpindah",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Menendang bola",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i6",
+                  "text": "Melempar dan menangkap",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Lokomotor berpindah, nonlokomotor di tempat, manipulatif memakai objek.",
+                "wrong": "Ingat: berpindah tempat = lokomotor; pakai objek = manipulatif."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Keypose dan in between"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Keypose adalah gambar posisi kunci atau ekstrem: gerakan awal, gerakan ekstrem, dan gerakan terakhir.",
+                "Key animator membuat keypose dengan memperhatikan 12 prinsip animasi.",
+                "In between adalah gambar pengisi antara keypose; jumlahnya bergantung durasi gerakan.",
+                "Keberhasilan adegan terjadi bila key animator dan inbetweener menerjemahkan gerakan secara konsisten sehingga hasilnya realistis dan mudah diperbaiki."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-9-pembuatan-gerak-cp-2",
+              "question": "12 prinsip animasi dirumuskan oleh…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Frank Thomas dan Ollie Johnston",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Walt Disney dan Ub Iwerks"
+                },
+                {
+                  "id": "c2",
+                  "text": "Nick Park dan Peter Lord"
+                },
+                {
+                  "id": "c3",
+                  "text": "Earl Hurd dan Stuart Blackton"
+                }
+              ],
+              "explanation": "Keduanya animator Disney, menulis The Illusion of Life."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Animasi-BS-KLS-X.pdf Bab 9 Pembuatan Gerak Animasi; CP Fase E Mata Pelajaran Dasar-Dasar Animasi",
+          "content": "## Menghidupkan gerakan\n\nContoh squash and stretch: bola bulat yang jatuh menjadi lonjong horizontal lalu berubah lonjong diagonal saat memantul.\n\nMetode straight ahead action punya kelebihan gambar konsisten karena dikerjakan satu animator, tetapi sulit merencanakan akhir adegan dan memakan waktu.\n\nMetode pose to pose dipakai industri karena melibatkan banyak anggota tim sehingga waktu pengerjaan lebih cepat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menghidupkan gerakan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh squash and stretch: bola bulat yang jatuh menjadi lonjong horizontal lalu berubah lonjong diagonal saat memantul."
+            },
+            {
+              "type": "paragraph",
+              "text": "Metode straight ahead action punya kelebihan gambar konsisten karena dikerjakan satu animator, tetapi sulit merencanakan akhir adegan dan memakan waktu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Metode pose to pose dipakai industri karena melibatkan banyak anggota tim sehingga waktu pengerjaan lebih cepat."
+            },
+            {
+              "type": "scenario",
+              "id": "anim-9-skenario",
+              "title": "Gerakan kaku dan tidak meyakinkan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Animasi berjalan karaktermu terasa kaku. Apa yang kamu perbaiki?",
+                  "choices": [
+                    {
+                      "text": "Menambah in between dan menerapkan slow in slow out",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Kecepatan bertahap dan frame pengisi membuat gerak halus."
+                    },
+                    {
+                      "text": "Menghapus semua gambar antara agar cepat selesai",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa in between gerakan menjadi patah-patah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Agar gerakan terasa hidup, prinsip apa yang perlu ditambahkan?",
+                  "choices": [
+                    {
+                      "text": "Anticipation sebelum gerak dan follow through sesudahnya",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Ancang-ancang dan gerak lanjutan membuat aksi realistis."
+                    },
+                    {
+                      "text": "Menghilangkan gerakan persiapan agar langsung",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa anticipation gerakan terasa mendadak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Gerakan tetap kaku dan penonton tidak tertarik.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Gerakan tampak hidup, dinamis, dan meyakinkan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "anim-9-pembuatan-gerak-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan 12 prinsip animasi.",
+                  "back": "Squash and stretch, anticipation, staging, straight ahead and pose to pose, follow through, slow in slow out, arch, secondary action, timing and spacing, appeal, exaggeration, solid drawing."
+                },
+                {
+                  "front": "Apa itu keypose?",
+                  "back": "Gambar posisi kunci atau ekstrem dari gerakan karakter."
+                },
+                {
+                  "front": "Siapa pembuat in between?",
+                  "back": "Inbetweener."
+                },
+                {
+                  "front": "Apa kelebihan pose to pose?",
+                  "back": "Waktu pengerjaan lebih cepat karena melibatkan banyak anggota tim."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "anim-9-pembuatan-gerak-cp-3",
+              "question": "Bagian tubuh yang masih bergerak setelah karakter berhenti disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "follow through",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "anticipation"
+                },
+                {
+                  "id": "c2",
+                  "text": "staging"
+                },
+                {
+                  "id": "c3",
+                  "text": "solid drawing"
+                }
+              ],
+              "explanation": "Contohnya rambut yang masih bergerak setelah berlari."
+            },
+            {
+              "type": "challenge",
+              "id": "anim-9-tantangan",
+              "title": "Tantangan prinsip animasi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Prinsip elastisitas pada objek",
+                  "answer": "Squash and stretch"
+                },
+                {
+                  "question": "Gerakan persiapan sebelum aksi",
+                  "answer": "Anticipation"
+                },
+                {
+                  "question": "Metode menggambar frame demi frame",
+                  "answer": "Straight ahead action"
+                },
+                {
+                  "question": "Gambar posisi kunci gerakan",
+                  "answer": "Keypose"
+                },
+                {
+                  "question": "Gambar pengisi antara keypose",
+                  "answer": "In between"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah prinsip animasi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Pembuatan Gerak Animasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "12 prinsip animasi dirumuskan sekitar tahun 1930 oleh…",
+              "options": [
+                {
+                  "text": "Frank Thomas dan Ollie Johnston",
+                  "correct": true
+                },
+                {
+                  "text": "Walt Disney dan Earl Hurd"
+                },
+                {
+                  "text": "Nick Park dan Peter Lord"
+                },
+                {
+                  "text": "Stuart Blackton dan Winsor McCay"
+                }
+              ],
+              "explanation": "Keduanya animator Disney.",
+              "hint": "Buku The Illusion of Life."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip yang menambahkan efek plastis pada objek disebut…",
+              "options": [
+                {
+                  "text": "squash and stretch",
+                  "correct": true
+                },
+                {
+                  "text": "anticipation"
+                },
+                {
+                  "text": "staging"
+                },
+                {
+                  "text": "appeal"
+                }
+              ],
+              "explanation": "Disebut juga prinsip elastisitas.",
+              "hint": "Bola memantul jadi lonjong."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Gerakan persiapan atau ancang-ancang disebut…",
+              "options": [
+                {
+                  "text": "anticipation",
+                  "correct": true
+                },
+                {
+                  "text": "follow through"
+                },
+                {
+                  "text": "arch"
+                },
+                {
+                  "text": "timing"
+                }
+              ],
+              "explanation": "Contoh: menekuk lutut sebelum melompat.",
+              "hint": "Membuat gerak meyakinkan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip animasi?",
+              "options": [
+                {
+                  "text": "Squash and stretch",
+                  "correct": true
+                },
+                {
+                  "text": "Anticipation",
+                  "correct": true
+                },
+                {
+                  "text": "Staging",
+                  "correct": true
+                },
+                {
+                  "text": "Rendering",
+                  "correct": false
+                },
+                {
+                  "text": "Compositing",
+                  "correct": false
+                },
+                {
+                  "text": "Dubbing",
+                  "correct": false
+                }
+              ],
+              "explanation": "12 prinsip membangun gerak.",
+              "hint": "Sisanya tahap produksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah jenis gerak objek karakter?",
+              "options": [
+                {
+                  "text": "Lokomotor",
+                  "correct": true
+                },
+                {
+                  "text": "Nonlokomotor",
+                  "correct": true
+                },
+                {
+                  "text": "Manipulatif",
+                  "correct": true
+                },
+                {
+                  "text": "Mekanik",
+                  "correct": false
+                },
+                {
+                  "text": "Statis",
+                  "correct": false
+                },
+                {
+                  "text": "Alami",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga jenis gerak karakter.",
+              "hint": "Mekanik untuk objek nonkarakter."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Pembuatan Gerak Animasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip menempatkan karakter pada kamera agar adegan jelas adalah…",
+              "options": [
+                {
+                  "text": "staging",
+                  "correct": true
+                },
+                {
+                  "text": "solid drawing"
+                },
+                {
+                  "text": "appeal"
+                },
+                {
+                  "text": "secondary action"
+                }
+              ],
+              "explanation": "Siluet memperjelas interaksi.",
+              "hint": "Penonton mudah mengikuti cerita."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Metode menggambar frame by frame berurutan seorang diri disebut…",
+              "options": [
+                {
+                  "text": "straight ahead action",
+                  "correct": true
+                },
+                {
+                  "text": "pose to pose"
+                },
+                {
+                  "text": "in between"
+                },
+                {
+                  "text": "staging"
+                }
+              ],
+              "explanation": "Disebut metode tradisional.",
+              "hint": "Gambar konsisten tetapi lama."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh objek nonkarakter?",
+              "options": [
+                {
+                  "text": "Kamera",
+                  "correct": true
+                },
+                {
+                  "text": "Lighting",
+                  "correct": true
+                },
+                {
+                  "text": "Sepeda",
+                  "correct": true
+                },
+                {
+                  "text": "Manusia",
+                  "correct": false
+                },
+                {
+                  "text": "Hewan",
+                  "correct": false
+                },
+                {
+                  "text": "Tumbuhan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Objek nonkarakter digerakkan stimulus.",
+              "hint": "Manusia dan hewan adalah karakter."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri straight ahead action?",
+              "options": [
+                {
+                  "text": "Digambar frame by frame",
+                  "correct": true
+                },
+                {
+                  "text": "Dikerjakan seorang diri",
+                  "correct": true
+                },
+                {
+                  "text": "Hasilnya konsisten",
+                  "correct": true
+                },
+                {
+                  "text": "Melibatkan dua orang",
+                  "correct": false
+                },
+                {
+                  "text": "Selalu cepat",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak butuh perencanaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Metode ini konsisten tetapi lama.",
+              "hint": "Kesulitan merencanakan akhir adegan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Squash and stretch",
+                  "right": "elastisitas objek"
+                },
+                {
+                  "id": "m1",
+                  "left": "Anticipation",
+                  "right": "gerakan ancang-ancang"
+                },
+                {
+                  "id": "m2",
+                  "left": "Staging",
+                  "right": "penempatan karakter di kamera"
+                },
+                {
+                  "id": "m3",
+                  "left": "Straight ahead action",
+                  "right": "menggambar frame berurutan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "elastisitas objek",
+                  "m1": "gerakan ancang-ancang",
+                  "m2": "penempatan karakter di kamera",
+                  "m3": "menggambar frame berurutan"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tiga bagian gerakan melompat.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Anticipation menekuk lutut"
+                },
+                {
+                  "id": "d1",
+                  "text": "Gerakan inti melompat"
+                },
+                {
+                  "id": "d2",
+                  "text": "Gerakan akhir mendarat"
+                },
+                {
+                  "id": "d3",
+                  "text": "Follow through bagian tubuh"
+                },
+                {
+                  "id": "d4",
+                  "text": "Kembali ke posisi diam"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Persiapan mendahului aksi.",
+              "hint": "Posisi diam menutup gerakan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pekerjaan pose to pose.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Key animator membuat keypose"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menulis catatan gerak"
+                },
+                {
+                  "id": "p2",
+                  "text": "Inbetweener membuat gambar antara"
+                },
+                {
+                  "id": "p3",
+                  "text": "Pemeriksaan konsistensi"
+                },
+                {
+                  "id": "p4",
+                  "text": "Penyempurnaan gerakan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Keypose dibuat lebih dahulu.",
+              "hint": "Penyempurnaan akhir."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Metode yang melibatkan key animator dan inbetweener disebut…",
+              "options": [
+                {
+                  "text": "pose to pose",
+                  "correct": true
+                },
+                {
+                  "text": "straight ahead action"
+                },
+                {
+                  "text": "rotoscoping"
+                },
+                {
+                  "text": "motion capture"
+                }
+              ],
+              "explanation": "Dipakai industri karena lebih cepat.",
+              "hint": "Melibatkan banyak orang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rambut yang masih bergerak setelah karakter berhenti adalah contoh…",
+              "options": [
+                {
+                  "text": "follow through",
+                  "correct": true
+                },
+                {
+                  "text": "anticipation"
+                },
+                {
+                  "text": "exaggeration"
+                },
+                {
+                  "text": "appeal"
+                }
+              ],
+              "explanation": "Overlapping action gerakan bertindihan.",
+              "hint": "Menambah realisme gerak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri pose to pose?",
+              "options": [
+                {
+                  "text": "Dibuat key animator dan inbetweener",
+                  "correct": true
+                },
+                {
+                  "text": "Waktu lebih cepat",
+                  "correct": true
+                },
+                {
+                  "text": "Melibatkan tim lebih banyak",
+                  "correct": true
+                },
+                {
+                  "text": "Dikerjakan satu orang",
+                  "correct": false
+                },
+                {
+                  "text": "Tanpa keypose",
+                  "correct": false
+                },
+                {
+                  "text": "Tanpa in between",
+                  "correct": false
+                }
+              ],
+              "explanation": "Metode industri yang efisien.",
+              "hint": "Kerja dibagi dua peran."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Pembuatan Gerak Animasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip slow in slow out menjelaskan bahwa…",
+              "options": [
+                {
+                  "text": "objek mempercepat dan memperlambat gerakan secara bertahap",
+                  "correct": true
+                },
+                {
+                  "text": "objek bergerak konstan"
+                },
+                {
+                  "text": "objek selalu diam"
+                },
+                {
+                  "text": "objek bergerak mundur"
+                }
+              ],
+              "explanation": "Gerakan tidak instan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip yang menitikberatkan kemampuan menggambar animator adalah…",
+              "options": [
+                {
+                  "text": "solid drawing",
+                  "correct": true
+                },
+                {
+                  "text": "appeal"
+                },
+                {
+                  "text": "staging"
+                },
+                {
+                  "text": "timing"
+                }
+              ],
+              "explanation": "Mencakup proporsi dan anatomi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip untuk mendramatisasi gerakan secara hiperbolis adalah…",
+              "options": [
+                {
+                  "text": "exaggeration",
+                  "correct": true
+                },
+                {
+                  "text": "anticipation"
+                },
+                {
+                  "text": "arch"
+                },
+                {
+                  "text": "follow through"
+                }
+              ],
+              "explanation": "Sering dipakai film komedi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Prinsip yang membuat film punya gaya khas dan karakter unik adalah…",
+              "options": [
+                {
+                  "text": "appeal",
+                  "correct": true
+                },
+                {
+                  "text": "solid drawing"
+                },
+                {
+                  "text": "staging"
+                },
+                {
+                  "text": "slow out"
+                }
+              ],
+              "explanation": "Appeal sebagai gaya visual."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keypose berada pada…",
+              "options": [
+                {
+                  "text": "gerakan kunci awal, ekstrem, dan terakhir",
+                  "correct": true
+                },
+                {
+                  "text": "setiap frame gerakan"
+                },
+                {
+                  "text": "hanya frame pertama"
+                },
+                {
+                  "text": "hanya frame akhir"
+                }
+              ],
+              "explanation": "Keypose menandai posisi penting."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip yang memengaruhi ekspresi gerak?",
+              "options": [
+                {
+                  "text": "Exaggeration",
+                  "correct": true
+                },
+                {
+                  "text": "Appeal",
+                  "correct": true
+                },
+                {
+                  "text": "Anticipation",
+                  "correct": true
+                },
+                {
+                  "text": "Rendering",
+                  "correct": false
+                },
+                {
+                  "text": "Compositing",
+                  "correct": false
+                },
+                {
+                  "text": "Modelling",
+                  "correct": false
+                }
+              ],
+              "explanation": "Prinsip membentuk ekspresi karakter."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk susunan gerakan tiga bagian?",
+              "options": [
+                {
+                  "text": "Gerakan persiapan",
+                  "correct": true
+                },
+                {
+                  "text": "Gerakan inti",
+                  "correct": true
+                },
+                {
+                  "text": "Gerakan akhir",
+                  "correct": true
+                },
+                {
+                  "text": "Gerakan lambat",
+                  "correct": false
+                },
+                {
+                  "text": "Gerakan cepat",
+                  "correct": false
+                },
+                {
+                  "text": "Gerakan diam",
+                  "correct": false
+                }
+              ],
+              "explanation": "Anticipation bagian dari rangkaian."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Follow through",
+                  "right": "gerak lanjutan setelah berhenti"
+                },
+                {
+                  "id": "m1",
+                  "left": "Exaggeration",
+                  "right": "gerakan hiperbolis"
+                },
+                {
+                  "id": "m2",
+                  "left": "Solid drawing",
+                  "right": "kemampuan menggambar"
+                },
+                {
+                  "id": "m3",
+                  "left": "Keypose",
+                  "right": "gambar posisi kunci"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "gerak lanjutan setelah berhenti",
+                  "m1": "gerakan hiperbolis",
+                  "m2": "kemampuan menggambar",
+                  "m3": "gambar posisi kunci"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan gerak bola memantul dengan squash and stretch.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Bola bulat di udara"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menjadi lonjong horizontal saat menyentuh tanah"
+                },
+                {
+                  "id": "d2",
+                  "text": "Berubah lonjong diagonal saat memantul"
+                },
+                {
+                  "id": "d3",
+                  "text": "Kembali bulat di puncak"
+                },
+                {
+                  "id": "d4",
+                  "text": "Berulang sampai berhenti"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Bentuk berubah sesuai tekanan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat gerakan berjalan karakter.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Merekam video referensi gerak"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menentukan keypose"
+                },
+                {
+                  "id": "p2",
+                  "text": "Membuat gambar in between"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menambahkan follow through"
+                },
+                {
+                  "id": "p4",
+                  "text": "Memeriksa dengan pencil test"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Referensi menjadi dasar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah gambar in between bergantung pada…",
+              "options": [
+                {
+                  "text": "durasi gerakan dari satu keypose ke keypose berikutnya",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah karakter"
+                },
+                {
+                  "text": "warna latar"
+                },
+                {
+                  "text": "panjang dialog"
+                }
+              ],
+              "explanation": "Semakin lama makin banyak frame."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penerapan squash and stretch pada benda mati membuat benda…",
+              "options": [
+                {
+                  "text": "tampak seperti benda hidup",
+                  "correct": true
+                },
+                {
+                  "text": "tidak bergerak"
+                },
+                {
+                  "text": "berubah warna"
+                },
+                {
+                  "text": "menghilang"
+                }
+              ],
+              "explanation": "Efek dinamis pada gerakan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat prinsip animasi bagi animator?",
+              "options": [
+                {
+                  "text": "Gerakan lebih realistis",
+                  "correct": true
+                },
+                {
+                  "text": "Karakter lebih ekspresif",
+                  "correct": true
+                },
+                {
+                  "text": "Adegan lebih dramatis",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus kebutuhan menggambar",
+                  "correct": false
+                },
+                {
+                  "text": "Menggantikan naskah",
+                  "correct": false
+                },
+                {
+                  "text": "Menghapus storyboard",
+                  "correct": false
+                }
+              ],
+              "explanation": "Prinsip memperkuat gerak dan ekspresi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Squash and stretch",
+                  "right": "elastisitas objek"
+                },
+                {
+                  "id": "m1",
+                  "left": "Anticipation",
+                  "right": "gerakan ancang-ancang"
+                },
+                {
+                  "id": "m2",
+                  "left": "Staging",
+                  "right": "penempatan karakter di kamera"
+                },
+                {
+                  "id": "m3",
+                  "left": "Straight ahead action",
+                  "right": "menggambar frame berurutan"
+                },
+                {
+                  "id": "m4",
+                  "left": "Follow through",
+                  "right": "gerak lanjutan setelah berhenti"
+                },
+                {
+                  "id": "m5",
+                  "left": "Exaggeration",
+                  "right": "gerakan hiperbolis"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "elastisitas objek",
+                  "m1": "gerakan ancang-ancang",
+                  "m2": "penempatan karakter di kamera",
+                  "m3": "menggambar frame berurutan",
+                  "m4": "gerak lanjutan setelah berhenti",
+                  "m5": "gerakan hiperbolis"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pengembangan gaya animasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Memahami 12 prinsip"
+                },
+                {
+                  "id": "d1",
+                  "text": "Melatih solid drawing"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menentukan appeal karakter"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menerapkan exaggeration sesuai genre"
+                },
+                {
+                  "id": "d4",
+                  "text": "Evaluasi hasil gerak"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Prinsip dipahami dulu."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

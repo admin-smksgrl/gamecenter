@@ -1,6 +1,6 @@
 # Peta Cakupan Materi — Semua Buku Ajar SMA/SMK
 
-**Diperbarui:** 20 November 2026 (rilis 0.45.0)
+**Diperbarui:** 20 November 2026 (rilis 0.46.0)
 **Prinsip:** **satu buku = seluruh bab**, tidak ada buku yang diambil sebagian.
 Setiap bab = 3+ materi + 30 soal (5 mudah / 10 sedang / 15 sulit).
 
@@ -19,7 +19,7 @@ Status hanya boleh ditandai ✅ bila **seluruh** bab dalam buku itu sudah diimpo
 | Buku yang daftar isinya belum terbaca otomatis | 23 |
 
 Perkiraan bila seluruh 253 bab dikerjakan: **253 chapter / 7.590 soal**.
-Saat ini **104 chapter / 3.120 soal** selesai (41 %).
+Saat ini **114 chapter / 3.420 soal** selesai (45 %).
 
 ---
 
@@ -41,7 +41,7 @@ Saat ini **104 chapter / 3.120 soal** selesai (41 %).
 | Kepercayaan | `Kepercayaan-BS-KLS-X.pdf` | 8 | 8 | ✅ SELESAI |
 | Projek IPAS | `Projek-IPAS-BS-KLS-X.pdf` | 6 | 6 | ✅ SELESAI (level SMK) |
 | SMK: Agriteknologi | `Agriteknologi-…-Sem-1.pdf` | 6 | 0 | ⬜ belum |
-| SMK: Animasi | `Dasar-Animasi-BS-KLS-X.pdf` | 10 | 0 | ⬜ belum |
+| SMK: Animasi | `Dasar-Animasi-BS-KLS-X.pdf` | 10 | 10 | ✅ SELESAI |
 | SMK: DKV | `Desain-Komunikasi-…` (Sem 1 & 2) | 7 | 0 | ⬜ belum |
 | SMK: Teknik Otomotif | `Dasar-Dasar-Teknik-Otomotif-*` | ? | 0 | ⬜ daftar isi perlu dipetakan |
 | SMK: TJKT | `Dasar-Teknik-Jaringan-…` | 6 | 6 | ✅ SELESAI |

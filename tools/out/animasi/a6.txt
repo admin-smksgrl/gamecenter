@@ -1,0 +1,760 @@
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI 
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Animasi 
+untuk SMK/MAK Kelas X
+Penulis: Nina Tri Daniati, Rida Mulyadi, Agus Nugroho 
+ISBN: 978-623-194-442-9 (no.jil.lengkap PDF)
+ 
+978-623-194-443-6 (jil.1 PDF)
+B
+A
+B
+Quality Control 
+Produksi Animasi
+6
+Ketika menonton film animasi, pernahkah kamu membayangkan bagaimana proses 
+pembuatannya, mulai dari tahapan praproduksi, produksi, hingga pascaproduksi? Dalam 
+setiap tahapan tersebut terdapat proses quality control agar film yang dihasilkan menarik 
+minat penonton. Proses inilah yang dapat mewujudkan kualitas animasi, misalnya film yang 
+kamu tonton, terlihat dengan baik. Quality control, dalam pembuatan animasi, dibuat secara 
+ketat untuk memastikan prosedur, pembuatan, dan hasilnya sesuai dengan perencanaan. 
+Bagaimana cara menerapkan quality control dalam sebuah perusahaan animasi? Model apa 
+saja yang digunakan perusahaan dalam melakukan quality control terhadap produknya? 
+Pertanyaan tersebut dapat kamu jawab setelah mempelajari materi bab ini dengan saksama.
+Ga
+mb
+ar 
+6.1
+ Ti
+m 
+Pr
+od
+uk
+si 
+Stu
+di
+o M
+D 
+An
+im
+as
+i    
+Su
+mb
+er: 
+Han
+if H
+awa
+ri/h
+ot.d
+etik
+.co
+m (
+201
+7)
+
+154
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Pertanyaan Pemantik
+1. 
+Menurutmu, apakah dalam pembuatan sebuah animasi 
+diperlukan manajemen?
+2. 
+Bagaimana cara agar kualitas pembuatan animasi dapat dikontrol 
+dengan banyaknya anggota pada tim produksi? 
+3. 
+Bagaimana cara berkomunikasi antara tim produksi agar pembuatan 
+animasi tersebut berlangsung dengan cepat dan tepat? 
+Tujuan Pembelajaran
+Setelah mengikuti pembelajaran ini, kamu diharapkan mampu memahami:
+1. 
+quality control dan manfaat quality control,
+2. 
+tipe metode quality control, dan
+3. 
+penerapan quality control pada produksi animasi.
+Kata Kunci
+form revisi, Gantt Chart, key visual, manajemen produksi, tipe metode quality 
+control, quality control
+Peta Konsep
+Quality 
+Control pada 
+Produksi 
+Animasi
+Tujuan Pembelajaran
+1. quality control dan manfaat quality 
+control,
+2. tipe metode quality control, dan
+3. penerapan quality control pada produksi 
+animasi.
+1. Membangun Reputasi
+2. Membangun Kepercayaan Stakeholder
+3. Meningkatkan Hubungan 
+dengan Konsumen 
+4. Menciptakan Otomatisasi
+1. Manajemen Produksi (Production 
+Management)
+2. Key Visual
+3. Gantt Chart
+4. Form Revisi
+5. Test Screening
+A. Manfaat dan Metode Quality 
+Control
+B. Penerapan Quality Control 
+pada Produksi Animasi
+
+155
+BAB 6 - Quality Control Produksi Animasi
+A. Manfaat dan Metode Quality Control
+Apakah kamu pernah memperhatikan bahwa sebuah produk yang sampai ke 
+pelanggan telah melalui proses quality control? Dalam perusahaan animasi, 
+quality control mutlak diperlukan agar produk animasi yang dibuat telah 
+memenuhi standar pembuatannya. 
+Quality control merupakan proses yang dilakukan oleh sebuah perusahaan 
+untuk memastikan pembuatan produknya berkualitas. Selain itu, perusahaan 
+juga dapat meminimalisasi kesalahan yang dilakukan manajemen dan stafnya 
+serta mengontrol efektivitas waktu dan efisiensi biaya. 
+Dalam mempertahankan standar kualitas, manajemen dapat mengembangkan 
+proses quality control untuk perusahaan, divisi, ataupun produk individu. Adapun 
+manfaat adanya quality control ini adalah sebagai berikut. 
+1. 
+Membangun Reputasi
+Ketika perusahaan melaksanakan quality control, hasil produknya akan 
+konsisten dan memenuhi standar kualitas. Ketika produknya memiliki 
+standar kualitas yang baik, hal itu akan membangun reputasi perusahaan.
+2. 
+Membangun Kepercayaan Stakeholder
+Ketika sebuah perusahaan telah melaksanakan quality control, kepercayaan 
+stakeholder akan terbangun. Pelaksanaan quality control memperlihatkan 
+bahwa alur kerja produksi sangat baik dan jelas sesuai dengan 
+tujuan perusahaan.
+3. 
+Meningkatkan Hubungan dengan Konsumen 
+Dengan menerapkan quality control,  perusahaan akan menghasilkan produk 
+yang sesuai dengan keinginan konsumen sehingga dapat menumbuhkan 
+dan meningkatkan hubungan positif yang lama.
+4. 
+Menciptakan Otomatisasi
+Quality control yang baik dapat memudahkan pendelegasian tugas 
+dan tanggung jawab serta membantu operasional perusahaan tanpa 
+pengawasan langsung.
+Dalam melakukan quality control, sebuah perusahaan menggunakan metode 
+yang tepat. Metode pengedalian mutu tersebut bertujuan untuk berkomunikasi, 
+pelacakan, dan pendeteksian masalah. Sebagai contoh, sebuah perusahaan 
+menggunakan chart quality control berupa grafik yang menggambarkan 
+kesesuaian antara produk atau proses yang telah dilakukan sesuai dan target. 
+Apabila ada ketidaksesuaian, sejauh mana produk atau proses tersebut berbeda 
+dari spesifikasi yang telah ditentukan. 
+
+156
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Berikut ini tiga tipe metode dalam quality control. 
+1. 
+X-bar R chart adalah chart control yang 
+digunakan untuk data variabel dalam 
+pemeriksaan stabilitas proses pada 
+industri. Dalam chart tersebut terdapat 
+variabel X yang memperlihatkan 
+produk yang diuji. Sementara itu, 
+variabel Y memperlihatkan sejauh 
+mana varian produk dapat diterima. 
+Dengan melakukan analisis tersebut, 
+sebuah perusahaan akan dapat 
+menentukan kecacatan yang terjadi dalam produknya itu secara acak 
+atau sistematis. Hasil acak atau sistematis ini akan menjadi dasar sebuah 
+perusahaan untuk memeriksa proses produksi yang kemungkinan menjadi 
+penyebab kecacatan produk. 
+2. 
+Taguchi adalah metode yang menekankan peran penelitian dan 
+pengembangan, desain produk, dan pengembangan produk untuk 
+mengurangi terjadinya cacat dan kegagalan pada produk. Dalam melakukan 
+quality control-nya, perusahaan yang menggunakan metode ini akan 
+memeriksa perbedaan yang terjadi dari sebuah produk berdasarkan standar 
+pembuatannya. Artinya, metode ini sangat fokus terhadap penelitian dan 
+desain dalam memastikan kesesuaian produk yang dibuat dengan rancangan 
+spesifikasi desain yang telah ditetapkan perusahaan. 
+3. 
+100% inspection adalah metode yang dilakukan dengan melihat dan menilai 
+semua bagian produk. Hal tersebut dilakukan untuk menghilangkan 
+kekurangan pada produk. Dalam kenyataannya, perusahaan besar yang 
+menggunakan metode ini, setidaknya angka 80% merupakan angka yang 
+sudah mendekati 100%. 
+Secara umum, ketiga tipe metode tersebut lazim digunakan oleh perusahaan, 
+industri, dan lembaga. Dalam pelaksanaannya, quality control sangat bergantung 
+pada produk yang dibuat atau jenis industrinya. Begitupun dengan industri 
+kreatif animasi, quality control sangat diperlukan agar gambar dan kualitas 
+animasi yang diproduksi memiliki kualitas dan konsistensi.
+Eksplorasi 6.1
+Untuk mengetahui sejauh mana pemahamanmu terhadap ketiga metode quality 
+controlsebuah produk, lakukan eksplorasi dengan mengikuti langkah berikut.
+1. 
+Bentuklah beberapa kelompok di kelasmu. Setiap kelompok terdiri atas 3–4 orang.
+2. 
+Lakukan penelusuran dalam jejaring internet terkait tiga metode quality control 
+yang sudah kamu pelajari. 
+Gambar 6.2 Contoh X Bar R chart
+Sumber: research optimus/www.researchoptimus.com
+
+157
+BAB 6 - Quality Control Produksi Animasi
+3. 
+Catatlah beragam informasi yang kamu dapatkan lengkap dengan sumbernya. 
+Kemudian, rumuskan hasilnya dalam catatan kelompokmu.
+4. 
+Sajikanlah hasil catatan kelompokmu terkait tige metode quality control 
+tersebut dalam bentuk salindia. Kamu dapat membuat salindia dalam program 
+PowerPoint ataupun Canva.
+5. 
+Lakukan presentasi di depan kelas untuk mendapatkan tanggapan dari 
+kelompok lainnya.
+6. 
+Apabila semua kelompok sudah menyajikan hasilnya, buatlah simpulan kelas 
+terhadap ketiga metode quality control tersebut.
+B. Penerapan Quality Control pada Produksi Animasi
+Sebagaimana telah kamu pahami sebelumnya, penerapan quality control 
+pada produksi animasi bertujuan untuk meminimalisasi dan menghilangkan 
+kesalahan pada tahap berikutnya. Dalam proses produksi animasi, terdapat 
+tiga tahap produksi yang harus dilalui, mulai dari praproduksi, produksi, dan 
+pascaproduksi. Setiap tahapan produksi tersebut memiliki tantangan tersendiri 
+dalam pelaksanaannya.
+Masih 
+ingatkah 
+kamu tentang pipeline 
+pem buatan animasi? 
+Se kadar mengingatkan 
+kem bali, pipeline animasi 
+atau alur kerja animasi 
+merupakan 
+sebuah 
+sistem yang terdiri atas 
+manusia, 
+perangkat 
+keras 
+(hardware), 
+dan perangkat lunak 
+(software) yang selaras 
+untuk menyelesaikan 
+tugas produksi secara 
+berurutan sesuai dengan 
+jadwal perencanaan yang 
+telah ditentukan. Coba 
+kamu perhatikan contoh 
+pipeline sebuah proyek 
+pembuatan animasi berikut.
+1. Manajemen Produksi (Production Management)
+Seperti yang terlihat pada ilustrasi pipeline project tersebut, beberapa proses 
+dilakukan hingga produk animasi itu selesai. Dalam pengerjaannya, produk 
+Gambar 6.3 Pipeline project
+Sumber: Luthfi Rahinal/Bonbin Studio (2022)
+
+158
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+animasi tersebut dikerjakan oleh beberapa departemen di studio animasi 
+sesuai dengan tugas dan tanggung jawabnya. 
+Studio animasi akan menunjuk project leader dalam pengerjaan 
+proyek animasi.  Dalam skala yang lebih besar, perusahaan animasi akan 
+memerintahkan manajemen produksi sebagai pengelola dan manajemen 
+proyek. Manajemen produksi akan mengawasi seluruh jadwal produksi, 
+menyeimbangkan, dan memprioritaskan kebutuhan pada seluruh departemen 
+agar produksi dapat selesai tepat waktu.
+ 
+ 
+Gambar 6.4 Manajemen produksi
+Sumber: disney animation/disneyanimation.com
+2. Key Visual
+Salah satu ketentuan yang harus disepakati adalah key visual. Key visual adalah 
+tema grafis yang muncul di seluruh materi iklan dan media komunikasi. 
+Key visual dapat berupa beberapa komponen, misalnya warna, huruf, 
+layout, dan elemen grafik (desain karakter, bentuk, dan logo).  Selanjutnya, 
+hal tersebut akan menentukan berbagai ketentuan yang disepakati dalam 
+pengerjaan proyek tersebut. 
+Untuk mengembangkan key visual yang baik, kamu dapat memperhatikan 
+hal-hal berikut.
+a. 
+Ide, diskusi dengan konsumen dan tentukan nilai-nilai yang ingin 
+dicapai atau disampaikan, dan cara memosisikan produk atau merek.
+b. 
+Kreativitas, ciptakanlah solusi-solusi yang kreatif.
+c. 
+Presentasi, menampilkan yang terbaik.
+d. 
+Adaptasi, 
+buatlah 
+penyesuaian 
+atau 
+fleksibilitas 
+untuk 
+menyempurnakan hasil.
+Pengembangan key visual sangatlah penting karena akan menjadi elemen 
+penentu yang dapat dipakai lama dan menjadi komponen yang melekat 
+
+159
+BAB 6 - Quality Control Produksi Animasi
+pada perusahaan. Selain sebagai elemen produksi, key visual dapat menjadi 
+elemen yang disepakati antara studio dan konsumen agar dalam melakukan 
+proses produksi sesuai dengan kesepakatan alur dan visual tersebut.
+Eksplorasi 6.2
+Key visual dapat kamu amati dalam tayangan iklan animasi. Bersama anggota 
+kelompokmu, lakukan pengamatan terhadap tayangan iklan yang berbentuk 
+animasi. Catatlah judul iklan yang diamati, sumber videonya, deskripsi iklan 
+tersebut, gambar key visual-nya, dan deskripsi key visual-nya. Untuk memudahkan 
+proses pengerjaan, catatlah dalam format tabel berikut.
+Tabel 6.1 Pengamatan Tayangan Iklan Berbentuk Animasi
+No.
+Judul Iklan
+Link Video
+Deskripsi 
+Iklan
+Gambar Key 
+Visual
+Deskripsi Key 
+Visual
+1.
+2.
+3.
+3. Gantt Chart
+Sebelum memulai produksi animasi, manajemen studio animasi akan 
+membuat perangkat manajemen produksi. Perangkat manajemen tersebut 
+merupakan bagian yang tak ternilai dari proses perencanaan produksi proyek 
+animasi. Salah satu perangkat manajemen produksi tersebut adalah Gantt 
+Chart. Gantt chart adalah perangkat untuk melakukan perencanaan proyek 
+dan monitoring proyek. Dengan Gantt Chart, tim dapat mengetahui posisi 
+pengerjaan produksi animasi, bagian atau orang yang mengerjakannya, 
+waktu awal pengerjaan, dan target penyelesaiannya.
+ 
+ 
+Gambar 6.5 Worksheet
+Sumber: Firllita Fikriany/Bonbin Studio (2022)
+
+160
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Gantt Chart akan membantu tim untuk memahami hubungan antartugas, 
+status shot (adegan), dan priority shot (shot yang dikerjakan lebih dahulu). 
+Selain itu, Gant Chart juga menjadi project tracker untuk memprediksi hal 
+yang akan terjadi pada tugas berikutnya atau seluruh produksi animasi jika 
+pekerjaan tidak diselesaikan sesuai dengan tenggat waktu. Dengan melihat 
+pengerjaan proyek secara keseluruhan, manajemen atau project leader dapat 
+mengatur dan mengalokasikan sumber daya secara lebih efektif.
+ 
+ 
+Gambar 6.6 Gantt Chart
+Sumber: Sliced Bread Animation/sbanimation.com
+LITERAKSI
+Untuk menambah pengetahuanmu tentang Gantt Chart, 
+silakan pindai kode QR berikut. Sebagai alternatif, kamu 
+dapat mengetikkan pranala bit.ly/ganttchartxqc melalui 
+peramban gawai atau personal computer-mu. 
+Eksplorasi 6.3
+Agar pemahamanmu terhadap materi pembuatan worksheet Gantt Chart 
+meningkat, cobalah melakukan eksplorasi berikut.
+1. 
+Tonton kembali video yang ada dalam kode QR di atas terkait cara 
+pembuatan worksheet Gantt Chart.
+2. 
+Tulislah beberapa langkah yang harus dilakukan dari awal hingga akhir.
+3. 
+Periksa kembali catatan tentang cara pembuatan worksheet Gantt Chart 
+tersebut dengan mengulang kembali video tersebut.
+4. 
+Rancanglah prosedur pembuatan worksheet Gantt Chart dalam aplikasi 
+Canva atau yang lainnya.
+5. 
+Berilah gambar atau tangkapan layar dari video agar prosedur yang kamu 
+buat dalam Canva lebih menarik. 
+
+161
+BAB 6 - Quality Control Produksi Animasi
+6. 
+Cetaklan prosedur pembuatan tersebut dalam bentuk pdf. Setelah itu, 
+sajikanlah di depan kelas untuk mendapatkan tanggapan. Apabila ada 
+masukan, lakukan revisi terhadap hasil pekerjaanmu. 
+7. 
+Prosedur pembuatan worksheet Gantt Chart yang telah direvisi dikumpulkan 
+kepada guru bidang studi.
+4. Form Revisi
+Dalam produksi animasi, setiap tahapan 
+yang dilakukan, baik praproduksi, 
+produksi, dan pascaproduksi, pasti 
+menghasilkan output. Output tahapan 
+praproduksi 
+biasanya 
+berupa 
+naskah/skenario, storyboard, desain 
+karakter, dan sebagainya. Sementara itu, 
+karakter animasi dan adegan animasi 
+merupakan output tahapan produksi. 
+Terakhir, output tahapan pascaproduksi 
+adalah film animasi secara utuh. Setiap 
+output tersebut tentunya sudah melalui 
+proses revisi dari  quality control untuk 
+mendapatkan kualitas output terbaik 
+atau sesuai dengan keinginan dan 
+kesepakatan pelanggan. 
+Form revisi adalah dokumen dalam bentuk cetak atau digital untuk 
+menuliskan keterangan teks, audio, visual, dan elemen lainnya yang akan 
+direvisi dan keterangan rekomendasi revisi atau perbaikan yang akan 
+dilakukan oleh tim produksi. Form revisi ini dapat diisi oleh project leader, 
+lead animator, atau koordinator lainnya. Bahkan, form revisi ini diisi oleh 
+pelanggan dengan batasan tertentu sesuai dengan kesepakatan atau merujuk 
+pada key visual.
+Form revisi akan menghasilkan dua rekomendasi perbaikan, yakni major 
+revision dan minor revision. Major revision biasanya terdapat perbaikan yang 
+bersifat mendasar atau banyak perbaikan sehingga revisi akan memengaruhi 
+jadwal produksi. Dalam produksi animasi, major revision sangat dihindari 
+atau setidaknya major revision terjadi di tahap praproduksi sehingga tidak 
+akan menghabiskan waktu dan biaya produksi. Sementara itu, minor revision 
+biasanya berupa perbaikan yang tidak mendasar atau perbaikan sedikit 
+yang bersifat teknis. Revisi ini dapat dilakukan dengan cepat, seperti halnya 
+revisi aset animasi.
+Gambar 6.7 Form revisi
+Sumber: M. Ghiffari Alifananda/Bonbin Studio (2022)
+
+162
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Eksplorasi 6.4
+Agar kamu lebih mengeksplorasi materi tentang form revisi, cobalah untuk 
+melakukan hal-hal berikut.
+1. 
+Bentuklah beberapa kelompok di kelasmu. Setiap kelompok terdiri 
+atas 2–3 orang.
+2. 
+Cobalah untuk menentukan film animasi. Kemudian, lakukan analisis 
+terhadap animasi tersebut dengan mengisi form revisi berikut.
+Judul animasi 
+: 
+Durasi animasi :
+Quality controller : 
+Keterangan Visual
+Poin Revisi
+3. 
+Jika form revisi tersebut sudah terisi, cobalah untuk mempresentasikannya 
+di depan kelas. Kelompok yang belum tampil dapat memberikan tanggapan 
+terhadap hasil analisis kelompok lainnya. 
+4. 
+Apabila ada masukan dari temanmu, lakukan revisi terhadap form revisi 
+tersebut. Kemudian, kumpulkan hasilnya kepada gurumu.
+5. Test Screening
+Test screening adalah pemutaran pratinjau (preview) film atau acara televisi 
+sebelum rilis ke publik untuk mengukur reaksi penonton. Penonton test 
+screening dipilih dari berbagai daerah yang nantinya akan mengisi kuesioner 
+atau umpan balik terkait film yang telah ditonton. Umpan balik tersebut akan 
+menjadi pertimbangan untuk mengubah beberapa bagian dari film tersebut.
+Test screening biasanya dilakukan untuk film animasi yang bersifat 
+komersial agar film diminati penonton, laku, dan mendapatkan keuntungan 
+yang besar.  Selain itu, test screening ini dilakukan oleh penonton sesuai 
+dengan target film animasinya agar umpan 
+balik yang didapatkan sesuai dengan target 
+penonton. Untuk animasi yang dibuat 
+berdasarkan pesanan, test screening dilakukan 
+dengan penonton yang terbatas, misalnya 
+tim produksi dan konsumen yang memesan 
+animasi tersebut. Meskipun demikian, test 
+screening ini bertujuan untuk mendapatkan 
+umpan balik untuk menyempurnakan animasi 
+yang sedang diproduksi.
+Gambar 6.8 Test screening
+Sumber: Ponysmasher/youtube.com/
+sandberganimation (2019)
+
+163
+BAB 6 - Quality Control Produksi Animasi
+Proses pelaksanaan quality control dapat dilakukan beriringan saat 
+melakukan produksi animasi mulai dari tahap praproduksi, produksi, dan 
+pascaproduksi. Dengan dilaksanakannya quality control, animasi yang 
+dibuat akan mendekati sempurna sesuai dengan yang telah direncanakan 
+atau diinginkan oleh konsumen.
+Eksplorasi 6.5
+Untuk menambah wawasanmu terkait test screening, cobalah untuk melakukan 
+penelusuran informasi di laman internet. Setiap film yang diproduksi oleh studio 
+film besar pasti dilakukan test screening lebih dahulu. Dengan demikian, carilah 2 
+artikel mengenai kegiatan test screening pada film. 
+ 
+Bacalah secara saksama artikel tersebut. Setelah itu, buatlah ringkasan terhadap 
+artikel tersebut. Terakhir, tulislah tanggapanmu terhadap kedua artikel tersebut. 
+Sertailah tanggapanmu dengan argumentasi yang logis. Untuk memudahkanmu 
+melakukan eksplorasi ini, isilah dalam bentuk format berikut.
+Judul Film 
+ 
+: ………………………………………………………………………………..
+Judul Artikel  
+: ………………………………………………………………………………..
+Sumber Artikel 
+: ………………………………………………………………………………..
+Ringkasan Artikel 
+: ………………………………………………………………………………..
+Tanggapanmu 
+: ………………………………………………………………………………..
+ 
+ 
+ 
+  ………………………………………………………………………………..
+ 
+ 
+ 
+  ………………………………………………………………………………..
+ 
+ 
+ 
+  ………………………………………………………………………………..
+Rangkuman
+1. 
+Quality control merupakan proses yang dilakukan oleh sebuah perusahaan 
+untuk memastikan pembuatan produknya berkualitas. Selain itu, perusahaan 
+juga dapat meminimalisasi kesalahan yang dilakukan manajemen dan stafnya 
+serta mengontrol efektivitas waktu dan efisiensi biaya. 
+2. 
+Quality control bermanfaat untuk membangun reputasi, membangun 
+kepercayaan stakeholder, meningkatkan hubungan dengan konsumen, dan 
+menciptakan otomatisasi.
+3. 
+Tipe metode quality control, yaitu X-bar R, Taguchi, dan 100% inspection.
+a. 
+X-bar R chart adalah chart control untuk data variabel dalam pemeriksaan 
+stabilitas proses pada industri. 
+b. 
+Taguchi adalah metode yang menekankan peran penelitian dan 
+pengembangan, desain produk, dan pengembangan produk untuk 
+mengurangi terjadinya cacat dan kegagalan pada produk. 
+c. 
+100% inspection adalah metode yang dilakukan dengan melihat dan 
+menilai semua bagian produk
+4. 
+Penerapan quality control pada produksi animasi dilakukan dengan cara 
+manajemen produksi (production management), key visual, Gantt Chart, form 
+revisi, dan test screening.
+
+164
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Asesmen Kompetensi 6
+Pilihlah salah satu jawaban yang paling tepat!
+1. 
+Proses untuk memastikan bahwa produk yang dibuat berkualitas, 
+meminimalisasi manajemen dan staf melakukan kesalahan, serta 
+mengefektifkan biaya dan waktu disebut ….
+a. 
+review  
+ 
+ 
+ 
+d. 
+controlling manajemen
+b. 
+perencanaan 
+ 
+ 
+e. 
+quality manajemen
+c. 
+quality control
+2. 
+Berikut ini yang tidak termasuk manfaat dari quality control adalah ….
+a. 
+menciptakan situasi
+b. 
+membangun reputasi
+c. 
+menciptakan otomatisasi
+d. 
+membangun kepercayaan stakeholder
+e. 
+meningkatkan hubungan dengan staf lainnya
+3. 
+Metode quality control yang digunakan untuk data variabel dalam 
+pemeriksaan stabilitas proses pada industri adalah ….
+a. 
+Taguchi  
+ 
+ 
+c. 
+X Bar Y Chat  
+ 
+e. 
+Inspeksi dadakan
+b. 
+X Bar R Chart 
+ 
+d. 
+100% Inspection
+4. 
+Model quality control untuk mengurangi terjadinya cacat dan kegagalan 
+pada produk adalah ….
+a. 
+Taguchi
+b. 
+X Bar R Chart
+c. 
+X Bar Y Chat
+d. 
+100% inspection
+e. 
+Inspeksi dadakan
+5. 
+Pengawasan terhadap seluruh produksi untuk menyeimbangkan dan 
+memprioritaskan kebutuhan pada seluruh departemen agar produksi dapat 
+selesai tepat waktu dilakukan oleh ….
+a. 
+director
+b. 
+animator
+c. 
+stakeholder
+d. 
+project leader
+e. 
+management produksi
+
+165
+BAB 6 - Quality Control Produksi Animasi
+6. 
+Key visual adalah tema grafis yang muncul di seluruh materi iklan dan media 
+komunikasi. Berikut ini yang tidak termasuk komponen key visual adalah ….
+a. 
+logo 
+ 
+ 
+d. 
+transisi
+b. 
+huruf 
+ 
+ 
+e. 
+desain karakter
+c. 
+layout
+7. 
+Tim dapat mengetahui posisi ketika mengerjakan produksi animasi, siapa 
+yang mengerjakan, kapan harus dikerjakan, dan selesai dikerjakan. Hal ini 
+dapat dilihat melalui ….
+a. 
+script 
+ 
+ 
+ 
+d. 
+Gantt Chart
+b. 
+taguchi  
+ 
+ 
+e. 
+lembar disposisi
+c. 
+storyboard
+8. 
+Setiap output yang telah dihasilkan oleh tim akan melalui proses revisi sebagai 
+quality control. Berikut ini yang tidak termasuk isi form revisi adalah ….
+a. 
+key visual
+b. 
+rekomendasi revisi
+c. 
+rekomendasi perbaikan
+d. 
+rekomendasi pergerakan
+e. 
+keterangan teks, audio, visual
+9. 
+Form revisi akan menghasilkan dua rekomendasi, yaitu major revision dan 
+minor revision. Perbedaan di antara keduanya adalah …
+a. 
+Major revision harus dilakukan pada pascaproduksi, minor revision 
+merupakan perbaikan pada pra produksi.
+b. 
+Major revision harus cepat dan tanggap dilakukan revisi, minor revision 
+dapat diperbaiki jika film sudah diedarkan.
+c. 
+Major revision bersifat penting dan harus segera dilakukan, minor 
+revision bersifat perbaikan yang tidak perlu diperhatikan.
+d. 
+Major revision bersifat tidak mendasar atau sedikit perbaikan, minor 
+revision bersifat mendasar, dan akan menghasilkan banyak perbaikan.
+e. 
+Major revision bersifat mendasar dan akan menghasilkan banyak 
+perbaikan, minor revision bersifat tidak mendasar atau perbaikan 
+bersifat teknis.
+10. Test screening dilakukan dengan jumlah penonton yang terbatas, yaitu tim 
+produksi dan konsumen yang memesan animasi. Hal ini bertujuan agar ….
+a. 
+laku di pasaran
+b. 
+melakukan revisi
+c. 
+sempurna hasil filmnya
+d. 
+mendapat umpan balik
+e. 
+segera dirilis filmnya
+
+166
+Dasar-Dasar Animasi untuk SMK/MAK Kelas X 
+Proyek Praktikum
+I. 
+Petunjuk Umum
+1. 
+Periksalah dengan teliti dokumen proyek praktikum.
+2. 
+Baca dan pahami maksud soal agar tidak terjadi kesalahan pekerjaan.
+3. 
+Bekerjalah dengan memperhatikan jadwal dan alur pengerjaan.
+4. 
+Peralatan utama dan bahan telah disediakan sesuai dengan kebutuhan.
+5. 
+Ketika bekerja, perhatikan keselamatan kerja.
+II. Alat dan Bahan
+1. 
+PC atau Laptop 
+2.    Perekam suara 
+3.    Buku catatan
+III. Soal/Tugas
+1. 
+Judul Tugas: Membuat worksheet Gantt Chart
+2. 
+Langkah Kerja:
+a. 
+Buatlah kelompok terdiri atas 3 orang.
+b. 
+Siapkan komputer/laptop.
+c. 
+Siapkan teks prosedur membuat worksheet Gantt Chart.
+d. 
+Simak kembali video membuat worksheet Gantt Chart pada 
+pranala https://bit.ly/ganttchartxqc
+e. 
+Mulailah membuat worksheet Gantt Chart menggunakan 
+komputer.
+3. 
+Presentasikan hasil worksheet Gantt Chart kepada teman-teman kelas.
+Pengayaan
+Jika 70–100% materi bab ini sudah dikuasai, kamu dapat 
+melakukan aktivitas pengayaan, yaitu dengan menyimak 
+video manejemen produksi film animasi-Webinar Animasi 
+Series Amikom Yogyakarta. Silakan pindai kode QR 
+yang disediakan. Sebagai alternatif, kamu juga dapat 
+mengetikkan pranala https://youtu.be/U0yeLm9uiA8 
+dalam peramban gawai atau personal computer-mu. 
+Refleksi
+Bagaimana pemahamanmu terhadap materi bab ini? Tentunya pengetahuanmu 
+tentang quality control, tipe metode quality control, dan penerapan quality 
+control pada produksi animasi (manajemen produksi, key visual, Gantt 
+Chart, form revisi, dan  test screening) semakin luas. Sekarang, silakan kamu 
+merefleksikan diri dengan memberi tanda centang (√) dalam kolom “Ya” 
+dan “Tidak” untuk setiap pernyataan di bawah ini. Isilah sesuai dengan 
+pendapatmu yang sebenarnya.
+No.
+Pertanyaan
+Ya
+Tidak
+1.
+Saya mampu menjelaskan pengertian dan manfaat 
+quality control.
+ 
+ 
+2.
+Saya mampu menjelaskan tipe metode quality control. 
+ 
+3.
+Saya mampu menjelaskan penerapan quality control 
+pada produksi animasi.
+ 
+ 
