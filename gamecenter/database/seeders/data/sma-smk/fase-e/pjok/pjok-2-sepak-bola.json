@@ -1,0 +1,1253 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pjok",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PJOK 2",
+      "title": "Permainan Sepak Bola",
+      "description": "Mempelajari sejarah dan peraturan sepak bola, teknik dasar mengoper, menggiring, menembak, dan menyundul bola, serta taktik dan sportivitas dalam pertandingan.",
+      "learning_objectives": [
+        "Menjelaskan sejarah dan peraturan dasar permainan sepak bola.",
+        "Mempraktikkan teknik passing, dribbling, shooting, dan heading.",
+        "Menerapkan taktik menyerang dan bertahan dalam permainan sepak bola.",
+        "Menunjukkan sportivitas, disiplin, dan kerja sama selama bertanding.",
+        "Menjaga keselamatan diri dan teman melalui pemanasan serta pendinginan."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "PJOK-BG-KLS-X.pdf Bab 2 Permainan Sepak Bola; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa sepak bola digemari?",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 2 Permainan Sepak Bola; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Permainan sederhana dengan aturan yang jelas\n\nSepak bola adalah permainan bola besar yang dimainkan dua tim. Setiap tim berusaha memasukkan bola ke gawang lawan dan mencegah lawan mencetak gol. Permainan ini hanya membutuhkan bola, lapangan, dan gawang, sehingga mudah dimainkan di banyak tempat.\n\nAsosiasi sepak bola modern lahir di Inggris pada 1863 melalui Football Association. Di Indonesia, Persatuan Sepak Bola Seluruh Indonesia (PSSI) berdiri pada 19 April 1930. Sepak bola menjadi olahraga yang menyatukan banyak kalangan.\n\nSelain kebugaran, sepak bola melatih kerja sama, pengambilan keputusan, dan pengendalian emosi. Pemain harus membaca posisi rekan dan lawan sebelum memilih operan atau tembakan.\n\nGunakan sepatu yang sesuai, periksa permukaan lapangan, dan lakukan pemanasan sebelum bermain untuk mencegah cedera kaki.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "pjok-2-sepak-bola-glosarium",
+              "terms": [
+                {
+                  "term": "Sepak bola",
+                  "definition": "Olahraga dua tim berisi sebelas pemain yang berusaha memasukkan bola ke gawang lawan."
+                },
+                {
+                  "term": "Passing",
+                  "definition": "Mengoper bola kepada rekan satu tim."
+                },
+                {
+                  "term": "Dribbling",
+                  "definition": "Menggiring bola dengan kaki secara terkendali."
+                },
+                {
+                  "term": "Shooting",
+                  "definition": "Menembak bola ke arah gawang untuk mencetak gol."
+                },
+                {
+                  "term": "Heading",
+                  "definition": "Menyundul bola memakai dahi saat bola berada di udara."
+                },
+                {
+                  "term": "Offside",
+                  "definition": "Posisi pemain penyerang yang lebih dekat ke garis gawang lawan daripada bola dan pemain lawan kedua."
+                },
+                {
+                  "term": "Handball",
+                  "definition": "Pelanggaran karena pemain lapangan menyentuh bola dengan tangan atau lengan."
+                },
+                {
+                  "term": "Penalti",
+                  "definition": "Tendangan dari titik 11 meter akibat pelanggaran di area penalti."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Permainan sederhana dengan aturan yang jelas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sepak bola adalah permainan bola besar yang dimainkan dua tim. Setiap tim berusaha memasukkan bola ke gawang lawan dan mencegah lawan mencetak gol. Permainan ini hanya membutuhkan bola, lapangan, dan gawang, sehingga mudah dimainkan di banyak tempat."
+            },
+            {
+              "type": "paragraph",
+              "text": "Asosiasi sepak bola modern lahir di Inggris pada 1863 melalui Football Association. Di Indonesia, Persatuan Sepak Bola Seluruh Indonesia (PSSI) berdiri pada 19 April 1930. Sepak bola menjadi olahraga yang menyatukan banyak kalangan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Selain kebugaran, sepak bola melatih kerja sama, pengambilan keputusan, dan pengendalian emosi. Pemain harus membaca posisi rekan dan lawan sebelum memilih operan atau tembakan."
+            },
+            {
+              "type": "diagram",
+              "id": "pjok-2-sepak-bola-diagram",
+              "engine": "mermaid",
+              "title": "Alur dasar permainan sepak bola",
+              "code": "flowchart LR\n  A[Menguasai bola] --> B[Passing atau dribbling]\n  B --> C[Membuka ruang]\n  C --> D[Shooting ke gawang]\n  D --> E[Gol atau rebound]\n  E --> F[Bertahan dan serang lagi]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan sepatu yang sesuai, periksa permukaan lapangan, dan lakukan pemanasan sebelum bermain untuk mencegah cedera kaki."
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-2-sepak-bola-cp-1",
+              "question": "Kapan PSSI didirikan?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "19 April 1930",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "23 Oktober 1951"
+                },
+                {
+                  "id": "c2",
+                  "text": "28 Oktober 1928"
+                },
+                {
+                  "id": "c3",
+                  "text": "17 Agustus 1945"
+                }
+              ],
+              "explanation": "PSSI berdiri pada 19 April 1930; PERBASI berdiri pada 23 Oktober 1951."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Peraturan dan teknik dasar",
+          "duration": 300,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 2 Permainan Sepak Bola; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Peraturan, teknik, dan taktik\n\nPertandingan sepak bola terdiri atas dua babak, masing-masing 45 menit, dengan jeda 15 menit. Setiap tim menurunkan sebelas pemain inti, termasuk satu penjaga gawang. Bola yang keluar melewati garis samping dimainkan kembali dengan lemparan ke dalam.\n\nLapangan standar FIFA berukuran panjang 105 meter dan lebar 68 meter. Gawang memiliki lebar 7,32 meter dan tinggi 2,44 meter. Titik penalti berjarak 11 meter dari garis gawang.\n\nPelanggaran umum meliputi handball, tackling berbahaya, menarik baju lawan, dan menghalangi lawan tanpa bola. Wasit dapat memberi kartu kuning sebagai peringatan atau kartu merah sebagai pengusiran.\n\n| Teknik | Tujuan | Kunci gerak |\n|---|---|---|\n| Passing | Memindahkan bola ke rekan | Kaki tumpu di samping bola, perkenaan kaki bagian dalam |\n| Dribbling | Melewati lawan atau membuka ruang | Sentuhan kecil, bola dekat kaki, pandangan ke depan |\n| Shooting | Mencetak gol | Kaki tumpu di samping bola, perkenaan punggung kaki |\n| Heading | Menyundul bola di udara | Mata ke bola, sundul dengan dahi, leher kaku |\n| Tackling | Merebut bola dari lawan | Sasaran bola, bukan kaki lawan |\n\n### Taktik sederhana\n\n- Formasi 4-4-2 menempatkan empat bek, empat gelandang, dan dua penyerang.\n- Formasi 4-3-3 menambah penyerang untuk menekan lawan sejak awal.\n- Pressing dilakukan dengan menekan pemegang bola secara berkelompok agar lawan kehilangan bola.\n- Komunikasi singkat seperti “saya”, “kiri”, atau “jaga” mencegah tabrakan dan salah posisi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peraturan, teknik, dan taktik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pertandingan sepak bola terdiri atas dua babak, masing-masing 45 menit, dengan jeda 15 menit. Setiap tim menurunkan sebelas pemain inti, termasuk satu penjaga gawang. Bola yang keluar melewati garis samping dimainkan kembali dengan lemparan ke dalam."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lapangan standar FIFA berukuran panjang 105 meter dan lebar 68 meter. Gawang memiliki lebar 7,32 meter dan tinggi 2,44 meter. Titik penalti berjarak 11 meter dari garis gawang."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pelanggaran umum meliputi handball, tackling berbahaya, menarik baju lawan, dan menghalangi lawan tanpa bola. Wasit dapat memberi kartu kuning sebagai peringatan atau kartu merah sebagai pengusiran."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknik",
+                  "Tujuan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Passing",
+                  "Memindahkan bola ke rekan",
+                  "Kaki tumpu di samping bola, perkenaan kaki bagian dalam"
+                ],
+                [
+                  "Dribbling",
+                  "Melewati lawan atau membuka ruang",
+                  "Sentuhan kecil, bola dekat kaki, pandangan ke depan"
+                ],
+                [
+                  "Shooting",
+                  "Mencetak gol",
+                  "Kaki tumpu di samping bola, perkenaan punggung kaki"
+                ],
+                [
+                  "Heading",
+                  "Menyundul bola di udara",
+                  "Mata ke bola, sundul dengan dahi, leher kaku"
+                ],
+                [
+                  "Tackling",
+                  "Merebut bola dari lawan",
+                  "Sasaran bola, bukan kaki lawan"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pjok-2-ukuran-lapangan",
+              "title": "Ukuran penting lapangan sepak bola (meter)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Panjang",
+                  "value": 105
+                },
+                {
+                  "label": "Lebar",
+                  "value": 68
+                },
+                {
+                  "label": "Lebar gawang",
+                  "value": 7
+                },
+                {
+                  "label": "Tinggi gawang",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pjok-2-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam pelanggaran atau gerak sah.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Pelanggaran"
+                },
+                {
+                  "id": "b2",
+                  "label": "Gerak sah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Menyentuh bola dengan tangan di luar area penalti",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Menarik baju lawan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Mengoper bola dengan kaki bagian dalam",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Menyundul bola dengan dahi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Menjegal lawan dari belakang tanpa menyentuh bola",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Merebut bola dengan sasaran bola",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Handball, menarik baju, dan menjegal lawan termasuk pelanggaran.",
+                "wrong": "Periksa lagi: passing, heading, dan tackling yang benar adalah gerakan sah."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Taktik sederhana"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Formasi 4-4-2 menempatkan empat bek, empat gelandang, dan dua penyerang.",
+                "Formasi 4-3-3 menambah penyerang untuk menekan lawan sejak awal.",
+                "Pressing dilakukan dengan menekan pemegang bola secara berkelompok agar lawan kehilangan bola.",
+                "Komunikasi singkat seperti “saya”, “kiri”, atau “jaga” mencegah tabrakan dan salah posisi."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-2-sepak-bola-cp-2",
+              "question": "Berapa jarak titik penalti dari garis gawang?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "11 meter",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "9 meter"
+                },
+                {
+                  "id": "c2",
+                  "text": "12 meter"
+                },
+                {
+                  "id": "c3",
+                  "text": "10 meter"
+                }
+              ],
+              "explanation": "Titik penalti berjarak 11 meter dari garis gawang."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 2 Permainan Sepak Bola; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Bermain dengan sportif\n\nPermainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca posisi rekan dan lawan, lalu memilih antara mengoper, menggiring, atau menembak. Keputusan yang tergesa-gesa sering menghasilkan kehilangan bola.\n\nSportivitas tampak ketika pemain mengakui pelanggaran, membantu lawan yang jatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian peran yang jelas.\n\nGunakan permainan kecil empat lawan empat untuk melatih passing cepat, pergerakan tanpa bola, dan pertahanan. Hentikan permainan sesaat untuk membahas keputusan yang tepat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bermain dengan sportif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Permainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca posisi rekan dan lawan, lalu memilih antara mengoper, menggiring, atau menembak. Keputusan yang tergesa-gesa sering menghasilkan kehilangan bola."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sportivitas tampak ketika pemain mengakui pelanggaran, membantu lawan yang jatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian peran yang jelas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gunakan permainan kecil empat lawan empat untuk melatih passing cepat, pergerakan tanpa bola, dan pertahanan. Hentikan permainan sesaat untuk membahas keputusan yang tepat."
+            },
+            {
+              "type": "scenario",
+              "id": "pjok-2-skenario",
+              "title": "Keputusan di menit terakhir",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Timmu tertinggal satu gol dan waktu tersisa dua menit. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menyusun serangan cepat dan mencari ruang terbuka",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Keputusan ini memberi tim peluang terbaik."
+                    },
+                    {
+                      "text": "Menembak dari jauh setiap kali mendapat bola",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tembakan terburu-buru mudah dihalangi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Rekanmu kosong di depan gawang, tetapi kamu juga punya ruang menembak. Apa pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "Mengoper ke rekan yang lebih kosong",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Operan ke posisi terbaik adalah inti kerja sama."
+                    },
+                    {
+                      "text": "Tetap menembak meski dijaga",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Peluang rekan yang lebih baik terbuang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Peluang habis karena keputusan diambil tergesa-gesa.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Tim mencetak gol dan bermain sebagai satu kesatuan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "pjok-2-sepak-bola-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu offside?",
+                  "back": "Posisi penyerang lebih dekat ke garis gawang lawan daripada bola dan pemain lawan kedua."
+                },
+                {
+                  "front": "Apa fungsi heading?",
+                  "back": "Menyundul bola di udara untuk mengoper atau menembak."
+                },
+                {
+                  "front": "Berapa lama satu babak?",
+                  "back": "45 menit."
+                },
+                {
+                  "front": "Apa itu handball?",
+                  "back": "Pelanggaran karena pemain lapangan menyentuh bola dengan tangan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-2-sepak-bola-cp-3",
+              "question": "Saat menerima bola dengan lawan sangat dekat, tindakan paling aman adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Mengontrol bola lalu mengoper ke rekan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Langsung menembak tanpa melihat gawang"
+                },
+                {
+                  "id": "c2",
+                  "text": "Menendang bola ke sembarang arah"
+                },
+                {
+                  "id": "c3",
+                  "text": "Berhenti dan menahan bola dengan tangan"
+                }
+              ],
+              "explanation": "Kontrol bola lalu operan aman menjaga penguasaan bola."
+            },
+            {
+              "type": "challenge",
+              "id": "pjok-2-tantangan",
+              "title": "Tantangan istilah sepak bola",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Induk organisasi sepak bola Indonesia",
+                  "answer": "PSSI"
+                },
+                {
+                  "question": "Jumlah pemain inti",
+                  "answer": "11"
+                },
+                {
+                  "question": "Lama satu babak",
+                  "answer": "45 menit"
+                },
+                {
+                  "question": "Jarak titik penalti",
+                  "answer": "11 meter"
+                },
+                {
+                  "question": "Pelanggaran menyentuh bola dengan tangan",
+                  "answer": "handball"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Permainan Sepak Bola — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa induk organisasi sepak bola Indonesia?",
+              "options": [
+                {
+                  "text": "PSSI",
+                  "correct": true
+                },
+                {
+                  "text": "PERBASI"
+                },
+                {
+                  "text": "PBSI"
+                },
+                {
+                  "text": "PBVSI"
+                }
+              ],
+              "explanation": "PSSI adalah induk organisasi sepak bola Indonesia.",
+              "hint": "Bandingkan dengan PERBASI untuk bola basket."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa lama satu babak pertandingan sepak bola?",
+              "options": [
+                {
+                  "text": "45 menit",
+                  "correct": true
+                },
+                {
+                  "text": "30 menit"
+                },
+                {
+                  "text": "40 menit"
+                },
+                {
+                  "text": "60 menit"
+                }
+              ],
+              "explanation": "Satu babak berlangsung 45 menit.",
+              "hint": "Dua babak berarti 90 menit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jumlah pemain inti setiap tim sepak bola?",
+              "options": [
+                {
+                  "text": "11 pemain",
+                  "correct": true
+                },
+                {
+                  "text": "10 pemain"
+                },
+                {
+                  "text": "9 pemain"
+                },
+                {
+                  "text": "12 pemain"
+                }
+              ],
+              "explanation": "Setiap tim menurunkan sebelas pemain inti.",
+              "hint": "Termasuk satu penjaga gawang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk teknik dasar sepak bola?",
+              "options": [
+                {
+                  "text": "Passing",
+                  "correct": true
+                },
+                {
+                  "text": "Dribbling",
+                  "correct": true
+                },
+                {
+                  "text": "Shooting",
+                  "correct": true
+                },
+                {
+                  "text": "Smash",
+                  "correct": false
+                },
+                {
+                  "text": "Servis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Passing, dribbling, dan shooting adalah teknik dasar sepak bola.",
+              "hint": "Smash dan servis berasal dari bola voli."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk pelanggaran dalam sepak bola?",
+              "options": [
+                {
+                  "text": "Handball",
+                  "correct": true
+                },
+                {
+                  "text": "Menarik baju lawan",
+                  "correct": true
+                },
+                {
+                  "text": "Passing",
+                  "correct": false
+                },
+                {
+                  "text": "Heading",
+                  "correct": false
+                }
+              ],
+              "explanation": "Handball dan menarik baju lawan termasuk pelanggaran.",
+              "hint": "Passing dan heading adalah gerakan sah."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Permainan Sepak Bola — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa istilah operan yang langsung menghasilkan gol?",
+              "options": [
+                {
+                  "text": "Assist",
+                  "correct": true
+                },
+                {
+                  "text": "Offside"
+                },
+                {
+                  "text": "Corner"
+                },
+                {
+                  "text": "Throw-in"
+                }
+              ],
+              "explanation": "Assist adalah operan terakhir sebelum gol.",
+              "hint": "Istilah ini juga dipakai di bola basket."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pelanggaran menyentuh bola dengan tangan?",
+              "options": [
+                {
+                  "text": "Handball",
+                  "correct": true
+                },
+                {
+                  "text": "Offside"
+                },
+                {
+                  "text": "Tackling"
+                },
+                {
+                  "text": "Dribbling"
+                }
+              ],
+              "explanation": "Handball terjadi saat pemain lapangan menyentuh bola dengan tangan.",
+              "hint": "Penjaga gawang boleh memakai tangan di area penalti."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa tujuan melakukan passing?",
+              "options": [
+                {
+                  "text": "Memindahkan bola ke rekan",
+                  "correct": true
+                },
+                {
+                  "text": "Membuka ruang serangan",
+                  "correct": true
+                },
+                {
+                  "text": "Mencetak gol langsung",
+                  "correct": false
+                },
+                {
+                  "text": "Menghentikan waktu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Passing memindahkan bola dan membuka ruang, bukan mencetak gol langsung.",
+              "hint": "Gol dicetak melalui shooting."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri dribbling yang benar?",
+              "options": [
+                {
+                  "text": "Bola dekat dengan kaki",
+                  "correct": true
+                },
+                {
+                  "text": "Pandangan ke depan",
+                  "correct": true
+                },
+                {
+                  "text": "Bola ditahan dengan tangan",
+                  "correct": false
+                },
+                {
+                  "text": "Mata selalu menunduk ke bola",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dribbling benar menjaga bola dekat kaki dengan pandangan ke depan.",
+              "hint": "Pandangan ke depan membantu membaca lawan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Passing",
+                  "right": "mengoper bola kepada rekan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Dribbling",
+                  "right": "menggiring bola dengan kaki"
+                },
+                {
+                  "id": "m2",
+                  "left": "Shooting",
+                  "right": "menembak bola ke gawang"
+                },
+                {
+                  "id": "m3",
+                  "left": "Heading",
+                  "right": "menyundul bola dengan dahi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengoper bola kepada rekan",
+                  "m1": "menggiring bola dengan kaki",
+                  "m2": "menembak bola ke gawang",
+                  "m3": "menyundul bola dengan dahi"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan shooting dengan punggung kaki.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Letakkan kaki tumpu di samping bola"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tarik kaki penendang ke belakang"
+                },
+                {
+                  "id": "d2",
+                  "text": "Ayunkan kaki ke arah gawang"
+                },
+                {
+                  "id": "d3",
+                  "text": "Lepaskan bola dengan punggung kaki"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Shooting dimulai dari kaki tumpu yang stabil lalu ayunan ke gawang.",
+              "hint": "Arahkan pandangan ke bola saat menendang."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan passing dengan kaki bagian dalam.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Letakkan kaki tumpu di samping bola"
+                },
+                {
+                  "id": "p1",
+                  "text": "Putar kaki penendang ke luar"
+                },
+                {
+                  "id": "p2",
+                  "text": "Ayunkan kaki ke arah rekan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Lepaskan bola dengan kaki bagian dalam"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Passing kaki dalam mengarahkan bola mendatar ke rekan.",
+              "hint": "Perkenaan bola ada di tengah agar operan mendatar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa kartu yang diberikan untuk pelanggaran sangat berat?",
+              "options": [
+                {
+                  "text": "Kartu merah",
+                  "correct": true
+                },
+                {
+                  "text": "Kartu kuning"
+                },
+                {
+                  "text": "Kartu hijau"
+                },
+                {
+                  "text": "Kartu biru"
+                }
+              ],
+              "explanation": "Kartu merah berarti pemain dikeluarkan dari pertandingan.",
+              "hint": "Kartu kuning hanya peringatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa istilah tendangan dari sudut lapangan?",
+              "options": [
+                {
+                  "text": "Corner kick",
+                  "correct": true
+                },
+                {
+                  "text": "Free kick"
+                },
+                {
+                  "text": "Penalty kick"
+                },
+                {
+                  "text": "Goal kick"
+                }
+              ],
+              "explanation": "Corner kick dilakukan dari sudut lapangan.",
+              "hint": "Tendangan ini terjadi saat bola melewati garis gawang setelah disentuh pemain bertahan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk jenis tendangan dalam sepak bola?",
+              "options": [
+                {
+                  "text": "Tendangan bebas",
+                  "correct": true
+                },
+                {
+                  "text": "Tendangan penalti",
+                  "correct": true
+                },
+                {
+                  "text": "Tendangan sudut",
+                  "correct": true
+                },
+                {
+                  "text": "Smash",
+                  "correct": false
+                },
+                {
+                  "text": "Jump shot",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tendangan bebas, penalti, dan sudut adalah bagian permainan sepak bola.",
+              "hint": "Smash dan jump shot bukan istilah sepak bola."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Permainan Sepak Bola — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa panjang lapangan sepak bola standar FIFA?",
+              "options": [
+                {
+                  "text": "105 meter",
+                  "correct": true
+                },
+                {
+                  "text": "100 meter"
+                },
+                {
+                  "text": "110 meter"
+                },
+                {
+                  "text": "90 meter"
+                }
+              ],
+              "explanation": "Lapangan standar FIFA berukuran 105 meter × 68 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jarak titik penalti dari garis gawang?",
+              "options": [
+                {
+                  "text": "11 meter",
+                  "correct": true
+                },
+                {
+                  "text": "9 meter"
+                },
+                {
+                  "text": "10 meter"
+                },
+                {
+                  "text": "12 meter"
+                }
+              ],
+              "explanation": "Titik penalti berjarak 11 meter dari garis gawang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa arti offside?",
+              "options": [
+                {
+                  "text": "Pemain penyerang berada lebih dekat ke garis gawang lawan daripada bola dan lawan kedua",
+                  "correct": true
+                },
+                {
+                  "text": "Pemain keluar lapangan"
+                },
+                {
+                  "text": "Pemain menyentuh bola dengan tangan"
+                },
+                {
+                  "text": "Pemain menendang bola ke gawang sendiri"
+                }
+              ],
+              "explanation": "Offside membatasi posisi penyerang agar tidak menunggu di belakang pertahanan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jumlah wasit dalam pertandingan sepak bola?",
+              "options": [
+                {
+                  "text": "3 orang",
+                  "correct": true
+                },
+                {
+                  "text": "1 orang"
+                },
+                {
+                  "text": "2 orang"
+                },
+                {
+                  "text": "4 orang"
+                }
+              ],
+              "explanation": "Ada satu wasit utama dan dua asisten wasit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa lama babak tambahan dalam sepak bola?",
+              "options": [
+                {
+                  "text": "2 × 15 menit",
+                  "correct": true
+                },
+                {
+                  "text": "2 × 10 menit"
+                },
+                {
+                  "text": "2 × 20 menit"
+                },
+                {
+                  "text": "1 × 30 menit"
+                }
+              ],
+              "explanation": "Babak tambahan terdiri atas dua periode 15 menit."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tugas wasit utama?",
+              "options": [
+                {
+                  "text": "Mengatur jalannya pertandingan",
+                  "correct": true
+                },
+                {
+                  "text": "Memberi kartu kepada pemain",
+                  "correct": true
+                },
+                {
+                  "text": "Mencetak gol",
+                  "correct": false
+                },
+                {
+                  "text": "Menjaga gawang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Wasit utama mengatur pertandingan dan memberi kartu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah formasi sepak bola yang umum?",
+              "options": [
+                {
+                  "text": "4-4-2",
+                  "correct": true
+                },
+                {
+                  "text": "4-3-3",
+                  "correct": true
+                },
+                {
+                  "text": "3-5-2",
+                  "correct": true
+                },
+                {
+                  "text": "5-5-1",
+                  "correct": false
+                },
+                {
+                  "text": "2-2-6",
+                  "correct": false
+                }
+              ],
+              "explanation": "4-4-2, 4-3-3, dan 3-5-2 adalah formasi yang umum."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Tackling",
+                  "right": "merebut bola dari lawan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Offside",
+                  "right": "berada di belakang pertahanan saat bola dimainkan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Handball",
+                  "right": "menyentuh bola dengan tangan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Penalti",
+                  "right": "tendangan dari titik 11 meter"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "merebut bola dari lawan",
+                  "m1": "berada di belakang pertahanan saat bola dimainkan",
+                  "m2": "menyentuh bola dengan tangan",
+                  "m3": "tendangan dari titik 11 meter"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan fase menggiring bola.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Sentuh bola dengan kaki"
+                },
+                {
+                  "id": "d1",
+                  "text": "Jaga bola tetap dekat"
+                },
+                {
+                  "id": "d2",
+                  "text": "Arahkan pandangan ke depan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Percepat langkah saat melewati lawan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Dribbling menjaga bola dekat sambil membaca situasi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan tendangan penalti.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Letakkan bola di titik penalti"
+                },
+                {
+                  "id": "p1",
+                  "text": "Ambil awalan beberapa langkah"
+                },
+                {
+                  "id": "p2",
+                  "text": "Arahkan pandangan ke target"
+                },
+                {
+                  "id": "p3",
+                  "text": "Tendang bola dengan punggung kaki"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Penalti dimulai dari penempatan bola lalu awalan yang terkendali."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa istilah menyundul bola dengan dahi?",
+              "options": [
+                {
+                  "text": "Heading",
+                  "correct": true
+                },
+                {
+                  "text": "Passing"
+                },
+                {
+                  "text": "Dribbling"
+                },
+                {
+                  "text": "Tackling"
+                }
+              ],
+              "explanation": "Heading adalah menyundul bola, biasanya dengan dahi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa berat bola sepak standar?",
+              "options": [
+                {
+                  "text": "410–450 gram",
+                  "correct": true
+                },
+                {
+                  "text": "300–350 gram"
+                },
+                {
+                  "text": "500–550 gram"
+                },
+                {
+                  "text": "600–650 gram"
+                }
+              ],
+              "explanation": "Bola sepak standar beratnya 410–450 gram."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang offside?",
+              "options": [
+                {
+                  "text": "Penyerang tidak boleh menunggu di belakang pertahanan",
+                  "correct": true
+                },
+                {
+                  "text": "Offside ditentukan saat bola dimainkan",
+                  "correct": true
+                },
+                {
+                  "text": "Offside berlaku untuk penjaga gawang",
+                  "correct": false
+                },
+                {
+                  "text": "Offside terjadi saat bola keluar lapangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Offside membatasi posisi penyerang saat bola dimainkan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Passing",
+                  "right": "mengoper bola kepada rekan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Dribbling",
+                  "right": "menggiring bola dengan kaki"
+                },
+                {
+                  "id": "m2",
+                  "left": "Shooting",
+                  "right": "menembak bola ke gawang"
+                },
+                {
+                  "id": "m3",
+                  "left": "Heading",
+                  "right": "menyundul bola dengan dahi"
+                },
+                {
+                  "id": "m4",
+                  "left": "Tackling",
+                  "right": "merebut bola dari lawan"
+                },
+                {
+                  "id": "m5",
+                  "left": "Offside",
+                  "right": "berada di belakang pertahanan saat bola dimainkan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengoper bola kepada rekan",
+                  "m1": "menggiring bola dengan kaki",
+                  "m2": "menembak bola ke gawang",
+                  "m3": "menyundul bola dengan dahi",
+                  "m4": "merebut bola dari lawan",
+                  "m5": "berada di belakang pertahanan saat bola dimainkan"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur serangan dari bertahan sampai mencetak gol.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Rebut bola dari lawan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Oper ke gelandang"
+                },
+                {
+                  "id": "d2",
+                  "text": "Buka ruang di sayap"
+                },
+                {
+                  "id": "d3",
+                  "text": "Umpan ke depan gawang"
+                },
+                {
+                  "id": "d4",
+                  "text": "Selesaikan dengan shooting"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Serangan bergerak dari rebutan bola menuju penyelesaian di gawang."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

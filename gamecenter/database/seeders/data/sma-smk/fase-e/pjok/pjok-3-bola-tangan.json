@@ -1,0 +1,1244 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pjok",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PJOK 3",
+      "title": "Permainan Bola Tangan",
+      "description": "Mengenal permainan bola tangan, peraturan dasarnya, teknik passing, dribbling, shooting, dan kerja sama tim dalam menyerang serta bertahan.",
+      "learning_objectives": [
+        "Menjelaskan sejarah dan peraturan dasar permainan bola tangan.",
+        "Mempraktikkan teknik passing, catching, dribbling, dan shooting bola tangan.",
+        "Menerapkan pola serangan dan pertahanan sederhana dalam bola tangan.",
+        "Menunjukkan sportivitas, disiplin, dan kerja sama selama bermain.",
+        "Menjaga keselamatan diri dan teman melalui pemanasan serta pendinginan."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "PJOK-BG-KLS-X.pdf Bab 3 Permainan Bola Tangan; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa bola tangan menantang?",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 3 Permainan Bola Tangan; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Permainan cepat dengan tangan\n\nBola tangan adalah permainan bola besar yang dimainkan dua tim. Setiap tim berusaha melempar bola ke gawang lawan. Berbeda dari sepak bola, pemain memakai tangan untuk mengoper, menggiring, dan menembak.\n\nBola tangan modern berkembang di Eropa pada akhir abad ke-19. Permainan ini kemudian dipertandingkan pada Olimpiade dan kejuaraan dunia. Di Indonesia, Asosiasi Bola Tangan Indonesia (ABTI) menjadi induk organisasinya.\n\nPermainan ini menuntut kecepatan, kekuatan lengan, dan koordinasi. Pemain juga harus cepat berpindah dari menyerang ke bertahan karena permainan berlangsung bolak-balik.\n\nPotong kuku, lepas aksesori, dan gunakan sepatu yang tidak licin agar bola dan lantai tetap aman digunakan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "pjok-3-bola-tangan-glosarium",
+              "terms": [
+                {
+                  "term": "Bola tangan",
+                  "definition": "Olahraga dua tim berisi tujuh pemain yang berusaha melempar bola ke gawang lawan."
+                },
+                {
+                  "term": "Catching",
+                  "definition": "Menangkap bola dengan dua tangan saat menerima operan."
+                },
+                {
+                  "term": "Dribbling",
+                  "definition": "Memantulkan bola ke lantai sambil bergerak."
+                },
+                {
+                  "term": "Shooting",
+                  "definition": "Melempar bola ke gawang untuk mencetak gol."
+                },
+                {
+                  "term": "Area gawang",
+                  "definition": "Daerah selebar enam meter di depan gawang yang hanya boleh dimasuki penjaga gawang."
+                },
+                {
+                  "term": "Penalti",
+                  "definition": "Lemparan dari garis tujuh meter akibat pelanggaran di area gawang."
+                },
+                {
+                  "term": "Pivot",
+                  "definition": "Gerakan memutar badan untuk melepaskan diri dari penjagaan."
+                },
+                {
+                  "term": "Throw-in",
+                  "definition": "Lemparan ke dalam untuk memulai kembali permainan setelah bola keluar lapangan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Permainan cepat dengan tangan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bola tangan adalah permainan bola besar yang dimainkan dua tim. Setiap tim berusaha melempar bola ke gawang lawan. Berbeda dari sepak bola, pemain memakai tangan untuk mengoper, menggiring, dan menembak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bola tangan modern berkembang di Eropa pada akhir abad ke-19. Permainan ini kemudian dipertandingkan pada Olimpiade dan kejuaraan dunia. Di Indonesia, Asosiasi Bola Tangan Indonesia (ABTI) menjadi induk organisasinya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Permainan ini menuntut kecepatan, kekuatan lengan, dan koordinasi. Pemain juga harus cepat berpindah dari menyerang ke bertahan karena permainan berlangsung bolak-balik."
+            },
+            {
+              "type": "diagram",
+              "id": "pjok-3-bola-tangan-diagram",
+              "engine": "mermaid",
+              "title": "Alur dasar permainan bola tangan",
+              "code": "flowchart LR\n  A[Menerima bola] --> B[Passing atau dribbling]\n  B --> C[Membuka ruang]\n  C --> D[Shooting ke gawang]\n  D --> E[Gol atau rebound]\n  E --> F[Bertahan dan serang lagi]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Potong kuku, lepas aksesori, dan gunakan sepatu yang tidak licin agar bola dan lantai tetap aman digunakan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-3-bola-tangan-cp-1",
+              "question": "Berapa jumlah pemain inti setiap tim bola tangan?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "7 pemain",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "5 pemain"
+                },
+                {
+                  "id": "c2",
+                  "text": "6 pemain"
+                },
+                {
+                  "id": "c3",
+                  "text": "11 pemain"
+                }
+              ],
+              "explanation": "Setiap tim menurunkan tujuh pemain inti, termasuk penjaga gawang."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Peraturan dan teknik dasar",
+          "duration": 300,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 3 Permainan Bola Tangan; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Peraturan, teknik, dan taktik\n\nLapangan bola tangan berukuran panjang 40 meter dan lebar 20 meter. Gawang berukuran lebar 3 meter dan tinggi 2 meter. Area gawang berbentuk setengah lingkaran dengan radius 6 meter.\n\nPertandingan terdiri atas dua babak, masing-masing 30 menit. Pemain boleh memegang bola paling lama tiga detik dan melangkah paling banyak tiga langkah sebelum menggiring atau mengoper.\n\nPelanggaran umum meliputi melangkah lebih dari tiga langkah, menahan bola lebih dari tiga detik, dan memasuki area gawang. Pelanggaran di area gawang dapat menghasilkan lemparan penalti dari garis tujuh meter.\n\n| Teknik | Tujuan | Kunci gerak |\n|---|---|---|\n| Catching | Menerima bola dengan aman | Kedua tangan terbuka, mata ke bola, jemput bola |\n| Passing | Memindahkan bola cepat | Siku dekat badan, dorong bola ke depan |\n| Dribbling | Bergerak sambil menguasai bola | Pantulkan bola, jaga badan di antara bola dan lawan |\n| Shooting | Mencetak gol | Awalan langkah, lompat, lepaskan bola ke gawang |\n| Pivot | Melepaskan diri dari penjagaan | Putar badan dengan kaki poros |\n\n### Taktik sederhana\n\n- Serangan cepat dimulai dari penjaga gawang yang melempar bola ke sayap.\n- Serangan balik efektif ketika lawan belum kembali ke posisi bertahan.\n- Pertahanan 6-0 menjaga area dekat gawang, sedangkan 5-1 menekan pemain lawan di depan.\n- Komunikasi singkat seperti “saya”, “kiri”, atau “ganti” mencegah tabrakan dan salah jaga.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peraturan, teknik, dan taktik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lapangan bola tangan berukuran panjang 40 meter dan lebar 20 meter. Gawang berukuran lebar 3 meter dan tinggi 2 meter. Area gawang berbentuk setengah lingkaran dengan radius 6 meter."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pertandingan terdiri atas dua babak, masing-masing 30 menit. Pemain boleh memegang bola paling lama tiga detik dan melangkah paling banyak tiga langkah sebelum menggiring atau mengoper."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pelanggaran umum meliputi melangkah lebih dari tiga langkah, menahan bola lebih dari tiga detik, dan memasuki area gawang. Pelanggaran di area gawang dapat menghasilkan lemparan penalti dari garis tujuh meter."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknik",
+                  "Tujuan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Catching",
+                  "Menerima bola dengan aman",
+                  "Kedua tangan terbuka, mata ke bola, jemput bola"
+                ],
+                [
+                  "Passing",
+                  "Memindahkan bola cepat",
+                  "Siku dekat badan, dorong bola ke depan"
+                ],
+                [
+                  "Dribbling",
+                  "Bergerak sambil menguasai bola",
+                  "Pantulkan bola, jaga badan di antara bola dan lawan"
+                ],
+                [
+                  "Shooting",
+                  "Mencetak gol",
+                  "Awalan langkah, lompat, lepaskan bola ke gawang"
+                ],
+                [
+                  "Pivot",
+                  "Melepaskan diri dari penjagaan",
+                  "Putar badan dengan kaki poros"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pjok-3-ukuran-lapangan",
+              "title": "Ukuran penting lapangan bola tangan (meter)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Panjang",
+                  "value": 40
+                },
+                {
+                  "label": "Lebar",
+                  "value": 20
+                },
+                {
+                  "label": "Lebar gawang",
+                  "value": 3
+                },
+                {
+                  "label": "Tinggi gawang",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pjok-3-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam pelanggaran atau gerak sah.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Pelanggaran"
+                },
+                {
+                  "id": "b2",
+                  "label": "Gerak sah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Melangkah empat kali tanpa menggiring bola",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Menahan bola lebih dari tiga detik",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Mengoper bola dengan dua tangan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Memantulkan bola ke lantai",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Memasuki area gawang saat menyerang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Melakukan pivot dengan kaki poros",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Langkah berlebih, menahan bola terlalu lama, dan masuk area gawang adalah pelanggaran.",
+                "wrong": "Periksa lagi: passing, dribbling, dan pivot adalah gerakan sah."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Taktik sederhana"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Serangan cepat dimulai dari penjaga gawang yang melempar bola ke sayap.",
+                "Serangan balik efektif ketika lawan belum kembali ke posisi bertahan.",
+                "Pertahanan 6-0 menjaga area dekat gawang, sedangkan 5-1 menekan pemain lawan di depan.",
+                "Komunikasi singkat seperti “saya”, “kiri”, atau “ganti” mencegah tabrakan dan salah jaga."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-3-bola-tangan-cp-2",
+              "question": "Berapa lama pemain boleh menahan bola sebelum mengoper atau menembak?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "3 detik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "5 detik"
+                },
+                {
+                  "id": "c2",
+                  "text": "2 detik"
+                },
+                {
+                  "id": "c3",
+                  "text": "10 detik"
+                }
+              ],
+              "explanation": "Pemain boleh menahan bola paling lama tiga detik."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 3 Permainan Bola Tangan; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Bermain dengan sportif\n\nPermainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca posisi rekan dan lawan, lalu memilih antara mengoper, menggiring, atau menembak. Keputusan yang tergesa-gesa sering menghasilkan kehilangan bola.\n\nSportivitas tampak ketika pemain mengakui pelanggaran, membantu lawan yang jatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian peran yang jelas.\n\nGunakan permainan kecil empat lawan empat untuk melatih passing cepat, pergerakan tanpa bola, dan pertahanan. Hentikan permainan sesaat untuk membahas keputusan yang tepat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bermain dengan sportif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Permainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca posisi rekan dan lawan, lalu memilih antara mengoper, menggiring, atau menembak. Keputusan yang tergesa-gesa sering menghasilkan kehilangan bola."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sportivitas tampak ketika pemain mengakui pelanggaran, membantu lawan yang jatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian peran yang jelas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gunakan permainan kecil empat lawan empat untuk melatih passing cepat, pergerakan tanpa bola, dan pertahanan. Hentikan permainan sesaat untuk membahas keputusan yang tepat."
+            },
+            {
+              "type": "scenario",
+              "id": "pjok-3-skenario",
+              "title": "Keputusan di menit terakhir",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Timmu tertinggal satu gol dan waktu tersisa satu menit. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menyusun serangan cepat dan mencari ruang lempar",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Keputusan ini memberi tim peluang terbaik."
+                    },
+                    {
+                      "text": "Melempar bola dari jauh setiap kali mendapat bola",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Lemparan terburu-buru mudah dihalangi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Rekanmu kosong di depan gawang, tetapi kamu juga punya ruang menembak. Apa pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "Mengoper ke rekan yang lebih kosong",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Operan ke posisi terbaik adalah inti kerja sama."
+                    },
+                    {
+                      "text": "Tetap menembak meski dijaga",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Peluang rekan yang lebih baik terbuang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Peluang habis karena keputusan diambil tergesa-gesa.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Tim mencetak gol dan bermain sebagai satu kesatuan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "pjok-3-bola-tangan-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu catching?",
+                  "back": "Menangkap bola dengan dua tangan saat menerima operan."
+                },
+                {
+                  "front": "Berapa ukuran lapangan bola tangan?",
+                  "back": "40 meter × 20 meter."
+                },
+                {
+                  "front": "Berapa lama satu babak?",
+                  "back": "30 menit."
+                },
+                {
+                  "front": "Apa itu pivot?",
+                  "back": "Memutar badan dengan kaki poros untuk melepaskan diri dari penjagaan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-3-bola-tangan-cp-3",
+              "question": "Saat menerima bola dengan lawan sangat dekat, tindakan paling aman adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Melakukan pivot untuk melindungi bola",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Langsung menembak tanpa melihat gawang"
+                },
+                {
+                  "id": "c2",
+                  "text": "Melempar bola ke sembarang arah"
+                },
+                {
+                  "id": "c3",
+                  "text": "Berhenti dan menahan bola lebih dari tiga detik"
+                }
+              ],
+              "explanation": "Pivot melindungi bola sambil membuka pandangan untuk mencari rekan."
+            },
+            {
+              "type": "challenge",
+              "id": "pjok-3-tantangan",
+              "title": "Tantangan istilah bola tangan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Jumlah pemain inti",
+                  "answer": "7"
+                },
+                {
+                  "question": "Lama satu babak",
+                  "answer": "30 menit"
+                },
+                {
+                  "question": "Batas menahan bola",
+                  "answer": "3 detik"
+                },
+                {
+                  "question": "Jarak garis penalti",
+                  "answer": "7 meter"
+                },
+                {
+                  "question": "Induk organisasi bola tangan Indonesia",
+                  "answer": "ABTI"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Permainan Bola Tangan — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jumlah pemain inti setiap tim bola tangan?",
+              "options": [
+                {
+                  "text": "7 pemain",
+                  "correct": true
+                },
+                {
+                  "text": "5 pemain"
+                },
+                {
+                  "text": "6 pemain"
+                },
+                {
+                  "text": "11 pemain"
+                }
+              ],
+              "explanation": "Setiap tim menurunkan tujuh pemain inti.",
+              "hint": "Bandingkan dengan bola voli yang enam pemain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa ukuran lapangan bola tangan?",
+              "options": [
+                {
+                  "text": "40 m × 20 m",
+                  "correct": true
+                },
+                {
+                  "text": "28 m × 15 m"
+                },
+                {
+                  "text": "18 m × 9 m"
+                },
+                {
+                  "text": "105 m × 68 m"
+                }
+              ],
+              "explanation": "Lapangan bola tangan berukuran 40 meter × 20 meter.",
+              "hint": "Lapangan ini lebih panjang daripada lapangan bola basket."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa ukuran gawang bola tangan?",
+              "options": [
+                {
+                  "text": "3 m × 2 m",
+                  "correct": true
+                },
+                {
+                  "text": "7,32 m × 2,44 m"
+                },
+                {
+                  "text": "2 m × 1 m"
+                },
+                {
+                  "text": "4 m × 3 m"
+                }
+              ],
+              "explanation": "Gawang bola tangan berukuran lebar 3 meter dan tinggi 2 meter.",
+              "hint": "Gawang sepak bola jauh lebih lebar."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk teknik dasar bola tangan?",
+              "options": [
+                {
+                  "text": "Passing",
+                  "correct": true
+                },
+                {
+                  "text": "Catching",
+                  "correct": true
+                },
+                {
+                  "text": "Shooting",
+                  "correct": true
+                },
+                {
+                  "text": "Smash",
+                  "correct": false
+                },
+                {
+                  "text": "Servis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Passing, catching, dan shooting adalah teknik dasar bola tangan.",
+              "hint": "Smash dan servis berasal dari bola voli."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk pelanggaran dalam bola tangan?",
+              "options": [
+                {
+                  "text": "Melangkah lebih dari tiga langkah",
+                  "correct": true
+                },
+                {
+                  "text": "Menahan bola lebih dari tiga detik",
+                  "correct": true
+                },
+                {
+                  "text": "Melakukan pivot",
+                  "correct": false
+                },
+                {
+                  "text": "Mengoper dengan dua tangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Langkah berlebih dan menahan bola terlalu lama adalah pelanggaran.",
+              "hint": "Pivot dan operan dua tangan adalah gerakan sah."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Permainan Bola Tangan — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa induk organisasi bola tangan Indonesia?",
+              "options": [
+                {
+                  "text": "ABTI",
+                  "correct": true
+                },
+                {
+                  "text": "PSSI"
+                },
+                {
+                  "text": "PERBASI"
+                },
+                {
+                  "text": "PBVSI"
+                }
+              ],
+              "explanation": "ABTI adalah Asosiasi Bola Tangan Indonesia.",
+              "hint": "Bandingkan dengan PSSI untuk sepak bola."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa lama satu babak pertandingan bola tangan?",
+              "options": [
+                {
+                  "text": "30 menit",
+                  "correct": true
+                },
+                {
+                  "text": "45 menit"
+                },
+                {
+                  "text": "20 menit"
+                },
+                {
+                  "text": "40 menit"
+                }
+              ],
+              "explanation": "Satu babak berlangsung 30 menit.",
+              "hint": "Ada dua babak dalam satu pertandingan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa tujuan melakukan passing?",
+              "options": [
+                {
+                  "text": "Memindahkan bola ke rekan",
+                  "correct": true
+                },
+                {
+                  "text": "Membuka ruang serangan",
+                  "correct": true
+                },
+                {
+                  "text": "Mencetak gol langsung",
+                  "correct": false
+                },
+                {
+                  "text": "Menghentikan waktu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Passing memindahkan bola dan membuka ruang, bukan mencetak gol langsung.",
+              "hint": "Gol dicetak melalui shooting."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri dribbling yang benar?",
+              "options": [
+                {
+                  "text": "Bola dipantulkan ke lantai",
+                  "correct": true
+                },
+                {
+                  "text": "Badan menjaga bola dari lawan",
+                  "correct": true
+                },
+                {
+                  "text": "Bola ditahan dengan dua tangan",
+                  "correct": false
+                },
+                {
+                  "text": "Bola dilempar ke udara terus-menerus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dribbling memantulkan bola sambil melindunginya dengan badan.",
+              "hint": "Sentuhan bola tetap terkendali."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Passing",
+                  "right": "mengoper bola kepada rekan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Catching",
+                  "right": "menangkap bola dengan dua tangan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Dribbling",
+                  "right": "memantulkan bola ke lantai"
+                },
+                {
+                  "id": "m3",
+                  "left": "Shooting",
+                  "right": "melempar bola ke gawang"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengoper bola kepada rekan",
+                  "m1": "menangkap bola dengan dua tangan",
+                  "m2": "memantulkan bola ke lantai",
+                  "m3": "melempar bola ke gawang"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan passing dada dalam bola tangan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pegang bola dengan dua tangan di depan dada"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tarik bola sedikit ke belakang"
+                },
+                {
+                  "id": "d2",
+                  "text": "Dorong bola ke depan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Lepaskan bola ke arah rekan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Passing dada dimulai dari pegangan di dada lalu didorong lurus.",
+              "hint": "Arahkan bola ke dada rekan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan shooting dengan awalan langkah.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Ambil awalan satu hingga tiga langkah"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tolak dengan kaki tumpu"
+                },
+                {
+                  "id": "p2",
+                  "text": "Angkat bola ke atas bahu"
+                },
+                {
+                  "id": "p3",
+                  "text": "Lepaskan bola ke gawang"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Shooting berawalan memakai tolakan untuk menambah kekuatan.",
+              "hint": "Jaga keseimbangan saat melepaskan bola."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa langkah maksimal sebelum pemain harus menggiring atau mengoper?",
+              "options": [
+                {
+                  "text": "3 langkah",
+                  "correct": true
+                },
+                {
+                  "text": "2 langkah"
+                },
+                {
+                  "text": "4 langkah"
+                },
+                {
+                  "text": "5 langkah"
+                }
+              ],
+              "explanation": "Pemain boleh melangkah paling banyak tiga langkah.",
+              "hint": "Aturan ini mirip batas menahan bola tiga detik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa radius area gawang bola tangan?",
+              "options": [
+                {
+                  "text": "6 meter",
+                  "correct": true
+                },
+                {
+                  "text": "5 meter"
+                },
+                {
+                  "text": "7 meter"
+                },
+                {
+                  "text": "9 meter"
+                }
+              ],
+              "explanation": "Area gawang berbentuk setengah lingkaran dengan radius 6 meter.",
+              "hint": "Garis penalti berada di belakang area ini."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk jenis lemparan dalam bola tangan?",
+              "options": [
+                {
+                  "text": "Lemparan penalti",
+                  "correct": true
+                },
+                {
+                  "text": "Throw-in",
+                  "correct": true
+                },
+                {
+                  "text": "Lemparan gawang",
+                  "correct": true
+                },
+                {
+                  "text": "Smash",
+                  "correct": false
+                },
+                {
+                  "text": "Jump shot",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lemparan penalti, throw-in, dan lemparan gawang adalah bagian permainan.",
+              "hint": "Smash dan jump shot bukan istilah bola tangan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Permainan Bola Tangan — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jarak garis penalti bola tangan?",
+              "options": [
+                {
+                  "text": "7 meter",
+                  "correct": true
+                },
+                {
+                  "text": "9 meter"
+                },
+                {
+                  "text": "11 meter"
+                },
+                {
+                  "text": "6 meter"
+                }
+              ],
+              "explanation": "Lemparan penalti dilakukan dari garis tujuh meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama lemparan untuk memulai kembali permainan setelah bola keluar?",
+              "options": [
+                {
+                  "text": "Throw-in",
+                  "correct": true
+                },
+                {
+                  "text": "Corner"
+                },
+                {
+                  "text": "Goal kick"
+                },
+                {
+                  "text": "Free kick"
+                }
+              ],
+              "explanation": "Throw-in dilakukan dari garis samping tempat bola keluar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang terjadi bila pemain memasuki area gawang saat menyerang?",
+              "options": [
+                {
+                  "text": "Pelanggaran dan bola diserahkan ke lawan",
+                  "correct": true
+                },
+                {
+                  "text": "Gol dianggap sah"
+                },
+                {
+                  "text": "Pemain mendapat poin tambahan"
+                },
+                {
+                  "text": "Permainan diulang dari tengah"
+                }
+              ],
+              "explanation": "Area gawang hanya boleh dimasuki penjaga gawang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jumlah pemain cadangan yang boleh didaftarkan dalam pertandingan resmi?",
+              "options": [
+                {
+                  "text": "Sesuai regulasi, umumnya hingga 7 pemain",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak ada cadangan"
+                },
+                {
+                  "text": "Hanya 1 pemain"
+                },
+                {
+                  "text": "Hanya 3 pemain"
+                }
+              ],
+              "explanation": "Regulasi umumnya mengizinkan beberapa pemain cadangan untuk rotasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa istilah gerakan memutar badan untuk melepaskan diri dari penjagaan?",
+              "options": [
+                {
+                  "text": "Pivot",
+                  "correct": true
+                },
+                {
+                  "text": "Dribbling"
+                },
+                {
+                  "text": "Catching"
+                },
+                {
+                  "text": "Throw-in"
+                }
+              ],
+              "explanation": "Pivot memakai satu kaki sebagai poros untuk memutar badan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tugas penjaga gawang?",
+              "options": [
+                {
+                  "text": "Menghalangi bola masuk gawang",
+                  "correct": true
+                },
+                {
+                  "text": "Memulai serangan dengan lemparan",
+                  "correct": true
+                },
+                {
+                  "text": "Mencetak gol dari area lawan",
+                  "correct": false
+                },
+                {
+                  "text": "Mengatur kartu pemain",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penjaga gawang menghalangi bola dan dapat memulai serangan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pola pertahanan yang umum?",
+              "options": [
+                {
+                  "text": "6-0",
+                  "correct": true
+                },
+                {
+                  "text": "5-1",
+                  "correct": true
+                },
+                {
+                  "text": "4-4-2",
+                  "correct": false
+                },
+                {
+                  "text": "2-2-6",
+                  "correct": false
+                }
+              ],
+              "explanation": "6-0 dan 5-1 adalah pola pertahanan bola tangan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Pivot",
+                  "right": "memutar badan dengan kaki poros"
+                },
+                {
+                  "id": "m1",
+                  "left": "Throw-in",
+                  "right": "lemparan ke dalam setelah bola keluar"
+                },
+                {
+                  "id": "m2",
+                  "left": "Penalti",
+                  "right": "lemparan dari garis tujuh meter"
+                },
+                {
+                  "id": "m3",
+                  "left": "Area gawang",
+                  "right": "daerah radius enam meter di depan gawang"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "memutar badan dengan kaki poros",
+                  "m1": "lemparan ke dalam setelah bola keluar",
+                  "m2": "lemparan dari garis tujuh meter",
+                  "m3": "daerah radius enam meter di depan gawang"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan fase menggiring bola.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pantulkan bola ke lantai"
+                },
+                {
+                  "id": "d1",
+                  "text": "Jaga bola dekat tangan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Arahkan pandangan ke depan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Percepat langkah saat melewati lawan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Dribbling menjaga bola dekat sambil membaca situasi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan pivot.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Terima bola"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tetapkan satu kaki sebagai poros"
+                },
+                {
+                  "id": "p2",
+                  "text": "Putar badan menjauhi lawan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Cari rekan atau tembakan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Pivot dimulai dari menerima bola lalu memutar badan dengan kaki poros."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa tujuan utama shooting dalam bola tangan?",
+              "options": [
+                {
+                  "text": "Mencetak gol ke gawang lawan",
+                  "correct": true
+                },
+                {
+                  "text": "Menghentikan waktu"
+                },
+                {
+                  "text": "Mengoper ke rekan"
+                },
+                {
+                  "text": "Menjaga bola dari lawan"
+                }
+              ],
+              "explanation": "Shooting diarahkan ke gawang untuk mencetak gol."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa ukuran bola tangan untuk pemain putra?",
+              "options": [
+                {
+                  "text": "58–60 cm",
+                  "correct": true
+                },
+                {
+                  "text": "54–56 cm"
+                },
+                {
+                  "text": "62–64 cm"
+                },
+                {
+                  "text": "50–52 cm"
+                }
+              ],
+              "explanation": "Bola putra berdiameter 58–60 cm, bola putri 54–56 cm."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang area gawang?",
+              "options": [
+                {
+                  "text": "Hanya penjaga gawang yang boleh berada di dalamnya",
+                  "correct": true
+                },
+                {
+                  "text": "Pemain lapangan tidak boleh memasukinya saat menyerang",
+                  "correct": true
+                },
+                {
+                  "text": "Semua pemain boleh berdiri di dalamnya",
+                  "correct": false
+                },
+                {
+                  "text": "Area gawang tidak memiliki batas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Area gawang khusus penjaga gawang; pemain lapangan tidak boleh memasukinya."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Passing",
+                  "right": "mengoper bola kepada rekan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Catching",
+                  "right": "menangkap bola dengan dua tangan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Dribbling",
+                  "right": "memantulkan bola ke lantai"
+                },
+                {
+                  "id": "m3",
+                  "left": "Shooting",
+                  "right": "melempar bola ke gawang"
+                },
+                {
+                  "id": "m4",
+                  "left": "Pivot",
+                  "right": "memutar badan dengan kaki poros"
+                },
+                {
+                  "id": "m5",
+                  "left": "Throw-in",
+                  "right": "lemparan ke dalam setelah bola keluar"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengoper bola kepada rekan",
+                  "m1": "menangkap bola dengan dua tangan",
+                  "m2": "memantulkan bola ke lantai",
+                  "m3": "melempar bola ke gawang",
+                  "m4": "memutar badan dengan kaki poros",
+                  "m5": "lemparan ke dalam setelah bola keluar"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur serangan cepat dalam bola tangan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Penjaga gawang menangkap bola"
+                },
+                {
+                  "id": "d1",
+                  "text": "Lempar ke sayap"
+                },
+                {
+                  "id": "d2",
+                  "text": "Buka jalur ke gawang"
+                },
+                {
+                  "id": "d3",
+                  "text": "Selesaikan dengan shooting"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Serangan cepat bergerak dari penjaga gawang menuju penyelesaian."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

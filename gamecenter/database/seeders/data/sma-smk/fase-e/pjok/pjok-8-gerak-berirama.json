@@ -1,0 +1,1240 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pjok",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PJOK 8",
+      "title": "Gerak Berirama",
+      "description": "Mempelajari senam irama, unsur gerak, langkah dasar, ayunan lengan, penggunaan alat, dan penyusunan rangkaian gerak dengan iringan musik.",
+      "learning_objectives": [
+        "Menjelaskan pengertian dan unsur gerak berirama.",
+        "Mempraktikkan langkah dasar dan ayunan lengan sesuai ketukan.",
+        "Menyusun rangkaian gerak berirama secara berkelompok.",
+        "Menunjukkan kekompakan, disiplin, dan sportivitas dalam berlatih.",
+        "Menjaga keselamatan diri dan teman selama latihan gerak berirama."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "PJOK-BG-KLS-X.pdf Bab 8 Gerak Berirama; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa gerak berirama menyenangkan?",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 8 Gerak Berirama; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Bergerak selaras dengan musik\n\nGerak berirama adalah aktivitas jasmani yang dilakukan mengikuti irama musik, ketukan, atau nyanyian. Gerakannya menggabungkan kelenturan, keseimbangan, dan koordinasi tubuh.\n\nSenam irama dapat dilakukan tanpa alat atau dengan alat seperti simpai, tali, bola, gada, dan pita. Gerakan diiringi musik agar tubuh bergerak selaras dan kompak.\n\nGerak berirama melatih kebugaran, kepekaan terhadap irama, dan kerja sama. Dalam kelompok, setiap anggota harus bergerak pada waktu yang sama agar tampak rapi.\n\nGunakan pakaian yang nyaman, alas kaki yang tidak licin, dan lakukan pemanasan sebelum berlatih agar gerakan aman.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "pjok-8-gerak-berirama-glosarium",
+              "terms": [
+                {
+                  "term": "Gerak berirama",
+                  "definition": "Gerak senam yang dilakukan mengikuti irama musik atau ketukan."
+                },
+                {
+                  "term": "Senam irama",
+                  "definition": "Senam yang memadukan gerak dengan musik, hitungan, atau nyanyian."
+                },
+                {
+                  "term": "Langkah biasa",
+                  "definition": "Langkah ke depan dengan kaki bergantian mengikuti irama."
+                },
+                {
+                  "term": "Langkah rapat",
+                  "definition": "Langkah yang diakhiri dengan merapatkan kaki di sisi kaki tumpu."
+                },
+                {
+                  "term": "Langkah keseimbangan",
+                  "definition": "Langkah dengan satu kaki ditahan sebentar untuk menjaga keseimbangan."
+                },
+                {
+                  "term": "Ayunan lengan",
+                  "definition": "Gerak mengayunkan lengan ke depan, samping, atau atas sesuai irama."
+                },
+                {
+                  "term": "Simpai",
+                  "definition": "Alat berbentuk lingkaran yang digunakan dalam senam irama."
+                },
+                {
+                  "term": "Keluwesan",
+                  "definition": "Kemampuan melakukan gerak secara lentur dan tidak kaku."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bergerak selaras dengan musik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gerak berirama adalah aktivitas jasmani yang dilakukan mengikuti irama musik, ketukan, atau nyanyian. Gerakannya menggabungkan kelenturan, keseimbangan, dan koordinasi tubuh."
+            },
+            {
+              "type": "paragraph",
+              "text": "Senam irama dapat dilakukan tanpa alat atau dengan alat seperti simpai, tali, bola, gada, dan pita. Gerakan diiringi musik agar tubuh bergerak selaras dan kompak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gerak berirama melatih kebugaran, kepekaan terhadap irama, dan kerja sama. Dalam kelompok, setiap anggota harus bergerak pada waktu yang sama agar tampak rapi."
+            },
+            {
+              "type": "diagram",
+              "id": "pjok-8-gerak-berirama-diagram",
+              "engine": "mermaid",
+              "title": "Alur belajar gerak berirama",
+              "code": "flowchart LR\n  A[Mendengar irama] --> B[Menghitung ketukan]\n  B --> C[Melakukan langkah dasar]\n  C --> D[Menambahkan ayunan lengan]\n  D --> E[Merangkai gerak]\n  E --> F[Tampil berkelompok]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan pakaian yang nyaman, alas kaki yang tidak licin, dan lakukan pemanasan sebelum berlatih agar gerakan aman."
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-8-gerak-berirama-cp-1",
+              "question": "Apa yang menjadi pengiring utama gerak berirama?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Musik atau ketukan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Sorakan penonton"
+                },
+                {
+                  "id": "c2",
+                  "text": "Bunyi peluit wasit"
+                },
+                {
+                  "id": "c3",
+                  "text": "Suara kendaraan"
+                }
+              ],
+              "explanation": "Gerak berirama dilakukan mengikuti musik, ketukan, atau nyanyian."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Unsur dan langkah dasar",
+          "duration": 300,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 8 Gerak Berirama; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Unsur gerak, langkah, dan ayunan\n\nGerak berirama memiliki beberapa unsur utama: kelenturan, keseimbangan, keluwesan, ketepatan irama, dan koordinasi. Unsur-unsur ini membuat gerakan tampak indah dan selaras.\n\nLangkah dasar dalam senam irama meliputi langkah biasa, langkah rapat, langkah keseimbangan, dan langkah samping. Ayunan lengan dilakukan ke depan, samping, atau atas sesuai ketukan.\n\nGerakan dapat dihitung dalam birama 2/4, 3/4, atau 4/4. Hitungan membantu kelompok bergerak serempak. Alat seperti simpai dan tali menambah variasi gerakan.\n\n| Unsur/Gerak | Tujuan | Kunci gerak |\n|---|---|---|\n| Kelenturan | Gerakan tidak kaku | Lenturkan sendi dan otot |\n| Keseimbangan | Tubuh stabil | Tumpuan kaki kuat, badan tegak |\n| Langkah biasa | Bergerak maju | Kaki bergantian mengikuti irama |\n| Langkah rapat | Merapatkan kaki | Kaki dirapatkan di sisi kaki tumpu |\n| Ayunan lengan | Memperindah gerak | Lengan rileks, arah sesuai hitungan |\n\n### Alat dan iringan\n\n- Simpai diputar atau diayunkan mengikuti irama.\n- Tali diayunkan melewati tubuh sesuai hitungan.\n- Bola diayunkan atau dilempar ringan dengan kendali.\n- Pita digerakkan membentuk pola lengkung agar tampak indah.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Unsur gerak, langkah, dan ayunan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gerak berirama memiliki beberapa unsur utama: kelenturan, keseimbangan, keluwesan, ketepatan irama, dan koordinasi. Unsur-unsur ini membuat gerakan tampak indah dan selaras."
+            },
+            {
+              "type": "paragraph",
+              "text": "Langkah dasar dalam senam irama meliputi langkah biasa, langkah rapat, langkah keseimbangan, dan langkah samping. Ayunan lengan dilakukan ke depan, samping, atau atas sesuai ketukan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gerakan dapat dihitung dalam birama 2/4, 3/4, atau 4/4. Hitungan membantu kelompok bergerak serempak. Alat seperti simpai dan tali menambah variasi gerakan."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Unsur/Gerak",
+                  "Tujuan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Kelenturan",
+                  "Gerakan tidak kaku",
+                  "Lenturkan sendi dan otot"
+                ],
+                [
+                  "Keseimbangan",
+                  "Tubuh stabil",
+                  "Tumpuan kaki kuat, badan tegak"
+                ],
+                [
+                  "Langkah biasa",
+                  "Bergerak maju",
+                  "Kaki bergantian mengikuti irama"
+                ],
+                [
+                  "Langkah rapat",
+                  "Merapatkan kaki",
+                  "Kaki dirapatkan di sisi kaki tumpu"
+                ],
+                [
+                  "Ayunan lengan",
+                  "Memperindah gerak",
+                  "Lengan rileks, arah sesuai hitungan"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pjok-8-hitungan-birama",
+              "title": "Jumlah ketukan dalam satu birama",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Birama 2/4",
+                  "value": 2
+                },
+                {
+                  "label": "Birama 3/4",
+                  "value": 3
+                },
+                {
+                  "label": "Birama 4/4",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pjok-8-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam langkah kaki atau ayunan lengan.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Langkah kaki"
+                },
+                {
+                  "id": "b2",
+                  "label": "Ayunan lengan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Langkah biasa",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Langkah rapat",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Ayunan ke depan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Ayunan ke samping",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Langkah keseimbangan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Ayunan ke atas",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Langkah biasa, rapat, dan keseimbangan termasuk gerak kaki; ayunan termasuk gerak lengan.",
+                "wrong": "Periksa lagi: langkah memakai kaki, ayunan memakai lengan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Alat dan iringan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Simpai diputar atau diayunkan mengikuti irama.",
+                "Tali diayunkan melewati tubuh sesuai hitungan.",
+                "Bola diayunkan atau dilempar ringan dengan kendali.",
+                "Pita digerakkan membentuk pola lengkung agar tampak indah."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-8-gerak-berirama-cp-2",
+              "question": "Berapa ketukan dalam satu birama 4/4?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "4 ketukan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "2 ketukan"
+                },
+                {
+                  "id": "c2",
+                  "text": "3 ketukan"
+                },
+                {
+                  "id": "c3",
+                  "text": "6 ketukan"
+                }
+              ],
+              "explanation": "Birama 4/4 memiliki empat ketukan dalam satu birama."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 8 Gerak Berirama; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Bergerak kompak dan sportif\n\nGerak berirama menuntut kekompakan. Setiap anggota kelompok harus menghitung ketukan dan bergerak pada waktu yang sama. Latihan berulang membantu tubuh mengingat urutan gerak.\n\nSportivitas tampak ketika peserta memberi semangat, menerima masukan, dan tidak menyalahkan teman saat gerakan belum rapi. Kerja sama dibangun melalui latihan bersama.\n\nSusun rangkaian gerak sederhana: langkah biasa, ayunan lengan, langkah rapat, lalu gerak keseimbangan. Ulangi rangkaian sampai kompak sebelum tampil.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bergerak kompak dan sportif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gerak berirama menuntut kekompakan. Setiap anggota kelompok harus menghitung ketukan dan bergerak pada waktu yang sama. Latihan berulang membantu tubuh mengingat urutan gerak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sportivitas tampak ketika peserta memberi semangat, menerima masukan, dan tidak menyalahkan teman saat gerakan belum rapi. Kerja sama dibangun melalui latihan bersama."
+            },
+            {
+              "type": "paragraph",
+              "text": "Susun rangkaian gerak sederhana: langkah biasa, ayunan lengan, langkah rapat, lalu gerak keseimbangan. Ulangi rangkaian sampai kompak sebelum tampil."
+            },
+            {
+              "type": "scenario",
+              "id": "pjok-8-skenario",
+              "title": "Keputusan saat latihan kelompok",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Saat latihan, satu anggota kelompok sering terlambat mengikuti hitungan. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengulang latihan bersama dengan hitungan yang jelas",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Latihan bersama membantu kekompakan."
+                    },
+                    {
+                      "text": "Membiarkannya dan berharap tampil baik",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Ketidakkompakan akan terlihat saat tampil."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Musik yang dipakai terlalu cepat untuk rangkaian gerak kalian. Apa pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "Memilih tempo yang sesuai kemampuan kelompok",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Tempo yang sesuai membuat gerakan lebih rapi."
+                    },
+                    {
+                      "text": "Tetap memakai tempo cepat agar terlihat sulit",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tempo terlalu cepat membuat gerakan tidak kompak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Penampilan kurang rapi karena latihan tidak disesuaikan.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Kelompok tampil kompak dan selaras dengan irama.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "pjok-8-gerak-berirama-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu gerak berirama?",
+                  "back": "Gerak senam yang dilakukan mengikuti irama musik atau ketukan."
+                },
+                {
+                  "front": "Sebutkan unsur gerak berirama.",
+                  "back": "Kelenturan, keseimbangan, keluwesan, ketepatan irama, dan koordinasi."
+                },
+                {
+                  "front": "Apa itu langkah rapat?",
+                  "back": "Langkah yang diakhiri dengan merapatkan kaki di sisi kaki tumpu."
+                },
+                {
+                  "front": "Sebutkan alat senam irama.",
+                  "back": "Simpai, tali, bola, gada, dan pita."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-8-gerak-berirama-cp-3",
+              "question": "Agar kelompok tampil kompak, hal paling penting adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Berlatih bersama dengan hitungan yang jelas",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Memakai musik paling cepat"
+                },
+                {
+                  "id": "c2",
+                  "text": "Bergerak sesuai keinginan masing-masing"
+                },
+                {
+                  "id": "c3",
+                  "text": "Menghafal gerakan tanpa berlatih"
+                }
+              ],
+              "explanation": "Latihan bersama dengan hitungan jelas membuat gerakan serempak."
+            },
+            {
+              "type": "challenge",
+              "id": "pjok-8-tantangan",
+              "title": "Tantangan istilah gerak berirama",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Pengiring gerak berirama",
+                  "answer": "musik"
+                },
+                {
+                  "question": "Alat berbentuk lingkaran",
+                  "answer": "simpai"
+                },
+                {
+                  "question": "Langkah yang merapatkan kaki",
+                  "answer": "langkah rapat"
+                },
+                {
+                  "question": "Jumlah ketukan birama 3/4",
+                  "answer": "3"
+                },
+                {
+                  "question": "Kemampuan bergerak lentur",
+                  "answer": "keluwesan"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Gerak Berirama — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang mengiringi gerak berirama?",
+              "options": [
+                {
+                  "text": "Musik atau ketukan",
+                  "correct": true
+                },
+                {
+                  "text": "Peluit wasit"
+                },
+                {
+                  "text": "Sorakan penonton"
+                },
+                {
+                  "text": "Bunyi kendaraan"
+                }
+              ],
+              "explanation": "Gerak berirama dilakukan mengikuti musik, ketukan, atau nyanyian.",
+              "hint": "Irama membantu tubuh bergerak selaras."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama lain dari gerak berirama?",
+              "options": [
+                {
+                  "text": "Senam irama",
+                  "correct": true
+                },
+                {
+                  "text": "Senam lantai"
+                },
+                {
+                  "text": "Senam ketangkasan"
+                },
+                {
+                  "text": "Senam aerobik"
+                }
+              ],
+              "explanation": "Gerak berirama juga disebut senam irama.",
+              "hint": "Gerakan ini menekankan keselarasan dengan irama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa induk organisasi senam Indonesia?",
+              "options": [
+                {
+                  "text": "PERSANI",
+                  "correct": true
+                },
+                {
+                  "text": "PASI"
+                },
+                {
+                  "text": "PBSI"
+                },
+                {
+                  "text": "PERBASI"
+                }
+              ],
+              "explanation": "PERSANI adalah Persatuan Senam Indonesia.",
+              "hint": "Organisasi ini juga menaungi senam irama."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk unsur gerak berirama?",
+              "options": [
+                {
+                  "text": "Kelenturan",
+                  "correct": true
+                },
+                {
+                  "text": "Keseimbangan",
+                  "correct": true
+                },
+                {
+                  "text": "Ketepatan irama",
+                  "correct": true
+                },
+                {
+                  "text": "Kecepatan berkendara",
+                  "correct": false
+                },
+                {
+                  "text": "Kekuatan menggigit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kelenturan, keseimbangan, dan ketepatan irama adalah unsur gerak berirama.",
+              "hint": "Unsur lain di luar gerak berirama."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk langkah dasar senam irama?",
+              "options": [
+                {
+                  "text": "Langkah biasa",
+                  "correct": true
+                },
+                {
+                  "text": "Langkah rapat",
+                  "correct": true
+                },
+                {
+                  "text": "Langkah smash",
+                  "correct": false
+                },
+                {
+                  "text": "Langkah servis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Langkah biasa dan langkah rapat adalah langkah dasar senam irama.",
+              "hint": "Smash dan servis bukan istilah senam irama."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Gerak Berirama — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama langkah yang diakhiri merapatkan kaki?",
+              "options": [
+                {
+                  "text": "Langkah rapat",
+                  "correct": true
+                },
+                {
+                  "text": "Langkah biasa"
+                },
+                {
+                  "text": "Langkah keseimbangan"
+                },
+                {
+                  "text": "Langkah samping"
+                }
+              ],
+              "explanation": "Langkah rapat diakhiri dengan merapatkan kaki di sisi kaki tumpu.",
+              "hint": "Gerakan ini membuat posisi kaki kembali rapat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama langkah dengan satu kaki ditahan sebentar?",
+              "options": [
+                {
+                  "text": "Langkah keseimbangan",
+                  "correct": true
+                },
+                {
+                  "text": "Langkah biasa"
+                },
+                {
+                  "text": "Langkah rapat"
+                },
+                {
+                  "text": "Langkah samping"
+                }
+              ],
+              "explanation": "Langkah keseimbangan menahan satu kaki sebentar untuk menjaga keseimbangan.",
+              "hint": "Gerakan ini melatih kestabilan tubuh."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa manfaat gerak berirama?",
+              "options": [
+                {
+                  "text": "Melatih kebugaran",
+                  "correct": true
+                },
+                {
+                  "text": "Melatih kepekaan irama",
+                  "correct": true
+                },
+                {
+                  "text": "Menghilangkan kebutuhan pemanasan",
+                  "correct": false
+                },
+                {
+                  "text": "Menggantikan tidur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Gerak berirama melatih kebugaran dan kepekaan irama.",
+              "hint": "Pemanasan tetap diperlukan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri gerakan yang selaras dengan irama?",
+              "options": [
+                {
+                  "text": "Gerak mengikuti ketukan",
+                  "correct": true
+                },
+                {
+                  "text": "Gerak dilakukan serempak",
+                  "correct": true
+                },
+                {
+                  "text": "Gerak acak tanpa hitungan",
+                  "correct": false
+                },
+                {
+                  "text": "Setiap orang bergerak berbeda",
+                  "correct": false
+                }
+              ],
+              "explanation": "Gerak selaras mengikuti ketukan dan dilakukan serempak.",
+              "hint": "Hitungan membantu kekompakan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Gerak berirama",
+                  "right": "gerak mengikuti irama musik"
+                },
+                {
+                  "id": "m1",
+                  "left": "Langkah biasa",
+                  "right": "langkah ke depan dengan kaki bergantian"
+                },
+                {
+                  "id": "m2",
+                  "left": "Langkah rapat",
+                  "right": "langkah yang merapatkan kaki"
+                },
+                {
+                  "id": "m3",
+                  "left": "Langkah keseimbangan",
+                  "right": "langkah dengan satu kaki ditahan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "gerak mengikuti irama musik",
+                  "m1": "langkah ke depan dengan kaki bergantian",
+                  "m2": "langkah yang merapatkan kaki",
+                  "m3": "langkah dengan satu kaki ditahan"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan gerak langkah biasa.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Berdiri tegak"
+                },
+                {
+                  "id": "d1",
+                  "text": "Langkahkan kaki kanan ke depan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Langkahkan kaki kiri menyusul"
+                },
+                {
+                  "id": "d3",
+                  "text": "Ulangi sesuai hitungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Langkah biasa dilakukan dengan kaki bergantian mengikuti irama.",
+              "hint": "Jaga badan tetap tegak."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan langkah rapat.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Langkahkan satu kaki ke samping"
+                },
+                {
+                  "id": "p1",
+                  "text": "Rapatkan kaki lainnya"
+                },
+                {
+                  "id": "p2",
+                  "text": "Kembalikan ke posisi semula"
+                },
+                {
+                  "id": "p3",
+                  "text": "Ulangi sesuai hitungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Langkah rapat diakhiri dengan merapatkan kaki.",
+              "hint": "Gerakan dilakukan bergantian ke dua arah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa ketukan dalam birama 3/4?",
+              "options": [
+                {
+                  "text": "3 ketukan",
+                  "correct": true
+                },
+                {
+                  "text": "2 ketukan"
+                },
+                {
+                  "text": "4 ketukan"
+                },
+                {
+                  "text": "6 ketukan"
+                }
+              ],
+              "explanation": "Birama 3/4 memiliki tiga ketukan.",
+              "hint": "Hitung satu, dua, tiga secara berulang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa ketukan dalam birama 4/4?",
+              "options": [
+                {
+                  "text": "4 ketukan",
+                  "correct": true
+                },
+                {
+                  "text": "2 ketukan"
+                },
+                {
+                  "text": "3 ketukan"
+                },
+                {
+                  "text": "6 ketukan"
+                }
+              ],
+              "explanation": "Birama 4/4 memiliki empat ketukan.",
+              "hint": "Birama ini sering dipakai dalam musik populer."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk alat senam irama?",
+              "options": [
+                {
+                  "text": "Simpai",
+                  "correct": true
+                },
+                {
+                  "text": "Tali",
+                  "correct": true
+                },
+                {
+                  "text": "Pita",
+                  "correct": true
+                },
+                {
+                  "text": "Raket",
+                  "correct": false
+                },
+                {
+                  "text": "Tongkat estafet",
+                  "correct": false
+                }
+              ],
+              "explanation": "Simpai, tali, dan pita adalah alat senam irama.",
+              "hint": "Raket dan tongkat estafet bukan alat senam irama."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Gerak Berirama — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama alat senam irama berbentuk lingkaran?",
+              "options": [
+                {
+                  "text": "Simpai",
+                  "correct": true
+                },
+                {
+                  "text": "Tali"
+                },
+                {
+                  "text": "Gada"
+                },
+                {
+                  "text": "Pita"
+                }
+              ],
+              "explanation": "Simpai adalah alat berbentuk lingkaran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama alat senam irama yang panjang dan lentur?",
+              "options": [
+                {
+                  "text": "Pita",
+                  "correct": true
+                },
+                {
+                  "text": "Simpai"
+                },
+                {
+                  "text": "Bola"
+                },
+                {
+                  "text": "Gada"
+                }
+              ],
+              "explanation": "Pita adalah alat panjang dan lentur yang digerakkan membentuk pola."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa unsur gerak berirama yang membuat gerakan tidak kaku?",
+              "options": [
+                {
+                  "text": "Kelenturan",
+                  "correct": true
+                },
+                {
+                  "text": "Kekuatan"
+                },
+                {
+                  "text": "Kecepatan"
+                },
+                {
+                  "text": "Ketepatan"
+                }
+              ],
+              "explanation": "Kelenturan membuat gerakan tampak lentur dan tidak kaku."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa unsur yang membuat tubuh tetap stabil saat bergerak?",
+              "options": [
+                {
+                  "text": "Keseimbangan",
+                  "correct": true
+                },
+                {
+                  "text": "Kelenturan"
+                },
+                {
+                  "text": "Kecepatan"
+                },
+                {
+                  "text": "Daya tahan"
+                }
+              ],
+              "explanation": "Keseimbangan menjaga tubuh tetap stabil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa tujuan ayunan lengan dalam gerak berirama?",
+              "options": [
+                {
+                  "text": "Memperindah gerakan",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah berat badan"
+                },
+                {
+                  "text": "Menghentikan musik"
+                },
+                {
+                  "text": "Mengganti langkah kaki"
+                }
+              ],
+              "explanation": "Ayunan lengan membuat gerakan lebih indah dan selaras."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah unsur yang membuat gerakan tampak indah?",
+              "options": [
+                {
+                  "text": "Keluwesan",
+                  "correct": true
+                },
+                {
+                  "text": "Koordinasi",
+                  "correct": true
+                },
+                {
+                  "text": "Kekakuan",
+                  "correct": false
+                },
+                {
+                  "text": "Ketegangan berlebih",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keluwesan dan koordinasi membuat gerakan indah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang birama?",
+              "options": [
+                {
+                  "text": "Birama 2/4 memiliki 2 ketukan",
+                  "correct": true
+                },
+                {
+                  "text": "Birama 4/4 memiliki 4 ketukan",
+                  "correct": true
+                },
+                {
+                  "text": "Birama 3/4 memiliki 4 ketukan",
+                  "correct": false
+                },
+                {
+                  "text": "Birama 4/4 memiliki 2 ketukan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jumlah ketukan sesuai angka pembilang birama."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Ayunan lengan",
+                  "right": "gerak lengan sesuai irama"
+                },
+                {
+                  "id": "m1",
+                  "left": "Simpai",
+                  "right": "alat senam berbentuk lingkaran"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pita",
+                  "right": "alat senam panjang dan lentur"
+                },
+                {
+                  "id": "m3",
+                  "left": "Keluwesan",
+                  "right": "kemampuan bergerak lentur"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "gerak lengan sesuai irama",
+                  "m1": "alat senam berbentuk lingkaran",
+                  "m2": "alat senam panjang dan lentur",
+                  "m3": "kemampuan bergerak lentur"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan ayunan lengan ke depan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Berdiri tegak"
+                },
+                {
+                  "id": "d1",
+                  "text": "Rentangkan lengan ke bawah"
+                },
+                {
+                  "id": "d2",
+                  "text": "Ayunkan lengan ke depan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Kembalikan sesuai hitungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Ayunan lengan dilakukan rileks mengikuti ketukan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menyusun rangkaian gerak berirama.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Pilih musik dan hitungan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tentukan langkah dasar"
+                },
+                {
+                  "id": "p2",
+                  "text": "Tambahkan ayunan lengan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Latih rangkaian bersama kelompok"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Rangkaian disusun dari musik, langkah, ayunan, lalu latihan bersama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang harus dilakukan sebelum latihan gerak berirama?",
+              "options": [
+                {
+                  "text": "Pemanasan",
+                  "correct": true
+                },
+                {
+                  "text": "Langsung tampil"
+                },
+                {
+                  "text": "Makan berat"
+                },
+                {
+                  "text": "Berlari jauh"
+                }
+              ],
+              "explanation": "Pemanasan menyiapkan otot dan sendi sebelum bergerak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang membuat kelompok tampak rapi saat tampil?",
+              "options": [
+                {
+                  "text": "Gerakan serempak sesuai hitungan",
+                  "correct": true
+                },
+                {
+                  "text": "Gerakan berbeda setiap orang"
+                },
+                {
+                  "text": "Musik paling cepat"
+                },
+                {
+                  "text": "Tidak berlatih bersama"
+                }
+              ],
+              "explanation": "Kekompakan muncul dari latihan bersama dan hitungan yang jelas."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang latihan kelompok?",
+              "options": [
+                {
+                  "text": "Latihan dilakukan bersama",
+                  "correct": true
+                },
+                {
+                  "text": "Hitungan dibuat jelas",
+                  "correct": true
+                },
+                {
+                  "text": "Setiap anggota berlatih sendiri tanpa koordinasi",
+                  "correct": false
+                },
+                {
+                  "text": "Tempo musik tidak perlu diperhatikan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Latihan bersama dan hitungan jelas membuat kelompok kompak."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Gerak berirama",
+                  "right": "gerak mengikuti irama musik"
+                },
+                {
+                  "id": "m1",
+                  "left": "Langkah biasa",
+                  "right": "langkah ke depan dengan kaki bergantian"
+                },
+                {
+                  "id": "m2",
+                  "left": "Langkah rapat",
+                  "right": "langkah yang merapatkan kaki"
+                },
+                {
+                  "id": "m3",
+                  "left": "Langkah keseimbangan",
+                  "right": "langkah dengan satu kaki ditahan"
+                },
+                {
+                  "id": "m4",
+                  "left": "Ayunan lengan",
+                  "right": "gerak lengan sesuai irama"
+                },
+                {
+                  "id": "m5",
+                  "left": "Simpai",
+                  "right": "alat senam berbentuk lingkaran"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "gerak mengikuti irama musik",
+                  "m1": "langkah ke depan dengan kaki bergantian",
+                  "m2": "langkah yang merapatkan kaki",
+                  "m3": "langkah dengan satu kaki ditahan",
+                  "m4": "gerak lengan sesuai irama",
+                  "m5": "alat senam berbentuk lingkaran"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur latihan gerak berirama yang aman.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pemanasan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Latihan langkah dasar"
+                },
+                {
+                  "id": "d2",
+                  "text": "Latihan rangkaian dengan musik"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pendinginan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Latihan dimulai dari pemanasan dan diakhiri pendinginan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

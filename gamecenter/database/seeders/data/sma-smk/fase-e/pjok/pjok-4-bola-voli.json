@@ -1,0 +1,1236 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pjok",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PJOK 4",
+      "title": "Permainan Bola Voli",
+      "description": "Mempelajari sejarah dan peraturan bola voli, teknik servis, passing, smash, dan block, serta kerja sama tim dalam menyusun serangan.",
+      "learning_objectives": [
+        "Menjelaskan sejarah dan peraturan dasar permainan bola voli.",
+        "Mempraktikkan teknik servis, passing bawah, passing atas, smash, dan block.",
+        "Menerapkan pola serangan dan pertahanan sederhana dalam bola voli.",
+        "Menunjukkan sportivitas, disiplin, dan kerja sama selama bermain.",
+        "Menjaga keselamatan diri dan teman melalui pemanasan serta pendinginan."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "PJOK-BG-KLS-X.pdf Bab 4 Permainan Bola Voli; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa bola voli menarik?",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 4 Permainan Bola Voli; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Permainan tim yang menuntut koordinasi\n\nBola voli adalah permainan bola besar yang dimainkan dua tim. Setiap tim berusaha menjatuhkan bola di daerah lawan melewati net. Bola boleh dimainkan paling banyak tiga sentuhan sebelum dikembalikan.\n\nWilliam G. Morgan menciptakan bola voli pada 1895 di Amerika Serikat. Ia mencari permainan yang lebih ringan daripada bola basket. Di Indonesia, Persatuan Bola Voli Seluruh Indonesia (PBVSI) berdiri pada 22 Januari 1955.\n\nBola voli melatih koordinasi, reaksi cepat, dan komunikasi. Setiap pemain memiliki peran khusus, mulai dari pengumpan hingga penyerang.\n\nPotong kuku, lepas aksesori, dan periksa net serta tiang sebelum bermain agar cedera dapat dicegah.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "pjok-4-bola-voli-glosarium",
+              "terms": [
+                {
+                  "term": "Bola voli",
+                  "definition": "Olahraga dua tim berisi enam pemain yang berusaha menjatuhkan bola di daerah lawan."
+                },
+                {
+                  "term": "Servis",
+                  "definition": "Pukulan pertama untuk memulai rally dari belakang garis lapangan."
+                },
+                {
+                  "term": "Passing bawah",
+                  "definition": "Menerima bola dengan kedua lengan bawah yang dirapatkan."
+                },
+                {
+                  "term": "Passing atas",
+                  "definition": "Menerima bola dengan ujung jari di atas dahi untuk menyiapkan serangan."
+                },
+                {
+                  "term": "Smash",
+                  "definition": "Memukul bola keras ke bawah di daerah lawan."
+                },
+                {
+                  "term": "Block",
+                  "definition": "Menahan bola di dekat net dengan kedua tangan terangkat."
+                },
+                {
+                  "term": "Libero",
+                  "definition": "Pemain bertahan khusus yang memakai seragam berbeda dan tidak boleh melakukan smash."
+                },
+                {
+                  "term": "Rally point",
+                  "definition": "Sistem penilaian ketika setiap rally menghasilkan satu poin."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Permainan tim yang menuntut koordinasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bola voli adalah permainan bola besar yang dimainkan dua tim. Setiap tim berusaha menjatuhkan bola di daerah lawan melewati net. Bola boleh dimainkan paling banyak tiga sentuhan sebelum dikembalikan."
+            },
+            {
+              "type": "paragraph",
+              "text": "William G. Morgan menciptakan bola voli pada 1895 di Amerika Serikat. Ia mencari permainan yang lebih ringan daripada bola basket. Di Indonesia, Persatuan Bola Voli Seluruh Indonesia (PBVSI) berdiri pada 22 Januari 1955."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bola voli melatih koordinasi, reaksi cepat, dan komunikasi. Setiap pemain memiliki peran khusus, mulai dari pengumpan hingga penyerang."
+            },
+            {
+              "type": "diagram",
+              "id": "pjok-4-bola-voli-diagram",
+              "engine": "mermaid",
+              "title": "Alur dasar permainan bola voli",
+              "code": "flowchart LR\n  A[Servis] --> B[Terima bola]\n  B --> C[Passing ke pengumpan]\n  C --> D[Umpan ke penyerang]\n  D --> E[Smash]\n  E --> F[Bertahan dan ulangi]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Potong kuku, lepas aksesori, dan periksa net serta tiang sebelum bermain agar cedera dapat dicegah."
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-4-bola-voli-cp-1",
+              "question": "Siapa pencipta permainan bola voli?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "William G. Morgan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "James Naismith"
+                },
+                {
+                  "id": "c2",
+                  "text": "Pierre de Coubertin"
+                },
+                {
+                  "id": "c3",
+                  "text": "Friedrich Ludwig Jahn"
+                }
+              ],
+              "explanation": "William G. Morgan menciptakan bola voli pada 1895; James Naismith menciptakan bola basket."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Peraturan dan teknik dasar",
+          "duration": 300,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 4 Permainan Bola Voli; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Peraturan, teknik, dan taktik\n\nLapangan bola voli berukuran panjang 18 meter dan lebar 9 meter. Net dipasang di tengah lapangan dengan tinggi 2,43 meter untuk putra dan 2,24 meter untuk putri. Setiap tim menurunkan enam pemain inti di lapangan.\n\nPertandingan memakai sistem rally point. Tim yang memenangkan rally mendapat satu poin dan berhak melakukan servis berikutnya. Setiap set dimenangkan oleh tim yang lebih dulu mencapai 25 poin dengan selisih minimal dua poin.\n\nPemain melakukan rotasi searah jarum jam setiap kali timnya memperoleh hak servis. Pelanggaran umum meliputi bola keluar, menyentuh net, memukul bola dua kali berturut-turut, dan servis yang tidak melewati net.\n\n| Teknik | Tujuan | Kunci gerak |\n|---|---|---|\n| Servis | Memulai rally | Lambungkan bola, pukul dengan telapak tangan |\n| Passing bawah | Menerima servis atau smash | Lengan rapat, lutut lentur, bola di depan badan |\n| Passing atas | Menyiapkan serangan | Jari terbuka, bola di atas dahi |\n| Smash | Mencetak poin | Awalan, lompat, pukul bola di titik tertinggi |\n| Block | Menahan serangan lawan | Tangan terangkat, jari rapat, dekat net |\n\n### Taktik sederhana\n\n- Pola 4-2 memakai dua pengumpan dan empat penyerang.\n- Pola 5-1 memakai satu pengumpan utama yang mengatur seluruh serangan.\n- Servis diarahkan ke area kosong atau ke penerima yang lemah.\n- Komunikasi singkat seperti “saya”, “lepas”, atau “block” mencegah tabrakan antar pemain.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peraturan, teknik, dan taktik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lapangan bola voli berukuran panjang 18 meter dan lebar 9 meter. Net dipasang di tengah lapangan dengan tinggi 2,43 meter untuk putra dan 2,24 meter untuk putri. Setiap tim menurunkan enam pemain inti di lapangan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pertandingan memakai sistem rally point. Tim yang memenangkan rally mendapat satu poin dan berhak melakukan servis berikutnya. Setiap set dimenangkan oleh tim yang lebih dulu mencapai 25 poin dengan selisih minimal dua poin."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pemain melakukan rotasi searah jarum jam setiap kali timnya memperoleh hak servis. Pelanggaran umum meliputi bola keluar, menyentuh net, memukul bola dua kali berturut-turut, dan servis yang tidak melewati net."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknik",
+                  "Tujuan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Servis",
+                  "Memulai rally",
+                  "Lambungkan bola, pukul dengan telapak tangan"
+                ],
+                [
+                  "Passing bawah",
+                  "Menerima servis atau smash",
+                  "Lengan rapat, lutut lentur, bola di depan badan"
+                ],
+                [
+                  "Passing atas",
+                  "Menyiapkan serangan",
+                  "Jari terbuka, bola di atas dahi"
+                ],
+                [
+                  "Smash",
+                  "Mencetak poin",
+                  "Awalan, lompat, pukul bola di titik tertinggi"
+                ],
+                [
+                  "Block",
+                  "Menahan serangan lawan",
+                  "Tangan terangkat, jari rapat, dekat net"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pjok-4-tinggi-net",
+              "title": "Tinggi net bola voli (meter)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Putra",
+                  "value": 2.43
+                },
+                {
+                  "label": "Putri",
+                  "value": 2.24
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pjok-4-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam pelanggaran atau gerak sah.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Pelanggaran"
+                },
+                {
+                  "id": "b2",
+                  "label": "Gerak sah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Bola menyentuh net saat servis",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Pemain menyentuh net",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Menerima bola dengan passing bawah",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Melakukan smash dari area serang",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Memukul bola dua kali berturut-turut",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Melakukan block dengan kedua tangan",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Bola menyentuh net, pemain menyentuh net, dan double touch adalah pelanggaran.",
+                "wrong": "Periksa lagi: passing, smash, dan block adalah gerakan sah."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Taktik sederhana"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pola 4-2 memakai dua pengumpan dan empat penyerang.",
+                "Pola 5-1 memakai satu pengumpan utama yang mengatur seluruh serangan.",
+                "Servis diarahkan ke area kosong atau ke penerima yang lemah.",
+                "Komunikasi singkat seperti “saya”, “lepas”, atau “block” mencegah tabrakan antar pemain."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-4-bola-voli-cp-2",
+              "question": "Berapa poin yang dibutuhkan untuk memenangkan satu set?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "25 poin dengan selisih minimal dua",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "21 poin dengan selisih minimal dua"
+                },
+                {
+                  "id": "c2",
+                  "text": "15 poin tanpa selisih"
+                },
+                {
+                  "id": "c3",
+                  "text": "30 poin tanpa selisih"
+                }
+              ],
+              "explanation": "Satu set dimenangkan dengan 25 poin dan selisih minimal dua poin."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 4 Permainan Bola Voli; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Bermain dengan sportif\n\nPermainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca posisi rekan dan lawan, lalu memilih antara mengoper, menyerang, atau bertahan. Keputusan yang tergesa-gesa sering menghasilkan kesalahan sendiri.\n\nSportivitas tampak ketika pemain mengakui bola menyentuh lantai, membantu lawan yang jatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian peran yang jelas.\n\nGunakan permainan kecil tiga lawan tiga untuk melatih passing, pergerakan tanpa bola, dan pertahanan. Hentikan permainan sesaat untuk membahas keputusan yang tepat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bermain dengan sportif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Permainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca posisi rekan dan lawan, lalu memilih antara mengoper, menyerang, atau bertahan. Keputusan yang tergesa-gesa sering menghasilkan kesalahan sendiri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sportivitas tampak ketika pemain mengakui bola menyentuh lantai, membantu lawan yang jatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian peran yang jelas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gunakan permainan kecil tiga lawan tiga untuk melatih passing, pergerakan tanpa bola, dan pertahanan. Hentikan permainan sesaat untuk membahas keputusan yang tepat."
+            },
+            {
+              "type": "scenario",
+              "id": "pjok-4-skenario",
+              "title": "Keputusan di set penentuan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Timmu tertinggal satu poin di set penentuan. Servis lawan datang ke arahmu. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menerima dengan passing bawah lalu mengarahkan ke pengumpan",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Penerimaan terkendali membuka peluang serangan."
+                    },
+                    {
+                      "text": "Memukul bola langsung ke daerah lawan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Bola servis sulit diserang langsung dengan aman."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Pengumpan memberi umpan tinggi ke arahmu. Apa pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "Melakukan smash ke area kosong",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Smash ke area kosong menyulitkan pertahanan lawan."
+                    },
+                    {
+                      "text": "Mengembalikan bola pelan ke tengah lawan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Bola lambat mudah dibaca dan dipertahankan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Peluang habis karena keputusan diambil tergesa-gesa.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Tim mencetak poin dan bermain sebagai satu kesatuan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "pjok-4-bola-voli-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu libero?",
+                  "back": "Pemain bertahan khusus dengan seragam berbeda yang tidak boleh melakukan smash."
+                },
+                {
+                  "front": "Berapa tinggi net putra?",
+                  "back": "2,43 meter."
+                },
+                {
+                  "front": "Berapa jumlah pemain inti?",
+                  "back": "6 pemain."
+                },
+                {
+                  "front": "Apa itu rally point?",
+                  "back": "Sistem ketika setiap rally menghasilkan satu poin."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-4-bola-voli-cp-3",
+              "question": "Saat bola servis datang rendah, teknik yang paling tepat adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Passing bawah dengan lengan rapat",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Smash langsung dari belakang"
+                },
+                {
+                  "id": "c2",
+                  "text": "Block di dekat net"
+                },
+                {
+                  "id": "c3",
+                  "text": "Servis ulang"
+                }
+              ],
+              "explanation": "Passing bawah adalah cara paling aman menerima bola rendah."
+            },
+            {
+              "type": "challenge",
+              "id": "pjok-4-tantangan",
+              "title": "Tantangan istilah bola voli",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Pencipta bola voli",
+                  "answer": "William G. Morgan"
+                },
+                {
+                  "question": "Jumlah pemain inti",
+                  "answer": "6"
+                },
+                {
+                  "question": "Tinggi net putra",
+                  "answer": "2,43 m"
+                },
+                {
+                  "question": "Poin untuk memenangkan set",
+                  "answer": "25"
+                },
+                {
+                  "question": "Pemain bertahan khusus",
+                  "answer": "libero"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Permainan Bola Voli — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Siapa pencipta permainan bola voli?",
+              "options": [
+                {
+                  "text": "William G. Morgan",
+                  "correct": true
+                },
+                {
+                  "text": "James Naismith"
+                },
+                {
+                  "text": "Michael Jordan"
+                },
+                {
+                  "text": "Pierre de Coubertin"
+                }
+              ],
+              "explanation": "William G. Morgan menciptakan bola voli pada 1895.",
+              "hint": "James Naismith menciptakan bola basket."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jumlah pemain inti setiap tim bola voli?",
+              "options": [
+                {
+                  "text": "6 pemain",
+                  "correct": true
+                },
+                {
+                  "text": "5 pemain"
+                },
+                {
+                  "text": "7 pemain"
+                },
+                {
+                  "text": "11 pemain"
+                }
+              ],
+              "explanation": "Setiap tim menurunkan enam pemain inti.",
+              "hint": "Bandingkan dengan bola basket yang lima pemain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa induk organisasi bola voli Indonesia?",
+              "options": [
+                {
+                  "text": "PBVSI",
+                  "correct": true
+                },
+                {
+                  "text": "PSSI"
+                },
+                {
+                  "text": "PERBASI"
+                },
+                {
+                  "text": "PBSI"
+                }
+              ],
+              "explanation": "PBVSI adalah Persatuan Bola Voli Seluruh Indonesia.",
+              "hint": "Bandingkan dengan PSSI untuk sepak bola."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk teknik dasar bola voli?",
+              "options": [
+                {
+                  "text": "Servis",
+                  "correct": true
+                },
+                {
+                  "text": "Passing",
+                  "correct": true
+                },
+                {
+                  "text": "Smash",
+                  "correct": true
+                },
+                {
+                  "text": "Dribbling",
+                  "correct": false
+                },
+                {
+                  "text": "Heading",
+                  "correct": false
+                }
+              ],
+              "explanation": "Servis, passing, dan smash adalah teknik dasar bola voli.",
+              "hint": "Dribbling dan heading bukan istilah bola voli."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk pelanggaran dalam bola voli?",
+              "options": [
+                {
+                  "text": "Menyentuh net",
+                  "correct": true
+                },
+                {
+                  "text": "Memukul bola dua kali berturut-turut",
+                  "correct": true
+                },
+                {
+                  "text": "Passing bawah",
+                  "correct": false
+                },
+                {
+                  "text": "Block dengan dua tangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Menyentuh net dan double touch adalah pelanggaran.",
+              "hint": "Passing dan block adalah gerakan sah."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Permainan Bola Voli — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa tinggi net bola voli putra?",
+              "options": [
+                {
+                  "text": "2,43 meter",
+                  "correct": true
+                },
+                {
+                  "text": "2,24 meter"
+                },
+                {
+                  "text": "2,50 meter"
+                },
+                {
+                  "text": "2,30 meter"
+                }
+              ],
+              "explanation": "Net putra dipasang setinggi 2,43 meter.",
+              "hint": "Net putri lebih rendah, yaitu 2,24 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa tinggi net bola voli putri?",
+              "options": [
+                {
+                  "text": "2,24 meter",
+                  "correct": true
+                },
+                {
+                  "text": "2,43 meter"
+                },
+                {
+                  "text": "2,10 meter"
+                },
+                {
+                  "text": "2,30 meter"
+                }
+              ],
+              "explanation": "Net putri dipasang setinggi 2,24 meter.",
+              "hint": "Selisihnya sekitar 19 cm dari net putra."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa tujuan melakukan servis?",
+              "options": [
+                {
+                  "text": "Memulai rally",
+                  "correct": true
+                },
+                {
+                  "text": "Menyulitkan penerimaan lawan",
+                  "correct": true
+                },
+                {
+                  "text": "Mencetak gol langsung",
+                  "correct": false
+                },
+                {
+                  "text": "Menghentikan waktu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Servis memulai rally dan dapat menyulitkan lawan.",
+              "hint": "Poin tetap dihitung per rally."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri passing bawah yang benar?",
+              "options": [
+                {
+                  "text": "Lengan rapat dan lurus",
+                  "correct": true
+                },
+                {
+                  "text": "Lutut lentur",
+                  "correct": true
+                },
+                {
+                  "text": "Bola dipukul dengan telapak tangan",
+                  "correct": false
+                },
+                {
+                  "text": "Badan berdiri kaku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Passing bawah memakai lengan rapat dengan lutut lentur.",
+              "hint": "Bola diarahkan ke pengumpan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Servis",
+                  "right": "pukulan pertama memulai rally"
+                },
+                {
+                  "id": "m1",
+                  "left": "Passing bawah",
+                  "right": "menerima bola dengan lengan bawah"
+                },
+                {
+                  "id": "m2",
+                  "left": "Passing atas",
+                  "right": "menerima bola dengan ujung jari"
+                },
+                {
+                  "id": "m3",
+                  "left": "Smash",
+                  "right": "memukul bola keras ke daerah lawan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pukulan pertama memulai rally",
+                  "m1": "menerima bola dengan lengan bawah",
+                  "m2": "menerima bola dengan ujung jari",
+                  "m3": "memukul bola keras ke daerah lawan"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan servis bawah.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Berdiri di belakang garis"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pegang bola di depan badan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Ayunkan tangan ke belakang"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pukul bola dengan telapak tangan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Servis bawah dimulai dari posisi berdiri lalu ayunan tangan.",
+              "hint": "Arahkan bola melewati net ke daerah lawan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan passing bawah.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Rapatkan kedua lengan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tekuk lutut"
+                },
+                {
+                  "id": "p2",
+                  "text": "Arahkan bola ke lengan bawah"
+                },
+                {
+                  "id": "p3",
+                  "text": "Dorong bola ke pengumpan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Passing bawah memakai lengan rapat dan dorongan dari lutut.",
+              "hint": "Jangan mengayun lengan terlalu jauh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pukulan pertama untuk memulai rally?",
+              "options": [
+                {
+                  "text": "Servis",
+                  "correct": true
+                },
+                {
+                  "text": "Smash"
+                },
+                {
+                  "text": "Block"
+                },
+                {
+                  "text": "Passing"
+                }
+              ],
+              "explanation": "Servis memulai rally dari belakang garis lapangan.",
+              "hint": "Servis dilakukan oleh pemain belakang kanan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik menerima bola dengan lengan bawah?",
+              "options": [
+                {
+                  "text": "Passing bawah",
+                  "correct": true
+                },
+                {
+                  "text": "Passing atas"
+                },
+                {
+                  "text": "Smash"
+                },
+                {
+                  "text": "Block"
+                }
+              ],
+              "explanation": "Passing bawah memakai kedua lengan bawah yang dirapatkan.",
+              "hint": "Teknik ini sering dipakai menerima servis."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk peran pemain dalam bola voli?",
+              "options": [
+                {
+                  "text": "Pengumpan",
+                  "correct": true
+                },
+                {
+                  "text": "Penyerang",
+                  "correct": true
+                },
+                {
+                  "text": "Libero",
+                  "correct": true
+                },
+                {
+                  "text": "Penjaga gawang",
+                  "correct": false
+                },
+                {
+                  "text": "Striker",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengumpan, penyerang, dan libero adalah peran dalam bola voli.",
+              "hint": "Penjaga gawang dan striker bukan istilah bola voli."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Permainan Bola Voli — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa ukuran lapangan bola voli?",
+              "options": [
+                {
+                  "text": "18 m × 9 m",
+                  "correct": true
+                },
+                {
+                  "text": "28 m × 15 m"
+                },
+                {
+                  "text": "40 m × 20 m"
+                },
+                {
+                  "text": "20 m × 10 m"
+                }
+              ],
+              "explanation": "Lapangan bola voli berukuran 18 meter × 9 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa sentuhan maksimal sebelum bola dikembalikan?",
+              "options": [
+                {
+                  "text": "3 sentuhan",
+                  "correct": true
+                },
+                {
+                  "text": "2 sentuhan"
+                },
+                {
+                  "text": "4 sentuhan"
+                },
+                {
+                  "text": "5 sentuhan"
+                }
+              ],
+              "explanation": "Setiap tim boleh menyentuh bola paling banyak tiga kali."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pemain bertahan khusus dalam bola voli?",
+              "options": [
+                {
+                  "text": "Libero",
+                  "correct": true
+                },
+                {
+                  "text": "Setter"
+                },
+                {
+                  "text": "Spiker"
+                },
+                {
+                  "text": "Blocker"
+                }
+              ],
+              "explanation": "Libero adalah pemain bertahan khusus dengan seragam berbeda."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ke arah mana pemain melakukan rotasi?",
+              "options": [
+                {
+                  "text": "Searah jarum jam",
+                  "correct": true
+                },
+                {
+                  "text": "Berlawanan jarum jam"
+                },
+                {
+                  "text": "Acak"
+                },
+                {
+                  "text": "Tidak ada rotasi"
+                }
+              ],
+              "explanation": "Rotasi dilakukan searah jarum jam saat tim memperoleh hak servis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik menahan bola di dekat net?",
+              "options": [
+                {
+                  "text": "Block",
+                  "correct": true
+                },
+                {
+                  "text": "Smash"
+                },
+                {
+                  "text": "Servis"
+                },
+                {
+                  "text": "Passing"
+                }
+              ],
+              "explanation": "Block dilakukan dengan kedua tangan terangkat di dekat net."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tugas pengumpan?",
+              "options": [
+                {
+                  "text": "Mengatur tempo serangan",
+                  "correct": true
+                },
+                {
+                  "text": "Memberi umpan kepada penyerang",
+                  "correct": true
+                },
+                {
+                  "text": "Mencetak gol ke gawang",
+                  "correct": false
+                },
+                {
+                  "text": "Menjaga gawang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengumpan mengatur tempo dan memberi umpan kepada penyerang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pola permainan bola voli yang umum?",
+              "options": [
+                {
+                  "text": "4-2",
+                  "correct": true
+                },
+                {
+                  "text": "5-1",
+                  "correct": true
+                },
+                {
+                  "text": "4-4-2",
+                  "correct": false
+                },
+                {
+                  "text": "3-5-2",
+                  "correct": false
+                }
+              ],
+              "explanation": "4-2 dan 5-1 adalah pola bola voli."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Block",
+                  "right": "menahan bola di dekat net"
+                },
+                {
+                  "id": "m1",
+                  "left": "Libero",
+                  "right": "pemain bertahan khusus"
+                },
+                {
+                  "id": "m2",
+                  "left": "Rally point",
+                  "right": "setiap rally menghasilkan satu poin"
+                },
+                {
+                  "id": "m3",
+                  "left": "Rotasi",
+                  "right": "pergeseran posisi searah jarum jam"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "menahan bola di dekat net",
+                  "m1": "pemain bertahan khusus",
+                  "m2": "setiap rally menghasilkan satu poin",
+                  "m3": "pergeseran posisi searah jarum jam"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan fase melakukan smash.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Ambil awalan beberapa langkah"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tolak dengan kedua kaki"
+                },
+                {
+                  "id": "d2",
+                  "text": "Angkat tangan memukul"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pukul bola di titik tertinggi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Smash membutuhkan awalan, tolakan, dan pukulan di titik tertinggi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan block.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Berdiri dekat net"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tekuk lutut"
+                },
+                {
+                  "id": "p2",
+                  "text": "Lompat dengan kedua tangan terangkat"
+                },
+                {
+                  "id": "p3",
+                  "text": "Rapatkan jari menahan bola"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Block dilakukan dengan lompatan dan tangan terangkat di dekat net."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jumlah poin untuk memenangkan satu set?",
+              "options": [
+                {
+                  "text": "25 poin",
+                  "correct": true
+                },
+                {
+                  "text": "21 poin"
+                },
+                {
+                  "text": "15 poin"
+                },
+                {
+                  "text": "30 poin"
+                }
+              ],
+              "explanation": "Satu set dimenangkan dengan 25 poin dan selisih minimal dua."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa istilah memukul bola keras ke bawah di daerah lawan?",
+              "options": [
+                {
+                  "text": "Smash",
+                  "correct": true
+                },
+                {
+                  "text": "Servis"
+                },
+                {
+                  "text": "Block"
+                },
+                {
+                  "text": "Passing"
+                }
+              ],
+              "explanation": "Smash adalah pukulan keras ke bawah untuk mencetak poin."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang libero?",
+              "options": [
+                {
+                  "text": "Memakai seragam berbeda",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak boleh melakukan smash",
+                  "correct": true
+                },
+                {
+                  "text": "Boleh melakukan servis di semua posisi",
+                  "correct": false
+                },
+                {
+                  "text": "Harus selalu berada di depan net",
+                  "correct": false
+                }
+              ],
+              "explanation": "Libero memakai seragam berbeda dan tidak boleh melakukan smash."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Servis",
+                  "right": "pukulan pertama memulai rally"
+                },
+                {
+                  "id": "m1",
+                  "left": "Passing bawah",
+                  "right": "menerima bola dengan lengan bawah"
+                },
+                {
+                  "id": "m2",
+                  "left": "Passing atas",
+                  "right": "menerima bola dengan ujung jari"
+                },
+                {
+                  "id": "m3",
+                  "left": "Smash",
+                  "right": "memukul bola keras ke daerah lawan"
+                },
+                {
+                  "id": "m4",
+                  "left": "Block",
+                  "right": "menahan bola di dekat net"
+                },
+                {
+                  "id": "m5",
+                  "left": "Libero",
+                  "right": "pemain bertahan khusus"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pukulan pertama memulai rally",
+                  "m1": "menerima bola dengan lengan bawah",
+                  "m2": "menerima bola dengan ujung jari",
+                  "m3": "memukul bola keras ke daerah lawan",
+                  "m4": "menahan bola di dekat net",
+                  "m5": "pemain bertahan khusus"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur serangan dalam bola voli.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Terima servis"
+                },
+                {
+                  "id": "d1",
+                  "text": "Passing ke pengumpan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Umpan ke penyerang"
+                },
+                {
+                  "id": "d3",
+                  "text": "Smash ke daerah lawan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Serangan bergerak dari penerimaan menuju smash."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

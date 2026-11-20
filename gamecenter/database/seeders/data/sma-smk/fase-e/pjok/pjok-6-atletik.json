@@ -1,0 +1,1236 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pjok",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PJOK 6",
+      "title": "Atletik",
+      "description": "Mempelajari nomor jalan, lari, lompat, dan lempar dalam atletik, teknik start, lari estafet, lompat jauh, serta tolak peluru.",
+      "learning_objectives": [
+        "Menjelaskan nomor-nomor dalam cabang atletik.",
+        "Mempraktikkan teknik start, lari, lompat jauh, dan tolak peluru.",
+        "Menerapkan prinsip keselamatan dan disiplin dalam latihan atletik.",
+        "Menunjukkan sportivitas dan kerja sama dalam kegiatan atletik.",
+        "Menjaga kebugaran melalui pemanasan dan pendinginan yang benar."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "PJOK-BG-KLS-X.pdf Bab 6 Atletik; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa atletik disebut induk olahraga?",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 6 Atletik; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Gerak dasar yang mendasari banyak cabang\n\nAtletik mencakup nomor jalan, lari, lompat, dan lempar. Gerakan dasarnya berupa berjalan, berlari, melompat, dan melempar, sehingga atletik disebut sebagai induk banyak cabang olahraga.\n\nNomor lari terdiri atas jarak pendek, menengah, dan jauh, serta estafet. Nomor lompat mencakup lompat jauh, lompat tinggi, dan lompat jangkit. Nomor lempar mencakup tolak peluru, lempar lembing, dan lempar cakram.\n\nAtletik melatih kecepatan, kekuatan, daya tahan, dan koordinasi. Di Indonesia, Persatuan Atletik Seluruh Indonesia (PASI) menjadi induk organisasinya.\n\nLakukan pemanasan menyeluruh, periksa lintasan dan alat, serta patuhi arahan guru agar latihan atletik aman.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "pjok-6-atletik-glosarium",
+              "terms": [
+                {
+                  "term": "Atletik",
+                  "definition": "Cabang olahraga yang mencakup jalan, lari, lompat, dan lempar."
+                },
+                {
+                  "term": "Start jongkok",
+                  "definition": "Posisi awal berlutut untuk lari jarak pendek."
+                },
+                {
+                  "term": "Start berdiri",
+                  "definition": "Posisi awal berdiri untuk lari jarak menengah dan jauh."
+                },
+                {
+                  "term": "Estafet",
+                  "definition": "Lari berkelompok yang memindahkan tongkat dari pelari satu ke pelari berikutnya."
+                },
+                {
+                  "term": "Lompat jauh",
+                  "definition": "Melompat sejauh mungkin dari titik tolakan dengan satu kaki."
+                },
+                {
+                  "term": "Tolak peluru",
+                  "definition": "Mendorong peluru sejauh mungkin dari bahu dengan satu tangan."
+                },
+                {
+                  "term": "Jalan cepat",
+                  "definition": "Berjalan cepat dengan syarat selalu ada kaki yang menyentuh tanah."
+                },
+                {
+                  "term": "Diskualifikasi",
+                  "definition": "Pembatalan hasil karena pelanggaran aturan, misalnya start terlalu awal."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Gerak dasar yang mendasari banyak cabang"
+            },
+            {
+              "type": "paragraph",
+              "text": "Atletik mencakup nomor jalan, lari, lompat, dan lempar. Gerakan dasarnya berupa berjalan, berlari, melompat, dan melempar, sehingga atletik disebut sebagai induk banyak cabang olahraga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nomor lari terdiri atas jarak pendek, menengah, dan jauh, serta estafet. Nomor lompat mencakup lompat jauh, lompat tinggi, dan lompat jangkit. Nomor lempar mencakup tolak peluru, lempar lembing, dan lempar cakram."
+            },
+            {
+              "type": "paragraph",
+              "text": "Atletik melatih kecepatan, kekuatan, daya tahan, dan koordinasi. Di Indonesia, Persatuan Atletik Seluruh Indonesia (PASI) menjadi induk organisasinya."
+            },
+            {
+              "type": "diagram",
+              "id": "pjok-6-atletik-diagram",
+              "engine": "mermaid",
+              "title": "Cabang nomor dalam atletik",
+              "code": "flowchart LR\n  A[Atletik] --> B[Jalan]\n  A --> C[Lari]\n  A --> D[Lompat]\n  A --> E[Lempar]\n  C --> F[Pendek, menengah, jauh, estafet]\n  D --> G[Jauh, tinggi, jangkit]\n  E --> H[Peluru, lembing, cakram]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Lakukan pemanasan menyeluruh, periksa lintasan dan alat, serta patuhi arahan guru agar latihan atletik aman."
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-6-atletik-cp-1",
+              "question": "Apa induk organisasi atletik Indonesia?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "PASI",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "PSSI"
+                },
+                {
+                  "id": "c2",
+                  "text": "PBSI"
+                },
+                {
+                  "id": "c3",
+                  "text": "PERBASI"
+                }
+              ],
+              "explanation": "PASI adalah Persatuan Atletik Seluruh Indonesia."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Nomor dan teknik dasar",
+          "duration": 300,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 6 Atletik; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Jalan, lari, lompat, dan lempar\n\nLari jarak pendek meliputi 100 meter, 200 meter, dan 400 meter. Pelari jarak pendek memakai start jongkok agar dapat melesat cepat. Lari jarak menengah dan jauh memakai start berdiri.\n\nLompat jauh terdiri atas empat fase: awalan, tolakan, melayang, dan mendarat. Tolakan dilakukan dengan satu kaki, sedangkan pendaratan memakai kedua kaki dengan lutut lentur agar aman.\n\nTolak peluru dilakukan dengan mendorong peluru dari bahu memakai satu tangan. Berat peluru putra 7,26 kilogram dan putri 4 kilogram. Jalan cepat mewajibkan selalu ada kaki yang menyentuh tanah.\n\n| Nomor | Tujuan | Kunci gerak |\n|---|---|---|\n| Lari pendek | Menempuh jarak tercepat | Start jongkok, langkah panjang, ayunan tangan kuat |\n| Lari estafet | Memindahkan tongkat cepat | Penerimaan tongkat di area pergantian |\n| Lompat jauh | Melompat sejauh mungkin | Awalan cepat, tolakan satu kaki, mendarat dua kaki |\n| Tolak peluru | Mendorong peluru jauh | Peluru di bahu, dorong dengan satu tangan |\n| Jalan cepat | Berjalan secepat mungkin | Selalu ada kaki menyentuh tanah |\n\n### Prinsip keselamatan\n\n- Periksa lintasan dari kerikil atau benda yang dapat menyebabkan terpeleset.\n- Lakukan pemanasan dan peregangan sebelum latihan lari atau lompat.\n- Pada nomor lempar, pastikan area lemparan kosong sebelum melempar.\n- Mendaratlah dengan lutut lentur dan jangan menahan tubuh dengan tangan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jalan, lari, lompat, dan lempar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lari jarak pendek meliputi 100 meter, 200 meter, dan 400 meter. Pelari jarak pendek memakai start jongkok agar dapat melesat cepat. Lari jarak menengah dan jauh memakai start berdiri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Lompat jauh terdiri atas empat fase: awalan, tolakan, melayang, dan mendarat. Tolakan dilakukan dengan satu kaki, sedangkan pendaratan memakai kedua kaki dengan lutut lentur agar aman."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tolak peluru dilakukan dengan mendorong peluru dari bahu memakai satu tangan. Berat peluru putra 7,26 kilogram dan putri 4 kilogram. Jalan cepat mewajibkan selalu ada kaki yang menyentuh tanah."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Nomor",
+                  "Tujuan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Lari pendek",
+                  "Menempuh jarak tercepat",
+                  "Start jongkok, langkah panjang, ayunan tangan kuat"
+                ],
+                [
+                  "Lari estafet",
+                  "Memindahkan tongkat cepat",
+                  "Penerimaan tongkat di area pergantian"
+                ],
+                [
+                  "Lompat jauh",
+                  "Melompat sejauh mungkin",
+                  "Awalan cepat, tolakan satu kaki, mendarat dua kaki"
+                ],
+                [
+                  "Tolak peluru",
+                  "Mendorong peluru jauh",
+                  "Peluru di bahu, dorong dengan satu tangan"
+                ],
+                [
+                  "Jalan cepat",
+                  "Berjalan secepat mungkin",
+                  "Selalu ada kaki menyentuh tanah"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pjok-6-berat-peluru",
+              "title": "Berat peluru dalam tolak peluru (kg)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Putra",
+                  "value": 7.26
+                },
+                {
+                  "label": "Putri",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pjok-6-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam nomor lari atau nomor lempar.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Nomor lari"
+                },
+                {
+                  "id": "b2",
+                  "label": "Nomor lempar"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Lari 100 meter",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Lari estafet",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Tolak peluru",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Lempar lembing",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Lari 400 meter",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Lempar cakram",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Lari dan estafet termasuk nomor lari; peluru, lembing, dan cakram termasuk nomor lempar.",
+                "wrong": "Periksa lagi: nomor lempar memakai alat, nomor lari mengutamakan kecepatan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Prinsip keselamatan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Periksa lintasan dari kerikil atau benda yang dapat menyebabkan terpeleset.",
+                "Lakukan pemanasan dan peregangan sebelum latihan lari atau lompat.",
+                "Pada nomor lempar, pastikan area lemparan kosong sebelum melempar.",
+                "Mendaratlah dengan lutut lentur dan jangan menahan tubuh dengan tangan."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-6-atletik-cp-2",
+              "question": "Berapa berat peluru untuk putra?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "7,26 kg",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "4 kg"
+                },
+                {
+                  "id": "c2",
+                  "text": "5 kg"
+                },
+                {
+                  "id": "c3",
+                  "text": "6 kg"
+                }
+              ],
+              "explanation": "Peluru putra beratnya 7,26 kilogram, sedangkan putri 4 kilogram."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 6 Atletik; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Berlatih dengan disiplin\n\nAtletik menuntut latihan berulang dan disiplin. Pelari harus menjaga ritme langkah, pelompat harus mengatur awalan, dan pelempar harus menjaga keseimbangan. Kesalahan kecil dapat mengurangi hasil.\n\nSportivitas tampak ketika atlet mengakui pelanggaran start, menghormati hasil, dan mendukung teman. Kerja sama terlihat dalam estafet yang membutuhkan ketepatan pergantian tongkat.\n\nGunakan latihan berpasangan untuk mengukur waktu lari dan mencatat hasil lompatan. Hentikan latihan sesaat untuk membahas teknik yang perlu diperbaiki.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Berlatih dengan disiplin"
+            },
+            {
+              "type": "paragraph",
+              "text": "Atletik menuntut latihan berulang dan disiplin. Pelari harus menjaga ritme langkah, pelompat harus mengatur awalan, dan pelempar harus menjaga keseimbangan. Kesalahan kecil dapat mengurangi hasil."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sportivitas tampak ketika atlet mengakui pelanggaran start, menghormati hasil, dan mendukung teman. Kerja sama terlihat dalam estafet yang membutuhkan ketepatan pergantian tongkat."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gunakan latihan berpasangan untuk mengukur waktu lari dan mencatat hasil lompatan. Hentikan latihan sesaat untuk membahas teknik yang perlu diperbaiki."
+            },
+            {
+              "type": "scenario",
+              "id": "pjok-6-skenario",
+              "title": "Keputusan saat latihan lompat jauh",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu akan melakukan lompat jauh, tetapi lintasan awalan terlihat licin. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Membersihkan lintasan dan memeriksa kembali",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Keselamatan harus diperiksa sebelum latihan."
+                    },
+                    {
+                      "text": "Tetap melompat karena sudah siap",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Lintasan licin meningkatkan risiko cedera."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Saat awalan, kamu merasa langkah terlalu dekat dengan papan tolak. Apa pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "Mengatur ulang awalan agar tolakan tepat",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Awalan yang tepat menghasilkan tolakan yang sah."
+                    },
+                    {
+                      "text": "Tetap melompat dan berharap hasilnya baik",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tolakan yang salah dapat membatalkan lompatan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Latihan terhenti karena risiko cedera atau lompatan batal.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Lompatan berjalan aman dan hasilnya tercatat.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "pjok-6-atletik-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu start jongkok?",
+                  "back": "Posisi awal berlutut untuk lari jarak pendek."
+                },
+                {
+                  "front": "Berapa fase lompat jauh?",
+                  "back": "Awalan, tolakan, melayang, dan mendarat."
+                },
+                {
+                  "front": "Berapa berat peluru putra?",
+                  "back": "7,26 kilogram."
+                },
+                {
+                  "front": "Apa syarat jalan cepat?",
+                  "back": "Selalu ada kaki yang menyentuh tanah."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-6-atletik-cp-3",
+              "question": "Saat mendarat setelah lompat jauh, sikap yang paling aman adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Mendarat dengan kedua kaki dan lutut lentur",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Mendarat dengan satu kaki kaku"
+                },
+                {
+                  "id": "c2",
+                  "text": "Menahan tubuh dengan tangan"
+                },
+                {
+                  "id": "c3",
+                  "text": "Mendarat dengan badan tegak kaku"
+                }
+              ],
+              "explanation": "Pendaratan dua kaki dengan lutut lentur mengurangi risiko cedera."
+            },
+            {
+              "type": "challenge",
+              "id": "pjok-6-tantangan",
+              "title": "Tantangan istilah atletik",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Induk organisasi atletik Indonesia",
+                  "answer": "PASI"
+                },
+                {
+                  "question": "Jumlah pelari estafet",
+                  "answer": "4"
+                },
+                {
+                  "question": "Berat peluru putra",
+                  "answer": "7,26 kg"
+                },
+                {
+                  "question": "Start lari jarak pendek",
+                  "answer": "jongkok"
+                },
+                {
+                  "question": "Syarat jalan cepat",
+                  "answer": "kaki selalu menyentuh tanah"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Atletik — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa induk organisasi atletik Indonesia?",
+              "options": [
+                {
+                  "text": "PASI",
+                  "correct": true
+                },
+                {
+                  "text": "PSSI"
+                },
+                {
+                  "text": "PBSI"
+                },
+                {
+                  "text": "PERBASI"
+                }
+              ],
+              "explanation": "PASI adalah Persatuan Atletik Seluruh Indonesia.",
+              "hint": "Bandingkan dengan PSSI untuk sepak bola."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nomor lari 100 meter termasuk kelompok apa?",
+              "options": [
+                {
+                  "text": "Lari jarak pendek",
+                  "correct": true
+                },
+                {
+                  "text": "Lari jarak menengah"
+                },
+                {
+                  "text": "Lari jarak jauh"
+                },
+                {
+                  "text": "Jalan cepat"
+                }
+              ],
+              "explanation": "100 meter termasuk lari jarak pendek.",
+              "hint": "Jarak pendek berkisar 100–400 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Start apa yang dipakai untuk lari jarak pendek?",
+              "options": [
+                {
+                  "text": "Start jongkok",
+                  "correct": true
+                },
+                {
+                  "text": "Start berdiri"
+                },
+                {
+                  "text": "Start melayang"
+                },
+                {
+                  "text": "Start duduk"
+                }
+              ],
+              "explanation": "Lari jarak pendek memakai start jongkok.",
+              "hint": "Start berdiri dipakai untuk jarak menengah dan jauh."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk nomor atletik?",
+              "options": [
+                {
+                  "text": "Lari",
+                  "correct": true
+                },
+                {
+                  "text": "Lompat",
+                  "correct": true
+                },
+                {
+                  "text": "Lempar",
+                  "correct": true
+                },
+                {
+                  "text": "Renang",
+                  "correct": false
+                },
+                {
+                  "text": "Bola basket",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lari, lompat, dan lempar termasuk nomor atletik.",
+              "hint": "Renang dan bola basket cabang olahraga lain."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk nomor lari?",
+              "options": [
+                {
+                  "text": "Lari 100 meter",
+                  "correct": true
+                },
+                {
+                  "text": "Lari estafet",
+                  "correct": true
+                },
+                {
+                  "text": "Tolak peluru",
+                  "correct": false
+                },
+                {
+                  "text": "Lompat jauh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lari 100 meter dan estafet termasuk nomor lari.",
+              "hint": "Tolak peluru dan lompat jauh nomor berbeda."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Atletik — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jumlah pelari dalam satu tim estafet?",
+              "options": [
+                {
+                  "text": "4 pelari",
+                  "correct": true
+                },
+                {
+                  "text": "3 pelari"
+                },
+                {
+                  "text": "5 pelari"
+                },
+                {
+                  "text": "6 pelari"
+                }
+              ],
+              "explanation": "Estafet dijalankan oleh empat pelari yang memindahkan tongkat.",
+              "hint": "Setiap pelari menempuh satu bagian lintasan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa alat yang dipindahkan dalam lari estafet?",
+              "options": [
+                {
+                  "text": "Tongkat",
+                  "correct": true
+                },
+                {
+                  "text": "Bola"
+                },
+                {
+                  "text": "Shuttlecock"
+                },
+                {
+                  "text": "Peluru"
+                }
+              ],
+              "explanation": "Estafet memindahkan tongkat dari pelari satu ke pelari berikutnya.",
+              "hint": "Tongkat harus diterima di area pergantian."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa tujuan start jongkok?",
+              "options": [
+                {
+                  "text": "Memberi dorongan awal cepat",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga keseimbangan saat mulai",
+                  "correct": true
+                },
+                {
+                  "text": "Memperlambat langkah",
+                  "correct": false
+                },
+                {
+                  "text": "Mengganti arah lari",
+                  "correct": false
+                }
+              ],
+              "explanation": "Start jongkok memberi dorongan awal dan keseimbangan.",
+              "hint": "Posisi tubuh lebih rendah saat mulai."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri lompat jauh yang benar?",
+              "options": [
+                {
+                  "text": "Tolakan dengan satu kaki",
+                  "correct": true
+                },
+                {
+                  "text": "Mendarat dengan kedua kaki",
+                  "correct": true
+                },
+                {
+                  "text": "Tolakan dengan dua kaki",
+                  "correct": false
+                },
+                {
+                  "text": "Mendarat dengan tangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lompat jauh menolak dengan satu kaki dan mendarat dengan dua kaki.",
+              "hint": "Pendaratan dua kaki lebih aman."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Start jongkok",
+                  "right": "posisi awal lari jarak pendek"
+                },
+                {
+                  "id": "m1",
+                  "left": "Start berdiri",
+                  "right": "posisi awal lari jarak menengah dan jauh"
+                },
+                {
+                  "id": "m2",
+                  "left": "Estafet",
+                  "right": "lari berkelompok dengan tongkat"
+                },
+                {
+                  "id": "m3",
+                  "left": "Lompat jauh",
+                  "right": "melompat sejauh mungkin"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "posisi awal lari jarak pendek",
+                  "m1": "posisi awal lari jarak menengah dan jauh",
+                  "m2": "lari berkelompok dengan tongkat",
+                  "m3": "melompat sejauh mungkin"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan fase lompat jauh.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Awalan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tolakan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Melayang"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mendarat"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Lompat jauh bergerak dari awalan sampai pendaratan.",
+              "hint": "Tolakan dilakukan dengan satu kaki."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan start jongkok.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Ambil posisi jongkok di belakang garis"
+                },
+                {
+                  "id": "p1",
+                  "text": "Letakkan tangan di belakang garis"
+                },
+                {
+                  "id": "p2",
+                  "text": "Angkat pinggul saat aba-aba siap"
+                },
+                {
+                  "id": "p3",
+                  "text": "Dorong tubuh saat aba-aba lari"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Start jongkok dimulai dari posisi jongkok lalu dorongan kuat.",
+              "hint": "Jangan start sebelum aba-aba."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa fase dalam lompat jauh?",
+              "options": [
+                {
+                  "text": "4 fase",
+                  "correct": true
+                },
+                {
+                  "text": "2 fase"
+                },
+                {
+                  "text": "3 fase"
+                },
+                {
+                  "text": "5 fase"
+                }
+              ],
+              "explanation": "Lompat jauh terdiri atas awalan, tolakan, melayang, dan mendarat.",
+              "hint": "Tolakan dilakukan dengan satu kaki."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa berat peluru untuk putra?",
+              "options": [
+                {
+                  "text": "7,26 kg",
+                  "correct": true
+                },
+                {
+                  "text": "4 kg"
+                },
+                {
+                  "text": "5 kg"
+                },
+                {
+                  "text": "6 kg"
+                }
+              ],
+              "explanation": "Peluru putra beratnya 7,26 kilogram.",
+              "hint": "Peluru putri lebih ringan, yaitu 4 kilogram."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk nomor lempar?",
+              "options": [
+                {
+                  "text": "Tolak peluru",
+                  "correct": true
+                },
+                {
+                  "text": "Lempar lembing",
+                  "correct": true
+                },
+                {
+                  "text": "Lempar cakram",
+                  "correct": true
+                },
+                {
+                  "text": "Lompat tinggi",
+                  "correct": false
+                },
+                {
+                  "text": "Lari 400 meter",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tolak peluru, lembing, dan cakram adalah nomor lempar.",
+              "hint": "Lompat tinggi dan lari bukan nomor lempar."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Atletik — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa berat peluru untuk putri?",
+              "options": [
+                {
+                  "text": "4 kg",
+                  "correct": true
+                },
+                {
+                  "text": "7,26 kg"
+                },
+                {
+                  "text": "3 kg"
+                },
+                {
+                  "text": "5 kg"
+                }
+              ],
+              "explanation": "Peluru putri beratnya 4 kilogram."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa syarat utama jalan cepat?",
+              "options": [
+                {
+                  "text": "Selalu ada kaki yang menyentuh tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Kedua kaki melayang"
+                },
+                {
+                  "text": "Berlari secepat mungkin"
+                },
+                {
+                  "text": "Melompat setiap langkah"
+                }
+              ],
+              "explanation": "Jalan cepat mewajibkan selalu ada kaki yang menyentuh tanah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama nomor melompat sejauh mungkin?",
+              "options": [
+                {
+                  "text": "Lompat jauh",
+                  "correct": true
+                },
+                {
+                  "text": "Lompat tinggi"
+                },
+                {
+                  "text": "Lompat jangkit"
+                },
+                {
+                  "text": "Tolak peluru"
+                }
+              ],
+              "explanation": "Lompat jauh bertujuan melompat sejauh mungkin."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama nomor melempar dengan alat berbentuk tombak?",
+              "options": [
+                {
+                  "text": "Lempar lembing",
+                  "correct": true
+                },
+                {
+                  "text": "Lempar cakram"
+                },
+                {
+                  "text": "Tolak peluru"
+                },
+                {
+                  "text": "Lompat jangkit"
+                }
+              ],
+              "explanation": "Lempar lembing memakai alat berbentuk tombak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang terjadi jika pelari start sebelum aba-aba?",
+              "options": [
+                {
+                  "text": "Diskualifikasi",
+                  "correct": true
+                },
+                {
+                  "text": "Mendapat poin tambahan"
+                },
+                {
+                  "text": "Lari diulang tanpa sanksi"
+                },
+                {
+                  "text": "Waktu dikurangi"
+                }
+              ],
+              "explanation": "Start terlalu awal menyebabkan diskualifikasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip keselamatan dalam atletik?",
+              "options": [
+                {
+                  "text": "Memeriksa lintasan",
+                  "correct": true
+                },
+                {
+                  "text": "Memastikan area lempar kosong",
+                  "correct": true
+                },
+                {
+                  "text": "Melempar ke arah teman",
+                  "correct": false
+                },
+                {
+                  "text": "Berlari tanpa pemanasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Memeriksa lintasan dan area lempar mencegah cedera."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang estafet?",
+              "options": [
+                {
+                  "text": "Tongkat diterima di area pergantian",
+                  "correct": true
+                },
+                {
+                  "text": "Setiap pelari menempuh satu bagian",
+                  "correct": true
+                },
+                {
+                  "text": "Tongkat boleh dilempar",
+                  "correct": false
+                },
+                {
+                  "text": "Pelari boleh berlari ke segala arah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Estafet memindahkan tongkat di area pergantian dan setiap pelari menempuh bagiannya."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Tolak peluru",
+                  "right": "mendorong peluru dari bahu"
+                },
+                {
+                  "id": "m1",
+                  "left": "Lempar lembing",
+                  "right": "melempar alat berbentuk tombak"
+                },
+                {
+                  "id": "m2",
+                  "left": "Jalan cepat",
+                  "right": "selalu ada kaki menyentuh tanah"
+                },
+                {
+                  "id": "m3",
+                  "left": "Diskualifikasi",
+                  "right": "pembatalan hasil karena pelanggaran"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mendorong peluru dari bahu",
+                  "m1": "melempar alat berbentuk tombak",
+                  "m2": "selalu ada kaki menyentuh tanah",
+                  "m3": "pembatalan hasil karena pelanggaran"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah pergantian tongkat estafet.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pelari pertama berlari"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pelari berikutnya bersiap di area pergantian"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tongkat diserahkan saat kedua pelari secepat mungkin"
+                },
+                {
+                  "id": "d3",
+                  "text": "Penerima melanjutkan lari"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Pergantian tongkat harus dilakukan di area pergantian."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan tolak peluru.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Pegang peluru di bahu"
+                },
+                {
+                  "id": "p1",
+                  "text": "Ambil posisi di lingkaran"
+                },
+                {
+                  "id": "p2",
+                  "text": "Putar badan untuk menambah tenaga"
+                },
+                {
+                  "id": "p3",
+                  "text": "Dorong peluru dengan satu tangan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Tolak peluru mendorong dari bahu dengan satu tangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama gaya lompat tinggi yang melompat membelakangi mistar?",
+              "options": [
+                {
+                  "text": "Fosbury flop",
+                  "correct": true
+                },
+                {
+                  "text": "Straddle"
+                },
+                {
+                  "text": "Gunting"
+                },
+                {
+                  "text": "Jongkok"
+                }
+              ],
+              "explanation": "Fosbury flop dilakukan dengan membelakangi mistar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa tujuan pemanasan sebelum atletik?",
+              "options": [
+                {
+                  "text": "Menyiapkan otot dan mengurangi risiko cedera",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah berat badan"
+                },
+                {
+                  "text": "Mempercepat waktu tidur"
+                },
+                {
+                  "text": "Mengganti teknik dasar"
+                }
+              ],
+              "explanation": "Pemanasan menyiapkan otot dan sendi untuk bergerak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang jalan cepat?",
+              "options": [
+                {
+                  "text": "Selalu ada kaki menyentuh tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak boleh ada fase melayang",
+                  "correct": true
+                },
+                {
+                  "text": "Kedua kaki melayang saat melangkah",
+                  "correct": false
+                },
+                {
+                  "text": "Boleh berlari jika ingin cepat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jalan cepat tidak memiliki fase melayang."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Start jongkok",
+                  "right": "posisi awal lari jarak pendek"
+                },
+                {
+                  "id": "m1",
+                  "left": "Start berdiri",
+                  "right": "posisi awal lari jarak menengah dan jauh"
+                },
+                {
+                  "id": "m2",
+                  "left": "Estafet",
+                  "right": "lari berkelompok dengan tongkat"
+                },
+                {
+                  "id": "m3",
+                  "left": "Lompat jauh",
+                  "right": "melompat sejauh mungkin"
+                },
+                {
+                  "id": "m4",
+                  "left": "Tolak peluru",
+                  "right": "mendorong peluru dari bahu"
+                },
+                {
+                  "id": "m5",
+                  "left": "Lempar lembing",
+                  "right": "melempar alat berbentuk tombak"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "posisi awal lari jarak pendek",
+                  "m1": "posisi awal lari jarak menengah dan jauh",
+                  "m2": "lari berkelompok dengan tongkat",
+                  "m3": "melompat sejauh mungkin",
+                  "m4": "mendorong peluru dari bahu",
+                  "m5": "melempar alat berbentuk tombak"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur latihan atletik yang aman.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pemanasan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Latihan teknik"
+                },
+                {
+                  "id": "d2",
+                  "text": "Latihan intensitas ringan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pendinginan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Latihan atletik dimulai dari pemanasan dan diakhiri pendinginan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1249 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pjok",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PJOK 5",
+      "title": "Permainan Bulu Tangkis",
+      "description": "Mempelajari sejarah dan peraturan bulu tangkis, teknik pegangan raket, servis, forehand, backhand, smash, dan dropshot, serta taktik bermain.",
+      "learning_objectives": [
+        "Menjelaskan sejarah dan peraturan dasar permainan bulu tangkis.",
+        "Mempraktikkan pegangan raket, servis, forehand, backhand, smash, dan dropshot.",
+        "Menerapkan taktik penempatan bola dan pergerakan kaki dalam permainan.",
+        "Menunjukkan sportivitas, disiplin, dan kerja sama selama bermain.",
+        "Menjaga keselamatan diri dan teman melalui pemanasan serta pendinginan."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "PJOK-BG-KLS-X.pdf Bab 5 Permainan Bulu Tangkis; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa bulu tangkis digemari?",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 5 Permainan Bulu Tangkis; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Permainan raket yang cepat\n\nBulu tangkis adalah permainan raket yang dimainkan dua pemain (tunggal) atau dua pasangan (ganda). Setiap pihak berusaha menjatuhkan shuttlecock di daerah lawan melewati net. Permainan ini menuntut kelincahan, kecepatan reaksi, dan ketepatan penempatan.\n\nPermainan ini berkembang dari India dan Inggris. Di Indonesia, Persatuan Bulu Tangkis Seluruh Indonesia (PBSI) berdiri pada 5 Mei 1951. Indonesia dikenal sebagai salah satu negara kuat dalam bulu tangkis dunia.\n\nBulu tangkis melatih kebugaran, konsentrasi, dan pengendalian diri. Pemain harus membaca arah shuttlecock dan posisi lawan sebelum memilih pukulan.\n\nLakukan pemanasan pergelangan tangan dan kaki, gunakan raket yang sesuai, serta periksa lantai agar tidak licin.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "pjok-5-bulu-tangkis-glosarium",
+              "terms": [
+                {
+                  "term": "Bulu tangkis",
+                  "definition": "Olahraga raket yang memukul shuttlecock melewati net ke daerah lawan."
+                },
+                {
+                  "term": "Shuttlecock",
+                  "definition": "Bola bulu tangkis berbentuk kerucut dengan bulu di bagian atas."
+                },
+                {
+                  "term": "Servis",
+                  "definition": "Pukulan pertama untuk memulai rally."
+                },
+                {
+                  "term": "Forehand",
+                  "definition": "Pukulan dengan sisi raket yang searah telapak tangan."
+                },
+                {
+                  "term": "Backhand",
+                  "definition": "Pukulan dengan sisi raket yang membelakangi telapak tangan."
+                },
+                {
+                  "term": "Smash",
+                  "definition": "Pukulan keras dan menukik ke bawah untuk menyerang."
+                },
+                {
+                  "term": "Dropshot",
+                  "definition": "Pukulan pelan yang menjatuhkan shuttlecock dekat net."
+                },
+                {
+                  "term": "Deuce",
+                  "definition": "Keadaan skor imbang 20-20 yang membuat permainan dilanjutkan hingga selisih dua poin."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Permainan raket yang cepat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bulu tangkis adalah permainan raket yang dimainkan dua pemain (tunggal) atau dua pasangan (ganda). Setiap pihak berusaha menjatuhkan shuttlecock di daerah lawan melewati net. Permainan ini menuntut kelincahan, kecepatan reaksi, dan ketepatan penempatan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Permainan ini berkembang dari India dan Inggris. Di Indonesia, Persatuan Bulu Tangkis Seluruh Indonesia (PBSI) berdiri pada 5 Mei 1951. Indonesia dikenal sebagai salah satu negara kuat dalam bulu tangkis dunia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bulu tangkis melatih kebugaran, konsentrasi, dan pengendalian diri. Pemain harus membaca arah shuttlecock dan posisi lawan sebelum memilih pukulan."
+            },
+            {
+              "type": "diagram",
+              "id": "pjok-5-bulu-tangkis-diagram",
+              "engine": "mermaid",
+              "title": "Alur dasar permainan bulu tangkis",
+              "code": "flowchart LR\n  A[Servis] --> B[Terima shuttlecock]\n  B --> C[Pukul ke area lawan]\n  C --> D[Lawan mengembalikan]\n  D --> E[Cari peluang smash]\n  E --> F[Menang rally]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Lakukan pemanasan pergelangan tangan dan kaki, gunakan raket yang sesuai, serta periksa lantai agar tidak licin."
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-5-bulu-tangkis-cp-1",
+              "question": "Apa induk organisasi bulu tangkis Indonesia?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "PBSI",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "PSSI"
+                },
+                {
+                  "id": "c2",
+                  "text": "PBVSI"
+                },
+                {
+                  "id": "c3",
+                  "text": "PERBASI"
+                }
+              ],
+              "explanation": "PBSI adalah Persatuan Bulu Tangkis Seluruh Indonesia."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Peraturan dan teknik dasar",
+          "duration": 300,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 5 Permainan Bulu Tangkis; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Peraturan, teknik, dan taktik\n\nLapangan bulu tangkis berukuran panjang 13,40 meter. Untuk permainan ganda lebarnya 6,10 meter, sedangkan untuk tunggal 5,18 meter. Net dipasang setinggi 1,55 meter di bagian tengah.\n\nPertandingan memakai sistem rally point dengan target 21 poin. Pemain atau pasangan yang memenangkan dua game lebih dulu menjadi pemenang. Jika skor 20-20, permainan dilanjutkan hingga selisih dua poin, dengan batas 30 poin.\n\nServis dilakukan secara diagonal ke area servis lawan. Saat memukul servis, shuttlecock harus berada di bawah pinggang. Pelanggaran umum meliputi shuttlecock keluar lapangan, menyentuh net, dan servis yang tidak melewati net.\n\n| Teknik | Tujuan | Kunci gerak |\n|---|---|---|\n| Pegangan forehand | Pukulan dari sisi kanan | Raket dipegang seperti berjabat tangan |\n| Pegangan backhand | Pukulan dari sisi kiri | Ibu jari menempel di sisi raket |\n| Servis | Memulai rally | Shuttlecock di bawah pinggang, ayunan terkendali |\n| Smash | Menyerang | Lompat, raket di atas kepala, pukul menukik |\n| Dropshot | Mengubah tempo | Pukulan pelan, shuttlecock jatuh dekat net |\n\n### Taktik sederhana\n\n- Pukulan lob tinggi memberi waktu untuk kembali ke posisi tengah.\n- Dropshot menarik lawan ke depan net, lalu smash diarahkan ke belakang.\n- Permainan ganda memakai pola depan-belakang atau samping-samping.\n- Komunikasi singkat seperti “saya”, “kamu”, atau “lepas” mencegah tabrakan antar pemain.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peraturan, teknik, dan taktik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lapangan bulu tangkis berukuran panjang 13,40 meter. Untuk permainan ganda lebarnya 6,10 meter, sedangkan untuk tunggal 5,18 meter. Net dipasang setinggi 1,55 meter di bagian tengah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pertandingan memakai sistem rally point dengan target 21 poin. Pemain atau pasangan yang memenangkan dua game lebih dulu menjadi pemenang. Jika skor 20-20, permainan dilanjutkan hingga selisih dua poin, dengan batas 30 poin."
+            },
+            {
+              "type": "paragraph",
+              "text": "Servis dilakukan secara diagonal ke area servis lawan. Saat memukul servis, shuttlecock harus berada di bawah pinggang. Pelanggaran umum meliputi shuttlecock keluar lapangan, menyentuh net, dan servis yang tidak melewati net."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknik",
+                  "Tujuan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Pegangan forehand",
+                  "Pukulan dari sisi kanan",
+                  "Raket dipegang seperti berjabat tangan"
+                ],
+                [
+                  "Pegangan backhand",
+                  "Pukulan dari sisi kiri",
+                  "Ibu jari menempel di sisi raket"
+                ],
+                [
+                  "Servis",
+                  "Memulai rally",
+                  "Shuttlecock di bawah pinggang, ayunan terkendali"
+                ],
+                [
+                  "Smash",
+                  "Menyerang",
+                  "Lompat, raket di atas kepala, pukul menukik"
+                ],
+                [
+                  "Dropshot",
+                  "Mengubah tempo",
+                  "Pukulan pelan, shuttlecock jatuh dekat net"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pjok-5-ukuran-lapangan",
+              "title": "Ukuran penting lapangan bulu tangkis (meter)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Panjang",
+                  "value": 13.4
+                },
+                {
+                  "label": "Lebar ganda",
+                  "value": 6.1
+                },
+                {
+                  "label": "Lebar tunggal",
+                  "value": 5.18
+                },
+                {
+                  "label": "Tinggi net",
+                  "value": 1.55
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pjok-5-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam pelanggaran atau gerak sah.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Pelanggaran"
+                },
+                {
+                  "id": "b2",
+                  "label": "Gerak sah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Shuttlecock jatuh di luar garis lapangan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Raket menyentuh net saat memukul",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Servis diagonal ke area lawan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Smash dari belakang lapangan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Shuttlecock menyangkut di net",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Dropshot ke dekat net",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Shuttlecock keluar, raket menyentuh net, dan shuttlecock menyangkut adalah pelanggaran.",
+                "wrong": "Periksa lagi: servis, smash, dan dropshot adalah gerakan sah."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Taktik sederhana"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pukulan lob tinggi memberi waktu untuk kembali ke posisi tengah.",
+                "Dropshot menarik lawan ke depan net, lalu smash diarahkan ke belakang.",
+                "Permainan ganda memakai pola depan-belakang atau samping-samping.",
+                "Komunikasi singkat seperti “saya”, “kamu”, atau “lepas” mencegah tabrakan antar pemain."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-5-bulu-tangkis-cp-2",
+              "question": "Berapa target poin untuk memenangkan satu game?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "21 poin",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "15 poin"
+                },
+                {
+                  "id": "c2",
+                  "text": "25 poin"
+                },
+                {
+                  "id": "c3",
+                  "text": "11 poin"
+                }
+              ],
+              "explanation": "Satu game dimenangkan dengan 21 poin, kecuali terjadi deuce."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 5 Permainan Bulu Tangkis; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Bermain dengan sportif\n\nPermainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca arah shuttlecock dan posisi lawan, lalu memilih antara smash, dropshot, atau lob. Keputusan yang tergesa-gesa sering menghasilkan kesalahan sendiri.\n\nSportivitas tampak ketika pemain mengakui shuttlecock jatuh di dalam garis, membantu lawan yang terjatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian area yang jelas.\n\nGunakan latihan berpasangan untuk melatih servis, lob, dan dropshot. Hentikan latihan sesaat untuk membahas penempatan yang tepat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bermain dengan sportif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Permainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca arah shuttlecock dan posisi lawan, lalu memilih antara smash, dropshot, atau lob. Keputusan yang tergesa-gesa sering menghasilkan kesalahan sendiri."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sportivitas tampak ketika pemain mengakui shuttlecock jatuh di dalam garis, membantu lawan yang terjatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian area yang jelas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gunakan latihan berpasangan untuk melatih servis, lob, dan dropshot. Hentikan latihan sesaat untuk membahas penempatan yang tepat."
+            },
+            {
+              "type": "scenario",
+              "id": "pjok-5-skenario",
+              "title": "Keputusan di poin kritis",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Skor 20-20 dan lawan mengirim lob tinggi ke belakang. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Memukul smash ke area kosong",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Smash ke area kosong menyulitkan pertahanan lawan."
+                    },
+                    {
+                      "text": "Memukul pelan ke tengah lapangan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Pukulan lambat mudah diserang balik."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Lawan berhasil mengembalikan smash ke depan net. Apa pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "Melakukan netting terkendali",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Netting terkendali menjaga rally tetap dalam kendali."
+                    },
+                    {
+                      "text": "Memukul sekuat tenaga dari posisi sulit",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Pukulan keras dari posisi sulit mudah keluar."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Poin hilang karena keputusan diambil tergesa-gesa.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Kamu menutup rally dan bermain dengan tenang.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "pjok-5-bulu-tangkis-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu dropshot?",
+                  "back": "Pukulan pelan yang menjatuhkan shuttlecock dekat net."
+                },
+                {
+                  "front": "Berapa tinggi net di tengah?",
+                  "back": "1,55 meter."
+                },
+                {
+                  "front": "Berapa poin untuk memenangkan game?",
+                  "back": "21 poin."
+                },
+                {
+                  "front": "Apa itu deuce?",
+                  "back": "Skor 20-20 yang membuat permainan dilanjutkan hingga selisih dua poin."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-5-bulu-tangkis-cp-3",
+              "question": "Saat lawan berada di belakang lapangan, pukulan paling tepat adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Dropshot ke dekat net",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Lob tinggi ke belakang"
+                },
+                {
+                  "id": "c2",
+                  "text": "Smash ke arah lawan"
+                },
+                {
+                  "id": "c3",
+                  "text": "Servis ulang"
+                }
+              ],
+              "explanation": "Dropshot memaksa lawan bergerak jauh ke depan net."
+            },
+            {
+              "type": "challenge",
+              "id": "pjok-5-tantangan",
+              "title": "Tantangan istilah bulu tangkis",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Induk organisasi bulu tangkis Indonesia",
+                  "answer": "PBSI"
+                },
+                {
+                  "question": "Poin untuk memenangkan game",
+                  "answer": "21"
+                },
+                {
+                  "question": "Tinggi net di tengah",
+                  "answer": "1,55 m"
+                },
+                {
+                  "question": "Pukulan keras menukik",
+                  "answer": "smash"
+                },
+                {
+                  "question": "Pukulan pelan dekat net",
+                  "answer": "dropshot"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Permainan Bulu Tangkis — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa induk organisasi bulu tangkis Indonesia?",
+              "options": [
+                {
+                  "text": "PBSI",
+                  "correct": true
+                },
+                {
+                  "text": "PSSI"
+                },
+                {
+                  "text": "PERBASI"
+                },
+                {
+                  "text": "PBVSI"
+                }
+              ],
+              "explanation": "PBSI adalah Persatuan Bulu Tangkis Seluruh Indonesia.",
+              "hint": "Bandingkan dengan PSSI untuk sepak bola."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa poin yang dibutuhkan untuk memenangkan satu game?",
+              "options": [
+                {
+                  "text": "21 poin",
+                  "correct": true
+                },
+                {
+                  "text": "15 poin"
+                },
+                {
+                  "text": "25 poin"
+                },
+                {
+                  "text": "11 poin"
+                }
+              ],
+              "explanation": "Satu game dimenangkan dengan 21 poin.",
+              "hint": "Jika 20-20, permainan dilanjutkan hingga selisih dua."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa tinggi net bulu tangkis di bagian tengah?",
+              "options": [
+                {
+                  "text": "1,55 meter",
+                  "correct": true
+                },
+                {
+                  "text": "1,52 meter"
+                },
+                {
+                  "text": "1,60 meter"
+                },
+                {
+                  "text": "2,43 meter"
+                }
+              ],
+              "explanation": "Net dipasang setinggi 1,55 meter di tengah.",
+              "hint": "Tinggi di pinggir sedikit berbeda."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk teknik dasar bulu tangkis?",
+              "options": [
+                {
+                  "text": "Servis",
+                  "correct": true
+                },
+                {
+                  "text": "Forehand",
+                  "correct": true
+                },
+                {
+                  "text": "Backhand",
+                  "correct": true
+                },
+                {
+                  "text": "Dribbling",
+                  "correct": false
+                },
+                {
+                  "text": "Heading",
+                  "correct": false
+                }
+              ],
+              "explanation": "Servis, forehand, dan backhand adalah teknik dasar bulu tangkis.",
+              "hint": "Dribbling dan heading bukan istilah bulu tangkis."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk pelanggaran dalam bulu tangkis?",
+              "options": [
+                {
+                  "text": "Shuttlecock keluar lapangan",
+                  "correct": true
+                },
+                {
+                  "text": "Raket menyentuh net",
+                  "correct": true
+                },
+                {
+                  "text": "Servis diagonal",
+                  "correct": false
+                },
+                {
+                  "text": "Smash dari belakang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Shuttlecock keluar dan raket menyentuh net adalah pelanggaran.",
+              "hint": "Servis diagonal dan smash adalah gerakan sah."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Permainan Bulu Tangkis — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa panjang lapangan bulu tangkis?",
+              "options": [
+                {
+                  "text": "13,40 meter",
+                  "correct": true
+                },
+                {
+                  "text": "12,00 meter"
+                },
+                {
+                  "text": "14,00 meter"
+                },
+                {
+                  "text": "18,00 meter"
+                }
+              ],
+              "explanation": "Lapangan bulu tangkis panjangnya 13,40 meter.",
+              "hint": "Lebar ganda 6,10 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa lebar lapangan bulu tangkis untuk permainan tunggal?",
+              "options": [
+                {
+                  "text": "5,18 meter",
+                  "correct": true
+                },
+                {
+                  "text": "6,10 meter"
+                },
+                {
+                  "text": "4,50 meter"
+                },
+                {
+                  "text": "5,50 meter"
+                }
+              ],
+              "explanation": "Lapangan tunggal lebarnya 5,18 meter.",
+              "hint": "Ganda memakai lebar 6,10 meter."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa tujuan melakukan dropshot?",
+              "options": [
+                {
+                  "text": "Menarik lawan ke depan net",
+                  "correct": true
+                },
+                {
+                  "text": "Mengubah tempo permainan",
+                  "correct": true
+                },
+                {
+                  "text": "Mencetak poin langsung dari belakang",
+                  "correct": false
+                },
+                {
+                  "text": "Menghentikan waktu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dropshot menarik lawan ke depan dan mengubah tempo.",
+              "hint": "Pukulan ini tidak selalu langsung mematikan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri servis yang benar?",
+              "options": [
+                {
+                  "text": "Shuttlecock dipukul di bawah pinggang",
+                  "correct": true
+                },
+                {
+                  "text": "Arah servis diagonal ke area lawan",
+                  "correct": true
+                },
+                {
+                  "text": "Shuttlecock dipukul di atas kepala",
+                  "correct": false
+                },
+                {
+                  "text": "Servis diarahkan ke area sendiri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Servis dilakukan di bawah pinggang dan diagonal ke area lawan.",
+              "hint": "Perhatikan garis servis."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Servis",
+                  "right": "pukulan pertama memulai rally"
+                },
+                {
+                  "id": "m1",
+                  "left": "Forehand",
+                  "right": "pukulan dengan sisi raket searah telapak tangan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Backhand",
+                  "right": "pukulan dengan sisi raket membelakangi telapak tangan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Smash",
+                  "right": "pukulan keras menukik ke bawah"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pukulan pertama memulai rally",
+                  "m1": "pukulan dengan sisi raket searah telapak tangan",
+                  "m2": "pukulan dengan sisi raket membelakangi telapak tangan",
+                  "m3": "pukulan keras menukik ke bawah"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan servis forehand.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Berdiri di area servis"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pegang shuttlecock di depan badan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Ayunkan raket dari belakang"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pukul shuttlecock di bawah pinggang"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Servis forehand dimulai dari posisi berdiri lalu ayunan raket.",
+              "hint": "Arahkan shuttlecock diagonal melewati net."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan smash.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Ambil posisi di belakang shuttlecock"
+                },
+                {
+                  "id": "p1",
+                  "text": "Lompat dan angkat raket"
+                },
+                {
+                  "id": "p2",
+                  "text": "Pukul shuttlecock di titik tertinggi"
+                },
+                {
+                  "id": "p3",
+                  "text": "Arahkan menukik ke area lawan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Smash membutuhkan posisi, lompatan, dan pukulan menukik.",
+              "hint": "Perhatikan timing lompatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama bola bulu tangkis?",
+              "options": [
+                {
+                  "text": "Shuttlecock",
+                  "correct": true
+                },
+                {
+                  "text": "Raket"
+                },
+                {
+                  "text": "Net"
+                },
+                {
+                  "text": "Bola kasti"
+                }
+              ],
+              "explanation": "Shuttlecock berbentuk kerucut dengan bulu di bagian atas.",
+              "hint": "Bentuknya membuat gerakannya melambat saat melayang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pukulan pertama untuk memulai rally?",
+              "options": [
+                {
+                  "text": "Servis",
+                  "correct": true
+                },
+                {
+                  "text": "Smash"
+                },
+                {
+                  "text": "Dropshot"
+                },
+                {
+                  "text": "Lob"
+                }
+              ],
+              "explanation": "Servis memulai rally dan dilakukan secara diagonal.",
+              "hint": "Shuttlecock harus berada di bawah pinggang saat dipukul."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk jenis pukulan bulu tangkis?",
+              "options": [
+                {
+                  "text": "Lob",
+                  "correct": true
+                },
+                {
+                  "text": "Smash",
+                  "correct": true
+                },
+                {
+                  "text": "Dropshot",
+                  "correct": true
+                },
+                {
+                  "text": "Jump shot",
+                  "correct": false
+                },
+                {
+                  "text": "Lay-up",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lob, smash, dan dropshot adalah pukulan bulu tangkis.",
+              "hint": "Jump shot dan lay-up bukan istilah bulu tangkis."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Permainan Bulu Tangkis — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pukulan keras dan menukik ke bawah?",
+              "options": [
+                {
+                  "text": "Smash",
+                  "correct": true
+                },
+                {
+                  "text": "Lob"
+                },
+                {
+                  "text": "Dropshot"
+                },
+                {
+                  "text": "Netting"
+                }
+              ],
+              "explanation": "Smash adalah pukulan keras dan menukik untuk menyerang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pukulan pelan yang jatuh dekat net?",
+              "options": [
+                {
+                  "text": "Dropshot",
+                  "correct": true
+                },
+                {
+                  "text": "Smash"
+                },
+                {
+                  "text": "Lob"
+                },
+                {
+                  "text": "Servis"
+                }
+              ],
+              "explanation": "Dropshot menjatuhkan shuttlecock dekat net."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa skor yang memicu deuce?",
+              "options": [
+                {
+                  "text": "20-20",
+                  "correct": true
+                },
+                {
+                  "text": "19-19"
+                },
+                {
+                  "text": "21-21"
+                },
+                {
+                  "text": "18-18"
+                }
+              ],
+              "explanation": "Deuce terjadi saat skor 20-20."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa batas maksimal poin dalam satu game saat deuce?",
+              "options": [
+                {
+                  "text": "30 poin",
+                  "correct": true
+                },
+                {
+                  "text": "25 poin"
+                },
+                {
+                  "text": "29 poin"
+                },
+                {
+                  "text": "35 poin"
+                }
+              ],
+              "explanation": "Permainan dihentikan pada 30 poin bila selisih dua belum tercapai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ke area mana servis harus diarahkan?",
+              "options": [
+                {
+                  "text": "Area servis lawan secara diagonal",
+                  "correct": true
+                },
+                {
+                  "text": "Area tengah lapangan"
+                },
+                {
+                  "text": "Area belakang sendiri"
+                },
+                {
+                  "text": "Bebas ke mana saja"
+                }
+              ],
+              "explanation": "Servis harus melewati net dan masuk area servis lawan secara diagonal."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tugas pemain depan dalam ganda?",
+              "options": [
+                {
+                  "text": "Menutup area net",
+                  "correct": true
+                },
+                {
+                  "text": "Mencari bola pendek",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga gawang",
+                  "correct": false
+                },
+                {
+                  "text": "Melakukan servis dari belakang terus-menerus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemain depan menutup area net dan bola pendek."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pola permainan ganda yang umum?",
+              "options": [
+                {
+                  "text": "Depan-belakang",
+                  "correct": true
+                },
+                {
+                  "text": "Samping-samping",
+                  "correct": true
+                },
+                {
+                  "text": "4-4-2",
+                  "correct": false
+                },
+                {
+                  "text": "5-1",
+                  "correct": false
+                }
+              ],
+              "explanation": "Depan-belakang dan samping-samping adalah pola ganda bulu tangkis."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Dropshot",
+                  "right": "pukulan pelan dekat net"
+                },
+                {
+                  "id": "m1",
+                  "left": "Lob",
+                  "right": "pukulan tinggi ke belakang lapangan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Deuce",
+                  "right": "skor 20-20"
+                },
+                {
+                  "id": "m3",
+                  "left": "Shuttlecock",
+                  "right": "bola bulu tangkis"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pukulan pelan dekat net",
+                  "m1": "pukulan tinggi ke belakang lapangan",
+                  "m2": "skor 20-20",
+                  "m3": "bola bulu tangkis"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan fase melakukan dropshot.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Ambil posisi seperti akan smash"
+                },
+                {
+                  "id": "d1",
+                  "text": "Turunkan kecepatan ayunan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Pukul shuttlecock dengan lembut"
+                },
+                {
+                  "id": "d3",
+                  "text": "Arahkan jatuh dekat net"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Dropshot meniru gerakan smash tetapi dengan tenaga kecil."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah kembali ke posisi tengah setelah pukulan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Selesaikan pukulan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Langkah kaki ke arah tengah"
+                },
+                {
+                  "id": "p2",
+                  "text": "Siapkan raket di depan badan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Pantau arah shuttlecock lawan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Setelah memukul, pemain harus segera kembali ke posisi siap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pegangan raket yang searah telapak tangan?",
+              "options": [
+                {
+                  "text": "Forehand",
+                  "correct": true
+                },
+                {
+                  "text": "Backhand"
+                },
+                {
+                  "text": "Servis"
+                },
+                {
+                  "text": "Smash"
+                }
+              ],
+              "explanation": "Pegangan forehand memakai sisi raket yang searah telapak tangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pukulan tinggi untuk memberi waktu kembali ke posisi?",
+              "options": [
+                {
+                  "text": "Lob",
+                  "correct": true
+                },
+                {
+                  "text": "Smash"
+                },
+                {
+                  "text": "Dropshot"
+                },
+                {
+                  "text": "Netting"
+                }
+              ],
+              "explanation": "Lob adalah pukulan tinggi ke belakang lapangan lawan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang deuce?",
+              "options": [
+                {
+                  "text": "Terjadi saat skor 20-20",
+                  "correct": true
+                },
+                {
+                  "text": "Pemenang harus unggul dua poin",
+                  "correct": true
+                },
+                {
+                  "text": "Terjadi saat skor 15-15",
+                  "correct": false
+                },
+                {
+                  "text": "Pemenang ditentukan satu poin",
+                  "correct": false
+                }
+              ],
+              "explanation": "Deuce terjadi pada 20-20 dan pemenang harus unggul dua poin."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Servis",
+                  "right": "pukulan pertama memulai rally"
+                },
+                {
+                  "id": "m1",
+                  "left": "Forehand",
+                  "right": "pukulan dengan sisi raket searah telapak tangan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Backhand",
+                  "right": "pukulan dengan sisi raket membelakangi telapak tangan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Smash",
+                  "right": "pukulan keras menukik ke bawah"
+                },
+                {
+                  "id": "m4",
+                  "left": "Dropshot",
+                  "right": "pukulan pelan dekat net"
+                },
+                {
+                  "id": "m5",
+                  "left": "Lob",
+                  "right": "pukulan tinggi ke belakang lapangan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pukulan pertama memulai rally",
+                  "m1": "pukulan dengan sisi raket searah telapak tangan",
+                  "m2": "pukulan dengan sisi raket membelakangi telapak tangan",
+                  "m3": "pukulan keras menukik ke bawah",
+                  "m4": "pukulan pelan dekat net",
+                  "m5": "pukulan tinggi ke belakang lapangan"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur rally dari servis sampai poin.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Servis melewati net"
+                },
+                {
+                  "id": "d1",
+                  "text": "Lawan mengembalikan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Cari bola tinggi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Lakukan smash"
+                },
+                {
+                  "id": "d4",
+                  "text": "Shuttlecock jatuh di area lawan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Rally bergerak dari servis menuju penyelesaian poin."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

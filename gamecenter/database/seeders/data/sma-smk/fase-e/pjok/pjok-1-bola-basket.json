@@ -1,0 +1,1248 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pjok",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PJOK 1",
+      "title": "Permainan Bola Basket",
+      "description": "Mengenal sejarah dan peraturan bola basket, menguasai teknik dasar passing, dribbling, shooting, pivot, dan rebound, serta menerapkan kerja sama dan sportivitas dalam permainan.",
+      "learning_objectives": [
+        "Menjelaskan sejarah dan peraturan dasar permainan bola basket.",
+        "Mempraktikkan teknik passing, dribbling, shooting, pivot, dan rebound.",
+        "Menerapkan taktik menyerang dan bertahan sederhana dalam permainan.",
+        "Menunjukkan sportivitas, kerja sama, dan disiplin selama bermain.",
+        "Menjaga keselamatan diri dan teman melalui pemanasan serta pendinginan."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "PJOK-BG-KLS-X.pdf Bab 1 Permainan Bola Basket; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa bola basket penting?",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 1 Permainan Bola Basket; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Permainan cepat yang menuntut kerja sama\n\nBola basket adalah permainan bola besar yang dimainkan dua tim. Setiap tim berusaha memasukkan bola ke ring lawan sekaligus mencegah lawan mencetak poin. Permainan ini menuntut kecepatan, koordinasi mata dan tangan, serta keputusan cepat.\n\nJames Naismith menciptakan bola basket pada tahun 1891 di Springfield, Massachusetts, Amerika Serikat. Ia mencari permainan dalam ruangan yang tetap menggerakkan seluruh tubuh. Di Indonesia, organisasi bola basket bernama PERBASI berdiri pada 23 Oktober 1951.\n\nManfaat bola basket tidak hanya kebugaran. Permainan ini melatih komunikasi, pembagian peran, dan pengendalian diri. Pemain yang baik tahu kapan harus menembak, mengoper, atau bertahan.\n\nSelalu lakukan pemanasan, potong kuku, dan lepas aksesori sebelum bermain agar cedera dapat dicegah.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "pjok-1-bola-basket-glosarium",
+              "terms": [
+                {
+                  "term": "Bola basket",
+                  "definition": "Olahraga dua tim berisi lima pemain yang berusaha memasukkan bola ke ring lawan."
+                },
+                {
+                  "term": "Dribbling",
+                  "definition": "Membawa bola dengan memantulkannya ke lantai memakai satu tangan."
+                },
+                {
+                  "term": "Passing",
+                  "definition": "Mengoper bola kepada rekan satu tim agar serangan berjalan."
+                },
+                {
+                  "term": "Pivot",
+                  "definition": "Memutar badan dengan satu kaki sebagai poros sambil memegang bola."
+                },
+                {
+                  "term": "Traveling",
+                  "definition": "Pelanggaran karena melangkah lebih dari dua langkah tanpa menggiring bola."
+                },
+                {
+                  "term": "Rebound",
+                  "definition": "Merebut bola yang memantul dari ring atau papan pantul."
+                },
+                {
+                  "term": "Man-to-man",
+                  "definition": "Pertahanan ketika setiap pemain menjaga satu lawan tertentu."
+                },
+                {
+                  "term": "Shot clock",
+                  "definition": "Batas waktu menembak ke ring, yaitu 24 detik dalam aturan FIBA."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Permainan cepat yang menuntut kerja sama"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bola basket adalah permainan bola besar yang dimainkan dua tim. Setiap tim berusaha memasukkan bola ke ring lawan sekaligus mencegah lawan mencetak poin. Permainan ini menuntut kecepatan, koordinasi mata dan tangan, serta keputusan cepat."
+            },
+            {
+              "type": "paragraph",
+              "text": "James Naismith menciptakan bola basket pada tahun 1891 di Springfield, Massachusetts, Amerika Serikat. Ia mencari permainan dalam ruangan yang tetap menggerakkan seluruh tubuh. Di Indonesia, organisasi bola basket bernama PERBASI berdiri pada 23 Oktober 1951."
+            },
+            {
+              "type": "paragraph",
+              "text": "Manfaat bola basket tidak hanya kebugaran. Permainan ini melatih komunikasi, pembagian peran, dan pengendalian diri. Pemain yang baik tahu kapan harus menembak, mengoper, atau bertahan."
+            },
+            {
+              "type": "diagram",
+              "id": "pjok-1-bola-basket-diagram",
+              "engine": "mermaid",
+              "title": "Alur dasar permainan bola basket",
+              "code": "flowchart LR\n  A[Menguasai bola] --> B[Passing atau dribbling]\n  B --> C[Membuka ruang]\n  C --> D[Shooting ke ring]\n  D --> E[Rebound]\n  E --> F[Bertahan dan serang lagi]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Selalu lakukan pemanasan, potong kuku, dan lepas aksesori sebelum bermain agar cedera dapat dicegah."
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-1-bola-basket-cp-1",
+              "question": "Siapa yang menciptakan permainan bola basket?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "James Naismith",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "William G. Morgan"
+                },
+                {
+                  "id": "c2",
+                  "text": "Pierre de Coubertin"
+                },
+                {
+                  "id": "c3",
+                  "text": "Friedrich Ludwig Jahn"
+                }
+              ],
+              "explanation": "James Naismith menciptakan bola basket pada 1891; William Morgan menciptakan bola voli."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Peraturan dan teknik dasar",
+          "duration": 300,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 1 Permainan Bola Basket; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Peraturan, teknik, dan taktik\n\nLapangan bola basket berukuran panjang 28 meter dan lebar 15 meter menurut FIBA. Ring dipasang setinggi 3,05 meter dari lantai. Satu tim menurunkan lima pemain inti, sedangkan pemain lain menunggu di bangku cadangan.\n\nPoin diperoleh dari lemparan bebas (1 poin), tembakan dari dalam garis tiga poin (2 poin), dan tembakan dari luar garis tiga poin (3 poin). Permainan FIBA terdiri atas empat kuarter, masing-masing 10 menit.\n\nPelanggaran umum meliputi traveling, double dribble, carrying, foul, dan pelanggaran tiga detik di area terlarang. Setiap tim juga dibatasi 24 detik untuk menembak ke ring.\n\n| Teknik | Tujuan | Kunci gerak |\n|---|---|---|\n| Passing | Memindahkan bola dengan cepat | Pandangan ke rekan, dorong bola dengan jari |\n| Dribbling | Melewati lawan atau membuka ruang | Bola dipantulkan, lutut lentur, tangan di atas bola |\n| Shooting | Mencetak poin | Siku mengarah ke ring, lepaskan dengan ujung jari |\n| Pivot | Melindungi bola dari lawan | Satu kaki menjadi poros, kaki poros tidak diangkat |\n| Rebound | Menguasai bola pantul | Rebut posisi, lompat, raih bola dengan dua tangan |\n\n### Taktik sederhana\n\n- Serangan cepat (fast break) dimulai dari rebound atau steal, lalu bola dioper cepat ke depan.\n- Pick and roll memakai satu pemain sebagai penghalang agar rekan bisa bergerak bebas.\n- Pertahanan man-to-man menjaga satu lawan, sedangkan pertahanan zona menjaga area tertentu.\n- Komunikasi singkat seperti “saya”, “kiri”, atau “ganti” mencegah tabrakan dan salah jaga.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peraturan, teknik, dan taktik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lapangan bola basket berukuran panjang 28 meter dan lebar 15 meter menurut FIBA. Ring dipasang setinggi 3,05 meter dari lantai. Satu tim menurunkan lima pemain inti, sedangkan pemain lain menunggu di bangku cadangan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Poin diperoleh dari lemparan bebas (1 poin), tembakan dari dalam garis tiga poin (2 poin), dan tembakan dari luar garis tiga poin (3 poin). Permainan FIBA terdiri atas empat kuarter, masing-masing 10 menit."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pelanggaran umum meliputi traveling, double dribble, carrying, foul, dan pelanggaran tiga detik di area terlarang. Setiap tim juga dibatasi 24 detik untuk menembak ke ring."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknik",
+                  "Tujuan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Passing",
+                  "Memindahkan bola dengan cepat",
+                  "Pandangan ke rekan, dorong bola dengan jari"
+                ],
+                [
+                  "Dribbling",
+                  "Melewati lawan atau membuka ruang",
+                  "Bola dipantulkan, lutut lentur, tangan di atas bola"
+                ],
+                [
+                  "Shooting",
+                  "Mencetak poin",
+                  "Siku mengarah ke ring, lepaskan dengan ujung jari"
+                ],
+                [
+                  "Pivot",
+                  "Melindungi bola dari lawan",
+                  "Satu kaki menjadi poros, kaki poros tidak diangkat"
+                ],
+                [
+                  "Rebound",
+                  "Menguasai bola pantul",
+                  "Rebut posisi, lompat, raih bola dengan dua tangan"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pjok-1-nilai-poin",
+              "title": "Nilai poin dalam bola basket",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Lemparan bebas",
+                  "value": 1
+                },
+                {
+                  "label": "Tembakan 2 poin",
+                  "value": 2
+                },
+                {
+                  "label": "Tembakan 3 poin",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pjok-1-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam pelanggaran atau gerak sah.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Pelanggaran"
+                },
+                {
+                  "id": "b2",
+                  "label": "Gerak sah"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Melangkah lebih dari dua langkah tanpa dribble",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Menggiring bola lagi setelah berhenti",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Memutar badan dengan satu kaki poros",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Mengoper bola ke rekan satu tim",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Menahan bola lebih dari tiga detik di area terlarang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Merebut bola pantul dari ring",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Traveling, double dribble, dan pelanggaran tiga detik termasuk pelanggaran.",
+                "wrong": "Periksa lagi: pivot, passing, dan rebound adalah gerakan sah."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Taktik sederhana"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Serangan cepat (fast break) dimulai dari rebound atau steal, lalu bola dioper cepat ke depan.",
+                "Pick and roll memakai satu pemain sebagai penghalang agar rekan bisa bergerak bebas.",
+                "Pertahanan man-to-man menjaga satu lawan, sedangkan pertahanan zona menjaga area tertentu.",
+                "Komunikasi singkat seperti “saya”, “kiri”, atau “ganti” mencegah tabrakan dan salah jaga."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-1-bola-basket-cp-2",
+              "question": "Berapa batas waktu shot clock dalam aturan FIBA?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "24 detik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "30 detik"
+                },
+                {
+                  "id": "c2",
+                  "text": "20 detik"
+                },
+                {
+                  "id": "c3",
+                  "text": "14 detik"
+                }
+              ],
+              "explanation": "FIBA memberi waktu 24 detik bagi tim untuk melepaskan tembakan ke ring."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 1 Permainan Bola Basket; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Bermain dengan sportif\n\nPermainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca posisi rekan dan lawan, lalu memilih antara menembak, mengoper, atau menggiring. Keputusan yang tergesa-gesa sering menghasilkan kehilangan bola.\n\nSportivitas tampak ketika pemain mengakui pelanggaran, membantu lawan yang jatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian peran yang jelas.\n\nGunakan permainan kecil tiga lawan tiga untuk melatih passing cepat, pergerakan tanpa bola, dan pertahanan. Hentikan permainan sesaat untuk membahas keputusan yang tepat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bermain dengan sportif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Permainan sesungguhnya menguji keputusan, bukan hanya teknik. Pemain harus membaca posisi rekan dan lawan, lalu memilih antara menembak, mengoper, atau menggiring. Keputusan yang tergesa-gesa sering menghasilkan kehilangan bola."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sportivitas tampak ketika pemain mengakui pelanggaran, membantu lawan yang jatuh, dan menghormati keputusan wasit. Kerja sama dibangun melalui komunikasi dan pembagian peran yang jelas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gunakan permainan kecil tiga lawan tiga untuk melatih passing cepat, pergerakan tanpa bola, dan pertahanan. Hentikan permainan sesaat untuk membahas keputusan yang tepat."
+            },
+            {
+              "type": "scenario",
+              "id": "pjok-1-skenario",
+              "title": "Keputusan di menit terakhir",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Timmu tertinggal dua poin dan waktu tersisa 30 detik. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menyusun serangan cepat dan mencari tembakan terbuka",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Keputusan ini memberi tim peluang terbaik."
+                    },
+                    {
+                      "text": "Memaksa tembakan sendiri dari luar garis",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tembakan terburu-buru mudah dihalangi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Rekanmu kosong di bawah ring, tetapi kamu juga punya ruang menembak. Apa pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "Mengoper ke rekan yang lebih kosong",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Operan ke posisi terbaik adalah inti kerja sama."
+                    },
+                    {
+                      "text": "Tetap menembak meski dijaga",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Peluang rekan yang lebih baik terbuang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Peluang habis karena keputusan diambil tergesa-gesa.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Tim mencetak poin dan bermain sebagai satu kesatuan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "pjok-1-bola-basket-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu traveling?",
+                  "back": "Melangkah lebih dari dua langkah tanpa menggiring bola."
+                },
+                {
+                  "front": "Apa fungsi pivot?",
+                  "back": "Melindungi bola dengan memutar badan memakai satu kaki poros."
+                },
+                {
+                  "front": "Apa itu rebound?",
+                  "back": "Merebut bola yang memantul dari ring atau papan pantul."
+                },
+                {
+                  "front": "Berapa tinggi ring?",
+                  "back": "3,05 meter dari lantai."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-1-bola-basket-cp-3",
+              "question": "Saat menerima bola dengan lawan sangat dekat, tindakan paling aman adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Melakukan pivot untuk melindungi bola",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Langsung menembak tanpa melihat ring"
+                },
+                {
+                  "id": "c2",
+                  "text": "Melempar bola ke sembarang arah"
+                },
+                {
+                  "id": "c3",
+                  "text": "Berhenti dan menahan bola dengan dua tangan"
+                }
+              ],
+              "explanation": "Pivot melindungi bola sambil membuka pandangan untuk mencari rekan."
+            },
+            {
+              "type": "challenge",
+              "id": "pjok-1-tantangan",
+              "title": "Tantangan istilah bola basket",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Pencipta bola basket",
+                  "answer": "James Naismith"
+                },
+                {
+                  "question": "Tinggi ring",
+                  "answer": "3,05 m"
+                },
+                {
+                  "question": "Jumlah pemain inti",
+                  "answer": "5"
+                },
+                {
+                  "question": "Batas waktu menembak",
+                  "answer": "24 detik"
+                },
+                {
+                  "question": "Organisasi bola basket Indonesia",
+                  "answer": "PERBASI"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Permainan Bola Basket — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Siapa pencipta permainan bola basket?",
+              "options": [
+                {
+                  "text": "James Naismith",
+                  "correct": true
+                },
+                {
+                  "text": "William G. Morgan"
+                },
+                {
+                  "text": "Michael Jordan"
+                },
+                {
+                  "text": "Pierre de Coubertin"
+                }
+              ],
+              "explanation": "James Naismith menciptakan bola basket pada 1891.",
+              "hint": "Ingat nama pencipta bola voli sebagai pembanding."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa tinggi ring bola basket dari lantai?",
+              "options": [
+                {
+                  "text": "3,05 meter",
+                  "correct": true
+                },
+                {
+                  "text": "2,43 meter"
+                },
+                {
+                  "text": "2,24 meter"
+                },
+                {
+                  "text": "3,50 meter"
+                }
+              ],
+              "explanation": "Ring bola basket dipasang 3,05 meter dari lantai.",
+              "hint": "Angka ini juga dipakai pada kompetisi FIBA."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa jumlah pemain inti setiap tim bola basket?",
+              "options": [
+                {
+                  "text": "5 pemain",
+                  "correct": true
+                },
+                {
+                  "text": "6 pemain"
+                },
+                {
+                  "text": "7 pemain"
+                },
+                {
+                  "text": "11 pemain"
+                }
+              ],
+              "explanation": "Setiap tim menurunkan lima pemain inti.",
+              "hint": "Bandingkan dengan bola voli yang enam pemain."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk teknik dasar bola basket?",
+              "options": [
+                {
+                  "text": "Passing",
+                  "correct": true
+                },
+                {
+                  "text": "Dribbling",
+                  "correct": true
+                },
+                {
+                  "text": "Shooting",
+                  "correct": true
+                },
+                {
+                  "text": "Smash",
+                  "correct": false
+                },
+                {
+                  "text": "Servis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Passing, dribbling, dan shooting adalah teknik dasar bola basket.",
+              "hint": "Smash dan servis berasal dari bola voli."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk pelanggaran dalam bola basket?",
+              "options": [
+                {
+                  "text": "Traveling",
+                  "correct": true
+                },
+                {
+                  "text": "Double dribble",
+                  "correct": true
+                },
+                {
+                  "text": "Pivot",
+                  "correct": false
+                },
+                {
+                  "text": "Rebound",
+                  "correct": false
+                }
+              ],
+              "explanation": "Traveling dan double dribble termasuk pelanggaran.",
+              "hint": "Pivot dan rebound adalah gerakan sah."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Permainan Bola Basket — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa nilai tembakan dari luar garis tiga poin?",
+              "options": [
+                {
+                  "text": "3 poin",
+                  "correct": true
+                },
+                {
+                  "text": "1 poin"
+                },
+                {
+                  "text": "2 poin"
+                },
+                {
+                  "text": "4 poin"
+                }
+              ],
+              "explanation": "Tembakan dari luar garis tiga poin bernilai tiga angka.",
+              "hint": "Semakin jauh garis, semakin besar nilainya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pelanggaran melangkah tanpa menggiring bola?",
+              "options": [
+                {
+                  "text": "Traveling",
+                  "correct": true
+                },
+                {
+                  "text": "Double dribble"
+                },
+                {
+                  "text": "Pivot"
+                },
+                {
+                  "text": "Rebound"
+                }
+              ],
+              "explanation": "Traveling terjadi saat pemain melangkah lebih dari dua langkah tanpa dribble.",
+              "hint": "Kata dasarnya berhubungan dengan “bepergian”."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa tujuan melakukan passing?",
+              "options": [
+                {
+                  "text": "Memindahkan bola ke rekan",
+                  "correct": true
+                },
+                {
+                  "text": "Membuka ruang serangan",
+                  "correct": true
+                },
+                {
+                  "text": "Mencetak poin langsung",
+                  "correct": false
+                },
+                {
+                  "text": "Menghentikan waktu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Passing memindahkan bola dan membuka ruang, bukan mencetak poin langsung.",
+              "hint": "Poin dicetak melalui shooting."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri dribbling yang benar?",
+              "options": [
+                {
+                  "text": "Bola dipantulkan dengan satu tangan",
+                  "correct": true
+                },
+                {
+                  "text": "Lutut lentur dan pandangan ke depan",
+                  "correct": true
+                },
+                {
+                  "text": "Bola ditahan dengan dua tangan",
+                  "correct": false
+                },
+                {
+                  "text": "Mata selalu menunduk ke bola",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dribbling benar memakai satu tangan dengan lutut lentur dan pandangan ke depan.",
+              "hint": "Pandangan ke depan membantu membaca lawan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Passing",
+                  "right": "mengoper bola kepada rekan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Dribbling",
+                  "right": "memantulkan bola ke lantai"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pivot",
+                  "right": "memutar badan dengan satu kaki poros"
+                },
+                {
+                  "id": "m3",
+                  "left": "Rebound",
+                  "right": "merebut bola pantul dari ring"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengoper bola kepada rekan",
+                  "m1": "memantulkan bola ke lantai",
+                  "m2": "memutar badan dengan satu kaki poros",
+                  "m3": "merebut bola pantul dari ring"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan chest pass.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pegang bola di depan dada"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tekuk siku di samping badan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Dorong bola ke depan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Lepaskan dengan jari mengarah ke rekan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Chest pass dimulai dari pegangan di dada lalu didorong lurus ke rekan.",
+              "hint": "Bayangkan bola bergerak lurus dari dada ke dada."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah lay-up dari sisi kanan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Awalan dua langkah"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tolakan kaki kiri"
+                },
+                {
+                  "id": "p2",
+                  "text": "Angkat lutut kanan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Lepaskan bola ke ring"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Lay-up kanan memakai tolakan kaki kiri dan lutut kanan terangkat.",
+              "hint": "Kaki tolak berlawanan dengan tangan yang menembak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa organisasi bola basket Indonesia?",
+              "options": [
+                {
+                  "text": "PERBASI",
+                  "correct": true
+                },
+                {
+                  "text": "PSSI"
+                },
+                {
+                  "text": "PBSI"
+                },
+                {
+                  "text": "PBVSI"
+                }
+              ],
+              "explanation": "PERBASI adalah induk organisasi bola basket Indonesia.",
+              "hint": "Bandingkan dengan PSSI untuk sepak bola."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa batas waktu shot clock FIBA?",
+              "options": [
+                {
+                  "text": "24 detik",
+                  "correct": true
+                },
+                {
+                  "text": "30 detik"
+                },
+                {
+                  "text": "20 detik"
+                },
+                {
+                  "text": "14 detik"
+                }
+              ],
+              "explanation": "FIBA menetapkan 24 detik untuk melepaskan tembakan.",
+              "hint": "Angka ini lebih pendek daripada satu kuarter."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk tembakan dalam bola basket?",
+              "options": [
+                {
+                  "text": "Lay-up",
+                  "correct": true
+                },
+                {
+                  "text": "Jump shot",
+                  "correct": true
+                },
+                {
+                  "text": "Free throw",
+                  "correct": true
+                },
+                {
+                  "text": "Smash",
+                  "correct": false
+                },
+                {
+                  "text": "Heading",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lay-up, jump shot, dan free throw adalah tembakan bola basket.",
+              "hint": "Smash dan heading bukan istilah bola basket."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Permainan Bola Basket — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa panjang lapangan bola basket FIBA?",
+              "options": [
+                {
+                  "text": "28 meter",
+                  "correct": true
+                },
+                {
+                  "text": "26 meter"
+                },
+                {
+                  "text": "30 meter"
+                },
+                {
+                  "text": "24 meter"
+                }
+              ],
+              "explanation": "Lapangan FIBA berukuran 28 meter × 15 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa ukuran papan pantul bola basket?",
+              "options": [
+                {
+                  "text": "1,8 m × 1,05 m",
+                  "correct": true
+                },
+                {
+                  "text": "1,2 m × 0,9 m"
+                },
+                {
+                  "text": "2,0 m × 1,2 m"
+                },
+                {
+                  "text": "1,5 m × 1,0 m"
+                }
+              ],
+              "explanation": "Papan pantul FIBA berukuran 1,8 meter × 1,05 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa diameter ring bola basket?",
+              "options": [
+                {
+                  "text": "45 cm",
+                  "correct": true
+                },
+                {
+                  "text": "40 cm"
+                },
+                {
+                  "text": "50 cm"
+                },
+                {
+                  "text": "35 cm"
+                }
+              ],
+              "explanation": "Diameter ring sekitar 45 cm agar bola dapat masuk."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa lama satu kuarter dalam aturan FIBA?",
+              "options": [
+                {
+                  "text": "10 menit",
+                  "correct": true
+                },
+                {
+                  "text": "12 menit"
+                },
+                {
+                  "text": "8 menit"
+                },
+                {
+                  "text": "15 menit"
+                }
+              ],
+              "explanation": "Satu kuarter FIBA berlangsung 10 menit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa istilah merebut bola pantul dari ring?",
+              "options": [
+                {
+                  "text": "Rebound",
+                  "correct": true
+                },
+                {
+                  "text": "Steal"
+                },
+                {
+                  "text": "Assist"
+                },
+                {
+                  "text": "Block"
+                }
+              ],
+              "explanation": "Rebound adalah merebut bola yang memantul dari ring atau papan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang pertahanan?",
+              "options": [
+                {
+                  "text": "Man-to-man menjaga satu lawan",
+                  "correct": true
+                },
+                {
+                  "text": "Zona menjaga area tertentu",
+                  "correct": true
+                },
+                {
+                  "text": "Man-to-man menjaga area",
+                  "correct": false
+                },
+                {
+                  "text": "Zona menjaga satu lawan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Man-to-man menjaga lawan, zona menjaga area."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk pelanggaran saat menyerang?",
+              "options": [
+                {
+                  "text": "Traveling",
+                  "correct": true
+                },
+                {
+                  "text": "Double dribble",
+                  "correct": true
+                },
+                {
+                  "text": "Tiga detik di area terlarang",
+                  "correct": true
+                },
+                {
+                  "text": "Pivot",
+                  "correct": false
+                },
+                {
+                  "text": "Chest pass",
+                  "correct": false
+                }
+              ],
+              "explanation": "Traveling, double dribble, dan pelanggaran tiga detik membatasi penyerang."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Traveling",
+                  "right": "melangkah lebih dari dua langkah tanpa dribble"
+                },
+                {
+                  "id": "m1",
+                  "left": "Double dribble",
+                  "right": "menggiring lagi setelah berhenti"
+                },
+                {
+                  "id": "m2",
+                  "left": "Man-to-man",
+                  "right": "setiap pemain menjaga satu lawan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Shot clock",
+                  "right": "batas 24 detik untuk menembak"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "melangkah lebih dari dua langkah tanpa dribble",
+                  "m1": "menggiring lagi setelah berhenti",
+                  "m2": "setiap pemain menjaga satu lawan",
+                  "m3": "batas 24 detik untuk menembak"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan fase gerak jump shot.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Berdiri seimbang"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tekuk lutut"
+                },
+                {
+                  "id": "d2",
+                  "text": "Angkat bola ke atas"
+                },
+                {
+                  "id": "d3",
+                  "text": "Lepaskan saat lompatan tertinggi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Jump shot melepaskan bola pada titik tertinggi lompatan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan pivot.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Terima bola"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tetapkan satu kaki sebagai poros"
+                },
+                {
+                  "id": "p2",
+                  "text": "Putar badan menjauhi lawan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Cari rekan atau tembakan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Pivot dimulai dari menerima bola lalu memutar badan dengan kaki poros."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama pertahanan satu lawan satu?",
+              "options": [
+                {
+                  "text": "Man-to-man",
+                  "correct": true
+                },
+                {
+                  "text": "Zona"
+                },
+                {
+                  "text": "Press"
+                },
+                {
+                  "text": "Fast break"
+                }
+              ],
+              "explanation": "Man-to-man berarti setiap pemain menjaga satu lawan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa berat bola basket FIBA?",
+              "options": [
+                {
+                  "text": "600–650 gram",
+                  "correct": true
+                },
+                {
+                  "text": "410–450 gram"
+                },
+                {
+                  "text": "500–550 gram"
+                },
+                {
+                  "text": "700–750 gram"
+                }
+              ],
+              "explanation": "Bola basket FIBA beratnya 600–650 gram."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang nilai poin?",
+              "options": [
+                {
+                  "text": "Lemparan bebas bernilai 1 poin",
+                  "correct": true
+                },
+                {
+                  "text": "Tembakan dalam garis bernilai 2 poin",
+                  "correct": true
+                },
+                {
+                  "text": "Tembakan luar garis bernilai 3 poin",
+                  "correct": true
+                },
+                {
+                  "text": "Semua tembakan bernilai 2 poin",
+                  "correct": false
+                },
+                {
+                  "text": "Dunk bernilai 1 poin",
+                  "correct": false
+                }
+              ],
+              "explanation": "Nilai poin bergantung pada jenis dan posisi tembakan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Passing",
+                  "right": "mengoper bola kepada rekan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Dribbling",
+                  "right": "memantulkan bola ke lantai"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pivot",
+                  "right": "memutar badan dengan satu kaki poros"
+                },
+                {
+                  "id": "m3",
+                  "left": "Rebound",
+                  "right": "merebut bola pantul dari ring"
+                },
+                {
+                  "id": "m4",
+                  "left": "Traveling",
+                  "right": "melangkah lebih dari dua langkah tanpa dribble"
+                },
+                {
+                  "id": "m5",
+                  "left": "Double dribble",
+                  "right": "menggiring lagi setelah berhenti"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengoper bola kepada rekan",
+                  "m1": "memantulkan bola ke lantai",
+                  "m2": "memutar badan dengan satu kaki poros",
+                  "m3": "merebut bola pantul dari ring",
+                  "m4": "melangkah lebih dari dua langkah tanpa dribble",
+                  "m5": "menggiring lagi setelah berhenti"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur serangan cepat.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Rebound defensif"
+                },
+                {
+                  "id": "d1",
+                  "text": "Oper cepat ke depan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Isi jalur sayap"
+                },
+                {
+                  "id": "d3",
+                  "text": "Selesaikan dengan lay-up"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Fast break bergerak dari rebound ke operan cepat lalu penyelesaian di ring."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

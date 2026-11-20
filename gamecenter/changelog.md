@@ -8,7 +8,62 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-18 06:05 WIB (rilis 0.36.0).
+**Terakhir diperbarui:** 2026-11-20 15:14 WIB (rilis 0.37.0).
+
+## [0.37.0] - 2026-11-20 15:14 WIB
+
+**Batch 13 tuntas — buku PJOK Kelas X 8/8 bab.**
+
+### Ditambah
+- **PJOK 1 Permainan Bola Basket** — glosarium istilah basket, diagram alur
+  permainan, tabel teknik (passing, dribbling, shooting, pivot, rebound),
+  grafik nilai poin, kelompokkan pelanggaran/gerak sah, taktik fast break dan
+  man-to-man, skenario “Keputusan di menit terakhir”, kartu istilah, dan
+  tantangan istilah.
+- **PJOK 2 Permainan Sepak Bola** — peraturan PSSI dan lapangan FIFA, tabel
+  teknik passing–heading, grafik ukuran lapangan, kelompokkan pelanggaran,
+  taktik formasi 4-4-2 dan 4-3-3, skenario serangan menit akhir, serta
+  tantangan istilah.
+- **PJOK 3 Permainan Bola Tangan** — peraturan ABTI, lapangan 40 × 20 m,
+  tabel catching–pivot, grafik ukuran gawang, kelompokkan pelanggaran tiga
+  langkah/tiga detik, pola pertahanan 6-0 dan 5-1, skenario serangan cepat,
+  dan tantangan istilah.
+- **PJOK 4 Permainan Bola Voli** — sejarah William G. Morgan, aturan rally
+  point dan rotasi, tabel servis–block, grafik tinggi net putra/putri,
+  kelompokkan pelanggaran net/double touch, pola 4-2 dan 5-1, skenario set
+  penentuan, dan tantangan istilah.
+- **PJOK 5 Permainan Bulu Tangkis** — peraturan PBSI, lapangan dan net,
+  tabel pegangan raket serta pukulan, grafik ukuran lapangan, kelompokkan
+  pelanggaran, taktik lob–dropshot, skenario poin kritis 20-20, dan tantangan
+  istilah.
+- **PJOK 6 Atletik** — nomor jalan, lari, lompat, dan lempar; tabel start–
+  tolak peluru, grafik berat peluru, kelompokkan nomor lari/lempar, prinsip
+  keselamatan, skenario latihan lompat jauh, dan tantangan istilah.
+- **PJOK 7 Senam** — senam lantai dan ketangkasan, tabel guling–handstand,
+  grafik tingkat kesulitan, kelompokkan gerak berguling/keseimbangan,
+  prinsip spotting, skenario latihan handstand, dan tantangan istilah.
+- **PJOK 8 Gerak Berirama** — unsur senam irama, langkah dasar dan ayunan
+  lengan, tabel unsur/gerak, grafik ketukan birama, kelompokkan langkah
+  kaki/ayunan lengan, alat simpai–pita, skenario latihan kelompok, dan
+  tantangan istilah.
+- Kedelapan bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan
+  campuran pilihan ganda, jawaban ganda, menjodohkan, seret-lepas, dan susun
+  urutan; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- **Buku PJOK X kini lengkap 8/8 bab**, seluruhnya memenuhi minimum §5.3
+  (satu visual, empat aktivitas, dua skenario/tantangan, dua recall, tiga
+  checkpoint per bab).
+
+### Verifikasi
+- `gamecenter:materi-import --dry-run` → 66 berkas, **0 gagal**.
+- Impor sungguhan menambah **8 bab / 24 materi / 24 asesmen / 240 soal**
+  (996 opsi jawaban pada delapan berkas PJOK).
+- `gamecenter:materi-coverage` → **67 dari 70 chapter** memenuhi minimum §5.3,
+  **2.435 blok**. PJOK 1–8 masing-masing 26 blok, semuanya ✅.
+- `php artisan test` → **145 lulus, 1 dilewati, 1.464 asertion**; tes impor
+  mengharapkan 66 bab dan 1.980 soal, tes cakupan memeriksa kedelapan bab
+  PJOK dan halaman bermain PJOK 1.
+- `npm run typecheck` dan `npm run build` → lulus.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.36.0] - 2026-11-18 06:05 WIB
 

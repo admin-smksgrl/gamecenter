@@ -1,0 +1,1245 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "pjok",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PJOK 7",
+      "title": "Senam",
+      "description": "Mempelajari senam lantai dan ketangkasan, mulai dari guling depan, guling belakang, sikap lilin, kayang, meroda, hingga handstand, dengan menekankan keselamatan.",
+      "learning_objectives": [
+        "Menjelaskan jenis dan manfaat senam lantai.",
+        "Mempraktikkan guling depan, guling belakang, sikap lilin, dan kayang.",
+        "Mempraktikkan gerak meroda, handstand, dan headstand dengan bantuan.",
+        "Menerapkan prinsip keselamatan dan spotting dalam senam.",
+        "Menunjukkan disiplin, keberanian, dan tanggung jawab selama berlatih."
+      ],
+      "estimated_minutes": 90,
+      "source_reference": "PJOK-BG-KLS-X.pdf Bab 7 Senam; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa senam penting?",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 7 Senam; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Melatih kelenturan dan kendali tubuh\n\nSenam adalah aktivitas jasmani yang menekankan kelenturan, keseimbangan, kekuatan, dan koordinasi. Senam lantai dilakukan di atas matras dengan gerakan berguling, berputar, dan bertumpu.\n\nSenam lantai termasuk senam ketangkasan. Gerakannya dapat dilakukan tanpa alat bantu utama, tetapi membutuhkan matras dan pengaman. Di Indonesia, Persatuan Senam Indonesia (PERSANI) menjadi induk organisasinya.\n\nSenam melatih keberanian dan tanggung jawab. Gerakan sulit harus dipelajari bertahap dengan bantuan guru atau teman agar aman.\n\nGunakan matras yang tidak licin, lepas aksesori, dan minta bantuan spotting saat mencoba gerakan baru.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "pjok-7-senam-glosarium",
+              "terms": [
+                {
+                  "term": "Senam lantai",
+                  "definition": "Senam yang dilakukan di atas matras tanpa alat bantu utama."
+                },
+                {
+                  "term": "Guling depan",
+                  "definition": "Berguling ke depan dengan tubuh membulat dan tengkuk menyentuh matras."
+                },
+                {
+                  "term": "Guling belakang",
+                  "definition": "Berguling ke belakang dengan tubuh membulat dan tangan menopang."
+                },
+                {
+                  "term": "Sikap lilin",
+                  "definition": "Berdiri di atas bahu dan tengkuk dengan kedua kaki lurus ke atas."
+                },
+                {
+                  "term": "Kayang",
+                  "definition": "Melengkungkan badan ke belakang dengan tangan dan kaki menopang tubuh."
+                },
+                {
+                  "term": "Meroda",
+                  "definition": "Berputar ke samping dengan tangan dan kaki bergantian menyentuh matras."
+                },
+                {
+                  "term": "Handstand",
+                  "definition": "Berdiri dengan kedua tangan sebagai penopang tubuh."
+                },
+                {
+                  "term": "Spotting",
+                  "definition": "Bantuan pengaman dari teman atau guru saat melakukan gerakan sulit."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Melatih kelenturan dan kendali tubuh"
+            },
+            {
+              "type": "paragraph",
+              "text": "Senam adalah aktivitas jasmani yang menekankan kelenturan, keseimbangan, kekuatan, dan koordinasi. Senam lantai dilakukan di atas matras dengan gerakan berguling, berputar, dan bertumpu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Senam lantai termasuk senam ketangkasan. Gerakannya dapat dilakukan tanpa alat bantu utama, tetapi membutuhkan matras dan pengaman. Di Indonesia, Persatuan Senam Indonesia (PERSANI) menjadi induk organisasinya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Senam melatih keberanian dan tanggung jawab. Gerakan sulit harus dipelajari bertahap dengan bantuan guru atau teman agar aman."
+            },
+            {
+              "type": "diagram",
+              "id": "pjok-7-senam-diagram",
+              "engine": "mermaid",
+              "title": "Alur belajar senam lantai",
+              "code": "flowchart LR\n  A[Pemanasan] --> B[Gerak dasar]\n  B --> C[Gerak dengan bantuan]\n  C --> D[Gerak mandiri]\n  D --> E[Pendinginan]\n  E --> F[Evaluasi gerak]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan matras yang tidak licin, lepas aksesori, dan minta bantuan spotting saat mencoba gerakan baru."
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-7-senam-cp-1",
+              "question": "Apa induk organisasi senam Indonesia?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "PERSANI",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "PASI"
+                },
+                {
+                  "id": "c2",
+                  "text": "PBSI"
+                },
+                {
+                  "id": "c3",
+                  "text": "PERBASI"
+                }
+              ],
+              "explanation": "PERSANI adalah Persatuan Senam Indonesia."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Gerak dasar senam lantai",
+          "duration": 300,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 7 Senam; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Guling, keseimbangan, dan putaran\n\nSenam lantai dilakukan di area matras berukuran sekitar 12 meter × 12 meter. Gerakan dasar meliputi guling depan, guling belakang, sikap lilin, kayang, meroda, handstand, dan headstand.\n\nGuling depan dilakukan dengan tubuh membulat, dagu menempel dada, dan tengkuk menyentuh matras. Guling belakang dilakukan dengan tangan menopang di samping kepala agar leher tidak terbebani.\n\nGerakan keseimbangan seperti sikap lilin, handstand, dan headstand membutuhkan kekuatan lengan serta kendali tubuh. Gerakan putaran seperti meroda membutuhkan koordinasi tangan dan kaki.\n\n| Gerakan | Tujuan | Kunci gerak |\n|---|---|---|\n| Guling depan | Melatih kelenturan dan kendali | Dagu ke dada, tengkuk di matras, tubuh membulat |\n| Guling belakang | Melatih koordinasi | Tangan menopang, kaki mendorong, tubuh membulat |\n| Sikap lilin | Melatih keseimbangan | Siku menopang pinggang, kaki lurus ke atas |\n| Kayang | Melatih kelenturan punggung | Tangan dan kaki menopang, badan melengkung |\n| Meroda | Melatih koordinasi samping | Tangan dan kaki bergantian menyentuh matras |\n| Handstand | Melatih kekuatan lengan | Tangan menopang, badan lurus, kaki rapat |\n\n### Prinsip keselamatan\n\n- Periksa matras agar tidak licin dan tidak ada benda keras di sekitarnya.\n- Lakukan pemanasan pada leher, bahu, pinggang, dan pergelangan tangan.\n- Minta bantuan spotting saat mencoba handstand atau headstand.\n- Hentikan gerakan jika merasa nyeri pada leher atau punggung.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Guling, keseimbangan, dan putaran"
+            },
+            {
+              "type": "paragraph",
+              "text": "Senam lantai dilakukan di area matras berukuran sekitar 12 meter × 12 meter. Gerakan dasar meliputi guling depan, guling belakang, sikap lilin, kayang, meroda, handstand, dan headstand."
+            },
+            {
+              "type": "paragraph",
+              "text": "Guling depan dilakukan dengan tubuh membulat, dagu menempel dada, dan tengkuk menyentuh matras. Guling belakang dilakukan dengan tangan menopang di samping kepala agar leher tidak terbebani."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gerakan keseimbangan seperti sikap lilin, handstand, dan headstand membutuhkan kekuatan lengan serta kendali tubuh. Gerakan putaran seperti meroda membutuhkan koordinasi tangan dan kaki."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Gerakan",
+                  "Tujuan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Guling depan",
+                  "Melatih kelenturan dan kendali",
+                  "Dagu ke dada, tengkuk di matras, tubuh membulat"
+                ],
+                [
+                  "Guling belakang",
+                  "Melatih koordinasi",
+                  "Tangan menopang, kaki mendorong, tubuh membulat"
+                ],
+                [
+                  "Sikap lilin",
+                  "Melatih keseimbangan",
+                  "Siku menopang pinggang, kaki lurus ke atas"
+                ],
+                [
+                  "Kayang",
+                  "Melatih kelenturan punggung",
+                  "Tangan dan kaki menopang, badan melengkung"
+                ],
+                [
+                  "Meroda",
+                  "Melatih koordinasi samping",
+                  "Tangan dan kaki bergantian menyentuh matras"
+                ],
+                [
+                  "Handstand",
+                  "Melatih kekuatan lengan",
+                  "Tangan menopang, badan lurus, kaki rapat"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pjok-7-urutan-gerak",
+              "title": "Tingkat kesulitan relatif gerak senam",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Guling depan",
+                  "value": 1
+                },
+                {
+                  "label": "Sikap lilin",
+                  "value": 2
+                },
+                {
+                  "label": "Meroda",
+                  "value": 3
+                },
+                {
+                  "label": "Handstand",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pjok-7-klasifikasi",
+              "prompt": "Kelompokkan gerakan berikut ke dalam gerak berguling atau gerak keseimbangan.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Gerak berguling"
+                },
+                {
+                  "id": "b2",
+                  "label": "Gerak keseimbangan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Guling depan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Guling belakang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Sikap lilin",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Handstand",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Kayang",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Meroda",
+                  "bucket": "b1"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Guling dan meroda melibatkan putaran; sikap lilin, handstand, dan kayang menekankan keseimbangan.",
+                "wrong": "Periksa lagi: gerak berguling memutar tubuh, gerak keseimbangan menahan posisi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Prinsip keselamatan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Periksa matras agar tidak licin dan tidak ada benda keras di sekitarnya.",
+                "Lakukan pemanasan pada leher, bahu, pinggang, dan pergelangan tangan.",
+                "Minta bantuan spotting saat mencoba handstand atau headstand.",
+                "Hentikan gerakan jika merasa nyeri pada leher atau punggung."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-7-senam-cp-2",
+              "question": "Bagian tubuh yang pertama menyentuh matras saat guling depan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Tengkuk",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Dahi"
+                },
+                {
+                  "id": "c2",
+                  "text": "Punggung"
+                },
+                {
+                  "id": "c3",
+                  "text": "Pinggang"
+                }
+              ],
+              "explanation": "Guling depan mendaratkan tengkuk lebih dulu, bukan dahi, agar leher aman."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "PJOK-BG-KLS-X.pdf Bab 7 Senam; CP Fase E PJOK; ATP Fase E Kelas 10 PJOK",
+          "content": "## Berlatih bertahap dan aman\n\nSenam menuntut latihan bertahap. Mulailah dari gerakan mudah seperti guling depan, lalu tingkatkan ke gerakan yang lebih sulit. Jangan memaksakan gerakan yang belum dikuasai.\n\nSportivitas tampak ketika peserta membantu teman dengan spotting, memberi semangat, dan menghormati batas kemampuan. Kerja sama membuat latihan lebih aman.\n\nGunakan matras dan dampingan guru. Hentikan latihan sesaat untuk membahas posisi tubuh yang benar.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Berlatih bertahap dan aman"
+            },
+            {
+              "type": "paragraph",
+              "text": "Senam menuntut latihan bertahap. Mulailah dari gerakan mudah seperti guling depan, lalu tingkatkan ke gerakan yang lebih sulit. Jangan memaksakan gerakan yang belum dikuasai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sportivitas tampak ketika peserta membantu teman dengan spotting, memberi semangat, dan menghormati batas kemampuan. Kerja sama membuat latihan lebih aman."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gunakan matras dan dampingan guru. Hentikan latihan sesaat untuk membahas posisi tubuh yang benar."
+            },
+            {
+              "type": "scenario",
+              "id": "pjok-7-skenario",
+              "title": "Keputusan saat latihan senam",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu ingin mencoba handstand, tetapi belum pernah melakukannya. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Meminta bantuan guru atau teman untuk spotting",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Spotting membuat latihan lebih aman."
+                    },
+                    {
+                      "text": "Mencoba sendiri tanpa pengaman",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Gerakan baru tanpa pengaman berisiko cedera."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Saat mencoba, tanganmu terasa lemas. Apa pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "Berhenti dan berlatih kekuatan lengan lebih dulu",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kekuatan dasar penting sebelum gerakan sulit."
+                    },
+                    {
+                      "text": "Tetap memaksa sampai berhasil",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Memaksa tubuh yang lemas dapat menyebabkan cedera."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Latihan terhenti karena risiko cedera.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Kamu berlatih bertahap dan berhasil dengan aman.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "pjok-7-senam-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu spotting?",
+                  "back": "Bantuan pengaman dari teman atau guru saat melakukan gerakan sulit."
+                },
+                {
+                  "front": "Apa kunci guling depan?",
+                  "back": "Dagu menempel dada dan tengkuk menyentuh matras."
+                },
+                {
+                  "front": "Apa itu sikap lilin?",
+                  "back": "Berdiri di atas bahu dengan kedua kaki lurus ke atas."
+                },
+                {
+                  "front": "Apa itu meroda?",
+                  "back": "Berputar ke samping dengan tangan dan kaki bergantian menyentuh matras."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "pjok-7-senam-cp-3",
+              "question": "Saat berlatih handstand, bantuan pengaman sebaiknya diberikan oleh…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Guru atau teman yang memahami teknik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Siapa saja yang kebetulan lewat"
+                },
+                {
+                  "id": "c2",
+                  "text": "Diri sendiri tanpa pengawasan"
+                },
+                {
+                  "id": "c3",
+                  "text": "Teman yang belum pernah berlatih"
+                }
+              ],
+              "explanation": "Spotting harus dilakukan oleh orang yang memahami teknik dan keselamatan."
+            },
+            {
+              "type": "challenge",
+              "id": "pjok-7-tantangan",
+              "title": "Tantangan istilah senam",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Induk organisasi senam Indonesia",
+                  "answer": "PERSANI"
+                },
+                {
+                  "question": "Alas untuk senam lantai",
+                  "answer": "matras"
+                },
+                {
+                  "question": "Gerakan berdiri dengan tangan",
+                  "answer": "handstand"
+                },
+                {
+                  "question": "Bantuan pengaman saat senam",
+                  "answer": "spotting"
+                },
+                {
+                  "question": "Gerakan berputar ke samping",
+                  "answer": "meroda"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Senam — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa induk organisasi senam Indonesia?",
+              "options": [
+                {
+                  "text": "PERSANI",
+                  "correct": true
+                },
+                {
+                  "text": "PASI"
+                },
+                {
+                  "text": "PBSI"
+                },
+                {
+                  "text": "PERBASI"
+                }
+              ],
+              "explanation": "PERSANI adalah Persatuan Senam Indonesia.",
+              "hint": "Bandingkan dengan PASI untuk atletik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa alas yang digunakan untuk senam lantai?",
+              "options": [
+                {
+                  "text": "Matras",
+                  "correct": true
+                },
+                {
+                  "text": "Papan"
+                },
+                {
+                  "text": "Rumput"
+                },
+                {
+                  "text": "Lantai keramik"
+                }
+              ],
+              "explanation": "Senam lantai dilakukan di atas matras agar aman.",
+              "hint": "Matras mengurangi benturan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama gerakan berguling ke depan?",
+              "options": [
+                {
+                  "text": "Guling depan",
+                  "correct": true
+                },
+                {
+                  "text": "Guling belakang"
+                },
+                {
+                  "text": "Meroda"
+                },
+                {
+                  "text": "Kayang"
+                }
+              ],
+              "explanation": "Guling depan dilakukan dengan tubuh membulat ke depan.",
+              "hint": "Dagu menempel dada saat berguling."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk gerak senam lantai?",
+              "options": [
+                {
+                  "text": "Guling depan",
+                  "correct": true
+                },
+                {
+                  "text": "Sikap lilin",
+                  "correct": true
+                },
+                {
+                  "text": "Meroda",
+                  "correct": true
+                },
+                {
+                  "text": "Smash",
+                  "correct": false
+                },
+                {
+                  "text": "Servis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Guling depan, sikap lilin, dan meroda adalah gerak senam lantai.",
+              "hint": "Smash dan servis bukan istilah senam."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk gerak keseimbangan?",
+              "options": [
+                {
+                  "text": "Sikap lilin",
+                  "correct": true
+                },
+                {
+                  "text": "Handstand",
+                  "correct": true
+                },
+                {
+                  "text": "Guling depan",
+                  "correct": false
+                },
+                {
+                  "text": "Guling belakang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sikap lilin dan handstand menekankan keseimbangan.",
+              "hint": "Guling termasuk gerak berguling."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Senam — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama gerakan berguling ke belakang?",
+              "options": [
+                {
+                  "text": "Guling belakang",
+                  "correct": true
+                },
+                {
+                  "text": "Guling depan"
+                },
+                {
+                  "text": "Sikap lilin"
+                },
+                {
+                  "text": "Handstand"
+                }
+              ],
+              "explanation": "Guling belakang dilakukan dengan tubuh membulat ke belakang.",
+              "hint": "Tangan menopang di samping kepala."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama gerakan berdiri di atas bahu dengan kaki ke atas?",
+              "options": [
+                {
+                  "text": "Sikap lilin",
+                  "correct": true
+                },
+                {
+                  "text": "Kayang"
+                },
+                {
+                  "text": "Meroda"
+                },
+                {
+                  "text": "Handstand"
+                }
+              ],
+              "explanation": "Sikap lilin bertumpu pada bahu dan tengkuk.",
+              "hint": "Kedua kaki lurus ke atas."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa manfaat senam lantai?",
+              "options": [
+                {
+                  "text": "Melatih kelenturan",
+                  "correct": true
+                },
+                {
+                  "text": "Melatih keseimbangan",
+                  "correct": true
+                },
+                {
+                  "text": "Meningkatkan tinggi badan secara instan",
+                  "correct": false
+                },
+                {
+                  "text": "Menghilangkan kebutuhan pemanasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Senam melatih kelenturan dan keseimbangan.",
+              "hint": "Pemanasan tetap diperlukan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri guling depan yang benar?",
+              "options": [
+                {
+                  "text": "Dagu menempel dada",
+                  "correct": true
+                },
+                {
+                  "text": "Tengkuk menyentuh matras",
+                  "correct": true
+                },
+                {
+                  "text": "Dahi menyentuh matras lebih dulu",
+                  "correct": false
+                },
+                {
+                  "text": "Leher ditegangkan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Guling depan membulatkan tubuh dengan tengkuk di matras.",
+              "hint": "Dahi tidak boleh menjadi tumpuan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Guling depan",
+                  "right": "berguling ke depan dengan tubuh membulat"
+                },
+                {
+                  "id": "m1",
+                  "left": "Guling belakang",
+                  "right": "berguling ke belakang dengan tangan menopang"
+                },
+                {
+                  "id": "m2",
+                  "left": "Sikap lilin",
+                  "right": "berdiri di atas bahu dengan kaki ke atas"
+                },
+                {
+                  "id": "m3",
+                  "left": "Kayang",
+                  "right": "melengkungkan badan ke belakang"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "berguling ke depan dengan tubuh membulat",
+                  "m1": "berguling ke belakang dengan tangan menopang",
+                  "m2": "berdiri di atas bahu dengan kaki ke atas",
+                  "m3": "melengkungkan badan ke belakang"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan guling depan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Ambil posisi jongkok"
+                },
+                {
+                  "id": "d1",
+                  "text": "Letakkan tangan di matras"
+                },
+                {
+                  "id": "d2",
+                  "text": "Masukkan kepala dengan dagu ke dada"
+                },
+                {
+                  "id": "d3",
+                  "text": "Berguling dan kembali berdiri"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Guling depan dimulai dari jongkok lalu berguling dengan tubuh membulat.",
+              "hint": "Tengkuk menyentuh matras lebih dulu."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan guling belakang.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Ambil posisi jongkok membelakangi matras"
+                },
+                {
+                  "id": "p1",
+                  "text": "Letakkan tangan di samping kepala"
+                },
+                {
+                  "id": "p2",
+                  "text": "Dorong tubuh ke belakang"
+                },
+                {
+                  "id": "p3",
+                  "text": "Berguling dan kembali berdiri"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Guling belakang memakai tangan untuk menopang saat berguling.",
+              "hint": "Jaga leher agar tidak terbebani."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama gerakan melengkungkan badan ke belakang?",
+              "options": [
+                {
+                  "text": "Kayang",
+                  "correct": true
+                },
+                {
+                  "text": "Sikap lilin"
+                },
+                {
+                  "text": "Guling depan"
+                },
+                {
+                  "text": "Meroda"
+                }
+              ],
+              "explanation": "Kayang melengkungkan badan dengan tangan dan kaki menopang.",
+              "hint": "Gerakan ini melatih kelenturan punggung."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama gerakan berputar ke samping?",
+              "options": [
+                {
+                  "text": "Meroda",
+                  "correct": true
+                },
+                {
+                  "text": "Guling depan"
+                },
+                {
+                  "text": "Kayang"
+                },
+                {
+                  "text": "Headstand"
+                }
+              ],
+              "explanation": "Meroda berputar ke samping dengan tangan dan kaki bergantian.",
+              "hint": "Gerakan ini menyerupai roda berputar."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk perlengkapan keselamatan senam?",
+              "options": [
+                {
+                  "text": "Matras",
+                  "correct": true
+                },
+                {
+                  "text": "Spotting",
+                  "correct": true
+                },
+                {
+                  "text": "Lantai keramik",
+                  "correct": false
+                },
+                {
+                  "text": "Sepatu roda",
+                  "correct": false
+                }
+              ],
+              "explanation": "Matras dan spotting membantu keselamatan senam.",
+              "hint": "Lantai keramik dan sepatu roda berbahaya."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Senam — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama gerakan berdiri dengan kedua tangan?",
+              "options": [
+                {
+                  "text": "Handstand",
+                  "correct": true
+                },
+                {
+                  "text": "Headstand"
+                },
+                {
+                  "text": "Sikap lilin"
+                },
+                {
+                  "text": "Kayang"
+                }
+              ],
+              "explanation": "Handstand bertumpu pada kedua tangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama gerakan berdiri dengan kepala?",
+              "options": [
+                {
+                  "text": "Headstand",
+                  "correct": true
+                },
+                {
+                  "text": "Handstand"
+                },
+                {
+                  "text": "Sikap lilin"
+                },
+                {
+                  "text": "Meroda"
+                }
+              ],
+              "explanation": "Headstand bertumpu pada kepala dan kedua tangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian tubuh yang menyentuh matras pertama saat guling depan?",
+              "options": [
+                {
+                  "text": "Tengkuk",
+                  "correct": true
+                },
+                {
+                  "text": "Dahi"
+                },
+                {
+                  "text": "Punggung"
+                },
+                {
+                  "text": "Pinggang"
+                }
+              ],
+              "explanation": "Tengkuk menyentuh matras lebih dulu agar leher aman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi spotting?",
+              "options": [
+                {
+                  "text": "Membantu keamanan saat melakukan gerakan sulit",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah nilai"
+                },
+                {
+                  "text": "Mempercepat gerakan"
+                },
+                {
+                  "text": "Menggantikan pemanasan"
+                }
+              ],
+              "explanation": "Spotting membantu menjaga keselamatan saat berlatih."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang harus dilakukan sebelum senam?",
+              "options": [
+                {
+                  "text": "Pemanasan",
+                  "correct": true
+                },
+                {
+                  "text": "Langsung berguling"
+                },
+                {
+                  "text": "Makan berat"
+                },
+                {
+                  "text": "Berlari jauh"
+                }
+              ],
+              "explanation": "Pemanasan menyiapkan otot dan sendi sebelum senam."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip latihan senam yang benar?",
+              "options": [
+                {
+                  "text": "Bertahap dari mudah ke sulit",
+                  "correct": true
+                },
+                {
+                  "text": "Minta bantuan saat gerakan sulit",
+                  "correct": true
+                },
+                {
+                  "text": "Langsung melakukan gerakan tersulit",
+                  "correct": false
+                },
+                {
+                  "text": "Mengabaikan rasa nyeri",
+                  "correct": false
+                }
+              ],
+              "explanation": "Latihan senam harus bertahap dan meminta bantuan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang handstand?",
+              "options": [
+                {
+                  "text": "Bertumpu pada kedua tangan",
+                  "correct": true
+                },
+                {
+                  "text": "Tubuh lurus dan kaki rapat",
+                  "correct": true
+                },
+                {
+                  "text": "Bertumpu pada kepala",
+                  "correct": false
+                },
+                {
+                  "text": "Tubuh membungkuk ke depan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Handstand bertumpu pada tangan dengan tubuh lurus."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Meroda",
+                  "right": "berputar ke samping"
+                },
+                {
+                  "id": "m1",
+                  "left": "Handstand",
+                  "right": "berdiri dengan kedua tangan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Headstand",
+                  "right": "berdiri dengan kepala dan tangan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Spotting",
+                  "right": "bantuan pengaman saat senam"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "berputar ke samping",
+                  "m1": "berdiri dengan kedua tangan",
+                  "m2": "berdiri dengan kepala dan tangan",
+                  "m3": "bantuan pengaman saat senam"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah melakukan sikap lilin.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Berbaring telentang"
+                },
+                {
+                  "id": "d1",
+                  "text": "Angkat kedua kaki ke atas"
+                },
+                {
+                  "id": "d2",
+                  "text": "Topang pinggang dengan siku"
+                },
+                {
+                  "id": "d3",
+                  "text": "Luruskan kaki dan tahan posisi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Sikap lilin bertumpu pada bahu dengan pinggang ditopang siku."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah melakukan handstand dengan bantuan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Berdiri menghadap matras"
+                },
+                {
+                  "id": "p1",
+                  "text": "Letakkan kedua tangan di matras"
+                },
+                {
+                  "id": "p2",
+                  "text": "Tolak kaki ke atas dengan bantuan spotting"
+                },
+                {
+                  "id": "p3",
+                  "text": "Rapatkan kaki dan tahan posisi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Handstand membutuhkan tumpuan tangan dan bantuan pengaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa ukuran area matras senam lantai?",
+              "options": [
+                {
+                  "text": "Sekitar 12 m × 12 m",
+                  "correct": true
+                },
+                {
+                  "text": "8 m × 8 m"
+                },
+                {
+                  "text": "18 m × 9 m"
+                },
+                {
+                  "text": "28 m × 15 m"
+                }
+              ],
+              "explanation": "Area senam lantai berukuran sekitar 12 meter × 12 meter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang harus dilakukan jika merasa nyeri saat senam?",
+              "options": [
+                {
+                  "text": "Berhenti dan melapor kepada guru",
+                  "correct": true
+                },
+                {
+                  "text": "Memaksa melanjutkan"
+                },
+                {
+                  "text": "Mengabaikan rasa nyeri"
+                },
+                {
+                  "text": "Mengulang gerakan lebih keras"
+                }
+              ],
+              "explanation": "Nyeri adalah tanda tubuh perlu istirahat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan yang benar tentang meroda?",
+              "options": [
+                {
+                  "text": "Berputar ke samping",
+                  "correct": true
+                },
+                {
+                  "text": "Tangan dan kaki bergantian menyentuh matras",
+                  "correct": true
+                },
+                {
+                  "text": "Berputar ke belakang",
+                  "correct": false
+                },
+                {
+                  "text": "Hanya memakai satu tangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Meroda berputar ke samping dengan tumpuan bergantian."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Guling depan",
+                  "right": "berguling ke depan dengan tubuh membulat"
+                },
+                {
+                  "id": "m1",
+                  "left": "Guling belakang",
+                  "right": "berguling ke belakang dengan tangan menopang"
+                },
+                {
+                  "id": "m2",
+                  "left": "Sikap lilin",
+                  "right": "berdiri di atas bahu dengan kaki ke atas"
+                },
+                {
+                  "id": "m3",
+                  "left": "Kayang",
+                  "right": "melengkungkan badan ke belakang"
+                },
+                {
+                  "id": "m4",
+                  "left": "Meroda",
+                  "right": "berputar ke samping"
+                },
+                {
+                  "id": "m5",
+                  "left": "Handstand",
+                  "right": "berdiri dengan kedua tangan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "berguling ke depan dengan tubuh membulat",
+                  "m1": "berguling ke belakang dengan tangan menopang",
+                  "m2": "berdiri di atas bahu dengan kaki ke atas",
+                  "m3": "melengkungkan badan ke belakang",
+                  "m4": "berputar ke samping",
+                  "m5": "berdiri dengan kedua tangan"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur latihan senam yang aman.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pemanasan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Latihan gerak dasar"
+                },
+                {
+                  "id": "d2",
+                  "text": "Latihan dengan spotting"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pendinginan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Latihan senam dimulai dari pemanasan dan diakhiri pendinginan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
