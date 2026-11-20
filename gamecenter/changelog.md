@@ -8,7 +8,47 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-20 15:40 WIB (rilis 0.38.0).
+**Terakhir diperbarui:** 2026-11-20 16:04 WIB (rilis 0.39.0).
+
+## [0.39.0] - 2026-11-20 16:04 WIB
+
+**Batch 15 — buku Prakarya Rekayasa Kelas X tuntas 4/4 unit.**
+
+### Ditambah
+- **PRA 4 Lampu Sensor Suara** — glosarium sensor dan komponen, diagram alur
+  kerja lampu, tabel komponen rangkaian, grafik konsumsi daya lampu,
+  kelompokkan sensor/pengendali, prinsip keselamatan listrik dan HPP,
+  skenario “Lampu gudang yang gelap”, kartu istilah, dan tantangan istilah.
+- **PRA 5 Alat Pendeteksi Hujan** — glosarium sensor hujan dan mitigasi,
+  diagram alur peringatan dini, tabel komponen, grafik kategori curah hujan
+  BMKG, kelompokkan masukan/keluaran, langkah mitigasi banjir, skenario
+  “Peringatan dini di sekolah”, dan tantangan istilah.
+- **PRA 6 Alat Penyiram Tanaman Otomatis** — glosarium hidrofit–higrofit–
+  xerofit, diagram alur penyiraman, tabel kelompok tanaman dan teknik,
+  grafik frekuensi penyiraman, kelompokkan tanaman berdasarkan kebutuhan
+  air, prinsip perawatan alat, skenario “Taman sekolah saat libur”, dan
+  tantangan istilah.
+- **PRA 7 Alat Pakan Otomatis** — glosarium pakan dan komponen, diagram
+  alur pengeluaran pakan, tabel komponen alat, grafik jadwal pakan,
+  kelompokkan penyimpan/pengendali, prinsip kebersihan dan keselamatan,
+  skenario “Pakan ayam saat pemilik pergi”, dan tantangan istilah.
+- Keempat bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan
+  campuran pilihan ganda, jawaban ganda, menjodohkan, seret-lepas, dan susun
+  urutan; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- **Buku Prakarya Rekayasa X tuntas 4/4 unit**, seluruhnya memenuhi minimum
+  §5.3 (satu visual, empat aktivitas, dua skenario/tantangan, dua recall,
+  tiga checkpoint per bab).
+
+### Verifikasi
+- `gamecenter:materi-import --dry-run` → 73 berkas, **0 gagal**.
+- Impor sungguhan menambah **4 bab / 12 materi / 12 asesmen / 120 soal**.
+- `gamecenter:materi-coverage` → **74 dari 77 chapter** memenuhi minimum §5.3,
+  **2.617 blok**. PRA 4–7 masing-masing 26 blok, semuanya ✅.
+- `php artisan test` → **148 lulus, 1 dilewati, 1.582 asertion**; tes impor
+  mengharapkan 73 bab dan 2.190 soal, tes cakupan memeriksa ketujuh bab
+  Prakarya dan halaman bermain PRA 1 serta PRA 4.
+- `npm run typecheck` dan `npm run build` → berhasil.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.38.0] - 2026-11-20 15:40 WIB
 

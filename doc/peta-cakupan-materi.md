@@ -1,6 +1,6 @@
 # Peta Cakupan Materi — Semua Buku Ajar SMA/SMK
 
-**Diperbarui:** 20 November 2026 (rilis 0.38.0)
+**Diperbarui:** 20 November 2026 (rilis 0.39.0)
 **Prinsip:** **satu buku = seluruh bab**, tidak ada buku yang diambil sebagian.
 Setiap bab = 3+ materi + 30 soal (5 mudah / 10 sedang / 15 sulit).
 
@@ -19,7 +19,7 @@ Status hanya boleh ditandai ✅ bila **seluruh** bab dalam buku itu sudah diimpo
 | Buku yang daftar isinya belum terbaca otomatis | 23 |
 
 Perkiraan bila seluruh 253 bab dikerjakan: **253 chapter / 7.590 soal**.
-Saat ini **69 chapter / 2.070 soal** selesai (27 %).
+Saat ini **73 chapter / 2.190 soal** selesai (29 %).
 
 ---
 
@@ -36,7 +36,7 @@ Saat ini **69 chapter / 2.070 soal** selesai (27 %).
 | Bahasa Inggris | `Bahasa-Inggris-BS-KLS-X.pdf` | 6 | 6 | ✅ SELESAI |
 | IPS (Sejarah/Geografi/Sosiologi/Ekonomi) | `IPS_BG_KLS_X_Rev.pdf` + 4 modul ajar IPS | 4 | 4 | ✅ tuntas |
 | PJOK | `PJOK-BG-KLS-X.pdf` | 8 | 8 | ✅ SELESAI |
-| Prakarya (4 aspek) | `Prakarya-*-BG-KLS-X.pdf` | 14 unit | 3 | 🟡 Kerajinan 3/3 selesai |
+| Prakarya (4 aspek) | `Prakarya-*-BG-KLS-X.pdf` | 14 unit | 7 | 🟡 Kerajinan 3/3, Rekayasa 4/4 selesai |
 | Sejarah | `Sejarah-BG-KLS-X.pdf` | ? | 0 | ⬜ daftar isi perlu dipetakan |
 | Kepercayaan | `Kepercayaan-BS-KLS-X.pdf` | 5 | 0 | ⬜ belum |
 | Projek IPAS | `Projek-IPAS-BS-KLS-X.pdf` | 6 | 0 | ⬜ belum |
@@ -109,7 +109,7 @@ Setiap tahap menyelesaikan **buku utuh**, bukan sebagian bab.
 | 1d | **Pancasila X + PAI X** | 2 buku (4 + 10 bab) | 14 | ✅ |
 | 2a | Bahasa Inggris X | 1 buku | 6 | ✅ |
 | 2b | **IPS X** | 1 buku + 4 modul (4 chapter) | 4 | ✅ 4/4 selesai |
-| 3 | PJOK X + Prakarya X + Kepercayaan X + Projek IPAS | 7 buku | ±23 | 🟡 PJOK 8/8, Prakarya Kerajinan 3/3 |
+| 3 | PJOK X + Prakarya X + Kepercayaan X + Projek IPAS | 7 buku | ±23 | 🟡 PJOK 8/8, Prakarya Kerajinan 3/3 + Rekayasa 4/4 |
 | 4 | Sejarah X + SMK kejuruan (7 buku) | 8 buku | ±40 | ⬜ |
 | 5 | Kelas XI (17 buku) | 17 buku | ±60 | ⬜ |
 | 6 | Kelas XII (18 buku) | 18 buku | ±55 | ⬜ |

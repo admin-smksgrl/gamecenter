@@ -1,0 +1,1271 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 7",
+      "title": "Alat Pakan Otomatis",
+      "description": "Merancang alat pakan otomatis untuk hewan piaraan: memahami jenis pakan, wadah pakan, timer, motor penggerak, jadwal pemberian, dan perhitungan HPP.",
+      "learning_objectives": [
+        "Mengamati cara pemberian pakan hewan di lingkungan sekitar.",
+        "Mengidentifikasi bahan, alat, dan komponen alat pakan otomatis.",
+        "Merancang alat pakan otomatis sesuai jenis hewan dan pakan.",
+        "Membuat serta menguji alat pakan otomatis.",
+        "Mempresentasikan produk dan menghitung harga pokok produksi."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 4 Alat Pakan Otomatis",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa pakan perlu otomatis?",
+          "duration": 240,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 4 Alat Pakan Otomatis",
+          "content": "## Memberi pakan tepat waktu\n\nPemberian pakan adalah kegiatan rutin dalam memelihara hewan seperti ayam, burung, ikan, dan kelinci. Pakan yang berkualitas dan diberikan tepat waktu memengaruhi pertumbuhan serta perkembangan hewan.\n\nPemberian pakan biasanya dilakukan tiga kali sehari secara manual. Namun, pemilik kadang tidak berada di rumah atau tempat budi daya. Menitipkan hewan kepada tetangga juga merepotkan orang lain, sehingga dibutuhkan alat pakan otomatis.\n\nAlat pakan otomatis dapat dibuat secara sederhana maupun modern. Kelebihannya adalah mudah dibuat dan digunakan serta dapat mengeluarkan pakan tepat waktu sesuai jadwal yang diatur.\n\nJauhkan rangkaian listrik dari air dan pakan basah. Periksa wadah pakan agar tidak lembap atau berjamur.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-7-pakan-otomatis-glosarium",
+              "terms": [
+                {
+                  "term": "Alat pakan otomatis",
+                  "definition": "Alat yang mengeluarkan pakan hewan sesuai jadwal tanpa bantuan manusia."
+                },
+                {
+                  "term": "Pakan",
+                  "definition": "Makanan yang diberikan kepada hewan piaraan agar tumbuh sehat."
+                },
+                {
+                  "term": "Wadah pakan",
+                  "definition": "Tempat menyimpan pakan sebelum dikeluarkan oleh alat."
+                },
+                {
+                  "term": "Timer",
+                  "definition": "Pengatur waktu yang menentukan kapan pakan dikeluarkan."
+                },
+                {
+                  "term": "Motor penggerak",
+                  "definition": "Komponen yang membuka atau menutup saluran pakan."
+                },
+                {
+                  "term": "HPP",
+                  "definition": "Harga pokok produksi, yaitu total biaya pembuatan produk."
+                },
+                {
+                  "term": "Prototipe",
+                  "definition": "Model awal produk yang dibuat untuk diuji sebelum produksi."
+                },
+                {
+                  "term": "Pameran",
+                  "definition": "Kegiatan mempresentasikan produk kepada masyarakat."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Memberi pakan tepat waktu"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pemberian pakan adalah kegiatan rutin dalam memelihara hewan seperti ayam, burung, ikan, dan kelinci. Pakan yang berkualitas dan diberikan tepat waktu memengaruhi pertumbuhan serta perkembangan hewan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pemberian pakan biasanya dilakukan tiga kali sehari secara manual. Namun, pemilik kadang tidak berada di rumah atau tempat budi daya. Menitipkan hewan kepada tetangga juga merepotkan orang lain, sehingga dibutuhkan alat pakan otomatis."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alat pakan otomatis dapat dibuat secara sederhana maupun modern. Kelebihannya adalah mudah dibuat dan digunakan serta dapat mengeluarkan pakan tepat waktu sesuai jadwal yang diatur."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-7-pakan-otomatis-diagram",
+              "engine": "mermaid",
+              "title": "Alur kerja alat pakan otomatis",
+              "code": "flowchart LR\n  A[Jadwal pakan tiba] --> B[Timer aktif]\n  B --> C[Motor penggerak berputar]\n  C --> D[Saluran pakan terbuka]\n  D --> E[Pakan jatuh ke wadah]\n  E --> F[Saluran menutup kembali]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Jauhkan rangkaian listrik dari air dan pakan basah. Periksa wadah pakan agar tidak lembap atau berjamur."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-7-pakan-otomatis-cp-1",
+              "question": "Berapa kali pemberian pakan biasanya dilakukan dalam sehari?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Tiga kali",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Satu kali"
+                },
+                {
+                  "id": "c2",
+                  "text": "Lima kali"
+                },
+                {
+                  "id": "c3",
+                  "text": "Tujuh kali"
+                }
+              ],
+              "explanation": "Buku menyebut pemberian pakan biasanya dilakukan tiga kali sehari."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Jenis pakan dan komponen alat",
+          "duration": 300,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 4 Alat Pakan Otomatis",
+          "content": "## Menyusun alat pakan sederhana\n\nPakan harus sesuai dengan jenis hewan yang dipelihara. Ayam dan burung memakan biji-bijian, ikan memakan pelet, sedangkan kelinci memakan sayuran dan hijauan. Ukuran pakan juga perlu disesuaikan agar tidak menyumbat saluran.\n\nAlat pakan otomatis terdiri atas wadah pakan, saluran pengeluaran, motor penggerak, timer, dan rangka. Timer menentukan waktu, motor membuka saluran, lalu pakan jatuh ke tempat makan. Rangka harus kokoh agar alat tidak mudah roboh.\n\nAlat dapat dibuat dari bahan sederhana seperti botol, pipa, kayu, atau ember. Untuk versi modern, Arduino Uno dapat dipakai mengatur jadwal dan mengendalikan motor. Semua sambungan harus diperiksa agar pakan tidak tumpah.\n\n| Komponen | Fungsi | Catatan |\n|---|---|---|\n| Wadah pakan | Menyimpan pakan | Tutup rapat agar tidak lembap |\n| Saluran | Mengalirkan pakan | Sesuaikan ukuran dengan butiran |\n| Motor penggerak | Membuka dan menutup saluran | Perhatikan tegangan kerja |\n| Timer | Mengatur jadwal | Atur sesuai kebutuhan hewan |\n| Rangka | Menopang alat | Kokoh dan tidak mudah roboh |\n\n### Kebersihan dan keselamatan\n\n- Bersihkan wadah pakan secara berkala agar tidak berjamur.\n- Simpan pakan di tempat kering dan tertutup.\n- Jauhkan kabel dan sumber listrik dari air serta pakan basah.\n- Periksa alat sebelum ditinggal agar pakan tidak menumpuk atau tersumbat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyusun alat pakan sederhana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pakan harus sesuai dengan jenis hewan yang dipelihara. Ayam dan burung memakan biji-bijian, ikan memakan pelet, sedangkan kelinci memakan sayuran dan hijauan. Ukuran pakan juga perlu disesuaikan agar tidak menyumbat saluran."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alat pakan otomatis terdiri atas wadah pakan, saluran pengeluaran, motor penggerak, timer, dan rangka. Timer menentukan waktu, motor membuka saluran, lalu pakan jatuh ke tempat makan. Rangka harus kokoh agar alat tidak mudah roboh."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alat dapat dibuat dari bahan sederhana seperti botol, pipa, kayu, atau ember. Untuk versi modern, Arduino Uno dapat dipakai mengatur jadwal dan mengendalikan motor. Semua sambungan harus diperiksa agar pakan tidak tumpah."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Komponen",
+                  "Fungsi",
+                  "Catatan"
+                ],
+                [
+                  "Wadah pakan",
+                  "Menyimpan pakan",
+                  "Tutup rapat agar tidak lembap"
+                ],
+                [
+                  "Saluran",
+                  "Mengalirkan pakan",
+                  "Sesuaikan ukuran dengan butiran"
+                ],
+                [
+                  "Motor penggerak",
+                  "Membuka dan menutup saluran",
+                  "Perhatikan tegangan kerja"
+                ],
+                [
+                  "Timer",
+                  "Mengatur jadwal",
+                  "Atur sesuai kebutuhan hewan"
+                ],
+                [
+                  "Rangka",
+                  "Menopang alat",
+                  "Kokoh dan tidak mudah roboh"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-7-jadwal-pakan",
+              "title": "Perkiraan jumlah pemberian pakan per hari",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Ikan",
+                  "value": 3
+                },
+                {
+                  "label": "Ayam",
+                  "value": 3
+                },
+                {
+                  "label": "Burung",
+                  "value": 2
+                },
+                {
+                  "label": "Kelinci",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-7-klasifikasi",
+              "prompt": "Kelompokkan komponen berikut ke dalam penyimpan pakan atau pengendali alat.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Penyimpan pakan"
+                },
+                {
+                  "id": "b2",
+                  "label": "Pengendali alat"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Wadah pakan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Ember",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Botol",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Timer",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Motor penggerak",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Arduino Uno",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Wadah, ember, dan botol menyimpan pakan; timer, motor, dan Arduino mengendalikan alat.",
+                "wrong": "Periksa lagi: penyimpan menampung pakan, pengendali mengatur pengeluaran."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kebersihan dan keselamatan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bersihkan wadah pakan secara berkala agar tidak berjamur.",
+                "Simpan pakan di tempat kering dan tertutup.",
+                "Jauhkan kabel dan sumber listrik dari air serta pakan basah.",
+                "Periksa alat sebelum ditinggal agar pakan tidak menumpuk atau tersumbat."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-7-pakan-otomatis-cp-2",
+              "question": "Komponen yang mengatur jadwal pemberian pakan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Timer",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Wadah pakan"
+                },
+                {
+                  "id": "c2",
+                  "text": "Rangka"
+                },
+                {
+                  "id": "c3",
+                  "text": "Saluran"
+                }
+              ],
+              "explanation": "Timer menentukan kapan motor penggerak aktif mengeluarkan pakan."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 4 Alat Pakan Otomatis",
+          "content": "## Membuat pakan otomatis sederhana\n\nTentukan hewan yang akan diberi pakan dan jenis pakannya. Ukur jumlah pakan per sekali makan agar porsi tidak berlebihan. Pilih wadah yang mudah dibuka dan dibersihkan.\n\nRancang saluran pengeluaran yang tidak mudah tersumbat. Jika memakai motor, uji putarannya sebelum dipasang. Atur timer sesuai jadwal, misalnya tiga kali sehari pada pagi, siang, dan sore.\n\nUji alat dengan pakan sesungguhnya. Amati apakah pakan jatuh dengan jumlah yang tepat dan tidak tersisa di saluran. Hitung HPP dan presentasikan produk beserta cara perawatannya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat pakan otomatis sederhana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tentukan hewan yang akan diberi pakan dan jenis pakannya. Ukur jumlah pakan per sekali makan agar porsi tidak berlebihan. Pilih wadah yang mudah dibuka dan dibersihkan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rancang saluran pengeluaran yang tidak mudah tersumbat. Jika memakai motor, uji putarannya sebelum dipasang. Atur timer sesuai jadwal, misalnya tiga kali sehari pada pagi, siang, dan sore."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uji alat dengan pakan sesungguhnya. Amati apakah pakan jatuh dengan jumlah yang tepat dan tidak tersisa di saluran. Hitung HPP dan presentasikan produk beserta cara perawatannya."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-7-skenario",
+              "title": "Pakan ayam saat pemilik pergi",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Keluargamu akan pergi dua hari dan ayam perlu diberi pakan tiga kali sehari. Apa solusinya?",
+                  "choices": [
+                    {
+                      "text": "Membuat alat pakan otomatis dengan timer",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Timer menjaga pakan keluar sesuai jadwal."
+                    },
+                    {
+                      "text": "Menumpuk semua pakan sekaligus",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Pakan menumpuk dapat rusak dan tidak sehat."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Pakan sering tersumbat di saluran. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menyesuaikan ukuran saluran dengan butiran pakan",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Ukuran saluran yang tepat mencegah sumbatan."
+                    },
+                    {
+                      "text": "Memperkecil saluran agar pakan cepat habis",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Saluran terlalu kecil justru mudah tersumbat."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Ayam kelaparan dan pakan banyak terbuang.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Pakan keluar tepat waktu dan ayam tetap sehat.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-7-pakan-otomatis-kartu",
+              "cards": [
+                {
+                  "front": "Berapa kali pakan biasanya diberikan?",
+                  "back": "Tiga kali sehari."
+                },
+                {
+                  "front": "Apa fungsi timer pada alat pakan?",
+                  "back": "Mengatur jadwal pengeluaran pakan."
+                },
+                {
+                  "front": "Mengapa pakan harus sesuai jenis hewan?",
+                  "back": "Agar hewan mendapat gizi yang tepat dan tumbuh sehat."
+                },
+                {
+                  "front": "Apa itu prototipe?",
+                  "back": "Model awal produk untuk diuji sebelum produksi."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-7-pakan-otomatis-cp-3",
+              "question": "Agar pakan tidak berjamur, wadah pakan harus…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Bersih dan tertutup rapat",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Terbuka dan lembap"
+                },
+                {
+                  "id": "c2",
+                  "text": "Diisi air"
+                },
+                {
+                  "id": "c3",
+                  "text": "Dibiarkan terkena hujan"
+                }
+              ],
+              "explanation": "Wadah yang bersih dan tertutup rapat menjaga pakan tetap kering dan tidak berjamur."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-7-tantangan",
+              "title": "Tantangan istilah pakan otomatis",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Makanan hewan piaraan",
+                  "answer": "pakan"
+                },
+                {
+                  "question": "Pengatur jadwal",
+                  "answer": "timer"
+                },
+                {
+                  "question": "Komponen pembuka saluran",
+                  "answer": "motor penggerak"
+                },
+                {
+                  "question": "Model awal produk",
+                  "answer": "prototipe"
+                },
+                {
+                  "question": "Total biaya produksi",
+                  "answer": "HPP"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Alat Pakan Otomatis — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa kali pemberian pakan biasanya dilakukan dalam sehari?",
+              "options": [
+                {
+                  "text": "Tiga kali",
+                  "correct": true
+                },
+                {
+                  "text": "Satu kali"
+                },
+                {
+                  "text": "Lima kali"
+                },
+                {
+                  "text": "Tujuh kali"
+                }
+              ],
+              "explanation": "Pemberian pakan biasanya dilakukan tiga kali sehari.",
+              "hint": "Jadwalnya pagi, siang, dan sore."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pakan harus disesuaikan dengan…",
+              "options": [
+                {
+                  "text": "Jenis hewan",
+                  "correct": true
+                },
+                {
+                  "text": "Warna kandang"
+                },
+                {
+                  "text": "Nama pemilik"
+                },
+                {
+                  "text": "Ukuran rumah"
+                }
+              ],
+              "explanation": "Setiap hewan membutuhkan jenis pakan yang berbeda.",
+              "hint": "Ayam, ikan, dan kelinci berbeda pakannya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa kelebihan alat pakan otomatis?",
+              "options": [
+                {
+                  "text": "Tepat waktu dan mudah digunakan",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat hewan sakit"
+                },
+                {
+                  "text": "Menambah pekerjaan"
+                },
+                {
+                  "text": "Mempercepat pakan rusak"
+                }
+              ],
+              "explanation": "Alat pakan otomatis mengeluarkan pakan tepat waktu.",
+              "hint": "Pemilik tidak perlu selalu hadir."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah hewan yang dapat memakai alat pakan otomatis?",
+              "options": [
+                {
+                  "text": "Ayam",
+                  "correct": true
+                },
+                {
+                  "text": "Ikan",
+                  "correct": true
+                },
+                {
+                  "text": "Kelinci",
+                  "correct": true
+                },
+                {
+                  "text": "Harimau liar",
+                  "correct": false
+                },
+                {
+                  "text": "Gajah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ayam, ikan, dan kelinci adalah hewan piaraan yang umum.",
+              "hint": "Harimau dan gajah bukan hewan piaraan rumah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komponen alat pakan otomatis?",
+              "options": [
+                {
+                  "text": "Wadah pakan",
+                  "correct": true
+                },
+                {
+                  "text": "Timer",
+                  "correct": true
+                },
+                {
+                  "text": "Motor penggerak",
+                  "correct": true
+                },
+                {
+                  "text": "Gunting",
+                  "correct": false
+                },
+                {
+                  "text": "Kuas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Wadah, timer, dan motor adalah komponen alat pakan.",
+              "hint": "Gunting dan kuas bukan komponennya."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Alat Pakan Otomatis — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Alat pakan otomatis membantu saat…",
+              "options": [
+                {
+                  "text": "Pemilik tidak berada di rumah",
+                  "correct": true
+                },
+                {
+                  "text": "Hewan sedang tidur"
+                },
+                {
+                  "text": "Pakan habis selamanya"
+                },
+                {
+                  "text": "Kandang sedang dibersihkan"
+                }
+              ],
+              "explanation": "Alat bekerja saat pemilik tidak ada di tempat.",
+              "hint": "Pakan tetap keluar sesuai jadwal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Komponen yang mengatur waktu pemberian pakan adalah…",
+              "options": [
+                {
+                  "text": "Timer",
+                  "correct": true
+                },
+                {
+                  "text": "Wadah pakan"
+                },
+                {
+                  "text": "Rangka"
+                },
+                {
+                  "text": "Saluran"
+                }
+              ],
+              "explanation": "Timer menentukan kapan pakan dikeluarkan.",
+              "hint": "Timer dapat diatur sesuai jadwal."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri alat pakan otomatis yang baik?",
+              "options": [
+                {
+                  "text": "Pakan keluar tepat waktu",
+                  "correct": true
+                },
+                {
+                  "text": "Pakan tidak tersumbat",
+                  "correct": true
+                },
+                {
+                  "text": "Pakan menumpuk",
+                  "correct": false
+                },
+                {
+                  "text": "Alat mudah roboh",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alat yang baik menjaga jadwal dan kelancaran pakan.",
+              "hint": "Sumbatan dan rangka lemah merugikan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa manfaat alat pakan otomatis?",
+              "options": [
+                {
+                  "text": "Menghemat waktu",
+                  "correct": true
+                },
+                {
+                  "text": "Memberi pakan saat pemilik pergi",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat pakan berjamur",
+                  "correct": false
+                },
+                {
+                  "text": "Menambah pekerjaan manual",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alat menghemat waktu dan bekerja saat pemilik tidak ada.",
+              "hint": "Pakan tetap terjadwal."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Pakan",
+                  "right": "makanan untuk hewan piaraan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Wadah pakan",
+                  "right": "tempat menyimpan pakan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Timer",
+                  "right": "pengatur jadwal pemberian"
+                },
+                {
+                  "id": "m3",
+                  "left": "Motor penggerak",
+                  "right": "membuka dan menutup saluran"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "makanan untuk hewan piaraan",
+                  "m1": "tempat menyimpan pakan",
+                  "m2": "pengatur jadwal pemberian",
+                  "m3": "membuka dan menutup saluran"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur proyek alat pakan otomatis.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Observasi cara pemberian pakan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Perancangan alat"
+                },
+                {
+                  "id": "d2",
+                  "text": "Persiapan alat dan bahan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Perakitan dan uji coba"
+                },
+                {
+                  "id": "d4",
+                  "text": "Evaluasi produk"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Proyek bergerak dari observasi menuju evaluasi.",
+              "hint": "Rancangan dibuat sebelum perakitan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat alat pakan sederhana.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Siapkan wadah pakan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Buat saluran pengeluaran"
+                },
+                {
+                  "id": "p2",
+                  "text": "Pasang motor penggerak"
+                },
+                {
+                  "id": "p3",
+                  "text": "Pasang timer"
+                },
+                {
+                  "id": "p4",
+                  "text": "Uji pengeluaran pakan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Pembuatan dimulai dari wadah lalu pengujian.",
+              "hint": "Uji dengan pakan sesungguhnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tempat menyimpan pakan sebelum dikeluarkan disebut…",
+              "options": [
+                {
+                  "text": "Wadah pakan",
+                  "correct": true
+                },
+                {
+                  "text": "Timer"
+                },
+                {
+                  "text": "Motor"
+                },
+                {
+                  "text": "Rangka"
+                }
+              ],
+              "explanation": "Wadah pakan menampung pakan sebelum jatuh ke tempat makan.",
+              "hint": "Wadah harus bersih dan tertutup."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah hewan yang biasa diberi pakan otomatis?",
+              "options": [
+                {
+                  "text": "Ayam",
+                  "correct": true
+                },
+                {
+                  "text": "Harimau"
+                },
+                {
+                  "text": "Gajah liar"
+                },
+                {
+                  "text": "Ikan hiu"
+                }
+              ],
+              "explanation": "Ayam termasuk hewan piaraan yang umum diberi pakan otomatis.",
+              "hint": "Ikan dan kelinci juga umum."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bahan yang dapat dipakai membuat alat sederhana?",
+              "options": [
+                {
+                  "text": "Botol",
+                  "correct": true
+                },
+                {
+                  "text": "Pipa",
+                  "correct": true
+                },
+                {
+                  "text": "Ember",
+                  "correct": true
+                },
+                {
+                  "text": "Kaca jendela",
+                  "correct": false
+                },
+                {
+                  "text": "Cermin",
+                  "correct": false
+                }
+              ],
+              "explanation": "Botol, pipa, dan ember dapat dipakai sebagai wadah atau saluran.",
+              "hint": "Kaca dan cermin tidak cocok."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Alat Pakan Otomatis — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pakan berkualitas memengaruhi…",
+              "options": [
+                {
+                  "text": "Pertumbuhan dan perkembangan hewan",
+                  "correct": true
+                },
+                {
+                  "text": "Warna kandang"
+                },
+                {
+                  "text": "Jumlah pemilik"
+                },
+                {
+                  "text": "Harga tanah"
+                }
+              ],
+              "explanation": "Pakan berkualitas mendukung pertumbuhan hewan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pemberian pakan secara manual berarti…",
+              "options": [
+                {
+                  "text": "Diberikan langsung oleh pemilik",
+                  "correct": true
+                },
+                {
+                  "text": "Diberikan oleh mesin"
+                },
+                {
+                  "text": "Diberikan tanpa jadwal"
+                },
+                {
+                  "text": "Diberikan oleh hewan lain"
+                }
+              ],
+              "explanation": "Pakan manual diberikan langsung oleh pemilik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa menitipkan hewan kepada tetangga kurang ideal?",
+              "options": [
+                {
+                  "text": "Merepotkan orang lain",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat hewan cepat besar"
+                },
+                {
+                  "text": "Menambah pakan"
+                },
+                {
+                  "text": "Mengurangi biaya"
+                }
+              ],
+              "explanation": "Menitipkan hewan dapat merepotkan tetangga."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat pakan otomatis dapat dibuat secara…",
+              "options": [
+                {
+                  "text": "Sederhana atau modern",
+                  "correct": true
+                },
+                {
+                  "text": "Hanya modern"
+                },
+                {
+                  "text": "Hanya sederhana"
+                },
+                {
+                  "text": "Tidak mungkin dibuat"
+                }
+              ],
+              "explanation": "Alat dapat dibuat sederhana maupun modern."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Komponen yang membuka dan menutup saluran pakan adalah…",
+              "options": [
+                {
+                  "text": "Motor penggerak",
+                  "correct": true
+                },
+                {
+                  "text": "Timer"
+                },
+                {
+                  "text": "Wadah"
+                },
+                {
+                  "text": "Rangka"
+                }
+              ],
+              "explanation": "Motor penggerak menggerakkan mekanisme buka-tutup saluran."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip kebersihan pakan?",
+              "options": [
+                {
+                  "text": "Wadah ditutup rapat",
+                  "correct": true
+                },
+                {
+                  "text": "Wadah dibersihkan berkala",
+                  "correct": true
+                },
+                {
+                  "text": "Wadah dibiarkan lembap",
+                  "correct": false
+                },
+                {
+                  "text": "Pakan disimpan di tempat berair",
+                  "correct": false
+                }
+              ],
+              "explanation": "Wadah tertutup dan bersih mencegah jamur."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komponen biaya HPP?",
+              "options": [
+                {
+                  "text": "Bahan",
+                  "correct": true
+                },
+                {
+                  "text": "Tenaga kerja",
+                  "correct": true
+                },
+                {
+                  "text": "Keuntungan penjual",
+                  "correct": false
+                },
+                {
+                  "text": "Pajak konsumen",
+                  "correct": false
+                }
+              ],
+              "explanation": "HPP mencakup bahan dan tenaga kerja serta biaya produksi lain."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Prototipe",
+                  "right": "model awal produk"
+                },
+                {
+                  "id": "m1",
+                  "left": "HPP",
+                  "right": "total biaya pembuatan produk"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pameran",
+                  "right": "kegiatan mempresentasikan produk"
+                },
+                {
+                  "id": "m3",
+                  "left": "Otomatisasi",
+                  "right": "bekerja sendiri sesuai jadwal"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "model awal produk",
+                  "m1": "total biaya pembuatan produk",
+                  "m2": "kegiatan mempresentasikan produk",
+                  "m3": "bekerja sendiri sesuai jadwal"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah mengatur jadwal pakan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Tentukan frekuensi pakan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Atur timer sesuai jam"
+                },
+                {
+                  "id": "d2",
+                  "text": "Isi wadah pakan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Amati pakan keluar"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Jadwal disusun dari kebutuhan hewan lalu diatur pada timer."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah merawat alat pakan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Bersihkan wadah pakan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Periksa saluran"
+                },
+                {
+                  "id": "p2",
+                  "text": "Periksa sambungan listrik"
+                },
+                {
+                  "id": "p3",
+                  "text": "Ganti pakan basah"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Perawatan dimulai dari kebersihan wadah lalu pemeriksaan saluran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa itu HPP?",
+              "options": [
+                {
+                  "text": "Total biaya pembuatan produk",
+                  "correct": true
+                },
+                {
+                  "text": "Harga jual akhir"
+                },
+                {
+                  "text": "Laba bersih"
+                },
+                {
+                  "text": "Pajak penjualan"
+                }
+              ],
+              "explanation": "HPP adalah harga pokok produksi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahap akhir proyek alat pakan otomatis adalah…",
+              "options": [
+                {
+                  "text": "Pameran dan evaluasi",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang produk"
+                },
+                {
+                  "text": "Membeli hewan baru"
+                },
+                {
+                  "text": "Menutup kandang"
+                }
+              ],
+              "explanation": "Produk dipamerkan lalu dievaluasi untuk perbaikan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap proyek alat pakan otomatis?",
+              "options": [
+                {
+                  "text": "Observasi",
+                  "correct": true
+                },
+                {
+                  "text": "Perancangan",
+                  "correct": true
+                },
+                {
+                  "text": "Produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Evaluasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari uji coba",
+                  "correct": false
+                },
+                {
+                  "text": "Membuang bahan sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proyek melalui observasi, perancangan, produksi, dan evaluasi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Pakan",
+                  "right": "makanan untuk hewan piaraan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Wadah pakan",
+                  "right": "tempat menyimpan pakan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Timer",
+                  "right": "pengatur jadwal pemberian"
+                },
+                {
+                  "id": "m3",
+                  "left": "Motor penggerak",
+                  "right": "membuka dan menutup saluran"
+                },
+                {
+                  "id": "m4",
+                  "left": "Prototipe",
+                  "right": "model awal produk"
+                },
+                {
+                  "id": "m5",
+                  "left": "HPP",
+                  "right": "total biaya pembuatan produk"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "makanan untuk hewan piaraan",
+                  "m1": "tempat menyimpan pakan",
+                  "m2": "pengatur jadwal pemberian",
+                  "m3": "membuka dan menutup saluran",
+                  "m4": "model awal produk",
+                  "m5": "total biaya pembuatan produk"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah presentasi produk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Siapkan produk"
+                },
+                {
+                  "id": "d1",
+                  "text": "Jelaskan cara kerja"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tunjukkan hasil uji"
+                },
+                {
+                  "id": "d3",
+                  "text": "Terima masukan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Susun rencana perbaikan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Presentasi menjelaskan produk dan membuka masukan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

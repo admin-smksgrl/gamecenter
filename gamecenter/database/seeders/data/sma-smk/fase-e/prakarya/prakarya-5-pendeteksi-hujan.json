@@ -1,0 +1,1284 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 5",
+      "title": "Alat Pendeteksi Hujan",
+      "description": "Merancang alat pendeteksi hujan sederhana: memahami pemanasan global, curah hujan, sensor hujan, buzzer, mitigasi bencana, dan keselamatan listrik.",
+      "learning_objectives": [
+        "Menganalisis kebutuhan alat pendeteksi hujan di lingkungan sekitar.",
+        "Mengidentifikasi bahan, alat, dan komponen alat pendeteksi hujan.",
+        "Merancang rangkaian dan konstruksi alat pendeteksi hujan.",
+        "Membuat serta menguji alat pendeteksi hujan yang berfungsi.",
+        "Mempresentasikan produk dan menyusun rencana pengembangan."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 2 Alat Pendeteksi Hujan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa alat pendeteksi hujan penting?",
+          "duration": 240,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 2 Alat Pendeteksi Hujan",
+          "content": "## Waspada sebelum hujan turun\n\nAlat pendeteksi hujan adalah produk rekayasa sederhana yang memberi peringatan ketika hujan mulai turun. Alat ini memakai sensor hujan yang mengirim sinyal listrik saat terkena air, lalu rangkaian membunyikan buzzer atau menyalakan lampu.\n\nIndonesia memiliki dua musim, yaitu musim kemarau dan musim hujan. Perubahan iklim membuat datangnya musim makin sulit diprediksi. Hujan lebat yang berlangsung lama dapat memicu banjir dan longsor, sehingga masyarakat membutuhkan peringatan dini.\n\nAlat pendeteksi hujan dapat dipasang di rumah, sekolah, atau pos ronda. Dengan peringatan sederhana, warga punya waktu untuk menyelamatkan barang, memeriksa saluran air, dan bersiap menghadapi kemungkinan banjir.\n\nGunakan sumber daya bertegangan rendah dan lindungi rangkaian dari air. Jangan menyentuh komponen saat alat masih tersambung listrik.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-5-pendeteksi-hujan-glosarium",
+              "terms": [
+                {
+                  "term": "Sensor hujan",
+                  "definition": "Komponen yang mendeteksi keberadaan air hujan pada permukaannya."
+                },
+                {
+                  "term": "Buzzer",
+                  "definition": "Komponen listrik yang menghasilkan bunyi sebagai tanda peringatan."
+                },
+                {
+                  "term": "Mitigasi",
+                  "definition": "Upaya pencegahan dan pengurangan risiko sebelum bencana terjadi."
+                },
+                {
+                  "term": "Curah hujan",
+                  "definition": "Jumlah air hujan yang jatuh pada suatu area dalam waktu tertentu."
+                },
+                {
+                  "term": "BMKG",
+                  "definition": "Badan Meteorologi, Klimatologi, dan Geofisika yang mengukur cuaca di Indonesia."
+                },
+                {
+                  "term": "Pemanasan global",
+                  "definition": "Kenaikan suhu bumi akibat menumpuknya gas rumah kaca di atmosfer."
+                },
+                {
+                  "term": "Peringatan dini",
+                  "definition": "Tanda atau informasi yang diberikan sebelum bencana terjadi."
+                },
+                {
+                  "term": "Otomatisasi",
+                  "definition": "Sistem yang bekerja sendiri berdasarkan masukan sensor."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Waspada sebelum hujan turun"
+            },
+            {
+              "type": "paragraph",
+              "text": "Alat pendeteksi hujan adalah produk rekayasa sederhana yang memberi peringatan ketika hujan mulai turun. Alat ini memakai sensor hujan yang mengirim sinyal listrik saat terkena air, lalu rangkaian membunyikan buzzer atau menyalakan lampu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Indonesia memiliki dua musim, yaitu musim kemarau dan musim hujan. Perubahan iklim membuat datangnya musim makin sulit diprediksi. Hujan lebat yang berlangsung lama dapat memicu banjir dan longsor, sehingga masyarakat membutuhkan peringatan dini."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alat pendeteksi hujan dapat dipasang di rumah, sekolah, atau pos ronda. Dengan peringatan sederhana, warga punya waktu untuk menyelamatkan barang, memeriksa saluran air, dan bersiap menghadapi kemungkinan banjir."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-5-pendeteksi-hujan-diagram",
+              "engine": "mermaid",
+              "title": "Alur kerja alat pendeteksi hujan",
+              "code": "flowchart LR\n  A[Hujan turun] --> B[Sensor hujan terkena air]\n  B --> C[Sinyal listrik dikirim]\n  C --> D[Rangkaian memproses sinyal]\n  D --> E[Buzzer berbunyi]\n  E --> F[Warga waspada]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan sumber daya bertegangan rendah dan lindungi rangkaian dari air. Jangan menyentuh komponen saat alat masih tersambung listrik."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-5-pendeteksi-hujan-cp-1",
+              "question": "Apa fungsi utama alat pendeteksi hujan?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Memberi peringatan saat hujan turun",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Menyaring air hujan menjadi air minum"
+                },
+                {
+                  "id": "c2",
+                  "text": "Menghentikan hujan"
+                },
+                {
+                  "id": "c3",
+                  "text": "Menghitung jumlah tanaman"
+                }
+              ],
+              "explanation": "Alat pendeteksi hujan memberi peringatan ketika sensor mendeteksi air hujan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Sensor, rangkaian, dan curah hujan",
+          "duration": 300,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 2 Alat Pendeteksi Hujan",
+          "content": "## Cara kerja dan komponen alat\n\nSensor hujan bekerja seperti saklar yang aktif ketika air mengenai pelat sensornya. Air menghantarkan arus listrik di antara jalur pelat, sehingga rangkaian mendeteksi adanya hujan. Sinyal itu kemudian mengaktifkan buzzer atau lampu indikator.\n\nKomponen pendukung alat antara lain resistor, transistor, buzzer, LED, kabel, dan sumber daya. Resistor membatasi arus, transistor memperkuat sinyal, buzzer menghasilkan bunyi, sedangkan LED memberi tanda visual. Semua komponen dirangkai pada papan agar mudah diperiksa.\n\nBMKG mengelompokkan curah hujan harian menjadi sangat ringan (<5 mm), ringan (5–20 mm), sedang (21–50 mm), lebat (51–100 mm), dan sangat lebat (>100 mm). Kategori ini membantu menentukan tingkat kewaspadaan terhadap banjir.\n\n| Komponen | Fungsi | Catatan |\n|---|---|---|\n| Sensor hujan | Mendeteksi air hujan | Letakkan di area terbuka |\n| Resistor | Membatasi arus listrik | Nilai sesuai rancangan |\n| Transistor | Memperkuat sinyal | Perhatikan susunan kaki |\n| Buzzer | Menghasilkan bunyi peringatan | Pilih tegangan kerja sesuai sumber |\n| LED | Memberi tanda visual | Perhatikan kutub positif dan negatif |\n\n### Mitigasi dan keselamatan\n\n- Bersihkan saluran air dan selokan sebelum musim hujan agar air tidak menggenang.\n- Simpan dokumen penting di tempat yang tinggi dan tahan air.\n- Pasang alat pada tempat yang aman dari jangkauan anak kecil dan air tergenang.\n- Periksa sensor secara berkala karena debu dan daun dapat menutupi pelat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cara kerja dan komponen alat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sensor hujan bekerja seperti saklar yang aktif ketika air mengenai pelat sensornya. Air menghantarkan arus listrik di antara jalur pelat, sehingga rangkaian mendeteksi adanya hujan. Sinyal itu kemudian mengaktifkan buzzer atau lampu indikator."
+            },
+            {
+              "type": "paragraph",
+              "text": "Komponen pendukung alat antara lain resistor, transistor, buzzer, LED, kabel, dan sumber daya. Resistor membatasi arus, transistor memperkuat sinyal, buzzer menghasilkan bunyi, sedangkan LED memberi tanda visual. Semua komponen dirangkai pada papan agar mudah diperiksa."
+            },
+            {
+              "type": "paragraph",
+              "text": "BMKG mengelompokkan curah hujan harian menjadi sangat ringan (<5 mm), ringan (5–20 mm), sedang (21–50 mm), lebat (51–100 mm), dan sangat lebat (>100 mm). Kategori ini membantu menentukan tingkat kewaspadaan terhadap banjir."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Komponen",
+                  "Fungsi",
+                  "Catatan"
+                ],
+                [
+                  "Sensor hujan",
+                  "Mendeteksi air hujan",
+                  "Letakkan di area terbuka"
+                ],
+                [
+                  "Resistor",
+                  "Membatasi arus listrik",
+                  "Nilai sesuai rancangan"
+                ],
+                [
+                  "Transistor",
+                  "Memperkuat sinyal",
+                  "Perhatikan susunan kaki"
+                ],
+                [
+                  "Buzzer",
+                  "Menghasilkan bunyi peringatan",
+                  "Pilih tegangan kerja sesuai sumber"
+                ],
+                [
+                  "LED",
+                  "Memberi tanda visual",
+                  "Perhatikan kutub positif dan negatif"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-5-curah-hujan",
+              "title": "Batas atas kategori curah hujan harian (mm)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Sangat ringan",
+                  "value": 5
+                },
+                {
+                  "label": "Ringan",
+                  "value": 20
+                },
+                {
+                  "label": "Sedang",
+                  "value": 50
+                },
+                {
+                  "label": "Lebat",
+                  "value": 100
+                },
+                {
+                  "label": "Sangat lebat",
+                  "value": 150
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-5-klasifikasi",
+              "prompt": "Kelompokkan komponen berikut ke dalam masukan atau keluaran rangkaian.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Masukan"
+                },
+                {
+                  "id": "b2",
+                  "label": "Keluaran"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Sensor hujan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Pelat sensor",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Buzzer",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "LED indikator",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Speaker kecil",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Lampu peringatan",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Sensor hujan dan pelat sensor menjadi masukan; buzzer, LED, speaker, dan lampu adalah keluaran.",
+                "wrong": "Periksa lagi: masukan membaca kondisi, keluaran memberi tanda kepada pengguna."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mitigasi dan keselamatan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bersihkan saluran air dan selokan sebelum musim hujan agar air tidak menggenang.",
+                "Simpan dokumen penting di tempat yang tinggi dan tahan air.",
+                "Pasang alat pada tempat yang aman dari jangkauan anak kecil dan air tergenang.",
+                "Periksa sensor secara berkala karena debu dan daun dapat menutupi pelat."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-5-pendeteksi-hujan-cp-2",
+              "question": "Curah hujan 51–100 mm per 24 jam termasuk kategori…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Lebat",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Ringan"
+                },
+                {
+                  "id": "c2",
+                  "text": "Sedang"
+                },
+                {
+                  "id": "c3",
+                  "text": "Sangat ringan"
+                }
+              ],
+              "explanation": "BMKG menetapkan curah hujan 51–100 mm/24 jam sebagai kategori lebat."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 2 Alat Pendeteksi Hujan",
+          "content": "## Membuat peringatan dini sederhana\n\nAmati lingkungan sekolah atau rumah. Tentukan lokasi yang sering tergenang dan jauh dari suara bising agar bunyi buzzer terdengar jelas. Ukur ketinggian tempat pemasangan supaya sensor mudah terkena hujan tetapi tidak terendam.\n\nRakit rangkaian pada papan, lalu hubungkan sensor, buzzer, dan sumber daya. Periksa kembali sambungan sebelum diberi daya. Uji dengan meneteskan air bersih pada pelat sensor dan amati apakah buzzer berbunyi.\n\nSetelah alat bekerja, pasang pada kotak pelindung yang memiliki lubang untuk sensor. Hitung biaya bahan, lalu presentasikan cara kerja dan manfaat alat kepada warga sekolah.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat peringatan dini sederhana"
+            },
+            {
+              "type": "paragraph",
+              "text": "Amati lingkungan sekolah atau rumah. Tentukan lokasi yang sering tergenang dan jauh dari suara bising agar bunyi buzzer terdengar jelas. Ukur ketinggian tempat pemasangan supaya sensor mudah terkena hujan tetapi tidak terendam."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rakit rangkaian pada papan, lalu hubungkan sensor, buzzer, dan sumber daya. Periksa kembali sambungan sebelum diberi daya. Uji dengan meneteskan air bersih pada pelat sensor dan amati apakah buzzer berbunyi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah alat bekerja, pasang pada kotak pelindung yang memiliki lubang untuk sensor. Hitung biaya bahan, lalu presentasikan cara kerja dan manfaat alat kepada warga sekolah."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-5-skenario",
+              "title": "Peringatan dini di sekolah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Sekolahmu sering tergenang saat hujan lebat. Apa langkah paling tepat?",
+                  "choices": [
+                    {
+                      "text": "Membuat alat pendeteksi hujan dan membersihkan saluran air",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Peringatan dini disertai mitigasi mengurangi risiko banjir."
+                    },
+                    {
+                      "text": "Menunggu sampai air masuk ke kelas",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa persiapan, kerugian akan lebih besar."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Buzzer sering berbunyi karena tetesan embun pagi. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Menempatkan sensor agar mudah kering dan dijemur sinar matahari",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Penempatan yang tepat mengurangi peringatan palsu."
+                    },
+                    {
+                      "text": "Mematikan alat selamanya",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Alat yang dimatikan tidak berguna saat hujan sebenarnya."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Barang di sekolah basah dan kegiatan terganggu.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Peringatan bekerja tepat dan warga sekolah lebih siap.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-5-pendeteksi-hujan-kartu",
+              "cards": [
+                {
+                  "front": "Apa fungsi sensor hujan?",
+                  "back": "Mendeteksi air hujan dan mengirim sinyal listrik."
+                },
+                {
+                  "front": "Apa itu mitigasi bencana?",
+                  "back": "Upaya pencegahan dan pengurangan risiko sebelum bencana."
+                },
+                {
+                  "front": "Berapa kategori curah hujan BMKG?",
+                  "back": "Lima: sangat ringan, ringan, sedang, lebat, dan sangat lebat."
+                },
+                {
+                  "front": "Mengapa sensor perlu dibersihkan?",
+                  "back": "Debu dan daun dapat menghalangi deteksi air hujan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-5-pendeteksi-hujan-cp-3",
+              "question": "Agar alat pendeteksi hujan tidak sering memberi peringatan palsu, hal yang perlu diperhatikan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Penempatan sensor dan kebersihannya",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Warna kotak alat"
+                },
+                {
+                  "id": "c2",
+                  "text": "Jumlah kabel yang dipakai"
+                },
+                {
+                  "id": "c3",
+                  "text": "Merek sumber daya"
+                }
+              ],
+              "explanation": "Sensor yang bersih dan ditempatkan dengan tepat mengurangi peringatan palsu."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-5-tantangan",
+              "title": "Tantangan istilah pendeteksi hujan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Komponen pendeteksi air",
+                  "answer": "sensor hujan"
+                },
+                {
+                  "question": "Komponen penghasil bunyi",
+                  "answer": "buzzer"
+                },
+                {
+                  "question": "Upaya pencegahan bencana",
+                  "answer": "mitigasi"
+                },
+                {
+                  "question": "Lembaga pengukur cuaca",
+                  "answer": "BMKG"
+                },
+                {
+                  "question": "Peringatan sebelum bencana",
+                  "answer": "peringatan dini"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Alat Pendeteksi Hujan — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi utama alat pendeteksi hujan?",
+              "options": [
+                {
+                  "text": "Memberi peringatan saat hujan turun",
+                  "correct": true
+                },
+                {
+                  "text": "Menyaring air hujan"
+                },
+                {
+                  "text": "Menghentikan hujan"
+                },
+                {
+                  "text": "Menghitung tanaman"
+                }
+              ],
+              "explanation": "Alat pendeteksi hujan memberi peringatan ketika sensor mendeteksi air.",
+              "hint": "Peringatan membantu warga bersiap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Komponen utama pendeteksi hujan adalah…",
+              "options": [
+                {
+                  "text": "Sensor hujan",
+                  "correct": true
+                },
+                {
+                  "text": "Pompa air"
+                },
+                {
+                  "text": "Motor servo"
+                },
+                {
+                  "text": "Panel surya"
+                }
+              ],
+              "explanation": "Sensor hujan mendeteksi keberadaan air hujan.",
+              "hint": "Sensor menjadi masukan bagi rangkaian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang terjadi pada sensor hujan saat terkena air?",
+              "options": [
+                {
+                  "text": "Mengirim sinyal listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Mengeluarkan asap"
+                },
+                {
+                  "text": "Berubah menjadi es"
+                },
+                {
+                  "text": "Menghasilkan air bersih"
+                }
+              ],
+              "explanation": "Air menghantarkan arus sehingga sensor mengirim sinyal.",
+              "hint": "Sinyal memicu buzzer."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komponen alat pendeteksi hujan?",
+              "options": [
+                {
+                  "text": "Sensor hujan",
+                  "correct": true
+                },
+                {
+                  "text": "Buzzer",
+                  "correct": true
+                },
+                {
+                  "text": "LED",
+                  "correct": true
+                },
+                {
+                  "text": "Pompa air",
+                  "correct": false
+                },
+                {
+                  "text": "Motor servo",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sensor hujan, buzzer, dan LED adalah komponen alat pendeteksi hujan.",
+              "hint": "Pompa dan servo bukan komponen utamanya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kategori curah hujan BMKG?",
+              "options": [
+                {
+                  "text": "Ringan",
+                  "correct": true
+                },
+                {
+                  "text": "Sedang",
+                  "correct": true
+                },
+                {
+                  "text": "Lebat",
+                  "correct": true
+                },
+                {
+                  "text": "Berat",
+                  "correct": false
+                },
+                {
+                  "text": "Ekstrem",
+                  "correct": false
+                }
+              ],
+              "explanation": "BMKG memakai kategori sangat ringan, ringan, sedang, lebat, dan sangat lebat.",
+              "hint": "Istilah “berat” dan “ekstrem” bukan kategori resminya."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Alat Pendeteksi Hujan — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi buzzer?",
+              "options": [
+                {
+                  "text": "Menghasilkan bunyi peringatan",
+                  "correct": true
+                },
+                {
+                  "text": "Membatasi arus"
+                },
+                {
+                  "text": "Menyimpan daya"
+                },
+                {
+                  "text": "Mendinginkan alat"
+                }
+              ],
+              "explanation": "Buzzer menghasilkan bunyi sebagai tanda peringatan.",
+              "hint": "Bunyi harus terdengar jelas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lembaga yang mengukur curah hujan di Indonesia adalah…",
+              "options": [
+                {
+                  "text": "BMKG",
+                  "correct": true
+                },
+                {
+                  "text": "BNPB"
+                },
+                {
+                  "text": "Kemendikbud"
+                },
+                {
+                  "text": "WHO"
+                }
+              ],
+              "explanation": "BMKG mengukur dan mengumumkan data cuaca serta curah hujan.",
+              "hint": "Data BMKG menjadi acuan kewaspadaan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah dampak pemanasan global?",
+              "options": [
+                {
+                  "text": "Iklim tidak stabil",
+                  "correct": true
+                },
+                {
+                  "text": "Permukaan air laut naik",
+                  "correct": true
+                },
+                {
+                  "text": "Kekeringan berkepanjangan",
+                  "correct": true
+                },
+                {
+                  "text": "Hujan salju di seluruh Indonesia",
+                  "correct": false
+                },
+                {
+                  "text": "Suhu bumi turun drastis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemanasan global membuat iklim tidak stabil, air laut naik, dan kekeringan.",
+              "hint": "Suhu bumi justru cenderung naik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa fungsi sensor hujan pada alat?",
+              "options": [
+                {
+                  "text": "Mendeteksi air",
+                  "correct": true
+                },
+                {
+                  "text": "Memicu peringatan",
+                  "correct": true
+                },
+                {
+                  "text": "Menyalakan pompa",
+                  "correct": false
+                },
+                {
+                  "text": "Mengubah suhu ruangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sensor mendeteksi air lalu memicu peringatan.",
+              "hint": "Pompa bukan bagian alat ini."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Sensor hujan",
+                  "right": "mendeteksi air hujan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Buzzer",
+                  "right": "menghasilkan bunyi peringatan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Mitigasi",
+                  "right": "upaya pencegahan bencana"
+                },
+                {
+                  "id": "m3",
+                  "left": "BMKG",
+                  "right": "lembaga pengukur cuaca"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mendeteksi air hujan",
+                  "m1": "menghasilkan bunyi peringatan",
+                  "m2": "upaya pencegahan bencana",
+                  "m3": "lembaga pengukur cuaca"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur proyek alat pendeteksi hujan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Observasi kebutuhan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Perancangan rangkaian"
+                },
+                {
+                  "id": "d2",
+                  "text": "Persiapan alat dan bahan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Perakitan dan uji coba"
+                },
+                {
+                  "id": "d4",
+                  "text": "Evaluasi produk"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Proyek bergerak dari observasi menuju evaluasi.",
+              "hint": "Rancangan dibuat sebelum perakitan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah merakit alat.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Siapkan papan rangkaian"
+                },
+                {
+                  "id": "p1",
+                  "text": "Pasang sensor hujan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Pasang resistor dan transistor"
+                },
+                {
+                  "id": "p3",
+                  "text": "Pasang buzzer dan LED"
+                },
+                {
+                  "id": "p4",
+                  "text": "Periksa sambungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Perakitan dimulai dari masukan menuju keluaran.",
+              "hint": "Periksa sambungan sebelum diberi daya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Curah hujan 51–100 mm per 24 jam termasuk kategori…",
+              "options": [
+                {
+                  "text": "Lebat",
+                  "correct": true
+                },
+                {
+                  "text": "Ringan"
+                },
+                {
+                  "text": "Sedang"
+                },
+                {
+                  "text": "Sangat ringan"
+                }
+              ],
+              "explanation": "Kategori lebat berada pada rentang 51–100 mm/24 jam.",
+              "hint": "Di atas 100 mm disebut sangat lebat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Curah hujan lebih dari 100 mm per 24 jam termasuk kategori…",
+              "options": [
+                {
+                  "text": "Sangat lebat",
+                  "correct": true
+                },
+                {
+                  "text": "Lebat"
+                },
+                {
+                  "text": "Sedang"
+                },
+                {
+                  "text": "Ringan"
+                }
+              ],
+              "explanation": "Curah hujan di atas 100 mm/24 jam disebut sangat lebat.",
+              "hint": "Kategori ini berpotensi memicu banjir."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tindakan mitigasi banjir?",
+              "options": [
+                {
+                  "text": "Membersihkan saluran air",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat peringatan dini",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang sampah ke sungai",
+                  "correct": false
+                },
+                {
+                  "text": "Menebang pohon sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Membersihkan saluran dan membuat peringatan dini mengurangi risiko banjir.",
+              "hint": "Membuang sampah justru memperparah banjir."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Alat Pendeteksi Hujan — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Curah hujan kurang dari 5 mm per 24 jam termasuk kategori…",
+              "options": [
+                {
+                  "text": "Sangat ringan",
+                  "correct": true
+                },
+                {
+                  "text": "Ringan"
+                },
+                {
+                  "text": "Sedang"
+                },
+                {
+                  "text": "Lebat"
+                }
+              ],
+              "explanation": "Curah hujan di bawah 5 mm/24 jam termasuk sangat ringan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Musim hujan di Indonesia umumnya terjadi pada…",
+              "options": [
+                {
+                  "text": "Oktober–April",
+                  "correct": true
+                },
+                {
+                  "text": "April–Oktober"
+                },
+                {
+                  "text": "Juni–September"
+                },
+                {
+                  "text": "Januari–Maret"
+                }
+              ],
+              "explanation": "Musim hujan umumnya berlangsung Oktober–April, sedangkan kemarau April–Oktober."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Upaya pencegahan dan pengurangan risiko bencana disebut…",
+              "options": [
+                {
+                  "text": "Mitigasi",
+                  "correct": true
+                },
+                {
+                  "text": "Evakuasi"
+                },
+                {
+                  "text": "Rehabilitasi"
+                },
+                {
+                  "text": "Relokasi"
+                }
+              ],
+              "explanation": "Mitigasi adalah upaya pencegahan sebelum bencana terjadi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dampak pemanasan global terhadap cuaca adalah…",
+              "options": [
+                {
+                  "text": "Iklim menjadi tidak stabil",
+                  "correct": true
+                },
+                {
+                  "text": "Cuaca selalu dingin"
+                },
+                {
+                  "text": "Hujan berhenti selamanya"
+                },
+                {
+                  "text": "Angin tidak pernah bertiup"
+                }
+              ],
+              "explanation": "Pemanasan global membuat iklim dan cuaca tidak stabil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa alat pendeteksi hujan penting bagi daerah rawan banjir?",
+              "options": [
+                {
+                  "text": "Memberi waktu bersiap sebelum banjir",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah tinggi air"
+                },
+                {
+                  "text": "Mempercepat banjir"
+                },
+                {
+                  "text": "Menghilangkan saluran air"
+                }
+              ],
+              "explanation": "Peringatan dini memberi waktu untuk menyelamatkan barang dan bersiap."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bahan atau alat yang dipakai?",
+              "options": [
+                {
+                  "text": "Pelat sensor",
+                  "correct": true
+                },
+                {
+                  "text": "Kabel",
+                  "correct": true
+                },
+                {
+                  "text": "Baterai",
+                  "correct": true
+                },
+                {
+                  "text": "Tanah liat",
+                  "correct": false
+                },
+                {
+                  "text": "Benang sulam",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pelat sensor, kabel, dan baterai dipakai pada rangkaian."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri alat pendeteksi hujan bekerja baik?",
+              "options": [
+                {
+                  "text": "Berbunyi saat ada air",
+                  "correct": true
+                },
+                {
+                  "text": "Bunyi terdengar jelas",
+                  "correct": true
+                },
+                {
+                  "text": "Menyala terus tanpa air",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak pernah berbunyi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Alat yang baik merespons air dan bunyinya jelas."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Curah hujan lebat",
+                  "right": "51–100 mm per 24 jam"
+                },
+                {
+                  "id": "m1",
+                  "left": "Pemanasan global",
+                  "right": "kenaikan suhu bumi"
+                },
+                {
+                  "id": "m2",
+                  "left": "Peringatan dini",
+                  "right": "tanda sebelum bencana terjadi"
+                },
+                {
+                  "id": "m3",
+                  "left": "HPP",
+                  "right": "total biaya pembuatan produk"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "51–100 mm per 24 jam",
+                  "m1": "kenaikan suhu bumi",
+                  "m2": "tanda sebelum bencana terjadi",
+                  "m3": "total biaya pembuatan produk"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menguji alat.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pastikan rangkaian kering"
+                },
+                {
+                  "id": "d1",
+                  "text": "Hubungkan sumber daya"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tetesi pelat sensor dengan air"
+                },
+                {
+                  "id": "d3",
+                  "text": "Amati bunyi dan lampu"
+                },
+                {
+                  "id": "d4",
+                  "text": "Catat hasil pengujian"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pengujian dilakukan setelah rangkaian siap dan aman."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah mitigasi banjir.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Bersihkan saluran air"
+                },
+                {
+                  "id": "p1",
+                  "text": "Simpan dokumen di tempat tinggi"
+                },
+                {
+                  "id": "p2",
+                  "text": "Pasang peringatan dini"
+                },
+                {
+                  "id": "p3",
+                  "text": "Pantau informasi cuaca"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Mitigasi dimulai dari kebersihan saluran lalu kesiapan warga."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Saat peringatan hujan lebat berbunyi, tindakan yang tepat adalah…",
+              "options": [
+                {
+                  "text": "Waspada dan memeriksa saluran air",
+                  "correct": true
+                },
+                {
+                  "text": "Bermain di air genangan"
+                },
+                {
+                  "text": "Membuang sampah ke selokan"
+                },
+                {
+                  "text": "Membiarkan jendela terbuka"
+                }
+              ],
+              "explanation": "Kewaspadaan dan pemeriksaan saluran air mengurangi risiko banjir."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat pendeteksi hujan sebaiknya dipasang di…",
+              "options": [
+                {
+                  "text": "Area terbuka yang terkena hujan",
+                  "correct": true
+                },
+                {
+                  "text": "Dalam lemari tertutup"
+                },
+                {
+                  "text": "Di bawah meja"
+                },
+                {
+                  "text": "Dalam ruangan ber-AC"
+                }
+              ],
+              "explanation": "Sensor harus terkena hujan agar dapat mendeteksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap proyek alat pendeteksi hujan?",
+              "options": [
+                {
+                  "text": "Observasi",
+                  "correct": true
+                },
+                {
+                  "text": "Perancangan",
+                  "correct": true
+                },
+                {
+                  "text": "Produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Evaluasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari uji coba",
+                  "correct": false
+                },
+                {
+                  "text": "Membuang bahan sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proyek melalui observasi, perancangan, produksi, dan evaluasi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Sensor hujan",
+                  "right": "mendeteksi air hujan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Buzzer",
+                  "right": "menghasilkan bunyi peringatan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Mitigasi",
+                  "right": "upaya pencegahan bencana"
+                },
+                {
+                  "id": "m3",
+                  "left": "BMKG",
+                  "right": "lembaga pengukur cuaca"
+                },
+                {
+                  "id": "m4",
+                  "left": "Curah hujan lebat",
+                  "right": "51–100 mm per 24 jam"
+                },
+                {
+                  "id": "m5",
+                  "left": "Pemanasan global",
+                  "right": "kenaikan suhu bumi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mendeteksi air hujan",
+                  "m1": "menghasilkan bunyi peringatan",
+                  "m2": "upaya pencegahan bencana",
+                  "m3": "lembaga pengukur cuaca",
+                  "m4": "51–100 mm per 24 jam",
+                  "m5": "kenaikan suhu bumi"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah presentasi produk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Siapkan produk"
+                },
+                {
+                  "id": "d1",
+                  "text": "Jelaskan cara kerja"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tunjukkan hasil uji"
+                },
+                {
+                  "id": "d3",
+                  "text": "Terima masukan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Susun rencana perbaikan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Presentasi menjelaskan produk dan membuka masukan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

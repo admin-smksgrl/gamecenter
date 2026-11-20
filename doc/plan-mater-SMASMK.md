@@ -1,7 +1,7 @@
 # Rencana Materi Game — SMA & SMK
 
 **Disusun:** 16 November 2026
-**Status:** 🟡 Kelas X hampir tuntas: 69 chapter / 2.070 soal (Matematika 13, Informatika 8, Bahasa Indonesia 5, Bahasa Inggris 6, IPA 8, Pancasila 4, PAI 10, IPS 4, PJOK 8, Prakarya Kerajinan 3). Berikutnya: Prakarya Rekayasa/Budi Daya/Pengolahan, Kepercayaan, Projek IPAS, lalu Fase F.
+**Status:** 🟡 Kelas X hampir tuntas: 73 chapter / 2.190 soal (Matematika 13, Informatika 8, Bahasa Indonesia 5, Bahasa Inggris 6, IPA 8, Pancasila 4, PAI 10, IPS 4, PJOK 8, Prakarya Kerajinan 3, Prakarya Rekayasa 4). Berikutnya: Prakarya Budi Daya/Pengolahan, Kepercayaan, Projek IPAS, lalu Fase F.
 **Cakupan:** Fase E (Kelas 10) dan Fase F (Kelas 11–12), jenjang SMA & SMK
 **Sumber data:** `data/kurmer/SMKSMA/` (BUKU AJAR, CP, ATP, KKTP, MAPEL, PROSEM, PROTA)
 

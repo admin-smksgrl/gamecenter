@@ -1,0 +1,1273 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 6",
+      "title": "Alat Penyiram Tanaman Otomatis",
+      "description": "Merancang alat penyiram tanaman otomatis: mengenal kelompok tanaman, teknik penyiraman, sumber air, timer, sensor soil moisture, dan Arduino Uno.",
+      "learning_objectives": [
+        "Mengamati kondisi budi daya tanaman dan jenis tanamannya.",
+        "Mengeksplorasi teknik penyiraman dan sumber air di lingkungan sekitar.",
+        "Merancang rangkaian alat penyiram tanaman otomatis.",
+        "Membuat dan menguji alat penyiram tanaman otomatis.",
+        "Mengevaluasi produk serta menghitung harga pokok produksi."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 3 Alat Penyiram Tanaman Otomatis",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa penyiraman perlu otomatis?",
+          "duration": 240,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 3 Alat Penyiram Tanaman Otomatis",
+          "content": "## Menjaga tanaman tetap terawat\n\nPenyiraman adalah kegiatan pemeliharaan tanaman yang penting. Air dibutuhkan untuk fotosintesis, menjaga kelembapan tanah, mengatur suhu tanaman, dan mendukung kesuburan. Tanpa air yang cukup, tanaman dapat layu bahkan mati.\n\nPenyiraman manual sering terlupa atau tidak tepat waktu. Untuk area yang luas, pekerjaan ini juga memakan waktu lama. Alat penyiram tanaman otomatis membantu mengubah pekerjaan manual menjadi otomatis sehingga lebih teratur, efektif, dan efisien.\n\nAlat sederhana dapat memakai timer keran air, sedangkan alat modern memakai sensor soil moisture dan Arduino Uno. Keduanya bertujuan mengatur jadwal penyiraman sesuai kebutuhan tanaman.\n\nGunakan pompa dan sumber listrik yang sesuai. Jauhkan sambungan listrik dari air dan periksa selang sebelum alat dinyalakan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-6-penyiram-otomatis-glosarium",
+              "terms": [
+                {
+                  "term": "Hidrofit",
+                  "definition": "Tanaman yang hidup di air, seperti eceng gondok dan teratai."
+                },
+                {
+                  "term": "Higrofit",
+                  "definition": "Tanaman yang hidup di tempat lembap, seperti lumut dan tanaman paku."
+                },
+                {
+                  "term": "Xerofit",
+                  "definition": "Tanaman yang hidup di daerah kering, seperti kaktus dan lidah buaya."
+                },
+                {
+                  "term": "Soil moisture",
+                  "definition": "Sensor yang mengukur kadar air atau kelembapan tanah."
+                },
+                {
+                  "term": "Timer",
+                  "definition": "Pengatur waktu yang menyalakan atau mematikan alat secara terjadwal."
+                },
+                {
+                  "term": "Irigasi tetes",
+                  "definition": "Teknik penyiraman dengan meneteskan air langsung ke akar tanaman."
+                },
+                {
+                  "term": "Smart farm",
+                  "definition": "Sistem pertanian yang memakai alat otomatis dan sensor."
+                },
+                {
+                  "term": "Arduino Uno",
+                  "definition": "Papan mikrokontroler yang dapat diprogram untuk mengendalikan alat."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menjaga tanaman tetap terawat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Penyiraman adalah kegiatan pemeliharaan tanaman yang penting. Air dibutuhkan untuk fotosintesis, menjaga kelembapan tanah, mengatur suhu tanaman, dan mendukung kesuburan. Tanpa air yang cukup, tanaman dapat layu bahkan mati."
+            },
+            {
+              "type": "paragraph",
+              "text": "Penyiraman manual sering terlupa atau tidak tepat waktu. Untuk area yang luas, pekerjaan ini juga memakan waktu lama. Alat penyiram tanaman otomatis membantu mengubah pekerjaan manual menjadi otomatis sehingga lebih teratur, efektif, dan efisien."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alat sederhana dapat memakai timer keran air, sedangkan alat modern memakai sensor soil moisture dan Arduino Uno. Keduanya bertujuan mengatur jadwal penyiraman sesuai kebutuhan tanaman."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-6-penyiram-otomatis-diagram",
+              "engine": "mermaid",
+              "title": "Alur kerja penyiram tanaman otomatis",
+              "code": "flowchart LR\n  A[Waktu penyiraman tiba] --> B[Timer atau sensor aktif]\n  B --> C[Sistem memeriksa kelembapan]\n  C --> D[Pompa atau keran menyala]\n  D --> E[Air mengalir ke tanaman]\n  E --> F[Penyiraman berhenti sesuai jadwal]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan pompa dan sumber listrik yang sesuai. Jauhkan sambungan listrik dari air dan periksa selang sebelum alat dinyalakan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-6-penyiram-otomatis-cp-1",
+              "question": "Apa tujuan utama penyiraman tanaman?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Menjaga asupan air dan kelembapan tanah",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Membuat daun menjadi kering"
+                },
+                {
+                  "id": "c2",
+                  "text": "Menambah jumlah hama"
+                },
+                {
+                  "id": "c3",
+                  "text": "Menghentikan fotosintesis"
+                }
+              ],
+              "explanation": "Penyiraman menjaga asupan air, kelembapan tanah, suhu, dan kesuburan tanaman."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Kelompok tanaman dan teknik penyiraman",
+          "duration": 300,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 3 Alat Penyiram Tanaman Otomatis",
+          "content": "## Menyiram sesuai jenis tanaman\n\nBerdasarkan kebutuhan airnya, tanaman dikelompokkan menjadi hidrofit, higrofit, dan xerofit. Hidrofit hidup di air, higrofit di tempat lembap, sedangkan xerofit tahan hidup di daerah kering. Kelompok tanaman menentukan banyaknya air yang diberikan.\n\nPenyiraman terbaik dilakukan pagi hari sebelum matahari terik agar air tidak cepat menguap. Jika menyiram sore hari, jaga daun tetap kering karena kelembapan tinggi pada malam hari dapat memicu jamur.\n\nSumber air dapat berasal dari mata air, air hujan, air sungai, dan waduk. Teknik penyiraman meliputi penyiraman di permukaan, di dalam tanah, penyemprotan, dan sistem tetes. Pilih teknik yang sesuai dengan jenis tanaman dan kondisi tempat budi daya.\n\n| Kelompok | Ciri | Contoh |\n|---|---|---|\n| Hidrofit | Hidup di air | Eceng gondok, teratai, kangkung |\n| Higrofit | Hidup di tempat lembap | Lumut, tanaman paku |\n| Xerofit | Tahan di daerah kering | Kaktus, kurma, lidah buaya |\n| Teknik tetes | Air menetes ke akar | Cocok untuk lahan kering |\n\n### Komponen otomatis dan perawatan\n\n- Timer mengatur jadwal penyalaan pompa atau keran secara berkala.\n- Sensor soil moisture memberi masukan kadar air tanah kepada sistem.\n- Arduino Uno memproses masukan sensor dan mengendalikan pompa.\n- Periksa selang, sambungan, dan sumber air agar tidak bocor atau tersumbat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyiram sesuai jenis tanaman"
+            },
+            {
+              "type": "paragraph",
+              "text": "Berdasarkan kebutuhan airnya, tanaman dikelompokkan menjadi hidrofit, higrofit, dan xerofit. Hidrofit hidup di air, higrofit di tempat lembap, sedangkan xerofit tahan hidup di daerah kering. Kelompok tanaman menentukan banyaknya air yang diberikan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Penyiraman terbaik dilakukan pagi hari sebelum matahari terik agar air tidak cepat menguap. Jika menyiram sore hari, jaga daun tetap kering karena kelembapan tinggi pada malam hari dapat memicu jamur."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sumber air dapat berasal dari mata air, air hujan, air sungai, dan waduk. Teknik penyiraman meliputi penyiraman di permukaan, di dalam tanah, penyemprotan, dan sistem tetes. Pilih teknik yang sesuai dengan jenis tanaman dan kondisi tempat budi daya."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kelompok",
+                  "Ciri",
+                  "Contoh"
+                ],
+                [
+                  "Hidrofit",
+                  "Hidup di air",
+                  "Eceng gondok, teratai, kangkung"
+                ],
+                [
+                  "Higrofit",
+                  "Hidup di tempat lembap",
+                  "Lumut, tanaman paku"
+                ],
+                [
+                  "Xerofit",
+                  "Tahan di daerah kering",
+                  "Kaktus, kurma, lidah buaya"
+                ],
+                [
+                  "Teknik tetes",
+                  "Air menetes ke akar",
+                  "Cocok untuk lahan kering"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-6-frekuensi-siram",
+              "title": "Perkiraan frekuensi penyiraman per minggu",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Kaktus",
+                  "value": 1
+                },
+                {
+                  "label": "Lidah buaya",
+                  "value": 2
+                },
+                {
+                  "label": "Tanaman hias",
+                  "value": 4
+                },
+                {
+                  "label": "Sayuran",
+                  "value": 7
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-6-klasifikasi",
+              "prompt": "Kelompokkan tanaman berikut berdasarkan kebutuhan airnya.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Hidrofit"
+                },
+                {
+                  "id": "b2",
+                  "label": "Higrofit"
+                },
+                {
+                  "id": "b3",
+                  "label": "Xerofit"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Eceng gondok",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Teratai",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Lumut",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Tanaman paku",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Kaktus",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i6",
+                  "text": "Lidah buaya",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Eceng gondok dan teratai hidrofit; lumut dan paku higrofit; kaktus dan lidah buaya xerofit.",
+                "wrong": "Periksa lagi: cocokkan tanaman dengan tempat hidup aslinya."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Komponen otomatis dan perawatan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Timer mengatur jadwal penyalaan pompa atau keran secara berkala.",
+                "Sensor soil moisture memberi masukan kadar air tanah kepada sistem.",
+                "Arduino Uno memproses masukan sensor dan mengendalikan pompa.",
+                "Periksa selang, sambungan, dan sumber air agar tidak bocor atau tersumbat."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-6-penyiram-otomatis-cp-2",
+              "question": "Alat penyiram tanaman otomatis modern memakai sensor…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Soil moisture",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Sensor suara"
+                },
+                {
+                  "id": "c2",
+                  "text": "Sensor hujan"
+                },
+                {
+                  "id": "c3",
+                  "text": "Sensor gerak"
+                }
+              ],
+              "explanation": "Sensor soil moisture mengukur kelembapan tanah untuk menentukan penyiraman."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 3 Alat Penyiram Tanaman Otomatis",
+          "content": "## Merancang penyiram untuk taman sekolah\n\nAmati taman sekolah dan catat jenis tanamannya. Bedakan tanaman yang membutuhkan banyak air dari tanaman yang tahan kering. Ukur luas area dan tentukan letak sumber air agar selang tidak terlalu panjang.\n\nRancang jadwal penyiraman. Jika memakai timer, atur waktu pagi hari. Jika memakai sensor soil moisture, tentukan ambang kelembapan sehingga pompa menyala hanya saat tanah kering.\n\nRakit alat, uji aliran air, dan periksa apakah semua tanaman terjangkau. Hitung biaya bahan dan tenaga kerja, lalu presentasikan hasilnya beserta rencana perawatan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Merancang penyiram untuk taman sekolah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Amati taman sekolah dan catat jenis tanamannya. Bedakan tanaman yang membutuhkan banyak air dari tanaman yang tahan kering. Ukur luas area dan tentukan letak sumber air agar selang tidak terlalu panjang."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rancang jadwal penyiraman. Jika memakai timer, atur waktu pagi hari. Jika memakai sensor soil moisture, tentukan ambang kelembapan sehingga pompa menyala hanya saat tanah kering."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rakit alat, uji aliran air, dan periksa apakah semua tanaman terjangkau. Hitung biaya bahan dan tenaga kerja, lalu presentasikan hasilnya beserta rencana perawatan."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-6-skenario",
+              "title": "Taman sekolah saat libur",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Tanaman taman sekolah sering layu saat libur karena tidak ada yang menyiram. Apa solusinya?",
+                  "choices": [
+                    {
+                      "text": "Membuat penyiram otomatis dengan timer",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Timer menjaga penyiraman tetap terjadwal saat libur."
+                    },
+                    {
+                      "text": "Membiarkan tanaman sampai kering",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanaman dapat mati jika tidak disiram."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Tanah taman masih basah ketika jadwal penyiraman tiba. Apa yang sebaiknya dilakukan sistem?",
+                  "choices": [
+                    {
+                      "text": "Menunda penyalaan pompa karena sensor mendeteksi lembap",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Sensor mencegah penyiraman berlebihan."
+                    },
+                    {
+                      "text": "Tetap menyiram sebanyak mungkin",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Air berlebih dapat merusak akar."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Tanaman rusak karena penyiraman tidak tepat.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Tanaman tetap sehat meski sekolah libur.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-6-penyiram-otomatis-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan tiga kelompok tanaman berdasarkan kebutuhan air.",
+                  "back": "Hidrofit, higrofit, dan xerofit."
+                },
+                {
+                  "front": "Kapan waktu penyiraman terbaik?",
+                  "back": "Pagi hari sebelum matahari terik."
+                },
+                {
+                  "front": "Apa fungsi sensor soil moisture?",
+                  "back": "Mengukur kadar air atau kelembapan tanah."
+                },
+                {
+                  "front": "Apa itu irigasi tetes?",
+                  "back": "Penyiraman dengan meneteskan air langsung ke akar."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-6-penyiram-otomatis-cp-3",
+              "question": "Mengapa penyiraman sebaiknya dilakukan pagi hari?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Agar air tidak cepat menguap",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Agar daun cepat kering"
+                },
+                {
+                  "id": "c2",
+                  "text": "Agar tanah menjadi panas"
+                },
+                {
+                  "id": "c3",
+                  "text": "Agar tanaman berhenti tumbuh"
+                }
+              ],
+              "explanation": "Penyiraman pagi mengurangi penguapan dan membantu tanaman menyerap air."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-6-tantangan",
+              "title": "Tantangan istilah penyiram otomatis",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Tanaman hidup di air",
+                  "answer": "hidrofit"
+                },
+                {
+                  "question": "Tanaman hidup di tempat lembap",
+                  "answer": "higrofit"
+                },
+                {
+                  "question": "Tanaman tahan daerah kering",
+                  "answer": "xerofit"
+                },
+                {
+                  "question": "Sensor kelembapan tanah",
+                  "answer": "soil moisture"
+                },
+                {
+                  "question": "Penyiraman menetes ke akar",
+                  "answer": "irigasi tetes"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Alat Penyiram Tanaman Otomatis — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa tujuan utama penyiraman tanaman?",
+              "options": [
+                {
+                  "text": "Menjaga asupan air dan kelembapan tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Mengeringkan daun"
+                },
+                {
+                  "text": "Menambah hama"
+                },
+                {
+                  "text": "Menghentikan fotosintesis"
+                }
+              ],
+              "explanation": "Penyiraman menjaga air, kelembapan, suhu, dan kesuburan tanaman.",
+              "hint": "Air penting untuk fotosintesis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tanaman yang hidup di air disebut…",
+              "options": [
+                {
+                  "text": "Hidrofit",
+                  "correct": true
+                },
+                {
+                  "text": "Higrofit"
+                },
+                {
+                  "text": "Xerofit"
+                },
+                {
+                  "text": "Tropofit"
+                }
+              ],
+              "explanation": "Hidrofit adalah tanaman yang hidup di air.",
+              "hint": "Contohnya eceng gondok."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tanaman yang hidup di tempat lembap disebut…",
+              "options": [
+                {
+                  "text": "Higrofit",
+                  "correct": true
+                },
+                {
+                  "text": "Hidrofit"
+                },
+                {
+                  "text": "Xerofit"
+                },
+                {
+                  "text": "Tropofit"
+                }
+              ],
+              "explanation": "Higrofit hidup di tempat lembap.",
+              "hint": "Contohnya lumut dan tanaman paku."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kelompok tanaman berdasarkan kebutuhan air?",
+              "options": [
+                {
+                  "text": "Hidrofit",
+                  "correct": true
+                },
+                {
+                  "text": "Higrofit",
+                  "correct": true
+                },
+                {
+                  "text": "Xerofit",
+                  "correct": true
+                },
+                {
+                  "text": "Tropofit",
+                  "correct": false
+                },
+                {
+                  "text": "Akuafit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Buku membagi tanaman menjadi hidrofit, higrofit, dan xerofit.",
+              "hint": "Istilah lain tidak dipakai dalam buku."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh xerofit?",
+              "options": [
+                {
+                  "text": "Kaktus",
+                  "correct": true
+                },
+                {
+                  "text": "Kurma",
+                  "correct": true
+                },
+                {
+                  "text": "Lidah buaya",
+                  "correct": true
+                },
+                {
+                  "text": "Eceng gondok",
+                  "correct": false
+                },
+                {
+                  "text": "Teratai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kaktus, kurma, dan lidah buaya tahan di daerah kering.",
+              "hint": "Eceng gondok dan teratai hidup di air."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Alat Penyiram Tanaman Otomatis — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Tanaman yang tahan hidup di daerah kering disebut…",
+              "options": [
+                {
+                  "text": "Xerofit",
+                  "correct": true
+                },
+                {
+                  "text": "Hidrofit"
+                },
+                {
+                  "text": "Higrofit"
+                },
+                {
+                  "text": "Tropofit"
+                }
+              ],
+              "explanation": "Xerofit dapat hidup di daerah kering dan curah hujan rendah.",
+              "hint": "Contohnya kaktus."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh hidrofit?",
+              "options": [
+                {
+                  "text": "Eceng gondok",
+                  "correct": true
+                },
+                {
+                  "text": "Kaktus"
+                },
+                {
+                  "text": "Lumut"
+                },
+                {
+                  "text": "Lidah buaya"
+                }
+              ],
+              "explanation": "Eceng gondok hidup di air sehingga termasuk hidrofit.",
+              "hint": "Teratai juga hidrofit."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sumber air penyiraman?",
+              "options": [
+                {
+                  "text": "Mata air",
+                  "correct": true
+                },
+                {
+                  "text": "Air hujan",
+                  "correct": true
+                },
+                {
+                  "text": "Air sungai",
+                  "correct": true
+                },
+                {
+                  "text": "Air laut",
+                  "correct": false
+                },
+                {
+                  "text": "Limbah pabrik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Mata air, air hujan, dan air sungai dapat dipakai menyiram.",
+              "hint": "Air laut dan limbah pabrik tidak cocok."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah teknik penyiraman?",
+              "options": [
+                {
+                  "text": "Penyiraman permukaan",
+                  "correct": true
+                },
+                {
+                  "text": "Penyiraman dalam tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Irigasi tetes",
+                  "correct": true
+                },
+                {
+                  "text": "Pembakaran",
+                  "correct": false
+                },
+                {
+                  "text": "Penimbunan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teknik penyiraman meliputi permukaan, dalam tanah, penyemprotan, dan tetes.",
+              "hint": "Pembakaran dan penimbunan bukan teknik penyiraman."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Hidrofit",
+                  "right": "tanaman yang hidup di air"
+                },
+                {
+                  "id": "m1",
+                  "left": "Higrofit",
+                  "right": "tanaman yang hidup di tempat lembap"
+                },
+                {
+                  "id": "m2",
+                  "left": "Xerofit",
+                  "right": "tanaman yang hidup di daerah kering"
+                },
+                {
+                  "id": "m3",
+                  "left": "Soil moisture",
+                  "right": "sensor kelembapan tanah"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tanaman yang hidup di air",
+                  "m1": "tanaman yang hidup di tempat lembap",
+                  "m2": "tanaman yang hidup di daerah kering",
+                  "m3": "sensor kelembapan tanah"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur proyek penyiram otomatis.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Observasi tanaman dan sumber air"
+                },
+                {
+                  "id": "d1",
+                  "text": "Perancangan rangkaian"
+                },
+                {
+                  "id": "d2",
+                  "text": "Persiapan alat dan bahan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Perakitan dan uji coba"
+                },
+                {
+                  "id": "d4",
+                  "text": "Evaluasi produk"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Proyek bergerak dari observasi menuju evaluasi.",
+              "hint": "Rancangan dibuat sebelum perakitan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah memasang penyiram dengan timer.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Siapkan keran dan selang"
+                },
+                {
+                  "id": "p1",
+                  "text": "Pasang timer pada keran"
+                },
+                {
+                  "id": "p2",
+                  "text": "Atur jadwal penyiraman"
+                },
+                {
+                  "id": "p3",
+                  "text": "Uji aliran air"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Pemasangan dimulai dari penyiapan keran lalu pengaturan timer.",
+              "hint": "Uji aliran memastikan semua tanaman terjangkau."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh xerofit?",
+              "options": [
+                {
+                  "text": "Kaktus",
+                  "correct": true
+                },
+                {
+                  "text": "Teratai"
+                },
+                {
+                  "text": "Lumut"
+                },
+                {
+                  "text": "Eceng gondok"
+                }
+              ],
+              "explanation": "Kaktus tahan hidup di daerah kering.",
+              "hint": "Lidah buaya juga xerofit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Waktu penyiraman terbaik adalah…",
+              "options": [
+                {
+                  "text": "Pagi sebelum matahari terik",
+                  "correct": true
+                },
+                {
+                  "text": "Tengah hari saat panas"
+                },
+                {
+                  "text": "Malam hari tanpa cahaya"
+                },
+                {
+                  "text": "Saat hujan deras"
+                }
+              ],
+              "explanation": "Penyiraman pagi mencegah penguapan berlebihan.",
+              "hint": "Air lebih mudah diserap tanaman."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa manfaat penyiraman otomatis?",
+              "options": [
+                {
+                  "text": "Terjadwal",
+                  "correct": true
+                },
+                {
+                  "text": "Efisien",
+                  "correct": true
+                },
+                {
+                  "text": "Selalu terlupa",
+                  "correct": false
+                },
+                {
+                  "text": "Membuat tanaman kering",
+                  "correct": false
+                }
+              ],
+              "explanation": "Otomatisasi membuat penyiraman terjadwal dan efisien.",
+              "hint": "Pekerjaan manual berkurang."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Alat Penyiram Tanaman Otomatis — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa daun harus tetap kering saat menyiram sore hari?",
+              "options": [
+                {
+                  "text": "Mencegah penyakit jamur",
+                  "correct": true
+                },
+                {
+                  "text": "Agar warna daun berubah"
+                },
+                {
+                  "text": "Agar tanaman cepat layu"
+                },
+                {
+                  "text": "Agar air cepat menguap"
+                }
+              ],
+              "explanation": "Kelembapan tinggi pada malam hari membuat daun basah mudah berjamur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat penyiram otomatis sederhana memakai…",
+              "options": [
+                {
+                  "text": "Timer",
+                  "correct": true
+                },
+                {
+                  "text": "Sensor suara"
+                },
+                {
+                  "text": "Sensor gerak"
+                },
+                {
+                  "text": "Sensor asap"
+                }
+              ],
+              "explanation": "Timer mengatur jadwal penyalaan air."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat penyiram otomatis modern memakai sensor…",
+              "options": [
+                {
+                  "text": "Soil moisture",
+                  "correct": true
+                },
+                {
+                  "text": "Suara"
+                },
+                {
+                  "text": "Cahaya"
+                },
+                {
+                  "text": "Gas"
+                }
+              ],
+              "explanation": "Sensor soil moisture mengukur kelembapan tanah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mikrokontroler yang disebut dalam buku adalah…",
+              "options": [
+                {
+                  "text": "Arduino Uno",
+                  "correct": true
+                },
+                {
+                  "text": "Raspberry Pi"
+                },
+                {
+                  "text": "ESP32"
+                },
+                {
+                  "text": "Micro:bit"
+                }
+              ],
+              "explanation": "Buku menyebut Arduino Uno sebagai pengendali sistem penyiraman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teknik penyiraman dengan meneteskan air ke akar disebut…",
+              "options": [
+                {
+                  "text": "Irigasi tetes",
+                  "correct": true
+                },
+                {
+                  "text": "Penyemprotan"
+                },
+                {
+                  "text": "Penggenangan"
+                },
+                {
+                  "text": "Penyiraman permukaan"
+                }
+              ],
+              "explanation": "Irigasi tetes meneteskan air langsung ke akar."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komponen sistem otomatis?",
+              "options": [
+                {
+                  "text": "Timer",
+                  "correct": true
+                },
+                {
+                  "text": "Sensor soil moisture",
+                  "correct": true
+                },
+                {
+                  "text": "Pompa",
+                  "correct": true
+                },
+                {
+                  "text": "Gunting",
+                  "correct": false
+                },
+                {
+                  "text": "Kuas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Timer, sensor, dan pompa adalah komponen sistem penyiraman."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa tujuan penyiraman tanaman?",
+              "options": [
+                {
+                  "text": "Membantu fotosintesis",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga kelembapan tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah hama",
+                  "correct": false
+                },
+                {
+                  "text": "Mengeringkan daun",
+                  "correct": false
+                }
+              ],
+              "explanation": "Air membantu fotosintesis dan menjaga kelembapan tanah."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Timer",
+                  "right": "pengatur jadwal penyalaan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Irigasi tetes",
+                  "right": "air menetes langsung ke akar"
+                },
+                {
+                  "id": "m2",
+                  "left": "Smart farm",
+                  "right": "pertanian berbasis alat otomatis"
+                },
+                {
+                  "id": "m3",
+                  "left": "Arduino Uno",
+                  "right": "papan mikrokontroler yang diprogram"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pengatur jadwal penyalaan",
+                  "m1": "air menetes langsung ke akar",
+                  "m2": "pertanian berbasis alat otomatis",
+                  "m3": "papan mikrokontroler yang diprogram"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah merakit sistem berbasis sensor.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pasang sensor soil moisture"
+                },
+                {
+                  "id": "d1",
+                  "text": "Hubungkan sensor ke Arduino"
+                },
+                {
+                  "id": "d2",
+                  "text": "Hubungkan pompa ke rangkaian"
+                },
+                {
+                  "id": "d3",
+                  "text": "Unggah program"
+                },
+                {
+                  "id": "d4",
+                  "text": "Uji respons pompa"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Perakitan dimulai dari sensor lalu diuji melalui program."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah merawat tanaman.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Periksa kelembapan tanah"
+                },
+                {
+                  "id": "p1",
+                  "text": "Siram pada pagi hari"
+                },
+                {
+                  "id": "p2",
+                  "text": "Jaga daun tetap kering"
+                },
+                {
+                  "id": "p3",
+                  "text": "Amati pertumbuhan tanaman"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Perawatan dimulai dari pemeriksaan lalu penyiraman dan pengamatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa itu smart farm?",
+              "options": [
+                {
+                  "text": "Sistem pertanian otomatis berbasis sensor",
+                  "correct": true
+                },
+                {
+                  "text": "Kebun tanpa tanaman"
+                },
+                {
+                  "text": "Alat memasak"
+                },
+                {
+                  "text": "Pupuk cair"
+                }
+              ],
+              "explanation": "Smart farm memakai alat otomatis dan sensor untuk merawat tanaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa penyiraman manual sering bermasalah?",
+              "options": [
+                {
+                  "text": "Terlupa dan tidak tepat waktu",
+                  "correct": true
+                },
+                {
+                  "text": "Selalu berlebihan"
+                },
+                {
+                  "text": "Tidak membutuhkan air"
+                },
+                {
+                  "text": "Tidak memerlukan alat"
+                }
+              ],
+              "explanation": "Penyiraman manual dapat terlupa dan memakan waktu lama."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap proyek penyiram otomatis?",
+              "options": [
+                {
+                  "text": "Observasi",
+                  "correct": true
+                },
+                {
+                  "text": "Desain",
+                  "correct": true
+                },
+                {
+                  "text": "Produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Evaluasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari uji coba",
+                  "correct": false
+                },
+                {
+                  "text": "Membuang bahan sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proyek melalui observasi, desain, produksi, dan evaluasi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Hidrofit",
+                  "right": "tanaman yang hidup di air"
+                },
+                {
+                  "id": "m1",
+                  "left": "Higrofit",
+                  "right": "tanaman yang hidup di tempat lembap"
+                },
+                {
+                  "id": "m2",
+                  "left": "Xerofit",
+                  "right": "tanaman yang hidup di daerah kering"
+                },
+                {
+                  "id": "m3",
+                  "left": "Soil moisture",
+                  "right": "sensor kelembapan tanah"
+                },
+                {
+                  "id": "m4",
+                  "left": "Timer",
+                  "right": "pengatur jadwal penyalaan"
+                },
+                {
+                  "id": "m5",
+                  "left": "Irigasi tetes",
+                  "right": "air menetes langsung ke akar"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tanaman yang hidup di air",
+                  "m1": "tanaman yang hidup di tempat lembap",
+                  "m2": "tanaman yang hidup di daerah kering",
+                  "m3": "sensor kelembapan tanah",
+                  "m4": "pengatur jadwal penyalaan",
+                  "m5": "air menetes langsung ke akar"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah evaluasi produk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Uji jadwal penyiraman"
+                },
+                {
+                  "id": "d1",
+                  "text": "Periksa kebocoran selang"
+                },
+                {
+                  "id": "d2",
+                  "text": "Nilai efisiensi air"
+                },
+                {
+                  "id": "d3",
+                  "text": "Catat perbaikan yang diperlukan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Evaluasi menguji jadwal, kebocoran, dan efisiensi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1280 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 4",
+      "title": "Lampu Sensor Suara",
+      "description": "Merancang dan membuat lampu sensor suara sederhana: mengenal jenis lampu, komponen elektronika, rangkaian, keselamatan listrik, dan HPP.",
+      "learning_objectives": [
+        "Mengidentifikasi karakteristik bahan, alat, dan teknik lampu sensor suara.",
+        "Membuat rancangan rangkaian lampu sensor suara berdasarkan kebutuhan.",
+        "Merakit produk lampu sensor suara yang berfungsi dengan aman.",
+        "Menghitung harga pokok produksi dan mengevaluasi produk.",
+        "Mempresentasikan produk serta memberi saran pengembangan."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 1 Lampu Sensor Suara",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa lampu sensor suara bermanfaat?",
+          "duration": 240,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 1 Lampu Sensor Suara",
+          "content": "## Lampu yang merespons suara\n\nLampu sensor suara adalah produk rekayasa sederhana yang menyalakan lampu ketika mendeteksi suara, misalnya tepukan. Produk ini menggabungkan sensor suara, rangkaian elektronika, dan sumber cahaya.\n\nTeknologi terapan seperti ini membantu pekerjaan sehari-hari menjadi lebih mudah. Lampu dapat menyala tanpa harus mencari saklar, sehingga cocok untuk ruang gelap, gudang, atau area yang sulit dijangkau.\n\nMembuat lampu sensor suara melatih pemahaman rangkaian, ketelitian, dan keselamatan kerja. Produk juga dapat menjadi peluang usaha jika dikemas dan dipasarkan dengan baik.\n\nJangan menyentuh rangkaian saat masih tersambung ke listrik. Lepaskan sumber daya sebelum memeriksa komponen.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-4-lampu-sensor-suara-glosarium",
+              "terms": [
+                {
+                  "term": "Sensor suara",
+                  "definition": "Komponen yang mengubah suara menjadi sinyal listrik."
+                },
+                {
+                  "term": "Relay",
+                  "definition": "Komponen yang berfungsi sebagai saklar otomatis dalam rangkaian listrik."
+                },
+                {
+                  "term": "Resistor",
+                  "definition": "Komponen yang membatasi aliran arus listrik."
+                },
+                {
+                  "term": "Transistor",
+                  "definition": "Komponen yang memperkuat atau menyaklarkan sinyal listrik."
+                },
+                {
+                  "term": "LED",
+                  "definition": "Lampu dioda yang hemat energi dan berumur panjang."
+                },
+                {
+                  "term": "Otomatisasi",
+                  "definition": "Sistem yang bekerja sendiri berdasarkan masukan sensor tanpa campur tangan manusia."
+                },
+                {
+                  "term": "HPP",
+                  "definition": "Harga pokok produksi, yaitu total biaya yang dikeluarkan untuk membuat produk."
+                },
+                {
+                  "term": "Rangkaian",
+                  "definition": "Susunan komponen listrik yang saling terhubung agar membentuk fungsi tertentu."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Lampu yang merespons suara"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lampu sensor suara adalah produk rekayasa sederhana yang menyalakan lampu ketika mendeteksi suara, misalnya tepukan. Produk ini menggabungkan sensor suara, rangkaian elektronika, dan sumber cahaya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Teknologi terapan seperti ini membantu pekerjaan sehari-hari menjadi lebih mudah. Lampu dapat menyala tanpa harus mencari saklar, sehingga cocok untuk ruang gelap, gudang, atau area yang sulit dijangkau."
+            },
+            {
+              "type": "paragraph",
+              "text": "Membuat lampu sensor suara melatih pemahaman rangkaian, ketelitian, dan keselamatan kerja. Produk juga dapat menjadi peluang usaha jika dikemas dan dipasarkan dengan baik."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-4-lampu-sensor-suara-diagram",
+              "engine": "mermaid",
+              "title": "Alur kerja lampu sensor suara",
+              "code": "flowchart LR\n  A[Suara/tepukan] --> B[Sensor suara]\n  B --> C[Sinyal listrik diperkuat]\n  C --> D[Relay aktif]\n  D --> E[Lampu menyala]\n  E --> F[Lampu mati setelah jeda]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Jangan menyentuh rangkaian saat masih tersambung ke listrik. Lepaskan sumber daya sebelum memeriksa komponen."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-4-lampu-sensor-suara-cp-1",
+              "question": "Apa fungsi sensor suara pada lampu sensor suara?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Mengubah suara menjadi sinyal listrik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Menghasilkan cahaya"
+                },
+                {
+                  "id": "c2",
+                  "text": "Menyimpan energi listrik"
+                },
+                {
+                  "id": "c3",
+                  "text": "Mendinginkan lampu"
+                }
+              ],
+              "explanation": "Sensor suara mengubah suara menjadi sinyal listrik yang diproses rangkaian."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Lampu dan komponen elektronika",
+          "duration": 300,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 1 Lampu Sensor Suara",
+          "content": "## Jenis lampu dan rangkaian dasar\n\nLampu pijar menghasilkan cahaya dari filamen tungsten yang berpijar. Lampu neon memakai gas neon, sedangkan LED memakai dioda. LED paling hemat energi dan berumur panjang, sehingga banyak dipakai pada produk rekayasa.\n\nRangkaian lampu sensor suara terdiri atas sensor suara, resistor, transistor, relay, dan sumber daya. Resistor membatasi arus, transistor memperkuat sinyal, dan relay bertindak sebagai saklar yang menghubungkan lampu ke sumber listrik.\n\nSetiap komponen memiliki nilai dan polaritas yang harus diperhatikan. Kesalahan pemasangan dapat membuat rangkaian tidak bekerja atau merusak komponen. Periksa kembali sebelum menghubungkan sumber daya.\n\n| Komponen | Fungsi | Catatan |\n|---|---|---|\n| Sensor suara | Menangkap suara | Letakkan menghadap sumber suara |\n| Resistor | Membatasi arus | Nilai sesuai rancangan |\n| Transistor | Memperkuat sinyal | Perhatikan kaki basis, kolektor, emitor |\n| Relay | Saklar otomatis | Perhatikan tegangan kerja |\n| LED | Sumber cahaya | Perhatikan kutub positif dan negatif |\n\n### Keselamatan dan HPP\n\n- Gunakan sumber daya bertegangan rendah untuk latihan, misalnya baterai atau adaptor sesuai rancangan.\n- Lepaskan sumber daya sebelum menyolder atau mengganti komponen.\n- Jangan menyentuh bagian logam yang terbuka saat rangkaian aktif.\n- Hitung HPP dari bahan, tenaga kerja, dan biaya lain agar harga jual tidak merugi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jenis lampu dan rangkaian dasar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lampu pijar menghasilkan cahaya dari filamen tungsten yang berpijar. Lampu neon memakai gas neon, sedangkan LED memakai dioda. LED paling hemat energi dan berumur panjang, sehingga banyak dipakai pada produk rekayasa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rangkaian lampu sensor suara terdiri atas sensor suara, resistor, transistor, relay, dan sumber daya. Resistor membatasi arus, transistor memperkuat sinyal, dan relay bertindak sebagai saklar yang menghubungkan lampu ke sumber listrik."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setiap komponen memiliki nilai dan polaritas yang harus diperhatikan. Kesalahan pemasangan dapat membuat rangkaian tidak bekerja atau merusak komponen. Periksa kembali sebelum menghubungkan sumber daya."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Komponen",
+                  "Fungsi",
+                  "Catatan"
+                ],
+                [
+                  "Sensor suara",
+                  "Menangkap suara",
+                  "Letakkan menghadap sumber suara"
+                ],
+                [
+                  "Resistor",
+                  "Membatasi arus",
+                  "Nilai sesuai rancangan"
+                ],
+                [
+                  "Transistor",
+                  "Memperkuat sinyal",
+                  "Perhatikan kaki basis, kolektor, emitor"
+                ],
+                [
+                  "Relay",
+                  "Saklar otomatis",
+                  "Perhatikan tegangan kerja"
+                ],
+                [
+                  "LED",
+                  "Sumber cahaya",
+                  "Perhatikan kutub positif dan negatif"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-4-daya-lampu",
+              "title": "Perkiraan konsumsi daya lampu (watt)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "LED",
+                  "value": 10
+                },
+                {
+                  "label": "Neon kompak",
+                  "value": 20
+                },
+                {
+                  "label": "Halogen",
+                  "value": 50
+                },
+                {
+                  "label": "Pijar",
+                  "value": 60
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-4-klasifikasi",
+              "prompt": "Kelompokkan komponen berikut ke dalam sensor atau pengendali rangkaian.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Sensor"
+                },
+                {
+                  "id": "b2",
+                  "label": "Pengendali rangkaian"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Sensor suara",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Mikrofon",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Resistor",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Transistor",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Relay",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "LED",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Sensor suara dan mikrofon menangkap suara; resistor, transistor, relay, dan LED adalah bagian pengendali/keluaran.",
+                "wrong": "Periksa lagi: sensor menjadi masukan, komponen lain memproses atau mengeluarkan hasil."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Keselamatan dan HPP"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Gunakan sumber daya bertegangan rendah untuk latihan, misalnya baterai atau adaptor sesuai rancangan.",
+                "Lepaskan sumber daya sebelum menyolder atau mengganti komponen.",
+                "Jangan menyentuh bagian logam yang terbuka saat rangkaian aktif.",
+                "Hitung HPP dari bahan, tenaga kerja, dan biaya lain agar harga jual tidak merugi."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-4-lampu-sensor-suara-cp-2",
+              "question": "Komponen yang berfungsi sebagai saklar otomatis adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Relay",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Resistor"
+                },
+                {
+                  "id": "c2",
+                  "text": "LED"
+                },
+                {
+                  "id": "c3",
+                  "text": "Mikrofon"
+                }
+              ],
+              "explanation": "Relay menghubungkan atau memutus arus listrik secara otomatis berdasarkan sinyal kendali."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Rekayasa-BG-KLS-X.pdf Unit 1 Lampu Sensor Suara",
+          "content": "## Merakit lampu sensor suara\n\nMulailah dari sketsa rangkaian. Tentukan letak sensor, relay, dan lampu. Pastikan jalur positif dan negatif tidak tertukar. Gunakan papan rangkaian agar komponen mudah dipasang dan diperiksa.\n\nRakit komponen satu per satu, lalu periksa sambungan sebelum diberi daya. Uji dengan tepukan ringan dan amati apakah lampu menyala sesuai rancangan. Jika tidak bekerja, periksa kembali nilai resistor dan polaritas LED.\n\nSetelah rangkaian bekerja, pasang pada kotak yang aman. Beri lubang untuk sensor dan ventilasi. Hitung HPP, lalu presentasikan produk beserta cara kerjanya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Merakit lampu sensor suara"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mulailah dari sketsa rangkaian. Tentukan letak sensor, relay, dan lampu. Pastikan jalur positif dan negatif tidak tertukar. Gunakan papan rangkaian agar komponen mudah dipasang dan diperiksa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rakit komponen satu per satu, lalu periksa sambungan sebelum diberi daya. Uji dengan tepukan ringan dan amati apakah lampu menyala sesuai rancangan. Jika tidak bekerja, periksa kembali nilai resistor dan polaritas LED."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah rangkaian bekerja, pasang pada kotak yang aman. Beri lubang untuk sensor dan ventilasi. Hitung HPP, lalu presentasikan produk beserta cara kerjanya."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-4-skenario",
+              "title": "Lampu gudang yang gelap",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Gudang sekolah gelap dan saklar jauh dari pintu. Apa solusi yang paling tepat?",
+                  "choices": [
+                    {
+                      "text": "Membuat lampu sensor suara di dekat pintu",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Sensor suara memudahkan menyalakan lampu tanpa mencari saklar."
+                    },
+                    {
+                      "text": "Menambah jumlah saklar di tempat yang sama",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Saklar tetap sulit dijangkau dari pintu."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Lampu sering menyala karena suara kendaraan luar. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengatur sensitivitas sensor",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Sensitivitas yang tepat mengurangi nyala palsu."
+                    },
+                    {
+                      "text": "Membiarkannya agar lampu selalu menyala",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Lampu menyala terus membuang energi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Produk tidak nyaman dipakai dan boros energi.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Lampu menyala tepat saat dibutuhkan dan hemat energi.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-4-lampu-sensor-suara-kartu",
+              "cards": [
+                {
+                  "front": "Apa fungsi relay?",
+                  "back": "Saklar otomatis yang menghubungkan atau memutus arus listrik."
+                },
+                {
+                  "front": "Mengapa LED lebih hemat energi?",
+                  "back": "LED mengubah sebagian besar energi menjadi cahaya, bukan panas."
+                },
+                {
+                  "front": "Apa itu HPP?",
+                  "back": "Harga pokok produksi, yaitu total biaya pembuatan produk."
+                },
+                {
+                  "front": "Apa yang harus dilakukan sebelum menyolder?",
+                  "back": "Melepaskan sumber daya listrik."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-4-lampu-sensor-suara-cp-3",
+              "question": "Sebelum memberi daya pada rangkaian, langkah yang wajib dilakukan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Memeriksa sambungan dan polaritas komponen",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Menyentuh semua kabel"
+                },
+                {
+                  "id": "c2",
+                  "text": "Menambah tegangan setinggi mungkin"
+                },
+                {
+                  "id": "c3",
+                  "text": "Melepas resistor"
+                }
+              ],
+              "explanation": "Pemeriksaan sambungan dan polaritas mencegah korsleting serta kerusakan komponen."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-4-tantangan",
+              "title": "Tantangan istilah lampu sensor suara",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Komponen pengubah suara menjadi sinyal",
+                  "answer": "sensor suara"
+                },
+                {
+                  "question": "Saklar otomatis",
+                  "answer": "relay"
+                },
+                {
+                  "question": "Lampu hemat energi",
+                  "answer": "LED"
+                },
+                {
+                  "question": "Total biaya produksi",
+                  "answer": "HPP"
+                },
+                {
+                  "question": "Penemu bola lampu pijar",
+                  "answer": "Thomas Alva Edison"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Lampu Sensor Suara — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Siapa penemu bola lampu pijar?",
+              "options": [
+                {
+                  "text": "Thomas Alva Edison",
+                  "correct": true
+                },
+                {
+                  "text": "James Watt"
+                },
+                {
+                  "text": "Nikola Tesla"
+                },
+                {
+                  "text": "Alexander Graham Bell"
+                }
+              ],
+              "explanation": "Edison berhasil mengembangkan bola lampu pijar pada 1879.",
+              "hint": "Ia melakukan banyak percobaan sebelum berhasil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lampu yang paling hemat energi adalah…",
+              "options": [
+                {
+                  "text": "LED",
+                  "correct": true
+                },
+                {
+                  "text": "Lampu pijar"
+                },
+                {
+                  "text": "Lampu halogen"
+                },
+                {
+                  "text": "Lampu HID"
+                }
+              ],
+              "explanation": "LED mengubah energi menjadi cahaya lebih efisien daripada lampu lain.",
+              "hint": "LED juga berumur panjang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lampu pijar menghasilkan cahaya dari filamen…",
+              "options": [
+                {
+                  "text": "Tungsten",
+                  "correct": true
+                },
+                {
+                  "text": "Tembaga"
+                },
+                {
+                  "text": "Aluminium"
+                },
+                {
+                  "text": "Karbon"
+                }
+              ],
+              "explanation": "Filamen tungsten berpijar ketika dialiri listrik.",
+              "hint": "Filamen mudah putus karena panas."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk komponen rangkaian lampu sensor suara?",
+              "options": [
+                {
+                  "text": "Sensor suara",
+                  "correct": true
+                },
+                {
+                  "text": "Relay",
+                  "correct": true
+                },
+                {
+                  "text": "Resistor",
+                  "correct": true
+                },
+                {
+                  "text": "Pompa air",
+                  "correct": false
+                },
+                {
+                  "text": "Tanah liat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sensor suara, relay, dan resistor adalah komponen rangkaian.",
+              "hint": "Pompa air dan tanah liat bukan komponen rangkaian ini."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk jenis lampu?",
+              "options": [
+                {
+                  "text": "Lampu pijar",
+                  "correct": true
+                },
+                {
+                  "text": "Lampu neon",
+                  "correct": true
+                },
+                {
+                  "text": "LED",
+                  "correct": true
+                },
+                {
+                  "text": "Lampu taman",
+                  "correct": false
+                },
+                {
+                  "text": "Lampu lalu lintas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lampu pijar, neon, dan LED adalah jenis lampu.",
+              "hint": "Lampu taman dan lalu lintas adalah penerapan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Lampu Sensor Suara — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi sensor suara?",
+              "options": [
+                {
+                  "text": "Mengubah suara menjadi sinyal listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Menghasilkan cahaya"
+                },
+                {
+                  "text": "Menyimpan daya"
+                },
+                {
+                  "text": "Mendinginkan rangkaian"
+                }
+              ],
+              "explanation": "Sensor suara menangkap suara dan mengubahnya menjadi sinyal listrik.",
+              "hint": "Sinyal kemudian diproses rangkaian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi relay?",
+              "options": [
+                {
+                  "text": "Saklar otomatis",
+                  "correct": true
+                },
+                {
+                  "text": "Pembatas arus"
+                },
+                {
+                  "text": "Sumber cahaya"
+                },
+                {
+                  "text": "Penyimpan energi"
+                }
+              ],
+              "explanation": "Relay menghubungkan atau memutus arus secara otomatis.",
+              "hint": "Relay dikendalikan sinyal listrik kecil."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa fungsi sensor suara pada produk?",
+              "options": [
+                {
+                  "text": "Menangkap suara",
+                  "correct": true
+                },
+                {
+                  "text": "Memicu rangkaian",
+                  "correct": true
+                },
+                {
+                  "text": "Menghasilkan air",
+                  "correct": false
+                },
+                {
+                  "text": "Menghitung HPP",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sensor menangkap suara dan memicu rangkaian.",
+              "hint": "HPP dihitung terpisah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip keselamatan listrik?",
+              "options": [
+                {
+                  "text": "Melepas sumber daya sebelum memeriksa",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak menyentuh bagian terbuka saat aktif",
+                  "correct": true
+                },
+                {
+                  "text": "Bekerja dengan tangan basah",
+                  "correct": false
+                },
+                {
+                  "text": "Menambah tegangan tanpa alat ukur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sumber daya dilepas dan bagian terbuka tidak disentuh saat aktif.",
+              "hint": "Tangan basah sangat berbahaya."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Sensor suara",
+                  "right": "mengubah suara menjadi sinyal listrik"
+                },
+                {
+                  "id": "m1",
+                  "left": "Relay",
+                  "right": "saklar otomatis"
+                },
+                {
+                  "id": "m2",
+                  "left": "Resistor",
+                  "right": "membatasi arus listrik"
+                },
+                {
+                  "id": "m3",
+                  "left": "Transistor",
+                  "right": "memperkuat sinyal"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengubah suara menjadi sinyal listrik",
+                  "m1": "saklar otomatis",
+                  "m2": "membatasi arus listrik",
+                  "m3": "memperkuat sinyal"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur proyek lampu sensor suara.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Observasi kebutuhan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Perancangan rangkaian"
+                },
+                {
+                  "id": "d2",
+                  "text": "Persiapan alat dan bahan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Perakitan dan uji coba"
+                },
+                {
+                  "id": "d4",
+                  "text": "Evaluasi produk"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Proyek bergerak dari observasi menuju evaluasi.",
+              "hint": "Rancangan dibuat sebelum perakitan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah merakit rangkaian.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Siapkan papan rangkaian"
+                },
+                {
+                  "id": "p1",
+                  "text": "Pasang sensor suara"
+                },
+                {
+                  "id": "p2",
+                  "text": "Pasang resistor dan transistor"
+                },
+                {
+                  "id": "p3",
+                  "text": "Pasang relay dan lampu"
+                },
+                {
+                  "id": "p4",
+                  "text": "Periksa sambungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Perakitan dimulai dari komponen masukan menuju keluaran.",
+              "hint": "Periksa sambungan sebelum diberi daya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi resistor?",
+              "options": [
+                {
+                  "text": "Membatasi arus listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Memperbesar cahaya"
+                },
+                {
+                  "text": "Menyimpan suara"
+                },
+                {
+                  "text": "Mengubah arus menjadi suara"
+                }
+              ],
+              "explanation": "Resistor membatasi aliran arus agar komponen aman.",
+              "hint": "Nilai resistor diukur dalam ohm."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa satuan hambatan listrik?",
+              "options": [
+                {
+                  "text": "Ohm",
+                  "correct": true
+                },
+                {
+                  "text": "Volt"
+                },
+                {
+                  "text": "Ampere"
+                },
+                {
+                  "text": "Watt"
+                }
+              ],
+              "explanation": "Hambatan listrik diukur dalam ohm.",
+              "hint": "Simbolnya Ω."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap proyek rekayasa?",
+              "options": [
+                {
+                  "text": "Observasi",
+                  "correct": true
+                },
+                {
+                  "text": "Perancangan",
+                  "correct": true
+                },
+                {
+                  "text": "Produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Evaluasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari uji coba",
+                  "correct": false
+                },
+                {
+                  "text": "Membuang bahan sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proyek melalui observasi, perancangan, produksi, dan evaluasi.",
+              "hint": "Uji coba bagian penting dari produksi."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Lampu Sensor Suara — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi transistor dalam rangkaian?",
+              "options": [
+                {
+                  "text": "Memperkuat atau menyaklarkan sinyal",
+                  "correct": true
+                },
+                {
+                  "text": "Menghasilkan cahaya"
+                },
+                {
+                  "text": "Menyimpan air"
+                },
+                {
+                  "text": "Mengubah warna"
+                }
+              ],
+              "explanation": "Transistor memperkuat sinyal dari sensor agar relay aktif."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lampu neon menghasilkan cahaya dari gas…",
+              "options": [
+                {
+                  "text": "Neon",
+                  "correct": true
+                },
+                {
+                  "text": "Oksigen"
+                },
+                {
+                  "text": "Nitrogen"
+                },
+                {
+                  "text": "Helium"
+                }
+              ],
+              "explanation": "Lampu neon berisi gas neon yang berpendar saat dialiri listrik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lampu LED menggunakan komponen…",
+              "options": [
+                {
+                  "text": "Dioda",
+                  "correct": true
+                },
+                {
+                  "text": "Filamen tungsten"
+                },
+                {
+                  "text": "Gas neon"
+                },
+                {
+                  "text": "Kawat karbon"
+                }
+              ],
+              "explanation": "LED adalah light emitting diode yang memakai dioda."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang dimaksud otomatisasi?",
+              "options": [
+                {
+                  "text": "Sistem bekerja sendiri berdasarkan sensor",
+                  "correct": true
+                },
+                {
+                  "text": "Sistem yang selalu manual"
+                },
+                {
+                  "text": "Sistem tanpa listrik"
+                },
+                {
+                  "text": "Sistem yang hanya dinyalakan tangan"
+                }
+              ],
+              "explanation": "Otomatisasi membuat alat bekerja sendiri setelah mendapat masukan sensor."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa itu HPP?",
+              "options": [
+                {
+                  "text": "Harga pokok produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Harga jual akhir"
+                },
+                {
+                  "text": "Laba bersih"
+                },
+                {
+                  "text": "Pajak penjualan"
+                }
+              ],
+              "explanation": "HPP adalah total biaya yang dikeluarkan untuk membuat produk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komponen biaya HPP?",
+              "options": [
+                {
+                  "text": "Bahan",
+                  "correct": true
+                },
+                {
+                  "text": "Tenaga kerja",
+                  "correct": true
+                },
+                {
+                  "text": "Keuntungan penjual",
+                  "correct": false
+                },
+                {
+                  "text": "Pajak konsumen",
+                  "correct": false
+                }
+              ],
+              "explanation": "HPP mencakup bahan dan tenaga kerja serta biaya produksi lain."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri lampu hemat energi?",
+              "options": [
+                {
+                  "text": "Daya listrik kecil",
+                  "correct": true
+                },
+                {
+                  "text": "Umur pakai panjang",
+                  "correct": true
+                },
+                {
+                  "text": "Cepat panas",
+                  "correct": false
+                },
+                {
+                  "text": "Mudah putus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lampu hemat energi memakai daya kecil dan tahan lama."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "LED",
+                  "right": "lampu dioda hemat energi"
+                },
+                {
+                  "id": "m1",
+                  "left": "HPP",
+                  "right": "total biaya pembuatan produk"
+                },
+                {
+                  "id": "m2",
+                  "left": "Otomatisasi",
+                  "right": "bekerja sendiri berdasarkan sensor"
+                },
+                {
+                  "id": "m3",
+                  "left": "Edison",
+                  "right": "penemu bola lampu pijar"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "lampu dioda hemat energi",
+                  "m1": "total biaya pembuatan produk",
+                  "m2": "bekerja sendiri berdasarkan sensor",
+                  "m3": "penemu bola lampu pijar"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menguji produk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pastikan rangkaian kering"
+                },
+                {
+                  "id": "d1",
+                  "text": "Hubungkan sumber daya"
+                },
+                {
+                  "id": "d2",
+                  "text": "Beri suara/tepukan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Amati respons lampu"
+                },
+                {
+                  "id": "d4",
+                  "text": "Catat hasil pengujian"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pengujian dilakukan setelah rangkaian siap dan aman."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menghitung HPP.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Catat biaya bahan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Hitung biaya tenaga kerja"
+                },
+                {
+                  "id": "p2",
+                  "text": "Tambahkan biaya lain"
+                },
+                {
+                  "id": "p3",
+                  "text": "Jumlahkan seluruh biaya"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "HPP dihitung dari seluruh biaya produksi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang harus dilakukan sebelum menyolder rangkaian?",
+              "options": [
+                {
+                  "text": "Melepaskan sumber daya listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah tegangan"
+                },
+                {
+                  "text": "Menyentuh kabel terbuka"
+                },
+                {
+                  "text": "Membasahi rangkaian"
+                }
+              ],
+              "explanation": "Sumber daya harus dilepas agar aman saat menyolder."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa lampu LED cocok untuk produk rekayasa?",
+              "options": [
+                {
+                  "text": "Hemat energi dan berumur panjang",
+                  "correct": true
+                },
+                {
+                  "text": "Cepat panas dan mudah putus"
+                },
+                {
+                  "text": "Membutuhkan gas neon"
+                },
+                {
+                  "text": "Tidak dapat dipasang pada rangkaian"
+                }
+              ],
+              "explanation": "LED hemat energi, terang, dan tahan lama."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah urutan perakitan yang benar?",
+              "options": [
+                {
+                  "text": "Menyiapkan komponen",
+                  "correct": true
+                },
+                {
+                  "text": "Merakit rangkaian",
+                  "correct": true
+                },
+                {
+                  "text": "Memeriksa sambungan",
+                  "correct": true
+                },
+                {
+                  "text": "Menguji produk",
+                  "correct": true
+                },
+                {
+                  "text": "Langsung memberi daya tanpa memeriksa",
+                  "correct": false
+                },
+                {
+                  "text": "Membongkar produk setelah jadi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perakitan dimulai dari persiapan lalu pemeriksaan sebelum uji."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Sensor suara",
+                  "right": "mengubah suara menjadi sinyal listrik"
+                },
+                {
+                  "id": "m1",
+                  "left": "Relay",
+                  "right": "saklar otomatis"
+                },
+                {
+                  "id": "m2",
+                  "left": "Resistor",
+                  "right": "membatasi arus listrik"
+                },
+                {
+                  "id": "m3",
+                  "left": "Transistor",
+                  "right": "memperkuat sinyal"
+                },
+                {
+                  "id": "m4",
+                  "left": "LED",
+                  "right": "lampu dioda hemat energi"
+                },
+                {
+                  "id": "m5",
+                  "left": "HPP",
+                  "right": "total biaya pembuatan produk"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengubah suara menjadi sinyal listrik",
+                  "m1": "saklar otomatis",
+                  "m2": "membatasi arus listrik",
+                  "m3": "memperkuat sinyal",
+                  "m4": "lampu dioda hemat energi",
+                  "m5": "total biaya pembuatan produk"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah presentasi produk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Siapkan produk"
+                },
+                {
+                  "id": "d1",
+                  "text": "Jelaskan cara kerja"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tunjukkan hasil uji"
+                },
+                {
+                  "id": "d3",
+                  "text": "Terima masukan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Susun rencana perbaikan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Presentasi menjelaskan produk dan membuka masukan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
