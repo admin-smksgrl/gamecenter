@@ -318,7 +318,7 @@ class MateriImportCommandTest extends TestCase
             $this->assertContains($type, $types, "tipe soal {$type} belum dipakai materi bawaan");
         }
 
-        $this->assertSame(94, Chapter::query()->whereIn('code', [
+        $this->assertSame(98, Chapter::query()->whereIn('code', [
             'MA 1.1', 'MA 1.2', 'MA 2.1', 'MA 2.2', 'MA 3.1', 'MA 4.1',
             'MA 5.1', 'MA 5.2', 'MA 6.1', 'MA 6.2', 'MA 6.3', 'MA 7.1', 'MA 8.1',
             'INF 1', 'INF 2', 'INF 3', 'INF 4', 'INF 5', 'INF 6', 'INF 7', 'INF 8',
@@ -336,9 +336,10 @@ class MateriImportCommandTest extends TestCase
             'PRA 8', 'PRA 9', 'PRA 10', 'PRA 11', 'PRA 12', 'PRA 13', 'PRA 14',
             'IPAS 1', 'IPAS 2', 'IPAS 3', 'IPAS 4', 'IPAS 5', 'IPAS 6',
             'KEP 1', 'KEP 2', 'KEP 3', 'KEP 4', 'KEP 5', 'KEP 6', 'KEP 7', 'KEP 8',
+            'SEJ 1', 'SEJ 2', 'SEJ 3', 'SEJ 4',
         ])->count());
 
-        $this->assertSame(2820, Question::query()->count());
+        $this->assertSame(2940, Question::query()->count());
     }
 
     public function test_material_blocks_are_imported_while_legacy_markdown_stays(): void

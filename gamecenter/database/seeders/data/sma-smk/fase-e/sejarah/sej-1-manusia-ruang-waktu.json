@@ -1,0 +1,1279 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "sejarah",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "SEJ 1",
+      "title": "Sejarah: Manusia, Ruang, dan Waktu",
+      "description": "Memahami ilmu sejarah sebagai kajian manusia dalam ruang dan waktu, membedakan diakronik dan sinkronik, serta menyusun kronologi dan periodisasi peristiwa.",
+      "learning_objectives": [
+        "Menjelaskan pengertian sejarah dan ilmu sejarah serta manfaat mempelajarinya.",
+        "Menganalisis kedudukan manusia sebagai penggerak, pelaku, dan saksi sejarah.",
+        "Membedakan cara berpikir diakronik (kronologi) dan sinkronik dalam kajian sejarah.",
+        "Menyusun kronologi dan periodisasi peristiwa bersejarah di lingkungan terdekat."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Sejarah-BG-KLS-X.pdf Bagian 2 materi Pengantar Ilmu Sejarah; CP Fase E Mata Pelajaran Sejarah",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa mempelajari sejarah?",
+          "duration": 240,
+          "source_reference": "Sejarah-BG-KLS-X.pdf Bagian 2 materi Pengantar Ilmu Sejarah; CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Sejarah dekat dengan kehidupan\n\nSejarah adalah ilmu yang mengkaji manusia dalam ruang dan waktu. Manusia, masyarakat, dan peristiwa masa lampau menjadi fokus kajiannya, tetapi manfaatnya selalu berbicara tentang masa kini dan masa depan.\n\nBelajar sejarah bukan menghafal tahun. Sejarah melatih keterampilan berpikir: mengumpulkan sumber, menilai bukti, menyusun hubungan sebab akibat, dan mengambil hikmah. Karena itu masa lalu selalu aktual.\n\nUngkapan historia magistra vitae mengingatkan bahwa sejarah adalah guru kehidupan. Kesalahan masa lalu dapat dihindari, keberhasilan masa lalu dapat ditiru, dan jati diri bangsa dapat dikenali.\n\nSejarah tanpa manusia hanyalah rangkaian tanggal; manusia memberi peristiwa itu makna.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "sej-1-manusia-ruang-waktu-glosarium",
+              "terms": [
+                {
+                  "term": "Sejarah",
+                  "definition": "Ilmu yang mengkaji manusia dalam ruang dan waktu pada masa lampau beserta maknanya bagi masa kini."
+                },
+                {
+                  "term": "Diakronik",
+                  "definition": "Cara berpikir memanjang dalam waktu, menelusuri peristiwa secara berurutan dari awal ke akhir."
+                },
+                {
+                  "term": "Sinkronik",
+                  "definition": "Cara berpikir meluas dalam ruang, mengkaji satu peristiwa pada satu masa secara mendalam."
+                },
+                {
+                  "term": "Kronologi",
+                  "definition": "Urutan peristiwa berdasarkan waktu terjadinya."
+                },
+                {
+                  "term": "Periodisasi",
+                  "definition": "Pembabakan waktu sejarah menjadi babak atau periode berdasarkan ciri khasnya."
+                },
+                {
+                  "term": "Anakronisme",
+                  "definition": "Kekeliruan menempatkan peristiwa atau benda pada zaman yang tidak sesuai."
+                },
+                {
+                  "term": "Historia magistra vitae",
+                  "definition": "Sejarah adalah guru kehidupan; pengalaman masa lalu menjadi pelajaran masa kini."
+                },
+                {
+                  "term": "Sumber sejarah",
+                  "definition": "Segala jejak yang dapat menjelaskan peristiwa masa lampau."
+                },
+                {
+                  "term": "Kausalitas",
+                  "definition": "Hubungan sebab akibat antarperistiwa dalam sejarah."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sejarah dekat dengan kehidupan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sejarah adalah ilmu yang mengkaji manusia dalam ruang dan waktu. Manusia, masyarakat, dan peristiwa masa lampau menjadi fokus kajiannya, tetapi manfaatnya selalu berbicara tentang masa kini dan masa depan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Belajar sejarah bukan menghafal tahun. Sejarah melatih keterampilan berpikir: mengumpulkan sumber, menilai bukti, menyusun hubungan sebab akibat, dan mengambil hikmah. Karena itu masa lalu selalu aktual."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ungkapan historia magistra vitae mengingatkan bahwa sejarah adalah guru kehidupan. Kesalahan masa lalu dapat dihindari, keberhasilan masa lalu dapat ditiru, dan jati diri bangsa dapat dikenali."
+            },
+            {
+              "type": "diagram",
+              "id": "sej-1-manusia-ruang-waktu-diagram",
+              "engine": "mermaid",
+              "title": "Tiga unsur pokok kajian sejarah",
+              "code": "flowchart LR\n  A[Manusia] --> D[Peristiwa sejarah]\n  B[Ruang] --> D\n  C[Waktu] --> D\n  D --> E[Makna bagi masa kini]\n  E --> F[Hikmah untuk masa depan]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Sejarah tanpa manusia hanyalah rangkaian tanggal; manusia memberi peristiwa itu makna."
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-1-manusia-ruang-waktu-cp-1",
+              "question": "Unsur pokok yang dikaji dalam ilmu sejarah adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "manusia, ruang, dan waktu",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "angka, tabel, dan grafik"
+                },
+                {
+                  "id": "c2",
+                  "text": "tokoh, pahlawan, dan mitos"
+                },
+                {
+                  "id": "c3",
+                  "text": "peta, cuaca, dan iklim"
+                }
+              ],
+              "explanation": "Ilmu sejarah selalu mengikat tiga unsur: manusia sebagai pelaku, ruang sebagai tempat, dan waktu sebagai kapan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Berpikir diakronik dan sinkronik",
+          "duration": 300,
+          "source_reference": "Sejarah-BG-KLS-X.pdf Bagian 2 materi Pengantar Ilmu Sejarah; CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Memanjang dalam waktu, meluas dalam ruang\n\nBerpikir diakronik berarti menelusuri peristiwa memanjang dalam waktu: dari sebab, proses, hingga akibat. Cara ini menuntut kronologi yang tepat agar urutan peristiwa tidak tertukar.\n\nBerpikir sinkronik berarti meluas dalam ruang: satu peristiwa dikaji pada satu kurun waktu secara mendalam, mencakup berbagai aspek seperti politik, ekonomi, sosial, dan budaya.\n\nKeduanya saling melengkapi. Diakronik menjawab “bagaimana peristiwa itu berkembang”, sinkronik menjawab “mengapa keadaan itu sedemikian rupa pada suatu masa”.\n\n| Aspek | Diakronik | Sinkronik |\n|---|---|---|\n| Arah kajian | Memanjang dalam waktu | Meluas dalam ruang |\n| Sifat | Kronologis dan berurutan | Mendalam pada satu masa |\n| Cakupan | Banyak periode berurutan | Satu periode, banyak aspek |\n| Contoh kajian | Perkembangan kereta api 1864–1945 | Keadaan kota Batavia tahun 1930 |\n\n### Kronologi dan periodisasi\n\n- Kronologi menyusun peristiwa menurut waktu terjadinya sehingga tampak hubungan sebab akibat.\n- Periodisasi membagi waktu sejarah menjadi babak berdasarkan ciri khas, misalnya masa Hindu-Buddha, masa kolonial, dan masa kemerdekaan.\n- Periodisasi memudahkan pemahaman, tetapi batas antarbabak tidak selalu tajam karena perubahan berlangsung bertahap.\n- Anakronisme terjadi bila peristiwa atau benda ditempatkan pada zaman yang tidak sesuai; misalnya membayangkan pengirim pesan masa Majapahit memakai telepon.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Memanjang dalam waktu, meluas dalam ruang"
+            },
+            {
+              "type": "paragraph",
+              "text": "Berpikir diakronik berarti menelusuri peristiwa memanjang dalam waktu: dari sebab, proses, hingga akibat. Cara ini menuntut kronologi yang tepat agar urutan peristiwa tidak tertukar."
+            },
+            {
+              "type": "paragraph",
+              "text": "Berpikir sinkronik berarti meluas dalam ruang: satu peristiwa dikaji pada satu kurun waktu secara mendalam, mencakup berbagai aspek seperti politik, ekonomi, sosial, dan budaya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keduanya saling melengkapi. Diakronik menjawab “bagaimana peristiwa itu berkembang”, sinkronik menjawab “mengapa keadaan itu sedemikian rupa pada suatu masa”."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspek",
+                  "Diakronik",
+                  "Sinkronik"
+                ],
+                [
+                  "Arah kajian",
+                  "Memanjang dalam waktu",
+                  "Meluas dalam ruang"
+                ],
+                [
+                  "Sifat",
+                  "Kronologis dan berurutan",
+                  "Mendalam pada satu masa"
+                ],
+                [
+                  "Cakupan",
+                  "Banyak periode berurutan",
+                  "Satu periode, banyak aspek"
+                ],
+                [
+                  "Contoh kajian",
+                  "Perkembangan kereta api 1864–1945",
+                  "Keadaan kota Batavia tahun 1930"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "sej-1-diakronik-sinkronik",
+              "engine": "mermaid",
+              "title": "Dua arah cara berpikir sejarah",
+              "code": "flowchart TB\n  A[Cara berpikir sejarah] --> B[Diakronik]\n  A --> C[Sinkronik]\n  B --> D[Memanjang dalam waktu]\n  B --> E[Kronologi dan periodisasi]\n  C --> F[Meluas dalam ruang]\n  C --> G[Analisis banyak aspek]"
+            },
+            {
+              "type": "categorize",
+              "id": "sej-1-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam cara berpikir diakronik atau sinkronik.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Diakronik"
+                },
+                {
+                  "id": "b2",
+                  "label": "Sinkronik"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Menelusuri peristiwa dari 1945 sampai 1965",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Mengkaji kehidupan ekonomi satu kota pada tahun 1950",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Menyusun urutan peristiwa berdasarkan tanggal",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Membandingkan politik, sosial, dan budaya pada satu masa",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Menjelaskan sebab dan akibat antarperistiwa berurutan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Membahas satu peristiwa secara mendalam tanpa melompat waktu",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Membuat garis waktu perjalanan sebuah organisasi",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Menganalisis struktur masyarakat pada satu periode",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Diakronik bergerak memanjang dalam waktu, sinkronik meluas dalam ruang pada satu masa.",
+                "wrong": "Periksa lagi: kata kunci diakronik adalah urutan waktu, sinkronik adalah kedalaman aspek."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kronologi dan periodisasi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kronologi menyusun peristiwa menurut waktu terjadinya sehingga tampak hubungan sebab akibat.",
+                "Periodisasi membagi waktu sejarah menjadi babak berdasarkan ciri khas, misalnya masa Hindu-Buddha, masa kolonial, dan masa kemerdekaan.",
+                "Periodisasi memudahkan pemahaman, tetapi batas antarbabak tidak selalu tajam karena perubahan berlangsung bertahap.",
+                "Anakronisme terjadi bila peristiwa atau benda ditempatkan pada zaman yang tidak sesuai; misalnya membayangkan pengirim pesan masa Majapahit memakai telepon."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-1-manusia-ruang-waktu-cp-2",
+              "question": "Pembabakan waktu sejarah berdasarkan ciri khas suatu masa disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "periodisasi",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "kronologi"
+                },
+                {
+                  "id": "c2",
+                  "text": "anakronisme"
+                },
+                {
+                  "id": "c3",
+                  "text": "historiografi"
+                }
+              ],
+              "explanation": "Periodisasi membagi sejarah menjadi periode; kronologi hanya mengurutkan berdasarkan waktu."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Sejarah-BG-KLS-X.pdf Bagian 2 materi Pengantar Ilmu Sejarah; CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Menyusun sejarah diri dan lingkungan\n\nKeterampilan sejarah dapat dilatih dari hal terdekat. Susun empat peristiwa penting dalam hidupmu: apa peristiwanya, di mana, kapan, siapa yang terlibat, dan sumber apa yang dapat membuktikannya.\n\nSetelah data terkumpul, buat lini masa. Dari lini masa itu kamu bisa melihat pola: peristiwa apa yang menjadi sebab, mana yang menjadi akibat, dan pelajaran apa yang bisa diambil.\n\nCara yang sama dipakai untuk sejarah lingkungan sekitar: kapan sekolah berdiri, kapan jalan dibangun, bagaimana pasar berubah. Semua punya sumber, ruang, waktu, dan makna.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyusun sejarah diri dan lingkungan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Keterampilan sejarah dapat dilatih dari hal terdekat. Susun empat peristiwa penting dalam hidupmu: apa peristiwanya, di mana, kapan, siapa yang terlibat, dan sumber apa yang dapat membuktikannya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah data terkumpul, buat lini masa. Dari lini masa itu kamu bisa melihat pola: peristiwa apa yang menjadi sebab, mana yang menjadi akibat, dan pelajaran apa yang bisa diambil."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cara yang sama dipakai untuk sejarah lingkungan sekitar: kapan sekolah berdiri, kapan jalan dibangun, bagaimana pasar berubah. Semua punya sumber, ruang, waktu, dan makna."
+            },
+            {
+              "type": "scenario",
+              "id": "sej-1-skenario",
+              "title": "Dua versi cerita tentang berdirinya sekolah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Dua narasumber memberi tahun berdiri sekolah yang berbeda. Apa sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Mencari sumber lain seperti dokumen atau arsip sekolah",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Sumber tertulis dapat menguji dua versi lisan."
+                    },
+                    {
+                      "text": "Memilih cerita yang paling seru",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Keseruan bukan dasar penilaian sumber sejarah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Arsip menunjukkan tahun yang berbeda dari kedua cerita. Langkahmu?",
+                  "choices": [
+                    {
+                      "text": "Menuliskan semua versi beserta sumbernya dan menilai keandalannya",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Sejarawan menimbang sumber, bukan menyembunyikan versi lain."
+                    },
+                    {
+                      "text": "Membuang arsip karena tidak sesuai cerita warga",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Mengabaikan sumber hanya karena berbeda membuat kajian tidak jujur."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Laporanmu tidak dapat diuji dan kehilangan kepercayaan pembaca.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Laporanmu jujur, terbuka, dan dapat diperiksa ulang.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "sej-1-manusia-ruang-waktu-kartu",
+              "cards": [
+                {
+                  "front": "Apa tiga unsur pokok kajian sejarah?",
+                  "back": "Manusia, ruang, dan waktu."
+                },
+                {
+                  "front": "Apa perbedaan diakronik dan sinkronik?",
+                  "back": "Diakronik memanjang dalam waktu; sinkronik meluas dalam ruang pada satu masa."
+                },
+                {
+                  "front": "Apa itu anakronisme?",
+                  "back": "Kekeliruan menempatkan peristiwa atau benda pada zaman yang tidak sesuai."
+                },
+                {
+                  "front": "Mengapa kronologi penting?",
+                  "back": "Agar urutan peristiwa dan hubungan sebab akibatnya tampak jelas."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-1-manusia-ruang-waktu-cp-3",
+              "question": "Manfaat utama mempelajari sejarah menurut CP adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "mengambil hikmah dan mengembangkan keterampilan berpikir sejarah",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "menghafal seluruh tahun penting"
+                },
+                {
+                  "id": "c2",
+                  "text": "mengumpulkan cerita rakyat"
+                },
+                {
+                  "id": "c3",
+                  "text": "menilai tokoh tanpa bukti"
+                }
+              ],
+              "explanation": "CP Sejarah menekankan hikmah dan keterampilan berpikir, bukan hafalan tahun."
+            },
+            {
+              "type": "challenge",
+              "id": "sej-1-tantangan",
+              "title": "Tantangan istilah ilmu sejarah",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Memanjang dalam waktu",
+                  "answer": "Diakronik"
+                },
+                {
+                  "question": "Meluas dalam ruang",
+                  "answer": "Sinkronik"
+                },
+                {
+                  "question": "Urutan berdasarkan waktu",
+                  "answer": "Kronologi"
+                },
+                {
+                  "question": "Pembabakan masa",
+                  "answer": "Periodisasi"
+                },
+                {
+                  "question": "Peristiwa di zaman yang salah",
+                  "answer": "Anakronisme"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah dasar ilmu sejarah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Sejarah: Manusia, Ruang, dan Waktu — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ilmu sejarah mengkaji manusia dalam…",
+              "options": [
+                {
+                  "text": "ruang dan waktu",
+                  "correct": true
+                },
+                {
+                  "text": "angka dan rumus"
+                },
+                {
+                  "text": "iklim dan cuaca"
+                },
+                {
+                  "text": "mesin dan teknologi"
+                }
+              ],
+              "explanation": "Sejarah mengikat manusia pada tempat dan waktu.",
+              "hint": "Tiga unsur pokok: manusia, ruang, waktu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ungkapan “sejarah adalah guru kehidupan” berbunyi…",
+              "options": [
+                {
+                  "text": "historia magistra vitae",
+                  "correct": true
+                },
+                {
+                  "text": "cogito ergo sum"
+                },
+                {
+                  "text": "veni vidi vici"
+                },
+                {
+                  "text": "de gustibus"
+                }
+              ],
+              "explanation": "Masa lalu menjadi pelajaran bagi masa kini.",
+              "hint": "Sering dikutip Cicero."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara berpikir memanjang dalam waktu disebut…",
+              "options": [
+                {
+                  "text": "diakronik",
+                  "correct": true
+                },
+                {
+                  "text": "sinkronik"
+                },
+                {
+                  "text": "kronologi"
+                },
+                {
+                  "text": "periodisasi"
+                }
+              ],
+              "explanation": "Diakronik menelusuri peristiwa berurutan.",
+              "hint": "Sinkronik sebaliknya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah unsur pokok dalam kajian sejarah?",
+              "options": [
+                {
+                  "text": "Manusia",
+                  "correct": true
+                },
+                {
+                  "text": "Ruang",
+                  "correct": true
+                },
+                {
+                  "text": "Waktu",
+                  "correct": true
+                },
+                {
+                  "text": "Cuaca",
+                  "correct": false
+                },
+                {
+                  "text": "Angka",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sejarah mengikat manusia, ruang, dan waktu.",
+              "hint": "Cuaca dan angka hanya alat bantu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri berpikir diakronik?",
+              "options": [
+                {
+                  "text": "Memanjang dalam waktu",
+                  "correct": true
+                },
+                {
+                  "text": "Berurutan secara kronologis",
+                  "correct": true
+                },
+                {
+                  "text": "Menelusuri sebab dan akibat",
+                  "correct": true
+                },
+                {
+                  "text": "Meluas dalam ruang",
+                  "correct": false
+                },
+                {
+                  "text": "Mendalam pada satu masa saja",
+                  "correct": false
+                }
+              ],
+              "explanation": "Diakronik bergerak menurut waktu.",
+              "hint": "Sinkronik yang meluas dalam ruang."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Sejarah: Manusia, Ruang, dan Waktu — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Cara berpikir meluas dalam ruang pada satu masa disebut…",
+              "options": [
+                {
+                  "text": "sinkronik",
+                  "correct": true
+                },
+                {
+                  "text": "diakronik"
+                },
+                {
+                  "text": "anakronisme"
+                },
+                {
+                  "text": "kausalitas"
+                }
+              ],
+              "explanation": "Sinkronik mengkaji banyak aspek pada satu kurun.",
+              "hint": "Diakronik memanjang dalam waktu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Urutan peristiwa berdasarkan waktu terjadinya disebut…",
+              "options": [
+                {
+                  "text": "kronologi",
+                  "correct": true
+                },
+                {
+                  "text": "periodisasi"
+                },
+                {
+                  "text": "historiografi"
+                },
+                {
+                  "text": "anakronisme"
+                }
+              ],
+              "explanation": "Kronologi membantu melihat sebab akibat.",
+              "hint": "Periodisasi membagi babak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri berpikir sinkronik?",
+              "options": [
+                {
+                  "text": "Meluas dalam ruang",
+                  "correct": true
+                },
+                {
+                  "text": "Mendalam pada satu masa",
+                  "correct": true
+                },
+                {
+                  "text": "Membahas banyak aspek",
+                  "correct": true
+                },
+                {
+                  "text": "Memanjang dalam waktu",
+                  "correct": false
+                },
+                {
+                  "text": "Menyusun urutan tanggal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sinkronik menganalisis satu kurun secara mendalam.",
+              "hint": "Bukan urutan waktu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat mempelajari sejarah?",
+              "options": [
+                {
+                  "text": "Mengambil hikmah",
+                  "correct": true
+                },
+                {
+                  "text": "Mengenali jati diri bangsa",
+                  "correct": true
+                },
+                {
+                  "text": "Melatih berpikir kritis",
+                  "correct": true
+                },
+                {
+                  "text": "Menghafal semua tahun",
+                  "correct": false
+                },
+                {
+                  "text": "Menilai tokoh tanpa bukti",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sejarah membentuk kesadaran dan kecakapan berpikir.",
+              "hint": "Hafalan bukan tujuan utama."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Diakronik",
+                  "right": "memanjang dalam waktu"
+                },
+                {
+                  "id": "m1",
+                  "left": "Sinkronik",
+                  "right": "meluas dalam ruang"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kronologi",
+                  "right": "urutan menurut waktu"
+                },
+                {
+                  "id": "m3",
+                  "left": "Periodisasi",
+                  "right": "pembabakan masa"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "memanjang dalam waktu",
+                  "m1": "meluas dalam ruang",
+                  "m2": "urutan menurut waktu",
+                  "m3": "pembabakan masa"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menyusun sejarah diri.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menentukan peristiwa penting"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mencatat waktu dan tempat"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mengumpulkan sumber bukti"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menyusun lini masa"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menuliskan makna dan pelajaran"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Langkah berjalan dari data menuju makna.",
+              "hint": "Lini masa membantu melihat pola."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah berpikir diakronik.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menentukan batas waktu kajian"
+                },
+                {
+                  "id": "p1",
+                  "text": "Mengumpulkan peristiwa sesuai urutan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menghubungkan sebab dan akibat"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menarik kesimpulan perkembangan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Diakronik menuntut urutan dan hubungan.",
+              "hint": "Kesimpulan menutup kajian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kekeliruan menempatkan benda atau peristiwa pada zaman yang tidak sesuai disebut…",
+              "options": [
+                {
+                  "text": "anakronisme",
+                  "correct": true
+                },
+                {
+                  "text": "kronologi"
+                },
+                {
+                  "text": "kausalitas"
+                },
+                {
+                  "text": "sinkronik"
+                }
+              ],
+              "explanation": "Contohnya telepon pada masa Majapahit.",
+              "hint": "Perhatikan konteks zaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hubungan sebab akibat antarperistiwa disebut…",
+              "options": [
+                {
+                  "text": "kausalitas",
+                  "correct": true
+                },
+                {
+                  "text": "periodisasi"
+                },
+                {
+                  "text": "anakronisme"
+                },
+                {
+                  "text": "kronologi"
+                }
+              ],
+              "explanation": "Kausalitas menjelaskan mengapa peristiwa terjadi.",
+              "hint": "Bukan sekadar urutan waktu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh sumber sejarah?",
+              "options": [
+                {
+                  "text": "Arsip sekolah",
+                  "correct": true
+                },
+                {
+                  "text": "Foto lama",
+                  "correct": true
+                },
+                {
+                  "text": "Kesaksian pelaku",
+                  "correct": true
+                },
+                {
+                  "text": "Ramalan",
+                  "correct": false
+                },
+                {
+                  "text": "Dugaan tanpa dasar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sumber dapat berupa tulisan, gambar, benda, atau kesaksian.",
+              "hint": "Ramalan bukan sumber."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Sejarah: Manusia, Ruang, dan Waktu — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pembabakan sejarah menjadi periode berdasarkan ciri khas disebut…",
+              "options": [
+                {
+                  "text": "periodisasi",
+                  "correct": true
+                },
+                {
+                  "text": "kronologi"
+                },
+                {
+                  "text": "kausalitas"
+                },
+                {
+                  "text": "sinkronik"
+                }
+              ],
+              "explanation": "Periodisasi memudahkan pemahaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manusia dalam sejarah berkedudukan sebagai…",
+              "options": [
+                {
+                  "text": "penggerak, pelaku, dan saksi sejarah",
+                  "correct": true
+                },
+                {
+                  "text": "objek tanpa peran"
+                },
+                {
+                  "text": "penonton pasif"
+                },
+                {
+                  "text": "penguasa alam"
+                }
+              ],
+              "explanation": "Manusia menciptakan sejarah secara individu maupun kolektif."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fokus utama kajian sejarah Indonesia menurut buku adalah…",
+              "options": [
+                {
+                  "text": "manusia dalam ruang dan waktu dengan konteks Indonesia",
+                  "correct": true
+                },
+                {
+                  "text": "alam semesta"
+                },
+                {
+                  "text": "bintang dan planet"
+                },
+                {
+                  "text": "teknologi digital"
+                }
+              ],
+              "explanation": "Konteks Indonesia menjadi titik berat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Belajar sejarah paling tepat dilakukan dengan cara…",
+              "options": [
+                {
+                  "text": "mencari, mengamati, dan menilai sumber",
+                  "correct": true
+                },
+                {
+                  "text": "menghafal tahun"
+                },
+                {
+                  "text": "membaca satu buku saja"
+                },
+                {
+                  "text": "menonton film saja"
+                }
+              ],
+              "explanation": "Sejarah adalah ilmu yang dinamis."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Segala jejak yang dapat menjelaskan peristiwa masa lampau disebut…",
+              "options": [
+                {
+                  "text": "sumber sejarah",
+                  "correct": true
+                },
+                {
+                  "text": "mitos"
+                },
+                {
+                  "text": "opini"
+                },
+                {
+                  "text": "ramalan"
+                }
+              ],
+              "explanation": "Sumber menjadi dasar penelitian sejarah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan tentang kronologi?",
+              "options": [
+                {
+                  "text": "Mengurutkan peristiwa menurut waktu",
+                  "correct": true
+                },
+                {
+                  "text": "Membantu melihat sebab akibat",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari kekacauan urutan",
+                  "correct": true
+                },
+                {
+                  "text": "Membagi zaman menjadi periode",
+                  "correct": false
+                },
+                {
+                  "text": "Mengganti sumber sejarah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kronologi adalah urutan waktu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk periodisasi sejarah Indonesia?",
+              "options": [
+                {
+                  "text": "Masa Hindu-Buddha",
+                  "correct": true
+                },
+                {
+                  "text": "Masa kolonial",
+                  "correct": true
+                },
+                {
+                  "text": "Masa kemerdekaan",
+                  "correct": true
+                },
+                {
+                  "text": "Masa libur sekolah",
+                  "correct": false
+                },
+                {
+                  "text": "Masa panen raya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Periodisasi memakai ciri khas zaman."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Anakronisme",
+                  "right": "peristiwa pada zaman yang salah"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kausalitas",
+                  "right": "hubungan sebab akibat"
+                },
+                {
+                  "id": "m2",
+                  "left": "Sumber sejarah",
+                  "right": "jejak peristiwa masa lampau"
+                },
+                {
+                  "id": "m3",
+                  "left": "Historia magistra vitae",
+                  "right": "sejarah guru kehidupan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "peristiwa pada zaman yang salah",
+                  "m1": "hubungan sebab akibat",
+                  "m2": "jejak peristiwa masa lampau",
+                  "m3": "sejarah guru kehidupan"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah berpikir sinkronik.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menentukan satu kurun waktu"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memilih aspek yang dikaji"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mengumpulkan data tiap aspek"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membandingkan antaraspek"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menyimpulkan keadaan masa itu"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Sinkronik menganalisis satu masa secara mendalam."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan tahap kerja penelitian sejarah sederhana.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Memilih topik"
+                },
+                {
+                  "id": "p1",
+                  "text": "Mengumpulkan sumber"
+                },
+                {
+                  "id": "p2",
+                  "text": "Memverifikasi sumber"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menafsirkan data"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menuliskan laporan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Penelitian bergerak dari topik ke laporan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sejarah disebut dekat dan relevan karena…",
+              "options": [
+                {
+                  "text": "masa lalu selalu aktual bagi masa kini",
+                  "correct": true
+                },
+                {
+                  "text": "semua peristiwa berulang tepat sama"
+                },
+                {
+                  "text": "sejarah hanya untuk sejarawan"
+                },
+                {
+                  "text": "sejarah hanya soal tokoh"
+                }
+              ],
+              "explanation": "Nilai masa lalu terasa di kehidupan sekarang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pernyataan yang menunjukkan berpikir diakronik adalah…",
+              "options": [
+                {
+                  "text": "menelusuri perkembangan transportasi dari 1864 hingga 1945",
+                  "correct": true
+                },
+                {
+                  "text": "mengkaji satu kota pada satu tahun"
+                },
+                {
+                  "text": "membandingkan lima aspek pada satu masa"
+                },
+                {
+                  "text": "menilai satu peristiwa tanpa waktu"
+                }
+              ],
+              "explanation": "Diakronik memanjang dalam waktu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh anakronisme?",
+              "options": [
+                {
+                  "text": "Menyebut telepon pada masa Majapahit",
+                  "correct": true
+                },
+                {
+                  "text": "Menggunakan istilah presiden untuk raja abad ke-14",
+                  "correct": true
+                },
+                {
+                  "text": "Membayangkan bus kota pada abad ke-9",
+                  "correct": true
+                },
+                {
+                  "text": "Menyebut candi sebagai peninggalan abad ke-9",
+                  "correct": false
+                },
+                {
+                  "text": "Menyebut VOC sebagai kongsi dagang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Anakronisme menempatkan hal modern di masa lalu."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Diakronik",
+                  "right": "memanjang dalam waktu"
+                },
+                {
+                  "id": "m1",
+                  "left": "Sinkronik",
+                  "right": "meluas dalam ruang"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kronologi",
+                  "right": "urutan menurut waktu"
+                },
+                {
+                  "id": "m3",
+                  "left": "Periodisasi",
+                  "right": "pembabakan masa"
+                },
+                {
+                  "id": "m4",
+                  "left": "Anakronisme",
+                  "right": "peristiwa pada zaman yang salah"
+                },
+                {
+                  "id": "m5",
+                  "left": "Kausalitas",
+                  "right": "hubungan sebab akibat"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "memanjang dalam waktu",
+                  "m1": "meluas dalam ruang",
+                  "m2": "urutan menurut waktu",
+                  "m3": "pembabakan masa",
+                  "m4": "peristiwa pada zaman yang salah",
+                  "m5": "hubungan sebab akibat"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan manfaat belajar sejarah dari yang terdekat.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengenali sejarah diri"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memahami sejarah keluarga"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memahami sejarah lingkungan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Memahami sejarah bangsa"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mengambil hikmah untuk masa depan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kesadaran sejarah tumbuh dari lingkup terdekat."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

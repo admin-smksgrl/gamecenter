@@ -1,0 +1,1284 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "sejarah",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "SEJ 4",
+      "title": "Sejarah dan Teori Sosial",
+      "description": "Menggunakan teori sosial untuk menjelaskan peristiwa sejarah: perubahan dan kesinambungan, struktur dan agensi, konflik dan integrasi, serta membaca fenomena masa kini dengan konsep ilmu sejarah.",
+      "learning_objectives": [
+        "Menjelaskan fungsi teori sosial dalam analisis peristiwa sejarah.",
+        "Membedakan konsep perubahan, kesinambungan, pengulangan, dan perkembangan.",
+        "Menggunakan konsep struktur, agensi, konflik, dan integrasi untuk membaca peristiwa.",
+        "Menganalisis fenomena sosial masa kini dengan konsep dasar ilmu sejarah."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Sejarah-BG-KLS-X.pdf materi Sejarah dan Teori Sosial; CP Fase E Mata Pelajaran Sejarah",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa sejarah butuh teori sosial?",
+          "duration": 240,
+          "source_reference": "Sejarah-BG-KLS-X.pdf materi Sejarah dan Teori Sosial; CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Menjelaskan, bukan sekadar menceritakan\n\nSejarah menceritakan apa yang terjadi; teori sosial membantu menjelaskan mengapa hal itu terjadi dan bagaimana pola yang serupa bisa muncul lagi. Teori berfungsi sebagai alat bantu berpikir, bukan pengganti bukti.\n\nKonsep dasar seperti perubahan, kesinambungan, pengulangan, dan perkembangan membantu sejarawan membaca arah suatu zaman tanpa kehilangan detail peristiwa.\n\nSejarah juga meminjam konsep struktur dan agensi: manusia bertindak, tetapi tindakannya dibatasi atau didukung oleh aturan, lembaga, dan keadaan sosial pada zamannya.\n\nTeori yang tidak didukung bukti hanya menjadi dugaan; sejarawan tetap berpijak pada sumber.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "sej-4-sejarah-teori-sosial-glosarium",
+              "terms": [
+                {
+                  "term": "Teori sosial",
+                  "definition": "Kerangka berpikir dari ilmu sosial yang dipakai untuk menjelaskan peristiwa sejarah."
+                },
+                {
+                  "term": "Perubahan",
+                  "definition": "Keadaan yang berbeda dari sebelumnya dalam kurun waktu tertentu."
+                },
+                {
+                  "term": "Kesinambungan",
+                  "definition": "Unsur masa lalu yang tetap berlangsung hingga masa kini."
+                },
+                {
+                  "term": "Pengulangan",
+                  "definition": "Pola peristiwa yang muncul kembali dengan bentuk berbeda."
+                },
+                {
+                  "term": "Perkembangan",
+                  "definition": "Perubahan yang berjalan bertahap menuju bentuk yang lebih kompleks."
+                },
+                {
+                  "term": "Struktur",
+                  "definition": "Tatanan sosial yang membatasi dan membentuk tindakan manusia, misalnya lembaga dan aturan."
+                },
+                {
+                  "term": "Agensi",
+                  "definition": "Kemampuan manusia bertindak dan mengubah keadaan di tengah struktur."
+                },
+                {
+                  "term": "Konflik",
+                  "definition": "Pertentangan kepentingan antarkelompok dalam masyarakat."
+                },
+                {
+                  "term": "Integrasi",
+                  "definition": "Proses menyatukan bagian masyarakat sehingga terbentuk kesatuan sosial."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menjelaskan, bukan sekadar menceritakan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sejarah menceritakan apa yang terjadi; teori sosial membantu menjelaskan mengapa hal itu terjadi dan bagaimana pola yang serupa bisa muncul lagi. Teori berfungsi sebagai alat bantu berpikir, bukan pengganti bukti."
+            },
+            {
+              "type": "paragraph",
+              "text": "Konsep dasar seperti perubahan, kesinambungan, pengulangan, dan perkembangan membantu sejarawan membaca arah suatu zaman tanpa kehilangan detail peristiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sejarah juga meminjam konsep struktur dan agensi: manusia bertindak, tetapi tindakannya dibatasi atau didukung oleh aturan, lembaga, dan keadaan sosial pada zamannya."
+            },
+            {
+              "type": "diagram",
+              "id": "sej-4-sejarah-teori-sosial-diagram",
+              "engine": "mermaid",
+              "title": "Empat pola dalam membaca waktu",
+              "code": "flowchart LR\n  A[Waktu sejarah] --> B[Perubahan]\n  A --> C[Kesinambungan]\n  A --> D[Pengulangan]\n  A --> E[Perkembangan]\n  B --> F[Berbeda dari sebelumnya]\n  C --> G[Masih berlangsung kini]\n  D --> H[Pola muncul kembali]\n  E --> I[Bertahap makin kompleks]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Teori yang tidak didukung bukti hanya menjadi dugaan; sejarawan tetap berpijak pada sumber."
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-4-sejarah-teori-sosial-cp-1",
+              "question": "Unsur masa lalu yang masih berlangsung hingga kini disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "kesinambungan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "perubahan"
+                },
+                {
+                  "id": "c2",
+                  "text": "pengulangan"
+                },
+                {
+                  "id": "c3",
+                  "text": "anakronisme"
+                }
+              ],
+              "explanation": "Kesinambungan menunjukkan unsur masa lalu yang bertahan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Struktur, agensi, konflik, integrasi",
+          "duration": 300,
+          "source_reference": "Sejarah-BG-KLS-X.pdf materi Sejarah dan Teori Sosial; CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Alat bantu membaca masyarakat\n\nStruktur adalah tatanan yang membatasi dan membentuk tindakan: aturan sekolah, sistem pemerintahan, adat, dan ekonomi. Struktur tidak selalu terlihat, tetapi pengaruhnya terasa dalam pilihan hidup manusia.\n\nAgensi adalah kemampuan manusia bertindak. Meski struktur membatasi, manusia dapat menegosiasi, melawan, atau mengubahnya. Keberhasilan suatu gerakan biasanya lahir dari pertemuan agensi dan peluang yang dibuka struktur.\n\nKonflik dan integrasi sama-sama nyata. Masyarakat tidak pernah sepenuhnya damai atau sepenuhnya berkonflik; keduanya berlangsung bersamaan. Sejarah mencatat bagaimana keduanya diatur lewat hukum, adat, atau kesepakatan.\n\n| Konsep | Pengertian | Contoh dalam sejarah |\n|---|---|---|\n| Struktur | Tatanan yang membatasi tindakan | Sistem tanam paksa membatasi pilihan petani |\n| Agensi | Kemampuan bertindak manusia | Pergerakan buruh menuntut upah layak |\n| Konflik | Pertentangan kepentingan | Perselisihan antarkelompok dagang |\n| Integrasi | Penyatuan masyarakat | Sumpah Pemuda menyatukan organisasi pemuda |\n\n### Sejarah dan fenomena masa kini\n\n- Perubahan bisa cepat (revolusi) atau Lambat (evolusi); keduanya bagian dari sejarah.\n- Pengulangan tidak berarti peristiwa sama persis, melainkan polanya menyerupai karena sebab yang mirip.\n- Struktur yang tidak adil cenderung memicu konflik; integrasi lahir dari kesepakatan yang mengakui perbedaan.\n- Fenomena masa kini seperti urbanisasi, media sosial, dan krisis iklim dapat dianalisis dengan konsep sejarah.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Alat bantu membaca masyarakat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Struktur adalah tatanan yang membatasi dan membentuk tindakan: aturan sekolah, sistem pemerintahan, adat, dan ekonomi. Struktur tidak selalu terlihat, tetapi pengaruhnya terasa dalam pilihan hidup manusia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Agensi adalah kemampuan manusia bertindak. Meski struktur membatasi, manusia dapat menegosiasi, melawan, atau mengubahnya. Keberhasilan suatu gerakan biasanya lahir dari pertemuan agensi dan peluang yang dibuka struktur."
+            },
+            {
+              "type": "paragraph",
+              "text": "Konflik dan integrasi sama-sama nyata. Masyarakat tidak pernah sepenuhnya damai atau sepenuhnya berkonflik; keduanya berlangsung bersamaan. Sejarah mencatat bagaimana keduanya diatur lewat hukum, adat, atau kesepakatan."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Konsep",
+                  "Pengertian",
+                  "Contoh dalam sejarah"
+                ],
+                [
+                  "Struktur",
+                  "Tatanan yang membatasi tindakan",
+                  "Sistem tanam paksa membatasi pilihan petani"
+                ],
+                [
+                  "Agensi",
+                  "Kemampuan bertindak manusia",
+                  "Pergerakan buruh menuntut upah layak"
+                ],
+                [
+                  "Konflik",
+                  "Pertentangan kepentingan",
+                  "Perselisihan antarkelompok dagang"
+                ],
+                [
+                  "Integrasi",
+                  "Penyatuan masyarakat",
+                  "Sumpah Pemuda menyatukan organisasi pemuda"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "sej-4-struktur-agensi",
+              "engine": "mermaid",
+              "title": "Struktur dan agensi membentuk hasil sejarah",
+              "code": "flowchart TB\n  A[Struktur sosial] --> C{Medan tindakan}\n  B[Agensi manusia] --> C\n  C --> D[Tindakan kolektif]\n  D --> E{Hasil}\n  E --> F[Perubahan]\n  E --> G[Kesinambungan]\n  F --> H[Struktur baru]\n  H --> A"
+            },
+            {
+              "type": "categorize",
+              "id": "sej-4-klasifikasi",
+              "prompt": "Kelompokkan gejala berikut sebagai perubahan atau kesinambungan.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Perubahan"
+                },
+                {
+                  "id": "b2",
+                  "label": "Kesinambungan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Pasar tradisional beralih ke belanja daring",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Tradisi gotong royong masih dilakukan warga",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Surat kabar cetak digantikan berita digital",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Upacara adat tetap dijalankan setiap tahun",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Alat pembayaran berubah dari tunai ke digital",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Bahasa daerah tetap dipakai di rumah",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Sistem kerja berubah dari manual ke mesin",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Sekolah tetap memakai seragam",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Perubahan menandai keadaan yang berbeda; kesinambungan menandai unsur yang bertahan.",
+                "wrong": "Periksa lagi: kata “beralih”, “digantikan”, dan “berubah” menandai perubahan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Sejarah dan fenomena masa kini"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Perubahan bisa cepat (revolusi) atau Lambat (evolusi); keduanya bagian dari sejarah.",
+                "Pengulangan tidak berarti peristiwa sama persis, melainkan polanya menyerupai karena sebab yang mirip.",
+                "Struktur yang tidak adil cenderung memicu konflik; integrasi lahir dari kesepakatan yang mengakui perbedaan.",
+                "Fenomena masa kini seperti urbanisasi, media sosial, dan krisis iklim dapat dianalisis dengan konsep sejarah."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-4-sejarah-teori-sosial-cp-2",
+              "question": "Kemampuan manusia bertindak di tengah batasan struktur disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "agensi",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "konflik"
+                },
+                {
+                  "id": "c2",
+                  "text": "integrasi"
+                },
+                {
+                  "id": "c3",
+                  "text": "periodisasi"
+                }
+              ],
+              "explanation": "Agensi adalah kemampuan manusia bertindak dan mengubah keadaan."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Sejarah-BG-KLS-X.pdf materi Sejarah dan Teori Sosial; CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Membaca masa kini dengan konsep sejarah\n\nAmbil satu gejala: warga desa pindah ke kota. Dengan konsep perubahan, lihat apa yang berbeda dibanding dua puluh tahun lalu. Dengan kesinambungan, cari tradisi yang tetap dibawa pindah.\n\nGunakan konsep struktur dan agensi: struktur apa yang mendorong orang merantau, dan bagaimana mereka bertindak menghadapi keadaan itu? Lalu tanyakan, konflik atau integrasi apa yang muncul di kota tujuan.\n\nTuliskan hasilnya dalam paragraf pendek yang menyebut konsep, bukti, dan kesimpulan. Cara ini melatih kebiasaan berpikir yang dipakai sejarawan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membaca masa kini dengan konsep sejarah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ambil satu gejala: warga desa pindah ke kota. Dengan konsep perubahan, lihat apa yang berbeda dibanding dua puluh tahun lalu. Dengan kesinambungan, cari tradisi yang tetap dibawa pindah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gunakan konsep struktur dan agensi: struktur apa yang mendorong orang merantau, dan bagaimana mereka bertindak menghadapi keadaan itu? Lalu tanyakan, konflik atau integrasi apa yang muncul di kota tujuan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tuliskan hasilnya dalam paragraf pendek yang menyebut konsep, bukti, dan kesimpulan. Cara ini melatih kebiasaan berpikir yang dipakai sejarawan."
+            },
+            {
+              "type": "scenario",
+              "id": "sej-4-skenario",
+              "title": "Pasar lama yang mulai sepi",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Pasar lama di kampungmu mulai sepi karena belanja daring. Bagaimana kamu menjelaskannya?",
+                  "choices": [
+                    {
+                      "text": "Menganalisis perubahan teknologi dan kebiasaan pembeli",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Perubahan dapat dijelaskan dengan sebab sosial dan teknologi."
+                    },
+                    {
+                      "text": "Menyalahkan pedagang tanpa data",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menyalahkan tanpa bukti bukan analisis sejarah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Apa yang bisa dilakukan warga berdasarkan analisismu?",
+                  "choices": [
+                    {
+                      "text": "Menggabungkan dagangan dengan layanan pesan antar dan menjaga ciri khas pasar",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Agensi warga dan struktur pasar baru bisa dipadukan."
+                    },
+                    {
+                      "text": "Membiarkan pasar tutup karena perubahan pasti terjadi",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Perubahan bukan alasan menyerah tanpa tindakan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Pasar tutup, warga kehilangan tempat usaha dan ruang sosial.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Pasar bertahan dengan wajah baru dan warga tetap berdaya.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "sej-4-sejarah-teori-sosial-kartu",
+              "cards": [
+                {
+                  "front": "Apa fungsi teori sosial dalam sejarah?",
+                  "back": "Membantu menjelaskan mengapa peristiwa terjadi, bukan menggantikan bukti."
+                },
+                {
+                  "front": "Apa beda perubahan dan kesinambungan?",
+                  "back": "Perubahan menandai keadaan berbeda; kesinambungan menandai unsur yang bertahan."
+                },
+                {
+                  "front": "Apa itu agensi?",
+                  "back": "Kemampuan manusia bertindak di tengah batasan struktur."
+                },
+                {
+                  "front": "Apa itu integrasi?",
+                  "back": "Proses menyatukan bagian masyarakat menjadi satu kesatuan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-4-sejarah-teori-sosial-cp-3",
+              "question": "Pola peristiwa yang muncul kembali dengan bentuk berbeda disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "pengulangan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "kesinambungan"
+                },
+                {
+                  "id": "c2",
+                  "text": "perkembangan"
+                },
+                {
+                  "id": "c3",
+                  "text": "periodisasi"
+                }
+              ],
+              "explanation": "Pengulangan menunjukkan pola serupa, bukan peristiwa yang identik."
+            },
+            {
+              "type": "challenge",
+              "id": "sej-4-tantangan",
+              "title": "Tantangan istilah teori sosial",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Tatanan yang membatasi tindakan",
+                  "answer": "Struktur"
+                },
+                {
+                  "question": "Kemampuan manusia bertindak",
+                  "answer": "Agensi"
+                },
+                {
+                  "question": "Pertentangan kepentingan",
+                  "answer": "Konflik"
+                },
+                {
+                  "question": "Proses penyatuan masyarakat",
+                  "answer": "Integrasi"
+                },
+                {
+                  "question": "Unsur masa lalu yang bertahan",
+                  "answer": "Kesinambungan"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah teori sosial terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Sejarah dan Teori Sosial — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kerangka berpikir ilmu sosial untuk menjelaskan peristiwa sejarah disebut…",
+              "options": [
+                {
+                  "text": "teori sosial",
+                  "correct": true
+                },
+                {
+                  "text": "kronologi"
+                },
+                {
+                  "text": "periodisasi"
+                },
+                {
+                  "text": "anakronisme"
+                }
+              ],
+              "explanation": "Teori sosial menjadi alat bantu penjelasan.",
+              "hint": "Tetap berpijak pada bukti."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keadaan yang berbeda dari sebelumnya disebut…",
+              "options": [
+                {
+                  "text": "perubahan",
+                  "correct": true
+                },
+                {
+                  "text": "kesinambungan"
+                },
+                {
+                  "text": "pengulangan"
+                },
+                {
+                  "text": "perkembangan"
+                }
+              ],
+              "explanation": "Perubahan dapat cepat atau lambat.",
+              "hint": "Kesinambungan adalah sebaliknya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Unsur masa lalu yang tetap berlangsung hingga kini disebut…",
+              "options": [
+                {
+                  "text": "kesinambungan",
+                  "correct": true
+                },
+                {
+                  "text": "perubahan"
+                },
+                {
+                  "text": "konflik"
+                },
+                {
+                  "text": "agensi"
+                }
+              ],
+              "explanation": "Kesinambungan menunjukkan unsur yang bertahan.",
+              "hint": "Misalnya tradisi gotong royong."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pola dalam membaca waktu sejarah?",
+              "options": [
+                {
+                  "text": "Perubahan",
+                  "correct": true
+                },
+                {
+                  "text": "Kesinambungan",
+                  "correct": true
+                },
+                {
+                  "text": "Pengulangan",
+                  "correct": true
+                },
+                {
+                  "text": "Anakronisme",
+                  "correct": false
+                },
+                {
+                  "text": "Eurocentrisme",
+                  "correct": false
+                }
+              ],
+              "explanation": "Empat pola termasuk perkembangan.",
+              "hint": "Anakronisme adalah kesalahan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri perubahan?",
+              "options": [
+                {
+                  "text": "Berbeda dari keadaan sebelumnya",
+                  "correct": true
+                },
+                {
+                  "text": "Dapat berlangsung cepat",
+                  "correct": true
+                },
+                {
+                  "text": "Dapat berlangsung lambat",
+                  "correct": true
+                },
+                {
+                  "text": "Selalu sama sepanjang masa",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak dapat dijelaskan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perubahan bisa revolusi atau evolusi.",
+              "hint": "Sejarah mencatat keduanya."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Sejarah dan Teori Sosial — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pola peristiwa yang muncul kembali menyerupai masa lalu disebut…",
+              "options": [
+                {
+                  "text": "pengulangan",
+                  "correct": true
+                },
+                {
+                  "text": "kesinambungan"
+                },
+                {
+                  "text": "integrasi"
+                },
+                {
+                  "text": "periodisasi"
+                }
+              ],
+              "explanation": "Pengulangan tidak berarti sama persis.",
+              "hint": "Sebabnya bisa serupa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perubahan bertahap menuju bentuk yang lebih kompleks disebut…",
+              "options": [
+                {
+                  "text": "perkembangan",
+                  "correct": true
+                },
+                {
+                  "text": "pengulangan"
+                },
+                {
+                  "text": "konflik"
+                },
+                {
+                  "text": "agensi"
+                }
+              ],
+              "explanation": "Perkembangan berlangsung bertahap.",
+              "hint": "Berbeda dari revolusi yang cepat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh kesinambungan?",
+              "options": [
+                {
+                  "text": "Tradisi gotong royong",
+                  "correct": true
+                },
+                {
+                  "text": "Bahasa daerah di rumah",
+                  "correct": true
+                },
+                {
+                  "text": "Upacara adat tahunan",
+                  "correct": true
+                },
+                {
+                  "text": "Peralihan surat kabar ke berita digital",
+                  "correct": false
+                },
+                {
+                  "text": "Pembayaran tunai ke digital",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kesinambungan adalah unsur yang bertahan.",
+              "hint": "Peralihan menandai perubahan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh struktur?",
+              "options": [
+                {
+                  "text": "Aturan sekolah",
+                  "correct": true
+                },
+                {
+                  "text": "Sistem pemerintahan",
+                  "correct": true
+                },
+                {
+                  "text": "Adat masyarakat",
+                  "correct": true
+                },
+                {
+                  "text": "Keberanian seorang tokoh",
+                  "correct": false
+                },
+                {
+                  "text": "Pilihan pribadi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Struktur adalah tatanan yang membatasi tindakan.",
+              "hint": "Keberanian termasuk agensi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Struktur",
+                  "right": "tatanan yang membatasi tindakan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Agensi",
+                  "right": "kemampuan manusia bertindak"
+                },
+                {
+                  "id": "m2",
+                  "left": "Konflik",
+                  "right": "pertentangan kepentingan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Integrasi",
+                  "right": "penyatuan masyarakat"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tatanan yang membatasi tindakan",
+                  "m1": "kemampuan manusia bertindak",
+                  "m2": "pertentangan kepentingan",
+                  "m3": "penyatuan masyarakat"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menganalisis fenomena dengan konsep sejarah.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Memilih fenomena"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menetapkan batas waktu"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mengumpulkan bukti"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menerapkan konsep perubahan dan kesinambungan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menuliskan kesimpulan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Analisis bergerak dari fenomena ke kesimpulan.",
+              "hint": "Konsep dipakai setelah bukti terkumpul."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan proses perubahan sosial.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Gejala baru muncul"
+                },
+                {
+                  "id": "p1",
+                  "text": "Sebagian warga menerima"
+                },
+                {
+                  "id": "p2",
+                  "text": "Terjadi pertentangan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Kesepakatan atau aturan dibuat"
+                },
+                {
+                  "id": "p4",
+                  "text": "Kebiasaan baru menguat"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Perubahan melewati penerimaan dan pertentangan.",
+              "hint": "Kebiasaan baru menandai hasil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tatanan sosial yang membatasi tindakan manusia disebut…",
+              "options": [
+                {
+                  "text": "struktur",
+                  "correct": true
+                },
+                {
+                  "text": "agensi"
+                },
+                {
+                  "text": "integrasi"
+                },
+                {
+                  "text": "konflik"
+                }
+              ],
+              "explanation": "Struktur meliputi aturan, lembaga, dan adat.",
+              "hint": "Pengaruhnya terasa dalam pilihan hidup."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kemampuan manusia bertindak dan mengubah keadaan disebut…",
+              "options": [
+                {
+                  "text": "agensi",
+                  "correct": true
+                },
+                {
+                  "text": "struktur"
+                },
+                {
+                  "text": "konflik"
+                },
+                {
+                  "text": "periodisasi"
+                }
+              ],
+              "explanation": "Agensi membuat manusia bukan sekadar korban keadaan.",
+              "hint": "Bisa berupa perlawanan atau negosiasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh agensi?",
+              "options": [
+                {
+                  "text": "Pergerakan buruh menuntut upah",
+                  "correct": true
+                },
+                {
+                  "text": "Warga menolak penggusuran",
+                  "correct": true
+                },
+                {
+                  "text": "Pelajar menggalang bantuan",
+                  "correct": true
+                },
+                {
+                  "text": "Sistem tanam paksa",
+                  "correct": false
+                },
+                {
+                  "text": "Aturan kolonial",
+                  "correct": false
+                }
+              ],
+              "explanation": "Agensi adalah tindakan manusia.",
+              "hint": "Tanam paksa adalah struktur."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Sejarah dan Teori Sosial — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pertentangan kepentingan antarkelompok disebut…",
+              "options": [
+                {
+                  "text": "konflik",
+                  "correct": true
+                },
+                {
+                  "text": "integrasi"
+                },
+                {
+                  "text": "kesinambungan"
+                },
+                {
+                  "text": "perkembangan"
+                }
+              ],
+              "explanation": "Konflik lahir dari kepentingan yang berbeda."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proses menyatukan bagian masyarakat menjadi kesatuan disebut…",
+              "options": [
+                {
+                  "text": "integrasi",
+                  "correct": true
+                },
+                {
+                  "text": "konflik"
+                },
+                {
+                  "text": "agensi"
+                },
+                {
+                  "text": "pengulangan"
+                }
+              ],
+              "explanation": "Integrasi lahir dari kesepakatan yang mengakui perbedaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perubahan sosial yang berlangsung cepat dan mendasar disebut…",
+              "options": [
+                {
+                  "text": "revolusi",
+                  "correct": true
+                },
+                {
+                  "text": "evolusi"
+                },
+                {
+                  "text": "kesinambungan"
+                },
+                {
+                  "text": "pengulangan"
+                }
+              ],
+              "explanation": "Revolusi berlangsung cepat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Struktur yang tidak adil cenderung…",
+              "options": [
+                {
+                  "text": "memicu konflik",
+                  "correct": true
+                },
+                {
+                  "text": "menghapus perbedaan"
+                },
+                {
+                  "text": "menjamin integrasi"
+                },
+                {
+                  "text": "menghentikan sejarah"
+                }
+              ],
+              "explanation": "Ketidakadilan mendorong perlawanan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh integrasi dalam sejarah Indonesia adalah…",
+              "options": [
+                {
+                  "text": "Sumpah Pemuda 1928",
+                  "correct": true
+                },
+                {
+                  "text": "tanam paksa"
+                },
+                {
+                  "text": "perang dagang"
+                },
+                {
+                  "text": "pajak ganda"
+                }
+              ],
+              "explanation": "Sumpah Pemuda menyatukan organisasi pemuda."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah penyebab konflik sosial?",
+              "options": [
+                {
+                  "text": "Kepentingan yang bertentangan",
+                  "correct": true
+                },
+                {
+                  "text": "Ketidakadilan struktur",
+                  "correct": true
+                },
+                {
+                  "text": "Perebutan sumber daya",
+                  "correct": true
+                },
+                {
+                  "text": "Kesepakatan bersama",
+                  "correct": false
+                },
+                {
+                  "text": "Saling pengertian",
+                  "correct": false
+                }
+              ],
+              "explanation": "Konflik lahir dari pertentangan kepentingan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah cara menganalisis fenomena masa kini dengan konsep sejarah?",
+              "options": [
+                {
+                  "text": "Menentukan batas waktu",
+                  "correct": true
+                },
+                {
+                  "text": "Mencari sumber dan bukti",
+                  "correct": true
+                },
+                {
+                  "text": "Menghubungkan sebab dan akibat",
+                  "correct": true
+                },
+                {
+                  "text": "Menebak tanpa data",
+                  "correct": false
+                },
+                {
+                  "text": "Mengikuti kabar bohong",
+                  "correct": false
+                }
+              ],
+              "explanation": "Analisis sejarah menuntut bukti dan batas waktu."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Perubahan",
+                  "right": "keadaan berbeda dari sebelumnya"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kesinambungan",
+                  "right": "unsur yang tetap bertahan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pengulangan",
+                  "right": "pola muncul kembali"
+                },
+                {
+                  "id": "m3",
+                  "left": "Perkembangan",
+                  "right": "perubahan bertahap makin kompleks"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "keadaan berbeda dari sebelumnya",
+                  "m1": "unsur yang tetap bertahan",
+                  "m2": "pola muncul kembali",
+                  "m3": "perubahan bertahap makin kompleks"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan hubungan struktur dan agensi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Struktur membatasi pilihan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Manusia menilai keadaan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Manusia bertindak bersama"
+                },
+                {
+                  "id": "d3",
+                  "text": "Struktur memberi peluang atau hambatan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Hasil berupa perubahan atau kesinambungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Tindakan lahir di tengah batasan struktur."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membaca gejala urbanisasi secara historis.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mencatat keadaan desa dua puluh tahun lalu"
+                },
+                {
+                  "id": "p1",
+                  "text": "Mengumpulkan data perpindahan warga"
+                },
+                {
+                  "id": "p2",
+                  "text": "Mengidentifikasi pendorong ekonomi"
+                },
+                {
+                  "id": "p3",
+                  "text": "Melihat dampak di kota tujuan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menyimpulkan pola perubahan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Gejala dibaca dengan pembandingan waktu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fenomena masa kini yang dapat dianalisis dengan konsep sejarah adalah…",
+              "options": [
+                {
+                  "text": "urbanisasi dan perubahan pola kerja",
+                  "correct": true
+                },
+                {
+                  "text": "ramalan cuaca harian"
+                },
+                {
+                  "text": "harga cabai pekan ini"
+                },
+                {
+                  "text": "jadwal pertandingan"
+                }
+              ],
+              "explanation": "Sejarah menganalisis gejala sosial berjangka panjang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang tepat terhadap teori sosial dalam kajian sejarah adalah…",
+              "options": [
+                {
+                  "text": "memakainya sebagai alat bantu yang diuji dengan bukti",
+                  "correct": true
+                },
+                {
+                  "text": "menganggapnya bukti"
+                },
+                {
+                  "text": "menolak semua teori"
+                },
+                {
+                  "text": "memakai teori tanpa data"
+                }
+              ],
+              "explanation": "Teori tanpa bukti hanyalah dugaan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan tentang teori sosial?",
+              "options": [
+                {
+                  "text": "Membantu menjelaskan",
+                  "correct": true
+                },
+                {
+                  "text": "Bukan pengganti bukti",
+                  "correct": true
+                },
+                {
+                  "text": "Perlu diuji dengan data",
+                  "correct": true
+                },
+                {
+                  "text": "Selalu benar",
+                  "correct": false
+                },
+                {
+                  "text": "Menghapus kebutuhan sumber",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teori adalah alat bantu."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Struktur",
+                  "right": "tatanan yang membatasi tindakan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Agensi",
+                  "right": "kemampuan manusia bertindak"
+                },
+                {
+                  "id": "m2",
+                  "left": "Konflik",
+                  "right": "pertentangan kepentingan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Integrasi",
+                  "right": "penyatuan masyarakat"
+                },
+                {
+                  "id": "m4",
+                  "left": "Perubahan",
+                  "right": "keadaan berbeda dari sebelumnya"
+                },
+                {
+                  "id": "m5",
+                  "left": "Kesinambungan",
+                  "right": "unsur yang tetap bertahan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tatanan yang membatasi tindakan",
+                  "m1": "kemampuan manusia bertindak",
+                  "m2": "pertentangan kepentingan",
+                  "m3": "penyatuan masyarakat",
+                  "m4": "keadaan berbeda dari sebelumnya",
+                  "m5": "unsur yang tetap bertahan"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menjaga analisis tetap berbasis bukti.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menentukan pertanyaan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mengumpulkan sumber"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memilih konsep yang sesuai"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menguji konsep dengan bukti"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menuliskan temuan dan keterbatasan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Konsep dipilih setelah pertanyaan dan sumber jelas."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

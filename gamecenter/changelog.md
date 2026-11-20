@@ -8,7 +8,43 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-20 17:38 WIB (rilis 0.43.0).
+**Terakhir diperbarui:** 2026-11-20 18:12 WIB (rilis 0.44.0).
+
+## [0.44.0] - 2026-11-20 18:12 WIB
+
+**Batch 20 — buku Sejarah SMK Kelas X tuntas 4/4 bab (Pengantar Ilmu Sejarah).**
+
+### Ditambah
+- **SEJ 1 Sejarah: Manusia, Ruang, dan Waktu** — glosarium ilmu sejarah, diagram
+  tiga unsur kajian, tabel diakronik–sinkronik, diagram dua arah berpikir,
+  klasifikasi pernyataan diakronik/sinkronik, kronologi dan periodisasi,
+  anakronisme, skenario “Dua versi cerita tentang berdirinya sekolah”, kartu
+  istilah, dan tantangan.
+- **SEJ 2 Penelitian Sejarah** — glosarium sumber sejarah, diagram alur
+  penelitian, tabel jenis sumber, diagram penyaringan sumber, klasifikasi
+  sumber primer/sekunder, kritik ekstern dan intern, skenario “Bukti yang
+  saling bertentangan”, kartu istilah, dan tantangan.
+- **SEJ 3 Penulisan Sejarah (Historiografi)** — glosarium historiografi, diagram
+  perubahan corak, tabel empat corak (tradisional, kolonial, nasional, modern),
+  diagram munculnya bias, klasifikasi ciri tradisional/kolonial, skenario “Dua
+  versi perlawanan daerah”, kartu istilah, dan tantangan.
+- **SEJ 4 Sejarah dan Teori Sosial** — glosarium teori sosial, diagram empat pola
+  waktu, tabel struktur–agensi–konflik–integrasi, diagram struktur dan agensi,
+  klasifikasi perubahan/kesinambungan, skenario “Pasar lama yang mulai sepi”,
+  kartu istilah, dan tantangan.
+- Keempat bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan lima
+  tipe soal interaktif; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- `tools/sejarah_common.py` menjadi pembungkus penulis bab Sejarah
+  (`subject='sejarah'`, `folder='sejarah'`, level SMA).
+
+### Verifikasi
+- `gamecenter:materi-import` → 98 berkas, **0 gagal**; menambah
+  **4 bab / 12 materi / 12 asesmen / 120 soal**.
+- `gamecenter:materi-coverage` → **99 dari 102 chapter** memenuhi minimum §5.3,
+  **3.270 blok**. SEJ 1–4 masing-masing 26–27 blok, semuanya ✅.
+- `php artisan test` → **156 lulus, 1 dilewati, 1.976 asertion**.
+- Basis data: **102 bab, 304 materi, 3.000 soal, 306 asesmen, 188 mapel**.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.43.0] - 2026-11-20 17:38 WIB
 

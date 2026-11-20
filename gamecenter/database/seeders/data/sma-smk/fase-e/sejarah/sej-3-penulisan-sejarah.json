@@ -1,0 +1,1288 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "sejarah",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "SEJ 3",
+      "title": "Penulisan Sejarah (Historiografi)",
+      "description": "Menulis sejarah berdasarkan fakta yang telah diuji, mengenali corak historiografi tradisional, kolonial, nasional, dan modern, serta menghindari bias dalam bercerita tentang masa lalu.",
+      "learning_objectives": [
+        "Menjelaskan pengertian historiografi dan corak-coraknya di Indonesia.",
+        "Membandingkan historiografi tradisional, kolonial, nasional, dan modern.",
+        "Mengenali bentuk bias dalam penulisan sejarah dan cara menghindarinya.",
+        "Menyusun tulisan sejarah pendek berdasarkan sumber yang telah diverifikasi."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Sejarah-BG-KLS-X.pdf materi Penulisan Sejarah (Historiografi); CP Fase E Mata Pelajaran Sejarah",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Dari fakta menjadi kisah",
+          "duration": 240,
+          "source_reference": "Sejarah-BG-KLS-X.pdf materi Penulisan Sejarah (Historiografi); CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Mengapa penulisan sejarah berubah?\n\nSetelah fakta diuji, sejarawan menuliskan kisahnya. Penulisan sejarah atau historiografi bukan menyalin data, melainkan menyusun fakta menjadi cerita yang masuk akal dan dapat diperiksa.\n\nKarena penulisnya berbeda zaman dan kepentingan, kisah tentang peristiwa yang sama dapat berbeda. Historiografi tradisional memuja raja, historiografi kolonial memuji penjajah, historiografi nasional menempatkan bangsa Indonesia sebagai pelaku utama.\n\nHistoriografi modern berusaha lebih kritis: memakai ilmu bantu seperti arkeologi, sosiologi, dan antropologi, serta menyebut sumber dan keterbatasannya secara terbuka.\n\nKarya historiografi yang baik menyebut sumbernya, sehingga pembaca dapat menilai sendiri dasar ceritanya.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "sej-3-penulisan-sejarah-glosarium",
+              "terms": [
+                {
+                  "term": "Historiografi",
+                  "definition": "Penulisan sejarah; juga berarti kajian atas karya-karya penulisan sejarah."
+                },
+                {
+                  "term": "Historiografi tradisional",
+                  "definition": "Penulisan sejarah bercorak istana dan religius-magis, berpusat pada raja dan dinasti."
+                },
+                {
+                  "term": "Historiografi kolonial",
+                  "definition": "Penulisan sejarah dari sudut pandang penjajah yang menempatkan Belanda sebagai tokoh utama."
+                },
+                {
+                  "term": "Historiografi nasional",
+                  "definition": "Penulisan sejarah berpusat pada bangsa Indonesia sebagai pelaku utama, tumbuh setelah kemerdekaan."
+                },
+                {
+                  "term": "Historiografi modern",
+                  "definition": "Penulisan sejarah yang kritis, memakai ilmu bantu, dan menguji sumber secara terbuka."
+                },
+                {
+                  "term": "Bias sejarah",
+                  "definition": "Kecenderungan berpihak yang membuat kisah sejarah tidak berimbang."
+                },
+                {
+                  "term": "Sudut pandang",
+                  "definition": "Posisi penulis dalam melihat peristiwa, menentukan siapa yang dianggap penting."
+                },
+                {
+                  "term": "Eurocentrisme",
+                  "definition": "Cara pandang yang menempatkan Eropa sebagai pusat dan ukuran segala peristiwa."
+                },
+                {
+                  "term": "Anonim",
+                  "definition": "Tanpa nama penulis, ciri banyak karya historiografi tradisional."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa penulisan sejarah berubah?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah fakta diuji, sejarawan menuliskan kisahnya. Penulisan sejarah atau historiografi bukan menyalin data, melainkan menyusun fakta menjadi cerita yang masuk akal dan dapat diperiksa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Karena penulisnya berbeda zaman dan kepentingan, kisah tentang peristiwa yang sama dapat berbeda. Historiografi tradisional memuja raja, historiografi kolonial memuji penjajah, historiografi nasional menempatkan bangsa Indonesia sebagai pelaku utama."
+            },
+            {
+              "type": "paragraph",
+              "text": "Historiografi modern berusaha lebih kritis: memakai ilmu bantu seperti arkeologi, sosiologi, dan antropologi, serta menyebut sumber dan keterbatasannya secara terbuka."
+            },
+            {
+              "type": "diagram",
+              "id": "sej-3-penulisan-sejarah-diagram",
+              "engine": "mermaid",
+              "title": "Perubahan corak historiografi Indonesia",
+              "code": "flowchart LR\n  A[Historiografi tradisional] --> B[Historiografi kolonial]\n  B --> C[Historiografi nasional]\n  C --> D[Historiografi modern]\n  A --> E[Pusat: raja dan istana]\n  B --> F[Pusat: penjajah]\n  C --> G[Pusat: bangsa Indonesia]\n  D --> H[Pusat: analisis kritis]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Karya historiografi yang baik menyebut sumbernya, sehingga pembaca dapat menilai sendiri dasar ceritanya."
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-3-penulisan-sejarah-cp-1",
+              "question": "Penulisan sejarah disebut juga…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "historiografi",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "heuristik"
+                },
+                {
+                  "id": "c2",
+                  "text": "kritik ekstern"
+                },
+                {
+                  "id": "c3",
+                  "text": "periodisasi"
+                }
+              ],
+              "explanation": "Historiografi adalah penulisan sejarah berdasarkan fakta yang telah diuji."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Empat corak penulisan sejarah",
+          "duration": 300,
+          "source_reference": "Sejarah-BG-KLS-X.pdf materi Penulisan Sejarah (Historiografi); CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Tradisional, kolonial, nasional, modern\n\nHistoriografi tradisional lahir di lingkungan istana. Karya seperti babad dan hikayat bersifat religius-magis, sering tanpa nama penulis, dan berpusat pada raja serta dinasti.\n\nHistoriografi kolonial ditulis oleh pejabat dan sarjana Belanda. Peristiwa dilihat dari kepentingan penjajah, perlawanan rakyat disebut pemberontakan, dan peran bangsa Indonesia disederhanakan.\n\nHistoriografi nasional muncul setelah kemerdekaan. Bangsa Indonesia ditempatkan sebagai pelaku utama, dengan tokoh dan pergerakan rakyat sebagai pusat cerita.\n\nHistoriografi modern menekankan analisis kritis, penggunaan ilmu bantu, serta keterbukaan atas sumber dan sudut pandang penulis.\n\n| Corak | Pusat cerita | Ciri utama | Contoh |\n|---|---|---|---|\n| Tradisional | Raja dan dinasti | Religius-magis, sering anonim | Babad Tanah Jawi, Hikayat Raja-raja Pasai |\n| Kolonial | Penjajah Belanda | Sudut pandang penjajah | Karya sejarah Hindia-Belanda |\n| Nasional | Bangsa Indonesia | Peran rakyat dan pergerakan | Sejarah nasional Indonesia |\n| Modern | Analisis kritis | Ilmu bantu dan sumber terbuka | Kajian sejarah tematik |\n\n### Menghindari bias sejarah\n\n- Bias dapat muncul dari pemilihan sumber yang berat sebelah, sudut pandang yang sempit, atau kesimpulan yang didahulukan sebelum bukti.\n- Cara menghindarinya: membaca lebih dari satu sudut pandang, termasuk sumber dari pihak yang berseberangan.\n- Hindari bahasa yang menilai berlebihan seperti “pahlawan tanpa cela” atau “pengkhianat mutlak” tanpa bukti.\n- Sebutkan siapa penulis, kapan ditulis, dan untuk siapa, agar pembaca memahami posisi karya itu.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tradisional, kolonial, nasional, modern"
+            },
+            {
+              "type": "paragraph",
+              "text": "Historiografi tradisional lahir di lingkungan istana. Karya seperti babad dan hikayat bersifat religius-magis, sering tanpa nama penulis, dan berpusat pada raja serta dinasti."
+            },
+            {
+              "type": "paragraph",
+              "text": "Historiografi kolonial ditulis oleh pejabat dan sarjana Belanda. Peristiwa dilihat dari kepentingan penjajah, perlawanan rakyat disebut pemberontakan, dan peran bangsa Indonesia disederhanakan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Historiografi nasional muncul setelah kemerdekaan. Bangsa Indonesia ditempatkan sebagai pelaku utama, dengan tokoh dan pergerakan rakyat sebagai pusat cerita."
+            },
+            {
+              "type": "paragraph",
+              "text": "Historiografi modern menekankan analisis kritis, penggunaan ilmu bantu, serta keterbukaan atas sumber dan sudut pandang penulis."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Corak",
+                  "Pusat cerita",
+                  "Ciri utama",
+                  "Contoh"
+                ],
+                [
+                  "Tradisional",
+                  "Raja dan dinasti",
+                  "Religius-magis, sering anonim",
+                  "Babad Tanah Jawi, Hikayat Raja-raja Pasai"
+                ],
+                [
+                  "Kolonial",
+                  "Penjajah Belanda",
+                  "Sudut pandang penjajah",
+                  "Karya sejarah Hindia-Belanda"
+                ],
+                [
+                  "Nasional",
+                  "Bangsa Indonesia",
+                  "Peran rakyat dan pergerakan",
+                  "Sejarah nasional Indonesia"
+                ],
+                [
+                  "Modern",
+                  "Analisis kritis",
+                  "Ilmu bantu dan sumber terbuka",
+                  "Kajian sejarah tematik"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "sej-3-bias",
+              "engine": "mermaid",
+              "title": "Alur munculnya bias dalam penulisan sejarah",
+              "code": "flowchart TB\n  A[Peristiwa] --> B[Pemilihan sumber]\n  B --> C[Pemilihan sudut pandang]\n  C --> D[Penafsiran]\n  D --> E{Berimbang?}\n  E -- Tidak --> F[Bias sejarah]\n  E -- Ya --> G[Kisah yang dapat diuji]\n  F --> H[Sumber diperiksa ulang]\n  H --> C"
+            },
+            {
+              "type": "categorize",
+              "id": "sej-3-klasifikasi",
+              "prompt": "Kelompokkan ciri berikut ke dalam historiografi tradisional atau historiografi kolonial.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Tradisional"
+                },
+                {
+                  "id": "b2",
+                  "label": "Kolonial"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Berpusat pada raja dan dinasti",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Perlawanan rakyat disebut pemberontakan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Bernuansa religius dan magis",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Ditulis pejabat dan sarjana Belanda",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Sering tanpa nama penulis",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Menempatkan Belanda sebagai tokoh utama",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Berbentuk babad dan hikayat",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Menilai peristiwa dari kepentingan penjajah",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Tradisional berpusat pada istana, kolonial berpusat pada penjajah.",
+                "wrong": "Periksa lagi: kata “babad” dan “raja” menandai tradisional, “Belanda” menandai kolonial."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Menghindari bias sejarah"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bias dapat muncul dari pemilihan sumber yang berat sebelah, sudut pandang yang sempit, atau kesimpulan yang didahulukan sebelum bukti.",
+                "Cara menghindarinya: membaca lebih dari satu sudut pandang, termasuk sumber dari pihak yang berseberangan.",
+                "Hindari bahasa yang menilai berlebihan seperti “pahlawan tanpa cela” atau “pengkhianat mutlak” tanpa bukti.",
+                "Sebutkan siapa penulis, kapan ditulis, dan untuk siapa, agar pembaca memahami posisi karya itu."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-3-penulisan-sejarah-cp-2",
+              "question": "Historiografi yang menempatkan bangsa Indonesia sebagai pelaku utama disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "nasional",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "kolonial"
+                },
+                {
+                  "id": "c2",
+                  "text": "tradisional"
+                },
+                {
+                  "id": "c3",
+                  "text": "modern"
+                }
+              ],
+              "explanation": "Historiografi nasional lahir setelah kemerdekaan dan berpusat pada bangsa Indonesia."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Sejarah-BG-KLS-X.pdf materi Penulisan Sejarah (Historiografi); CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Menulis kisah pendek yang jujur\n\nMulailah dari satu peristiwa kecil di lingkunganmu, misalnya berdirinya koperasi sekolah atau perubahan nama jalan. Tetapkan batas waktu, tempat, dan tokoh yang dibicarakan.\n\nSusun kerangka: pendahuluan berisi latar, bagian isi berisi urutan peristiwa dengan sumbernya, lalu penutup berisi makna dan keterbatasan kajian.\n\nPeriksa kembali tulisannya: apakah ada sumber yang disebut, apakah ada pihak yang dilupakan, dan apakah ada kalimat yang menilai tanpa bukti.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menulis kisah pendek yang jujur"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mulailah dari satu peristiwa kecil di lingkunganmu, misalnya berdirinya koperasi sekolah atau perubahan nama jalan. Tetapkan batas waktu, tempat, dan tokoh yang dibicarakan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Susun kerangka: pendahuluan berisi latar, bagian isi berisi urutan peristiwa dengan sumbernya, lalu penutup berisi makna dan keterbatasan kajian."
+            },
+            {
+              "type": "paragraph",
+              "text": "Periksa kembali tulisannya: apakah ada sumber yang disebut, apakah ada pihak yang dilupakan, dan apakah ada kalimat yang menilai tanpa bukti."
+            },
+            {
+              "type": "scenario",
+              "id": "sej-3-skenario",
+              "title": "Dua versi perlawanan daerah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Laporan Belanda menyebut peristiwa itu “pemberontakan”, sedangkan catatan warga menyebutnya “perlawanan”. Bagaimana menulisnya?",
+                  "choices": [
+                    {
+                      "text": "Menjelaskan kedua istilah beserta sumber dan kepentingannya",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Perbedaan istilah menunjukkan perbedaan sudut pandang dan kepentingan."
+                    },
+                    {
+                      "text": "Memakai istilah Belanda karena sumbernya resmi",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Sumber resmi pun memiliki kepentingan; bukan otomatis paling benar."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bagaimana menutup tulisanmu agar tidak bias?",
+                  "choices": [
+                    {
+                      "text": "Menyebut bahwa penilaian bergantung sudut pandang dan sumber masih terbatas",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Mengakui keterbatasan adalah tanda tulisan sejarah yang jujur."
+                    },
+                    {
+                      "text": "Menyimpulkan satu pihak sepenuhnya bersalah",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Kesimpulan sepihak tanpa pembanding termasuk bias."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Tulisanmu dinilai berat sebelah dan tidak dapat dipertanggungjawabkan.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Tulisanmu berimbang dan dapat dinilai pembaca sendiri.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "sej-3-penulisan-sejarah-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu historiografi?",
+                  "back": "Penulisan sejarah berdasarkan fakta yang telah diuji."
+                },
+                {
+                  "front": "Apa ciri historiografi tradisional?",
+                  "back": "Berpusat pada raja, religius-magis, sering anonim."
+                },
+                {
+                  "front": "Apa ciri historiografi kolonial?",
+                  "back": "Sudut pandang penjajah, Belanda sebagai tokoh utama."
+                },
+                {
+                  "front": "Bagaimana menghindari bias?",
+                  "back": "Membaca banyak sudut pandang dan menyebut sumber serta keterbatasan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-3-penulisan-sejarah-cp-3",
+              "question": "Cara paling tepat menghindari bias sejarah adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "membandingkan sumber dari beberapa sudut pandang",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "memilih sumber yang paling tebal"
+                },
+                {
+                  "id": "c2",
+                  "text": "menulis tanpa menyebut sumber"
+                },
+                {
+                  "id": "c3",
+                  "text": "mengikuti satu penulis favorit"
+                }
+              ],
+              "explanation": "Perbandingan sudut pandang menjaga tulisan tetap berimbang."
+            },
+            {
+              "type": "challenge",
+              "id": "sej-3-tantangan",
+              "title": "Tantangan istilah historiografi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Penulisan sejarah",
+                  "answer": "Historiografi"
+                },
+                {
+                  "question": "Berpusat pada raja dan istana",
+                  "answer": "Historiografi tradisional"
+                },
+                {
+                  "question": "Sudut pandang penjajah",
+                  "answer": "Historiografi kolonial"
+                },
+                {
+                  "question": "Eropa sebagai pusat",
+                  "answer": "Eurocentrisme"
+                },
+                {
+                  "question": "Kecenderungan berpihak",
+                  "answer": "Bias sejarah"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah historiografi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Penulisan Sejarah (Historiografi) — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Penulisan sejarah disebut…",
+              "options": [
+                {
+                  "text": "historiografi",
+                  "correct": true
+                },
+                {
+                  "text": "heuristik"
+                },
+                {
+                  "text": "periodisasi"
+                },
+                {
+                  "text": "kritik intern"
+                }
+              ],
+              "explanation": "Historiografi adalah tahap menuliskan kisah sejarah.",
+              "hint": "Juga berarti kajian atas karya sejarah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Historiografi yang berpusat pada raja dan bersifat religius-magis adalah…",
+              "options": [
+                {
+                  "text": "tradisional",
+                  "correct": true
+                },
+                {
+                  "text": "kolonial"
+                },
+                {
+                  "text": "nasional"
+                },
+                {
+                  "text": "modern"
+                }
+              ],
+              "explanation": "Karya tradisional lahir di lingkungan istana.",
+              "hint": "Sering berbentuk babad dan hikayat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu contoh historiografi tradisional adalah…",
+              "options": [
+                {
+                  "text": "Babad Tanah Jawi",
+                  "correct": true
+                },
+                {
+                  "text": "buku teks sejarah"
+                },
+                {
+                  "text": "artikel jurnal"
+                },
+                {
+                  "text": "laporan penelitian"
+                }
+              ],
+              "explanation": "Babad termasuk karya tradisional.",
+              "hint": "Bercorak istana."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah corak historiografi Indonesia?",
+              "options": [
+                {
+                  "text": "Tradisional",
+                  "correct": true
+                },
+                {
+                  "text": "Kolonial",
+                  "correct": true
+                },
+                {
+                  "text": "Nasional",
+                  "correct": true
+                },
+                {
+                  "text": "Fiktif",
+                  "correct": false
+                },
+                {
+                  "text": "Mistis modern",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tiga corak itu ditambah historiografi modern.",
+              "hint": "Fiktif bukan corak historiografi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri historiografi tradisional?",
+              "options": [
+                {
+                  "text": "Berpusat pada raja",
+                  "correct": true
+                },
+                {
+                  "text": "Bersifat religius-magis",
+                  "correct": true
+                },
+                {
+                  "text": "Sering anonim",
+                  "correct": true
+                },
+                {
+                  "text": "Memakai catatan kaki lengkap",
+                  "correct": false
+                },
+                {
+                  "text": "Menolak unsur kepercayaan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ciri itu melekat pada karya istana.",
+              "hint": "Sebaliknya, karya modern memakai catatan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Penulisan Sejarah (Historiografi) — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ciri historiografi tradisional yang mencolok adalah…",
+              "options": [
+                {
+                  "text": "sering tanpa nama penulis",
+                  "correct": true
+                },
+                {
+                  "text": "selalu memakai catatan kaki"
+                },
+                {
+                  "text": "memakai ilmu bantu modern"
+                },
+                {
+                  "text": "menyebut semua sumber"
+                }
+              ],
+              "explanation": "Banyak karya tradisional bersifat anonim.",
+              "hint": "Penulis tidak selalu tercatat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Historiografi kolonial ditulis terutama oleh…",
+              "options": [
+                {
+                  "text": "pejabat dan sarjana Belanda",
+                  "correct": true
+                },
+                {
+                  "text": "warga kampung"
+                },
+                {
+                  "text": "pelajar Indonesia"
+                },
+                {
+                  "text": "pedagang Arab"
+                }
+              ],
+              "explanation": "Karya kolonial lahir dari kepentingan penjajah.",
+              "hint": "Sudut pandangnya berpihak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri historiografi kolonial?",
+              "options": [
+                {
+                  "text": "Sudut pandang penjajah",
+                  "correct": true
+                },
+                {
+                  "text": "Belanda sebagai tokoh utama",
+                  "correct": true
+                },
+                {
+                  "text": "Perlawanan disebut pemberontakan",
+                  "correct": true
+                },
+                {
+                  "text": "Bangsa Indonesia sebagai pusat",
+                  "correct": false
+                },
+                {
+                  "text": "Memakai sumber lisan warga",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kolonial menilai dari kepentingan penjajah.",
+              "hint": "Nasional yang berpusat pada Indonesia."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri historiografi modern?",
+              "options": [
+                {
+                  "text": "Kritis terhadap sumber",
+                  "correct": true
+                },
+                {
+                  "text": "Memakai ilmu bantu",
+                  "correct": true
+                },
+                {
+                  "text": "Menyebut keterbatasan",
+                  "correct": true
+                },
+                {
+                  "text": "Selalu anonim",
+                  "correct": false
+                },
+                {
+                  "text": "Menolak pembandingan sumber",
+                  "correct": false
+                }
+              ],
+              "explanation": "Modern terbuka dan analitis.",
+              "hint": "Anonim ciri tradisional."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Historiografi",
+                  "right": "penulisan sejarah"
+                },
+                {
+                  "id": "m1",
+                  "left": "Historiografi tradisional",
+                  "right": "berpusat pada raja"
+                },
+                {
+                  "id": "m2",
+                  "left": "Historiografi kolonial",
+                  "right": "sudut pandang penjajah"
+                },
+                {
+                  "id": "m3",
+                  "left": "Historiografi nasional",
+                  "right": "bangsa Indonesia sebagai pusat"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "penulisan sejarah",
+                  "m1": "berpusat pada raja",
+                  "m2": "sudut pandang penjajah",
+                  "m3": "bangsa Indonesia sebagai pusat"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menulis kisah sejarah.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menetapkan topik dan batas waktu"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menyusun kerangka"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memilih fakta yang relevan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menulis draf dengan menyebut sumber"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menyunting dan memeriksa bias"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Penulisan bergerak dari kerangka ke penyuntingan.",
+              "hint": "Pemeriksaan bias menjadi langkah akhir."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan perkembangan historiografi Indonesia.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Historiografi tradisional"
+                },
+                {
+                  "id": "p1",
+                  "text": "Historiografi kolonial"
+                },
+                {
+                  "id": "p2",
+                  "text": "Historiografi nasional"
+                },
+                {
+                  "id": "p3",
+                  "text": "Historiografi modern"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Corak berubah mengikuti zaman dan kekuasaan.",
+              "hint": "Modern menekankan kritik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dalam historiografi kolonial, perlawanan rakyat sering disebut…",
+              "options": [
+                {
+                  "text": "pemberontakan",
+                  "correct": true
+                },
+                {
+                  "text": "revolusi"
+                },
+                {
+                  "text": "demonstrasi"
+                },
+                {
+                  "text": "musyawarah"
+                }
+              ],
+              "explanation": "Istilah itu menunjukkan sudut pandang penjajah.",
+              "hint": "Pilihan kata memuat penilaian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Historiografi nasional menempatkan pusat cerita pada…",
+              "options": [
+                {
+                  "text": "bangsa Indonesia",
+                  "correct": true
+                },
+                {
+                  "text": "penjajah Belanda"
+                },
+                {
+                  "text": "raja-raja Jawa"
+                },
+                {
+                  "text": "bangsa Eropa"
+                }
+              ],
+              "explanation": "Historiografi nasional tumbuh setelah kemerdekaan.",
+              "hint": "Rakyat dan pergerakan jadi pusat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bentuk bias dalam penulisan sejarah?",
+              "options": [
+                {
+                  "text": "Memilih satu sumber saja",
+                  "correct": true
+                },
+                {
+                  "text": "Menghilangkan peran satu pihak",
+                  "correct": true
+                },
+                {
+                  "text": "Menilai tanpa bukti",
+                  "correct": true
+                },
+                {
+                  "text": "Menyebut sumber",
+                  "correct": false
+                },
+                {
+                  "text": "Membandingkan sumber",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bias muncul dari ketidakseimbangan.",
+              "hint": "Menyebut sumber justru menghindari bias."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Penulisan Sejarah (Historiografi) — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ciri historiografi modern adalah…",
+              "options": [
+                {
+                  "text": "kritis dan memakai ilmu bantu",
+                  "correct": true
+                },
+                {
+                  "text": "selalu anonim"
+                },
+                {
+                  "text": "hanya memuji raja"
+                },
+                {
+                  "text": "menolak sumber"
+                }
+              ],
+              "explanation": "Modern menekankan analisis dan keterbukaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara pandang yang menempatkan Eropa sebagai pusat disebut…",
+              "options": [
+                {
+                  "text": "eurocentrisme",
+                  "correct": true
+                },
+                {
+                  "text": "nasionalisme"
+                },
+                {
+                  "text": "sinkronisme"
+                },
+                {
+                  "text": "anakronisme"
+                }
+              ],
+              "explanation": "Eurocentrisme membuat sejarah daerah terpinggirkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kecenderungan berpihak dalam penulisan sejarah disebut…",
+              "options": [
+                {
+                  "text": "bias sejarah",
+                  "correct": true
+                },
+                {
+                  "text": "kronologi"
+                },
+                {
+                  "text": "kausalitas"
+                },
+                {
+                  "text": "periodisasi"
+                }
+              ],
+              "explanation": "Bias membuat kisah tidak berimbang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu cara menghindari bias adalah…",
+              "options": [
+                {
+                  "text": "membandingkan sumber dari pihak yang berseberangan",
+                  "correct": true
+                },
+                {
+                  "text": "memakai satu sumber resmi saja"
+                },
+                {
+                  "text": "menghapus keterangan yang berbeda"
+                },
+                {
+                  "text": "menulis tanpa sumber"
+                }
+              ],
+              "explanation": "Perbandingan menjaga keseimbangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahasa yang perlu dihindari dalam tulisan sejarah adalah…",
+              "options": [
+                {
+                  "text": "penilaian berlebihan tanpa bukti",
+                  "correct": true
+                },
+                {
+                  "text": "penyebutan sumber"
+                },
+                {
+                  "text": "penjelasan latar"
+                },
+                {
+                  "text": "pengakuan keterbatasan"
+                }
+              ],
+              "explanation": "Penilaian tanpa bukti melemahkan tulisan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah cara menjaga tulisan tetap berimbang?",
+              "options": [
+                {
+                  "text": "Membaca sumber dari dua pihak",
+                  "correct": true
+                },
+                {
+                  "text": "Menyebut sumber",
+                  "correct": true
+                },
+                {
+                  "text": "Mengakui keterbatasan",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus keterangan yang berbeda",
+                  "correct": false
+                },
+                {
+                  "text": "Memakai kata menghina",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keseimbangan dibangun dengan keterbukaan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh karya sejarah yang dapat diuji?",
+              "options": [
+                {
+                  "text": "Artikel dengan catatan kaki",
+                  "correct": true
+                },
+                {
+                  "text": "Laporan penelitian dengan daftar sumber",
+                  "correct": true
+                },
+                {
+                  "text": "Buku dengan penjelasan metode",
+                  "correct": true
+                },
+                {
+                  "text": "Cerita tanpa sumber",
+                  "correct": false
+                },
+                {
+                  "text": "Kisah dari mulut ke mulut tanpa pencatatan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Karya dapat diuji bila sumbernya jelas."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Historiografi modern",
+                  "right": "analisis kritis"
+                },
+                {
+                  "id": "m1",
+                  "left": "Bias sejarah",
+                  "right": "kecenderungan berpihak"
+                },
+                {
+                  "id": "m2",
+                  "left": "Eurocentrisme",
+                  "right": "Eropa sebagai pusat"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sudut pandang",
+                  "right": "posisi penulis melihat peristiwa"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "analisis kritis",
+                  "m1": "kecenderungan berpihak",
+                  "m2": "Eropa sebagai pusat",
+                  "m3": "posisi penulis melihat peristiwa"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah memeriksa bias tulisan sendiri.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Memeriksa daftar sumber"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memeriksa pihak yang dilupakan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memeriksa pilihan kata"
+                },
+                {
+                  "id": "d3",
+                  "text": "Memeriksa kesimpulan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memperbaiki tulisan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pemeriksaan berjalan dari sumber ke kesimpulan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan bagian tulisan sejarah pendek.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Pendahuluan dan latar"
+                },
+                {
+                  "id": "p1",
+                  "text": "Urutan peristiwa dengan sumber"
+                },
+                {
+                  "id": "p2",
+                  "text": "Analisis sebab dan akibat"
+                },
+                {
+                  "id": "p3",
+                  "text": "Makna bagi masa kini"
+                },
+                {
+                  "id": "p4",
+                  "text": "Keterbatasan kajian"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Tulisan bergerak dari latar ke keterbatasan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Karya sejarah yang baik seharusnya menyebutkan…",
+              "options": [
+                {
+                  "text": "sumber, penulis, dan keterbatasan",
+                  "correct": true
+                },
+                {
+                  "text": "hanya kesimpulan"
+                },
+                {
+                  "text": "hanya gambar"
+                },
+                {
+                  "text": "hanya tokoh favorit"
+                }
+              ],
+              "explanation": "Keterbukaan membuat karya dapat diuji."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan kisah atas peristiwa yang sama dapat terjadi karena…",
+              "options": [
+                {
+                  "text": "perbedaan zaman, sumber, dan kepentingan penulis",
+                  "correct": true
+                },
+                {
+                  "text": "peristiwa berubah sendiri"
+                },
+                {
+                  "text": "sejarah tidak punya bukti"
+                },
+                {
+                  "text": "semua penulis sama"
+                }
+              ],
+              "explanation": "Posisi penulis memengaruhi kisah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan tentang sudut pandang?",
+              "options": [
+                {
+                  "text": "Menentukan siapa yang dianggap penting",
+                  "correct": true
+                },
+                {
+                  "text": "Memengaruhi pilihan kata",
+                  "correct": true
+                },
+                {
+                  "text": "Perlu dijelaskan kepada pembaca",
+                  "correct": true
+                },
+                {
+                  "text": "Selalu sama pada setiap penulis",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak perlu disebut",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sudut pandang membentuk kisah."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Historiografi",
+                  "right": "penulisan sejarah"
+                },
+                {
+                  "id": "m1",
+                  "left": "Historiografi tradisional",
+                  "right": "berpusat pada raja"
+                },
+                {
+                  "id": "m2",
+                  "left": "Historiografi kolonial",
+                  "right": "sudut pandang penjajah"
+                },
+                {
+                  "id": "m3",
+                  "left": "Historiografi nasional",
+                  "right": "bangsa Indonesia sebagai pusat"
+                },
+                {
+                  "id": "m4",
+                  "left": "Historiografi modern",
+                  "right": "analisis kritis"
+                },
+                {
+                  "id": "m5",
+                  "left": "Bias sejarah",
+                  "right": "kecenderungan berpihak"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "penulisan sejarah",
+                  "m1": "berpusat pada raja",
+                  "m2": "sudut pandang penjajah",
+                  "m3": "bangsa Indonesia sebagai pusat",
+                  "m4": "analisis kritis",
+                  "m5": "kecenderungan berpihak"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan penyaringan karya sejarah yang layak dirujuk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Memeriksa penulisnya"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memeriksa tahun terbit"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memeriksa sumber yang dipakai"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membandingkan dengan karya lain"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memutuskan kelayakan rujukan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kelayakan rujukan diperiksa berlapis."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

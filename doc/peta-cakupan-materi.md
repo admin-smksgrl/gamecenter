@@ -1,6 +1,6 @@
 # Peta Cakupan Materi — Semua Buku Ajar SMA/SMK
 
-**Diperbarui:** 20 November 2026 (rilis 0.43.0)
+**Diperbarui:** 20 November 2026 (rilis 0.44.0)
 **Prinsip:** **satu buku = seluruh bab**, tidak ada buku yang diambil sebagian.
 Setiap bab = 3+ materi + 30 soal (5 mudah / 10 sedang / 15 sulit).
 
@@ -19,7 +19,7 @@ Status hanya boleh ditandai ✅ bila **seluruh** bab dalam buku itu sudah diimpo
 | Buku yang daftar isinya belum terbaca otomatis | 23 |
 
 Perkiraan bila seluruh 253 bab dikerjakan: **253 chapter / 7.590 soal**.
-Saat ini **94 chapter / 2.820 soal** selesai (37 %).
+Saat ini **98 chapter / 2.940 soal** selesai (39 %).
 
 ---
 
@@ -37,7 +37,7 @@ Saat ini **94 chapter / 2.820 soal** selesai (37 %).
 | IPS (Sejarah/Geografi/Sosiologi/Ekonomi) | `IPS_BG_KLS_X_Rev.pdf` + 4 modul ajar IPS | 4 | 4 | ✅ tuntas |
 | PJOK | `PJOK-BG-KLS-X.pdf` | 8 | 8 | ✅ SELESAI |
 | Prakarya (4 aspek) | `Prakarya-*-BG-KLS-X.pdf` | 14 unit | 14 | ✅ SELESAI (Kerajinan 3/3, Rekayasa 4/4, Budi Daya 3/3, Pengolahan 4/4) |
-| Sejarah | `Sejarah-BG-KLS-X.pdf` | ? | 0 | ⬜ daftar isi perlu dipetakan |
+| Sejarah | `Sejarah-BG-KLS-X.pdf` | 4 | 4 | ✅ SELESAI (Pengantar Ilmu Sejarah) |
 | Kepercayaan | `Kepercayaan-BS-KLS-X.pdf` | 8 | 8 | ✅ SELESAI |
 | Projek IPAS | `Projek-IPAS-BS-KLS-X.pdf` | 6 | 6 | ✅ SELESAI (level SMK) |
 | SMK: Agriteknologi | `Agriteknologi-…-Sem-1.pdf` | 6 | 0 | ⬜ belum |

@@ -1,0 +1,1284 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "sejarah",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "SEJ 2",
+      "title": "Penelitian Sejarah",
+      "description": "Menelusuri jejak masa lalu melalui sumber primer dan sekunder, menilai keaslian dan kredibilitasnya, lalu menyusun langkah penelitian sejarah berbasis lingkungan terdekat.",
+      "learning_objectives": [
+        "Membedakan sumber sejarah primer dan sekunder beserta contohnya.",
+        "Menjelaskan kritik ekstern dan intern dalam menilai sumber sejarah.",
+        "Menyusun langkah-langkah penelitian sejarah dari pemilihan topik hingga penulisan.",
+        "Melakukan penelitian sejarah sederhana berbasis lingkungan terdekat."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Sejarah-BG-KLS-X.pdf materi Penelitian Sejarah dan Proyek Penelitian Sejarah; CP Fase E Mata Pelajaran Sejarah",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Jejak masa lalu",
+          "duration": 240,
+          "source_reference": "Sejarah-BG-KLS-X.pdf materi Penelitian Sejarah dan Proyek Penelitian Sejarah; CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Dari mana sejarah mengetahui masa lalu?\n\nSejarah tidak lahir dari ingatan tanpa bukti. Sejarawan bekerja dengan sumber: arsip, surat, foto, bangunan, benda, peta, koran sezaman, dan kesaksian orang yang mengalami peristiwa.\n\nSumber primer dihasilkan pada masa peristiwa terjadi atau oleh pelakunya. Sumber sekunder ditulis belakangan oleh orang yang tidak mengalami langsung, misalnya buku dan artikel sejarah.\n\nSemakin banyak sumber yang saling menguatkan, semakin kuat kesimpulan sejarah. Sebaliknya, satu sumber tunggal tanpa pembanding harus dinyatakan sebagai dugaan, bukan fakta final.\n\nTanpa verifikasi, cerita masa lalu hanya menjadi dongeng yang menarik tetapi tidak dapat dipertanggungjawabkan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "sej-2-penelitian-sejarah-glosarium",
+              "terms": [
+                {
+                  "term": "Sumber primer",
+                  "definition": "Sumber yang dihasilkan pada masa peristiwa terjadi atau oleh pelaku langsung, misalnya arsip, foto sezaman, dan kesaksian pelaku."
+                },
+                {
+                  "term": "Sumber sekunder",
+                  "definition": "Sumber yang ditulis belakangan berdasarkan sumber primer, misalnya buku teks dan artikel sejarah."
+                },
+                {
+                  "term": "Kritik ekstern",
+                  "definition": "Penilaian keaslian sumber: bahan, gaya, waktu pembuatan, dan asal dokumen."
+                },
+                {
+                  "term": "Kritik intern",
+                  "definition": "Penilaian kredibilitas isi sumber: kesesuaian isi dengan bukti lain dan kepentingan penulisnya."
+                },
+                {
+                  "term": "Heuristik",
+                  "definition": "Tahap mencari dan mengumpulkan sumber sejarah."
+                },
+                {
+                  "term": "Verifikasi",
+                  "definition": "Tahap menguji kebenaran sumber setelah pengumpulan."
+                },
+                {
+                  "term": "Interpretasi",
+                  "definition": "Tahap menafsirkan data dan menghubungkan fakta menjadi peristiwa bermakna."
+                },
+                {
+                  "term": "Historiografi",
+                  "definition": "Tahap penulisan kisah sejarah berdasarkan fakta yang telah diuji."
+                },
+                {
+                  "term": "Sejarah lisan",
+                  "definition": "Kesaksian yang diperoleh melalui wawancara dengan pelaku atau saksi peristiwa."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari mana sejarah mengetahui masa lalu?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sejarah tidak lahir dari ingatan tanpa bukti. Sejarawan bekerja dengan sumber: arsip, surat, foto, bangunan, benda, peta, koran sezaman, dan kesaksian orang yang mengalami peristiwa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sumber primer dihasilkan pada masa peristiwa terjadi atau oleh pelakunya. Sumber sekunder ditulis belakangan oleh orang yang tidak mengalami langsung, misalnya buku dan artikel sejarah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Semakin banyak sumber yang saling menguatkan, semakin kuat kesimpulan sejarah. Sebaliknya, satu sumber tunggal tanpa pembanding harus dinyatakan sebagai dugaan, bukan fakta final."
+            },
+            {
+              "type": "diagram",
+              "id": "sej-2-penelitian-sejarah-diagram",
+              "engine": "mermaid",
+              "title": "Alur penelitian sejarah",
+              "code": "flowchart LR\n  A[Pemilihan topik] --> B[Heuristik: mencari sumber]\n  B --> C[Verifikasi: kritik ekstern dan intern]\n  C --> D[Interpretasi: menafsirkan fakta]\n  D --> E[Historiografi: menulis kisah]\n  E --> F[Karya sejarah yang dapat diuji]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Tanpa verifikasi, cerita masa lalu hanya menjadi dongeng yang menarik tetapi tidak dapat dipertanggungjawabkan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-2-penelitian-sejarah-cp-1",
+              "question": "Foto yang diambil pada saat peristiwa berlangsung termasuk sumber…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "primer",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "sekunder"
+                },
+                {
+                  "id": "c2",
+                  "text": "tersier"
+                },
+                {
+                  "id": "c3",
+                  "text": "fiktif"
+                }
+              ],
+              "explanation": "Sumber primer dibuat pada masa peristiwa atau oleh pelakunya langsung."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Menilai sumber",
+          "duration": 300,
+          "source_reference": "Sejarah-BG-KLS-X.pdf materi Penelitian Sejarah dan Proyek Penelitian Sejarah; CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Kritik ekstern dan kritik intern\n\nKritik ekstern memeriksa keaslian sumber: bahan kertas, jenis tinta, ejaan, cap, dan riwayat penyimpanan. Dokumen yang ejaannya tidak sesuai zaman patut dicurigai sebagai tiruan.\n\nKritik intern memeriksa isi: apakah keterangan sumber masuk akal, sesuai dengan sumber lain, dan apakah penulisnya punya kepentingan tertentu. Kesaksian yang menguntungkan diri sendiri perlu ditimbang hati-hati.\n\nSetelah lolos kedua kritik, data ditafsirkan. Interpretasi bukan mengarang; ia menyusun fakta menjadi penjelasan yang logis tentang apa yang terjadi, mengapa, dan apa akibatnya.\n\n| Jenis sumber | Contoh | Kegunaan |\n|---|---|---|\n| Sumber primer tertulis | Arsip, surat, akta, koran sezaman | Bukti langsung peristiwa |\n| Sumber primer lisan | Wawancara pelaku atau saksi | Keterangan pengalaman langsung |\n| Sumber primer benda | Bangunan, alat, foto | Bukti fisik dan visual |\n| Sumber sekunder | Buku, artikel, ensiklopedia | Penjelasan dan konteks |\n\n### Prinsip kerja penelitian sejarah\n\n- Topik harus terbatas dan terjangkau agar sumbernya dapat ditemukan di lingkungan terdekat.\n- Sumber perlu dicatat lengkap: siapa pembuatnya, kapan, di mana, dan dalam keadaan apa.\n- Satu fakta sebaiknya dibuktikan lebih dari satu sumber agar tidak bergantung pada satu kesaksian.\n- Laporan penelitian harus terbuka: menyebut sumber, menyadari keterbatasan, dan menghindari kesimpulan berlebihan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kritik ekstern dan kritik intern"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kritik ekstern memeriksa keaslian sumber: bahan kertas, jenis tinta, ejaan, cap, dan riwayat penyimpanan. Dokumen yang ejaannya tidak sesuai zaman patut dicurigai sebagai tiruan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kritik intern memeriksa isi: apakah keterangan sumber masuk akal, sesuai dengan sumber lain, dan apakah penulisnya punya kepentingan tertentu. Kesaksian yang menguntungkan diri sendiri perlu ditimbang hati-hati."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah lolos kedua kritik, data ditafsirkan. Interpretasi bukan mengarang; ia menyusun fakta menjadi penjelasan yang logis tentang apa yang terjadi, mengapa, dan apa akibatnya."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis sumber",
+                  "Contoh",
+                  "Kegunaan"
+                ],
+                [
+                  "Sumber primer tertulis",
+                  "Arsip, surat, akta, koran sezaman",
+                  "Bukti langsung peristiwa"
+                ],
+                [
+                  "Sumber primer lisan",
+                  "Wawancara pelaku atau saksi",
+                  "Keterangan pengalaman langsung"
+                ],
+                [
+                  "Sumber primer benda",
+                  "Bangunan, alat, foto",
+                  "Bukti fisik dan visual"
+                ],
+                [
+                  "Sumber sekunder",
+                  "Buku, artikel, ensiklopedia",
+                  "Penjelasan dan konteks"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "sej-2-kritik-sumber",
+              "engine": "mermaid",
+              "title": "Penyaringan sumber sebelum menjadi fakta",
+              "code": "flowchart TB\n  A[Sumber ditemukan] --> B{Asli?}\n  B -- Tidak --> Z[Ditolak atau dipakai hati-hati]\n  B -- Ya --> C{Kredibel?}\n  C -- Tidak --> Z\n  C -- Ya --> D[Fakta sejarah]\n  D --> E[Interpretasi]\n  E --> F[Kisah sejarah tertulis]"
+            },
+            {
+              "type": "categorize",
+              "id": "sej-2-klasifikasi",
+              "prompt": "Kelompokkan sumber berikut sebagai sumber primer atau sekunder.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Sumber primer"
+                },
+                {
+                  "id": "b2",
+                  "label": "Sumber sekunder"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Akta kelahiran tahun 1950",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Buku teks sejarah kelas X",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Wawancara dengan pelaku peristiwa",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Artikel majalah sejarah terbitan 2020",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Foto upacara kemerdekaan tahun 1950",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Ensiklopedia sejarah Indonesia",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Surat pribadi seorang pejuang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Ringkasan materi di situs pembelajaran",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Primer lahir pada masa peristiwa, sekunder ditulis belakangan.",
+                "wrong": "Periksa lagi: yang dibuat setelah peristiwa dan berdasarkan sumber lain termasuk sekunder."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Prinsip kerja penelitian sejarah"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Topik harus terbatas dan terjangkau agar sumbernya dapat ditemukan di lingkungan terdekat.",
+                "Sumber perlu dicatat lengkap: siapa pembuatnya, kapan, di mana, dan dalam keadaan apa.",
+                "Satu fakta sebaiknya dibuktikan lebih dari satu sumber agar tidak bergantung pada satu kesaksian.",
+                "Laporan penelitian harus terbuka: menyebut sumber, menyadari keterbatasan, dan menghindari kesimpulan berlebihan."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-2-penelitian-sejarah-cp-2",
+              "question": "Pemeriksaan keaslian bahan dan waktu pembuatan dokumen disebut kritik…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "ekstern",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "intern"
+                },
+                {
+                  "id": "c2",
+                  "text": "interpretasi"
+                },
+                {
+                  "id": "c3",
+                  "text": "heuristik"
+                }
+              ],
+              "explanation": "Kritik ekstern menilai keaslian fisik dan asal sumber; kritik intern menilai isinya."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Sejarah-BG-KLS-X.pdf materi Penelitian Sejarah dan Proyek Penelitian Sejarah; CP Fase E Mata Pelajaran Sejarah",
+          "content": "## Proyek sejarah lingkungan terdekat\n\nPilih satu gejala sejarah di sekitarmu: berdirinya pasar, perubahan nama jalan, bangunan tua, atau tradisi kampung. Tetapkan batas waktu dan tempat agar kajian tidak melebar.\n\nKumpulkan sumber: foto lama, arsip kelurahan, koran daerah, dan wawancara warga tua. Catat identitas narasumber dan tanggal wawancara sebagai bukti kerja.\n\nBandingkan sumber, tulis temuan secara berurutan, lalu presentasikan. Sebutkan bagian yang belum pasti agar pembaca tahu batas pengetahuanmu.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Proyek sejarah lingkungan terdekat"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pilih satu gejala sejarah di sekitarmu: berdirinya pasar, perubahan nama jalan, bangunan tua, atau tradisi kampung. Tetapkan batas waktu dan tempat agar kajian tidak melebar."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kumpulkan sumber: foto lama, arsip kelurahan, koran daerah, dan wawancara warga tua. Catat identitas narasumber dan tanggal wawancara sebagai bukti kerja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bandingkan sumber, tulis temuan secara berurutan, lalu presentasikan. Sebutkan bagian yang belum pasti agar pembaca tahu batas pengetahuanmu."
+            },
+            {
+              "type": "scenario",
+              "id": "sej-2-skenario",
+              "title": "Bukti yang saling bertentangan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Wawancara warga menyebut pasar berdiri 1935, sedangkan arsip kelurahan mencatat 1948. Sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Mencari sumber ketiga, misalnya koran atau foto lama",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Sumber pembanding membantu menilai dua keterangan yang berbeda."
+                    },
+                    {
+                      "text": "Memilih angka yang lebih tua agar terkesan bersejarah",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Memilih data demi kesan menarik bukan cara kerja sejarah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Sumber ketiga mendukung tahun 1948. Bagaimana melaporkannya?",
+                  "choices": [
+                    {
+                      "text": "Menuliskan tahun 1948 dengan menyebut perbedaan keterangan warga",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Laporan jujur menyebut perbedaan dan alasan pemilihannya."
+                    },
+                    {
+                      "text": "Menulis 1948 tanpa menyebut sumber lain",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menyembunyikan keterangan lain membuat laporan tidak transparan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Laporanmu lemah karena tidak dapat diperiksa ulang.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Laporanmu kuat, terbuka, dan dapat diuji siapa pun.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "sej-2-penelitian-sejarah-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu sumber primer?",
+                  "back": "Sumber dari masa peristiwa atau pelaku langsung."
+                },
+                {
+                  "front": "Apa beda kritik ekstern dan intern?",
+                  "back": "Ekstern menilai keaslian; intern menilai kredibilitas isi."
+                },
+                {
+                  "front": "Sebutkan empat tahap penelitian sejarah.",
+                  "back": "Heuristik, verifikasi, interpretasi, historiografi."
+                },
+                {
+                  "front": "Mengapa perlu lebih dari satu sumber?",
+                  "back": "Agar fakta tidak bergantung pada satu kesaksian yang mungkin keliru."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "sej-2-penelitian-sejarah-cp-3",
+              "question": "Tahap mencari dan mengumpulkan sumber disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "heuristik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "historiografi"
+                },
+                {
+                  "id": "c2",
+                  "text": "interpretasi"
+                },
+                {
+                  "id": "c3",
+                  "text": "verifikasi"
+                }
+              ],
+              "explanation": "Heuristik adalah tahap pencarian sumber; verifikasi mengujinya."
+            },
+            {
+              "type": "challenge",
+              "id": "sej-2-tantangan",
+              "title": "Tantangan istilah penelitian sejarah",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Sumber dari masa peristiwa",
+                  "answer": "Sumber primer"
+                },
+                {
+                  "question": "Penilaian keaslian sumber",
+                  "answer": "Kritik ekstern"
+                },
+                {
+                  "question": "Tahap pencarian sumber",
+                  "answer": "Heuristik"
+                },
+                {
+                  "question": "Penulisan kisah sejarah",
+                  "answer": "Historiografi"
+                },
+                {
+                  "question": "Kesaksian pelaku peristiwa",
+                  "answer": "Sejarah lisan"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah penelitian sejarah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Penelitian Sejarah — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Sumber yang dihasilkan pada masa peristiwa terjadi disebut…",
+              "options": [
+                {
+                  "text": "sumber primer",
+                  "correct": true
+                },
+                {
+                  "text": "sumber sekunder"
+                },
+                {
+                  "text": "sumber tersier"
+                },
+                {
+                  "text": "sumber fiktif"
+                }
+              ],
+              "explanation": "Primer berasal dari masa peristiwa atau pelakunya.",
+              "hint": "Sekunder ditulis belakangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Buku teks sejarah termasuk sumber…",
+              "options": [
+                {
+                  "text": "sekunder",
+                  "correct": true
+                },
+                {
+                  "text": "primer"
+                },
+                {
+                  "text": "lisan"
+                },
+                {
+                  "text": "benda"
+                }
+              ],
+              "explanation": "Buku teks disusun berdasarkan sumber lain.",
+              "hint": "Bukan dibuat pada masa peristiwa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Wawancara dengan pelaku peristiwa termasuk sumber…",
+              "options": [
+                {
+                  "text": "primer",
+                  "correct": true
+                },
+                {
+                  "text": "sekunder"
+                },
+                {
+                  "text": "tersier"
+                },
+                {
+                  "text": "palsu"
+                }
+              ],
+              "explanation": "Kesaksian pelaku adalah sumber primer lisan.",
+              "hint": "Perlu dicatat identitas dan tanggalnya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk sumber primer?",
+              "options": [
+                {
+                  "text": "Arsip kelurahan",
+                  "correct": true
+                },
+                {
+                  "text": "Foto sezaman",
+                  "correct": true
+                },
+                {
+                  "text": "Wawancara pelaku",
+                  "correct": true
+                },
+                {
+                  "text": "Buku teks",
+                  "correct": false
+                },
+                {
+                  "text": "Ensiklopedia",
+                  "correct": false
+                }
+              ],
+              "explanation": "Primer lahir pada masa peristiwa.",
+              "hint": "Buku dan ensiklopedia bersifat sekunder."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk sumber sekunder?",
+              "options": [
+                {
+                  "text": "Buku sejarah",
+                  "correct": true
+                },
+                {
+                  "text": "Artikel majalah",
+                  "correct": true
+                },
+                {
+                  "text": "Ringkasan pelajaran",
+                  "correct": true
+                },
+                {
+                  "text": "Akta kelahiran",
+                  "correct": false
+                },
+                {
+                  "text": "Surat asli",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sekunder disusun berdasarkan sumber lain.",
+              "hint": "Akta dan surat adalah primer."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Penelitian Sejarah — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Penilaian keaslian bahan dan waktu pembuatan sumber disebut…",
+              "options": [
+                {
+                  "text": "kritik ekstern",
+                  "correct": true
+                },
+                {
+                  "text": "kritik intern"
+                },
+                {
+                  "text": "interpretasi"
+                },
+                {
+                  "text": "heuristik"
+                }
+              ],
+              "explanation": "Kritik ekstern memeriksa fisik dan asal dokumen.",
+              "hint": "Kritik intern memeriksa isi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penilaian kredibilitas isi sumber disebut…",
+              "options": [
+                {
+                  "text": "kritik intern",
+                  "correct": true
+                },
+                {
+                  "text": "kritik ekstern"
+                },
+                {
+                  "text": "historiografi"
+                },
+                {
+                  "text": "verifikasi luar"
+                }
+              ],
+              "explanation": "Kritik intern menimbang isi dan kepentingan penulis.",
+              "hint": "Misalnya kesaksian yang menguntungkan diri sendiri."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap penelitian sejarah?",
+              "options": [
+                {
+                  "text": "Heuristik",
+                  "correct": true
+                },
+                {
+                  "text": "Verifikasi",
+                  "correct": true
+                },
+                {
+                  "text": "Interpretasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghafal tahun",
+                  "correct": false
+                },
+                {
+                  "text": "Menyalin tanpa sumber",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penelitian melalui tahap pencarian, pengujian, dan penafsiran.",
+              "hint": "Hafalan bukan tahap penelitian."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang diperiksa dalam kritik ekstern?",
+              "options": [
+                {
+                  "text": "Bahan dan tinta",
+                  "correct": true
+                },
+                {
+                  "text": "Ejaan dan gaya tulisan",
+                  "correct": true
+                },
+                {
+                  "text": "Asal dan riwayat dokumen",
+                  "correct": true
+                },
+                {
+                  "text": "Makna isi",
+                  "correct": false
+                },
+                {
+                  "text": "Kepentingan penulis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kritik ekstern menilai keaslian fisik.",
+              "hint": "Isi dinilai lewat kritik intern."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Sumber primer",
+                  "right": "dari masa peristiwa"
+                },
+                {
+                  "id": "m1",
+                  "left": "Sumber sekunder",
+                  "right": "ditulis belakangan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kritik ekstern",
+                  "right": "keaslian sumber"
+                },
+                {
+                  "id": "m3",
+                  "left": "Kritik intern",
+                  "right": "kredibilitas isi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "dari masa peristiwa",
+                  "m1": "ditulis belakangan",
+                  "m2": "keaslian sumber",
+                  "m3": "kredibilitas isi"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahap penelitian sejarah.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pemilihan topik"
+                },
+                {
+                  "id": "d1",
+                  "text": "Heuristik"
+                },
+                {
+                  "id": "d2",
+                  "text": "Verifikasi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Interpretasi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Historiografi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Penelitian bergerak dari topik sampai penulisan.",
+              "hint": "Verifikasi menjaga kejujuran data."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah kritik sumber.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mengumpulkan sumber"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memeriksa keaslian fisik"
+                },
+                {
+                  "id": "p2",
+                  "text": "Memeriksa kredibilitas isi"
+                },
+                {
+                  "id": "p3",
+                  "text": "Membandingkan dengan sumber lain"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menetapkan fakta"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Kritik berjalan dari fisik ke isi lalu pembandingan.",
+              "hint": "Fakta ditetapkan setelah lolos kritik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahap mengumpulkan sumber dalam penelitian sejarah disebut…",
+              "options": [
+                {
+                  "text": "heuristik",
+                  "correct": true
+                },
+                {
+                  "text": "interpretasi"
+                },
+                {
+                  "text": "historiografi"
+                },
+                {
+                  "text": "kritik intern"
+                }
+              ],
+              "explanation": "Heuristik berarti mencari.",
+              "hint": "Tahap pertama setelah memilih topik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahap menafsirkan fakta menjadi penjelasan disebut…",
+              "options": [
+                {
+                  "text": "interpretasi",
+                  "correct": true
+                },
+                {
+                  "text": "heuristik"
+                },
+                {
+                  "text": "historiografi"
+                },
+                {
+                  "text": "verifikasi"
+                }
+              ],
+              "explanation": "Interpretasi menyusun fakta menjadi penjelasan logis.",
+              "hint": "Bukan mengarang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang diperiksa dalam kritik intern?",
+              "options": [
+                {
+                  "text": "Kesesuaian isi dengan sumber lain",
+                  "correct": true
+                },
+                {
+                  "text": "Kepentingan penulis",
+                  "correct": true
+                },
+                {
+                  "text": "Kelayakan keterangan",
+                  "correct": true
+                },
+                {
+                  "text": "Bahan kertas",
+                  "correct": false
+                },
+                {
+                  "text": "Jenis tinta",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kritik intern menilai kredibilitas isi.",
+              "hint": "Bahan dan tinta urusan kritik ekstern."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Penelitian Sejarah — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Tahap menuliskan kisah sejarah disebut…",
+              "options": [
+                {
+                  "text": "historiografi",
+                  "correct": true
+                },
+                {
+                  "text": "heuristik"
+                },
+                {
+                  "text": "interpretasi"
+                },
+                {
+                  "text": "kritik ekstern"
+                }
+              ],
+              "explanation": "Historiografi adalah penulisan sejarah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Topik penelitian sejarah sebaiknya…",
+              "options": [
+                {
+                  "text": "terbatas dan terjangkau sumbernya",
+                  "correct": true
+                },
+                {
+                  "text": "seluas mungkin"
+                },
+                {
+                  "text": "tanpa batas waktu"
+                },
+                {
+                  "text": "tanpa sumber"
+                }
+              ],
+              "explanation": "Topik terbatas memudahkan pencarian sumber."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sumber tertulis yang dibuat pada masa peristiwa, misalnya…",
+              "options": [
+                {
+                  "text": "arsip dan surat sezaman",
+                  "correct": true
+                },
+                {
+                  "text": "ensiklopedia modern"
+                },
+                {
+                  "text": "buku pelajaran"
+                },
+                {
+                  "text": "artikel blog"
+                }
+              ],
+              "explanation": "Arsip dan surat sezaman adalah bukti langsung."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Agar kesimpulan sejarah kuat, sebaiknya…",
+              "options": [
+                {
+                  "text": "menggunakan beberapa sumber yang saling menguatkan",
+                  "correct": true
+                },
+                {
+                  "text": "memakai satu sumber saja"
+                },
+                {
+                  "text": "memilih sumber yang menarik"
+                },
+                {
+                  "text": "mengabaikan sumber berbeda"
+                }
+              ],
+              "explanation": "Banyak sumber memperkuat kesimpulan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sumber lisan dalam penelitian sejarah diperoleh melalui…",
+              "options": [
+                {
+                  "text": "wawancara dengan pelaku atau saksi",
+                  "correct": true
+                },
+                {
+                  "text": "membaca novel"
+                },
+                {
+                  "text": "menonton film fiksi"
+                },
+                {
+                  "text": "menebak sendiri"
+                }
+              ],
+              "explanation": "Sejarah lisan bergantung pada kesaksian langsung."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sumber untuk sejarah lingkungan terdekat?",
+              "options": [
+                {
+                  "text": "Foto lama kampung",
+                  "correct": true
+                },
+                {
+                  "text": "Arsip kelurahan",
+                  "correct": true
+                },
+                {
+                  "text": "Wawancara warga senior",
+                  "correct": true
+                },
+                {
+                  "text": "Ramalan cuaca",
+                  "correct": false
+                },
+                {
+                  "text": "Novel fantasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sejarah lokal dapat ditelusuri dari sumber setempat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap jujur dalam laporan penelitian?",
+              "options": [
+                {
+                  "text": "Menyebut sumber",
+                  "correct": true
+                },
+                {
+                  "text": "Menyatakan keterbatasan",
+                  "correct": true
+                },
+                {
+                  "text": "Menuliskan perbedaan sumber",
+                  "correct": true
+                },
+                {
+                  "text": "Menyembunyikan bukti yang berbeda",
+                  "correct": false
+                },
+                {
+                  "text": "Mengarang data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kejujuran membuat laporan dapat diuji."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Heuristik",
+                  "right": "mencari sumber"
+                },
+                {
+                  "id": "m1",
+                  "left": "Interpretasi",
+                  "right": "menafsirkan fakta"
+                },
+                {
+                  "id": "m2",
+                  "left": "Historiografi",
+                  "right": "menulis kisah sejarah"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sejarah lisan",
+                  "right": "kesaksian pelaku"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mencari sumber",
+                  "m1": "menafsirkan fakta",
+                  "m2": "menulis kisah sejarah",
+                  "m3": "kesaksian pelaku"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah wawancara sejarah lisan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menentukan narasumber"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menyiapkan daftar pertanyaan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Merekam atau mencatat"
+                },
+                {
+                  "id": "d3",
+                  "text": "Meminta izin dan mencatat identitas"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menuliskan transkrip dan memverifikasi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Wawancara perlu persiapan dan pencatatan yang rapi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah proyek sejarah lingkungan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menetapkan batas topik"
+                },
+                {
+                  "id": "p1",
+                  "text": "Mengumpulkan sumber lokal"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menguji sumber"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menyusun kronologi temuan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mempresentasikan laporan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Proyek berjalan dari batas topik sampai presentasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sikap yang benar bila sumber saling bertentangan adalah…",
+              "options": [
+                {
+                  "text": "mencari sumber pembanding dan menuliskan perbedaannya",
+                  "correct": true
+                },
+                {
+                  "text": "menyembunyikan salah satu"
+                },
+                {
+                  "text": "memilih yang paling menarik"
+                },
+                {
+                  "text": "berhenti meneliti"
+                }
+              ],
+              "explanation": "Keterbukaan menjaga kejujuran laporan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Laporan penelitian sejarah harus memuat…",
+              "options": [
+                {
+                  "text": "sumber dan keterbatasan kajian",
+                  "correct": true
+                },
+                {
+                  "text": "hanya kesimpulan"
+                },
+                {
+                  "text": "hanya foto"
+                },
+                {
+                  "text": "hanya pendapat pribadi"
+                }
+              ],
+              "explanation": "Pembaca perlu tahu dasar dan batas pengetahuan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri sumber yang perlu dicurigai?",
+              "options": [
+                {
+                  "text": "Ejaan tidak sesuai zaman",
+                  "correct": true
+                },
+                {
+                  "text": "Isi menguntungkan penulis sendiri",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak jelas asalnya",
+                  "correct": true
+                },
+                {
+                  "text": "Dibuat pada masa peristiwa",
+                  "correct": false
+                },
+                {
+                  "text": "Disimpan di arsip resmi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ciri itu menuntut kritik lebih ketat."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Sumber primer",
+                  "right": "dari masa peristiwa"
+                },
+                {
+                  "id": "m1",
+                  "left": "Sumber sekunder",
+                  "right": "ditulis belakangan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kritik ekstern",
+                  "right": "keaslian sumber"
+                },
+                {
+                  "id": "m3",
+                  "left": "Kritik intern",
+                  "right": "kredibilitas isi"
+                },
+                {
+                  "id": "m4",
+                  "left": "Heuristik",
+                  "right": "mencari sumber"
+                },
+                {
+                  "id": "m5",
+                  "left": "Interpretasi",
+                  "right": "menafsirkan fakta"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "dari masa peristiwa",
+                  "m1": "ditulis belakangan",
+                  "m2": "keaslian sumber",
+                  "m3": "kredibilitas isi",
+                  "m4": "mencari sumber",
+                  "m5": "menafsirkan fakta"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan penyaringan sumber menjadi kisah.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Sumber ditemukan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Diuji keasliannya"
+                },
+                {
+                  "id": "d2",
+                  "text": "Diuji kredibilitasnya"
+                },
+                {
+                  "id": "d3",
+                  "text": "Ditafsirkan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Ditulis menjadi kisah sejarah"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Sumber harus lolos dua kritik sebelum ditafsirkan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
