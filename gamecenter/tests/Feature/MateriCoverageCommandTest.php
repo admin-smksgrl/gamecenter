@@ -161,9 +161,10 @@ class MateriCoverageCommandTest extends TestCase
 
     public function test_prakarya_chapters_meet_the_plan_minimums(): void
     {
-        // Buku Prakarya Kerajinan X (rilis 0.38.0) tuntas 3/3 unit dan
-        // buku Prakarya Rekayasa X (rilis 0.39.0) tuntas 4/4 unit.
-        foreach (['PRA 1', 'PRA 2', 'PRA 3', 'PRA 4', 'PRA 5', 'PRA 6', 'PRA 7'] as $code) {
+        // Buku Prakarya Kerajinan X (rilis 0.38.0) tuntas 3/3 unit,
+        // buku Prakarya Rekayasa X (rilis 0.39.0) tuntas 4/4 unit, dan
+        // buku Prakarya Budi Daya X (rilis 0.40.0) tuntas 3/3 unit.
+        foreach (['PRA 1', 'PRA 2', 'PRA 3', 'PRA 4', 'PRA 5', 'PRA 6', 'PRA 7', 'PRA 8', 'PRA 9', 'PRA 10'] as $code) {
             $row = $this->coverage($code)['chapters'][0];
 
             $this->assertTrue(
@@ -224,6 +225,33 @@ class MateriCoverageCommandTest extends TestCase
             $props = $page->toArray()['props'];
 
             $this->assertSame('Lampu Sensor Suara', $props['context']['chapter_title']);
+            $this->assertSame('prakarya', $props['context']['subject_slug'] ?? 'prakarya');
+            $this->assertCount(5, $props['questions']);
+            $this->assertCount(3, $props['materials']);
+
+            $first = $props['materials'][0];
+            $types = array_column($first['blocks'], 'type');
+
+            $this->assertContains('glossary', $types);
+            $this->assertContains('diagram', $types);
+            $this->assertContains('checkpoint', $types);
+        });
+    }
+
+    public function test_prakarya_budi_daya_play_page_serves_three_materials_and_five_easy_questions(): void
+    {
+        $assessment = Assessment::query()
+            ->whereHas('chapter', fn ($query) => $query->where('code', 'PRA 8'))
+            ->where('difficulty', 'easy')
+            ->firstOrFail();
+
+        $response = $this->get("/main/{$assessment->id}");
+
+        $response->assertOk();
+        $response->assertInertia(function (AssertableInertia $page) {
+            $props = $page->toArray()['props'];
+
+            $this->assertSame('Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya', $props['context']['chapter_title']);
             $this->assertSame('prakarya', $props['context']['subject_slug'] ?? 'prakarya');
             $this->assertCount(5, $props['questions']);
             $this->assertCount(3, $props['materials']);

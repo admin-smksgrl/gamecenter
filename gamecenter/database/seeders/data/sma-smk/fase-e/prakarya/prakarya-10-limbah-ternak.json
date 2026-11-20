@@ -1,0 +1,1296 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 10",
+      "title": "Pemanfaatan Limbah Budi Daya Ternak",
+      "description": "Mengenal jenis dan sumber limbah ternak, dampaknya bagi lingkungan, pengolahan menjadi kompos, pupuk organik cair, dan maggot, serta analisis usaha dan budi daya ternak unggas.",
+      "learning_objectives": [
+        "Mengidentifikasi industri dan jenis limbah ternak.",
+        "Menganalisis dampak lingkungan serta nilai ekonomis limbah ternak.",
+        "Merencanakan budi daya ternak dan pemanfaatan limbahnya.",
+        "Mempraktikkan pengolahan limbah menjadi kompos dan pupuk organik cair.",
+        "Menganalisis usaha pemanfaatan limbah ternak secara finansial dan nonfinansial."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit III Pemanfaatan Limbah Budi Daya Ternak",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa limbah ternak harus diolah?",
+          "duration": 240,
+          "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit III Pemanfaatan Limbah Budi Daya Ternak",
+          "content": "## Dari limbah menjadi sumber nilai\n\nLimbah ternak adalah hasil akhir atau hasil samping dari pemeliharaan ternak, rumah potong hewan, dan pabrik pakan. Limbah ini tidak dapat dicegah, tetapi dapat dimanfaatkan. Jika dibiarkan, limbah mencemari udara, air, dan tanah.\n\nLimbah peternakan dapat berupa padat dan cair. Limbah padat meliputi kotoran, sisa pakan, tulang, bulu, tanduk, dan kuku. Limbah cair meliputi urine serta air cucian kandang dan peralatan.\n\nDengan pengolahan yang tepat, limbah ternak berubah menjadi pupuk kompos, pupuk organik cair, atau media tumbuh maggot. Produk ini bernilai ekonomi, mengurangi pencemaran, dan mendukung pertanian berkelanjutan.\n\nGunakan masker dan sarung tangan saat menangani kotoran ternak. Cuci tangan dengan sabun setelah selesai bekerja.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-10-limbah-ternak-glosarium",
+              "terms": [
+                {
+                  "term": "Limbah ternak",
+                  "definition": "Hasil akhir atau hasil samping dari pemeliharaan ternak, rumah potong hewan, dan pabrik pakan."
+                },
+                {
+                  "term": "Limbah padat",
+                  "definition": "Limbah berupa kotoran, sisa pakan, tulang, bulu, dan bagian tubuh yang tidak dikonsumsi."
+                },
+                {
+                  "term": "Limbah cair",
+                  "definition": "Limbah berupa urine dan air cucian kandang atau peralatan."
+                },
+                {
+                  "term": "Pupuk kompos",
+                  "definition": "Pupuk hasil dekomposisi bahan organik oleh mikroorganisme."
+                },
+                {
+                  "term": "Pupuk organik cair",
+                  "definition": "Pupuk cair dengan kandungan bahan kimia maksimum 5 persen."
+                },
+                {
+                  "term": "Maggot",
+                  "definition": "Larva lalat tentara hitam yang dapat menjadi pakan ternak atau ikan."
+                },
+                {
+                  "term": "Biosekuriti",
+                  "definition": "Upaya pencegahan penyakit melalui kebersihan dan pengendalian lingkungan kandang."
+                },
+                {
+                  "term": "BEP",
+                  "definition": "Titik impas, yaitu jumlah produksi atau penjualan yang menutup seluruh biaya."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari limbah menjadi sumber nilai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Limbah ternak adalah hasil akhir atau hasil samping dari pemeliharaan ternak, rumah potong hewan, dan pabrik pakan. Limbah ini tidak dapat dicegah, tetapi dapat dimanfaatkan. Jika dibiarkan, limbah mencemari udara, air, dan tanah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Limbah peternakan dapat berupa padat dan cair. Limbah padat meliputi kotoran, sisa pakan, tulang, bulu, tanduk, dan kuku. Limbah cair meliputi urine serta air cucian kandang dan peralatan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dengan pengolahan yang tepat, limbah ternak berubah menjadi pupuk kompos, pupuk organik cair, atau media tumbuh maggot. Produk ini bernilai ekonomi, mengurangi pencemaran, dan mendukung pertanian berkelanjutan."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-10-limbah-ternak-diagram",
+              "engine": "mermaid",
+              "title": "Alur pemanfaatan limbah ternak",
+              "code": "flowchart LR\n  A[Limbah ternak] --> B[Pemisahan padat dan cair]\n  B --> C[Pengomposan]\n  B --> D[Pupuk organik cair]\n  C --> E[Pupuk tanaman]\n  D --> E\n  B --> F[Media maggot]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan masker dan sarung tangan saat menangani kotoran ternak. Cuci tangan dengan sabun setelah selesai bekerja."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-10-limbah-ternak-cp-1",
+              "question": "Manakah contoh limbah cair ternak?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Urine dan air cucian kandang",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Tulang dan bulu"
+                },
+                {
+                  "id": "c2",
+                  "text": "Sisa pakan kering"
+                },
+                {
+                  "id": "c3",
+                  "text": "Tanduk dan kuku"
+                }
+              ],
+              "explanation": "Limbah cair berupa urine dan air cucian kandang atau peralatan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Jenis limbah dan produk olahannya",
+          "duration": 300,
+          "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit III Pemanfaatan Limbah Budi Daya Ternak",
+          "content": "## Mengolah limbah menjadi pupuk\n\nSumber limbah ternak meliputi peternakan, rumah potong hewan, dan pabrik pakan. Peternakan menghasilkan kotoran, urine, sisa pakan, dan air cucian kandang. Rumah potong hewan menghasilkan darah, tulang, jeroan, bulu, kulit, tanduk, dan kuku. Pabrik pakan menghasilkan sisa bahan baku dan pakan olahan.\n\nLimbah ternak yang tidak diolah mencemari udara melalui gas amoniak, mencemari air hingga merusak ekosistem, dan merusak tanah bila digunakan terus-menerus tanpa perlakuan. Karena itu, limbah perlu diolah sebelum dimanfaatkan.\n\nPupuk kompos dibuat melalui dekomposisi kotoran ternak dengan bantuan mikroorganisme. Bahan tambahan seperti serbuk gergaji, sekam, jerami, abu, atau kapur memperkaya kandungan kompos. Pupuk organik cair berasal dari urine ternak dan mengandung bahan kimia maksimum 5 persen.\n\n| Produk | Bahan | Manfaat |\n|---|---|---|\n| Pupuk kompos | Kotoran ternak dan bahan organik | Menyuburkan tanah |\n| Pupuk organik cair | Urine ternak | Mengaktifkan unsur hara |\n| Maggot | Limbah organik ternak | Pakan ternak dan ikan |\n| Biogas | Limbah dan kotoran ternak | Sumber energi |\n\n### Budi daya ternak dan analisis usaha\n\n- Lima teknik budi daya ternak: lokasi kandang, bibit, pakan, pengendalian penyakit, serta panen dan pascapanen.\n- Lokasi kandang sebaiknya mudah diakses, jauh dari pemukiman, dan dekat sumber air.\n- Bibit sehat aktif, mata dan hidung bersih, bulu bersih, tali pusar kering, dan kloaka tidak kotor.\n- Analisis usaha mencakup aspek finansial (investasi, biaya produksi, BEP) dan nonfinansial (pasar, teknis, manajemen, hukum).",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengolah limbah menjadi pupuk"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sumber limbah ternak meliputi peternakan, rumah potong hewan, dan pabrik pakan. Peternakan menghasilkan kotoran, urine, sisa pakan, dan air cucian kandang. Rumah potong hewan menghasilkan darah, tulang, jeroan, bulu, kulit, tanduk, dan kuku. Pabrik pakan menghasilkan sisa bahan baku dan pakan olahan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Limbah ternak yang tidak diolah mencemari udara melalui gas amoniak, mencemari air hingga merusak ekosistem, dan merusak tanah bila digunakan terus-menerus tanpa perlakuan. Karena itu, limbah perlu diolah sebelum dimanfaatkan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pupuk kompos dibuat melalui dekomposisi kotoran ternak dengan bantuan mikroorganisme. Bahan tambahan seperti serbuk gergaji, sekam, jerami, abu, atau kapur memperkaya kandungan kompos. Pupuk organik cair berasal dari urine ternak dan mengandung bahan kimia maksimum 5 persen."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Produk",
+                  "Bahan",
+                  "Manfaat"
+                ],
+                [
+                  "Pupuk kompos",
+                  "Kotoran ternak dan bahan organik",
+                  "Menyuburkan tanah"
+                ],
+                [
+                  "Pupuk organik cair",
+                  "Urine ternak",
+                  "Mengaktifkan unsur hara"
+                ],
+                [
+                  "Maggot",
+                  "Limbah organik ternak",
+                  "Pakan ternak dan ikan"
+                ],
+                [
+                  "Biogas",
+                  "Limbah dan kotoran ternak",
+                  "Sumber energi"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-10-kandungan-unsur",
+              "title": "Perkiraan kandungan unsur hara kompos (%)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Nitrogen",
+                  "value": 2
+                },
+                {
+                  "label": "Fosfor",
+                  "value": 1
+                },
+                {
+                  "label": "Kalium",
+                  "value": 2
+                },
+                {
+                  "label": "Bahan organik",
+                  "value": 30
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-10-klasifikasi",
+              "prompt": "Kelompokkan limbah berikut ke dalam limbah padat atau limbah cair.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Limbah padat"
+                },
+                {
+                  "id": "b2",
+                  "label": "Limbah cair"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Kotoran ternak",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Tulang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Bulu",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Urine",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Air cucian kandang",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Air cucian peralatan",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Kotoran, tulang, dan bulu termasuk limbah padat; urine dan air cucian termasuk limbah cair.",
+                "wrong": "Periksa lagi: limbah cair berbentuk air, limbah padat berbentuk bahan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Budi daya ternak dan analisis usaha"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Lima teknik budi daya ternak: lokasi kandang, bibit, pakan, pengendalian penyakit, serta panen dan pascapanen.",
+                "Lokasi kandang sebaiknya mudah diakses, jauh dari pemukiman, dan dekat sumber air.",
+                "Bibit sehat aktif, mata dan hidung bersih, bulu bersih, tali pusar kering, dan kloaka tidak kotor.",
+                "Analisis usaha mencakup aspek finansial (investasi, biaya produksi, BEP) dan nonfinansial (pasar, teknis, manajemen, hukum)."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-10-limbah-ternak-cp-2",
+              "question": "Pupuk organik cair memiliki kandungan bahan kimia maksimum…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "5 persen",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "50 persen"
+                },
+                {
+                  "id": "c2",
+                  "text": "95 persen"
+                },
+                {
+                  "id": "c3",
+                  "text": "100 persen"
+                }
+              ],
+              "explanation": "Pupuk organik cair mengandung bahan kimia maksimum 5 persen."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit III Pemanfaatan Limbah Budi Daya Ternak",
+          "content": "## Membuat kompos dan merencanakan usaha\n\nKumpulkan kotoran ternak dan bahan organik seperti sekam, jerami, atau serbuk gergaji. Cacah bahan agar mudah terurai, lalu campurkan bahan pemacu mikroorganisme. Tumpuk bahan, tutup, dan balik secara berkala hingga kompos matang dan berbau tanah.\n\nUntuk pupuk organik cair, tampung urine ternak dan simpan dalam wadah tertutup. Fermentasikan dengan bantuan mikroorganisme, lalu encerkan sebelum digunakan. Jangan menyimpan pupuk cair di tempat yang terkena panas langsung.\n\nSusun rencana usaha dengan menghitung biaya investasi, biaya produksi, dan perkiraan pendapatan. Tentukan BEP dan nilai keuntungan. Lengkapi dengan analisis pasar, teknis, manajemen, dan hukum agar usaha layak dijalankan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat kompos dan merencanakan usaha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kumpulkan kotoran ternak dan bahan organik seperti sekam, jerami, atau serbuk gergaji. Cacah bahan agar mudah terurai, lalu campurkan bahan pemacu mikroorganisme. Tumpuk bahan, tutup, dan balik secara berkala hingga kompos matang dan berbau tanah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk pupuk organik cair, tampung urine ternak dan simpan dalam wadah tertutup. Fermentasikan dengan bantuan mikroorganisme, lalu encerkan sebelum digunakan. Jangan menyimpan pupuk cair di tempat yang terkena panas langsung."
+            },
+            {
+              "type": "paragraph",
+              "text": "Susun rencana usaha dengan menghitung biaya investasi, biaya produksi, dan perkiraan pendapatan. Tentukan BEP dan nilai keuntungan. Lengkapi dengan analisis pasar, teknis, manajemen, dan hukum agar usaha layak dijalankan."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-10-skenario",
+              "title": "Kandang ayam dekat pemukiman",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kandang ayam sekolah menimbulkan bau yang mengganggu warga. Apa langkah pertama?",
+                  "choices": [
+                    {
+                      "text": "Mengumpulkan kotoran dan mengolahnya menjadi kompos",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Pengolahan mengurangi bau dan memberi nilai tambah."
+                    },
+                    {
+                      "text": "Membuang kotoran ke sungai",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Membuang ke sungai mencemari air dan ekosistem."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Kompos belum matang dan masih berbau. Apa yang dilakukan?",
+                  "choices": [
+                    {
+                      "text": "Membalik tumpukan dan menambah bahan pemacu",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Pembalikan dan bahan pemacu mempercepat pematangan."
+                    },
+                    {
+                      "text": "Langsung menjual kompos mentah",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Kompos mentah dapat merusak tanaman."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Pencemaran meningkat dan usaha merugi.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Kompos matang, bau berkurang, dan usaha untung.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-10-limbah-ternak-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan sumber limbah ternak.",
+                  "back": "Peternakan, rumah potong hewan, dan pabrik pakan."
+                },
+                {
+                  "front": "Apa perbedaan limbah padat dan cair?",
+                  "back": "Padat berupa kotoran/tulang; cair berupa urine dan air cucian."
+                },
+                {
+                  "front": "Apa bahan kimia maksimum pupuk organik cair?",
+                  "back": "5 persen."
+                },
+                {
+                  "front": "Apa itu biosekuriti?",
+                  "back": "Upaya pencegahan penyakit melalui kebersihan kandang."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-10-limbah-ternak-cp-3",
+              "question": "Agar kandang tidak mencemari pemukiman, lokasi kandang sebaiknya…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Jauh dari pemukiman dan dekat sumber air",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Di tengah pemukiman padat"
+                },
+                {
+                  "id": "c2",
+                  "text": "Di atas sungai"
+                },
+                {
+                  "id": "c3",
+                  "text": "Di ruang kelas"
+                }
+              ],
+              "explanation": "Kandang sebaiknya jauh dari pemukiman, mudah diakses, dan dekat sumber air."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-10-tantangan",
+              "title": "Tantangan istilah limbah ternak",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Hasil samping pemeliharaan ternak",
+                  "answer": "limbah ternak"
+                },
+                {
+                  "question": "Pupuk dari dekomposisi organik",
+                  "answer": "kompos"
+                },
+                {
+                  "question": "Pupuk cair bahan kimia maks 5%",
+                  "answer": "pupuk organik cair"
+                },
+                {
+                  "question": "Larva untuk pakan ikan",
+                  "answer": "maggot"
+                },
+                {
+                  "question": "Titik impas usaha",
+                  "answer": "BEP"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Pemanfaatan Limbah Budi Daya Ternak — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Limbah ternak berasal dari…",
+              "options": [
+                {
+                  "text": "Peternakan, rumah potong hewan, dan pabrik pakan",
+                  "correct": true
+                },
+                {
+                  "text": "Sekolah dan kantor"
+                },
+                {
+                  "text": "Pasar dan toko"
+                },
+                {
+                  "text": "Rumah sakit dan apotek"
+                }
+              ],
+              "explanation": "Limbah ternak dihasilkan peternakan, RPH, dan pabrik pakan.",
+              "hint": "Semua kegiatan yang berhubungan dengan ternak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh limbah padat ternak?",
+              "options": [
+                {
+                  "text": "Kotoran dan tulang",
+                  "correct": true
+                },
+                {
+                  "text": "Urine"
+                },
+                {
+                  "text": "Air cucian kandang"
+                },
+                {
+                  "text": "Air hujan"
+                }
+              ],
+              "explanation": "Kotoran, tulang, bulu, dan kuku termasuk limbah padat.",
+              "hint": "Limbah cair berbentuk air."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh limbah cair ternak?",
+              "options": [
+                {
+                  "text": "Urine dan air cucian kandang",
+                  "correct": true
+                },
+                {
+                  "text": "Kotoran"
+                },
+                {
+                  "text": "Tulang"
+                },
+                {
+                  "text": "Bulu"
+                }
+              ],
+              "explanation": "Urine dan air cucian kandang termasuk limbah cair.",
+              "hint": "Berasal dari cairan tubuh dan pencucian."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sumber limbah ternak?",
+              "options": [
+                {
+                  "text": "Peternakan",
+                  "correct": true
+                },
+                {
+                  "text": "Rumah potong hewan",
+                  "correct": true
+                },
+                {
+                  "text": "Pabrik pakan",
+                  "correct": true
+                },
+                {
+                  "text": "Sekolah",
+                  "correct": false
+                },
+                {
+                  "text": "Kantor pos",
+                  "correct": false
+                }
+              ],
+              "explanation": "Limbah ternak berasal dari peternakan, RPH, dan pabrik pakan.",
+              "hint": "Sekolah dan kantor bukan sumber limbah ternak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah limbah padat ternak?",
+              "options": [
+                {
+                  "text": "Kotoran",
+                  "correct": true
+                },
+                {
+                  "text": "Tulang",
+                  "correct": true
+                },
+                {
+                  "text": "Bulu",
+                  "correct": true
+                },
+                {
+                  "text": "Urine",
+                  "correct": false
+                },
+                {
+                  "text": "Air cucian kandang",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kotoran, tulang, dan bulu termasuk limbah padat.",
+              "hint": "Urine dan air cucian termasuk limbah cair."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Pemanfaatan Limbah Budi Daya Ternak — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Gas yang menimbulkan bau tidak sedap dari kotoran ternak adalah…",
+              "options": [
+                {
+                  "text": "Amoniak",
+                  "correct": true
+                },
+                {
+                  "text": "Oksigen"
+                },
+                {
+                  "text": "Helium"
+                },
+                {
+                  "text": "Nitrogen cair"
+                }
+              ],
+              "explanation": "Gas amoniak dari kotoran ternak menimbulkan bau menyengat.",
+              "hint": "Bau mengganggu pemukiman sekitar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pupuk hasil dekomposisi bahan organik oleh mikroorganisme disebut…",
+              "options": [
+                {
+                  "text": "Kompos",
+                  "correct": true
+                },
+                {
+                  "text": "Pestisida"
+                },
+                {
+                  "text": "Biogas"
+                },
+                {
+                  "text": "Silase"
+                }
+              ],
+              "explanation": "Kompos adalah hasil dekomposisi bahan organik.",
+              "hint": "Bahan dasarnya kotoran ternak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah produk bernilai dari limbah ternak?",
+              "options": [
+                {
+                  "text": "Kompos",
+                  "correct": true
+                },
+                {
+                  "text": "Pupuk organik cair",
+                  "correct": true
+                },
+                {
+                  "text": "Maggot",
+                  "correct": true
+                },
+                {
+                  "text": "Asap",
+                  "correct": false
+                },
+                {
+                  "text": "Plastik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Limbah ternak dapat menjadi kompos, pupuk cair, dan maggot.",
+              "hint": "Asap dan plastik bukan produk olahannya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah dampak limbah ternak yang tidak diolah?",
+              "options": [
+                {
+                  "text": "Pencemaran udara",
+                  "correct": true
+                },
+                {
+                  "text": "Pencemaran air",
+                  "correct": true
+                },
+                {
+                  "text": "Pencemaran tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Udara menjadi segar",
+                  "correct": false
+                },
+                {
+                  "text": "Tanah menjadi subur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Limbah yang tidak diolah mencemari udara, air, dan tanah.",
+              "hint": "Pengolahan yang tepat mencegah pencemaran."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Limbah ternak",
+                  "right": "hasil samping pemeliharaan ternak"
+                },
+                {
+                  "id": "m1",
+                  "left": "Limbah padat",
+                  "right": "kotoran dan sisa pakan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Limbah cair",
+                  "right": "urine dan air cucian kandang"
+                },
+                {
+                  "id": "m3",
+                  "left": "Kompos",
+                  "right": "dekomposisi bahan organik"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "hasil samping pemeliharaan ternak",
+                  "m1": "kotoran dan sisa pakan",
+                  "m2": "urine dan air cucian kandang",
+                  "m3": "dekomposisi bahan organik"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat kompos.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Kumpulkan kotoran dan bahan organik"
+                },
+                {
+                  "id": "d1",
+                  "text": "Cacah bahan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Campur bahan pemacu"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tumpuk dan tutup"
+                },
+                {
+                  "id": "d4",
+                  "text": "Balik hingga matang"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pengomposan dimulai dari pengumpulan lalu pemeraman.",
+              "hint": "Pembalikan mempercepat pematangan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat pupuk organik cair.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Tampung urine ternak"
+                },
+                {
+                  "id": "p1",
+                  "text": "Masukkan ke wadah tertutup"
+                },
+                {
+                  "id": "p2",
+                  "text": "Tambahkan mikroorganisme"
+                },
+                {
+                  "id": "p3",
+                  "text": "Fermentasikan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Encerkan sebelum dipakai"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Pupuk cair dibuat melalui fermentasi urine.",
+              "hint": "Wadah harus tertutup."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pupuk organik cair mengandung bahan kimia maksimum…",
+              "options": [
+                {
+                  "text": "5 persen",
+                  "correct": true
+                },
+                {
+                  "text": "25 persen"
+                },
+                {
+                  "text": "50 persen"
+                },
+                {
+                  "text": "100 persen"
+                }
+              ],
+              "explanation": "Kandungan bahan kimia pupuk organik cair maksimum 5 persen.",
+              "hint": "Sebagian besar berupa bahan organik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Semua urine ternak dapat dimanfaatkan menjadi…",
+              "options": [
+                {
+                  "text": "Pupuk organik cair",
+                  "correct": true
+                },
+                {
+                  "text": "Pupuk kompos padat"
+                },
+                {
+                  "text": "Pakan ternak"
+                },
+                {
+                  "text": "Biogas"
+                }
+              ],
+              "explanation": "Urine ternak dapat diolah menjadi pupuk organik cair.",
+              "hint": "Pupuk cair mengaktifkan unsur hara."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah teknik budi daya ternak?",
+              "options": [
+                {
+                  "text": "Penentuan lokasi kandang",
+                  "correct": true
+                },
+                {
+                  "text": "Penyediaan bibit",
+                  "correct": true
+                },
+                {
+                  "text": "Pemberian pakan",
+                  "correct": true
+                },
+                {
+                  "text": "Pengendalian penyakit",
+                  "correct": true
+                },
+                {
+                  "text": "Menanam padi",
+                  "correct": false
+                },
+                {
+                  "text": "Memancing ikan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teknik budi daya ternak meliputi kandang, bibit, pakan, penyakit, dan panen.",
+              "hint": "Menanam padi bukan budi daya ternak."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Pemanfaatan Limbah Budi Daya Ternak — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Larva yang dapat dijadikan pakan ikan dari limbah ternak adalah…",
+              "options": [
+                {
+                  "text": "Maggot",
+                  "correct": true
+                },
+                {
+                  "text": "Jentik nyamuk"
+                },
+                {
+                  "text": "Cacing tanah"
+                },
+                {
+                  "text": "Belalang"
+                }
+              ],
+              "explanation": "Maggot adalah larva yang dibudidayakan dari limbah organik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lokasi kandang sebaiknya…",
+              "options": [
+                {
+                  "text": "Jauh dari pemukiman dan dekat sumber air",
+                  "correct": true
+                },
+                {
+                  "text": "Di tengah pemukiman"
+                },
+                {
+                  "text": "Di atas sungai"
+                },
+                {
+                  "text": "Di dalam kelas"
+                }
+              ],
+              "explanation": "Kandang dijauhkan dari pemukiman agar polusi berkurang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ciri bibit ternak yang sehat adalah…",
+              "options": [
+                {
+                  "text": "Aktif dan mata bersih",
+                  "correct": true
+                },
+                {
+                  "text": "Lesu dan kotor"
+                },
+                {
+                  "text": "Tidak mau makan"
+                },
+                {
+                  "text": "Cacat dan lemah"
+                }
+              ],
+              "explanation": "Bibit sehat aktif, mata dan hidung bersih, serta tidak cacat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pengendalian penyakit ternak dengan menjaga kebersihan kandang disebut…",
+              "options": [
+                {
+                  "text": "Biosekuriti",
+                  "correct": true
+                },
+                {
+                  "text": "Biogas"
+                },
+                {
+                  "text": "Kompos"
+                },
+                {
+                  "text": "Fermentasi"
+                }
+              ],
+              "explanation": "Biosekuriti mencegah penyakit melalui kebersihan dan pengendalian lingkungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hasil panen peternakan antara lain…",
+              "options": [
+                {
+                  "text": "Ternak hidup, daging, telur, dan susu",
+                  "correct": true
+                },
+                {
+                  "text": "Padi dan jagung"
+                },
+                {
+                  "text": "Kain dan benang"
+                },
+                {
+                  "text": "Kayu dan batu"
+                }
+              ],
+              "explanation": "Hasil peternakan berupa ternak hidup, daging, telur, susu, kulit, dan jeroan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah aspek nonfinansial usaha?",
+              "options": [
+                {
+                  "text": "Aspek pasar",
+                  "correct": true
+                },
+                {
+                  "text": "Aspek teknis",
+                  "correct": true
+                },
+                {
+                  "text": "Aspek hukum",
+                  "correct": true
+                },
+                {
+                  "text": "BEP",
+                  "correct": false
+                },
+                {
+                  "text": "Biaya investasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Aspek nonfinansial meliputi pasar, teknis, manajemen, dan hukum."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri bibit ternak sehat?",
+              "options": [
+                {
+                  "text": "Aktif",
+                  "correct": true
+                },
+                {
+                  "text": "Mata dan hidung bersih",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak cacat",
+                  "correct": true
+                },
+                {
+                  "text": "Lesu",
+                  "correct": false
+                },
+                {
+                  "text": "Kotor",
+                  "correct": false
+                },
+                {
+                  "text": "Cacat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bibit sehat aktif, bersih, dan tidak cacat."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Pupuk organik cair",
+                  "right": "pupuk cair bahan kimia maks 5%"
+                },
+                {
+                  "id": "m1",
+                  "left": "Maggot",
+                  "right": "larva untuk pakan ikan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Biosekuriti",
+                  "right": "pencegahan penyakit ternak"
+                },
+                {
+                  "id": "m3",
+                  "left": "BEP",
+                  "right": "titik impas usaha"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pupuk cair bahan kimia maks 5%",
+                  "m1": "larva untuk pakan ikan",
+                  "m2": "pencegahan penyakit ternak",
+                  "m3": "titik impas usaha"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah budi daya maggot.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Siapkan wadah"
+                },
+                {
+                  "id": "d1",
+                  "text": "Masukkan limbah organik"
+                },
+                {
+                  "id": "d2",
+                  "text": "Letakkan telur lalat tentara hitam"
+                },
+                {
+                  "id": "d3",
+                  "text": "Biarkan larva tumbuh"
+                },
+                {
+                  "id": "d4",
+                  "text": "Panen maggot"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Budi daya maggot dimulai dari penyiapan media."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah memelihara ternak unggas.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Siapkan kandang"
+                },
+                {
+                  "id": "p1",
+                  "text": "Pilih bibit sehat"
+                },
+                {
+                  "id": "p2",
+                  "text": "Beri pakan dan minum"
+                },
+                {
+                  "id": "p3",
+                  "text": "Jaga kebersihan kandang"
+                },
+                {
+                  "id": "p4",
+                  "text": "Panen sesuai umur"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Pemeliharaan dimulai dari kandang dan bibit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aspek kelayakan usaha limbah ternak meliputi…",
+              "options": [
+                {
+                  "text": "Finansial dan nonfinansial",
+                  "correct": true
+                },
+                {
+                  "text": "Hanya finansial"
+                },
+                {
+                  "text": "Hanya hukum"
+                },
+                {
+                  "text": "Hanya pemasaran"
+                }
+              ],
+              "explanation": "Kelayakan usaha mencakup aspek finansial dan nonfinansial."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "BEP adalah…",
+              "options": [
+                {
+                  "text": "Titik impas usaha",
+                  "correct": true
+                },
+                {
+                  "text": "Keuntungan maksimal"
+                },
+                {
+                  "text": "Biaya investasi"
+                },
+                {
+                  "text": "Jumlah karyawan"
+                }
+              ],
+              "explanation": "BEP atau Break Even Point adalah titik impas."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap pengelolaan limbah ternak?",
+              "options": [
+                {
+                  "text": "Pengumpulan",
+                  "correct": true
+                },
+                {
+                  "text": "Pengolahan",
+                  "correct": true
+                },
+                {
+                  "text": "Pemanfaatan",
+                  "correct": true
+                },
+                {
+                  "text": "Dibuang ke sungai",
+                  "correct": false
+                },
+                {
+                  "text": "Dibiarkan menumpuk",
+                  "correct": false
+                }
+              ],
+              "explanation": "Limbah dikumpulkan, diolah, lalu dimanfaatkan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Limbah ternak",
+                  "right": "hasil samping pemeliharaan ternak"
+                },
+                {
+                  "id": "m1",
+                  "left": "Limbah padat",
+                  "right": "kotoran dan sisa pakan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Limbah cair",
+                  "right": "urine dan air cucian kandang"
+                },
+                {
+                  "id": "m3",
+                  "left": "Kompos",
+                  "right": "dekomposisi bahan organik"
+                },
+                {
+                  "id": "m4",
+                  "left": "Pupuk organik cair",
+                  "right": "pupuk cair bahan kimia maks 5%"
+                },
+                {
+                  "id": "m5",
+                  "left": "Maggot",
+                  "right": "larva untuk pakan ikan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "hasil samping pemeliharaan ternak",
+                  "m1": "kotoran dan sisa pakan",
+                  "m2": "urine dan air cucian kandang",
+                  "m3": "dekomposisi bahan organik",
+                  "m4": "pupuk cair bahan kimia maks 5%",
+                  "m5": "larva untuk pakan ikan"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah analisis usaha limbah ternak.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Hitung biaya investasi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Hitung biaya produksi"
+                },
+                {
+                  "id": "d2",
+                  "text": "Perkirakan pendapatan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tentukan BEP"
+                },
+                {
+                  "id": "d4",
+                  "text": "Nilai kelayakan usaha"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Analisis usaha bergerak dari biaya menuju kelayakan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1293 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 8",
+      "title": "Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya",
+      "description": "Mengenal jenis dan karakteristik tanaman pangan, teknik budi daya sorgum, pemanfaatan limbah menjadi kompos, pakan, dan biogas, serta analisis usaha.",
+      "learning_objectives": [
+        "Mendeskripsikan budi daya tanaman pangan dan jenis-jenisnya.",
+        "Mengidentifikasi alat, bahan, dan teknik budi daya tanaman pangan.",
+        "Menyusun rencana budi daya tanaman pangan sesuai potensi lokal.",
+        "Mempraktikkan budi daya sorgum dari penanaman sampai panen.",
+        "Menganalisis usaha dan memanfaatkan limbah budi daya secara ekonomis."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit I Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa tanaman pangan penting?",
+          "duration": 240,
+          "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit I Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya",
+          "content": "## Sumber pangan dari lahan sendiri\n\nTanaman pangan adalah segala jenis tanaman yang menjadi sumber utama karbohidrat dan protein untuk kebutuhan tubuh manusia. Tanaman ini juga mengandung lemak, vitamin, dan mineral dalam jumlah kecil. Bagi banyak keluarga petani, tanaman pangan menjadi sumber mata pencaharian.\n\nIndonesia kaya akan jenis tanaman pangan. Padi, jagung, sorgum, kedelai, kacang tanah, kacang hijau, ubi kayu, dan ubi jalar termasuk komoditi unggulan nasional. Talas, garut, dan gembili menjadi komoditi unggulan daerah.\n\nBudi daya tanaman pangan tidak berhenti pada panen. Batang, daun, dan bagian yang tidak dipanen dapat diolah menjadi kompos, biogas, atau pakan ternak sehingga bernilai ekonomi dan mengurangi pencemaran.\n\nGunakan sarung tangan dan masker saat memupuk atau menyemprot pestisida. Cuci tangan setelah bekerja di lahan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-8-budi-daya-tanaman-pangan-glosarium",
+              "terms": [
+                {
+                  "term": "Tanaman pangan",
+                  "definition": "Tanaman yang menjadi sumber utama karbohidrat dan protein bagi manusia."
+                },
+                {
+                  "term": "Serealia",
+                  "definition": "Kelompok rumput-rumputan yang dipanen bijinya, seperti padi, jagung, dan sorgum."
+                },
+                {
+                  "term": "Kacang-kacangan",
+                  "definition": "Kelompok tanaman famili Leguminoseae yang dipanen biji dalam polong."
+                },
+                {
+                  "term": "Umbi-umbian",
+                  "definition": "Kelompok tanaman yang bagian umbinya dipanen, seperti ubi kayu dan ubi jalar."
+                },
+                {
+                  "term": "Limbah budi daya",
+                  "definition": "Bagian tanaman yang tidak dipanen, misalnya akar, batang, cabang, dan daun."
+                },
+                {
+                  "term": "Kompos",
+                  "definition": "Pupuk organik hasil pelapukan limbah oleh mikroorganisme."
+                },
+                {
+                  "term": "Silase",
+                  "definition": "Pakan hijauan hasil fermentasi untuk ternak."
+                },
+                {
+                  "term": "BEP",
+                  "definition": "Titik impas, yaitu jumlah penjualan yang menutup seluruh biaya usaha."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sumber pangan dari lahan sendiri"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tanaman pangan adalah segala jenis tanaman yang menjadi sumber utama karbohidrat dan protein untuk kebutuhan tubuh manusia. Tanaman ini juga mengandung lemak, vitamin, dan mineral dalam jumlah kecil. Bagi banyak keluarga petani, tanaman pangan menjadi sumber mata pencaharian."
+            },
+            {
+              "type": "paragraph",
+              "text": "Indonesia kaya akan jenis tanaman pangan. Padi, jagung, sorgum, kedelai, kacang tanah, kacang hijau, ubi kayu, dan ubi jalar termasuk komoditi unggulan nasional. Talas, garut, dan gembili menjadi komoditi unggulan daerah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Budi daya tanaman pangan tidak berhenti pada panen. Batang, daun, dan bagian yang tidak dipanen dapat diolah menjadi kompos, biogas, atau pakan ternak sehingga bernilai ekonomi dan mengurangi pencemaran."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-8-budi-daya-tanaman-pangan-diagram",
+              "engine": "mermaid",
+              "title": "Alur budi daya tanaman pangan",
+              "code": "flowchart LR\n  A[Perencanaan] --> B[Pengolahan lahan]\n  B --> C[Penanaman]\n  C --> D[Pemeliharaan]\n  D --> E[Panen]\n  E --> F[Pascapanen]\n  F --> G[Pemanfaatan limbah]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan sarung tangan dan masker saat memupuk atau menyemprot pestisida. Cuci tangan setelah bekerja di lahan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-8-budi-daya-tanaman-pangan-cp-1",
+              "question": "Apa kandungan utama tanaman pangan bagi tubuh manusia?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Karbohidrat dan protein",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Air dan udara"
+                },
+                {
+                  "id": "c2",
+                  "text": "Logam dan plastik"
+                },
+                {
+                  "id": "c3",
+                  "text": "Pewarna dan pengawet"
+                }
+              ],
+              "explanation": "Tanaman pangan menjadi sumber utama karbohidrat dan protein."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Jenis tanaman dan pemanfaatan limbah",
+          "duration": 300,
+          "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit I Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya",
+          "content": "## Mengelompokkan tanaman pangan\n\nBerdasarkan umurnya, tanaman pangan dibedakan menjadi tanaman semusim dan tanaman tahunan. Padi, jagung, dan sorgum berumur 3–4 bulan, sedangkan ubi kayu dan ubi jalar sekitar 4–8 bulan. Sukun dan sagu termasuk tanaman tahunan karena tumbuh lebih dari dua tahun.\n\nDalam budi dayanya, tanaman pangan dikelompokkan menjadi serealia, kacang-kacangan, dan umbi-umbian. Serealia seperti padi, jagung, dan sorgum dipanen bijinya. Kacang-kacangan seperti kedelai, kacang tanah, dan kacang hijau dipanen biji dalam polong. Umbi-umbian dipanen bagian umbinya.\n\nPadi, sorgum, dan kacang-kacangan menyerbuk sendiri, sedangkan jagung menyerbuk silang. Limbah budi daya berupa akar, batang, cabang, dan daun dapat diolah menjadi pupuk organik, biogas, atau pakan ternak seperti jerami dan silase.\n\n| Kelompok | Ciri | Contoh |\n|---|---|---|\n| Serealia | Rumput-rumputan, dipanen bijinya | Padi, jagung, sorgum |\n| Kacang-kacangan | Biji dalam polong | Kedelai, kacang tanah, kacang hijau |\n| Umbi-umbian | Bagian umbi dipanen | Ubi kayu, ubi jalar, talas |\n| Tanaman tahunan | Tumbuh lebih dari 2 tahun | Sukun, sagu |\n\n### Limbah bernilai ekonomi\n\n- Kompos meningkatkan kesuburan tanah dan mengurangi pupuk anorganik.\n- Biogas dihasilkan dari fermentasi limbah bercampur kotoran ternak.\n- Jerami dan daun sorgum dapat menjadi pakan ternak atau silase.\n- Pemanfaatan limbah mengurangi biaya produksi dan pencemaran lingkungan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengelompokkan tanaman pangan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Berdasarkan umurnya, tanaman pangan dibedakan menjadi tanaman semusim dan tanaman tahunan. Padi, jagung, dan sorgum berumur 3–4 bulan, sedangkan ubi kayu dan ubi jalar sekitar 4–8 bulan. Sukun dan sagu termasuk tanaman tahunan karena tumbuh lebih dari dua tahun."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dalam budi dayanya, tanaman pangan dikelompokkan menjadi serealia, kacang-kacangan, dan umbi-umbian. Serealia seperti padi, jagung, dan sorgum dipanen bijinya. Kacang-kacangan seperti kedelai, kacang tanah, dan kacang hijau dipanen biji dalam polong. Umbi-umbian dipanen bagian umbinya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Padi, sorgum, dan kacang-kacangan menyerbuk sendiri, sedangkan jagung menyerbuk silang. Limbah budi daya berupa akar, batang, cabang, dan daun dapat diolah menjadi pupuk organik, biogas, atau pakan ternak seperti jerami dan silase."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Kelompok",
+                  "Ciri",
+                  "Contoh"
+                ],
+                [
+                  "Serealia",
+                  "Rumput-rumputan, dipanen bijinya",
+                  "Padi, jagung, sorgum"
+                ],
+                [
+                  "Kacang-kacangan",
+                  "Biji dalam polong",
+                  "Kedelai, kacang tanah, kacang hijau"
+                ],
+                [
+                  "Umbi-umbian",
+                  "Bagian umbi dipanen",
+                  "Ubi kayu, ubi jalar, talas"
+                ],
+                [
+                  "Tanaman tahunan",
+                  "Tumbuh lebih dari 2 tahun",
+                  "Sukun, sagu"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-8-umur-panen",
+              "title": "Perkiraan umur panen tanaman pangan (hari)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Sorgum",
+                  "value": 100
+                },
+                {
+                  "label": "Jagung",
+                  "value": 110
+                },
+                {
+                  "label": "Padi",
+                  "value": 120
+                },
+                {
+                  "label": "Ubi jalar",
+                  "value": 150
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-8-klasifikasi",
+              "prompt": "Kelompokkan tanaman berikut ke dalam serealia, kacang-kacangan, atau umbi-umbian.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Serealia"
+                },
+                {
+                  "id": "b2",
+                  "label": "Kacang-kacangan"
+                },
+                {
+                  "id": "b3",
+                  "label": "Umbi-umbian"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Padi",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Sorgum",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Kedelai",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Kacang tanah",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Ubi kayu",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i6",
+                  "text": "Ubi jalar",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Padi dan sorgum serealia; kedelai dan kacang tanah kacang-kacangan; ubi kayu dan ubi jalar umbi-umbian.",
+                "wrong": "Periksa lagi: lihat bagian tanaman yang dipanen."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Limbah bernilai ekonomi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kompos meningkatkan kesuburan tanah dan mengurangi pupuk anorganik.",
+                "Biogas dihasilkan dari fermentasi limbah bercampur kotoran ternak.",
+                "Jerami dan daun sorgum dapat menjadi pakan ternak atau silase.",
+                "Pemanfaatan limbah mengurangi biaya produksi dan pencemaran lingkungan."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-8-budi-daya-tanaman-pangan-cp-2",
+              "question": "Hijauan hasil fermentasi untuk pakan ternak disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Silase",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Kompos"
+                },
+                {
+                  "id": "c2",
+                  "text": "Biogas"
+                },
+                {
+                  "id": "c3",
+                  "text": "BEP"
+                }
+              ],
+              "explanation": "Silase adalah pakan hijauan yang difermentasikan terlebih dahulu."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit I Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya",
+          "content": "## Budi daya sorgum dari tanam sampai panen\n\nSorgum dipilih karena dapat dimanfaatkan sebagai pangan, pakan, dan bioenergi. Gunakan benih varietas unggul seperti Samurai, Bioguma, atau Agritan Super 6. Olah lahan dengan cangkul dan garpu hingga gembur, lalu tambahkan kapur bila tanah terlalu asam.\n\nBuat lubang tanam dengan jarak 75 cm × 20 cm dan kedalaman sekitar 5 cm. Tanam dua benih per lubang, lalu lakukan penyulaman lima hari setelah tanam. Beri pupuk dasar pada 1 MST dan pupuk susulan pada 5 MST dengan dosis Urea 200 kg/ha, SP-36 100 kg/ha, dan KCl 100 kg/ha.\n\nPanen dilakukan saat biji mengeras dan muncul black layer. Potong tangkai malai, angin-anginkan 3–4 hari, lalu rontokkan biji. Batang dan daun diolah menjadi pakan ternak. Hitung biaya produksi dan keuntungan dengan rumus A = B − C − D.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Budi daya sorgum dari tanam sampai panen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sorgum dipilih karena dapat dimanfaatkan sebagai pangan, pakan, dan bioenergi. Gunakan benih varietas unggul seperti Samurai, Bioguma, atau Agritan Super 6. Olah lahan dengan cangkul dan garpu hingga gembur, lalu tambahkan kapur bila tanah terlalu asam."
+            },
+            {
+              "type": "paragraph",
+              "text": "Buat lubang tanam dengan jarak 75 cm × 20 cm dan kedalaman sekitar 5 cm. Tanam dua benih per lubang, lalu lakukan penyulaman lima hari setelah tanam. Beri pupuk dasar pada 1 MST dan pupuk susulan pada 5 MST dengan dosis Urea 200 kg/ha, SP-36 100 kg/ha, dan KCl 100 kg/ha."
+            },
+            {
+              "type": "paragraph",
+              "text": "Panen dilakukan saat biji mengeras dan muncul black layer. Potong tangkai malai, angin-anginkan 3–4 hari, lalu rontokkan biji. Batang dan daun diolah menjadi pakan ternak. Hitung biaya produksi dan keuntungan dengan rumus A = B − C − D."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-8-skenario",
+              "title": "Lahan sekolah yang sempit",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Sekolah memiliki lahan sempit dan tanah agak asam. Tanaman pangan apa yang paling tepat dicoba?",
+                  "choices": [
+                    {
+                      "text": "Sorgum karena adaptif dan bernilai ekonomi",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Sorgum dapat tumbuh di lahan kering dan punya banyak manfaat."
+                    },
+                    {
+                      "text": "Padi sawah karena butuh banyak air",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Lahan sempit dan kering kurang cocok untuk padi sawah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Tanaman terserang kutu daun. Apa tindakan yang tepat?",
+                  "choices": [
+                    {
+                      "text": "Mengendalikan hama sesuai kebutuhan dan dosis",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Pengendalian tepat menjaga tanaman dan lingkungan."
+                    },
+                    {
+                      "text": "Menyemprot pestisida sebanyak mungkin",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Dosis berlebihan merusak tanaman dan lingkungan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Tanaman gagal tumbuh dan biaya membengkak.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Sorgum panen dan limbahnya bernilai ekonomi.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-8-budi-daya-tanaman-pangan-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu tanaman pangan?",
+                  "back": "Tanaman sumber utama karbohidrat dan protein."
+                },
+                {
+                  "front": "Sebutkan tiga kelompok tanaman pangan.",
+                  "back": "Serealia, kacang-kacangan, dan umbi-umbian."
+                },
+                {
+                  "front": "Apa manfaat kompos?",
+                  "back": "Meningkatkan kesuburan tanah dan mengurangi pupuk anorganik."
+                },
+                {
+                  "front": "Apa rumus keuntungan usaha?",
+                  "back": "A = B − C − D, yaitu pendapatan dikurangi penyusutan dan biaya produksi."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-8-budi-daya-tanaman-pangan-cp-3",
+              "question": "Ciri sorgum siap panen adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Biji mengeras dan muncul black layer",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Daun berwarna biru"
+                },
+                {
+                  "id": "c2",
+                  "text": "Batang berisi air"
+                },
+                {
+                  "id": "c3",
+                  "text": "Malai belum keluar"
+                }
+              ],
+              "explanation": "Sorgum siap panen saat biji mengeras dan terbentuk black layer."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-8-tantangan",
+              "title": "Tantangan istilah tanaman pangan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Sumber karbohidrat dan protein",
+                  "answer": "tanaman pangan"
+                },
+                {
+                  "question": "Kelompok rumput-rumputan",
+                  "answer": "serealia"
+                },
+                {
+                  "question": "Biji dalam polong",
+                  "answer": "kacang-kacangan"
+                },
+                {
+                  "question": "Pupuk dari pelapukan limbah",
+                  "answer": "kompos"
+                },
+                {
+                  "question": "Titik impas usaha",
+                  "answer": "BEP"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Tanaman pangan menjadi sumber utama…",
+              "options": [
+                {
+                  "text": "Karbohidrat dan protein",
+                  "correct": true
+                },
+                {
+                  "text": "Air dan udara"
+                },
+                {
+                  "text": "Logam dan plastik"
+                },
+                {
+                  "text": "Pewarna dan pengawet"
+                }
+              ],
+              "explanation": "Tanaman pangan adalah sumber utama karbohidrat dan protein.",
+              "hint": "Juga mengandung lemak, vitamin, dan mineral."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kelompok tanaman rumput-rumputan yang dipanen bijinya disebut…",
+              "options": [
+                {
+                  "text": "Serealia",
+                  "correct": true
+                },
+                {
+                  "text": "Kacang-kacangan"
+                },
+                {
+                  "text": "Umbi-umbian"
+                },
+                {
+                  "text": "Tanaman tahunan"
+                }
+              ],
+              "explanation": "Serealia termasuk Gramineae atau rumput-rumputan.",
+              "hint": "Contohnya padi dan sorgum."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tanaman famili Leguminoseae yang dipanen biji dalam polong disebut…",
+              "options": [
+                {
+                  "text": "Kacang-kacangan",
+                  "correct": true
+                },
+                {
+                  "text": "Serealia"
+                },
+                {
+                  "text": "Umbi-umbian"
+                },
+                {
+                  "text": "Tanaman tahunan"
+                }
+              ],
+              "explanation": "Kacang-kacangan termasuk famili Leguminoseae.",
+              "hint": "Contohnya kedelai dan kacang hijau."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komoditi unggulan nasional tanaman pangan?",
+              "options": [
+                {
+                  "text": "Padi",
+                  "correct": true
+                },
+                {
+                  "text": "Jagung",
+                  "correct": true
+                },
+                {
+                  "text": "Sorgum",
+                  "correct": true
+                },
+                {
+                  "text": "Talas",
+                  "correct": false
+                },
+                {
+                  "text": "Gembili",
+                  "correct": false
+                }
+              ],
+              "explanation": "Padi, jagung, dan sorgum termasuk komoditi unggulan nasional.",
+              "hint": "Talas dan gembili komoditi unggulan daerah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kelompok tanaman pangan dalam budi daya?",
+              "options": [
+                {
+                  "text": "Serealia",
+                  "correct": true
+                },
+                {
+                  "text": "Kacang-kacangan",
+                  "correct": true
+                },
+                {
+                  "text": "Umbi-umbian",
+                  "correct": true
+                },
+                {
+                  "text": "Tanaman hias",
+                  "correct": false
+                },
+                {
+                  "text": "Tanaman obat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Buku mengelompokkan tanaman pangan menjadi serealia, kacang-kacangan, dan umbi-umbian.",
+              "hint": "Tanaman hias dan obat bukan kelompok tersebut."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh serealia?",
+              "options": [
+                {
+                  "text": "Padi, jagung, dan sorgum",
+                  "correct": true
+                },
+                {
+                  "text": "Kedelai, kacang tanah, kacang hijau"
+                },
+                {
+                  "text": "Ubi kayu dan ubi jalar"
+                },
+                {
+                  "text": "Sukun dan sagu"
+                }
+              ],
+              "explanation": "Padi, jagung, dan sorgum termasuk serealia.",
+              "hint": "Bagian yang dipanen adalah biji."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh kacang-kacangan?",
+              "options": [
+                {
+                  "text": "Kedelai, kacang tanah, kacang hijau",
+                  "correct": true
+                },
+                {
+                  "text": "Padi, jagung, sorgum"
+                },
+                {
+                  "text": "Ubi kayu, ubi jalar, talas"
+                },
+                {
+                  "text": "Sukun, sagu, kelapa"
+                }
+              ],
+              "explanation": "Kedelai, kacang tanah, dan kacang hijau termasuk kacang-kacangan.",
+              "hint": "Biji berada dalam polong."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pemanfaatan limbah budi daya tanaman?",
+              "options": [
+                {
+                  "text": "Pupuk organik",
+                  "correct": true
+                },
+                {
+                  "text": "Biogas",
+                  "correct": true
+                },
+                {
+                  "text": "Pakan ternak",
+                  "correct": true
+                },
+                {
+                  "text": "Dibuang ke sungai",
+                  "correct": false
+                },
+                {
+                  "text": "Dibakar sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Limbah dapat menjadi pupuk, biogas, dan pakan ternak.",
+              "hint": "Membuang ke sungai mencemari lingkungan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kegiatan pascapanen?",
+              "options": [
+                {
+                  "text": "Penjemuran",
+                  "correct": true
+                },
+                {
+                  "text": "Penyortiran",
+                  "correct": true
+                },
+                {
+                  "text": "Pencucian",
+                  "correct": true
+                },
+                {
+                  "text": "Penanaman",
+                  "correct": false
+                },
+                {
+                  "text": "Penyiangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pascapanen meliputi penjemuran, pencucian, dan penyortiran.",
+              "hint": "Penanaman dan penyiangan sebelum panen."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Tanaman pangan",
+                  "right": "sumber karbohidrat dan protein"
+                },
+                {
+                  "id": "m1",
+                  "left": "Serealia",
+                  "right": "biji dari rumput-rumputan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kacang-kacangan",
+                  "right": "biji yang berada dalam polong"
+                },
+                {
+                  "id": "m3",
+                  "left": "Umbi-umbian",
+                  "right": "bagian umbi yang dipanen"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "sumber karbohidrat dan protein",
+                  "m1": "biji dari rumput-rumputan",
+                  "m2": "biji yang berada dalam polong",
+                  "m3": "bagian umbi yang dipanen"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur budi daya tanaman pangan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Perencanaan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pengolahan lahan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Penanaman"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pemeliharaan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Panen dan pascapanen"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Budi daya bergerak dari perencanaan menuju panen.",
+              "hint": "Perencanaan mendahului pengolahan lahan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah budi daya sorgum.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Siapkan benih unggul"
+                },
+                {
+                  "id": "p1",
+                  "text": "Olah lahan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Buat lubang tanam"
+                },
+                {
+                  "id": "p3",
+                  "text": "Tanam dua benih per lubang"
+                },
+                {
+                  "id": "p4",
+                  "text": "Pupuk dan pelihara"
+                },
+                {
+                  "id": "p5",
+                  "text": "Panen"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "p5"
+                ]
+              },
+              "explanation": "Budi daya sorgum dimulai dari benih lalu penanaman.",
+              "hint": "Penyulaman dilakukan lima hari setelah tanam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tanaman yang menyerbuk silang adalah…",
+              "options": [
+                {
+                  "text": "Jagung",
+                  "correct": true
+                },
+                {
+                  "text": "Padi"
+                },
+                {
+                  "text": "Sorgum"
+                },
+                {
+                  "text": "Kacang hijau"
+                }
+              ],
+              "explanation": "Jagung adalah contoh tanaman menyerbuk silang.",
+              "hint": "Padi dan sorgum menyerbuk sendiri."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh tanaman tahunan?",
+              "options": [
+                {
+                  "text": "Sukun dan sagu",
+                  "correct": true
+                },
+                {
+                  "text": "Padi dan jagung"
+                },
+                {
+                  "text": "Sorgum dan kedelai"
+                },
+                {
+                  "text": "Kacang tanah dan kacang hijau"
+                }
+              ],
+              "explanation": "Sukun dan sagu tumbuh lebih dari dua tahun.",
+              "hint": "Tanaman semusim berumur beberapa bulan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri sorgum siap panen?",
+              "options": [
+                {
+                  "text": "Biji mengeras",
+                  "correct": true
+                },
+                {
+                  "text": "Muncul black layer",
+                  "correct": true
+                },
+                {
+                  "text": "Biji masih lunak",
+                  "correct": false
+                },
+                {
+                  "text": "Malai belum keluar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Biji keras dan black layer menandakan siap panen.",
+              "hint": "Panen dilakukan dengan memotong tangkai malai."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Umur tanaman padi, jagung, dan sorgum sekitar…",
+              "options": [
+                {
+                  "text": "3–4 bulan",
+                  "correct": true
+                },
+                {
+                  "text": "1–2 minggu"
+                },
+                {
+                  "text": "4–8 bulan"
+                },
+                {
+                  "text": "Lebih dari 2 tahun"
+                }
+              ],
+              "explanation": "Padi, jagung, dan sorgum berumur semusim 3–4 bulan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Limbah tanaman pangan yang mengalami pelapukan menjadi…",
+              "options": [
+                {
+                  "text": "Kompos",
+                  "correct": true
+                },
+                {
+                  "text": "Biogas"
+                },
+                {
+                  "text": "Silase"
+                },
+                {
+                  "text": "Pestisida"
+                }
+              ],
+              "explanation": "Limbah yang melapuk berubah menjadi kompos."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Hijauan hasil fermentasi untuk pakan ternak disebut…",
+              "options": [
+                {
+                  "text": "Silase",
+                  "correct": true
+                },
+                {
+                  "text": "Kompos"
+                },
+                {
+                  "text": "Biogas"
+                },
+                {
+                  "text": "Pupuk cair"
+                }
+              ],
+              "explanation": "Silase dibuat dengan fermentasi hijauan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah varietas unggul sorgum?",
+              "options": [
+                {
+                  "text": "Samurai, Bioguma, Agritan Super 6",
+                  "correct": true
+                },
+                {
+                  "text": "IR64, Ciherang, Inpari"
+                },
+                {
+                  "text": "Bisi 18, Pioneer 32"
+                },
+                {
+                  "text": "Kentang Granola, Atlantik"
+                }
+              ],
+              "explanation": "Buku menyebut Samurai, Bioguma, dan Agritan Super 6."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jarak tanam sorgum yang dianjurkan adalah…",
+              "options": [
+                {
+                  "text": "75 cm × 20 cm",
+                  "correct": true
+                },
+                {
+                  "text": "25 cm × 25 cm"
+                },
+                {
+                  "text": "50 cm × 50 cm"
+                },
+                {
+                  "text": "100 cm × 100 cm"
+                }
+              ],
+              "explanation": "Lubang tanam dibuat dengan jarak 75 cm × 20 cm."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alat budi daya tanaman pangan?",
+              "options": [
+                {
+                  "text": "Cangkul",
+                  "correct": true
+                },
+                {
+                  "text": "Garpu",
+                  "correct": true
+                },
+                {
+                  "text": "Tugal",
+                  "correct": true
+                },
+                {
+                  "text": "Solder",
+                  "correct": false
+                },
+                {
+                  "text": "Aerator",
+                  "correct": false
+                }
+              ],
+              "explanation": "Cangkul, garpu, dan tugal dipakai dalam budi daya tanaman."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah faktor keberhasilan budi daya?",
+              "options": [
+                {
+                  "text": "Benih unggul",
+                  "correct": true
+                },
+                {
+                  "text": "Pemupukan tepat",
+                  "correct": true
+                },
+                {
+                  "text": "Benih asal-asalan",
+                  "correct": false
+                },
+                {
+                  "text": "Hama dibiarkan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Benih unggul dan pemupukan tepat meningkatkan hasil."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Kompos",
+                  "right": "pupuk dari pelapukan limbah"
+                },
+                {
+                  "id": "m1",
+                  "left": "Silase",
+                  "right": "hijauan fermentasi untuk pakan"
+                },
+                {
+                  "id": "m2",
+                  "left": "BEP",
+                  "right": "titik impas usaha"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sorgum",
+                  "right": "tanaman pangan serbaguna"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pupuk dari pelapukan limbah",
+                  "m1": "hijauan fermentasi untuk pakan",
+                  "m2": "titik impas usaha",
+                  "m3": "tanaman pangan serbaguna"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat kompos.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Kumpulkan limbah organik"
+                },
+                {
+                  "id": "d1",
+                  "text": "Cacah bahan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Campur dengan bahan pemacu"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tumpuk dan tutup"
+                },
+                {
+                  "id": "d4",
+                  "text": "Balik berkala hingga matang"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kompos dibuat dari pencampuran lalu pemeraman."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah pascapanen sorgum.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Potong tangkai malai"
+                },
+                {
+                  "id": "p1",
+                  "text": "Angin-anginkan 3–4 hari"
+                },
+                {
+                  "id": "p2",
+                  "text": "Rontokkan biji"
+                },
+                {
+                  "id": "p3",
+                  "text": "Sosoh bila perlu"
+                },
+                {
+                  "id": "p4",
+                  "text": "Simpan dalam kemasan tertutup"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Pascapanen dimulai dari pemotongan malai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ciri sorgum siap panen adalah…",
+              "options": [
+                {
+                  "text": "Biji mengeras dan muncul black layer",
+                  "correct": true
+                },
+                {
+                  "text": "Daun berwarna biru"
+                },
+                {
+                  "text": "Batang berongga"
+                },
+                {
+                  "text": "Malai masih hijau"
+                }
+              ],
+              "explanation": "Biji yang mengeras dengan black layer menandakan siap panen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rumus keuntungan usaha budi daya adalah…",
+              "options": [
+                {
+                  "text": "A = B − C − D",
+                  "correct": true
+                },
+                {
+                  "text": "A = B + C + D"
+                },
+                {
+                  "text": "A = B × C × D"
+                },
+                {
+                  "text": "A = B ÷ C ÷ D"
+                }
+              ],
+              "explanation": "Keuntungan adalah pendapatan dikurangi penyusutan dan biaya produksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap budi daya tanaman pangan?",
+              "options": [
+                {
+                  "text": "Pengolahan lahan",
+                  "correct": true
+                },
+                {
+                  "text": "Penanaman",
+                  "correct": true
+                },
+                {
+                  "text": "Pemeliharaan",
+                  "correct": true
+                },
+                {
+                  "text": "Panen",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari perencanaan",
+                  "correct": false
+                },
+                {
+                  "text": "Membuang limbah ke sungai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Budi daya melalui pengolahan lahan, penanaman, pemeliharaan, dan panen."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Tanaman pangan",
+                  "right": "sumber karbohidrat dan protein"
+                },
+                {
+                  "id": "m1",
+                  "left": "Serealia",
+                  "right": "biji dari rumput-rumputan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kacang-kacangan",
+                  "right": "biji yang berada dalam polong"
+                },
+                {
+                  "id": "m3",
+                  "left": "Umbi-umbian",
+                  "right": "bagian umbi yang dipanen"
+                },
+                {
+                  "id": "m4",
+                  "left": "Kompos",
+                  "right": "pupuk dari pelapukan limbah"
+                },
+                {
+                  "id": "m5",
+                  "left": "Silase",
+                  "right": "hijauan fermentasi untuk pakan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "sumber karbohidrat dan protein",
+                  "m1": "biji dari rumput-rumputan",
+                  "m2": "biji yang berada dalam polong",
+                  "m3": "bagian umbi yang dipanen",
+                  "m4": "pupuk dari pelapukan limbah",
+                  "m5": "hijauan fermentasi untuk pakan"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah analisis usaha.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Catat biaya investasi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Hitung biaya produksi"
+                },
+                {
+                  "id": "d2",
+                  "text": "Hitung pendapatan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tentukan BEP"
+                },
+                {
+                  "id": "d4",
+                  "text": "Nilai keuntungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Analisis usaha bergerak dari biaya menuju keuntungan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

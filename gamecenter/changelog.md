@@ -8,7 +8,42 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-20 16:04 WIB (rilis 0.39.0).
+**Terakhir diperbarui:** 2026-11-20 16:23 WIB (rilis 0.40.0).
+
+## [0.40.0] - 2026-11-20 16:23 WIB
+
+**Batch 16 — buku Prakarya Budi Daya Kelas X tuntas 3/3 unit.**
+
+### Ditambah
+- **PRA 8 Budi Daya Tanaman Pangan dan Pemanfaatan Limbahnya** — glosarium
+  tanaman pangan, diagram alur budi daya, tabel serealia–kacang–umbi, grafik
+  umur panen, kelompokkan tanaman, pemanfaatan limbah menjadi kompos/biogas/
+  silase, skenario “Lahan sekolah yang sempit”, kartu istilah, dan tantangan.
+- **PRA 9 Budikdamber dan Pemanfaatan Limbahnya** — glosarium Budikdamber,
+  diagram alur air kaya hara, tabel komponen ember, grafik umur panen sayuran,
+  kelompokkan ikan/sayuran, pemeliharaan dan keselamatan, skenario “Budikdamber
+  di halaman sekolah”, dan tantangan istilah.
+- **PRA 10 Pemanfaatan Limbah Budi Daya Ternak** — glosarium limbah padat/cair,
+  diagram alur pengolahan, tabel produk olahan, grafik unsur hara kompos,
+  kelompokkan limbah padat/cair, lima teknik budi daya ternak dan analisis
+  usaha, skenario “Kandang ayam dekat pemukiman”, dan tantangan istilah.
+- Ketiga bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan
+  campuran pilihan ganda, jawaban ganda, menjodohkan, seret-lepas, dan susun
+  urutan; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- **Buku Prakarya Budi Daya X tuntas 3/3 unit**, seluruhnya memenuhi minimum
+  §5.3 (satu visual, empat aktivitas, dua skenario/tantangan, dua recall,
+  tiga checkpoint per bab).
+
+### Verifikasi
+- `gamecenter:materi-import --dry-run` → 76 berkas, **0 gagal**.
+- Impor sungguhan menambah **3 bab / 9 materi / 9 asesmen / 90 soal**.
+- `gamecenter:materi-coverage` → **77 dari 80 chapter** memenuhi minimum §5.3,
+  **2.695 blok**. PRA 8–10 masing-masing 26 blok, semuanya ✅.
+- `php artisan test` → **149 lulus, 1 dilewati, 1.635 asertion**; tes impor
+  mengharapkan 76 bab dan 2.280 soal, tes cakupan memeriksa kesepuluh bab
+  Prakarya dan halaman bermain PRA 1, PRA 4, serta PRA 8.
+- `npm run typecheck` dan `npm run build` → berhasil.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.39.0] - 2026-11-20 16:04 WIB
 

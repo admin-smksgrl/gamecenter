@@ -1,0 +1,1274 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 9",
+      "title": "Budikdamber dan Pemanfaatan Limbahnya",
+      "description": "Mengenal Budikdamber (budi daya ikan dan sayuran dalam ember): jenis ikan dan sayuran, alat dan bahan, perakitan ember, pemeliharaan, pemanenan, dan analisis usaha.",
+      "learning_objectives": [
+        "Mengeksplorasi Budikdamber dan pemanfaatan limbahnya.",
+        "Mengidentifikasi jenis ikan dan sayuran yang cocok untuk Budikdamber.",
+        "Merencanakan serta menyiapkan alat dan bahan Budikdamber.",
+        "Membuat, memelihara, dan memanen hasil Budikdamber.",
+        "Menganalisis usaha Budikdamber secara sederhana."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit II Budikdamber dan Pemanfaatan Limbahnya",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa Budikdamber cocok untuk lahan sempit?",
+          "duration": 240,
+          "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit II Budikdamber dan Pemanfaatan Limbahnya",
+          "content": "## Ikan dan sayur dalam satu ember\n\nBudikdamber adalah singkatan dari budi daya ikan dan sayuran dalam ember. Sistem ini menggabungkan pemeliharaan ikan dengan penanaman sayuran pada gelas plastik yang diletakkan di atas ember. Air kolam yang mengandung hara dimanfaatkan tanaman untuk tumbuh.\n\nLimbah budi daya ikan mengandung nitrogen, fosfor, dan senyawa lain dengan pH sekitar 7–8. Unsur hara tersebut sebenarnya dapat dimanfaatkan tanaman, sehingga Budikdamber mengubah limbah menjadi manfaat.\n\nBudikdamber tidak memerlukan lahan luas dan modal besar. Kegiatan ini cocok dilakukan di rumah, sekolah, atau pekarangan sempit, serta dapat menjadi sumber penghasilan tambahan bagi keluarga.\n\nGunakan ember yang kuat dan tidak bocor. Jauhkan sambungan listrik aerator dari air dan periksa selang secara berkala.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-9-budikdamber-glosarium",
+              "terms": [
+                {
+                  "term": "Budikdamber",
+                  "definition": "Budi daya ikan dan sayuran dalam ember dalam satu sistem."
+                },
+                {
+                  "term": "Aerator",
+                  "definition": "Alat yang memasok oksigen ke dalam air budi daya ikan."
+                },
+                {
+                  "term": "EM4",
+                  "definition": "Probiotik yang merangsang pertumbuhan bakteri baik di air."
+                },
+                {
+                  "term": "Probiotik",
+                  "definition": "Mikroorganisme bermanfaat yang membantu menjaga kualitas air dan kesehatan ikan."
+                },
+                {
+                  "term": "Kanibal",
+                  "definition": "Sifat ikan yang memakan sesamanya, misalnya pada lele."
+                },
+                {
+                  "term": "Benih",
+                  "definition": "Ikan atau tanaman muda yang siap ditebar atau ditanam."
+                },
+                {
+                  "term": "Limbah Budikdamber",
+                  "definition": "Sisa air dan kotoran ikan yang mengandung hara bagi tanaman."
+                },
+                {
+                  "term": "BEP",
+                  "definition": "Titik impas, yaitu jumlah penjualan yang menutup seluruh biaya usaha."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ikan dan sayur dalam satu ember"
+            },
+            {
+              "type": "paragraph",
+              "text": "Budikdamber adalah singkatan dari budi daya ikan dan sayuran dalam ember. Sistem ini menggabungkan pemeliharaan ikan dengan penanaman sayuran pada gelas plastik yang diletakkan di atas ember. Air kolam yang mengandung hara dimanfaatkan tanaman untuk tumbuh."
+            },
+            {
+              "type": "paragraph",
+              "text": "Limbah budi daya ikan mengandung nitrogen, fosfor, dan senyawa lain dengan pH sekitar 7–8. Unsur hara tersebut sebenarnya dapat dimanfaatkan tanaman, sehingga Budikdamber mengubah limbah menjadi manfaat."
+            },
+            {
+              "type": "paragraph",
+              "text": "Budikdamber tidak memerlukan lahan luas dan modal besar. Kegiatan ini cocok dilakukan di rumah, sekolah, atau pekarangan sempit, serta dapat menjadi sumber penghasilan tambahan bagi keluarga."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-9-budikdamber-diagram",
+              "engine": "mermaid",
+              "title": "Alur kerja Budikdamber",
+              "code": "flowchart LR\n  A[Ikan diberi pakan] --> B[Kotoran dan sisa pakan larut]\n  B --> C[Air kaya hara]\n  C --> D[Akar sayuran menyerap hara]\n  D --> E[Air kembali bersih]\n  E --> F[Ikan dan sayur dipanen]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan ember yang kuat dan tidak bocor. Jauhkan sambungan listrik aerator dari air dan periksa selang secara berkala."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-9-budikdamber-cp-1",
+              "question": "Apa kepanjangan Budikdamber?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Budi Daya Ikan dan Sayuran dalam Ember",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Budi Daya Ikan dan Sayuran dalam Bak"
+                },
+                {
+                  "id": "c2",
+                  "text": "Budidaya Ikan dan Sayuran di Sawah"
+                },
+                {
+                  "id": "c3",
+                  "text": "Budi Daya Tanaman dan Ikan di Kolam"
+                }
+              ],
+              "explanation": "Budikdamber adalah budi daya ikan dan sayuran dalam ember."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Ikan, sayuran, dan komponen ember",
+          "duration": 300,
+          "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit II Budikdamber dan Pemanfaatan Limbahnya",
+          "content": "## Memilih ikan dan menyiapkan ember\n\nTidak semua ikan cocok untuk Budikdamber. Ikan yang dipilih harus tahan terhadap kadar oksigen rendah, seperti lele, nila, mas, patin, dan gurame. Lele mudah dipelihara, omnivora, dan dapat dipanen pada usia 3–4 bulan, tetapi bersifat kanibal sehingga perlu pengaturan kepadatan.\n\nSayuran yang umum ditanam adalah kangkung, selada, bayam, sawi, dan pakcoy. Kangkung dan bayam dapat dipanen pada 20–25 hari, sedangkan sawi dan pakcoy sekitar 25–30 hari. Pilih sayuran yang sesuai dengan potensi lokal dan sinar matahari.\n\nEmber berkapasitas 60–80 liter diisi air sekitar 80 persen atau 60 liter. Tutup ember dilubangi untuk gelas plastik 250 ml, lalu gelas diisi arang batok kelapa sebagai media tanam. Tambahkan EM4 sebagai probiotik dan diamkan dua hari sebelum menebar benih.\n\n| Komponen | Fungsi | Catatan |\n|---|---|---|\n| Ember 60–80 L | Wadah air dan ikan | Isi air sekitar 80% |\n| Gelas plastik 250 ml | Media tanam sayuran | Lubangi sisi dan bawah |\n| Arang batok kelapa | Media tanam | Isi seperempat gelas |\n| Aerator | Memasok oksigen | Dianjurkan bila ikan padat |\n| EM4 | Probiotik | Diamkan dua hari sebelum tebar benih |\n\n### Pemeliharaan dan keselamatan\n\n- Beri pakan secara teratur dan jangan berlebihan agar air tidak memburuk.\n- Periksa kualitas air dan bersihkan kotoran yang mengendap.\n- Gunakan aerator bila kepadatan ikan tinggi atau cuaca panas.\n- Letakkan ember di tempat yang mendapat sinar matahari cukup dan aman dari jangkauan anak kecil.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Memilih ikan dan menyiapkan ember"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tidak semua ikan cocok untuk Budikdamber. Ikan yang dipilih harus tahan terhadap kadar oksigen rendah, seperti lele, nila, mas, patin, dan gurame. Lele mudah dipelihara, omnivora, dan dapat dipanen pada usia 3–4 bulan, tetapi bersifat kanibal sehingga perlu pengaturan kepadatan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sayuran yang umum ditanam adalah kangkung, selada, bayam, sawi, dan pakcoy. Kangkung dan bayam dapat dipanen pada 20–25 hari, sedangkan sawi dan pakcoy sekitar 25–30 hari. Pilih sayuran yang sesuai dengan potensi lokal dan sinar matahari."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ember berkapasitas 60–80 liter diisi air sekitar 80 persen atau 60 liter. Tutup ember dilubangi untuk gelas plastik 250 ml, lalu gelas diisi arang batok kelapa sebagai media tanam. Tambahkan EM4 sebagai probiotik dan diamkan dua hari sebelum menebar benih."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Komponen",
+                  "Fungsi",
+                  "Catatan"
+                ],
+                [
+                  "Ember 60–80 L",
+                  "Wadah air dan ikan",
+                  "Isi air sekitar 80%"
+                ],
+                [
+                  "Gelas plastik 250 ml",
+                  "Media tanam sayuran",
+                  "Lubangi sisi dan bawah"
+                ],
+                [
+                  "Arang batok kelapa",
+                  "Media tanam",
+                  "Isi seperempat gelas"
+                ],
+                [
+                  "Aerator",
+                  "Memasok oksigen",
+                  "Dianjurkan bila ikan padat"
+                ],
+                [
+                  "EM4",
+                  "Probiotik",
+                  "Diamkan dua hari sebelum tebar benih"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-9-umur-panen",
+              "title": "Perkiraan umur panen sayuran Budikdamber (hari)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Kangkung",
+                  "value": 22
+                },
+                {
+                  "label": "Bayam",
+                  "value": 25
+                },
+                {
+                  "label": "Sawi",
+                  "value": 28
+                },
+                {
+                  "label": "Pakcoy",
+                  "value": 30
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-9-klasifikasi",
+              "prompt": "Kelompokkan berikut ke dalam ikan Budikdamber atau sayuran Budikdamber.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Ikan"
+                },
+                {
+                  "id": "b2",
+                  "label": "Sayuran"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Lele",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Nila",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Patin",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Kangkung",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Sawi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Pakcoy",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Lele, nila, dan patin adalah ikan; kangkung, sawi, dan pakcoy adalah sayuran.",
+                "wrong": "Periksa lagi: ikan hidup di air, sayuran ditanam di gelas media."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Pemeliharaan dan keselamatan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Beri pakan secara teratur dan jangan berlebihan agar air tidak memburuk.",
+                "Periksa kualitas air dan bersihkan kotoran yang mengendap.",
+                "Gunakan aerator bila kepadatan ikan tinggi atau cuaca panas.",
+                "Letakkan ember di tempat yang mendapat sinar matahari cukup dan aman dari jangkauan anak kecil."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-9-budikdamber-cp-2",
+              "question": "Mengapa lele perlu diatur kepadatannya dalam Budikdamber?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Karena lele bersifat kanibal",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Karena lele tidak tahan air"
+                },
+                {
+                  "id": "c2",
+                  "text": "Karena lele tidak mau makan"
+                },
+                {
+                  "id": "c3",
+                  "text": "Karena lele hidup di darat"
+                }
+              ],
+              "explanation": "Lele bersifat kanibal sehingga kepadatan perlu diatur agar tidak saling memakan."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Budi-Daya-BG-KLS-X.pdf Unit II Budikdamber dan Pemanfaatan Limbahnya",
+          "content": "## Merakit dan merawat Budikdamber\n\nSiapkan ember 60–80 liter, solder, gelas plastik 250 ml, tang, dan aerator. Lubangi tutup ember dan gelas, lalu pasang kait kawat sepanjang 12 cm agar gelas menggantung di tepi ember. Isi gelas dengan arang batok kelapa seperempat bagian.\n\nIsi ember dengan air sekitar 60 liter, tambahkan EM4, dan diamkan dua hari. Semai benih sayuran, lalu tanam semaian pada arang di dalam gelas. Tebar benih ikan lele atau nila berukuran 5–12 cm sebanyak 60–100 ekor.\n\nRawat dengan memberi pakan teratur dan menjaga air tetap bersih. Amati pertumbuhan ikan dan sayuran setiap hari. Setelah 20–30 hari sayuran dapat dipanen, sedangkan ikan dipanen pada usia 3–4 bulan. Catat biaya dan hasil untuk analisis usaha.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Merakit dan merawat Budikdamber"
+            },
+            {
+              "type": "paragraph",
+              "text": "Siapkan ember 60–80 liter, solder, gelas plastik 250 ml, tang, dan aerator. Lubangi tutup ember dan gelas, lalu pasang kait kawat sepanjang 12 cm agar gelas menggantung di tepi ember. Isi gelas dengan arang batok kelapa seperempat bagian."
+            },
+            {
+              "type": "paragraph",
+              "text": "Isi ember dengan air sekitar 60 liter, tambahkan EM4, dan diamkan dua hari. Semai benih sayuran, lalu tanam semaian pada arang di dalam gelas. Tebar benih ikan lele atau nila berukuran 5–12 cm sebanyak 60–100 ekor."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rawat dengan memberi pakan teratur dan menjaga air tetap bersih. Amati pertumbuhan ikan dan sayuran setiap hari. Setelah 20–30 hari sayuran dapat dipanen, sedangkan ikan dipanen pada usia 3–4 bulan. Catat biaya dan hasil untuk analisis usaha."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-9-skenario",
+              "title": "Budikdamber di halaman sekolah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Halaman sekolah sempit dan panas. Apa pilihan budi daya yang paling sesuai?",
+                  "choices": [
+                    {
+                      "text": "Budikdamber dengan ember dan aerator",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Budikdamber cocok untuk lahan sempit dan dapat memakai aerator."
+                    },
+                    {
+                      "text": "Membuat kolam besar",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Kolam besar membutuhkan lahan dan biaya lebih banyak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Air ember mulai keruh dan berbau. Apa tindakanmu?",
+                  "choices": [
+                    {
+                      "text": "Mengurangi pakan dan memeriksa kualitas air",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Pakan berlebih membuat air memburuk."
+                    },
+                    {
+                      "text": "Menambah pakan agar ikan cepat besar",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Pakan berlebih memperparah kualitas air."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Ikan mati dan sayuran ikut rusak.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Air kembali jernih dan panen berhasil.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-9-budikdamber-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu Budikdamber?",
+                  "back": "Budi daya ikan dan sayuran dalam ember."
+                },
+                {
+                  "front": "Ikan apa yang tahan oksigen rendah?",
+                  "back": "Lele, nila, mas, patin, dan gurame."
+                },
+                {
+                  "front": "Berapa lama air didiamkan setelah diberi EM4?",
+                  "back": "Dua hari."
+                },
+                {
+                  "front": "Apa fungsi aerator?",
+                  "back": "Memasok oksigen ke dalam air."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-9-budikdamber-cp-3",
+              "question": "Agar air Budikdamber tidak cepat memburuk, pemberian pakan harus…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Teratur dan tidak berlebihan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Sebanyak mungkin setiap saat"
+                },
+                {
+                  "id": "c2",
+                  "text": "Dihentikan selamanya"
+                },
+                {
+                  "id": "c3",
+                  "text": "Diberikan hanya sekali seumur hidup"
+                }
+              ],
+              "explanation": "Pakan yang berlebihan membusuk dan menurunkan kualitas air."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-9-tantangan",
+              "title": "Tantangan istilah Budikdamber",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Ikan dan sayur dalam ember",
+                  "answer": "budikdamber"
+                },
+                {
+                  "question": "Pemasok oksigen air",
+                  "answer": "aerator"
+                },
+                {
+                  "question": "Probiotik untuk air",
+                  "answer": "EM4"
+                },
+                {
+                  "question": "Ikan tahan oksigen rendah",
+                  "answer": "lele"
+                },
+                {
+                  "question": "Titik impas usaha",
+                  "answer": "BEP"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Budikdamber dan Pemanfaatan Limbahnya — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa kepanjangan Budikdamber?",
+              "options": [
+                {
+                  "text": "Budi Daya Ikan dan Sayuran dalam Ember",
+                  "correct": true
+                },
+                {
+                  "text": "Budi Daya Ikan dan Sayuran dalam Bak"
+                },
+                {
+                  "text": "Budidaya Ikan dan Sayuran di Sawah"
+                },
+                {
+                  "text": "Budi Daya Tanaman dan Ikan di Kolam"
+                }
+              ],
+              "explanation": "Budikdamber adalah budi daya ikan dan sayuran dalam ember.",
+              "hint": "Singkatannya berasal dari kata budi daya, ikan, dan ember."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kapasitas ember yang dianjurkan untuk Budikdamber adalah…",
+              "options": [
+                {
+                  "text": "60–80 liter",
+                  "correct": true
+                },
+                {
+                  "text": "5–10 liter"
+                },
+                {
+                  "text": "200–300 liter"
+                },
+                {
+                  "text": "1.000 liter"
+                }
+              ],
+              "explanation": "Ember yang dipakai berkapasitas 60–80 liter.",
+              "hint": "Ada juga yang memakai ember 15 liter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Air dalam ember Budikdamber diisi sebanyak…",
+              "options": [
+                {
+                  "text": "Sekitar 80 persen",
+                  "correct": true
+                },
+                {
+                  "text": "10 persen"
+                },
+                {
+                  "text": "30 persen"
+                },
+                {
+                  "text": "Penuh sampai tumpah"
+                }
+              ],
+              "explanation": "Ember diisi air sebanyak 80 persen dari kapasitas.",
+              "hint": "Biasanya sekitar 60 liter."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah keunggulan Budikdamber?",
+              "options": [
+                {
+                  "text": "Tidak perlu lahan luas",
+                  "correct": true
+                },
+                {
+                  "text": "Modal relatif kecil",
+                  "correct": true
+                },
+                {
+                  "text": "Mudah dilakukan",
+                  "correct": true
+                },
+                {
+                  "text": "Wajib memakai lahan sawah",
+                  "correct": false
+                },
+                {
+                  "text": "Memerlukan modal sangat besar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Budikdamber hemat lahan, modal kecil, dan mudah dilakukan.",
+              "hint": "Tidak memerlukan sawah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ikan yang cocok untuk Budikdamber?",
+              "options": [
+                {
+                  "text": "Lele",
+                  "correct": true
+                },
+                {
+                  "text": "Nila",
+                  "correct": true
+                },
+                {
+                  "text": "Patin",
+                  "correct": true
+                },
+                {
+                  "text": "Hiu",
+                  "correct": false
+                },
+                {
+                  "text": "Paus",
+                  "correct": false
+                }
+              ],
+              "explanation": "Lele, nila, dan patin cocok untuk Budikdamber.",
+              "hint": "Hiu dan paus bukan ikan budi daya."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Budikdamber dan Pemanfaatan Limbahnya — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ikan yang tahan terhadap kadar oksigen rendah adalah…",
+              "options": [
+                {
+                  "text": "Lele",
+                  "correct": true
+                },
+                {
+                  "text": "Nila"
+                },
+                {
+                  "text": "Mas"
+                },
+                {
+                  "text": "Gurame"
+                }
+              ],
+              "explanation": "Lele termasuk ikan yang tahan kadar oksigen rendah.",
+              "hint": "Lele juga omnivora dan mudah dirawat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ikan yang membutuhkan tambahan aerator karena butuh banyak oksigen adalah…",
+              "options": [
+                {
+                  "text": "Nila",
+                  "correct": true
+                },
+                {
+                  "text": "Lele"
+                },
+                {
+                  "text": "Patin"
+                },
+                {
+                  "text": "Betok"
+                }
+              ],
+              "explanation": "Nila membutuhkan pasokan oksigen cukup tinggi.",
+              "hint": "Ikan mas juga memerlukan aerator."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sayuran yang cocok untuk Budikdamber?",
+              "options": [
+                {
+                  "text": "Kangkung",
+                  "correct": true
+                },
+                {
+                  "text": "Sawi",
+                  "correct": true
+                },
+                {
+                  "text": "Pakcoy",
+                  "correct": true
+                },
+                {
+                  "text": "Jagung",
+                  "correct": false
+                },
+                {
+                  "text": "Padi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kangkung, sawi, dan pakcoy cocok ditanam di Budikdamber.",
+              "hint": "Jagung dan padi bukan tanaman Budikdamber."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alat yang dipakai membuat Budikdamber?",
+              "options": [
+                {
+                  "text": "Ember",
+                  "correct": true
+                },
+                {
+                  "text": "Solder",
+                  "correct": true
+                },
+                {
+                  "text": "Gelas plastik",
+                  "correct": true
+                },
+                {
+                  "text": "Cangkul",
+                  "correct": false
+                },
+                {
+                  "text": "Traktor",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ember, solder, dan gelas plastik dipakai membuat Budikdamber.",
+              "hint": "Cangkul dan traktor untuk lahan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Budikdamber",
+                  "right": "budi daya ikan dan sayuran dalam ember"
+                },
+                {
+                  "id": "m1",
+                  "left": "Aerator",
+                  "right": "pemasok oksigen ke air"
+                },
+                {
+                  "id": "m2",
+                  "left": "EM4",
+                  "right": "probiotik untuk kualitas air"
+                },
+                {
+                  "id": "m3",
+                  "left": "Arang batok kelapa",
+                  "right": "media tanam sayuran"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "budi daya ikan dan sayuran dalam ember",
+                  "m1": "pemasok oksigen ke air",
+                  "m2": "probiotik untuk kualitas air",
+                  "m3": "media tanam sayuran"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat ember Budikdamber.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Lubangi tutup ember"
+                },
+                {
+                  "id": "d1",
+                  "text": "Lubangi gelas plastik"
+                },
+                {
+                  "id": "d2",
+                  "text": "Pasang kait kawat"
+                },
+                {
+                  "id": "d3",
+                  "text": "Isi gelas dengan arang"
+                },
+                {
+                  "id": "d4",
+                  "text": "Isi ember dengan air dan EM4"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pembuatan dimulai dari pelubangan lalu pengisian media.",
+              "hint": "Air didiamkan dua hari sebelum ditebar benih."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menyemai dan menanam sayuran.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Semai benih sayuran"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tunggu benih tumbuh"
+                },
+                {
+                  "id": "p2",
+                  "text": "Pindahkan semaian ke gelas"
+                },
+                {
+                  "id": "p3",
+                  "text": "Letakkan gelas di tepi ember"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Sayuran disemai lebih dahulu lalu dipindah ke gelas.",
+              "hint": "Media arang menjaga akar tetap lembap."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ikan yang bersifat kanibal sehingga kepadatannya perlu diatur adalah…",
+              "options": [
+                {
+                  "text": "Lele",
+                  "correct": true
+                },
+                {
+                  "text": "Nila"
+                },
+                {
+                  "text": "Patin"
+                },
+                {
+                  "text": "Gurame"
+                }
+              ],
+              "explanation": "Lele mempunyai sifat kanibal.",
+              "hint": "Kepadatan terlalu tinggi membuat ikan saling memakan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Umur panen ikan lele dalam Budikdamber sekitar…",
+              "options": [
+                {
+                  "text": "3–4 bulan",
+                  "correct": true
+                },
+                {
+                  "text": "1 minggu"
+                },
+                {
+                  "text": "1 tahun"
+                },
+                {
+                  "text": "5 tahun"
+                }
+              ],
+              "explanation": "Lele dapat dipanen pada usia 3–4 bulan.",
+              "hint": "Patin juga sekitar 3–4 bulan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bahan Budikdamber?",
+              "options": [
+                {
+                  "text": "Arang batok kelapa",
+                  "correct": true
+                },
+                {
+                  "text": "Kawat",
+                  "correct": true
+                },
+                {
+                  "text": "EM4",
+                  "correct": true
+                },
+                {
+                  "text": "Semen",
+                  "correct": false
+                },
+                {
+                  "text": "Bata merah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Arang batok, kawat, dan EM4 termasuk bahan Budikdamber.",
+              "hint": "Semen dan bata bukan bahan utamanya."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Budikdamber dan Pemanfaatan Limbahnya — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Sayuran yang dapat dipanen pada 20–25 hari adalah…",
+              "options": [
+                {
+                  "text": "Kangkung dan bayam",
+                  "correct": true
+                },
+                {
+                  "text": "Sawi dan pakcoy"
+                },
+                {
+                  "text": "Padi dan jagung"
+                },
+                {
+                  "text": "Tomat dan cabai"
+                }
+              ],
+              "explanation": "Kangkung dan bayam berumur panen 20–25 hari."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sayuran yang dapat dipanen pada 25–30 hari adalah…",
+              "options": [
+                {
+                  "text": "Sawi dan pakcoy",
+                  "correct": true
+                },
+                {
+                  "text": "Kangkung dan bayam"
+                },
+                {
+                  "text": "Padi dan sorgum"
+                },
+                {
+                  "text": "Kedelai dan kacang tanah"
+                }
+              ],
+              "explanation": "Sawi dan pakcoy dipanen setelah 25–30 hari."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Media tanam yang diletakkan di dalam gelas Budikdamber adalah…",
+              "options": [
+                {
+                  "text": "Arang batok kelapa",
+                  "correct": true
+                },
+                {
+                  "text": "Tanah liat"
+                },
+                {
+                  "text": "Pasir besi"
+                },
+                {
+                  "text": "Semen"
+                }
+              ],
+              "explanation": "Gelas diisi arang batok kelapa sebagai media tanam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan yang ditambahkan ke air sebagai probiotik adalah…",
+              "options": [
+                {
+                  "text": "EM4",
+                  "correct": true
+                },
+                {
+                  "text": "Pestisida"
+                },
+                {
+                  "text": "Pupuk urea"
+                },
+                {
+                  "text": "Garam dapur"
+                }
+              ],
+              "explanation": "EM4 adalah probiotik yang merangsang bakteri baik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Setelah diberi EM4, air didiamkan selama…",
+              "options": [
+                {
+                  "text": "Dua hari",
+                  "correct": true
+                },
+                {
+                  "text": "Dua jam"
+                },
+                {
+                  "text": "Dua minggu"
+                },
+                {
+                  "text": "Dua bulan"
+                }
+              ],
+              "explanation": "Air yang diberi EM4 didiamkan dua hari sebelum ditebar benih."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Unsur yang terkandung dalam limbah air budi daya ikan adalah…",
+              "options": [
+                {
+                  "text": "Nitrogen",
+                  "correct": true
+                },
+                {
+                  "text": "Fosfor",
+                  "correct": true
+                },
+                {
+                  "text": "Plastik",
+                  "correct": false
+                },
+                {
+                  "text": "Logam berat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Limbah air kolam mengandung nitrogen dan fosfor."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tindakan perawatan Budikdamber?",
+              "options": [
+                {
+                  "text": "Memberi pakan teratur",
+                  "correct": true
+                },
+                {
+                  "text": "Menjaga kualitas air",
+                  "correct": true
+                },
+                {
+                  "text": "Membiarkan air kotor",
+                  "correct": false
+                },
+                {
+                  "text": "Menabur pestisida ke air",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pakan teratur dan air bersih menjaga ikan serta sayuran."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Lele",
+                  "right": "ikan tahan oksigen rendah"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kangkung",
+                  "right": "sayuran panen 20–25 hari"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pakcoy",
+                  "right": "sayuran panen 25–30 hari"
+                },
+                {
+                  "id": "m3",
+                  "left": "BEP",
+                  "right": "titik impas usaha"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "ikan tahan oksigen rendah",
+                  "m1": "sayuran panen 20–25 hari",
+                  "m2": "sayuran panen 25–30 hari",
+                  "m3": "titik impas usaha"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah memelihara Budikdamber.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Beri pakan teratur"
+                },
+                {
+                  "id": "d1",
+                  "text": "Periksa kualitas air"
+                },
+                {
+                  "id": "d2",
+                  "text": "Bersihkan kotoran"
+                },
+                {
+                  "id": "d3",
+                  "text": "Amati pertumbuhan ikan dan sayur"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Pemeliharaan dimulai dari pakan lalu pemeriksaan air."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah panen Budikdamber.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Panen sayuran lebih dahulu"
+                },
+                {
+                  "id": "p1",
+                  "text": "Periksa ukuran ikan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Panen ikan sesuai umur"
+                },
+                {
+                  "id": "p3",
+                  "text": "Catat hasil panen"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Sayuran dipanen lebih cepat daripada ikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jumlah benih ikan yang ditebar untuk ember 80 liter sekitar…",
+              "options": [
+                {
+                  "text": "60–100 ekor",
+                  "correct": true
+                },
+                {
+                  "text": "5–10 ekor"
+                },
+                {
+                  "text": "500–1.000 ekor"
+                },
+                {
+                  "text": "2–3 ekor"
+                }
+              ],
+              "explanation": "Benih ikan berukuran 5–12 cm ditebar 60–100 ekor."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Keunggulan utama Budikdamber adalah…",
+              "options": [
+                {
+                  "text": "Tidak memerlukan lahan luas",
+                  "correct": true
+                },
+                {
+                  "text": "Memerlukan lahan sangat luas"
+                },
+                {
+                  "text": "Modalnya sangat besar"
+                },
+                {
+                  "text": "Hanya bisa dilakukan di sawah"
+                }
+              ],
+              "explanation": "Budikdamber tidak memerlukan lahan luas dan modal besar."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap Budikdamber?",
+              "options": [
+                {
+                  "text": "Persiapan ember",
+                  "correct": true
+                },
+                {
+                  "text": "Penebaran benih",
+                  "correct": true
+                },
+                {
+                  "text": "Pemeliharaan",
+                  "correct": true
+                },
+                {
+                  "text": "Panen",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari perencanaan",
+                  "correct": false
+                },
+                {
+                  "text": "Membuang limbah ke sungai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Budikdamber melalui persiapan, penebaran, pemeliharaan, dan panen."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Budikdamber",
+                  "right": "budi daya ikan dan sayuran dalam ember"
+                },
+                {
+                  "id": "m1",
+                  "left": "Aerator",
+                  "right": "pemasok oksigen ke air"
+                },
+                {
+                  "id": "m2",
+                  "left": "EM4",
+                  "right": "probiotik untuk kualitas air"
+                },
+                {
+                  "id": "m3",
+                  "left": "Arang batok kelapa",
+                  "right": "media tanam sayuran"
+                },
+                {
+                  "id": "m4",
+                  "left": "Lele",
+                  "right": "ikan tahan oksigen rendah"
+                },
+                {
+                  "id": "m5",
+                  "left": "Kangkung",
+                  "right": "sayuran panen 20–25 hari"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "budi daya ikan dan sayuran dalam ember",
+                  "m1": "pemasok oksigen ke air",
+                  "m2": "probiotik untuk kualitas air",
+                  "m3": "media tanam sayuran",
+                  "m4": "ikan tahan oksigen rendah",
+                  "m5": "sayuran panen 20–25 hari"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah analisis usaha Budikdamber.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Catat biaya alat dan bahan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Hitung biaya pakan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Hitung hasil penjualan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tentukan BEP"
+                },
+                {
+                  "id": "d4",
+                  "text": "Nilai keuntungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Analisis usaha bergerak dari biaya menuju keuntungan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
