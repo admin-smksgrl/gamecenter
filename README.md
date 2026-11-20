@@ -328,6 +328,7 @@ Rincian: [doc/fase-5-implementasi.md](doc/fase-5-implementasi.md).
 |---------|-----|
 | [doc/plan-materi-SMASMK.md](doc/plan-materi-SMASMK.md) | Rencana materi SMA/SMK: 79 bab, 2.370 soal, 5 tahap |
 | [doc/peta-cakupan-materi.md](doc/peta-cakupan-materi.md) | Peta cakupan 88 buku ajar / ±253 bab + urutan pengerjaan |
+| [doc/lanjutan-berikutnya.md](doc/lanjutan-berikutnya.md) | Titik lanjut antar sesi: keadaan rilis, langkah berikutnya, resep per bab |
 | [doc/fase-4-implementasi.md](doc/fase-4-implementasi.md) | Tema, navigasi jenjang, dan keputusan desain |
 | [doc/fase-5-implementasi.md](doc/fase-5-implementasi.md) | Kesiapan deploy & gerbang rilis |
 | [gamecenter/changelog.md](gamecenter/changelog.md) | Riwayat rilis 0.1.0 → 0.46.0 |
