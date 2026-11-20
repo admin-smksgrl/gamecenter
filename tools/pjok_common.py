@@ -288,12 +288,12 @@ def build_materials(chapter):
     ]
 
 
-def write_chapter(chapter):
+def write_chapter(chapter, subject='pjok', folder='pjok'):
     payload = {
         'schema_version': 1,
         'level': 'sma',
         'class': 'kelas-10',
-        'subject': 'pjok',
+        'subject': subject,
         'phase': 'E',
         'chapters': [
             {
@@ -309,7 +309,7 @@ def write_chapter(chapter):
         ],
     }
 
-    simpan(f"pjok/{chapter['slug']}.json", payload)
+    simpan(f"{folder}/{chapter['slug']}.json", payload)
 
 
 def scenario(block_id, title, start, nodes):

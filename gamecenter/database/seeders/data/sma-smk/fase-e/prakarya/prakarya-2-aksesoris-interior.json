@@ -1,0 +1,1262 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 2",
+      "title": "Produk Aksesoris Interior Nusantara",
+      "description": "Mengenal aksesoris interior Nusantara, bahan lokal, teknik makrame, tanah liat, dan anyaman, serta merancang produk yang ergonomis.",
+      "learning_objectives": [
+        "Mengeksplorasi bentuk, bahan, alat, dan teknik aksesoris interior Nusantara.",
+        "Menganalisis potensi nilai ekonomis produk aksesoris interior berbasis sumber daya lokal.",
+        "Merancang aksesoris interior dengan pertimbangan ergonomi dan keselamatan.",
+        "Membuat produk aksesoris interior yang fungsional dan estetis.",
+        "Mempresentasikan serta mengevaluasi produk dan rencana tindak lanjut."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Kerajinan-BG-KLS-X.pdf Unit 2 Produk Aksesoris Interior Nusantara",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa aksesoris interior menarik?",
+          "duration": 240,
+          "source_reference": "Prakarya-Kerajinan-BG-KLS-X.pdf Unit 2 Produk Aksesoris Interior Nusantara",
+          "content": "## Menghias ruang dengan kearifan lokal\n\nAksesoris interior adalah benda yang memperindah dan melengkapi ruangan di dalam rumah. Contohnya hiasan dinding, vas, kap lampu, cermin hias, bantal, dan taplak meja. Benda-benda ini membuat ruangan terasa lebih hangat dan personal.\n\nNusantara memiliki bahan lokal yang kaya untuk aksesoris interior, seperti bambu, rotan, tanah liat, kayu, dan kain. Setiap daerah mengembangkan teknik dan motif yang khas, sehingga produknya tidak mudah disamakan dengan daerah lain.\n\nMembuat aksesoris interior melatih kreativitas, ketelitian, dan jiwa wirausaha. Produk yang dirancang baik dapat mempercantik ruangan sekaligus menjadi sumber penghasilan.\n\nSaat membentuk tanah liat atau memotong bambu, gunakan alas kerja dan sarung tangan agar tangan tetap aman.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-2-aksesoris-interior-glosarium",
+              "terms": [
+                {
+                  "term": "Aksesoris interior",
+                  "definition": "Benda penghias dan pelengkap ruangan di dalam rumah."
+                },
+                {
+                  "term": "Makrame",
+                  "definition": "Teknik membuat kerajinan dengan simpul tali tanpa alat tenun."
+                },
+                {
+                  "term": "Tanah liat",
+                  "definition": "Bahan alami yang dapat dibentuk dan dibakar menjadi keramik."
+                },
+                {
+                  "term": "Teknik pilin",
+                  "definition": "Membentuk tanah liat dengan menggulungnya memanjang seperti tali."
+                },
+                {
+                  "term": "Teknik lempeng",
+                  "definition": "Membentuk tanah liat menjadi lembaran tipis yang rata."
+                },
+                {
+                  "term": "Anyaman",
+                  "definition": "Teknik menyilangkan bahan pipih seperti bambu atau rotan."
+                },
+                {
+                  "term": "Finishing",
+                  "definition": "Tahap akhir pelapisan produk agar rapi, kuat, dan menarik."
+                },
+                {
+                  "term": "Terakota",
+                  "definition": "Warna merah kecokelatan khas tanah liat setelah dibakar."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menghias ruang dengan kearifan lokal"
+            },
+            {
+              "type": "paragraph",
+              "text": "Aksesoris interior adalah benda yang memperindah dan melengkapi ruangan di dalam rumah. Contohnya hiasan dinding, vas, kap lampu, cermin hias, bantal, dan taplak meja. Benda-benda ini membuat ruangan terasa lebih hangat dan personal."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nusantara memiliki bahan lokal yang kaya untuk aksesoris interior, seperti bambu, rotan, tanah liat, kayu, dan kain. Setiap daerah mengembangkan teknik dan motif yang khas, sehingga produknya tidak mudah disamakan dengan daerah lain."
+            },
+            {
+              "type": "paragraph",
+              "text": "Membuat aksesoris interior melatih kreativitas, ketelitian, dan jiwa wirausaha. Produk yang dirancang baik dapat mempercantik ruangan sekaligus menjadi sumber penghasilan."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-2-aksesoris-interior-diagram",
+              "engine": "mermaid",
+              "title": "Alur proyek aksesoris interior",
+              "code": "flowchart LR\n  A[Observasi kebutuhan ruang] --> B[Pemilihan bahan lokal]\n  B --> C[Perancangan produk]\n  C --> D[Pembuatan]\n  D --> E[Finishing]\n  E --> F[Presentasi dan evaluasi]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Saat membentuk tanah liat atau memotong bambu, gunakan alas kerja dan sarung tangan agar tangan tetap aman."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-2-aksesoris-interior-cp-1",
+              "question": "Apa yang dimaksud aksesoris interior?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Benda penghias ruangan di dalam rumah",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Benda penghias taman"
+                },
+                {
+                  "id": "c2",
+                  "text": "Alat memasak"
+                },
+                {
+                  "id": "c3",
+                  "text": "Pakaian yang dipakai di tubuh"
+                }
+              ],
+              "explanation": "Aksesoris interior memperindah dan melengkapi ruangan di dalam rumah."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Bahan dan teknik aksesoris interior",
+          "duration": 300,
+          "source_reference": "Prakarya-Kerajinan-BG-KLS-X.pdf Unit 2 Produk Aksesoris Interior Nusantara",
+          "content": "## Makrame, tanah liat, dan anyaman\n\nMakrame dibuat dengan menyimpul tali atau benang. Teknik ini tidak memerlukan alat tenun dan cocok untuk hiasan dinding, kap lampu, serta gantungan pot. Kekuatan simpul menentukan kerapian dan daya tahan produk.\n\nTanah liat dibentuk dengan tiga teknik utama: pilin, lempeng, dan putar. Teknik pilin menggulung tanah liat memanjang, teknik lempeng membentuk lembaran, sedangkan teknik putar memakai roda putar untuk membuat bentuk bulat simetris.\n\nAnyaman memakai bahan pipih seperti bambu dan rotan yang disilangkan. Produk anyaman dapat berupa keranjang, tempat tisu, atau kap lampu. Setelah dibentuk, produk diberi finishing agar kuat, rapi, dan tahan lama.\n\n| Teknik | Bahan | Kunci gerak |\n|---|---|---|\n| Makrame | Tali atau benang | Simpul kuat dan seragam |\n| Pilin | Tanah liat | Gulung memanjang, sambung rapi |\n| Lempeng | Tanah liat | Ratakan ketebalan lembaran |\n| Anyaman | Bambu atau rotan | Silang teratur, jaga kerapatan |\n| Finishing | Cat, pelitur, atau pelapis | Bersihkan permukaan sebelum melapisi |\n\n### Ergonomi dan keselamatan kerja\n\n- Letakkan aksesoris pada tempat yang tidak menghalangi jalan dan tidak mudah terjatuh.\n- Hindari sudut tajam pada produk yang dijangkau anak-anak.\n- Gunakan masker saat mengampelas atau mencampur bahan kimia.\n- Pastikan ruang kerja memiliki ventilasi yang baik saat memakai cat atau pelitur.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Makrame, tanah liat, dan anyaman"
+            },
+            {
+              "type": "paragraph",
+              "text": "Makrame dibuat dengan menyimpul tali atau benang. Teknik ini tidak memerlukan alat tenun dan cocok untuk hiasan dinding, kap lampu, serta gantungan pot. Kekuatan simpul menentukan kerapian dan daya tahan produk."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tanah liat dibentuk dengan tiga teknik utama: pilin, lempeng, dan putar. Teknik pilin menggulung tanah liat memanjang, teknik lempeng membentuk lembaran, sedangkan teknik putar memakai roda putar untuk membuat bentuk bulat simetris."
+            },
+            {
+              "type": "paragraph",
+              "text": "Anyaman memakai bahan pipih seperti bambu dan rotan yang disilangkan. Produk anyaman dapat berupa keranjang, tempat tisu, atau kap lampu. Setelah dibentuk, produk diberi finishing agar kuat, rapi, dan tahan lama."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknik",
+                  "Bahan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Makrame",
+                  "Tali atau benang",
+                  "Simpul kuat dan seragam"
+                ],
+                [
+                  "Pilin",
+                  "Tanah liat",
+                  "Gulung memanjang, sambung rapi"
+                ],
+                [
+                  "Lempeng",
+                  "Tanah liat",
+                  "Ratakan ketebalan lembaran"
+                ],
+                [
+                  "Anyaman",
+                  "Bambu atau rotan",
+                  "Silang teratur, jaga kerapatan"
+                ],
+                [
+                  "Finishing",
+                  "Cat, pelitur, atau pelapis",
+                  "Bersihkan permukaan sebelum melapisi"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-2-waktu-kering",
+              "title": "Perkiraan waktu pengeringan bahan (jam)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Lem",
+                  "value": 2
+                },
+                {
+                  "label": "Cat",
+                  "value": 6
+                },
+                {
+                  "label": "Finishing kayu",
+                  "value": 12
+                },
+                {
+                  "label": "Tanah liat",
+                  "value": 24
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-2-klasifikasi",
+              "prompt": "Kelompokkan bahan berikut ke dalam bahan alami atau bahan olahan.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Bahan alami"
+                },
+                {
+                  "id": "b2",
+                  "label": "Bahan olahan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Bambu",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Rotan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Tanah liat",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Kawat",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Benang",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Cat",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Bambu, rotan, dan tanah liat adalah bahan alami; kawat, benang, dan cat adalah bahan olahan.",
+                "wrong": "Periksa lagi: bahan alami berasal langsung dari alam."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Ergonomi dan keselamatan kerja"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Letakkan aksesoris pada tempat yang tidak menghalangi jalan dan tidak mudah terjatuh.",
+                "Hindari sudut tajam pada produk yang dijangkau anak-anak.",
+                "Gunakan masker saat mengampelas atau mencampur bahan kimia.",
+                "Pastikan ruang kerja memiliki ventilasi yang baik saat memakai cat atau pelitur."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-2-aksesoris-interior-cp-2",
+              "question": "Teknik membentuk tanah liat dengan menggulung memanjang disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Pilin",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Lempeng"
+                },
+                {
+                  "id": "c2",
+                  "text": "Putar"
+                },
+                {
+                  "id": "c3",
+                  "text": "Anyam"
+                }
+              ],
+              "explanation": "Teknik pilin membentuk tanah liat dengan menggulungnya memanjang seperti tali."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Kerajinan-BG-KLS-X.pdf Unit 2 Produk Aksesoris Interior Nusantara",
+          "content": "## Membuat hiasan interior yang fungsional\n\nAmati ruangan di sekitarmu. Cari sudut yang terasa kosong atau kurang menarik, lalu tentukan apakah ruangan itu membutuhkan hiasan dinding, vas, atau tempat penyimpanan kecil.\n\nPilih bahan yang tersedia di daerahmu. Jika memakai tanah liat, pastikan tanah cukup lembap dan bebas kerikil. Jika memakai bambu, keringkan terlebih dahulu agar tidak mudah berjamur.\n\nBuat satu produk sederhana, lalu uji kekuatannya. Gantung hiasan dinding dengan aman, letakkan vas di permukaan datar, dan pastikan kap lampu tidak bersentuhan langsung dengan bola lampu panas.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat hiasan interior yang fungsional"
+            },
+            {
+              "type": "paragraph",
+              "text": "Amati ruangan di sekitarmu. Cari sudut yang terasa kosong atau kurang menarik, lalu tentukan apakah ruangan itu membutuhkan hiasan dinding, vas, atau tempat penyimpanan kecil."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pilih bahan yang tersedia di daerahmu. Jika memakai tanah liat, pastikan tanah cukup lembap dan bebas kerikil. Jika memakai bambu, keringkan terlebih dahulu agar tidak mudah berjamur."
+            },
+            {
+              "type": "paragraph",
+              "text": "Buat satu produk sederhana, lalu uji kekuatannya. Gantung hiasan dinding dengan aman, letakkan vas di permukaan datar, dan pastikan kap lampu tidak bersentuhan langsung dengan bola lampu panas."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-2-skenario",
+              "title": "Menghias sudut baca",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Sudut baca sekolah terlihat kosong dan kurang nyaman. Produk apa yang paling tepat dibuat?",
+                  "choices": [
+                    {
+                      "text": "Hiasan dinding dan tempat buku dari bahan lokal",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Produk dipilih sesuai kebutuhan ruang."
+                    },
+                    {
+                      "text": "Lampu taman besar",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Lampu taman tidak sesuai untuk ruang dalam."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bahan bambu yang tersedia masih basah. Apa yang kamu lakukan?",
+                  "choices": [
+                    {
+                      "text": "Mengeringkan bambu sebelum dipakai",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Bambu kering lebih kuat dan tidak mudah berjamur."
+                    },
+                    {
+                      "text": "Langsung memakainya agar cepat selesai",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Bambu basah mudah berjamur dan berubah bentuk."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Produk cepat rusak karena bahan belum siap.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Produk awet dan sudut baca menjadi nyaman.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-2-aksesoris-interior-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu makrame?",
+                  "back": "Teknik membuat kerajinan dengan simpul tali."
+                },
+                {
+                  "front": "Sebutkan tiga teknik tanah liat.",
+                  "back": "Pilin, lempeng, dan putar."
+                },
+                {
+                  "front": "Apa itu finishing?",
+                  "back": "Tahap akhir pelapisan produk agar rapi dan tahan lama."
+                },
+                {
+                  "front": "Apa warna khas tanah liat setelah dibakar?",
+                  "back": "Terakota, yaitu merah kecokelatan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-2-aksesoris-interior-cp-3",
+              "question": "Agar kap lampu buatan sendiri aman digunakan, hal yang perlu diperhatikan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Jarak dari bola lampu panas",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Warna kap lampu"
+                },
+                {
+                  "id": "c2",
+                  "text": "Jumlah simpul saja"
+                },
+                {
+                  "id": "c3",
+                  "text": "Berat cat"
+                }
+              ],
+              "explanation": "Kap lampu harus menjaga jarak dari bola lampu agar tidak terbakar."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-2-tantangan",
+              "title": "Tantangan istilah aksesoris interior",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Teknik simpul tali",
+                  "answer": "makrame"
+                },
+                {
+                  "question": "Bahan keramik alami",
+                  "answer": "tanah liat"
+                },
+                {
+                  "question": "Teknik membentuk lembaran",
+                  "answer": "lempeng"
+                },
+                {
+                  "question": "Warna khas tanah liat bakar",
+                  "answer": "terakota"
+                },
+                {
+                  "question": "Tahap akhir produk",
+                  "answer": "finishing"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Produk Aksesoris Interior Nusantara — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang dimaksud aksesoris interior?",
+              "options": [
+                {
+                  "text": "Benda penghias ruangan di dalam rumah",
+                  "correct": true
+                },
+                {
+                  "text": "Benda penghias taman"
+                },
+                {
+                  "text": "Alat memasak"
+                },
+                {
+                  "text": "Pakaian olahraga"
+                }
+              ],
+              "explanation": "Aksesoris interior memperindah dan melengkapi ruangan dalam rumah.",
+              "hint": "Contohnya vas dan hiasan dinding."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh aksesoris interior?",
+              "options": [
+                {
+                  "text": "Vas bunga",
+                  "correct": true
+                },
+                {
+                  "text": "Lampu taman"
+                },
+                {
+                  "text": "Pot pagar"
+                },
+                {
+                  "text": "Sepatu"
+                }
+              ],
+              "explanation": "Vas bunga dipakai di dalam ruangan.",
+              "hint": "Lampu taman dan pot pagar untuk eksterior."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik kerajinan dengan simpul tali?",
+              "options": [
+                {
+                  "text": "Makrame",
+                  "correct": true
+                },
+                {
+                  "text": "Anyaman"
+                },
+                {
+                  "text": "Pilin"
+                },
+                {
+                  "text": "Lempeng"
+                }
+              ],
+              "explanation": "Makrame dibuat dengan menyimpul tali atau benang.",
+              "hint": "Teknik ini tidak memerlukan alat tenun."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk aksesoris interior?",
+              "options": [
+                {
+                  "text": "Hiasan dinding",
+                  "correct": true
+                },
+                {
+                  "text": "Vas",
+                  "correct": true
+                },
+                {
+                  "text": "Kap lampu",
+                  "correct": true
+                },
+                {
+                  "text": "Lampu taman",
+                  "correct": false
+                },
+                {
+                  "text": "Pot pagar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Hiasan dinding, vas, dan kap lampu dipakai di dalam ruangan.",
+              "hint": "Lampu taman dan pot pagar untuk luar ruangan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk bahan alami?",
+              "options": [
+                {
+                  "text": "Bambu",
+                  "correct": true
+                },
+                {
+                  "text": "Rotan",
+                  "correct": true
+                },
+                {
+                  "text": "Tanah liat",
+                  "correct": true
+                },
+                {
+                  "text": "Kawat",
+                  "correct": false
+                },
+                {
+                  "text": "Cat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bambu, rotan, dan tanah liat berasal langsung dari alam.",
+              "hint": "Kawat dan cat adalah bahan olahan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Produk Aksesoris Interior Nusantara — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Bahan utama makrame adalah…",
+              "options": [
+                {
+                  "text": "Tali atau benang",
+                  "correct": true
+                },
+                {
+                  "text": "Tanah liat"
+                },
+                {
+                  "text": "Bambu"
+                },
+                {
+                  "text": "Batu"
+                }
+              ],
+              "explanation": "Makrame memakai tali atau benang yang disimpul.",
+              "hint": "Pilih tali yang kuat dan lentur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik membentuk tanah liat dengan menggulung memanjang?",
+              "options": [
+                {
+                  "text": "Pilin",
+                  "correct": true
+                },
+                {
+                  "text": "Lempeng"
+                },
+                {
+                  "text": "Putar"
+                },
+                {
+                  "text": "Anyam"
+                }
+              ],
+              "explanation": "Teknik pilin menggulung tanah liat memanjang seperti tali.",
+              "hint": "Gulungan disambung hingga membentuk benda."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk teknik tanah liat?",
+              "options": [
+                {
+                  "text": "Pilin",
+                  "correct": true
+                },
+                {
+                  "text": "Lempeng",
+                  "correct": true
+                },
+                {
+                  "text": "Putar",
+                  "correct": true
+                },
+                {
+                  "text": "Makrame",
+                  "correct": false
+                },
+                {
+                  "text": "Anyaman",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pilin, lempeng, dan putar adalah teknik membentuk tanah liat.",
+              "hint": "Makrame dan anyaman memakai bahan lain."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa fungsi aksesoris interior?",
+              "options": [
+                {
+                  "text": "Memperindah ruangan",
+                  "correct": true
+                },
+                {
+                  "text": "Melengkapi fungsi ruang",
+                  "correct": true
+                },
+                {
+                  "text": "Menghalangi jalan",
+                  "correct": false
+                },
+                {
+                  "text": "Membuat ruangan gelap",
+                  "correct": false
+                }
+              ],
+              "explanation": "Aksesoris interior memperindah dan melengkapi ruangan.",
+              "hint": "Penempatan harus aman."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Aksesoris interior",
+                  "right": "benda penghias ruangan dalam rumah"
+                },
+                {
+                  "id": "m1",
+                  "left": "Makrame",
+                  "right": "kerajinan simpul tali"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pilin",
+                  "right": "menggulung tanah liat memanjang"
+                },
+                {
+                  "id": "m3",
+                  "left": "Lempeng",
+                  "right": "membentuk tanah liat menjadi lembaran"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "benda penghias ruangan dalam rumah",
+                  "m1": "kerajinan simpul tali",
+                  "m2": "menggulung tanah liat memanjang",
+                  "m3": "membentuk tanah liat menjadi lembaran"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur proyek aksesoris interior.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Observasi kebutuhan ruang"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pemilihan bahan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Perancangan produk"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pembuatan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Finishing dan evaluasi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Proyek bergerak dari observasi menuju finishing dan evaluasi.",
+              "hint": "Kebutuhan ruang menentukan rancangan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat makrame sederhana.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Siapkan tali dan pengait"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tentukan panjang tali"
+                },
+                {
+                  "id": "p2",
+                  "text": "Buat simpul dasar"
+                },
+                {
+                  "id": "p3",
+                  "text": "Rapikan dan potong ujung tali"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Makrame dimulai dari penyiapan tali lalu pembuatan simpul.",
+              "hint": "Simpul harus seragam agar rapi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik membentuk tanah liat menjadi lembaran?",
+              "options": [
+                {
+                  "text": "Lempeng",
+                  "correct": true
+                },
+                {
+                  "text": "Pilin"
+                },
+                {
+                  "text": "Putar"
+                },
+                {
+                  "text": "Anyam"
+                }
+              ],
+              "explanation": "Teknik lempeng membentuk tanah liat menjadi lembaran tipis.",
+              "hint": "Lembaran dipotong dan disambung sesuai pola."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik membentuk tanah liat dengan roda putar?",
+              "options": [
+                {
+                  "text": "Putar",
+                  "correct": true
+                },
+                {
+                  "text": "Pilin"
+                },
+                {
+                  "text": "Lempeng"
+                },
+                {
+                  "text": "Anyam"
+                }
+              ],
+              "explanation": "Teknik putar memakai roda putar untuk bentuk bulat simetris.",
+              "hint": "Cocok untuk vas dan mangkuk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip keselamatan kerja?",
+              "options": [
+                {
+                  "text": "Memakai sarung tangan",
+                  "correct": true
+                },
+                {
+                  "text": "Memastikan ventilasi baik",
+                  "correct": true
+                },
+                {
+                  "text": "Bekerja tanpa alas",
+                  "correct": false
+                },
+                {
+                  "text": "Menghirup cat tanpa masker",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sarung tangan dan ventilasi baik menjaga keselamatan.",
+              "hint": "Masker dipakai saat mengampelas atau mengecat."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Produk Aksesoris Interior Nusantara — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik menyilangkan bambu atau rotan?",
+              "options": [
+                {
+                  "text": "Anyaman",
+                  "correct": true
+                },
+                {
+                  "text": "Makrame"
+                },
+                {
+                  "text": "Pilin"
+                },
+                {
+                  "text": "Lempeng"
+                }
+              ],
+              "explanation": "Anyaman menyilangkan bahan pipih secara teratur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa warna khas tanah liat setelah dibakar?",
+              "options": [
+                {
+                  "text": "Terakota",
+                  "correct": true
+                },
+                {
+                  "text": "Biru"
+                },
+                {
+                  "text": "Hijau"
+                },
+                {
+                  "text": "Putih"
+                }
+              ],
+              "explanation": "Tanah liat yang dibakar menghasilkan warna terakota."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi finishing pada produk kerajinan?",
+              "options": [
+                {
+                  "text": "Melapisi agar rapi dan tahan lama",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah berat produk"
+                },
+                {
+                  "text": "Menghilangkan bentuk"
+                },
+                {
+                  "text": "Mengganti bahan"
+                }
+              ],
+              "explanation": "Finishing melindungi permukaan dan mempercantik produk."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengapa produk anyaman perlu dikeringkan sebelum dipakai?",
+              "options": [
+                {
+                  "text": "Agar tidak mudah berjamur",
+                  "correct": true
+                },
+                {
+                  "text": "Agar warnanya hilang"
+                },
+                {
+                  "text": "Agar lebih berat"
+                },
+                {
+                  "text": "Agar mudah pecah"
+                }
+              ],
+              "explanation": "Bahan yang lembap mudah berjamur dan berubah bentuk."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang dimaksud ergonomi pada aksesoris interior?",
+              "options": [
+                {
+                  "text": "Menyesuaikan produk dengan kenyamanan dan keamanan ruang",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat produk sebesar mungkin"
+                },
+                {
+                  "text": "Memakai warna paling terang"
+                },
+                {
+                  "text": "Menambah sudut tajam"
+                }
+              ],
+              "explanation": "Ergonomi membuat produk aman dan nyaman digunakan di ruang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk finishing?",
+              "options": [
+                {
+                  "text": "Cat",
+                  "correct": true
+                },
+                {
+                  "text": "Pelitur",
+                  "correct": true
+                },
+                {
+                  "text": "Tanah liat",
+                  "correct": false
+                },
+                {
+                  "text": "Bambu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Cat dan pelitur dipakai pada tahap finishing."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri produk aksesoris interior berkualitas?",
+              "options": [
+                {
+                  "text": "Simpul kuat",
+                  "correct": true
+                },
+                {
+                  "text": "Permukaan rapi",
+                  "correct": true
+                },
+                {
+                  "text": "Sudut tajam",
+                  "correct": false
+                },
+                {
+                  "text": "Bahan mudah lapuk",
+                  "correct": false
+                }
+              ],
+              "explanation": "Simpul kuat dan permukaan rapi menandakan kualitas."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Anyaman",
+                  "right": "menyilangkan bambu atau rotan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Finishing",
+                  "right": "tahap akhir pelapisan produk"
+                },
+                {
+                  "id": "m2",
+                  "left": "Terakota",
+                  "right": "warna merah kecokelatan tanah liat bakar"
+                },
+                {
+                  "id": "m3",
+                  "left": "Ergonomi",
+                  "right": "menyesuaikan produk dengan kenyamanan pemakai"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "menyilangkan bambu atau rotan",
+                  "m1": "tahap akhir pelapisan produk",
+                  "m2": "warna merah kecokelatan tanah liat bakar",
+                  "m3": "menyesuaikan produk dengan kenyamanan pemakai"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat vas dengan teknik pilin.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Siapkan tanah liat lembap"
+                },
+                {
+                  "id": "d1",
+                  "text": "Gulung tanah liat memanjang"
+                },
+                {
+                  "id": "d2",
+                  "text": "Susun gulungan membentuk vas"
+                },
+                {
+                  "id": "d3",
+                  "text": "Haluskan sambungan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Keringkan dan bakar"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Vas pilin dibuat dari gulungan yang disusun bertingkat."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menganyam bambu.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Siapkan bilah bambu"
+                },
+                {
+                  "id": "p1",
+                  "text": "Susun bilah secara menyilang"
+                },
+                {
+                  "id": "p2",
+                  "text": "Rapatkan anyaman"
+                },
+                {
+                  "id": "p3",
+                  "text": "Potong dan rapikan tepi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Menganyam dimulai dari penyiapan bilah lalu penyusunan silang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang memengaruhi nilai ekonomis aksesoris interior?",
+              "options": [
+                {
+                  "text": "Keunikan desain dan kualitas produk",
+                  "correct": true
+                },
+                {
+                  "text": "Jumlah bahan yang terbuang"
+                },
+                {
+                  "text": "Kerapian yang diabaikan"
+                },
+                {
+                  "text": "Kemasan rusak"
+                }
+              ],
+              "explanation": "Desain unik dan kualitas membuat produk bernilai lebih tinggi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa langkah pertama dalam proyek aksesoris interior?",
+              "options": [
+                {
+                  "text": "Observasi kebutuhan ruang",
+                  "correct": true
+                },
+                {
+                  "text": "Langsung mengecat"
+                },
+                {
+                  "text": "Menjual produk"
+                },
+                {
+                  "text": "Membuang bahan"
+                }
+              ],
+              "explanation": "Proyek dimulai dari mengamati kebutuhan ruang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap proyek aksesoris interior?",
+              "options": [
+                {
+                  "text": "Perancangan",
+                  "correct": true
+                },
+                {
+                  "text": "Pembuatan",
+                  "correct": true
+                },
+                {
+                  "text": "Evaluasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari presentasi",
+                  "correct": false
+                },
+                {
+                  "text": "Membuang sisa bahan sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proyek melalui perancangan, pembuatan, dan evaluasi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Aksesoris interior",
+                  "right": "benda penghias ruangan dalam rumah"
+                },
+                {
+                  "id": "m1",
+                  "left": "Makrame",
+                  "right": "kerajinan simpul tali"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pilin",
+                  "right": "menggulung tanah liat memanjang"
+                },
+                {
+                  "id": "m3",
+                  "left": "Lempeng",
+                  "right": "membentuk tanah liat menjadi lembaran"
+                },
+                {
+                  "id": "m4",
+                  "left": "Anyaman",
+                  "right": "menyilangkan bambu atau rotan"
+                },
+                {
+                  "id": "m5",
+                  "left": "Finishing",
+                  "right": "tahap akhir pelapisan produk"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "benda penghias ruangan dalam rumah",
+                  "m1": "kerajinan simpul tali",
+                  "m2": "menggulung tanah liat memanjang",
+                  "m3": "membentuk tanah liat menjadi lembaran",
+                  "m4": "menyilangkan bambu atau rotan",
+                  "m5": "tahap akhir pelapisan produk"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah finishing produk kayu.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Ampelas permukaan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Bersihkan debu"
+                },
+                {
+                  "id": "d2",
+                  "text": "Lapisi cat atau pelitur"
+                },
+                {
+                  "id": "d3",
+                  "text": "Keringkan di tempat berventilasi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Finishing kayu dimulai dari pengampelasan lalu pelapisan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

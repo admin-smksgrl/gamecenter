@@ -1,0 +1,1252 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 1",
+      "title": "Ragam Hias Nusantara pada Produk Fesyen",
+      "description": "Mengeksplorasi motif ragam hias Nusantara, teknik sulam dan aplikasi, serta merancang produk fesyen yang ergonomis dan bernilai ekonomis.",
+      "learning_objectives": [
+        "Mengeksplorasi bentuk, bahan, alat, dan teknik ragam hias Nusantara pada produk fesyen.",
+        "Menganalisis potensi nilai ekonomis produk kerajinan fesyen berbasis sumber daya Nusantara.",
+        "Merancang produk fesyen dengan modifikasi bentuk, bahan, alat, dan teknik secara ergonomis.",
+        "Membuat produk kerajinan fesyen yang ergonomis dan layak dipakai.",
+        "Mempresentasikan serta mengevaluasi produk dan rencana tindak lanjut."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Kerajinan-BG-KLS-X.pdf Unit 1 Ragam Hias Nusantara pada Produk Fesyen",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa ragam hias penting?",
+          "duration": 240,
+          "source_reference": "Prakarya-Kerajinan-BG-KLS-X.pdf Unit 1 Ragam Hias Nusantara pada Produk Fesyen",
+          "content": "## Budaya Nusantara pada produk fesyen\n\nPrakarya kerajinan adalah kegiatan membuat produk yang berguna sekaligus indah. Salah satu cabangnya adalah kerajinan fesyen, yaitu busana dan aksesori yang dipakai di tubuh. Produk fesyen Nusantara kaya akan ragam hias yang diwarisi dari generasi ke generasi.\n\nRagam hias Nusantara tidak hanya berfungsi mempercantik benda. Setiap motif sering membawa makna, misalnya harapan kesuburan, keberanian, atau penghormatan kepada alam. Motif flora, fauna, geometris, dan figuratif muncul pada kain batik, tenun, songket, dan ukiran.\n\nMempelajari ragam hias melatih kreativitas dan kepedulian terhadap budaya lokal. Dengan rancangan yang tepat, produk fesyen tradisional dapat menjadi produk bernilai ekonomi tanpa kehilangan jati dirinya.\n\nGunakan gunting, jarum, dan alat panas dengan hati-hati. Simpan alat tajam setelah digunakan agar aman.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-1-ragam-hias-fesyen-glosarium",
+              "terms": [
+                {
+                  "term": "Ragam hias",
+                  "definition": "Motif atau corak hias yang diterapkan pada benda untuk menambah nilai keindahan."
+                },
+                {
+                  "term": "Motif flora",
+                  "definition": "Ragam hias yang meniru bentuk tumbuhan seperti daun, bunga, dan sulur."
+                },
+                {
+                  "term": "Motif fauna",
+                  "definition": "Ragam hias yang meniru bentuk hewan seperti burung, ikan, dan kupu-kupu."
+                },
+                {
+                  "term": "Motif geometris",
+                  "definition": "Ragam hias yang dibentuk dari garis, lingkaran, segitiga, atau pola berulang."
+                },
+                {
+                  "term": "Sulam",
+                  "definition": "Teknik menghias kain dengan benang dan jarum mengikuti pola tertentu."
+                },
+                {
+                  "term": "Aplikasi",
+                  "definition": "Teknik menempelkan potongan kain lain pada kain utama lalu dijahit."
+                },
+                {
+                  "term": "Ergonomi",
+                  "definition": "Prinsip menyesuaikan produk dengan tubuh dan kenyamanan pemakainya."
+                },
+                {
+                  "term": "Presentasi",
+                  "definition": "Kegiatan memaparkan produk dan proses pembuatannya kepada orang lain."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Budaya Nusantara pada produk fesyen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Prakarya kerajinan adalah kegiatan membuat produk yang berguna sekaligus indah. Salah satu cabangnya adalah kerajinan fesyen, yaitu busana dan aksesori yang dipakai di tubuh. Produk fesyen Nusantara kaya akan ragam hias yang diwarisi dari generasi ke generasi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ragam hias Nusantara tidak hanya berfungsi mempercantik benda. Setiap motif sering membawa makna, misalnya harapan kesuburan, keberanian, atau penghormatan kepada alam. Motif flora, fauna, geometris, dan figuratif muncul pada kain batik, tenun, songket, dan ukiran."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mempelajari ragam hias melatih kreativitas dan kepedulian terhadap budaya lokal. Dengan rancangan yang tepat, produk fesyen tradisional dapat menjadi produk bernilai ekonomi tanpa kehilangan jati dirinya."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-1-ragam-hias-fesyen-diagram",
+              "engine": "mermaid",
+              "title": "Alur proyek kerajinan fesyen",
+              "code": "flowchart LR\n  A[Observasi gagasan] --> B[Analisis nilai ekonomis]\n  B --> C[Perancangan desain]\n  C --> D[Pembuatan produk]\n  D --> E[Presentasi dan evaluasi]\n  E --> F[Rencana tindak lanjut]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan gunting, jarum, dan alat panas dengan hati-hati. Simpan alat tajam setelah digunakan agar aman."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-1-ragam-hias-fesyen-cp-1",
+              "question": "Apa yang dimaksud ragam hias?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Motif atau corak hias pada benda",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Bahan dasar pembuat kain"
+                },
+                {
+                  "id": "c2",
+                  "text": "Alat untuk memotong kain"
+                },
+                {
+                  "id": "c3",
+                  "text": "Tempat menjual produk"
+                }
+              ],
+              "explanation": "Ragam hias adalah motif atau corak hias yang diterapkan pada benda."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Motif, bahan, dan teknik",
+          "duration": 300,
+          "source_reference": "Prakarya-Kerajinan-BG-KLS-X.pdf Unit 1 Ragam Hias Nusantara pada Produk Fesyen",
+          "content": "## Mengenal ragam hias dan tekniknya\n\nMotif ragam hias Nusantara dapat dikelompokkan menjadi empat: flora, fauna, geometris, dan figuratif. Motif flora meniru daun dan bunga, fauna meniru hewan, geometris memakai bentuk beraturan, sedangkan figuratif meniru bentuk manusia.\n\nTeknik penerapan ragam hias pada kain cukup beragam. Sulam memakai benang dan jarum, aplikasi menempelkan kain lain, lukis tekstil memakai cat khusus kain, dan manik-manik ditempel atau dijahit mengikuti pola.\n\nBahan yang dipakai harus sesuai dengan fungsi produk. Kain tenun, batik, dan songket cocok untuk busana; logam tipis, kawat, kulit, dan batuan alam cocok untuk aksesori. Prinsip ergonomi memastikan produk nyaman, aman, dan sesuai ukuran pemakai.\n\n| Teknik | Tujuan | Kunci gerak |\n|---|---|---|\n| Sulam | Menambah hiasan pada kain | Pola jelas, tusukan rapi, benang tidak kusut |\n| Aplikasi | Menempel motif dari kain lain | Pola dipotong rapi, jahit tepi kuat |\n| Lukis tekstil | Mewarnai motif pada kain | Gunakan cat kain, kunci warna dengan panas |\n| Manik-manik | Memberi kilau dan tekstur | Susun sesuai pola, jahit atau lem kuat |\n\n### Prinsip ergonomi dan nilai ekonomis\n\n- Produk harus nyaman dipakai: tidak menusuk kulit, tidak terlalu berat, dan ukurannya sesuai.\n- Keunikan motif lokal meningkatkan daya tarik dan nilai jual produk.\n- Kualitas jahitan dan kerapian finishing memengaruhi kepuasan pembeli.\n- Kemasan dan foto produk yang baik membantu pemasaran di pasar lokal maupun daring.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengenal ragam hias dan tekniknya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Motif ragam hias Nusantara dapat dikelompokkan menjadi empat: flora, fauna, geometris, dan figuratif. Motif flora meniru daun dan bunga, fauna meniru hewan, geometris memakai bentuk beraturan, sedangkan figuratif meniru bentuk manusia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Teknik penerapan ragam hias pada kain cukup beragam. Sulam memakai benang dan jarum, aplikasi menempelkan kain lain, lukis tekstil memakai cat khusus kain, dan manik-manik ditempel atau dijahit mengikuti pola."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bahan yang dipakai harus sesuai dengan fungsi produk. Kain tenun, batik, dan songket cocok untuk busana; logam tipis, kawat, kulit, dan batuan alam cocok untuk aksesori. Prinsip ergonomi memastikan produk nyaman, aman, dan sesuai ukuran pemakai."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknik",
+                  "Tujuan",
+                  "Kunci gerak"
+                ],
+                [
+                  "Sulam",
+                  "Menambah hiasan pada kain",
+                  "Pola jelas, tusukan rapi, benang tidak kusut"
+                ],
+                [
+                  "Aplikasi",
+                  "Menempel motif dari kain lain",
+                  "Pola dipotong rapi, jahit tepi kuat"
+                ],
+                [
+                  "Lukis tekstil",
+                  "Mewarnai motif pada kain",
+                  "Gunakan cat kain, kunci warna dengan panas"
+                ],
+                [
+                  "Manik-manik",
+                  "Memberi kilau dan tekstur",
+                  "Susun sesuai pola, jahit atau lem kuat"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-1-waktu-teknik",
+              "title": "Perkiraan waktu pengerjaan tiap teknik (menit)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Lukis tekstil",
+                  "value": 60
+                },
+                {
+                  "label": "Aplikasi",
+                  "value": 90
+                },
+                {
+                  "label": "Sulam",
+                  "value": 120
+                },
+                {
+                  "label": "Manik-manik",
+                  "value": 150
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-1-klasifikasi",
+              "prompt": "Kelompokkan istilah berikut ke dalam motif atau teknik ragam hias.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Motif"
+                },
+                {
+                  "id": "b2",
+                  "label": "Teknik"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Flora",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Fauna",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Geometris",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Sulam",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Aplikasi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Lukis tekstil",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Flora, fauna, dan geometris adalah motif; sulam, aplikasi, dan lukis tekstil adalah teknik.",
+                "wrong": "Periksa lagi: motif adalah bentuk hiasan, teknik adalah cara mengerjakannya."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Prinsip ergonomi dan nilai ekonomis"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Produk harus nyaman dipakai: tidak menusuk kulit, tidak terlalu berat, dan ukurannya sesuai.",
+                "Keunikan motif lokal meningkatkan daya tarik dan nilai jual produk.",
+                "Kualitas jahitan dan kerapian finishing memengaruhi kepuasan pembeli.",
+                "Kemasan dan foto produk yang baik membantu pemasaran di pasar lokal maupun daring."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-1-ragam-hias-fesyen-cp-2",
+              "question": "Mengapa prinsip ergonomi penting dalam produk fesyen?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Agar produk nyaman dan aman dipakai",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Agar produk lebih mahal tanpa alasan"
+                },
+                {
+                  "id": "c2",
+                  "text": "Agar warna produk berubah"
+                },
+                {
+                  "id": "c3",
+                  "text": "Agar bahan cepat rusak"
+                }
+              ],
+              "explanation": "Ergonomi memastikan produk nyaman, aman, dan sesuai dengan tubuh pemakai."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Kerajinan-BG-KLS-X.pdf Unit 1 Ragam Hias Nusantara pada Produk Fesyen",
+          "content": "## Merancang produk fesyen Nusantara\n\nMulailah dengan mengamati lingkungan sekitar: kain tradisional, motif bangunan, atau aksesori yang dipakai masyarakat. Catat bentuk, warna, dan makna yang mungkin terkandung di dalamnya.\n\nSetelah gagasan terkumpul, buat sketsa beberapa alternatif. Pilih satu desain yang paling sesuai dengan fungsi, bahan yang tersedia, dan kemampuan alat. Pertimbangkan kenyamanan serta keamanan pemakai.\n\nBuat produk pada skala kecil terlebih dahulu, misalnya satu aksesori. Uji kekuatan jahitan dan kerapian hasilnya. Presentasikan produk kepada teman untuk mendapat masukan sebelum memperbaiki desain.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Merancang produk fesyen Nusantara"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mulailah dengan mengamati lingkungan sekitar: kain tradisional, motif bangunan, atau aksesori yang dipakai masyarakat. Catat bentuk, warna, dan makna yang mungkin terkandung di dalamnya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah gagasan terkumpul, buat sketsa beberapa alternatif. Pilih satu desain yang paling sesuai dengan fungsi, bahan yang tersedia, dan kemampuan alat. Pertimbangkan kenyamanan serta keamanan pemakai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Buat produk pada skala kecil terlebih dahulu, misalnya satu aksesori. Uji kekuatan jahitan dan kerapian hasilnya. Presentasikan produk kepada teman untuk mendapat masukan sebelum memperbaiki desain."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-1-skenario",
+              "title": "Pesanan aksesori sekolah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kelompokmu mendapat pesanan tas kain bermotif Nusantara. Bahan yang tersedia terbatas. Apa langkah pertamamu?",
+                  "choices": [
+                    {
+                      "text": "Mengamati kebutuhan dan memilih motif yang sesuai",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Observasi kebutuhan menghasilkan rancangan yang tepat."
+                    },
+                    {
+                      "text": "Langsung memotong kain tanpa rancangan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa rancangan, bahan mudah terbuang."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Motif yang dipilih membutuhkan banyak manik-manik, sedangkan waktu terbatas. Apa pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "Mengganti dengan teknik aplikasi yang lebih efisien",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Alternatif teknik menjaga kualitas dan tenggat."
+                    },
+                    {
+                      "text": "Tetap memakai manik-manik meski hasilnya terburu-buru",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Hasil terburu-buru mengurangi kualitas produk."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Pesanan terlambat dan kualitas produk menurun.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Produk selesai tepat waktu dengan motif yang tetap khas.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-1-ragam-hias-fesyen-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan empat jenis motif ragam hias.",
+                  "back": "Flora, fauna, geometris, dan figuratif."
+                },
+                {
+                  "front": "Apa itu teknik aplikasi?",
+                  "back": "Menempelkan potongan kain lain pada kain utama lalu dijahit."
+                },
+                {
+                  "front": "Apa itu ergonomi?",
+                  "back": "Prinsip menyesuaikan produk dengan kenyamanan dan keamanan pemakai."
+                },
+                {
+                  "front": "Apa tujuan presentasi produk?",
+                  "back": "Mengomunikasikan hasil dan memperoleh masukan untuk perbaikan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-1-ragam-hias-fesyen-cp-3",
+              "question": "Saat merancang aksesori, hal yang paling perlu dipertimbangkan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Kenyamanan dan keamanan pemakai",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Harga bahan termahal"
+                },
+                {
+                  "id": "c2",
+                  "text": "Jumlah warna sebanyak mungkin"
+                },
+                {
+                  "id": "c3",
+                  "text": "Ukuran yang paling besar"
+                }
+              ],
+              "explanation": "Ergonomi menempatkan kenyamanan dan keamanan pemakai sebagai pertimbangan utama."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-1-tantangan",
+              "title": "Tantangan istilah kerajinan fesyen",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Motif meniru tumbuhan",
+                  "answer": "flora"
+                },
+                {
+                  "question": "Motif meniru hewan",
+                  "answer": "fauna"
+                },
+                {
+                  "question": "Teknik menempel kain",
+                  "answer": "aplikasi"
+                },
+                {
+                  "question": "Teknik menyulam",
+                  "answer": "sulam"
+                },
+                {
+                  "question": "Prinsip kenyamanan produk",
+                  "answer": "ergonomi"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Ragam Hias Nusantara pada Produk Fesyen — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang dimaksud ragam hias?",
+              "options": [
+                {
+                  "text": "Motif atau corak hias pada benda",
+                  "correct": true
+                },
+                {
+                  "text": "Bahan dasar kain"
+                },
+                {
+                  "text": "Alat pemotong kain"
+                },
+                {
+                  "text": "Tempat penjualan"
+                }
+              ],
+              "explanation": "Ragam hias adalah motif atau corak hias yang diterapkan pada benda.",
+              "hint": "Fungsinya menambah keindahan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Motif yang meniru bentuk tumbuhan disebut…",
+              "options": [
+                {
+                  "text": "Flora",
+                  "correct": true
+                },
+                {
+                  "text": "Fauna"
+                },
+                {
+                  "text": "Geometris"
+                },
+                {
+                  "text": "Figuratif"
+                }
+              ],
+              "explanation": "Motif flora meniru daun, bunga, dan sulur.",
+              "hint": "Kata “flora” berkaitan dengan tumbuhan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Motif yang meniru bentuk hewan disebut…",
+              "options": [
+                {
+                  "text": "Fauna",
+                  "correct": true
+                },
+                {
+                  "text": "Flora"
+                },
+                {
+                  "text": "Geometris"
+                },
+                {
+                  "text": "Figuratif"
+                }
+              ],
+              "explanation": "Motif fauna meniru bentuk hewan.",
+              "hint": "Kata “fauna” berkaitan dengan hewan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk motif ragam hias Nusantara?",
+              "options": [
+                {
+                  "text": "Flora",
+                  "correct": true
+                },
+                {
+                  "text": "Fauna",
+                  "correct": true
+                },
+                {
+                  "text": "Geometris",
+                  "correct": true
+                },
+                {
+                  "text": "Sulam",
+                  "correct": false
+                },
+                {
+                  "text": "Aplikasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Flora, fauna, dan geometris adalah motif; sulam dan aplikasi adalah teknik.",
+              "hint": "Bedakan bentuk hiasan dari cara mengerjakannya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk teknik ragam hias pada kain?",
+              "options": [
+                {
+                  "text": "Sulam",
+                  "correct": true
+                },
+                {
+                  "text": "Aplikasi",
+                  "correct": true
+                },
+                {
+                  "text": "Lukis tekstil",
+                  "correct": true
+                },
+                {
+                  "text": "Tenun",
+                  "correct": false
+                },
+                {
+                  "text": "Batik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sulam, aplikasi, dan lukis tekstil adalah teknik menghias kain.",
+              "hint": "Tenun dan batik adalah teknik pembuatan kain."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Ragam Hias Nusantara pada Produk Fesyen — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Motif yang dibentuk dari garis dan lingkaran beraturan disebut…",
+              "options": [
+                {
+                  "text": "Geometris",
+                  "correct": true
+                },
+                {
+                  "text": "Flora"
+                },
+                {
+                  "text": "Fauna"
+                },
+                {
+                  "text": "Figuratif"
+                }
+              ],
+              "explanation": "Motif geometris memakai bentuk beraturan seperti garis dan lingkaran.",
+              "hint": "Bentuknya terukur dan berulang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik menghias kain dengan benang dan jarum?",
+              "options": [
+                {
+                  "text": "Sulam",
+                  "correct": true
+                },
+                {
+                  "text": "Aplikasi"
+                },
+                {
+                  "text": "Lukis tekstil"
+                },
+                {
+                  "text": "Manik-manik"
+                }
+              ],
+              "explanation": "Sulam memakai benang dan jarum mengikuti pola.",
+              "hint": "Teknik ini membutuhkan ketelitian."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk bahan produk fesyen?",
+              "options": [
+                {
+                  "text": "Kain",
+                  "correct": true
+                },
+                {
+                  "text": "Benang",
+                  "correct": true
+                },
+                {
+                  "text": "Manik-manik",
+                  "correct": true
+                },
+                {
+                  "text": "Tanah liat",
+                  "correct": false
+                },
+                {
+                  "text": "Bambu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kain, benang, dan manik-manik dipakai pada produk fesyen.",
+              "hint": "Tanah liat dan bambu lebih cocok untuk interior/eksterior."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah prinsip ergonomi produk fesyen?",
+              "options": [
+                {
+                  "text": "Nyaman dipakai",
+                  "correct": true
+                },
+                {
+                  "text": "Aman bagi kulit",
+                  "correct": true
+                },
+                {
+                  "text": "Terlalu berat",
+                  "correct": false
+                },
+                {
+                  "text": "Ukuran tidak sesuai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Produk ergonomis nyaman dan aman dipakai.",
+              "hint": "Ukuran harus sesuai pemakai."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Ragam hias",
+                  "right": "motif atau corak hias pada benda"
+                },
+                {
+                  "id": "m1",
+                  "left": "Flora",
+                  "right": "motif yang meniru tumbuhan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Fauna",
+                  "right": "motif yang meniru hewan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Geometris",
+                  "right": "motif dari garis dan bentuk beraturan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "motif atau corak hias pada benda",
+                  "m1": "motif yang meniru tumbuhan",
+                  "m2": "motif yang meniru hewan",
+                  "m3": "motif dari garis dan bentuk beraturan"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur proyek kerajinan fesyen.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Observasi gagasan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Analisis nilai ekonomis"
+                },
+                {
+                  "id": "d2",
+                  "text": "Perancangan desain"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pembuatan produk"
+                },
+                {
+                  "id": "d4",
+                  "text": "Presentasi dan evaluasi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Proyek bergerak dari observasi menuju presentasi dan evaluasi.",
+              "hint": "Jangan melompat langsung ke produksi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menyulam.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Pasang kain pada pemidangan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Gambar pola pada kain"
+                },
+                {
+                  "id": "p2",
+                  "text": "Tusukkan jarum mengikuti pola"
+                },
+                {
+                  "id": "p3",
+                  "text": "Rapikan benang dan hasil sulaman"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Menyulam dimulai dari pemasangan kain lalu mengikuti pola.",
+              "hint": "Kain harus tegang agar hasil rapi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik menempelkan potongan kain pada kain utama?",
+              "options": [
+                {
+                  "text": "Aplikasi",
+                  "correct": true
+                },
+                {
+                  "text": "Sulam"
+                },
+                {
+                  "text": "Lukis tekstil"
+                },
+                {
+                  "text": "Tenun"
+                }
+              ],
+              "explanation": "Aplikasi menempelkan kain lain lalu dijahit pada tepinya.",
+              "hint": "Motif terbentuk dari kain berbeda warna."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa nama teknik mewarnai motif langsung pada kain?",
+              "options": [
+                {
+                  "text": "Lukis tekstil",
+                  "correct": true
+                },
+                {
+                  "text": "Sulam"
+                },
+                {
+                  "text": "Aplikasi"
+                },
+                {
+                  "text": "Makrame"
+                }
+              ],
+              "explanation": "Lukis tekstil memakai cat khusus kain.",
+              "hint": "Warna perlu dikunci dengan panas."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap dalam proyek kerajinan?",
+              "options": [
+                {
+                  "text": "Perencanaan",
+                  "correct": true
+                },
+                {
+                  "text": "Produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari evaluasi",
+                  "correct": false
+                },
+                {
+                  "text": "Membuang sisa bahan sembarangan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proyek kerajinan melalui perencanaan dan produksi.",
+              "hint": "Evaluasi juga merupakan tahap penting."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Ragam Hias Nusantara pada Produk Fesyen — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi pemidangan saat menyulam?",
+              "options": [
+                {
+                  "text": "Menjaga kain tetap tegang",
+                  "correct": true
+                },
+                {
+                  "text": "Memotong benang"
+                },
+                {
+                  "text": "Mewarnai kain"
+                },
+                {
+                  "text": "Mengukur tubuh"
+                }
+              ],
+              "explanation": "Pemidangan menjaga kain tegang agar tusukan rapi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang dimaksud ergonomi pada produk fesyen?",
+              "options": [
+                {
+                  "text": "Prinsip menyesuaikan produk dengan kenyamanan pemakai",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah jumlah motif"
+                },
+                {
+                  "text": "Memilih warna paling terang"
+                },
+                {
+                  "text": "Membuat produk sebesar mungkin"
+                }
+              ],
+              "explanation": "Ergonomi menyesuaikan produk dengan tubuh dan kenyamanan pemakai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh produk fesyen?",
+              "options": [
+                {
+                  "text": "Tas dan topi",
+                  "correct": true
+                },
+                {
+                  "text": "Vas bunga"
+                },
+                {
+                  "text": "Lampu taman"
+                },
+                {
+                  "text": "Pot tanaman"
+                }
+              ],
+              "explanation": "Tas dan topi dipakai di tubuh sehingga termasuk produk fesyen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah kain tradisional Indonesia?",
+              "options": [
+                {
+                  "text": "Batik dan songket",
+                  "correct": true
+                },
+                {
+                  "text": "Kain kasa steril"
+                },
+                {
+                  "text": "Kain serat karbon"
+                },
+                {
+                  "text": "Kain parasut"
+                }
+              ],
+              "explanation": "Batik dan songket adalah kain tradisional Indonesia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa langkah pertama dalam proyek kerajinan?",
+              "options": [
+                {
+                  "text": "Observasi dan eksplorasi gagasan",
+                  "correct": true
+                },
+                {
+                  "text": "Langsung menjual produk"
+                },
+                {
+                  "text": "Memotong bahan"
+                },
+                {
+                  "text": "Membuat kemasan"
+                }
+              ],
+              "explanation": "Proyek dimulai dari observasi dan eksplorasi gagasan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang meningkatkan nilai ekonomis produk?",
+              "options": [
+                {
+                  "text": "Desain unik",
+                  "correct": true
+                },
+                {
+                  "text": "Kualitas jahitan",
+                  "correct": true
+                },
+                {
+                  "text": "Bahan yang terbuang",
+                  "correct": false
+                },
+                {
+                  "text": "Kemasan rusak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Desain unik dan kualitas jahitan meningkatkan nilai jual."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alat yang dipakai dalam kerajinan fesyen?",
+              "options": [
+                {
+                  "text": "Jarum",
+                  "correct": true
+                },
+                {
+                  "text": "Gunting kain",
+                  "correct": true
+                },
+                {
+                  "text": "Pemidangan",
+                  "correct": true
+                },
+                {
+                  "text": "Cangkul",
+                  "correct": false
+                },
+                {
+                  "text": "Palu besar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jarum, gunting kain, dan pemidangan dipakai dalam kerajinan fesyen."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Sulam",
+                  "right": "menghias kain dengan benang dan jarum"
+                },
+                {
+                  "id": "m1",
+                  "left": "Aplikasi",
+                  "right": "menempelkan kain lain pada kain utama"
+                },
+                {
+                  "id": "m2",
+                  "left": "Ergonomi",
+                  "right": "menyesuaikan produk dengan kenyamanan pemakai"
+                },
+                {
+                  "id": "m3",
+                  "left": "Presentasi",
+                  "right": "memaparkan hasil produk"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "menghias kain dengan benang dan jarum",
+                  "m1": "menempelkan kain lain pada kain utama",
+                  "m2": "menyesuaikan produk dengan kenyamanan pemakai",
+                  "m3": "memaparkan hasil produk"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat aplikasi kain.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Siapkan pola motif"
+                },
+                {
+                  "id": "d1",
+                  "text": "Potong kain sesuai pola"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tempelkan pada kain utama"
+                },
+                {
+                  "id": "d3",
+                  "text": "Jahit tepi motif"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Aplikasi dimulai dari pola lalu dijahit pada kain utama."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat aksesori fesyen.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Ukur kebutuhan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Potong bahan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Rakit bagian aksesori"
+                },
+                {
+                  "id": "p3",
+                  "text": "Lakukan finishing"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Aksesori dibuat dari pengukuran sampai finishing."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa tujuan utama presentasi produk?",
+              "options": [
+                {
+                  "text": "Mengomunikasikan hasil dan memperoleh masukan",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari evaluasi"
+                },
+                {
+                  "text": "Menambah berat produk"
+                },
+                {
+                  "text": "Mengganti bahan"
+                }
+              ],
+              "explanation": "Presentasi menjelaskan hasil dan membuka ruang masukan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang membuat produk kerajinan bernilai ekonomis lebih tinggi?",
+              "options": [
+                {
+                  "text": "Keunikan desain dan kualitas pengerjaan",
+                  "correct": true
+                },
+                {
+                  "text": "Jumlah bahan yang boros"
+                },
+                {
+                  "text": "Warna yang tidak serasi"
+                },
+                {
+                  "text": "Kemasan yang rusak"
+                }
+              ],
+              "explanation": "Keunikan dan kualitas meningkatkan daya tarik serta nilai jual."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri produk fesyen yang layak dijual?",
+              "options": [
+                {
+                  "text": "Jahitan rapi",
+                  "correct": true
+                },
+                {
+                  "text": "Ukuran sesuai",
+                  "correct": true
+                },
+                {
+                  "text": "Motif tidak selesai",
+                  "correct": false
+                },
+                {
+                  "text": "Bahan mudah sobek",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jahitan rapi dan ukuran sesuai membuat produk layak dijual."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Ragam hias",
+                  "right": "motif atau corak hias pada benda"
+                },
+                {
+                  "id": "m1",
+                  "left": "Flora",
+                  "right": "motif yang meniru tumbuhan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Fauna",
+                  "right": "motif yang meniru hewan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Geometris",
+                  "right": "motif dari garis dan bentuk beraturan"
+                },
+                {
+                  "id": "m4",
+                  "left": "Sulam",
+                  "right": "menghias kain dengan benang dan jarum"
+                },
+                {
+                  "id": "m5",
+                  "left": "Aplikasi",
+                  "right": "menempelkan kain lain pada kain utama"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "motif atau corak hias pada benda",
+                  "m1": "motif yang meniru tumbuhan",
+                  "m2": "motif yang meniru hewan",
+                  "m3": "motif dari garis dan bentuk beraturan",
+                  "m4": "menghias kain dengan benang dan jarum",
+                  "m5": "menempelkan kain lain pada kain utama"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah memasarkan produk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Foto produk"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tentukan harga"
+                },
+                {
+                  "id": "d2",
+                  "text": "Unggah ke media promosi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Layani pesanan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Pemasaran bergerak dari foto dan harga menuju pelayanan pesanan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

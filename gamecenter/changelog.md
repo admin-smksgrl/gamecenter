@@ -8,7 +8,43 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-20 15:14 WIB (rilis 0.37.0).
+**Terakhir diperbarui:** 2026-11-20 15:40 WIB (rilis 0.38.0).
+
+## [0.38.0] - 2026-11-20 15:40 WIB
+
+**Batch 14 — buku Prakarya Kerajinan Kelas X tuntas 3/3 unit.**
+
+### Ditambah
+- **PRA 1 Ragam Hias Nusantara pada Produk Fesyen** — glosarium motif dan
+  teknik, diagram alur proyek fesyen, tabel sulam–aplikasi–lukis tekstil,
+  grafik waktu pengerjaan, kelompokkan motif/teknik, prinsip ergonomi dan
+  nilai ekonomis, skenario “Pesanan aksesori sekolah”, kartu istilah, dan
+  tantangan istilah.
+- **PRA 2 Produk Aksesoris Interior Nusantara** — glosarium interior,
+  diagram alur proyek, tabel makrame–pilin–lempeng–anyaman, grafik waktu
+  pengeringan bahan, kelompokkan bahan alami/olahan, prinsip keselamatan
+  kerja, skenario “Menghias sudut baca”, dan tantangan istilah.
+- **PRA 3 Produk Aksesoris Eksterior dengan Memanfaatkan Bahan Lokal** —
+  glosarium bahan lokal dan pengawetan, diagram alur proyek kelompok, tabel
+  kelebihan/perawatan bahan, grafik daya tahan, kelompokkan bahan tahan
+  cuaca/mudah rusak, skenario “Lampu taman untuk sekolah”, dan tantangan
+  istilah.
+- Ketiga bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan
+  campuran pilihan ganda, jawaban ganda, menjodohkan, seret-lepas, dan susun
+  urutan; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- **Buku Prakarya Kerajinan X tuntas 3/3 unit**, seluruhnya memenuhi minimum
+  §5.3 (satu visual, empat aktivitas, dua skenario/tantangan, dua recall,
+  tiga checkpoint per bab).
+
+### Verifikasi
+- `gamecenter:materi-import --dry-run` → 69 berkas, **0 gagal**.
+- Impor sungguhan menambah **3 bab / 9 materi / 9 asesmen / 90 soal**.
+- `gamecenter:materi-coverage` → **70 dari 73 chapter** memenuhi minimum §5.3,
+  **2.513 blok**. PRA 1–3 masing-masing 26 blok, semuanya ✅.
+- `php artisan test` → **147 lulus, 1 dilewati, 1.516 asertion**; tes impor
+  mengharapkan 69 bab dan 2.070 soal, tes cakupan memeriksa ketiga bab
+  Prakarya dan halaman bermain PRA 1.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.37.0] - 2026-11-20 15:14 WIB
 

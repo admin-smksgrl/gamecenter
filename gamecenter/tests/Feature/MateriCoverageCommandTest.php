@@ -159,6 +159,57 @@ class MateriCoverageCommandTest extends TestCase
         }
     }
 
+    public function test_prakarya_chapters_meet_the_plan_minimums(): void
+    {
+        // Buku Prakarya Kerajinan X (rilis 0.38.0) tuntas 3/3 unit: ragam hias
+        // fesyen, aksesoris interior, dan aksesoris eksterior.
+        foreach (['PRA 1', 'PRA 2', 'PRA 3'] as $code) {
+            $row = $this->coverage($code)['chapters'][0];
+
+            $this->assertTrue(
+                $row['complete'],
+                "{$code} belum memenuhi §5.3: " . implode(', ', $row['missing']),
+            );
+            $this->assertSame(0, $row['hidden'], "{$code} menyembunyikan isi materi");
+            $this->assertGreaterThan(0, $row['theory'], "{$code} tidak punya blok teks");
+            $this->assertGreaterThanOrEqual(1, $row['visual'], "{$code} tidak punya blok visual");
+            $this->assertGreaterThanOrEqual(2, $row['activities'], "{$code} butuh dua blok aktivitas");
+            $this->assertGreaterThanOrEqual(1, $row['scenario'], "{$code} butuh skenario atau tantangan");
+            $this->assertGreaterThanOrEqual(1, $row['recall'], "{$code} butuh glossary atau flashcards");
+            $this->assertGreaterThanOrEqual(
+                $row['required_checkpoints'],
+                $row['checkpoints'],
+                "{$code} butuh {$row['required_checkpoints']} checkpoint",
+            );
+        }
+    }
+
+    public function test_prakarya_play_page_serves_three_materials_and_five_easy_questions(): void
+    {
+        $assessment = Assessment::query()
+            ->whereHas('chapter', fn ($query) => $query->where('code', 'PRA 1'))
+            ->where('difficulty', 'easy')
+            ->firstOrFail();
+
+        $response = $this->get("/main/{$assessment->id}");
+
+        $response->assertOk();
+        $response->assertInertia(function (AssertableInertia $page) {
+            $props = $page->toArray()['props'];
+
+            $this->assertSame('Ragam Hias Nusantara pada Produk Fesyen', $props['context']['chapter_title']);
+            $this->assertSame('prakarya', $props['context']['subject_slug'] ?? 'prakarya');
+            $this->assertCount(5, $props['questions']);
+            $this->assertCount(3, $props['materials']);
+
+            $first = $props['materials'][0];
+            $types = array_column($first['blocks'], 'type');
+
+            $this->assertContains('glossary', $types);
+            $this->assertContains('checkpoint', $types);
+        });
+    }
+
     public function test_pjok_play_page_serves_three_materials_and_five_easy_questions(): void
     {
         $assessment = Assessment::query()
