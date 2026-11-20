@@ -317,6 +317,58 @@ class MateriCoverageCommandTest extends TestCase
         }
     }
 
+    public function test_tjkt_chapters_meet_the_plan_minimums(): void
+    {
+        // Buku Dasar-Dasar TJKT SMK Kelas X (rilis 0.45.0) tuntas 6/6 bab.
+        foreach (['TJKT 1', 'TJKT 2', 'TJKT 3', 'TJKT 4', 'TJKT 5', 'TJKT 6'] as $code) {
+            $row = $this->coverage($code)['chapters'][0];
+
+            $this->assertTrue(
+                $row['complete'],
+                "{$code} belum memenuhi §5.3: " . implode(', ', $row['missing']),
+            );
+            $this->assertSame(0, $row['hidden'], "{$code} menyembunyikan isi materi");
+            $this->assertGreaterThan(0, $row['theory'], "{$code} tidak punya blok teks");
+            $this->assertGreaterThanOrEqual(1, $row['visual'], "{$code} tidak punya blok visual");
+            $this->assertGreaterThanOrEqual(2, $row['activities'], "{$code} butuh dua blok aktivitas");
+            $this->assertGreaterThanOrEqual(1, $row['scenario'], "{$code} butuh skenario atau tantangan");
+            $this->assertGreaterThanOrEqual(1, $row['recall'], "{$code} butuh glossary atau flashcards");
+            $this->assertGreaterThanOrEqual(
+                $row['required_checkpoints'],
+                $row['checkpoints'],
+                "{$code} butuh {$row['required_checkpoints']} checkpoint",
+            );
+        }
+    }
+
+    public function test_tjkt_play_page_serves_three_materials_and_five_easy_questions(): void
+    {
+        $assessment = Assessment::query()
+            ->whereHas('chapter', fn ($query) => $query->where('code', 'TJKT 5'))
+            ->where('difficulty', 'easy')
+            ->firstOrFail();
+
+        $response = $this->get("/main/{$assessment->id}");
+
+        $response->assertOk();
+        $response->assertInertia(function (AssertableInertia $page) {
+            $props = $page->toArray()['props'];
+
+            $this->assertSame(
+                'Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi',
+                $props['context']['chapter_title'],
+            );
+            $this->assertCount(5, $props['questions']);
+            $this->assertCount(3, $props['materials']);
+
+            $types = array_column($props['materials'][0]['blocks'], 'type');
+
+            $this->assertContains('glossary', $types);
+            $this->assertContains('diagram', $types);
+            $this->assertContains('checkpoint', $types);
+        });
+    }
+
     public function test_sejarah_chapters_meet_the_plan_minimums(): void
     {
         // Buku Sejarah SMK Kelas X (rilis 0.44.0) tuntas 4/4 bab.

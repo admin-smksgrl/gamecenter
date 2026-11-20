@@ -1,0 +1,1293 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "tjkt",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "TJKT 6",
+      "title": "Media dan Jaringan Telekomunikasi",
+      "description": "Memahami prinsip TCP/IP dan pengalamatan IP, cara kerja layanan jaringan seperti HTTP, DHCP, DNS, FTP, dan email, serta prinsip dasar keamanan jaringan komputer dan telekomunikasi.",
+      "learning_objectives": [
+        "Menjelaskan prinsip kerja TCP/IP, encapsulation, sequence number, dan three way handshake.",
+        "Menjelaskan pengalamatan IP dan pembagian jaringan pada TCP/IP.",
+        "Menjelaskan prinsip kerja layanan jaringan HTTP, DHCP, DNS, FTP, dan email.",
+        "Menjelaskan prinsip dasar keamanan jaringan beserta celah dan cara pengamanannya."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 6; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Prinsip dasar TCP/IP",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 6; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Membungkus, mengurutkan, menyusun\n\nTCP/IP adalah protokol utama dalam jaringan komputer dan telekomunikasi. TCP mengatur bagaimana paket data dikirim dan diterima, sedangkan IP mengatur pengalamatan paket data.\n\nCara kerja TCP dapat diibaratkan mengirim paket barang: barang dimasukkan ke wadah (encapsulation), diberi alamat tujuan pada bungkus (TCP header), dikirim melalui jalur, lalu dibuka penerima (decapsulation).\n\nData dipecah menjadi bagian kecil dan diberi sequence number agar dapat disusun kembali. Jika ada bagian hilang, penerima dapat meminta pengiriman ulang; inilah fitur error recovery pada TCP.\n\nSetiap paket harus memiliki nomor pengenal (sequence number) yang bertambah sesuai jumlah byte yang dikirim.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "tjkt-6-media-jaringan-telekomunikasi-glosarium",
+              "terms": [
+                {
+                  "term": "TCP",
+                  "definition": "Transmission Control Protocol, mengatur bagaimana paket data dikirim, diurutkan, dan diterima."
+                },
+                {
+                  "term": "IP",
+                  "definition": "Internet Protocol, mengatur pengalamatan paket data yang dikirimkan."
+                },
+                {
+                  "term": "Encapsulation",
+                  "definition": "Proses membungkus data dengan header yang berisi alamat dan informasi kendali."
+                },
+                {
+                  "term": "Decapsulation",
+                  "definition": "Proses membuka bungkus paket dan membuang header setelah data diterima."
+                },
+                {
+                  "term": "Sequence number",
+                  "definition": "Nomor urut paket yang memungkinkan data disusun kembali dan bagian hilang dikirim ulang."
+                },
+                {
+                  "term": "Three way handshake",
+                  "definition": "Tiga langkah jabat tangan SYN, SYN-ACK, dan ACK sebelum dua perangkat berkomunikasi."
+                },
+                {
+                  "term": "DHCP",
+                  "definition": "Layanan yang memberikan alamat IP secara otomatis kepada perangkat dalam jaringan."
+                },
+                {
+                  "term": "DNS",
+                  "definition": "Layanan yang menerjemahkan nama domain menjadi alamat IP."
+                },
+                {
+                  "term": "FTP",
+                  "definition": "File Transfer Protocol, layanan pengiriman dan pengambilan berkas antarperangkat."
+                },
+                {
+                  "term": "ARP",
+                  "definition": "Address Resolution Protocol, mencari alamat MAC dari alamat IP dalam jaringan lokal."
+                },
+                {
+                  "term": "Ciphertext",
+                  "definition": "Teks hasil penyandian yang hanya dapat dibaca dengan kunci tertentu."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membungkus, mengurutkan, menyusun"
+            },
+            {
+              "type": "paragraph",
+              "text": "TCP/IP adalah protokol utama dalam jaringan komputer dan telekomunikasi. TCP mengatur bagaimana paket data dikirim dan diterima, sedangkan IP mengatur pengalamatan paket data."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cara kerja TCP dapat diibaratkan mengirim paket barang: barang dimasukkan ke wadah (encapsulation), diberi alamat tujuan pada bungkus (TCP header), dikirim melalui jalur, lalu dibuka penerima (decapsulation)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Data dipecah menjadi bagian kecil dan diberi sequence number agar dapat disusun kembali. Jika ada bagian hilang, penerima dapat meminta pengiriman ulang; inilah fitur error recovery pada TCP."
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-6-media-jaringan-telekomunikasi-diagram",
+              "engine": "mermaid",
+              "title": "Alur encapsulation dan decapsulation",
+              "code": "flowchart LR\n  A[Data pengirim] --> B[Encapsulation: dibungkus header]\n  B --> C[Header berisi alamat dan port]\n  C --> D[Media transmisi / kurir]\n  D --> E[Penerima menerima paket]\n  E --> F[Decapsulation: header dibuang]\n  F --> G[Data utuh diterima]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Setiap paket harus memiliki nomor pengenal (sequence number) yang bertambah sesuai jumlah byte yang dikirim."
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-6-media-jaringan-telekomunikasi-cp-1",
+              "question": "Bagian TCP/IP yang mengatur pengalamatan paket data adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "IP",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "TCP"
+                },
+                {
+                  "id": "c2",
+                  "text": "HTTP"
+                },
+                {
+                  "id": "c3",
+                  "text": "FTP"
+                }
+              ],
+              "explanation": "IP mengatur pengalamatan, TCP mengatur pengiriman dan penerimaan paket."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Jabat tangan dan layanan jaringan",
+          "duration": 300,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 6; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Dari three way handshake ke DHCP dan DNS\n\nSebelum berkomunikasi, dua perangkat melakukan three way handshake: pengirim mengirim SYN dengan sequence number, penerima membalas SYN-ACK dengan ACK, lalu pengirim mengirim ACK. Setelah itu data dapat mengalir.\n\nModel TCP/IP bekerja berlapis antara perangkat keras dan perangkat lunak. Pengujian di simulasi memperlihatkan lapisan, alamat IP, port, dan alamat MAC pada setiap paket.\n\nLayanan jaringan mencakup HTTP untuk halaman web, DHCP untuk pemberian alamat IP otomatis, DNS untuk menerjemahkan nama domain, FTP untuk pengiriman berkas, dan email untuk surat elektronik.\n\n| Layanan | Fungsi | Catatan |\n|---|---|---|\n| HTTP | Menampilkan halaman web | HTTP 404 berarti berkas tidak ditemukan |\n| DHCP | Memberi alamat IP otomatis | Discover, Offering, Request, ACK |\n| DNS | Nama domain menjadi alamat IP | Memudahkan pengguna mengingat nama |\n| FTP | Mengirim dan mengambil berkas | Butuh koneksi dan autentikasi |\n| Email | Mengirim surat elektronik | Memakai server pengirim dan penerima |\n\n### Keamanan jaringan\n\n- Hub menyebarkan paket ke semua perangkat sehingga mudah disadap, sedangkan switch mencatat alamat MAC pada memori CAM dan hanya meneruskan ke port tujuan.\n- ARP dipakai mencari alamat MAC dari alamat IP; jawaban palsu atas ARP dapat dipakai untuk menipu jaringan.\n- Enkripsi mengubah plaintext menjadi ciphertext dengan kunci tertentu, misalnya shift cipher menggeser huruf sejumlah kunci.\n- DHCP Server palsu dapat memberi alamat yang salah sehingga pengguna diarahkan ke jaringan penyerang; Wi-Fi juga perlu diamankan dengan autentikasi dan enkripsi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari three way handshake ke DHCP dan DNS"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebelum berkomunikasi, dua perangkat melakukan three way handshake: pengirim mengirim SYN dengan sequence number, penerima membalas SYN-ACK dengan ACK, lalu pengirim mengirim ACK. Setelah itu data dapat mengalir."
+            },
+            {
+              "type": "paragraph",
+              "text": "Model TCP/IP bekerja berlapis antara perangkat keras dan perangkat lunak. Pengujian di simulasi memperlihatkan lapisan, alamat IP, port, dan alamat MAC pada setiap paket."
+            },
+            {
+              "type": "paragraph",
+              "text": "Layanan jaringan mencakup HTTP untuk halaman web, DHCP untuk pemberian alamat IP otomatis, DNS untuk menerjemahkan nama domain, FTP untuk pengiriman berkas, dan email untuk surat elektronik."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Layanan",
+                  "Fungsi",
+                  "Catatan"
+                ],
+                [
+                  "HTTP",
+                  "Menampilkan halaman web",
+                  "HTTP 404 berarti berkas tidak ditemukan"
+                ],
+                [
+                  "DHCP",
+                  "Memberi alamat IP otomatis",
+                  "Discover, Offering, Request, ACK"
+                ],
+                [
+                  "DNS",
+                  "Nama domain menjadi alamat IP",
+                  "Memudahkan pengguna mengingat nama"
+                ],
+                [
+                  "FTP",
+                  "Mengirim dan mengambil berkas",
+                  "Butuh koneksi dan autentikasi"
+                ],
+                [
+                  "Email",
+                  "Mengirim surat elektronik",
+                  "Memakai server pengirim dan penerima"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-6-dhcp",
+              "engine": "mermaid",
+              "title": "Empat langkah layanan DHCP",
+              "code": "flowchart LR\n  A[DHCP Discover] --> B[DHCP Offering]\n  B --> C[DHCP Request]\n  C --> D[DHCP ACK]\n  D --> E[Klien memakai alamat IP]"
+            },
+            {
+              "type": "categorize",
+              "id": "tjkt-6-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam pengalamatan IP atau layanan jaringan.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Pengalamatan IP"
+                },
+                {
+                  "id": "b2",
+                  "label": "Layanan jaringan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Alamat 192.168.1.10 dengan prefix /24",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Memberi alamat otomatis kepada klien",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Alamat IP terdiri atas network dan host",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Menerjemahkan nama domain menjadi alamat",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Alamat IPv6 berukuran 128 bit",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Menampilkan halaman web lewat browser",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Range alamat host dalam satu jaringan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Mengirim dan mengambil berkas dari server",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Pengalamatan berkaitan dengan identitas perangkat; layanan berkaitan dengan fungsi yang disediakan jaringan.",
+                "wrong": "Periksa lagi: DHCP, DNS, HTTP, dan FTP termasuk layanan jaringan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Keamanan jaringan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hub menyebarkan paket ke semua perangkat sehingga mudah disadap, sedangkan switch mencatat alamat MAC pada memori CAM dan hanya meneruskan ke port tujuan.",
+                "ARP dipakai mencari alamat MAC dari alamat IP; jawaban palsu atas ARP dapat dipakai untuk menipu jaringan.",
+                "Enkripsi mengubah plaintext menjadi ciphertext dengan kunci tertentu, misalnya shift cipher menggeser huruf sejumlah kunci.",
+                "DHCP Server palsu dapat memberi alamat yang salah sehingga pengguna diarahkan ke jaringan penyerang; Wi-Fi juga perlu diamankan dengan autentikasi dan enkripsi."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-6-media-jaringan-telekomunikasi-cp-2",
+              "question": "Layanan yang memberikan alamat IP secara otomatis adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "DHCP",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "DNS"
+                },
+                {
+                  "id": "c2",
+                  "text": "FTP"
+                },
+                {
+                  "id": "c3",
+                  "text": "HTTP"
+                }
+              ],
+              "explanation": "DHCP memberi alamat IP otomatis melalui Discover, Offering, Request, dan ACK."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 6; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Membaca lalu lintas dan menjaga jaringan\n\nSaat membuka sebuah situs, browser mengirim HTTP Request. Server membalas HTTP Response berisi berkas halaman; bila berkas tidak ada, server mengirim kode 404.\n\nPada jaringan lokal, switch mencatat MAC address dan port yang dipakai. Karena itu perangkat pengguna tidak perlu menerima seluruh lalu lintas jaringan seperti pada hub.\n\nPengamanan sederhana dapat dimulai dengan kata sandi kuat, pembaruan perangkat, serta memeriksa perangkat asing yang terhubung ke jaringan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membaca lalu lintas dan menjaga jaringan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Saat membuka sebuah situs, browser mengirim HTTP Request. Server membalas HTTP Response berisi berkas halaman; bila berkas tidak ada, server mengirim kode 404."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada jaringan lokal, switch mencatat MAC address dan port yang dipakai. Karena itu perangkat pengguna tidak perlu menerima seluruh lalu lintas jaringan seperti pada hub."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengamanan sederhana dapat dimulai dengan kata sandi kuat, pembaruan perangkat, serta memeriksa perangkat asing yang terhubung ke jaringan."
+            },
+            {
+              "type": "scenario",
+              "id": "tjkt-6-skenario",
+              "title": "Alamat IP mendadak berubah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Beberapa komputer di lab mendapat alamat IP aneh dan tidak bisa membuka situs internal. Dugaanmu?",
+                  "choices": [
+                    {
+                      "text": "Ada DHCP Server tidak dikenal yang membagikan alamat salah",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "DHCP palsu memang dapat mengarahkan klien ke jaringan penyerang."
+                    },
+                    {
+                      "text": "Kabel LAN semuanya putus",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Jika semua kabel putus, perangkat tidak akan mendapat alamat sama sekali."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bagaimana menanganinya?",
+                  "choices": [
+                    {
+                      "text": "Menonaktifkan port perangkat asing dan memakai DHCP Server resmi",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Membatasi port dan memakai server resmi memulihkan keamanan jaringan."
+                    },
+                    {
+                      "text": "Membiarkannya karena masih bisa internet",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Lalu lintas bisa disadap melalui server palsu."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Data pengguna tersadap dan jaringan tidak stabil.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Jaringan kembali normal dan aman.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "tjkt-6-media-jaringan-telekomunikasi-kartu",
+              "cards": [
+                {
+                  "front": "Apa fungsi TCP dan IP?",
+                  "back": "TCP mengatur pengiriman paket, IP mengatur pengalamatan."
+                },
+                {
+                  "front": "Apa itu encapsulation?",
+                  "back": "Membungkus data dengan header berisi alamat dan informasi kendali."
+                },
+                {
+                  "front": "Sebutkan empat langkah DHCP.",
+                  "back": "Discover, Offering, Request, ACK."
+                },
+                {
+                  "front": "Apa fungsi DNS?",
+                  "back": "Menerjemahkan nama domain menjadi alamat IP."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-6-media-jaringan-telekomunikasi-cp-3",
+              "question": "Kode balasan server web ketika berkas halaman tidak ditemukan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "HTTP 404",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "HTTP 200"
+                },
+                {
+                  "id": "c2",
+                  "text": "DHCP ACK"
+                },
+                {
+                  "id": "c3",
+                  "text": "FTP 21"
+                }
+              ],
+              "explanation": "HTTP 404 menandakan berkas yang diminta tidak ditemukan."
+            },
+            {
+              "type": "challenge",
+              "id": "tjkt-6-tantangan",
+              "title": "Tantangan istilah jaringan telekomunikasi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Mengatur pengiriman paket",
+                  "answer": "TCP"
+                },
+                {
+                  "question": "Mengatur pengalamatan paket",
+                  "answer": "IP"
+                },
+                {
+                  "question": "Nomor urut paket",
+                  "answer": "Sequence number"
+                },
+                {
+                  "question": "Pemberi alamat IP otomatis",
+                  "answer": "DHCP"
+                },
+                {
+                  "question": "Nama domain menjadi alamat IP",
+                  "answer": "DNS"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah jaringan telekomunikasi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Media dan Jaringan Telekomunikasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Protokol yang mengatur bagaimana paket data dikirim dan diterima adalah…",
+              "options": [
+                {
+                  "text": "TCP",
+                  "correct": true
+                },
+                {
+                  "text": "IP"
+                },
+                {
+                  "text": "DNS"
+                },
+                {
+                  "text": "ARP"
+                }
+              ],
+              "explanation": "TCP mengatur pengiriman dan penerimaan paket.",
+              "hint": "IP mengatur pengalamatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bagian TCP/IP yang mengatur pengalamatan paket data adalah…",
+              "options": [
+                {
+                  "text": "IP",
+                  "correct": true
+                },
+                {
+                  "text": "TCP"
+                },
+                {
+                  "text": "HTTP"
+                },
+                {
+                  "text": "FTP"
+                }
+              ],
+              "explanation": "IP memberi alamat pada paket.",
+              "hint": "Bersama TCP membentuk TCP/IP."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proses membungkus data dengan header disebut…",
+              "options": [
+                {
+                  "text": "encapsulation",
+                  "correct": true
+                },
+                {
+                  "text": "decapsulation"
+                },
+                {
+                  "text": "enkripsi"
+                },
+                {
+                  "text": "fragmentasi"
+                }
+              ],
+              "explanation": "Encapsulation menambahkan header alamat.",
+              "hint": "Analogi memasukkan barang ke wadah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bagian dari TCP/IP?",
+              "options": [
+                {
+                  "text": "TCP",
+                  "correct": true
+                },
+                {
+                  "text": "IP",
+                  "correct": true
+                },
+                {
+                  "text": "DNS",
+                  "correct": false
+                },
+                {
+                  "text": "HTTP",
+                  "correct": false
+                }
+              ],
+              "explanation": "TCP/IP terdiri atas TCP dan IP.",
+              "hint": "DNS dan HTTP adalah layanan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah layanan jaringan pada bab ini?",
+              "options": [
+                {
+                  "text": "HTTP",
+                  "correct": true
+                },
+                {
+                  "text": "DHCP",
+                  "correct": true
+                },
+                {
+                  "text": "DNS",
+                  "correct": true
+                },
+                {
+                  "text": "ARP",
+                  "correct": false
+                },
+                {
+                  "text": "MAC",
+                  "correct": false
+                }
+              ],
+              "explanation": "HTTP, DHCP, dan DNS adalah layanan jaringan.",
+              "hint": "ARP protokol pencarian MAC."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Media dan Jaringan Telekomunikasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Proses membuka bungkus paket dan membuang header setelah diterima disebut…",
+              "options": [
+                {
+                  "text": "decapsulation",
+                  "correct": true
+                },
+                {
+                  "text": "encapsulation"
+                },
+                {
+                  "text": "kompresi"
+                },
+                {
+                  "text": "routing"
+                }
+              ],
+              "explanation": "Penerima membuang header lalu mengambil isi.",
+              "hint": "Kebalikan encapsulation."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Nomor urut paket pada TCP disebut…",
+              "options": [
+                {
+                  "text": "sequence number",
+                  "correct": true
+                },
+                {
+                  "text": "checksum"
+                },
+                {
+                  "text": "port"
+                },
+                {
+                  "text": "gateway"
+                }
+              ],
+              "explanation": "Sequence number memungkinkan penyusunan ulang.",
+              "hint": "Bagian hilang dapat dikirim ulang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri encapsulation?",
+              "options": [
+                {
+                  "text": "Menambahkan header",
+                  "correct": true
+                },
+                {
+                  "text": "Menuliskan alamat tujuan",
+                  "correct": true
+                },
+                {
+                  "text": "Menyiapkan port tujuan",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang header",
+                  "correct": false
+                },
+                {
+                  "text": "Mengubah isi data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Encapsulation membungkus data dengan header.",
+              "hint": "Membuang header adalah decapsulation."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat sequence number?",
+              "options": [
+                {
+                  "text": "Menyusun ulang paket",
+                  "correct": true
+                },
+                {
+                  "text": "Mengetahui paket hilang",
+                  "correct": true
+                },
+                {
+                  "text": "Memungkinkan pengiriman ulang",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus paket",
+                  "correct": false
+                },
+                {
+                  "text": "Menggandakan data",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sequence number menjaga urutan data.",
+              "hint": "Paket hilang bisa dikirim ulang."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "TCP",
+                  "right": "mengatur pengiriman paket"
+                },
+                {
+                  "id": "m1",
+                  "left": "IP",
+                  "right": "mengatur pengalamatan paket"
+                },
+                {
+                  "id": "m2",
+                  "left": "Encapsulation",
+                  "right": "membungkus data dengan header"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sequence number",
+                  "right": "nomor urut paket"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengatur pengiriman paket",
+                  "m1": "mengatur pengalamatan paket",
+                  "m2": "membungkus data dengan header",
+                  "m3": "nomor urut paket"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan proses pengiriman data dengan TCP.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Data dipecah menjadi paket kecil"
+                },
+                {
+                  "id": "d1",
+                  "text": "Setiap paket diberi sequence number"
+                },
+                {
+                  "id": "d2",
+                  "text": "Paket dikirim melalui media"
+                },
+                {
+                  "id": "d3",
+                  "text": "Penerima menyusun ulang paket"
+                },
+                {
+                  "id": "d4",
+                  "text": "Paket hilang dikirim ulang"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pengiriman berurutan dari pemecahan ke pemulihan.",
+              "hint": "Pemulihan menjaga kelengkapan data."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah three way handshake.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Pengirim mengirim SYN dengan sequence number"
+                },
+                {
+                  "id": "p1",
+                  "text": "Penerima membalas SYN-ACK"
+                },
+                {
+                  "id": "p2",
+                  "text": "Pengirim mengirim ACK"
+                },
+                {
+                  "id": "p3",
+                  "text": "Koneksi terbentuk"
+                },
+                {
+                  "id": "p4",
+                  "text": "Data mulai dikirim"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Handshake terjadi sebelum data.",
+              "hint": "Koneksi terbentuk setelah ACK."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fitur TCP yang memungkinkan pengiriman ulang paket hilang disebut…",
+              "options": [
+                {
+                  "text": "error recovery",
+                  "correct": true
+                },
+                {
+                  "text": "broadcast"
+                },
+                {
+                  "text": "collision"
+                },
+                {
+                  "text": "routing"
+                }
+              ],
+              "explanation": "Error recovery memulihkan data yang gagal.",
+              "hint": "Didukung sequence number."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tiga langkah jabat tangan sebelum berkomunikasi disebut…",
+              "options": [
+                {
+                  "text": "three way handshake",
+                  "correct": true
+                },
+                {
+                  "text": "broadcast storm"
+                },
+                {
+                  "text": "handover"
+                },
+                {
+                  "text": "flooding"
+                }
+              ],
+              "explanation": "Urutannya SYN, SYN-ACK, ACK.",
+              "hint": "Sebagai salam perkenalan perangkat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah langkah three way handshake?",
+              "options": [
+                {
+                  "text": "SYN",
+                  "correct": true
+                },
+                {
+                  "text": "SYN-ACK",
+                  "correct": true
+                },
+                {
+                  "text": "ACK",
+                  "correct": true
+                },
+                {
+                  "text": "Discover",
+                  "correct": false
+                },
+                {
+                  "text": "Offering",
+                  "correct": false
+                }
+              ],
+              "explanation": "Handshake memakai SYN dan ACK.",
+              "hint": "Discover dan Offering bagian DHCP."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Media dan Jaringan Telekomunikasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Layanan yang memberi alamat IP secara otomatis adalah…",
+              "options": [
+                {
+                  "text": "DHCP",
+                  "correct": true
+                },
+                {
+                  "text": "DNS"
+                },
+                {
+                  "text": "FTP"
+                },
+                {
+                  "text": "ARP"
+                }
+              ],
+              "explanation": "DHCP meminjamkan alamat IP sementara."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Urutan pesan DHCP yang benar adalah…",
+              "options": [
+                {
+                  "text": "Discover, Offering, Request, ACK",
+                  "correct": true
+                },
+                {
+                  "text": "Request, Offering, Discover, ACK"
+                },
+                {
+                  "text": "ACK, Discover, Offering, Request"
+                },
+                {
+                  "text": "Offering, ACK, Discover, Request"
+                }
+              ],
+              "explanation": "Klien mencari, server menawarkan, klien meminta, server mengonfirmasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Layanan yang menerjemahkan nama domain menjadi alamat IP adalah…",
+              "options": [
+                {
+                  "text": "DNS",
+                  "correct": true
+                },
+                {
+                  "text": "DHCP"
+                },
+                {
+                  "text": "HTTP"
+                },
+                {
+                  "text": "FTP"
+                }
+              ],
+              "explanation": "DNS memudahkan pengguna memakai nama."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kode HTTP yang menandakan berkas tidak ditemukan adalah…",
+              "options": [
+                {
+                  "text": "404",
+                  "correct": true
+                },
+                {
+                  "text": "200"
+                },
+                {
+                  "text": "301"
+                },
+                {
+                  "text": "21"
+                }
+              ],
+              "explanation": "HTTP reply 404 dikirim server bila berkas tidak ada."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Protokol yang mencari alamat MAC dari alamat IP adalah…",
+              "options": [
+                {
+                  "text": "ARP",
+                  "correct": true
+                },
+                {
+                  "text": "FTP"
+                },
+                {
+                  "text": "DNS"
+                },
+                {
+                  "text": "TCP"
+                }
+              ],
+              "explanation": "ARP memakai broadcast dalam jaringan lokal."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan tentang DNS?",
+              "options": [
+                {
+                  "text": "Menerjemahkan nama domain",
+                  "correct": true
+                },
+                {
+                  "text": "Membantu membuka situs",
+                  "correct": true
+                },
+                {
+                  "text": "Memakai alamat IP",
+                  "correct": true
+                },
+                {
+                  "text": "Memberi alamat otomatis",
+                  "correct": false
+                },
+                {
+                  "text": "Mengirim berkas",
+                  "correct": false
+                }
+              ],
+              "explanation": "DNS memetakan nama ke alamat IP."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah cara mengurangi risiko penyadapan?",
+              "options": [
+                {
+                  "text": "Memakai switch bukan hub",
+                  "correct": true
+                },
+                {
+                  "text": "Mengaktifkan enkripsi",
+                  "correct": true
+                },
+                {
+                  "text": "Memakai kata sandi kuat",
+                  "correct": true
+                },
+                {
+                  "text": "Membagikan kata sandi",
+                  "correct": false
+                },
+                {
+                  "text": "Membiarkan port terbuka",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiganya meningkatkan keamanan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Three way handshake",
+                  "right": "SYN, SYN-ACK, ACK"
+                },
+                {
+                  "id": "m1",
+                  "left": "DHCP",
+                  "right": "pemberi alamat IP otomatis"
+                },
+                {
+                  "id": "m2",
+                  "left": "DNS",
+                  "right": "nama domain menjadi alamat IP"
+                },
+                {
+                  "id": "m3",
+                  "left": "ARP",
+                  "right": "mencari alamat MAC"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "SYN, SYN-ACK, ACK",
+                  "m1": "pemberi alamat IP otomatis",
+                  "m2": "nama domain menjadi alamat IP",
+                  "m3": "mencari alamat MAC"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah kerja DHCP.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Klien mengirim DHCP Discover"
+                },
+                {
+                  "id": "d1",
+                  "text": "Server mengirim DHCP Offering"
+                },
+                {
+                  "id": "d2",
+                  "text": "Klien mengirim DHCP Request"
+                },
+                {
+                  "id": "d3",
+                  "text": "Server mengirim DHCP ACK"
+                },
+                {
+                  "id": "d4",
+                  "text": "Klien memakai alamat IP"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "DHCP berjalan empat langkah."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan proses membuka situs web.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Pengguna mengetik alamat situs"
+                },
+                {
+                  "id": "p1",
+                  "text": "DNS menerjemahkan nama menjadi IP"
+                },
+                {
+                  "id": "p2",
+                  "text": "Browser mengirim HTTP Request"
+                },
+                {
+                  "id": "p3",
+                  "text": "Server mengirim HTTP Response"
+                },
+                {
+                  "id": "p4",
+                  "text": "Halaman tampil di browser"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Situs tampil setelah DNS dan HTTP bekerja."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Memori switch untuk menyimpan alamat MAC disebut…",
+              "options": [
+                {
+                  "text": "CAM",
+                  "correct": true
+                },
+                {
+                  "text": "RAM"
+                },
+                {
+                  "text": "ROM"
+                },
+                {
+                  "text": "DNS"
+                }
+              ],
+              "explanation": "CAM menyimpan alamat MAC dan port."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perangkat yang menyebarkan paket ke semua perangkat sehingga mudah disadap adalah…",
+              "options": [
+                {
+                  "text": "hub",
+                  "correct": true
+                },
+                {
+                  "text": "switch"
+                },
+                {
+                  "text": "router"
+                },
+                {
+                  "text": "modem"
+                }
+              ],
+              "explanation": "Hub menyebar paket ke semua port."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pernyataan tentang switch?",
+              "options": [
+                {
+                  "text": "Menyimpan alamat MAC di CAM",
+                  "correct": true
+                },
+                {
+                  "text": "Meneruskan paket ke port tujuan",
+                  "correct": true
+                },
+                {
+                  "text": "Mencatat port perangkat",
+                  "correct": true
+                },
+                {
+                  "text": "Menyebar paket ke semua port",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak mengenal MAC",
+                  "correct": false
+                }
+              ],
+              "explanation": "Switch lebih selektif daripada hub."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "TCP",
+                  "right": "mengatur pengiriman paket"
+                },
+                {
+                  "id": "m1",
+                  "left": "IP",
+                  "right": "mengatur pengalamatan paket"
+                },
+                {
+                  "id": "m2",
+                  "left": "Encapsulation",
+                  "right": "membungkus data dengan header"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sequence number",
+                  "right": "nomor urut paket"
+                },
+                {
+                  "id": "m4",
+                  "left": "Three way handshake",
+                  "right": "SYN, SYN-ACK, ACK"
+                },
+                {
+                  "id": "m5",
+                  "left": "DHCP",
+                  "right": "pemberi alamat IP otomatis"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "mengatur pengiriman paket",
+                  "m1": "mengatur pengalamatan paket",
+                  "m2": "membungkus data dengan header",
+                  "m3": "nomor urut paket",
+                  "m4": "SYN, SYN-ACK, ACK",
+                  "m5": "pemberi alamat IP otomatis"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan cara switch meneruskan paket.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "PC mengirim paket broadcast ARP"
+                },
+                {
+                  "id": "d1",
+                  "text": "Switch mencatat alamat MAC sumber dan portnya"
+                },
+                {
+                  "id": "d2",
+                  "text": "Switch meneruskan ARP ke perangkat lain"
+                },
+                {
+                  "id": "d3",
+                  "text": "PC tujuan membalas dengan alamat MAC"
+                },
+                {
+                  "id": "d4",
+                  "text": "Switch menghubungkan port sumber dan tujuan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Switch belajar alamat lalu meneruskan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

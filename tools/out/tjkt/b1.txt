@@ -1,0 +1,1063 @@
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+2
+ 
+ Tujuan Pembelajaran
+Setelah menyelesaikan kegiatan belajar pada Subbab A, kalian diharapkan 
+dapat menjelaskan sebuah proses bisnis dari para pelaku bisnis dan 
+menganalisis aktivitas utama dari proses bisnis di bidang Teknik Jaringan 
+Komputer dan Telekomunikasi.
+Setelah menyelesaikan kegiatan belajar pada Subbab B, kalian diharapkan 
+dapat menyusun sebuah dokumen survei kebutuhan pengguna dan 
+menerapkan penanganan pelanggan (customer handling) pada pelaksanaan 
+survei kebutuhan pelanggan jaringan komputer dan telekomunikasi.
+Setelah menyelesaikan kegiatan belajar pada Subbab C, kalian diharapkan 
+dapat memilih komponen fisik dan logic jaringan komputer sesuai dengan 
+fungsinya, kemudian menerapkannya dalam perangkat simulasi jaringan.
+ 
+ Kata Kunci
+• 
+Proses bisnis 
+• 
+Bidang Teknik Jaringan Komputer dan Telekomunikasi 
+• 
+Perencanaan jaringan komputer dan telekomunikasi
+• 
+Implementasi perencanaan jaringan komputer dan telekomunikasi
+ 
+ Peta Konsep
+Proses 
+Bisnis 
+di Bidang 
+Teknik Jaringan 
+Komputer dan 
+Telekomunikasi
+B
+Perencanaan Jaringan Komputer 
+dan Telekomunikasi pada Sebuah 
+Proses Bisnis
+A
+Proses Bisnis
+C
+Implementasi Perencanaan 
+Jaringan Komputer dan 
+Telekomunikasi berdasarkan 
+Proses Bisnis dalam Perusahaan
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+3
+Dalam merencanakan jaringan komputer di sebuah perusahaan, tentunya kita 
+perlu mengetahui proses bisnis dari perusahaan tersebut. Hal ini karena jaringan 
+komputer yang akan dibangun diharapkan dapat meningkatkan proses bisnis 
+perusahaan. Kebutuhan pelanggan menjadi informasi yang penting, seperti 
+informasi tentang berapa grup kerja perusahaan yang dapat dijadikan sebagai 
+penentu segmen jaringan. 
+Informasi tentang berbagai layanan (service) perusahaan juga diperlukan 
+guna mewujudkan layanan yang lebih luas melalui jaringan komputer dan 
+telekomunikasi dari perusahaan tersebut. 
+Informasi mengenai alur kerja (work flow) perusahaan juga sangat diperlukan 
+untuk dijadikan sebagai arah akses sebuah jaringan dalam perusahaan tersebut, 
+apakah searah atau dua arah antargrup kerja. Informasi tersebut dapat 
+diimplementasikan dalam sebuah firewall. Informasi lain yang dibutuhkan 
+ialah banyaknya pengguna jaringan komputer yang akan mendapatkan layanan.
+A. Proses Bisnis
+Di pasar tradisional atau pasar modern, terdapat sebuah kegiatan ekonomi yang 
+dapat kalian lihat secara nyata. Di dalam pasar, kalian dapat melihat bagaimana 
+manusia melakukan usaha untuk memenuhi kebutuhan hidupnya. Menurut 
+kalian, kegiatan seperti apa yang terjadi di pasar dalam memenuhi kebutuhan 
+perekonomian?
+1. 
+Apa yang kalian ketahui tentang kegiatan ekonomi? Jelaskan!
+2. 
+Apa yang kalian ketahui tentang produksi?
+3. 
+Berikan salah satu contoh kegiatan produksi dari pelaku usaha kecil di 
+sekitar kalian beserta tahapan yang dilakukan mulai dari pembelian 
+sampai dengan penjualan!
+Aktivitas Individu 1.1
+Gambar 1.1 menunjukkan aktivitas dari pelaku usaha yang dijalankan secara 
+individu. Menurut kalian, aktivitas apa saja yang terlihat pada gambar tersebut? 
+Apa yang dihasilkan? Serta, apa goal (tujuan) dari proses tersebut? Deskripsikan 
+hal-hal yang dapat kalian ungkap dengan mengisi Tabel 1.1!
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+4
+Gambar 1.1 Proses Bisnis dari Pelaku Usaha Individu
+Sumber: Agung Puspita Bantala (2022)
+Laporan Aktivitas Individu 1.1
+Tuliskan hasil pengamatan kalian pada tabel laporan sesuai dengan petunjuk 
+guru!
+Tabel 1.1 Laporan Aktivitas Utama Bisnis (Core Business) Pelaku Bisnis
+Tahapan Kegiatan Pelaku 
+Bisnis Tunggal
+Aktivitas Utama (Core)
+Tujuan Ekonomi
+1. 
+...............................
+(Barang/Jasa)*:
+2. 
+...............................
+3. 
+...............................
+Keterangan: * Coret yang tidak sesuai.
+Berdasarkan contoh proses bisnis yang kalian tuliskan dalam Tabel 1.1, 
+mari kita definisikan proses bisnis. Pada Tabel 1.1, apakah kalian melihat 
+serangkaian tahapan kegiatan yang terstruktur? Apakah kalian juga melihat 
+aktivitas utama yang diproduksi/dihasilkan baik barang maupun jasa yang 
+menjadi tujuan ekonomi? Coba kalian rangkai jawaban dari semua pertanyaan 
+tersebut menjadi definisi dari sebuah proses bisnis!
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+5
+   
+Analisis Gambar 1.2 di bawah! Jika pelaku bisnis mengembangkan 
+usahanya, proses bisnis pun mengalami perubahan. Pelakunya bukan 
+lagi individu, melainkan beberapa grup kerja dengan pembagian 
+tugas yang terstruktur.
+Aktivitas Individu 1.2
+Jelaskan alur proses bisnis dari Gambar 1.2 berikut fungsi dan tanggung jawab 
+dari setiap grup kerja dengan mengisi Tabel 1.2! Kalian dapat menggunakan 
+sumber lain untuk mendapatkan informasi.
+Gambar 1.2 Proses Bisnis dari Pelaku Usaha Kelompok/Organisasi
+Sumber: Agung Puspita Bantala (2022)
+Laporan Aktivitas Individu 1.2
+Tuliskan hasil analisis kalian pada tabel laporan sesuai dengan petunjuk guru! 
+Tabel 1.2 Aktivitas Utama Bisnis (Core Business) yang Dijalankan secara Organisasi/Kelompok
+Grup Kerja
+Fungsi dan 
+Tanggung 
+Jawab
+Tahapan 
+Kegiatan 
+Pelaku Bisnis 
+Organisasi
+Aktivitas 
+Utama (Core)
+Tujuan 
+Ekonomi
+CEO (Chief 
+Executive Officer)
+(Barang/Jasa)*:
+Purchasing/
+pembelian
+Storage/gudang
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+6
+Grup Kerja
+Fungsi dan 
+Tanggung 
+Jawab
+Tahapan 
+Kegiatan 
+Pelaku Bisnis 
+Organisasi
+Aktivitas 
+Utama (Core)
+Tujuan 
+Ekonomi
+Production/
+produksi
+QC (quality 
+control)
+Marketing/sales
+Accounting/
+payroll/keuangan
+Keterangan: * Coret yang tidak sesuai.
+   
+Pada skenario ini, kalian mendapat kesempatan untuk melaksanakan 
+kerja magang di perusahaan ISP di kota kalian yang bernama “MyTelco”. 
+Kalian akan ditempatkan dalam divisi/grup kerja Networking Design. 
+Sebelum kalian bekerja, analisis terlebih dahulu profil perusahaan 
+tempat kalian akan bekerja berdasarkan Gambar 1.3!
+Aktivitas Kelompok 1.3
+Analisislah proses bisnis perusahaan tersebut dan tuliskan dalam tabel yang 
+tersedia! Gunakan internet untuk menjelajahi (browsing) informasi mengenai apa 
+saja yang menjadi aktivitas bisnis dari sebuah ISP, lalu persentasikan hasilnya!
+Gambar 1.3 Proses Bisnis Internet Services Provider (ISP)
+Sumber: Agung Puspita Bantala (2022)
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+7
+Laporan Aktivitas Kelompok 1.3
+Tuliskan hasil analisis kalian pada tabel laporan sesuai dengan petunjuk guru!
+Tabel 1.3 Analisis Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+No
+Proses Bisnis
+Keterangan
+1.
+Aktivitas utama yang dihasilkan
+(Barang/Jasa)*:
+2.
+Aktivitas bisnis lainnya yang 
+menjadi penunjang
+3.
+Grup kerja yang terlibat dalam 
+usaha ini
+4.
+Fungsi dari setiap grup kerja 
+tersebut
+5.
+Deskripsi singkat alur proses bisnis 
+dari perusahaan sampai dengan 
+pelanggan
+Keterangan: * Coret yang tidak sesuai.
+B. Perencanaan Jaringan Komputer dan Telekomunikasi 
+pada Sebuah Proses Bisnis
+Dalam menunjang tercapainya target dari kegiatan perekonomian, setiap 
+perusahaan memiliki kebutuhan yang berbeda. Misalkan ada perusahaan yang 
+memproduksi kue (contoh yang telah kalian pelajari) dan perusahaan yang 
+menghasilkan jasa. Menurut kalian, apakah perencanaan jaringan di kedua 
+perusahaan tersebut dapat menggunakan desain yang sama?
+Saat merencanakan jaringan komputer di sebuah perusahaan, kalian 
+memerlukan analisis terhadap kebutuhan pengguna. Jadi, apa sebenarnya 
+analisis kebutuhan pengguna pada perencanaan jaringan komputer dan 
+telekomunikasi di sebuah perusahaan?
+Kebutuhan pelanggan baik berupa kebutuhan jumlah pengguna maupun 
+kebutuhan layanan jaringan, menjadi informasi yang penting. Untuk mendapatkan 
+semua informasi tersebut, kita perlu melakukan survei kebutuhan pelanggan 
+melalui wawancara atau pembagian formulir survei.
+   
+Pada kegiatan pembelajaran yang lalu, kita telah menganalisis sebuah 
+proses bisnis dari pelaku usaha individu yang telah mengembangkan 
+usahanya menjadi sebuah proses bisnis yang dijalankan oleh 
+kelompok/organisasi. 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+8
+Ketika proses bisnis berkembang dengan pesat, pemenuhan kebutuhan 
+produksi dilakukan secara massal. Dengan demikian, dukungan 
+mesin-mesin otomatisasi sangat diperlukan dan perencanaan jaringan 
+komputer diharapkan dapat mendukung kecepatan sebuah proses 
+bisnis.
+Aktivitas Individu 2.1
+Gambar 1.4 menunjukkan kebutuhan pengguna akan jaringan komputer dan 
+telekomunikasi di sebuah perusahaan bernama “MyCakes”.
+Gambar 1.4 Implementasi Jaringan Komputer dalam Sebuah Proses Bisnis
+Sumber: Agung Puspita Bantala (2022)
+Sebagai bagian dari grup Networking Design, kalian mendapat tugas dari 
+kantor tempat bekerja (Perusahaan ISP MyTelco) untuk melaksanakan survei 
+kebutuhan. Coba buatlah sebuah contoh perencanaan pengembangan formulir 
+survei jika informasi yang ingin didapat, antara lain:
+1. 
+jumlah pengguna jaringan komputer; 
+2. 
+jumlah perangkat keras yang akan terintegrasi dengan jaringan; 
+3. 
+informasi grup kerja; 
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+9
+4. 
+informasi alur kerja dari proses bisnis; 
+5. 
+anak cabang dari perusahaan; 
+6. 
+jarak antargedung (jika gedung terpisah); dan 
+7. 
+layanan yang dibutuhkan perusahaan.
+Aktivitas Kelompok 2.2
+Lakukan kegiatan berikut secara berpasangan!
+1. 
+Komunikasikan dengan rekan kalian untuk bermain peran sebagai penyurvei 
+(dari Perusahaan MyTelco) dan pelanggan (dari Perusahaan MyCakes) yang 
+akan disurvei! Lakukan kegiatan tersebut secara bergantian di depan kelas!
+2. 
+Tunjukkan cara kalian dalam menangani pelanggan (customer handling), 
+meliputi cara berkomunikasi yang baik, bahasa tubuh, sikap, dan tindakan 
+di depan kelas! 
+C. Implementasi Perencanaan Jaringan Komputer 
+dan Telekomunikasi berdasarkan Proses Bisnis 
+dalam Perusahaan
+Apakah kalian pernah mengamati laboratorium komputer di sekolah kalian? 
+Di sana tersusun perangkat keras jaringan yang terkoneksi dengan perangkat 
+akhir pengguna menggunakan media koneksi. Jika perangkat akhir pengguna 
+dihidupkan, semuanya memiliki pengalamatan untuk saling berkomunikasi. 
+Dapatkah kalian menyebutkan perangkat keras jaringan, media koneksi, dan 
+jenis pengalamatan yang terpasang di laboratorium komputer sekolah kalian?
+Beberapa buah komputer di laboratorium sekolah kalian saling terhubung 
+dan dapat berbagi sumber daya, baik sumber daya perangkat keras maupun 
+sumber daya perangkat lunak.
+1. 
+Perangkat keras jaringan apa yang dapat menghubungkan semua 
+komputer tersebut?
+2. 
+Media koneksi jenis apa yang menghubungkan setiap komputer?
+3. 
+Jika semua komputer di laboratorium sekolah kalian harus 
+terhubung dengan jaringan internet perangkat keras, apa saja yang 
+menghubungkannya?
+4. 
+Apa yang kalian ketahui tentang wireless LAN?
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+10
+Pada kegiatan belajar ketiga ini, kalian diminta untuk menerapkan 
+perencanaan jaringan sesuai dengan kebutuhan pengguna yang dideskripsikan 
+seperti pada Gambar 1.4.
+   
+Perencanaan jaringan yang terdapat pada Gambar 1.4, akan 
+diimplementasikan dalam simulasi jaringan LabActivity menggunakan 
+aplikasi Cisco Packet Tracer. Implementasi tersebut meliputi pemilihan 
+perangkat jaringan, pemilihan media jaringan, pengaturan alamat 
+IP, penerapan internet of things (IoT) atau otomatisasi industri pada 
+jaringan, pengujian jaringan, dan layanan jaringan.
+Aktivitas Individu 3.1
+Memilih Perangkat Keras, Media Koneksi, dan Pengalamatan Jaringan 
+Komputer dan Telekomunikasi
+Sebelum menerapkan perancangan jaringan dalam media simulasi, kalian terlebih 
+dahulu dapat mengerjakan aktivitas yang berisi pemahaman dasar terhadap 
+perangkat jaringan, media koneksi jaringan, dan pengalamatan IP (IP address).
+LabActivity1: Koneksi Jaringan Peer-to-Peer
+Gunakan berkas (file) LabActivity yang bernama “LabActivity3.1” dengan 
+langkah-langkah sebagai berikut.
+1. 
+Unduh (download) dan instal Cisco Packet Tracer 8.1.1 melalui tautan 
+alamat https://www.netacad.com/courses/packet-tracer dengan mendaftar 
+terlebih dahulu atau log in menggunakan akun Google.
+2. 
+Alternatif untuk mengunduh dan menginstal Cisco Packet Tracer 8.1.1 
+tersedia pada tautan alamat berikut: https://s.id/acsiswa.
+3. 
+Unduh juga berkas “LabActivity3.1.pka”.
+4. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring (online) netacad.
+5. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas 
+“LabActivity3.1.pka”.
+6. 
+Dalam LabActivity seperti pada Gambar 1.5, pilih My School.
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+11
+MY SCHOOL
+MY HOME
+MY CAKE
+Telecommunicaon Oﬃce
+Gambar 1.5 Tangkapan Layar LabActivity, My City
+Sumber: Agung Puspita Bantala (2022)
+7. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity3.1. 
+Laporan Aktivitas Individu 3.1
+Berdasarkan hasil pengujian pada Aktivitas Individu 3.1, lengkapi setiap tabel 
+di bawah ini sebagai laporan hasil aktivitas! Kalian dapat membuat tabelnya 
+secara mandiri atau sesuai dengan petunjuk guru.
+Tabel 1.4 Laporan Koneksi Jaringan Peer-to-Peer
+End Device
+Network 
+Interfaces 
+Awal
+Network 
+Interfaces 
+Pengganti 
+IP 
+Address
+Subnet 
+Mask
+Network
+Media 
+Kabel
+Pengujian
+PCLAN1
+Ping IP address
+IP address tujuan: 
+...............................
+...............................
+Hasil: 
+...............................
+...............................
+PCLAN2
+Ping IP address
+IP address tujuan: 
+...............................
+...............................
+Hasil: 
+...............................
+...............................
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+12
+Tabel 1.5 Laporan Menghubungkan Tiga End User Device
+End Device
+Network 
+Interfaces
+Network 
+Device & 
+Port
+IP 
+Address
+Network
+Media 
+Kabel
+Pengujian
+PCLAN1
+-
+PCLAN2
+-
+LaptopLAN2
+Ping IP address
+IP address tujuan: 
+...............................
+...............................
+Hasil: 
+...............................
+...............................
+Tabel 1.6 Laporan Menguji Switch VLAN Port Member
+Catatan: isikan hasil pengujian hanya pada kolom Sumber Pengujian LaptopLAN2
+Network 
+Device
+VLAN ID & 
+VLAN Name
+Interface/
+Port Member
+End Device
+IP Address
+Sumber 
+Pengujian 
+LaptopLAN2
+SwitchLAN1
+VLAN ID: 2
+Name: LAN1
+FastEthernet0/1
+PCLAN1
+192.168.1.1
+192.168.1.1
+Hasil:
+............................
+............................
+192.168.1.2
+Hasil:
+............................
+............................
+FastEthernet0/2
+PCLAN2
+192.168.1.2
+FastEthernet0/3
+-
+-
+VLAN ID: 3
+Name: LAN2
+FastEthernet0/4
+-
+-
+FastEthernet0/5
+-
+-
+GigabitEthernet0/1 LaptopLAN2
+192.168.1.3
+SwitchLAN1
+VLAN ID: 2
+Name: LAN1
+FastEthernet0/1
+PCLAN1
+192.168.1.1
+192.168.1.1
+Hasil:
+............................
+............................
+192.168.1.2
+Hasil:
+............................
+............................
+FastEthernet0/2
+PCLAN2
+192.168.1.2
+FastEthernet0/3
+LaptopLAN2
+192.168.1.3
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+13
+Tabel 1.7 Laporan Router to Router Static Routing
+Network 
+Device 
+Sumber
+Interface/Port
+IP 
+Address
+Gateway
+Network 
+Device 
+Tujuan
+IP Address
+Static
+Routing
+RouterLAN1
+FastEthernet0/0
+.....................
+PCLAN2
+.....................
+.....................
+.....................
+FastEthernet0/1
+....................
+LaptopLAN2
+.....................
+.....................
+....................
+FastEthernet1/0
+....................
+RouterLAN2
+.....................
+RouterLAN2
+FastEthernet0/0
+....................
+PCLAN1
+.....................
+....................
+....................
+FastEthernet0/1
+....................
+ServerLAN1
+.....................
+....................
+....................
+FastEthernet1/0
+....................
+RouterLAN2
+.....................
+Berdasarkan hasil uji coba perangkat pada semua Aktivitas Individu 3.1, 
+coba kalian jelaskan fungsi perangkat pada tabel di bawah ini berdasarkan 
+simbol-simbol logic perangkat keras jaringan dan media jaringan kabel!
+Tabel 1.8 Perangkat Keras Jaringan dan Fungsi
+No
+Simbol Logic Perangkat 
+Keras Jaringan *
+Nama 
+Perangkat
+Fungsi
+1.
+2.
+3.
+4.
+Sumber: Cisco Packet Tracer help file 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+14
+Tabel 1.9 Media Kabel Jaringan dan Fungsi
+Media Kabel
+No
+Simbol Logic dan Media Fisik 
+Kabel Jaringan *
+Nama Kabel
+Fungsi
+1.
+2.
+3.
+4.
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+15
+5.
+6.
+7.
+Sumber:  Cisco Packet Tracer help file 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+16
+   
+Setelah mengerjakan sejumlah Aktivitas Individu 3.1 melalui 
+LabActivity3.1, kalian diharapkan sudah cukup memahami fungsi 
+dari perangkat keras jaringan, network adapter, media koneksi, dan 
+pengalamatan jaringan. 
+Pada Aktivitas Individu 3.2 ini, kalian akan melakukan 
+implementasi dari rancangan jaringan sesuai dengan skenario yang 
+terdapat pada Gambar 1.4 Implementasi Jaringan Komputer dalam 
+Sebuah Proses Bisnis.
+Aktivitas Individu 3.2
+Implementasi Jaringan Komputer dan Telekomunikasi pada Perangkat 
+Simulasi
+Kegiatan pertama dalam aktivitas kali ini ialah menggunakan berkas simulasi 
+LabActivity3.2 dengan langkah-langkah sebagai berikut.
+1. 
+Unduh berkas “LabActivity3.2.pka” dari alamat URL berikut: https://s.id/
+acsiswa.
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+3. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas bernama 
+“LabActivity3.2.pka”. 
+4. 
+Dalam LabActivity, pilih gedung MyCakes seperti pada gambar di bawah.
+MY SCHO
+MY CAKE
+Gambar 1.6 Tangkapan Layar Perusahaan Kue MyCakes
+Sumber: Agung Puspita Bantala (2022)
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+17
+5. 
+Setelah masuk dalam Perusahaan MyCakes, kalian akan menemukan denah 
+ruangan yang akan diimplementasikan dari desain jaringan komputer. 
+Implementasi dilakukan secara berurutan berdasarkan ruangan, yang 
+dimulai dari ruang Wiring Closet sebagai pusat kontrol jaringan atau NOC 
+(Network Operation Center).
+6. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity3.2.
+Pentri
+NOC
+Server Layanan
+Marketing
+R.CEO
+a
+a
+Accounting and
+Payroll
+R.Produksi
+Purchasing
+Q and A
+Storages and
+shipping
+B
+B
+B
+B
+B
+B
+B
+B
+Guest
+Gambar 1.7 Tangkapan Layar Denah Ruangan MyCakes
+Sumber: Agung Puspita Bantala (2022)
+Laporan Aktivitas Individu 3.2
+Pengujian Jaringan Lokal, Layanan Web Server, Layanan IoT, dan 
+Vending Machine
+Ujilah jaringan secara internal dari dalam Perusahaan MyCakes kembali ke 
+dalam Perusahaan MyCakes! Lakukan pengujian menggunakan perintah ping 
+melalui Command Prompt dari menu Desktop PC1 Purchasing seperti pada 
+tabel berikut!
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+18
+Tabel 1.10 Laporan Pengujian Jaringan secara Internal
+Jaringan 
+Sumber
+Perangkat 
+Sumber
+Alamat IP
+Sumber
+Jaringan 
+Tujuan
+Perangkat 
+Tujuan
+Alamat IP
+Tujuan
+Hasil
+Purchasing
+192.168.2.0
+PC1
+192.168.2.1
+Produksi
+192.168.3.0
+Router 
+gateway 
+Produksi
+192.168.3.254
+PC4 
+192.168.3.1
+PC5
+192.168.3.2
+SBC1
+192.168.3.3
+CEO
+192.168.1.0
+Router 
+gateway CEO
+192.168.1.254
+PC 6
+192.168.1.1
+Printer
+192.168.1.2
+Accounting 
+&Payroll
+192.168.4.0
+Router 
+gateway 
+Accounting & 
+Payroll
+192.168.4.254
+PC 7
+192.168.4.1
+PC 8
+192.168.4.2
+PC 9
+192.168.4.3
+Printer1
+192.168.4.4
+Marketing
+192.168.4.0
+Router 
+gateway 
+Marketing
+192.168.5.254
+PC10
+192.168.5.1
+PC11
+192.168.5.2
+PC12
+192.168.5.3
+PC13
+192.168.5.4
+PC14
+192.168.5.5
+PC15
+192.168.5.6
+Server
+192.168.6.0
+Router 
+gateway 
+Server
+192.168.6.254
+Server1
+192.168.6.1
+Server2
+192.168.6.2
+Guest 
+192.168.7.0
+Router 
+gateway 
+Guest
+192.168.7.254
+Wireless 
+Router
+192.168.7.1
+Wireless LAN 192.168.0.1
+Laptop
+192.168.0.XX
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+19
+Guest
+Laptop
+192.168.0.XX
+Purchasing
+192.168.2.0
+Router 
+gateway 
+Purchasing
+192.168.2.254
+Purchasing
+192.168.2.0
+PC1 
+Purchasing
+192.168.2.1
+Pengujian Layanan/Service HTTP dan DNS
+Untuk DNS yang digunakan adalah 192.168.200.2. Server tersebut berada di ISP 
+MyTelco. Server tersebut mencatat/meregistrasi semua alamat IP server yang ada di 
+dalam jaringan MyCakes. Layanan ini adalah layanan nama domain yang disediakan 
+ISP. Mari kita coba!
+Jaringan 
+Sumber
+Perangkat 
+Sumber
+Alamat IP
+Sumber
+Jaringan 
+Tujuan
+Perangkat 
+Tujuan
+Alamat IP
+Tujuan
+Hasil
+CEO
+192.168.1.0
+PC1 CEO
+192.168.1.1
+Jaringan 
+server 
+MyTelco
+192.168.200.0
+Server 2 
+MyTelco
+192.168.200.2
+ 
+⌂
+Pengujian Layanan Web Server e-commerce
+1. 
+Masih menggunakan PC1 CEO. Pada Desktop, pilih Web Browser, lalu ketik 
+alamat server web MyCakes, yaitu http://192.168.6.2.
+Apakah laman web MyCakes muncul? (Ya/Tidak) * Coret yang tidak perlu.
+2. 
+Masih menggunakan PC1 CEO. Pada Desktop, pilih Web Browser, lalu ketik 
+alamat server web MyCakes, yaitu http://www.mycakes.com. 
+Apakah laman web MyCakes muncul? (Ya/Tidak) * Coret yang tidak perlu.
+Pengujian Layanan IoT dan Automasi Pendingin/Blower pada Gudang
+ 
+⌂
+Pengujian Blower
+1. 
+Pergi ke Purchasing.
+2. 
+Gunakan PC1 Purchasing. Pada Web Browser dalam Desktop, ketikkan 
+alamat URL berikut: http://192.168.6.1.
+3. 
+Pada Registrasi Server Login, isikan Username: admin dan Password: admin. 
+4. 
+Registrasikan juga untuk pengguna lain, yaitu Username: anonymous dan 
+Password: 123.
+5. 
+Tutup PC1.
+6. 
+Pergi ke Storages (Gudang), lalu klik pada Blower (Kipas).
+7. 
+Pastikan alamat IP, gateway, dan DNS telah terisi dengan IP Address: 192.168.2.4, 
+Subnet Mask: 255.255.255.0, gtw: 192.168.2.254, dan DNS: 192.168.200.2.
+8. 
+Klik pada Config, lalu pilih menu Setting. 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+20
+9. 
+Pada menu Setting, pilih bagian IoT Server. Pilih Remote Server dan isikan 
+alamat IP server IoT: 192.168.6.1, Username: admin, dan Password: admin. 
+Tekan tombol Connect.
+10. Gunakan PC 1 Purchasing. Pada Web Browser dalam Desktop, ketik alamat 
+URL berikut: http://192.168.1.1. Isikan pula Username: admin dan Password: 
+admin.
+11. Muncul device Blower Off, Low, dan Hight. Uji coba dengan menekan tombol 
+Low, kemudian tekan tombol Hight.
+12. Perhatikan pada Blower (Berputar/Tidak Berputar) * Coret yang tidak perlu.
+ 
+⌂
+Pengujian Konveyor Motor dan LED
+1. 
+Pergi ke ruang Produksi.
+2. 
+Klik SBC1, lalu pilih bagian Program. 
+3. 
+Pada menu Program, klik program conveyor.py, klik tombol Run. 
+4. 
+Perhatikan apakah Konveyor Motor berputar dan LED berkedip. (Ya/Tidak) 
+* Coret yang tidak perlu.
+Pengujian Vending Machine
+1. 
+Keluar dari gedung MyCakes, kembali ke perempatan jalan, kemudian akses 
+vending machine dengan cara klik pada Vending Machine.
+2. 
+Klik pada Config, lalu pilih menu Setting. 
+3. 
+Pada menu Setting, pilih bagian IoT server. Pilih Remote Server, kemudian 
+isikan alamat IP server IoT: 192.168.6.1, Username: anonymous, dan Password: 
+123. Tekan tombol Connect.
+4. 
+Periksa di bawah antena parabola, kalian akan menemukan sebuah smartphone. 
+Klik pada Smartphone.
+5. 
+Pada bagian Desktop, pilih IP Configuration. Pada bagian Interface, pilih 3G/4G.
+6. 
+Pada bagian alamat IP, ganti dengan DHCP, lalu tutup IP Configuration.
+7. 
+Masih pada menu Desktop, pilih Web Browser dan ketikkan alamat URL berikut: 
+http://iot.mycakes.com.
+8. 
+Ketikkan Username: anonymous dan Password: 123.
+9. 
+Pada menu Vending Machine, klik tombol ON.
+10. Perhatikan apa yang terjadi pada vending machine. Apakah produk kue muncul? 
+(Ya/Tidak) * Coret yang tidak perlu.
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+21
+ 
+ Uji Kompetensi Bab 1
+Pilihlah jawaban yang sesuai dari setiap soal berikut dengan menuliskan 
+huruf A, B, C, atau D!
+1. 
+Komputer atau perangkat keras yang berfungsi sebagai titik akhir dalam 
+jaringan, mengirim data, dan menerima data disebut .... 
+A.
+host
+C.
+shared peripherals
+B.
+media jaringan
+D.
+perangkat jaringan
+2. 
+Perangkat keras yang secara tidak langsung terhubung dengan jaringan, 
+namun berkomunikasi melalui host dan sering digunakan sebagai sumber 
+daya yang dapat digunakan bersama adalah ....
+A.
+host
+C.
+shared peripherals
+B.
+media jaringan
+D.
+perangkat jaringan
+3. 
+Perangkat keras yang berfungsi membentuk titik agregasi dalam sebuah 
+LAN adalah ….
+A.
+NIC
+C.
+bridge
+B.
+switch ethernet
+D.
+router
+4. 
+Perangkat yang berfungsi menerjemahkan data yang dihasilkan oleh 
+komputer ke dalam format yang dapat ditransmisikan melalui LAN adalah ....
+A.
+NIC
+C.
+bridge
+B.
+switch ethernet
+D.
+router
+5. 
+Perangkat yang sering disebut gateway dan berfungsi menyediakan sarana 
+untuk menghubungkan segmen LAN yang berbeda adalah ....
+A.
+NIC
+C.
+hub
+B.
+switch ethernet
+D.
+router
+6. 
+Ilustrasi di bawah menunjukkan proses bisnis dari individu sebagai pelaku 
+usaha. 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+22
+1
+2
+3
+4
+Langkah pengolahan produk dari bahan mentah menjadi bahan jadi 
+ditunjukkan oleh nomor ....
+A.
+1
+C.
+3
+B.
+2
+D.
+4
+7. 
+Berdasarkan ilustrasi pada soal nomor 6, langkah belanja modal usaha 
+ditunjukkan oleh nomor ....
+A.
+1
+C.
+3
+B.
+2
+D.
+4
+8. 
+Jika seorang pelaku bisnis mengembangkan usahanya, proses bisnis pun 
+mengalami perubahan. Pelakunya bukan lagi individu, melainkan beberapa 
+grup kerja. Grup kerja yang bertanggung jawab dalam pembelanjaan modal 
+sebagai bahan baku adalah ....
+A.
+Quality Assurance (QA)
+C.
+Purchasing 
+B.
+Accounting dan Payroll
+D.
+Marketing 
+9. 
+Sebuah perusahaan ISP (Internet Service Provider) menyediakan jasa koneksi 
+internet sebagai aktivitas utama. Perusahaan tersebut juga memiliki aktivitas 
+bisnis lain, yaitu sebagai penyedia web hosting. Fungsi jasa layanan tersebut 
+adalah ….
+
+Bab 1 - Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+23
+A.
+memberikan nama bagi alamat-alamat hosting agar lebih mudah diakses 
+atau mengarahkan alamat IP yang dimiliki pelanggan menjadi sebuah 
+nama domain agar mudah diakses
+B.
+menyimpan berkas dan data laman situs web (website) agar dapat 
+diakses oleh siapa saja melalui jaringan internet
+C.
+memberikan layanan berupa platform sehingga pelanggan dapat 
+memanfaatkannya dalam membangun aplikasi di dalamnya
+D.
+memberikan layanan berupa perangkat lunak yang telah dikembangkan
+10. Pada sebuah perusahaan ISP, terdapat sebuah grup kerja yang berfungsi 
+sebagai komunikator antara perusahaan dan pelanggan, yaitu grup kerja ....
+A.
+Teknisi
+C.
+Customer Service
+B.
+Networking Design
+D.
+Administrator
+ 
+ Pengayaan
+Pada aktivitas pengayaan ini, kalian dapat mendalami tentang perencanaan 
+jaringan. Lakukanlah perencanaan jaringan berdasarkan studi kasus yang dapat 
+diunduh pada tautan berikut: https://s.id/PkyBab1. Unduh ketiga berkas berikut:
+1. 
+StudiKasus.docx
+2. 
+RencanaJaringanV3.xlsx
+3. 
+Rancangan_03.vsdx
+Kalian dapat menggunakan ketiga berkas tersebut dengan cara berikut.
+ 
+⌂
+Gunakan berkas “StudiKasus.docx” sebagai bahan belajar perencanaan 
+jaringan. 
+ 
+⌂
+Gunakan berkas “Rancangan_03.vsdx” sebagai pendukung studi 
+kasus. Perencanaan denah dan topologi jaringan dapat digambarkan 
+menggunakan Microsoft Visio berdasarkan berkas “Rancangan_03.vsdx”. 
+ 
+⌂
+Gunakan berkas “RencanaJaringanV3.xlsx” sebagai tabel kebutuhan 
+jaringan dari pelanggan/pengguna dan tabel kebutuhan perangkat 
+keras jaringan.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+24
+ 
+ Refleksi
+Setelah mempelajari materi pada Bab 1 ini, kalian dapat melakukan refleksi 
+dengan menjawab setiap pertanyaan berikut.
+1. 
+Pengetahuan apa saja yang kalian dapatkan dari aktivitas belajar kali ini?
+2. 
+Kendala apa yang kalian temukan ketika menganalisis data dan 
+menyimpulkan proses bisnis di bidang Teknik Jaringan Komputer 
+dan Telekomunikasi?
+3. 
+Langkah-langkah apa yang kalian lakukan dalam mengatasi kendala 
+tersebut?
+4. 
+Sikap positif apa saja yang kalian dapatkan dari aktivitas belajar kali ini?
+
+Perkembangan Teknologi 
+Perkembangan Teknologi 
+di Bidang Teknik Jaringan 
+di Bidang Teknik Jaringan 
+Komputer dan Telekomunikasi
+Komputer dan Telekomunikasi
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi
+untuk SMK/MAK Kelas X
+Penulis: Ibnu Indarwati, Arif Muttakin, Agung Puspita Bantala
+ISBN: 978-623-194-472-6 (no.jil.lengkap PDF)
+978-623-194-473-3 (jil.1PDF)
+B
+A
+B
+2
+Pada umumnya, orang-orang menggunakan smartphone untuk mengakses informasi 
+baik dari media sosial, video streaming, maupun video conference. Koneksi internet 
+menjadi dasar akses dalam teknologi informasi tersebut. Teknologi apa yang 
+membuat telepon seluler kalian dapat terhubung ke jaringan internet?

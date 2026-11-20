@@ -1,0 +1,2823 @@
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+134
+ 
+ Tujuan Pembelajaran
+Melalui pembelajaran ini, kalian diharapkan dapat memahami jenis-jenis 
+alat ukur pada jaringan komputer dan telekomunikasi. Dengan demikian, 
+kalian dapat menganalisis alat ukur yang paling sesuai untuk menyelesaikan 
+suatu permasalahan yang timbul dalam jaringan tersebut. Selain itu, kalian 
+diharapkan mampu menggunakan dan melakukan pemeliharaan terhadap 
+alat ukur agar selalu siap digunakan setiap saat.
+ 
+ Kata Kunci
+• 
+Alat ukur optik 
+• 
+Alat ukur listrik 
+• 
+Alat ukur pentanahan (grounding) 
+• 
+Wi-Fi Analyzer 
+• 
+Speed test
+ 
+ Peta Konsep
+Alat Ukur dan 
+Pengukuran Teknik 
+Jaringan Akses 
+Telekomunikasi
+A
+Fungsi Alat Ukur Teknik Jaringan 
+Komputer dan Telekomunikasi
+B
+Menganalisis Penggunaan Alat 
+Ukur yang Tepat dalam Lingkup 
+Teknik Jaringan Komputer dan 
+Telekomunikasi
+C
+Penggunaan Alat Ukur dalam 
+Lingkup Pekerjaan Teknik Jaringan 
+Komputer dan Telekomunikasi
+D
+Melakukan Pemeliharaan Alat 
+Ukur dalam Lingkup Pekerjaan 
+Teknik Jaringan Komputer dan 
+Telekomunikasi
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+135
+Perkembangan teknologi yang pesat saat ini sangat berpengaruh terhadap 
+kehidupan manusia. Ketergantungan manusia terhadap fungsi dari ponsel cerdas, 
+tablet, dan komputer yang notabene merupakan alat-alat produk teknologi 
+modern, sudah tidak terelakkan. Berbagai aspek keseharian mulai dari bekerja, 
+belanja, belajar, hingga mencari informasi dilakukan melalui perangkat kecil 
+yang dapat kita genggam dan bawa ke mana saja.
+Sebagai contoh, perkembangan teknologi seluler sejak era 1G sampai sekarang 
+5G, membawa banyak perubahan. Penyelenggaraan infrastruktur digenjot untuk 
+mempercepat implementasi teknologi terkini. Kebutuhan penggunaan data 
+yang tinggi juga mendorong perkembangan pada teknologi kabel, tepatnya fiber 
+optik. Berperan sebagai backbone dalam teknologi telekomunikasi, teknologi 
+fiber optik menjadi idola semua vendor telekomunikasi saat ini. Semua bersaing 
+untuk menjadi yang terdepan dengan menggelar fiber optik di seluruh penjuru 
+tanah air. 
+Penyelenggaraan infrastruktur telekomunikasi harus diimbangi dengan 
+pemeliharaan secara berkala agar tidak terjadi gangguan yang bersifat mayor 
+karena dapat dideteksi sejak awal. Salah satu proses pemeliharaan adalah dengan 
+melakukan pengukuran secara berkala pada media transmisi yang digunakan 
+maupun sarana pendukung lain yang memiliki peran tidak kalah penting dalam 
+menjaga keandalan sistem telekomunikasi.
+Sebagai calon tenaga kerja yang 
+akan berkecimpung di bidang Teknik 
+Jaringan Komputer dan Telekomunikasi, 
+kalian harus membekali diri dengan 
+berbagai keterampilan yang dibutuhkan 
+dalam pekerjaan tersebut. Salah satunya 
+adalah pengoperasian alat ukur. Pada 
+kegiatan pemeliharaan jaringan, alat 
+ukur memiliki peranan penting, yaitu 
+memastikan kondisi media transmisi 
+yang digunakan, apakah dalam kondisi 
+prima atau membutuhkan perbaikan. 
+Pada Gambar 5.1, kalian dapat melihat 
+contoh alat ukur yang digunakan dalam 
+pemeliharaan jaringan telekomunikasi 
+dan jaringan komputer.
+Gambar 5.1 Contoh Alat Ukur Jaringan 
+Komputer dan Telekomunikasi
+Sumber: Arif Muttakin (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+136
+Tahukah kalian apa kegunaan alat pada gambar di atas? Apakah ada 
+alat ukur lain yang digunakan dalam pemeliharaan jaringan komputer dan 
+telekomunikasi? Apabila kalian sudah mengetahuinya, hal tersebut merupakan 
+awal yang baik untuk belajar pada bab ini. Bagaimana jika belum mengetahui? 
+Jangan khawatir, mari kita mulai belajar bersama!
+A. Fungsi Alat Ukur Teknik Jaringan Komputer dan 
+Telekomunikasi
+Infrastruktur bidang Jaringan Komputer dan Telekomunikasi cukup beragam. 
+Mulai dari perangkat, media transmisi, sampai dengan gedung tempat perangkat 
+tersebut, harus selalu dalam kondisi prima. Kondisi yang selalu siap pakai harus 
+dipastikan dengan melakukan pengecekan secara berkala. Pengecekan tersebut 
+membutuhkan peranti berupa alat ukur, baik perangkat keras (hardware) 
+maupun perangkat lunak (software).
+Sebelum menggunakan setiap alat ukur tersebut, sebaiknya kita memahami 
+terlebih dahulu fungsi masing-masing agar tidak salah dalam penggunaannya.
+1. LAN Tester
+LAN tester adalah salah satu alat bantu 
+dalam instalasi jaringan komputer yang 
+berfungsi untuk mengecek koneksi kabel 
+LAN RJ45 dan RJ11. LAN tester dilengkapi 
+dengan lampu indikator, tombol pengatur 
+kecepatan, dan pengecekan. LAN tester dapat 
+digunakan untuk melakukan pengecekan 
+kabel jenis cross dan straight. Adakalanya 
+LAN tester dilengkapi dengan tone checker 
+yang berfungsi untuk mengetahui letak 
+kerusakan/putus dari kabel LAN, bahkan 
+pada merek tertentu, memiliki fungsi yang 
+disatukan dengan alat ukur multimeter.
+Gambar 5.2 LAN Tester
+Sumber: Arif Muttakin (2022)
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+137
+2. Multimeter
+Multimeter merupakan alat ukur yang sering digunakan dalam bidang 
+elektronika. Ada dua jenis multimeter, yaitu multimeter analog dan 
+multimeter digital. Untuk menggunakan multimeter analog dibutuhkan 
+keterampilan khusus dalam pembacaan skala, berbeda dengan multimeter 
+digital yang langsung memunculkan hasil ketika pengukuran dilakukan.
+a. 
+Multimeter Analog
+Multimeter analog merupakan jenis 
+multimeter yang menggunakan displai 
+ukur (meter) dengan tipe jarum penunjuk. 
+Dengan demikian, kita harus melihat 
+posisi jarum penunjuk pada meter dan 
+posisi sakelar selector pada posisi batas 
+ukur, kemudian melakukan perhitungan 
+secara manual untuk mendapatkan hasil 
+ukurnya. Kondisi atau proses pembacaan 
+hasil ukur yang masih manual inilah yang 
+menyebabkan multimeter atau multitester 
+jenis ini dinamakan sebagai multimeter 
+analog.
+Gambar 5.3 Multimeter Analog
+Sumber: Arif Muttakin (2022)
+b. Multimeter Digital
+Selain multimeter analog, kita juga dapat 
+memanfaatkan multimeter digital untuk 
+mengukur besaran arus, tegangan, dan 
+hambatan listrik. Hasil pengukuran 
+menggunakan multimeter jenis digital 
+ini dapat langsung kita ketahui karena 
+angka akan langsung muncul pada layar 
+multimeter. Beberapa multimeter digital 
+memiliki kemampuan untuk melakukan 
+pengukuran kapasitans dan frekuensi.
+Gambar 5.4 Multimeter Digital
+Sumber: Arif Muttakin (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+138
+3. Earth Tester
+Earth tester merupakan alat ukur yang berfungsi untuk mengukur nilai pada 
+sebuah instalasi grounding. Instalasi grounding ini biasanya dipasang pada 
+gedung dan perangkat elektronik, seperti perangkat-perangkat komputer 
+jaringan dan telekomunikasi. Dengan melakukan pengukuran nilai grounding, 
+kita dapat mengetahui seberapa aman instalasi grounding yang sudah 
+terpasang.
+Earth tester memiliki dua tipe, yaitu earth tester analog dan earth tester 
+digital, seperti tipe pada multimeter.
+Gambar 5.5 Earth Tester
+Sumber: Arif Muttakin (2022)
+Apabila ingin mengetahui informasi tentang fungsi tombol earth tester 
+analog dan digital pada salah satu merek earth tester, kalian dapat melihatnya 
+melalui kode QR berikut.
+Sumber: https://www.youtube.com/watch?v=Wg14o70zm3Q
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+139
+4. Optical Power Meter (OPM)
+Power meter adalah salah satu peralatan 
+utama dalam pengukuran saluran fiber 
+optik yang berfungsi untuk mengetahui level 
+daya penerima. Level daya adalah sebuah 
+kekuatan sinyal optik yang digunakan untuk 
+membawa informasi dari satu tempat ke 
+tempat lain melalui sebuah media transmisi, 
+yaitu fiber optik. Definisi lain terkait power 
+level atau level daya adalah besarnya daya 
+yang dihasilkan oleh sumber optik, baik LED 
+maupun LASER. Satuan level daya dalam 
+sistem komunikasi serat optik (SKSO) adalah 
+dBm (desibel miliwatt).
+Apabila ingin mengetahui informasi 
+tentang fungsi setiap tombol pada salah satu 
+merek power meter, kalian dapat melihatnya 
+melalui kode QR berikut.
+Sumber: https://www.youtube.com/watch?v=sZV-MIq0uOY
+Gambar 5.6 Optical Power Meter 
+Sumber: Arif Muttakin (2022)
+5. Optical Time Domain Reflectometer (OTDR)
+OTDR merupakan salah satu alat ukur penting yang digunakan untuk 
+mengukur saluran optik, baik dalam kegiatan instalasi maupun saat 
+pemeliharaan saluran fiber optik. Alat ini dipakai untuk mendapatkan 
+visualisasi dari redaman fiber optik sepanjang saluran optik yang ditampilkan 
+pada sebuah layar CRT, dengan jarak pada sumbu X dan level daya pada 
+sumbu Y. Redaman merupakan selisih daya sehingga sering kali terjadi salah 
+persepsi yang mengira bahwa sumbu Y sebagai redaman.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+140
+Dengan menggunakan OTDR, sebuah link optik dapat diukur dari satu 
+ujung. Pada sebuah uji terima saluran optik, pengukuran menggunakan 
+OTDR dilakukan dari dua arah, sedangkan pengukuran pada jaringan yang 
+menggunakan splitter dilakukan dengan sistem per segmen.
+Secara umum, OTDR memiliki fungsi untuk mengukur besar redaman 
+fiber optik, mengukur redaman riil sambungan hasil fusion dan mekanik, 
+mengukur loss antartitik yang diinginkan, mengukur panjang kabel atau 
+saluran optik, dan menangani gangguan pada fiber optik. Besarnya redaman 
+atau loss yang terukur pada saluran dapat diketahui dengan melihat layar 
+OTDR.
+Gambar 5.7 Optical Time Domain Reflectometer (OTDR)
+Sumber: Arif Muttakin (2022)
+Apabila ingin mengetahui informasi tentang fungsi setiap tombol pada 
+salah satu merek OTDR, kalian dapat melihatnya melalui kode QR berikut.
+Sumber: https://www.youtube.com/watch?v=z6EYGTemM8M&t=224s
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+141
+6. Speed Test
+Setelah kita mengenal beberapa alat ukur yang digunakan untuk menguji 
+kondisi fisik pada sebuah media transmisi, sekarang kita akan mempelajari 
+perangkat lunak yang digunakan untuk mengetahui kondisi jaringan 
+komputer, khususnya internet. 
+Speed test adalah sebuah layanan berbentuk aplikasi berbasis web 
+yang digunakan untuk menguji kecepatan performa koneksi internet, baik 
+kabel, seluler, maupun Wi-Fi. Kapasitas maksimal jaringan internet yang 
+kita gunakan untuk mengunggah dan mengunduh data dapat dilakukan 
+menggunakan aplikasi ini. Dengan melakukan pengetesan, kita akan 
+mengetahui besarnya bandwidth dari koneksi internet yang sedang digunakan.
+Gambar 5.8 Contoh Speed Test
+Sumber: Arif Muttakin (2022)
+7. Wi-Fi Analyzer
+Wi-Fi Analyzer merupakan sebuah aplikasi yang dapat digunakan untuk 
+mengetahui kekuatan sinyal Wi-Fi yang terletak pada suatu lokasi tertentu. 
+Dengan menggunakan aplikasi ini, kita dapat memeriksa kualitas jaringan 
+yang diterima oleh perangkat yang digunakan. Saat ini, sudah banyak aplikasi 
+semacam ini yang dapat kita unduh dengan mudah untuk digunakan pada 
+perangkat telepon seluler atau komputer.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+142
+Gambar 5.9 Contoh Tampilan Wi-Fi Analyzer
+Sumber: Arif Muttakin (2022)
+8. Ping Test
+Ping adalah singkatan dari Packet Internet Network Groper. Perintah ping 
+digunakan untuk menguji kecepatan koneksi pada jaringan komputer kita. 
+Jaringan komputer yang diperiksa tidak harus terhubung dengan internet. 
+Kita dapat memasukkan perintah ping berikut pada Command Prompt di 
+komputer.
+Command Prompt
+C:\_
+Microsoft Windows [version 10.19044.1889]
+(c) Microsoft Corporation. All right reserved.
+C:\User\asus>ping 192.168.1.1
+Pinging 192.168.1.1 with 32 bytes of data:
+Reply from 192.168.1.1: bytes=32 times=1ms TTL=64
+Reply from 192.168.1.1: bytes=32 times=2ms TTL=64
+Reply from 192.168.1.1: bytes=32 times=1ms TTL=64
+Reply from 192.168.1.1: bytes=32 times=1ms TTL=64
+Ping statistics for 192.168.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip time in milli second:
+    Minimum = 1ms, Maximum = 2ms, Average = 1ms
+C:\User\asus>
+Gambar 5.10 Contoh Tampilan Ping Test
+Sumber: Arif Muttakin (2022)
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+143
+Bagaimana? Apakah kalian sudah memahami fungsi dari alat ukur yang 
+digunakan dalam lingkup kerja Teknik Jaringan Akses Telekomunikasi? 
+Untuk menguji seberapa jauh pemahaman kalian mengenai fungsi dari alat-
+alat ukur yang sudah disampaikan dalam teori singkat di atas, kalian dapat 
+mengerjakan aktivitas berikut ini.
+   
+Ada banyak alat ukur yang digunakan dalam pekerjaan 
+jaringan komputer dan telekomunikasi. Sebelum belajar untuk 
+menggunakannya, melalui aktivitas ini, kalian akan berkenalan 
+terlebih dahulu dengan jenis alat ukur yang akan sering kalian 
+temukan selama bekerja dalam lingkup Jaringan Komputer dan 
+Telekomunikasi.
+Aktivitas Individu 1.1
+Untuk menguji pemahaman, silakan kalian menjodohkan setiap jenis alat ukur 
+dengan kegunaan masing-masing!
+Petunjuk aktivitas:
+⌂ Kalian diperbolehkan mencari informasi dari berbagai sumber untuk 
+menyelesaikan tugas.
+⌂ Kerjakan secara mandiri. 
+⌂ Jika sudah selesai, periksa hasil pekerjaan kalian bersama teman-teman 
+dan guru.
+Tabel 5.1 Aktivitas Individu 1.1
+No
+Jenis Alat Ukur *
+Jawaban
+Kegunaan
+1.
+a. Mengukur kualitas 
+pentanahan. 
+2.
+b. Mengukur 
+kecepatan di 
+antara perangkat 
+dan server uji, 
+menggunakan 
+koneksi internet 
+perangkat kita.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+144
+No
+Jenis Alat Ukur *
+Jawaban
+Kegunaan
+3.
+c. Mengetahui letak 
+kerusakan pada 
+kabel optik.
+4.
+d. Mengukur berapa 
+lama respons 
+yang diberikan 
+host sebagai 
+petunjuk ada-
+tidaknya kendala 
+jaringan.
+5.
+e. Mengukur besar 
+tegangan AC/DC.
+6.
+f. Mengukur 
+kontinuitas kabel 
+LAN.
+7.
+g. Menganalisis 
+jaringan nirkabel 
+(wireless) di 
+sekitar kita.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+145
+No
+Jenis Alat Ukur *
+Jawaban
+Kegunaan
+8.
+Command Prompt
+C:\_
+Microsoft Windows [version 10.19044.1889]
+(c) Microsoft Corporation. All right reserved.
+C:\User\asus>ping 192.168.1.1
+Pinging 192.168.1.1 with 32 bytes of data:
+Reply from 192.168.1.1: bytes=32 times=1ms TTL=64
+Reply from 192.168.1.1: bytes=32 times=2ms TTL=64
+Reply from 192.168.1.1: bytes=32 times=1ms TTL=64
+Reply from 192.168.1.1: bytes=32 times=1ms TTL=64
+Ping statistics for 192.168.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip time in milli second:
+    Minimum = 1ms, Maximum = 2ms, Average = 1ms
+C:\User\asus>
+h. Mengetahui nilai 
+level daya saluran 
+optik.
+* Sumber: Arif Muttakin (2022)
+   
+Cukup mudah, bukan, Aktivitas Individu 1.1 yang sudah kalian 
+kerjakan? Pada tahap ini, minimal kalian sudah mengetahui alat ukur 
+yang biasa digunakan dalam lingkup pekerjaan Jaringan Komputer 
+dan Telekomunikasi. Pada aktivitas sebelumnya, terdapat gambar 
+alat ukur beserta satu fungsinya. Beberapa alat ukur memiliki 
+fungsi lebih dari satu. Oleh karena itu, kalian dapat memperkaya 
+pengetahuan terkait fungsi alat ukur dengan mengerjakan Aktivitas 
+Kelompok 1.2 berikut. 
+Aktivitas Kelompok 1.2
+Buatlah kelompok beranggotakan 2–3 peserta didik! Setiap kelompok berdiskusi 
+untuk memperoleh informasi yang lebih banyak tentang fungsi alat ukur dalam 
+lingkup pekerjaan Jaringan Komputer dan Telekomunikasi.
+Laporan Aktivitas Kelompok 1.2
+Tuangkan pekerjaan kalian dalam bentuk berkas (file) Power Point, tabel, 
+infografik, atau bentuk lainnya, lalu presentasikan di depan kelas untuk 
+memperoleh masukan atau tanggapan dari kelompok lain! Berikut ini adalah 
+contoh penyajian hasil pekerjaan dalam bentuk tabel.
+Tabel 5.2 Contoh Tabel Jenis-Jenis Alat Ukur dan Fungsinya
+No
+Nama Alat
+Jenis
+Fungsi
+Perangkat 
+Keras
+Perangkat 
+Lunak
+1.
+Multimeter
+3
+-
+a. 
+mengukur tegangan AC 
+dan DC
+b. 
+mengukur arus AC dan 
+DC
+c. 
+mengukur hambatan/
+resistansi
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+146
+No
+Nama Alat
+Jenis
+Fungsi
+Perangkat 
+Keras
+Perangkat 
+Lunak
+d. 
+mengukur kapasitans
+e. 
+mengukur frekuensi
+2.
+…
+…
+…
+…
+…
+…
+…
+…
+…
+n
+…
+…
+…
+…
+Alat ukur, baik perangkat keras maupun perangkat lunak, dapat difungsikan 
+dengan baik apabila kita menguasai setiap menu dan tombol yang terdapat 
+pada alat tersebut. Saat ini, banyak produsen alat ukur yang memberi kita 
+beragam pilihan. Satu jenis alat ukur dapat memiliki bentuk, posisi tombol 
+pengoperasian, bahkan tampilan menu yang berbeda-beda. Gambar di bawah 
+ini memperlihatkan bentuk, tombol, beserta fungsi dari alat ukur jenis Optical 
+Power Meter (OPM).
+LIGHT
+ZERO
+dB
+λ
+OPTICAL POWER METER
+Blue Backlight
+Auto Off
+Operating Model
+LCD
+ON/OFF
+Zero
+LAMDA
+dB
+Light
+Gambar 5.11 Fungsi Tombol OPM
+Sumber: Syarif Achmad (2023)
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+147
+Fungsi Tombol pada OPM
+1. 
+LCD berfungsi untuk menampilkan hasil dari pengukuran dan pengaturan 
+parameter pada saat pengukuran.
+2. 
+Tombol On/Off digunakan untuk menyalakan dan mematikan perangkat. 
+3. 
+Tombol dB digunakan untuk mengubah satuan pada hasil pengukuran 
+layar.
+4. 
+Tombol Zero, biasa disebut self zero test, digunakan untuk meng-0-kan 
+kembali hasil pengukuran yang tampil di layar. Untuk memfungsikan, 
+silakan tekan tombol tersebut selama 2 detik. 
+5. 
+Tombol Lamda (λ) atau panjang gelombang digunakan untuk melakukan 
+pengaturan terhadap panjang gelombang yang ingin digunakan, disesuaikan 
+dengan panjang gelombang dari pemancar (OLT ataupun OLS).
+6. 
+Tombol Light berfungsi untuk menyalakan lampu latar pada layar agar hasil 
+pengukuran dapat terlihat dengan jelas, terutama ketika pengukuran dilakukan 
+pada malam hari atau di tempat yang minim cahaya.
+   
+Cobalah kalian melakukan survei ke laboratorium alat ukur di 
+sekolah! Amati setiap alat ukur yang ada di sana! Catatlah merek 
+atau tipe alat ukur yang tersedia di dalam laboratorium, kemudian 
+kerjakan aktivitas kelompok di bawah ini!
+Aktivitas Kelompok 1.3
+Buatlah kelompok yang terdiri dari 2–3 peserta didik! Setiap kelompok bertugas 
+mencari informasi mengenai fungsi tombol/menu dari setiap alat ukur yang ada 
+di laboratorium. Setiap peserta didik dalam kelompok wajib mencari informasi 
+minimal satu fungsi dari tombol/menu alat ukur.
+Apabila jenis alat ukur di laboratorium sekolah terbatas, kalian boleh 
+mencari informasi dari internet atau sumber belajar lain.
+Laporan Aktivitas Kelompok 1.3
+Tuangkan hasil kerja kalian dalam bentuk catatan, infografik, berkas Power 
+Point, atau video! Presentasikan hasil kerja kalian di depan kelas atau unggah 
+pada media berbagi berkas (file sharing) agar dapat dilihat dan diberi masukan 
+dari teman dan Bapak/Ibu Guru! Kalian juga dapat menggunakan tabel bantu 
+seperti pada Tabel 5.3.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+148
+Tabel 5.3 Contoh Tabel Fungsi Menu Alat Ukur Jaringan Komputer dan Telekomunikasi
+No
+Nama Alat 
+Ukur
+Gambar Alat Ukur
+Fungsi Tombol/Menu
+1.
+LAN tester
+a. 
+Sakelar on/off berfungsi untuk 
+menyalakan dan mematikan 
+alat.
+b. 
+Lampu indikator berfungsi 
+untuk mengetahui konektivitas 
+kabel.
+c. 
+Port RJ45 digunakan untuk 
+mengukur konektivitas kabel 
+LAN.
+d. 
+Port RJ11 digunakan untuk 
+mengukur konektivitas kabel 
+telepon.
+2.
+…
+n
+B. Menganalisis Penggunaan Alat Ukur yang Tepat 
+dalam Lingkup Teknik Jaringan Komputer dan 
+Telekomunikasi
+Permasalahan yang muncul pada saat melakukan instalasi dan pemeliharaan 
+jaringan sangatlah beragam. Penyelesaian permasalahan yang melibatkan 
+penggunaan alat ukur juga memerlukan pertimbangan khusus terkait alat 
+ukur mana yang sebaiknya digunakan. Pengetahuan yang mendalam mengenai 
+spesifikasi parameter yang terdapat pada setiap alat ukur, wajib dipahami oleh 
+seorang teknisi jaringan komputer dan telekomunikasi. Hal tersebut merupakan 
+perwujudan tanggung jawab terhadap hasil kerja yang akan dilaporkan ke 
+perusahaan. 
+Pada pembelajaran kali ini, kalian akan diajak untuk mengenal berbagai 
+spesifikasi dari alat ukur yang umum digunakan dalam lingkup pekerjaan 
+Teknik Jaringan Komputer dan Telekomunikasi. Sebagai contoh, di bawah ini 
+ditampilkan jenis alat ukur beserta spesifikasinya.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+149
+Gambar 5.12 Contoh Spesifikasi Alat Ukur LAN Tester
+Sumber: noyafa.com/Noyafa (2023)
+Spesifikasi:
+a. 
+Penggunaan untuk kabel UTP, 
+FTP, RJ11, dan coaxial.
+b. 
+Panjang kabel maksimal 300 
+m (UTP, FTP, dan RJ11).
+c. 
+Panjang kabel maksimal 500 
+m (BNC).
+d. 
+Mampu mendeteksi kabel 
+putus di tengah.
+e. 
+LCD untuk tampilan hasil.
+f. 
+Remote unit untuk tes kabel 
+berjauhan.
+g. 
+Catu daya baterai 9 volt 2 
+buah.
+   
+Sebagai calon teknisi Jaringan Komputer dan Telekomunikasi, kalian 
+harus memperkaya diri dengan pengetahuan mengenai spesifikasi 
+alat ukur yang sering dijumpai dalam pekerjaan sehari-hari. Untuk 
+menambah referensi, kalian dapat mengerjakan Aktivitas Kelompok 
+2.1 berikut ini.
+Aktivitas Kelompok 2.1
+Buatlah kelompok dengan beranggotakan tiga peserta didik! Setiap kelompok 
+mencari spesifikasi alat ukur sebanyak tiga spesifikasi/merek/tipe yang berbeda. 
+Bagilah tugas dalam kelompok agar pekerjaan dapat diselesaikan dengan cepat 
+dan tepat! 
+Tujuan dari aktivitas ini adalah agar kalian memiliki banyak referensi 
+tentang alat ukur jaringan komputer dan telekomunikasi. Sangat disarankan 
+bahwa alat ukur yang akan kalian cari spesifikasinya, merupakan alat yang ada 
+di laboratorium peralatan sekolah. 
+Laporan Aktivitas Kelompok 2.1
+Kalian dapat menyajikan hasil pekerjaan dalam bentuk tabel, infografik, berkas 
+Power Point, atau bentuk lainnya. Jangan lupa untuk menyertakan sumber yang 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+150
+valid pada pekerjaan kalian agar Bapak/Ibu Guru mudah untuk melakukan 
+koreksi. Kalian juga dapat menggunakan tabel bantu seperti pada contoh di 
+bawah.
+Tabel 5.4 Contoh Tabel Spesifikasi Alat Ukur
+No
+Alat Ukur
+Merek/Tipe dan 
+Gambar
+Spesifikasi
+1.
+LAN Tester
+Noyafa NF-308
+Sumber: noyafa.com/Noyafa 
+(2023)
+a. 
+Penggunaan untuk kabel UTP, 
+FTP, RJ11, dan coaxial.
+b. 
+Panjang kabel maksimal 300 m 
+(UTP, FTP, dan RJ11).
+c. 
+Panjang kabel maksimal 500 m 
+(BNC).
+d. 
+Mampu mendeteksi kabel putus 
+di tengah.
+e. 
+LCD untuk tampilan hasil.
+f. 
+Remote unit untuk tes kabel 
+berjauhan.
+g. 
+Catu daya baterai 9 volt 2 buah.
+JW-360 Wire Tracker
+Sumber: Ibnu Indarwati (2023)
+a. 
+Penggunaan untuk kabel UTP 
+dan RJ11.
+b. 
+Pengukuran maksimal 300 
+meter.
+c. 
+Mampu mendeteksi kabel putus 
+di tengah.
+d. 
+Catu daya baterai 9 volt 2 buah.
+Nankai
+Sumber: Arif Muttakin (2022)
+a. 
+Kompatibel dengan konektor 
+RJ11 & RJ 45.
+b. 
+Twin speed.
+c. 
+Master & remote box.
+d. 
+Baterai 9 V.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+151
+No
+Alat Ukur
+Merek/Tipe dan 
+Gambar
+Spesifikasi
+2.
+…
+…
+…
+…
+…
+…
+…
+n
+…
+…
+…
+Banyaknya referensi alat ukur dengan berbagai merek atau tipe, akan 
+mempermudah kalian dalam menyelesaikan permasalahan yang terjadi dalam 
+jaringan. Spesifikasi alat ukur yang sesuai dengan kondisi jaringan akan 
+memberikan hasil pembacaan maksimal sehingga kalian dapat mengambil 
+tindakan yang lebih cepat dan tepat dalam rangka penyelesaian permasalahan 
+tersebut. 
+Setelah kalian mengenal bermacam-macam alat ukur dan spesifikasinya, 
+pada aktivitas berikut ini, kalian akan mendapatkan contoh permasalahan yang 
+biasa terjadi pada jaringan komputer dan telekomunikasi. Kalian diminta untuk 
+menganalisis alat ukur yang paling tepat untuk digunakan.
+   
+Melalui aktivitas ini, kalian secara individu diajak untuk mencari 
+solusi terbaik berupa pemilihan alat ukur yang tepat dalam rangka 
+memecahkan permasalahan yang terjadi pada jaringan komputer. 
+Aktivitas Individu 2.2 masih berkaitan dengan Aktivitas Kelompok 
+2.1 sehingga kalian dapat menggunakan hasil pekerjaan sebelumnya 
+untuk membantu menyelesaikan setiap persoalan.
+Aktivitas Individu 2.2
+Selesaikan setiap permasalahan berikut! Kalian dapat menulis jawabannya 
+pada buku tulis atau sesuai dengan petunjuk guru.
+1. 
+Untuk melakukan pengukuran saluran optik aktif arah downlink pada salah 
+satu provider telekomunikasi, dibutuhkan panjang gelombang sebesar 1.490 
+nm. Dari beberapa merek OPM yang sudah kalian temukan spesifikasinya 
+pada Aktivitas Kelompok 2.1, OPM mana saja yang dapat digunakan dalam 
+pengukuran tersebut?
+2. 
+Sebuah jaringan optik dengan panjang 260 km membentang dari Kota A ke 
+Kota B. Dalam rangka melakukan pemeliharaan pada saluran optik tersebut, 
+pengukuran secara rutin diperlukan tanpa mematikan koneksi dari jaringan 
+yang sedang online. Pilihlah OTDR yang dapat digunakan untuk mendukung 
+terlaksananya kegiatan tersebut! 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+152
+3. 
+Seorang teknisi jaringan komputer sedang melakukan penanganan gangguan 
+yang terjadi pada kabel LAN. Teknisi tersebut sudah menyiapkan LAN tester 
+untuk melakukan pengecekan kondisi kabel. Apabila dilihat dari penampakan 
+fisik, semua kabel dalam kondisi normal, namun ada beberapa saluran yang 
+tidak dapat digunakan (tidak terjadi koneksi). Berikan rekomendasi kalian 
+terkait dengan LAN tester yang dapat digunakan untuk mendeteksi letak 
+kabel LAN yang putus tersebut!
+4. 
+Salah satu menara telekomunikasi di wilayah X sedang dalam tahap 
+pemeliharaan rutin untuk memastikan kondisi tahanan pentanahan di 
+wilayah tersebut dalam keadaan baik. Standar yang ditetapkan untuk 
+perangkat telekomunikasi di menara tersebut maksimal 1 ohm. Teknisi yang 
+akan melakukan pengukuran masih dalam masa training. Apabila kalian 
+diminta membimbing teknisi baru tersebut untuk melakukan pengukuran 
+tahanan pentanahan, alat mana yang akan kalian rekomendasikan? Mengapa?
+5. 
+Seorang teknisi listrik sedang melakukan perbaikan pada jaringan yang ada 
+di rumah pelanggan. Bekal peralatan yang dibawa, antara lain tang meter dan 
+multimeter digital. Hasil analisis sementara, terjadi ketidakstabilan frekuensi 
+saluran. Untuk mengecek frekuensi yang tidak stabil, teknisi mempergunakan 
+multimeter digital. Dari beberapa spesifikasi multimeter yang sudah kalian 
+cari pada kegiatan sebelumnya, apakah ada yang dapat digunakan pada 
+pengukuran tersebut? Apabila tidak ada, berikan rekomendasi terkait 
+spesifikasi multimeter yang dapat mendukung pekerjaan yang sedang 
+dilakukan oleh teknisi listrik ini!
+6. 
+Pada mata pelajaran Dasar-Dasar Teknik Jaringan Komputer dan 
+Telekomunikasi, kalian diminta untuk menyurvei kekuatan jaringan Wi-Fi 
+di sekolah. Hasil survei tersebut akan dijadikan sebagai dasar teknisi jaringan 
+dalam melakukan optimasi kekuatan sinyal pada titik tertentu yang dinyatakan 
+lemah. Berbekal aplikasi yang dapat digunakan di HP, berikan rekomendasi 
+kalian mengenai aplikasi terbaik yang dapat mendukung kegiatan ini!
+C. Penggunaan Alat Ukur dalam Lingkup Pekerjaan 
+Teknik Jaringan Komputer dan Telekomunikasi
+Setelah kalian mempelajari fungsi dan menu/tombol pada alat ukur, sekarang 
+saatnya kalian mencoba untuk melakukan praktik menggunakan alat-alat 
+ukur yang sudah dipelajari sebelumnya. Praktikum dapat dilakukan dengan 
+menggunakan peralatan riil atau simulator, bergantung pada kondisi sekolah 
+masing-masing.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+153
+Sebelum melaksanakan praktikum yang akan dikemas dalam aktivitas 
+pembelajaran, pastikan kalian sudah memahami keselamatan kerja penggunaan 
+alat di lingkungan tempat praktik kalian. Hal tersebut sudah dibahas pada bab 
+sebelumnya.
+Berikut penjelasan singkat tentang hal-hal yang perlu diperhatikan pada 
+saat melakukan pengukuran menggunakan alat ukur jaringan komputer dan 
+telekomunikasi.
+1. LAN Tester
+Cara menggunakan alat ini sangat mudah karena pada umumnya, LAN tester 
+hanya terdiri dari sakelar dan port konektor. Akan tetapi, produk LAN tester 
+saat ini (untuk beberapa merek) sudah dilengkapi dengan fasilitas lain, 
+seperti yang sudah dibahas pada subbab sebelumnya. Secara fisik, alat ini 
+terdiri dari dua bagian yang dapat dipisahkan sehingga dapat dipergunakan 
+secara berjauhan, namun tetap menguji satu kabel yang sama. 
+Setiap LAN tester memiliki delapan lampu indikator plus G. Lampu 
+indikator tersebut akan menyala secara bergantian sesuai dengan urutan 
+atau acak, bergantung pada jenis kabel yang diukur. Jika digunakan untuk 
+mengukur kabel cross, lampu indikator akan menyala dengan urutan: 
+⌂ nomor 1 dengan nomor 3, 
+⌂ nomor 2 dengan nomor 6, 
+⌂ nomor 4 dengan nomor 4, 
+⌂ nomor 5 dengan nomor 5, 
+⌂ nomor 7 dengan nomor 7, dan 
+⌂ nomor 8 dengan nomor 8. 
+Adapun untuk kabel jenis straight, lampu akan menyala secara berurutan 
+mulai dari nomor 1 sampai dengan 8, baik sisi kanan maupun sisi kiri.
+Ada dua cara yang dapat digunakan untuk mengukur kabel LAN 
+menggunakan LAN tester, yaitu sebagai berikut. 
+a. 
+Menggunakan Satu Sisi LAN Tester
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Pasang satu ujung kabel ke dalam port eternet yang aktif dan ujung 
+lain dimasukkan ke port LAN tester. 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+154
+2) 
+Nyalakan sakelar on/off pada alat ukur.
+3) 
+Apabila kondisi kabel normal, lampu indikator pada LAN tester 
+akan menyala secara bergantian.
+Gambar 5.13 Pengetesan Kabel LAN dengan Bantuan Hub/Switch
+Sumber: Arif Muttakin (2022)
+b. 
+Menggunakan Dua Sisi LAN Tester
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Pasang ujung kabel LAN ke dalam port RJ45 yang sudah ada di 
+kedua sisi alat.
+2) 
+Nyalakan sakelar on/off pada alat ukur.
+3) 
+Apabila kondisi kabel normal, lampu indikator pada alat ukur akan 
+menyala secara bergantian sesuai dengan ketentuan yang sudah 
+dijelaskan sebelumnya.
+Gambar 5.14 Pengetesan Kabel LAN Straight dan Cross
+Sumber: Arif Muttakin (2022)
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+155
+Selain digunakan untuk mengukur konektivitas kabel LAN (UTP), LAN 
+tester juga dapat digunakan untuk mengukur kabel RJ11 atau kabel telepon. 
+Kabel RJ11 terbagi menjadi dua macam, yaitu 2 pin dan 4 pin. Pada kabel 
+dengan banyak kabel 2 pin, lampu indikator akan menyala bersamaan pada 
+LED nomor 3 dan 5. Adapun untuk kabel dengan 4 pin, lampu LED akan 
+menyala bersamaan pada nomor 3 dan 4, lalu 2 dan 5.
+Gambar 5.15 Pengukuran Kabel RJ11
+Sumber: Arif Muttakin (2022)
+Prosedur Keselamatan Kerja
+ 
+⌂
+Untuk mengurangi risiko kebakaran atau sengatan listrik, jangan 
+meletakkan alat pada lokasi basah atau rawan terkena air.
+ 
+⌂
+Berikan catuan yang sesuai dengan spesifikasi peralatan.
+ 
+⌂
+Perhatikan bahaya terhadap sengatan listrik meskipun arus dan tegangan 
+yang digunakan berjenis searah (DC).
+ 
+⌂
+Hindari lingkungan kerja yang dapat menyebabkan peralatan mudah 
+panas karena berpotensi meledak.
+2. Multimeter
+Multimeter atau multitester memiliki fungsi yang cukup beragam (kalian 
+sudah mengetahuinya pada materi fungsi alat ukur). Pemahaman terhadap 
+cara pemakaian alat ini sangat dibutuhkan agar tidak terjadi kesalahan 
+pembacaan dan kerusakan pada alat ukur, terutama pada multimeter analog. 
+Kalian harus mengetahui cara melakukan pembacaan terhadap skala meter 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+156
+yang menunjukkan hasil pengukuran. Berikut merupakan gambar skala 
+meter pada multimeter analog.
+Gambar 5.16 Skala Meter pada Multimeter Analog
+Sumber: Syarif Achmad (2023)
+Sebelum melakukan pengoperasian multimeter, kalian wajib melakukan 
+persiapan berikut agar memperoleh hasil yang sesuai.
+a. 
+Pastikan posisi jarum penunjuk berada pada angka nol multimeter 
+pada papan skala sebelah kiri.
+Gambar 5.17 Posisi Jarum pada Nol Meter
+Sumber: Arif Muttakin (2022)
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+157
+b. 
+Apabila belum menunjuk angka nol, aturlah posisi jarum dengan cara 
+memutar sekrup (zero adjust screw) dengan obeng minus kecil sampai 
+posisi pas pada angka nol.
+c. 
+Pilihlah cakupan atau skala pengukuran yang sesuai.
+Cara menggunakan multimeter analog dan multimeter digital untuk 
+beberapa jenis pengukuran dapat kalian simak pada materi berikut ini.
+a. 
+Cara Mengukur Tegangan DC Menggunakan Multimeter Analog
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Atur posisi sakelar pemilih (selector) pada posisi DCV.
+2) 
+Pilihlah batas ukur mulai dari yang paling besar.
+3) 
+Apabila kalian sudah mengetahui tegangan dari catu daya yang 
+akan diukur, misalnya 1,5 volt, arahkan sakelar pada posisi 3 volt.
+4) 
+Hubungkan probe ke terminal tegangan yang akan diukur. Probe 
+merah pada polaritas positif dan probe hitam pada polaritas negatif.
+5) 
+Baca gerakan jarum pada posisi skala DCV.
+6) 
+Apabila pergerakan jarum terlalu kecil dan sulit untuk dibaca, 
+lakukan pemindahan sakelar pemilih ke nilai yang lebih kecil. 
+Apabila jarum bergerak ke arah kiri, itu berarti polaritas probe 
+yang dihubungkan ke rangkaian terbalik.
+7) 
+Baca hasil penunjukan jarum multimeter dan catat hasilnya.
+Ω
+DCV 
+DCmA 
+ACV
+Gambar 5.18 Pengukuran Tegangan DC pada Roset Telepon
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+158
+8) 
+Cara membaca hasil pengukuran multimeter analog dapat 
+menggunakan rumus berikut:
+Hasil pengukuran
+Skala meter
+Batas ukur × Penunjukan jarum
+=
+Keterangan:
+⌂ batas ukur yang digunakan adalah 250 VDC
+⌂ skala meter yang digunakan adalah 250 
+⌂ penunjukan jarum adalah 55 VDC
+Dari data di atas, diperoleh hasil pengukuran tegangan DC 
+menggunakan multimeter analog sebesar 55 VDC.
+b. Cara Mengukur Tegangan DC Menggunakan Multimeter Digital
+OFF 600
+200
+200
+2m
+20m
+200m
+1DA
+NFD
+--
+200
+2K
+20K
+200K
+2M
+200m
+2
+20
+200
+600
+10A
+COM
+VΩmA
+PNPNPN
+E
+B
+C
+E
+10A MAX
+unfused
+MAX 600V
+200mA MAX
+9.00
+Gambar 5.19 Pengukuran Tegangan DC Menggunakan Multimeter Digital
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Atur posisi sakelar pemilih (selector) pada posisi DCV.
+2) 
+Pilihlah batas ukur mulai dari yang paling besar. 
+3) 
+Apabila kalian sudah mengetahui tegangan dari catu daya yang 
+akan diukur, misalnya 1,5 volt, arahkan sakelar pada posisi 3 volt.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+159
+4) 
+Hubungkan probe ke terminal tegangan yang akan diukur. Probe 
+merah pada polaritas positif dan probe hitam pada polaritas negatif.
+5) 
+Baca hasil pengukuran yang muncul pada layar. Apabila hasilnya 
+minus, itu berarti polaritas probe yang dihubungkan ke rangkaian 
+terbalik.
+6) 
+Hasil yang terlihat pada layar merupakan nilai hasil pengukuran.
+7) 
+Baca dan catat hasilnya.
+c. 
+Cara Mengukur Arus DC Menggunakan Multimeter Analog
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Atur posisi sakelar pemilih (selector) pada posisi DCmA atau DCA.
+2) 
+Pilihlah batas ukur pada cakupan yang tepat atau di atas cakupan 
+yang diprediksi berdasarkan perhitungan arus secara teori.
+3) 
+Hubungkan probe ke terminal tegangan yang akan diukur. Probe 
+merah pada polaritas positif dan probe hitam pada polaritas negatif.
+Ω
+DCV 
+DCmA 
+ACV
+Gambar 5.20 Pengukuran Arus DC Menggunakan Multimeter Analog
+4) 
+Apabila pergerakan jarum terlalu kecil dan sulit untuk dibaca, 
+lakukan pemindahan sakelar pemilih ke nilai yang lebih kecil. 
+Apabila jarum bergerak ke arah kiri, itu berarti polaritas probe 
+yang dihubungkan ke rangkaian terbalik.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+160
+Gambar 5.21 Penunjukan Jarum karena Salah Polarisasi
+Sumber: Arif Muttakin (2022)
+5) 
+Lakukan pembacaan hasil ukur pada skala DCmA atau A.
+6) 
+Cara pembacaan hasil ukur arus DC sama dengan pada saat kalian 
+melakukan pengukuran tegangan DC. Kalian dapat menggunakan 
+rumus berikut:
+Hasil pengukuran
+Skala meter
+Batas ukur × Penunjukan jarum
+=
+Keterangan:
+⌂ batas ukur yang digunakan adalah 0,25 A
+⌂ skala meter yang digunakan adalah 250
+⌂ penunjukan jarum adalah VDC 25,5
+Dari data di atas, diperoleh hasil pengukuran arus DC menggunakan 
+multimeter analog sebesar 0,0255 A atau 25,5 mA.
+7) 
+Catat hasil pengukuran.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+161
+d. Cara Mengukur Arus DC Menggunakan Multimeter Digital
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Atur posisi sakelar pemilih (selector) pada posisi DCmA atau DCA.
+2) 
+Pilihlah batas ukur pada cakupan yang tepat atau di atas cakupan 
+yang diprediksi berdasarkan perhitungan arus secara teori.
+3) 
+Hubungkan probe ke terminal tegangan yang akan diukur. Probe 
+merah pada polaritas positif dan probe hitam pada polaritas negatif.
+4) 
+Baca hasil pengukuran yang muncul pada layar. Apabila hasil minus, 
+itu berarti polaritas probe yang dihubungkan ke rangkaian terbalik.
+5) 
+Hasil yang terlihat pada layar merupakan nilai hasil pengukuran.
+6) 
+Baca dan catat hasilnya.
+OFF 600
+200
+200
+2m
+20m
+200m
+1DA
+NFD
+--
+200
+2K
+20K
+200K
+2M
+200m
+2
+20
+200
+600
+10A
+COM
+VΩmA
+PNPNPN
+E
+B
+C
+E
+10A MAX
+unfused
+MAX 600V
+200mA MAX
+45.4
+1.5V
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-
+0
+00
+000
+0000
+00000
+000000
+0000000
+00000000
+000000000
+1%
+2%
+5%
+10%
+Gambar 5.22 Pengukuran Arus DC dengan Multimeter Digital
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+162
+e. 
+Cara Mengukur Tahanan Menggunakan Multimeter Analog
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Putar arah sakelar pemilih pada posisi ohm. 
+2) 
+Usahakan sakelar pemilih sudah mengarah ke batas ukur yang 
+tidak jauh dari nilai tahanan yang akan diukur (di atas nilai yang 
+akan diukur). Jika ragu, arahkan ke batas ukur atau faktor kali 
+yang bernilai paling besar.
+3) 
+Hubungkan probe hitam dan probe merah, kemudian atur jarum 
+penunjuk agar tepat pada nilai 0 ohm.
+Ω
+DCmA 
+ACV
+Gambar 5.23 Pengaturan 0 Ohm
+4) 
+Jika pada pengukuran tegangan, skala hasil pengukuran dibaca dari 
+kiri ke kanan, pada pengukuran tahanan, skala hasil pengukuran 
+dibaca dari kanan ke kiri.
+5) 
+Hubungkan kedua probe, hitam dan merah pada kaki resistor. 
+Usahakan resistor tidak sedang terhubung pada catuan listrik.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+163
+Ω
+DCV 
+DCmA 
+ACV
+Gambar 5.24 Pengukuran Tahanan
+6) 
+Baca jarum penunjuk pada skala ohm. Apabila pergerakan jauh ke 
+kiri, naikkan batas ukur atau faktor kali dengan menggeser sakelar 
+pemilih. Perpindahan sakelar pemilih mengharuskan kalian untuk 
+mengatur nilai nol ohm kembali.
+7) 
+Baca dan catat hasilnya. Cara melakukan pembacaan hasil 
+pengukuran resistansi adalah dengan melihat angka yang 
+ditunjukkan jarum penunjuk pada skala meter dikali faktor pengali 
+yang dipilih pada sakelar pemilih.
+8) 
+Hasil pada multimeter menunjukkan jarum mendekati angka 9 
+pada skala pengukur. Jadi, hasil pengukurannya adalah 8,8 KΩ.
+f. 
+Cara Mengukur Tahanan Menggunakan Multimeter Digital
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Putar arah sakelar pemilih pada posisi ohm. 
+2) 
+Usahakan sakelar pemilih sudah mengarah ke batas ukur yang 
+tidak jauh dari nilai tahanan yang akan diukur (di atas nilai yang 
+akan diukur). Jika ragu, arahkan ke batas ukur atau faktor kali 
+yang bernilai paling besar.
+3) 
+Hubungkan kedua probe, hitam dan merah pada kaki resistor. 
+Usahakan resistor tidak sedang terhubung pada catuan listrik.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+164
+4) 
+Apabila layar tidak menunjukkan hasil, kemungkinan batas ukur 
+terlalu kecil. Pindahkan sakelar pemilih pada batas ukur yang 
+lebih besar.
+5) 
+Angka yang muncul pada layar merupakan hasil pengukuran.
+6) 
+Baca dan catat hasilnya.
+OFF 600
+200
+200
+2m
+20m
+200m
+1DA
+NFD
+--
+200
+2K
+20K
+200K
+2M
+200m
+2
+20
+200
+600
+10A
+COM
+VΩmA
+PNPNPN
+E
+B
+C
+E
+10A MAX
+unfused
+MAX 600V
+200mA MAX
+33.0
+1.5V
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-
+0
+00
+000
+0000
+00000
+000000
+0000000
+00000000
+000000000
+1%
+2%
+5%
+10%
+Gambar 5.25 Pengukuran Tahanan dengan Multimeter Digital
+g. 
+Cara Mengukur Tegangan AC Menggunakan Multimeter Analog
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Atur posisi sakelar pemilih (selector) pada posisi ACV.
+2) 
+Pilihlah batas ukur mulai dari yang paling besar. 
+3) 
+Apabila kalian sudah mengetahui tegangan dari catu daya yang 
+akan diukur, misalnya 220 volt, arahkan sakelar pada posisi 250 volt.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+165
+Ω
+DCV 
+DCmA 
+ACV
+Gambar 5.26 Pengukuran Tegangan AC pada Stop Kontak
+4) 
+Hubungkan probe ke terminal tegangan yang akan diukur. Untuk 
+tegangan AC, tidak terdapat polaritas. Oleh karena itu, probe hitam 
+atau merah boleh dihubungkan ke terminal pengukuran secara 
+bolak-balik.
+5) 
+Baca gerakan jarum pada posisi skala ACV.
+ICEO
+LV
+LV (V)
+dB
+AC1OV
+AC1OV
+hFE
+DCV.A
+&ACV
+DCV.A
+&ACV
+Ω
+OΩADJ
+Ω
+∞
+2k 1k
+LEAK
+Gambar 5.27 Hasil Pengukuran Tegangan AC
+6) 
+Baca hasil penunjukan jarum multimeter. Lakukan perhitungan 
+seperti pada pengukuran tegangan DC, kemudian catat hasilnya.
+7) 
+Hasil pengukuran yang terlihat pada Gambar 5.27 menunjukkan 
+nilai sebesar 230 VAC.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+166
+h. Cara Mengukur Tegangan AC Menggunakan Multimeter Digital
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Atur posisi sakelar pemilih (selector) pada posisi ACV.
+2) 
+Pilihlah batas ukur mulai dari yang paling besar. 
+3) 
+Apabila kalian sudah mengetahui tegangan dari catu daya yang 
+akan diukur, misalnya 220 volt, arahkan sakelar pada posisi 250 volt.
+4) 
+Hubungkan probe ke terminal tegangan yang akan diukur. Untuk 
+tegangan AC, tidak terdapat polaritas. Oleh karena itu, probe hitam 
+atau merah boleh dihubungkan ke terminal pengukuran secara 
+bolak-balik.
+5) 
+Baca hasil pengukuran berupa angka yang muncul pada layar 
+multimeter digital, kemudian catat hasilnya.
+OFF 600
+200
+200
+2m
+20m
+200m
+1DA
+NFD
+--
+200
+2K
+20K
+200K
+2M
+200m
+2
+20
+200
+600
+10A
+COM
+VΩmA
+PNPNPN
+E
+B
+C
+E
+10A MAX
+unfused
+MAX 600V
+200mA MAX
+220
+Gambar 5.28 Pengukuran Tegangan AC dengan Multimeter Digital
+Prosedur Keselamatan Kerja
+ 
+⌂
+Untuk mengurangi risiko kebakaran atau sengatan listrik, jangan 
+meletakkan alat pada lokasi basah atau rawan terkena air.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+167
+ 
+⌂
+Berikan catuan yang sesuai dengan spesifikasi peralatan.
+ 
+⌂
+Perhatikan bahaya terhadap sengatan listrik.
+ 
+⌂
+Perhatikan polaritas terminal ukur. Usahakan jangan sampai terbalik.
+ 
+⌂
+Hindari lingkungan kerja yang dapat menyebabkan peralatan mudah 
+panas karena berpotensi meledak.
+ 
+⌂
+Jangan gunakan peralatan jika dalam kondisi kurang prima.
+ 
+⌂
+Pergunakan aksesori sesuai dengan yang disarankan pada buku 
+manual.
+3. Earth Tester
+Earth tester memiliki fungsi memastikan nilai tahanan pentanahan 
+(grounding) pada sebuah rangkaian sistem grounding bernilai kecil atau 
+mendekati nol. Nilai tahanan (resistansi) yang kecil akan mempermudah 
+tegangan atau arus berlebih—yang disebabkan oleh sambaran petir dan 
+kebocoran kelistrikan—mengalir dengan cepat ke tanah. Dengan demikian, 
+peralatan elektronik yang kita miliki akan lebih terjaga.
+Pengukuran tahanan grounding perlu dilakukan secara berkala minimal 
+1 tahun sekali. Jika nilai grounding sudah tidak standar, kita harus segera 
+melakukan perbaikan pada instalasinya. Nilai tahanan grounding yang 
+dipersyaratkan berdasarkan National Fire Protection Association (NFPA) 
+dan Institute of Electrical and Electronics Engineers (IEEE), maksimal adalah 
+5 ohm. Adapun Persyaratan Umum Instalasi Listrik (PUIL) menyatakan 
+bahwa standar untuk nilai tahanan grounding adalah 5,0 ohm atau kurang.
+Langkah-langkah yang harus dilakukan pada proses pengukuran 
+grounding adalah sebagai berikut.
+a. 
+Tentukan lokasi pengukuran.
+b. 
+Siapkan earth tester, palu, dan ampelas/sikat baja.
+c. 
+Ampelas terlebih dahulu bagian grounding (batang atau plat) agar 
+terbebas dari tanah. Hal ini bertujuan agar konektivitas antara probe 
+dan instalasi grounding dapat lebih maksimal.
+d. 
+Masukkan probe hijau, kuning, dan merah ke lubang yang terdapat 
+pada earth tester. 
+e. 
+Hubungkan kabel warna hijau ke kabel atau batang grounding yang 
+akan diukur.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+168
+f. 
+Sambungkan probe kuning ke besi/spike berbentuk T yang sudah 
+ditancapkan ke tanah dengan jarak 5–10 meter dari pusat grounding.
+g. 
+Sambungkan probe merah ke besi/spike berbentuk T yang sudah 
+ditancapkan ke tanah dengan jarak 5–10 meter dari besi/spike pertama.
+2000Ω
+200Ω
+20Ω
+EARTH VOLTAGE
+OFF
+PRESS TO
+TEST
+LOCK
+DCV.A
+&ACV
+DCV.A
+&ACV
+Ω
+Ω
+∞
+2k 1k
+C
+P
+E
+Green
+Red
+Yellow
+Earthed
+Electrode
+under test
+5~
+10m
+5~
+10m
+Auxilliary
+earth spikes
+Gambar 5.29 Gambar Instalasi Pengukuran Grounding
+h. 
+Apabila menggunakan earth tester jenis analog, arahkan sakelar pemilih 
+(knob) pada angka x1 atau x10 ohm. Jika menggunakan earth tester jenis 
+digital, arahkan pada batas ukur 20 ohm.
+i. 
+Baca hasil pengukuran. Pada earth tester analog, hasil pengukuran 
+dapat dilihat dari penunjukan jarum. Jika menggunakan x1, angka 
+yang ditunjuk jarum dikalikan 1 Ω. Jika menggunakan x10, angka yang 
+ditunjuk jarum dikalikan 10 Ω. Adapun pada jenis earth tester digital, 
+kalian cukup melihat angka yang muncul pada layar.
+2000Ω
+200Ω
+20Ω
+EARTH VOLTAGE
+OFF
+PRESS TO
+TEST
+LOCK
+DIGITAL EARTH TESTER
+1.81
+Gambar 5.30 Hasil Pengukuran Earh Tester Digital
+Prosedur Keselamatan Kerja
+ 
+⌂
+Gunakan keselamatan kerja pada saat melakukan pengukuran, seperti 
+helm, kaus tangan, dan sepatu safety.
+ 
+⌂
+Tempatkan peralatan dengan hati-hati.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+169
+ 
+⌂
+Hindari tempat yang basah atau lembap.
+ 
+⌂
+Letakkan peralatan pada lokasi yang teduh dan terhindar dari panas 
+matahari langsung.
+ 
+⌂
+Gunakan batas ukur yang sesuai pada saat melakukan pengukuran.
+4. Optical Power Meter (OPM)
+Power meter adalah alat yang wajib dimiliki dan dikuasai penggunaannya 
+oleh teknisi yang bekerja di bidang Fiber Optik. Alat ini umumnya digunakan 
+untuk uji terima pada akhir instalasi sebuah jaringan optik. Selain itu, alat 
+ini juga digunakan untuk membantu mendeteksi gangguan yang terjadi 
+pada saluran optik kabel optik dengan cara mengukur nilai level daya yang 
+terletak pada titik terminasi tertentu. 
+Pengukuran menggunakan power meter memiliki dua metode. Metode 
+pertama adalah pengukuran pada jaringan offline atau belum mendapatkan 
+catu daya dari Optical Line Terminal (sumber cahaya dari penyelenggara 
+telekomunikasi). Metode kedua adalah pengukuran pada saluran optik yang 
+sudah online (mendapatkan catu daya dari Optical Line Terminal).
+a. 
+Cara Melakukan Pengukuran Menggunakan Optical Power Meter 
+pada Jaringan Offline
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Siapkan Optical Light Source (OLS), Optical Power Meter (OPM), 
+kacamata safety, one click cleaner, dan kabel yang akan diukur 
+(misal patch cord, dummy cable, atau drop core).
+2) 
+Gunakan kacamata safety sebelum melakukan pengukuran. 
+3) 
+Bersihkan ujung konektor dan lubang adaptor menggunakan one 
+click cleaner.
+4) 
+Pasang kabel yang akan diukur pada OLS dan OPM.
+5) 
+Nyalakan OLS dan atur panjang gelombangnya, misalkan 1.310 nm.
+6) 
+Nyalakan OPM dan samakan panjang gelombang dengan yang diatur 
+pada OLS.
+7) 
+Baca hasil pengukuran pada angka yang memiliki satuan dBm.
+8) 
+Catat hasil pengukuran.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+170
+LIGHT
+ZERO
+dB
+MODE
+WAVE
+Gambar 5.31 Hasil Pengukuran OPM pada Saluran Offline (Patch Cord)
+Sumber: Arif Muttakin (2022)
+b. Cara Melakukan Pengukuran Menggunakan Optical Power Meter 
+pada Jaringan Online
+Langkah-langkah kerjanya sebagai berikut.
+1) 
+Siapkan Optical Power Meter (OPM), 
+safety glasses, one click cleaner, dan 
+titik terminasi yang akan diukur 
+(misal roset optik).
+2) 
+Gunakan kacamata safety sebelum 
+melakukan pengukuran. 
+3) 
+Bersihkan ujung konektor dan 
+lubang adaptor menggunakan one 
+click cleaner.
+4) 
+Nyalakan OPM dan atur lamda 
+sesuai dengan lamda downlink 
+yang digunakan oleh operator 
+telekomunikasinya, misalkan 1.490 
+nm.
+5) 
+Baca hasil pengukuran yang memiliki 
+satuan dBm.
+6) 
+Catat hasil pengukuran.
+LIGHT
+ZERO
+dB
+Gambar 5.32 Hasil Pengukuran 
+OPM pada Saluran Online
+Sumber: Arif Muttakin (2022)
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+171
+Prosedur Keselamatan Kerja
+ 
+⌂
+Tidak melihat langsung pada ujung serat optik karena cahaya yang 
+dikeluarkan oleh sumber optik termasuk cahaya tidak tampak dan 
+berbahaya bila terkena mata.
+ 
+⌂
+Gunakan kacamata safety.
+ 
+⌂
+Nyalakan OLS setelah kabel terpasang pada OPM dengan baik.
+ 
+⌂
+Lakukan pengecekan power yang digunakan secara saksama.
+ 
+⌂
+Simpan peralatan praktik secara hati-hati. Hindari tempat dengan 
+getaran tinggi.
+ 
+⌂
+Pasang konektor dengan benar.
+ 
+⌂
+Gunakan catuan tegangan yang sesuai.
+5. Optical Time Domain Reflectometer (OTDR)
+OTDR memiliki banyak fungsi seperti yang sudah dibahas pada materi awal 
+bab ini. Sama halnya dengan OPM, alat ini digunakan untuk membantu 
+melakukan uji terima dan menganalisis letak gangguan pada sebuah saluran 
+optik. Dengan menggunakan alat ini, teknisi akan lebih mudah mengetahui 
+letak kerusakan (misal kabel putus) sehingga gangguan tersebut dapat 
+segera ditangani.
+Langkah-langkah melakukan pengukuran menggunakan OTDR adalah 
+sebagai berikut.
+a. 
+Siapkan OTDR, kacamata safety, one click cleaner, dan kabel yang akan 
+digunakan dalam pengukuran dengan panjang minimal 100 meter.
+b. 
+Gunakan kacamata safety sebelum melakukan pengukuran. 
+c. 
+Bersihkan ujung konektor dan lubang adaptor menggunakan one click 
+cleaner.
+d. 
+Pasang ujung kabel yang akan diukur pada OTDR.
+e. 
+Lakukan penyetelan parameter pada OTDR, meliputi panjang gelombang, 
+distance range, pulse width, duration, dan index of refraction.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+172
+⌂ Panjang gelombang: 1310/1550 untuk single mode, 850/1300 untuk 
+multimode, dan 1625 untuk pengukuran online (live).
+⌂ Distance range: nilai distance range harus di atas panjang 
+kabel yang akan kita ukur. Untuk kabel 100 meter, kita dapat 
+menggunakan distance range 300 m.
+⌂ Pulse width: gunakan pulse width yang kecil untuk kabel dengan 
+jarak pendek; sebaliknya, gunakan pulse width yang besar untuk 
+kabel dengan jarak panjang. Untuk kabel 100 m, kita dapat 
+menggunakan 5 ns atau 10 ns.
+⌂ Index of refraction: gunakan default yang terdapat pada alat ukur 
+apabila kalian tidak memiliki data kabel yang sedang diukur.
+Gambar 5.33 Penyetelan Parameter OTDR
+Sumber: Arif Muttakin (2022)
+f. 
+Lakukan pengukuran dengan menekan tombol Start.
+g. 
+Baca hasil pengukuran pada kolom distance.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+173
+Gambar 5.34 Hasil Pengukuran OTDR
+Sumber: Arif Muttakin (2021)
+h. 
+Catat hasil pengukuran.
+Prosedur Keselamatan Kerja
+ 
+⌂
+Tidak melihat langsung pada ujung serat optik karena cahaya yang 
+dikeluarkan oleh sumber optik termasuk cahaya tidak tampak dan 
+berbahaya bila terkena mata.
+ 
+⌂
+Gunakan kacamata safety.
+ 
+⌂
+Tutup ujung jauh dari kabel untuk menghindari cahaya yang 
+ditembakkan dari OTDR.
+ 
+⌂
+Simpan peralatan praktik secara hati-hati. Hindari tempat dengan 
+getaran tinggi.
+ 
+⌂
+Pasang konektor dengan benar.
+ 
+⌂
+Gunakan catuan tegangan yang sesuai.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+174
+6. Wi-Fi Analyzer
+Wi-Fi Analyzer yang akan dibahas pada buku ini berupa aplikasi yang 
+dapat diinstal pada ponsel kalian. Ada banyak produk yang dapat kalian 
+akses di Play Store (App Store). Pilihlah aplikasi yang menurut kalian cocok 
+digunakan pada ponsel masing-masing! 
+Berikut adalah salah satu cara menggunakan aplikasi Wi-Fi Analyzer.
+a. 
+Unduh aplikasi pada Play Store (App Store).
+Gambar 5.35 Gambar Pilihan Aplikasi Wi-Fi Analyzer
+Sumber: Arif Muttakin (2022)
+b. 
+Lakukan instalasi aplikasi.
+c. 
+Gunakan aplikasi untuk melakukan analisis Wi-Fi di sekitar kalian.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+175
+Gambar 5.36 Gambar Tampilan Kekuatan Sinyal Wi-Fi
+Sumber: Arif Muttakin (2022)
+Prosedur Keselamatan Kerja
+ 
+⌂
+Pastikan tangan dalam kondisi bersih dan tidak basah/lembap.
+ 
+⌂
+Hindari bekerja sambil makan dan minum.
+ 
+⌂
+Hindari lingkungan kerja yang terlalu panas dan lembap.
+7. Speed Test
+Beberapa alamat web tersedia untuk menguji kecepatan unduh (download) 
+dan unggah (upload) pada saluran internet. Kalian dapat mencoba beberapa 
+alamat yang sudah pernah kalian cari pada aktivitas sebelumnya. Pada 
+pembahasan kali ini, akan disampaikan cara melakukan speed test pada 
+satu alamat web saja. Kalian dapat mencoba pada alamat web lainnya pada 
+saat melakukan aktivitas individu dan kelompok.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+176
+Berikut ini langkah-langkah melakukan speed test.
+a. 
+Buka browser pada PC atau laptop masing-masing, kemudian ketikkan 
+speedtest.net pada kolom alamat browser.
+Gambar 5.37 Tampilan Laman Web speedtest
+Sumber: Arif Muttakin (2022)
+b. 
+Tunggu sampai muncul tampilan laman awal web speedtest.
+c. 
+Jalankan dengan cara memilih tombol GO.
+Gambar 5.38 Proses Pengujian Kecepatan
+Sumber: Arif Muttakin (2022)
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+177
+d. 
+Tunggu beberapa saat sampai muncul hasil pengujian pada laman 
+tersebut.
+Gambar 5.39 Hasil Pengujian Kecepatan
+Sumber: Arif Muttakin (2022)
+Prosedur Keselamatan Kerja
+ 
+⌂
+Pastikan tangan dalam kondisi bersih, tidak basah atau lembap.
+ 
+⌂
+Hindari bekerja sambil makan dan minum.
+ 
+⌂
+Hindari lingkungan kerja yang terlalu panas dan lembap.
+8. Ping Test
+Ping test merupakan sebuah metode yang digunakan untuk mengetahui 
+konektivitas sebuah jaringan komputer baik jaringan lokal maupun yang 
+terhubung ke internet. Dengan menggunakan ping test, kita dapat melihat 
+seberapa cepat respons dari komputer lawan. Semakin cepat respons yang 
+diberikan, semakin bagus kondisi jaringannya, demikian sebaliknya. 
+Berikut langkah-langkah melakukan ping test.
+a. 
+Buka cmd atau Command Prompt pada laptop atau PC yang terhubung 
+ke sebuah jaringan komputer. Diperbolehkan terhubung menggunakan 
+Wi-Fi atau kabel.
+b. 
+Ketikkan ping dilanjutkan alamat IP tujuan. Misalkan ping 10.212.64.1.
+c. 
+Tunggu proses reply.
+d. 
+Pastikan hasilnya seperti pada Gambar 5.40.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+178
+C:\windows\system32\cmd.exe
+C:\_
+Microsoft Windows [version 10.19044.2006]
+(c) Microsoft Corporation. All right reserved.
+C:\User\asus>ping 10.212.64.1
+Pinging 10.212.64.1 with 32 bytes of data:
+Reply from 10.212.64.1: bytes=32 times=4ms TTL=64
+Reply from 10.212.64.1: bytes=32 times=4ms TTL=64
+Reply from 10.212.64.1: bytes=32 times=4ms TTL=64
+Reply from 10.212.64.1: bytes=32 times=3ms TTL=64
+Ping statistics for 10.212.64.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip time in milli second:
+    Minimum = 3ms, Maximum = 4ms, Average = 3ms
+C:\User\asus>_
+Gambar 5.40 Tampilan Hasil Ping Test
+Sumber: Arif Muttakin (2022)
+e. 
+Apabila terjadi beberapa hal berikut, segera lakukan perbaikan.
+1) 
+General Failure 
+Kondisi ini terjadi saat sistem tidak dapat mengirimkan paket ping 
+karena suatu masalah berupa adanya blocking yang dilakukan 
+oleh firewall atau antivirus, atau kabel jaringan tidak terhubung 
+ke komputer/laptop.
+Tindakan yang perlu dilakukan adalah mematikan firewall 
+dan antivirus, kemudian memeriksa kabel jaringan dan slot LAN 
+komputer/laptop kalian. Periksa juga sambungan kabel yang berada 
+pada hub/switch, apakah lampu indikator LED sudah menyala.
+C:\windows\system32\cmd.exe
+C:\_
+Microsoft Windows [version 10.19044.2006]
+(c) Microsoft Corporation. All right reserved.
+C:\User\asus>ping 10.212.64.1
+Pinging 10.212.64.1 with 32 bytes of data:
+PING: transmit failed. General failure.
+PING: transmit failed. General failure.
+PING: transmit failed. General failure.
+PING: transmit failed. General failure.
+Ping statistics for 10.212.64.1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+C:\User\asus>
+Gambar 5.41 Tampilan Error General Failure
+Sumber: Arif Muttakin (2022)
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+179
+2) 
+Destination Host Unreachable (DHU)
+Kondisi ini terjadi karena tidak adanya respons dari host pada 
+saat melakukan perintah ping. Kondisi ini juga terjadi ketika host, 
+jaringan, port, atau komputer tertentu tidak dapat dijangkau. 
+Penyebabnya adalah beberapa hal berikut.
+⌂ Kabel jaringan/LAN card tidak terhubung dengan baik pada 
+komputer/laptop.
+⌂ Status pada Local Area Connection dalam kondisi Disable. 
+Pengecekan dapat dilakukan pada Network Connection di 
+Control Panel.
+⌂ Hub/switch terlalu panas.
+⌂ Terjadi ketidaksesuaian pada setting-an TCP/IP.
+Tindakan yang perlu dilakukan, antara lain:
+⌂ periksa kondisi port, kabel, dan konektor;
+⌂ pastikan kondisi hub/switch sudah terkoneksi, terlihat dari 
+lampu indikator; dan
+⌂ aktifkan status Disable pada LAN Area Connection.
+C:\windows\system32\cmd.exe
+C:\_
+Microsoft Windows [version 10.19044.2006]
+(c) Microsoft Corporation. All right reserved.
+C:\User\asus>ping 10.212.64.1
+Pinging 10.212.64.1 with 32 bytes of data:
+Reply from 10.212.74.1: Destination host unreachable.
+Reply from 10.212.74.1: Destination host unreachable.
+Reply from 10.212.74.1: Destination host unreachable.
+Reply from 10.212.74.1: Destination host unreachable.
+Ping statistics for 10.212.64.1:
+Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+C:\User\asus>_
+Gambar 5.42 Tampilan Destination Host Unreachable
+Sumber: Arif Muttakin (2022)
+3) 
+Request Timed Out (RTO)
+Penyebab terjadinya RTO, antara lain:
+⌂ pemakaian bandwidth sudah penuh;
+⌂ kualitas jaringan buruk;
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+180
+⌂ koneksi IP terputus dapat dikarenakan koneksi Wi-Fi mati 
+atau kabel yang putus;
+⌂ adanya firewall; dan
+⌂ kesalahan konfigurasi pada firewall.
+Tindakan yang perlu dilakukan, antara lain:
+⌂ memeriksa kembali IP tujuan pada syntax ping;
+⌂ memeriksa konektivitas kabel atau Wi-Fi;
+⌂ melakukan disable firewall; dan
+⌂ memeriksa Network ID pada komputer tujuan.
+CommandPrompt
+Packet Tracer PC Command Line 1.0
+C:\>ping 192.168.1.3
+Pinging 192.168.1.3 with 32 bytes of data :
+Requested Time out.
+Requested Time out.
+Requested Time out.
+Ping statistics for 192.168.1.3:
+    Packet: sent = 4, Received = 0, Lost = 4 (100% loss), 
+C:\>
+Gambar 5.43 Tampilan Request Timed Out (RTO)
+Sumber: Arif Muttakin (2022)
+Setelah kalian mengetahui cara melakukan pengukuran, selanjutnya 
+kalian diminta untuk mengerjakan aktivitas individu dan aktivitas kelompok. 
+Tujuannya adalah menguji seberapa jauh pemahaman yang berhasil diserap 
+dari penjelasan pada materi penggunaan alat ukur.
+   
+Agar pembelajaran lebih bermakna, kalian diminta untuk mencoba 
+melakukan pengukuran menggunakan aplikasi yang sudah dijelaskan 
+pada materi di atas. Kalian diperbolehkan melakukan praktik ini 
+di lingkungan sekolah, misalkan di laboratorium komputer atau di 
+tempat lain atas seizin Bapak/Ibu Guru.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+181
+Aktivitas Individu 3.1
+Skenario praktik yang harus kalian lakukan adalah sebagai berikut.
+1. 
+Kalian mencari koneksi Wi-Fi yang paling kuat menggunakan aplikasi Wi-
+Fi Analyzer.
+2. 
+Setelah koneksi terbaik diperoleh, coba hubungkan laptop kalian pada 
+jaringan tersebut.
+3. 
+Lakukan speed test internet pada jaringan yang sudah terhubung.
+4. 
+Selanjutnya, lakukan ping test ke IP server atau IP teman kalian yang 
+terhubung ke jaringan yang sama.
+5. 
+Lakukan minimal pada dua lokasi atau jaringan berbeda.
+Laporan Aktivitas Individu 3.1
+Sebagai bentuk pertanggungjawaban dari tugas yang sudah diberikan, kalian 
+diminta untuk membuat laporan praktik sederhana yang berisi hasil tangkapan 
+layar (screenshot) dari praktik yang sudah dilakukan. Laporan dapat dibuat 
+dalam bentuk tabel atau bentuk laporan singkat lainnya sesuai dengan kreativitas 
+masing-masing. Buatlah kesimpulan terhadap praktikum yang sudah dilakukan!
+Berikut ini merupakan contoh tabel laporan.
+Tabel 5.5 Contoh Tabel Laporan Hasil Pengamatan
+No
+Lokasi
+Jaringan/SSID
+Hasil Praktikum
+1.
+Ruang B.1.1
+Mikrotik FO
+Hasil Wi-Fi Analyzer
+Hasil speed test internet
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+182
+No
+Lokasi
+Jaringan/SSID
+Hasil Praktikum
+C:\windows\system32\cmd.exe
+C:\_
+Microsoft Windows [version 10.19044.2006]
+(c) Microsoft Corporation. All right reserved.
+C:\User\asus>ping 10.212.64.1
+Pinging 10.212.64.1 with 32 bytes of data:
+Reply from 10.212.64.1: bytes=32 times=4ms TTL=64
+Reply from 10.212.64.1: bytes=32 times=4ms TTL=64
+Reply from 10.212.64.1: bytes=32 times=4ms TTL=64
+Reply from 10.212.64.1: bytes=32 times=3ms TTL=64
+Ping statistics for 10.212.64.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip time in milli second:
+    Minimum = 3ms, Maximum = 4ms, Average = 3ms
+C:\User\asus>_
+Hasil ping test
+Melalui aktivitas individu di atas, kalian diharapkan dapat memilih 
+jaringan yang memiliki koneksi terbaik. Selain itu, kalian dapat mengetahui 
+cara melakukan troubleshooting berupa error pada saat pengetesan jaringan, 
+misalnya RTO dan destination unreachable.
+Selanjutnya, kalian dapat mencoba mengerjakan beberapa persoalan yang 
+berkaitan dengan pembacaan hasil pengukuran menggunakan multimeter 
+analog melalui aktivitas kelompok berikut ini.
+   
+Untuk menyelesaikan aktivitas kelompok ini, silakan kalian 
+membentuk kelompok beranggotakan 2–3 peserta didik. Setiap 
+kelompok diminta untuk mengisi atau melengkapi tabel hasil 
+pengukuran tegangan, arus, dan resistansi. Diskusikan dengan 
+teman satu kelompok kalian!
+Aktivitas Kelompok 3.2
+Pelajarilah materi yang sudah disampaikan sebelumnya sebagai panduan 
+untuk menyelesaikan aktivitas ini! Kalian diperbolehkan mencari informasi 
+dari sumber lain. 
+1. 
+Tentukan hasil pembacaan pada gambar di bawah ini!
+AC1OV
+AC1OV
+DCV.A
+&ACV
+DCV.A
+&ACV
+Ω
+Ω
+∞
+2k 1k
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+183
+Arus DC
+Tegangan DC
+Batas Ukur
+Hasil Pembacaan
+Batas Ukur
+Hasil Pembacaan
+25 mA
+…
+50 VDC
+…
+Pengukuran Resistansi
+× 10 KΩ
+…
+2. 
+Tentukan hasil pembacaan pada gambar di bawah ini!
+AC1OV
+AC1OV
+DCV.A
+&ACV
+DCV.A
+&ACV
+Ω
+Ω
+∞
+2k 1k
+Arus DC
+Tegangan DC
+Batas Ukur
+Hasil Pembacaan
+Batas Ukur
+Hasil Pembacaan
+0,25 A
+…
+250 VDC
+…
+Pengukuran Resistansi
+× 1 KΩ
+…
+D. Melakukan Pemeliharaan Alat Ukur dalam 
+Lingkup Pekerjaan Teknik Jaringan Komputer 
+dan Telekomunikasi
+1. Pengetahuan yang Harus Dimiliki untuk Memelihara 
+Alat Ukur
+Alat ukur yang kalian gunakan untuk praktikum di sekolah tentunya 
+membutuhkan perawatan agar tetap awet dan selalu siap digunakan ketika 
+dibutuhkan. Pada kenyataan di lapangan atau dunia kerja pun seperti itu, 
+perawatan terhadap alat ukur dan alat lainnya wajib dilakukan. Peralatan 
+yang selalu siap digunakan akan menjaga produktivitas dalam sebuah 
+pekerjaan.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+184
+Perawatan merupakan sebuah kegiatan yang diperlukan untuk 
+mempertahankan dan mengembalikan alat kerja ke suatu kondisi yang 
+terbaik. Pemeliharaan secara umum dibedakan menjadi tiga jenis, yaitu 
+sebagai berikut.
+a. 
+Preventif
+Sebuah kegiatan pemeliharaan yang dilakukan sebelum terjadi 
+kerusakan. Pemeliharaan jenis ini biasanya dilakukan secara berkala: 
+mingguan, bulanan, atau tahunan. 
+b. Korektif
+Sebuah kegiatan pemeliharaan yang dilakukan setelah muncul 
+gangguan atau kerusakan pada alat ukur. Apabila terjadi kerusakan 
+pada alat ukur, sebaiknya segera lakukan perbaikan, terutama pada 
+alat ukur yang diperlukan untuk menunjang pekerjaan sehari-hari. 
+c. 
+Kualitatif
+Perawatan yang dilakukan dengan tujuan meningkatkan kualitas hasil 
+pekerjaan yang dilakukan ketika menggunakan peralatan tersebut. 
+Contohnya, update/upgrade perangkat lunak pada alat ukur OTDR 
+menggunakan versi terbaru. Contoh lainnya adalah mengganti alat 
+ukur dengan fasilitas yang lebih lengkap dan mampu membaca hasil 
+pengukuran secara lebih teliti.
+Cara melakukan perawatan terhadap alat ukur jaringan komputer dan 
+telekomunikasi adalah dengan memperhatikan prosedur manufaktur atau 
+prosedur operasi kerja pada buku manual yang turut disertakan ketika 
+membeli alat tersebut. 
+Penyimpanan peralatan pada tempat yang tepat akan membantu 
+memperpanjang usia alat ukur. Penyimpanan alat ukur, seperti multimeter 
+analog dan multimeter digital, harus selalu dipastikan dimulai dari mematikan 
+sakelar pemilih. Tidak dianjurkan untuk melakukan penyimpanan alat pada 
+ruangan dengan keadaan suhu ekstrem (terlalu panas atau terlalu dingin), 
+kelembapan tinggi, dan tempat yang terlalu banyak medan magnet atau 
+listrik statis.
+Dalam penggunaan dan penyimpanan alat ukur, kalian harus 
+menghindari getaran yang terlalu banyak dan terus-menerus walaupun 
+hampir semua alat ukur analog sudah dilengkapi peredam. 
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+185
+Cara-cara tersebut bertujuan mempertahankan ketepatan dan ketelitian 
+alat ukur, khususnya pada multimeter dan earth tester analog. Pemeriksaan 
+kondisi alat ukur perlu dilakukan sebelum digunakan untuk memastikan 
+alat tersebut dapat digunakan dan bekerja dengan baik.
+2. Keterampilan yang Dibutuhkan dalam Memelihara Alat 
+Ukur
+Keterampilan yang dibutuhkan dalam memelihara alat ukur, antara lain: 
+a. 
+melakukan tugas-tugas rutin berdasarkan prosedur yang ditetapkan;
+b. 
+melakukan tugas-tugas yang lebih luas dan kompleks dengan cara 
+meningkatkan kemampuan dalam bekerja mandiri tanpa arahan dari 
+atasan; serta
+c. 
+melakukan pekerjaan yang kompleks dan tidak rutin, yang diatur 
+sendiri, serta bertanggung jawab atas pekerjaan orang lain.
+3. Sikap Kerja dalam Memelihara Alat Ukur
+Berikut ini beberapa sikap kerja yang harus diperhatikan untuk menunjang 
+pemeliharaan alat ukur.
+a. 
+Selalu cermat ketika menggunakan alat ukur, terutama saat menggunakan 
+besaran listrik, seperti tegangan listrik dan arus listrik.
+b. 
+Memastikan kabel atau probe yang akan digunakan dalam kondisi baik, 
+tidak terkelupas atau pelindung isolasinya hilang.
+c. 
+Memastikan kalibrasi alat sudah dilakukan dengan benar.
+d. 
+Memperhatikan keamanan kerja, baik bagi peralatan maupun bagi 
+penggunanya. Keamanan bagi pengguna perlu diperhatikan agar tidak 
+terjadi kecelakaan kerja pada saat menggunakan peralatan.
+e. 
+Menggunakan catuan yang sesuai dengan ketentuan pada alat ukur.
+f. 
+Melakukan update perangkat lunak alat ukur agar dapat digunakan 
+dengan maksimal.
+Setelah kalian mempelajari materi tentang pemeliharaan alat ukur, 
+sekarang saatnya untuk melakukan aktivitas baik individu maupun kelompok. 
+Dengan demikian, pengetahuan yang sudah kalian pelajari dapat lebih 
+bermakna.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+186
+   
+Pada aktivitas ini, kalian diminta untuk mencari informasi terkait 
+dengan pemeliharaan yang harus dilakukan terhadap alat ukur 
+perangkat keras yang sudah dipelajari sebelumnya.
+Aktivitas Individu 4.1
+Cobalah kalian pilih minimal tiga alat ukur perangkat keras dan carilah cara 
+perawatannya pada buku manual alat ukur tersebut!
+Laporan Aktivitas Individu 4.1
+Tuangkan hasil kerja kalian dalam bentuk laporan singkat, tabel, atau infografik 
+sesuai dengan kreativitas masing-masing! Berikut ini adalah contoh templat 
+laporan dalam bentuk tabel.
+Tabel 5.6 Contoh Tabel Aktivitas Individu 4.1
+No
+Nama Alat
+Gambar Alat
+SOP Pemeliharaan
+1.
+2.
+…
+n
+   
+Sebuah alat akan memiliki waktu hidup lebih lama apabila 
+mendapatkan perawatan yang sesuai dengan ketentuan pada buku 
+manual—buku tersebut sudah disiapkan oleh perusahaan produsen 
+alat. Namun, apakah ketentuan pemeliharaan alat tersebut sudah 
+dilaksanakan oleh laboran/teknisi? Jawabannya bisa sudah dan 
+bisa belum. 
+Untuk menambah pengetahuan dan pengalaman yang berkaitan 
+dengan pemeliharaan alat ukur, kalian dapat mengerjakan aktivitas 
+kelompok berikut ini.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+187
+Aktivitas Kelompok 4.2
+Bentuklah kelompok beranggotakan 2–3 peserta didik! Setiap kelompok diminta 
+untuk melakukan pengamatan dan penggalian informasi terkait pemeliharaan 
+alat ukur yang ada di laboratorium sekolah atau pada perusahaan yang bergerak 
+di bidang Jaringan Komputer dan Telekomunikasi di sekitar tempat tinggal kalian. 
+Carilah informasi tentang prosedur pemeliharaan peralatan yang sudah 
+diterapkan di tempat tersebut! 
+Laporan Aktivitas Kelompok 4.2
+Buatlah laporan singkat berupa tabel, infografik, atau bentuk laporan lain 
+sesuai dengan kreativitas kalian! Berikut ini adalah contoh templat laporan 
+dalam bentuk tabel.
+Tabel 5.7 Contoh Tabel Aktivitas Kelompok 4.2
+No
+Lokasi Pengamatan
+Nama dan Gambar Alat
+Jenis Pemeliharaan
+1.
+2.
+…
+n
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+188
+1. Pengukuran Konektivitas Kabel LAN
+Lembar Kerja Peserta Didik (LKPD)
+Pengukuran Konektivitas Kabel LAN
+A. Tujuan Praktikum
+Peserta didik dapat melakukan pengukuran menggunakan LAN tester 
+dan membuat kesimpulan terkait dengan kondisi kabel atau jaringan 
+komputer yang diukur. 
+B. Alat dan Bahan
+1. 
+LAN tester
+2. 
+Kabel LAN straight
+3. 
+Kabel LAN cross
+4. 
+Lembar kerja
+5. 
+Alat tulis
+C. Langkah Kerja
+1. 
+Persiapkan alat dan bahan yang dibutuhkan.
+2. 
+Siapkan kabel LAN berjenis straight dan cross. Kalian dapat 
+membuatnya terlebih dahulu atau menggunakan kabel yang sudah 
+jadi.
+3. 
+Perhatikan keselamatan kerja selama beraktivitas.
+4. 
+Lakukan uji konektivitas menggunakan LAN tester.
+5. 
+Tuliskan hasil pengukuran ke dalam contoh tabel yang sudah disiapkan 
+pada hasil kerja.
+ 
+ Uji Kompetensi Bab 5
+Melalui uji kompetensi ini, kalian diminta untuk menyelesaikan setiap pekerjaan 
+secara runtut mengenai SOP pada setiap Lembar Kerja Peserta Didik (LKPD) 
+yang tersedia.
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+189
+D. Gambar Kerja
+Kalian dapat melihat panduan praktik pengukuran menggunakan LAN 
+tester pada tautan berikut.
+Sumber: https://www.youtube.com/watch?v=2x0Z1OwT0_4
+E. Hasil Kerja
+Tabel Hasil Pengukuran Kabel LAN Tipe Straight
+No
+Warna Urat Kabel
+(Ujung 1 & 2)
+Status
+OK
+NOK
+1.
+Putih – Hijau
+2.
+Hijau
+3.
+Putih – Oranye
+4.
+Biru
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+190
+No
+Warna Urat Kabel
+(Ujung 1 & 2)
+Status
+OK
+NOK
+5.
+Putih – Biru 
+6.
+Oranye
+7.
+Putih – Cokelat
+8.
+Cokelat
+Tabel Hasil Pengukuran Kabel LAN Tipe Cross
+No
+Warna Urat Kabel
+(Ujung 1)
+Warna Urat Kabel
+(Ujung 2)
+Status
+OK
+NOK
+1.
+Putih – Hijau
+Putih – Oranye
+2.
+Hijau
+Oranye
+3.
+Putih – Oranye
+Putih – Hijau
+4.
+Biru
+Biru
+5.
+Putih – Biru 
+Putih – Biru
+6.
+Oranye
+Hijau
+7.
+Putih – Cokelat
+Putih – Cokelat
+8.
+Cokelat
+Cokelat
+F. 
+Kesimpulan
+……………………………………………………………………………………………………………
+……………………………………………………………………………………………………………
+……………………………………………………………………………………………………………
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+191
+2. Pengukuran Tegangan DC, Arus DC, dan Resistansi
+Lembar Kerja Peserta Didik (LKPD)
+Pengukuran Menggunakan Multimeter
+A. Tujuan Praktikum
+Peserta didik dapat melakukan pengukuran tegangan DC, arus DC, dan 
+resistansi menggunakan multimeter.
+B. Alat dan Bahan
+1. 
+Multimeter analog/digital
+2. 
+Sumber tegangan DC
+3. 
+Sumber arus DC
+4. 
+Resistor
+5. 
+Lembar kerja
+6. 
+Alat tulis
+C. Langkah Kerja
+1. 
+Persiapkan alat dan bahan yang dibutuhkan.
+2. 
+Perhatikan keselamatan kerja selama beraktivitas.
+3. 
+Lakukan pengukuran seperti pada gambar kerja.
+4. 
+Tuliskan hasil pengukuran ke dalam tabel yang sudah disiapkan 
+pada hasil kerja.
+D. Gambar Kerja
+1. 
+Pengukuran tegangan DC
+OFF 600
+200
+200
+2m
+20m
+200m
+1DA
+NFD
+--
+200
+2K
+20K
+200K
+2M
+200m
+2
+20
+200
+600
+10A
+COM
+VΩmA
+PNPNPN
+E
+B
+C
+E
+10A MAX
+unfused
+MAX 600V
+200mA MAX
+1.5
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+192
+2. 
+Pengukuran arus DC
+OFF 600
+200
+200
+2m
+20m
+200m
+1DA
+NFD
+--
+200
+2K
+20K
+200K
+2M
+200m
+2
+20
+200
+600
+10A
+COM
+VΩmA
+PNPNPN
+E
+B
+C
+E
+10A MAX
+unfused
+MAX 600V
+200mA MAX
+45.4
+1.5V
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-
+0
+00
+000
+0000
+00000
+000000
+0000000
+00000000
+000000000
+1%
+2%
+5%
+10%
+3. 
+Pengukuran resistansi
+OFF 600
+200
+200
+2m
+20m
+200m
+1DA
+NFD
+--
+200
+2K
+20K
+200K
+2M
+200m
+2
+20
+200
+600
+10A
+COM
+VΩmA
+PNPNPN
+E
+B
+C
+E
+10A MAX
+unfused
+MAX 600V
+200mA MAX
+33.0
+1.5V
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-
+0
+00
+000
+0000
+00000
+000000
+0000000
+00000000
+000000000
+1%
+2%
+5%
+10%
+Kalian juga dapat melihat panduan praktik pada video melalui tautan 
+berikut.
+Sumber: https://www.youtube.com/watch?v=8vJN8rVBTsU 
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+193
+E. Hasil Kerja
+Tuliskan hasil pengukuran tegangan, arus, dan resistansi ke dalam tabel 
+berikut.
+Tabel Hasil Pengukuran Tegangan DC, Arus DC, dan Resistansi
+No
+Jenis Multimeter
+Jenis 
+Pengukuran 
+(V/I/R)
+Batas 
+Ukur/Skala
+Objek
+Hasil 
+Pengukuran
+Analog
+Digital
+1.
+2.
+F. 
+Kesimpulan
+………………………………………………………………………………………………………………
+………………………………………………………………………………………………………………
+………………………………………………………………………………………………………………
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+194
+3. Pengukuran Grounding Menggunakan Earth Tester
+Lembar Kerja Peserta Didik (LKPD)
+Pengukuran Menggunakan Earth Tester
+A. Tujuan Praktikum
+Peserta didik dapat melakukan pengukuran grounding yang berada 
+pada instalasi listrik sebuah gedung atau grounding pada perangkat 
+telekomunikasi.
+B. Alat dan Bahan
+1. 
+Earth tester analog/digital
+2. 
+Instalasi grounding
+3. 
+Palu
+4. 
+Lembar kerja
+5. 
+Alat tulis
+C. Langkah Kerja
+1. 
+Tentukan lokasi berupa gedung atau bangunan yang terpasang 
+grounding. Kalian dapat meminta izin terlebih dahulu untuk 
+melakukan pengukuran di sekolah, kantor, menara, dan bangunan lain.
+2. 
+Persiapkan alat dan bahan yang dibutuhkan.
+3. 
+Perhatikan keselamatan kerja selama beraktivitas.
+4. 
+Lakukan pengukuran seperti pada gambar kerja.
+5. 
+Tuliskan hasil pengukuran ke dalam tabel yang sudah disiapkan 
+pada hasil kerja.
+D. Gambar Kerja
+2000Ω
+200Ω
+20Ω
+EARTH VOLTAGE
+OFF
+PRESS TO
+TEST
+LOCK
+DCV.A
+&ACV
+DCV.A
+&ACV
+Ω
+Ω
+∞
+2k 1k
+C
+P
+E
+Green
+Red
+Yellow
+Earthed
+Electrode
+under test
+5~
+10m
+5~
+10m
+Auxilliary
+earth spikes
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+195
+Kalian juga dapat melihat cara melakukan pengukuran menggunakan 
+earth tester pada video melalui tautan berikut.
+Sumber: https://www.youtube.com/watch?v=kq0Wfh-PSkA
+E. Hasil Kerja
+Tuliskan hasil pengukuran tahanan grounding pada tabel berikut.
+Tabel Hasil Pengukuran Grounding
+No
+Lokasi 
+Pengukuran
+Jenis 
+Grounding
+Hasil 
+Pengukuran
+Kondisi
+Bagus
+Buruk
+1.
+Gedung Sekolah
+Grounding 
+Gedung
+3 Ω
+2.
+…
+n
+F. 
+Kesimpulan
+………………………………………………………………………………………………………………
+………………………………………………………………………………………………………………
+………………………………………………………………………………………………………………
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+196
+4. Pengukuran Level Daya Optik Menggunakan OPM
+Lembar Kerja Peserta Didik (LKPD)
+Pengukuran Menggunakan Optical Power Meter
+A. Tujuan Praktikum
+Peserta didik dapat melakukan pengukuran level daya pada sebuah 
+saluran optik, baik saluran online maupun saluran offline.
+B. Alat dan Bahan
+1. 
+Optical Power Meter (OPM)
+2. 
+Optical Light Source (OLS)
+3. 
+Patch cord
+4. 
+One click cleaner
+5. 
+Kacamata safety
+6. 
+Kabel optik
+7. 
+Adapter
+8. 
+Lembar kerja
+9. 
+Alat tulis
+C. Langkah Kerja
+1. 
+Persiapkan alat dan bahan yang dibutuhkan.
+2. 
+Perhatikan keselamatan kerja selama beraktivitas.
+3. 
+Lakukan pengukuran dengan memilih satu atau semua metode 
+berikut ini.
+a. 
+Metode pertama: melakukan pengukuran pada jaringan online
+Kalian dapat mengukur besarnya level daya pada perangkat 
+fiber optik (roset optik) yang ada di rumah atau di sekolah kalian. 
+Syaratnya, rumah atau sekolah berlangganan layanan internet 
+dengan media fiber optik. Catat hasilnya pada tabel hasil kerja, 
+kemudian buatlah kesimpulan dari praktik yang sudah kalian 
+lakukan.
+b. 
+Metode kedua: melakukan pengukuran pada jaringan offline
+Kalian harus menggunakan bantuan Optical Light Source sebagai 
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+197
+sumber daya optiknya. Lakukan pengukuran nilai daya yang 
+keluar dari Optical Light Source tersebut dan catat hasilnya pada 
+tabel hasil kerja. Buatlah kesimpulan dari praktik yang sudah 
+kalian lakukan.
+D. Gambar Kerja
+1. 
+Pengukuran pada jaringan online
+LIGHT
+ZERO
+dB
+2. 
+Pengukuran pada jaringan offline
+MODE
+WAVE
+LIGHT
+ZERO
+dB
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+198
+Kalian juga dapat melihat panduan praktik menggunakan optical 
+power meter pada tautan berikut.
+Sumber: https://www.youtube.com/watch?v=yHgYNlFOboc
+E. Hasil Kerja
+Tuliskan hasil pengukuran level daya optik pada tabel berikut.
+Tabel Hasil Pengukuran Saluran Online
+No
+Lokasi Pengukuran
+Hasil Pengukuran (dBm)
+1.
+ONT (Rumah)
+-21 
+2.
+Tabel Hasil Pengukuran Saluran Offline
+No
+Panjang Kabel
+Hasil Pengukuran (dBm)
+1.
+1 km
+…
+2.
+F. 
+Kesimpulan
+………………………………………………………………………………………………………………
+………………………………………………………………………………………………………………
+………………………………………………………………………………………………………………
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+199
+5. Pengukuran Menggunakan Optical Time Domain 
+Reflectometer
+Lembar Kerja Peserta Didik (LKPD)
+Pengukuran Menggunakan Optical Time Domain Reflectometer
+A. Tujuan Praktikum
+Peserta didik dapat melakukan pengukuran jarak gangguan menggunakan 
+Optical Time Domain Reflectometer (OTDR).
+B. Alat dan Bahan
+1. 
+Optical Time Domain Reflectometer
+2. 
+Patch cord
+3. 
+One click cleaner
+4. 
+Kacamata safety
+5. 
+Lembar kerja
+6. 
+Alat tulis
+C. Langkah Kerja
+1. 
+Persiapkan alat dan bahan yang dibutuhkan.
+2. 
+Lakukan pengaturan parameter pada OTDR.
+3. 
+Perhatikan keselamatan kerja selama beraktivitas.
+4. 
+Lakukan pada beberapa saluran optik dengan panjang yang bervariasi 
+untuk mengetahui perbedaannya.
+D. Gambar Kerja
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+200
+Kalian juga dapat melihat panduan pengukuran menggunakan OTDR 
+pada tautan berikut.
+Sumber: https://www.youtube.com/watch?v=ZcPGSHAYs3k 
+E. Hasil Kerja
+Tuliskan hasil pengukuran jarak gangguan pada tabel berikut. 
+Tabel Hasil Pengukuran Jarak Gangguan
+No
+ Data Panjang
+Kabel
+Hasil Pengukuran OTDR
+Keterangan
+Sesuai
+ Tidak
+Sesuai
+1.
+2.
+…
+n
+Catatan: Isian kolom sesuai dan tidak sesuai diperoleh dari perbandingan antara data panjang 
+kabel dan hasil pengukuran.
+F. Kesimpulan
+………………………………………………………………………………………………………………
+………………………………………………………………………………………………………………
+………………………………………………………………………………………………………………
+
+Bab 5 - Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi
+201
+ 
+ Pengayaan
+Apabila ingin memperdalam pengetahuan mengenai alat ukur optik, kalian 
+dapat mengakses video Sertifikasi Jointer. Video sertifikasi tersebut berisi cara 
+melakukan pengukuran menggunakan OTDR dan OPM beserta analisis hasil 
+pengukuran yang diterapkan pada sebuah form isian sertifikasi.
+Sumber: https://www.youtube.com/watch?v=LKACzAK2y8k
+Apabila ingin mencoba menggunakan simulator optik untuk berlatih 
+melakukan analisis saluran optik, kalian dapat mempelajarinya melalui video 
+berikut.
+Sumber: https://www.youtube.com/watch?v=AzWUjNv6QFs
+Apabila ingin mengetahui informasi tentang fungsi tombol multimeter digital 
+melalui simulasi, kalian dapat melihatnya melalui kode QR berikut.
+Sumber: https://www.youtube.com/watch?v=ivKWwuOeVcE
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+202
+ 
+ Refleksi
+Setelah mempelajari semua materi dan menyelesaikan aktivitas pada bab 
+ini, kalian dapat melakukan refleksi dengan menjawab beberapa hal berikut. 
+1. 
+Apa yang menyenangkan dalam pembelajaran hari ini?
+2. 
+Apakah aktivitas pembelajaran hari ini bermakna dalam kehidupan saya?
+3. 
+Saya dapat menguasai materi pada tujuan pembelajaran ini dengan 
+(baik/cukup/kurang). * Pilih salah satu
+4. 
+Apakah saya terlibat aktif dalam pembelajaran ini?
+5. 
+Apakah saya menyumbangkan ide dalam proses penyelesaian aktivitas 
+belajar?
+6. 
+Apakah saya dapat bekerja sama dengan teman satu kelompok?
+
+Media dan Jaringan 
+Media dan Jaringan 
+Telekomunikasi
+Telekomunikasi
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi
+untuk SMK/MAK Kelas X
+Penulis: Ibnu Indarwati, Arif Muttakin, Agung Puspita Bantala
+ISBN: 978-623-194-472-6 (no.jil.lengkap PDF)
+978-623-194-473-3 (jil.1PDF)
+B
+A
+B
+6
+Berapa jumlah komputer di dalam laboratorium komputer TKJ di sekolah 
+kalian? Bagaimana kalian memberikan alamat IP jika komputer di sekolah 
+berjumlah lebih dari 500 unit?

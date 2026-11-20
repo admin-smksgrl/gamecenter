@@ -89,6 +89,7 @@ class SubjectSeeder extends Seeder
             ['name' => 'Projek IPAS', 'slug' => 'ipas', 'group' => 'Wajib', 'icon' => '🔬', 'color' => 'teal'],
             ['name' => 'Pendidikan Kepercayaan terhadap Tuhan Yang Maha Esa dan Budi Pekerti', 'slug' => 'kepercayaan', 'group' => 'Wajib', 'icon' => '🕯️', 'color' => 'amber'],
             ['name' => 'Pemrograman Dasar', 'slug' => 'pemrograman-dasar', 'group' => 'Kejuruan', 'icon' => '⌨️', 'color' => 'sky', 'grades' => [10]],
+            ['name' => 'Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi', 'slug' => 'tjkt', 'group' => 'Kejuruan', 'icon' => '🛰️', 'color' => 'sky', 'grades' => [10]],
             ['name' => 'Prakarya dan Kewirausahaan', 'slug' => 'prakarya', 'group' => 'Keterampilan', 'icon' => '🛠️', 'color' => 'red'],
             ['name' => 'Seni Budaya', 'slug' => 'seni-budaya', 'group' => 'Seni', 'icon' => '🎭', 'color' => 'violet'],
         ],

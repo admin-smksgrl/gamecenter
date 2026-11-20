@@ -1,0 +1,1308 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "tjkt",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "TJKT 5",
+      "title": "Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi",
+      "description": "Mengenali fungsi alat ukur jaringan dan telekomunikasi, memilih alat ukur yang tepat untuk setiap masalah, menggunakan alat ukur dengan benar, serta memeliharanya agar tetap akurat.",
+      "learning_objectives": [
+        "Menjelaskan fungsi berbagai alat ukur jaringan komputer dan telekomunikasi.",
+        "Menganalisis penggunaan alat ukur yang tepat sesuai masalah jaringan.",
+        "Menggunakan alat ukur sesuai prosedur untuk pekerjaan jaringan.",
+        "Melakukan pemeliharaan preventif, korektif, dan kualitatif alat ukur."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 5; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa alat ukur penting?",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 5; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Menjaga media transmisi tetap prima\n\nInfrastruktur jaringan komputer dan telekomunikasi harus selalu dalam kondisi prima. Pengecekan berkala membutuhkan alat ukur, baik perangkat keras seperti multimeter dan LAN tester, maupun perangkat lunak seperti speed test dan Wi-Fi analyzer.\n\nPemeliharaan berkala dapat mendeteksi gangguan sejak awal sehingga tidak menjadi gangguan yang bersifat mayor.\n\nSebelum menggunakan alat ukur, pahami dulu fungsinya agar tidak salah penggunaan. Pemilihan alat yang sesuai memberikan hasil pembacaan maksimal.\n\nPeralatan yang selalu siap pakai akan menjaga produktivitas pekerjaan jaringan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "tjkt-5-alat-ukur-pengukuran-glosarium",
+              "terms": [
+                {
+                  "term": "LAN tester",
+                  "definition": "Alat untuk mengecek koneksi kabel LAN RJ45 dan RJ11, termasuk kabel cross dan straight."
+                },
+                {
+                  "term": "Multimeter",
+                  "definition": "Alat ukur tegangan listrik, arus, dan hambatan; ada tipe analog dan digital."
+                },
+                {
+                  "term": "Earth tester",
+                  "definition": "Alat untuk mengukur nilai instalasi grounding pada gedung dan perangkat elektronik."
+                },
+                {
+                  "term": "OPM",
+                  "definition": "Optical Power Meter, alat untuk mengetahui level daya sinyal optik pada serat optik."
+                },
+                {
+                  "term": "OTDR",
+                  "definition": "Optical Time Domain Reflectometer, mengukur redaman dan letak gangguan saluran optik."
+                },
+                {
+                  "term": "Redaman",
+                  "definition": "Selisih daya pada saluran optik yang menunjukkan kekuatan sinyal yang hilang."
+                },
+                {
+                  "term": "Speed test",
+                  "definition": "Aplikasi untuk menguji kecepatan koneksi internet pada pengunggahan dan pengunduhan."
+                },
+                {
+                  "term": "Ping",
+                  "definition": "Packet Internet Network Groper, perintah menguji kecepatan koneksi dan respons host."
+                },
+                {
+                  "term": "Wi-Fi analyzer",
+                  "definition": "Aplikasi untuk mengetahui kekuatan sinyal Wi-Fi pada suatu lokasi."
+                },
+                {
+                  "term": "Kalibrasi",
+                  "definition": "Penyesuaian alat ukur agar hasil pengukurannya tepat dan teliti."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menjaga media transmisi tetap prima"
+            },
+            {
+              "type": "paragraph",
+              "text": "Infrastruktur jaringan komputer dan telekomunikasi harus selalu dalam kondisi prima. Pengecekan berkala membutuhkan alat ukur, baik perangkat keras seperti multimeter dan LAN tester, maupun perangkat lunak seperti speed test dan Wi-Fi analyzer."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pemeliharaan berkala dapat mendeteksi gangguan sejak awal sehingga tidak menjadi gangguan yang bersifat mayor."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebelum menggunakan alat ukur, pahami dulu fungsinya agar tidak salah penggunaan. Pemilihan alat yang sesuai memberikan hasil pembacaan maksimal."
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-5-alat-ukur-pengukuran-diagram",
+              "engine": "mermaid",
+              "title": "Alat ukur jaringan dan fungsinya",
+              "code": "flowchart LR\n  A[Alat ukur] --> B[LAN tester: cek kabel LAN]\n  A --> C[Multimeter: tegangan, arus, hambatan]\n  A --> D[Earth tester: nilai grounding]\n  A --> E[OPM: level daya optik]\n  A --> F[OTDR: redaman dan gangguan optik]\n  A --> G[Speed test dan Wi-Fi analyzer]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Peralatan yang selalu siap pakai akan menjaga produktivitas pekerjaan jaringan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-5-alat-ukur-pengukuran-cp-1",
+              "question": "Alat yang berfungsi mengecek koneksi kabel LAN RJ45 adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "LAN tester",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "OTDR"
+                },
+                {
+                  "id": "c2",
+                  "text": "speed test"
+                },
+                {
+                  "id": "c3",
+                  "text": "Wi-Fi analyzer"
+                }
+              ],
+              "explanation": "LAN tester memeriksa kabel LAN, termasuk jenis cross dan straight."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Mengenal fungsi alat ukur",
+          "duration": 300,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 5; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Dari multimeter sampai OTDR\n\nMultimeter mengukur tegangan, arus, dan hambatan listrik. Multimeter analog memakai jarum penunjuk dan dihitung manual, sedangkan multimeter digital langsung menampilkan angka di layar.\n\nEarth tester mengukur nilai instalasi grounding. OPM mengukur level daya sinyal optik dengan satuan dBm, sedangkan OTDR menampilkan visualisasi redaman optik sepanjang saluran dengan sumbu X jarak dan sumbu Y level daya.\n\nSpeed test mengukur kecepatan koneksi internet, Wi-Fi analyzer mengukur kekuatan sinyal Wi-Fi, dan ping mengukur seberapa cepat host merespons sebagai petunjuk kendala jaringan.\n\n| Alat ukur | Fungsi utama | Jenis |\n|---|---|---|\n| LAN tester | Cek kontinuitas kabel LAN | Hardware |\n| Multimeter | Tegangan, arus, hambatan | Hardware |\n| Earth tester | Nilai grounding | Hardware |\n| OPM | Level daya optik (dBm) | Hardware |\n| OTDR | Redaman dan letak gangguan optik | Hardware |\n| Speed test | Kecepatan koneksi internet | Software |\n| Ping | Respons host | Software |\n| Wi-Fi analyzer | Kekuatan sinyal Wi-Fi | Software |\n\n### Memilih alat ukur yang tepat\n\n- Pemilihan alat ukur mengikuti jenis masalah: kabel tembaga dicek dengan LAN tester, saluran optik dengan OPM atau OTDR.\n- Tegangan listrik pada stopkontak diukur dengan multimeter sesuai batas ukur yang benar.\n- Spesifikasi alat seperti panjang kabel maksimal dan panjang gelombang menentukan kesesuaian alat.\n- Hasil pengukuran yang akurat menjadi dasar laporan tanggung jawab kepada perusahaan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari multimeter sampai OTDR"
+            },
+            {
+              "type": "paragraph",
+              "text": "Multimeter mengukur tegangan, arus, dan hambatan listrik. Multimeter analog memakai jarum penunjuk dan dihitung manual, sedangkan multimeter digital langsung menampilkan angka di layar."
+            },
+            {
+              "type": "paragraph",
+              "text": "Earth tester mengukur nilai instalasi grounding. OPM mengukur level daya sinyal optik dengan satuan dBm, sedangkan OTDR menampilkan visualisasi redaman optik sepanjang saluran dengan sumbu X jarak dan sumbu Y level daya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Speed test mengukur kecepatan koneksi internet, Wi-Fi analyzer mengukur kekuatan sinyal Wi-Fi, dan ping mengukur seberapa cepat host merespons sebagai petunjuk kendala jaringan."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Alat ukur",
+                  "Fungsi utama",
+                  "Jenis"
+                ],
+                [
+                  "LAN tester",
+                  "Cek kontinuitas kabel LAN",
+                  "Hardware"
+                ],
+                [
+                  "Multimeter",
+                  "Tegangan, arus, hambatan",
+                  "Hardware"
+                ],
+                [
+                  "Earth tester",
+                  "Nilai grounding",
+                  "Hardware"
+                ],
+                [
+                  "OPM",
+                  "Level daya optik (dBm)",
+                  "Hardware"
+                ],
+                [
+                  "OTDR",
+                  "Redaman dan letak gangguan optik",
+                  "Hardware"
+                ],
+                [
+                  "Speed test",
+                  "Kecepatan koneksi internet",
+                  "Software"
+                ],
+                [
+                  "Ping",
+                  "Respons host",
+                  "Software"
+                ],
+                [
+                  "Wi-Fi analyzer",
+                  "Kekuatan sinyal Wi-Fi",
+                  "Software"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-5-redaman",
+              "engine": "mermaid",
+              "title": "Redaman pada saluran optik",
+              "code": "flowchart LR\n  A[Sumber optik LED/LASER] --> B[Saluran fiber optik]\n  B --> C[Redaman sepanjang saluran]\n  C --> D[Sinyal diterima]\n  D --> E[Level daya dBm dikur OPM/OTDR]\n  E --> F{Sesuai standar?}\n  F -- Tidak --> G[Perbaikan sambungan]\n  F -- Ya --> H[Saluran prima]"
+            },
+            {
+              "type": "categorize",
+              "id": "tjkt-5-klasifikasi",
+              "prompt": "Kelompokkan alat berikut ke dalam alat ukur perangkat keras atau perangkat lunak.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Perangkat keras"
+                },
+                {
+                  "id": "b2",
+                  "label": "Perangkat lunak"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "LAN tester",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Speed test",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Multimeter digital",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Wi-Fi analyzer",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Earth tester",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Aplikasi ping",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "OTDR",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "OPM",
+                  "bucket": "b1"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Perangkat keras berupa alat fisik; perangkat lunak berupa aplikasi.",
+                "wrong": "Periksa lagi: speed test dan Wi-Fi analyzer adalah aplikasi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Memilih alat ukur yang tepat"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pemilihan alat ukur mengikuti jenis masalah: kabel tembaga dicek dengan LAN tester, saluran optik dengan OPM atau OTDR.",
+                "Tegangan listrik pada stopkontak diukur dengan multimeter sesuai batas ukur yang benar.",
+                "Spesifikasi alat seperti panjang kabel maksimal dan panjang gelombang menentukan kesesuaian alat.",
+                "Hasil pengukuran yang akurat menjadi dasar laporan tanggung jawab kepada perusahaan."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-5-alat-ukur-pengukuran-cp-2",
+              "question": "Satuan level daya pada sistem komunikasi serat optik adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "dBm",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "meter"
+                },
+                {
+                  "id": "c2",
+                  "text": "volt"
+                },
+                {
+                  "id": "c3",
+                  "text": "ohm"
+                }
+              ],
+              "explanation": "Level daya optik diukur dalam dBm (desibel miliwatt)."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Menggunakan dan merawat alat ukur",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 5; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Prosedur pengukuran dan pemeliharaan\n\nPemeliharaan alat ukur dibedakan menjadi tiga: preventif (sebelum rusak, berkala), korektif (sesudah gangguan), dan kualitatif (meningkatkan kualitas hasil, misalnya memperbarui perangkat lunak OTDR).\n\nSimpan alat ukur di tempat yang tepat: matikan sakelar pemilih multimeter sebelum disimpan, hindari suhu ekstrem, kelembapan tinggi, medan magnet kuat, dan getaran berlebihan.\n\nSebelum digunakan, periksa kondisi probe dan pastikan kabel tidak terkelupas, serta pastikan kalibrasi alat sudah dilakukan dengan benar. Cermat saat mengukur tegangan dan arus listrik.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Prosedur pengukuran dan pemeliharaan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pemeliharaan alat ukur dibedakan menjadi tiga: preventif (sebelum rusak, berkala), korektif (sesudah gangguan), dan kualitatif (meningkatkan kualitas hasil, misalnya memperbarui perangkat lunak OTDR)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Simpan alat ukur di tempat yang tepat: matikan sakelar pemilih multimeter sebelum disimpan, hindari suhu ekstrem, kelembapan tinggi, medan magnet kuat, dan getaran berlebihan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebelum digunakan, periksa kondisi probe dan pastikan kabel tidak terkelupas, serta pastikan kalibrasi alat sudah dilakukan dengan benar. Cermat saat mengukur tegangan dan arus listrik."
+            },
+            {
+              "type": "scenario",
+              "id": "tjkt-5-skenario",
+              "title": "Internet lemot tapi sinyal penuh",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Pelanggan mengeluh internet lemot padahal sinyal Wi-Fi penuh. Langkah pertama?",
+                  "choices": [
+                    {
+                      "text": "Menjalankan speed test dan ping untuk memeriksa bandwidth dan respons",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Speed test dan ping mengukur kualitas koneksi sebenarnya."
+                    },
+                    {
+                      "text": "Langsung mengganti semua perangkat",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Mengganti tanpa pengukuran boros dan tidak pasti."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Ping menunjukkan respons lambat dan banyak paket hilang. Apa kecurigaanmu?",
+                  "choices": [
+                    {
+                      "text": "Memeriksa kabel dan perangkat jaringan dengan LAN tester",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kabel rusak atau koneksi longgar dapat dideteksi LAN tester."
+                    },
+                    {
+                      "text": "Menyalahkan kecepatan paket internet pelanggan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa data tidak bisa menyimpulkan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Masalah tidak selesai dan pelanggan kecewa.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Masalah ditemukan dan jaringan normal kembali.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "tjkt-5-alat-ukur-pengukuran-kartu",
+              "cards": [
+                {
+                  "front": "Apa fungsi LAN tester?",
+                  "back": "Mengecek koneksi kabel LAN RJ45 dan RJ11."
+                },
+                {
+                  "front": "Apa perbedaan multimeter analog dan digital?",
+                  "back": "Analog memakai jarum dan dihitung manual; digital langsung menampilkan angka."
+                },
+                {
+                  "front": "Apa fungsi OTDR?",
+                  "back": "Mengukur redaman dan letak gangguan saluran optik."
+                },
+                {
+                  "front": "Sebutkan tiga jenis pemeliharaan alat ukur.",
+                  "back": "Preventif, korektif, dan kualitatif."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-5-alat-ukur-pengukuran-cp-3",
+              "question": "Pemeliharaan yang dilakukan sebelum kerusakan terjadi disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "preventif",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "korektif"
+                },
+                {
+                  "id": "c2",
+                  "text": "kualitatif"
+                },
+                {
+                  "id": "c3",
+                  "text": "reduktif"
+                }
+              ],
+              "explanation": "Preventif dilakukan berkala sebelum rusak, misalnya mingguan atau bulanan."
+            },
+            {
+              "type": "challenge",
+              "id": "tjkt-5-tantangan",
+              "title": "Tantangan istilah alat ukur",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Cek kabel LAN",
+                  "answer": "LAN tester"
+                },
+                {
+                  "question": "Tegangan, arus, hambatan",
+                  "answer": "Multimeter"
+                },
+                {
+                  "question": "Level daya optik",
+                  "answer": "OPM"
+                },
+                {
+                  "question": "Redaman saluran optik",
+                  "answer": "OTDR"
+                },
+                {
+                  "question": "Kecepatan koneksi internet",
+                  "answer": "Speed test"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah alat ukur terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Alat yang berfungsi mengecek koneksi kabel LAN RJ45 dan RJ11 adalah…",
+              "options": [
+                {
+                  "text": "LAN tester",
+                  "correct": true
+                },
+                {
+                  "text": "OTDR"
+                },
+                {
+                  "text": "OPM"
+                },
+                {
+                  "text": "speed test"
+                }
+              ],
+              "explanation": "LAN tester memeriksa kabel cross dan straight.",
+              "hint": "Dapat dilengkapi tone checker."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Multimeter digunakan untuk mengukur besaran…",
+              "options": [
+                {
+                  "text": "tegangan, arus, dan hambatan listrik",
+                  "correct": true
+                },
+                {
+                  "text": "kecepatan internet"
+                },
+                {
+                  "text": "suhu udara"
+                },
+                {
+                  "text": "kekuatan sinyal Wi-Fi"
+                }
+              ],
+              "explanation": "Multimeter umum dipakai dalam elektronika.",
+              "hint": "Ada tipe analog dan digital."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Multimeter yang memakai jarum penunjuk dan perhitungan manual adalah…",
+              "options": [
+                {
+                  "text": "multimeter analog",
+                  "correct": true
+                },
+                {
+                  "text": "multimeter digital"
+                },
+                {
+                  "text": "OPM"
+                },
+                {
+                  "text": "speed test"
+                }
+              ],
+              "explanation": "Analog memakai meter berjarum.",
+              "hint": "Digital langsung menampilkan angka."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alat ukur perangkat keras?",
+              "options": [
+                {
+                  "text": "LAN tester",
+                  "correct": true
+                },
+                {
+                  "text": "Multimeter",
+                  "correct": true
+                },
+                {
+                  "text": "OTDR",
+                  "correct": true
+                },
+                {
+                  "text": "Speed test",
+                  "correct": false
+                },
+                {
+                  "text": "Wi-Fi analyzer",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiganya alat fisik.",
+              "hint": "Dua lainnya aplikasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alat ukur perangkat lunak?",
+              "options": [
+                {
+                  "text": "Speed test",
+                  "correct": true
+                },
+                {
+                  "text": "Wi-Fi analyzer",
+                  "correct": true
+                },
+                {
+                  "text": "Aplikasi ping",
+                  "correct": true
+                },
+                {
+                  "text": "Earth tester",
+                  "correct": false
+                },
+                {
+                  "text": "OPM",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiganya berbentuk aplikasi.",
+              "hint": "Earth tester dan OPM adalah alat fisik."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Alat untuk mengukur nilai instalasi grounding disebut…",
+              "options": [
+                {
+                  "text": "earth tester",
+                  "correct": true
+                },
+                {
+                  "text": "LAN tester"
+                },
+                {
+                  "text": "OTDR"
+                },
+                {
+                  "text": "ping"
+                }
+              ],
+              "explanation": "Grounding dipasang di gedung dan perangkat elektronik.",
+              "hint": "Menunjukkan keamanan instalasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Satuan level daya pada sistem komunikasi serat optik adalah…",
+              "options": [
+                {
+                  "text": "dBm",
+                  "correct": true
+                },
+                {
+                  "text": "volt"
+                },
+                {
+                  "text": "hertz"
+                },
+                {
+                  "text": "byte"
+                }
+              ],
+              "explanation": "dBm adalah desibel miliwatt.",
+              "hint": "Dipakai pada OPM."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah fungsi multimeter?",
+              "options": [
+                {
+                  "text": "Mengukur tegangan",
+                  "correct": true
+                },
+                {
+                  "text": "Mengukur arus",
+                  "correct": true
+                },
+                {
+                  "text": "Mengukur hambatan",
+                  "correct": true
+                },
+                {
+                  "text": "Mengukur kecepatan internet",
+                  "correct": false
+                },
+                {
+                  "text": "Mencari sinyal Wi-Fi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Multimeter mengukur besaran listrik.",
+              "hint": "Bukan soal jaringan nirkabel."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kegunaan OTDR?",
+              "options": [
+                {
+                  "text": "Mengukur redaman optik",
+                  "correct": true
+                },
+                {
+                  "text": "Menangani gangguan fiber",
+                  "correct": true
+                },
+                {
+                  "text": "Mengukur panjang saluran optik",
+                  "correct": true
+                },
+                {
+                  "text": "Mengukur grounding",
+                  "correct": false
+                },
+                {
+                  "text": "Mengecek kabel UTP",
+                  "correct": false
+                }
+              ],
+              "explanation": "OTDR bekerja pada saluran optik.",
+              "hint": "Kabel UTP urusan LAN tester."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "LAN tester",
+                  "right": "cek kabel LAN"
+                },
+                {
+                  "id": "m1",
+                  "left": "Multimeter",
+                  "right": "tegangan, arus, hambatan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Earth tester",
+                  "right": "nilai grounding"
+                },
+                {
+                  "id": "m3",
+                  "left": "OPM",
+                  "right": "level daya optik"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "cek kabel LAN",
+                  "m1": "tegangan, arus, hambatan",
+                  "m2": "nilai grounding",
+                  "m3": "level daya optik"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pemeriksaan masalah internet lemot.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menjalankan speed test"
+                },
+                {
+                  "id": "d1",
+                  "text": "Melakukan ping ke host"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memeriksa kabel dengan LAN tester"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menemukan sumber masalah"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memperbaiki dan menguji ulang"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pemeriksaan dimulai dari perangkat lunak.",
+              "hint": "Pengujian ulang menutup perbaikan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan penggunaan multimeter digital mengukur tegangan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mengetahui batas ukur"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menetapkan selektor pada posisi tegangan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menempelkan probe ke titik ukur"
+                },
+                {
+                  "id": "p3",
+                  "text": "Membaca nilai di layar"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mematikan sakelar setelah selesai"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Pengukuran dimulai dengan pengaturan selektor.",
+              "hint": "Mematikan sakelar menjaga alat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat yang memvisualkan redaman optik sepanjang saluran adalah…",
+              "options": [
+                {
+                  "text": "OTDR",
+                  "correct": true
+                },
+                {
+                  "text": "LAN tester"
+                },
+                {
+                  "text": "earth tester"
+                },
+                {
+                  "text": "multimeter"
+                }
+              ],
+              "explanation": "OTDR menampilkan jarak pada sumbu X dan level daya pada sumbu Y.",
+              "hint": "Bisa mengukur dari satu ujung."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Redaman pada saluran optik berarti…",
+              "options": [
+                {
+                  "text": "selisih daya sinyal optik",
+                  "correct": true
+                },
+                {
+                  "text": "panjang kabel"
+                },
+                {
+                  "text": "suhu kabel"
+                },
+                {
+                  "text": "warna kabel"
+                }
+              ],
+              "explanation": "Redaman menunjukkan kekuatan sinyal yang hilang.",
+              "hint": "Diukur sepanjang saluran."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah fungsi speed test?",
+              "options": [
+                {
+                  "text": "Mengetahui bandwidth",
+                  "correct": true
+                },
+                {
+                  "text": "Mengukur kecepatan unggah",
+                  "correct": true
+                },
+                {
+                  "text": "Mengukur kecepatan unduh",
+                  "correct": true
+                },
+                {
+                  "text": "Mengukur nilai grounding",
+                  "correct": false
+                },
+                {
+                  "text": "Mengecek kabel",
+                  "correct": false
+                }
+              ],
+              "explanation": "Speed test menguji koneksi internet.",
+              "hint": "Grounding urusan earth tester."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Alat Ukur dan Pengukuran Teknik Jaringan Akses Telekomunikasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Perintah ping digunakan untuk…",
+              "options": [
+                {
+                  "text": "menguji kecepatan koneksi dan respons host",
+                  "correct": true
+                },
+                {
+                  "text": "mencari alamat Wi-Fi"
+                },
+                {
+                  "text": "mengukur tegangan"
+                },
+                {
+                  "text": "menguji grounding"
+                }
+              ],
+              "explanation": "Ping singkatan Packet Internet Network Groper."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi untuk mengukur kecepatan koneksi internet adalah…",
+              "options": [
+                {
+                  "text": "speed test",
+                  "correct": true
+                },
+                {
+                  "text": "Wi-Fi analyzer"
+                },
+                {
+                  "text": "LAN tester"
+                },
+                {
+                  "text": "earth tester"
+                }
+              ],
+              "explanation": "Speed test menguji unggah dan unduh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi untuk mengetahui kekuatan sinyal Wi-Fi disebut…",
+              "options": [
+                {
+                  "text": "Wi-Fi analyzer",
+                  "correct": true
+                },
+                {
+                  "text": "speed test"
+                },
+                {
+                  "text": "OTDR"
+                },
+                {
+                  "text": "OPM"
+                }
+              ],
+              "explanation": "Wi-Fi analyzer memeriksa kualitas jaringan nirkabel."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pemeliharaan yang dilakukan sebelum kerusakan terjadi disebut…",
+              "options": [
+                {
+                  "text": "preventif",
+                  "correct": true
+                },
+                {
+                  "text": "korektif"
+                },
+                {
+                  "text": "kualitatif"
+                },
+                {
+                  "text": "reduktif"
+                }
+              ],
+              "explanation": "Preventif dilakukan berkala."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pemeliharaan setelah muncul gangguan pada alat ukur disebut…",
+              "options": [
+                {
+                  "text": "korektif",
+                  "correct": true
+                },
+                {
+                  "text": "preventif"
+                },
+                {
+                  "text": "kualitatif"
+                },
+                {
+                  "text": "proaktif"
+                }
+              ],
+              "explanation": "Korektif memperbaiki alat yang rusak."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah cara pemeliharaan preventif?",
+              "options": [
+                {
+                  "text": "Pengecekan berkala",
+                  "correct": true
+                },
+                {
+                  "text": "Membersihkan alat",
+                  "correct": true
+                },
+                {
+                  "text": "Menyimpan di tempat kering",
+                  "correct": true
+                },
+                {
+                  "text": "Menunggu alat rusak dulu",
+                  "correct": false
+                },
+                {
+                  "text": "Membiarkan probe terkelupas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pencegahan dilakukan teratur."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap kerja yang benar saat mengukur?",
+              "options": [
+                {
+                  "text": "Cermat saat mengukur listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Mengecek kondisi probe",
+                  "correct": true
+                },
+                {
+                  "text": "Memastikan kalibrasi benar",
+                  "correct": true
+                },
+                {
+                  "text": "Menyentuh bagian bertegangan",
+                  "correct": false
+                },
+                {
+                  "text": "Memakai probe terkelupas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Keamanan menjaga alat dan diri."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "OTDR",
+                  "right": "redaman saluran optik"
+                },
+                {
+                  "id": "m1",
+                  "left": "Speed test",
+                  "right": "kecepatan internet"
+                },
+                {
+                  "id": "m2",
+                  "left": "Ping",
+                  "right": "respons host"
+                },
+                {
+                  "id": "m3",
+                  "left": "Kalibrasi",
+                  "right": "penyesuaian ketepatan alat"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "redaman saluran optik",
+                  "m1": "kecepatan internet",
+                  "m2": "respons host",
+                  "m3": "penyesuaian ketepatan alat"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pengukuran saluran optik dengan OPM.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyiapkan OPM dan konektor"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memilih panjang gelombang"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menghubungkan ke saluran aktif"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membaca level daya dalam dBm"
+                },
+                {
+                  "id": "d4",
+                  "text": "Membandingkan dengan standar"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pengukuran dimulai dari persiapan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pemeliharaan preventif alat ukur.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Memeriksa kondisi fisik"
+                },
+                {
+                  "id": "p1",
+                  "text": "Membersihkan alat dan probe"
+                },
+                {
+                  "id": "p2",
+                  "text": "Memeriksa kalibrasi"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menyimpan di tempat kering"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mencatat jadwal perawatan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Perawatan dimulai dari pemeriksaan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Memperbarui perangkat lunak OTDR termasuk pemeliharaan…",
+              "options": [
+                {
+                  "text": "kualitatif",
+                  "correct": true
+                },
+                {
+                  "text": "preventif"
+                },
+                {
+                  "text": "korektif"
+                },
+                {
+                  "text": "harian"
+                }
+              ],
+              "explanation": "Kualitatif meningkatkan kualitas hasil pengukuran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Saat menyimpan multimeter, yang harus dilakukan adalah…",
+              "options": [
+                {
+                  "text": "mematikan sakelar pemilih",
+                  "correct": true
+                },
+                {
+                  "text": "mencabut baterai"
+                },
+                {
+                  "text": "memasang probe"
+                },
+                {
+                  "text": "menyimpan di tempat basah"
+                }
+              ],
+              "explanation": "Mematikan sakelar menjaga alat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah informasi spesifikasi alat ukur?",
+              "options": [
+                {
+                  "text": "Panjang kabel maksimal",
+                  "correct": true
+                },
+                {
+                  "text": "Kompatibilitas konektor",
+                  "correct": true
+                },
+                {
+                  "text": "Catu daya baterai",
+                  "correct": true
+                },
+                {
+                  "text": "Warna kemasan",
+                  "correct": false
+                },
+                {
+                  "text": "Harga jual",
+                  "correct": false
+                }
+              ],
+              "explanation": "Spesifikasi menentukan kesesuaian alat."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "LAN tester",
+                  "right": "cek kabel LAN"
+                },
+                {
+                  "id": "m1",
+                  "left": "Multimeter",
+                  "right": "tegangan, arus, hambatan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Earth tester",
+                  "right": "nilai grounding"
+                },
+                {
+                  "id": "m3",
+                  "left": "OPM",
+                  "right": "level daya optik"
+                },
+                {
+                  "id": "m4",
+                  "left": "OTDR",
+                  "right": "redaman saluran optik"
+                },
+                {
+                  "id": "m5",
+                  "left": "Speed test",
+                  "right": "kecepatan internet"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "cek kabel LAN",
+                  "m1": "tegangan, arus, hambatan",
+                  "m2": "nilai grounding",
+                  "m3": "level daya optik",
+                  "m4": "redaman saluran optik",
+                  "m5": "kecepatan internet"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah memilih alat ukur yang tepat.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengidentifikasi masalah jaringan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menentukan besaran yang diukur"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mencocokkan dengan fungsi alat"
+                },
+                {
+                  "id": "d3",
+                  "text": "Memeriksa spesifikasi alat"
+                },
+                {
+                  "id": "d4",
+                  "text": "Melakukan pengukuran"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pemilihan berawal dari masalah."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

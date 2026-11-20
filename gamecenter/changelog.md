@@ -8,7 +8,55 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-20 18:12 WIB (rilis 0.44.0).
+**Terakhir diperbarui:** 2026-11-20 19:05 WIB (rilis 0.45.0).
+
+## [0.45.0] - 2026-11-20 19:05 WIB
+
+**Batch 21 — buku kejuruan pertama: Dasar-Dasar TJKT SMK/MAK Kelas X tuntas
+6/6 bab.**
+
+### Ditambah
+- **TJKT 1 Proses Bisnis di Bidang TJKT** — glosarium proses bisnis, diagram alur
+  bisnis, tabel perorangan vs organisasi, diagram grup kerja, klasifikasi ciri
+  pelaku usaha, bisnis ISP, analisis kebutuhan pengguna, skenario “Survei
+  kebutuhan jaringan”, kartu istilah, dan tantangan.
+- **TJKT 2 Perkembangan Teknologi di Bidang TJKT** — glosarium teknologi,
+  diagram dedicated vs converged, tabel media dan pengalamatan, diagram layanan
+  di atas jaringan converged, klasifikasi ciri dedicated/converged, IPv6, data
+  center, IoT dan cloud, sniffing, skenario “Memilih koneksi untuk kebun
+  terpencil”, kartu istilah, dan tantangan.
+- **TJKT 3 Profesi dan Kewirausahaan** — glosarium profesi, diagram ciri
+  profesi, tabel 10D kewirausahaan, diagram tahapan jiwa wirausaha,
+  klasifikasi kemampuan wirausaha/teknopreneur, peluang usaha TJKT, etika
+  bisnis, skenario “Tawaran pelanggan mencurigakan”, kartu istilah, dan
+  tantangan.
+- **TJKT 4 K3LH dan Budaya Kerja Industri** — glosarium K3LH, diagram empat
+  komponen K3LH, tabel hierarki pengendalian, diagram eliminasi→APD,
+  klasifikasi tingkat pengendalian, rambu keselamatan dan warna, SOP, 5R,
+  skenario “Kabel berserakan di lab”, kartu istilah, dan tantangan.
+- **TJKT 5 Alat Ukur dan Pengukuran** — glosarium alat ukur, diagram fungsi
+  alat, tabel alat ukur, diagram redaman optik, klasifikasi alat keras/lunak,
+  LAN tester, multimeter, earth tester, OPM, OTDR, speed test, ping, Wi-Fi
+  analyzer, pemeliharaan preventif/korektif/kualitatif, skenario “Internet lemot
+  tapi sinyal penuh”, kartu istilah, dan tantangan.
+- **TJKT 6 Media dan Jaringan Telekomunikasi** — glosarium protokol, diagram
+  encapsulation, tabel layanan, diagram DHCP, klasifikasi pengalamatan/layanan,
+  TCP/IP, three way handshake, HTTP/DNS/FTP/email, switch CAM dan ARP, enkripsi,
+  skenario “Alamat IP mendadak berubah”, kartu istilah, dan tantangan.
+- Keenam bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan lima
+  tipe soal interaktif; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- Mapel **Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi** (slug
+  `tjkt`, grup Kejuruan, ikon 🛰️) ditambahkan untuk jenjang SMK kelas 10;
+  `tools/tjkt_common.py` menjadi pembungkus penulis babnya.
+
+### Verifikasi
+- `gamecenter:materi-import` → 104 berkas, **0 gagal**; menambah
+  **6 bab / 18 materi / 18 asesmen / 180 soal**.
+- `gamecenter:materi-coverage` → **105 dari 108 chapter** memenuhi minimum §5.3,
+  **3.427 blok**. TJKT 1–6 masing-masing 26–27 blok, semuanya ✅.
+- `php artisan test` → **158 lulus, 1 dilewati, 2.067 asertion**.
+- Basis data: **108 bab, 322 materi, 3.180 soal, 324 asesmen, 189 mapel**.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.44.0] - 2026-11-20 18:12 WIB
 

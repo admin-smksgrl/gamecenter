@@ -1,0 +1,1098 @@
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+70
+ 
+ Tujuan Pembelajaran
+Pada Bab 3 ini, kalian akan belajar tentang profesi dan kewirausahaan 
+di bidang Teknik Jaringan Komputer dan Telekomunikasi. Tujuannya 
+adalah agar kalian mampu memahami jenis-jenis profesi dan wirausaha 
+(job profile dan technopreneurship) di bidang Teknik Jaringan Komputer 
+dan Telekomunikasi, menganalisis peluang usaha di bidang tersebut, 
+dan melakukan pembelajaran berbasis proyek sebagai simulasi proyek 
+kewirausahaan untuk membangun vision dan passion.
+ 
+ Kata Kunci
+• 
+Technopreneurship 
+• 
+Job profile 
+• 
+Profesi 
+• 
+Kewirausahaan 
+• 
+Peluang usaha
+• 
+SWOT 
+• 
+Bidang Teknik Jaringan Komputer 
+dan Telekomunikasi 
+• 
+Vision 
+• 
+Passion
+ 
+ Peta Konsep
+Profesi 
+dan 
+Kewirausahaan
+B
+Kewirausahaan, 
+Technopreneurship, dan Peluang 
+Usaha di Bidang Teknik Jaringan 
+Komputer dan Telekomunikasi
+A
+Profesi (Job Profile) di Bidang 
+Teknik Jaringan Komputer dan 
+Telekomunikasi
+C
+Membangun Vision dan Passion di 
+Bidang Teknik Jaringan Komputer 
+dan Telekomunikasi
+
+Bab 3 - Profesi dan Kewirausahaan
+71
+Bagaimana cara membangkitkan jiwa wirausaha dari dalam diri kalian?
+Ingatkan kalian dengan cita-cita sewaktu masih di sekolah dasar? Sebagian 
+besar dari anak-anak akan menjawab menjadi dokter, pilot, astronaut, polisi, dan 
+sebagainya. Pekerjaan yang menjadi favorit anak-anak sering dijadikan cita-cita. 
+Banyak sekali pekerjaan yang dapat kalian temui di lingkungan sekitar, seperti 
+guru, apoteker, perawat, karyawan pabrik, jasa salon, kasir minimarket, jasa ojek, 
+pedagang bakso, dan penjual pulsa. Semua pekerjaan yang ada di sekitar kalian 
+memiliki peranan penting. Sebagai contoh, jika pedagang bakso langganan kalian 
+tiba-tiba berhenti berjualan, tentu kalian akan merasa kehilangan. Contoh lain 
+adalah saat kalian membutuhkan obat, tetapi ternyata apotekernya berhalangan 
+hadir. Sebagai pelanggan, kita membutuhkan jasa-jasa dari profesi tersebut. 
+Bab ini akan membahas profesi dan kewirausahaan di bidang Teknik Jaringan 
+Komputer dan Telekomunikasi (TJKT). Materi berkaitan dengan bagaimana 
+menjadi seseorang yang profesional atau seorang wirausaha; bagaimana 
+menciptakan peluang kerja bagi diri sendiri dan orang lain; bagaimana memahami 
+profesi kewirausahaan; dan bagaimana menyiapkan diri ketika nanti akan 
+berwirausaha, khususnya di bidang TJKT. Mari kita pelajari materi ini dengan 
+saksama supaya mendapatkan pengalaman yang bermakna.
+A. Profesi (Job Profile) di Bidang Teknik Jaringan 
+Komputer dan Telekomunikasi
+Profesi berasal dari kata profession yang bermakna ‘ahli bidang tertentu’. Dari 
+asal kata ini, kita dapat mendefinisikan bahwa profesi adalah pekerjaan yang 
+membutuhkan keterampilan khusus yang diperoleh melalui pendidikan. Profesi 
+identik dengan pekerjaan, namun tidak semua pekerjaan adalah profesi. Hal 
+ini karena profesi memiliki ciri-ciri khusus, di antaranya:
+1. 
+memiliki keahlian khusus keahlian yang diperoleh dari pendidikan atau 
+pengalaman kerja dan kemampuan untuk mempraktikkan keilmuan mereka;
+2. 
+memiliki standar pelayanan dan kode etik; 
+3. 
+memiliki konsekuensi dan tanggung jawab;
+4. 
+memiliki pengakuan masyarakat;
+5. 
+memiliki sertifikasi dari profesi tersebut;
+6. 
+memiliki asosiasi profesi; dan
+7. 
+mendapatkan imbalan sesuai dengan pelayanan.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+72
+Gambar 3.1 Ilustrasi Profesi di Bidang IT
+Sumber: Ibnu Indarwati (2022)
+   
+Setiap lingkungan atau daerah memiliki keberagaman budaya dan 
+adat istiadat, termasuk keberagaman profesi atau pekerjaan yang 
+dapat kalian jumpai di sekitar tempat tinggal. Mari mengobservasi 
+lingkungan sekitar tempat tinggal kalian! Temukan profesi yang ada 
+di bidang Teknik Jaringan Komputer dan Telekomunikasi! Lakukan 
+dengan sikap hormat, sopan, dan ramah saat melakukan observasi!
+Aktivitas Individu 1.1
+Profesi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+Pada aktivitas pembelajaran ini, mari kita mengamati pekerjaan orang-orang 
+di lingkungan sekitar rumah atau melakukan wawancara berkaitan dengan 
+pekerjaan alumni SMK dari Teknik Komputer dan Jaringan! Lakukan identifikasi 
+terhadap berbagai pekerjaan dan pilih profesi di bidang Teknik Jaringan 
+Komputer dan Telekomunikasi! 
+1. 
+Profesi apa saja yang yang dapat kalian temukan?
+2. 
+Apakah yang kalian ketahui tentang pekerjaan dari setiap profesi yang 
+kalian temui?
+3. 
+Berapa penghasilan/gaji per bulan dari setiap profesi tersebut?
+
+Bab 3 - Profesi dan Kewirausahaan
+73
+Laporan Aktivitas Individu 1.1
+Tuliskan hasil observasi kalian dengan menyalin dan melengkapi tabel berikut!
+Tabel 3.1 Laporan Pengamatan Profesi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+Profesi
+Uraian Pekerjaan
+Penghasilan/Bulan
+Buatlah kesimpulan dari data hasil observasi yang kalian peroleh! Profesi 
+apa yang kalian minati dari berbagai profesi hasil observasi? Tuliskan alasannya!
+   
+Profesi di bidang Teknik Jaringan Komputer dan Telekomunikasi 
+merupakan pekerjaan yang membutuhkan keahlian dan kompetensi 
+khusus. Pada aktivitas ini, kalian dapat membentuk kelompok kerja 
+yang terdiri dari 4–6 orang. 
+Mari kita mengenali dan menggali informasi lebih lanjut tentang 
+kompetensi utama yang dibutuhkan dari profesi tertentu! Lakukan 
+secara berkelompok dengan saling berkolaborasi dan bergotong 
+royong! Presentasikan hasil eksplorasi kalian di depan kelas secara 
+bergantian!
+Aktivitas Kelompok 1.2
+Mengenal Job Profile dan Usaha di Bidang TJKT
+Banyak profesi di bidang Teknik Jaringan Komputer dan Telekomunikasi (TJKT) 
+di lingkungan sekitar kita. Mari mengidentifikasi bersama kompetensi utama 
+yang harus dimiliki dari setiap profesi berikut!
+1. 
+Security Engineer
+2. 
+Analis Keamanan Informasi (Information Security Analyst)
+3. 
+Arsitek Jaringan Komputer
+4. 
+Network Administrator
+5. 
+Hardware Engineer
+6. 
+IT Support
+7. 
+Teknisi Instalasi Fiber Optik
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+74
+Laporan Aktivitas Kelompok 1.2
+Tuliskan hasil eksplorasi kalian dengan menyalin dan melengkapi tabel berikut!
+Tabel 3.2 Kompetensi Utama yang Harus Dimiliki Setiap Profesi
+No
+Profesi
+Kompetensi Utama
+1.
+Security Engineer
+2.
+Analis Keamanan Informasi (Information 
+Security Analyst)
+3.
+Arsitek Jaringan Komputer
+4.
+Administrator Jaringan (Network 
+Administrator)
+5.
+Hardware Engineer
+6.
+IT Support
+7.
+Teknisi Instalasi Fiber Optik
+Perkembangan pada era digital telah mengubah aspek kehidupan dari 
+analog menjadi serbadigital dan kerap menggunakan teknologi informasi. Seiring 
+dengan perkembangan teknologi informasi di Indonesia, banyak bermunculan 
+profesi baru yang populer, seperti YouTuber, pembuat konten (content creator), 
+TikToker, pembuat video (video creator), pengulas produk (product reviewer), 
+dan manajer media sosial. Kalian dapat mencari informasi yang lebih rinci 
+mengenai setiap profesi tersebut dari berbagai sumber.
+Sertifikasi Profesi di Bidang Teknik Jaringan Komputer dan 
+Telekomunikasi
+Salah satu ciri profesi adalah adanya sertifikasi dari profesi sebagai pembuktian 
+secara legal mengenai kompetensi di bidang tertentu. Sertifikasi ini digunakan 
+sebagai referensi ketika kalian akan melamar pekerjaan. Profesi di bidang Teknik 
+Jaringan Komputer dan Telekomunikasi merupakan pekerjaan di bidang jasa 
+yang berdasarkan kepercayaan. Dengan adanya sertifikasi, orang/perusahaan 
+akan memercayai keahlian kalian. Sertifikasi sebagai pengakuan profesi di 
+tingkat baik regional (nasional) maupun internasional.
+Salah satu sertifikasi nasional adalah Sertifikat Kompetensi (Certificate 
+of Competency). Sertifikat tersebut berdasarkan level kualifikasi dan jenjang 
+jabatan yang ditetapkan oleh Kerangka Kualifikasi Nasional Indonesia (KKNI). 
+Sertifikasi kompetensi ini disusun berdasarkan Standar Kompetensi Kerja 
+
+Bab 3 - Profesi dan Kewirausahaan
+75
+Nasional Indonesia (SKKNI). Berdasarkan KEPMENAKER RI No 101 Tahun 2018, 
+SKKNI adalah rumusan kemampuan kerja yang mencakup aspek pengetahuan, 
+keterampilan, dan sikap kerja yang relevan dengan pelaksanaan tugas dan 
+jabatan yang ditetapkan berdasarkan perundang-undangan. 
+Berikut ini beberapa skema sertifikasi di bidang Teknik Jaringan Komputer 
+dan Telekomunikasi yang dapat kalian ikuti.
+SKEMA SERTIFIKASI: JUNIOR TECHNICAL SUPPORT
+SKKNI: Keputusan Menteri Ketenagakerjaan Republik Indonesia No 321 Tahun 
+2016
+Jenis skema: Okupasi 
+Tabel 3.3 Daftar Unit Kompetensi
+NO
+KODE UNIT
+JUDUL UNIT KOMPETENSI
+1.
+J.611000.002.01 
+Mengumpulkan Data Peralatan Jaringan dengan 
+Teknologi yang Sesuai
+2.
+J.611000.003.02 
+Merancang Topologi Jaringan
+3.
+J.611000.004.01 
+Merancang Pengalamatan Jaringan
+4.
+J.611000.005.02 
+Menentukan Spesifikasi Perangkat Jaringan
+5.
+J.611000.009.02 
+Memasang Kabel Jaringan
+Sumber: KEPMENAKER RI No 321 Tahun 2016
+SKEMA SERTIFIKASI: TEKNISI MUDA JARINGAN KOMPUTER 
+SKKNI: Keputusan Menteri Ketenagakerjaan Republik Indonesia No 321 Tahun 
+2016 
+Jenis skema: Okupasi 
+Tabel 3.4 Daftar Unit Kompetensi
+NO
+KODE UNIT
+JUDUL UNIT KOMPETENSI
+1.
+J.611000.001.01
+Mengumpulkan Kebutuhan Teknis Pengguna yang 
+Menggunakan Jaringan
+2.
+J.611000.002.01
+Mengumpulkan Data Peralatan Jaringan dengan 
+Teknologi yang Sesuai
+3.
+J.611000.003.02
+Merancang Topologi Jaringan
+4.
+J.611000.004.01
+Merancang Pengalamatan Jaringan
+5.
+J.611000.005.02
+Menentukan Spesifikasi Perangkat Jaringan
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+76
+NO
+KODE UNIT
+JUDUL UNIT KOMPETENSI
+6.
+J.611000.009.02
+Memasang Kabel Jaringan
+7.
+J.611000.012.02
+Mengkonfigurasi Switch pada Jaringan
+Sumber: KEPMENAKER RI No 321 Tahun 2016
+SKEMA SERTIFIKASI: TEKNISI INSTALASI DAN AKTIVASI
+SKKNI: Keputusan Menteri Ketenagakerjaan Republik Indonesia No 101 Tahun 
+2018
+Jenis skema: Okupasi
+Tabel 3.5 Daftar Unit Kompetensi
+NO
+KODE UNIT
+JUDUL UNIT KOMPETENSI
+1.
+J.61IFO00.002.2
+Menjalankan Prosedur Keselamatan dan Kesehatan Kerja 
+(K3)
+2.
+J.61IFO00.004.2 
+Membuat Laporan Tertulis
+3.
+J.61IFO00.008.2
+Memasang Kabel Fiber Optik Ruangan/Gedung
+4.
+J.61IFO00.012.2
+Mengoperasikan Power Meter
+5.
+J.61IFO00.013.2
+Memasang Konektor Fiber Optik
+6.
+J.61IFO00.014.2
+Melaksanakan Penyambungan Fiber Optik dengan Fusion 
+Splicer
+7.
+J.61IFO00.015.2
+Melaksanakan Penyambungan Fiber Optik dengan 
+Mechanical Splice
+8.
+J.61IFO00.016.2
+Mengoperasikan OTDR (Optical Time Domain 
+Reflectometer)
+Sumber: KEPMENAKER RI No 101 Tahun 2018
+Sertifikasi kompetensi yang dapat dilakukan pada jenjang SMK untuk uji 
+kompetensi melalui Lembaga Sertifikasi Profesi (LSP) adalah Skema KKNI Level 
+II pada Kompetensi Teknik Komputer dan Jaringan.
+Tabel 3.6 Daftar Unit Kompetensi
+NO
+KODE UNIT
+JUDUL UNIT KOMPETENSI
+Kompetensi Umum dan Inti
+1.
+J.611000.001.01
+Mengumpulkan Kebutuhan Teknis Pengguna yang 
+Menggunakan Jaringan
+2.
+J.611000.002.01
+Mengumpulkan Data Peralatan Jaringan dengan 
+Teknologi yang Sesuai
+
+Bab 3 - Profesi dan Kewirausahaan
+77
+NO
+KODE UNIT
+JUDUL UNIT KOMPETENSI
+3.
+J.611000.008.02
+Menyiapkan Kabel Jaringan
+4.
+J.611000.009.02
+Memasang Kabel Jaringan
+5.
+J.611000.005.02
+Menentukan Spesifikasi Perangkat Jaringan
+6.
+J.611000.010.02
+Memasang Jaringan Nirkabel
+Kompetensi Fungsional
+1.
+J.611000.003.02
+Merancang Topologi Jaringan
+2.
+J.611000.004.01
+Merancang Pengalamatan Jaringan
+3.
+J.611000.012.02
+Mengkonfigurasi Switch pada Jaringan
+4.
+J.611000.011.02
+Memasang Perangkat Jaringan ke dalam Sistem Jaringan
+5.
+J.611000.013.02
+Mengkonfigurasi Routing pada Perangkat Jaringan dalam 
+Satu Autonomous System
+6.
+J.611000.015.01
+Memonitor Keamanan dan Pengaturan Akun Pengguna 
+dalam Jaringan Komputer
+7.
+J.611000.023.01
+Mengganti Perangkat Jaringan Sesuai dengan Kebutuhan 
+Baru
+Instalasi Jaringan Komputer Berbasis Kabel
+1.
+J.611000.001.01
+Mengumpulkan Kebutuhan Teknis Pengguna yang 
+Menggunakan Jaringan
+2.
+J.611000.002.01
+Mengumpulkan Data Peralatan Jaringan dengan 
+Teknologi yang Sesuai
+3.
+J.611000.008.02
+Menyiapkan Kabel Jaringan
+4.
+J.611000.009.02
+Memasang Kabel Jaringan
+Konfigurasi Perangkat Jaringan Komputer
+1.
+J.611000.005.02
+Menentukan Spesifikasi Perangkat Jaringan
+2.
+J.611000.010.02
+Memasang Jaringan Nirkabel
+3.
+J.611000.003.02
+Merancang Topologi Jaringan
+4.
+J.611000.004.01
+Merancang Pengalamatan Jaringan
+5.
+J.611000.012.02
+Mengkonfigurasi Switch pada Jaringan
+6.
+J.611000.011.02
+Memasang Perangkat Jaringan ke dalam Sistem Jaringan
+Konfigurasi Routing pada Perangkat Jaringan Komputer
+1.
+J.611000.013.02
+Mengkonfigurasi Routing pada Perangkat Jaringan dalam 
+Satu Autonomous System
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+78
+NO
+KODE UNIT
+JUDUL UNIT KOMPETENSI
+2.
+J.611000.015.01
+Memonitor Keamanan dan Pengaturan Akun Pengguna 
+dalam Jaringan Komputer
+3.
+J.611000.023.01
+Mengganti Perangkat Jaringan Sesuai dengan Kebutuhan 
+Baru
+Sumber: KEPMENAKER RI No 321 Tahun 2016
+Sertifikasi bidang Jaringan biasanya digunakan untuk orang yang bekerja 
+sebagai teknisi perbaikan perangkat keras (hardware), teknisi jaringan komputer, 
+administrator sistem jaringan, konsultan jaringan komputer, dan sebagainya.
+   
+Setelah mengetahui jenis-jenis skema sertifikasi kompetensi yang 
+dapat dilaksanakan di LSP, mari mengeksplorasi lagi jenis sertifikasi 
+bidang Industri Komputer, khususnya Jaringan Komputer supaya 
+kalian dapat memilih jenis dan sertifikasi yang sesuai dengan 
+kemampuan dan kebutuhan kalian! Beberapa sertifikasi, khususnya 
+sertifikasi internasional, memerlukan pengetahuan dan keterampilan 
+yang mendalam di bidang Jaringan Komputer dengan berbagai 
+tingkatan/level yang menunjukkan tingkat kemahiran pemegang 
+sertifikat. Bahkan, terdapat beberapa sertifikasi yang memberikan 
+gelar profesional pada nama pemegang sertifikat.
+Aktivitas Kelompok 1.3
+Selain sertifikasi tingkat nasional, terdapat pula berbagai sertifikasi internasional 
+di bidang Teknik Jaringan Komputer dan Telekomunikasi. Mari kita mencari 
+informasi lebih lengkap dan mengidentifikasi sertifikasi internasional tersebut!
+Laporan Aktivitas Kelompok 1.3
+Tuliskan hasil eksplorasi kalian dengan menyalin dan melengkapi tabel berikut!
+Tabel 3.7 Daftar Sertifikasi Internasional di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+Nama Sertifikasi
+Pengetahuan dan 
+Keterampilan yang 
+Diujikan
+Lembaga yang 
+Menerbitkan
+
+Bab 3 - Profesi dan Kewirausahaan
+79
+B. Kewirausahaan, Technopreneurship, dan Peluang 
+Usaha di Bidang Teknik Jaringan Komputer dan 
+Telekomunikasi
+1. Kewirausahaan 
+Menurut PERPRES No 2 Tahun 2022, kewirausahaan adalah aktivitas 
+dalam menciptakan dan/atau mengembangkan suatu usaha inovatif dan 
+berkelanjutan. Adapun wirausaha (entrepreneur) adalah orang yang memiliki 
+jiwa kewirausahaan dan menjalankan kewirausahaan. Wirausaha, menurut 
+persepsi masyarakat, merupakan orang yang mampu melihat peluang, 
+berani mengambil risiko dalam usahanya, dan memiliki keberanian dalam 
+menciptakan suatu usaha. Jiwa kewirausahaan dapat ditunjukkan melalui 
+sikap dan perilaku yang kreatif dan inovatif dalam melakukan kegiatan usaha.
+Ciri-ciri seseorang yang mempunyai jiwa kewirausahaan, antara lain:
+a. 
+memiliki jiwa kepemimpinan (leadership), mampu mengambil keputusan 
+yang bijak dan bertanggung jawab;
+b. 
+memiliki semangat yang tinggi dan berusaha keras untuk mencapai 
+keinginannya;
+c. 
+memiliki kemampuan menganalisis masalah dengan baik;
+d. 
+memiliki ide atau gagasan yang kreatif dan inovatif; serta
+e. 
+memiliki totalitas dalam menjalankan usahanya.
+Salah satu cara untuk dapat menjadi seorang wirausaha adalah 
+mengembangkan jiwa kewirausahaan dalam diri. Upaya dalam 
+mengembangkan jiwa kewirausahaan memerlukan beberapa tahapan 
+berikut (Hariyono dan Andrini, 2020).
+a. 
+Internalization, menanamkan jiwa kewirausahaan dari dalam diri.
+b. 
+Paradigm Alteration, melakukan perubahan paradigma dan pola pikir 
+kewirausahaan.
+c. 
+Spirit Initiation, memiliki semangat untuk menggerakkan/memajukan 
+usaha.
+d. 
+Competition, menumbuhkan sikap kompetitif dan daya saing yang 
+tinggi.
+Seorang wirausaha harus memiliki karakteristik sebagai modal awal 
+untuk mencapai tujuan dan keberhasilan usaha. Menurut Bygrave (2009), 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+80
+ada 10 karakter kewirausahaan yang dikenal dengan istilah 10D, yaitu 
+sebagai berikut.
+a. 
+Dream (Mimpi), harus memiliki sebuah mimpi untuk bergerak maju.
+b. 
+Decisiveness (Tegas), memiliki ketegasan untuk maju dan cepat 
+mengambil keputusan.
+c. 
+Doers (Pelaku), dalam mengambil keputusan segera menindaklanjuti, 
+tidak menunda-nunda kesempatan.
+d. 
+Determination (Ketetapan Hati), kebulatan tekad dan keteguhan hati 
+dalam menjalankan bisnis penuh rasa tanggung jawab.
+e. 
+Dedication (Dedikasi), memiliki pengabdian dalam berbisnis.
+f. 
+Devotion (Kesetiaan), memiliki kecintaan dan kesetiaan dalam 
+menjalankan usaha.
+g. 
+Details (Rinci), memperhatikan hal-hal rinci.
+h. 
+Destiny (Nasib), bertanggung jawab dengan tujuan yang hendak ingin 
+dicapai.
+i. 
+Dollars (Uang), segala tenaga, pikiran, dan waktu untuk keuntungan, 
+dalam hal ini adalah uang.
+j. 
+Distribute (Distribusi), melakukan distribusi kepemilikan bisnisnya 
+kepada orang-orang kepercayaan untuk diajak mencapai kesuksesan.
+   
+Seorang wirausaha memiliki jiwa dan semangat yang pantang 
+menyerah, mandiri, gigih, dan bertanggung jawab terhadap tindakan 
+serta keputusannya. Banyak contoh wirausaha yang berhasil, namun 
+tidak sedikit pula wirausaha yang mengalami kegagalan dalam 
+menjalankan usahanya. Pada aktivitas ini, kalian diminta bekerja 
+secara kelompok untuk mempelajari faktor yang mendukung 
+keberhasilan dan kegagalan seorang wirausaha.
+Aktivitas Kelompok 2.1
+Faktor Keberhasilan dan Kegagalan Wirausaha
+Keberhasilan merupakan harapan semua pelaku wirausaha. Oleh karena itu, 
+seseorang akan melakukan apa pun untuk meraih keberhasilan. Akan tetapi, 
+banyak juga wirausaha yang mengalami kegagalan. Mari mendiskusikan 
+
+Bab 3 - Profesi dan Kewirausahaan
+81
+permasalahan ini dengan kelompok kerja kalian berkaitan dengan faktor apa 
+saja yang memengaruhi keberhasilan dan kegagalan seorang wirausaha!
+Etika Berwirausaha
+Dalam menjalankan usahanya, seorang wirausaha harus mampu memberikan 
+pelayanan. Salah satunya, mampu menjaga etika. Menjaga etika dalam 
+menjalankan bisnis merupakan hal yang sangat penting karena melindungi 
+reputasi pribadi dan perusahaan. Reputasi perusahaan yang baik tidak dapat 
+dibangun secara instan (membutuhkan waktu panjang) sehingga reputasi dapat 
+disebut sebagai aset seseorang dalam menjalankan usaha. 
+Etika sebagai rambu-rambu dalam melakukan kegiatan usaha. Tanpa 
+adanya etika maka dapat dipastikan usaha bisnisnya akan bangkrut. Etika 
+juga sebagai komitmen dalam menjalankan usaha dengan baik dan benar; 
+menghindari kecurangan dan hal tidak baik lainnya. Etika dapat dianalogikan 
+sebagai aturan, adat sopan santun yang berlaku di lingkungan kewirausahaan. 
+Seorang wirausaha harus memiliki tata krama yang baik: bersopan santun, 
+berbudi pekerti, bertanggung jawab, dan bersikap jujur.
+Berikut ini merupakan contoh kasus pelanggaran etika bisnis yang dapat 
+mengakibatkan kebangkrutan. 
+Sebuah pabrik pembuatan tahu yang besar menggunakan formalin sebagai 
+bahan pengawet produk tahu dengan tujuan tahu lebih awet dan tidak mudah 
+rusak. Seperti yang kita ketahui, formalin adalah zat berbahaya yang tidak 
+dapat dikonsumsi manusia. 
+Pabrik tahu tersebut melakukan pelanggaran etika karena melakukan 
+kecurangan sehingga dapat membahayakan konsumen dan bahkan 
+karyawannya. Jika konsumen mengetahui bahwa salah satu bahan pengawetnya 
+menggunakan zat berbahaya, konsumen akan berhenti membeli tahu. Ini 
+mengakibatkan turunnya penjualan dan hancurnya reputasi perusahaan 
+tahu tersebut yang berujung pada kebangkrutan.
+Aktivitas Kelompok 2.2
+Etika Berwirausaha
+Etika bisnis merupakan hal yang harus dijaga oleh seorang wirausaha dalam 
+menjalankan bisnisnya dengan tujuan menjaga reputasi baik perusahaan. 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+82
+Untuk dapat memahami etika bisnis, mari mencari informasi dan contoh kasus 
+pelanggaran etika bisnis dari berbagai sumber! Setelah kalian menemukan, 
+berdiskusilah dengan teman sekelompok untuk mengidentifikasi:
+1. 
+pelanggaran etika bisnis yang terjadi;
+2. 
+dampak dari pelanggaran tersebut; dan
+3. 
+alasan dianggap sebagai pelanggaran etika.
+Setelah mengetahui pelanggaran etika bisnis dari contoh yang kalian 
+temukan, apakah kalian dapat memahami etika bisnis yang baik? Tuliskan 
+prinsip etika bisnis yang baik!
+2. Technopreneurship
+Technopreneur (teknopreneur) berasal dari kata “technology” dan 
+“entrepreneur” yang berarti seseorang atau badan usaha yang berbisnis 
+dan mengelola usaha dengan memanfaatkan teknologi informasi untuk 
+memperoleh keuntungan. Dengan kata lain, teknopreneur adalah pengusaha 
+yang memanfaatkan teknologi informasi sesuai dengan perkembangannya. 
+Technopreneurship merupakan generasi baru dari kewirausahaan. Saat 
+ini, contoh sosok teknopreneur yang sukses adalah Bill Gates, Steve Jobs, 
+Andrew Darwis, dan William Tanuwijaya. 
+Para teknopreneur sukses adalah sosok yang memiliki kompetensi, 
+pengetahuan, dan attitude baik. Karakter seorang teknopreneur adalah 
+berdisiplin tinggi, pantang menyerah, berpikir kritis, optimis, dan tekun 
+dalam menjalankan usaha. Khusus untuk para teknopreneur, mereka juga 
+harus memiliki wawasan luas dan kemampuan di bidang Teknologi Informasi. 
+Mereka harus membuat inovasi yang dapat membantu masyarakat dalam 
+menyelesaikan tugasnya secara efektif dan efisien.
+Penerapan teknologi di bidang Kewirausahaan berfungsi sebagai media 
+untuk memperluas bisnis. Kolaborasi antara penerapan teknologi dan 
+kewirausahaan merupakan inovasi yang dapat mendorong perkembangan 
+usaha. Banyak bermunculan jenis usaha yang menggunakan teknologi, yang 
+menawarkan produk baik barang maupun jasa.
+
+Bab 3 - Profesi dan Kewirausahaan
+83
+Kemampuan yang Diperlukan Seorang Teknopreneur
+a. 
+Kemampuan dan pengetahuan yang baik di bidang teknologi
+b. 
+Kemampuan mengidentifikasi dan mengevaluasi peluang usaha
+c. 
+Kemampuan mengelola sumber daya (orang, peralatan, dan modal)
+d. 
+Kemampuan mengelola risiko/manajemen risiko yang baik
+e. 
+Kemampuan menemukan solusi-solusi dan inovasi pemecahan 
+masalah (problem solving) 
+Manfaat Seorang Teknopreneur
+a. 
+Berkontribusi dalam menciptakan lapangan pekerjaan dan 
+mengurangi angka pengangguran
+b. 
+Menarik investor dan meningkatkan ekonomi
+c. 
+Menciptakan inovasi dan perkembangan teknologi
+d. 
+Mendorong perkembangan UMKM
+Selain memiliki pengetahuan dan keterampilan, seorang teknopreneur 
+harus memiliki attitude atau sikap yang baik. Attitude seorang teknopreneur, 
+di antaranya optimis, pantang menyerah, disiplin, dan berlaku jujur. 
+Teknopreneur juga memiliki peran dan tanggung jawab dalam melaksanakan 
+riset di bidang Teknologi Informasi serta melakukan inovasi untuk menjawab 
+kebutuhan tuntutan pasar.
+Aktivitas Individu 2.3
+Untuk membantu memahami materi tentang teknopreneur, mari mencari 
+informasi dari internet dan menonton video kisah sukses seorang teknopreneur 
+yang dapat memotivasi kita, khususnya yang bergerak di bidang Teknik Jaringan 
+Komputer dan Telekomunikasi! Amati hal-hal berikut!
+1. 
+Nama pelaku bisnis
+2. 
+Usaha utama dari bisnis tersebut 
+3. 
+Kiat-kiat sukses dalam berbisnis
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+84
+3. Peluang Usaha
+Pemanfaatan teknologi informasi semakin meningkat. Kehidupan masyarakat 
+yang bergantung pada teknologi berdampak pada permintaan layanan 
+teknologi dan informasi yang cukup tinggi. Sesuai dengan prinsip ekonomi, 
+kejadian banyaknya permintaan akan membuka peluang usaha yang 
+potensial. Peluang usaha adalah kondisi ketika ada kesempatan untuk 
+melakukan usaha dalam rangka mendapatkan keuntungan dengan 
+memanfaatkan berbagai sumber daya yang dimiliki. Sumber daya dapat 
+berupa modal, keterampilan, pengetahuan, peralatan, pengalaman, dan 
+sebagainya. 
+Seorang wirausaha harus mampu berpikir tentang bagaimana peluang 
+usaha yang baik. Ciri-ciri peluang usaha yang sesuai, antara lain:
+a. 
+idenya original (berasal dari diri sendiri/tim) dan kreatif;
+b. 
+dapat mengantisipasi persaingan dan perubahan kebutuhan pasar 
+dengan baik;
+c. 
+ada keyakinan untuk mewujudkan;
+d. 
+sesuai dengan minat dan ada rasa senang dalam menjalankan 
+usahanya; serta
+e. 
+peluang tersebut memiliki nilai jual untuk mendatangkan keuntungan.
+Banyak peluang usaha di bidang Teknik Jaringan Komputer dan 
+Telekomunikasi yang layak dijadikan pilihan. Peluang usaha tersebut dapat 
+menghasilkan pendapatan cukup besar, bergantung pada bagaimana kalian 
+dapat memilih dan mengelola usaha dengan baik. Suatu bisnis yang baik 
+dan berhasil diawali dengan pemilihan ide yang baik.
+Beberapa peluang usaha di bidang Teknik Jaringan Komputer dan 
+Telekomunikasi, antara lain sebagai berikut.
+a. 
+Penyedia Jasa Desain Grafis 
+Peluang usaha ini baik bagi kalian yang mempunyai keterampilan 
+mendesain. Kemampuan desain yang baik sangat dibutuhkan pada 
+usaha ini. Untuk menjalankan bisnis ini, kalian harus memiliki 
+portofolio hasil desain sendiri.
+
+Bab 3 - Profesi dan Kewirausahaan
+85
+b. Pembuat Konten (Content Creator) 
+Peluang usaha ini membutuhkan kreativitas dan inovasi. Usaha ini 
+akan berhasil jika kalian dapat menyajikan konten yang memiliki 
+kualitas baik dan menarik. Konten yang menarik akan menambah 
+jumlah pengunjung dan viewer. Tentunya ada peluang penghasilan 
+yang besar jika jumlah viewer blog atau channel kalian banyak.
+c. 
+Penyedia Jasa Servis Perangkat Keras (Hardware)
+Peluang usaha ini membutuhkan keterampilan untuk troubleshooting 
+software dan hardware. Usaha ini membutuhkan modal kecil. Kunci 
+suksesnya adalah kepercayaan dari konsumen yang membutuhkan 
+jasa perbaikan perangkat.
+d. Penyedia Jasa Instalasi dan Perbaikan Jaringan 
+Usaha ini bergerak di bidang pemasangan dan perawatan jaringan. 
+Contohnya, pemasangan Wi-Fi, pemasangan CCTV, dan instalasi LAN 
+yang dilakukan di kantor, kampus, hotel, dan perumahan. Biaya dari 
+jasa instalasi dan perawatan jaringan ini dapat ditentukan per paket 
+atau per titik instalasi, bergantung pada kesepakatan penyedia jasa 
+dengan konsumen.
+e. 
+Pemilik Toko Komputer dan Laptop 
+Peluang usaha ini dapat dilakukan oleh orang yang mengerti komputer 
+jaringan dan telekomunikasi. Pengetahuan yang dibutuhkan adalah 
+teknologi perkembangan dunia komputer; kebutuhan dan spesifikasi 
+hardware serta aksesori. Membuka toko komputer dapat dilakukan 
+secara offline atau online. Toko online dapat dibuat di berbagai 
+marketplace atau situs web toko sendiri.
+Dengan mengambil peluang usaha yang ada, kemungkinan suksesnya 
+usaha kalian akan semakin besar. Untuk dapat mengidentifikasi peluang 
+usaha yang ada, kalian perlu menambah banyak referensi, misalnya dengan 
+membaca buku di perpustakaan, mencari informasi melalui internet, 
+mendiskusikan ide-ide baru (brainstorming), dan melatih kreativitas untuk 
+menemukan ide-ide baru yang lebih inovatif.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+86
+Beberapa cara yang dapat kalian lakukan untuk mengidentifikasi 
+peluang usaha, antara lain: 
+a. 
+mengenali segmentasi pasar yang menjadi target bisnis, termasuk 
+mengidentifikasi pesaing;
+b. 
+mengenali modal yang ada untuk melakukan usaha, baik modal 
+finansial maupun modal sumber daya;
+c. 
+melakukan inovasi untuk mengatasi ancaman; dan
+d. 
+memiliki langkah-langkah pengembangan bisnis (business plan), 
+termasuk perhitungan anggaran dan promosi yang dilakukan.
+Untuk mengetahui apakah sebuah peluang usaha tersebut layak untuk 
+dijalankan atau tidak, kalian perlu melakukan analisis peluang usaha. 
+Analisis yang dapat digunakan adalah Analisis SWOT (Strengths, Weaknesses, 
+Opportunities, dan Threats). SWOT sering digunakan untuk menganalisis 
+kekuatan, kelemahan, kesempatan, dan ancaman dari sebuah peluang 
+usaha yang akan dijalankan. Analisis SWOT untuk menganalisis beberapa 
+hal berikut.
+a. 
+Bagaimana memanfaatkan kekuatan (strengths) yang dimiliki untuk 
+dapat menggali peluang usaha (opportunities) yang ada. 
+b. 
+Bagaimana cara mengatasi kelemahan (weaknesses) yang dapat 
+mencegah keuntungan (advantage) dari peluang usaha (opportunities) 
+yang ada. 
+c. 
+Bagaimana memanfaatkan kekuatan (strengths) untuk mampu 
+menghadapi ancaman (threats) yang ada.
+d. 
+Bagaimana mengatasi kelemahan (weaknesses) yang memungkinkan 
+ancaman (threats) menjadi nyata atau menciptakan sebuah ancaman 
+baru.
+Tujuan Analisis SWOT, antara lain:
+a. 
+Mengidentifikasi kondisi sumber daya yang terlibat baik internal 
+maupun eksternal untuk membuat rencana sehingga proses 
+kewirausahaan dapat berjalan efektif dan efisien;
+b. 
+mengidentifikasi peluang untuk mencari keuntungan dan menghadapi 
+tantangan yang ada;
+c. 
+menyiapkan langkah-langkah antisipasi untuk permasalahan yang 
+akan timbul;
+
+Bab 3 - Profesi dan Kewirausahaan
+87
+d. 
+menyiapkan langkah untuk mengambil peluang dan perencanaan 
+pengembangan bisnis; serta
+e. 
+mengetahui keunggulan dan kelemahan dari bisnis saat ini. 
+Contoh Analisis SWOT Toko Kue “Sedap” dapat dilihat pada tabel berikut.
+Tabel 3.8 Analisis SWOT Toko Kue “Sedap”
+Strengths (Kekuatan)
+Weaknesses (Kekurangan)
+1. Memiliki pengetahuan tentang 
+pemasaran kue
+2. Memiliki toko dengan lokasi 
+yang strategis
+3. Memiliki keterampilan 
+membuat kue 
+1. Modal usaha terbatas
+2. SDM yang belum memahami 
+laporan keuangan
+Opportunities (Kesempatan)
+Threats (Ancaman)
+1. Harga bahan baku yang 
+mudah didapat
+2. Belum ada toko kue di sekitar
+3. Daya beli masyarakat yang 
+tinggi
+1. Toko makanan kecil di sekitar
+2. Pajak usaha yang meningkat
+   
+Salah satu metode yang terkenal untuk menganalisis sebelum 
+membuat perencanaan bisnis adalah Analisis SWOT. Mari 
+mendiskusikan peluang usaha di bidang Teknik Jaringan Komputer 
+dan Telekomunikasi di sekitar lingkungan sekolah atau tempat tinggal, 
+kemudian menyusun Analisis SWOT dari peluang usaha tersebut!
+Aktivitas Kelompok 2.4
+Berlatih Analisis SWOT
+Langkah-langkah kerjanya sebagai berikut.
+1. 
+Bentuk kelompok diskusi yang terdiri dari 3–4 orang.
+2. 
+Setiap kelompok memilih salah satu peluang bisnis yang ada. Contohnya 
+penyedia jasa desain grafis, pembuat konten (content creator), penyedia 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+88
+jasa servis hardware, penyedia jasa instalasi jaringan, atau pemilik toko 
+komputer dan laptop.
+3. 
+Mulai analisis peluang usaha pilihan kalian dengan Analisis SWOT.
+Laporan Aktivitas Kelompok 2.4
+Tuliskan hasil eksplorasi kalian dengan menyalin dan melengkapi tabel berikut!
+Bidang usaha: …………….....
+Tabel 3.9 Hasil Analisis SWOT
+Strengths 
+(Kekuatan)
+Weaknesses 
+(Kekurangan)
+Opportunities 
+(Kesempatan)
+Threats 
+(Ancaman)
+C. Membangun Vision dan Passion di Bidang Teknik 
+Jaringan Komputer dan Telekomunikasi
+Untuk berwirausaha, selain modal atau kompetensi, kita juga harus memiliki 
+vision dan passion wirausaha. Vision adalah cita-cita atau gambaran besar yang 
+ingin diwujudkan pada masa mendatang.
+Contoh vision: 
+Memperoleh lebih dari 300 pelanggan dalam waktu 5 tahun.
+Untuk dapat mencapai vision ini, kita perlu membuat rencana dengan memecah 
+target waktu menjadi rentang waktu yang lebih singkat lagi.
+Contoh pemecahan target waktu:
+Target 5 tahun dipecah menjadi target tahunan. Target tahunan adalah 60 
+pelanggan/tahun, artinya 5 pelanggan/bulan atau 1 pelanggan/minggu. 
+Pemecahan seperti contoh di atas akan menimbulkan semangat dalam 
+mencapai vision. 
+Adapun passion adalah semangat yang kuat atau motivasi untuk mewujudkan 
+harapan. Passion ini sangat dibutuhkan agar kita mampu bertahan dan 
+menentukan langkah berikutnya dalam mencapai vision. Seseorang yang bekerja 
+sesuai dengan passion-nya akan merasa lebih menikmati pekerjaannya. Passion 
+berkaitan dengan minat dan hobi.
+
+Bab 3 - Profesi dan Kewirausahaan
+89
+Contoh passion: 
+• membaca buku  
+• bermain musik
+• mendaki gunung  
+• menggambar 
+   
+Setiap individu memiliki passion masing-masing. Akan tetapi, 
+terkadang kita belum mengenali dan mengetahui apa yang menjadi 
+passion kita. Pada aktivitas ini, kita akan mencoba mengenali passion 
+dalam diri.
+Aktivitas Individu 3.1
+Mengenal Passion dalam Diri
+Cobalah temukan hal yang menjadi passion kalian dengan menjawab setiap 
+pertanyaan berikut!
+1. 
+Hal apa saja yang dapat membuat kalian bahagia?
+2. 
+Apa saja aktivitas yang kalian sukai? Aktivitas seperti apa yang paling kalian 
+senangi dan sering kalian bicarakan?
+3. 
+Apakah kalian dapat mengetahui apa yang menjadi kelebihan dan kekuatan 
+kalian? Sebutkan!
+4. 
+Apa yang menjadi cita-cita kalian? 
+5. 
+Dari pertanyaan-pertanyaan sebelumnya, apakah kalian sudah dapat 
+menentukan passion kalian? Atau, kalian masih merasa ragu dengan hal 
+yang kalian anggap passion tersebut?
+Aktivitas Individu 3.2
+Memulai Ide Usaha
+Seseorang yang baru berpikir untuk menjadi wirausaha terkadang masih 
+bingung dalam mencari ide usaha yang sesuai. Beberapa dari mereka mencari 
+informasi bisnis yang bagus dan yang menjadi tren saat ini melalui internet dan 
+majalah. Ada pula yang melakukan pengamatan langsung dengan berkeliling 
+lingkungan untuk mencari ide bisnis yang sesuai.
+Mari memulai ide usaha dengan melakukan beberapa hal berikut!
+1. 
+Tuliskan sebuah ide bisnis yang kalian minati!
+2. 
+Tuliskan harapan atau vision kalian dari bisnis tersebut! 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+90
+3. 
+Tuliskan rencana kalian untuk meraih vision tersebut! 
+4. 
+Tuliskan usaha yang dapat kalian lakukan untuk memenuhi harapan 
+tersebut pada masa mendatang!
+Simulasi Proyek Kewirausahaan di Bidang Teknik Jaringan 
+Komputer dan Telekomunikasi
+   
+Pada aktivitas ini, kalian akan melakukan aktivitas secara 
+berkelompok untuk merancang suatu usaha distribusi koneksi 
+internet di lingkungan sekolah. Kalian akan menyimulasikan proses 
+bisnis sebuah provider internet. Untuk mendapatkan pengalaman di 
+pembelajaran ini, silakan kalian mengisi instrumen sesuai dengan 
+kondisi riil di sekolah.
+Aktivitas Kelompok 3.3
+Simulasi Bisnis Usaha Distribusi Koneksi Internet
+Pada aktivitas kelompok ini, mari kita mencoba berbisnis “Berjualan Internet”, 
+yaitu mendistribusikan koneksi internet dengan sistem voucer di sekolah. 
+Sebelum melaksanakan aktivitas ini, kalian harus bekerja sama dengan kakak 
+kelas XI/XII atau unit bisnis ICT yang ada di sekolah untuk mengkonfigurasi 
+jaringan Wi-Fi yang akan dipasarkan dengan sistem voucer. 
+Lakukan beberapa hal berikut untuk memulai bisnis ini! Kalian dapat 
+menyalinnya di buku tulis atau sesuai dengan petunjuk guru.
+1. 
+Tuliskan analisis kebutuhan konsumen terhadap layanan kita.
+2. 
+Tuliskan ketersediaan sumber daya yang dimiliki.
+Koneksi Internet yang Dimiliki
+Nama Provider 
+ 
+ 
+: ……………………...
+Kapasitas Koneksi  
+ 
+: ………………………
+Nama Administrator Jaringan  
+: ………………...........
+Nama Teknisi Jaringan  
+ 
+: ……………..............
+
+Bab 3 - Profesi dan Kewirausahaan
+91
+Tabel 3.10 Ketersediaan Peralatan
+No
+Nama Peralatan
+Spesifikasi
+Jumlah
+3. 
+Lakukan analisis SWOT dari bisnis ini.
+Tabel 3.11 Analisis SWOT
+Strengths (Kekuatan)
+Weaknesses (Kekurangan)
+Opportunities (Kesempatan)
+Threats (Ancaman)
+4. 
+Tuliskan tahapan pelaksanaan bisnis mulai dari perencanaan sampai 
+dengan pemasaran.
+Tabel 3.12 Tahapan Pelaksanaan Bisnis
+Tahap Pelaksanaan
+Pekerjaan yang 
+Dilakukan
+Penanggung Jawab
+Perencanaan
+Pelaksanaan konfigurasi
+Pemasaran
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+92
+ 
+ Uji Kompetensi Bab 3
+Lengkapi teka-teki silang berikut berdasarkan pertanyaan mendatar dan 
+pertanyaan menurun!
+1
+2
+3
+4
+5
+10
+6
+7
+11
+12
+13
+14
+1
+2
+3
+4
+5
+10
+6
+7
+11
+12
+13
+14
+8
+9
+Pertanyaan Mendatar
+1. 
+Entrepreneurship atau aktivitas yang dilakukan seseorang dalam membaca 
+peluang untuk usaha dan memperoleh keuntungan. 
+6. 
+Potensi dan faktor internal yang dimiliki sebuah perusahaan.
+8. 
+Kondisi seorang wirausaha mendapatkan kesempatan untuk mencapai 
+visinya.
+10. Seseorang yang memiliki jiwa dan semangat untuk melakukan bisnis.
+11. Usaha yang dilakukan untuk meningkatkan kualitas, berupa penerapan ide 
+baru dalam berwirausaha.
+
+Bab 3 - Profesi dan Kewirausahaan
+93
+12. Rambu-rambu yang mengatur seorang wirausaha dalam menjalankan 
+usahanya dengan tujuan memperoleh reputasi yang baik.
+13. Pekerjaan yang memerlukan keterampilan khusus.
+14. Sikap tenang, sabar, dan bertutur dengan baik yang harus dimiliki seorang 
+wirausaha.
+Pertanyaan Menurun
+2. 
+Sebuah faktor negatif dari pihak eksternal yang menjadi hambatan dalam 
+berwirausaha.
+3. 
+Sebuah kegiatan yang bertujuan mencari keuntungan.
+4. 
+Standar kompetensi sebagai rumusan kemampuan kerja dalam proses 
+sertifikasi kompetensi.
+5. 
+Perangkat yang menjadi komponen troubleshooting perangkat keras.
+7. 
+Bentuk visual dari hasil desain.
+8. 
+Semangat yang kuat atau motivasi untuk mewujudkan harapan.
+9. 
+Upaya yang dilakukan seorang wirausaha.
+ 
+ Pengayaan
+Untuk menambah pengetahuan kalian tentang profesi dan kewirausahaan, 
+buatlah kelompok belajar! Lakukan pembelajaran mandiri dengan tutor sebaya, 
+yaitu pembelajaran antarteman. Kalian yang lebih paham dengan materi ini, 
+menjadi tutor bagi teman yang lain. Materi yang relevan dengan bab ini, antara 
+lain: 
+1. 
+membangun komitmen wirausaha;
+2. 
+pengambilan risiko usaha technopreneurship; dan
+3. 
+pengambilan keputusan berdasarkan analisis.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+94
+ 
+ Refleksi
+Setelah mempelajari materi pada Bab 3 ini, kalian dapat melakukan refleksi 
+dengan menjawab setiap pertanyaan berikut.
+1. 
+Ceritakan pengalaman kalian mengikuti pembelajaran pada materi 
+profesi dan kewirausahaan ini!
+2. 
+Apa hal baik yang kalian alami dalam proses pembelajaran ini?
+3. 
+Ceritakan juga kendala kalian selama proses pembelajaran pada materi 
+profesi dan kewirausahaan!
+4. 
+Apa yang kalian lakukan dalam mengatasi kendala tersebut?
+5. 
+Bagaimana perasaan kalian selama pembelajaran berlangsung?
+6. 
+Pelajaran apa yang kalian dapatkan dari proses ini?
+
+K3LH dan Budaya Kerja 
+K3LH dan Budaya Kerja 
+Industri
+Industri
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi
+untuk SMK/MAK Kelas X
+Penulis: Ibnu Indarwati, Arif Muttakin, Agung Puspita Bantala
+ISBN: 978-623-194-472-6 (no.jil.lengkap PDF)
+978-623-194-473-3 (jil.1PDF)
+B
+A
+B
+4
+Kita memerlukan penerapan prosedur penggunaan peralatan jaringan 
+komputer dan telekomunikasi untuk mengurangi potensi bahaya. Sebagai 
+seorang calon teknisi komputer dan jaringan, kalian harus mengetahui 
+langkah-langkah penggunaan peralatan yang baik dan benar.

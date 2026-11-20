@@ -1,0 +1,1283 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "tjkt",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "TJKT 2",
+      "title": "Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi",
+      "description": "Menelusuri perkembangan jaringan dedicated menjadi converged, media komunikasi 3G/4G/5G, VSAT, dan microwave link, pengalamatan IPv6, perangkat data center, layanan IoT dan cloud, serta keamanan jaringan.",
+      "learning_objectives": [
+        "Menjelaskan perbedaan jaringan dedicated dan jaringan converged.",
+        "Menjelaskan perkembangan media komunikasi jaringan komputer dan telekomunikasi.",
+        "Menjelaskan pengalamatan IPv6 dan perbedaannya dengan IPv4.",
+        "Menjelaskan perangkat data center, layanan jaringan, serta keamanan jaringan."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 2; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Dari dedicated ke converged",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 2; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Satu protokol untuk semua layanan\n\nPada akhir tahun 1990-an, layanan komputer, telepon, dan siaran memiliki jaringan sendiri-sendiri. Jaringan seperti itu disebut jaringan dedicated karena tiap layanan memakai protokol berbeda.\n\nSaat ini semua layanan menyatu dalam jaringan converged dengan satu protokol utama, yaitu TCP/IP. Suara, video, dan data berjalan pada jaringan yang sama.\n\nPenyatuan itu mungkin karena media komunikasi dan pengalamatan IP terus berkembang, sehingga kecepatan jaringan meningkat dan layanan baru dapat lahir.\n\nProtokol adalah kesepakatan bersama; tanpa protokol yang sama, dua perangkat tidak dapat saling memahami.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "tjkt-2-perkembangan-teknologi-glosarium",
+              "terms": [
+                {
+                  "term": "Protokol",
+                  "definition": "Aturan yang disepakati bersama agar perangkat dapat saling berkomunikasi."
+                },
+                {
+                  "term": "Jaringan dedicated",
+                  "definition": "Jaringan yang memisahkan layanan komputer, telepon, dan broadcast dengan protokol masing-masing."
+                },
+                {
+                  "term": "Jaringan converged",
+                  "definition": "Jaringan yang menyatukan semua layanan komunikasi dalam satu protokol utama, yaitu TCP/IP."
+                },
+                {
+                  "term": "VSAT",
+                  "definition": "Very Small Aperture Terminal, media nirkabel berbasis satelit untuk daerah terpencil."
+                },
+                {
+                  "term": "Microwave link",
+                  "definition": "Penghubung nirkabel antartitik dengan gelombang mikro untuk jarak pandang langsung."
+                },
+                {
+                  "term": "IPv6",
+                  "definition": "Pengalamatan internet generasi baru berukuran 128 bit yang menyediakan alamat jauh lebih banyak."
+                },
+                {
+                  "term": "Data center",
+                  "definition": "Pusat penyimpanan dan pengolahan data berisi server, switch, dan sistem pendingin."
+                },
+                {
+                  "term": "Cloud computing",
+                  "definition": "Layanan komputasi yang disewa melalui jaringan sehingga pengguna tidak perlu memiliki perangkat sendiri."
+                },
+                {
+                  "term": "Sniffing",
+                  "definition": "Penyadapan lalu lintas data pada jaringan, dapat bersifat pasif maupun aktif."
+                },
+                {
+                  "term": "IoT",
+                  "definition": "Internet of Things, perangkat sehari-hari yang terhubung jaringan dan saling bertukar data."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Satu protokol untuk semua layanan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada akhir tahun 1990-an, layanan komputer, telepon, dan siaran memiliki jaringan sendiri-sendiri. Jaringan seperti itu disebut jaringan dedicated karena tiap layanan memakai protokol berbeda."
+            },
+            {
+              "type": "paragraph",
+              "text": "Saat ini semua layanan menyatu dalam jaringan converged dengan satu protokol utama, yaitu TCP/IP. Suara, video, dan data berjalan pada jaringan yang sama."
+            },
+            {
+              "type": "paragraph",
+              "text": "Penyatuan itu mungkin karena media komunikasi dan pengalamatan IP terus berkembang, sehingga kecepatan jaringan meningkat dan layanan baru dapat lahir."
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-2-perkembangan-teknologi-diagram",
+              "engine": "mermaid",
+              "title": "Perbandingan jaringan dedicated dan converged",
+              "code": "flowchart TB\n  A[Jaringan dedicated] --> B[Jaringan komputer: TCP/IP]\n  A --> C[Jaringan telepon: PSTN]\n  A --> D[Jaringan broadcast: PAL/NTSC]\n  E[Jaringan converged] --> F[Satu protokol: TCP/IP]\n  F --> G[Data, suara, dan video menyatu]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Protokol adalah kesepakatan bersama; tanpa protokol yang sama, dua perangkat tidak dapat saling memahami."
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-2-perkembangan-teknologi-cp-1",
+              "question": "Jaringan yang menyatukan semua layanan dalam satu protokol TCP/IP disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "converged",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "dedicated"
+                },
+                {
+                  "id": "c2",
+                  "text": "terisolasi"
+                },
+                {
+                  "id": "c3",
+                  "text": "analog"
+                }
+              ],
+              "explanation": "Jaringan converged memakai TCP/IP untuk semua jenis layanan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Media, pengalamatan, dan data center",
+          "duration": 300,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 2; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Perkembangan yang mempercepat jaringan\n\nMedia nirkabel berkembang dari 3G, 4G, hingga 5G. Kecepatan 5G secara teori mencapai beberapa gigabit per detik, jauh di atas 4G sehingga layanan berat seperti video dan otomatisasi menjadi mungkin.\n\nUntuk daerah tanpa infrastruktur, dipakai VSAT berbasis satelit. Bandwidth-nya tidak sebesar 4G, tetapi mampu menjangkau hutan, pegunungan, dan perkebunan. Microwave link menghubungkan dua titik dengan gelombang mikro.\n\nPengalamatan berkembang dari IPv4 ke IPv6. IPv6 berukuran 128 bit sehingga menyediakan alamat jauh lebih banyak, termasuk alamat link local dan gateway untuk komunikasi lokal.\n\nData center menampung server, switch, dan sistem pendukung seperti pendingin serta catu daya cadangan. Ketersediaan tinggi dicapai melalui redundansi perangkat.\n\n| Teknologi | Kegunaan | Catatan |\n|---|---|---|\n| 3G/4G/5G | Akses seluler bergerak | 5G paling cepat, orde gigabit |\n| VSAT | Daerah tanpa infrastruktur | Bergantung satelit, bandwidth terbatas |\n| Microwave link | Penghubung dua titik | Perlu jalur pandang langsung |\n| IPv6 | Pengalamatan internet baru | 128 bit, alamat sangat banyak |\n| Cloud computing | Layanan komputasi sewa | Mengurangi perangkat di sisi pengguna |\n\n### Layanan dan keamanan jaringan\n\n- Internet of Things menghubungkan perangkat sehari-hari agar dapat mengirim dan menerima data secara otomatis.\n- Cloud computing memindahkan penyimpanan dan pengolahan ke penyedia layanan sehingga pengguna tidak perlu memiliki server sendiri.\n- Keamanan jaringan menjadi makin penting seiring banyaknya perangkat terhubung; sniffing adalah contoh ancaman penyadapan data.\n- Sniffing pasif hanya merekam lalu lintas data, sedangkan sniffing aktif dapat mengubah atau menyisipkan data.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perkembangan yang mempercepat jaringan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Media nirkabel berkembang dari 3G, 4G, hingga 5G. Kecepatan 5G secara teori mencapai beberapa gigabit per detik, jauh di atas 4G sehingga layanan berat seperti video dan otomatisasi menjadi mungkin."
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk daerah tanpa infrastruktur, dipakai VSAT berbasis satelit. Bandwidth-nya tidak sebesar 4G, tetapi mampu menjangkau hutan, pegunungan, dan perkebunan. Microwave link menghubungkan dua titik dengan gelombang mikro."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengalamatan berkembang dari IPv4 ke IPv6. IPv6 berukuran 128 bit sehingga menyediakan alamat jauh lebih banyak, termasuk alamat link local dan gateway untuk komunikasi lokal."
+            },
+            {
+              "type": "paragraph",
+              "text": "Data center menampung server, switch, dan sistem pendukung seperti pendingin serta catu daya cadangan. Ketersediaan tinggi dicapai melalui redundansi perangkat."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknologi",
+                  "Kegunaan",
+                  "Catatan"
+                ],
+                [
+                  "3G/4G/5G",
+                  "Akses seluler bergerak",
+                  "5G paling cepat, orde gigabit"
+                ],
+                [
+                  "VSAT",
+                  "Daerah tanpa infrastruktur",
+                  "Bergantung satelit, bandwidth terbatas"
+                ],
+                [
+                  "Microwave link",
+                  "Penghubung dua titik",
+                  "Perlu jalur pandang langsung"
+                ],
+                [
+                  "IPv6",
+                  "Pengalamatan internet baru",
+                  "128 bit, alamat sangat banyak"
+                ],
+                [
+                  "Cloud computing",
+                  "Layanan komputasi sewa",
+                  "Mengurangi perangkat di sisi pengguna"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-2-layanan",
+              "engine": "mermaid",
+              "title": "Perkembangan layanan di atas jaringan converged",
+              "code": "flowchart LR\n  A[Media cepat dan IPv6] --> B[Layanan jaringan]\n  B --> C[IoT dan otomatisasi]\n  B --> D[Cloud computing]\n  B --> E[Video dan konferensi]\n  B --> F[Keamanan jaringan]\n  F --> G[Sniffing pasif dan aktif]"
+            },
+            {
+              "type": "categorize",
+              "id": "tjkt-2-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam jaringan dedicated atau jaringan converged.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Dedicated"
+                },
+                {
+                  "id": "b2",
+                  "label": "Converged"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Layanan telepon memakai protokol PSTN",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Semua layanan memakai TCP/IP",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Jaringan komputer, telepon, dan broadcast terpisah",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Suara dan video berjalan pada jaringan yang sama",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Tiap layanan punya aturan sendiri",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Layanan baru mudah ditambahkan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Siaran memakai standar PAL atau NTSC",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Data, suara, dan video menyatu",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Dedicated memisahkan layanan, converged menyatukannya dalam TCP/IP.",
+                "wrong": "Periksa lagi: penyebutan protokol berbeda per layanan menandai jaringan dedicated."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Layanan dan keamanan jaringan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Internet of Things menghubungkan perangkat sehari-hari agar dapat mengirim dan menerima data secara otomatis.",
+                "Cloud computing memindahkan penyimpanan dan pengolahan ke penyedia layanan sehingga pengguna tidak perlu memiliki server sendiri.",
+                "Keamanan jaringan menjadi makin penting seiring banyaknya perangkat terhubung; sniffing adalah contoh ancaman penyadapan data.",
+                "Sniffing pasif hanya merekam lalu lintas data, sedangkan sniffing aktif dapat mengubah atau menyisipkan data."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-2-perkembangan-teknologi-cp-2",
+              "question": "Pengalamatan IPv6 memiliki ukuran…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "128 bit",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "32 bit"
+                },
+                {
+                  "id": "c2",
+                  "text": "64 bit"
+                },
+                {
+                  "id": "c3",
+                  "text": "256 bit"
+                }
+              ],
+              "explanation": "IPv4 berukuran 32 bit, sedangkan IPv6 berukuran 128 bit."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 2; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Memilih teknologi sesuai kebutuhan\n\nSebuah kebun di pegunungan membutuhkan koneksi internet. Kabel tidak mungkin dipasang, sedangkan sinyal seluler lemah. VSAT menjadi pilihan meski bandwidth-nya terbatas.\n\nSebuah kantor kota membutuhkan koneksi cepat dan stabil. Jaringan seluler 4G atau 5G serta serat optik lebih tepat karena kapasitasnya besar.\n\nUntuk menghemat perangkat, layanan cloud dapat dipakai sebagai penyimpanan dan server aplikasi. Namun keamanan perlu dijaga, misalnya dengan enkripsi dan pembatasan akses.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Memilih teknologi sesuai kebutuhan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebuah kebun di pegunungan membutuhkan koneksi internet. Kabel tidak mungkin dipasang, sedangkan sinyal seluler lemah. VSAT menjadi pilihan meski bandwidth-nya terbatas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebuah kantor kota membutuhkan koneksi cepat dan stabil. Jaringan seluler 4G atau 5G serta serat optik lebih tepat karena kapasitasnya besar."
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk menghemat perangkat, layanan cloud dapat dipakai sebagai penyimpanan dan server aplikasi. Namun keamanan perlu dijaga, misalnya dengan enkripsi dan pembatasan akses."
+            },
+            {
+              "type": "scenario",
+              "id": "tjkt-2-skenario",
+              "title": "Memilih koneksi untuk kebun terpencil",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kebun di pegunungan tidak terjangkau kabel dan sinyal seluler lemah. Pilihanmu?",
+                  "choices": [
+                    {
+                      "text": "VSAT karena berbasis satelit dan tidak butuh infrastruktur darat",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "VSAT dirancang untuk daerah tanpa infrastruktur."
+                    },
+                    {
+                      "text": "5G karena paling cepat",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Kecepatan tidak berguna bila sinyalnya tidak tersedia."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Data kebun perlu dikirim tiap jam tetapi bandwidth terbatas. Bagaimana mengaturnya?",
+                  "choices": [
+                    {
+                      "text": "Mengirim data ringkas secara terjadwal dan memakai sensor hemat data",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kebutuhan disesuaikan kemampuan media yang tersedia."
+                    },
+                    {
+                      "text": "Mengirim video resolusi tinggi terus-menerus",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Bandwidth VSAT terbatas; pengiriman berat akan gagal."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Koneksi tersendat dan biaya membengkak tanpa hasil memadai.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Data terkirim tepat waktu dengan biaya terkendali.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "tjkt-2-perkembangan-teknologi-kartu",
+              "cards": [
+                {
+                  "front": "Apa perbedaan jaringan dedicated dan converged?",
+                  "back": "Dedicated memisahkan layanan; converged menyatukannya dalam TCP/IP."
+                },
+                {
+                  "front": "Kapan VSAT dipakai?",
+                  "back": "Di daerah tanpa infrastruktur seperti hutan, pegunungan, dan perkebunan."
+                },
+                {
+                  "front": "Berapa ukuran alamat IPv6?",
+                  "back": "128 bit."
+                },
+                {
+                  "front": "Apa itu sniffing?",
+                  "back": "Penyadapan lalu lintas data pada jaringan, pasif atau aktif."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-2-perkembangan-teknologi-cp-3",
+              "question": "Layanan komputasi yang disewa melalui jaringan sehingga pengguna tidak perlu memiliki server sendiri disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "cloud computing",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "microwave link"
+                },
+                {
+                  "id": "c2",
+                  "text": "core business"
+                },
+                {
+                  "id": "c3",
+                  "text": "sniffing"
+                }
+              ],
+              "explanation": "Cloud computing memindahkan komputasi ke penyedia layanan."
+            },
+            {
+              "type": "challenge",
+              "id": "tjkt-2-tantangan",
+              "title": "Tantangan istilah teknologi jaringan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Aturan komunikasi yang disepakati",
+                  "answer": "Protokol"
+                },
+                {
+                  "question": "Jaringan dengan satu protokol TCP/IP",
+                  "answer": "Converged"
+                },
+                {
+                  "question": "Akses satelit untuk daerah terpencil",
+                  "answer": "VSAT"
+                },
+                {
+                  "question": "Pengalamatan 128 bit",
+                  "answer": "IPv6"
+                },
+                {
+                  "question": "Penyadapan lalu lintas data",
+                  "answer": "Sniffing"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah teknologi jaringan terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Jaringan yang memisahkan layanan komputer, telepon, dan broadcast disebut…",
+              "options": [
+                {
+                  "text": "dedicated",
+                  "correct": true
+                },
+                {
+                  "text": "converged"
+                },
+                {
+                  "text": "cloud"
+                },
+                {
+                  "text": "virtual"
+                }
+              ],
+              "explanation": "Setiap layanan memakai protokol sendiri.",
+              "hint": "Banyak dipakai pada 1990-an."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jaringan yang menyatukan layanan dalam TCP/IP disebut…",
+              "options": [
+                {
+                  "text": "converged",
+                  "correct": true
+                },
+                {
+                  "text": "dedicated"
+                },
+                {
+                  "text": "analog"
+                },
+                {
+                  "text": "terisolasi"
+                }
+              ],
+              "explanation": "Converged memakai satu protokol utama.",
+              "hint": "Data, suara, dan video menyatu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aturan yang disepakati agar perangkat dapat berkomunikasi disebut…",
+              "options": [
+                {
+                  "text": "protokol",
+                  "correct": true
+                },
+                {
+                  "text": "topologi"
+                },
+                {
+                  "text": "bandwidth"
+                },
+                {
+                  "text": "firewall"
+                }
+              ],
+              "explanation": "Protokol berisi standarisasi komunikasi.",
+              "hint": "Contohnya TCP/IP."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri jaringan dedicated?",
+              "options": [
+                {
+                  "text": "Layanan terpisah",
+                  "correct": true
+                },
+                {
+                  "text": "Protokol tiap layanan berbeda",
+                  "correct": true
+                },
+                {
+                  "text": "Siaran memakai PAL atau NTSC",
+                  "correct": true
+                },
+                {
+                  "text": "Satu protokol TCP/IP",
+                  "correct": false
+                },
+                {
+                  "text": "Suara dan data menyatu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dedicated memisahkan layanan.",
+              "hint": "Penyatuan adalah ciri converged."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri jaringan converged?",
+              "options": [
+                {
+                  "text": "Satu protokol TCP/IP",
+                  "correct": true
+                },
+                {
+                  "text": "Layanan menyatu",
+                  "correct": true
+                },
+                {
+                  "text": "Layanan baru mudah ditambah",
+                  "correct": true
+                },
+                {
+                  "text": "Layanan terpisah",
+                  "correct": false
+                },
+                {
+                  "text": "Protokol berbeda per layanan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Converged memakai satu protokol.",
+              "hint": "Dedicated yang memisahkan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Contoh standar jaringan nirkabel yang disebut buku adalah…",
+              "options": [
+                {
+                  "text": "IEEE 802.11",
+                  "correct": true
+                },
+                {
+                  "text": "PAL"
+                },
+                {
+                  "text": "NTSC"
+                },
+                {
+                  "text": "PSTN"
+                }
+              ],
+              "explanation": "IEEE 802.11 adalah standar WLAN.",
+              "hint": "Beroperasi pada pita 2,4 GHz."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Teknologi seluler yang kecepatan teoretisnya diuji hingga 5 Gbps adalah…",
+              "options": [
+                {
+                  "text": "5G",
+                  "correct": true
+                },
+                {
+                  "text": "3G"
+                },
+                {
+                  "text": "4G"
+                },
+                {
+                  "text": "2G"
+                }
+              ],
+              "explanation": "5G jauh lebih cepat daripada 4G.",
+              "hint": "Memungkinkan unduhan besar dalam hitungan detik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah media nirkabel yang disebut buku?",
+              "options": [
+                {
+                  "text": "3G/4G/5G",
+                  "correct": true
+                },
+                {
+                  "text": "VSAT",
+                  "correct": true
+                },
+                {
+                  "text": "Microwave link",
+                  "correct": true
+                },
+                {
+                  "text": "Kabel UTP",
+                  "correct": false
+                },
+                {
+                  "text": "Serat optik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiganya media nirkabel.",
+              "hint": "UTP dan serat optik berupa kabel."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kelebihan IPv6?",
+              "options": [
+                {
+                  "text": "Jumlah alamat sangat banyak",
+                  "correct": true
+                },
+                {
+                  "text": "Ukuran 128 bit",
+                  "correct": true
+                },
+                {
+                  "text": "Mendukung alamat link local",
+                  "correct": true
+                },
+                {
+                  "text": "Hanya 32 bit",
+                  "correct": false
+                },
+                {
+                  "text": "Tidak punya gateway",
+                  "correct": false
+                }
+              ],
+              "explanation": "IPv6 memperluas ruang alamat.",
+              "hint": "IPv4 yang berukuran 32 bit."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Protokol",
+                  "right": "aturan komunikasi yang disepakati"
+                },
+                {
+                  "id": "m1",
+                  "left": "Jaringan dedicated",
+                  "right": "layanan terpisah per protokol"
+                },
+                {
+                  "id": "m2",
+                  "left": "Jaringan converged",
+                  "right": "semua layanan dalam TCP/IP"
+                },
+                {
+                  "id": "m3",
+                  "left": "VSAT",
+                  "right": "akses satelit daerah terpencil"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "aturan komunikasi yang disepakati",
+                  "m1": "layanan terpisah per protokol",
+                  "m2": "semua layanan dalam TCP/IP",
+                  "m3": "akses satelit daerah terpencil"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan perkembangan media seluler.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "3G"
+                },
+                {
+                  "id": "d1",
+                  "text": "4G"
+                },
+                {
+                  "id": "d2",
+                  "text": "5G"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2"
+                ]
+              },
+              "explanation": "Setiap generasi meningkatkan kecepatan data.",
+              "hint": "5G berada di puncak urutan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan alur koneksi ponsel ke internet.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Ponsel mengaktifkan data seluler"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menara seluler menerima sinyal"
+                },
+                {
+                  "id": "p2",
+                  "text": "Indoor unit meneruskan ke backbone"
+                },
+                {
+                  "id": "p3",
+                  "text": "Data mencapai jaringan ISP"
+                },
+                {
+                  "id": "p4",
+                  "text": "Ponsel membuka halaman web"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Data bergerak dari perangkat ke jaringan ISP.",
+              "hint": "Backbone menghubungkan menara ke ISP."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Media yang mengirim data melalui satelit untuk daerah tanpa infrastruktur adalah…",
+              "options": [
+                {
+                  "text": "VSAT",
+                  "correct": true
+                },
+                {
+                  "text": "microwave link"
+                },
+                {
+                  "text": "serat optik"
+                },
+                {
+                  "text": "kabel UTP"
+                }
+              ],
+              "explanation": "VSAT cocok untuk hutan, pegunungan, dan perkebunan.",
+              "hint": "Bandwidth-nya tidak sebesar 4G."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alamat IP versi baru yang berukuran 128 bit adalah…",
+              "options": [
+                {
+                  "text": "IPv6",
+                  "correct": true
+                },
+                {
+                  "text": "IPv4"
+                },
+                {
+                  "text": "MAC address"
+                },
+                {
+                  "text": "URL"
+                }
+              ],
+              "explanation": "IPv6 menyediakan jumlah alamat jauh lebih banyak.",
+              "hint": "Menggantikan keterbatasan IPv4."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah perangkat dalam data center?",
+              "options": [
+                {
+                  "text": "Server",
+                  "correct": true
+                },
+                {
+                  "text": "Switch",
+                  "correct": true
+                },
+                {
+                  "text": "Sistem pendingin",
+                  "correct": true
+                },
+                {
+                  "text": "Meja makan",
+                  "correct": false
+                },
+                {
+                  "text": "Papan tulis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Data center berisi perangkat komputasi dan pendukung.",
+              "hint": "Furnitur bukan perangkat data center."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Perangkat pada menara seluler yang berfungsi sebagai modem sekaligus router disebut…",
+              "options": [
+                {
+                  "text": "indoor unit",
+                  "correct": true
+                },
+                {
+                  "text": "outdoor unit"
+                },
+                {
+                  "text": "switch"
+                },
+                {
+                  "text": "access point"
+                }
+              ],
+              "explanation": "Indoor unit punya dua pengalamatan IP."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pusat penyimpanan dan pengolahan data berisi server serta sistem pendukung disebut…",
+              "options": [
+                {
+                  "text": "data center",
+                  "correct": true
+                },
+                {
+                  "text": "core business"
+                },
+                {
+                  "text": "client"
+                },
+                {
+                  "text": "kios"
+                }
+              ],
+              "explanation": "Data center menampung perangkat dan pendingin."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Layanan komputasi yang disewa melalui jaringan disebut…",
+              "options": [
+                {
+                  "text": "cloud computing",
+                  "correct": true
+                },
+                {
+                  "text": "sniffing"
+                },
+                {
+                  "text": "firewall"
+                },
+                {
+                  "text": "VSAT"
+                }
+              ],
+              "explanation": "Cloud mengurangi perangkat keras di sisi pengguna."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perangkat sehari-hari yang terhubung jaringan dan saling bertukar data disebut…",
+              "options": [
+                {
+                  "text": "IoT",
+                  "correct": true
+                },
+                {
+                  "text": "IPv6"
+                },
+                {
+                  "text": "PSTN"
+                },
+                {
+                  "text": "PAL"
+                }
+              ],
+              "explanation": "IoT adalah Internet of Things."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyadapan lalu lintas data pada jaringan disebut…",
+              "options": [
+                {
+                  "text": "sniffing",
+                  "correct": true
+                },
+                {
+                  "text": "sniff test"
+                },
+                {
+                  "text": "routing"
+                },
+                {
+                  "text": "switching"
+                }
+              ],
+              "explanation": "Sniffing dapat bersifat pasif atau aktif."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh layanan pada jaringan converged?",
+              "options": [
+                {
+                  "text": "IoT",
+                  "correct": true
+                },
+                {
+                  "text": "Cloud computing",
+                  "correct": true
+                },
+                {
+                  "text": "Video conference",
+                  "correct": true
+                },
+                {
+                  "text": "Surat pos biasa",
+                  "correct": false
+                },
+                {
+                  "text": "Telegraf",
+                  "correct": false
+                }
+              ],
+              "explanation": "Layanan memanfaatkan jaringan cepat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah jenis sniffing?",
+              "options": [
+                {
+                  "text": "Pasif",
+                  "correct": true
+                },
+                {
+                  "text": "Aktif",
+                  "correct": true
+                },
+                {
+                  "text": "Statis",
+                  "correct": false
+                },
+                {
+                  "text": "Dinamis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sniffing dibedakan pasif dan aktif."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Microwave link",
+                  "right": "penghubung gelombang mikro"
+                },
+                {
+                  "id": "m1",
+                  "left": "IPv6",
+                  "right": "pengalamatan 128 bit"
+                },
+                {
+                  "id": "m2",
+                  "left": "Cloud computing",
+                  "right": "komputasi yang disewa"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sniffing",
+                  "right": "penyadapan lalu lintas data"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "penghubung gelombang mikro",
+                  "m1": "pengalamatan 128 bit",
+                  "m2": "komputasi yang disewa",
+                  "m3": "penyadapan lalu lintas data"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah pengamatan simulasi jaringan seluler.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Membuka berkas LabActivity"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mengamati perangkat ponsel"
+                },
+                {
+                  "id": "d2",
+                  "text": "Membuka web browser dan mengetik alamat"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mengamati menara seluler dan indoor unit"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mencatat alamat IP sumber dan tujuan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pengamatan berjalan dari perangkat ke jaringan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pemanfaatan VSAT pada daerah terpencil.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menyiapkan antena dan ODU"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menghubungkan IDU ke jaringan lokal"
+                },
+                {
+                  "id": "p2",
+                  "text": "Mengarahkan antena ke satelit"
+                },
+                {
+                  "id": "p3",
+                  "text": "Mengaktifkan layanan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menguji koneksi dan bandwidth"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "VSAT dipasang dari perangkat luar ke pengujian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sniffing yang hanya merekam lalu lintas data tanpa mengubahnya disebut…",
+              "options": [
+                {
+                  "text": "sniffing pasif",
+                  "correct": true
+                },
+                {
+                  "text": "sniffing aktif"
+                },
+                {
+                  "text": "spoofing"
+                },
+                {
+                  "text": "flooding"
+                }
+              ],
+              "explanation": "Pasif hanya merekam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Layanan jaringan pada era converged memungkinkan…",
+              "options": [
+                {
+                  "text": "otomatisasi pekerjaan dan cloud computing",
+                  "correct": true
+                },
+                {
+                  "text": "hanya mengirim surel"
+                },
+                {
+                  "text": "hanya menelusuri web"
+                },
+                {
+                  "text": "hanya menelepon"
+                }
+              ],
+              "explanation": "Jaringan cepat mendukung layanan baru."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alasan perkembangan media dan pengalamatan penting?",
+              "options": [
+                {
+                  "text": "Meningkatkan kecepatan jaringan",
+                  "correct": true
+                },
+                {
+                  "text": "Memungkinkan layanan baru",
+                  "correct": true
+                },
+                {
+                  "text": "Mengurangi jumlah perangkat pengguna",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus kebutuhan protokol",
+                  "correct": false
+                },
+                {
+                  "text": "Membuat jaringan tanpa aturan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perkembangan menaikkan kapasitas dan layanan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Protokol",
+                  "right": "aturan komunikasi yang disepakati"
+                },
+                {
+                  "id": "m1",
+                  "left": "Jaringan dedicated",
+                  "right": "layanan terpisah per protokol"
+                },
+                {
+                  "id": "m2",
+                  "left": "Jaringan converged",
+                  "right": "semua layanan dalam TCP/IP"
+                },
+                {
+                  "id": "m3",
+                  "left": "VSAT",
+                  "right": "akses satelit daerah terpencil"
+                },
+                {
+                  "id": "m4",
+                  "left": "Microwave link",
+                  "right": "penghubung gelombang mikro"
+                },
+                {
+                  "id": "m5",
+                  "left": "IPv6",
+                  "right": "pengalamatan 128 bit"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "aturan komunikasi yang disepakati",
+                  "m1": "layanan terpisah per protokol",
+                  "m2": "semua layanan dalam TCP/IP",
+                  "m3": "akses satelit daerah terpencil",
+                  "m4": "penghubung gelombang mikro",
+                  "m5": "pengalamatan 128 bit"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pemeriksaan keamanan jaringan sederhana.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mencatat perangkat yang terhubung"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memeriksa lalu lintas data mencurigakan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mengidentifikasi potensi sniffing"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membatasi akses dengan kata sandi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memantau secara berkala"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Keamanan dimulai dari inventaris perangkat."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

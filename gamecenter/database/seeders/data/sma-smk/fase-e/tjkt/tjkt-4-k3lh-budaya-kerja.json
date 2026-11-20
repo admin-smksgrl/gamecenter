@@ -1,0 +1,1288 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "tjkt",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "TJKT 4",
+      "title": "K3LH dan Budaya Kerja Industri",
+      "description": "Menerapkan keselamatan dan kesehatan kerja lingkungan hidup (K3LH), mencegah kecelakaan kerja lewat rambu dan SOP, serta membiasakan budaya kerja 5R dan pengendalian visual.",
+      "learning_objectives": [
+        "Menjelaskan pengertian dan empat komponen utama K3LH.",
+        "Menerapkan hierarki pengendalian bahaya dan praktik kerja yang aman.",
+        "Mengenali rambu keselamatan dan manfaat Standar Operasional Prosedur.",
+        "Menerapkan budaya kerja 5R dan pengendalian visual di lingkungan kerja."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 4; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Apa itu K3LH?",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 4; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Melindungi tenaga kerja dari bahaya\n\nMenurut Permenaker No 5 Tahun 2018, K3LH adalah segala kegiatan untuk menjamin dan melindungi keselamatan serta kesehatan tenaga kerja melalui upaya pencegahan kecelakaan kerja dan penyakit akibat kerja.\n\nKeselamatan berarti keadaan terhindar dari bahaya. K3LH berhubungan dengan peralatan, tempat kerja, dan lingkungan. Pembiasaan memakai peralatan sesuai SOP adalah salah satu cara menerapkannya.\n\nEmpat komponen utama K3LH adalah antisipasi, rekognisi, evaluasi, dan kendali. Keempatnya berjalan berurutan untuk mengendalikan lingkungan kerja.\n\nKecelakaan kerja bukan nasib sial; hampir selalu punya penyebab yang dapat dicegah lebih awal.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "tjkt-4-k3lh-budaya-kerja-glosarium",
+              "terms": [
+                {
+                  "term": "K3LH",
+                  "definition": "Keselamatan dan Kesehatan Kerja Lingkungan Hidup untuk melindungi tenaga kerja dari kecelakaan dan penyakit akibat kerja."
+                },
+                {
+                  "term": "Antisipasi",
+                  "definition": "Upaya memprediksi bahaya dan risiko yang mungkin terjadi di tempat kerja."
+                },
+                {
+                  "term": "Rekognisi",
+                  "definition": "Upaya mengenali bahaya lingkungan kerja dan pengaruhnya terhadap karyawan."
+                },
+                {
+                  "term": "Evaluasi",
+                  "definition": "Penilaian kuantitatif dan pemantauan dampak bahaya lingkungan kerja."
+                },
+                {
+                  "term": "Kendali",
+                  "definition": "Upaya menghilangkan atau mengurangi bahaya lingkungan kerja."
+                },
+                {
+                  "term": "Hierarki pengendalian",
+                  "definition": "Urutan prioritas pengendalian bahaya: eliminasi, substitusi, rekayasa, administrasi, sampai APD."
+                },
+                {
+                  "term": "Eliminasi",
+                  "definition": "Menghilangkan sumber bahaya sampai ke titik aman."
+                },
+                {
+                  "term": "Substitusi",
+                  "definition": "Mengganti peralatan atau bahan dengan yang lebih aman."
+                },
+                {
+                  "term": "APD",
+                  "definition": "Alat pelindung diri seperti helm, kacamata, sarung tangan, dan pelindung telinga."
+                },
+                {
+                  "term": "5R",
+                  "definition": "Ringkas, Rapi, Resik, Rawat, dan Rajin untuk mengelola lingkungan kerja agar efisien."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Melindungi tenaga kerja dari bahaya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Menurut Permenaker No 5 Tahun 2018, K3LH adalah segala kegiatan untuk menjamin dan melindungi keselamatan serta kesehatan tenaga kerja melalui upaya pencegahan kecelakaan kerja dan penyakit akibat kerja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Keselamatan berarti keadaan terhindar dari bahaya. K3LH berhubungan dengan peralatan, tempat kerja, dan lingkungan. Pembiasaan memakai peralatan sesuai SOP adalah salah satu cara menerapkannya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Empat komponen utama K3LH adalah antisipasi, rekognisi, evaluasi, dan kendali. Keempatnya berjalan berurutan untuk mengendalikan lingkungan kerja."
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-4-k3lh-budaya-kerja-diagram",
+              "engine": "mermaid",
+              "title": "Empat komponen utama K3LH",
+              "code": "flowchart LR\n  A[Antisipasi] --> B[Rekognisi]\n  B --> C[Evaluasi]\n  C --> D[Kendali]\n  D --> E[Lingkungan kerja aman]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Kecelakaan kerja bukan nasib sial; hampir selalu punya penyebab yang dapat dicegah lebih awal."
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-4-k3lh-budaya-kerja-cp-1",
+              "question": "Upaya memprediksi bahaya yang mungkin terjadi di tempat kerja disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "antisipasi",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "kendali"
+                },
+                {
+                  "id": "c2",
+                  "text": "APD"
+                },
+                {
+                  "id": "c3",
+                  "text": "rambu"
+                }
+              ],
+              "explanation": "Antisipasi menyusun prediksi bahaya dan risiko, lalu menyiapkan keadaan darurat."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Hierarki pengendalian bahaya",
+          "duration": 300,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 4; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Dari eliminasi sampai alat pelindung\n\nSaat melakukan K3LH, upaya kendali dijalankan berdasarkan prioritas yang disebut hierarki pengendalian. Urutannya dimulai dari yang paling efektif menghilangkan bahaya.\n\nEliminasi menghilangkan sumber bahaya, substitusi mengganti dengan yang lebih aman, lalu rekayasa teknis memodifikasi aktivitas kerja. Setelah itu administrasi menerapkan tanda dan prosedur, dan terakhir APD melindungi tubuh.\n\nAPD adalah perangkat akhir yang melindungi sebagian atau seluruh tubuh, seperti kacamata, pelindung telinga, sarung tangan, dan helm. APD dipakai setelah upaya lain belum cukup.\n\n| Tingkat | Tindakan | Contoh |\n|---|---|---|\n| Eliminasi | Menghilangkan sumber bahaya | Menghilangkan bahan mudah terbakar |\n| Substitusi | Mengganti yang lebih aman | Mengganti bahan kimia berbahaya |\n| Rekayasa teknis | Memodifikasi aktivitas | Memindahkan pekerjaan dari area bising |\n| Administrasi | Tanda dan prosedur | Memasang rambu bahaya |\n| APD | Melindungi tubuh | Helm, kacamata, sarung tangan |\n\n### Praktik kerja yang aman\n\n- Sebelum bekerja, identifikasi potensi bahaya dari peralatan yang digunakan dan rancang rencana tanggap darurat.\n- Saat merakit komputer, cuci tangan, gunakan gelang antistatis, dan pastikan aliran listrik mati saat memasang sumber daya.\n- Posisi duduk dan posisi layar komputer perlu diatur agar tidak menimbulkan gangguan kesehatan.\n- Kecelakaan dapat dicegah dengan mengenali sumber masalah dan menyusun langkah antisipasi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari eliminasi sampai alat pelindung"
+            },
+            {
+              "type": "paragraph",
+              "text": "Saat melakukan K3LH, upaya kendali dijalankan berdasarkan prioritas yang disebut hierarki pengendalian. Urutannya dimulai dari yang paling efektif menghilangkan bahaya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Eliminasi menghilangkan sumber bahaya, substitusi mengganti dengan yang lebih aman, lalu rekayasa teknis memodifikasi aktivitas kerja. Setelah itu administrasi menerapkan tanda dan prosedur, dan terakhir APD melindungi tubuh."
+            },
+            {
+              "type": "paragraph",
+              "text": "APD adalah perangkat akhir yang melindungi sebagian atau seluruh tubuh, seperti kacamata, pelindung telinga, sarung tangan, dan helm. APD dipakai setelah upaya lain belum cukup."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Tingkat",
+                  "Tindakan",
+                  "Contoh"
+                ],
+                [
+                  "Eliminasi",
+                  "Menghilangkan sumber bahaya",
+                  "Menghilangkan bahan mudah terbakar"
+                ],
+                [
+                  "Substitusi",
+                  "Mengganti yang lebih aman",
+                  "Mengganti bahan kimia berbahaya"
+                ],
+                [
+                  "Rekayasa teknis",
+                  "Memodifikasi aktivitas",
+                  "Memindahkan pekerjaan dari area bising"
+                ],
+                [
+                  "Administrasi",
+                  "Tanda dan prosedur",
+                  "Memasang rambu bahaya"
+                ],
+                [
+                  "APD",
+                  "Melindungi tubuh",
+                  "Helm, kacamata, sarung tangan"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-4-hierarki",
+              "engine": "mermaid",
+              "title": "Hierarki pengendalian dari paling efektif",
+              "code": "flowchart TB\n  E[Eliminasi 1] --> S[Substitusi 2]\n  S --> R[Rekayasa teknis 3]\n  R --> A[Administrasi 4]\n  A --> P[APD 5]"
+            },
+            {
+              "type": "categorize",
+              "id": "tjkt-4-klasifikasi",
+              "prompt": "Kelompokkan tindakan berikut ke dalam tingkat pengendalian yang sesuai.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Eliminasi/Substitusi"
+                },
+                {
+                  "id": "b2",
+                  "label": "Administrasi/APD"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Menghilangkan bahan mudah terbakar dari area kerja",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Memakai helm keselamatan",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Mengganti bahan kimia dengan yang aman",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Memasang rambu larangan merokok",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Memindahkan pekerjaan dari area bising",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Memakai kacamata pelindung",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Mengganti peralatan yang berbahaya",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Membuat prosedur penggunaan peralatan",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Eliminasi dan substitusi menghilangkan atau mengganti bahaya; administrasi dan APD memproteksi setelah itu.",
+                "wrong": "Periksa lagi: memakai perlindungan adalah APD, memasang rambu adalah administrasi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Praktik kerja yang aman"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sebelum bekerja, identifikasi potensi bahaya dari peralatan yang digunakan dan rancang rencana tanggap darurat.",
+                "Saat merakit komputer, cuci tangan, gunakan gelang antistatis, dan pastikan aliran listrik mati saat memasang sumber daya.",
+                "Posisi duduk dan posisi layar komputer perlu diatur agar tidak menimbulkan gangguan kesehatan.",
+                "Kecelakaan dapat dicegah dengan mengenali sumber masalah dan menyusun langkah antisipasi."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-4-k3lh-budaya-kerja-cp-2",
+              "question": "Urutan prioritas pengendalian bahaya dari yang paling dulu adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "eliminasi, substitusi, rekayasa, administrasi, APD",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "APD, admin, rekayasa, substitusi, eliminasi"
+                },
+                {
+                  "id": "c2",
+                  "text": "substitusi, eliminasi, APD, admin, rekayasa"
+                },
+                {
+                  "id": "c3",
+                  "text": "administrasi, APD, eliminasi, rekayasa, substitusi"
+                }
+              ],
+              "explanation": "Hierarki dimulai dari yang paling efektif menghilangkan bahaya hingga APD."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Rambu, SOP, dan budaya 5R",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 4; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Mencegah kecelakaan dan keteraturan kerja\n\nRambu keselamatan atau safety sign menginformasikan area bahaya dan area aman. Warna merah berarti larangan atau pemadam api, kuning tanda waspada, hijau zona aman dan pertolongan pertama, biru kewajiban, dan putih informasi umum.\n\nStandar Operasional Prosedur (SOP) adalah tata cara penggunaan peralatan. SOP menjaga pengguna dan peralatan tetap aman, peralatan lebih awet, dan performanya terjaga.\n\nBudaya kerja 5R meliputi Ringkas (memilah), Rapi (menata), Resik (membersihkan), Rawat (mempertahankan), dan Rajin (disiplin menjalankan). 5R juga dikenal sebagai 5S: Seiri, Seiton, Seiso, Seiketsu, dan Shitsuke.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mencegah kecelakaan dan keteraturan kerja"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rambu keselamatan atau safety sign menginformasikan area bahaya dan area aman. Warna merah berarti larangan atau pemadam api, kuning tanda waspada, hijau zona aman dan pertolongan pertama, biru kewajiban, dan putih informasi umum."
+            },
+            {
+              "type": "paragraph",
+              "text": "Standar Operasional Prosedur (SOP) adalah tata cara penggunaan peralatan. SOP menjaga pengguna dan peralatan tetap aman, peralatan lebih awet, dan performanya terjaga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Budaya kerja 5R meliputi Ringkas (memilah), Rapi (menata), Resik (membersihkan), Rawat (mempertahankan), dan Rajin (disiplin menjalankan). 5R juga dikenal sebagai 5S: Seiri, Seiton, Seiso, Seiketsu, dan Shitsuke."
+            },
+            {
+              "type": "scenario",
+              "id": "tjkt-4-skenario",
+              "title": "Kabel berserakan di lab",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Di lab, kabel jaringan dan listrik berserakan di lantai. Tindakan awal yang benar?",
+                  "choices": [
+                    {
+                      "text": "Mengidentifikasi area kritis dan memasang cable duct agar rapi",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Merapikan kabel dengan duct mengurangi risiko tersandung dan kebakaran."
+                    },
+                    {
+                      "text": "Membiarkan hingga nanti ada petugas",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menunda penanganan bahaya membiarkan kecelakaan terjadi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bagaimana menjaga keteraturan itu berkelanjutan?",
+                  "choices": [
+                    {
+                      "text": "Menerapkan 5R dan menjadwalkan perawatan rutin",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "5R membuat keteraturan menjadi budaya."
+                    },
+                    {
+                      "text": "Sekali rapi lalu tidak dicek lagi",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa rawat dan rajin, kekacauan muncul kembali."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Kecelakaan terulang dan kerja terganggu.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Lab aman, rapi, dan nyaman untuk belajar.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "tjkt-4-k3lh-budaya-kerja-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan empat komponen K3LH.",
+                  "back": "Antisipasi, rekognisi, evaluasi, kendali."
+                },
+                {
+                  "front": "Sebutkan hierarki pengendalian.",
+                  "back": "Eliminasi, substitusi, rekayasa, administrasi, APD."
+                },
+                {
+                  "front": "Apa makna rambu berwarna hijau?",
+                  "back": "Zona aman dan pertolongan pertama."
+                },
+                {
+                  "front": "Sebutkan 5R.",
+                  "back": "Ringkas, Rapi, Resik, Rawat, Rajin."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-4-k3lh-budaya-kerja-cp-3",
+              "question": "Manfaat utama SOP saat menggunakan peralatan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "menjaga pengguna dan peralatan tetap aman",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "menambah waktu kerja"
+                },
+                {
+                  "id": "c2",
+                  "text": "mengganti peralatan yang rusak"
+                },
+                {
+                  "id": "c3",
+                  "text": "menaikkan harga peralatan"
+                }
+              ],
+              "explanation": "SOP menjaga keselamatan pengguna, keawetan, dan performa peralatan."
+            },
+            {
+              "type": "challenge",
+              "id": "tjkt-4-tantangan",
+              "title": "Tantangan istilah K3LH",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Menghilangkan sumber bahaya",
+                  "answer": "Eliminasi"
+                },
+                {
+                  "question": "Mengganti dengan yang lebih aman",
+                  "answer": "Substitusi"
+                },
+                {
+                  "question": "Alat pelindung diri",
+                  "answer": "APD"
+                },
+                {
+                  "question": "Memilah barang yang diperlukan",
+                  "answer": "Ringkas"
+                },
+                {
+                  "question": "Rambu untuk zona aman",
+                  "answer": "Hijau"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah K3LH terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "K3LH dan Budaya Kerja Industri — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "K3LH menurut Permenaker No 5 Tahun 2018 adalah…",
+              "options": [
+                {
+                  "text": "upaya menjamin dan melindungi keselamatan serta kesehatan tenaga kerja",
+                  "correct": true
+                },
+                {
+                  "text": "kegiatan hiburan karyawan"
+                },
+                {
+                  "text": "peringkat perusahaan"
+                },
+                {
+                  "text": "promosi karyawan"
+                }
+              ],
+              "explanation": "K3LH mencegah kecelakaan dan penyakit akibat kerja.",
+              "hint": "Melindungi tenaga kerja."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Upaya memprediksi bahaya dan risiko di tempat kerja disebut…",
+              "options": [
+                {
+                  "text": "antisipasi",
+                  "correct": true
+                },
+                {
+                  "text": "rekognisi"
+                },
+                {
+                  "text": "evaluasi"
+                },
+                {
+                  "text": "kendali"
+                }
+              ],
+              "explanation": "Antisipasi menyusun prediksi bahaya.",
+              "hint": "Menentukan tingkat risiko."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Upaya mengenali bahaya lingkungan kerja disebut…",
+              "options": [
+                {
+                  "text": "rekognisi",
+                  "correct": true
+                },
+                {
+                  "text": "antisipasi"
+                },
+                {
+                  "text": "APD"
+                },
+                {
+                  "text": "rambu"
+                }
+              ],
+              "explanation": "Rekognisi memahami pengaruh bahaya terhadap karyawan.",
+              "hint": "Tahap kedua komponen K3LH."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komponen utama K3LH?",
+              "options": [
+                {
+                  "text": "Antisipasi",
+                  "correct": true
+                },
+                {
+                  "text": "Rekognisi",
+                  "correct": true
+                },
+                {
+                  "text": "Kendali",
+                  "correct": true
+                },
+                {
+                  "text": "Promosi",
+                  "correct": false
+                },
+                {
+                  "text": "Hiburan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Empat komponen: antisipasi, rekognisi, evaluasi, kendali.",
+              "hint": "Promosi bukan komponen K3LH."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah level hierarki pengendalian?",
+              "options": [
+                {
+                  "text": "Eliminasi",
+                  "correct": true
+                },
+                {
+                  "text": "Substitusi",
+                  "correct": true
+                },
+                {
+                  "text": "APD",
+                  "correct": true
+                },
+                {
+                  "text": "Reklame",
+                  "correct": false
+                },
+                {
+                  "text": "Dekorasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Urutannya dari eliminasi hingga APD.",
+              "hint": "Reklame bukan level pengendalian."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "K3LH dan Budaya Kerja Industri — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Tingkat pengendalian yang menghilangkan sumber bahaya disebut…",
+              "options": [
+                {
+                  "text": "eliminasi",
+                  "correct": true
+                },
+                {
+                  "text": "substitusi"
+                },
+                {
+                  "text": "administrasi"
+                },
+                {
+                  "text": "APD"
+                }
+              ],
+              "explanation": "Eliminasi menurunkan bahaya ke titik aman.",
+              "hint": "Paling efektif dalam hierarki."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Mengganti peralatan berbahaya dengan yang lebih aman disebut…",
+              "options": [
+                {
+                  "text": "substitusi",
+                  "correct": true
+                },
+                {
+                  "text": "eliminasi"
+                },
+                {
+                  "text": "rekayasa teknis"
+                },
+                {
+                  "text": "APD"
+                }
+              ],
+              "explanation": "Substitusi mengganti bahan atau sistem.",
+              "hint": "Urutan kedua hierarki."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh APD?",
+              "options": [
+                {
+                  "text": "Helm",
+                  "correct": true
+                },
+                {
+                  "text": "Sarung tangan",
+                  "correct": true
+                },
+                {
+                  "text": "Kacamata pelindung",
+                  "correct": true
+                },
+                {
+                  "text": "Mouse",
+                  "correct": false
+                },
+                {
+                  "text": "Kabel",
+                  "correct": false
+                }
+              ],
+              "explanation": "APD melindungi tubuh dari bahaya.",
+              "hint": "Mouse dan kabel bukan pelindung tubuh."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh rambu keselamatan?",
+              "options": [
+                {
+                  "text": "Larangan merokok",
+                  "correct": true
+                },
+                {
+                  "text": "Zona aman",
+                  "correct": true
+                },
+                {
+                  "text": "Pintu darurat",
+                  "correct": true
+                },
+                {
+                  "text": "Harga produk",
+                  "correct": false
+                },
+                {
+                  "text": "Menu makan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rambu menginformasikan bahaya dan aman.",
+              "hint": "Bukan informasi bisnis."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Antisipasi",
+                  "right": "memprediksi bahaya"
+                },
+                {
+                  "id": "m1",
+                  "left": "Rekognisi",
+                  "right": "mengenali bahaya lingkungan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Eliminasi",
+                  "right": "menghilangkan sumber bahaya"
+                },
+                {
+                  "id": "m3",
+                  "left": "Substitusi",
+                  "right": "mengganti dengan yang lebih aman"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "memprediksi bahaya",
+                  "m1": "mengenali bahaya lingkungan",
+                  "m2": "menghilangkan sumber bahaya",
+                  "m3": "mengganti dengan yang lebih aman"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan komponen K3LH.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Antisipasi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Rekognisi"
+                },
+                {
+                  "id": "d2",
+                  "text": "Evaluasi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Kendali"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "K3LH berjalan dari prediksi ke pengendalian.",
+              "hint": "Kendali menutup proses."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan hierarki pengendalian.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Eliminasi"
+                },
+                {
+                  "id": "p1",
+                  "text": "Substitusi"
+                },
+                {
+                  "id": "p2",
+                  "text": "Rekayasa teknis"
+                },
+                {
+                  "id": "p3",
+                  "text": "Administrasi"
+                },
+                {
+                  "id": "p4",
+                  "text": "APD"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Dari paling efektif hingga pelindung tubuh.",
+              "hint": "APD dipakai setelah upaya lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh alat pelindung diri adalah…",
+              "options": [
+                {
+                  "text": "helm dan kacamata keselamatan",
+                  "correct": true
+                },
+                {
+                  "text": "kabel dan switch"
+                },
+                {
+                  "text": "router dan server"
+                },
+                {
+                  "text": "firewall dan VPN"
+                }
+              ],
+              "explanation": "APD melindungi sebagian atau seluruh tubuh.",
+              "hint": "Bukan perangkat jaringan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rambu pemadam api dan larangan ditandai warna…",
+              "options": [
+                {
+                  "text": "merah",
+                  "correct": true
+                },
+                {
+                  "text": "hijau"
+                },
+                {
+                  "text": "biru"
+                },
+                {
+                  "text": "kuning"
+                }
+              ],
+              "explanation": "Merah berarti larangan atau pemadam api.",
+              "hint": "Hijau zona aman."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah langkah 5R?",
+              "options": [
+                {
+                  "text": "Ringkas",
+                  "correct": true
+                },
+                {
+                  "text": "Rapi",
+                  "correct": true
+                },
+                {
+                  "text": "Rajin",
+                  "correct": true
+                },
+                {
+                  "text": "Reklame",
+                  "correct": false
+                },
+                {
+                  "text": "Remote",
+                  "correct": false
+                }
+              ],
+              "explanation": "5R: Ringkas, Rapi, Resik, Rawat, Rajin.",
+              "hint": "Reklame bukan bagian 5R."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "K3LH dan Budaya Kerja Industri — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Rambu tanda waspada dan potensi risiko ditandai warna…",
+              "options": [
+                {
+                  "text": "kuning",
+                  "correct": true
+                },
+                {
+                  "text": "merah"
+                },
+                {
+                  "text": "hijau"
+                },
+                {
+                  "text": "putih"
+                }
+              ],
+              "explanation": "Kuning berarti perhatian atau waspada."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tata cara penggunaan peralatan kerja disebut…",
+              "options": [
+                {
+                  "text": "Standar Operasional Prosedur (SOP)",
+                  "correct": true
+                },
+                {
+                  "text": "core business"
+                },
+                {
+                  "text": "firewall"
+                },
+                {
+                  "text": "switch"
+                }
+              ],
+              "explanation": "SOP menjaga keamanan dan performa peralatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Budaya kerja untuk mengelola lingkungan kerja agar efisien disebut…",
+              "options": [
+                {
+                  "text": "5R",
+                  "correct": true
+                },
+                {
+                  "text": "5G"
+                },
+                {
+                  "text": "3G"
+                },
+                {
+                  "text": "TCP/IP"
+                }
+              ],
+              "explanation": "5R: Ringkas, Rapi, Resik, Rawat, Rajin."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "5S yang berarti menata barang berdasarkan alur kerja disebut…",
+              "options": [
+                {
+                  "text": "seiton / rapi",
+                  "correct": true
+                },
+                {
+                  "text": "seiri"
+                },
+                {
+                  "text": "seiso"
+                },
+                {
+                  "text": "shitsuke"
+                }
+              ],
+              "explanation": "Rapi menata agar mudah ditemukan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kunci keberhasilan penerapan 5R di sekolah adalah…",
+              "options": [
+                {
+                  "text": "komitmen seluruh warga sekolah",
+                  "correct": true
+                },
+                {
+                  "text": "anggota saja"
+                },
+                {
+                  "text": "karyawan asing"
+                },
+                {
+                  "text": "alat saja"
+                }
+              ],
+              "explanation": "Komitmen menjaga konsistensi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tujuan penerapan 5R?",
+              "options": [
+                {
+                  "text": "Meningkatkan efisiensi",
+                  "correct": true
+                },
+                {
+                  "text": "Mengurangi risiko bahaya",
+                  "correct": true
+                },
+                {
+                  "text": "Menghilangkan pemborosan",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah kekacauan",
+                  "correct": false
+                },
+                {
+                  "text": "Menimbun sampah",
+                  "correct": false
+                }
+              ],
+              "explanation": "5R membuat kerja efisien dan aman."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat SOP?",
+              "options": [
+                {
+                  "text": "Menjaga keamanan pengguna",
+                  "correct": true
+                },
+                {
+                  "text": "Peralatan lebih awet",
+                  "correct": true
+                },
+                {
+                  "text": "Performa terjaga",
+                  "correct": true
+                },
+                {
+                  "text": "Mengurangi keselamatan",
+                  "correct": false
+                },
+                {
+                  "text": "Membiarkan bahaya",
+                  "correct": false
+                }
+              ],
+              "explanation": "SOP menstandarkan kerja yang aman."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "APD",
+                  "right": "alat pelindung diri"
+                },
+                {
+                  "id": "m1",
+                  "left": "5R",
+                  "right": "ringkas, rapi, resik, rawat, rajin"
+                },
+                {
+                  "id": "m2",
+                  "left": "SOP",
+                  "right": "tata cara penggunaan peralatan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Evaluasi",
+                  "right": "menilai besarnya bahaya"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "alat pelindung diri",
+                  "m1": "ringkas, rapi, resik, rawat, rajin",
+                  "m2": "tata cara penggunaan peralatan",
+                  "m3": "menilai besarnya bahaya"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan penyusunan rencana tanggap darurat.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengidentifikasi potensi bahaya"
+                },
+                {
+                  "id": "d1",
+                  "text": "Membayangkan keadaan darurat"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menentukan cara melindungi diri"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menyusun rencana prakejadian, saat, dan pascakejadian"
+                },
+                {
+                  "id": "d4",
+                  "text": "Berlatih menghadapi darurat"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Perencanaan dari identifikasi ke latihan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan penerapan 5R.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Ringkas"
+                },
+                {
+                  "id": "p1",
+                  "text": "Rapi"
+                },
+                {
+                  "id": "p2",
+                  "text": "Resik"
+                },
+                {
+                  "id": "p3",
+                  "text": "Rawat"
+                },
+                {
+                  "id": "p4",
+                  "text": "Rajin"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "5R berjalan bertahap sesuai urutan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Saat merakit komputer, sebelum memasang sumber daya sebaiknya…",
+              "options": [
+                {
+                  "text": "memastikan aliran listrik dalam keadaan mati",
+                  "correct": true
+                },
+                {
+                  "text": "menyalakan semua daya"
+                },
+                {
+                  "text": "menghubungkan langsung ke stopkontak"
+                },
+                {
+                  "text": "mengabaikan listrik"
+                }
+              ],
+              "explanation": "Keamanan listrik mencegah kejutan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kegiatan yang termasuk prinsip Resik (3R kedua) adalah…",
+              "options": [
+                {
+                  "text": "menjaga kebersihan tempat kerja dan cepat memperbaiki alat rusak",
+                  "correct": true
+                },
+                {
+                  "text": "menumpuk barang tak dipakai"
+                },
+                {
+                  "text": "menyimpan sampah"
+                },
+                {
+                  "text": "mengabaikan alat rusak"
+                }
+              ],
+              "explanation": "Resik menjaga kebersihan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tindakan praktik kerja yang aman?",
+              "options": [
+                {
+                  "text": "Cuci tangan sebelum bekerja",
+                  "correct": true
+                },
+                {
+                  "text": "Gunakan gelang antistatis",
+                  "correct": true
+                },
+                {
+                  "text": "Matikan listrik saat memasang daya",
+                  "correct": true
+                },
+                {
+                  "text": "Mencabut kabel saat menyala",
+                  "correct": false
+                },
+                {
+                  "text": "Mengabaikan posisi duduk",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tindakan aman mencegah cedera."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Antisipasi",
+                  "right": "memprediksi bahaya"
+                },
+                {
+                  "id": "m1",
+                  "left": "Rekognisi",
+                  "right": "mengenali bahaya lingkungan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Eliminasi",
+                  "right": "menghilangkan sumber bahaya"
+                },
+                {
+                  "id": "m3",
+                  "left": "Substitusi",
+                  "right": "mengganti dengan yang lebih aman"
+                },
+                {
+                  "id": "m4",
+                  "left": "APD",
+                  "right": "alat pelindung diri"
+                },
+                {
+                  "id": "m5",
+                  "left": "5R",
+                  "right": "ringkas, rapi, resik, rawat, rajin"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "memprediksi bahaya",
+                  "m1": "mengenali bahaya lingkungan",
+                  "m2": "menghilangkan sumber bahaya",
+                  "m3": "mengganti dengan yang lebih aman",
+                  "m4": "alat pelindung diri",
+                  "m5": "ringkas, rapi, resik, rawat, rajin"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan prosedur merakit komputer yang aman.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mencuci dan mengeringkan tangan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memakai gelang antistatis"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memilih alat sesuai fungsi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Memasang komponen dengan hati-hati"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memastikan listrik mati saat memasang daya"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Rakit dimulai dari kebersihan dan antistatis."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

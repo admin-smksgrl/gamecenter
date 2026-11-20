@@ -1,0 +1,1399 @@
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+96
+ 
+ Tujuan Pembelajaran
+Pada pembelajaran bab ini, kalian akan menemukan suatu pengalaman yang 
+berbeda dengan materi-materi yang telah kalian pelajari sebelumnya. Kalian 
+akan diajak berpetualang dan bereksplorasi tentang keselamatan kerja. 
+Setelah mempelajari bab ini, kalian diharapkan memahami Keselamatan 
+dan Kesehatan Kerja Lingkungan Hidup (K3LH), potensi-potensi keadaan 
+darurat, pencegahan kecelakaan kerja, dan penerapan budaya kerja industri 
+di lingkungan kerja.
+ 
+ Kata Kunci
+•   Keselamatan kerja 
+•   Rambu keselamatan
+•   K3LH  
+ 
+ 
+•   Safety sign
+•   Penerapan 5R  
+ 
+•   Prosedur kerja
+•   Budaya kerja 5R 
+ 
+ Peta Konsep
+K3LH 
+dan Budaya 
+Kerja Industri
+B
+Pencegahan Kecelakaan Kerja
+A
+Keselamatan dan Kesehatan 
+Kerja Lingkungan Hidup (K3LH) di 
+Lingkungan Kerja
+C
+Budaya Kerja 5R dan Pengendalian 
+Visual
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+97
+Perhatikan gambar berikut!
+Gambar 4.1 Ilustrasi Kecelakaan Kerja
+Sumber: Ibnu Indarwati (2022)
+Pernahkah kalian melihat atau mengalami kecelakaan saat melakukan 
+praktikum di sekolah? Jika pernah, apakah penyebab kalian mengalami hal 
+tersebut? Apakah dampak dari kejadian tersebut? 
+Keselamatan dan kesehatan saat di tempat kerja merupakan hal yang penting 
+bagi semua orang. Khususnya bagi kalian yang nanti akan menjadi pengusaha 
+atau karyawan di bidang Teknik Jaringan Komputer dan Telekomunikasi. 
+Bagaimana jika nanti saat bekerja, kalian mengalami kecelakaan kerja? Siapa 
+yang dirugikan? 
+Menurut Peraturan Menteri Ketenagakerjaan RI No 5 Tahun 2018, Keselamatan 
+dan Kesehatan Kerja adalah segala kegiatan untuk menjamin dan melindungi 
+keselamatan dan kesehatan Tenaga Kerja melalui upaya pencegahan kecelakaan 
+kerja dan penyakit akibat kerja. Keselamatan berarti keadaan terhindar dari 
+bahaya atau gangguan. Keselamatan kerja berhubungan dengan peralatan yang 
+digunakan, tempat kerja, dan lingkungan. 
+Penerapan Keselamatan dan Kesehatan Kerja Lingkungan Hidup (K3LH) 
+sejak dini penting dipahami untuk menghindarkan kita dari gangguan dan 
+bahaya. Salah satu caranya adalah pembiasaan menggunakan peralatan kerja 
+sesuai dengan Standar Operasional Prosedur (SOP). 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+98
+Gambar 4.2 Logo Keselamatan dan Kesehatan Kerja
+Sumber: Kepmenaker RI 1135/MEN/1987
+Pada pembelajaran bab ini, kalian akan diajak berpetualang untuk merasakan, 
+melakukan, dan menerapkan prosedur K3LH. Pengalaman pembelajaran tersebut 
+akan menjadi bekal ketika kelak kalian bekerja. Pelajarilah bab ini dengan 
+semangat dan penuh rasa ingin tahu agar kalian mendapatkan pengalaman 
+yang bermakna!
+A. Keselamatan dan Kesehatan Kerja Lingkungan 
+Hidup (K3LH) di Lingkungan Kerja
+K3LH merupakan segala kegiatan untuk menjamin dan melindungi keselamatan 
+dan kesehatan tenaga kerja melalui pengendalian lingkungan kerja. Berdasarkan 
+Permenaker RI No 5 Tahun 2018 tentang Keselamatan dan Kesehatan Kerja 
+Lingkungan Kerja, ada empat komponen utama tentang K3LH, yaitu sebagai 
+berikut. 
+1. Antisipasi 
+Upaya menyusun dan membuat prediksi bahaya dan risiko apa saja 
+yang mungkin terjadi di tempat kerja; berbagai potensi bahaya yang 
+timbul dari hubungan aktivitas pekerja dengan lingkungan kerja. Dengan 
+demikian, kita dapat menentukan tingkat risiko dan membuat persiapan 
+guna menghadapi kondisi darurat.
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+99
+2. 
+Rekognisi 
+Usaha mengenali bahaya lingkungan hidup yang berhubungan dengan 
+pekerjaan dan memahami pengaruh serta akibatnya terhadap karyawan. 
+3. 
+Evaluasi
+Menilai secara kuantitatif bahaya lingkungan kerja dan melakukan 
+pengukuran dan pemantauan untuk mengetahui seberapa besar dampak 
+dari bahaya tersebut.
+4. 
+Kendali
+Upaya yang dilakukan untuk menghilangkan atau mengurangi bahaya 
+lingkungan kerja akibat aktivitas karyawan. Upaya kendali ini memiliki 
+tahapan pelaksanaan pengendalian berdasarkan prioritas dalam 
+pelaksanaan pengendalian K3 yang disebut sebagai Hierarki Pengendalian. 
+Berdasarkan standar OHSAS 18001 (2007), hierarkinya sebagai berikut.
+a. 
+Eliminasi: teknik menghilangkan bahaya dengan menurunkan tingkat 
+bahaya sampai ke titik aman. Eliminasi potensi risiko berarti upaya 
+menghilangkan sumber bahaya dan potensi bahaya.
+b. 
+Substitusi: pengendalian bahaya dengan cara mengganti peralatan 
+yang digunakan, bahan baku, sistem, atau bahkan prosedur kerja 
+menjadi yang lebih aman.
+c. 
+Rekayasa Teknis/Kontrol Teknis: memodifikasi aktivitas kerja agar 
+lebih efektif dalam bekerja. Misalnya untuk menghindari gangguan 
+kebisingan, aktivitas pekerjaan dipindahkan dari area bising atau 
+menggunakan pelindung telinga sementara sampai sumber kebisingan 
+ditangani.
+d. 
+Administrasi: penerapan tanda-tanda keselamatan, tanda untuk area 
+berbahaya, tanda untuk pejalan kaki, prosedur keselamatan, prosedur 
+penggunaan peralatan, inspeksi peralatan sebelum digunakan, kontrol 
+akses ke area tertentu, dan lain-lain.
+e. 
+Alat Pelindung Diri (APD): perangkat yang digunakan untuk 
+melindungi sebagian atau seluruh tubuh dari kemungkinan bahaya 
+atau kecelakaan kerja. Contoh perlengkapan keselamatan adalah 
+kacamata, pelindung telinga untuk ke area bising, pelindung wajah, 
+sarung tangan, dan helm. 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+100
+Eliminasi
+Substitusi
+Rekayasa Teknis/
+Kontrol Teknis
+Administrasi
+APD
+Gambar 4.3 Hierarki Pengendalian
+Sumber: Ibnu Indarwati (2022)
+1. Praktik Kerja yang Aman
+Siapa yang siap mengalami celaka? Apakah terjadinya kecelakaan itu adalah 
+nasib sial korban? Apakah kecelakaan kerja tidak dapat dicegah?
+Semua orang tentunya berharap dapat bekerja dengan aman dan 
+terhindar dari kecelakaan. Tidak akan ada orang yang mau mengalami 
+celaka ketika bekerja atau beraktivitas. Ada pemikiran bahwa nasib sial yang 
+menyebabkan seseorang mengalami kecelakaan kerja. Kecelakaan kerja 
+yang terjadi tentunya memiliki penyebab yang dapat dicegah sebelumnya. 
+Keselamatan dan kesehatan kerja pada masa mendatang tidak hanya sebatas 
+pada lingkungan industri besar, tetapi juga mencakup seluruh bidang yang 
+bersifat publik.
+Dalam melakukan aktivitas, kalian sering kali menggunakan peralatan 
+sebagai alat bantu. Potensi-potensi bahaya akibat penggunaan peralatan yang 
+mungkin terjadi dapat diidentifikasi lebih awal sebagai upaya pencegahan 
+terjadinya kecelakaan. Pada subbab ini, kalian akan belajar bagaimana 
+mengidentifikasi potensi keadaan darurat dan melakukan praktik kerja 
+yang aman dan terhindar dari bahaya-bahaya di tempat kerja.
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+101
+   
+Langkah pencegahan terjadinya kecelakaan adalah meminimalkan 
+potensi bahaya. Sebagai tindakan dalam usaha pelaksanaan K3LH 
+di sekolah, kalian akan berlatih mengenali dan mengidentifikasi 
+potensi bahaya di lingkungan sekolah. Melalui aktivitas individu 
+ini, kalian akan mengeksplorasi lingkungan sekitar sekolah untuk 
+menemukan potensi-potensi bahaya dengan mengidentifikasi dan 
+membuat langkah perencanaan ketika terjadi keadaan darurat. 
+Untuk mendapatkan pengalaman dari pembelajaran ini, silakan 
+kalian mengisi instrumen pada aktivitas ini sesuai dengan kondisi 
+riil di sekolah!
+Aktivitas Individu 1.1
+Potensi Keadaan Darurat
+Keadaan darurat dapat terjadi di berbagai tempat, termasuk di sekolah sebagai 
+tempat kita beraktivitas. Setiap sekolah memiliki karakteristik lingkungan yang 
+berbeda-beda sehingga potensi terjadinya keadaan darurat dan perencanaan 
+tanggap darurat pun berbeda. Untuk membuat perencanaan tanggap darurat 
+yang sesuai dengan kondisi sekolah, cobalah amati lingkungan sekolah kalian! 
+Langkah-langkahnya sebagai berikut. 
+1. 
+Identifikasi setiap potensi keadaan darurat yang mungkin terjadi di 
+lingkungan sekolah!
+2. 
+Bayangkan jika keadaan darurat tersebut terjadi di sekolah kalian, bagaimana 
+cara kalian melindungi diri dan orang lain di sekitar?
+3. 
+Apa saja yang harus kalian lakukan untuk menghadapi keadaan darurat 
+tersebut?
+4. 
+Rencana apakah yang dapat kalian susun dalam menghadapi keadaan darurat 
+tersebut? Rencana meliputi prakejadian, saat kejadian, dan pascakejadian. 
+Tabel 4.1 Rencana dalam Menghadapi Keadaan Darurat di Sekolah
+Prakejadian
+Saat Kejadian
+Pascakejadian
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+102
+Laporan Aktivitas Individu 1.1
+Setelah kalian menyelesaikan Aktivitas 1.1 dengan mandiri, buatlah rangkuman 
+tentang K3LH dan potensi keadaan darurat di lingkungan sekolah! Bacakan 
+rangkuman dan hasil analisis kalian di hadapan guru dan teman sekelas! Berikan 
+mereka kesempatan untuk memberikan tanggapan dan masukan! Hargai dan 
+hormati tanggapan dan masukan tersebut dengan terbuka untuk menambah 
+wawasan kalian!
+   
+Gambaran kejadian sebuah kecelakaan yang mungkin terjadi di 
+sekolah disajikan. Sebagai bagian perencanaan dalam menanggulangi 
+dan mengantisipasi kasus serupa terjadi di sekolah, cobalah 
+kalian menyusun langkah-langkah antisipasi dan mencari sumber 
+masalahnya! Kalian akan mendapatkan pengalaman bermakna 
+jika mengerjakannya dengan semangat dan penuh rasa ingin tahu. 
+Untuk memperkaya pengetahuan, silakan kalian menjawab setiap 
+pertanyaan dari hasil analisis kasusnya!
+Aktivitas Individu 1.2
+Penyebab Kecelakaan Kerja
+Simak cerita berikut!
+Ketika pelajaran pemotongan untuk penyambungan kabel fiber optik, Dian 
+dan Rian menggunakan peralatan untuk memotong kabel. Saat bekerja 
+menggunakan alat pemotong kabel fiber optik, terjadi insiden yang membuat 
+tangan Rian berdarah. Rian pun berteriak dan proses pembelajaran menjadi 
+terganggu. Bapak Guru memeriksa kondisi Rian dengan sigap, lalu memberikan 
+pertolongan pertama.
+Dari cerita di atas, coba analisis beberapa hal berikut!
+1. 
+Apakah yang menjadi sumber masalah di atas?
+2. 
+Mengapa masalah tersebut terjadi?
+3. 
+Bagaimana langkah-langkah perbaikan dari masalah tersebut?
+4. 
+Gangguan dan kerugian apa saja yang dapat ditimbulkan dari masalah 
+tersebut?
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+103
+2. Bahaya di Tempat Kerja
+Aktivitas yang dapat berpotensi menimbulkan kecelakaan kerja dan penyakit 
+akibat kerja (PAK) perlu menjadi perhatian dalam K3LH. Berikut ini faktor-
+faktor penyebab terjadinya bahaya. 
+a. 
+Bahaya biologi (jamur, virus, bakteri, dan binatang).
+b. 
+Bahaya kimia (bahan kimia, radioaktif, racun, debu, uap, asap, korosif, 
+dan bahan mudah meledak).
+c. 
+Bahaya fisik/mekanik (ketinggian, mesin, konstruksi, kebisingan, listrik, 
+getaran, tekanan, dan suhu).
+d. 
+Bahaya biomekanik (akibat desain layout tempat kerja, penempatan 
+peralatan, pengangkutan manual, kesalahan posisi kerja, dan gerakan 
+kerja yang berulang-ulang).
+e. 
+Bahaya sosial psikologi (tingkat stres, pelecehan, kekerasan, intimidasi, 
+emosi negatif, dan sebagainya).
+Kerugian yang disebabkan oleh gangguan bahaya di tempat kerja dapat 
+diukur dengan nilai keparahan suatu risiko. Apakah risiko tersebut termasuk 
+kategori sedang, rendah, tinggi, atau bahkan ekstrem.
+Tabel 4.2 Kategori Keparahan Suatu Risiko
+Frekuensi
+Sangat 
+Sering
+Sedang
+Tinggi
+Tinggi
+Ekstrem
+Ekstrem
+Sering
+Sedang
+Sedang
+Tinggi
+Tinggi
+Ekstrem
+Sedang
+Rendah
+Sedang
+Sedang
+Tinggi
+Ekstrem
+Jarang
+Rendah
+Sedang
+Sedang
+Tinggi
+Tinggi
+Sangat 
+jarang
+Rendah
+Rendah
+Sedang
+Sedang
+Tinggi
+Sangat
+ringan
+Ringan
+Sedang
+Berat
+Sangat 
+berat
+ 
+Keparahan
+Sumber: UNSW Safety & Sustainability (2016)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+104
+Tabel 4.3 Kategori berdasarkan Frekuensi dan Keparahan Terjadinya Kecelakaan Kerja
+Frekuensi
+Keparahan
+Sangat 
+sering
+Terjadi hampir setiap 
+hari
+Sangat 
+ringan
+Tidak terdapat cedera
+Sering
+1 kasus dalam 1 minggu
+Ringan
+Cedera ringan
+Sedang
+1 kasus dalam 1 bulan
+Sedang
+P3K dan mendapat 
+pertolongan medis
+Jarang
+1 kasus dalam 1 tahun
+Berat
+Terdapat tindakan medis dan 
+pekerja meninggalkan kerja 
+lebih dari 24 jam
+Sangat 
+jarang
+1 kasus dalam waktu 
+lebih dari 1 tahun
+Sangat 
+berat
+Cacat permanen/kematian
+Sumber: AS/NZS 4360:1999 Risk Management dengan penyesuaian
+Penanganan pada area dengan tingkat risiko rendah, memerlukan 
+peraturan/prosedur kerja dan pemasangan rambu-rambu. Penanganan 
+pada area dengan tingkat risiko sedang, memerlukan tindakan langsung. 
+Penanganan pada area dengan tingkat risiko tinggi, memerlukan adanya 
+perencanaan pengendalian. Adapun penanganan pada area dengan tingkat 
+risiko ekstrem, memerlukan adanya perhatian dari manajemen perusahaan.
+   
+Bekerja di bidang Teknik Jaringan Komputer dan Telekomunikasi, 
+tidak akan lepas dari potensi terjadinya kecelakaan kerja. Sebagai 
+upaya pencegahan, kita perlu mengidentifikasi potensi kecelakaan 
+yang dapat terjadi. Identifikasi ini digunakan untuk mencari solusi 
+dan langkah-langkah pencegahan kecelakaan. 
+Melalui aktivitas kelompok ini, kalian akan mengeksplorasi 
+potensi yang mungkin terjadi pada profesi di bidang Teknik Jaringan 
+Komputer dan Telekomunikasi. Kalian harus menemukan potensi-
+potensi bahaya dan membuat langkah perencanaan pencegahan 
+kecelakaan kerja. Untuk mendapatkan pengalaman pembelajaran, 
+silakan kalian mengisi instrumen pada aktivitas ini sesuai dengan 
+kondisi riil di lingkungan sekitar dan sekolah! 
+Aktivitas Kelompok 1.3
+Potensi Kecelakaan Kerja
+Saat melaksanakan tugas baik di lapangan maupun di kantor, seorang teknisi 
+sebuah jaringan komputer dan telekomunikasi tetap harus memperhatikan dan 
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+105
+melaksanakan K3LH untuk meminimalkan risiko kecelakaan kerja. Berkaitan 
+dengan hal tersebut, lakukan langkah-langkah berikut.
+1. 
+Buat kelompok belajar yang terdiri dari 4–5 orang.
+2. 
+Identifikasi potensi-potensi kecelakaan kerja yang dapat dialami oleh teknisi 
+jaringan komputer dan telekomunikasi saat melaksanakan tugas.
+3. 
+Tuliskan alasan sehingga hal tersebut menjadi potensi kecelakaan kerja.
+4. 
+Tuliskan langkah-langkah pencegahan agar potensi kecelakaan tersebut 
+tidak terjadi.
+5. 
+Sajikan hasil kerja kelompok kalian menjadi sebuah bahan tayang untuk 
+dipresentasikan di kelas.
+6. 
+Presentasikan hasil kerja kelompok di kelas dengan rasa tanggung jawab. 
+Berilah kesempatan kepada kelompok lain untuk memberikan tanggapan 
+terhadap hasil kerja kelompok kalian. Tanggapi setiap masukan dari kelompok 
+lain dengan sikap saling menghargai.
+3. Melakukan P3K
+Hal-hal yang perlu dipahami ketika terjadi kecelakaan adalah sebagai berikut. 
+a. 
+Pertolongan pertama
+Pertolongan pertama adalah langkah-langkah yang diberikan kepada 
+korban sebagai penanganan awal. Tujuan dari pertolongan pertama 
+adalah menyelamatkan jiwa korban dan mencegah cacat.
+b. Menerapkan teknik dasar pertolongan pertama
+1) 
+Pertolongan pertama pada luka akibat benda tajam
+Gambar 4.4 Luka Akibat Benda Tajam
+Sumber: Ibnu Indarwati (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+106
+a) 
+Untuk pendarahan aktif dan banyak, pertolongannya 
+adalah dengan menekan luka menggunakan kasa bersih 
+guna menghentikan pendarahan. Jika dalam waktu 5 menit 
+pendarahan belum berhenti, segera bawa ke instalasi gawat 
+darurat (IGD).
+b) Bersihkan luka dengan air mengalir dan (dapat menggunakan) 
+sabun.
+c) 
+Untuk luka ringan, oleskan obat antiseptik pada luka dan segera 
+balut dengan kasa dan plester.
+d) Untuk luka yang disebabkan oleh benda berkarat, segera bawa 
+ke dokter untuk menerima suntikan antitetanus.
+e) 
+Untuk luka yang besar dan dalam, bersihkan luka dari serpihan 
+dan benda asing, kemudian bawa ke dokter.
+2) 
+Pertolongan pertama pada luka akibat terjatuh
+Gambar 4.5 Terjatuh
+Sumber: Ibnu Indarwati (2022)
+a) 
+Batasi korban bergerak terlalu banyak.
+b) Atur posisi bagian yang cedera untuk menjaga kemungkinan 
+terjadi patah tulang.
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+107
+c) 
+Gunakan bidai pada area yang terluka untuk menghambat 
+pergerakan.
+d) Segera minta bantuan tenaga medis untuk penanganan lebih 
+lanjut.
+3) 
+Pertolongan pertama pada luka akibat tersengat listrik
+Gambar 4.6 Tersengat Listrik
+Sumber: Ibnu Indarwati (2022)
+a) 
+Sebelum menolong korban, amankan sumber listrik, misalnya 
+dengan mencabut aliran listrik atau mematikannya dari MCB.
+b) Jangan memegang korban secara langsung. Gunakan alat bantu 
+dari bahan isolator.
+c) 
+Pindahkan korban ke tempat aman.
+d) Periksa kesadaran korban. Jika korban pingsan, lakukan 
+resusitasi jantung paru atau hubungi tim medis.
+4) 
+Pertolongan pertama pada luka akibat terbakar
+a) 
+Dinginkan area luka dengan 
+handuk yang sudah dibasahi 
+air dingin.
+b) Jangan asal mengoleskan sesu-
+atu, misalnya pasta gigi, pada 
+luka karena dapat menimbul-
+kan iritasi.
+Gambar 4.7 Tangan Terbakar 
+Sumber: Ibnu Indarwati (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+108
+c) 
+Jika rasa nyeri tidak dapat ditahan, berikan obat pereda nyeri.
+d) Jika luka bakar besar, segera hubungi tim medis.
+   
+Pada aktivitas kali ini, kita akan bermain peran (role play) secara 
+berkelompok. Setiap kelompok terdiri dari 4–6 orang. Setiap kelompok 
+menyusun sebuah skenario kecelakaan kerja. Buatlah alur drama yang 
+menggambarkan bagaimana terjadinya kecelakaan kerja tersebut 
+dan langkah-langkah penanganannya! Setiap kelompok memilih 
+tema kecelakaan kerja yang berbeda-beda pada pekerja di bidang 
+Teknik Jaringan Komputer dan Telekomunikasi. Tampilkan simulasi 
+kecelakaan kerja dan bantuan pertolongan pertama yang dilakukan!
+Aktivitas Kelompok 1.4
+Role Play Kecelakaan Kerja
+Kalian dapat melakukan langkah-langkah berikut ini.
+1. 
+Bentuk kelompok yang terdiri dari 4–6 orang.
+2. 
+Diskusikan dengan teman sekelompok untuk memilih salah satu pekerjaan 
+praktik, contohnya memasang perangkat nirkabel (wireless) di plafon, 
+menarik kabel fiber optik, memotong kabel, merakit komputer, dan memasang 
+antena wireless. 
+3. 
+Simulasikan sebuah kecelakaan kerja dan pertolongan pertama yang 
+dilakukan. 
+4. 
+Tuliskan kerugian yang diperoleh sebagai dampak dari terjadinya kecelakaan 
+kerja tersebut.
+5. 
+Tanggapi dan beri masukan bagi kelompok yang tampil agar kalian 
+mendapatkan pengetahuan yang lebih lengkap.
+B. Pencegahan Kecelakaan Kerja
+1. Rambu-Rambu Keselamatan
+Apakah kalian pernah mengamati rambu-rambu lalu lintas di jalan raya? 
+Apakah fungsi dari rambu-rambu?
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+109
+Salah satu cara untuk menginformasikan area bahaya atau area aman di 
+sebuah tempat adalah dengan menempatkan rambu keselamatan atau safety 
+sign. Pengetahuan terhadap rambu keselamatan penting untuk dimiliki 
+oleh seluruh karyawan atau pengunjung di suatu area. Dengan demikian, 
+mereka dapat mengantisipasi terjadinya bahaya di area tersebut. 
+Rambu keselamatan dapat berupa gambar petunjuk. Pemasangannya 
+harus sesuai dengan standar dan pedoman keselamatan. Standar acuan 
+keselamatan, di antaranya Peraturan Menteri Lingkungan Hidup, ISO 
+Standard, dan Ansi Standard. 
+Fungsi Rambu Keamanan
+a. 
+Menunjukkan area yang memiliki potensi bahaya.
+b. 
+Sebagai informasi dan anjuran untuk memberikan pengarahan.
+c. 
+Sebagai pengingat untuk dapat bekerja sesuai dengan standar K3 dan 
+menggunakan alat perlindungan diri.
+d. 
+Mengindikasikan posisi peralatan yang dibutuhkan saat terjadi keadaan 
+darurat.
+e. 
+Sebagai peringatan kewaspadaan terhadap aktivitas apa saja yang dapat 
+dan tidak dapat dilakukan di area tersebut.
+Pedoman umum yang digunakan dalam pembuatan rambu keselamatan 
+untuk warna dan templat diatur sesuai dengan BS ISO 3864-1:2011.
+Tabel 4.4 Pedoman Umum Pembuatan Rambu Keselamatan
+Warna 
+Dasar
+Warna 
+Simbol atau 
+Tulisan
+Contoh
+Makna
+Merah
+Putih
+Contoh
+Larangan, pemadam api
+Kuning
+Hitam
+Contoh
+Perhatian/waspada, potensi 
+berisiko bahaya
+Hijau
+Putih
+Contoh
+Zona aman dan pertolongan 
+pertama
+Biru
+Putih
+Contoh
+Wajib ditaati
+Putih
+Hitam
+Contoh
+Informasi umum
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+110
+Tabel 4.5 Daftar Bentuk Rambu Keselamatan
+Bentuk Rambu 
+Keselamatan
+Subkelompok
+Uraian
+Tanda perintah
+Larangan 
+Perintah yang tidak boleh dikerjakan
+Kewajiban
+Perintah yang wajib dilaksanakan
+Tanda waspada
+Waspada
+Area indikasi potensi akan sebuah 
+risiko bahaya
+Tanda informasi
+Zona aman, peralatan keselamatan 
+atau pertolongan pertama
+Pemadam api
+Area peralatan APAR
+Informasi umum
+   
+Salah satu cara untuk mencegah terjadinya keadaan darurat adalah 
+dengan pemasangan rambu. Di lingkungan kerja juga terdapat 
+rambu-rambu keselamatan yang memiliki fungsi masing-masing. 
+Pemasangan rambu keselamatan merupakan salah satu upaya 
+pencegahan kecelakaan kerja dan sebagai peringatan bagi semua 
+orang yang beraktivitas di lingkungan kerja.
+Aktivitas Individu 2.1
+Berikut ini adalah beberapa rambu keselamatan di lingkungan kerja. Pasangkan 
+gambar rambu keselamatan dan fungsinya agar kalian dapat memahami fungsi 
+dari setiap rambu keselamatan tersebut!
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+111
+Kelompok Rambu-Rambu Waspada, Peringatan, dan Perhatian
+1
+..............
+ 
+2
+..............
+ 
+3
+..............
+ 
+4
+..............
+ 
+5
+..............
+ 
+6
+..............
+ 
+7
+..............
+ 
+8
+..............
+ 
+9
+..............
+ 
+10
+..............
+ 
+11
+..............
+ 
+12
+..............
+ 
+13
+..............
+ 
+14
+..............
+ 
+15
+..............
+ 
+16
+..............
+ 
+17
+..............
+ 
+18
+..............
+ 
+19
+..............
+ 
+20
+..............
+A. Hati-hati anjing penjaga
+B. 
+Hati-hati tersandung
+C. 
+Hati-hati terpeleset
+D. Hati-hati terjatuh
+E. 
+Hati-hati saat berjalan pada 
+tangga
+F. 
+Hati-hati mesin menyala 
+otomatis
+G. Hati-hati ketinggian lantai
+H. Hati-hati kepala terbentur
+I. 
+Hati-hati bahan mudah terbakar
+J. 
+Hati-hati bahan berbahaya
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+112
+K. Hati-hati atap rendah
+L. 
+Hati-hati atap mudah pecah
+M. Hati-hati area pengisian aki
+N. Bahaya pernapasan
+O. Bahaya listrik tegangan tinggi
+P. 
+Bahaya kebisingan tinggi
+Q. Bahaya benda tajam
+R. 
+Bahaya barang terjatuh dari atas
+S. 
+Area CCTV
+T. 
+Area bahaya asap rokok 
+(tembakau)
+Kelompok Rambu-Rambu Perintah
+1..............
+ 
+2..............
+ 
+3..............
+ 
+4..............
+ 
+5..............
+ 
+6..............
+ 
+7..............
+ 
+8..............
+ 
+9..............
+ 
+10..............
+ 
+11..............
+ 
+12..............
+ 
+13..............
+ 
+14..............
+ 
+15..............
+ 
+16..............
+ 
+17..............
+ 
+18..............
+ 
+19..............
+ 
+20..............
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+113
+A. Gunakan body harness
+B. 
+Cucilah tangan sebelum 
+melakukan pekerjaan
+C. 
+Sambungkan terminal ground
+D. Selain petugas dilarang masuk
+E. 
+Gunakan sarung tangan
+F. 
+Dilarang mengaktifkan HP
+G. Gunakan sabuk pengaman
+H. Dilarang melintas
+I. 
+Gunakan safety shoes
+J. 
+Jangan disentuh
+K. Gunakan kacamata keselamatan
+L. 
+Dilarang berdiri di sini
+M. Gunakan helm keselamatan
+N. Jangan gunakan tangga
+O. Perhatian
+P. 
+Sepatu dilarang masuk
+Q. Hematlah penggunaan listrik
+R. 
+Dilarang parkir
+S. 
+Matikan mesin sebelum 
+memulai perbaikan
+T. 
+Dilarang merokok
+Kelompok Rambu-Rambu Informasi
+1......................
+2......................
+3......................
+4......................
+5......................
+A. Pintu darurat ke kanan
+B. 
+Air dapat diminum
+C. 
+Telepon darurat
+D. Ruang tunggu
+E. 
+Titik berkumpul
+2. Standar Operasional Prosedur
+Saat kita bekerja menggunakan peralatan, misalnya peralatan jaringan dan 
+personal computer di laboratorium, tentunya peralatan tersebut memiliki tata 
+cara penggunaan. Tata cara penggunaan sering disebut Standar Operasional 
+Prosedur (SOP). Manfaat dari SOP ini, antara lain menjaga pengguna dan 
+peralatan agar tetap aman, menjaga peralatan lebih awet, dan menjaga 
+performa dari peralatan tersebut.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+114
+a. 
+Prosedur Kerja dengan Peralatan Jaringan Komputer dan Telekomunikasi
+Kita memerlukan penerapan prosedur penggunaan peralatan jaringan 
+komputer dan telekomunikasi untuk mengurangi potensi bahaya. Sebagai 
+seorang calon teknisi komputer dan jaringan, kalian harus mengetahui 
+langkah-langkah penggunaan peralatan yang baik dan benar. Berikut 
+ini prosedur penggunaan beberapa peralatan.
+1) Komputer
+Prosedur perakitan komputer, antara lain: 
+a) 
+cuci dan keringkan tangan sebelum memulai pekerjaan;
+b) gunakan alat dan hand tool sesuai dengan fungsinya;
+c) 
+gunakan gelang antistatis dan sarung tangan karet; 
+d) berhati-hati saat memegang komponen komputer;
+e) 
+gunakan suntikan atau alat bantu untuk mengoleskan thermal 
+grease/paste, jangan menggunakan tangan langsung; dan
+f) 
+berhati-hati dengan sumber listrik (ketika memasang power 
+supply, pastikan aliran listrik dalam keadaan mati).
+Tinggi layar dengan mata
+sejajar atau di bawahnya 
+sedikit
+Tangan sejajar dengan 
+keyboard dan mouse
+Posisi duduk yang relaks
+dan nyamankan posisi
+pundak
+posisi kaki yang nyaman
+pada lantai atau penyokong
+Gambar 4.8 Prosedur Penggunaan Komputer
+Sumber: Ibnu Indarwati (2022)
+Prosedur penggunaan komputer, antara lain:
+a) 
+atur posisi duduk yang nyaman;
+b) posisi layar monitor sejajar dengan pandangan mata;
+c) 
+posisi keyboard dan mouse sejajar dengan tangan;
+d) posisi duduk yang relaks dan posisi pundak yang nyaman;
+e) 
+posisi kaki istirahat pada lantai atau penyokong kaki;
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+115
+f) 
+tekan tombol keyboard dan mouse secara wajar supaya kedua 
+perangkat tersebut tidak mudah rusak; serta
+g) 
+jaga kebersihan perangkat komputer setelah digunakan.
+2) Peralatan Jaringan Komputer dan Telekomunikasi
+Kita perlu memperhatikan penggunaan peralatan saat bekerja 
+memasang jaringan. Contoh peralatan yang sesuai adalah tang 
+crimping, striper, cleaver, OPM, OTDR, dan wireless router. Prosedur 
+umum yang dapat diterapkan adalah sebagai berikut.
+a) 
+Pelajari buku manual dari setiap peralatan untuk memastikan 
+pengetahuan pengguna pada peralatan kerja.
+b) Operasikan sesuai dengan fungsi peralatan dan standar 
+keamanan.
+c) 
+Perhatikan lambang peringatan dan petunjuk yang tertera 
+pada peralatan.
+d) Jaga kebersihan peralatan serta area kerja dari sampah dan 
+sisa bahan. Untuk penggunaan striper fiber optik dan cleaver, 
+gunakan lakban untuk mengumpulkan potongan core fiber optik. 
+e) 
+Simpan peralatan sesuai dengan tempatnya setelah 
+menyelesaikan pekerjaan. Untuk peralatan yang menggunakan 
+baterai, matikan power dan lepaskan baterai untuk penyimpanan 
+jangka lama. 
+b. Prosedur Kerja di Tempat Tinggi
+Berikut ini beberapa peralatan yang dapat membantu seseorang saat 
+bekerja di ketinggian.
+1) Tangga 
+Tangga sebagai alat bantu dalam bekerja di ketinggian. Pemasangan 
+tangga berdiri dengan perbandingan 4:1, artinya untuk ketinggian 
+tangga 4 meter ketika disandarkan ke dinding, jarak kaki tangga 
+dengan dinding adalah 1 meter dengan sudut 75° atau boleh lebih. 
+Gunakan metode tiga tumpu, yaitu dua tangan memegang tangga 
+satu kaki menginjak anak tangga atau dua kaki menginjak anak 
+tangga satu tangan memegang tangga. Metode ini dilakukan saat 
+bergerak naik atau turun tangga.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+116
+2) Full Body Harness 
+Alat Pelindung Diri (APD) yang digunakan saat bekerja di atas 
+ketinggian 2 meter.
+Menggunakan Helm
+Menggunakan Kacamata Safety
+Masker Pelindung
+Identitas
+Baju Lengan Panjang
+Sarung Tangan
+Full Body Harness
+Safety Shoes
+Gambar 4.9 Full Body Harness
+Sumber: Ibnu Indarwati (2022)
+3) Perancah (Scaffolding)
+Alat bantu pekerja dalam melakukan 
+tugasnya (working platform) untuk area 
+kerja di ketinggian.
+Gambar 4.10 Scaffolding
+Sumber: Ibnu Indarwati (2022)
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+117
+Berdasarkan Peraturan Menteri Ketenagakerjaan No 9 Tahun 2016 
+tentang Keselamatan dan Kesehatan Kerja (K3) dalam Pekerjaan pada 
+Ketinggian, prosedur bekerja di ketinggian di bidang telekomunikasi 
+adalah sebagai berikut.
+1) Persiapan APD dan Peralatan
+a) 
+Gunakan APD, seperti full body harness, double hook lanyard 
+dengan absorber, climbing helmet, dan safety shoes.
+b) Gunakan lampu penerangan headlamp untuk pemanjatan yang 
+dilakukan pada malam hari dan lampu tembak dari bawah.
+c) 
+Siapkan peralatan lain, terutama peralatan pendukung teknis 
+pekerjaan di atas ketinggian.
+2) Persiapan Memanjat
+a) 
+Memiliki pengalaman memanjat atau menyurvei area 
+pemanjatan terlebih dahulu.
+b) Pengujian kelayakan APD sebelum memanjat.
+3) Mulai Memanjat
+a) 
+Pastikan titik tambat terpasang minimum di depan dada atau 
+di atas kepala.
+b) Pasang titik tambat lainnya untuk mengantisipasi kegagalan 
+pada titik tambat utama.
+c) 
+Pastikan penguncian dengan meletakkan hook sampai berbunyi 
+“klik” dan uji tarikan untuk memastikan titik tambatan. 
+d) Pekerja yang tidak memanjat harus mengawasi pergerakan 
+pemanjat untuk memberikan bantuan ketika dibutuhkan.
+   
+Bagaimanakah cara aman bekerja di tempat tinggi? Beberapa aktivitas 
+pekerjaan teknisi jaringan komputer dilakukan di atas ketinggian. 
+Aktivitas-aktivitas tersebut mengharuskan teknisi melakukan 
+pemanjatan yang memiliki potensi risiko tinggi. Sebagai upaya 
+pencegahan terjadinya kecelakaan kerja dari ketinggian, seorang 
+teknisi harus memahami potensi risiko tersebut.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+118
+Aktivitas Kelompok 2.2
+Mengidentifikasi Risiko Bekerja di Ketinggian
+Berikut ini adalah beberapa aktivitas pekerjaan teknisi di atas ketinggian. Kalian 
+dapat membuat kelompok diskusi yang terdiri dari 3–4 orang. Setiap kelompok 
+menganalisis risiko dan langkah pengendalian dari risiko tersebut. Setiap 
+kelompok membuat slide presentasi hasil diskusi, kemudian menampilkannya 
+di depan kelas.
+Tabel 4.6 Risiko dan Langkah Pengendalian Suatu Aktivitas
+Aktivitas
+Risiko
+Langkah 
+Pengendalian
+Pemasangan perangkat jaringan 
+di atas tower.
+Penarikan kabel fiber optik dari 
+tiang ke rumah.
+Penarikan kabel dari satu tiang 
+ke tiang lain.
+Instalasi kabel jaringan di plafon 
+rumah atau gedung (ceiling).
+Penyesuaian arah antena 
+(pointing).
+Pelepasan dan pemasangan 
+kabel atau perawatan peralatan 
+yang ada di atas tower.
+Kalian dapat mencari prosedur kerja di ketinggian 
+yang lebih lengkap lagi melalui laman web Jaringan 
+Dokumentasi dan Informasi Hukum. Nama dokumennya 
+adalah Peraturan Menteri Ketenagakerjaan Republik 
+Indonesia Nomor 9 Tahun 2016 tentang Keselamatan 
+dan Kesehatan Kerja dalam Pekerjaan pada Ketinggian.
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+119
+C. Budaya Kerja 5R dan Pengendalian Visual
+1. Budaya Kerja 5R
+Gambar 4.11 Budaya 5R
+Sumber: Ibnu Indarwati (2022)
+“Apa yang kalian rasakan jika tempat belajar kotor dan acak-acakan?”
+Setiap perusahaan mengharapkan lingkungan kerja yang bersih, rapi, 
+tertata, dan tercipta efisiensi dan produktivitas yang baik. Pernahkah kalian 
+lupa tempat menyimpan peralatan atau folder suatu berkas (file) tugas saat 
+dibutuhkan? Tentu kalian membutuhkan waktu lama untuk menemukan 
+peralatan atau berkas tersebut.
+Banyak karyawan perusahaan yang mengeluhkan banyaknya waktu 
+yang terbuang hanya untuk mencari data dan/atau sarana karena lupa 
+menempatkannya.
+Untuk mengelola dan mengatur lingkungan kerja yang lebih baik, 
+diperlukan penerapan 5R (Ringkas, Rapi, Resik, Rawat, dan Rajin) untuk 
+meningkatkan efisiensi dan kualitas lingkungan kerja. Pengelolaan ini 
+meliputi pengaturan tempat kerja; peningkatan kenyamanan dalam bekerja, 
+termasuk kebersihan dan kerapian lingkungan kerja; pengurangan risiko 
+bahaya di tempat kerja; serta penghilangan pemborosan yang terjadi di 
+tempat kerja. 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+120
+5R juga dikenal dengan istilah 5S (Seiri, Seiton, Seiso, Seiketsu, dan 
+Shitsuke) yang penerapannya bertahap sesuai dengan urutan. Berikut ini 
+langkah-langkah penerapan 5R. 
+Ringkas
+Langkah awal dimulai dengan memilah barang-barang yang 
+masih diperlukan atau tidak, dengan mengecek tingkat kerusakan 
+barang, apakah barang sering digunakan atau jarang, apakah 
+barang dapat dibuang atau tidak.
+Rapi
+Setelah dipilah, barang dirapikan. Barang ditata dan diurutkan 
+berdasarkan alur kerja, fungsi, dan pengaturan visual agar 
+mudah ditemukan.
+Resik
+Menjaga kebersihan tempat kerja dengan menyediakan alat 
+kebersihan di tempat kerja, meminimalkan sampah, dan segera 
+memperbaiki peralatan yang rusak.
+Rawat
+Merawat tempat kerja dengan mempertahankan ringkas, rapi, 
+dan resik.
+Rajin
+Konsisten menjalankan ringkas, rapi, resik, dan rawat secara 
+disiplin.
+   
+Mengelola dan mengatur lingkungan kerja bukanlah suatu hal yang 
+mudah, tetapi bukan pula suatu hal yang sulit. Salah satu kunci 
+keberhasilan penerapan 5R di lingkungan sekolah adalah komitmen 
+dari seluruh warga sekolah. Pada aktivitas ini, kalian diminta untuk 
+membuat langkah awal dalam penerapan 5R di sekolah, khususnya 
+di kelas masing-masing. Kalian diminta menjaga kekompakan saat 
+bekerja sama dan bergotong royong untuk mengelola dan mengatur 
+lingkungan kelas. Kalian juga harus konsisten menjaga kebersihan 
+dan kerapian lingkungan kelas.
+Aktivitas Kelompok 3.1
+Langkah Awal Penerapan 5R
+1. 
+Komitmen penerapan 5R merupakan hal yang paling penting. Komitmen 
+adalah bentuk persetujuan bersama dalam mewujudkan penerapan 5R. Mari 
+membuat komitmen kelas untuk pelaksanaan 5R di lingkungan sekolah!
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+121
+Lembar Komitmen Penerapan 5R di Sekolah
+Kelas:
+Wali kelas:
+Kami berkomitmen untuk membangun budaya positif 5R (Ringkas, Rapi, Resik, 
+Rawat, dan Rajin).
+TTD seluruh warga kelas
+Gambar 4.12 Contoh Templat Lembar Komitmen Penerapan 5R di Sekolah
+Sumber: Ibnu Indarwati (2022)
+2. 
+Patroli 5R. Saatnya kalian mengelilingi area sekolah. Perhatikan lingkungan 
+sekitar sekolah, cari area kritis dan identifikasi area-area yang perlu 
+dipelihara K3LH-nya, misalkan kabel yang berantakan, pipa bocor, lampu 
+mati, dan area kerja yang berantakan. Selanjutnya, foto area tersebut dari 
+satu titik.
+Foto Identifikasi Masalah
+No Temuan
+4
+Tanggal
+4/9/2022
+Penemu
+Agus
+Target
+Kabel yang berantakan di lantai perlu untuk dirapikan dan 
+dibersihkan (Rapi & Resik). 
+Gambar 4.13 Contoh Hasil Identifikasi Masalah
+Sumber: Ibnu Indarwati (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+122
+Keterangan:
+⌂ Foto merupakan hasil temuan yang memperlihatkan masalah di area 
+kerja. 
+⌂ No: nomor urut foto
+⌂ Tanggal: tanggal foto diambil
+⌂ Penemu: nama orang yang menemukan masalah
+⌂ Target: hasil akhir yang ingin dicapai dari penyelesaian masalah
+Selanjutnya, hasil foto identifikasi masalah disajikan dalam tabel daftar 
+area kritis dengan mengikuti format berikut.
+Tabel 4.7 Daftar Area Kritis
+Tanggal
+Penemu
+Masalah
+No 
+Foto
+Tindakan Perbaikan
+4/9/2022
+Agus
+Kabel listrik dan 
+kabel jaringan yang 
+berantakan
+4
+Membuat cable duct 
+di dinding agar lantai 
+mudah dibersihkan
+   
+Sebelum memulai Penerapan 5R di kelas, kalian harus memahami 
+terlebih dahulu konsep dan manfaat dari 5R ini. Pada aktivitas kali 
+ini, kita akan melakukan games untuk membantu dalam memahami 
+dan mengetahui manfaat dari 5R. Sebelum memulai games ini, kalian 
+dapat membuat komitmen untuk disiplin dan menaati aturan. 
+Aturan games ini, antara lain:
+1. disiplin dan tepat waktu sesuai dengan aturan untuk setiap 
+putaran;
+2. menggunakan stopwatch untuk menghitung waktu;
+3. mencatat hasil kerja sesuai dengan kondisi sebenarnya; 
+4. melakukan permainan dengan semangat dan penuh sukacita.
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+123
+Aktivitas Individu 3.2
+Games Penerapan 5R
+GAME 1
+Langkah-langkah permainannya sebagai berikut.
+1. 
+Siapkan bolpoin untuk melingkari benda dan stopwatch untuk menghitung 
+waktu permainan. 
+2. 
+Nyalakan stopwatch. 
+3. 
+Perhatikan gambar A. 
+4. 
+Lingkari benda-benda yang termasuk kategori ATK. 
+5. 
+Matikan stopwatch setelah kalian menyelesaikan permainan di kotak A. 
+6. 
+Catat waktu yang digunakan untuk menyelesaikan permainan tersebut. 
+7. 
+Lakukan langkah yang sama pada kotak B dan C. Catat waktu yang digunakan 
+untuk menyelesaikan permainan pada setiap kotak. 
+A
+Waktu yang diperlukan: .…
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+124
+B
+Waktu yang diperlukan: .…
+C
+Waktu yang diperlukan: .…
+Setelah melakukan setiap permainan tersebut, amati gambar dan waktu 
+yang digunakan! Kesimpulan apakah yang dapat kalian ambil?
+GAME 2 5R
+Putaran ke-1: Kondisi Saat Ini
+Target waktu: 60 detik
+Tugas permainan: 
+Mencoret angka 1 sampai dengan 49 
+secara berurutan
+Hasil angka yang tercoret: …. 
+Angka yang hilang: ….
+Gambar 4.14 Putaran ke-1
+Sumber: Ibnu Indarwati (2022)
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+125
+Gambar 4.15 Putaran ke-2
+Sumber: Ibnu Indarwati (2022)
+Putaran ke-2: Ringkas
+Target waktu: 50 detik
+Tugas permainan: 
+Mencoret angka 1 sampai dengan 49 
+secara berurutan
+Hasil angka yang tercoret: ….
+Putaran ke-3: Rapi–Klasifikasi
+Target waktu: 40 detik
+Tugas permainan: 
+Mencoret angka 1 sampai dengan 49 
+secara berurutan
+Hasil angka yang tercoret: ….
+Gambar 4.16 Putaran ke-3
+Sumber: Ibnu Indarwati (2022)
+Gambar 4.17 Putaran ke-4
+Sumber: Ibnu Indarwati (2022)
+Putaran ke-4: Rapi–Sarana 
+Penyimpanan
+Target waktu: 30 detik
+Tugas permainan: 
+Mencoret angka 1 sampai dengan 49 
+secara berurutan
+Hasil angka yang tercoret: ….
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+126
+Putaran ke-5: Resik
+Target waktu: 20 detik
+Tugas permainan: 
+Mencoret angka 1 sampai dengan 49 
+secara berurutan
+Hasil angka yang tercoret: ….
+Gambar 4.18 Putaran ke-5
+Sumber: Ibnu Indarwati (2022)
+Gambar 4.19 Putaran ke-6
+Sumber: Ibnu Indarwati (2022)
+Putaran ke-6: Sebelum Penerapan 5R
+Target waktu: 60 detik
+Tugas permainan: 
+Mengetahui angka yang hilang
+Hasil angka yang hilang: ….
+Putaran ke-7: Resik
+Target waktu: 5 detik
+Tugas permainan:
+Menemukan angka yang hilang
+Hasil angka yang hilang: ….
+Gambar 4.20 Putaran ke-7
+Sumber: Ibnu Indarwati (2022)
+Setelah menyelesaikan permainan, kesimpulan apakah yang dapat kalian 
+ambil?
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+127
+Aktivitas Individu 3.3
+Proyek Penerapan 5R di Kelas
+Setelah mempelajari materi Penerapan 
+5R di kelas, kalian harus menerapkan 
+5R mulai dari lingkungan kelas kalian. 
+Mari kita mengatur dan menata kelas 
+sebagai tempat belajar bersama supaya 
+rapi dengan budaya menerapkan 5R! 
+Sebagai bentuk laporan, susun foto 
+sebelum dan sesudah untuk area yang 
+sudah dirapikan!
+Gambar 4.21 Contoh Foto Sebelum-Sesudah
+Sumber: Ibnu Indarwati (2022)
+2. Pengendalian Visual (Marking)
+Penandaan area kerja berfungsi sebagai rambu-rambu dalam penggunaan 
+ruangan dan peralatan yang diperlukan. Penandaan area ini termasuk 
+dalam pengendalian visual untuk peralatan sehingga pengunjung mudah 
+memahami situasi kerja secara langsung. Salah satu pengendalian visual 
+adalah pemberian label/penanda pada rak, papan, lantai, atau setiap ujung 
+kabel jaringan. Berikut ini tanda dan makna dari beberapa warna di tempat 
+kerja.
+KESELAMATAN
+Isi Teks/Gambar
+INFORMASI
+Isi Teks/Gambar
+PERHATIAN
+Isi Teks/Gambar
+Petunjuk K3
+ Informasi Umum/
+Pengumuman
+Informasi Bahaya
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+128
+UMUM
+Isi Teks/Gambar
+RADIOAKTIF
+Isi Teks/Gambar
+PERINGATAN
+Isi Teks/Gambar
+Pesan Umum
+ Informasi Fasilitas
+Radioaktif
+Informasi Larangan
+Gambar 4.22 Beragam Tanda dan Makna di Tempat Kerja
+Sumber: Ibnu Indarwati (2022)
+ Berikut ini contoh label dan maknanya.
+Tabel 4.8 Contoh Label dan Maknanya
+Label
+Makna
+LABEL
+Batas Area Kerja, Batas Jalur, Barang Bahan
+LABEL
+Produk Jadi, Sarana Umum
+LABEL
+Bahan Baku, Sarana P3K, Sarana Keselamatan, 
+Darurat dan Evakuasi, Jalur Pejalan Kaki
+LABEL
+Barang Menunggu Diproses Lebih Lanjut 
+LABEL
+Barang Cacat/Ditolak, Barang Tidak Terpakai, 
+Tanda Berhenti
+LABEL
+Inventaris, Identitas Laci Penyimpanan, Rak, 
+Peralatan, dst.
+LABEL
+Area Terbatas untuk Kepentingan Operasional
+LABEL
+Area Terbatas untuk Kepentingan Keselamatan, 
+Mesin Berbahaya, Sarana Darurat Kebakaran
+LABEL
+Zona Berbahaya
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+129
+Berikut ini contoh penandaan visual (marking).
+⌂ Penataan arsip pada lemari disesuaikan dengan kategori dan diurutkan 
+berdasarkan kriteria tertentu. Untuk memudahkan penataan, digunakan 
+pengendalian visual.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+11 12
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+11 12
+10
+Gambar 4.23 Penataan Arsip
+Sumber: Ibnu Indarwati (2022)
+⌂ Penataan kabel pada sebuah komputer pribadi (personal computer).
+Gambar 4.24 Kabel yang Tertata Rapi
+Sumber: Ibnu Indarwati (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+130
+⌂ Penataan dan pemberian label pada setiap ujung patch core pada kabel fiber 
+optik membantu dalam proses pemeliharaan dan penggantian kabel.
+Gambar 4.25 Penataan dan Pemberian Label
+Sumber: Arif Muttakin(2022)
+Penataan Kabel Jaringan
+Manajemen kabel merupakan upaya pengaturan kabel jaringan UTP dan fiber 
+optik pada saat instalasi jaringan komputer (wire management). Proses menata 
+kabel jaringan bukanlah hal yang mudah dilakukan. Terkadang, teknisi jaringan 
+mengabaikan penataan kabel yang baik dan lebih berfokus pada hasil koneksi 
+yang dibutuhkan. Tujuan penataan kabel adalah kerapian sehingga memudahkan 
+saat pemeliharaan (maintenance) dan penggantian kabel jaringan. 
+Secara umum, penataan kabel dalam jaringan terdiri dari manajemen 
+horizontal dan manajemen vertikal. Dalam mengorganisasi kabel, kita 
+membutuhkan beberapa alat tambahan, seperti cable duct, label kabel, dan 
+pengikat kabel.
+
+Bab 4 - K3LH dan Budaya Kerja Industri
+131
+Aktivitas Individu 3.4
+Manajemen Kabel
+Lakukan langkah-langkah berikut:
+1. 
+beri label pada setiap ujung kabel;
+2. 
+pisahkan jalur antara kabel jaringan dan kabel listrik;
+3. 
+atur jalur kabel menggunakan cable duct.
+Sebelum
+Sesudah
+Gambar 4.26 Contoh Foto Sebelum-Sesudah Manajemen Kabel
+Sumber: Ibnu Indarwati (2022)
+ 
+ Uji Kompetensi Bab 4
+Selesaikan setiap persoalan berikut dengan benar!
+1. 
+Tuliskan langkah-langkah penerapan K3LH dalam perakitan personal 
+computer atau prosedur utama yang dilakukan saat merakit komputer!
+2. 
+Terjatuh dari ketinggian akibat lalai dalam penggunaan APD adalah salah 
+satu risiko bahaya bekerja di tempat tinggi. Tuliskan risiko bahaya yang 
+lainnya!
+3. 
+Upaya apa saja yang dapat dilakukan untuk mengurangi risiko bahaya di 
+tempat kerja?
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+132
+ 
+ Pengayaan
+Kalian yang telah menguasai materi K3LH dengan baik, tentu menyelesaikan 
+materi bab ini dengan cepat. Selanjutnya, kalian dapat melakukan kegiatan 
+pengayaan untuk pendalaman materi tambahan dalam penerapan 5R dan 
+kaizen dengan tujuan menghilangkan pemborosan (dalam bahasa Jepang 
+disebut Muda). Kegiatannya adalah dengan membuat produk inovatif untuk 
+mengurangi pemborosan yang terjadi di lingkungan sekitar sekolah dan 
+mengimplementasikannya.
+ 
+ Refleksi
+Silakan kalian mengidentifikasi apa saja yang sudah dipelajari pada materi 
+Keselamatan dan Kesehatan Kerja Lingkungan Hidup (K3LH) di bidang 
+Teknik Jaringan Komputer dan Telekomunikasi. Kalian dapat menyalin dan 
+melengkapi keempat hal berikut di buku tulis atau sesuai dengan petunjuk 
+guru.
+1. 
+Setelah pembelajaran K3LH ini, saya akhirnya memahami bahwa ....
+2. 
+Setelah pembelajaran K3LH ini, saya akhirnya mampu ....
+3. 
+Perasaan saya setelah melakukan pembelajaran K3LH ini adalah ....
+4. 
+Setelah melakukan pembelajaran K3LH, target saya berikutnya adalah ....
+
+Alat Ukur dan Pengukuran Teknik 
+Alat Ukur dan Pengukuran Teknik 
+Jaringan Akses Telekomunikasi
+Jaringan Akses Telekomunikasi
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi
+untuk SMK/MAK Kelas X
+Penulis: Ibnu Indarwati, Arif Muttakin, Agung Puspita Bantala
+ISBN: 978-623-194-472-6 (no.jil.lengkap PDF)
+978-623-194-473-3 (jil.1PDF)
+B
+A
+B
+5
+Alat ukur, baik perangkat keras maupun perangkat lunak, dapat difungsikan dengan 
+baik apabila kita menguasai setiap menu dan tombol yang terdapat pada alat tersebut. 
+Saat ini, banyak produsen alat ukur yang memberi kita beragam pilihan. Satu jenis 
+alat ukur dapat memiliki bentuk, posisi tombol pengoperasian, bahkan tampilan 
+menu yang berbeda-beda.

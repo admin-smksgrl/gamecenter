@@ -1,0 +1,1302 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "tjkt",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "TJKT 3",
+      "title": "Profesi dan Kewirausahaan di Bidang TJKT",
+      "description": "Mengenali profesi dan sertifikasi di bidang TJKT, menumbuhkan jiwa kewirausahaan dan technopreneurship, serta membangun vision dan passion sebagai bekal berwirausaha.",
+      "learning_objectives": [
+        "Menjelaskan ciri-ciri profesi dan profesi di bidang TJKT beserta sertifikasinya.",
+        "Menjelaskan jiwa kewirausahaan, technopreneurship, dan karakter wirausaha.",
+        "Mengidentifikasi peluang usaha di bidang TJKT dan cara mengenalinya.",
+        "Membangun vision dan passion untuk memulai usaha di bidang TJKT."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 3; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Apa itu profesi?",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 3; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Lebih dari sekadar pekerjaan\n\nProfesi berasal dari kata profession yang berarti ahli bidang tertentu. Profesi adalah pekerjaan yang membutuhkan keterampilan khusus yang diperoleh melalui pendidikan.\n\nTidak semua pekerjaan adalah profesi. Profesi memiliki keahlian khusus, standar pelayanan dan kode etik, konsekuensi dan tanggung jawab, pengakuan masyarakat, sertifikasi, dan asosiasi profesi.\n\nContoh profesi di bidang TJKT: network administrator, security engineer, arsitek jaringan, IT support, hardware engineer, dan teknisi instalasi fiber optik.\n\nSertifikasi menjadi bukti legal kompetensimu saat melamar pekerjaan di bidang jasa yang berbasis kepercayaan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "tjkt-3-profesi-kewirausahaan-glosarium",
+              "terms": [
+                {
+                  "term": "Profesi",
+                  "definition": "Pekerjaan yang membutuhkan keterampilan khusus yang diperoleh melalui pendidikan dan memiliki kode etik."
+                },
+                {
+                  "term": "Kewirausahaan",
+                  "definition": "Aktivitas menciptakan atau mengembangkan usaha yang inovatif dan berkelanjutan."
+                },
+                {
+                  "term": "Wirausaha",
+                  "definition": "Orang yang menjalankan kewirausahaan dengan berani mengambil risiko dan melihat peluang."
+                },
+                {
+                  "term": "Technopreneur",
+                  "definition": "Pengusaha yang memanfaatkan teknologi informasi untuk menjalankan dan memperluas usaha."
+                },
+                {
+                  "term": "Sertifikasi",
+                  "definition": "Bukti legal kompetensi seseorang di bidang tertentu, pengakuan profesi secara nasional atau internasional."
+                },
+                {
+                  "term": "SKKNI",
+                  "definition": "Standar Kompetensi Kerja Nasional Indonesia yang merumuskan kemampuan kerja sesuai tugas dan jabatan."
+                },
+                {
+                  "term": "KKNI",
+                  "definition": "Kerangka Kualifikasi Nasional Indonesia yang menetapkan level kualifikasi dan jenjang jabatan."
+                },
+                {
+                  "term": "Etika bisnis",
+                  "definition": "Rambu-rambu dan sopan santun dalam menjalankan usaha untuk menjaga reputasi."
+                },
+                {
+                  "term": "Peluang usaha",
+                  "definition": "Kesempatan untuk memperoleh keuntungan dengan memanfaatkan sumber daya yang dimiliki."
+                },
+                {
+                  "term": "Passion",
+                  "definition": "Ketertarikan dan kegemaran mendalam yang menjadi pendorong bekerja dan berkarya."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Lebih dari sekadar pekerjaan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Profesi berasal dari kata profession yang berarti ahli bidang tertentu. Profesi adalah pekerjaan yang membutuhkan keterampilan khusus yang diperoleh melalui pendidikan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tidak semua pekerjaan adalah profesi. Profesi memiliki keahlian khusus, standar pelayanan dan kode etik, konsekuensi dan tanggung jawab, pengakuan masyarakat, sertifikasi, dan asosiasi profesi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh profesi di bidang TJKT: network administrator, security engineer, arsitek jaringan, IT support, hardware engineer, dan teknisi instalasi fiber optik."
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-3-profesi-kewirausahaan-diagram",
+              "engine": "mermaid",
+              "title": "Ciri-ciri sebuah profesi",
+              "code": "flowchart TB\n  A[Profesi] --> B[Keahlian khusus]\n  A --> C[Kode etik dan standar pelayanan]\n  A --> D[Tanggung jawab]\n  A --> E[Pengakuan masyarakat]\n  A --> F[Sertifikasi dan asosiasi]\n  A --> G[Imbalan sesuai pelayanan]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Sertifikasi menjadi bukti legal kompetensimu saat melamar pekerjaan di bidang jasa yang berbasis kepercayaan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-3-profesi-kewirausahaan-cp-1",
+              "question": "Syarat agar sebuah pekerjaan dapat disebut profesi adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "memiliki keahlian khusus dan kode etik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "dapat dikerjakan siapa saja"
+                },
+                {
+                  "id": "c2",
+                  "text": "tidak perlu sertifikasi"
+                },
+                {
+                  "id": "c3",
+                  "text": "tanpa tanggung jawab"
+                }
+              ],
+              "explanation": "Keahlian khusus, kode etik, dan sertifikasi adalah ciri profesi."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Kewirausahaan dan technopreneurship",
+          "duration": 300,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 3; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Dari jiwa wirausaha ke teknopreneur\n\nMenurut Perpres No 2 Tahun 2022, kewirausahaan adalah aktivitas menciptakan atau mengembangkan usaha yang inovatif dan berkelanjutan. Wirausaha adalah orang yang melihat peluang dan berani mengambil risiko.\n\nJiwa kewirausahaan tampak pada sikap kreatif dan inovatif: memiliki jiwa kepemimpinan, semangat tinggi, kemampuan menganalisis masalah, ide kreatif, dan totalitas dalam usaha.\n\nTechnopreneur adalah pengusaha yang memanfaatkan teknologi informasi untuk memperoleh keuntungan. Contoh teknopreneur sukses: Bill Gates, Steve Jobs, Andrew Darwis, dan William Tanuwijaya.\n\n| 10D kewirausahaan | Arti |\n|---|---|\n| Dream | Memiliki mimpi untuk maju |\n| Decisiveness | Tegas mengambil keputusan |\n| Doers | Segera menindaklanjuti |\n| Determination | Ketetapan hati |\n| Dedication | Pengabdian dalam usaha |\n| Devotion | Kesetiaan menjalankan usaha |\n| Details | Memperhatikan hal rinci |\n| Destiny | Tanggung jawab atas tujuan |\n| Dollars | Mengarahkan kerja untuk keuntungan |\n| Distribute | Berbagi kepemilikan dengan orang kepercayaan |\n\n### Peluang usaha di bidang TJKT\n\n- Peluang usaha dengan nilai jual tinggi dapat diambil bila idenya original, sesuai minat, antisipatif terhadap pasar, dan mampu mendatangkan keuntungan.\n- Contoh usaha TJKT: jasa desain grafis, pembuat konten, servis perangkat keras, instalasi dan perawatan jaringan, serta toko komputer dan laptop.\n- Jasa instalasi dan perawatan jaringan mencakup pemasangan Wi-Fi, CCTV, dan LAN di kantor, kampus, hotel, dan perumahan.\n- Identifikasi peluang dilakukan dengan mengenali segmentasi pasar, modal, inovasi, dan menyusun rencana bisnis.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari jiwa wirausaha ke teknopreneur"
+            },
+            {
+              "type": "paragraph",
+              "text": "Menurut Perpres No 2 Tahun 2022, kewirausahaan adalah aktivitas menciptakan atau mengembangkan usaha yang inovatif dan berkelanjutan. Wirausaha adalah orang yang melihat peluang dan berani mengambil risiko."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jiwa kewirausahaan tampak pada sikap kreatif dan inovatif: memiliki jiwa kepemimpinan, semangat tinggi, kemampuan menganalisis masalah, ide kreatif, dan totalitas dalam usaha."
+            },
+            {
+              "type": "paragraph",
+              "text": "Technopreneur adalah pengusaha yang memanfaatkan teknologi informasi untuk memperoleh keuntungan. Contoh teknopreneur sukses: Bill Gates, Steve Jobs, Andrew Darwis, dan William Tanuwijaya."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "10D kewirausahaan",
+                  "Arti"
+                ],
+                [
+                  "Dream",
+                  "Memiliki mimpi untuk maju"
+                ],
+                [
+                  "Decisiveness",
+                  "Tegas mengambil keputusan"
+                ],
+                [
+                  "Doers",
+                  "Segera menindaklanjuti"
+                ],
+                [
+                  "Determination",
+                  "Ketetapan hati"
+                ],
+                [
+                  "Dedication",
+                  "Pengabdian dalam usaha"
+                ],
+                [
+                  "Devotion",
+                  "Kesetiaan menjalankan usaha"
+                ],
+                [
+                  "Details",
+                  "Memperhatikan hal rinci"
+                ],
+                [
+                  "Destiny",
+                  "Tanggung jawab atas tujuan"
+                ],
+                [
+                  "Dollars",
+                  "Mengarahkan kerja untuk keuntungan"
+                ],
+                [
+                  "Distribute",
+                  "Berbagi kepemilikan dengan orang kepercayaan"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-3-tahapan",
+              "engine": "mermaid",
+              "title": "Tahapan menumbuhkan jiwa kewirausahaan",
+              "code": "flowchart LR\n  A[Internalization] --> B[Paradigm alteration]\n  B --> C[Spirit initiation]\n  C --> D[Competition]\n  D --> E[Usaha inovatif dan berkelanjutan]"
+            },
+            {
+              "type": "categorize",
+              "id": "tjkt-3-klasifikasi",
+              "prompt": "Kelompokkan kemampuan berikut ke dalam kemampuan wirausaha atau kemampuan teknopreneur.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Wirausaha umum"
+                },
+                {
+                  "id": "b2",
+                  "label": "Teknopreneur"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Melihat peluang usaha",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Menguasai teknologi informasi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Berani mengambil risiko",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Membuat inovasi berbasis teknologi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Kemampuan menganalisis masalah",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Mengidentifikasi peluang dari pasar digital",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Kepemimpinan dan totalitas",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Riset di bidang teknologi informasi",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Wirausaha umum berfokus pada peluang dan risiko; teknopreneur menekankan teknologi dan inovasi digital.",
+                "wrong": "Periksa lagi: kata kunci teknopreneur adalah teknologi informasi dan inovasi digital."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Peluang usaha di bidang TJKT"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Peluang usaha dengan nilai jual tinggi dapat diambil bila idenya original, sesuai minat, antisipatif terhadap pasar, dan mampu mendatangkan keuntungan.",
+                "Contoh usaha TJKT: jasa desain grafis, pembuat konten, servis perangkat keras, instalasi dan perawatan jaringan, serta toko komputer dan laptop.",
+                "Jasa instalasi dan perawatan jaringan mencakup pemasangan Wi-Fi, CCTV, dan LAN di kantor, kampus, hotel, dan perumahan.",
+                "Identifikasi peluang dilakukan dengan mengenali segmentasi pasar, modal, inovasi, dan menyusun rencana bisnis."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-3-profesi-kewirausahaan-cp-2",
+              "question": "Pengusaha yang memanfaatkan teknologi informasi untuk menjalankan usaha disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "technopreneur",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "petugas server"
+                },
+                {
+                  "id": "c2",
+                  "text": "accountant"
+                },
+                {
+                  "id": "c3",
+                  "text": "satpam"
+                }
+              ],
+              "explanation": "Technopreneur adalah gabungan technology dan entrepreneur."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Etika dan vision-passion",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 3; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Menjaga reputasi, membangun mimpi\n\nEtika berwirausaha menjaga reputasi pribadi dan perusahaan. Reputasi dibangun lama dan menjadi aset; pelanggaran etika, misalnya menipu konsumen, meruntuhkan kepercayaan hingga usaha bangkrut.\n\nVision adalah gambaran masa depan yang hendak dicapai usaha, sedangkan passion adalah kegemaran mendalam yang mendorongmu terus berkarya. Keduanya membuat usaha bertahan saat tantangan datang.\n\nUntuk memulai, pilih peluang yang sesuai minat, susun rencana sederhana, dan bangun kepercayaan lewat kualitas layanan yang jujur.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menjaga reputasi, membangun mimpi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Etika berwirausaha menjaga reputasi pribadi dan perusahaan. Reputasi dibangun lama dan menjadi aset; pelanggaran etika, misalnya menipu konsumen, meruntuhkan kepercayaan hingga usaha bangkrut."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vision adalah gambaran masa depan yang hendak dicapai usaha, sedangkan passion adalah kegemaran mendalam yang mendorongmu terus berkarya. Keduanya membuat usaha bertahan saat tantangan datang."
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk memulai, pilih peluang yang sesuai minat, susun rencana sederhana, dan bangun kepercayaan lewat kualitas layanan yang jujur."
+            },
+            {
+              "type": "scenario",
+              "id": "tjkt-3-skenario",
+              "title": "Tawaran pelanggan mencurigakan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Pelanggan minta kamu memasang hotspot yang mencuri akses tetangga dan memberi upah besar. Sikapmu?",
+                  "choices": [
+                    {
+                      "text": "Menolak dan menjelaskan bahwa itu melanggar etika dan hukum",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Etika bisnis melindungi reputasi jangka panjang."
+                    },
+                    {
+                      "text": "Menerima karena upahnya besar",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Keuntungan sesaat menghancurkan kepercayaan dan citra usaha."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bagaimana menawarkan solusi yang benar kepada pelanggan itu?",
+                  "choices": [
+                    {
+                      "text": "Menawarkan pemasangan jaringan legal yang aman dan murah",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Layanan jujur membangun reputasi dan pelanggan setia."
+                    },
+                    {
+                      "text": "Merahasiakan penolakan lalu mengerjakan secara diam-diam",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tidak ada setengah jalan dalam etika bisnis."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Reputasi usahamu hancur dan kepercayaan pelanggan hilang.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Usahamu dipercaya dan pelanggan makin banyak.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "tjkt-3-profesi-kewirausahaan-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan dua ciri profesi.",
+                  "back": "Keahlian khusus dan kode etik; sertifikasi dan pengakuan masyarakat."
+                },
+                {
+                  "front": "Apa itu technopreneur?",
+                  "back": "Pengusaha yang memanfaatkan teknologi informasi untuk menjalankan usaha."
+                },
+                {
+                  "front": "Sebutkan dua contoh usaha di bidang TJKT.",
+                  "back": "Instalasi dan perawatan jaringan; servis perangkat keras."
+                },
+                {
+                  "front": "Apa fungsi etika bisnis?",
+                  "back": "Menjaga reputasi perusahaan dan menghindari kecurangan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-3-profesi-kewirausahaan-cp-3",
+              "question": "Contoh profesi di bidang TJKT adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "network administrator",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "peternak ayam"
+                },
+                {
+                  "id": "c2",
+                  "text": "penjahit"
+                },
+                {
+                  "id": "c3",
+                  "text": "nelayan"
+                }
+              ],
+              "explanation": "Network administrator mengelola jaringan dalam lingkup TJKT."
+            },
+            {
+              "type": "challenge",
+              "id": "tjkt-3-tantangan",
+              "title": "Tantangan istilah profesi dan wirausaha",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Pekerjaan dengan keahlian khusus",
+                  "answer": "Profesi"
+                },
+                {
+                  "question": "Usaha inovatif dan berkelanjutan",
+                  "answer": "Kewirausahaan"
+                },
+                {
+                  "question": "Pengusaha berbasis teknologi",
+                  "answer": "Technopreneur"
+                },
+                {
+                  "question": "Bukti kompetensi legal",
+                  "answer": "Sertifikasi"
+                },
+                {
+                  "question": "Peluang memperoleh keuntungan",
+                  "answer": "Peluang usaha"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah profesi dan wirausaha terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Profesi dan Kewirausahaan di Bidang TJKT — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Profesi berasal dari kata profession yang berarti…",
+              "options": [
+                {
+                  "text": "ahli bidang tertentu",
+                  "correct": true
+                },
+                {
+                  "text": "karyawan"
+                },
+                {
+                  "text": "bos"
+                },
+                {
+                  "text": "pelanggan"
+                }
+              ],
+              "explanation": "Profesi menuntut keahlian khusus.",
+              "hint": "Diperoleh melalui pendidikan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu ciri profesi adalah…",
+              "options": [
+                {
+                  "text": "memiliki sertifikasi dan kode etik",
+                  "correct": true
+                },
+                {
+                  "text": "dikerjakan tanpa keahlian"
+                },
+                {
+                  "text": "tanpa imbalan"
+                },
+                {
+                  "text": "tanpa tanggung jawab"
+                }
+              ],
+              "explanation": "Sertifikasi membuktikan kompetensi legal.",
+              "hint": "Asosiasi profesi menyatukan anggotanya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut Perpres No 2 Tahun 2022, kewirausahaan adalah…",
+              "options": [
+                {
+                  "text": "aktivitas menciptakan atau mengembangkan usaha inovatif dan berkelanjutan",
+                  "correct": true
+                },
+                {
+                  "text": "pekerjaan tetap di perusahaan"
+                },
+                {
+                  "text": "hobi tanpa tujuan"
+                },
+                {
+                  "text": "kegiatan sosial"
+                }
+              ],
+              "explanation": "Kewirausahaan menekankan inovasi.",
+              "hint": "Berlangsung berkelanjutan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri profesi?",
+              "options": [
+                {
+                  "text": "Keahlian khusus",
+                  "correct": true
+                },
+                {
+                  "text": "Kode etik",
+                  "correct": true
+                },
+                {
+                  "text": "Sertifikasi",
+                  "correct": true
+                },
+                {
+                  "text": "Dikerjakan siapa saja",
+                  "correct": false
+                },
+                {
+                  "text": "Tanpa tanggung jawab",
+                  "correct": false
+                }
+              ],
+              "explanation": "Profesi menuntut keahlian dan etika.",
+              "hint": "Bukan pekerjaan sembarangan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri jiwa kewirausahaan?",
+              "options": [
+                {
+                  "text": "Berani mengambil risiko",
+                  "correct": true
+                },
+                {
+                  "text": "Ide kreatif inovatif",
+                  "correct": true
+                },
+                {
+                  "text": "Totalitas dalam usaha",
+                  "correct": true
+                },
+                {
+                  "text": "Menunggu perintah",
+                  "correct": false
+                },
+                {
+                  "text": "Menolak perubahan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Wirausaha melihat peluang dan bertindak.",
+              "hint": "Pasif bukan ciri wirausaha."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Profesi dan Kewirausahaan di Bidang TJKT — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Ciri-ciri sehat jiwa kewirausahaan, antara lain…",
+              "options": [
+                {
+                  "text": "kepemimpinan dan ide kreatif inovatif",
+                  "correct": true
+                },
+                {
+                  "text": "menunggu perintah"
+                },
+                {
+                  "text": "meniru terus-menerus"
+                },
+                {
+                  "text": "menghindari risiko"
+                }
+              ],
+              "explanation": "Wirausaha berani mengambil risiko.",
+              "hint": "Totalitas menjalankan usaha."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tahap menanamkan jiwa kewirausahaan dari dalam diri disebut…",
+              "options": [
+                {
+                  "text": "internalization",
+                  "correct": true
+                },
+                {
+                  "text": "competition"
+                },
+                {
+                  "text": "spirit initiation"
+                },
+                {
+                  "text": "paradigm alteration"
+                }
+              ],
+              "explanation": "Internalisasi menanamkan jiwa kewirausahaan.",
+              "hint": "Diikuti perubahan paradigma."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh teknopreneur?",
+              "options": [
+                {
+                  "text": "Pemilik toko daring",
+                  "correct": true
+                },
+                {
+                  "text": "Penyedia jasa aplikasi",
+                  "correct": true
+                },
+                {
+                  "text": "Content creator",
+                  "correct": true
+                },
+                {
+                  "text": "Pedagang keliling",
+                  "correct": false
+                },
+                {
+                  "text": "Tukang kayu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teknopreneur memakai teknologi informasi.",
+              "hint": "Tanpa teknologi informasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah peluang usaha di bidang TJKT?",
+              "options": [
+                {
+                  "text": "Instalasi Wi-Fi",
+                  "correct": true
+                },
+                {
+                  "text": "Servis perangkat keras",
+                  "correct": true
+                },
+                {
+                  "text": "Pemasangan CCTV",
+                  "correct": true
+                },
+                {
+                  "text": "Jasa potong rambut",
+                  "correct": false
+                },
+                {
+                  "text": "Kebun sayur",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiganya memakai keahlian jaringan.",
+              "hint": "Potong rambut dan kebun bukan TJKT."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Profesi",
+                  "right": "pekerjaan dengan keahlian khusus"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kewirausahaan",
+                  "right": "usaha inovatif dan berkelanjutan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Technopreneur",
+                  "right": "pengusaha berbasis teknologi informasi"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sertifikasi",
+                  "right": "bukti kompetensi legal"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pekerjaan dengan keahlian khusus",
+                  "m1": "usaha inovatif dan berkelanjutan",
+                  "m2": "pengusaha berbasis teknologi informasi",
+                  "m3": "bukti kompetensi legal"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahap menumbuhkan jiwa kewirausahaan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Internalization"
+                },
+                {
+                  "id": "d1",
+                  "text": "Paradigm alteration"
+                },
+                {
+                  "id": "d2",
+                  "text": "Spirit initiation"
+                },
+                {
+                  "id": "d3",
+                  "text": "Competition"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Jiwa ditanam lalu diubah pola pikirnya.",
+              "hint": "Kompetisi menutup tahapan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah memulai usaha jasa instalasi jaringan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Belajar keterampilan jaringan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menyusun rencana usaha"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menentukan target pasar"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menawarkan layanan contoh gratis"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menagih layanan sesuai kesepakatan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Usaha berawal dari keterampilan.",
+              "hint": "Pelayanan yang baik menambah pelanggan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Karakter kewirausahaan 10D dari Bygrave meliputi…",
+              "options": [
+                {
+                  "text": "dream, decisiveness, doers",
+                  "correct": true
+                },
+                {
+                  "text": "dingin, diam, dengar"
+                },
+                {
+                  "text": "desa, danau, darat"
+                },
+                {
+                  "text": "debit, devisa, dolar"
+                }
+              ],
+              "explanation": "10D berawal dari dream hingga distribute.",
+              "hint": "Decisiveness berarti tegas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "D dalam 10D yang berarti segera menindaklanjuti keputusan adalah…",
+              "options": [
+                {
+                  "text": "doers",
+                  "correct": true
+                },
+                {
+                  "text": "dream"
+                },
+                {
+                  "text": "details"
+                },
+                {
+                  "text": "destiny"
+                }
+              ],
+              "explanation": "Doers artinya pelaku.",
+              "hint": "Tidak menunda kesempatan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sikap menjaga etika bisnis?",
+              "options": [
+                {
+                  "text": "Jujur pada konsumen",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari kecurangan",
+                  "correct": true
+                },
+                {
+                  "text": "Melayani dengan sopan",
+                  "correct": true
+                },
+                {
+                  "text": "Menipu demi untung",
+                  "correct": false
+                },
+                {
+                  "text": "Merahasiakan cacat produk",
+                  "correct": false
+                }
+              ],
+              "explanation": "Etika menjaga reputasi jangka panjang.",
+              "hint": "Kecurangan menghancurkan usaha."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Profesi dan Kewirausahaan di Bidang TJKT — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Technopreneur adalah pengusaha yang…",
+              "options": [
+                {
+                  "text": "memanfaatkan teknologi informasi dalam usaha",
+                  "correct": true
+                },
+                {
+                  "text": "menjual hasil tani"
+                },
+                {
+                  "text": "berjualan pasar tradisional"
+                },
+                {
+                  "text": "menggambar manual"
+                }
+              ],
+              "explanation": "Gabungan technology dan entrepreneur."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh teknopreneur sukses yang disebut buku adalah…",
+              "options": [
+                {
+                  "text": "Bill Gates dan William Tanuwijaya",
+                  "correct": true
+                },
+                {
+                  "text": "Albert Einstein"
+                },
+                {
+                  "text": "R.A. Kartini"
+                },
+                {
+                  "text": "Ki Hajar Dewantara"
+                }
+              ],
+              "explanation": "Keduanya membangun usaha berbasis teknologi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sertifikasi nasional Indonesia berbasis KKNI disebut…",
+              "options": [
+                {
+                  "text": "Sertifikat Kompetensi",
+                  "correct": true
+                },
+                {
+                  "text": "KTP"
+                },
+                {
+                  "text": "SIM"
+                },
+                {
+                  "text": "paspor"
+                }
+              ],
+              "explanation": "Sertifikat Kompetensi sesuai level KKNI."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu contoh peluang usaha di bidang TJKT adalah…",
+              "options": [
+                {
+                  "text": "jasa instalasi dan perawatan jaringan",
+                  "correct": true
+                },
+                {
+                  "text": "jasa jahit baju"
+                },
+                {
+                  "text": "warung nasi"
+                },
+                {
+                  "text": "angkutan kota"
+                }
+              ],
+              "explanation": "Mencakup Wi-Fi, CCTV, dan instalasi LAN."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fungsi etika dalam usaha adalah…",
+              "options": [
+                {
+                  "text": "menjaga reputasi perusahaan",
+                  "correct": true
+                },
+                {
+                  "text": "menaikkan harga semaunya"
+                },
+                {
+                  "text": "menipu konsumen"
+                },
+                {
+                  "text": "menghindari pajak"
+                }
+              ],
+              "explanation": "Reputasi adalah aset jangka panjang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kemampuan yang dibutuhkan teknopreneur?",
+              "options": [
+                {
+                  "text": "Pengetahuan teknologi",
+                  "correct": true
+                },
+                {
+                  "text": "Mengelola risiko",
+                  "correct": true
+                },
+                {
+                  "text": "Menemukan solusi inovasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghafal hukum pidana",
+                  "correct": false
+                },
+                {
+                  "text": "Menjauh dari teknologi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teknopreneur menguasai teknologi dan risiko."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat teknopreneurship?",
+              "options": [
+                {
+                  "text": "Menciptakan lapangan kerja",
+                  "correct": true
+                },
+                {
+                  "text": "Mendorong UMKM",
+                  "correct": true
+                },
+                {
+                  "text": "Meningkatkan ekonomi",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah pengangguran",
+                  "correct": false
+                },
+                {
+                  "text": "Menghentikan inovasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teknopreneur berkontribusi pada ekonomi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "SKKNI",
+                  "right": "standar kompetensi kerja nasional"
+                },
+                {
+                  "id": "m1",
+                  "left": "Etika bisnis",
+                  "right": "rambu menjaga reputasi usaha"
+                },
+                {
+                  "id": "m2",
+                  "left": "Peluang usaha",
+                  "right": "kesempatan memperoleh keuntungan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Passion",
+                  "right": "kegemaran mendalam untuk berkarya"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "standar kompetensi kerja nasional",
+                  "m1": "rambu menjaga reputasi usaha",
+                  "m2": "kesempatan memperoleh keuntungan",
+                  "m3": "kegemaran mendalam untuk berkarya"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan proses mendapatkan sertifikasi profesi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengikuti pendidikan atau pelatihan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mempelajari unit kompetensi SKKNI"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mengikuti uji kompetensi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mendapat Sertifikat Kompetensi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memakai sertifikat untuk melamar kerja"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Sertifikasi dimulai dari pendidikan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan identifikasi peluang usaha.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mengenali pasar dan pesaing"
+                },
+                {
+                  "id": "p1",
+                  "text": "Mengenali modal yang dimiliki"
+                },
+                {
+                  "id": "p2",
+                  "text": "Mencari ide inovatif"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menyusun rencana bisnis"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menjalankan dan mengevaluasi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Identifikasi berawal dari pasar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kegemaran mendalam yang mendorong seseorang berkarya disebut…",
+              "options": [
+                {
+                  "text": "passion",
+                  "correct": true
+                },
+                {
+                  "text": "gaji"
+                },
+                {
+                  "text": "seragam"
+                },
+                {
+                  "text": "jabatan"
+                }
+              ],
+              "explanation": "Passion menjadi pendorong berkarya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cara mengenali peluang usaha yang baik adalah…",
+              "options": [
+                {
+                  "text": "mengenali segmentasi pasar dan pesaing",
+                  "correct": true
+                },
+                {
+                  "text": "menunggu tawaran"
+                },
+                {
+                  "text": "menyalin usaha orang tanpa berpikir"
+                },
+                {
+                  "text": "menghindari inovasi"
+                }
+              ],
+              "explanation": "Pasar yang dikenali memudahkan rencana."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh tindakan membangun vision dan passion?",
+              "options": [
+                {
+                  "text": "Menulis tujuan usaha",
+                  "correct": true
+                },
+                {
+                  "text": "Belajar hal yang disukai",
+                  "correct": true
+                },
+                {
+                  "text": "Mencoba kegagalan dan bangkit",
+                  "correct": true
+                },
+                {
+                  "text": "Menunda semua pekerjaan",
+                  "correct": false
+                },
+                {
+                  "text": "Mengabaikan minat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Vision dan passion lahir dari tujuan dan minat."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Profesi",
+                  "right": "pekerjaan dengan keahlian khusus"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kewirausahaan",
+                  "right": "usaha inovatif dan berkelanjutan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Technopreneur",
+                  "right": "pengusaha berbasis teknologi informasi"
+                },
+                {
+                  "id": "m3",
+                  "left": "Sertifikasi",
+                  "right": "bukti kompetensi legal"
+                },
+                {
+                  "id": "m4",
+                  "left": "SKKNI",
+                  "right": "standar kompetensi kerja nasional"
+                },
+                {
+                  "id": "m5",
+                  "left": "Etika bisnis",
+                  "right": "rambu menjaga reputasi usaha"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pekerjaan dengan keahlian khusus",
+                  "m1": "usaha inovatif dan berkelanjutan",
+                  "m2": "pengusaha berbasis teknologi informasi",
+                  "m3": "bukti kompetensi legal",
+                  "m4": "standar kompetensi kerja nasional",
+                  "m5": "rambu menjaga reputasi usaha"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan cara menjaga reputasi usaha.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Memberi layanan terbaik"
+                },
+                {
+                  "id": "d1",
+                  "text": "Bersikap jujur"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menepati janji"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menangani keluhan pelanggan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memperbaiki layanan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Reputasi dibangun dari pelayanan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

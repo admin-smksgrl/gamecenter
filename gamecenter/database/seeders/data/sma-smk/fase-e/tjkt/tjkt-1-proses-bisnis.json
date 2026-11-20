@@ -1,0 +1,1275 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "tjkt",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "TJKT 1",
+      "title": "Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi",
+      "description": "Memahami proses bisnis pelaku usaha perorangan dan organisasi, menganalisis kebutuhan pengguna dalam perencanaan jaringan, dan mengimplementasikan perencanaan jaringan sesuai proses bisnis perusahaan.",
+      "learning_objectives": [
+        "Menjelaskan pengertian proses bisnis dan aktivitas utama (core business) pelaku usaha.",
+        "Membandingkan proses bisnis pelaku usaha perorangan dan organisasi.",
+        "Menganalisis kebutuhan pengguna dalam perencanaan jaringan komputer dan telekomunikasi.",
+        "Mengimplementasikan perencanaan jaringan berdasarkan proses bisnis perusahaan."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 1; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Apa itu proses bisnis?",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 1; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Tahapan terstruktur menuju tujuan ekonomi\n\nDi pasar, kamu dapat melihat manusia berusaha memenuhi kebutuhan hidupnya. Usaha itu tersusun dalam tahapan: memperoleh bahan, mengolah, menjual, hingga menghasilkan pendapatan.\n\nProses bisnis adalah serangkaian tahapan kegiatan terstruktur yang menghasilkan barang atau jasa sebagai tujuan ekonomi. Setiap tahap memiliki peran dan pengaruh terhadap tahap berikutnya.\n\nPelaku usaha dapat dijalankan perorangan ataupun organisasi. Ketika usaha berkembang, pembagian tugas menjadi semakin terstruktur dengan grup kerja yang memiliki fungsi dan tanggung jawab masing-masing.\n\nBagi teknisi jaringan, memahami proses bisnis penting karena jaringan yang dibangun harus mendukung alur kerja dan target perusahaan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "tjkt-1-proses-bisnis-glosarium",
+              "terms": [
+                {
+                  "term": "Proses bisnis",
+                  "definition": "Rangkaian tahapan kegiatan terstruktur yang menghasilkan barang atau jasa dengan tujuan ekonomi."
+                },
+                {
+                  "term": "Core business",
+                  "definition": "Aktivitas utama bisnis yang menjadi sumber utama nilai dan pendapatan perusahaan."
+                },
+                {
+                  "term": "Analisis kebutuhan",
+                  "definition": "Kajian terhadap kebutuhan pengguna seperti jumlah pengguna, perangkat, dan layanan jaringan."
+                },
+                {
+                  "term": "Grup kerja",
+                  "definition": "Kelompok dalam organisasi dengan fungsi dan tanggung jawab yang terbagi terstruktur."
+                },
+                {
+                  "term": "ISP",
+                  "definition": "Penyedia layanan internet (Internet Service Provider) yang menghubungkan pelanggan ke internet."
+                },
+                {
+                  "term": "Jaringan komputer",
+                  "definition": "Kumpulan perangkat yang saling terhubung untuk berbagi sumber daya dan data."
+                },
+                {
+                  "term": "Media koneksi",
+                  "definition": "Sarana penghubung antarderangkat jaringan, seperti kabel tembaga, serat optik, atau nirkabel."
+                },
+                {
+                  "term": "Pengalamatan IP",
+                  "definition": "Pemberian alamat unik pada perangkat agar dapat berkomunikasi dalam jaringan."
+                },
+                {
+                  "term": "Firewall",
+                  "definition": "Sistem keamanan yang mengatur izin lalu lintas data masuk dan keluar jaringan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tahapan terstruktur menuju tujuan ekonomi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Di pasar, kamu dapat melihat manusia berusaha memenuhi kebutuhan hidupnya. Usaha itu tersusun dalam tahapan: memperoleh bahan, mengolah, menjual, hingga menghasilkan pendapatan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Proses bisnis adalah serangkaian tahapan kegiatan terstruktur yang menghasilkan barang atau jasa sebagai tujuan ekonomi. Setiap tahap memiliki peran dan pengaruh terhadap tahap berikutnya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pelaku usaha dapat dijalankan perorangan ataupun organisasi. Ketika usaha berkembang, pembagian tugas menjadi semakin terstruktur dengan grup kerja yang memiliki fungsi dan tanggung jawab masing-masing."
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-1-proses-bisnis-diagram",
+              "engine": "mermaid",
+              "title": "Alur proses bisnis sederhana",
+              "code": "flowchart LR\n  A[Bahan dan modal] --> B[Produksi / pengolahan]\n  B --> C[Kualitas dan kemasan]\n  C --> D[Pemasaran dan penjualan]\n  D --> E[Pendapatan dan keuangan]\n  E --> A"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Bagi teknisi jaringan, memahami proses bisnis penting karena jaringan yang dibangun harus mendukung alur kerja dan target perusahaan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-1-proses-bisnis-cp-1",
+              "question": "Aktivitas utama bisnis yang menjadi sumber nilai perusahaan disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "core business",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "firewall"
+                },
+                {
+                  "id": "c2",
+                  "text": "grup kerja"
+                },
+                {
+                  "id": "c3",
+                  "text": "pengalamatan IP"
+                }
+              ],
+              "explanation": "Core business adalah aktivitas utama yang menghasilkan nilai dan pendapatan."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Dari perorangan ke organisasi",
+          "duration": 300,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 1; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Perubahan proses bisnis saat usaha berkembang\n\nPelaku usaha perorangan mengerjakan seluruh tahap sendiri: membeli bahan, membuat, menjual, dan mengelola uang. Skalanya kecil dan keputusannya cepat.\n\nKetika usaha berkembang menjadi organisasi, muncul grup kerja dengan fungsi terpisah: pimpinan (CEO), pembelian, gudang, produksi, pengendalian mutu, pemasaran, hingga keuangan.\n\nDengan struktur itu, proses bisnis menjadi lebih besar dan kompleks sehingga membutuhkan dukungan teknologi, termasuk jaringan komputer dan telekomunikasi untuk mempercepat alur kerja.\n\n| Perorangan | Organisasi |\n|---|---|\n| Semua tahap dikerjakan sendiri | Tugas terbagi dalam grup kerja |\n| Keputusan cepat | Keputusan melalui koordinasi |\n| Skala usaha kecil | Skala dan volume produksi besar |\n| Alur kerja sederhana | Alur kerja terstruktur dan terdokumentasi |\n\n### Bisnis ISP sebagai contoh\n\n- ISP (Internet Service Provider) menjual layanan internet kepada pelanggan rumah tangga dan perusahaan.\n- Proses bisnis ISP mencakup pemasaran, pemasangan akses, layanan pelanggan, dan pemeliharaan jaringan.\n- Teknisi jaringan bekerja di divisi seperti Networking Design yang merancang jaringan sesuai kebutuhan pelanggan.\n- Informasi proses bisnis menentukan segmen jaringan, layanan, alur akses, dan jumlah pengguna yang dilayani.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perubahan proses bisnis saat usaha berkembang"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pelaku usaha perorangan mengerjakan seluruh tahap sendiri: membeli bahan, membuat, menjual, dan mengelola uang. Skalanya kecil dan keputusannya cepat."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ketika usaha berkembang menjadi organisasi, muncul grup kerja dengan fungsi terpisah: pimpinan (CEO), pembelian, gudang, produksi, pengendalian mutu, pemasaran, hingga keuangan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dengan struktur itu, proses bisnis menjadi lebih besar dan kompleks sehingga membutuhkan dukungan teknologi, termasuk jaringan komputer dan telekomunikasi untuk mempercepat alur kerja."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Perorangan",
+                  "Organisasi"
+                ],
+                [
+                  "Semua tahap dikerjakan sendiri",
+                  "Tugas terbagi dalam grup kerja"
+                ],
+                [
+                  "Keputusan cepat",
+                  "Keputusan melalui koordinasi"
+                ],
+                [
+                  "Skala usaha kecil",
+                  "Skala dan volume produksi besar"
+                ],
+                [
+                  "Alur kerja sederhana",
+                  "Alur kerja terstruktur dan terdokumentasi"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "id": "tjkt-1-organisasi",
+              "engine": "mermaid",
+              "title": "Grup kerja pada pelaku usaha organisasi",
+              "code": "flowchart TB\n  A[CEO] --> B[Purchasing]\n  A --> C[Storage / gudang]\n  A --> D[Production]\n  A --> E[Quality control]\n  A --> F[Marketing dan sales]\n  A --> G[Accounting dan payroll]"
+            },
+            {
+              "type": "categorize",
+              "id": "tjkt-1-klasifikasi",
+              "prompt": "Kelompokkan ciri berikut ke dalam pelaku usaha perorangan atau organisasi.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Perorangan"
+                },
+                {
+                  "id": "b2",
+                  "label": "Organisasi"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Semua tahap dikerjakan sendiri",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Ada divisi purchasing dan produksi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Keputusan cepat tanpa koordinasi",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Tugas terbagi dalam grup kerja",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Skala usaha kecil",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i6",
+                  "text": "Produksi massal dengan mesin otomatisasi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Pemasaran dilakukan pemilik langsung",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Ada pengendalian mutu terpisah",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Perorangan mengerjakan segalanya; organisasi membagi tugas terstruktur.",
+                "wrong": "Periksa lagi: kata “divisi”, “grup kerja”, dan “massal” menandai organisasi."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Bisnis ISP sebagai contoh"
+            },
+            {
+              "type": "list",
+              "items": [
+                "ISP (Internet Service Provider) menjual layanan internet kepada pelanggan rumah tangga dan perusahaan.",
+                "Proses bisnis ISP mencakup pemasaran, pemasangan akses, layanan pelanggan, dan pemeliharaan jaringan.",
+                "Teknisi jaringan bekerja di divisi seperti Networking Design yang merancang jaringan sesuai kebutuhan pelanggan.",
+                "Informasi proses bisnis menentukan segmen jaringan, layanan, alur akses, dan jumlah pengguna yang dilayani."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-1-proses-bisnis-cp-2",
+              "question": "Contoh perusahaan yang menghasilkan jasa layanan internet adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "ISP",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "pabrik kue"
+                },
+                {
+                  "id": "c2",
+                  "text": "toko sembako"
+                },
+                {
+                  "id": "c3",
+                  "text": "perusahaan tekstil"
+                }
+              ],
+              "explanation": "ISP adalah penyedia jasa layanan internet."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Perencanaan jaringan untuk bisnis",
+          "duration": 240,
+          "source_reference": "Dasar-Teknik-Jaringan-Komputer-dan-Telekomunikasi-BS-KLS-X.pdf Bab 1; CP Fase E Mata Pelajaran Dasar-Dasar TJKT",
+          "content": "## Analisis kebutuhan pengguna\n\nPerencanaan jaringan dimulai dari analisis kebutuhan pengguna. Informasi yang dikumpulkan lewat survei: jumlah pengguna, jumlah perangkat keras, informasi grup kerja, dan alur kerja perusahaan.\n\nInformasi lain yang penting: keberadaan cabang, jarak antargedung, dan layanan yang dibutuhkan. Semua data itu menentukan pilihan perangkat, media koneksi, dan pengalamatan IP.\n\nImplementasi dapat diuji di media simulasi seperti Cisco Packet Tracer: memilih perangkat, menyambung media, memberikan alamat IP, hingga menguji koneksi antarpengguna.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Analisis kebutuhan pengguna"
+            },
+            {
+              "type": "paragraph",
+              "text": "Perencanaan jaringan dimulai dari analisis kebutuhan pengguna. Informasi yang dikumpulkan lewat survei: jumlah pengguna, jumlah perangkat keras, informasi grup kerja, dan alur kerja perusahaan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Informasi lain yang penting: keberadaan cabang, jarak antargedung, dan layanan yang dibutuhkan. Semua data itu menentukan pilihan perangkat, media koneksi, dan pengalamatan IP."
+            },
+            {
+              "type": "paragraph",
+              "text": "Implementasi dapat diuji di media simulasi seperti Cisco Packet Tracer: memilih perangkat, menyambung media, memberikan alamat IP, hingga menguji koneksi antarpengguna."
+            },
+            {
+              "type": "scenario",
+              "id": "tjkt-1-skenario",
+              "title": "Survei kebutuhan jaringan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Perusahaan kue ingin jaringan untuk 30 karyawan di dua lantai. Langkah pertamamu?",
+                  "choices": [
+                    {
+                      "text": "Menilai kebutuhan: jumlah pengguna, perangkat, dan alur kerja",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Analisis kebutuhan mendahului pemilihan perangkat."
+                    },
+                    {
+                      "text": "Langsung membeli switch dan kabel terbanyak",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa analisis, pembelian bisa mubazir dan tidak cocok."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bagaimana cara mendapat data kebutuhan itu?",
+                  "choices": [
+                    {
+                      "text": "Wawancara dan formulir survei ke tiap divisi",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Survei menggali kebutuhan nyata dari pengguna jaringan."
+                    },
+                    {
+                      "text": "Menebak dari ukuran perusahaan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tebakan tanpa data besar kemungkinannya keliru."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Jaringan tidak sesuai kebutuhan dan biaya membengkak.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Desain jaringan sesuai kebutuhan dan mudah dikembangkan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "tjkt-1-proses-bisnis-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu proses bisnis?",
+                  "back": "Rangkaian tahapan terstruktur yang menghasilkan barang atau jasa dengan tujuan ekonomi."
+                },
+                {
+                  "front": "Apa yang dimaksud core business?",
+                  "back": "Aktivitas utama bisnis yang menjadi sumber nilai dan pendapatan."
+                },
+                {
+                  "front": "Sebutkan dua bentuk pelaku usaha.",
+                  "back": "Perorangan dan organisasi/kelompok."
+                },
+                {
+                  "front": "Apa saja data kebutuhan jaringan dari survei?",
+                  "back": "Jumlah pengguna, perangkat, grup kerja, alur kerja, cabang, jarak, dan layanan."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "tjkt-1-proses-bisnis-cp-3",
+              "question": "Alat yang tepat untuk mengumpulkan kebutuhan pengguna jaringan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "survei melalui wawancara dan formulir",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "membeli perangkat secara acak"
+                },
+                {
+                  "id": "c2",
+                  "text": "menyalin desain perusahaan lain"
+                },
+                {
+                  "id": "c3",
+                  "text": "mengabaikan jumlah pengguna"
+                }
+              ],
+              "explanation": "Wawancara dan formulir survei mengungkap kebutuhan nyata pengguna."
+            },
+            {
+              "type": "challenge",
+              "id": "tjkt-1-tantangan",
+              "title": "Tantangan istilah proses bisnis",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Tahapan terstruktur untuk tujuan ekonomi",
+                  "answer": "Proses bisnis"
+                },
+                {
+                  "question": "Aktivitas utama yang bernilai",
+                  "answer": "Core business"
+                },
+                {
+                  "question": "Penghubung antarderangkat",
+                  "answer": "Media koneksi"
+                },
+                {
+                  "question": "Penyedia layanan internet",
+                  "answer": "ISP"
+                },
+                {
+                  "question": "Sistem pengatur izin lalu lintas data",
+                  "answer": "Firewall"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah proses bisnis terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Proses bisnis adalah…",
+              "options": [
+                {
+                  "text": "rangkaian tahapan terstruktur yang menghasilkan barang atau jasa",
+                  "correct": true
+                },
+                {
+                  "text": "acara sekali waktu"
+                },
+                {
+                  "text": "hobi individu"
+                },
+                {
+                  "text": "kegiatan amal"
+                }
+              ],
+              "explanation": "Proses bisnis bertujuan ekonomi.",
+              "hint": "Terdiri atas tahapan yang saling menunjang."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aktivitas utama bisnis yang menjadi sumber nilai disebut…",
+              "options": [
+                {
+                  "text": "core business",
+                  "correct": true
+                },
+                {
+                  "text": "firewall"
+                },
+                {
+                  "text": "switch"
+                },
+                {
+                  "text": "router"
+                }
+              ],
+              "explanation": "Core business menghasilkan nilai dan pendapatan utama.",
+              "hint": "Istilah ini muncul pada Tabel 1.1 dan 1.2."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pelaku usaha perorangan mengerjakan…",
+              "options": [
+                {
+                  "text": "seluruh tahap proses bisnis sendiri",
+                  "correct": true
+                },
+                {
+                  "text": "hanya pemasaran"
+                },
+                {
+                  "text": "hanya produksi"
+                },
+                {
+                  "text": "hanya keuangan"
+                }
+              ],
+              "explanation": "Skala kecil dan keputusan cepat.",
+              "hint": "Pemasaran, produksi, dan keuangan di tangannya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri pelaku usaha perorangan?",
+              "options": [
+                {
+                  "text": "Semua tahap dikerjakan sendiri",
+                  "correct": true
+                },
+                {
+                  "text": "Keputusan cepat",
+                  "correct": true
+                },
+                {
+                  "text": "Skala usaha kecil",
+                  "correct": true
+                },
+                {
+                  "text": "Ada divisi terpisah",
+                  "correct": false
+                },
+                {
+                  "text": "Produksi massal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perorangan sederhana dan cepat.",
+              "hint": "Divisi dan produksi massal ciri organisasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah divisi pada pelaku usaha organisasi?",
+              "options": [
+                {
+                  "text": "Purchasing",
+                  "correct": true
+                },
+                {
+                  "text": "Production",
+                  "correct": true
+                },
+                {
+                  "text": "Marketing dan sales",
+                  "correct": true
+                },
+                {
+                  "text": "Firewall",
+                  "correct": false
+                },
+                {
+                  "text": "IP address",
+                  "correct": false
+                }
+              ],
+              "explanation": "Divisi menjalankan fungsi terpisah.",
+              "hint": "Firewall dan IP adalah konsep jaringan."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Saat usaha berkembang menjadi organisasi, yang bertanggung jawab memimpin adalah…",
+              "options": [
+                {
+                  "text": "CEO",
+                  "correct": true
+                },
+                {
+                  "text": "kasir"
+                },
+                {
+                  "text": "kurir"
+                },
+                {
+                  "text": "satpam"
+                }
+              ],
+              "explanation": "CEO memimpin dan mengoordinasikan grup kerja.",
+              "hint": "Di bawahnya ada divisi pembelian, produksi, dan lainnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Divisi yang mengurus pengendalian mutu produk disebut…",
+              "options": [
+                {
+                  "text": "quality control",
+                  "correct": true
+                },
+                {
+                  "text": "purchasing"
+                },
+                {
+                  "text": "payroll"
+                },
+                {
+                  "text": "storage"
+                }
+              ],
+              "explanation": "QC memastikan produk sesuai standar.",
+              "hint": "Purchasing mengurus pembelian."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah informasi kebutuhan pengguna pada survei jaringan?",
+              "options": [
+                {
+                  "text": "Jumlah pengguna",
+                  "correct": true
+                },
+                {
+                  "text": "Jumlah perangkat keras",
+                  "correct": true
+                },
+                {
+                  "text": "Layanan yang dibutuhkan",
+                  "correct": true
+                },
+                {
+                  "text": "Warna seragam kantor",
+                  "correct": false
+                },
+                {
+                  "text": "Menu kantin",
+                  "correct": false
+                }
+              ],
+              "explanation": "Data itu menentukan desain jaringan.",
+              "hint": "Seragam dan kantin tidak relevan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat memahami proses bisnis bagi teknisi jaringan?",
+              "options": [
+                {
+                  "text": "Menentukan segmen jaringan",
+                  "correct": true
+                },
+                {
+                  "text": "Menentukan layanan jaringan",
+                  "correct": true
+                },
+                {
+                  "text": "Menentukan jumlah pengguna",
+                  "correct": true
+                },
+                {
+                  "text": "Menghafal struktur gaji",
+                  "correct": false
+                },
+                {
+                  "text": "Memilih warna logo",
+                  "correct": false
+                }
+              ],
+              "explanation": "Proses bisnis menjadi acuan desain.",
+              "hint": "Gaji dan logo bukan urusan desain."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Proses bisnis",
+                  "right": "tahapan terstruktur menghasilkan nilai"
+                },
+                {
+                  "id": "m1",
+                  "left": "Core business",
+                  "right": "aktivitas utama yang bernilai"
+                },
+                {
+                  "id": "m2",
+                  "left": "Grup kerja",
+                  "right": "pembagian tugas terstruktur"
+                },
+                {
+                  "id": "m3",
+                  "left": "ISP",
+                  "right": "penyedia layanan internet"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tahapan terstruktur menghasilkan nilai",
+                  "m1": "aktivitas utama yang bernilai",
+                  "m2": "pembagian tugas terstruktur",
+                  "m3": "penyedia layanan internet"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan proses bisnis pelaku usaha perorangan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Membeli bahan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Memproduksi barang atau jasa"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mengendalikan mutu"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menjual ke pelanggan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mengelola keuangan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Tahapan berurutan dari bahan ke uang.",
+              "hint": "Perorangan menangani seluruh tahap ini."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan pembagian organisasi usaha.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "CEO"
+                },
+                {
+                  "id": "p1",
+                  "text": "Purchasing dan storage"
+                },
+                {
+                  "id": "p2",
+                  "text": "Production"
+                },
+                {
+                  "id": "p3",
+                  "text": "Quality control"
+                },
+                {
+                  "id": "p4",
+                  "text": "Marketing dan accounting"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Struktur berjenjang dari pimpinan ke penunjang.",
+              "hint": "Accounting menutup alur keuangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penyedia jasa layanan internet kepada pelanggan disebut…",
+              "options": [
+                {
+                  "text": "ISP",
+                  "correct": true
+                },
+                {
+                  "text": "QC"
+                },
+                {
+                  "text": "CEO"
+                },
+                {
+                  "text": "DTE"
+                }
+              ],
+              "explanation": "ISP menghubungkan pelanggan ke internet.",
+              "hint": "Contohnya perusahaan MyTelco dalam buku."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Langkah pertama perencanaan jaringan adalah…",
+              "options": [
+                {
+                  "text": "analisis kebutuhan pengguna",
+                  "correct": true
+                },
+                {
+                  "text": "membeli switch"
+                },
+                {
+                  "text": "memasang kabel"
+                },
+                {
+                  "text": "membuat akun"
+                }
+              ],
+              "explanation": "Kebutuhan menentukan desain jaringan.",
+              "hint": "Dikumpulkan lewat survei."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah perangkat keras jaringan?",
+              "options": [
+                {
+                  "text": "Switch",
+                  "correct": true
+                },
+                {
+                  "text": "Router",
+                  "correct": true
+                },
+                {
+                  "text": "Kabel media koneksi",
+                  "correct": true
+                },
+                {
+                  "text": "Kalkulator",
+                  "correct": false
+                },
+                {
+                  "text": "Papan tulis",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perangkat itu menghubungkan dan mengarahkan data.",
+              "hint": "Kalkulator dan papan tulis bukan perangkat jaringan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Proses Bisnis di Bidang Teknik Jaringan Komputer dan Telekomunikasi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Informasi yang tidak termasuk kebutuhan survei jaringan adalah…",
+              "options": [
+                {
+                  "text": "harga saham perusahaan lain",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah pengguna"
+                },
+                {
+                  "text": "jumlah perangkat keras"
+                },
+                {
+                  "text": "layanan yang dibutuhkan"
+                }
+              ],
+              "explanation": "Survei menggali kebutuhan nyata pengguna."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu aplikasi simulasi jaringan yang dipakai buku adalah…",
+              "options": [
+                {
+                  "text": "Cisco Packet Tracer",
+                  "correct": true
+                },
+                {
+                  "text": "Microsoft Word"
+                },
+                {
+                  "text": "Adobe Photoshop"
+                },
+                {
+                  "text": "Paint"
+                }
+              ],
+              "explanation": "Packet Tracer merancang dan menguji jaringan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pemberian identitas unik pada perangkat agar dapat berkomunikasi disebut…",
+              "options": [
+                {
+                  "text": "pengalamatan IP",
+                  "correct": true
+                },
+                {
+                  "text": "firewall"
+                },
+                {
+                  "text": "storage"
+                },
+                {
+                  "text": "payroll"
+                }
+              ],
+              "explanation": "Alamat IP memungkinkan perangkat saling mengenal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sistem yang mengatur izin lalu lintas data masuk dan keluar jaringan disebut…",
+              "options": [
+                {
+                  "text": "firewall",
+                  "correct": true
+                },
+                {
+                  "text": "survei"
+                },
+                {
+                  "text": "produksi"
+                },
+                {
+                  "text": "kemasan"
+                }
+              ],
+              "explanation": "Firewall menjaga keamanan jaringan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perusahaan yang memproduksi kue dalam contoh buku bernama…",
+              "options": [
+                {
+                  "text": "MyCakes",
+                  "correct": true
+                },
+                {
+                  "text": "MyTelco"
+                },
+                {
+                  "text": "PT PAL"
+                },
+                {
+                  "text": "Garuda"
+                }
+              ],
+              "explanation": "MyCakes adalah perusahaan kue yang disurvei."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh perusahaan jasa?",
+              "options": [
+                {
+                  "text": "ISP",
+                  "correct": true
+                },
+                {
+                  "text": "Penyedia jasa instalasi jaringan",
+                  "correct": true
+                },
+                {
+                  "text": "Pabrik kue",
+                  "correct": false
+                },
+                {
+                  "text": "Toko sembako",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jasa tidak menghasilkan barang fisik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah langkah implementasi perencanaan jaringan?",
+              "options": [
+                {
+                  "text": "Memilih perangkat jaringan",
+                  "correct": true
+                },
+                {
+                  "text": "Memilih media koneksi",
+                  "correct": true
+                },
+                {
+                  "text": "Mengatur alamat IP dan menguji",
+                  "correct": true
+                },
+                {
+                  "text": "Menentukan harga produk",
+                  "correct": false
+                },
+                {
+                  "text": "Mendesain kemasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Implementasi merakit dan menguji jaringan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Media koneksi",
+                  "right": "penghubung antarderangkat"
+                },
+                {
+                  "id": "m1",
+                  "left": "Pengalamatan IP",
+                  "right": "identitas unik perangkat"
+                },
+                {
+                  "id": "m2",
+                  "left": "Firewall",
+                  "right": "pengatur izin lalu lintas data"
+                },
+                {
+                  "id": "m3",
+                  "left": "Analisis kebutuhan",
+                  "right": "survei jumlah pengguna dan layanan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "penghubung antarderangkat",
+                  "m1": "identitas unik perangkat",
+                  "m2": "pengatur izin lalu lintas data",
+                  "m3": "survei jumlah pengguna dan layanan"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur layanan ISP ke pelanggan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pemasaran layanan"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pendaftaran pelanggan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Pemasangan akses"
+                },
+                {
+                  "id": "d3",
+                  "text": "Aktivasi layanan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Pemeliharaan dan dukungan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "ISP melayani dari promosi hingga dukungan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah perencanaan jaringan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Analisis proses bisnis"
+                },
+                {
+                  "id": "p1",
+                  "text": "Survei kebutuhan pengguna"
+                },
+                {
+                  "id": "p2",
+                  "text": "Memilih perangkat dan media"
+                },
+                {
+                  "id": "p3",
+                  "text": "Mengatur pengalamatan IP"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menguji koneksi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Perencanaan bermula dari bisnis lalu diuji."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Media yang menghubungkan komputer di laboratorium sekolah termasuk…",
+              "options": [
+                {
+                  "text": "media koneksi",
+                  "correct": true
+                },
+                {
+                  "text": "core business"
+                },
+                {
+                  "text": "proses bisnis"
+                },
+                {
+                  "text": "divisi QC"
+                }
+              ],
+              "explanation": "Media koneksi dapat berupa kabel atau nirkabel."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tujuan mempelajari proses bisnis bagi teknisi jaringan adalah…",
+              "options": [
+                {
+                  "text": "merancang jaringan yang mendukung alur kerja perusahaan",
+                  "correct": true
+                },
+                {
+                  "text": "menghafal nama pemilik"
+                },
+                {
+                  "text": "menentukan gaji karyawan"
+                },
+                {
+                  "text": "membuat iklan produk"
+                }
+              ],
+              "explanation": "Jaringan dibangun demi target perusahaan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alasan jaringan dibangun sesuai proses bisnis?",
+              "options": [
+                {
+                  "text": "Menunjang kecepatan proses bisnis",
+                  "correct": true
+                },
+                {
+                  "text": "Menghubungkan semua divisi",
+                  "correct": true
+                },
+                {
+                  "text": "Mendukung layanan ke pelanggan",
+                  "correct": true
+                },
+                {
+                  "text": "Sekadar mengikuti tren",
+                  "correct": false
+                },
+                {
+                  "text": "Menghabiskan anggaran",
+                  "correct": false
+                }
+              ],
+              "explanation": "Jaringan adalah alat menunjang bisnis."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Proses bisnis",
+                  "right": "tahapan terstruktur menghasilkan nilai"
+                },
+                {
+                  "id": "m1",
+                  "left": "Core business",
+                  "right": "aktivitas utama yang bernilai"
+                },
+                {
+                  "id": "m2",
+                  "left": "Grup kerja",
+                  "right": "pembagian tugas terstruktur"
+                },
+                {
+                  "id": "m3",
+                  "left": "ISP",
+                  "right": "penyedia layanan internet"
+                },
+                {
+                  "id": "m4",
+                  "left": "Media koneksi",
+                  "right": "penghubung antarderangkat"
+                },
+                {
+                  "id": "m5",
+                  "left": "Pengalamatan IP",
+                  "right": "identitas unik perangkat"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tahapan terstruktur menghasilkan nilai",
+                  "m1": "aktivitas utama yang bernilai",
+                  "m2": "pembagian tugas terstruktur",
+                  "m3": "penyedia layanan internet",
+                  "m4": "penghubung antarderangkat",
+                  "m5": "identitas unik perangkat"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan kerja simulasi jaringan di Packet Tracer.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Membuka proyek LabActivity"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menempatkan perangkat jaringan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menghubungkan dengan media koneksi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Memberi alamat IP tiap perangkat"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menguji koneksi antarpengguna"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Simulasi mengikuti langkah implementasi nyata."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

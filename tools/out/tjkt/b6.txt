@@ -1,0 +1,3260 @@
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+204
+ 
+ Tujuan Pembelajaran
+Setelah menyelesaikan aktivitas belajar pada bab ini, kalian diharapkan 
+dapat menganalisis prinsip dasar TCP/IP, menjelaskan prinsip dasar alamat 
+IPv4, menganalisis prinsip dasar networking service (layanan jaringan), serta 
+menjelaskan prinsip dasar keamanan jaringan telekomunikasi dan WLAN.
+ 
+ Kata Kunci
+• 
+Prinsip dasar IPv4/IPv6 
+• 
+Prinsip dasar TCP/IP 
+• 
+Prinsip dasar Networking Service 
+• 
+Prinsip dasar Keamanan Jaringan Nirkabel
+ 
+ Peta Konsep
+Media 
+dan Jaringan 
+Telekomunikasi
+B
+Prinsip Dasar Layanan Jaringan 
+(Networking Service)
+A
+Prinsip Dasar TCP/IP dan Alamat 
+IP
+C
+Prinsip Dasar Keamanan Jaringan 
+Komputer dan Telekomunikasi
+Pada Bab 2 lalu, kalian telah mempelajari bahwa perkembangan jaringan 
+komputer dan telekomunikasi sampai saat ini, telah menyatukan berbagai jenis 
+jaringan khusus (dedicated)—seperti jaringan telepon, jaringan televisi, dan 
+jaringan komputer—menjadi sebuah jaringan terintegrasi. Layanan jaringan 
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+205
+terintegrasi (converged) tidak akan terwujud tanpa perkembangan media dari 
+jaringan telekomunikasi. Kalian juga telah mempelajari perkembangan media 
+telekomunikasi baik jaringan kabel maupun jaringan nirkabel pada materi 
+sebelumnya.
+Selain media, protokol komunikasi juga turut menjadi faktor utama 
+perubahan jaringan menjadi terintegrasi, yaitu protokol dalam jaringan khusus 
+(dedicated) memiliki protokol yang berbeda. Sebagai contoh, PSTN, PAL, dan 
+NTSC kini dapat terintegrasi dalam protokol TCP/IP.
+Pada bab ini, kita akan mempelajari prinsip dasar dari kerja TCP/IP, prinsip 
+dasar layanan jaringan telekomunikasi, dan prinsip dasar keamanan jaringan 
+komputer dan telekomunikasi.
+A. Prinsip Dasar TCP/IP dan Alamat IP
+Jika kalian mengetikkan Uniform Resource Locator (URL) pada sebuah web 
+browser, akan muncul laman situs web (website) yang berisi informasi dari web 
+tersebut. Mekanisme seperti apa yang sebenarnya terjadi untuk memungkinkan 
+laman sebuah situs web muncul pada web browser kalian?
+Pada Bab 2, kalian telah mempelajari jaringan dedicated dan jaringan 
+converged. Kedua model jaringan tersebut bekerja menggunakan sebuah 
+protokol, yaitu TCP/IP. Model TCP/IP bekerja berdasarkan lapisan antara 
+perangkat keras dan perangkat lunak. Lapisan apa saja yang ada di dalam 
+protokol model TCP/IP versi update?
+Aktivitas Individu 1.1
+Bacalah informasi tentang prinsip dasar TCP/IP dan alamat IP dengan saksama!
+1. Prinsip Dasar TCP/IP dan Alamat IP
+a. 
+Transmission Control Protocol (TCP)
+Dalam jaringan komputer dan telekomunikasi, TCP/IP merupakan 
+protokol utama yang mendukung koneksi antarperangkat akhir 
+pengguna. TCP/IP sendiri terdiri atas dua bagian dengan fungsi yang 
+berbeda. TCP berfungsi untuk mengatur bagaimana paket data dikirim 
+dan diterima. Adapun IP berfungsi untuk mengatur pengalamatan paket 
+data yang akan dikirimkan.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+206
+b. Encapsulation dan Decapsulation
+Prinsip kerja jaringan komputer dan telekomunikasi sebenarnya 
+mengikuti prinsip-prinsip di dunia nyata. Untuk mempermudah dalam 
+memahami cara kerja TCP, mari kita menyimak analogi berikut. 
+Ketika kalian mengirimkan paket barang melalui jasa pengiriman 
+untuk teman kalian, tentunya paket tersebut memiliki proses berikut.
+1) 
+Kalian akan memasukkan barang ke sebuah wadah/bungkus. Prinsip 
+kerja TCP pada bagian ini disebut Encapsulation.
+2) 
+Pada bungkus paket tersebut, kalian menuliskan alamat tujuan. 
+Bagian ini disebut TCP header. Di dalamnya terdapat informasi 
+tentang alamat IP (IP address), yaitu destination IP, destination port 
+sebagai soket tujuan. Gambar di bawah ini menunjukkan struktur 
+dari sebuah TCP header.
+Header
+Data
+Sources Port
+Destination Port
+Sequence Number
+Acknowledgement Number
+Head 
+Lenght
+Reserved
+U
+R
+G
+A
+C
+K
+P
+S
+H
+R
+S
+T
+S
+Y
+N
+F
+I
+N
+Windows Size
+Checksum
+Urgent Point
+Data
+Gambar 6.1 TCP Header berdasarkan PDU Information Cisco Packet Tracer
+Sumber: Agung Puspita Bantala (2022)
+3) 
+Selanjutnya, paket tersebut akan dikirimkan oleh jasa pengiriman 
+barang atau kurir. Pada bagian ini, jasa kurir dapat menggunakan 
+metode CSMA/CD (Carrier Sense Multiple Access with Collision 
+Detection) yang dimiliki oleh standar eternet (ethernet).
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+207
+ 
+ Apakah Kalian Tahu?
+Eternet bukanlah jenis kabel atau network interface. Eternet adalah sebuah 
+metode bagaimana koneksi terbentuk meliputi kabel dan network interface 
+yang digunakan. Eternet adalah sebuah standar yang dikeluarkan oleh 
+IEEE untuk sebuah koneksi jaringan.
+Jaringan komputer berkomunikasi dengan menggunakan prinsip 
+kerja CSMA/CD. Sebagai analogi, jika kalian berkomunikasi dengan 
+teman kalian, saat teman kalian berbicara, kalian mendengarkan 
+dengan baik. Begitu pula ketika kalian berbicara, teman kalian 
+mendengarkan. 
+Jika kalian dan teman kalian berbicara bersamaan, itulah 
+yang disebut “bertengkar”. Dalam jaringan telekomunikasi data, 
+kondisi ini disebut collision, tabrakan data. Bagaimana jika saat 
+berkomunikasi dengan teman, keduanya siap mendengarkan tanpa 
+ada yang berbicara? 
+ CSMA/CD akan melihat dan memastikan apakah satu channel 
+komunikasi dalam keadaan kosong. Jika channel tidak digunakan, 
+akan mengizinkan komputer yang meminta atau request komunikasi 
+menggunakan jalur komunikasi. Prinsip tersebut adalah half duplex. 
+Adapun perangkat yang mendukung adalah hub.
+4) 
+Setelah paket diterima oleh teman kalian, apakah alamat pengirim 
+masih diperlukan? Tentunya tidak. Header akan dibuang dan 
+bungkus/wadah akan dibuka untuk diambil isinya. Proses ini 
+disebut Decapsulation.
+c. 
+TCP Sequence Number
+ 
+ Apakah Kalian Tahu?
+Pada pengiriman paket dalam jaringan komputer menggunakan protokol 
+TCP/IP, tidak langsung semua dikirim dan diterima, tetapi ada pemecahan 
+paket menjadi bagian-bagian lebih kecil untuk dikirim, kemudian disusun 
+kembali menjadi paket utuh.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+208
+Kita dapat menganalogikan proses pengiriman data dari perangkat 
+sumber ke perangkat tujuan menggunakan protokol TCP seperti berikut. 
+Rumah kawan kalian berada di ujung gang sempit (gang menunjukkan 
+sebuah channel media transmisi) yang merupakan jalan masuk satu-
+satunya. 
+Kalian akan mengirimkan paket berupa sebuah rak buku besar. 
+Langkah yang kalian lakukan adalah melepas rak tersebut menjadi 
+beberapa bagian kecil dan memberikan urutan berdasarkan bagian-
+bagian dari rak tersebut. Pengurutan tersebut dinamakan sequence 
+number (lihat Gambar 6.1). 
+Selanjutnya, kalian dapat mengirimkan rak tersebut melalui 
+gang satu per satu sampai ke dalam rumah berdasarkan sequence 
+number yang telah kalian buat. Setelah di dalam rumah, kalian dapat 
+menyatukan kembali rak tersebut berdasarkan sequence number. 
+Jika ada bagian yang hilang dari rak tersebut, kalian dapat 
+mengetahui berdasarkan sequence number tadi. Kalian hanya mengirim 
+paket dengan sequence number yang hilang. Ini adalah salah satu fitur 
+dari TCP, yaitu error recovery, pemulihan setelah terjadi kegagalan.
+d. TCP Three Way Handshake
+Komunikasi antara perangkat komputer sumber dan perangkat komputer 
+tujuan adalah dengan melakukan tiga langkah jabat tangan (three way 
+handshake) sebagai salam perkenalan.
+Penjelasan tentang TCP three way handshake adalah sebagai berikut.
+“Setiap paket harus mempunyai nomor pengenal yang dinamakan 
+sebagai sequence number. Sequence number akan bertambah 
+berdasarkan jumlah byte data yang dikirim sehingga dapat dirumuskan 
+dengan SEQ+Byte.” (S’to, 2007)
+Selain sequence number, tanda pengenal lain yang diperlukan dalam 
+three way handshake adalah kode pengenal balasan dari perangkat 
+komputer tujuan, yaitu Acknowledgments atau ACK, seperti yang 
+ditunjukkan pada Gambar 6.1.
+ ACK adalah nomor paket yang diharapkan diterima oleh komputer 
+tujuan dari komputer sumber. Jika komputer sumber mengirimkan 
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+209
+sequence number secara acak, misalnya 100, komputer tujuan akan 
+membalas pada komputer sumber bahwa sequence number yang 
+harus dikirim selanjutnya adalah 100+10. Jika komputer sumber tidak 
+mengirim 110, komputer tujuan tidak akan menerima karena bukan 
+sequence number yang diminta.
+Proses three way handshake dapat diilustrasikan seperti pada 
+Gambar 6.2 di bawah ini.
+PC A
+Seq number=100
+(ISN, Initial sequance
+Number/ﬁrst seq)
+First Packet
+SYN (synchronize sequence)
+ACK =0
+ACK =110
+Seq + Byte(10)
+PC A
+Seq number=110
+ACK =210
+Seq + Byte(10)
+PC B
+Seq number=200
+PC A
+PC B
+Gambar 6.2 TCP Three Way Handshake
+Sumber: Agung Puspita Bantala (2022)
+Prinsip kerja TCP three way handshake adalah sebagai berikut.
+1) 
+Setiap PC memiliki nilai sequence number yang didapat secara 
+acak. Contoh: 
+Pada PC A, sequence number = 100 
+Pada PC B, sequence number = 200
+2) 
+Langkah pertama: sebagai komputer sumber, PC A mengirimkan 
+paket awal, yaitu SYN (synchronize sequence) yang berguna untuk 
+menyamakan sequence number—sequence number yang dikirim 
+kali pertama disebut ISN (initial sequence number)—dengan nomor 
+100 dan ACK = 0. Pada proses ini, belum ada data yang diharapkan 
+diterima dari komputer B atau komputer tujuan. 
+3) 
+Langkah kedua: sebagai komputer tujuan, PC B menerima sequence 
+number awal (100 sebagai salam perkenalan) dari komputer A 
+sekaligus mengirimkan ACK (sequence number 100 ditambah 10). 
+Harapannya, PC A mengirimkan sequence number 110 (Seq 100 + 
+Byte 10). Jika PC A tidak mengirimkan sequence number 110, PC B 
+akan menyimpulkan bahwa itu bukan PC A.
+4) 
+Langkah ketiga: PC A menerima sequence number PC B = 200 
+berikut ACK = 110 (harapan paket yang harus dikirim ke PC B). 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+210
+Selanjutnya, PC A mengirim sequence number 110 sebagai balasan 
+permintaan data berikut ACK untuk PC B, yaitu 210. Jika PC B tidak 
+mengirimkan sequence number 210, PC A akan menyimpulkan 
+bahwa itu bukan PC B. Sampai tahap ini komunikasi telah terjalin 
+dengan baik. Pada proses selanjutnya, nilai sequence number akan 
+bertambah bergantung pada ACK yang diinginkan dari komputer 
+sumber dan komputer tujuan.
+e. 
+Model TCP/IP dan Model OSI
+Implementasi pengiriman paket data dari perangkat/komputer sumber 
+ke perangkat tujuan, berjalan berdasarkan lapisan (layer) dalam protokol 
+TCP/IP. 
+Layer atau lapisan TCP/IP dapat dibandingkan dengan sebuah model 
+protokol bernama OSI (Open System Interconnection), yang digunakan 
+sebagai sampel model untuk dipelajari. Untuk TCP/IP, terdapat versi 
+update dari versi original. Jika versi original terdiri atas 4 lapisan, versi 
+update terdiri atas 5 lapisan. Tabel berikut menunjukkan perbandingan 
+Model OSI dan Model TCP/IP versi update. (Gebhardt, 2022)
+Tabel 6.1 Model OSI dan Model TCP/IP Versi Update
+Lapisan 
+(Layer)
+Model OSI
+Lapisan 
+(Layer)
+Model TCP/IP 
+Update
+7
+Application
+5
+Application
+6
+Presentation
+5
+Session
+4
+Transport
+4
+Transport
+3
+Network
+3
+Network
+2
+Data Link
+2
+Data Link
+1
+Physical
+1
+Physical
+Pada Tabel 6.1 terlihat bahwa model OSI memiliki tujuh lapisan. 
+Pada model tersebut, lapisan Application, Presentation, dan Session 
+digabungkan menjadi satu lapisan saja (lapisan ke-5) pada model TCP/
+IP, yaitu Application. Adapun keempat lapisan lainnya sama, yaitu 
+pada lapisan ke-1 hingga lapisan ke-4. Fungsi dari setiap lapisan TCP/
+IP adalah sebagai berikut.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+211
+Tabel 6.2 Fungsi Lapisan pada Model TCP/IP Versi Update
+Lapisan
+Nama Lapisan
+Fungsi
+5
+Application
+Menyediakan akses pengguna dengan 
+aplikasi perangkat lunak, seperti HTTP, 
+FTP, dan SMTP.
+4
+Transport
+Memecahkan paket menjadi lebih 
+kecil, memberikan sequence number, 
+memberikan ACK, error recovery, serta 
+mentransmisikan data melalui TCP dan 
+UDP.
+3
+Network 
+Memberikan header, seperti alamat IP 
+sumber dan tujuan, port sumber dan 
+tujuan, serta informasi routing protokol. 
+2
+Data Link
+Lapisan ini berisi aturan media koneksi. 
+Sinyal data dialirkan melalui media 
+koneksi, alamat MAC, dan eternet standar. 
+1
+Physical
+Berisi segala hal tentang komponen fisik 
+jaringan, seperti media kabel dan network 
+interface.
+Berdasarkan fungsi-fungsi dari lapisan TCP/IP, transmisi data dari 
+komputer sumber ke komputer tujuan dapat diilustrasikan seperti pada 
+gambar berikut.
+Application
+Transport
+Network
+Data Link
+PC B
+Application
+Transport
+Network
+Data Link
+PC A
+Physical
+Gambar 6.3 Konsep Data Transmisi Model TCP/IP
+Sumber: Agung Puspita Bantala (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+212
+Prinsip kerja model lapisan TCP/IP adalah sebagai berikut. 
+1) 
+Pada PC A, pengguna dimisalkan menggunakan aplikasi HTTP 
+untuk mengirimkan berkas (file) ke PC B. Pada saat ini, pengguna 
+berada pada lapisan paling atas atau lapisan ke-5 dari model TCP/IP 
+terbaru (update), yaitu Application. Pada tahap ini akan ditambahkan 
+header application.
+2) 
+Selanjutnya, data dari lapisan Application diturunkan ke lapisan 
+Transport. Dua layanan yang diberikan dalam lapisan ini, yaitu 
+TCP (transmission control protocol) dan UDP (user data protocol).
+3) 
+Setelah mendapatkan header dari lapisan Transport, data diturunkan 
+ke lapisan Network/Internet. Dalam lapisan ini akan ditambahkan 
+header yang berisi alamat IP tujuan, routing protokol, dan hal lain 
+yang berhubungan dengan pengalamatan jaringan.
+4) 
+Setelah mendapatkan header dari lapisan Network, data diturunkan 
+ke lapisan Data Link untuk diberikan header dan trailer. Pada bagian 
+ini, data akan berurusan dengan aturan media koneksi, sinyal data 
+dialirkan melalui media koneksi alamat MAC. Selanjutnya, data 
+diteruskan ke lapisan terakhir.
+5) 
+Lapisan terakhir dari PC A berupa perangkat fisik jaringan, yaitu 
+kartu jaringan dan media koneksi. Lapisan tersebut menjadi lapisan 
+pertama dari PC B. Data yang dikirim PC A akan diterima di lapisan 
+fisik dan diteruskan ke lapisan di atasnya, dari PC B, kemudian 
+diteruskan hingga lapisan terakhir, yaitu lapisan ke-5 (Application). 
+Pada lapisan ini, dilakukan decapsulation pada data.
+2. Internet Protocol (IP)
+Seperti yang telah kalian ketahui bahwa TCP/IP terdiri dari dua bagian 
+protokol. Salah satunya (protokol TCP) telah dibahas pada awal bab. Sekarang, 
+kita beralih pada protokol kedua, yaitu Internet Protocol (IP).
+Internet Protocol menempati lapisan model TCP/IP terbaru pada lapisan 
+ketiga, yaitu Network, yang berfungsi menyediakan informasi alamat IP 
+sumber, alamat IP tujuan, dan routing protokol.
+Setiap perangkat akhir pengguna pasti memiliki alamat yang disebut 
+alamat IP (IP address) dan setiap paket yang dikirim akan diperiksa alamat IP 
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+213
+tujuannya. Jika berada di luar jaringan, routing jaringannya akan diperiksa. 
+Dengan demikian, jika kalian berpikir tentang alamat IP, hal itu adalah 
+bagian dari protokol TCP/IP pada lapisan ketiga. 
+Pada materi tentang TCP, terdapat bahasan tentang header, IP pun 
+memiliki header.
+a. 
+IP Header
+IP header memiliki ukuran 32 bit atau 4 byte.
+ 
+ Apakah Kalian Tahu?
+ 
+⌂
+Bit adalah bilangan biner dengan nilai 0 dan 1.
+ 
+⌂
+1 byte sama dengan 8 bit. Berapa byte 32 bit? 
+ 
+⌂
+1 oktet sama dengan 8 bit. Jika alamat IP terdiri dari bilangan 32 bit, 
+berapa oktet alamat IP tersebut? 
+Sebuah IP header dapat digambarkan sebagai berikut.
+4
+8
+12
+16
+20
+24
+28
+32
+version
+Header
+Lenght
+Type OF Sevices
+Total Lenght
+Identification
+IP Flag
+Fragment Offset
+Time To Live
+(TTL)
+Protocol
+Header Checksum
+Source Address
+Destination Address
+Option
+Padding
+Data
+4 Bytes
+Gambar 6.4 Internet Protocol (IP) Header berdasarkan PDU Information Cisco Packet Tracer
+Sumber: Agung Puspita Bantala (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+214
+Keterangan dari Gambar 6.4 adalah sebagai berikut.
+Version
+: Bagian ini berisi informasi dari IP yang 
+digunakan. Versi ini menggunakan IPv4 atau 
+IPv6 dengan kapasitas sebesar 4 bit. Contoh: 0100
+Header Length
+: Bagian ini berisi informasi panjang header IPv4 
+dalam 32 bit. Nilai minimum panjang header 
+adalah 5 sampai dengan 20 bit.
+Type of Services
+: Bagian ini adalah layanan yang digunakan 
+untuk Quality of Service (QoS). Terdapat 8 bit 
+yang dapat digunakan untuk menandai paket 
+dalam memberikan paket perlakuan tertentu, 
+contohnya paket prioritas.
+Total Length
+: Bagian ini memiliki panjang 16 bit, menunjukkan 
+seluruh ukuran paket IP (header dan data). Jadi, 
+minimum header dan data adalah 20 bit dan 
+maksimum adalah 65.535 bit, nilai tertinggi yang 
+dapat dibuat oleh header dan data dari 16 bit.
+Identification
+: Identifikasi digunakan untuk memberikan nomor 
+sebesar 16 bit sebagai pengenal paket yang 
+difragmentasi. Fragmentasi adalah pemecahan 
+paket menjadi beberapa bagian.
+IP Flag
+: Berisi 3 bit yang digunakan fragmentasi. Bit 
+pertama selalu diset 0. Bit kedua disebut DF 
+(don’t fragment/jangan difragmentasi). Bit ketiga 
+dinamakan MF (more fragment), diset pada paket 
+yang akan difragmentasi.
+Fragmen Offset
+: Berisi 13 bit yang digunakan untuk menentukan 
+posisi paket yang akan difragmentasi.
+Time to Live
+: Sebuah paket yang hendak melewati router 
+akan selalu dikurangi 1 pada bagian Time to 
+Live (TTL) agar ketika mencapai nilai 0, router 
+akan membuang paket dan mengirimkan pesan 
+ICMP, yaitu waktu pengiriman melebihi Time to 
+Live. Time to Live digunakan untuk membatasi 
+perjalanan paket berdasarkan waktu agar paket 
+tidak berjalan terus-menerus dan akhirnya 
+looping/berputar. Batasan ini disebut TTL.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+215
+Protocol
+: Bagian ini memiliki panjang 8 bit yang berfungsi 
+untuk memberikan informasi tentang protokol 
+apa yang digunakan TCP dengan nilai 6 atau 
+UDP dengan nilai 17.
+Header Checksum
+: Checksum adalah memeriksa kesalahan 
+data. Header checksum berisi 16 bit, berguna 
+menyimpan data header checksum yang dapat 
+digunakan sebagai pemeriksaan header jika 
+terjadi kesalahan.
+Source Address
+: Bagian ini berisi informasi IP sumber sebesar 
+32 bit.
+Destination Address : Bagian ini berisi informasi IP tujuan sebesar 
+32 bit.
+IP Option
+: Bagian ini digunakan sebagai pilihan. Jika bagian 
+ini terisi, panjang header akan bertambah. Contoh 
+opsi adalah route source, artinya pengirim 
+meminta jalur route tertentu dari paket data.
+Data
+:
+IP Header
+Data
+Merupakan data dari yang dienkapsulasi dari 
+lapisan atas dan dikirim ke lapisan bawah.
+b. Alamat IP (IP Address)
+Kalian sudah mempelajari alamat IPv4 (IPv4 address) pada Bab 1 dan 
+alamat IPv6 (IPv6 address) pada Bab 2. Karena alamat IP merupakan 
+bagian dari protokol TCP/IP, kita akan mengulas kembali alamat IP, 
+khususnya IPv4. Seperti yang telah kalian ketahui, alamat IPv4 terdiri 
+dari 32 bit biner yang dibagi menjadi 4 oktet (ingat bahwa 1 oktet terdiri 
+dari 8 bit). Ada dua format penulisan alamat IPv4 yang akan kita pelajari.
+1) 
+Format penulisan alamat IPv4 menggunakan bilangan desimal 
+bertitik. Contoh: 
+192.168.0.1
+2) 
+Format penulisan alamat IPv4 menggunakan bilangan biner. Contoh: 
+11000000.10101000.00000000 .00000001
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+216
+Gambar berikut menunjukkan format penulisan alamat IPv4.
+32 bit
+Biner 0 atau 1
+8 bit
+8 bit
+8 bit
+8 bit
+OKTET1
+OKTET2
+OKTET3
+OKTET4
+Biner
+Biner
+Biner
+Biner
+11000000
+10101000
+00000000
+00000001
+Desimal
+Desimal
+Desimal
+Desimal
+192
+168
+0
+1
+Gambar 6.5 Format Penulisan Alamat IPv4
+Sumber: Agung Puspita Bantala (2022)
+c. 
+Kelas Alamat IP 
+Untuk mempermudah penggunaan alamat IPv4 sehingga dapat 
+disesuaikan dengan kebutuhan jaringan seperti jumlah pengguna 
+atau host, alamat IPv4 dikelompokkan berdasarkan kelas alamat IP. 
+Pengelompokan mengacu pada jumlah network dan jumlah host. Dengan 
+demikian, dalam penggunaannya akan terdapat jumlah ruang network 
+yang sedikit, namun jumlah ruang host (dapat berupa perangkat akhir 
+pengguna) yang banyak; atau kebutuhan ruang network yang banyak, 
+namun kebutuhan ruang host sedikit.
+Kelas A
+8 bit
+8 bit
+8 bit
+8 bit
+Total 32 bit dapat 
+ditulis /8
+Network
+Host
+Host
+Host
+Kelas B
+8 bit
+8 bit
+8 bit
+8 bit
+Total 32 bit dapat 
+ditulis /16
+Network
+Network
+Host
+Host
+Kelas C
+8 bit
+8 bit
+8 bit
+8 bit
+Total 32 bit dapat 
+ditulis /24
+Network
+Network
+Network
+Host
+Kelas D
+Multicast Network
+Kelas E
+Research
+Gambar 6.6 Kelas Alamat IPv4
+Sumber: Agung Puspita Bantala (2022)
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+217
+d. Range Alamat IP
+Alamat IP dari Kelas A, B, dan C memiliki range dari alamat network 
+dan alamat host yang dapat digunakan dalam jaringan dengan tujuan 
+memisahkan antarkelas dalam alamat IP.
+e. 
+Range Alamat IP Kelas A
+Alamat IP Kelas A menggunakan 8 bit pada oktet pertama sebagai 
+alamat network. Alamat network dimulai dengan “0” untuk 8 bit pada 
+semua oktet 1 dan terus bertambah, nilai 0 menjadi nilai 1 pada bit 
+kedua dan seterusnya sampai nilai oktet 1 berisi “1”. Dengan demikian, 
+didapat range, yaitu network pertama “0” s.d. network terakhir “127”. 
+Dua alamat network dicadangkan (tidak digunakan) sehingga menjadi 
+126 network terakhir Kelas A.
+OKTET 1 
+OKTET 2 
+OKTET 3 
+OKTET 4 
+8 
+8 
+8 
+8 
+Network 
+Host 
+Host 
+Host 
+ 
+ 
+Dimulai dari nilai “0” untuk semua 8 bit. Bit pertama harus “0”. 
+27 
+26 
+25 
+24 
+23 
+22 
+21 
+20 
+128 
+64 
+32 
+16 
+8 
+4 
+2 
+1 
+0  
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+   
+Jumlah 0, sebagai alamat network pertama 
+ 
+   Network 0 tidak digunakan, digunakan sebagai special address, sehingga dapat  
+dimulai  network “1” contoh di bawah ini: 
+ 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+ 
+  Diakhiri nilai “1” untuk semua 8 bit. Dengan aturan bit pertama harus “0”. 
+27 
+26 
+25 
+24 
+23 
+22 
+21 
+20 
+128 
+64 
+32 
+16 
+8 
+4 
+2 
+1 
+0  
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+Catatan:  
+Jumlah 127, sebagai alamat network terakhir, tetapi yang dapat digunakan adalah 
+126 
+ (64+32+16+8+4+2+1 = 127), network 127 tidak digunakan sebagai special address 
+atau untuk broadcast, sehingga diakhiri dengan 126. Contoh 127.0.0.0 (alamat 
+loopback) 
+Gambar 6.7 Alamat IPv4 Kelas A
+Sumber: Agung Puspita Bantala (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+218
+f. 
+Range Alamat Host Kelas A
+Untuk host Kelas A adalah 3 oktet, yaitu 8 bit + 8 bit + 8 bit = 24 bit, 
+artinya 224 = 16.777.216 alamat host. Jika semua oktet diberi nilai 0, host 
+pertama dalam jaringan dimulai dengan “0.0.0”. Contoh penggunaan: 
+126.0.0.0
+Akan tetapi, alamat ini tidak digunakan karena special address. Adapun 
+untuk alamat host terakhir adalah jika diberikan nilai 1 semua, alamat 
+host terakhir Kelas A adalah “126.255.255.255”. Alamat tersebut tidak 
+dapat digunakan karena berfungsi sebagai broadcast address. Dengan 
+demikian, host yang dapat digunakan adalah 126.0.0.1 sampai dengan 
+126.255.255.254.
+g. 
+Range Alamat IP Kelas B
+Alamat IP Kelas B menggunakan 24 bit pada oktet 1 dan oktet 2 sebagai 
+alamat network. Alamat network dimulai dengan “0” untuk 16 bit pada 
+semua oktet 1 dan 2, dan terus bertambah: nilai 0 menjadi nilai 1 pada bit 
+ke-2 dan seterusnya sampai nilai oktet 1 dan oktet 2 berisi “1” sehingga 
+didapat range, yaitu network pertama “128” s.d. network terakhir “191”.
+OKTET 1 
+OKTET 2 
+OKTET 3 
+OKTET 4 
+8 
+8 
+8 
+8 
+Network 
+Network 
+Host 
+Host 
+ 
+ 
+Dimulai dari nilai “0” untuk semua 8 bit. Bit pertama harus “1” dan bit kedua harus 
+bernilai “0”. 
+27 
+26 
+25 
+24 
+23 
+22 
+21 
+20 
+128 
+64 
+32 
+16 
+8 
+4 
+2 
+1 
+1  
+0  
+0 
+0 
+0 
+0 
+0 
+0 
+   Jumlah 0, sebagai alamat network pertama  
+   sehingga network pertama adalah 128 
+ 
+ 
+  Diakhiri nilai “1” untuk semua 8 bit. Bit pertama harus “1” dan bit ke 2 bernilai “0”. 
+27 
+26 
+25 
+24 
+23 
+22 
+21 
+20 
+128 
+64 
+32 
+16 
+8 
+4 
+2 
+1 
+1  
+0 
+1 
+1 
+1 
+1 
+1 
+1 
+ Jumlah 191, sebagai alamat network terakhir. 
+ (128+32+16+8+4+2+1 = 191) 
+Catatan: berdasarkan perhitungan di atas terdapat 2 bit tidak digunakan, dari 16 
+hanya 14 bit maka jumlah network adalah 214  = 16.384 network address 
+Gambar 6.8 Alamat IPv4 Kelas B
+Sumber: Agung Puspita Bantala (2022)
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+219
+h. Range Alamat Host Kelas B
+Untuk host Kelas B adalah 2 oktet, yaitu 8 bit + 8 bit = 16 bit, artinya 216 = 
+65.536 alamat host. Jika semua oktet diberi nilai 0, host pertama dalam 
+jaringan dimulai dengan “0.0.”. Contoh penggunaan: 
+172.16.0.0
+Akan tetapi, alamat ini tidak digunakan karena special address. Adapun 
+untuk alamat host terakhir adalah jika diberikan nilai 1 semua, alamat 
+host terakhir Kelas B adalah “172.16.255.255”. Alamat tersebut tidak 
+dapat digunakan karena berfungsi sebagai broadcast address. Dengan 
+demikian, host yang dapat digunakan adalah 171.16.0.1 sampai dengan 
+1726.16.255.254.
+i. Range Alamat IP Kelas C
+Kelas C adalah alamat network yang sering digunakan karena memiliki 
+jumlah host paling sedikit. Kelas ini cocok untuk jaringan lokal yang 
+sedikit komputernya.
+OKTET 1 
+OKTET 2 
+OKTET 3 
+OKTET 4 
+8 
+8 
+8 
+8 
+Network 
+Network 
+Network 
+Host 
+ 
+ 
+Dimulai dari nilai “0” untuk semua 8 bit. Dua bit pertama harus “1” dan bit ketiga 
+harus bernilai “0”. 
+27 
+26 
+25 
+24 
+23 
+22 
+21 
+20 
+128 
+64 
+32 
+16 
+8 
+4 
+2 
+1 
+1  
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+   Jumlah 0, sebagai alamat network pertama  
+   sehingga network pertama adalah 192. 
+ 
+  Diakhiri nilai “1” untuk semua 8 bit. Bit pertama harus “1” dan bit ke-2 bernilai “0”. 
+27 
+26 
+25 
+24 
+23 
+22 
+21 
+20 
+128 
+64 
+32 
+16 
+8 
+4 
+2 
+1 
+1  
+1 
+0 
+1 
+1 
+1 
+1 
+1 
+ Jumlah 233, sebagai alamat network terakhir. 
+ (128+64+16+8+4+2+1)=233 
+Catatan: berdasarkan perhitungan di atas terdapat 3 bit tidak digunakan, dari 24 
+hanya 21 bit maka jumlah network adalah 221 = 2.097.152 network address 
+Gambar 6.9 Alamat IPv4 Kelas C
+Sumber: Agung Puspita Bantala (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+220
+j. Range Alamat Host Kelas C
+Untuk host Kelas C adalah 1 oktet, yaitu 8 bit, artinya 28 = 256 alamat 
+host. Akan tetapi, yang dapat digunakan adalah 256 – 2 = 254 host. Jika 
+semua oktet diberi nilai 0, host pertama dalam jaringan dimulai dengan 
+“0.”. Contoh penggunaan: 
+192.168.0.0
+Akan tetapi, alamat ini tidak digunakan karena special address, merujuk 
+pada alamat network. Adapun untuk alamat host terakhir adalah 
+jika diberikan nilai 1 semua, alamat host terakhir Kelas C adalah 
+“192.168.0.255”. Alamat tersebut tidak dapat digunakan karena berfungsi 
+sebagai broadcast address. Dengan demikian, host yang dapat digunakan 
+adalah 192.168.0.1 sampai dengan 192.168.0.254.
+k. IP Privat dan IP Global
+Mengapa lab di sekolah selalu memulai alamat IP dengan 192, bukan 
+195 atau berapa pun yang penting di Kelas C? 
+Untuk Kelas A, mengapa selalu dimulai dengan 10, bukan 11? 
+Berdasarkan RFC 1918 (Rekhter, Moskowitz, dkk., 1996) alamat IPv4 
+untuk jaringan lokal dapat menggunakan tiga kelas, yaitu
+1) 
+Kelas A: 10.0.0.0–10.255.255.255
+2) 
+Kelas B: 172.16.0.0–172.31.255.255
+3) 
+Kelas C: 192.168.0.0–192.168.255.255
+Di luar alamat IP Privat adalah IP Global atau sering disebut IP 
+Publik, yaitu IP unik yang digunakan untuk koneksi internet. Biasanya 
+IP ini dimiliki oleh perusahaan/organisasi yang diberikan oleh ISP atau 
+ISP itu sendiri yang memiliki IP Global. IP Global bersifat unik karena 
+tidak memiliki duplikasi di internet.
+   
+Setelah membaca informasi tentang TCP/IP dan alamat IP, kalian 
+diharapkan telah memahami konsep TCP/IP dan alamat IP. Sekarang 
+saatnya kalian melakukan uji coba dan pengamatan untuk melihat 
+bagaimana konsep tersebut bekerja pada simulasi jaringan komputer 
+melalui berkas “LabActivity5.1.pka”.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+221
+Aktivitas Individu 1.2
+Gambar 6.10 di bawah ini merupakan skema simulasi jaringan yang akan 
+diamati, disediakan sebuah server dengan layanan web. Skenarionya adalah 
+PCLAN1 sebagai klien akan mengirimkan permintaan layanan pada server.
+PCLAN1
+192.168.0.2/24
+ServerLAN1
+192.168.0.2/24
+web server
+Fa0
+Fa0
+Gambar 6.10 Skema Jaringan pada Uji Coba Pengamatan
+Sumber: Agung Puspita Bantala (2022)
+Berdasarkan skenario tersebut, kalian diminta untuk mengamati proses 
+di balik komunikasi jaringan tersebut. Kalian diharapkan dapat menganalisis 
+lapisan Model TCP/IP update berdasarkan lapisan Model OSI.
+LabActivity5.1
+Langkah-langkah kerja dalam melakukan uji coba dan pengamatan terhadap 
+prinsip kerja TCP/IP dan IP address adalah sebagai berikut.
+1. 
+Unduh berkas “LabActivity5.1.pka” dari https://s.id/acsiswa. 
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+3. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas 
+“LabActivity5.1.pka”.
+4. 
+Untuk mengamati proses TCP/IP, kalian dapat pergi ke sekolah. Klik pada 
+MySchool, masuk ke LabTKJ1, kemudian klik Lab TKJ dasar.
+5. 
+Di dalam Lab TKJ dasar, klik Logical, kemudian gulir mouse ke bawah. 
+Dalam Logical Work Space, pilih MySchool dan pilih Lab TKJ dasar.
+6. 
+Dalam Lab TKJ dasar, gulir mouse ke atas sampai ditemukan jaringan klien 
+server, kemudian klik pada Simulation.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+222
+Gambar 6.11 Tangkapan Layar Menu Logical dan Simulation
+Sumber: Agung Puspita Bantala (2022)
+7. 
+Pada menu Simulation, klik tombol Show All/None untuk mengosongkan 
+protokol yang akan diamati. Selanjutnya, klik tombol Edit Filters, pilih 
+menu Misc, dan beri tanda centang pada HTTP. Tutup Edit Filters.
+Gambar 6.12 Tangkapan Layar Pemilihan Protokol yang Akan Diamati
+Sumber: Agung Puspita Bantala (2022)
+8. 
+Klik pada PCLAN1, pilih menu Desktop, dan pilih Web Browser. Ketikkan 
+http://192.168.0.2 pada Web Browser > Enter, selanjutnya klik tombol Play 
+(Alt+P) sampai simulasi selesai dengan tanda check muncul pada paket dan 
+muncul juga laman web pada Web Browser.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+223
+PCLAN1
+192.168.0.2/24
+ServerLAN1
+192.168.0.2/24
+web server
+Fa0
+Fa0
+Gambar 6.13 Tangkapan Layar Hasil Simulasi
+Sumber: Agung Puspita Bantala (2022)
+9. 
+Setelah proses simulasi selesai, kalian akan melihat Event List pada bagian 
+Simulation Panel. Pada Event List, terdapat kolom Last Device yang dapat 
+dianalogikan sebagai perangkat tujuan dan At Device sebagai perangkat 
+sumber yang saat ini berproses. Klik dua kali pada Event List pertama 
+maka akan tampil informasi PDU pada perangkat PCLAN1.
+10. Amati informasi PDU pada perangkat PCLAN1. Pastikan kalian berada pada 
+OSI Model. Pada bagian Out Layers—lapisan tersebut akan membawa data 
+ke luar—kalian akan menemukan tujuh lapisan (layer OSI), namun terdapat 
+dua layer yang tidak aktif, yaitu Layer 6 dan Layer 5. Mengapa? Tuliskan 
+alasan kalian pada selembar kertas untuk dijadikan referensi saat mengisi 
+tabel laporan.
+Gambar 6.14 Tangkapan Layar Informasi PDU pada PCLAN1
+Sumber: Agung Puspita Bantala (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+224
+11. Masih di Event List 1 pada informasi PDU, buatlah deskripsi yang 
+menceritakan pergerakan layer, mulai dari Layer 7 atau layer teratas, 
+dengan mengambil informasi pada keterangan pada bagian bawah (lihat 
+bagian yang dilingkari pada Gambar 6.14). Lanjutkan membuat deskripsi 
+dengan menekan tombol Next Layer, kemudian perhatikan informasi yang 
+muncul. Lakukan pembuatan deskripsi pada Even List 1 sampai selesai. 
+Kalian juga dapat menjadikan informasi pada menu Outbound PDU Details 
+sebagai referensi. Bagian tersebut berisi TCP header dan IP header. Tuliskan 
+sebagai catatan sementara.
+12. Pindah pada Event List 2. Buat deskripsi mengenai pergerakan layer yang 
+kalian temukan.
+13. Pindah pada Event List 3. Kalian dapat mengamati bahwa perangkat saat 
+ini (At Device) adalah ServerLAN1. Pada bagian ini, paket mulai diterima 
+oleh network device pada Layer 1. Deskripsikan semua layer pada kolom 
+In Layers (paket yang masuk sampai ke layer terakhir). Deskripsikan juga 
+layer pada kolom Out Layers (paket yang diolah dan akan dikembalikan 
+lagi), mulai dari Layer 7 sampai dengan Layer 1.
+14. Pindah pada Event List 4. Event List terakhir ini berada pada device PCLAN1. 
+Pada proses ini, paket balasan yang dikirim, masuk melalui network device 
+Layer 1. Deskripsikan sampai dengan Layer 7.
+Laporan Aktivitas Individu 1.2
+Berdasarkan hasil pengamatan pada Aktivitas Individu 1.2, lengkapi tabel di 
+bawah ini sebagai laporan hasil aktivitas! Kalian dapat membuat tabelnya di 
+buku tulis atau sesuai dengan petunjuk guru.
+Tabel 6.3 Laporan Pengamatan TCP/IP
+Even List 1
+At Device PCLAN1
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+HTTP
+Nama Layer:
+Layer 6
+Layer 5
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+225
+Layer 4
+Src Port: 1027
+Dst Port: 80
+Nama Layer:
+Layer 3
+Src. IP: 192.168.0.1
+Dest. IP: 192.168.0.2
+Nama Layer:
+Layer 2
+MAC:
+0001.63A4.917B >>
+00D0.D302.8C34
+Nama Layer:
+Layer 1
+FastEthernet0
+Nama Layer:
+Even List 2
+At Device PCLAN1
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 1
+FastEthernet0
+Nama Layer:
+Even List 3
+In Layers
+At Device ServerLAN1 dan 
+Last Device PCLAN1
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 1
+FastEthernet0
+Nama Layer:
+Layer 2
+MAC:
+0001.63A4.917B >>
+00D0.D302.8C34
+Nama Layer:
+Layer 3
+Src. IP: 192.168.0.1
+Dest. IP: 192.168.0.2
+Nama Layer:
+Layer 4
+Src Port: 1027
+Dst Port: 80
+Nama Layer:
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+226
+Layer 5
+Nama Layer:
+Layer 6
+Layer 7
+HTTP
+Even List 3
+Out Layers
+At Device ServerLAN1 dan 
+Last Device PCLAN1
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+HTTP
+Nama Layer:
+Layer 6
+Layer 5
+Layer 4
+Src Port: 1027
+Dst Port: 80
+Nama Layer:
+Layer 3
+Src. IP: 192.168.0.1
+Dest. IP: 192.168.0.2
+Nama Layer:
+Layer 2
+MAC:
+0001.63A4.917B >>
+00D0.D302.8C34
+Nama Layer:
+Layer 1
+FastEthernet0
+Nama Layer:
+Even List 4
+At Device PCLAN1
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+HTTP
+Nama Layer:
+Layer 6
+Layer 5
+Layer 4
+Src Port: 1027
+Dst Port: 80
+Nama Layer:
+Layer 3
+Src. IP: 192.168.0.1
+Dest. IP: 192.168.0.2
+Nama Layer:
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+227
+Layer 2
+MAC:
+0001.63A4.917B >>
+00D0.D302.8C34
+Nama Layer:
+Layer 1
+FastEthernet0
+Nama Layer:
+B. Prinsip Dasar Layanan Jaringan (Networking 
+Service)
+Berapa jumlah komputer di dalam laboratorium komputer TKJ di sekolah kalian? 
+Bagaimana kalian memberikan alamat IP jika komputer di sekolah berjumlah 
+lebih dari 500 unit?
+Dalam TCP/IP layer transport terdapat port-port TCP yang digunakan dalam 
+layanan. Port nomor berapa saja yang kalian ketahui? Layanan apa yang 
+sesuai dengan setiap port tersebut?
+Aktivitas Individu 2.1
+Bacalah informasi tentang prinsip dasar layanan jaringan (networking service) 
+dengan saksama!
+Saat ini pengguna jaringan komputer dan telekomunikasi memiliki banyak 
+layanan untuk mempermudah dalam berkomunikasi dan mendapatkan 
+informasi. Beberapa layanan yang pernah kalian amati dalam aktivitas belajar 
+sebelumnya adalah bagaimana web server atau HTTP bekerja. Selain web server, 
+terdapat beberapa layanan yang sering digunakan pada jaringan komputer dan 
+telekomunikasi, di antaranya DHCP (Dynamic Host Configuration Protocol), DNS 
+(Domain Name System), FTP (File Transfer Protocol), dan Mail.
+1. Prinsip Kerja Layanan HTTP (Web Server)
+Pada aktivitas Subbab A, kalian telah mengamati bagaimana layanan 
+web bekerja pada lapisan Model TCP/IP dan Model OSI melalui perangkat 
+simulasi. Secara teori, bagaimana HTTP bekerja akan dibahas pada kegiatan 
+belajar kali ini.
+Mekanisme seperti apa yang sebenarnya terjadi untuk memungkinkan 
+laman sebuah situs web muncul pada web browser pengguna? HTTP tidak 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+228
+pernah ada sampai Tim Berners-Lee menciptakan web browser pertama 
+dan web server pada awal tahun 1990-an. Berners-Lee memberikan fungsi 
+HTTP untuk menampilkan isi laman web melalui web browser.
+Web Server 
+Client Web Browser
+HTTP Request
+1
+2
+3
+Header
+Data
+HTTP,port,SEQ
+ACK
+index.html
+Data
+Data selanjutnya
+HTTP Response
+Header
+Data
+HTTP,port,SEQ
+ACK
+index.html
+Gambar 6.15 Prinsip Kerja Layanan Web
+Sumber: Agung Puspita Bantala (2022)
+Prinsip Kerja Layanan Web
+(1) Web Browser dari klien (client) mengirimkan HTTP Request. Data 
+tersebut dapat berupa permintaan informasi file default.html atau 
+index.html.
+(2) Web Server memberikan HTTP Response berupa data yang dilampiri 
+oleh header. Data tersebut dapat berupa informasi file default.html atau 
+index.html dan akan ditampilkan dalam Web Browser klien, namun 
+jika index.html tidak ditemukan, Web Server akan mengirimkan 
+kode “HTTP reply 404”.
+Gambar 6.16 Tangkapan Layar “HTTP Reply 404” dari Mesin Pencari Google
+Sumber: Agung Puspita Bantala (2022)
+(3) Langkah selanjutnya menunjukkan pesan dari Web Server ke Web 
+Browser klien, mengirimkan beberapa pesan HTTP dengan bagian 
+file masing-masing.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+229
+2. Prinsip Kerja Layanan DHCP
+Berapa jumlah komputer di dalam laboratorium komputer sekolah kalian? 
+Berapa jumlah semua komputer (di laboratorium, perpustakaan, dan ruangan 
+lain) di sekolah kalian? Tentunya sangat banyak. 
+Untuk memberikan pengalamatan IP satu per satu pada seluruh 
+komputer di sekolah kalian, tentunya itu adalah pekerjaan yang berat. 
+Untungnya, terdapat sebuah layanan yang dapat memberikan alamat IP 
+secara otomatis sesuai dengan network yang dimiliki. Layanan tersebut 
+disebut DHCP Server—DHCP singkatan dari Dynamic Host Configuration 
+Protocol. Protokol ini memiliki prinsip kerja seperti pada Gambar 6.17.
+1. DHCP Discover
+2. DHCP Offering
+3. DHCP Request
+4. DHCP ACK
+DHCP Client 
+DHCP Server
+Gambar 6.17 Prinsip Kerja Layanan DHCP
+Sumber: Agung Puspita Bantala (2022)
+Prinsip Kerja Layanan DHCP
+(1) Sebuah komputer atau perangkat akhir pengguna—yang telah 
+dikonfigurasi untuk mendapatkan alamat IP otomatis atau sebagai 
+DHCP Client—akan mencari layanan DHCP dalam jaringan. Proses 
+ini disebut DHCP Discover, yaitu komputer klien akan memberikan 
+pesan broadcast pada jaringan untuk mencari layanan DHCP Server. 
+(2) Server yang mendengar broadcast dari klien akan mengirimkan 
+pesan DHCP Offering, yaitu penawaran tentang peminjaman alamat 
+IP sementara pada klien. DHCP Offering berisi alamat IP dan batas 
+waktu penggunaan alamat IP atau sering disebut DHCP Lease.
+(3) Setelah server mengirimkan pesan DHCP Offering, komputer klien 
+membalas pesan tersebut dengan mengirimkan DHCP Request, yang 
+berisi bahwa klien telah menerima DHCP Offering dan meminjam 
+alamat IP berikut jangka waktu yang diberikan.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+230
+(4) Selanjutnya, setelah DHCP Request diterima oleh server, server akan 
+membalas dengan DHCP Acknowledge. Pesan ini memberikan hak 
+penggunaan alamat IP yang ditawarkan. Jika server tidak dapat 
+memenuhi DHCP Request dari klien, server akan mengirimkan pesan 
+DHCP Negative Acknowledgement.
+3. Prinsip Kerja Layanan DNS
+Ketika kalian ingin mengunjungi situs web sekolah untuk mencari informasi, 
+tentunya kalian lebih mudah mengingat jika mengetikkan nama situs web 
+sekolah kalian dibandingkan dengan mengetikkan alamat IP dari web 
+server sekolah. 
+DNS server digunakan untuk menerjemahkan nama domain atau situs 
+web menjadi alamat IP web server, atau sebaliknya, menerjemahkan alamat 
+IP menjadi nama domain.
+Terdapat tingkatan dalam sebuah DNS. Urutan tertinggi adalah DNS 
+root server yang disebut Top Level Domain (TLD)—di bawah domain root 
+server, terdapat beberapa domain. TLD merupakan ranah tingkat teratas 
+dari sebuah domain. Beberapa TLD yang cukup dikenal luas, yaitu
+a. 
+“.com” (commercial organizations). Contoh domain yang digunakan: 
+www.detik.com dan kompas.com
+b. 
+“.edu” (educational institutions). Contoh domain yang digunakan: www.
+upi.edu
+c. 
+“.gov” (government institutions). Contoh domain yang digunakan: www.
+usa.gov
+d. 
+“.org” (nonprofit organizations). Contoh domain yang digunakan: 
+en.wikipedia.org
+Selanjutnya, terdapat satu tingkat di bawah TLD, yaitu Second Level 
+Domain (SLD). SLD dapat berisi nama perusahaan, nama universitas/sekolah, 
+atau nama organisasi. Contoh organisasi komersial:
+detik.com dan kompas.com
+detik dan kompas merupakan nama perusahaan yang menjadi SLD, 
+sedangkan “.com” adalah TLD.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+231
+Contoh lain:
+upi.edu
+upi merupakan nama universitas (Universitas Pendidikan Indonesia) 
+yang menjadi SLD, sedangkan “.edu” adalah TLD.
+Di bawah SLD masih dapat ditambahkan Third Level Domain. Untuk 
+domain tingkat ketiga ini biasanya merujuk pada sebuah nama komputer 
+hostname atau laman tertentu dari sebuah situs web. Third Level Domain 
+sering disebut subdomain. Contoh:
+https://news.detik.com/ 
+“.com” adalah Top Level Domain, detik adalah Second Level Domain, dan 
+news adalah Third Level Domain. news dapat berupa sebuah hostname, 
+nama dari komputer atau laman direktori yang berisi laman web.
+Prinsip kerja layanan DNS di internet dapat diilustrasikan seperti pada 
+Gambar 6.18 berikut.
+ISP
+DNS Reslover
+www.smk.sch.id ?
+192.168.25.2 ?
+Web Server
+www.smk.sch.id
+IP : 192.168.25.2
+Name Server (NS)
+root
+Name Server (NS)
+Top Level Domain
+1
+2
+3
+4
+5
+6
+Forward/reverse Zone
+Gambar 6.18 Prinsip Kerja Layanan DNS
+Sumber: Agung Puspita Bantala (2022)
+Prinsip kerja layanan DNS di internet pada Gambar 6.18 dijelaskan 
+menggunakan prinsip-prinsip dalam skenario jaringan yang sering kalian 
+simulasikan.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+232
+Prinsip Kerja Layanan DNS
+(1) Jika kalian membutuhkan informasi laman situs web dan mengetikkan 
+www.smk.sch.id, kalian tidak mengetahui berapa alamat IP dari 
+server tersebut. Informasi tersebut akan dikirim ke sebuah DNS 
+Resolver milik ISP. 
+(2) Selanjutnya, informasi diteruskan pada DNS Root untuk mencari 
+informasi tentang alamat IP yang dimiliki domain tersebut.
+(3) DNS Root tidak memiliki informasi keberadaan nama domain tersebut, 
+kemudian meneruskan pada Name Server dari Top Level Domain di 
+bawahnya, seperti “.com”, “.edu”, dan “.org”. Top Level Domain akan 
+menyarankan pencarian pada sebuah Name Server dari zona tertentu 
+yang dimiliki, yaitu Name Server MyTelco.com. 
+(4) Informasi yang dimiliki oleh NS.MyTelco.com mengatakan bahwa 
+domain www.smk.sch.id menggunakan alamat IP 192.168.25.2. 
+Menerjemahkan nama domain menjadi informasi alamat IP adalah 
+fungsi forward zone dalam sebuah DNS Server. Adapun untuk 
+mengembalikannya (menerjemahkan alamat IP menjadi nama domain) 
+adalah fungsi reverse zone dalam sebuah DNS Server.
+(5) Selanjutnya, informasi tersebut dikirim ke DNS Resolver di ISP untuk 
+diteruskan kepada pengguna, yaitu kalian.
+(6) Setelah informasi tentang alamat server didapat, komputer kalian 
+secara otomatis akan berkomunikasi melalui internet dan router ke 
+server www.smk.sch.id.
+4. Prinsip Kerja Layanan FTP
+FTP adalah singkatan dari File Transfer Protocol. Sesuai dengan namanya, FTP 
+berfungsi untuk melakukan transfer berkas dari komputer pengguna klien 
+ke komputer server. FTP merupakan protokol yang sudah ada sejak internet 
+kali pertama ada. FTP bekerja seperti halnya HTTP, yaitu menggunakan 
+TCP/IP sebagai sarana mengirimkan data. Prinsip kerja layanan FTP dapat 
+dilihat pada ilustrasi berikut.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+233
+FTP Incoming connection
+Destination port 21
+FTP
+,port,SYN+ACK
+Header
+command
+Data
+Data Connection
+Active Connection
+Port : 20
+Pasive connection , Port : random
+Active Connection
+Port random : 1023
+Pasive connection , Port : random
+FTP Server
+Open data
+connection
+FTP ,port,SYN
+ACK
+FTP Response
+Header
+Data
+FTP ,port,ACK
+auth
+FTP auth
+Random Port :21 
+Random Port :1023
+Control Connection
+Active / pasive connection
+1
+2
+3
+4
+5
+User 
+Interface
+Gambar 6.19 Prinsip Kerja Layanan FTP
+Sumber: Agung Puspita Bantala (2022)
+Prinsip Kerja Layanan FTP
+(1) FTP Server pada posisi mendengarkan (listening). Kalian menggunakan 
+perintah (command) atau aplikasi antarmuka sebagai user interfaces, 
+untuk mengirimkan paket header dengan isi SYN + ACK yang 
+diharapkan dari server sebagai jawaban, yang menjadi FTP Incoming 
+Connection bagi FTP Server.
+(2) FTP Server merespons dengan mengirimkan SYN + jawaban ACK, 
+sekaligus membuka Data Connection ke klien (Client). 
+(3) Klien membalas respons server. Klien mengirimkan autentikasi 
+dengan mengisi nama pengguna dan kata kunci (password). Server 
+menerima autentikasi tersebut. 
+(4) Server membuka Control Connection dengan port tujuan 21 dan port 
+sumber random. Pada bagian ini, klien dapat mengetikkan beberapa 
+perintah untuk melanjutkan komunikasi.
+(5) Ketika klien mengirimkan data ke server atau sebaliknya, server 
+membuka koneksi lainnya, yaitu Data Connection. Data Connection 
+memiliki dua mode, yaitu aktif dan pasif. Data Connection aktif jika 
+server menggunakan port 20 dan port klien random, namun Data 
+Connection ini terhalang oleh Firewall sehingga harus membuka 
+port. Untuk Data Connection pasif, semua port random.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+234
+5. Prinsip Kerja Layanan Email
+Siapa yang tidak mengenal email? Meskipun saat ini layanan email mulai 
+tergeser oleh layanan chat, seperti WhatsApp dan LINE, perlu ditekankan 
+bahwa pengiriman pesan yang bersifat formal sebaiknya menggunakan 
+layanan email. Hal ini karena dalam email terdapat tanda tangan digital atau 
+digital signature sebagai identitas autentik untuk membuktikan bahwa surat 
+tersebut benar dan dapat dipertanggungjawabkan. Mari kita membahas 
+cara kerja layanan email!
+Sebuah server email memiliki dua protokol utama dalam mengirim dan 
+menerima surat. Pertama, outgoing server yang bertanggung jawab atas 
+surat yang keluar (outgoing mail) menggunakan protokol SMTP (Simple Mail 
+Transfer Protocol) pada port 25. Kedua, incoming server yang bertanggung 
+jawab atas surat yang masuk (incoming mail) menggunakan protokol POP3 
+(Post Office Protocol 3) pada port 110 atau IMAP (Internet Message Access 
+Protocol) pada port 143.
+Gambar 6.20 berikut menunjukkan prinsip kerja dari mail server dalam 
+mengirim dan menerima email.
+mail.smk,sch.id
+Mailbox:siswatkj1
+POP3/IMAP
+Incomming
+User:
+siswatkj1
+SMTP 
+outgoing
+Myschool
+Router
+MDA/MTA
+mail.mytelco.com
+Mailbox:siswatkj2
+SMTP 
+outgoing
+SMTP 
+outgoing
+MUA 
+PC1 
+User:
+siswatkj2
+MUA 
+Pc2 
+Myschool
+Router
+SMTP 
+outgoing
+SMTP 
+outgoing
+SMTP 
+outgoing
+MDA/MTA
+POP3/IMAP
+Incomming
+Gambar 6.20 Prinsip Kerja Layanan Email
+Sumber: Agung Puspita Bantala (2022)
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+235
+Prinsip Kerja Layanan Email
+Pada Gambar 6.20, kalian diskenariokan berada di MySchool dan akan 
+mengirimkan email pada teman kalian di tempat kerja praktik. ISP di 
+kota kalian adalah mytelco. Kalian menggunakan akun siswatkj1 dan 
+teman kalian menggunakan akun siswatkj2. Langkah-langkah kerjanya 
+sebagai berikut.
+(1) Untuk berkirim email, kalian dapat menggunakan Mail User Agent 
+(MUA) sebagai antarmuka dalam mengirim email. Contoh MUA adalah 
+Microsoft Outlook. Selanjutnya, email kalian akan dikirim ke server 
+mail.smk.sch.id menggunakan perangkat lunak jenis Mail Transfer 
+Agent (MTA). MTA dapat dianalogikan sebagai petugas POS (Pak POS 
+pada tahun 90-an). Email yang keluar atau outgoing ditangani oleh 
+Simple Mail Transfer Protocol (SMTP) menggunakan port 25.
+(2) Dari server mail.smk.sch.id, masih menggunakan protokol SMTP, 
+email diteruskan ke router untuk dilanjutkan ke server mail.mytelco.
+com. 
+(3) Email kalian selanjutnya dimasukkan ke kotak surat (mail box) teman 
+kalian dengan nama pengguna siswatkj2 menggunakan perangkat 
+lunak jenis Mail Delivery Agent (MDA).
+(4) Teman kalian dapat mengunduh email tersebut ke PC2 atau perangkat 
+smartphone menggunakan protokol POP3 atau IMAP. Perbedaannya 
+adalah jika teman kalian menggunakan POP3, kotak surat akan 
+kosong, namun jika menggunakan IMAP, email masih dapat dibaca 
+meskipun menggunakan perangkat berbeda. Bagaimana dengan MUA? 
+MUA bekerja menggunakan protokol POP3 untuk menurunkan email 
+yang terdapat pada kotak surat. Hal tersebut berlaku sebaliknya jika 
+pengguna dengan akun siswatkj2 akan mengirimkan surat.
+   
+Setelah membaca informasi tentang prinsip dasar layanan jaringan, 
+kalian diharapkan telah memahami konsep layanan HTTP, layanan 
+DHCP, layanan DNS, layanan FTP, dan layanan email. Sekarang 
+saatnya kalian melakukan uji coba dan pengamatan untuk melihat 
+bagaimana setiap konsep tersebut bekerja pada simulasi jaringan 
+komputer melalui berkas “LabActivity5.2.pka”.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+236
+Aktivitas Individu 2.2
+PC-PT
+PCLAN1
+Server-PT
+ServerLAN1
+192.168.0.2/24
+web server
+DHCP Server
+DNS Server
+FTP Server
+Mail Server
+192.168.0.2/24
+Fa0
+Fa0
+Gambar 6.21 Skema Jaringan pada Uji Coba Pengamatan Layanan DHCP, DNS, FTP, dan Email 
+Sumber: Agung Puspita Bantala (2022)
+Pengamatan Layanan DHCP
+Langkah-langkah kerja dalam melakukan uji coba dan pengamatan terhadap 
+prinsip kerja layanan DHCP adalah sebagai berikut.
+1. 
+Unduh berkas “LabActivity5.2.pka” dari https://s.id/acsiswa.  
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+3. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas 
+“LabActivity5.2.pka”.
+4. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity5.2.
+Pengamatan Layanan DNS
+Untuk melihat bagaimana DNS Server bekerja pada perangkat simulasi, kalian 
+harus melakukan sedikit pengaturan pada server terlebih dahulu agar menjadi 
+server DNS. Skenario pengamatan berdasarkan DNS pada jaringan lokal.
+Langkah-langkah kerja dalam melakukan uji coba dan pengamatan terhadap 
+prinsip kerja layanan DNS adalah sebagai berikut.
+1. 
+Unduh berkas “LabActivity5.3.pka” dari https://s.id/acsiswa. 
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+237
+3. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas 
+“LabActivity5.3.pka”.
+4. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity5.3. 
+Pengamatan Layanan FTP
+Untuk melihat bagaimana FTP Server bekerja pada perangkat simulasi, kalian 
+harus melakukan sedikit pengaturan pada server terlebih dahulu agar menjadi 
+server FTP. Skenarionya, pengamatan dilakukan dari PCLAN1: mengirimkan 
+sebuah berkas dengan nama “dataupload.txt” (berkas tersebut harus dibuat 
+terlebih dahulu menggunakan editor).
+Langkah-langkah kerja dalam melakukan uji coba dan pengamatan terhadap 
+prinsip kerja layanan FTP adalah sebagai berikut.
+1. 
+Unduh berkas “LabActivity5.4.pka” dari https://s.id/acsiswa. 
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+3. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas 
+“LabActivity5.4.pka”.
+4. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity5.4. 
+Pengamatan Layanan Email
+Untuk melihat bagaimana email server bekerja pada perangkat simulasi, kalian 
+harus melakukan sedikit pengaturan pada server terlebih dahulu agar menjadi 
+server email. Skenarionya, pengamatan dilakukan dari PCLAN1: user siswatkj1 
+mengirimkan email ke user siswatkj2.
+Langkah-langkah kerja dalam melakukan uji coba dan pengamatan terhadap 
+prinsip kerja layanan email adalah sebagai berikut.
+1. 
+Unduh berkas “LabActivity5.5.pka” dari https://s.id/acsiswa. 
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+238
+3. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas “LabActivity5.5.pka”.
+4. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity5.5.
+Laporan Aktivitas Individu 2.2
+Berdasarkan hasil pengamatan pada Aktivitas Individu 2.2, lengkapi setiap tabel 
+di bawah ini sebagai laporan hasil aktivitas! Kalian dapat membuat tabelnya di 
+buku tulis atau sesuai dengan petunjuk guru.
+Tabel 6.4 Laporan Hasil Pengamatan Layanan DHCP
+Layanan DHCP
+Even List 1
+Device PCLAN1
+Out Layers
+Model OSI 
+Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 2
+Device ServerLAN1
+In Layers
+Model OSI 
+Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 2
+Device ServerLAN1
+Out Layers
+Model OSI 
+Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+239
+Even List 3
+Device PCLAN1
+In Layers
+Model OSI 
+Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 3
+Device PCLAN1
+Out Layers
+Model OSI 
+Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 4
+Device ServerLAN1
+In Layers
+Model OSI 
+Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 4
+Device ServerLAN1
+Out Layers
+Model OSI 
+Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 5
+Device PCLAN1
+In Layers
+Model OSI 
+Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+240
+Tabel 6.5 Laporan Hasil Pengamatan Layanan DNS
+Layanan DNS
+Even List 1
+Device PCLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 3
+Device ServerLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 3
+Device ServerLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 4
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Tabel 6.6 Laporan Hasil Pengamatan Layanan FTP
+Layanan FTP
+ Even List 1
+Device ServerLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+241
+Even List 2
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 3
+Device PCLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 4
+Device ServerLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 5
+Device ServerLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 6
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+242
+Even List 7
+Device PCLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 8
+Device ServerLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 9
+Device ServerLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 10
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+FTP Upload
+Even List 1
+Device PCLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+243
+Even List 2
+Device ServerLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 3
+Device ServerLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 4
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 5
+Device PCLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 6
+Device ServerLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+244
+Even List 7
+Device ServerLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 8
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 9
+Device PCLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 10
+Device ServerLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 11
+Device ServerLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+245
+Even List 12
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 13
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 14
+Device PCLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 15
+Device ServerLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 16
+Device ServerLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+246
+Even List 17
+Device ServerLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 18
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Tabel 6.7 Laporan Hasil Pengamatan Layanan Email
+Layanan Email
+Even List 1
+Device PCLAN1
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 5
+Device ServerLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 7
+Device PCLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+247
+Even List 9
+Device PCLAN2
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Even List 13
+Device ServerLAN1
+In Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+Out Layers
+Nama Layer:
+Even List 16
+Device PCLAN2
+Out Layers
+Model OSI Layer
+Model TCP/IP Layer
+Deskripsi
+Layer 7
+Nama Layer:
+Layer 6
+Layer 5
+C. Prinsip Dasar Keamanan Jaringan Komputer 
+dan Telekomunikasi
+Pernahkah kalian bermain kriptografi sederhana? Saya akan mengirimkan 
+pesan pada kalian berupa ciphertext, yaitu 
+“H J W I F X”
+Key atau kuncinya adalah 5. Model kriptografi ini disebut shift cipher.
+Tabel 6.8 Tabel Panduan Kunci Kriptografi
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+248
+Kalian dapat mendeskripsikan pesan tersebut agar dapat dibaca. 
+Caranya adalah dengan menggunakan tabel panduan kunci kriptografi untuk 
+mengembalikan “H J W I F X” ke bentuk urutan angka. Key adalah 5, artinya 
+untuk setiap urutan angka yang didapat, geser 5 angka tersebut ke kiri dan 
+kembalikan lagi ke bentuk huruf. Selamat bersenang-senang!
+Salah satu cara mengamankan data adalah menggunakan algoritma enkripsi. 
+Apa yang kalian ketahui tentang plaintext, ciphertext, enkripsi, deskripsi, 
+dan key?
+Aktivitas Individu 3.1
+Bacalah informasi tentang prinsip dasar keamanan jaringan komputer dan 
+telekomunikasi dengan saksama! 
+1. Celah Keamanan Jaringan Komputer dan Telekomunikasi
+Pada kegiatan sebelumnya, kalian telah mempelajari prinsip dasar jaringan 
+komputer dan telekomunikasi dengan memecah paket menjadi bagian-bagian 
+kecil dan memberi nomor yang disebut sequence number; berkomunikasi 
+dalam jaringan menggunakan three way handsake. Kalian juga telah 
+mempelajari beberapa layanan jaringan, seperti DHCP Server dan DNS Server. 
+Berdasarkan prinsip-prinsip tersebut, celah keamanan sebuah jaringan 
+dapat dianalisis. Selain prinsip komunikasi tersebut, terdapat beberapa 
+prinsip yang dapat dijadikan sebagai landasan dalam menganalisis keamanan 
+jaringan.
+a. 
+Cara Kerja Switch
+Port1
+Switch
+Port2
+Switch
+Port3
+Switch
+Pc1
+Pc3 
+Pc2 
+MAC 11:11:11:11:11:11
+MAC 33:33:33:33:33:33
+MAC 22:22:22:22:22:22
+IP:192.168.1.1/24
+IP:192.168.1.1/24
+IP:192.168.1.1/24
+SWITCH
+Gambar 6.22 Cara Kerja Switch dalam Jaringan
+Sumber: Agung Puspita Bantala (2022)
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+249
+Sebuah hub bekerja dengan melakukan broadcast atau menyebarkan 
+paket ke semua komputer dan perangkat akhir pengguna dalam sebuah 
+jaringan. Dengan demikian, paket atau data lebih mudah diambil dalam 
+aktivitas penyadapan (sniffing). Berbeda dengan hub, switch memiliki 
+memori yang disebut CAM (Content Addressable Memory), yang berfungsi 
+menyimpan alamat physical network adapter atau alamat MAC (MAC 
+address). Berikut ini ilustrasi dari cara kerja sebuah switch (S’to, 2007).
+Jika PC1 dengan alamat IP 192.168.1.1 menggunakan alamat 
+MAC 11:11:11:11:11:11 terhubung ke Port 1 pada switch, PC1 akan 
+berkomunikasi dengan PC2 yang menggunakan alamat IP 192.168.1.2 
+dengan alamat MAC 22:22:22:22:22:22 terhubung ke Port 2 pada switch.
+Ketika PC1 akan berkomunikasi dengan PC2, PC1 mengirimkan 
+paket broadcast ARP (Address Resolution Protocol) melalui switch yang 
+berisi alamat IP, alamat MAC sendiri sebagai komputer sumber, dan 
+permintaan alamat MAC yang ingin dihubungi. 
+Selanjutnya, switch akan mencatat alamat MAC dari PC1 beserta 
+alamat IP dan port yang digunakan. Switch mencatatnya dalam RAM 
+switch, kemudian meneruskan paket broadcast ARP ke PC2 dan PC3, 
+kecuali PC1 karena telah memiliki catatan dalam RAM switch.
+Broadcast ARP akan diterima oleh semua komputer dalam jaringan. 
+PC2 yang memiliki alamat IP dan alamat MAC sebagai komputer 
+tujuan, akan menjawab pesan paket broadcast ARP tersebut dengan 
+terlebih dahulu mencatat alamat MAC PC1 pada tabel ARP yang dimiliki, 
+kemudian mengirimkan alamat MAC ke switch. Selanjutnya, switch 
+mencatatnya dalam RAM switch bahwa komputer tujuan menggunakan 
+Port 2 dengan alamat MAC 22:22:22:22:22:22. 
+Komputer lain (PC3) yang menerima paket broadcast ARP dari 
+switch, akan mengabaikan pesan tersebut karena alamat MAC-nya 
+berbeda (bukan sebagai komputer tujuan).
+Setelah switch memiliki alamat MAC sumber beserta port yang 
+digunakan dan alamat MAC tujuan beserta port yang digunakan, 
+tugasnya adalah menghubungkan Port 1 (sebagai sumber) dengan Port 
+2 (sebagai tujuan).
+Berkat RAM Switch tersebut, tidak semua informasi penting akan 
+di-broadcast dalam jaringan. Switch hanya melakukan broadcast ARP. 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+250
+Lalu, menurut kalian, di mana celah keamanan yang memungkinkan 
+terjadinya penyadapan (sniffing)?
+Sebuah switch yang dimiliki tentunya memiliki keterbatasan pada 
+fitur dari RAM switch atau CAM. Biasanya berupa daya tampung alamat 
+MAC yang dapat disimpan dalam CAM, yaitu MAC Address Table Size.
+Gambar 6.23 Tangkapan Layar Fitur Switch, MAC Address Table Size pada Deskripsi Produk Toko 
+Online Bhinneka
+Sumber: Agung Puspita Bantala (2022)
+Dari gambar di atas, kita dapat mengetahui bahwa switch memiliki 
+fitur, yaitu dapat menampung 8.000 alamat MAC. Jadi, kita membutuhkan 
+lebih dari 8.000 PC untuk melumpuhkan sebuah switch, sedangkan 
+jumlah port-nya 8.
+b. Tabel ARP (ARP Table)
+ 
+ Apakah Kalian Tahu?
+Sebuah Switch tidak dapat membaca alamat IP. Switch bekerja pada Layer 
+1 dan Layer 2 dari TCP/IP. Adapun IP address bekerja pada Layer 3 dari 
+TCP/IP. Switch hanya mengenal alamat MAC sebagai alamat Physical (lihat 
+kembali materi pada Subbab A).
+Address Resolution Protocol (ARP) adalah jembatan bagi Layer 2 
+dan Layer 3 pada TCP/IP. Fungsi dari ARP adalah menemukan alamat 
+MAC berdasarkan informasi dari alamat IP.
+ ARP akan mencatat alamat IP berikut alamat MAC dalam sebuah 
+tabel yang disebut Tabel ARP (ARP Table). Jika sebuah komputer 
+berkomunikasi dengan komputer lainnya, komputer tersebut akan 
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+251
+mencatat alamat IP beserta alamat MAC komputer itu sendiri sebagai 
+sumber dan komputer lain sebagai tujuannya. 
+Sebagai contoh, untuk melihat alamat IP dan alamat MAC, kita dapat 
+mengetikkan perintah “ipconfig/all” pada Command Prompt sistem 
+operasi Windows. Dapat dilihat alamat MAC adalah 00-50-56-C0-00-02 
+dengan alamat IP adalah 192.168.1.2. Dengan langkah yang sama pada 
+komputer sumber, dapat dilihat alamat MAC adalah 00-0C-29-4C-88-07 
+dan alamat IP adalah 192.168.1.2.
+Gambar 6.24 Alamat MAC Komputer Sumber
+Sumber: Agung Puspita Bantala (2022)
+Jika komputer tujuan melakukan ping ke komputer sumber, 
+kemudian terkoneksi, kita dapat melihat tabel ARP dengan mengetikkan 
+perintah “arp -a” pada Command Prompt sistem operasi Windows.
+Gambar 6.25 Tabel ARP
+Sumber: Agung Puspita Bantala (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+252
+Lalu, di mana celah keamanan yang dapat dieksploitasi (mengambil 
+keuntungan dari celah keamanan)? Dari Gambar 6.25, kita dapat melihat 
+bahwa type dari alamat MAC pada tabel ARP adalah dynamic, artinya 
+memungkinkan untuk diubah. Untuk mengambil keuntungan dari 
+celah keamanan tersebut, kalian dapat membaca materi Sniffing Aktif 
+pada akhir subbab ini.
+2. Celah Keamanan pada Switch dan Tabel ARP
+Pada Bab 2, kalian telah membaca dan mengetahui tentang aktivitas sniffing 
+atau penyadapan. Sniffing terbagi dua, yaitu sniffing pasif dan sniffing aktif. 
+Jika sniffing pasif hanya dilakukan tanpa memanipulasi jaringan, sniffing 
+aktif melakukan rekayasa terhadap jaringan, seperti mengirimkan paket 
+terus-menerus dalam jumlah besar dan masih banyak rekayasa lainnya.
+Pada aktivitas belajar sebelumnya, kalian juga telah mempelajari dan 
+menganalisis cara kerja jaringan, meliputi TCP/IP, three way handshake, 
+prinsip dasar DHCP, prinsip dasar DNS, cara kerja switch, dan tabel ARP. 
+Seperti yang telah kalian ketahui, switch memiliki memori CAM yang 
+berfungsi menyimpan informasi tentang alamat MAC, alamat IP, dan port 
+yang digunakan sebuah komputer. Kegiatan sniffing pasif yang dilakukan 
+dalam sebuah jaringan, tidak akan menghasilkan data penting apa pun 
+selain sekadar data broadcast ARP. Sniffing aktif diperlukan pada perangkat 
+switch, yaitu dengan membebani memori switch sehingga switch akan 
+bekerja tanpa memorinya, tetapi langsung melakukan broadcast informasi 
+apa pun ke dalam jaringan. 
+Untuk menghabiskan memori switch, kita tidak perlu menggunakan 
+sumber daya fisik, seperti kartu jaringan atau komputer dengan jumlah 
+banyak. Terdapat beberapa aplikasi yang dapat melakukan ini. Konsepnya 
+adalah membanjiri switch dengan kiriman paket yang sangat banyak beserta 
+alamat MAC yang berubah-ubah. Contoh aplikasinya adalah Macof yang 
+tersedia dalam sistem operasi Kali Linux. Aplikasi Macof dan Wireshark 
+dijalankan secara bersamaan untuk mengintip paket broadcast.
+Kalian telah membaca materi tentang tabel ARP dan cara kerja switch 
+yang memiliki beberapa celah keamanan, yaitu bahwa physical address 
+atau alamat MAC pada tabel ARP adalah dynamic, artinya dapat diubah dan 
+dimanipulasi. Konsepnya dapat digambarkan sebagai berikut.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+253
+KOMUNIKASI
+Port1
+Switch
+Port2
+Switch
+Port3
+Switch
+ARP Table:
+MAC 11:11:11:11:11:11
+ARP Table:
+MAC 11:11:11:11:11:11
+PC1(sumber)
+Pc3 (snifﬁng)
+PC2 (tujuan)
+MAC 11:11:11:11:11:11
+MAC 33:33:33:33:33:33
+MAC 22:22:22:22:22:22
+IP:192.168.1.1/24
+IP:192.168.1.1/24
+IP:192.168.1.1/24
+Gambar 6.26 Sniffing Aktif Tabel ARP (S’to, 2007)
+Sumber: Agung Puspita Bantala (2022)
+Berdasarkan gambar di atas, konsep sniffing aktif terhadap tabel ARP 
+dapat dideskripsikan sebagai berikut.
+a. 
+PC1 terhubung ke jaringan menggunakan port 1 pada switch. Switch telah 
+menyimpan informasi di dalam memorinya bahwa port 1 berisi alamat 
+MAC 11:11:11:11:11:11, tanpa mengetahui alamat IP yang digunakan 
+oleh PC1.
+b. 
+PC2 terhubung ke jaringan menggunakan port 2 pada switch. Switch telah 
+menyimpan informasi di dalam memorinya bahwa port 2 berisi alamat 
+MAC 22:22:22:22:22:22, tanpa mengetahui alamat IP yang digunakan 
+oleh PC2.
+c. 
+PC3 terhubung ke jaringan menggunakan port 3 pada switch. Switch telah 
+menyimpan informasi di dalam memorinya bahwa port 3 berisi alamat 
+MAC 33:33:33:33:33:33, tanpa mengetahui alamat IP yang digunakan 
+oleh PC3.
+d. 
+Ketika PC1 berkomunikasi dengan PC2 maka PC1 akan menyimpan 
+alamat MAC PC2 dalam tabel ARP. Begitu juga dengan PC2 yang akan 
+menyimpan informasi alamat MAC PC1 dalam tabel ARP.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+254
+e. 
+Selanjutnya, PC3 atau komputer sniffing melakukan ARP Poisoning atau 
+meracuni tabel ARP di PC1 sebagai komputer sumber dan di PC2 sebagai 
+komputer tujuan. Tujuannya adalah agar PC1 menganggap bahwa 
+PC3 adalah komputer tujuan dan PC2 menganggap bahwa PC3 adalah 
+komputer sumber. Akibatnya, tabel ARP di PC1 berisi: komputer tujuan 
+adalah alamat MAC PC3 yang seharusnya alamat MAC PC2. (Sebagai 
+komputer sniffing, PC3 meracuni tabel ARP dari PC1 dan PC2 dengan 
+cara mengirimkan ARP reply pada PC1 dan PC2. Supaya cara tersebut 
+terlaksana, PC3 akan melakukan ping untuk kedua PC tersebut.)
+f. 
+Setelah cache ARP PC1 diracuni, ketika PC1 akan berkomunikasi dengan 
+PC2, sebenarnya PC1 menghubungi PC3. Penyebabnya adalah switch 
+tidak mengenal alamat IP. Switch hanya memiliki informasi alamat MAC 
+dan port yang digunakan sehingga ketika PC1 mengirimkan pesan ke 
+switch, switch akan menghubungkan port 1 dengan port 3, bukan port 
+2. Begitu juga dengan PC2. Setelah cache ARP-nya diracuni, ketika PC2 
+akan berkomunikasi dengan PC1, sebenarnya PC2 menghubungi PC3.
+g. 
+Setelah PC3 (komputer sniffing) berada di antara komunikasi PC1 dan PC2, 
+paket dari PC1 tidak akan bisa sampai pada PC2, begitu pun sebaliknya. 
+Oleh karena itu, tahap selanjutnya dari PC3 adalah membuat routing 
+komunikasi, yaitu dari PC1 diteruskan pada PC 2 setelah melalui PC3.
+Port1 Port3 Port2
+PC1:
+33:33:33:33:33:3
+3
+Pc1
+MAC:11:11:11:11:11:1
+1
+IP:192.168.1.1/24
+PC2
+MAC:22:22:22:22:22:2
+2
+IP:192.168.1.2/24
+Pc3
+MAC:33:33:33:33:33:3
+3
+IP:192.168.1.3/24
+ARP Table:
+ARP Table:
+Pc2:
+33:33:33:33:33:3
+3
+Routing
+Routing
+SWITCH
+Gambar 6.27 Tabel ARP Poisoning (S’to, 2007)
+Sumber: Agung Puspita Bantala (2022)
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+255
+Aplikasi apa yang dapat digunakan untuk ARP Poisoning? 
+Jawabannya adalah Ettercap. Aplikasi Ettercap dapat ditemukan pada 
+distribusi Kali Linux. Kali Linux adalah sebuah sistem operasi yang 
+digunakan untuk menganalisis keamanan jaringan.
+Gambar 6.28 Tangkapan Layar Ettercap dalam Distro Kali Linux
+Sumber: Agung Puspita Bantala (2022)
+3. Celah Keamanan pada Layanan DNS
+Tentunya kalian masih mengingat prinsip dasar layanan DNS, yaitu sebuah 
+alamat IP diterjemahkan menjadi nama domain agar mudah mengakses 
+situs web.
+Masih menggunakan ARP Poisoning dalam aplikasi Ettercap, DNS Spoofing 
+digunakan untuk mengalihkan nama DNS ke sebuah alamat IP atau DNS 
+dari sebuah laman web palsu. Akibatnya, pengguna (tanpa disadari) akan 
+memasukkan username dan account pada sebuah situs dengan alamat DNS 
+yang tersedia.
+Untuk melakukan DNS Spoofing, tentunya kita harus melibatkan jaringan 
+eksternal atau internet. Komputer target yang akan terkoneksi ke jaringan 
+internet melalui router diarahkan pada komputer sniffing sehingga komputer 
+sniffing berada di tengah-tengah router dan komputer target.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+256
+Gambar 6.29 DNS Spoofing Menggunakan Ettercap
+Sumber: Agung Puspita Bantala (2022)
+Gambar 6.30 Contoh DNS Spoofing pada Google
+Sumber: Agung Puspita Bantala (2022)
+4. Celah Keamanan pada Layanan DHCP
+Pada aktivitas belajar prinsip dasar layanan jaringan, kalian telah mengetahui 
+bagaimana DHCP Server bekerja, yaitu terdapat proses DHCP Discover, DHCP 
+Offering, DHCP Request, dan DHCP Acknowledge. 
+Prinsip kerja DHCP, yaitu mengirimkan paket DHCP Discover ke 
+DHCP Server, selanjutnya DHCP Server mengirimkan DHCP Offering dan 
+menyediakan memori beserta sumber daya peminjaman alamat IP sambil 
+menunggu DHCP Request yang datang dari komputer klien. Namun, terjadi 
+suatu peristiwa, yaitu komputer klien tidak mengirimkan DHCP Request, 
+tetapi mengirimkan kembali DHCP Discover. Hal tersebut terjadi secara 
+terus-menerus sampai sumber daya dan memori yang disediakan server 
+habis dan tidak mampu memberikan layanan DHCP. Selanjutnya, muncullah 
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+257
+DHCP Server palsu yang pengalamatannya sama persis sebagai pengganti 
+DHCP Server. Paket data pun dapat dengan mudah disadap.
+DHCPDISCOVER
+DHCP REQUEST ???
+Not respone
+DHCPDISCOVER
+DHCP REQUEST ???
+Not respone
+Yersinia
+Kalilinux :
+Server
+DHCP
+DHCPOFFER
+DHCPOFFER
+Gambar 6.31 Contoh DHCP Spoofing
+Sumber: Agung Puspita Bantala (2022)
+5. Prinsip Dasar Keamanan Media Komunikasi Fiber Optik, 
+VSAT, dan Microwave
+Berdasarkan prinsip dasar keamanan jaringan komputer dan telekomunikasi 
+yang telah kalian cermati, umumnya setiap pelanggaran pada sistem 
+keamanan jaringan lebih banyak terjadi pada jaringan internal meskipun 
+banyak juga yang melakukan pelanggaran dari jaringan eksternal atau dari 
+luar jaringan lokal. Mengapa jaringan internal lebih mudah mengalami 
+pelanggaran keamanan? 
+Pada jaringan eksternal, setiap aktivitas yang dilakukan umumnya 
+terbentur oleh sebuah pertahanan, yaitu firewall. Meskipun tidak 100% 
+aman, minimal firewall dapat membentengi jaringan. Adapun aktivitas 
+penyusupan dari dalam umumnya tidak terlalu terlihat karena bisa jadi 
+pelakunya merupakan teman kita sendiri. Jika ada orang asing yang tiba-
+tiba menyambungkan komputer atau laptop pada switch di ruangan kalian, 
+tentunya akan mudah dikenali, bukan? 
+Dengan demikian, prinsip keamanan jaringan terbagi atas beberapa 
+aspek. Pertama, aspek fisik berupa perangkat jaringan atau media komunikasi 
+yang perlu diamankan dengan sangat ekstra. Contoh cara pengamanannya 
+adalah menyimpan perangkat switch atau terminal fiber optik (optical 
+termination box) ke dalam sebuah tempat khusus (mount wall) yang memiliki 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+258
+kunci keamanan agar tidak dapat diakses oleh orang-orang yang tidak 
+berkepentingan.
+Kedua, aspek media nirkabel, seperti VSAT, Microwave, dan Wireless 
+Local Area Network. VSAT dan Microwave umumnya digunakan sebagai 
+backbone jaringan yang menghubungkan sebuah Local Area Network (LAN) 
+dengan LAN lain pada jarak tertentu, seperti ISP dengan sekolah kalian yang 
+terhubung menggunakan Microwave Link atau VSAT. Secara umum, VSAT 
+dan Microwave akan mengubah paket data menjadi gelombang radio atau 
+menumpangkan paket data pada gelombang radio untuk ditransmisikan 
+dan diterima oleh stasiun penerima. Untuk keamanan jaringan tersebut, 
+biasanya dilakukan enkripsi menggunakan perangkat enkripsi dedicated 
+CypherNET CN4000. Enkripsi adalah mengonversikan data menjadi kode 
+rahasia. 
+Gambar berikut menunjukkan contoh arsitektur keamanan Microwave 
+Link menggunakan CypherNET.
+Computer
+Server/s
+CypherNET CN4000
+or CN6000 Encryptor
+Phone
+VOIP Device
+SIP FAX
+VOIP Device
+Computer
+Computer
+Switch
+Microwave Link
+Gambar 6.32 Arsitektur Keamanan Microwave Link Menggunakan CypherNET
+Sumber: senetas.com/Senetas (2022) 
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+259
+Computer
+Server/s
+CypherNET CN4000
+or CN6000 Encryptor
+VSAT Link
+Phone
+VOIP Device
+SIP FAX
+VOIP Device
+Computer
+Computer
+Switch
+Gambar 6.33 Arsitektur Keamanan VSAT Menggunakan CypherNET
+Sumber: senetas.com/Senetas (2022) 
+6. Keamanan Jaringan WLAN
+Jaringan nirkabel yang sering kalian temui baik di sekolah maupun di tempat 
+umum—seperti bandara, stasiun, restoran, dan kantor—adalah jaringan 
+WLAN atau Wireless Local Area Network. Jaringan ini memiliki standardisasi 
+yang dikeluarkan oleh IEEE (Institute of Electrical and Electronics Engineers), 
+organisasi yang bergerak dalam bidang kelistrikan dan elektronika. 
+Standar IEEE untuk jaringan WLAN adalah IEEE 802.11 b, berupa 
+jaringan WLAN yang memiliki gelombang radio 2,4 Ghz dan kecepatan 11 
+Mbps dengan sistem keamanan WEP (Wired Equivalent Privacy). Standar IEEE 
+lainnya adalah 802.11a, berupa jaringan WLAN yang memiliki gelombang 
+radio 5 Ghz dan kecepatan 54 Mbps. Standar IEEE berikutnya adalah 802.11g, 
+menggunakan gelombang radio yang sama dengan 802.11b, yaitu 2,4 Ghz. 
+Adapun kecepatannya sama dengan 802.11a, yaitu 54 Mbps. Sampai saat ini, 
+standardisasi IEEE untuk WLAN adalah 802.11n dengan gelombang radio 2,4 
+Ghz dan kecepatan 150 Mbps dengan sebuah antena rx dan tx (Intel, 2021).
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+260
+Pada Bab 1, kalian telah mempelajari perangkat keras jaringan. Sebuah 
+produk WLAN terdiri dari dua buah perangkat keras. Perangkat pertama 
+dari sisi klien ialah Wireless Network Adapter.
+Gambar 6.34 WLAN Adapter
+Sumber: Agung Puspita Bantala (2022)
+Perangkat kedua dari sisi penyedia jasa jaringan ialah Access Point. 
+Perangkat tersebut memiliki fungsi yang mirip dengan fungsi hub atau 
+switch, namun menggunakan teknologi nirkabel (wireless).
+Gambar 6.35 Access Point
+Sumber: Agung Puspita Bantala (2022)
+Selain IEEE, terdapat juga asosiasi pengembang perangkat telekomunikasi 
+yang turut andil dalam pengembangan jaringan WLAN, yaitu Wi-Fi Alliance, 
+sebuah aliansi pengembang perangkat keras dan perangkat lunak komputer 
+dan telekomunikasi dengan sponsor utama Cisco, Apple, Texas Instrument, 
+Dell, dan AT&T (S’to, 2007). 
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+261
+Wi-Fi Alliance melakukan penyempurnaan terhadap standar 
+keamanan jaringan WLAN. Berdasarkan standardisasi tersebut, keamanan 
+jaringan Wireless LAN (WLAN) memiliki beberapa jenis berdasarkan 
+perkembangannya, seperti WEP, WPA, WPA 2, dan WPA 2 Enterprise. 
+Standardisasi awal keamanan jaringan oleh IEEE 802.11 adalah WEP, 
+kemudian disempurnakan oleh Wi-Fi Alliance menjadi WPA (Wi-Fi Protected 
+Access). WPA masih menggunakan metode keamanan yang sama dengan 
+WEP, yaitu menggunakan algoritma enkripsi RC4 (Rivest’s Cipher 4).
+ 
+ Apakah Kalian Tahu?
+Sebuah data yang dapat dibaca manusia disebut plaintext. Penyandian 
+atau pengacakan dilakukan terhadap plaintext sampai tidak dapat dibaca 
+dengan berbagai metode dan kunci. Hasil penyandian disebut ciphertext 
+(data yang tidak dapat dibaca). Metode penyandiannya disebut enkripsi. 
+Selanjutnya, ciphertext dikembalikan menjadi plaintext dengan metode 
+yang sama. Proses ini disebut deskripsi.
+Terdapat berbagai algoritma enkripsi RC4, namun RC4 dianggap terlalu 
+lemah. Penyempurnaan WEP menjadi WPA hanya dengan menambahkan 
+metode keamanan, yaitu Temporal Key Integrity Protocol (TKIP). Metode 
+keamanan lain untuk WPA adalah Advanced Encryption Standard (AES). 
+Pada saat ini, semua perangkat telah mendukung AES. Oleh karena itu, 
+gunakanlah AES.
+Pengembangan selanjutnya dari WPA adalah WPA2. Dengan WPA2 ini, 
+perangkat keras keamanan dalam WLAN menggunakan perangkat baru, 
+bukan seperti WPA yang hanya memperbaiki WEP. WPA 2 menggunakan 
+metode AES.
+Untuk WPA dan WPA2, tersedia dalam dua jenis keamanan, yaitu untuk 
+personal dan untuk perusahaan/enterprise. Untuk personal dapat dikenali 
+dengan WPA2-PSK (Pre-Shared Key) menggunakan mode keamanan AES 
+atau yang sering ditunjukkan dalam Access Point adalah WPA2-PSK-AES. 
+Adapun untuk perusahaan dapat dikenali dengan WPA2 Enterprise.
+   
+Pada uji coba pengamatan ini, kalian akan melakukan pengaturan 
+keamanan access point, meliputi pengaturan keamanan WPA2 
+Personal dan WPA2 Enterprise.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+262
+Aktivitas Individu 3.2
+Langkah-langkah kerja dalam melakukan uji coba dan pengamatan adalah 
+sebagai berikut.
+1. 
+Unduh berkas “LabActivity6.1.pka” dari https://s.id/acsiswa. 
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+3. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas bernama 
+“LabActivity6.1.pka”.
+4. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity6.1. 
+Laporan Aktivitas Individu 3.2
+Tabel 6.9 Laporan Aktivitas Uji Coba dan Pengamatan Keamanan Jaringan WLAN ke-1
+Security Mode
+Disabled
+WEP 
+WPA Personal
+WPA Enterprise
+WPA2 Personal
+WPA2 Enterprise
+(*coret pada security mode yang tidak 
+digunakan)
+Encryption
+AES
+TKIP
+(*coret pada encryption yang tidak 
+digunakan)
+RADIUS Server 
+IP …………………………………………….. 
+Key/Passphrase/Shared Secret/Secret
+ 
+User Account & Secret Radius Server 
+User:
+Pass:
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+263
+Tabel 6.10 Laporan Aktivitas Uji Coba dan Pengamatan  
+Keamanan Jaringan WLAN ke-2
+Security Mode
+Disabled 
+WEP 
+WPA Personal
+WPA Enterprise
+WPA2 Personal
+WPA2 Enterprise
+(*coret pada security mode yang tidak 
+digunakan)
+Encryption
+AES
+TKIP
+(*coret pada encryption yang tidak 
+digunakan)
+RADIUS Server 
+IP …………………………………………….. 
+Key/Passphrase/Shared Secret/Secret
+User Account & Secret Radius Server 
+User:
+Pass:
+ 
+ Uji Kompetensi Bab 6
+Pilihlah jawaban yang sesuai dari setiap soal berikut dengan menuliskan 
+huruf A, B, C, atau D!
+1. 
+Prinsip Kerja TCP/IP membungkus paket dan menuliskan alamat IP tujuan 
+beserta port. Proses tersebut dinamakan ....
+A. decapsulation
+B. 
+Carrier Sense Multiple Access with Collision Detection
+C. 
+encapsulation
+D. sequence number
+2. 
+Jaringan melihat bahwa kondisi channel komunikasi tidak digunakan, 
+kemudian mempersilakan komputer menggunakan channel tersebut. Proses 
+tersebut dinamakan ....
+A. decapsulation
+B. 
+Carrier Sense Multiple Access with Collision Detection
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+264
+C. 
+encapsulation
+D. sequence number
+3. 
+Metode yang digunakan sebagai pengenal paket, pengenal tersebut akan 
+bertambah berdasarkan jumlah byte data yang dikirim atau diterima, 
+adalah .... 
+A. decapsulation
+B. 
+Carrier Sense Multiple Access with Collision Detection
+C. 
+encapsulation
+D. sequence number
+4. 
+Cermati gambar berikut!
+PC A
+Seq number=100
+(ISN, Initial sequance
+Number/ﬁrst seq)
+First Packet
+SYN (synchronize sequence)
+ACK =0
+ACK =110
+Seq + Byte(10)
+PC A
+Seq number=110
+ACK =210
+Seq + Byte(10)
+PC B
+Seq number=200
+PC A
+PC B
+Jika PC A akan berkomunikasi dengan PC B, langkah yang sesuai adalah …
+A. PC B, sebagai komputer tujuan menerima sequence number awal dari 
+PC A sebagai salam perkenalan awal sekaligus mengirimkan sequence 
+number miliknya. 
+B. 
+PC B menerima sequence number milik PC B, selanjutnya PC A akan 
+mengirim sequence number sebagai balasan permintaan data yang 
+harus dikirim ke PC A, berikut ACK untuk PC A.
+C. 
+PC A, sebagai komputer sumber mengirimkan paket awal yang disebut 
+SYN (synchronize sequence), digunakan untuk menyamakan sequence 
+number—sequence number yang dikirim kali pertama disebut ISN (initial 
+sequence number)—yang diharapkan diterima dari komputer B atau 
+komputer tujuan. 
+D. PC A menerima sequence number milik PC B, kemudian PC A mengirim 
+sequence number sebagai balasan permintaan data yang harus dikirim 
+ke PC B, berikut ACK untuk PC B.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+265
+5. 
+Model OSI memiliki tujuh lapisan, sedangkan model TCP/IP versi update 
+memiliki lima lapisan. Lapisan Aplikasi (Application) pada model TCP/IP 
+berada pada ... dan model OSI berada pada ....
+A. lapisan 5; lapisan 6
+B. 
+lapisan 5; lapisan 7
+C. 
+lapisan 6; lapisan 5
+D. lapisan 7; lapisan 5
+6. 
+Jika pengguna mengetikkan URL pada web browser, pengguna tersebut 
+berada pada ... dalam model TCP/IP versi update.
+A. layer 2
+B. 
+layer 3
+C. 
+layer 4
+D. layer 5
+7. 
+Lapisan yang berfungsi memecah paket, memberikan sequence number, 
+memberikan ACK, error recovery, serta mentransmisikan data melalui TCP 
+dan UDP adalah ....
+A. lapisan 2
+B. 
+lapisan 3
+C. 
+lapisan 4
+D. lapisan 5
+8. 
+Pada pengalamatan IP untuk default Kelas A, jumlah network-nya sebesar ....
+A. 8 bit
+B. 
+16 bit
+C. 
+24 bit 
+D. 25 bit
+9. 
+Perhatikan gambar berikut!
+1. DHCP Discover
+2. DHCP Offering
+3. DHCP Request
+4. DHCP ACK
+DHCP Client 
+DHCP Server
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+266
+Berdasarkan gambar tersebut, proses DHCP Offering adalah ....
+A. DHCP Client mencari layanan DHCP Server 
+B. 
+DHCP Server memberikan penawaran alamat IP pada DHCP Client
+C. 
+DHCP Client menerima layanan peminjaman IP dari DHCP Server 
+D. DHCP Server memberikan layanan DHCP pada Client
+10. Berdasarkan gambar pada soal nomor 9, proses DHCP Discover adalah ....
+A. DHCP Client mencari layanan DHCP Server 
+B. 
+DHCP Server memberikan penawaran alamat IP pada DHCP Client
+C. 
+DHCP Client menerima layanan peminjaman IP dari DHCP Server 
+D. DHCP Server memberikan layanan DHCP pada Client
+11. Berdasarkan gambar pada soal nomor 9, proses DHCP Request adalah ....
+A. DHCP Client mencari layanan DHCP Server 
+B. 
+DHCP Server memberikan penawaran alamat IP pada DHCP Client
+C. 
+DHCP Client menerima layanan peminjaman IP dari DHCP Server 
+D. DHCP Server memberikan layanan DHCP pada Client
+12. Berikut ini adalah prinsip kerja DNS Server yang bekerja di internet.
+ISP
+DNS Reslover
+www.smk.sch.id ?
+192.168.25.2 ?
+Web Server
+www.smk.sch.id
+IP : 192.168.25.2
+Name Server (NS)
+root
+Name Server (NS)
+Top Level Domain
+1
+2
+3
+4
+5
+6
+Forward/reverse Zone
+Deksripsi pada langkah keenam adalah ...
+A. Pengguna mengetikkan alamat situs web, tetapi komputer pengguna 
+tidak mengetahui alamat IP web server tujuan, kemudian informasi 
+diteruskan pada DNS Resolver ISP.
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+267
+B. 
+DNS Resolver ISP meneruskan informasi ke DNS Root yang ada di 
+internet, untuk mencari informasi tentang alamat IP yang dimiliki 
+domain tersebut.
+C. 
+Informasi dikirim ke DNS Resolver ISP untuk diteruskan kepada 
+pengguna.
+D. Setelah informasi tentang alamat server diperoleh, komputer secara 
+otomatis akan berkomunikasi melalui internet dan router ke web 
+server tujuan. 
+13. Berdasarkan gambar pada soal nomor 12, deskripsi langkah kedua adalah ...
+A. Pengguna mengetikkan alamat situs web, tetapi komputer pengguna 
+tidak mengetahui alamat IP web server tujuan, kemudian informasi 
+diteruskan pada DNS Resolver ISP.
+B. 
+DNS Resolver ISP meneruskan informasi ke DNS Root yang ada di 
+internet, untuk mencari informasi tentang alamat IP yang dimiliki 
+domain tersebut.
+C. 
+Informasi dikirim ke DNS Resolver ISP untuk diteruskan kepada 
+pengguna.
+D. Setelah informasi tentang alamat server didapat, komputer secara 
+otomatis akan berkomunikasi melalui internet dan router ke web 
+server tujuan.
+14. Berdasarkan gambar pada soal nomor 12, deskripsi langkah kelima adalah ...
+A. Pengguna mengetikkan alamat situs web, tetapi komputer pengguna 
+tidak mengetahui alamat IP web server tujuan, kemudian informasi 
+diteruskan pada DNS Resolver ISP.
+B. 
+DNS Resolver ISP meneruskan informasi ke DNS Root yang ada di 
+internet, untuk mencari informasi tentang alamat IP yang dimiliki 
+domain tersebut.
+C. 
+Informasi dikirim ke DNS Resolver ISP untuk diteruskan kepada 
+pengguna.
+D. Setelah informasi tentang alamat server didapat, komputer secara 
+otomatis akan berkomunikasi melalui internet dan router ke web 
+server tujuan.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+268
+15. Perhatikan gambar berikut!
+FTP Incoming connection
+Destination port 21
+FTP
+,port,SYN+ACK
+Header
+command
+Data
+Data Connection
+Active Connection
+Port : 20
+Pasive connection , Port : random
+Active Connection
+Port random : 1023
+Pasive connection , Port : random
+FTP Server
+Open data
+connection
+FTP ,port,SYN
+ACK
+FTP Response
+Header
+Data
+FTP ,port,ACK
+auth
+FTP auth
+Random Port :21 
+Random Port :1023
+Control Connection
+Active / pasive connection
+1
+2
+3
+4
+5
+User 
+Interface
+Deskripsi dari langkah pertama mengenai keadaan server dan aktivitas 
+klien adalah ...
+A. Klien membalas respons server. Klien mengirimkan autentikasi dengan 
+mengisi nama pengguna dan kata kunci. Selanjutnya, server menerima 
+autentikasi tersebut.
+B. 
+FTP Server merespons dengan mengirimkan SYN + jawaban ACK, 
+sekaligus membuka Data Connection ke klien. 
+C. 
+Server pada posisi mendengarkan. Klien mengetikkan perintah untuk 
+memulai komunikasi dengan mengirimkan SYN + ACK untuk dijawab 
+server.
+D. Server membuka Control Connection dengan port tujuan 21 dan port 
+sumber random. Pada bagian ini, pengguna dapat mengetikkan perintah 
+(command) untuk melanjutkan komunikasi.
+16. Incoming mail pada mail server menggunakan protokol ... dan port ....
+A. POP3; 110
+B. 
+SMTP; 25
+C. 
+FTP; 21
+D. MTA; 22
+17. Outgoing mail pada mail server menggunakan protokol ... dan port ....
+A. POP3; 110
+B. 
+SMTP; 25
+
+Bab 6 - Media dan Jaringan Telekomunikasi
+269
+C. 
+FTP; 21
+D. MTA; 22
+18. Perhatikan langkah-langkah berikut!
+[1] Sebuah teks yang dapat dibaca oleh pengirim, selanjutnya [2] dilakukan 
+pengacakan dengan sebuah metode. [3] Hasil pengacakan [4] diberikan 
+metode pemecahan yang telah diketahui penerima. Teks yang teracak 
+tersebut diterima dan [5] dikembalikan menggunakan metode yang 
+telah diketahui.
+Maksud dari langkah [1] adalah ....
+A. plaintext
+B. 
+ciphertext
+C. 
+enkripsi
+D. deskripsi
+19. Algoritma enkripsi yang digunakan WPA Personal awal dipasarkan dan 
+memiliki banyak perangkat yang mendukung (support) adalah ....
+A. Temporal Key Integrity Protocol (TKIP)
+B. 
+Advanced Encryption Standard (AES)
+C. 
+Rivest’s Cipher 4 (RC4)
+D. Data Encryption Standard (DES)
+20. Algoritma enkripsi yang digunakan WPA2 Personal dan WPA2 Enterprise, 
+serta memiliki perhitungan rumit dan memerlukan perangkat keras baru 
+yang sangat cepat adalah ....
+A. Temporal Key Integrity Protocol (TKIP)
+B. 
+Advanced Encryption Standard (AES)
+C. 
+Rivest’s Cipher 4 (RC4)
+D. Data Encryption Standard (DES)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+270
+ 
+ Pengayaan
+Kalian telah mempelajari prinsip kerja layanan jaringan yang berisi prinsip kerja 
+HTTP, DNS, DHCP, dan Email. Pada aktivitas pengayaan ini, kalian akan mendalami 
+konfigurasi layanan server. Kalian dapat mempelajarinya sendiri melalui contoh 
+pada video pembelajaran yang berjudul “Menginstal Mengkonfigurasi dan Menguji 
+Server” pada https://s.id/layananjringan atau menggunakan kode QR berikut.
+Kebutuhan praktik mandiri dapat dilakukan dengan mengunduh aplikasi, 
+sistem operasi Linux Debian, dan tools lainnya pada tautan berikut. 
+http://tkj.tedcbandung.com/download/ atau https://s.id/toolsdwn
+ 
+ Refleksi
+Setelah mempelajari materi pada Bab 6 ini, kalian dapat melakukan refleksi 
+dengan menjawab setiap pertanyaan berikut.
+1. 
+Pengetahuan apa saja yang kalian dapatkan dari aktivitas belajar kali ini?
+2. 
+Kendala apa yang kalian temukan dalam menganalisis data dan 
+menyimpulkan prinsip dasar TCP/IP dan alamat IP, prinsip dasar 
+layanan jaringan, serta prinsip keamanan jaringan komputer dan 
+telekomunikasi?
+3. 
+Langkah-langkah apa yang kalian lakukan dalam mengatasi setiap 
+kendala tersebut?
+4. 
+Sikap positif apa saja yang kalian dapatkan dari aktivitas belajar kali ini?
+
+271
+alamat IP (IP address): alamat yang diberikan pada 
+jaringan komputer dan peralatan jaringan 
+yang menggunakan protokol TCP/IP
+alamat MAC (MAC address): alamat fisik dari 
+sebuah network interface
+APD: alat pelindung diri yang berfungsi untuk 
+melindungi sebagian atau seluruh tubuh dari 
+potensi bahaya di tempat kerja
+bandwidth: kuota maksimum dari data yang 
+bisa ditransfer per detik dalam jaringan 
+internet; jumlah kapasitas maksimum dari 
+suatu kegiatan komunikasi dalam jaringan 
+komputer dan telekomunikasi
+berkas: file; fail; dokumen yang dihasilkan ketika 
+menggunakan komputer
+Cloud Computing: layanan penyimpanan dan 
+pengelolaan data server, data-data, serta 
+aplikasi yang tidak disediakan dalam jaringan 
+lokal agar mudah diakses dari mana pun
+CRT: (Cathode Ray Tube) monitor yang biasa 
+digunakan dalam layar komputer, osiloskop, 
+dan OTDR
+decapsulation: proses membuka informasi dan 
+menyatukan bagian-bagian informasi yang 
+terpisah saat pengiriman
+encapsulation: proses membungkus informasi dan 
+memberikan tambahan informasi berupa 
+alamat tujuan dan port pada TCP header
+end device: perangkat akhir pengguna, dapat 
+berupa PC, laptop, dan ponsel cerdas
+HTTP: protokol yang berfungsi untuk menampilkan 
+isi laman web
+internet of things (IoT): sebuah bentuk komunikasi 
+cerdas antara mesin dan mesin (M2M) tanpa 
+campur tangan manusia
+Internet Service Provider: perusahaan yang 
+bergerak di bidang jasa penyedia koneksi 
+internet
+jaringan Converged: jaringan yang telah 
+menyatukan berbagai jenis jaringan 
+telekomunikasi dengan bermacam layanan 
+pada sebuah protokol yang sama yaitu TCP/IP
+jaringan Dedicated: jaringan telekomunikasi 
+dengan teknologi masih terpisah-pisah 
+dan menitikberatkan pada setiap protokol 
+(contoh: jaringan penyiaran TV)
+job profile: deskripsi kerja yang mendefinisikan 
+rincian pembagian tugas, tujuan pekerjaan, 
+dan kompetensi atau latar belakang 
+pendidikan yang dibutuhkan
+kaizen: istilah dalam bahasa Jepang yang berarti 
+perbaikan secara terus-menerus
+loss: kehilangan daya optik
+multimode: jenis fiber optik yang merambatkan 
+cahaya sepanjang serat dengan beberapa 
+mode perambatan
+probe: kabel yang digunakan untuk menghubungkan 
+alat ukur dengan media ukur
+proses bisnis: serangkaian tahapan terstruktur 
+yang digunakan individu atau organisasi 
+dalam memenuhi kebutuhan atau mencapai 
+tujuannya dengan cara memproduksi, 
+membeli, dan menjual barang atau jasa
+seluler: teknologi telekomunikasi berbasis nirkabel
+server: sistem komputer yang memberikan jenis 
+layanan tertentu dalam sebuah jaringan 
+komputer
+single mode: jenis fiber optik yang merambatkan 
+cahaya sepanjang serat dengan satu mode 
+perambatan
+sniffing: aktivitas penyadapan melalui jaringan 
+komputer dan telekomunikasi
+surel (email): sebuah layanan server dalam 
+mengirimkan pesan persuratan secara digital
+tabel ARP: tabel yang menyimpan/mencatat 
+alamat MAC berdasarkan komunikasi alamat 
+IP
+Wi-Fi: protokol jaringan internet nirkabel
+Glosarium
+
+272
+Daftar Pustaka
+Aida, Nur Rohmi. “4 Isu Kebocoran Data di Indonesia Sebulan Terakhir”. KOMPAS.com. 7 September 
+2022. https://www.kompas.com/tren/read/2022/09/07/120000365/4-isu-kebocoran-data-di-
+indonesia-sebulan-terakhir?page=all. 
+Amprobe. LAN-1 Lan Cable Tester Users Manual. Amprobe, 2008. https://docs.rs-online.com/
+c6d5/0900766b80d0e387.pdf.
+AS/NZS4360:1999. “Risk Management”. New Zealand: Australian Standard, 1999.
+Badan Standardisasi Nasional. Persyaratan Umum Instalasi Listrik. Jakarta: Badan Standardisasi 
+Nasional, 2011.
+Bygrave, William D. dan Andrew Zacharakis. The Portable MBA in Entrepreneurship. 4th Edition. 
+United States of America: Wiley, 2009.
+Cisco Press. “Explore the Network”. Cisco Press. 10 Januari 2018. https://www.ciscopress.com/articles/
+article.asp?p=2755711&seqNum=6.
+FAGBOHUN, O. O., 2014. “Comparative Studies on 3G, 4G and 5G Wireless Technology”. IOSR Journal 
+of Electronics and Communication Engineering (IOSR-JECE), (2014): hlm. 93.
+Gebhardt, Keith. 2022. “Cisco - TCP/IP & OSI Network Architecture Models”. udemy. Terakhir 
+diperbarui pada Agustus 2017, diakses pada 29 September 2022. https://www.udemy.com/
+course/cisco-tcpip-osi-network-architecture-models/. 
+Hariyono dan Vera Septi Andrini. Pengantar Technopreneurship. Banten: CV AA. Rizky, 2020. 
+Huston, G., A. Lord, dan P. Smith. “RFC3849: IPv6 Address Prefix Reserved for Documentation”. Juli 
+2004. https://www.rfc-editor.org/rfc/rfc3849.
+IEEE 802.11. 23 Oktober 2022. https://www.ieee802.org/11/. 
+IEEE Standards Association. “IEEE Standard for Ethernet”. IEEE.org. 31 Agustus 2018, diakses pada 
+23 Oktober 2022. https://standards.ieee.org/ieee/802.3/7071/
+Intel. “Protokol Dan Kecepatan Data Wi-Fi yang Berbeda”. Intel. 28 Oktober 2021, diakses pada 10 
+Oktober 2022. https://www.intel.co.id/content/www/id/id/support/articles/000005725/wireless/
+legacy-intel-wireless-products.html.
+ISO. “ISO 3864-1, 2011: Graphical symbols—Safety colours and safety signs—Part 1: Design principles 
+for safety signs and safety markings”. ISO. April 2011. https://www.iso.org/standard/51021.html.
+Kemdikbudristek Republik Indonesia. Keputusan Kepala Badan Standar, Kurikulum, dan Asesmen 
+Pendidikan Kemdikbudristek No. 033/H/KR/2022 tentang Perubahan atas Keputusan Kepala 
+Badan Standar, Kurikulum, dan Asesmen Pendidikan Kemdikbudristek Nomor 008/H/KR/2022 
+tentang Capaian Pembelajaran pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, 
+dan Jenjang Pendidikan Menengah pada Kurikulum Merdeka. Jakarta: Kemdikbudristek, 2022. 
+Kemdikbudristek Republik Indonesia. Keputusan Kepala Badan Standar, Kurikulum, dan Asesmen 
+Pendidikan Kementerian Pendidikan, Kebudayaan Riset dan Teknologi Nomor 009/H/KR/2022 
+tentang Dimensi, Elemen, dan Subelemen Profil Pelajar Pancasila pada Kurikulum Merdeka. 
+Jakarta: Kemdikbudristek, 2022. https://kurikulum.kemdikbud.go.id/wp-content/unduhan/
+Dimensi_PPP.pdf.
+Kementerian Ketenagakerjaan Republik Indonesia. Keputusan Menteri Ketenagakerjaan Republik 
+Indonesia Nomor 101 Tahun 2018 tentang Penetapan Standar Kompetensi Kerja Nasional 
+Indonesia Kategori Informasi dan Komunikasi Golongan Pokok Telekomunikasi Bidang Instalasi 
+Fiber Optik. Jakarta: Kemnaker, 2018. 
+Kementerian Ketenagakerjaan Republik Indonesia. Keputusan Menteri Ketenagakerjaan Republik 
+Indonesia Nomor 321 Tahun 2016 tentang Penetapan Standar Kompetensi Kerja Nasional 
+Indonesia Kategori Informasi dan Komunikasi Golongan Pokok Telekomunikasi Bidang Jaringan 
+Komputer. Jakarta: Kemnaker, 2016. 
+
+273
+Kementerian Ketenagakerjaan Republik Indonesia. Peraturan Menteri Ketenagakerjaan Republik 
+Indonesia Nomor 5 Tahun 2018 tentang Keselamatan dan Kesehatan Kerja Lingkungan Kerja. 
+Jakarta: Kemnaker, 2018. https://jdih.kemnaker.go.id/asset/data_puu/Permen_5_2018.pdf.
+Kementerian Ketenagakerjaan Republik Indonesia. Peraturan Menteri Ketenagakerjaan Republik 
+Indonesia Nomor 9 Tahun 2016 tentang Keselamatan dan Kesehatan Kerja dalam Pekerjaan 
+pada Ketinggian. Jakarta: Kemnaker, 2016. https://temank3.kemnaker.go.id/public/media/
+files/20210725214819.pdf.
+Kementerian Ketenagakerjaan Republik Indonesia. Tahanan Pentanahan (Earth Ground Resistance). 
+Jakarta: Kemnaker, 2006. https://blkserang.kemnaker.go.id/digilib/index.php?p=fstream-
+pdf&fid=60&bid=29.  
+Kementerian Sekretariat Negara Republik Indonesia. Peraturan Presiden Republik Indonesia Nomor 
+2 Tahun 2022 tentang Pengembangan Kewirausahaan Nasional Tahun 2021–2024. Jakarta: 
+Kementerian Sekretariat Negara, 3 Januari 2022. https://jdih.setkab.go.id/PUUdoc/176609/
+Salinan_Perpres_Nomor_2_Tahun_2022.pdf.
+kissflow. “The Extensive Guide to Business Processes”. kissflow. Terakhir diperbarui 5 Desember 
+2022. https://kissflow.com/workflow/bpm/business-process.  
+Purbo, O. W. “IPv6 Address : Bagian Network, juga dikenal sebagai prefix”. MediaWiki. Terakhir 
+diperbarui pada 9 Juni 2020. https://lms.onnocenter.or.id/wiki/index.php/IPv6_Address_:_
+Bagian_Network,_juga_dikenal_sebagai_prefix.
+Rekhter, Y., B. Moskowitz, D. Karrenberg, G.J. de Groot, dan E. Lear. “RFC 1918 Address Allocation for 
+Private Internets”. Silicon Graphics, Inc. February 1996. https://www.rfc-editor.org/rfc/rfc1918.
+S'to. “IEEE dan Wi-Fi” di Wireless Kung Fu-Networking & Hacking (hlm. 9). Jasakom, 2007.
+S'to. Seni Teknik Hacking 1. Edisi pertama. Jasakom, 2007.
+Sugiri. Elektronika Dasar dan Peripheral Komputer. Yogyakarta: Andi, 2004.
+Sugiyono. Metode Penelitian Kuantitatif Kualitatif dan R&D. Bandung: Alfabeta, 2008.
+telkomiot. “apa itu internet of things – panduan lengkap IoT”. telkomiot. 8 September 2021, diakses 
+pada 4 Mei 2022. https://www.telkomiot.com/blog/apa-itu-internet-of-things-panduan-lengkap-iot/. 
+Tim Pengembang Technopreneurship ITS. 2015. Technopreneurship. Surabaya: ITS, 2015.
+UNSW Safety and Sustainability. “HS329 Risk Management Procedure”. UNSW Australia. 8 Februari 
+2016, diakses pada 17 September 2022. https://www.unsw.edu.au/content/dam/pdfs/governance/
+policy/2022-01-policies/HS329.pdf.
+Winardi, J. Entrepreneur dan Entrepreneurship. Jakarta: Prenada Media, 2003.
+Wollard, Barry. Elektronika Praktis. Diterjemahkan oleh H. Kristanto. Jakarta: Anem Kosong Anem, 
+2003.
+Daftar Kredit Gambar
+Aktivitas Individu 6.2 (hlm. 56): diunduh dari https://www.freepik.com/free-vector/smartphone-
+scanning-qr-code_9457127.htm pada 17 Februari 2023. 
+Gambar 5.12 dan Tabel 5.4: diunduh dari https://noyafa.com/products/wire-fault-locator-nf-308.
+html pada 3 Februari 2023.
+Gambar 6.32: diunduh dari https://www.senetas.com/wp-content/uploads/Secure-Microwave-
+Transmission.pdf pada 5 Desember 2022.
+Gambar 6.33: diunduh dari https://www.senetas.com/wp-content/uploads/Secure-Microwave-
+Transmission.pdf pada 5 Desember 2022.

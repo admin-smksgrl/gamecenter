@@ -1,0 +1,1807 @@
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+26
+ 
+ Tujuan Pembelajaran
+Setelah menyelesaikan kegiatan belajar pada Subbab A dan Subbab B, kalian 
+diharapkan dapat menganalisis perkembangan teknologi jaringan komputer 
+dan telekomunikasi. Kalian juga dapat menganalisis perkembangan teknologi 
+media komunikasinya. 
+Setelah menyelesaikan kegiatan belajar pada Subbab C, kalian 
+diharapkan dapat menerapkan teknologi pengalamatan jaringan komputer 
+dan telekomunikasi melalui perangkat simulasi.
+Setelah menyelesaikan kegiatan belajar pada Subbab D, kalian 
+diharapkan dapat menganalisis perkembangan teknologi perangkat keras 
+jaringan komputer dan telekomunikasi dalam sebuah data center melalui 
+perangkat simulasi.
+Setelah menyelesaikan kegiatan belajar pada Subbab E, kalian 
+diharapkan dapat menerapkan teknologi layanan pada jaringan komputer 
+dan telekomunikasi melalui perangkat simulasi.
+Setelah menyelesaikan kegiatan belajar pada Subbab F, kalian diharapkan 
+dapat menjelaskan perkembangan informasi keamanan jaringan komputer 
+dan telekomunikasi melalui perangkat simulasi.
+ 
+ Kata Kunci
+• 
+Perkembangan teknologi jaringan 
+• 
+Jaringan dedicated 
+• 
+Jaringan converged 
+• 
+Media nirkabel 3G/4G/5G 
+• 
+Media nirkabel VSAT 
+• 
+Media nirkabel Microwave Link 
+• 
+Pengalamatan IPv6 
+• 
+IPv6 Link Local Address 
+• 
+IPv6 gateway 
+• 
+Pengamatan dan pengujian IPv6 
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+27
+• 
+Perangkat keras Data Center 
+• 
+Data Center Redundance 
+• 
+Layanan IoT 
+• 
+Layanan Cloud Computing 
+• 
+Sniffing pasif 
+• 
+Sniffing aktif
+ 
+ Peta Konsep
+Perkembangan 
+Teknologi 
+di Bidang 
+Teknik Jaringan 
+Komputer dan 
+Telekomunikasi
+A
+Perkembangan Teknologi Jaringan 
+Dedicated ke Jaringan Converged
+B
+Perkembangan Teknologi Media 
+Komunikasi Jaringan Komputer 
+dan Telekomunikasi
+C
+Perkembangan Teknologi 
+Pengalamatan pada Jaringan 
+Komputer dan Telekomunikasi
+D
+Perkembangan Teknologi 
+Perangkat Keras dalam Sebuah 
+Data Center
+E
+Perkembangan Teknologi Layanan 
+pada Jaringan Komputer dan 
+Telekomunikasi
+F
+Perkembangan Teknologi 
+Keamanan Jaringan Komputer 
+dan Telekomunikasi
+Jaringan komputer saat ini telah menggabungkan semua elemen komunikasi 
+dalam sebuah protokol utama, yaitu TCP/IP. Perkembangan tersebut tidak 
+akan terwujud tanpa dukungan perkembangan media komunikasi. Selain 
+dukungan perkembangan media komunikasi, perkembangan pengalamatan IP 
+(IP address) juga turut memengaruhi perkembangan Teknik Jaringan Komputer 
+dan Telekomunikasi. Perkembangan media komunikasi dan pengalamatan IP 
+tersebut berdampak positif pada kecepatan jaringan.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+28
+Kecepatan jaringan yang meningkat, tentunya dapat mendukung terciptanya 
+layanan jaringan komputer dan telekomunikasi yang belum pernah ada pada 
+era sebelumnya. Pada era sekarang ini, layanan jaringan bukan sekadar dapat 
+digunakan untuk mengirim pesan melalui surat elektronik (surel/email) dan 
+menelusuri informasi menggunakan world wide web, melainkan juga—dengan 
+jaringan telekomunikasi yang cepat—dapat dimanfaatkan untuk pekerjaan 
+otomatisasi dalam membantu kehidupan manusia sehari-hari. Di samping itu, 
+penggunaan jaringan virtual atau cloud computing dapat mengurangi perangkat 
+keras jaringan, server dari sisi pengguna jaringan.
+A. Perkembangan Teknologi Jaringan Dedicated 
+ke Jaringan Converged
+Dalam berkomunikasi, kita memerlukan sebuah aturan yang disepakati bersama. 
+Contohnya, ketika kalian berbicara di depan kelas untuk presentasi, teman kalian 
+akan mendengarkan dan memberikan isyarat dengan tangan sebagai bentuk 
+permohonan izin untuk berbicara atau menanggapi. Perangkat keras jaringan 
+pun akan berkomunikasi menggunakan suatu protokol. Apa yang kalian ketahui 
+tentang protokol komunikasi jaringan?
+Gambar di bawah menunjukkan contoh jaringan telekomunikasi. Video dalam 
+sebuah studio disiarkan melalui satelit, kemudian diterima oleh stasiun relai 
+(pemancar) dan dipancarkan ke perangkat akhir (TV di rumah). Menurut 
+kalian, apa saja kesepakatan yang disetujui bersama dari komunikasi jaringan 
+broadcast sehingga dapat saling berkomunikasi?
+DEVICE
+BROADCAST
+BROADCAST
+NETWORK
+MESSAGES
+RULES:
+RULE
+AGREEMENT
+STANDARD
+Gambar 2.1 Tangkapan Layar Jaringan Telekomunikasi Broadcast (Cisco Press, 2018)
+Sumber: Agung Puspita Bantala (2022)
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+29
+   
+Perkembangan teknologi komunikasi pada akhir tahun 90-
+an, sangat berbeda dengan yang kalian rasakan pada era ini. 
+Jaringan telekomunikasi pada tahun 90-an merupakan jenis 
+Jaringan Dedicated (Dedicated Network), seperti pada gambar 
+di bawah ini. 
+MESSAGES
+MESSAGES
+MESSAGES
+RULES:
+RULE
+TCP/IP
+RULES:
+PROTOCOL:
+PSTN
+RULES:
+PROTOKOL:
+UHV
+VHV
+PAL
+NTSC
+DEVICES 1
+DEVICES 2
+DEVICES 3
+JARINGAN
+KOMPUTER
+JARINGAN
+TELEPON
+JARINGAN
+BROADCAST
+DEVICES 4
+DEVICES 5
+DEVICES 6
+Gambar 2.2 Tangkapan Layar Jaringan Dedicated (Cisco Press, 2018)
+Sumber: Agung Puspita Bantala (2022)
+Adapun jaringan telekomunikasi yang kalian rasakan saat 
+ini disebut Jaringan Converged (Converged Network). Jaringan 
+Converged dapat diilustrasikan seperti gambar di bawah ini.
+CONVERGED
+NETWORK
+DEVICES 1
+DEVICES 2
+DEVICES 3
+DEVICES 4
+DEVICES 5
+DEVICES 6
+RULES:
+RULE
+AGREEMENT
+STANDARD
+PROTOCOL :
+TCP/IP
+MESSAGES
+MESSAGES
+MESSAGES
+Gambar 2.3 Tangkapan Layar Jaringan Converged (Cisco Press, 2018)
+Sumber: Agung Puspita Bantala (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+30
+Aktivitas Individu 1.1
+Perkembangan Teknologi Jaringan Dedicated ke Jaringan Converged
+Kerjakanlah setiap persoalan berikut dengan mengikuti petunjuknya! 
+1. Amatilah gambar jaringan Dedicated dan jaringan Converged (Gambar 
+2.2 dan 2.3)! Apa saja perkembangan yang terjadi berdasarkan jaringan 
+Dedicated sampai dengan jaringan saat ini (Converged)? Tuliskan jawaban 
+kalian dalam Tabel 2.1 dan simpulkan!
+2. Protokol adalah sebuah aturan yang disepakati bersama dalam sebuah 
+komunikasi dan di dalamnya berisi standardisasi. Contoh dalam penerapan 
+sebuah jaringan nirkabel untuk standardisasi perangkat keras, kesepakatan 
+bersama yang digunakan agar dapat saling berkomunikasi adalah IEEE 
+802.11 B/G dan N, untuk jaringan dengan radio 2,4 Ghz. Berdasarkan jaringan 
+Dedicated dan jaringan Converged pada Gambar 2.2 dan 2.3, protokol apa 
+saja yang terlihat dalam jaringan Dedicated? Protokol apa yang digunakan 
+dalam jaringan Converged? Tuliskan jawaban kalian dalam Tabel 2.1 dan 
+simpulkan!
+3. Berikan contoh komunikasi antar-device pada jaringan Converged sesuai 
+dengan Gambar 2.3! Tuliskan dalam Tabel 2.1!
+Laporan Aktivitas Individu 1.1
+Tuliskan hasil analisis kalian dengan menyalin dan melengkapi tabel berikut!
+Tabel 2.1 Analisis Perkembangan Teknologi Komunikasi
+Jaringan Dedicated
+Jaringan Converged 
+Kesimpulan 
+Hasil Analisis 
+Perkembangan 
+Teknologi 
+Jaringan 
+Telekomunikasi
+Jaringan 
+Telekomunikasi 
+yang Diamati
+Protokol 
+yang 
+Digunakan
+Jaringan 
+Telekomunikasi 
+yang Diamati
+Protokol 
+yang 
+Digunakan
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+31
+Contoh Komunikasi Data antar-Device Jaringan Converged
+Nama Device Sumber
+Nama Device 
+Tujuan
+Contoh Komunikasi yang Relevan
+Device 1
+Device 5
+Device 3
+Device 4
+B. Perkembangan Teknologi Media Komunikasi 
+Jaringan Komputer dan Telekomunikasi
+Saat ini, penggunaan ponsel cerdas (smartphone) merupakan kebutuhan 
+yang penting. Pada umumnya, orang-orang menggunakan smartphone untuk 
+mengakses informasi baik dari media sosial, video streaming, maupun video 
+conference. Koneksi internet menjadi dasar akses dalam teknologi informasi 
+tersebut. Teknologi apa yang membuat telepon seluler kalian dapat terhubung 
+ke jaringan internet?
+Jika kalian memperhatikan bagian atas smartphone, tampak sebuah informasi, 
+yaitu 4G. Apa yang kalian ketahui tentang 3G/4G dan 5G?
+   
+Pada aktivitas kali ini, kita akan melihat (dalam sebuah skenario 
+simulasi) teknologi media komunikasi jaringan nirkabel 3G/4G. Kalian 
+perlu mengamati bagaimana smartphone kalian terkoneksi dengan 
+provider telekomunikasi melalui teknologi jaringan nirkabel 3G/4G. 
+Cari tahu juga perangkat apa saja yang disediakan oleh penyedia 
+jasa jaringan telekomunikasi!
+Aktivitas Individu 2.1
+Media Nirkabel 3G/4G dan 5G
+LabActivity4.1: 3G/4G
+Langkah-langkah kerjanya sebagai berikut.
+1. 
+Unduh (download) berkas “LabActivity4.1.pka” dari tautan alamat berikut: 
+https://s.id/acsiswa. 
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring (online) netacad.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+32
+3. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas “LabActivity4.1”.
+4. 
+Sekarang kalian berada di rumah pada hari libur. Carilah smartphone di 
+sekitar kalian.
+SMARTPHONE-PT
+Smartphone0
+Gambar 2.4 Tangkapan Layar Halaman Awal Simulasi
+Sumber: Agung Puspita Bantala (2022)
+5. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity4.1.
+Gambar 2.5 Tangkapan Layar Laman Situs Web MyCakes 
+Sumber: Agung Puspita Bantala (2022)
+Melalui langkah-langkah yang terdapat pada LabActivity4.1.pka, mari kita 
+menguji coba koneksi dengan cara menutup IP Configuration, memilih Web 
+Browser, lalu mengetik http://www.google.com > tekan tombol Enter (klik 
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+33
+tombol Go), laman web dari Google akan muncul. Masih dalam Web Browser, 
+ketikkan http://www.smk.sch.id > tekan tombol Enter, laman web sekolah 
+myschool akan muncul. Uji coba juga pada http://www.MyTelco.com dan 
+http://www.mycakes.com secara bergantian. Laman semua web yang kalian 
+ketikkan harus muncul.
+Bagaimana ini dapat terjadi? Mari kita mencari tahu penyebab smartphone 
+kalian dapat terhubung ke semua situs dalam internet. Ingatlah beberapa hal 
+berikut.
+⌂ www.mycakes.com adalah perusahaan kue yang kalian bangun. Web 
+server diletakkan pada perusahaan tersebut. 
+⌂ www.smk.sch.id adalah sekolah kalian atau myschool (tempat belajar 
+jaringan dasar pada ruangan LabTKJ Dasar). 
+⌂ www.MyTelco.com adalah perusahaan ISP kalian.
+Nah, sekarang mari kita mencari tahu apa yang terjadi. Coba kalian keluar 
+rumah sebentar dengan cara klik menu back level 
+ pada bagian atas. 
+Sekarang kalian berada di luar rumah, menikmati suasana My City. Hei, ada 
+sebuah menara di samping gedung telekomunikasi! Mari kita mencari tahu 
+menara tersebut dengan melakukan langkah-langkah berikutnya sesuai dengan 
+instruksi pada LabActivity4.1.
+Lantas, bagaimana smartphone kalian mendapat alamat IP (IP address) 
+dari menara tersebut?
+Tentunya ada data yang diubah menjadi sinyal dan dipancarkan, lalu diterima 
+modem pada smartphone kalian untuk diubah kembali menjadi data. Coba 
+perhatikan kotak di bawah menara. Lakukan pengamatan dengan melakukan 
+langkah-langkah berikutnya sesuai dengan instruksi pada LabActivity4.1.
+Dari mana alamat IP itu berasal? Terhubung ke mana? Mari kita mencari 
+tahu.
+Jika kalian perhatikan, Menara Seluler 3G/4G terhubung dengan perangkat 
+Indoor Unit, dapat berupa modem sekaligus router yang memiliki dua 
+pengalamatan IP (IP address). Sebuah alamat IP dengan network 172.16.1.0/24 
+dibagikan ke perangkat akhir pengguna melalui antena Menara Seluler 3G/4G 
+dan sebuah alamat IP lainnya sebagai backbone. Perhatikan kabel dari Indoor 
+Unit! Kabel tersebut berujung di gedung telekomunikasi MyTelco. Coba kalian 
+masuk ke gedung tersebut. Kalian dapat melakukan langkah-langkah berikutnya 
+sesuai dengan instruksi pada LabActivity4.1.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+34
+Laporan Aktivitas Individu 2.1
+Berdasarkan hasil pengamatan melalui simulasi, kalian telah memiliki 
+pemahaman dasar tentang teknologi 3G/4G. Bagaimana langkah teknologi 
+selanjutnya? 
+5G adalah langkah selanjutnya dalam kecepatan data seluler. Ini adalah 
+suatu langkah besar. 5G telah diuji dengan kecepatan clocking mencapai 5 
+gigabit per detik (Gbps). Kecepatan tersebut jauh lebih besar daripada yang 
+dapat dicapai 4G saat ini. Singkatnya secara teoretis, kita dapat mengunduh 
+seluruh seri sebuah gim video dalam waktu beberapa detik saja. 
+Untuk melihat perkembangan 3G/4G/5G, 2G tidak termasuk, kalian diminta 
+untuk mencari informasi yang sesuai untuk mengisi tabel di bawah. Kalian dapat 
+menyalin tabelnya di buku tulis atau sesuai dengan petunjuk guru.
+Tabel 2.2 Laporan Perkembangan Teknologi 3G/4G/5G
+Teknologi dan Fitur
+3G
+4G
+5G
+Tahun dikembangkan
+Data bandwidth
+Standar
+Teknologi
+Layanan (service)
+Tabel 2.3 Laporan Aktivitas Pengamatan Perangkat Keras Jaringan 3G/4G
+Perangkat 
+Sumber
+(Ruang Data 
+Center)
+Alamat IP 
+Sumber
+Perangkat 
+Tujuan (1)
+Alamat 
+IP Tujuan
+Perangkat 
+Tujuan (2)
+Kesimpulan
+Nama 
+perangkat: 
+………………..…
+………………..…
+Interfaces:
+………………..…
+Media:
+1………………...
+2………………...
+Nama 
+perangkat: 
+………………..…
+………………..…
+Media:
+………………..…
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+35
+   
+Perkembangan teknologi media nirkabel selanjutnya yang perlu 
+kalian ketahui adalah media komunikasi VSAT (Very Small Aperture 
+Terminal). Media ini dapat mengantarkan data ke tempat yang 
+sangat jauh, tetapi bandwidth-nya tidak sebesar dan secepat jaringan 
+4G. Teknologi jaringan ini didukung oleh perangkat satelit sebagai 
+penguat sinyal yang dikirimkan dan diterima di daerah tertentu. Pada 
+umumnya, teknologi ini digunakan di daerah yang tidak memiliki 
+banyak infrastruktur, bahkan tanpa infrastruktur. Misalnya di daerah 
+hutan, pegunungan, dan perkebunan.
+Aktivitas Individu 2.2
+Media Nirkabel VSAT (Very Small Aperture Terminal)
+Tugas kalian adalah menyusun spesifikasi perangkat keras jaringan VSAT 
+beserta jenis kabel yang menghubungkan antarperangkat. Carilah informasi 
+menggunakan sumber internet dan sumber lainnya! 
+Tugas selanjutnya adalah membuat infografik (gambar skema) dan deskripsi 
+singkat dari prinsip kerja/koneksi jaringan VSAT.
+Laporan Aktivitas Individu 2.2
+Tuliskan spesifikasi perangkat keras jaringan VSAT dalam tabel di bawah ini! 
+Tuliskan juga fungsi perangkat yang kalian susun! Kalian dapat mengerjakannya 
+di buku tulis atau sesuai dengan petunjuk guru.
+Tabel 2.4 Perangkat Keras Jaringan VSAT
+No
+Nama Perangkat 
+(Devices)
+Gambar Perangkat
+Fungsi
+1.
+Indoor Unit (IDU) 
+2.
+Outdoor Unit (ODU)
+a.
+b.
+c.
+d.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+36
+Infografik Prinsip Kerja Jaringan VSAT
+   
+Selain jaringan VSAT sebagai teknologi media nirkabel, ada sebuah 
+teknologi dengan kecepatan transfer tinggi, yaitu teknologi media 
+microwave. Gelombang microwave ini adalah transmisi informasi 
+oleh gelombang elektromagnetik. 
+Transmisi gelombang ini memiliki coverage area yang cukup 
+jauh dengan radio frekuensi di atas 1 Ghz. Jarak maksimumnya 50 
+km tanpa hambatan atau obstacle. Dengan demikian, setiap jaringan 
+Microwave Link ini harus line of sight (LOS), artinya antara antena 
+tower pengirim dan tower penerima dapat saling terlihat.
+Aktivitas Individu 2.3
+Media Nirkabel Microwave Link 
+Tugas kalian adalah menyusun spesifikasi perangkat keras jaringan menggunakan 
+media Microwave Link, termasuk jenis kabel penghubung antarperangkat. Carilah 
+informasi menggunakan sumber di internet dan sumber lainnya! 
+Tugas selanjutnya adalah membuat infografik (gambar skema) dan deskripsi 
+singkat dari prinsip kerja/koneksi jaringan Microwave Link.
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+37
+Laporan Aktivitas Individu 2.3
+Tuliskan spesifikasi perangkat keras jaringan Microwave Link dengan melengkapi 
+tabel di bawah ini! Tuliskan juga fungsi perangkat yang kalian susun! Kalian 
+dapat mengerjakannya di buku tulis atau sesuai dengan petunjuk guru.
+Tabel 2.5 Perangkat Keras Jaringan Microwave Link
+No
+Nama Perangkat 
+(Devices)
+Gambar Perangkat
+Fungsi
+1.
+Indoor Unit (IDU) 
+2.
+Outdoor Unit (ODU)
+a.
+b.
+c.
+d.
+Infografik Prinsip Kerja Jaringan Microwave Link
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+38
+   
+Pada teknologi kabel, perkembangan kabel yang sangat memengaruhi 
+jaringan Converged adalah media kabel fiber optik atau serat optik. 
+Kabel fiber optik akan mengubah sinyal menjadi cahaya dan 
+mentransmisikannya ke tempat tujuan. Dengan demikian, proses 
+transfer dari data yang dibawa dapat sangat cepat karena berupa 
+cahaya. Kecepatan transfer dapat menempuh jarak 100 km transmisi 
+cahaya dengan besar data 100 Mb/detik sampai dengan 1 Gb/detik 
+tanpa perlu penguatan.
+Aktivitas Individu 2.4
+Media Kabel Fiber Optik
+Tugas kalian adalah mencari informasi tentang jenis-jenis kabel fiber optik 
+beserta infografik transmisi mode, karakteristik, dan bagian-bagiannya. Kalian 
+dapat mencari informasinya dari berbagai sumber di internet. Sebagai alternatif, 
+kalian dapat mencari informasi pada “02_BUKU INFORMASI_TerminasiFO2018.
+docx” yang dapat diunduh pada alamat s.id/InfoAlternatif. 
+Tugas selanjutnya adalah menjelaskan bagian-bagian kabel fiber optik 
+beserta fungsinya berdasarkan gambar (infografik) yang diberikan. Tuliskan 
+penjelasan tersebut dalam tabel yang disediakan dalam laporan aktivitas!
+Jacket
+Coating
+Cladding
+Core
+Gambar 2.6 Bagian-Bagian Kabel Fiber Optik
+Sumber: Agung Puspita Bantala (2022)
+Laporan Aktivitas Individu 2.4
+Tuliskan setiap informasi yang kalian peroleh dari Aktivitas Individu 2.4 pada 
+tabel-tabel berikut! Kalian dapat menyalinnya di buku tulis atau sesuai dengan 
+petunjuk guru.
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+39
+Tabel 2.6 Jenis-Jenis Kabel Fiber Optik dan Karakteristiknya
+Jenis Kabel Fiber 
+Optik
+Gambar (Infografik)
+Keterangan
+Single mode
+Multimode
+Karakteristik
+Single Mode
+Multimode
+Diameter core
+Jenis cahaya
+Banyak pancaran cahaya
+Jenis pancaran cahaya
+Jarak pancaran cahaya
+Bandwidth
+Biaya
+Tabel 2.7 Bagian-Bagian Kabel Fiber Optik
+Bagian-Bagian Kabel 
+Fiber Optik
+Penjelasan
+Inti (core)
+Cladding
+Coating/buffer
+Strength Member & 
+Outer Jacket
+C. Perkembangan Teknologi Pengalamatan pada 
+Jaringan Komputer dan Telekomunikasi
+Pada aktivitas belajar sebelumnya, kalian telah melakukan simulasi pengalamatan 
+IP. Apakah kalian mengenal alamat IP berikut ini?
+FE80::250:FFF:FE34:6B3E
+Pada smartphone atau laptop kalian, terdapat sebuah alamat cukup unik 
+yang disebut Alamat MAC (MAC Address). Apa yang kalian ketahui tentang 
+Alamat MAC atau Physical Address?
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+40
+   
+Pada era ini, internet berkembang sangat pesat. Pengalamatan IPv4 
+banyak digunakan sehingga kita perlu merencanakan sebuah format 
+pengalamatan IP yang lebih besar. Salah satu hasil pengembangan 
+pengalamatan IP yang mulai diimplementasikan adalah IPv6.
+Aktivitas Individu 3.1
+Pengalamatan IPv6
+Pada aktivitas belajar kali ini, kalian akan mencari tahu bagaimana IPv6 
+menggunakan model pengalamatan Unicast Link Local Address. Penerapan 
+Link Local Address dapat dilakukan secara otomatis dan manual. Pemahaman 
+tentang konsep pengalamatan tetap perlu dimiliki meskipun pengalamatan 
+dilakukan secara otomatis.
+Praktik pengalamatan IPv6 ini dapat menggunakan perangkat simulasi 
+jaringan dengan langkah-langkah sebagai berikut.
+1. 
+Unduh berkas “LabActivity4.2.pka” dari https://s.id/acsiswa. 
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+3. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas “LabActivity4.2.pka”.
+4. 
+Untuk belajar tentang IPv6, pergilah ke sekolah kalian dengan cara klik 
+MySchool, klik Lab.TKJ1, kemudian klik Lab TKJ dasar.
+5. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity4.2.
+IPv6 Link Local Address
+Mari kita menghentikan terlebih dahulu aktivitas simulasi, kemudian menelusuri 
+asal IPv6 Link Local Address dengan bagan pengalamatan IPv6. Kalian perlu 
+mengetahui bahwa Link Local Address merupakan bagian dari model IPv6 Unicast. 
+Pengalamatan dapat dilakukan secara otomatis atau manual, dan di-generate 
+berdasarkan standar EUI-64. Kalian dapat mengikuti langkah-langkah berikut.
+1. 
+Gunakan catatan kecil yang telah kalian buat. Tuliskan 12 digit alamat MAC 
+dengan format dua digit dalam tiap kotak pada bagan yang telah disediakan. 
+2. 
+Bagilah alamat MAC menjadi dua bagian sehingga menjadi 6 digit dengan 
+2 digit dalam setiap kotak.
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+41
+3. 
+Tambahkan format heksadesimal “FFFE” ke tengah alamat MAC yang telah 
+dibagi dua.
+Catatan: 
+FFFE ditambahkan berdasarkan standar IEEE, sebagai tanda bahwa format 
+Interface telah dimodifikasi.
+4. 
+Ubah dua digit terakhir. Sisi kiri alamat MAC menjadi format biner. 
+Kalian dapat menggunakan converter heksadesimal ke biner (disarankan) 
+menggunakan tautan berikut:
+https://www.rapidtables.com/convert/number/hex-to-decimal.html
+5. 
+Balikkan bit ke-7 dari bit format biner menjadi (jika nilai 1 menjadi 0 atau 
+jika nilai 0 menjadi 1). Digit 0 berarti dikelola secara lokal dan digit 1 berarti 
+unik secara global.
+6. 
+Gabungkan alamat MAC kalian yang telah dibuat berdasarkan format EUI64 
+dengan batasan tanda titik dua “:”. Contoh format: 
+XXXX:XXXX:XXXX:XXXX
+7. 
+Tuliskan setiap langkah yang telah kalian tulis dalam catatan kecil ke dalam 
+bagan pada Laporan Aktivitas Individu 3.1 (Gambar 2.8) sebagai laporan 
+aktivitas belajar.
+Sekarang kalian telah memiliki alamat interface id, sebuah bagian dari 
+pengalamatan IPv6. Akan tetapi, kalian belum memiliki jumlah bit pengalamatan 
+network atau yang sering disebut Prefix. Perhatikan tabel di bawah ini!
+Tabel 2.8 Prefix IPv6
+Fungsi
+Prefix
+Unspecified Address 
+::/128
+Loopback 
+::1/128
+Global Unicast (0010) 
+2000::/3
+Unique Local Address 
+FC00::/7
+Link Local Address (1111 1110 10) 
+FE80::/10
+Multicast Address  (1111 1111) 
+FF00::/8
+Pilih fungsi Link Local Address (FE80::) dan tuliskan bagian Prefix dari tabel 
+pada bagian depan IPV6 Link Local Address yang telah kalian buat. Lakukan 
+pada format di bawah ini (tuliskan ulang pada laporan aktivitas Gambar 2.9). 
+Bandingkan dengan alamat IPv6 yang kalian dapatkan dari simulasi PCLAN2.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+42
+Interface id (EUI-64 Format)
+Link Local Address Preﬁx
+:
+:
+:
+::
+Gambar 2.7 Hasil Penyederhanaan IPv6 Link Local Address
+Sumber: Agung Puspita Bantala (2022)
+Jika hasil kalian memiliki format pengalamatan IPv6 yang lebih panjang, 
+lakukan penyederhanaan dengan kaidah seperti contoh berikut.
+Contoh:
+2001:0DA8:E800:0000:0260:3EFF:FE47:0001
+Cara menyederhanakannya adalah dengan menghilangkan digit “0” yang 
+berada di awal grup setelah tanda “:” sehingga menjadi:
+2001:DA8:E800:0:260:3EFF:FE47:1
+Pada IPv6, jika pengalamatan memiliki “semua bernilai 0” dalam sebuah 
+grup, penyederhanaannya adalah dengan menulis satu saja nilai nol, yang 
+berarti ‘empat nol dalam grup’.
+Contoh:
+2345:0425:2CA1:0000:0000:0567:5673:23B5
+Diringkas menjadi
+2345:0425:2CA1:0:0:567:5673:23B5
+Sekarang kita kembali ke simulasi. Kalian sekarang sudah memahami dari 
+mana IPv6 Link Local Address didapatkan. Pada langkah simulasi lanjutan ini, 
+coba kalian uji koneksi dengan ping dari LaptopLAN2 ke PCLAN1. Langkah-
+langkah kerjanya sesuai dengan instruksi pada LabActivity4.2.
+Bagaimana dengan router? Apakah bisa berkomunikasi dengan router? 
+Apakah hanya perangkat akhir pengguna saja yang dapat terhubung, 
+sedangkan perangkat jaringan tidak? Mari kita mencari tahu!
+IPv6 Gateway
+Informasi penting. Bacalah bagian ini dengan saksama!
+Untuk mulai melakukan pengaturan pada router, sebaiknya kalian rencanakan 
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+43
+terlebih dahulu sebuah IPv6 sebagai gateway. Terdapat beberapa hal yang dapat 
+dijadikan sebagai rujukan, yaitu sebagai berikut. 
+1. 
+Alamat IP yang direncanakan terbagi atas:
+Unicast 
+Address
+48 bit
+Subnet
+ID
+16 Bit
+Interfaces
+ID
+64 bit
+2. 
+Gunakan model IPv6 Global Unicast sebagai Prefix network. Lihat Tabel 2.8 
+Prefix IPv6. Berdasarkan tabel tersebut, kita dapat menggunakan Prefix 
+network “2001:DB8:” (G. Huston, A. Lord, dan P. Smith, 2004).
+3. 
+Selanjutnya, prefix tersebut dapat ditambahkan “AAAA” sebagai identifikasi 
+sebuah site/company/perusahaan. Sebagai catatan, AAAA dapat berupa apa 
+saja, dapat diganti “ABCD”.
+4. 
+Kemudian, IPv6 juga perlu menambahkan subnet id “000A”.
+5. 
+Diakhiri oleh bagian host atau reperesentasi dari interfaces, yaitu “1”. Dengan 
+demikian, jika dituliskan dalam format IPv6 yang berisi 4 digit dalam setiap 
+grup, akan menjadi seperti berikut:
+2001:0DB8:AAAA:000A:0000:0000:0000:0001
+IPv6 ini dapat disederhanakan menjadi
+2001:DB8:AAAA:A::1
+Berdasarkan penyederhanaan IP, kalian telah memiliki 64 bit bagian network, 
+yaitu 2001:DB8:AAAA:A dan 64 bit bagian host, yaitu ::1. Oleh karena itu, kalian 
+perlu menambahkan Prefix 64 bit pada alamat IP menjadi 2001:DB8:AAAA:A::1/64.
+Pengalamatan IPv6 tersebut dapat digunakan untuk pengalamatan interface 
+FastEthernet0/0. Untuk FastEthernet0/1, kalian dapat memodifikasi dengan 
+mengubah subnet “A” menjadi “B” sehingga didapat 2001:DB8:AAAA:B::1/64.
+Pengamatan dan Pengujian
+Setelah memiliki dua alamat IPv6 yang akan digunakan pada router sebagai 
+gateway jaringan, sekarang kalian dapat melakukan pengujian. Langkah-langkah 
+kerjanya sesuai dengan instruksi pada LabActivity4.2.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+44
+Laporan Aktivitas Individu 3.1
+Tuliskan setiap langkah pada aktivitas yang berkaitan dengan IPv6 Link Local 
+Address ke dalam bagan berikut! Kalian dapat menyalin bagannya di buku tulis 
+atau sesuai dengan petunjuk guru.
+OUI (OrganizaƟon Unic IdenƟﬁer)
+NIC
+48 bit - Mac Address
+Ditambahkan Berdasarkan
+standar IEEE sebagai
+Format Interface
+modiﬁkasi
+0000 |0000
+Biner :
+Bit ke 7 reverse
+:
+0000 |0010
+Kembalikan ke
+Hexa
+FF
+FE
+Gambar 2.8 Laporan IPv6 Link Local
+Sumber: Agung Puspita Bantala (2022)
+Tuliskan bentuk sederhana dari IPv6 Link Local Address yang telah kalian 
+dapatkan dari alamat MAC berdasarkan standar EUI-64!
+Interface id (EUI-64 Format)
+Link Local Address Preﬁx
+:
+:
+:
+::
+Gambar 2.9 Laporan Hasil Penyederhanaan IPv6 Link Local Address
+Sumber: Agung Puspita Bantala (2022)
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+45
+D. Perkembangan Teknologi Perangkat Keras dalam 
+Sebuah Data Center
+Ketika kalian membuka sebuah portal berita daring, mengakses sumber belajar 
+melalui internet, mengirimkan surat elektronik (email), atau memanfaatkan 
+berbagai layanan jaringan lainnya, menurut kalian, ruangan seperti apa yang 
+digunakan untuk menyimpan konten-konten informasi dan data-data penting 
+tersebut? Perangkat apa saja yang berada dalam ruangan tersebut?
+Sebuah jaringan komputer tidak luput dari kegagalan sistem. Untuk 
+memperbaiki kegagalan tersebut dan mencegah downtime, kita perlu 
+membangun jaringan dengan mempertimbangkan redundansi jaringan. 
+Apa yang kalian ketahui tentang redundansi jaringan?
+   
+Pada aktivitas belajar kali ini, kalian akan menggunakan aplikasi 
+simulasi untuk melihat sebuah data center. Pada skenario ini, posisi 
+kalian masih sebagai siswa kerja praktik di Perusahaan ISP MyTelco. 
+Kalian diminta manajer kantor untuk melakukan perawatan jaringan 
+di MyTelco Secondary, sebuah data center di kota tetangga yang 
+bernama “Neighboring Town”.
+Aktivitas Individu 4.1
+Perangkat Keras Jaringan di dalam Data Center dan Data Center 
+Redundance
+LabActivity 4.3: Data Center
+Lakukan langkah-langkah berikut untuk memulai pengamatan. 
+1. 
+Unduh berkas “LabActivity4.3.pka” dari https://s.id/acsiswa. 
+  
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+3. 
+Siapkan buku/kertas catatan kecil untuk menuliskan sementara hasil 
+pengamatan.
+4. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas “LabActivity4.3.pka”.
+5. 
+Sekarang kalian berada di Neighboring Town. Klik MyTelco.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+46
+Data Center Small My Telco
+SMARTPHONE-PT
+Smartphone0
+Gambar 2.10 Tangkapan Layar Neighboring Town pada Aplikasi Simulasi
+Sumber: Agung Puspita Bantala (2022)
+6. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity4.3.
+Catatan:
+Port pada Patch Panel bagian belakang disebut PunchDown, sedangkan 
+port bagian depan Patch Panel disebut Jack. Penyebutan port pada Patch 
+Panel, misalnya Port1: 
+⌂  bagian depan adalah Jack1, dan 
+⌂  bagian belakang adalah PunchDown1. 
+Data Center Primary
+Sekarang, kalian diminta kembali ke kota tercinta MyCity menuju Data Center 
+Primary. Langkah-langkah kerjanya sesuai dengan instruksi pada LabActivity4.3.
+Pengujian Data Center Redundance
+Salah satu desain dari data center adalah redundansi. Desain ini digunakan untuk 
+menghilangkan satu titik kegagalan. Desain ini dapat melibatkan perangkat 
+tambahan untuk menyediakan redundansi fisik. Langkah-langkah kerjanya 
+sesuai dengan instruksi pada LabActivity4.3.
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+47
+Dari hasil pengujian tersebut, kita dapat menyimpulkan bahwa DNS server 
+haruslah redundan, yaitu lebih dari satu koneksi jaringan yang paralel.
+Laporan Aktivitas Individu 4.1
+Tuliskan hasil kegiatan kalian dengan melengkapi setiap tabel berikut sesuai 
+dengan petunjuk guru!
+Tabel 2.9 Hasil Pengamatan Ruang Data Center MyTelco Secondary
+No
+Nama Perangkat Fasilitas Penunjang di 
+dalam Ruang Data Center Secondary
+Fungsi
+1.
+2.
+3.
+4.
+Tabel 2.10 Hasil Pengamatan Perangkat Jaringan Data Center MyTelco Secondary
+No
+Nama Perangkat Jaringan
+Fungsi/Layanan yang Diberikan
+1.
+2.
+3.
+4.
+5.
+6.
+Tabel 2.11 Hasil Pengamatan Perangkat Jaringan Data Center Primary
+No
+Nama Perangkat Jaringan
+Fungsi/Layanan yang Diberikan
+1.
+2.
+3.
+4.
+5.
+6.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+48
+No
+Nama Perangkat Jaringan
+Fungsi/Layanan yang Diberikan
+7.
+8.
+Redundansi Data Center
+Setelah melakukan pengamatan terhadap redundansi data center, berikut ini 
+skema (infografik) dari redundansi data center. Isi bagian alamat IP dari skema 
+tersebut!
+Router Data Center
+ Secondary
+IP address
+...........................
+Router Data Center
+ Primary
+Internet
+Dari Kota Lain di Negara Lain
+IP address
+...........................
+IP address
+...........................
+IP address
+...........................
+DNS Server
+Primary
+IP......................./24
+Gtw :.......................
+DNS Server
+Secondary
+IP......................./24
+Gtw :.......................
+Router Mycakes
+Router MySchool
+Gambar 2.11 Redundansi Data Center
+Sumber: Agung Puspita Bantala (2022)
+E. Perkembangan Teknologi Layanan pada Jaringan 
+Komputer dan Telekomunikasi
+Jika sekolah memiliki server yang berisi informasi sekolah, kira-kira biaya apa 
+saja yang harus dikeluarkan dalam 1 bulan? Saat membangun server tersebut, 
+kira-kira biaya apa saja yang perlu dikeluarkan?
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+49
+Layanan jaringan telekomunikasi saat ini banyak membantu pekerjaan kita. 
+Bukan hanya di bidang informasi, melainkan juga di bidang otomatisasi, 
+terdapat komunikasi mesin ke mesin untuk mempermudah pekerjaan manusia. 
+Apa yang kalian ketahui tentang komunikasi mesin ke mesin (machine to 
+machine)? Berikan contohnya!
+   
+Internet saat ini sudah memiliki kecepatan yang sangat tinggi (high 
+speed). Hal tersebut dapat dilihat dari para pengguna internet yang 
+melakukan berbagai kegiatan daring dengan mudah dan lancar, 
+seperti ketika melakukan video call, live video streaming, dan main 
+game online bareng (MABAR).
+Kecepatan teknologi internet saat ini telah menghasilkan beberapa 
+layanan yang sangat membantu kehidupan manusia. Salah satunya 
+adalah internet of things (IoT). IoT sebenarnya adalah komunikasi 
+antara perangkat mekanis, digital, dan objek-objek yang memiliki 
+kemampuan untuk mengirimkan data (transfer data) melalui jaringan 
+komputer tanpa memerlukan interaksi manusia dengan komputer 
+(Human to Machine). 
+Pada aktivitas belajar kali ini, kalian akan mencoba membangun 
+sebuah jaringan telekomunikasi Machine to Machine (M2M) atau 
+yang sering disebut dengan internet of things (IoT). Berdasarkan hasil 
+uji coba dan pengamatan, kalian diharapkan dapat memberikan 
+contoh-contoh penerapan IoT. 
+Aktivitas Individu 5.1
+Layanan Jaringan IoT
+LabActivity4.4: Layanan Jaringan IoT
+Pada skenario dalam aktivitas kali ini, kalian berada di rumah dan bersiap 
+membangun sebuah sistem IoT. Sistem yang dibangun memiliki rencana, yaitu 
+sebagai berikut.
+ 
+⌂
+Ada sebuah kipas angin. Jika suhu ruangan meningkat, secara otomatis 
+kipas berputar cepat dan jendela akan terbuka. Jika suhu mulai menurun, 
+kipas berputar lambat dan jendela menutup. 
+ 
+⌂
+Jika kalian berjalan ke dapur dan sensor gerak mendeteksi gerakan kalian, 
+lampu akan menyala dan mesin kopi akan menyala untuk membuat kopi. 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+50
+ 
+⌂
+Semua home appliances (peralatan rumah tangga) yang dibutuhkan telah 
+dibeli. Tugas kalian hanya melakukan konfigurasi. 
+ 
+⌂
+Semua peralatan smart home akan terintegrasi dengan perangkat jaringan 
+home gateway. 
+Lakukan langkah-langkah berikut untuk membangun smart home di rumah 
+kalian.
+1. 
+Unduh berkas “LabActivity4.4.pka” dari https://s.id/acsiswa. 
+ 
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+3. 
+Siapkan buku/kertas catatan kecil untuk menuliskan sementara hasil 
+pengamatan.
+4. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas 
+“LabActivity4.4.pka”.
+5. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity4.4.
+Catatan:
+Kalian dapat menyimpan pekerjaan kalian jika merasa waktu pengamatan 
+tidak memadai. Kalian dapat meneruskannya lain waktu.
+Sampai di sini, kalian telah mencoba setiap perangkat rumah cerdas atau 
+smart home devices. Akan tetapi, prinsip dari IoT masih belum terlihat, yaitu 
+komunikasi Machine to Machine (M2M). Pada prinsipnya, aktivitas yang telah 
+kalian lakukan masih merupakan komunikasi Human to Machine (H2M) karena 
+ada keterlibatan manusia dalam menghidupkan perangkat melalui remote. Mari 
+kita mencari tahu bagaimana prinsip M2M.
+Komunikasi Machine to Machine (M2M)
+Kondisi yang akan diterapkan, antara lain: 
+ 
+⌂
+jika suhu ruang lebih rendah atau sama dengan 10°C, kipas mati (off); 
+ 
+⌂
+jika suhu ruang 11°C sampai dengan 14°C, kipas akan berputar lambat 
+(low); 
+ 
+⌂
+jika suhu ruang lebih tinggi atau sama dengan 15°C, kipas akan berputar 
+cepat (high).
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+51
+Langkah-langkah kerjanya sesuai dengan instruksi pada LabActivity4.4.
+Catatan:
+Kalian dapat menyimpan pekerjaan kalian jika merasa waktu pengamatan 
+tidak memadai. Kalian dapat meneruskannya lain waktu.
+Laporan Aktivitas Individu 5.1
+Setelah mengerjakan semua aktivitas belajar tentang IoT, isilah tabel-tabel 
+di bawah ini sebagai laporan hasil uji coba dan pengamatan menggunakan 
+peralatan simulasi! Kalian dapat menyalinnya di buku tulis atau sesuai dengan 
+petunjuk guru.
+Tabel 2.12 Hasil Pengamatan dan Uji Coba Remote Perangkat Smart Home
+No
+Nama Perangkat Smart Home
+Hasil Pengujian Remote Menggunakan 
+Home Gateway
+1.
+Kipas (fan)
+Apakah pengujian remote berhasil?
+ Ya   
+ Tidak
+2.
+Jendela (windows)
+Apakah pengujian remote berhasil?
+ Ya   
+ Tidak
+3.
+Lampu (lamp)
+Apakah pengujian remote berhasil?
+ Ya   
+ Tidak
+4.
+Pemanas Kopi (coffee maker)
+Apakah pengujian remote berhasil?
+ Ya   
+ Tidak
+Tabel 2.13 Hasil Pengamatan dan Uji Coba Komunikasi M2M Perangkat Smart Home
+No
+Nama Perangkat 
+Smart Home
+Hasil Pengujian Komunikasi M2M Perangkat 
+Smart Home 
+1.
+Kipas dengan 
+Termometer sebagai 
+pemicu 
+Apakah pengujian Kipas Off berhasil?
+ Ya   
+ Tidak
+Apakah pengujian Kipas Low berhasil?
+ Ya   
+ Tidak
+Apakah pengujian Kipas High berhasil?
+ Ya   
+ Tidak
+2.
+Jendela dengan 
+Termometer sebagai 
+pemicu
+Apakah pengujian Jendela Terbuka berhasil?
+ Ya   
+ Tidak
+Apakah pengujian Jendela Tertutup berhasil?
+ Ya   
+ Tidak
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+52
+No
+Nama Perangkat 
+Smart Home
+Hasil Pengujian Komunikasi M2M Perangkat 
+Smart Home 
+3.
+Lampu dengan Sensor 
+Gerak sebagai pemicu
+Apakah pengujian Lampu kondisi On berhasil?
+ Ya   
+ Tidak
+Apakah pengujian Lampu kondisi Off berhasil?
+ Ya   
+ Tidak
+4.
+Pemanas Kopi
+Apakah pengujian Pemanas Kopi kondisi On 
+berhasil?
+ Ya   
+ Tidak
+Apakah pengujian Pemanas Kopi kondisi Off 
+berhasil?
+ Ya   
+ Tidak
+Aktivitas Individu 5.2
+Teknologi Layanan Cloud Computing
+Masih di dalam LabActivity4.4, sekarang mari kita keluar rumah sebentar untuk 
+menghirup udara segar karena smart home device kalian telah terkonfigurasi 
+dan telah berjalan. Caranya adalah klik simbol back level atau tekan tombol 
+Alt+left arrow.
+Pada LabActivity4.4, gunakan smartphone kalian di dekat parabola 
+(Smartphone1). Gunakan jaringan 3G/4G Cell1. Cobalah untuk 
+mengakses smart home kalian menggunakan Home Gateway dengan 
+alamat 192.168.25.1. Apa yang terjadi?
+Kalian tidak dapat mengakses perangkat IoT kalian dari luar rumah. 
+Penyebabnya adalah jaringan kalian bersifat lokal meskipun terhubung ke 
+jaringan internet. Jaringan kalian berbentuk Network Address Translation (NAT) 
+yang hanya mengizinkan akses dari dalam rumah keluar internet, namun tidak 
+mengizinkan untuk akses dari internet ke dalam jaringan rumah. Oleh karena 
+itu, kalian membutuhkan sebuah server yang tidak ada di dalam rumah secara 
+fisik, tetapi layanannya dapat dirasakan dari dalam rumah maupun dari mana 
+saja kalian berada selama masih terdapat koneksi internet.
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+53
+MY SCHOOL
+MY HOME
+Telecommunicaon Oﬃce
+Your 
+Smartphone
+Gambar 2.12 Tangkapan Layar Akses IoT dari Eksternal
+Sumber: Agung Puspita Bantala (2022)
+Layanan yang dimaksud merupakan sebuah layanan yang disebut Cloud 
+Computing.
+Beberapa jenis layanan Cloud Computing, yaitu sebagai berikut. 
+⌂ Layanan pertama adalah Infrastructure as a Service (IaaS). Pada 
+layanan ini, kalian dibebaskan untuk melakukan instalasi sistem operasi 
+yang kalian miliki, melakukan konfigurasi sistem operasi sesuai dengan 
+kebutuhan kalian, dan melakukan instalasi program aplikasi berikut 
+framework yang kalian butuhkan. Intinya, pada layanan ini kalian hanya 
+diberi perangkat keras (hardware) komputer meskipun biasanya dalam 
+bentuk virtualisasi teknologi (komputer virtual). 
+⌂ Layanan berikutnya adalah Platform as a Service (PaaS). Pada layanan 
+ini, perangkat keras telah tersedia. Kalian hanya tinggal memakai sistem 
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+54
+operasi dan menginstal program aplikasi sesuai dengan kebutuhan dan 
+sistem operasi yang tersedia sebagai platform. Contoh layanan ini adalah 
+Microsoft Azure. 
+⌂ Layanan yang terakhir adalah Software as a Service (SaaS). Pada jenis 
+layanan ini, infrastruktur telah tersedia tanpa pilihan, begitu pun sistem 
+operasi dan program aplikasi. Pengguna layanan ini hanya memiliki ruang 
+lingkup terhadap program aplikasi yang disediakan.
+Aktivitas kalian selanjutnya adalah memanfaatkan Cloud Computing bagi 
+perangkat IoT di rumah. Setelah itu, cobalah menyimpulkan jenis layanan Cloud 
+yang telah kalian dapatkan. Langkah-langkah kerjanya sesuai dengan instruksi 
+pada LabActivity4.4.
+Laporan Aktivitas Individu 5.2
+Setelah mengerjakan semua aktivitas belajar tentang Cloud Computing, isilah 
+tabel di bawah ini sebagai laporan hasil uji coba dan pengamatan menggunakan 
+peralatan simulasi! Kalian dapat menyalinnya di buku tulis atau sesuai dengan 
+petunjuk guru.
+Tabel 2.14 Hasil Pengamatan dan Uji Coba Cloud Computing
+No
+Pertanyaan 
+Jawaban 
+Kesimpulan
+1.
+Apakah pada server 
+Cloud yang dibuat 
+untuk perangkat smart 
+home, kalian melakukan 
+konfigurasi perangkat 
+keras seperti mengganti 
+NIC?
+ Ya
+ Tidak
+2.
+Apakah pada server 
+Cloud yang dibuat 
+untuk perangkat smart 
+home, kalian melakukan 
+instalasi dan konfigurasi 
+sistem operasi?
+ Ya  
+ Tidak
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+55
+No
+Pertanyaan 
+Jawaban 
+Kesimpulan
+3.
+Apakah pada server 
+Cloud yang dibuat 
+untuk perangkat smart 
+home, kalian melakukan 
+instalasi dan konfigurasi 
+aplikasi?
+ Ya
+ Tidak
+4.
+Apakah pada server 
+Cloud yang dibuat untuk 
+perangkat smart home, 
+kalian hanya melakukan 
+konfigurasi aplikasi yang 
+telah tersedia?
+ Ya
+ Tidak
+F. Perkembangan Teknologi Keamanan Jaringan 
+Komputer dan Telekomunikasi
+“Isu kebocoran data mencuat belakangan ini setelah dugaan kebocoran data 
+dari internal lembaga pemerintah hingga badan usaha milik pemerintah selama 
+sebulan terakhir. Terbaru, dugaan kebocoran data dari database Komisi Pemilihan 
+Umum (KPU), yang mana terdapat 105 juta data penduduk yang diduga bocor.” 
+(Aida, 2022)
+1. 
+Apa yang kalian ketahui tentang aktivitas sniffing? 
+2. 
+Apa yang kalian ketahui tentang sniffing pasif? 
+3. 
+Apa yang kalian ketahui tentang sniffing aktif? 
+4. 
+Apa contoh dari sniffing aktif?
+   
+Berdasarkan kutipan artikel Kompas di atas, jika kebocoran data 
+terjadi melalui jaringan komputer dan telekomunikasi, tentunya 
+kebocoran tersebut terjadi saat data dikirim oleh server dan diterima 
+oleh klien. Pada proses pengiriman data tersebut, diduga terdapat 
+aktivitas sniffing. Pada aktivitas belajar kali ini, kalian akan melakukan 
+uji coba dan pengamatan pada aktivitas sniffing menggunakan 
+perangkat simulasi.
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+56
+Aktivitas Individu 6.1 
+Sniffing Pasif
+LabActivity4.5: Sniffing Pasif
+Kalian akan mencoba melakukan remote dari rumah untuk melakukan konfigurasi 
+router yang berada di ISP MyTelco. Pada kegiatan tersebut, perangkat sniffing 
+telah terpasang. Langkah-langkah kerjanya sebagai berikut.
+1. 
+Unduh berkas “LabActivity4.5.pka” dari https://s.id/acsiswa. 
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+3. 
+Siapkan catatan kecil untuk menuliskan sementara hasil pengamatan.
+4. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas “LabActivity4.5.pka”.
+5. 
+Kalian dapat melakukan langkah-langkah selanjutnya sesuai dengan instruksi 
+pada LabActivity4.5.
+Catatan: 
+Pada aktivitas sniffing di dunia nyata, kegiatan ini merupakan proses 
+sniffing pasif karena tidak mengubah/memanipulasi jaringan. Umumnya 
+menggunakan aplikasi Wireshark. Pada proses ini, attacker (penyerang) 
+hanya mengambil data yang lalu-lalang dalam durasi waktu tertentu. Data 
+yang diambil bukanlah informasi lengkap dari sebuah dokumen atau data 
+pribadi, melainkan biasanya berupa username dan password dari server 
+yang nantinya dapat diambil alih. Data yang dapat dilihat berupa data 
+string. Perlu ketelitian untuk mencari informasi dalam tumpukan data yang 
+telah di-capture.
+Tekan tombol Clear, tutup Sniffer, kemudian kembali ke komputer kalian. 
+Gunakan Web Browser dan akses alamat URL berikut: www.smk.sch.id. 
+Selanjutnya, buka kembali Sniffer. Pada menu GUI, perhatikan protokol yang 
+muncul, alamat sumber, dan alamat tujuan. Tuliskan sebagai catatan kecil untuk 
+mengisi tabel pengamatan.
+Laporan Aktivitas Individu 6.1
+Berdasarkan hasil uji coba dan pengamatan konsep sniffing pasif, kalian dapat 
+mendeskripsikan penerapannya dengan melengkapi tabel laporan sesuai dengan 
+petunjuk guru.
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+57
+Tabel 2.15 Laporan Hasil Uji Coba dan Pengamatan Konsep Sniffing
+Nama 
+Perangkat 
+Sumber
+Interface 
+Sumber
+Alamat 
+IP 
+Sumber
+Sniffing
+Alamat IP 
+Tujuan
+Interface 
+Tujuan
+Nama 
+Perangkat 
+Tujuan
+*eth0
+*eth1
+Incoming
+Outgoing
+Incoming
+Outgoing
+Catatan: pilih eth0 atau eth1 sebagai paket incoming atau paket outgoing berdasarkan uji coba dan 
+pengamatan pada perangkat sniffing
+Pada gambar di bawah terdapat sebuah skema jaringan. Tentukan tempat 
+yang strategis untuk mengamati lalu lintas data jaringan dalam kegiatan sniffing 
+pasif agar dapat menyadap semua data yang lewat! 
+Pilih salah satu tempat yang dianggap tepat dan berikan tanda silang pada 
+sniffing yang dianggap tidak tepat!
+Internet
+1
+2
+3
+4
+5
+Gambar 2.13 Skema Sniffing pada Jaringan
+Sumber: Agung Puspita Bantala (2022)
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+58
+   
+Sniffing pasif hanya berhasil jika pengguna dalam jaringan 
+menggunakan hub (perangkat masa lalu) karena prinsip kerja hub 
+adalah melakukan broadcast paket data ke semua jaringan. Hal ini 
+berbeda dengan switch yang hanya melakukan broadcast pada alamat 
+MAC yang dituju. Lalu, bagaimana dengan sniffing pada perangkat 
+switch? Tentunya harus menggunakan sniffing aktif dengan metode 
+serangan  Man in the Middle (MITM) yang terdapat pada Kali Linux 
+dengan aplikasi Ettercap. Pada sniffing ini, perubahan dilakukan 
+pada tabel ARP dengan teknik ARP Poisoning.
+Aktivitas Individu 6.2
+Sniffing Aktif
+Pada aktivitas kali ini, tugas kalian adalah mencermati dua buah video. Video 
+pertama tentang konsep sniffing aktif dan video kedua adalah implementasinya 
+pada jaringan. Kalian dapat melihat sniffing aktif menggunakan MITM pada 
+tautan video berikut.
+Konsep: https://www.youtube.
+com/watch?v=TpgYujy48sk
+Implementasi MITM: 
+https://www.youtube.com/
+watch?v=RxH6VAO3xHc
+Sumber: www.freepik.com/freepik (2020)
+SCAN
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+59
+ 
+ Uji Kompetensi Bab 2
+Pilihlah jawaban yang sesuai dari setiap soal berikut dengan menuliskan 
+huruf A, B, C, atau D! 
+1. 
+Teknologi yang menggabungkan beberapa layanan berbeda dari jaringan 
+adalah ....
+A.
+Converged Network
+C.
+LAN
+B.
+Dedicated Network
+D.
+MAN
+2. 
+Jaringan yang masih memisahkan antara voice, video, komputer, dan 
+komunikasi adalah ....
+A.
+Converged Network
+C.
+LAN
+B.
+Dedicated Network
+D.
+MAN
+3. 
+Sebuah metode akses pada channel menggunakan standar WCDMA-CDMA. 
+Standar tersebut digunakan oleh media komunikasi wireless cellphone, 
+yaitu ....
+A.
+3G
+C.
+5G
+B.
+4G
+D.
+PTSN
+4. 
+Perangkat Indoor Unit (IDU) pada jaringan VSAT berupa .…
+A.
+antena elektromagnetik
+C.
+modem
+B.
+BUC & LNB
+D.
+switch
+5. 
+Perangkat Outdoor Unit (ODU) pada jaringan VSAT berupa ….
+A.
+antena elektromagnetik
+C.
+modem
+B.
+BUC & LNB
+D.
+switch
+6. 
+Perangkat Outdoor Unit (ODU) pada jaringan Microwave Link berupa ….
+A.
+antena elektromagnetik
+C.
+modem
+B.
+BUC & LNB
+D.
+switch
+7. 
+Analisis gambar berikut!
+Source
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+60
+Gambar menunjukkan representasi dari cahaya yang merambat pada 
+penampang fiber optik pada jenis kabel ....
+A.
+multicore
+C.
+single core 
+B.
+coating/buffer
+D.
+multimode
+8. 
+Analisis gambar berikut!
+Gambar menunjukkan representasi dari cahaya yang merambat pada 
+penampang fiber optik pada jenis kabel ....
+A.
+multicore
+C.
+single core 
+B.
+single mode
+D.
+multimode
+9. 
+Perhatikan contoh alamat IPv6 berikut!
+2001:0DA8:E800:0000:0260:3EFF:FE47:0001
+Bentuk sederhananya adalah ....
+A. 2001:0DA8:E800:0:260:3EFF:FE47:0001
+B. 
+2001:DA8:E800:0:0260:3EFF:FE47:1
+C. 
+2001:0DA8:E800:0:260:3EFF:FE47:1
+D. 2001:DA8:E800:0:260:3EFF:FE47:1
+Cermati gambar berikut untuk menjawab soal nomor 10–12!
+Setiap nomor pada gambar di samping 
+menunjukkan perangkat yang perlu 
+ada di ruang data center.
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+61
+10. Perangkat nomor 3 berfungsi untuk ....
+A. mengelola kabel agar mudah dalam perawatan dan perbaikan
+B. 
+memberikan peringatan jika muncul sumber api/asap
+C. 
+menyimpan cadangan listrik
+D. memberikan udara yang sesuai bagi ruangan data center agar peralatan 
+jaringan dapat berjalan dengan baik
+11. Perangkat nomor 2 berfungsi untuk ....
+A. mengelola kabel agar mudah dalam perawatan dan perbaikan
+B. 
+memberikan peringatan jika muncul sumber api/asap
+C. 
+menyimpan cadangan listrik
+D. memberikan udara yang sesuai bagi ruangan data center agar peralatan 
+jaringan dapat berjalan dengan baik
+12. Perangkat nomor 4 berfungsi untuk ....
+A. mengelola kabel agar mudah dalam perawatan dan perbaikan
+B. 
+memberikan peringatan jika muncul sumber api/asap
+C. 
+menyimpan cadangan listrik
+D. memberikan udara yang sesuai bagi ruangan data center agar peralatan 
+jaringan dapat berjalan dengan baik
+13. Definisi dari komunikasi M2M adalah ....
+A. komunikasi antara perangkat digital dan objek-objek yang memiliki 
+kemampuan untuk mengirimkan/mentransfer data melalui jaringan 
+komputer tanpa memerlukan interaksi manusia dengan komputer
+B. 
+komunikasi antara perangkat mekanis/digital dan objek-objek yang 
+memiliki kemampuan untuk mengirimkan/mentransfer data melalui 
+jaringan komputer tanpa memerlukan interaksi manusia dengan 
+komputer
+C. 
+komunikasi antara perangkat mekanis dan objek-objek yang memiliki 
+kemampuan untuk mengirimkan/mentransfer data melalui jaringan 
+komputer dengan bantuan interaksi manusia dengan komputer
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+62
+D. komunikasi antara perangkat mekanis/digital dan objek-objek yang 
+memiliki kemampuan untuk mengirimkan/mentransfer data melalui 
+jaringan komputer dengan bantuan interaksi manusia dengan komputer
+14. Gambar yang menunjukkan komunikasi M2M terdapat pada ....
+A. 
+Light
+loT0
+DLC100
+Home Gateway0
+SMARTPHONE-PT
+Smartphone0
+B. 
+Light
+loT0
+Fan
+loT1
+DLC100
+Home Gateway0
+C. 
+Fan
+loT1
+DLC100
+Home Gateway0
+Push Button
+loT2
+D. 
+Fan
+loT1
+DLC100
+Home Gateway0
+Cool
+COOL 0 C
+Heat
+Thermostat
+loT3
+15. Gambar yang menunjukkan remote Home Device terdapat pada ....
+A. 
+Fan
+loT1
+DLC100
+Home Gateway0
+Cool
+COOL 0 C
+Heat
+Thermostat
+loT3
+B. 
+Light
+loT0
+DLC100
+Home Gateway0
+SMARTPHONE-PT
+Smartphone0
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+63
+C. 
+Light
+loT0
+Fan
+loT1
+DLC100
+Home Gateway0
+D. 
+Fan
+loT1
+DLC100
+Home Gateway0
+Push Button
+loT2
+16. Pada layanan Cloud Computing ini, pengguna mendapat kebebasan dalam 
+menentukan perangkat keras server, sistem operasi, dan program aplikasinya 
+sendiri. Layanan tersebut termasuk jenis ....
+A.
+IaaS
+C.
+PaaS
+B.
+SaaS
+D.
+IaaP
+17. Pada layanan Cloud Computing ini, pengguna hanya mendapat kebebasan 
+dalam menentukan sistem operasi dan program aplikasinya. Layanan 
+tersebut termasuk jenis ....
+A.
+IaaS
+C.
+PaaS
+B.
+SaaS
+D.
+IaaP
+18. Pada layanan Cloud Computing ini, pengguna hanya menggunakan program 
+aplikasi yang telah ditentukan. Layanan tersebut termasuk jenis ....
+A.
+IaaS
+C.
+PaaS
+B.
+SaaS
+D.
+IaaP
+19. Kegiatan sniffing yang mengubah tabel ARP dengan tujuan mengelabui 
+komputer sumber dan komputer tujuan termasuk jenis sniffing ....
+A.
+Man in the Middle Attack
+C.
+pasif
+B.
+Ettercap
+D.
+aktif
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+64
+20. Analisis skema jaringan berikut!
+Internet
+1
+2
+3
+4
+Untuk mendapatkan paket data dari seluruh jaringan, sebaiknya kita 
+melakukan sniffing pasif pada titik ....
+A.
+1
+C.
+2
+B.
+3
+D.
+4
+ 
+ Pengayaan
+Pada aktivitas pengayaan ini, kalian akan mendalami tentang IoT. Sebelumnya, 
+kalian telah mempelajari smart home yang berisi peralatan peralatan rumah 
+tangga yang dapat mengirimkan data karena memiliki alamat IP. Bagaimana 
+dengan peralatan yang tidak memiliki alamat IP atau bukan smart device, seperti 
+motor servo dan lampu LED? Untuk melakukan konfigurasi pada perangkat 
+tersebut, kalian membutuhkan perangkat controller. 
+Mari kita mencoba aktivitas pengayaan ini dengan melakukan langkah-
+langkah berikut!
+1. 
+Unduh berkas “aktivitaspengayaan.pka” dari https://s.id/acsiswa.  
+2. 
+Matikan koneksi jaringan karena simulasi yang dilakukan tidak terhubung 
+dengan diklat daring netacad.
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+65
+3. 
+Siapkan catatan kecil untuk menuliskan sementara hasil pengamatan.
+4. 
+Jalankan LabActivity dengan cara klik dua kali pada berkas 
+“aktivitaspengayaan.pka”.
+5. 
+Sekarang kalian berada di rumah di MyCity. Pergilah ke sekolah kalian dan 
+masuk ke Lab.TKJ Lanjut yang pintu ruangannya terbuka.
+6. 
+Kalian akan melihat sebuah Controller SBC0. Di dunia nyata, perangkat 
+tersebut dapat berupa perangkat Raspberry.
+LED1
+3V3
+5V
+GP2
+5V
+GP3
+GND
+GND
+GP14
+GP17
+GP15
+GP27
+GP18
+GP22
+GND
+3V3
+GP23
+GP10
+GP24
+GP9
+GND
+GP11
+GP25
+GND
+GP8
+ID_SCV
+ID_SCV
+GP7
+GP5
+GP6
+GND
+GP13
+GP12
+GP19
+GND
+GP26
+GP16
+GND
+PI USB Port
+at this end
+GP20
+GP4
+GP21
+GND
+PIN 6
+GND
+PIN 14
+GND(?) 23
+PIN 16
+GPIO 17
+PIN 11
+LED2
+RasPi0
+®
+Gambar 2.14 Input dan Output RaspBerry PI
+Sumber: Agung Puspita Bantala (2022)
+7. 
+Controller memiliki pin Input dan pin Output. Ambil sebuah LED. Gunakan 
+IoT custom cable yang ada pada menu Connection, hubungkan. Hubungkan 
+pin dari LED, yaitu D0 (digital pin0), ke perangkat Controller SBC pada D0 
+(digital pin0).
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+66
+Logical
+Physical
+x: 3387m y: 6483m
+Time: 00:12:28
+Lab TKJ Lanjut
+Last Stat
+Fire
+File Edit
+Options View
+Tools
+Extensions Window Help
+Scenario 0
+New
+Delete
+Toggle PDU List Wimdow
+Gambar 2.15 Tangkapan Layar Proses Menghubungkan Pin
+Sumber: Agung Puspita Bantala (2022) 
+Penjelasan koneksi jaringan sebagai berikut.
+ 
+⌂
+Home Gateway, sebagai perangkat sentral jaringan yang memiliki 
+alamat IP 192.168.25.1, memberikan alamat IP secara otomatis (DHCP) 
+pada perangkat Controller SBC dan Laptop melalui media nirkabel 
+(wireless). 
+ 
+⌂
+Controller (SBC) mendapatkan IP 192.168.25.102 dan Laptop mendapatkan 
+IP 192.168.25.100.
+ 
+⌂
+Server IoT adalah Home Gateway. Pada bagian setting SBC, dapat 
+dilihat bahwa Server IoT diisi Home Gateway.
+8. 
+LED dapat menyala jika dibuatkan sebuah program melalui laptop. Klik 
+Laptop, pilih menu Desktop, lalu klik IoT monitor. Isikan IoT server address: 
+192.168.25.1, Username: admin, dan Password: admin. Klik tombol login.
+9. 
+Masih di dalam IoT monitor, klik Editor dan buat sebuah program baru 
+dengan cara klik New, isi nama program dengan Led On. Pada templat, 
+gunakan “Empty Python”, artinya kita membuat program dari bahasa Python.
+10. Di dalam program Python yang akan kita buat, klik New kembali. Beri nama 
+program yang dibuat: Ledon.py. Klik dua kali pada Ledon.py dan ketikkan 
+program berikut:
+
+Bab 2 - Perkembangan Teknologi di Bidang Teknik Jaringan Komputer dan Telekomunikasi
+67
+from gpio import *
+from time import *
+def main():
+pinMode(0, OUT)
+print(“Led On”)
+while True:
+digitalWrite(0, HIGH);
+if __name__ == “__main__”:
+main()
+Penjelasan program di atas sebagai berikut.
+ 
+⌂
+GPIO import adalah library dari input output perangkat Controller. 
+Begitu juga time.
+ 
+⌂
+Pin mode 0 adalah pin yang digunakan dari Controller sebagai output 
+yang terhubung pada LED.
+ 
+⌂
+Digital Write 0, artinya pada pin 0, diberikan status HIGH, yang sama 
+dengan 1 untuk On dan 0 atau LOW untuk Off.
+11. Klik Run untuk menjalankan program dengan remote.
+ 
+ Refleksi
+Setelah mempelajari materi pada Bab 2 ini, kalian dapat melakukan refleksi 
+dengan menjawab setiap pertanyaan berikut.
+1. 
+Pengetahuan apa saja yang kalian dapatkan dari aktivitas belajar kali ini?
+2. 
+Kendala apa yang kalian temukan ketika menganalisis data pengamatan 
+dan menyimpulkan beberapa hal berikut:
+a. 
+perkembangan teknologi jaringan telekomunikasi;
+b. 
+perkembangan teknologi media jaringan telekomunikasi;
+c. 
+perkembangan teknologi pengalamatan pada jaringan komputer 
+dan telekomunikasi;
+
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi untuk SMK/MAK Kelas X
+68
+d. 
+perkembangan teknologi perangkat keras dalam sebuah data center;
+e. 
+perkembangan teknologi layanan pada jaringan komputer dan 
+telekomunikasi;
+f. 
+perkembangan teknologi keamanan pada jaringan komputer dan 
+telekomunikasi.
+3. 
+Langkah-langkah apa yang kalian lakukan dalam mengatasi setiap 
+kendala tersebut?
+4. 
+Sikap positif apa saja yang kalian dapatkan dari aktivitas belajar kali ini?
+
+Profesi dan Kewirausahaan
+Profesi dan Kewirausahaan
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI
+REPUBLIK INDONESIA, 2023
+Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi
+untuk SMK/MAK Kelas X
+Penulis: Ibnu Indarwati, Arif Muttakin, Agung Puspita Bantala
+ISBN: 978-623-194-472-6 (no.jil.lengkap PDF)
+978-623-194-473-3 (jil.1PDF)
+B
+A
+B
+3
+Seorang wirausaha memiliki jiwa dan semangat yang pantang menyerah, mandiri, 
+gigih, dan bertanggung jawab terhadap tindakan serta keputusannya. Banyak contoh 
+wirausaha yang berhasil, namun tidak sedikit pula wirausaha yang mengalami 
+kegagalan dalam menjalankan usahanya. Faktor apa saja yang mendukung 
+keberhasilan dan kegagalan seorang wirausaha?
