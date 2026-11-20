@@ -1,0 +1,1336 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 13",
+      "title": "Gugah Selera dengan Olahan Pangan Hewani",
+      "description": "Mengenal daging, ikan, susu, dan telur, ragam olahan pangan hewani Nusantara, teknik pengawetan, kemasan dan label, serta promosi produk.",
+      "learning_objectives": [
+        "Mengeksplorasi produk olahan pangan higienis Nusantara dari bahan hewani.",
+        "Menganalisis karakteristik bahan, alat, teknik, dan prosedur pengolahan pangan hewani.",
+        "Mengembangkan desain produk dan kemasan olahan pangan hewani.",
+        "Merancang pemasaran dan analisis usaha olahan pangan hewani secara sederhana.",
+        "Membuat, mengemas, dan mempromosikan olahan pangan hewani Nusantara."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 3 Gugah Selera dengan Olahan Pangan Hewani",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Apa saja bahan pangan hewani?",
+          "duration": 240,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 3 Gugah Selera dengan Olahan Pangan Hewani",
+          "content": "## Sumber protein dari hewan\n\nDaging merupakan bagian lunak hewan yang melekat pada tulang dan dibungkus kulit. Daging memiliki protein dengan susunan asam amino lengkap. Pada umumnya daging mengandung sekitar 75 persen air, 18 persen protein, 3 persen lemak, dan 1,5 persen senyawa nitrogen bukan protein serta vitamin dan mineral dalam jumlah sedikit.\n\nIkan merupakan sumber protein yang lebih mudah diserap tubuh dibandingkan daging sapi karena susunan asam aminonya lebih sederhana. Protein ikan bermanfaat untuk peremajaan jaringan dan sumber energi. Susu adalah cairan putih dari kelenjar mamalia seperti sapi dan kambing, dengan kandungan protein, lemak, vitamin, dan mineral.\n\nTelur merupakan bahan makanan hewani yang dikonsumsi selain daging, ikan, dan susu. Telur yang biasa dikonsumsi adalah telur ayam, bebek, dan puyuh. Setiap bahan hewani memiliki karakteristik dan olahan khas yang berbeda di berbagai daerah Nusantara.\n\nSimpan daging dan ikan di wadah tertutup pada suhu dingin. Cuci tangan serta alat masak setelah menyentuh bahan mentah agar tidak terjadi kontaminasi silang.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-13-olahan-pangan-hewani-glosarium",
+              "terms": [
+                {
+                  "term": "Bahan pangan hewani",
+                  "definition": "Bahan pangan yang berasal dari hewan, seperti daging, ikan, susu, dan telur."
+                },
+                {
+                  "term": "Daging",
+                  "definition": "Bagian lunak hewan yang melekat pada tulang dan dibungkus kulit."
+                },
+                {
+                  "term": "Pengasapan",
+                  "definition": "Pengawetan dengan panas dan asap pembakaran kayu tertentu."
+                },
+                {
+                  "term": "Fermentasi",
+                  "definition": "Pengawetan dengan mikroorganisme yang mengubah karbohidrat menjadi alkohol atau asam."
+                },
+                {
+                  "term": "Pengasinan",
+                  "definition": "Pengawetan dengan garam untuk menghambat mikroorganisme perusak."
+                },
+                {
+                  "term": "Kemasan",
+                  "definition": "Wadah untuk melindungi produk dari cemaran saat penyimpanan atau pendistribusian."
+                },
+                {
+                  "term": "Label",
+                  "definition": "Keterangan pada kemasan yang memuat informasi produk sesuai ketentuan."
+                },
+                {
+                  "term": "Promosi",
+                  "definition": "Kegiatan memperkenalkan dan menawarkan produk agar konsumen tertarik membeli."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sumber protein dari hewan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Daging merupakan bagian lunak hewan yang melekat pada tulang dan dibungkus kulit. Daging memiliki protein dengan susunan asam amino lengkap. Pada umumnya daging mengandung sekitar 75 persen air, 18 persen protein, 3 persen lemak, dan 1,5 persen senyawa nitrogen bukan protein serta vitamin dan mineral dalam jumlah sedikit."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ikan merupakan sumber protein yang lebih mudah diserap tubuh dibandingkan daging sapi karena susunan asam aminonya lebih sederhana. Protein ikan bermanfaat untuk peremajaan jaringan dan sumber energi. Susu adalah cairan putih dari kelenjar mamalia seperti sapi dan kambing, dengan kandungan protein, lemak, vitamin, dan mineral."
+            },
+            {
+              "type": "paragraph",
+              "text": "Telur merupakan bahan makanan hewani yang dikonsumsi selain daging, ikan, dan susu. Telur yang biasa dikonsumsi adalah telur ayam, bebek, dan puyuh. Setiap bahan hewani memiliki karakteristik dan olahan khas yang berbeda di berbagai daerah Nusantara."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-13-olahan-pangan-hewani-diagram",
+              "engine": "mermaid",
+              "title": "Empat kelompok bahan pangan hewani",
+              "code": "flowchart TB\n  A[Bahan pangan hewani] --> B[Daging]\n  A --> C[Ikan]\n  A --> D[Susu]\n  A --> E[Telur]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Simpan daging dan ikan di wadah tertutup pada suhu dingin. Cuci tangan serta alat masak setelah menyentuh bahan mentah agar tidak terjadi kontaminasi silang."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-13-olahan-pangan-hewani-cp-1",
+              "question": "Kandungan protein daging pada umumnya sekitar…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "18 persen",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "3 persen"
+                },
+                {
+                  "id": "c2",
+                  "text": "75 persen"
+                },
+                {
+                  "id": "c3",
+                  "text": "50 persen"
+                }
+              ],
+              "explanation": "Daging mengandung sekitar 75 persen air, 18 persen protein, dan 3 persen lemak."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Olahan Nusantara dan teknik pengawetan",
+          "duration": 300,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 3 Gugah Selera dengan Olahan Pangan Hewani",
+          "content": "## Kekayaan olahan pangan hewani\n\nOlahan pangan hewani Nusantara sangat beragam. Daging diolah menjadi sate padang, coto makassar, isian sosis solo, rendang padang, rawon malang, dan soto betawi. Ikan diolah menjadi cakalang fufu khas Manado, mangut khas Yogyakarta, arsik khas Tapanuli, sop ikan jantung pisang khas Palu, dan gabus pucung khas Jakarta.\n\nSusu diolah menjadi dadiah atau yoghurt khas Minang, dangke khas Sulawesi Selatan, serta tahu atau dodol susu dari Lembang. Telur diolah menjadi telur asin khas Brebes, kerak telor khas Betawi, telur balado khas Minang, dan rendang talua khas Payakumbuh. Setiap daerah memberi ciri khas pada produknya.\n\nPengawetan pangan hewani terdiri atas pengawetan fisik, biologi, dan kimia. Pembekuan menurunkan suhu di bawah titik beku air, contohnya sosis solo frozen. Pengasapan memanfaatkan asap pembakaran kayu, contohnya cakalang fufu. Fermentasi memakai mikroorganisme, contohnya dadiah, sedangkan pengasinan memakai garam, contohnya telur asin Brebes.\n\n| Makanan | Daerah | Bahan dasar |\n|---|---|---|\n| Kuah Sie Itek | Aceh | Itik |\n| Rendang Padang | Padang | Daging sapi |\n| Bandeng Presto | Semarang | Ikan bandeng |\n| Sate Madura | Madura | Daging ayam |\n| Soto Makassar | Makassar | Daging sapi |\n| Ayam Betutu | Bali | Ayam |\n\n### Kemasan, label, dan promosi\n\n- Kemasan melindungi produk dari cemaran dan memiliki fungsi promosi, simbolik, serta estetik.\n- Menurut UU No. 18 Tahun 2012, label memuat nama produk, daftar bahan, berat bersih, nama dan alamat produsen, informasi halal, tanggal dan kode produksi, kadaluarsa, nomor izin edar, serta asal-usul bahan.\n- Promosi dimulai dengan menentukan tujuan, target pasar dan harga jual, anggaran, media, lalu mengukur efektivitasnya.\n- Promosi lebih menekankan cara menarik konsumen untuk mencoba dan membeli produk.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kekayaan olahan pangan hewani"
+            },
+            {
+              "type": "paragraph",
+              "text": "Olahan pangan hewani Nusantara sangat beragam. Daging diolah menjadi sate padang, coto makassar, isian sosis solo, rendang padang, rawon malang, dan soto betawi. Ikan diolah menjadi cakalang fufu khas Manado, mangut khas Yogyakarta, arsik khas Tapanuli, sop ikan jantung pisang khas Palu, dan gabus pucung khas Jakarta."
+            },
+            {
+              "type": "paragraph",
+              "text": "Susu diolah menjadi dadiah atau yoghurt khas Minang, dangke khas Sulawesi Selatan, serta tahu atau dodol susu dari Lembang. Telur diolah menjadi telur asin khas Brebes, kerak telor khas Betawi, telur balado khas Minang, dan rendang talua khas Payakumbuh. Setiap daerah memberi ciri khas pada produknya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengawetan pangan hewani terdiri atas pengawetan fisik, biologi, dan kimia. Pembekuan menurunkan suhu di bawah titik beku air, contohnya sosis solo frozen. Pengasapan memanfaatkan asap pembakaran kayu, contohnya cakalang fufu. Fermentasi memakai mikroorganisme, contohnya dadiah, sedangkan pengasinan memakai garam, contohnya telur asin Brebes."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Makanan",
+                  "Daerah",
+                  "Bahan dasar"
+                ],
+                [
+                  "Kuah Sie Itek",
+                  "Aceh",
+                  "Itik"
+                ],
+                [
+                  "Rendang Padang",
+                  "Padang",
+                  "Daging sapi"
+                ],
+                [
+                  "Bandeng Presto",
+                  "Semarang",
+                  "Ikan bandeng"
+                ],
+                [
+                  "Sate Madura",
+                  "Madura",
+                  "Daging ayam"
+                ],
+                [
+                  "Soto Makassar",
+                  "Makassar",
+                  "Daging sapi"
+                ],
+                [
+                  "Ayam Betutu",
+                  "Bali",
+                  "Ayam"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-13-komposisi-daging",
+              "title": "Perkiraan komposisi daging (%)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Air",
+                  "value": 75
+                },
+                {
+                  "label": "Protein",
+                  "value": 18
+                },
+                {
+                  "label": "Lemak",
+                  "value": 3
+                },
+                {
+                  "label": "Senyawa nitrogen",
+                  "value": 1.5
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-13-klasifikasi",
+              "prompt": "Kelompokkan olahan berikut berdasarkan bahan dasarnya.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Daging sapi"
+                },
+                {
+                  "id": "b2",
+                  "label": "Ikan"
+                },
+                {
+                  "id": "b3",
+                  "label": "Susu"
+                },
+                {
+                  "id": "b4",
+                  "label": "Telur"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Rendang padang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Soto makassar",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Cakalang fufu",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Bandeng presto",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Dadiah",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i6",
+                  "text": "Telur asin",
+                  "bucket": "b4"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Rendang dan soto berbahan daging sapi; cakalang fufu dan bandeng presto berbahan ikan; dadiah dari susu; telur asin dari telur.",
+                "wrong": "Periksa lagi: cocokkan bahan dasar dengan nama produk."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kemasan, label, dan promosi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kemasan melindungi produk dari cemaran dan memiliki fungsi promosi, simbolik, serta estetik.",
+                "Menurut UU No. 18 Tahun 2012, label memuat nama produk, daftar bahan, berat bersih, nama dan alamat produsen, informasi halal, tanggal dan kode produksi, kadaluarsa, nomor izin edar, serta asal-usul bahan.",
+                "Promosi dimulai dengan menentukan tujuan, target pasar dan harga jual, anggaran, media, lalu mengukur efektivitasnya.",
+                "Promosi lebih menekankan cara menarik konsumen untuk mencoba dan membeli produk."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-13-olahan-pangan-hewani-cp-2",
+              "question": "Undang-Undang yang mengatur pencantuman label pangan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "UU No. 18 Tahun 2012",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "UU No. 18 Tahun 2002"
+                },
+                {
+                  "id": "c2",
+                  "text": "UU No. 20 Tahun 2003"
+                },
+                {
+                  "id": "c3",
+                  "text": "UU No. 12 Tahun 2012"
+                }
+              ],
+              "explanation": "Pencantuman label pangan diatur dalam UU RI No. 18 Tahun 2012."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 3 Gugah Selera dengan Olahan Pangan Hewani",
+          "content": "## Membuat olahan hewani dan mempromosikannya\n\nSosis solo dibuat dari kulit tepung terigu, air, telur, dan garam, dengan isi daging ayam yang direbus lalu disuwir. Bumbu bawang merah, bawang putih, merica, kaldu, gula, dan air ditumis hingga meresap. Kulit diisi, dibentuk seperti lumpia kecil panjang, direkatkan dengan putih telur, lalu disimpan di freezer dalam wadah tertutup.\n\nCakalang fufu dibuat dengan membersihkan ikan, membelahnya, dan menjepitnya dengan bambu. Ikan disusun di tempat pengasapan, lalu bara tempurung kelapa disebar hingga kadar air berkurang sekitar 4 jam. Dadiah dibuat dari susu kerbau segar yang dimasukkan ke bambu tiga per empat penuh, ditutup, lalu disimpan pada suhu ruang selama 1–3 hari.\n\nTelur asin dibuat dengan memilih telur bermutu, membersihkannya, lalu mengamplas permukaan agar pori terbuka. Adonan pengasin dibuat dari campuran abu gosok atau bata merah dan garam dengan perbandingan 2:1, ditambah air hingga berbentuk pasta. Telur dibalut adonan, diperam 1–2 minggu, dicuci, lalu direbus sekitar 45 menit dengan api kecil. Setelah produk siap, susun promosi dan ukur efektivitasnya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat olahan hewani dan mempromosikannya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sosis solo dibuat dari kulit tepung terigu, air, telur, dan garam, dengan isi daging ayam yang direbus lalu disuwir. Bumbu bawang merah, bawang putih, merica, kaldu, gula, dan air ditumis hingga meresap. Kulit diisi, dibentuk seperti lumpia kecil panjang, direkatkan dengan putih telur, lalu disimpan di freezer dalam wadah tertutup."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cakalang fufu dibuat dengan membersihkan ikan, membelahnya, dan menjepitnya dengan bambu. Ikan disusun di tempat pengasapan, lalu bara tempurung kelapa disebar hingga kadar air berkurang sekitar 4 jam. Dadiah dibuat dari susu kerbau segar yang dimasukkan ke bambu tiga per empat penuh, ditutup, lalu disimpan pada suhu ruang selama 1–3 hari."
+            },
+            {
+              "type": "paragraph",
+              "text": "Telur asin dibuat dengan memilih telur bermutu, membersihkannya, lalu mengamplas permukaan agar pori terbuka. Adonan pengasin dibuat dari campuran abu gosok atau bata merah dan garam dengan perbandingan 2:1, ditambah air hingga berbentuk pasta. Telur dibalut adonan, diperam 1–2 minggu, dicuci, lalu direbus sekitar 45 menit dengan api kecil. Setelah produk siap, susun promosi dan ukur efektivitasnya."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-13-skenario",
+              "title": "Telur asin yang terlalu lama diperam",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Telur asin kelompokmu terasa terlalu asin. Apa penyebab yang paling mungkin?",
+                  "choices": [
+                    {
+                      "text": "Pemeraman terlalu lama atau garam terlalu banyak",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Lama pemeraman dan jumlah garam memengaruhi rasa asin."
+                    },
+                    {
+                      "text": "Telur terlalu banyak air",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Air tidak membuat telur menjadi lebih asin."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Agar produk laku di bazar, apa langkah promosi yang tepat?",
+                  "choices": [
+                    {
+                      "text": "Menentukan target pasar, media, dan anggaran promosi",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Promosi yang terencana lebih efektif menarik konsumen."
+                    },
+                    {
+                      "text": "Menjual tanpa memperkenalkan produk",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa promosi konsumen sulit mengenal produk."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Produk tidak dikenal dan tidak terjual.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Produk dikenal dan habis terjual.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-13-olahan-pangan-hewani-kartu",
+              "cards": [
+                {
+                  "front": "Berapa kandungan air dan protein daging?",
+                  "back": "Sekitar 75 persen air dan 18 persen protein."
+                },
+                {
+                  "front": "Apa teknik pengawetan cakalang fufu?",
+                  "back": "Pengasapan dengan bara tempurung kelapa."
+                },
+                {
+                  "front": "Berapa lama dadiah disimpan pada suhu ruang?",
+                  "back": "1–3 hari sampai susu menggumpal."
+                },
+                {
+                  "front": "Apa perbandingan adonan pengasin telur asin?",
+                  "back": "Dua bagian abu atau bata merah dan satu bagian garam."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-13-olahan-pangan-hewani-cp-3",
+              "question": "Cakalang fufu diawetkan dengan teknik…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Pengasapan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Pembekuan"
+                },
+                {
+                  "id": "c2",
+                  "text": "Fermentasi"
+                },
+                {
+                  "id": "c3",
+                  "text": "Pengentalan"
+                }
+              ],
+              "explanation": "Cakalang fufu diawetkan dengan pengasapan menggunakan bara tempurung kelapa."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-13-tantangan",
+              "title": "Tantangan istilah pangan hewani",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Cairan putih dari kelenjar mamalia",
+                  "answer": "susu"
+                },
+                {
+                  "question": "Pengawetan dengan asap kayu",
+                  "answer": "pengasapan"
+                },
+                {
+                  "question": "Pengawetan dengan garam",
+                  "answer": "pengasinan"
+                },
+                {
+                  "question": "Olahan susu khas Minang",
+                  "answer": "dadiah"
+                },
+                {
+                  "question": "Kegiatan menawarkan produk",
+                  "answer": "promosi"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Gugah Selera dengan Olahan Pangan Hewani — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Daging pada umumnya mengandung air sekitar…",
+              "options": [
+                {
+                  "text": "75 persen",
+                  "correct": true
+                },
+                {
+                  "text": "18 persen"
+                },
+                {
+                  "text": "3 persen"
+                },
+                {
+                  "text": "50 persen"
+                }
+              ],
+              "explanation": "Daging mengandung sekitar 75 persen air.",
+              "hint": "Proteinnya sekitar 18 persen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kandungan protein daging pada umumnya sekitar…",
+              "options": [
+                {
+                  "text": "18 persen",
+                  "correct": true
+                },
+                {
+                  "text": "3 persen"
+                },
+                {
+                  "text": "75 persen"
+                },
+                {
+                  "text": "50 persen"
+                }
+              ],
+              "explanation": "Daging mengandung sekitar 18 persen protein.",
+              "hint": "Lemaknya sekitar 3 persen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan pangan hewani berupa cairan putih dari kelenjar mamalia adalah…",
+              "options": [
+                {
+                  "text": "Susu",
+                  "correct": true
+                },
+                {
+                  "text": "Telur"
+                },
+                {
+                  "text": "Daging"
+                },
+                {
+                  "text": "Ikan"
+                }
+              ],
+              "explanation": "Susu adalah cairan putih yang dihasilkan kelenjar mamalia.",
+              "hint": "Diperoleh dengan cara pemerahan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk bahan pangan hewani?",
+              "options": [
+                {
+                  "text": "Daging",
+                  "correct": true
+                },
+                {
+                  "text": "Ikan",
+                  "correct": true
+                },
+                {
+                  "text": "Susu",
+                  "correct": true
+                },
+                {
+                  "text": "Telur",
+                  "correct": true
+                },
+                {
+                  "text": "Bayam",
+                  "correct": false
+                },
+                {
+                  "text": "Kangkung",
+                  "correct": false
+                }
+              ],
+              "explanation": "Daging, ikan, susu, dan telur termasuk bahan pangan hewani.",
+              "hint": "Bayam dan kangkung bahan nabati."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah makanan khas berbahan daging sapi?",
+              "options": [
+                {
+                  "text": "Rendang",
+                  "correct": true
+                },
+                {
+                  "text": "Soto Makassar",
+                  "correct": true
+                },
+                {
+                  "text": "Sate Padang",
+                  "correct": true
+                },
+                {
+                  "text": "Cakalang fufu",
+                  "correct": false
+                },
+                {
+                  "text": "Dadiah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Rendang, soto Makassar, dan sate Padang berbahan daging sapi.",
+              "hint": "Cakalang fufu berbahan ikan dan dadiah dari susu."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Gugah Selera dengan Olahan Pangan Hewani — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Protein ikan lebih mudah diserap tubuh karena…",
+              "options": [
+                {
+                  "text": "Susunan asam aminonya lebih sederhana",
+                  "correct": true
+                },
+                {
+                  "text": "Kandungan airnya lebih sedikit"
+                },
+                {
+                  "text": "Tidak mengandung lemak"
+                },
+                {
+                  "text": "Berwarna putih"
+                }
+              ],
+              "explanation": "Protein ikan mudah diserap karena susunan asam aminonya lebih sederhana.",
+              "hint": "Bermanfaat untuk peremajaan jaringan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cakalang fufu merupakan makanan khas…",
+              "options": [
+                {
+                  "text": "Manado",
+                  "correct": true
+                },
+                {
+                  "text": "Padang"
+                },
+                {
+                  "text": "Brebes"
+                },
+                {
+                  "text": "Makassar"
+                }
+              ],
+              "explanation": "Cakalang fufu adalah makanan khas Manado.",
+              "hint": "Dibuat dari ikan cakalang yang diasap."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah makanan khas berbahan ikan?",
+              "options": [
+                {
+                  "text": "Cakalang fufu",
+                  "correct": true
+                },
+                {
+                  "text": "Mangut",
+                  "correct": true
+                },
+                {
+                  "text": "Arsik",
+                  "correct": true
+                },
+                {
+                  "text": "Gabus pucung",
+                  "correct": true
+                },
+                {
+                  "text": "Rendang",
+                  "correct": false
+                },
+                {
+                  "text": "Sate Madura",
+                  "correct": false
+                }
+              ],
+              "explanation": "Cakalang fufu, mangut, arsik, dan gabus pucung berbahan ikan.",
+              "hint": "Rendang dan sate Madura berbahan daging."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah olahan berbahan susu?",
+              "options": [
+                {
+                  "text": "Dadiah",
+                  "correct": true
+                },
+                {
+                  "text": "Dangke",
+                  "correct": true
+                },
+                {
+                  "text": "Yoghurt",
+                  "correct": true
+                },
+                {
+                  "text": "Telur asin",
+                  "correct": false
+                },
+                {
+                  "text": "Kerak telor",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dadiah, dangke, dan yoghurt merupakan olahan susu.",
+              "hint": "Telur asin dan kerak telor berbahan telur."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Daging",
+                  "right": "sekitar 75 persen air dan 18 persen protein"
+                },
+                {
+                  "id": "m1",
+                  "left": "Ikan",
+                  "right": "protein mudah diserap tubuh"
+                },
+                {
+                  "id": "m2",
+                  "left": "Susu",
+                  "right": "cairan dari kelenjar mamalia"
+                },
+                {
+                  "id": "m3",
+                  "left": "Telur",
+                  "right": "bahan hewani selain daging, ikan, dan susu"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "sekitar 75 persen air dan 18 persen protein",
+                  "m1": "protein mudah diserap tubuh",
+                  "m2": "cairan dari kelenjar mamalia",
+                  "m3": "bahan hewani selain daging, ikan, dan susu"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat sosis solo.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Buat kulit dadar tipis"
+                },
+                {
+                  "id": "d1",
+                  "text": "Rebus dan suwir daging ayam"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tumis bumbu hingga harum"
+                },
+                {
+                  "id": "d3",
+                  "text": "Isi kulit dan bentuk"
+                },
+                {
+                  "id": "d4",
+                  "text": "Rekatkan ujung dengan putih telur"
+                },
+                {
+                  "id": "d5",
+                  "text": "Simpan di freezer"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4",
+                  "d5"
+                ]
+              },
+              "explanation": "Sosis solo dibuat dari kulit dadar dan isi ayam berbumbu.",
+              "hint": "Ujung kulit direkatkan dengan putih telur."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat cakalang fufu.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Bersihkan ikan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Belah ikan dan jepit dengan bambu"
+                },
+                {
+                  "id": "p2",
+                  "text": "Susun ikan di tempat pengasapan"
+                },
+                {
+                  "id": "p3",
+                  "text": "Bakar tempurung kelapa menjadi arang"
+                },
+                {
+                  "id": "p4",
+                  "text": "Sebar bara sekitar 4 jam"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Cakalang fufu dibuat dengan membersihkan lalu mengasapi ikan.",
+              "hint": "Pengasapan berlangsung sekitar 4 jam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rendang merupakan makanan khas…",
+              "options": [
+                {
+                  "text": "Padang",
+                  "correct": true
+                },
+                {
+                  "text": "Manado"
+                },
+                {
+                  "text": "Brebes"
+                },
+                {
+                  "text": "Bali"
+                }
+              ],
+              "explanation": "Rendang padang berasal dari Padang dan berbahan daging sapi.",
+              "hint": "Dimasak dengan rempah dan santan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Telur asin merupakan makanan khas…",
+              "options": [
+                {
+                  "text": "Brebes",
+                  "correct": true
+                },
+                {
+                  "text": "Padang"
+                },
+                {
+                  "text": "Manado"
+                },
+                {
+                  "text": "Bali"
+                }
+              ],
+              "explanation": "Telur asin khas Brebes dibuat dengan pengasinan.",
+              "hint": "Berbahan dasar telur bebek."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah teknik pengawetan pangan hewani?",
+              "options": [
+                {
+                  "text": "Pembekuan",
+                  "correct": true
+                },
+                {
+                  "text": "Pengasapan",
+                  "correct": true
+                },
+                {
+                  "text": "Fermentasi",
+                  "correct": true
+                },
+                {
+                  "text": "Pengasinan",
+                  "correct": true
+                },
+                {
+                  "text": "Pembakaran langsung",
+                  "correct": false
+                },
+                {
+                  "text": "Penyimpanan di tempat terbuka",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pangan hewani diawetkan dengan pembekuan, pengasapan, fermentasi, dan pengasinan.",
+              "hint": "Pembakaran dan penyimpanan terbuka bukan pengawetan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Gugah Selera dengan Olahan Pangan Hewani — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Dadiah dibuat dari…",
+              "options": [
+                {
+                  "text": "Susu kerbau segar",
+                  "correct": true
+                },
+                {
+                  "text": "Daging sapi"
+                },
+                {
+                  "text": "Ikan cakalang"
+                },
+                {
+                  "text": "Telur bebek"
+                }
+              ],
+              "explanation": "Dadiah dibuat dari susu kerbau segar yang difermentasi dalam bambu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pengawetan cakalang fufu menggunakan teknik…",
+              "options": [
+                {
+                  "text": "Pengasapan",
+                  "correct": true
+                },
+                {
+                  "text": "Pembekuan"
+                },
+                {
+                  "text": "Fermentasi"
+                },
+                {
+                  "text": "Pengentalan"
+                }
+              ],
+              "explanation": "Cakalang fufu diawetkan dengan pengasapan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pengawetan dadiah menggunakan teknik…",
+              "options": [
+                {
+                  "text": "Fermentasi",
+                  "correct": true
+                },
+                {
+                  "text": "Pengasapan"
+                },
+                {
+                  "text": "Pengasinan"
+                },
+                {
+                  "text": "Pembekuan"
+                }
+              ],
+              "explanation": "Dadiah dibuat melalui fermentasi susu kerbau."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pengawetan telur asin menggunakan teknik…",
+              "options": [
+                {
+                  "text": "Pengasinan",
+                  "correct": true
+                },
+                {
+                  "text": "Pengasapan"
+                },
+                {
+                  "text": "Fermentasi"
+                },
+                {
+                  "text": "Pembekuan"
+                }
+              ],
+              "explanation": "Telur asin diawetkan dengan garam atau pengasinan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbandingan adonan pengasin telur asin adalah…",
+              "options": [
+                {
+                  "text": "2 bagian abu atau bata merah : 1 bagian garam",
+                  "correct": true
+                },
+                {
+                  "text": "1 bagian abu : 2 bagian garam"
+                },
+                {
+                  "text": "1 bagian abu : 1 bagian gula"
+                },
+                {
+                  "text": "3 bagian garam : 1 bagian air"
+                }
+              ],
+              "explanation": "Adonan pengasin memakai perbandingan abu atau bata merah dan garam 2:1."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah unsur label menurut UU No. 18 Tahun 2012?",
+              "options": [
+                {
+                  "text": "Nama produk",
+                  "correct": true
+                },
+                {
+                  "text": "Berat bersih",
+                  "correct": true
+                },
+                {
+                  "text": "Informasi halal",
+                  "correct": true
+                },
+                {
+                  "text": "Nomor izin edar",
+                  "correct": true
+                },
+                {
+                  "text": "Nomor rekening pribadi",
+                  "correct": false
+                },
+                {
+                  "text": "Nama sekolah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Label memuat nama produk, berat bersih, informasi halal, dan nomor izin edar."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah fungsi kemasan?",
+              "options": [
+                {
+                  "text": "Melindungi produk",
+                  "correct": true
+                },
+                {
+                  "text": "Sarana promosi",
+                  "correct": true
+                },
+                {
+                  "text": "Memberi nilai estetika",
+                  "correct": true
+                },
+                {
+                  "text": "Mempercepat pembusukan",
+                  "correct": false
+                },
+                {
+                  "text": "Menambah cemaran",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kemasan melindungi produk serta berfungsi promosi dan estetika."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Cakalang fufu",
+                  "right": "pengasapan khas Manado"
+                },
+                {
+                  "id": "m1",
+                  "left": "Dadiah",
+                  "right": "fermentasi susu kerbau khas Minang"
+                },
+                {
+                  "id": "m2",
+                  "left": "Telur asin",
+                  "right": "pengasinan khas Brebes"
+                },
+                {
+                  "id": "m3",
+                  "left": "Kemasan",
+                  "right": "pelindung produk dari cemaran"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pengasapan khas Manado",
+                  "m1": "fermentasi susu kerbau khas Minang",
+                  "m2": "pengasinan khas Brebes",
+                  "m3": "pelindung produk dari cemaran"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat dadiah.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Masukkan susu kerbau ke bambu tiga per empat"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tutup bambu dengan daun atau plastik"
+                },
+                {
+                  "id": "d2",
+                  "text": "Simpan pada suhu ruang"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tunggu 1–3 hari hingga menggumpal"
+                },
+                {
+                  "id": "d4",
+                  "text": "Dadiah siap disimpan atau disajikan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Dadiah difermentasi dalam bambu pada suhu ruang."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat telur asin.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Pilih dan bersihkan telur"
+                },
+                {
+                  "id": "p1",
+                  "text": "Amplas permukaan telur"
+                },
+                {
+                  "id": "p2",
+                  "text": "Buat adonan abu dan garam 2:1"
+                },
+                {
+                  "id": "p3",
+                  "text": "Balut telur dengan adonan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Peram 1–2 minggu"
+                },
+                {
+                  "id": "p5",
+                  "text": "Cuci dan rebus sekitar 45 menit"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "p5"
+                ]
+              },
+              "explanation": "Telur asin dibuat dengan membalut adonan lalu memeramnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lama pemeraman telur asin adalah…",
+              "options": [
+                {
+                  "text": "1–2 minggu",
+                  "correct": true
+                },
+                {
+                  "text": "1–2 jam"
+                },
+                {
+                  "text": "1–2 hari"
+                },
+                {
+                  "text": "1–2 bulan"
+                }
+              ],
+              "explanation": "Telur asin diperam selama 1–2 minggu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Undang-Undang yang mengatur pencantuman label pangan adalah…",
+              "options": [
+                {
+                  "text": "UU No. 18 Tahun 2012",
+                  "correct": true
+                },
+                {
+                  "text": "UU No. 18 Tahun 2002"
+                },
+                {
+                  "text": "UU No. 20 Tahun 2003"
+                },
+                {
+                  "text": "UU No. 12 Tahun 2012"
+                }
+              ],
+              "explanation": "Label pangan diatur dalam UU RI No. 18 Tahun 2012."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap kegiatan promosi?",
+              "options": [
+                {
+                  "text": "Menentukan tujuan promosi",
+                  "correct": true
+                },
+                {
+                  "text": "Menentukan target pasar",
+                  "correct": true
+                },
+                {
+                  "text": "Menentukan anggaran",
+                  "correct": true
+                },
+                {
+                  "text": "Memilih media promosi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari evaluasi",
+                  "correct": false
+                },
+                {
+                  "text": "Menaikkan harga tanpa alasan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Promosi dimulai dari tujuan, target pasar, anggaran, dan media."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Daging",
+                  "right": "sekitar 75 persen air dan 18 persen protein"
+                },
+                {
+                  "id": "m1",
+                  "left": "Ikan",
+                  "right": "protein mudah diserap tubuh"
+                },
+                {
+                  "id": "m2",
+                  "left": "Susu",
+                  "right": "cairan dari kelenjar mamalia"
+                },
+                {
+                  "id": "m3",
+                  "left": "Telur",
+                  "right": "bahan hewani selain daging, ikan, dan susu"
+                },
+                {
+                  "id": "m4",
+                  "left": "Cakalang fufu",
+                  "right": "pengasapan khas Manado"
+                },
+                {
+                  "id": "m5",
+                  "left": "Dadiah",
+                  "right": "fermentasi susu kerbau khas Minang"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "sekitar 75 persen air dan 18 persen protein",
+                  "m1": "protein mudah diserap tubuh",
+                  "m2": "cairan dari kelenjar mamalia",
+                  "m3": "bahan hewani selain daging, ikan, dan susu",
+                  "m4": "pengasapan khas Manado",
+                  "m5": "fermentasi susu kerbau khas Minang"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah promosi produk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Tentukan tujuan promosi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tentukan target pasar dan harga jual"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tentukan anggaran promosi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Pilih media promosi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Ukur efektivitas promosi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Promosi dimulai dari tujuan lalu diakhiri pengukuran."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

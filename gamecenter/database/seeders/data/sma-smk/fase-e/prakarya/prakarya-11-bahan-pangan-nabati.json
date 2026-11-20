@@ -1,0 +1,1333 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 11",
+      "title": "Bahan Pangan Nabati: Lebih Sehat dan Ramah Lingkungan",
+      "description": "Mengenal buah, sayuran, serealia, kacang-kacangan, dan umbi-umbian, teknik pengawetan fisika, biologis, dan kimiawi, makanan khas Nusantara, desain kemasan dan label, serta perhitungan harga jual dan BEP.",
+      "learning_objectives": [
+        "Mengeksplorasi produk olahan pangan higienis Nusantara dari bahan nabati.",
+        "Menganalisis karakteristik bahan, alat, teknik, dan prosedur pengolahan pangan nabati.",
+        "Mengembangkan desain produk dan kemasan olahan pangan nabati.",
+        "Merancang pemasaran dan analisis usaha produk pangan nabati secara sederhana.",
+        "Membuat, mengemas, dan mempromosikan produk olahan pangan nabati Nusantara."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 1 Bahan Pangan Nabati: Lebih Sehat dan Ramah Lingkungan",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa bahan pangan nabati penting?",
+          "duration": 240,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 1 Bahan Pangan Nabati: Lebih Sehat dan Ramah Lingkungan",
+          "content": "## Kekayaan pangan dari tumbuhan\n\nBahan pangan nabati berasal dari tumbuhan dan memiliki karakteristik yang berbeda satu dengan lainnya. Buah-buahan memiliki rasa enak dan menyegarkan serta kaya serat, vitamin A, vitamin B, vitamin B1, vitamin B6, dan vitamin C. Contohnya pisang, jeruk, apel, dan pepaya.\n\nSayuran mengandung zat gizi lengkap berupa vitamin, mineral, serat, kalsium, zat besi, folat, dan kalium. Contohnya kangkung, selada, terong, kol, dan buncis. Serealia berasal dari biji-bijian dan menjadi sumber makanan pokok karena kaya karbohidrat, protein, serat, serta vitamin E dan B.\n\nKacang-kacangan memiliki biji lebih besar dari serealia dan kaya serat, protein, lemak sehat, mineral, serta vitamin E. Umbi-umbian menjadi sumber karbohidrat atau pati, vitamin, protein, mineral, zat besi, fosfor, kalsium, dan serat. Semua kelompok ini menjadi bahan utama olahan pangan higienis Nusantara.\n\nCuci bahan pangan dengan air mengalir sebelum diolah. Gunakan celemek dan sarung tangan saat memotong bahan agar aman dari goresan pisau.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-11-bahan-pangan-nabati-glosarium",
+              "terms": [
+                {
+                  "term": "Bahan pangan nabati",
+                  "definition": "Bahan pangan yang berasal dari tumbuhan, seperti buah, sayur, serealia, kacang, dan umbi."
+                },
+                {
+                  "term": "Serealia",
+                  "definition": "Bahan pangan dari biji-bijian yang menjadi sumber makanan pokok."
+                },
+                {
+                  "term": "Kacang-kacangan",
+                  "definition": "Bahan pangan biji berukuran lebih besar dari serealia yang kaya protein dan lemak sehat."
+                },
+                {
+                  "term": "Umbi-umbian",
+                  "definition": "Bahan pangan dengan bagian umbi yang kaya karbohidrat atau pati."
+                },
+                {
+                  "term": "Pengawetan",
+                  "definition": "Cara membuat makanan memiliki daya simpan lama serta mempertahankan sifat fisik dan kimianya."
+                },
+                {
+                  "term": "Fermentasi",
+                  "definition": "Pengawetan biologis dengan peragian yang mengubah karbohidrat menjadi alkohol atau asam."
+                },
+                {
+                  "term": "BTM",
+                  "definition": "Bahan tambahan makanan yang dipakai pada pengawetan kimiawi sesuai takaran."
+                },
+                {
+                  "term": "BEP",
+                  "definition": "Titik impas, yaitu keadaan usaha tidak laba dan tidak rugi."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kekayaan pangan dari tumbuhan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bahan pangan nabati berasal dari tumbuhan dan memiliki karakteristik yang berbeda satu dengan lainnya. Buah-buahan memiliki rasa enak dan menyegarkan serta kaya serat, vitamin A, vitamin B, vitamin B1, vitamin B6, dan vitamin C. Contohnya pisang, jeruk, apel, dan pepaya."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sayuran mengandung zat gizi lengkap berupa vitamin, mineral, serat, kalsium, zat besi, folat, dan kalium. Contohnya kangkung, selada, terong, kol, dan buncis. Serealia berasal dari biji-bijian dan menjadi sumber makanan pokok karena kaya karbohidrat, protein, serat, serta vitamin E dan B."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kacang-kacangan memiliki biji lebih besar dari serealia dan kaya serat, protein, lemak sehat, mineral, serta vitamin E. Umbi-umbian menjadi sumber karbohidrat atau pati, vitamin, protein, mineral, zat besi, fosfor, kalsium, dan serat. Semua kelompok ini menjadi bahan utama olahan pangan higienis Nusantara."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-11-bahan-pangan-nabati-diagram",
+              "engine": "mermaid",
+              "title": "Lima kelompok bahan pangan nabati",
+              "code": "flowchart TB\n  A[Bahan pangan nabati] --> B[Buah-buahan]\n  A --> C[Sayuran]\n  A --> D[Serealia]\n  A --> E[Kacang-kacangan]\n  A --> F[Umbi-umbian]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Cuci bahan pangan dengan air mengalir sebelum diolah. Gunakan celemek dan sarung tangan saat memotong bahan agar aman dari goresan pisau."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-11-bahan-pangan-nabati-cp-1",
+              "question": "Kelompok bahan pangan nabati yang kaya serat serta vitamin A, B, dan C adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Buah-buahan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Serealia"
+                },
+                {
+                  "id": "c2",
+                  "text": "Umbi-umbian"
+                },
+                {
+                  "id": "c3",
+                  "text": "Kacang-kacangan"
+                }
+              ],
+              "explanation": "Buah-buahan kaya serat, vitamin A, vitamin B, vitamin B1, vitamin B6, dan vitamin C."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Jenis bahan dan teknik pengawetan",
+          "duration": 300,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 1 Bahan Pangan Nabati: Lebih Sehat dan Ramah Lingkungan",
+          "content": "## Mengawetkan pangan nabati\n\nPengawetan makanan adalah cara membuat makanan memiliki daya simpan lama dan mempertahankan sifat fisik serta kimianya. Teknik pengawetan fisika meliputi pemanasan, pembekuan, pengalengan, pembuatan acar, pengentalan, pengeringan, dan pembuatan tepung. Pemanasan susu cukup pada suhu 60–70 °C selama sekitar 30 menit karena proteinnya mudah rusak.\n\nPengawetan biologis dilakukan dengan peragian atau fermentasi dan penambahan enzim. Papain adalah enzim dari buah pepaya, sedangkan bromelin adalah enzim dari buah nanas. Pengawetan kimiawi memakai bahan tambahan makanan atau BTM yang harus sesuai takaran, baik pada bahan cair nonminyak maupun yang mengandung minyak.\n\nKearifan lokal memperkaya pilihan bahan. Ubi Cilembu dari Desa Cilembu, Kabupaten Sumedang, Jawa Barat, memiliki rasa manis seperti madu dan aroma mirip mentega. Rasa itu hanya muncul bila ditanam di tanah Cilembu. Makanan khas Nusantara juga beragam, seperti bika ambon dari Medan berbahan terigu dan kerak telor dari Jakarta berbahan beras ketan.\n\n| Teknik | Cara | Contoh |\n|---|---|---|\n| Pemanasan | Memanaskan pada suhu tertentu | Susu 60–70 °C |\n| Pembekuan | Menurunkan suhu di bawah titik beku air | Sayuran frozen |\n| Pengalengan | Wadah tertutup rapat dan steril | Manisan buah kaleng |\n| Pembuatan acar | Garam dan cuka | Acar mentimun |\n| Pengentalan | Mengentalkan bahan cair | Dodol |\n| Pengeringan | Mengurangi kadar air | Keripik |\n| Pembuatan tepung | Mengubah bahan menjadi bubuk | Tepung beras |\n\n### Kemasan, label, dan harga jual\n\n- Kemasan yang baik melindungi isi, mudah dibuka dan ditutup, bentuknya menarik, labelnya jelas, serta ramah lingkungan.\n- Bahan kemasan meliputi logam atau kaleng, kaca, plastik, dan kertas atau karton.\n- Label memuat nama produk, merek, komposisi, berat bersih, nama dan alamat produsen, nomor PIRT atau MD, tanggal kadaluarsa, dan kode produksi.\n- Harga jual ditentukan dengan mempertimbangkan pelanggan, pesaing, dan biaya produksi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengawetkan pangan nabati"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengawetan makanan adalah cara membuat makanan memiliki daya simpan lama dan mempertahankan sifat fisik serta kimianya. Teknik pengawetan fisika meliputi pemanasan, pembekuan, pengalengan, pembuatan acar, pengentalan, pengeringan, dan pembuatan tepung. Pemanasan susu cukup pada suhu 60–70 °C selama sekitar 30 menit karena proteinnya mudah rusak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pengawetan biologis dilakukan dengan peragian atau fermentasi dan penambahan enzim. Papain adalah enzim dari buah pepaya, sedangkan bromelin adalah enzim dari buah nanas. Pengawetan kimiawi memakai bahan tambahan makanan atau BTM yang harus sesuai takaran, baik pada bahan cair nonminyak maupun yang mengandung minyak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kearifan lokal memperkaya pilihan bahan. Ubi Cilembu dari Desa Cilembu, Kabupaten Sumedang, Jawa Barat, memiliki rasa manis seperti madu dan aroma mirip mentega. Rasa itu hanya muncul bila ditanam di tanah Cilembu. Makanan khas Nusantara juga beragam, seperti bika ambon dari Medan berbahan terigu dan kerak telor dari Jakarta berbahan beras ketan."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Teknik",
+                  "Cara",
+                  "Contoh"
+                ],
+                [
+                  "Pemanasan",
+                  "Memanaskan pada suhu tertentu",
+                  "Susu 60–70 °C"
+                ],
+                [
+                  "Pembekuan",
+                  "Menurunkan suhu di bawah titik beku air",
+                  "Sayuran frozen"
+                ],
+                [
+                  "Pengalengan",
+                  "Wadah tertutup rapat dan steril",
+                  "Manisan buah kaleng"
+                ],
+                [
+                  "Pembuatan acar",
+                  "Garam dan cuka",
+                  "Acar mentimun"
+                ],
+                [
+                  "Pengentalan",
+                  "Mengentalkan bahan cair",
+                  "Dodol"
+                ],
+                [
+                  "Pengeringan",
+                  "Mengurangi kadar air",
+                  "Keripik"
+                ],
+                [
+                  "Pembuatan tepung",
+                  "Mengubah bahan menjadi bubuk",
+                  "Tepung beras"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-11-kadar-air",
+              "title": "Perkiraan kadar air beberapa bahan pangan nabati (%)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Buah",
+                  "value": 85
+                },
+                {
+                  "label": "Sayuran",
+                  "value": 90
+                },
+                {
+                  "label": "Umbi",
+                  "value": 70
+                },
+                {
+                  "label": "Serealia kering",
+                  "value": 12
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-11-klasifikasi",
+              "prompt": "Kelompokkan bahan berikut ke dalam buah, sayuran, serealia, kacang-kacangan, atau umbi-umbian.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Buah"
+                },
+                {
+                  "id": "b2",
+                  "label": "Sayuran"
+                },
+                {
+                  "id": "b3",
+                  "label": "Serealia"
+                },
+                {
+                  "id": "b4",
+                  "label": "Kacang-kacangan"
+                },
+                {
+                  "id": "b5",
+                  "label": "Umbi-umbian"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Pisang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Kangkung",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Beras",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i4",
+                  "text": "Kedelai",
+                  "bucket": "b4"
+                },
+                {
+                  "id": "i5",
+                  "text": "Singkong",
+                  "bucket": "b5"
+                },
+                {
+                  "id": "i6",
+                  "text": "Kentang",
+                  "bucket": "b5"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Pisang buah; kangkung sayuran; beras serealia; kedelai kacang-kacangan; singkong dan kentang umbi-umbian.",
+                "wrong": "Periksa lagi: lihat bagian tumbuhan yang dimanfaatkan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kemasan, label, dan harga jual"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kemasan yang baik melindungi isi, mudah dibuka dan ditutup, bentuknya menarik, labelnya jelas, serta ramah lingkungan.",
+                "Bahan kemasan meliputi logam atau kaleng, kaca, plastik, dan kertas atau karton.",
+                "Label memuat nama produk, merek, komposisi, berat bersih, nama dan alamat produsen, nomor PIRT atau MD, tanggal kadaluarsa, dan kode produksi.",
+                "Harga jual ditentukan dengan mempertimbangkan pelanggan, pesaing, dan biaya produksi."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-11-bahan-pangan-nabati-cp-2",
+              "question": "Pengawetan susu dengan pemanasan cukup dilakukan pada suhu…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "60–70 °C",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "100–120 °C"
+                },
+                {
+                  "id": "c2",
+                  "text": "150–180 °C"
+                },
+                {
+                  "id": "c3",
+                  "text": "200–250 °C"
+                }
+              ],
+              "explanation": "Susu dipanaskan pada suhu 60–70 °C selama sekitar 30 menit agar proteinnya tidak rusak."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 1 Bahan Pangan Nabati: Lebih Sehat dan Ramah Lingkungan",
+          "content": "## Membuat dodol dan menghitung BEP\n\nDodol adalah makanan khas Indonesia yang hampir dimiliki setiap daerah. Bahan dasarnya tepung beras, ketan, santan, dan gula merah. Pengawetannya alami melalui pengentalan dan penambahan gula. Dodol memiliki rasa manis legit dengan warna dan tekstur kental, sedangkan pembungkus, perisa, dan namanya berbeda antar daerah.\n\nUntuk membuat dodol, campurkan 250 gram tepung ketan putih dan 150 gram tepung ketan hitam, lalu masukkan agar-agar. Masak 400 gram gula merah, 2 lembar pandan, dan 400 ml santan hingga larut, saring, lalu campurkan bahan kering. Aduk terus sekitar 50 menit sampai warna agak gelap dan tidak lengket di teflon. Tuang, ratakan, potong, dan taburi wijen sangrai.\n\nSebagai alternatif, buat sirup buah pala dari 750 gram buah pala matang, 750 ml air, 500 gram gula pasir, dan ¼ sendok teh citrun zuur. Setelah produk siap, tentukan harga jual dengan mempertimbangkan pelanggan, pesaing, dan biaya produksi. Hitung BEP produksi dengan membagi total biaya dengan harga penjualan, lalu hitung BEP harga dengan membagi total biaya dengan harga produksi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat dodol dan menghitung BEP"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dodol adalah makanan khas Indonesia yang hampir dimiliki setiap daerah. Bahan dasarnya tepung beras, ketan, santan, dan gula merah. Pengawetannya alami melalui pengentalan dan penambahan gula. Dodol memiliki rasa manis legit dengan warna dan tekstur kental, sedangkan pembungkus, perisa, dan namanya berbeda antar daerah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk membuat dodol, campurkan 250 gram tepung ketan putih dan 150 gram tepung ketan hitam, lalu masukkan agar-agar. Masak 400 gram gula merah, 2 lembar pandan, dan 400 ml santan hingga larut, saring, lalu campurkan bahan kering. Aduk terus sekitar 50 menit sampai warna agak gelap dan tidak lengket di teflon. Tuang, ratakan, potong, dan taburi wijen sangrai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebagai alternatif, buat sirup buah pala dari 750 gram buah pala matang, 750 ml air, 500 gram gula pasir, dan ¼ sendok teh citrun zuur. Setelah produk siap, tentukan harga jual dengan mempertimbangkan pelanggan, pesaing, dan biaya produksi. Hitung BEP produksi dengan membagi total biaya dengan harga penjualan, lalu hitung BEP harga dengan membagi total biaya dengan harga produksi."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-11-skenario",
+              "title": "Dodol sekolah yang tidak tahan lama",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Dodol buatan kelompokmu cepat berjamur. Apa langkah yang paling tepat?",
+                  "choices": [
+                    {
+                      "text": "Memperbaiki proses pengentalan dan kadar gula",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Pengentalan dan gula membantu menurunkan kadar air sehingga dodol lebih awet."
+                    },
+                    {
+                      "text": "Menambah air agar dodol lebih lembut",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Air berlebih mempercepat pertumbuhan mikroorganisme."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Dodol sudah awet, tetapi kemasannya mudah rusak saat diangkut. Apa solusinya?",
+                  "choices": [
+                    {
+                      "text": "Memilih kemasan yang melindungi isi dan mudah dibawa",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kemasan harus melindungi produk, mudah dibuka, dan mudah dibawa."
+                    },
+                    {
+                      "text": "Membungkus dengan kertas tipis tanpa label",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Kemasan tipis tidak melindungi produk dan tanpa label sulit dikenali."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Produk rusak dan tidak layak dijual.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Dodol awet, kemasan menarik, dan usaha untung.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-11-bahan-pangan-nabati-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan lima kelompok bahan pangan nabati.",
+                  "back": "Buah, sayuran, serealia, kacang-kacangan, dan umbi-umbian."
+                },
+                {
+                  "front": "Apa enzim dari pepaya dan nanas?",
+                  "back": "Papain dari pepaya dan bromelin dari nanas."
+                },
+                {
+                  "front": "Apa rumus BEP produksi?",
+                  "back": "Total biaya dibagi harga penjualan."
+                },
+                {
+                  "front": "Apa saja isi label produk?",
+                  "back": "Nama produk, merek, komposisi, berat bersih, produsen, nomor PIRT/MD, kadaluarsa, dan kode produksi."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-11-bahan-pangan-nabati-cp-3",
+              "question": "BEP produksi dihitung dengan cara…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Total biaya dibagi harga penjualan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Harga penjualan dibagi total biaya"
+                },
+                {
+                  "id": "c2",
+                  "text": "Total biaya dikali harga produksi"
+                },
+                {
+                  "id": "c3",
+                  "text": "Laba dibagi jumlah karyawan"
+                }
+              ],
+              "explanation": "BEP produksi = total biaya ÷ harga penjualan."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-11-tantangan",
+              "title": "Tantangan istilah pangan nabati",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Bahan pangan dari biji-bijian",
+                  "answer": "serealia"
+                },
+                {
+                  "question": "Bahan pangan dari bagian umbi",
+                  "answer": "umbi-umbian"
+                },
+                {
+                  "question": "Enzim dari buah pepaya",
+                  "answer": "papain"
+                },
+                {
+                  "question": "Enzim dari buah nanas",
+                  "answer": "bromelin"
+                },
+                {
+                  "question": "Titik impas usaha",
+                  "answer": "BEP"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Bahan Pangan Nabati: Lebih Sehat dan Ramah Lingkungan — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Kelompok bahan pangan nabati yang kaya serat serta vitamin A, B, dan C adalah…",
+              "options": [
+                {
+                  "text": "Buah-buahan",
+                  "correct": true
+                },
+                {
+                  "text": "Serealia"
+                },
+                {
+                  "text": "Umbi-umbian"
+                },
+                {
+                  "text": "Kacang-kacangan"
+                }
+              ],
+              "explanation": "Buah-buahan kaya serat, vitamin A, vitamin B, vitamin B1, vitamin B6, dan vitamin C.",
+              "hint": "Rasanya enak dan menyegarkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Serealia merupakan bahan pangan yang berasal dari…",
+              "options": [
+                {
+                  "text": "Biji-bijian",
+                  "correct": true
+                },
+                {
+                  "text": "Umbi"
+                },
+                {
+                  "text": "Daun"
+                },
+                {
+                  "text": "Bunga"
+                }
+              ],
+              "explanation": "Serealia berasal dari biji-bijian dan menjadi sumber makanan pokok.",
+              "hint": "Contohnya beras dan gandum."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kandungan utama umbi-umbian adalah…",
+              "options": [
+                {
+                  "text": "Karbohidrat atau pati",
+                  "correct": true
+                },
+                {
+                  "text": "Protein hewani"
+                },
+                {
+                  "text": "Lemak jenuh"
+                },
+                {
+                  "text": "Garam mineral"
+                }
+              ],
+              "explanation": "Umbi-umbian memiliki kandungan utama karbohidrat atau pati.",
+              "hint": "Juga mengandung vitamin dan serat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk buah-buahan?",
+              "options": [
+                {
+                  "text": "Pisang",
+                  "correct": true
+                },
+                {
+                  "text": "Jeruk",
+                  "correct": true
+                },
+                {
+                  "text": "Pepaya",
+                  "correct": true
+                },
+                {
+                  "text": "Kangkung",
+                  "correct": false
+                },
+                {
+                  "text": "Bayam",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pisang, jeruk, dan pepaya termasuk buah-buahan.",
+              "hint": "Kangkung dan bayam termasuk sayuran."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk sayuran?",
+              "options": [
+                {
+                  "text": "Kangkung",
+                  "correct": true
+                },
+                {
+                  "text": "Selada",
+                  "correct": true
+                },
+                {
+                  "text": "Terong",
+                  "correct": true
+                },
+                {
+                  "text": "Beras",
+                  "correct": false
+                },
+                {
+                  "text": "Gandum",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kangkung, selada, dan terong termasuk sayuran.",
+              "hint": "Beras dan gandum termasuk serealia."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Bahan Pangan Nabati: Lebih Sehat dan Ramah Lingkungan — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh serealia?",
+              "options": [
+                {
+                  "text": "Beras, sorgum, barley, jagung, gandum",
+                  "correct": true
+                },
+                {
+                  "text": "Kacang tanah, kacang hijau, kedelai"
+                },
+                {
+                  "text": "Bengkoang, singkong, talas"
+                },
+                {
+                  "text": "Pisang, jeruk, apel"
+                }
+              ],
+              "explanation": "Beras, sorgum, barley, jagung, dan gandum termasuk serealia.",
+              "hint": "Bagian yang dimanfaatkan adalah bijinya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh kacang-kacangan?",
+              "options": [
+                {
+                  "text": "Kacang tanah, kacang merah, kacang hijau, kedelai",
+                  "correct": true
+                },
+                {
+                  "text": "Beras, jagung, gandum"
+                },
+                {
+                  "text": "Singkong, talas, kentang"
+                },
+                {
+                  "text": "Kangkung, selada, kol"
+                }
+              ],
+              "explanation": "Kacang tanah, kacang merah, kacang hijau, dan kedelai termasuk kacang-kacangan.",
+              "hint": "Ukuran bijinya lebih besar dari serealia."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh serealia?",
+              "options": [
+                {
+                  "text": "Beras",
+                  "correct": true
+                },
+                {
+                  "text": "Jagung",
+                  "correct": true
+                },
+                {
+                  "text": "Gandum",
+                  "correct": true
+                },
+                {
+                  "text": "Kentang",
+                  "correct": false
+                },
+                {
+                  "text": "Talas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Beras, jagung, dan gandum termasuk serealia.",
+              "hint": "Kentang dan talas termasuk umbi-umbian."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah teknik pengawetan secara fisika?",
+              "options": [
+                {
+                  "text": "Pemanasan",
+                  "correct": true
+                },
+                {
+                  "text": "Pembekuan",
+                  "correct": true
+                },
+                {
+                  "text": "Pengeringan",
+                  "correct": true
+                },
+                {
+                  "text": "Fermentasi",
+                  "correct": false
+                },
+                {
+                  "text": "Pengasinan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pemanasan, pembekuan, dan pengeringan termasuk pengawetan fisika.",
+              "hint": "Fermentasi biologis dan pengasinan kimiawi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Buah-buahan",
+                  "right": "kaya serat dan vitamin C"
+                },
+                {
+                  "id": "m1",
+                  "left": "Serealia",
+                  "right": "sumber makanan pokok dari biji-bijian"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kacang-kacangan",
+                  "right": "biji berukuran lebih besar dari serealia"
+                },
+                {
+                  "id": "m3",
+                  "left": "Umbi-umbian",
+                  "right": "sumber karbohidrat atau pati"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "kaya serat dan vitamin C",
+                  "m1": "sumber makanan pokok dari biji-bijian",
+                  "m2": "biji berukuran lebih besar dari serealia",
+                  "m3": "sumber karbohidrat atau pati"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat dodol.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Campur tepung ketan dan agar-agar"
+                },
+                {
+                  "id": "d1",
+                  "text": "Masak gula merah, pandan, dan santan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Saring larutan gula"
+                },
+                {
+                  "id": "d3",
+                  "text": "Campur bahan kering dan aduk"
+                },
+                {
+                  "id": "d4",
+                  "text": "Masak sekitar 50 menit hingga tidak lengket"
+                },
+                {
+                  "id": "d5",
+                  "text": "Tuang, ratakan, dan potong"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4",
+                  "d5"
+                ]
+              },
+              "explanation": "Dodol dimasak dari larutan gula lalu diaduk hingga kental.",
+              "hint": "Adonan diaduk terus agar tidak menggumpal."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat sirup buah pala.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Cuci buah pala"
+                },
+                {
+                  "id": "p1",
+                  "text": "Pisahkan biji dan cincang daging buah"
+                },
+                {
+                  "id": "p2",
+                  "text": "Blender dengan air"
+                },
+                {
+                  "id": "p3",
+                  "text": "Tuang ke panci dan tambah gula"
+                },
+                {
+                  "id": "p4",
+                  "text": "Rebus hingga mendidih"
+                },
+                {
+                  "id": "p5",
+                  "text": "Saring dan dinginkan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "p5"
+                ]
+              },
+              "explanation": "Sirup dibuat dari buah pala yang diblender lalu direbus.",
+              "hint": "Buah dibersihkan sebelum diolah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ubi Cilembu berasal dari daerah…",
+              "options": [
+                {
+                  "text": "Desa Cilembu, Kabupaten Sumedang, Jawa Barat",
+                  "correct": true
+                },
+                {
+                  "text": "Desa Cilembu, Kalimantan Timur"
+                },
+                {
+                  "text": "Desa Cilembu, Papua"
+                },
+                {
+                  "text": "Desa Cilembu, Sulawesi Utara"
+                }
+              ],
+              "explanation": "Ubi Cilembu berasal dari Desa Cilembu, Kabupaten Sumedang, Jawa Barat.",
+              "hint": "Rasanya manis seperti madu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pemanasan susu pada pengawetan fisika dilakukan pada suhu…",
+              "options": [
+                {
+                  "text": "60–70 °C",
+                  "correct": true
+                },
+                {
+                  "text": "30–40 °C"
+                },
+                {
+                  "text": "90–100 °C"
+                },
+                {
+                  "text": "150–160 °C"
+                }
+              ],
+              "explanation": "Susu dipanaskan pada suhu 60–70 °C selama sekitar 30 menit.",
+              "hint": "Protein susu mudah rusak pada suhu tinggi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh kacang-kacangan?",
+              "options": [
+                {
+                  "text": "Kacang tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Kacang hijau",
+                  "correct": true
+                },
+                {
+                  "text": "Kedelai",
+                  "correct": true
+                },
+                {
+                  "text": "Ubi jalar",
+                  "correct": false
+                },
+                {
+                  "text": "Singkong",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kacang tanah, kacang hijau, dan kedelai termasuk kacang-kacangan.",
+              "hint": "Ubi jalar dan singkong umbi-umbian."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Bahan Pangan Nabati: Lebih Sehat dan Ramah Lingkungan — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pengawetan dengan menurunkan suhu hingga di bawah titik beku air disebut…",
+              "options": [
+                {
+                  "text": "Pembekuan",
+                  "correct": true
+                },
+                {
+                  "text": "Pemanasan"
+                },
+                {
+                  "text": "Pengeringan"
+                },
+                {
+                  "text": "Pengentalan"
+                }
+              ],
+              "explanation": "Pembekuan menurunkan suhu bahan hingga di bawah titik beku air."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pengawetan sayur atau buah dengan garam dan cuka disebut…",
+              "options": [
+                {
+                  "text": "Pembuatan acar",
+                  "correct": true
+                },
+                {
+                  "text": "Pengalengan"
+                },
+                {
+                  "text": "Pengentalan"
+                },
+                {
+                  "text": "Pembuatan tepung"
+                }
+              ],
+              "explanation": "Acar dibuat dengan pemberian garam dan cuka pada sayur atau buah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Enzim yang berasal dari buah pepaya adalah…",
+              "options": [
+                {
+                  "text": "Papain",
+                  "correct": true
+                },
+                {
+                  "text": "Bromelin"
+                },
+                {
+                  "text": "Amilase"
+                },
+                {
+                  "text": "Lipase"
+                }
+              ],
+              "explanation": "Papain adalah enzim dari buah pepaya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Enzim yang berasal dari buah nanas adalah…",
+              "options": [
+                {
+                  "text": "Bromelin",
+                  "correct": true
+                },
+                {
+                  "text": "Papain"
+                },
+                {
+                  "text": "Pepsin"
+                },
+                {
+                  "text": "Renin"
+                }
+              ],
+              "explanation": "Bromelin adalah enzim dari buah nanas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Makanan khas Jakarta yang berbahan dasar beras ketan adalah…",
+              "options": [
+                {
+                  "text": "Kerak telor",
+                  "correct": true
+                },
+                {
+                  "text": "Bika ambon"
+                },
+                {
+                  "text": "Pisang ijo"
+                },
+                {
+                  "text": "Kalumpe"
+                }
+              ],
+              "explanation": "Kerak telor berasal dari Jakarta dan berbahan beras ketan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah teknik pengawetan secara biologis?",
+              "options": [
+                {
+                  "text": "Fermentasi",
+                  "correct": true
+                },
+                {
+                  "text": "Penambahan enzim papain",
+                  "correct": true
+                },
+                {
+                  "text": "Penambahan enzim bromelin",
+                  "correct": true
+                },
+                {
+                  "text": "Pengalengan",
+                  "correct": false
+                },
+                {
+                  "text": "Pembekuan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengawetan biologis memakai fermentasi atau penambahan enzim."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bahan kemasan yang disebut dalam materi?",
+              "options": [
+                {
+                  "text": "Logam atau kaleng",
+                  "correct": true
+                },
+                {
+                  "text": "Kaca",
+                  "correct": true
+                },
+                {
+                  "text": "Plastik",
+                  "correct": true
+                },
+                {
+                  "text": "Kertas atau karton",
+                  "correct": true
+                },
+                {
+                  "text": "Kayu jati",
+                  "correct": false
+                },
+                {
+                  "text": "Semen",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bahan kemasan meliputi logam, kaca, plastik, serta kertas atau karton."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Papain",
+                  "right": "enzim dari buah pepaya"
+                },
+                {
+                  "id": "m1",
+                  "left": "Bromelin",
+                  "right": "enzim dari buah nanas"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pengalengan",
+                  "right": "wadah tertutup rapat dan steril"
+                },
+                {
+                  "id": "m3",
+                  "left": "BEP",
+                  "right": "titik impas usaha"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "enzim dari buah pepaya",
+                  "m1": "enzim dari buah nanas",
+                  "m2": "wadah tertutup rapat dan steril",
+                  "m3": "titik impas usaha"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan proses pengalengan.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Siapkan bahan dan wadah"
+                },
+                {
+                  "id": "d1",
+                  "text": "Masukkan bahan ke wadah"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tutup wadah rapat"
+                },
+                {
+                  "id": "d3",
+                  "text": "Sterilkan dengan panas"
+                },
+                {
+                  "id": "d4",
+                  "text": "Dinginkan dan simpan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pengalengan menutup rapat bahan lalu mensterilkannya."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat acar.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Cuci sayur atau buah"
+                },
+                {
+                  "id": "p1",
+                  "text": "Potong sesuai selera"
+                },
+                {
+                  "id": "p2",
+                  "text": "Campur garam dan cuka"
+                },
+                {
+                  "id": "p3",
+                  "text": "Masukkan ke wadah tertutup"
+                },
+                {
+                  "id": "p4",
+                  "text": "Diamkan hingga meresap"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Acar dibuat dengan garam dan cuka lalu didiamkan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "BEP produksi dihitung dengan rumus…",
+              "options": [
+                {
+                  "text": "Total biaya ÷ harga penjualan",
+                  "correct": true
+                },
+                {
+                  "text": "Harga penjualan ÷ total biaya"
+                },
+                {
+                  "text": "Total biaya × harga produksi"
+                },
+                {
+                  "text": "Laba ÷ beban usaha"
+                }
+              ],
+              "explanation": "BEP produksi = total biaya dibagi harga penjualan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kemasan yang tahan terhadap asam dan basa serta tidak bereaksi dengan bahan adalah…",
+              "options": [
+                {
+                  "text": "Kemasan kaca",
+                  "correct": true
+                },
+                {
+                  "text": "Kemasan plastik"
+                },
+                {
+                  "text": "Kemasan kertas"
+                },
+                {
+                  "text": "Kemasan daun"
+                }
+              ],
+              "explanation": "Kemasan kaca tahan terhadap produk asam dan basa serta tidak bereaksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah unsur yang sebaiknya tertera pada label?",
+              "options": [
+                {
+                  "text": "Nama produk",
+                  "correct": true
+                },
+                {
+                  "text": "Komposisi produk",
+                  "correct": true
+                },
+                {
+                  "text": "Tanggal kadaluarsa",
+                  "correct": true
+                },
+                {
+                  "text": "Nomor PIRT atau MD",
+                  "correct": true
+                },
+                {
+                  "text": "Nomor telepon pribadi",
+                  "correct": false
+                },
+                {
+                  "text": "Alamat rumah tetangga",
+                  "correct": false
+                }
+              ],
+              "explanation": "Label memuat nama produk, komposisi, kadaluarsa, dan nomor PIRT atau MD."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Buah-buahan",
+                  "right": "kaya serat dan vitamin C"
+                },
+                {
+                  "id": "m1",
+                  "left": "Serealia",
+                  "right": "sumber makanan pokok dari biji-bijian"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kacang-kacangan",
+                  "right": "biji berukuran lebih besar dari serealia"
+                },
+                {
+                  "id": "m3",
+                  "left": "Umbi-umbian",
+                  "right": "sumber karbohidrat atau pati"
+                },
+                {
+                  "id": "m4",
+                  "left": "Papain",
+                  "right": "enzim dari buah pepaya"
+                },
+                {
+                  "id": "m5",
+                  "left": "Bromelin",
+                  "right": "enzim dari buah nanas"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "kaya serat dan vitamin C",
+                  "m1": "sumber makanan pokok dari biji-bijian",
+                  "m2": "biji berukuran lebih besar dari serealia",
+                  "m3": "sumber karbohidrat atau pati",
+                  "m4": "enzim dari buah pepaya",
+                  "m5": "enzim dari buah nanas"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menentukan harga jual.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Hitung biaya produksi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Perhatikan daya beli pelanggan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Bandingkan harga pesaing"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tetapkan harga jual"
+                },
+                {
+                  "id": "d4",
+                  "text": "Hitung BEP"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Harga jual ditetapkan setelah biaya dan pasar diketahui."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

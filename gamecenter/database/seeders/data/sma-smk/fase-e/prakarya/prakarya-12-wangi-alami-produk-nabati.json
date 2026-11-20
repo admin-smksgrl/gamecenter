@@ -1,0 +1,1307 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 12",
+      "title": "Wangi Alami dengan Produk Nabati",
+      "description": "Mengolah bahan nabati menjadi produk nonpangan seperti kosmetik, perawatan tubuh, dan aromaterapi kopi, serta menyusun kemasan, promosi, dan analisis usaha dengan SWOT.",
+      "learning_objectives": [
+        "Mengeksplorasi produk olahan nonpangan dari bahan nabati yang bernilai ekonomis.",
+        "Menganalisis karakteristik bahan, alat, teknik, dan prosedur pengolahan nonpangan nabati.",
+        "Mengembangkan desain produk dan kemasan nonpangan nabati.",
+        "Merancang pemasaran dan analisis usaha produk nonpangan nabati secara sederhana.",
+        "Membuat, mengemas, dan mempromosikan produk nonpangan nabati."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 2 Wangi Alami dengan Produk Nabati",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa bahan nabati bisa menjadi produk nonpangan?",
+          "duration": 240,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 2 Wangi Alami dengan Produk Nabati",
+          "content": "## Kecantikan alami dari buah dan sayur\n\nProduk nonpangan berbahan nabati banyak memanfaatkan khasiat buah dan sayuran sebagai bahan kosmetik atau produk perawatan tubuh yang menghasilkan kecantikan alami. Produk ini tidak membuat iritasi kulit dan dapat dipakai untuk semua jenis kulit. Nenek moyang kita sudah memakai buah dan sayur sebagai rahasia kecantikan.\n\nBeberapa khasiat bahan nabati antara lain bengkuang sebagai pencerah wajah, alpukat untuk melembapkan kulit, pisang untuk menghaluskan kulit wajah bahkan menghilangkan bekas cacar atau jerawat, serta lidah aloe yang mendinginkan kulit dan mencegah kerontokan rambut.\n\nTeknologi modern mengadaptasi khasiat itu, terutama melalui pengeringan bahan nabati. Setelah kering, bahan nabati lebih mudah diolah menjadi banyak variasi. Diperlukan ketekunan dan ketelitian agar produk yang dihasilkan baik dan bermanfaat.\n\nLakukan uji kecil pada kulit sebelum memakai produk perawatan tubuh buatan sendiri. Hentikan pemakaian bila timbul gatal atau kemerahan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-12-wangi-alami-produk-nabati-glosarium",
+              "terms": [
+                {
+                  "term": "Produk nonpangan nabati",
+                  "definition": "Produk dari bahan tumbuhan yang bukan untuk dimakan, misalnya kosmetik dan perawatan tubuh."
+                },
+                {
+                  "term": "Aromaterapi",
+                  "definition": "Terapi atau pengharum ruangan yang memanfaatkan aroma bahan alami."
+                },
+                {
+                  "term": "SWOT",
+                  "definition": "Analisis kekuatan, kelemahan, peluang, dan ancaman sebuah usaha."
+                },
+                {
+                  "term": "Biaya tetap",
+                  "definition": "Biaya yang jumlahnya tidak bergantung pada jumlah produksi, seperti gaji dan sewa."
+                },
+                {
+                  "term": "Biaya variabel",
+                  "definition": "Biaya yang berubah mengikuti kegiatan produksi, seperti bahan baku dan lembur."
+                },
+                {
+                  "term": "HPP",
+                  "definition": "Harga pokok penjualan, yaitu dasar untuk menentukan harga jual produk."
+                },
+                {
+                  "term": "Laba bersih",
+                  "definition": "Laba kotor dikurangi beban usaha."
+                },
+                {
+                  "term": "Penjualan bersih",
+                  "definition": "Penjualan kotor setelah dikurangi retur, potongan, dan pengurangan harga."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kecantikan alami dari buah dan sayur"
+            },
+            {
+              "type": "paragraph",
+              "text": "Produk nonpangan berbahan nabati banyak memanfaatkan khasiat buah dan sayuran sebagai bahan kosmetik atau produk perawatan tubuh yang menghasilkan kecantikan alami. Produk ini tidak membuat iritasi kulit dan dapat dipakai untuk semua jenis kulit. Nenek moyang kita sudah memakai buah dan sayur sebagai rahasia kecantikan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Beberapa khasiat bahan nabati antara lain bengkuang sebagai pencerah wajah, alpukat untuk melembapkan kulit, pisang untuk menghaluskan kulit wajah bahkan menghilangkan bekas cacar atau jerawat, serta lidah aloe yang mendinginkan kulit dan mencegah kerontokan rambut."
+            },
+            {
+              "type": "paragraph",
+              "text": "Teknologi modern mengadaptasi khasiat itu, terutama melalui pengeringan bahan nabati. Setelah kering, bahan nabati lebih mudah diolah menjadi banyak variasi. Diperlukan ketekunan dan ketelitian agar produk yang dihasilkan baik dan bermanfaat."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-12-wangi-alami-produk-nabati-diagram",
+              "engine": "mermaid",
+              "title": "Dari bahan nabati menjadi produk nonpangan",
+              "code": "flowchart LR\n  A[Buah dan sayur] --> B[Pengeringan]\n  B --> C[Ekstraksi atau pencampuran]\n  C --> D[Produk nonpangan]\n  D --> E[Kemasan dan label]\n  E --> F[Promosi dan penjualan]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Lakukan uji kecil pada kulit sebelum memakai produk perawatan tubuh buatan sendiri. Hentikan pemakaian bila timbul gatal atau kemerahan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-12-wangi-alami-produk-nabati-cp-1",
+              "question": "Bahan nabati yang bermanfaat sebagai pencerah wajah adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Bengkuang",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Alpukat"
+                },
+                {
+                  "id": "c2",
+                  "text": "Pisang"
+                },
+                {
+                  "id": "c3",
+                  "text": "Lidah buaya"
+                }
+              ],
+              "explanation": "Bengkuang bermanfaat sebagai pencerah wajah, sedangkan alpukat melembapkan kulit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Pemanfaatan kopi dan bagian padi",
+          "duration": 300,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 2 Wangi Alami dengan Produk Nabati",
+          "content": "## Wangi alami dan nilai tambah\n\nKopi merupakan komoditas perkebunan bernilai ekonomi tinggi dan menjadi sumber penghasilan bagi masyarakat di daerah penghasil kopi. Perkembangan kopi di Indonesia naik sejak tahun 2007 seiring perluasan pasar hingga mancanegara. Kopi juga menjadi sumber daya alam yang menghasilkan devisa negara.\n\nSelain diseduh, kopi dimanfaatkan sebagai pengharum ruangan karena aromanya menghilangkan bau tidak sedap, mengusir serangga, mengilapkan furnitur kayu, membersihkan noda, dan ampasnya menjadi pupuk tanaman. Aromaterapi kopi dibuat dari lilin kecil, sumbu lilin, gelas kaca, dan kopi bubuk.\n\nBagian padi juga dapat dimanfaatkan. Beras menjadi makanan pokok dan dapat diolah menjadi bahan kosmetik, sekam menjadi media tanam, batang dan daun kering menjadi bahan bakar tungku, serta dedak menjadi pakan ternak. Pemanfaatan ini mengurangi limbah dan menambah nilai ekonomi.\n\n| Bahan | Manfaat nonpangan |\n|---|---|\n| Bengkuang | Pencerah wajah |\n| Alpukat | Pelembap kulit |\n| Pisang | Penghalus kulit wajah |\n| Lidah buaya | Pendingin kulit dan pencegah kerontokan rambut |\n| Kopi | Pengharum ruangan dan aromaterapi |\n| Sekam padi | Media tanam |\n| Dedak padi | Pakan ternak |\n\n### Analisis usaha dengan SWOT\n\n- Analisis usaha memperlihatkan kelayakan usaha dan dipengaruhi faktor internal serta eksternal.\n- Faktor internal meliputi proses produksi, penentuan harga, dan bahan baku.\n- Faktor eksternal meliputi pemasaran, distribusi, geopolitik, dan lain-lain.\n- SWOT berarti strengths, weaknesses, opportunities, dan threats.\n- Target pasar dapat dikategorikan berdasarkan rentang umur, pekerjaan, dan minat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Wangi alami dan nilai tambah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kopi merupakan komoditas perkebunan bernilai ekonomi tinggi dan menjadi sumber penghasilan bagi masyarakat di daerah penghasil kopi. Perkembangan kopi di Indonesia naik sejak tahun 2007 seiring perluasan pasar hingga mancanegara. Kopi juga menjadi sumber daya alam yang menghasilkan devisa negara."
+            },
+            {
+              "type": "paragraph",
+              "text": "Selain diseduh, kopi dimanfaatkan sebagai pengharum ruangan karena aromanya menghilangkan bau tidak sedap, mengusir serangga, mengilapkan furnitur kayu, membersihkan noda, dan ampasnya menjadi pupuk tanaman. Aromaterapi kopi dibuat dari lilin kecil, sumbu lilin, gelas kaca, dan kopi bubuk."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bagian padi juga dapat dimanfaatkan. Beras menjadi makanan pokok dan dapat diolah menjadi bahan kosmetik, sekam menjadi media tanam, batang dan daun kering menjadi bahan bakar tungku, serta dedak menjadi pakan ternak. Pemanfaatan ini mengurangi limbah dan menambah nilai ekonomi."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bahan",
+                  "Manfaat nonpangan"
+                ],
+                [
+                  "Bengkuang",
+                  "Pencerah wajah"
+                ],
+                [
+                  "Alpukat",
+                  "Pelembap kulit"
+                ],
+                [
+                  "Pisang",
+                  "Penghalus kulit wajah"
+                ],
+                [
+                  "Lidah buaya",
+                  "Pendingin kulit dan pencegah kerontokan rambut"
+                ],
+                [
+                  "Kopi",
+                  "Pengharum ruangan dan aromaterapi"
+                ],
+                [
+                  "Sekam padi",
+                  "Media tanam"
+                ],
+                [
+                  "Dedak padi",
+                  "Pakan ternak"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-12-pemanfaatan-kopi",
+              "title": "Lima pemanfaatan kopi dan ampasnya",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Pengharum ruangan",
+                  "value": 5
+                },
+                {
+                  "label": "Mengusir serangga",
+                  "value": 4
+                },
+                {
+                  "label": "Mengilapkan furnitur",
+                  "value": 3
+                },
+                {
+                  "label": "Membersihkan noda",
+                  "value": 3
+                },
+                {
+                  "label": "Pupuk tanaman",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-12-klasifikasi",
+              "prompt": "Kelompokkan bahan berikut sesuai manfaat nonpangannya.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Perawatan kulit"
+                },
+                {
+                  "id": "b2",
+                  "label": "Pengharum dan kebersihan"
+                },
+                {
+                  "id": "b3",
+                  "label": "Pemanfaatan limbah padi"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Bengkuang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Alpukat",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Kopi bubuk",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Ampas kopi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Sekam padi",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i6",
+                  "text": "Dedak padi",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Bengkuang dan alpukat untuk perawatan kulit; kopi untuk pengharum dan kebersihan; sekam serta dedak berasal dari limbah padi.",
+                "wrong": "Periksa lagi: cocokkan bahan dengan manfaat yang disebut buku."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Analisis usaha dengan SWOT"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Analisis usaha memperlihatkan kelayakan usaha dan dipengaruhi faktor internal serta eksternal.",
+                "Faktor internal meliputi proses produksi, penentuan harga, dan bahan baku.",
+                "Faktor eksternal meliputi pemasaran, distribusi, geopolitik, dan lain-lain.",
+                "SWOT berarti strengths, weaknesses, opportunities, dan threats.",
+                "Target pasar dapat dikategorikan berdasarkan rentang umur, pekerjaan, dan minat."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-12-wangi-alami-produk-nabati-cp-2",
+              "question": "SWOT adalah singkatan dari…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Strengths, weaknesses, opportunities, threats",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Sales, wages, orders, taxes"
+                },
+                {
+                  "id": "c2",
+                  "text": "Strength, work, output, time"
+                },
+                {
+                  "id": "c3",
+                  "text": "Supply, warehouse, owner, transport"
+                }
+              ],
+              "explanation": "SWOT berarti kekuatan, kelemahan, peluang, dan ancaman."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 2 Wangi Alami dengan Produk Nabati",
+          "content": "## Membuat aromaterapi kopi dan laporan usaha\n\nUntuk membuat aromaterapi kopi, iris tipis lilin lalu lelehkan di tempat tahan panas atau di atas api kecil. Letakkan sumbu di dalam gelas kaca, tuang sedikit lilin cair, lalu tuang kopi bubuk. Ulangi berselang-seling hingga gelas penuh, kemudian nyalakan sumbu saat digunakan.\n\nKemasan perlu didesain agar bentuk dan penampilannya indah serta menarik. Produsen sebaiknya mengurangi berat kemasan agar anggaran transportasi dan harga jual ikut turun. Kemasan juga harus melindungi produk, mudah dibuka dan ditutup, serta labelnya jelas.\n\nSusun laporan usaha dengan mencatat pendapatan, biaya tetap seperti gaji dan sewa, serta biaya variabel seperti bahan baku dan lembur. Laba bersih dihitung dari laba kotor dikurangi beban usaha. Penjualan bersih adalah penjualan setelah dikurangi retur, potongan, dan pengurangan harga.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat aromaterapi kopi dan laporan usaha"
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk membuat aromaterapi kopi, iris tipis lilin lalu lelehkan di tempat tahan panas atau di atas api kecil. Letakkan sumbu di dalam gelas kaca, tuang sedikit lilin cair, lalu tuang kopi bubuk. Ulangi berselang-seling hingga gelas penuh, kemudian nyalakan sumbu saat digunakan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kemasan perlu didesain agar bentuk dan penampilannya indah serta menarik. Produsen sebaiknya mengurangi berat kemasan agar anggaran transportasi dan harga jual ikut turun. Kemasan juga harus melindungi produk, mudah dibuka dan ditutup, serta labelnya jelas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Susun laporan usaha dengan mencatat pendapatan, biaya tetap seperti gaji dan sewa, serta biaya variabel seperti bahan baku dan lembur. Laba bersih dihitung dari laba kotor dikurangi beban usaha. Penjualan bersih adalah penjualan setelah dikurangi retur, potongan, dan pengurangan harga."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-12-skenario",
+              "title": "Aromaterapi kopi di bazar sekolah",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kelompokmu ingin menjual aromaterapi kopi. Langkah awal apa yang tepat?",
+                  "choices": [
+                    {
+                      "text": "Menentukan target pasar dan menghitung biaya produksi",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Target pasar dan biaya produksi menjadi dasar harga jual."
+                    },
+                    {
+                      "text": "Langsung menetapkan harga paling mahal",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Harga tanpa perhitungan membuat produk sulit bersaing."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Produk sudah jadi, tetapi kemasannya berat dan mudah rusak. Apa tindakanmu?",
+                  "choices": [
+                    {
+                      "text": "Memilih kemasan ringan yang tetap melindungi produk",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kemasan ringan menghemat transportasi dan tetap melindungi produk."
+                    },
+                    {
+                      "text": "Menambah lapisan semen agar kokoh",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Semen membuat kemasan berat dan tidak sesuai untuk produk."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Produk tidak laku dan usaha merugi.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Produk diminati dan usaha memperoleh laba.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-12-wangi-alami-produk-nabati-kartu",
+              "cards": [
+                {
+                  "front": "Apa khasiat pisang untuk kulit?",
+                  "back": "Menghaluskan kulit wajah dan menghilangkan bekas cacar atau jerawat."
+                },
+                {
+                  "front": "Apa bahan aromaterapi kopi?",
+                  "back": "Lilin kecil, sumbu lilin, gelas kaca, dan kopi bubuk."
+                },
+                {
+                  "front": "Apa itu SWOT?",
+                  "back": "Kekuatan, kelemahan, peluang, dan ancaman."
+                },
+                {
+                  "front": "Apa rumus laba bersih?",
+                  "back": "Laba kotor dikurangi beban usaha."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-12-wangi-alami-produk-nabati-cp-3",
+              "question": "Rumus laba bersih adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Laba kotor – beban usaha",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Laba kotor + beban usaha"
+                },
+                {
+                  "id": "c2",
+                  "text": "Penjualan + retur"
+                },
+                {
+                  "id": "c3",
+                  "text": "Biaya tetap × biaya variabel"
+                }
+              ],
+              "explanation": "Laba bersih diperoleh dari laba kotor dikurangi beban usaha."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-12-tantangan",
+              "title": "Tantangan istilah produk nabati",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Pencerah wajah alami",
+                  "answer": "bengkuang"
+                },
+                {
+                  "question": "Pelembap kulit alami",
+                  "answer": "alpukat"
+                },
+                {
+                  "question": "Analisis kekuatan dan kelemahan usaha",
+                  "answer": "SWOT"
+                },
+                {
+                  "question": "Harga pokok penjualan",
+                  "answer": "HPP"
+                },
+                {
+                  "question": "Penjualan setelah dikurangi retur",
+                  "answer": "penjualan bersih"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Wangi Alami dengan Produk Nabati — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Produk nonpangan nabati banyak memanfaatkan khasiat…",
+              "options": [
+                {
+                  "text": "Buah dan sayuran",
+                  "correct": true
+                },
+                {
+                  "text": "Daging dan ikan"
+                },
+                {
+                  "text": "Susu dan telur"
+                },
+                {
+                  "text": "Bulu dan sisik"
+                }
+              ],
+              "explanation": "Produk nonpangan nabati memanfaatkan khasiat buah dan sayuran.",
+              "hint": "Dipakai untuk kosmetik dan perawatan tubuh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan nabati yang bermanfaat sebagai pencerah wajah adalah…",
+              "options": [
+                {
+                  "text": "Bengkuang",
+                  "correct": true
+                },
+                {
+                  "text": "Alpukat"
+                },
+                {
+                  "text": "Pisang"
+                },
+                {
+                  "text": "Lidah buaya"
+                }
+              ],
+              "explanation": "Bengkuang dimanfaatkan sebagai pencerah wajah.",
+              "hint": "Alpukat untuk melembapkan kulit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan nabati yang bermanfaat melembapkan kulit adalah…",
+              "options": [
+                {
+                  "text": "Alpukat",
+                  "correct": true
+                },
+                {
+                  "text": "Bengkuang"
+                },
+                {
+                  "text": "Pisang"
+                },
+                {
+                  "text": "Lidah buaya"
+                }
+              ],
+              "explanation": "Alpukat dapat melembapkan kulit.",
+              "hint": "Pisang menghaluskan kulit wajah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah khasiat bahan nabati untuk kecantikan?",
+              "options": [
+                {
+                  "text": "Bengkuang mencerahkan wajah",
+                  "correct": true
+                },
+                {
+                  "text": "Alpukat melembapkan kulit",
+                  "correct": true
+                },
+                {
+                  "text": "Pisang menghaluskan kulit wajah",
+                  "correct": true
+                },
+                {
+                  "text": "Bengkuang memutihkan rambut",
+                  "correct": false
+                },
+                {
+                  "text": "Alpukat mengeraskan kulit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bengkuang, alpukat, dan pisang bermanfaat untuk kecantikan kulit.",
+              "hint": "Semuanya diolah menjadi masker atau perawatan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pemanfaatan kopi?",
+              "options": [
+                {
+                  "text": "Pengharum ruangan",
+                  "correct": true
+                },
+                {
+                  "text": "Mengusir serangga",
+                  "correct": true
+                },
+                {
+                  "text": "Mengilapkan furnitur kayu",
+                  "correct": true
+                },
+                {
+                  "text": "Bahan bakar pesawat",
+                  "correct": false
+                },
+                {
+                  "text": "Obat keras",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kopi dipakai sebagai pengharum, pengusir serangga, dan pengilap furnitur.",
+              "hint": "Ampasnya menjadi pupuk tanaman."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Wangi Alami dengan Produk Nabati — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Pisang bermanfaat untuk…",
+              "options": [
+                {
+                  "text": "Menghaluskan kulit wajah dan menghilangkan bekas cacar",
+                  "correct": true
+                },
+                {
+                  "text": "Memutihkan gigi"
+                },
+                {
+                  "text": "Menebalkan rambut"
+                },
+                {
+                  "text": "Menghilangkan bau badan"
+                }
+              ],
+              "explanation": "Pisang menghaluskan kulit wajah dan menghilangkan bekas cacar atau jerawat.",
+              "hint": "Dipakai sebagai bahan masker."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lidah buaya bermanfaat untuk…",
+              "options": [
+                {
+                  "text": "Mendinginkan kulit dan mencegah kerontokan rambut",
+                  "correct": true
+                },
+                {
+                  "text": "Mencerahkan wajah"
+                },
+                {
+                  "text": "Melembapkan kulit"
+                },
+                {
+                  "text": "Menghilangkan noda"
+                },
+                {
+                  "text": "Mengilapkan furnitur"
+                }
+              ],
+              "explanation": "Lidah buaya mendinginkan kulit serta mencegah kerontokan rambut.",
+              "hint": "Banyak dipakai pada produk perawatan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bagian padi yang dimanfaatkan?",
+              "options": [
+                {
+                  "text": "Beras",
+                  "correct": true
+                },
+                {
+                  "text": "Sekam",
+                  "correct": true
+                },
+                {
+                  "text": "Dedak",
+                  "correct": true
+                },
+                {
+                  "text": "Bulu",
+                  "correct": false
+                },
+                {
+                  "text": "Sisik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Beras, sekam, dan dedak berasal dari padi dan dapat dimanfaatkan.",
+              "hint": "Bulu dan sisik berasal dari hewan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alat dan bahan membuat aromaterapi kopi?",
+              "options": [
+                {
+                  "text": "Lilin",
+                  "correct": true
+                },
+                {
+                  "text": "Sumbu lilin",
+                  "correct": true
+                },
+                {
+                  "text": "Gelas kaca",
+                  "correct": true
+                },
+                {
+                  "text": "Kopi bubuk",
+                  "correct": true
+                },
+                {
+                  "text": "Semen",
+                  "correct": false
+                },
+                {
+                  "text": "Paku",
+                  "correct": false
+                }
+              ],
+              "explanation": "Aromaterapi kopi memakai lilin, sumbu, gelas kaca, dan kopi bubuk.",
+              "hint": "Semen dan paku bukan bahan aromaterapi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Bengkuang",
+                  "right": "pencerah wajah"
+                },
+                {
+                  "id": "m1",
+                  "left": "Alpukat",
+                  "right": "pelembap kulit"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pisang",
+                  "right": "penghalus kulit wajah"
+                },
+                {
+                  "id": "m3",
+                  "left": "Lidah buaya",
+                  "right": "pendingin kulit dan pencegah kerontokan rambut"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pencerah wajah",
+                  "m1": "pelembap kulit",
+                  "m2": "penghalus kulit wajah",
+                  "m3": "pendingin kulit dan pencegah kerontokan rambut"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat aromaterapi kopi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Iris tipis lilin"
+                },
+                {
+                  "id": "d1",
+                  "text": "Lelehkan lilin"
+                },
+                {
+                  "id": "d2",
+                  "text": "Letakkan sumbu di gelas kaca"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tuang lilin cair dan kopi bergantian"
+                },
+                {
+                  "id": "d4",
+                  "text": "Nyalakan sumbu saat digunakan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Aromaterapi dibuat dengan menuang lilin dan kopi berselang-seling.",
+              "hint": "Lilin dilelehkan sebelum dituang."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah analisis SWOT.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Identifikasi kekuatan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Identifikasi kelemahan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Identifikasi peluang"
+                },
+                {
+                  "id": "p3",
+                  "text": "Identifikasi ancaman"
+                },
+                {
+                  "id": "p4",
+                  "text": "Susun strategi usaha"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "SWOT dimulai dari empat identifikasi lalu disusun strategi.",
+              "hint": "Keempat unsur dianalisis berurutan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu pemanfaatan kopi selain diseduh adalah…",
+              "options": [
+                {
+                  "text": "Pengharum ruangan",
+                  "correct": true
+                },
+                {
+                  "text": "Bahan bakar pesawat"
+                },
+                {
+                  "text": "Obat keras"
+                },
+                {
+                  "text": "Bahan bangunan"
+                }
+              ],
+              "explanation": "Aroma kopi dipakai sebagai pengharum ruangan.",
+              "hint": "Juga dapat mengusir serangga."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ampas kopi dapat dimanfaatkan sebagai…",
+              "options": [
+                {
+                  "text": "Pupuk tanaman",
+                  "correct": true
+                },
+                {
+                  "text": "Pewarna kain"
+                },
+                {
+                  "text": "Bahan peledak"
+                },
+                {
+                  "text": "Pengganti air"
+                }
+              ],
+              "explanation": "Ampas kopi dapat menjadi pupuk tanaman.",
+              "hint": "Selain itu untuk membersihkan noda."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah unsur SWOT?",
+              "options": [
+                {
+                  "text": "Strengths",
+                  "correct": true
+                },
+                {
+                  "text": "Weaknesses",
+                  "correct": true
+                },
+                {
+                  "text": "Opportunities",
+                  "correct": true
+                },
+                {
+                  "text": "Salary",
+                  "correct": false
+                },
+                {
+                  "text": "Warehouse",
+                  "correct": false
+                }
+              ],
+              "explanation": "SWOT terdiri atas strengths, weaknesses, opportunities, dan threats.",
+              "hint": "Salary dan warehouse bukan unsur SWOT."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Wangi Alami dengan Produk Nabati — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "SWOT merupakan singkatan dari…",
+              "options": [
+                {
+                  "text": "Strengths, weaknesses, opportunities, threats",
+                  "correct": true
+                },
+                {
+                  "text": "Sales, wages, orders, taxes"
+                },
+                {
+                  "text": "Strength, work, output, time"
+                },
+                {
+                  "text": "Supply, warehouse, owner, transport"
+                }
+              ],
+              "explanation": "SWOT berarti kekuatan, kelemahan, peluang, dan ancaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh biaya tetap dalam usaha adalah…",
+              "options": [
+                {
+                  "text": "Gaji karyawan, sewa gedung, dan penyusutan",
+                  "correct": true
+                },
+                {
+                  "text": "Pembelian bahan baku"
+                },
+                {
+                  "text": "Biaya lembur"
+                },
+                {
+                  "text": "Biaya kerja harian"
+                }
+              ],
+              "explanation": "Biaya tetap meliputi gaji, sewa gedung, dan penyusutan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh biaya variabel dalam usaha adalah…",
+              "options": [
+                {
+                  "text": "Pembelian alat, lembur, dan kerja harian",
+                  "correct": true
+                },
+                {
+                  "text": "Gaji karyawan"
+                },
+                {
+                  "text": "Sewa gedung"
+                },
+                {
+                  "text": "Penyusutan"
+                }
+              ],
+              "explanation": "Biaya variabel meliputi pembelian alat, lembur, dan kerja harian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Rumus laba bersih adalah…",
+              "options": [
+                {
+                  "text": "Laba kotor – beban usaha",
+                  "correct": true
+                },
+                {
+                  "text": "Laba kotor + beban usaha"
+                },
+                {
+                  "text": "Penjualan – retur"
+                },
+                {
+                  "text": "Biaya tetap × biaya variabel"
+                }
+              ],
+              "explanation": "Laba bersih = laba kotor dikurangi beban usaha."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sekam padi dapat dimanfaatkan sebagai…",
+              "options": [
+                {
+                  "text": "Media tanam",
+                  "correct": true
+                },
+                {
+                  "text": "Pakan ternak"
+                },
+                {
+                  "text": "Bahan kosmetik"
+                },
+                {
+                  "text": "Bahan bakar tungku"
+                }
+              ],
+              "explanation": "Sekam padi dapat digunakan sebagai media tanam."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah faktor internal analisis usaha?",
+              "options": [
+                {
+                  "text": "Proses produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Penentuan harga",
+                  "correct": true
+                },
+                {
+                  "text": "Bahan baku",
+                  "correct": true
+                },
+                {
+                  "text": "Geopolitik",
+                  "correct": false
+                },
+                {
+                  "text": "Distribusi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Faktor internal meliputi proses produksi, penentuan harga, dan bahan baku."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komponen biaya produksi?",
+              "options": [
+                {
+                  "text": "Biaya tetap",
+                  "correct": true
+                },
+                {
+                  "text": "Biaya variabel",
+                  "correct": true
+                },
+                {
+                  "text": "Laba bersih",
+                  "correct": false
+                },
+                {
+                  "text": "Penjualan bersih",
+                  "correct": false
+                }
+              ],
+              "explanation": "Biaya produksi terdiri atas biaya tetap dan biaya variabel."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Kopi",
+                  "right": "pengharum ruangan alami"
+                },
+                {
+                  "id": "m1",
+                  "left": "Sekam padi",
+                  "right": "media tanam"
+                },
+                {
+                  "id": "m2",
+                  "left": "SWOT",
+                  "right": "analisis kekuatan, kelemahan, peluang, ancaman"
+                },
+                {
+                  "id": "m3",
+                  "left": "HPP",
+                  "right": "harga pokok penjualan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pengharum ruangan alami",
+                  "m1": "media tanam",
+                  "m2": "analisis kekuatan, kelemahan, peluang, ancaman",
+                  "m3": "harga pokok penjualan"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menentukan harga jual.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Hitung HPP"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tambahkan biaya lain"
+                },
+                {
+                  "id": "d2",
+                  "text": "Tentukan target laba"
+                },
+                {
+                  "id": "d3",
+                  "text": "Tetapkan harga jual"
+                },
+                {
+                  "id": "d4",
+                  "text": "Bandingkan dengan harga pesaing"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Harga jual ditetapkan setelah HPP dan biaya lain diketahui."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menyusun laporan penjualan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Catat pendapatan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Catat beban usaha"
+                },
+                {
+                  "id": "p2",
+                  "text": "Hitung laba kotor"
+                },
+                {
+                  "id": "p3",
+                  "text": "Kurangi beban usaha"
+                },
+                {
+                  "id": "p4",
+                  "text": "Tentukan laba bersih"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Laporan disusun dari pendapatan menuju laba bersih."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Dedak padi dapat dimanfaatkan sebagai…",
+              "options": [
+                {
+                  "text": "Pakan ternak",
+                  "correct": true
+                },
+                {
+                  "text": "Media tanam"
+                },
+                {
+                  "text": "Bahan kosmetik"
+                },
+                {
+                  "text": "Bahan bakar tungku"
+                }
+              ],
+              "explanation": "Dedak merupakan sisa penggilingan yang dapat menjadi pakan ternak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan utama aromaterapi kopi selain kopi bubuk adalah…",
+              "options": [
+                {
+                  "text": "Lilin, sumbu, dan gelas kaca",
+                  "correct": true
+                },
+                {
+                  "text": "Semen, pasir, dan batu"
+                },
+                {
+                  "text": "Tepung, gula, dan telur"
+                },
+                {
+                  "text": "Kayu, paku, dan cat"
+                }
+              ],
+              "explanation": "Aromaterapi kopi memerlukan lilin kecil, sumbu lilin, gelas kaca, dan kopi bubuk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kategori target pasar?",
+              "options": [
+                {
+                  "text": "Rentang umur",
+                  "correct": true
+                },
+                {
+                  "text": "Pekerjaan",
+                  "correct": true
+                },
+                {
+                  "text": "Minat",
+                  "correct": true
+                },
+                {
+                  "text": "Golongan darah",
+                  "correct": false
+                },
+                {
+                  "text": "Warna favorit",
+                  "correct": false
+                }
+              ],
+              "explanation": "Target pasar dikategorikan berdasarkan umur, pekerjaan, dan minat."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Bengkuang",
+                  "right": "pencerah wajah"
+                },
+                {
+                  "id": "m1",
+                  "left": "Alpukat",
+                  "right": "pelembap kulit"
+                },
+                {
+                  "id": "m2",
+                  "left": "Pisang",
+                  "right": "penghalus kulit wajah"
+                },
+                {
+                  "id": "m3",
+                  "left": "Lidah buaya",
+                  "right": "pendingin kulit dan pencegah kerontokan rambut"
+                },
+                {
+                  "id": "m4",
+                  "left": "Kopi",
+                  "right": "pengharum ruangan alami"
+                },
+                {
+                  "id": "m5",
+                  "left": "Sekam padi",
+                  "right": "media tanam"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pencerah wajah",
+                  "m1": "pelembap kulit",
+                  "m2": "penghalus kulit wajah",
+                  "m3": "pendingin kulit dan pencegah kerontokan rambut",
+                  "m4": "pengharum ruangan alami",
+                  "m5": "media tanam"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pemanfaatan bagian padi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Panen gabah"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pisahkan gabah dari sekam"
+                },
+                {
+                  "id": "d2",
+                  "text": "Giling gabah menjadi beras"
+                },
+                {
+                  "id": "d3",
+                  "text": "Manfaatkan dedak"
+                },
+                {
+                  "id": "d4",
+                  "text": "Olah sekam menjadi media tanam"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Padi diolah bertahap dari gabah hingga menjadi beras dan hasil samping."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

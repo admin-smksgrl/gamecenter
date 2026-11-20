@@ -8,7 +8,52 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-20 16:23 WIB (rilis 0.40.0).
+**Terakhir diperbarui:** 2026-11-20 16:45 WIB (rilis 0.41.0).
+
+## [0.41.0] - 2026-11-20 16:45 WIB
+
+**Batch 17 — buku Prakarya Pengolahan Kelas X tuntas 4/4 unit; Prakarya X
+selesai 14/14 unit.**
+
+### Ditambah
+- **PRA 11 Bahan Pangan Nabati: Lebih Sehat dan Ramah Lingkungan** —
+  glosarium bahan pangan nabati, diagram lima kelompok bahan, tabel jenis dan
+  teknik pengawetan fisika–biologis–kimiawi, grafik kadar air bahan, kelompokkan
+  bahan nabati, makanan khas Nusantara, kemasan–label–harga jual (HPP dan BEP),
+  skenario “Dodol sekolah yang tidak tahan lama”, kartu istilah, dan tantangan.
+- **PRA 12 Wangi Alami dengan Produk Nabati** — glosarium produk nonpangan
+  nabati, diagram alur bahan menjadi produk, tabel pemanfaatan kopi dan bagian
+  padi, grafik lima pemanfaatan kopi, kelompokkan limbah kopi–padi, teknik
+  penyulingan sederhana dan keselamatan kerja, skenario “Aromaterapi kopi di
+  bazar sekolah”, kartu istilah, dan tantangan.
+- **PRA 13 Gugah Selera dengan Olahan Pangan Hewani** — glosarium pangan
+  hewani, diagram empat kelompok bahan, tabel olahan Nusantara dan teknik
+  pengawetan, grafik komposisi daging, kelompokkan bahan hewani, higiene dan
+  rantai dingin, skenario “Telur asin yang terlalu lama diperam”, kartu istilah,
+  dan tantangan.
+- **PRA 14 Manfaatkan Bahan Nonpangan Hewani** — glosarium bahan nonpangan
+  hewani, diagram lima bahan (tulang, darah, kulit, bulu, sisik), tabel produk
+  olahan dan suhu pengolahannya, grafik suhu pengolahan, kelompokkan
+  bahan/produk, pembuatan kemoceng dan kemasannya, bauran pemasaran 7P,
+  skenario “Kemoceng sekolah yang belum dikenal”, kartu istilah, dan tantangan.
+- Keempat bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan
+  campuran pilihan ganda, jawaban ganda, menjodohkan, seret-lepas, dan susun
+  urutan; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- **Buku Prakarya Pengolahan X tuntas 4/4 unit** dan **Prakarya Kelas X tuntas
+  14/14 unit** (Kerajinan 3, Rekayasa 4, Budi Daya 3, Pengolahan 4); seluruhnya
+  memenuhi minimum §5.3 (satu visual, empat aktivitas, dua skenario/tantangan,
+  dua recall, tiga checkpoint per bab).
+
+### Verifikasi
+- `gamecenter:materi-import --dry-run` → 80 berkas, **0 gagal**.
+- Impor sungguhan menambah **4 bab / 12 materi / 12 asesmen / 120 soal**.
+- `gamecenter:materi-coverage` → **81 dari 84 chapter** memenuhi minimum §5.3,
+  **2.799 blok**. PRA 11–14 masing-masing 26 blok, semuanya ✅ lebih dari
+  minimum (PRA 11, 13, 14 punya 3 checkpoint).
+- `php artisan test` → **150 lulus, 1 dilewati, 1.701 asertion**; tes impor
+  mengharapkan 80 bab dan 2.400 soal, tes cakupan memeriksa keempat belas bab
+  Prakarya dan halaman bermain PRA 1, PRA 4, PRA 8, serta PRA 11.
+- `gamecenter:deploy-check` → 0 gagal (13 lulus, 5 peringatan lingkungan lokal).
 
 ## [0.40.0] - 2026-11-20 16:23 WIB
 

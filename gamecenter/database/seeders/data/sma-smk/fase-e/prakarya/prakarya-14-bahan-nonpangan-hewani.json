@@ -1,0 +1,1347 @@
+{
+  "schema_version": 1,
+  "level": "sma",
+  "class": "kelas-10",
+  "subject": "prakarya",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "PRA 14",
+      "title": "Manfaatkan Bahan Nonpangan Hewani",
+      "description": "Mengolah tulang, darah, kulit, bulu, dan sisik menjadi produk nonpangan bernilai ekonomi, membuat kemoceng dan kemasannya, serta memasarkan produk dengan bauran 7P.",
+      "learning_objectives": [
+        "Mengeksplorasi produk olahan nonpangan dari bahan hewani yang bernilai ekonomis.",
+        "Menganalisis karakteristik bahan, alat, teknik, dan prosedur pengolahan nonpangan hewani.",
+        "Mengembangkan desain produk dan kemasan nonpangan hewani.",
+        "Merancang pemasaran dan analisis usaha nonpangan hewani secara sederhana.",
+        "Membuat, mengemas, dan mempromosikan produk nonpangan hewani."
+      ],
+      "estimated_minutes": 135,
+      "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 4 Manfaatkan Bahan Nonpangan Hewani",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa bahan nonpangan hewani perlu diolah?",
+          "duration": 240,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 4 Manfaatkan Bahan Nonpangan Hewani",
+          "content": "## Dari limbah menjadi produk bernilai\n\nProduk olahan nonpangan dari bahan hewani banyak dimanfaatkan untuk kehidupan sehari-hari. Bahan tersebut antara lain tulang, darah, kulit, bulu, dan sisik. Bagian-bagian ini sering menjadi limbah yang dapat mencemari lingkungan jika tidak ditangani dengan baik.\n\nTulang merupakan bagian rangka pembentuk tubuh tempat melekatnya otot dan daging. Darah adalah cairan yang terdiri atas plasma, sel merah, dan sel putih yang mengalir dalam pembuluh darah. Kulit adalah bagian terluar daging, sedangkan bulu merupakan lapisan luar kulit yang menutup tubuh unggas.\n\nSisik adalah lapisan kulit keras berupa kepingan tipis yang tersusun pada ikan. Dengan pengolahan yang tepat, bahan-bahan tersebut berubah menjadi produk bernilai ekonomi sekaligus mengurangi pencemaran lingkungan. Pemanfaatan ini juga meningkatkan nilai tambah bahan.\n\nGunakan sarung tangan dan masker saat mengolah tulang, darah, atau bahan hewani lain. Cuci tangan serta peralatan dengan sabun setelah selesai.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "prakarya-14-bahan-nonpangan-hewani-glosarium",
+              "terms": [
+                {
+                  "term": "Bahan nonpangan hewani",
+                  "definition": "Bagian hewan yang tidak diolah menjadi pangan, seperti tulang, darah, kulit, bulu, dan sisik."
+                },
+                {
+                  "term": "Bovine hidroksiapatit",
+                  "definition": "Serbuk putih hasil pemanasan dan penggilingan tulang sapi atau ikan."
+                },
+                {
+                  "term": "Kolagen",
+                  "definition": "Protein dari tulang atau kulit yang dapat dimanfaatkan sebagai perekat atau bahan produk."
+                },
+                {
+                  "term": "Tepung darah",
+                  "definition": "Produk olahan darah yang dikeringkan atau difermentasi untuk pakan atau pupuk."
+                },
+                {
+                  "term": "Kemoceng",
+                  "definition": "Alat pembersih dari bulu ayam yang dirangkai pada tangkai kayu atau rotan."
+                },
+                {
+                  "term": "Kemasan sekunder",
+                  "definition": "Kemasan tambahan yang memudahkan penyimpanan dan pengangkutan produk."
+                },
+                {
+                  "term": "Bauran pemasaran 7P",
+                  "definition": "Tujuh unsur pemasaran: product, price, place, promotion, people, process, dan physical evidence."
+                },
+                {
+                  "term": "Brand image",
+                  "definition": "Citra atau kesan produk di mata konsumen yang dijaga melalui pemasaran."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari limbah menjadi produk bernilai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Produk olahan nonpangan dari bahan hewani banyak dimanfaatkan untuk kehidupan sehari-hari. Bahan tersebut antara lain tulang, darah, kulit, bulu, dan sisik. Bagian-bagian ini sering menjadi limbah yang dapat mencemari lingkungan jika tidak ditangani dengan baik."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tulang merupakan bagian rangka pembentuk tubuh tempat melekatnya otot dan daging. Darah adalah cairan yang terdiri atas plasma, sel merah, dan sel putih yang mengalir dalam pembuluh darah. Kulit adalah bagian terluar daging, sedangkan bulu merupakan lapisan luar kulit yang menutup tubuh unggas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sisik adalah lapisan kulit keras berupa kepingan tipis yang tersusun pada ikan. Dengan pengolahan yang tepat, bahan-bahan tersebut berubah menjadi produk bernilai ekonomi sekaligus mengurangi pencemaran lingkungan. Pemanfaatan ini juga meningkatkan nilai tambah bahan."
+            },
+            {
+              "type": "diagram",
+              "id": "prakarya-14-bahan-nonpangan-hewani-diagram",
+              "engine": "mermaid",
+              "title": "Lima bahan nonpangan hewani",
+              "code": "flowchart TB\n  A[Bahan nonpangan hewani] --> B[Tulang]\n  A --> C[Darah]\n  A --> D[Kulit]\n  A --> E[Bulu]\n  A --> F[Sisik]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan sarung tangan dan masker saat mengolah tulang, darah, atau bahan hewani lain. Cuci tangan serta peralatan dengan sabun setelah selesai."
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-14-bahan-nonpangan-hewani-cp-1",
+              "question": "Manakah yang termasuk bahan nonpangan hewani?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Tulang, darah, kulit, bulu, dan sisik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Beras, jagung, dan gandum"
+                },
+                {
+                  "id": "c2",
+                  "text": "Bayam, kangkung, dan selada"
+                },
+                {
+                  "id": "c3",
+                  "text": "Kacang tanah, kedelai, dan kacang hijau"
+                }
+              ],
+              "explanation": "Bahan nonpangan hewani meliputi tulang, darah, kulit, bulu, dan sisik."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Produk olahan dari tulang, darah, kulit, bulu, dan sisik",
+          "duration": 300,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 4 Manfaatkan Bahan Nonpangan Hewani",
+          "content": "## Mengubah limbah menjadi produk\n\nTulang sapi dan tulang ikan dapat dimurnikan dengan pemanasan pada suhu 1.000 °C selama 2 jam, lalu digiling menjadi serbuk putih yang disebut bovine hidroksiapatit. Tulang ayam dapat diekstraksi dengan perendaman asam asetat, kemudian dipanaskan pada suhu 60–70 °C selama 8 jam untuk menghasilkan kolagen yang dapat dimanfaatkan sebagai perekat kayu. Penepungan tulang juga menghasilkan pakan ternak kaya kalsium.\n\nDarah ternak besar dari rumah potong hewan dapat diolah menjadi tepung darah melalui pengeringan, penyerapan, atau fermentasi dengan mikroorganisme tertentu. Tepung darah dapat menjadi bahan pakan atau pupuk sehingga mengurangi pencemaran limbah rumah potong hewan. Kulit sapi, kerbau, kambing, atau domba dapat diolah menjadi tas, sepatu, karpet, atau hiasan bernilai ekonomi tinggi karena struktur jaringannya kuat.\n\nBulu unggas seperti ayam, bebek, dan itik dimanfaatkan untuk membuat kemoceng atau sulak. Sentra pembuatan kemoceng Nusantara antara lain berada di Dusun Ngriman, Desa Karanglo, Kecamatan Klaten Selatan, Kabupaten Klaten. Sisik ikan dapat diolah menjadi obat luka karena mengandung kolagen tinggi, serta menjadi bros atau gantungan kunci.\n\n| Bahan | Produk olahan | Manfaat |\n|---|---|---|\n| Tulang sapi dan ikan | Bovine hidroksiapatit | Bahan baku produk bernilai |\n| Tulang ayam | Kolagen | Perekat kayu |\n| Darah | Tepung darah | Pakan atau pupuk |\n| Kulit | Tas, sepatu, karpet | Produk bernilai ekonomi tinggi |\n| Bulu | Kemoceng atau sulak | Alat pembersih |\n| Sisik | Obat luka, bros, gantungan kunci | Kesehatan dan hiasan |\n\n### Kemasan dan pemasaran\n\n- Kemasan melindungi produk dari kerusakan saat penyimpanan dan pendistribusian.\n- Label unik menjadi daya tarik dan ciri khas yang membedakan produk.\n- Kemasan sekunder dan tersier memudahkan pengangkutan produk.\n- Pemasaran memakai bauran 7P: product, price, place, promotion, people, process, dan physical evidence.\n- Pemasaran menjaga brand image, sedangkan promosi menawarkan produk.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengubah limbah menjadi produk"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tulang sapi dan tulang ikan dapat dimurnikan dengan pemanasan pada suhu 1.000 °C selama 2 jam, lalu digiling menjadi serbuk putih yang disebut bovine hidroksiapatit. Tulang ayam dapat diekstraksi dengan perendaman asam asetat, kemudian dipanaskan pada suhu 60–70 °C selama 8 jam untuk menghasilkan kolagen yang dapat dimanfaatkan sebagai perekat kayu. Penepungan tulang juga menghasilkan pakan ternak kaya kalsium."
+            },
+            {
+              "type": "paragraph",
+              "text": "Darah ternak besar dari rumah potong hewan dapat diolah menjadi tepung darah melalui pengeringan, penyerapan, atau fermentasi dengan mikroorganisme tertentu. Tepung darah dapat menjadi bahan pakan atau pupuk sehingga mengurangi pencemaran limbah rumah potong hewan. Kulit sapi, kerbau, kambing, atau domba dapat diolah menjadi tas, sepatu, karpet, atau hiasan bernilai ekonomi tinggi karena struktur jaringannya kuat."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bulu unggas seperti ayam, bebek, dan itik dimanfaatkan untuk membuat kemoceng atau sulak. Sentra pembuatan kemoceng Nusantara antara lain berada di Dusun Ngriman, Desa Karanglo, Kecamatan Klaten Selatan, Kabupaten Klaten. Sisik ikan dapat diolah menjadi obat luka karena mengandung kolagen tinggi, serta menjadi bros atau gantungan kunci."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bahan",
+                  "Produk olahan",
+                  "Manfaat"
+                ],
+                [
+                  "Tulang sapi dan ikan",
+                  "Bovine hidroksiapatit",
+                  "Bahan baku produk bernilai"
+                ],
+                [
+                  "Tulang ayam",
+                  "Kolagen",
+                  "Perekat kayu"
+                ],
+                [
+                  "Darah",
+                  "Tepung darah",
+                  "Pakan atau pupuk"
+                ],
+                [
+                  "Kulit",
+                  "Tas, sepatu, karpet",
+                  "Produk bernilai ekonomi tinggi"
+                ],
+                [
+                  "Bulu",
+                  "Kemoceng atau sulak",
+                  "Alat pembersih"
+                ],
+                [
+                  "Sisik",
+                  "Obat luka, bros, gantungan kunci",
+                  "Kesehatan dan hiasan"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "pra-14-suhu-pengolahan",
+              "title": "Suhu pengolahan beberapa bahan nonpangan hewani (°C)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Tulang sapi",
+                  "value": 1000
+                },
+                {
+                  "label": "Tulang ayam",
+                  "value": 70
+                },
+                {
+                  "label": "Perapian telur",
+                  "value": 30
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "pra-14-klasifikasi",
+              "prompt": "Kelompokkan produk berikut berdasarkan bahan asalnya.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Tulang"
+                },
+                {
+                  "id": "b2",
+                  "label": "Darah"
+                },
+                {
+                  "id": "b3",
+                  "label": "Kulit"
+                },
+                {
+                  "id": "b4",
+                  "label": "Bulu"
+                },
+                {
+                  "id": "b5",
+                  "label": "Sisik"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Bovine hidroksiapatit",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Tepung darah",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i3",
+                  "text": "Tas dan sepatu",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i4",
+                  "text": "Kemoceng",
+                  "bucket": "b4"
+                },
+                {
+                  "id": "i5",
+                  "text": "Obat luka",
+                  "bucket": "b5"
+                },
+                {
+                  "id": "i6",
+                  "text": "Bros dan gantungan kunci",
+                  "bucket": "b5"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Bovine hidroksiapatit dari tulang; tepung darah dari darah; tas dan sepatu dari kulit; kemoceng dari bulu; obat luka serta hiasan dari sisik.",
+                "wrong": "Periksa lagi: cocokkan produk dengan bahan asal yang disebut buku."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Kemasan dan pemasaran"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kemasan melindungi produk dari kerusakan saat penyimpanan dan pendistribusian.",
+                "Label unik menjadi daya tarik dan ciri khas yang membedakan produk.",
+                "Kemasan sekunder dan tersier memudahkan pengangkutan produk.",
+                "Pemasaran memakai bauran 7P: product, price, place, promotion, people, process, dan physical evidence.",
+                "Pemasaran menjaga brand image, sedangkan promosi menawarkan produk."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-14-bahan-nonpangan-hewani-cp-2",
+              "question": "Serbuk putih hasil pemanasan dan penggilingan tulang disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Bovine hidroksiapatit",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Tepung darah"
+                },
+                {
+                  "id": "c2",
+                  "text": "Kolagen"
+                },
+                {
+                  "id": "c3",
+                  "text": "Kitosan"
+                }
+              ],
+              "explanation": "Bovine hidroksiapatit adalah serbuk putih dari tulang sapi atau ikan yang dipanaskan dan digiling."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Prakarya-Pengolahan-BG-KLS-X.pdf Unit 4 Manfaatkan Bahan Nonpangan Hewani",
+          "content": "## Membuat kemoceng dan memasarkan produk\n\nKemoceng dibuat dari bulu ayam. Pilih bulu ekor ayam jago yang lebih besar untuk bagian atas, bulu leher yang lembut dan rapi untuk bagian badan, serta bulu kecil untuk bagian bawah. Bersihkan bulu dengan air mengalir, campur pewarna dan air sesuai intensitas yang diinginkan, rendam bulu, lalu keringkan di bawah sinar matahari langsung.\n\nSetelah kering, rangkai bulu dengan menjahitnya satu per satu menggunakan jarum dan benang. Lilitkan bulu yang telah dirangkai ke tangkai kayu atau rotan, ikat ujung lilitan dengan tali atau benang sol sepatu, lalu buat kait pada tangkai. Kemoceng siap dikemas dan dipasarkan.\n\nKemasan kemoceng melindungi produk dari kerusakan saat penyimpanan dan distribusi. Label yang unik dan merek yang mudah diingat meningkatkan daya tarik konsumen. Untuk memasarkan produk, gunakan bauran 7P yang meliputi produk, harga, tempat, promosi, sumber daya manusia, proses bisnis, dan bukti fisik perusahaan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat kemoceng dan memasarkan produk"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kemoceng dibuat dari bulu ayam. Pilih bulu ekor ayam jago yang lebih besar untuk bagian atas, bulu leher yang lembut dan rapi untuk bagian badan, serta bulu kecil untuk bagian bawah. Bersihkan bulu dengan air mengalir, campur pewarna dan air sesuai intensitas yang diinginkan, rendam bulu, lalu keringkan di bawah sinar matahari langsung."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah kering, rangkai bulu dengan menjahitnya satu per satu menggunakan jarum dan benang. Lilitkan bulu yang telah dirangkai ke tangkai kayu atau rotan, ikat ujung lilitan dengan tali atau benang sol sepatu, lalu buat kait pada tangkai. Kemoceng siap dikemas dan dipasarkan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kemasan kemoceng melindungi produk dari kerusakan saat penyimpanan dan distribusi. Label yang unik dan merek yang mudah diingat meningkatkan daya tarik konsumen. Untuk memasarkan produk, gunakan bauran 7P yang meliputi produk, harga, tempat, promosi, sumber daya manusia, proses bisnis, dan bukti fisik perusahaan."
+            },
+            {
+              "type": "scenario",
+              "id": "pra-14-skenario",
+              "title": "Kemoceng sekolah yang belum dikenal",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kemoceng buatan kelompokmu bagus, tetapi belum ada yang membeli. Apa langkah pertama?",
+                  "choices": [
+                    {
+                      "text": "Menyusun promosi dan menentukan target pasar",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Promosi dan target pasar membantu produk dikenal pembeli."
+                    },
+                    {
+                      "text": "Menurunkan harga sampai di bawah biaya produksi",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Menjual di bawah biaya produksi menimbulkan kerugian."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Pembeli mengeluh kemasan mudah rusak saat dikirim. Apa tindakanmu?",
+                  "choices": [
+                    {
+                      "text": "Menambah kemasan sekunder yang melindungi produk",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kemasan sekunder memudahkan dan melindungi saat pengangkutan."
+                    },
+                    {
+                      "text": "Mengirim tanpa kemasan agar lebih ringan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa kemasan produk mudah rusak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Produk rusak dan usaha merugi.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Produk aman sampai dan usaha memperoleh laba.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "prakarya-14-bahan-nonpangan-hewani-kartu",
+              "cards": [
+                {
+                  "front": "Sebutkan lima bahan nonpangan hewani.",
+                  "back": "Tulang, darah, kulit, bulu, dan sisik."
+                },
+                {
+                  "front": "Apa itu bovine hidroksiapatit?",
+                  "back": "Serbuk putih dari tulang yang dipanaskan 1.000 °C lalu digiling."
+                },
+                {
+                  "front": "Di mana sentra kemoceng Nusantara?",
+                  "back": "Dusun Ngriman, Desa Karanglo, Klaten Selatan, Kabupaten Klaten."
+                },
+                {
+                  "front": "Sebutkan tujuh unsur bauran pemasaran.",
+                  "back": "Product, price, place, promotion, people, process, physical evidence."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "prakarya-14-bahan-nonpangan-hewani-cp-3",
+              "question": "Bulu ayam banyak dimanfaatkan untuk membuat…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Kemoceng atau sulak",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Tepung darah"
+                },
+                {
+                  "id": "c2",
+                  "text": "Bovine hidroksiapatit"
+                },
+                {
+                  "id": "c3",
+                  "text": "Obat luka"
+                }
+              ],
+              "explanation": "Bulu ayam, bebek, dan itik dimanfaatkan untuk membuat kemoceng atau sulak."
+            },
+            {
+              "type": "challenge",
+              "id": "pra-14-tantangan",
+              "title": "Tantangan istilah nonpangan hewani",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Serbuk putih dari tulang",
+                  "answer": "bovine hidroksiapatit"
+                },
+                {
+                  "question": "Produk olahan darah",
+                  "answer": "tepung darah"
+                },
+                {
+                  "question": "Alat pembersih dari bulu ayam",
+                  "answer": "kemoceng"
+                },
+                {
+                  "question": "Bahan hiasan dari sisik ikan",
+                  "answer": "bros"
+                },
+                {
+                  "question": "Bauran pemasaran tujuh unsur",
+                  "answer": "7P"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Manfaatkan Bahan Nonpangan Hewani — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Manakah yang termasuk bahan nonpangan hewani?",
+              "options": [
+                {
+                  "text": "Tulang, darah, kulit, bulu, dan sisik",
+                  "correct": true
+                },
+                {
+                  "text": "Beras, jagung, dan gandum"
+                },
+                {
+                  "text": "Bayam, kangkung, dan selada"
+                },
+                {
+                  "text": "Kacang tanah dan kedelai"
+                }
+              ],
+              "explanation": "Bahan nonpangan hewani meliputi tulang, darah, kulit, bulu, dan sisik.",
+              "hint": "Beras dan sayur termasuk bahan nabati."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bulu ayam banyak dimanfaatkan untuk membuat…",
+              "options": [
+                {
+                  "text": "Kemoceng atau sulak",
+                  "correct": true
+                },
+                {
+                  "text": "Tepung darah"
+                },
+                {
+                  "text": "Obat luka"
+                },
+                {
+                  "text": "Bovine hidroksiapatit"
+                }
+              ],
+              "explanation": "Bulu unggas dimanfaatkan untuk membuat kemoceng atau sulak.",
+              "hint": "Bulu diwarnai lalu dirangkai pada tangkai."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kulit sapi dapat diolah menjadi…",
+              "options": [
+                {
+                  "text": "Tas, sepatu, dan karpet",
+                  "correct": true
+                },
+                {
+                  "text": "Tepung darah"
+                },
+                {
+                  "text": "Obat luka"
+                },
+                {
+                  "text": "Bovine hidroksiapatit"
+                }
+              ],
+              "explanation": "Kulit ternak besar dapat diolah menjadi tas, sepatu, karpet, atau hiasan.",
+              "hint": "Struktur jaringannya kuat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bahan nonpangan hewani?",
+              "options": [
+                {
+                  "text": "Tulang",
+                  "correct": true
+                },
+                {
+                  "text": "Darah",
+                  "correct": true
+                },
+                {
+                  "text": "Kulit",
+                  "correct": true
+                },
+                {
+                  "text": "Bulu",
+                  "correct": true
+                },
+                {
+                  "text": "Sisik",
+                  "correct": true
+                },
+                {
+                  "text": "Beras",
+                  "correct": false
+                },
+                {
+                  "text": "Jagung",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tulang, darah, kulit, bulu, dan sisik termasuk bahan nonpangan hewani.",
+              "hint": "Beras dan jagung bahan nabati."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah produk dari kulit ternak?",
+              "options": [
+                {
+                  "text": "Tas",
+                  "correct": true
+                },
+                {
+                  "text": "Sepatu",
+                  "correct": true
+                },
+                {
+                  "text": "Karpet",
+                  "correct": true
+                },
+                {
+                  "text": "Tempe",
+                  "correct": false
+                },
+                {
+                  "text": "Tahu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kulit ternak diolah menjadi tas, sepatu, dan karpet.",
+              "hint": "Tempe dan tahu berbahan kedelai."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Manfaatkan Bahan Nonpangan Hewani — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Tulang sapi dipanaskan pada suhu… untuk menghasilkan bovine hidroksiapatit",
+              "options": [
+                {
+                  "text": "1.000 °C",
+                  "correct": true
+                },
+                {
+                  "text": "60–70 °C"
+                },
+                {
+                  "text": "100 °C"
+                },
+                {
+                  "text": "500 °C"
+                }
+              ],
+              "explanation": "Tulang sapi dipanaskan pada suhu 1.000 °C selama 2 jam.",
+              "hint": "Setelah itu digiling menjadi serbuk putih."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Lama pemanasan tulang sapi untuk bovine hidroksiapatit adalah…",
+              "options": [
+                {
+                  "text": "2 jam",
+                  "correct": true
+                },
+                {
+                  "text": "8 jam"
+                },
+                {
+                  "text": "30 menit"
+                },
+                {
+                  "text": "2 hari"
+                }
+              ],
+              "explanation": "Tulang sapi dipanaskan pada suhu 1.000 °C selama 2 jam.",
+              "hint": "Hasilnya digiling menjadi serbuk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah produk dari tulang?",
+              "options": [
+                {
+                  "text": "Bovine hidroksiapatit",
+                  "correct": true
+                },
+                {
+                  "text": "Kolagen",
+                  "correct": true
+                },
+                {
+                  "text": "Tepung tulang untuk pakan",
+                  "correct": true
+                },
+                {
+                  "text": "Tepung terigu",
+                  "correct": false
+                },
+                {
+                  "text": "Gula pasir",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tulang dapat menghasilkan bovine hidroksiapatit, kolagen, dan tepung tulang.",
+              "hint": "Tepung terigu dan gula bukan dari tulang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pemanfaatan sisik ikan?",
+              "options": [
+                {
+                  "text": "Obat luka",
+                  "correct": true
+                },
+                {
+                  "text": "Bros",
+                  "correct": true
+                },
+                {
+                  "text": "Gantungan kunci",
+                  "correct": true
+                },
+                {
+                  "text": "Bahan bakar",
+                  "correct": false
+                },
+                {
+                  "text": "Semen",
+                  "correct": false
+                }
+              ],
+              "explanation": "Sisik ikan dapat menjadi obat luka, bros, dan gantungan kunci.",
+              "hint": "Sisik mengandung kolagen tinggi."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Tulang",
+                  "right": "bovine hidroksiapatit"
+                },
+                {
+                  "id": "m1",
+                  "left": "Darah",
+                  "right": "tepung darah"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kulit",
+                  "right": "tas dan sepatu"
+                },
+                {
+                  "id": "m3",
+                  "left": "Bulu",
+                  "right": "kemoceng dan sulak"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "bovine hidroksiapatit",
+                  "m1": "tepung darah",
+                  "m2": "tas dan sepatu",
+                  "m3": "kemoceng dan sulak"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat kemoceng.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Pilih bulu ayam"
+                },
+                {
+                  "id": "d1",
+                  "text": "Bersihkan bulu dengan air mengalir"
+                },
+                {
+                  "id": "d2",
+                  "text": "Campur pewarna dan air"
+                },
+                {
+                  "id": "d3",
+                  "text": "Rendam bulu hingga berwarna"
+                },
+                {
+                  "id": "d4",
+                  "text": "Keringkan di bawah sinar matahari"
+                },
+                {
+                  "id": "d5",
+                  "text": "Jahit bulu satu per satu"
+                },
+                {
+                  "id": "d6",
+                  "text": "Lilitkan ke tangkai dan ikat"
+                },
+                {
+                  "id": "d7",
+                  "text": "Buat kait pada tangkai"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4",
+                  "d5",
+                  "d6",
+                  "d7"
+                ]
+              },
+              "explanation": "Kemoceng dibuat dari bulu yang dibersihkan, diwarnai, dikeringkan, lalu dirangkai.",
+              "hint": "Bulu dijahit sebelum dililitkan ke tangkai."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat tepung darah.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Tampung darah segar"
+                },
+                {
+                  "id": "p1",
+                  "text": "Keringkan atau fermentasikan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Giling menjadi tepung"
+                },
+                {
+                  "id": "p3",
+                  "text": "Ayak untuk menyeragamkan"
+                },
+                {
+                  "id": "p4",
+                  "text": "Kemas untuk pakan atau pupuk"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Tepung darah dibuat dari darah yang dikeringkan lalu digiling.",
+              "hint": "Hasilnya berupa tepung halus."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kolagen dari tulang ayam dapat dimanfaatkan sebagai…",
+              "options": [
+                {
+                  "text": "Perekat kayu",
+                  "correct": true
+                },
+                {
+                  "text": "Pewarna kain"
+                },
+                {
+                  "text": "Bahan bakar"
+                },
+                {
+                  "text": "Pupuk tanaman"
+                }
+              ],
+              "explanation": "Kolagen dari tulang ayam dapat dimanfaatkan sebagai perekat kayu.",
+              "hint": "Diperoleh melalui ekstraksi asam asetat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sisik ikan mengandung… dalam jumlah tinggi",
+              "options": [
+                {
+                  "text": "Kolagen",
+                  "correct": true
+                },
+                {
+                  "text": "Garam"
+                },
+                {
+                  "text": "Gula"
+                },
+                {
+                  "text": "Lemak jenuh"
+                }
+              ],
+              "explanation": "Sisik ikan mengandung kolagen tinggi sehingga dapat menjadi obat luka.",
+              "hint": "Kolagennya lebih tinggi dari mamalia."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah alat membuat kemoceng?",
+              "options": [
+                {
+                  "text": "Baskom",
+                  "correct": true
+                },
+                {
+                  "text": "Jarum",
+                  "correct": true
+                },
+                {
+                  "text": "Gunting",
+                  "correct": true
+                },
+                {
+                  "text": "Traktor",
+                  "correct": false
+                },
+                {
+                  "text": "Cangkul",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kemoceng dibuat dengan baskom, jarum, benang, dan gunting.",
+              "hint": "Traktor dan cangkul untuk lahan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Manfaatkan Bahan Nonpangan Hewani — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Sentra pembuatan kemoceng Nusantara berada di…",
+              "options": [
+                {
+                  "text": "Dusun Ngriman, Klaten",
+                  "correct": true
+                },
+                {
+                  "text": "Desa Cilembu, Sumedang"
+                },
+                {
+                  "text": "Brebes, Jawa Tengah"
+                },
+                {
+                  "text": "Lembang, Bandung"
+                }
+              ],
+              "explanation": "Sentra kemoceng berada di Dusun Ngriman, Desa Karanglo, Klaten Selatan, Kabupaten Klaten."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tepung darah dapat diperoleh melalui…",
+              "options": [
+                {
+                  "text": "Pengeringan, penyerapan, atau fermentasi",
+                  "correct": true
+                },
+                {
+                  "text": "Pembekuan dan pengasapan"
+                },
+                {
+                  "text": "Pengalengan dan pemanasan"
+                },
+                {
+                  "text": "Pemanggangan dan penggorengan"
+                }
+              ],
+              "explanation": "Tepung darah diperoleh melalui pengeringan, penyerapan, atau fermentasi darah segar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Ekstraksi kolagen tulang ayam menggunakan…",
+              "options": [
+                {
+                  "text": "Asam asetat",
+                  "correct": true
+                },
+                {
+                  "text": "Garam dapur"
+                },
+                {
+                  "text": "Gula pasir"
+                },
+                {
+                  "text": "Air kapur"
+                }
+              ],
+              "explanation": "Tulang ayam direndam asam asetat lalu dipanaskan untuk menghasilkan kolagen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Suhu pemanasan tulang ayam untuk menghasilkan kolagen adalah…",
+              "options": [
+                {
+                  "text": "60–70 °C selama 8 jam",
+                  "correct": true
+                },
+                {
+                  "text": "1.000 °C selama 2 jam"
+                },
+                {
+                  "text": "100 °C selama 30 menit"
+                },
+                {
+                  "text": "200 °C selama 1 jam"
+                }
+              ],
+              "explanation": "Tulang ayam dipanaskan pada suhu 60–70 °C selama 8 jam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bauran pemasaran 7P meliputi…",
+              "options": [
+                {
+                  "text": "Product, price, place, promotion, people, process, physical evidence",
+                  "correct": true
+                },
+                {
+                  "text": "Product, profit, place, power, people, price, process"
+                },
+                {
+                  "text": "Price, profit, promotion, place, people, power, product"
+                },
+                {
+                  "text": "Product, price, promotion, profit, place, people, process"
+                }
+              ],
+              "explanation": "7P terdiri atas product, price, place, promotion, people, process, dan physical evidence."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah unsur bauran pemasaran 7P?",
+              "options": [
+                {
+                  "text": "Product",
+                  "correct": true
+                },
+                {
+                  "text": "Price",
+                  "correct": true
+                },
+                {
+                  "text": "Place",
+                  "correct": true
+                },
+                {
+                  "text": "Promotion",
+                  "correct": true
+                },
+                {
+                  "text": "Profit",
+                  "correct": false
+                },
+                {
+                  "text": "Power",
+                  "correct": false
+                }
+              ],
+              "explanation": "7P meliputi product, price, place, promotion, people, process, dan physical evidence."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap membuat kemoceng?",
+              "options": [
+                {
+                  "text": "Pilih bulu ayam",
+                  "correct": true
+                },
+                {
+                  "text": "Bersihkan bulu",
+                  "correct": true
+                },
+                {
+                  "text": "Warnai bulu",
+                  "correct": true
+                },
+                {
+                  "text": "Keringkan bulu",
+                  "correct": true
+                },
+                {
+                  "text": "Jahit dan lilitkan ke tangkai",
+                  "correct": true
+                },
+                {
+                  "text": "Membakar bulu",
+                  "correct": false
+                },
+                {
+                  "text": "Membuang tangkai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kemoceng dibuat dari pemilihan, pencucian, pewarnaan, pengeringan, lalu perangkaian."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Sisik",
+                  "right": "obat luka dan hiasan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Bovine hidroksiapatit",
+                  "right": "serbuk putih dari tulang"
+                },
+                {
+                  "id": "m2",
+                  "left": "7P",
+                  "right": "bauran pemasaran"
+                },
+                {
+                  "id": "m3",
+                  "left": "Kemasan",
+                  "right": "pelindung produk saat distribusi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "obat luka dan hiasan",
+                  "m1": "serbuk putih dari tulang",
+                  "m2": "bauran pemasaran",
+                  "m3": "pelindung produk saat distribusi"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat bovine hidroksiapatit.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Bersihkan tulang"
+                },
+                {
+                  "id": "d1",
+                  "text": "Panaskan pada 1.000 °C selama 2 jam"
+                },
+                {
+                  "id": "d2",
+                  "text": "Giling tulang"
+                },
+                {
+                  "id": "d3",
+                  "text": "Ayak menjadi serbuk putih"
+                },
+                {
+                  "id": "d4",
+                  "text": "Kemas produk"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Bovine hidroksiapatit dibuat melalui pemanasan suhu tinggi lalu penggilingan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menyusun bauran pemasaran 7P.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Tentukan produk"
+                },
+                {
+                  "id": "p1",
+                  "text": "Tentukan harga"
+                },
+                {
+                  "id": "p2",
+                  "text": "Tentukan tempat"
+                },
+                {
+                  "id": "p3",
+                  "text": "Rancang promosi"
+                },
+                {
+                  "id": "p4",
+                  "text": "Siapkan sumber daya manusia dan proses"
+                },
+                {
+                  "id": "p5",
+                  "text": "Siapkan bukti fisik"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "p5"
+                ]
+              },
+              "explanation": "Bauran pemasaran disusun dari produk hingga bukti fisik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perbedaan pemasaran dan promosi adalah…",
+              "options": [
+                {
+                  "text": "Pemasaran menjaga brand image, promosi menawarkan produk",
+                  "correct": true
+                },
+                {
+                  "text": "Pemasaran menawarkan produk, promosi menjaga brand image"
+                },
+                {
+                  "text": "Keduanya sama saja"
+                },
+                {
+                  "text": "Pemasaran hanya untuk produk mahal"
+                }
+              ],
+              "explanation": "Pemasaran menjaga citra produk, sedangkan promosi menawarkan produk."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kemasan sekunder dan tersier berfungsi untuk…",
+              "options": [
+                {
+                  "text": "Memudahkan pengangkutan saat penyimpanan dan distribusi",
+                  "correct": true
+                },
+                {
+                  "text": "Mempercepat kerusakan produk"
+                },
+                {
+                  "text": "Menambah berat tanpa manfaat"
+                },
+                {
+                  "text": "Menggantikan label produk"
+                }
+              ],
+              "explanation": "Kemasan sekunder dan tersier memudahkan pengangkutan produk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat pengolahan nonpangan hewani?",
+              "options": [
+                {
+                  "text": "Mengurangi pencemaran",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah nilai ekonomi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghasilkan produk bernilai",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah limbah",
+                  "correct": false
+                },
+                {
+                  "text": "Mencemari lingkungan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pengolahan mengurangi pencemaran dan menambah nilai ekonomi bahan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Tulang",
+                  "right": "bovine hidroksiapatit"
+                },
+                {
+                  "id": "m1",
+                  "left": "Darah",
+                  "right": "tepung darah"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kulit",
+                  "right": "tas dan sepatu"
+                },
+                {
+                  "id": "m3",
+                  "left": "Bulu",
+                  "right": "kemoceng dan sulak"
+                },
+                {
+                  "id": "m4",
+                  "left": "Sisik",
+                  "right": "obat luka dan hiasan"
+                },
+                {
+                  "id": "m5",
+                  "left": "Bovine hidroksiapatit",
+                  "right": "serbuk putih dari tulang"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "bovine hidroksiapatit",
+                  "m1": "tepung darah",
+                  "m2": "tas dan sepatu",
+                  "m3": "kemoceng dan sulak",
+                  "m4": "obat luka dan hiasan",
+                  "m5": "serbuk putih dari tulang"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah promosi produk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Tentukan tujuan promosi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Tentukan target pasar"
+                },
+                {
+                  "id": "d2",
+                  "text": "Pilih media promosi"
+                },
+                {
+                  "id": "d3",
+                  "text": "Jalankan promosi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Ukur efektivitas"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Promosi dimulai dari tujuan lalu diakhiri pengukuran."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
