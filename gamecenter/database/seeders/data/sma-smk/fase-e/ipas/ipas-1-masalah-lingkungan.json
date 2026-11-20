@@ -1,0 +1,1275 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "ipas",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "IPAS 1",
+      "title": "Mengatasi Masalah Lingkungan Melalui Projek IPAS",
+      "description": "Mengenali gejala kerusakan lingkungan, menyusun bukti ilmiah kuantitatif dan kualitatif, menempuh sepuluh langkah penyelesaian masalah, hingga membuat purwarupa kompos dan mengomunikasikan hasilnya.",
+      "learning_objectives": [
+        "Mengidentifikasi masalah dan bukti ilmiah berdasarkan fenomena yang diamati.",
+        "Menerapkan konsep IPAS untuk menentukan pemecahan masalah lingkungan di sekitar.",
+        "Merancang dan membuat purwarupa sebagai solusi masalah lingkungan.",
+        "Mengomunikasikan purwarupa secara lisan, tulisan, dan kegiatan.",
+        "Merefleksi kegiatan projek IPAS yang telah dilakukan."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 1 Mengatasi Masalah Lingkungan Melalui Projek IPAS; CP Fase E Projek IPAS",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa masalah lingkungan perlu bukti ilmiah?",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 1 Mengatasi Masalah Lingkungan Melalui Projek IPAS; CP Fase E Projek IPAS",
+          "content": "## Gejala kerusakan lingkungan dan bukti ilmiahnya\n\nIndonesia hampir setiap tahun mengalami banjir, kekeringan, kebakaran hutan, dan pencemaran sungai oleh limbah rumah tangga serta industri. Kejadian itu bukan sekadar kabar: ia gejala kerusakan lingkungan yang berkaitan erat dengan aktivitas manusia.\n\nUntuk memutuskan tindakan, kebijakan, bahkan undang-undang, kita memerlukan bukti ilmiah. Bukti ilmiah adalah bukti yang diukur dengan prosedur baku dan alat ukur sesuai standar, sehingga kesimpulannya tidak dapat dibantah sembarangan.\n\nProjek IPAS memberi jalan yang runtut: mengamati gejala, mengumpulkan bukti, memilih solusi, lalu membuat purwarupa. Setiap langkah menghasilkan catatan yang dapat diperiksa ulang.\n\nBukti ilmiah diambil dari sumber terpercaya atau diukur sendiri dengan alat dan metode yang tepat, bukan dari dugaan atau kabar tanpa data.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "ipas-1-masalah-lingkungan-glosarium",
+              "terms": [
+                {
+                  "term": "Projek IPAS",
+                  "definition": "Pembelajaran berbasis projek yang memadukan sains dan sosial untuk menyelesaikan masalah nyata di sekitar."
+                },
+                {
+                  "term": "Bukti ilmiah",
+                  "definition": "Bukti yang diperoleh dengan prosedur baku dan diukur memakai alat ukur sesuai standar."
+                },
+                {
+                  "term": "Data kuantitatif",
+                  "definition": "Data yang disajikan dalam bentuk angka, grafik, atau persamaan matematis."
+                },
+                {
+                  "term": "Data kualitatif",
+                  "definition": "Data yang berbentuk kata, skema, atau gambar."
+                },
+                {
+                  "term": "Zat pencemar",
+                  "definition": "Bahan atau makhluk hidup yang masuk ke lingkungan sehingga mengubah fungsi lingkungan tersebut."
+                },
+                {
+                  "term": "Purwarupa",
+                  "definition": "Gambaran awal produk yang sedang dikembangkan sebelum diproduksi sebenarnya."
+                },
+                {
+                  "term": "Composting",
+                  "definition": "Proses daur ulang secara alami bahan organik menjadi pupuk atau kompos."
+                },
+                {
+                  "term": "Quality control",
+                  "definition": "Proses memastikan kualitas produk sesuai kriteria yang telah ditetapkan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Gejala kerusakan lingkungan dan bukti ilmiahnya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Indonesia hampir setiap tahun mengalami banjir, kekeringan, kebakaran hutan, dan pencemaran sungai oleh limbah rumah tangga serta industri. Kejadian itu bukan sekadar kabar: ia gejala kerusakan lingkungan yang berkaitan erat dengan aktivitas manusia."
+            },
+            {
+              "type": "paragraph",
+              "text": "Untuk memutuskan tindakan, kebijakan, bahkan undang-undang, kita memerlukan bukti ilmiah. Bukti ilmiah adalah bukti yang diukur dengan prosedur baku dan alat ukur sesuai standar, sehingga kesimpulannya tidak dapat dibantah sembarangan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Projek IPAS memberi jalan yang runtut: mengamati gejala, mengumpulkan bukti, memilih solusi, lalu membuat purwarupa. Setiap langkah menghasilkan catatan yang dapat diperiksa ulang."
+            },
+            {
+              "type": "diagram",
+              "id": "ipas-1-masalah-lingkungan-diagram",
+              "engine": "mermaid",
+              "title": "Sepuluh langkah menyelesaikan masalah lingkungan",
+              "code": "flowchart LR\n  A[Identifikasi masalah] --> B[Identifikasi konsep]\n  B --> C[Identifikasi kebutuhan]\n  C --> D[Alternatif penyelesaian]\n  D --> E[Evaluasi dan pilih]\n  E --> F[Desain purwarupa]\n  F --> G[Bangun purwarupa]\n  G --> H[Evaluasi dan desain ulang]\n  H --> I[Komunikasikan hasil]\n  I --> J[Rencana tindak lanjut]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Bukti ilmiah diambil dari sumber terpercaya atau diukur sendiri dengan alat dan metode yang tepat, bukan dari dugaan atau kabar tanpa data."
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-1-masalah-lingkungan-cp-1",
+              "question": "Data yang disajikan dalam bentuk angka, grafik, atau persamaan disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "data kuantitatif",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "data kualitatif"
+                },
+                {
+                  "id": "c2",
+                  "text": "data sekunder"
+                },
+                {
+                  "id": "c3",
+                  "text": "data nominal"
+                }
+              ],
+              "explanation": "Data kuantitatif berupa angka atau bentuk matematis; data kualitatif berbentuk kata, skema, atau gambar."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Ciri pencemaran, parameter, dan pemilihan solusi",
+          "duration": 300,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 1 Mengatasi Masalah Lingkungan Melalui Projek IPAS; CP Fase E Projek IPAS",
+          "content": "## Membaca pencemaran dan memilih solusi terbaik\n\nSuatu kejadian disebut pencemaran jika ada zat pencemar yang masuk ke lingkungan dan mengubah fungsinya. Pada sungai yang penuh sampah, lingkungannya adalah sungai dan zat pencemarnya adalah sampah. Pada air berminyak yang membuat ikan mati, minyak berperan sebagai zat pencemar.\n\nCiri pencemaran meliputi masuknya zat atau makhluk hidup yang tidak seharusnya, perubahan fungsi lingkungan, perubahan warna, bau, atau rasa, munculnya mikroorganisme berlebih, serta banyaknya hewan atau tumbuhan yang tidak dapat bertahan hidup.\n\nPencemaran juga dapat diukur melalui parameter kimia (karbon dioksida, pH, alkalinitas, fosfor), parameter fisik (temperatur, warna, rasa, bau, kejernihan, bahan radioaktif), dan parameter biologi (bakteri coli, virus, plankton).\n\n| Parameter | Contoh | Alat atau cara memeriksa |\n|---|---|---|\n| Kimia | pH, alkalinitas, fosfor, karbon dioksida | pH meter, titrasi, uji laboratorium |\n| Fisik | Temperatur, warna, bau, kejernihan | Termometer, pengamatan, alat ukur kekeruhan |\n| Biologi | Bakteri E. coli, virus, plankton | Uji mikrobiologi sampel air |\n\n### Mengevaluasi alternatif dan memilih solusi\n\n- Menentukan kriteria evaluasi dari analisis kebutuhan, lalu menambah kriteria seperti kemudahan bahan, harga, legalitas, dan kekuatan.\n- Memperkirakan apakah kebutuhan benar-benar terpenuhi, dengan bukti dari literatur, wawancara, pengamatan, atau testimoni pengguna.\n- Mengurutkan alternatif berdasarkan prioritas agar pilihan dapat dipertanggungjawabkan.\n- Pada wacana jerami, kompos memenuhi tujuh kriteria, edukasi masyarakat lima kriteria, sedangkan air purifier hanya tiga kriteria.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membaca pencemaran dan memilih solusi terbaik"
+            },
+            {
+              "type": "paragraph",
+              "text": "Suatu kejadian disebut pencemaran jika ada zat pencemar yang masuk ke lingkungan dan mengubah fungsinya. Pada sungai yang penuh sampah, lingkungannya adalah sungai dan zat pencemarnya adalah sampah. Pada air berminyak yang membuat ikan mati, minyak berperan sebagai zat pencemar."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ciri pencemaran meliputi masuknya zat atau makhluk hidup yang tidak seharusnya, perubahan fungsi lingkungan, perubahan warna, bau, atau rasa, munculnya mikroorganisme berlebih, serta banyaknya hewan atau tumbuhan yang tidak dapat bertahan hidup."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pencemaran juga dapat diukur melalui parameter kimia (karbon dioksida, pH, alkalinitas, fosfor), parameter fisik (temperatur, warna, rasa, bau, kejernihan, bahan radioaktif), dan parameter biologi (bakteri coli, virus, plankton)."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Parameter",
+                  "Contoh",
+                  "Alat atau cara memeriksa"
+                ],
+                [
+                  "Kimia",
+                  "pH, alkalinitas, fosfor, karbon dioksida",
+                  "pH meter, titrasi, uji laboratorium"
+                ],
+                [
+                  "Fisik",
+                  "Temperatur, warna, bau, kejernihan",
+                  "Termometer, pengamatan, alat ukur kekeruhan"
+                ],
+                [
+                  "Biologi",
+                  "Bakteri E. coli, virus, plankton",
+                  "Uji mikrobiologi sampel air"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "ipas-1-mikroplastik",
+              "title": "Sumber mikroplastik di perairan Jakarta (%)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Permukiman",
+                  "value": 72.7
+                },
+                {
+                  "label": "Perkantoran",
+                  "value": 17.3
+                },
+                {
+                  "label": "Industri",
+                  "value": 9.9
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "ipas-1-klasifikasi",
+              "prompt": "Kelompokkan pernyataan pada wacana pembakaran jerami ke dalam aspek yang tepat.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Dampak primer"
+                },
+                {
+                  "id": "b2",
+                  "label": "Dampak sekunder"
+                },
+                {
+                  "id": "b3",
+                  "label": "Penyebab"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Udara tercemar dan kadar oksigen turun",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Unsur hara tanah hilang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Warga sesak napas",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Pakaian dan perabot menjadi kotor serta berbau",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Sawah perlu bebas dari tumpukan jerami",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i6",
+                  "text": "Kebiasaan turun-temurun membakar jerami",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Dampak primer bersifat langsung, dampak sekunder muncul kemudian, dan penyebab menjelaskan asal masalah.",
+                "wrong": "Periksa lagi: sesak napas dan perabot kotor adalah akibat lanjutan, bukan sebab maupun dampak langsung."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengevaluasi alternatif dan memilih solusi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menentukan kriteria evaluasi dari analisis kebutuhan, lalu menambah kriteria seperti kemudahan bahan, harga, legalitas, dan kekuatan.",
+                "Memperkirakan apakah kebutuhan benar-benar terpenuhi, dengan bukti dari literatur, wawancara, pengamatan, atau testimoni pengguna.",
+                "Mengurutkan alternatif berdasarkan prioritas agar pilihan dapat dipertanggungjawabkan.",
+                "Pada wacana jerami, kompos memenuhi tujuh kriteria, edukasi masyarakat lima kriteria, sedangkan air purifier hanya tiga kriteria."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-1-masalah-lingkungan-cp-2",
+              "question": "Mengapa pembuatan kompos dipilih daripada air purifier pada wacana pembakaran jerami?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Kompos memenuhi lebih banyak kriteria kebutuhan petani",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Air purifier lebih murah dan mudah dibuat"
+                },
+                {
+                  "id": "c2",
+                  "text": "Kompos tidak memerlukan bahan tambahan"
+                },
+                {
+                  "id": "c3",
+                  "text": "Air purifier tidak dianggap legal"
+                }
+              ],
+              "explanation": "Kompos memenuhi tujuh kriteria (termasuk murah, mudah, dan menambah pendapatan), sedangkan air purifier hanya tiga."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 1 Mengatasi Masalah Lingkungan Melalui Projek IPAS; CP Fase E Projek IPAS",
+          "content": "## Dari purwarupa kompos sampai rencana tindak lanjut\n\nSetelah desain reaktor composting dibuat, tahap berikutnya adalah membangun purwarupa. Perencanaannya memuat jadwal waktu, deskripsi pekerjaan anggota kelompok, prosedur kerja, dan manajemen risiko agar hambatan tidak menghentikan projek.\n\nHasil purwarupa dievaluasi dengan rubrik. Kompos yang matang berwarna coklat-hitam, ber-pH 5–8,5, jeraminya terurai sempurna, beraroma seperti tanah, dan memiliki rasio C/N di atas 25. Bagian yang belum sesuai diperbaiki melalui desain ulang.\n\nHasil projek dikomunikasikan sebagai laporan tertulis, infografis, atau video. Setelah itu disusun rencana tindak lanjut: memperbaiki rancangan, sosialisasi melalui pameran karya, atau upscaling menjadi projek Teaching Factory.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari purwarupa kompos sampai rencana tindak lanjut"
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah desain reaktor composting dibuat, tahap berikutnya adalah membangun purwarupa. Perencanaannya memuat jadwal waktu, deskripsi pekerjaan anggota kelompok, prosedur kerja, dan manajemen risiko agar hambatan tidak menghentikan projek."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasil purwarupa dievaluasi dengan rubrik. Kompos yang matang berwarna coklat-hitam, ber-pH 5–8,5, jeraminya terurai sempurna, beraroma seperti tanah, dan memiliki rasio C/N di atas 25. Bagian yang belum sesuai diperbaiki melalui desain ulang."
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasil projek dikomunikasikan sebagai laporan tertulis, infografis, atau video. Setelah itu disusun rencana tindak lanjut: memperbaiki rancangan, sosialisasi melalui pameran karya, atau upscaling menjadi projek Teaching Factory."
+            },
+            {
+              "type": "scenario",
+              "id": "ipas-1-skenario",
+              "title": "Asap jerami di pinggir jalan",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Petani di dekat sekolahmu membakar jerami setiap musim panen sehingga asap menutup jalan. Apa langkah pertamamu?",
+                  "choices": [
+                    {
+                      "text": "Mengumpulkan bukti dan merumuskan pernyataan masalah",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Masalah yang terukur lebih mudah diselesaikan."
+                    },
+                    {
+                      "text": "Langsung menegur petani tanpa data",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Teguran tanpa bukti mudah ditolak."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Bukti menunjukkan volume jerami tinggi dan petani ingin tambahan pendapatan. Solusi apa yang kamu ajukan?",
+                  "choices": [
+                    {
+                      "text": "Mengolah jerami menjadi kompos yang dapat dijual",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Solusi ini murah, memakai bahan sekitar, dan menambah penghasilan."
+                    },
+                    {
+                      "text": "Membeli air purifier untuk setiap rumah",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Air purifier mahal, sulit dibuat, dan tidak mengurangi jerami."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Masalah berlanjut karena solusi tidak sesuai kebutuhan warga.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Kompos terjual, jerami berkurang, dan asap tidak lagi menutup jalan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "ipas-1-masalah-lingkungan-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu bukti ilmiah?",
+                  "back": "Bukti dari prosedur baku dan alat ukur sesuai standar."
+                },
+                {
+                  "front": "Sebutkan tiga parameter pencemaran.",
+                  "back": "Parameter kimia, fisik, dan biologi."
+                },
+                {
+                  "front": "Apa fungsi quality control?",
+                  "back": "Memastikan produk sesuai kriteria yang ditetapkan."
+                },
+                {
+                  "front": "Apa itu upscaling?",
+                  "back": "Memperluas cakupan atau skala produksi projek."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-1-masalah-lingkungan-cp-3",
+              "question": "Dokumen yang menyajikan data projek secara singkat dengan bantuan visual disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "infografis",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "laporan keuangan"
+                },
+                {
+                  "id": "c2",
+                  "text": "jadwal waktu"
+                },
+                {
+                  "id": "c3",
+                  "text": "manajemen risiko"
+                }
+              ],
+              "explanation": "Infografis memadukan data ringkas dengan gambar, grafik, dan tipografi agar mudah dipahami audiens."
+            },
+            {
+              "type": "challenge",
+              "id": "ipas-1-tantangan",
+              "title": "Tantangan istilah projek lingkungan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Alat pengubah limbah menjadi kompos",
+                  "answer": "Reaktor composting"
+                },
+                {
+                  "question": "Data berbentuk angka",
+                  "answer": "Kuantitatif"
+                },
+                {
+                  "question": "Bakteri penanda pencemaran tinja",
+                  "answer": "E. coli"
+                },
+                {
+                  "question": "Bahan tambahan pengomposan jerami",
+                  "answer": "EM4"
+                },
+                {
+                  "question": "Kegiatan memperkenalkan produk kepada masyarakat",
+                  "answer": "Sosialisasi"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah projek lingkungan terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Mengatasi Masalah Lingkungan Melalui Projek IPAS — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang dimaksud bukti ilmiah?",
+              "options": [
+                {
+                  "text": "Bukti yang diukur dengan prosedur baku dan alat sesuai standar",
+                  "correct": true
+                },
+                {
+                  "text": "Pendapat tokoh masyarakat"
+                },
+                {
+                  "text": "Dugaan tanpa pengukuran"
+                },
+                {
+                  "text": "Cerita pengalaman pribadi"
+                }
+              ],
+              "explanation": "Bukti ilmiah diperoleh melalui prosedur ilmiah dan alat ukur yang sesuai standar.",
+              "hint": "Bukti selalu dapat diperiksa ulang oleh orang lain."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Data yang disajikan dalam bentuk angka, grafik, atau persamaan disebut…",
+              "options": [
+                {
+                  "text": "data kuantitatif",
+                  "correct": true
+                },
+                {
+                  "text": "data kualitatif"
+                },
+                {
+                  "text": "data primer"
+                },
+                {
+                  "text": "data sekunder"
+                }
+              ],
+              "explanation": "Data kuantitatif berbentuk angka atau bentuk matematis lainnya.",
+              "hint": "Kuantitas berarti jumlah."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut Christ dan Arañas, masalah diartikan sebagai…",
+              "options": [
+                {
+                  "text": "hal-hal yang belum sesuai dengan yang diharapkan",
+                  "correct": true
+                },
+                {
+                  "text": "kegagalan alat ukur"
+                },
+                {
+                  "text": "perbedaan pendapat ahli"
+                },
+                {
+                  "text": "peristiwa alam yang tidak terduga"
+                }
+              ],
+              "explanation": "Masalah adalah hal-hal yang belum sesuai dengan harapan atau standar yang berlaku.",
+              "hint": "Sesuatu menjadi masalah ketika ada jarak antara kenyataan dan harapan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk bukti kuantitatif?",
+              "options": [
+                {
+                  "text": "Indeks kualitas udara 180",
+                  "correct": true
+                },
+                {
+                  "text": "Grafik penyumbang mikroplastik",
+                  "correct": true
+                },
+                {
+                  "text": "Kutipan wawancara warga",
+                  "correct": false
+                },
+                {
+                  "text": "Deskripsi bau sungai",
+                  "correct": false
+                }
+              ],
+              "explanation": "Angka indeks dan grafik termasuk data kuantitatif.",
+              "hint": "Kutipan dan deskripsi termasuk data kualitatif."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk parameter fisik pencemaran?",
+              "options": [
+                {
+                  "text": "Temperatur",
+                  "correct": true
+                },
+                {
+                  "text": "Kekeruhan",
+                  "correct": true
+                },
+                {
+                  "text": "Bau",
+                  "correct": true
+                },
+                {
+                  "text": "pH",
+                  "correct": false
+                },
+                {
+                  "text": "Alkalinitas",
+                  "correct": false
+                }
+              ],
+              "explanation": "Temperatur, kekeruhan, dan bau termasuk parameter fisik.",
+              "hint": "pH dan alkalinitas termasuk parameter kimia."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Mengatasi Masalah Lingkungan Melalui Projek IPAS — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa persen mikroplastik di sungai Jakarta berasal dari limbah permukiman?",
+              "options": [
+                {
+                  "text": "72,7%",
+                  "correct": true
+                },
+                {
+                  "text": "17,3%"
+                },
+                {
+                  "text": "9,9%"
+                },
+                {
+                  "text": "50%"
+                }
+              ],
+              "explanation": "Limbah permukiman menyumbang 72,7% mikroplastik, perkantoran 17,3%, dan industri 9,9%.",
+              "hint": "Penyumbang terbesar adalah permukiman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bakteri yang menandakan pencemaran tinja pada sungai Jakarta adalah…",
+              "options": [
+                {
+                  "text": "Escherichia coli",
+                  "correct": true
+                },
+                {
+                  "text": "Salmonella typhi"
+                },
+                {
+                  "text": "Lactobacillus casei"
+                },
+                {
+                  "text": "Rhizobium leguminosarum"
+                }
+              ],
+              "explanation": "E. coli hidup di usus manusia dan ditemukan pada sungai yang tercemar tinja.",
+              "hint": "Bakteri ini menjadi indikator sanitasi air."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk ciri pencemaran lingkungan?",
+              "options": [
+                {
+                  "text": "Masuknya zat yang tidak seharusnya",
+                  "correct": true
+                },
+                {
+                  "text": "Perubahan fungsi lingkungan",
+                  "correct": true
+                },
+                {
+                  "text": "Munculnya mikroorganisme berlebih",
+                  "correct": true
+                },
+                {
+                  "text": "Bertambahnya jumlah penduduk",
+                  "correct": false
+                },
+                {
+                  "text": "Naiknya harga bahan bakar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ciri pencemaran berkaitan dengan perubahan zat, fungsi, dan makhluk hidup di lingkungan.",
+              "hint": "Penduduk dan harga bukan penanda pencemaran."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk dampak primer pembakaran jerami?",
+              "options": [
+                {
+                  "text": "Udara tercemar",
+                  "correct": true
+                },
+                {
+                  "text": "Kadar oksigen menurun",
+                  "correct": true
+                },
+                {
+                  "text": "Unsur hara tanah hilang",
+                  "correct": true
+                },
+                {
+                  "text": "Warga sesak napas",
+                  "correct": false
+                },
+                {
+                  "text": "Perabot rumah berbau",
+                  "correct": false
+                }
+              ],
+              "explanation": "Dampak primer terjadi langsung, sedangkan sesak napas dan perabot berbau adalah dampak sekunder.",
+              "hint": "Dampak sekunder muncul karena dampak primer."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Bukti ilmiah",
+                  "right": "bukti dari prosedur baku dan alat sesuai standar"
+                },
+                {
+                  "id": "m1",
+                  "left": "Data kuantitatif",
+                  "right": "data berbentuk angka atau grafik"
+                },
+                {
+                  "id": "m2",
+                  "left": "Data kualitatif",
+                  "right": "data berbentuk kata, skema, atau gambar"
+                },
+                {
+                  "id": "m3",
+                  "left": "Zat pencemar",
+                  "right": "bahan yang mengubah fungsi lingkungan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "bukti dari prosedur baku dan alat sesuai standar",
+                  "m1": "data berbentuk angka atau grafik",
+                  "m2": "data berbentuk kata, skema, atau gambar",
+                  "m3": "bahan yang mengubah fungsi lingkungan"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur penyelesaian masalah lingkungan menurut buku.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Identifikasi masalah"
+                },
+                {
+                  "id": "d1",
+                  "text": "Identifikasi konsep"
+                },
+                {
+                  "id": "d2",
+                  "text": "Identifikasi kebutuhan"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menyusun alternatif solusi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mengevaluasi dan memilih alternatif"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Alur dimulai dari mengenali masalah sampai memilih solusi terbaik.",
+              "hint": "Konsep dipelajari setelah masalah dikenali."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah mengevaluasi alternatif solusi.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menentukan kriteria evaluasi"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memperkirakan pemenuhan kebutuhan"
+                },
+                {
+                  "id": "p2",
+                  "text": "Mengurutkan prioritas alternatif"
+                },
+                {
+                  "id": "p3",
+                  "text": "Memilih satu alternatif"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Evaluasi bergerak dari kriteria, perkiraan, prioritas, lalu keputusan.",
+              "hint": "Keputusan diambil paling akhir."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan yang masuk ke lingkungan dan mengubah fungsinya disebut…",
+              "options": [
+                {
+                  "text": "zat pencemar",
+                  "correct": true
+                },
+                {
+                  "text": "zat hara"
+                },
+                {
+                  "text": "bahan baku"
+                },
+                {
+                  "text": "purwarupa"
+                }
+              ],
+              "explanation": "Zat pencemar adalah bahan yang menyebabkan pencemaran lingkungan.",
+              "hint": "Bandingkan dengan unsur hara yang justru dibutuhkan tanaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Parameter pH, alkalinitas, dan fosfor termasuk parameter…",
+              "options": [
+                {
+                  "text": "kimia",
+                  "correct": true
+                },
+                {
+                  "text": "fisik"
+                },
+                {
+                  "text": "biologi"
+                },
+                {
+                  "text": "mekanik"
+                }
+              ],
+              "explanation": "Ketiganya termasuk parameter kimia pencemaran air.",
+              "hint": "Parameter fisik mencakup suhu, warna, dan bau."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang menjadi penyebab pembakaran jerami?",
+              "options": [
+                {
+                  "text": "Kebutuhan sawah bebas jerami",
+                  "correct": true
+                },
+                {
+                  "text": "Ketidaktahuan tentang dampaknya",
+                  "correct": true
+                },
+                {
+                  "text": "Harga kompos yang mahal",
+                  "correct": false
+                },
+                {
+                  "text": "Larangan pemerintah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Penyebab utamanya kebutuhan lahan bersih dan kurangnya pengetahuan.",
+              "hint": "Kebiasaan turun-temurun menjadi penyebab sekunder."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Mengatasi Masalah Lingkungan Melalui Projek IPAS — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Alat yang membersihkan udara di dalam ruangan disebut…",
+              "options": [
+                {
+                  "text": "air purifier",
+                  "correct": true
+                },
+                {
+                  "text": "multimeter"
+                },
+                {
+                  "text": "kalorimeter"
+                },
+                {
+                  "text": "biodigester"
+                }
+              ],
+              "explanation": "Air purifier mengurangi partikel kecil seperti asap dan debu di ruangan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proses daur ulang bahan organik menjadi pupuk disebut…",
+              "options": [
+                {
+                  "text": "composting",
+                  "correct": true
+                },
+                {
+                  "text": "upscaling"
+                },
+                {
+                  "text": "sosialisasi"
+                },
+                {
+                  "text": "quality control"
+                }
+              ],
+              "explanation": "Composting mengubah bahan organik menjadi kompos."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan yang ditambahkan saat mengompos jerami menurut buku adalah…",
+              "options": [
+                {
+                  "text": "bokashi, air, dan bakteri EM4",
+                  "correct": true
+                },
+                {
+                  "text": "semen dan pasir"
+                },
+                {
+                  "text": "garam dan gula"
+                },
+                {
+                  "text": "bensin dan solar"
+                }
+              ],
+              "explanation": "Kompos jerami memakai bokashi, air, dan bakteri EM4 yang mudah dibeli di toko pertanian."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Proses memastikan produk sesuai kriteria yang ditetapkan disebut…",
+              "options": [
+                {
+                  "text": "quality control",
+                  "correct": true
+                },
+                {
+                  "text": "brainstorming"
+                },
+                {
+                  "text": "prototyping"
+                },
+                {
+                  "text": "sosialisasi"
+                }
+              ],
+              "explanation": "Quality control dilakukan pada tahap akhir produksi untuk menjaga kualitas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa kisaran pH kompos matang menurut rubrik evaluasi?",
+              "options": [
+                {
+                  "text": "5–8,5",
+                  "correct": true
+                },
+                {
+                  "text": "1–3"
+                },
+                {
+                  "text": "9–12"
+                },
+                {
+                  "text": "12–14"
+                }
+              ],
+              "explanation": "Kompos matang memiliki pH 5–8,5, warna coklat-hitam, dan aroma seperti tanah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah cara mengomunikasikan hasil purwarupa?",
+              "options": [
+                {
+                  "text": "Laporan tertulis",
+                  "correct": true
+                },
+                {
+                  "text": "Infografis",
+                  "correct": true
+                },
+                {
+                  "text": "Video",
+                  "correct": true
+                },
+                {
+                  "text": "Sertifikat penghargaan",
+                  "correct": false
+                },
+                {
+                  "text": "Rapat internal",
+                  "correct": false
+                }
+              ],
+              "explanation": "Laporan tertulis, infografis, dan video adalah bentuk komunikasi hasil projek."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk kegiatan rencana tindak lanjut?",
+              "options": [
+                {
+                  "text": "Memperbaiki rancangan",
+                  "correct": true
+                },
+                {
+                  "text": "Sosialisasi produk",
+                  "correct": true
+                },
+                {
+                  "text": "Upscaling produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Membakar jerami",
+                  "correct": false
+                },
+                {
+                  "text": "Menghentikan projek",
+                  "correct": false
+                }
+              ],
+              "explanation": "RTL berisi perbaikan rancangan, sosialisasi, dan upscaling."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Parameter kimia",
+                  "right": "pH, alkalinitas, dan fosfor"
+                },
+                {
+                  "id": "m1",
+                  "left": "Purwarupa",
+                  "right": "gambaran awal produk yang dikembangkan"
+                },
+                {
+                  "id": "m2",
+                  "left": "Composting",
+                  "right": "daur ulang bahan organik menjadi pupuk"
+                },
+                {
+                  "id": "m3",
+                  "left": "Quality control",
+                  "right": "memastikan produk sesuai kriteria"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pH, alkalinitas, dan fosfor",
+                  "m1": "gambaran awal produk yang dikembangkan",
+                  "m2": "daur ulang bahan organik menjadi pupuk",
+                  "m3": "memastikan produk sesuai kriteria"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah membuat kompos jerami.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengumpulkan jerami"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mencacah jerami"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mencampur jerami dengan dekomposer"
+                },
+                {
+                  "id": "d3",
+                  "text": "Memantau pengomposan"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memanen dan mengemas kompos"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kompos dibuat dari jerami cacah yang dicampur dekomposer lalu dipantau sampai matang."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menyusun infografis.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menentukan topik"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menentukan audiens"
+                },
+                {
+                  "id": "p2",
+                  "text": "Mengumpulkan data"
+                },
+                {
+                  "id": "p3",
+                  "text": "Memvisualisasikan data"
+                },
+                {
+                  "id": "p4",
+                  "text": "Merancang tata letak"
+                },
+                {
+                  "id": "p5",
+                  "text": "Membuat template"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "p5"
+                ]
+              },
+              "explanation": "Infografis disusun dari topik dan audiens, lalu data, visual, dan tata letak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Media laporan projek yang memadukan data ringkas dengan visual disebut…",
+              "options": [
+                {
+                  "text": "infografis",
+                  "correct": true
+                },
+                {
+                  "text": "time schedule"
+                },
+                {
+                  "text": "job desk"
+                },
+                {
+                  "text": "rubrik"
+                }
+              ],
+              "explanation": "Infografis menyajikan data secara singkat, padat, dan mudah dipahami audiens."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kegiatan memperluas skala produksi projek menjadi Teaching Factory disebut…",
+              "options": [
+                {
+                  "text": "upscaling",
+                  "correct": true
+                },
+                {
+                  "text": "sosialisasi"
+                },
+                {
+                  "text": "evaluasi"
+                },
+                {
+                  "text": "refleksi"
+                }
+              ],
+              "explanation": "Upscaling memperluas cakupan produksi, misalnya menjadi projek TEFA berskala sekolah."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Apa yang perlu disiapkan dalam pameran karya?",
+              "options": [
+                {
+                  "text": "Karya terbaik",
+                  "correct": true
+                },
+                {
+                  "text": "Perlengkapan pameran",
+                  "correct": true
+                },
+                {
+                  "text": "Lokasi strategis",
+                  "correct": true
+                },
+                {
+                  "text": "Tiket pesawat",
+                  "correct": false
+                },
+                {
+                  "text": "Izin mendirikan bank",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pameran memerlukan karya, perlengkapan, lokasi strategis, penataan ruang, dan keamanan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Bukti ilmiah",
+                  "right": "bukti dari prosedur baku dan alat sesuai standar"
+                },
+                {
+                  "id": "m1",
+                  "left": "Data kuantitatif",
+                  "right": "data berbentuk angka atau grafik"
+                },
+                {
+                  "id": "m2",
+                  "left": "Data kualitatif",
+                  "right": "data berbentuk kata, skema, atau gambar"
+                },
+                {
+                  "id": "m3",
+                  "left": "Zat pencemar",
+                  "right": "bahan yang mengubah fungsi lingkungan"
+                },
+                {
+                  "id": "m4",
+                  "left": "Parameter kimia",
+                  "right": "pH, alkalinitas, dan fosfor"
+                },
+                {
+                  "id": "m5",
+                  "left": "Purwarupa",
+                  "right": "gambaran awal produk yang dikembangkan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "bukti dari prosedur baku dan alat sesuai standar",
+                  "m1": "data berbentuk angka atau grafik",
+                  "m2": "data berbentuk kata, skema, atau gambar",
+                  "m3": "bahan yang mengubah fungsi lingkungan",
+                  "m4": "pH, alkalinitas, dan fosfor",
+                  "m5": "gambaran awal produk yang dikembangkan"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menyusun rencana tindak lanjut.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mengevaluasi seluruh langkah projek"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mendata kelemahan dan kekurangan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menyusun ulang langkah dan desain"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menentukan jenis kegiatan tindak lanjut"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menetapkan pelaksana dan batas waktu"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "RTL berangkat dari evaluasi, lalu daftar perbaikan, jenis kegiatan, dan penanggung jawab."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

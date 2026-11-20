@@ -288,10 +288,10 @@ def build_materials(chapter):
     ]
 
 
-def write_chapter(chapter, subject='pjok', folder='pjok'):
+def write_chapter(chapter, subject='pjok', folder='pjok', level='sma'):
     payload = {
         'schema_version': 1,
-        'level': 'sma',
+        'level': level,
         'class': 'kelas-10',
         'subject': subject,
         'phase': 'E',

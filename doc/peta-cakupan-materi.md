@@ -1,6 +1,6 @@
 # Peta Cakupan Materi — Semua Buku Ajar SMA/SMK
 
-**Diperbarui:** 20 November 2026 (rilis 0.41.0)
+**Diperbarui:** 20 November 2026 (rilis 0.42.0)
 **Prinsip:** **satu buku = seluruh bab**, tidak ada buku yang diambil sebagian.
 Setiap bab = 3+ materi + 30 soal (5 mudah / 10 sedang / 15 sulit).
 
@@ -19,7 +19,7 @@ Status hanya boleh ditandai ✅ bila **seluruh** bab dalam buku itu sudah diimpo
 | Buku yang daftar isinya belum terbaca otomatis | 23 |
 
 Perkiraan bila seluruh 253 bab dikerjakan: **253 chapter / 7.590 soal**.
-Saat ini **80 chapter / 2.400 soal** selesai (32 %).
+Saat ini **86 chapter / 2.580 soal** selesai (34 %).
 
 ---
 
@@ -39,7 +39,7 @@ Saat ini **80 chapter / 2.400 soal** selesai (32 %).
 | Prakarya (4 aspek) | `Prakarya-*-BG-KLS-X.pdf` | 14 unit | 14 | ✅ SELESAI (Kerajinan 3/3, Rekayasa 4/4, Budi Daya 3/3, Pengolahan 4/4) |
 | Sejarah | `Sejarah-BG-KLS-X.pdf` | ? | 0 | ⬜ daftar isi perlu dipetakan |
 | Kepercayaan | `Kepercayaan-BS-KLS-X.pdf` | 5 | 0 | ⬜ belum |
-| Projek IPAS | `Projek-IPAS-BS-KLS-X.pdf` | 6 | 0 | ⬜ belum |
+| Projek IPAS | `Projek-IPAS-BS-KLS-X.pdf` | 6 | 6 | ✅ SELESAI (level SMK) |
 | SMK: Agriteknologi | `Agriteknologi-…-Sem-1.pdf` | 6 | 0 | ⬜ belum |
 | SMK: Animasi | `Dasar-Animasi-BS-KLS-X.pdf` | 10 | 0 | ⬜ belum |
 | SMK: DKV | `Desain-Komunikasi-…` (Sem 1 & 2) | 7 | 0 | ⬜ belum |
@@ -109,7 +109,7 @@ Setiap tahap menyelesaikan **buku utuh**, bukan sebagian bab.
 | 1d | **Pancasila X + PAI X** | 2 buku (4 + 10 bab) | 14 | ✅ |
 | 2a | Bahasa Inggris X | 1 buku | 6 | ✅ |
 | 2b | **IPS X** | 1 buku + 4 modul (4 chapter) | 4 | ✅ 4/4 selesai |
-| 3 | PJOK X + Prakarya X + Kepercayaan X + Projek IPAS | 7 buku | ±23 | 🟡 PJOK 8/8, Prakarya 14/14 |
+| 3 | PJOK X + Prakarya X + Kepercayaan X + Projek IPAS | 7 buku | ±23 | 🟡 PJOK 8/8, Prakarya 14/14, Projek IPAS 6/6 |
 | 4 | Sejarah X + SMK kejuruan (7 buku) | 8 buku | ±40 | ⬜ |
 | 5 | Kelas XI (17 buku) | 17 buku | ±60 | ⬜ |
 | 6 | Kelas XII (18 buku) | 18 buku | ±55 | ⬜ |

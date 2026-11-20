@@ -1,0 +1,1313 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "ipas",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "IPAS 2",
+      "title": "Mengembangkan Projek Mitigasi Bencana",
+      "description": "Mengenali potensi kebencanaan Indonesia, membedakan bencana alam, nonalam, dan sosial, memahami tahap mitigasi sebelum–saat–sesudah, serta merancang projek mitigasi sederhana sesuai bidang keahlian.",
+      "learning_objectives": [
+        "Mengidentifikasi jenis dan penyebab bencana di Indonesia.",
+        "Menganalisis dampak bencana terhadap lingkungan dan kehidupan manusia.",
+        "Menjelaskan tahapan mitigasi bencana sebelum, pada saat, dan sesudah kejadian.",
+        "Merancang projek mitigasi bencana yang sederhana, murah, dan sesuai kebutuhan.",
+        "Mengomunikasikan rancangan projek mitigasi secara lisan dan tertulis."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 2 Mengembangkan Projek Mitigasi Bencana; UU No. 24 Tahun 2007; CP Fase E Projek IPAS",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa Indonesia rawan bencana?",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 2 Mengembangkan Projek Mitigasi Bencana; UU No. 24 Tahun 2007; CP Fase E Projek IPAS",
+          "content": "## Potensi kebencanaan dan jenis bencananya\n\nIndonesia berada pada pertemuan tiga lempeng besar dunia, yaitu lempeng Samudra Pasifik, lempeng Samudra Hindia, dan lempeng Eurasia. Pertemuan itu membuat Indonesia rawan gempa bumi tektonik dan letusan gunung api. Kondisi iklim dan topografi menambah risiko banjir, kekeringan, dan tanah longsor.\n\nWorld Risk Report 2022 menempatkan Indonesia di posisi ketiga sebagai negara dengan risiko bencana terbesar di dunia setelah Filipina dan India. BNPB mencatat 2.277 kejadian bencana sepanjang 2022, didominasi bencana hidrometeorologi.\n\nBencana tidak hanya datang dari alam. Kegagalan teknologi, wabah penyakit, konflik sosial, dan perilaku manusia juga menimbulkan bencana. Karena itu kesiapsiagaan harus dibangun bersama.\n\nTas siaga bencana yang disiapkan sebelum bencana jauh lebih berguna daripada kepanikan saat bencana terjadi.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "ipas-2-mitigasi-bencana-glosarium",
+              "terms": [
+                {
+                  "term": "Bencana",
+                  "definition": "Peristiwa yang mengancam dan mengganggu kehidupan manusia akibat faktor alam, nonalam, dan manusia."
+                },
+                {
+                  "term": "Mitigasi",
+                  "definition": "Serangkaian upaya untuk mengurangi risiko bencana melalui pembangunan fisik serta peningkatan kemampuan menghadapi ancaman."
+                },
+                {
+                  "term": "Bencana geologi",
+                  "definition": "Bencana akibat aktivitas geologi seperti gempa bumi tektonik, tsunami, dan letusan gunung api."
+                },
+                {
+                  "term": "Bencana hidrometeorologi",
+                  "definition": "Bencana yang dipicu perubahan cuaca atau iklim, misalnya banjir, kekeringan, dan angin puting beliung."
+                },
+                {
+                  "term": "Bencana ekstraterestrial",
+                  "definition": "Bencana akibat jatuhnya benda angkasa atau gangguan badai matahari."
+                },
+                {
+                  "term": "Bencana nonalam",
+                  "definition": "Bencana akibat gagal teknologi, gagal modernisasi, epidemi, atau wabah penyakit."
+                },
+                {
+                  "term": "Bencana sosial",
+                  "definition": "Bencana akibat peristiwa yang melibatkan manusia, seperti konflik, terorisme, dan tawuran."
+                },
+                {
+                  "term": "Trauma healing",
+                  "definition": "Tindakan untuk mengatasi trauma psikologis akibat sebuah peristiwa bencana."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Potensi kebencanaan dan jenis bencananya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Indonesia berada pada pertemuan tiga lempeng besar dunia, yaitu lempeng Samudra Pasifik, lempeng Samudra Hindia, dan lempeng Eurasia. Pertemuan itu membuat Indonesia rawan gempa bumi tektonik dan letusan gunung api. Kondisi iklim dan topografi menambah risiko banjir, kekeringan, dan tanah longsor."
+            },
+            {
+              "type": "paragraph",
+              "text": "World Risk Report 2022 menempatkan Indonesia di posisi ketiga sebagai negara dengan risiko bencana terbesar di dunia setelah Filipina dan India. BNPB mencatat 2.277 kejadian bencana sepanjang 2022, didominasi bencana hidrometeorologi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bencana tidak hanya datang dari alam. Kegagalan teknologi, wabah penyakit, konflik sosial, dan perilaku manusia juga menimbulkan bencana. Karena itu kesiapsiagaan harus dibangun bersama."
+            },
+            {
+              "type": "diagram",
+              "id": "ipas-2-mitigasi-bencana-diagram",
+              "engine": "mermaid",
+              "title": "Tiga penyebab bencana menurut UU No. 24 Tahun 2007",
+              "code": "flowchart TD\n  A[Bencana] --> B[Faktor alam]\n  A --> C[Faktor nonalam]\n  A --> D[Faktor manusia]\n  B --> B1[Geologi: gempa, tsunami, gunung api]\n  B --> B2[Hidrometeorologi: banjir, kekeringan, puting beliung]\n  B --> B3[Ekstraterestrial: meteor, badai matahari]\n  C --> C1[Gagal teknologi dan modernisasi]\n  C --> C2[Epidemi dan wabah penyakit]\n  D --> D1[Konflik, terorisme, tawuran]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Tas siaga bencana yang disiapkan sebelum bencana jauh lebih berguna daripada kepanikan saat bencana terjadi."
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-2-mitigasi-bencana-cp-1",
+              "question": "Menurut UU No. 24 Tahun 2007, bencana dapat disebabkan oleh…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "faktor alam, nonalam, dan manusia",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "faktor alam dan cuaca saja"
+                },
+                {
+                  "id": "c2",
+                  "text": "faktor ekonomi dan politik"
+                },
+                {
+                  "id": "c3",
+                  "text": "faktor geologi dan vulkanologi saja"
+                }
+              ],
+              "explanation": "Undang-undang membagi penyebab bencana menjadi faktor alam, nonalam, dan manusia."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Jenis, penyebab, dan tahap mitigasi",
+          "duration": 300,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 2 Mengembangkan Projek Mitigasi Bencana; UU No. 24 Tahun 2007; CP Fase E Projek IPAS",
+          "content": "## Membedakan bencana dan merancang mitigasi\n\nBerdasarkan penyebabnya, bencana alam dibagi menjadi bencana geologi (gempa bumi tektonik, tsunami, gunung meletus), hidrometeorologi (banjir, kekeringan, angin puting beliung), dan ekstraterestrial (jatuhnya meteor, badai matahari).\n\nBencana nonalam muncul dari kegagalan teknologi atau modernisasi, epidemi, dan wabah penyakit. Contohnya kecelakaan lalu lintas, wabah flu burung, jatuhnya alat berat, dan pandemi Covid-19 yang melanda dunia sejak 2019.\n\nBencana sosial berasal dari peristiwa yang melibatkan manusia: konflik antarindividu, antarkelompok, terorisme, dan radikalisme. Contoh sederhana adalah perdebatan pemilik sawah karena pembagian air irigasi.\n\n| Jenis bencana | Penyebab | Contoh |\n|---|---|---|\n| Geologi | Aktivitas lempeng dan gunung api | Gempa tektonik, tsunami, letusan gunung |\n| Hidrometeorologi | Cuaca, iklim, dan siklus hidrologi | Banjir, kekeringan, angin puting beliung |\n| Ekstraterestrial | Benda angkasa | Jatuhnya meteor, badai matahari |\n| Nonalam | Gagal teknologi, epidemi, wabah | Kecelakaan kerja, flu burung, Covid-19 |\n| Sosial | Konflik dan perilaku manusia | Tawuran, konflik irigasi, terorisme |\n\n### Tahapan mitigasi bencana\n\n- Sebelum bencana: menyiapkan tas siaga, mengenali jalur evakuasi, mengikuti simulasi, dan memperkuat bangunan (retrofitting).\n- Pada saat bencana: tidak panik, menyelamatkan diri ke tempat aman, dan mengikuti arahan petugas.\n- Sesudah bencana: rekonstruksi bangunan, penyediaan fasilitas umum, pengobatan korban, dan trauma healing.\n- Mitigasi bertujuan mengurangi risiko, meningkatkan pengetahuan, menyadarkan masyarakat, menjadi acuan perencanaan, dan menentukan penanganan pascabencana.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membedakan bencana dan merancang mitigasi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Berdasarkan penyebabnya, bencana alam dibagi menjadi bencana geologi (gempa bumi tektonik, tsunami, gunung meletus), hidrometeorologi (banjir, kekeringan, angin puting beliung), dan ekstraterestrial (jatuhnya meteor, badai matahari)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bencana nonalam muncul dari kegagalan teknologi atau modernisasi, epidemi, dan wabah penyakit. Contohnya kecelakaan lalu lintas, wabah flu burung, jatuhnya alat berat, dan pandemi Covid-19 yang melanda dunia sejak 2019."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bencana sosial berasal dari peristiwa yang melibatkan manusia: konflik antarindividu, antarkelompok, terorisme, dan radikalisme. Contoh sederhana adalah perdebatan pemilik sawah karena pembagian air irigasi."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Jenis bencana",
+                  "Penyebab",
+                  "Contoh"
+                ],
+                [
+                  "Geologi",
+                  "Aktivitas lempeng dan gunung api",
+                  "Gempa tektonik, tsunami, letusan gunung"
+                ],
+                [
+                  "Hidrometeorologi",
+                  "Cuaca, iklim, dan siklus hidrologi",
+                  "Banjir, kekeringan, angin puting beliung"
+                ],
+                [
+                  "Ekstraterestrial",
+                  "Benda angkasa",
+                  "Jatuhnya meteor, badai matahari"
+                ],
+                [
+                  "Nonalam",
+                  "Gagal teknologi, epidemi, wabah",
+                  "Kecelakaan kerja, flu burung, Covid-19"
+                ],
+                [
+                  "Sosial",
+                  "Konflik dan perilaku manusia",
+                  "Tawuran, konflik irigasi, terorisme"
+                ]
+              ]
+            },
+            {
+              "type": "timeline",
+              "id": "ipas-2-timeline-bencana",
+              "items": [
+                {
+                  "when": "2004",
+                  "title": "Tsunami Aceh",
+                  "body": "Gempa besar di dasar Samudra Hindia memicu tsunami yang melanda Aceh."
+                },
+                {
+                  "when": "2006",
+                  "title": "Letusan Gunung Merapi",
+                  "body": "Aktivitas vulkanik Merapi menimbulkan korban dan pengungsian."
+                },
+                {
+                  "when": "2009",
+                  "title": "Gempa Tasikmalaya",
+                  "body": "Gempa tektonik merusak bangunan di Jawa Barat."
+                },
+                {
+                  "when": "2010",
+                  "title": "Letusan Gunung Sinabung",
+                  "body": "Letusan memaksa warga sekitar gunung mengungsi."
+                },
+                {
+                  "when": "2018",
+                  "title": "Tsunami Donggala",
+                  "body": "Gempa dan tsunami melanda Palu-Donggala, Sulawesi Tengah."
+                },
+                {
+                  "when": "2022",
+                  "title": "Gempa Cianjur",
+                  "body": "Gempa tektonik merusak rumah dan fasilitas umum di Cianjur."
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "ipas-2-klasifikasi",
+              "prompt": "Kelompokkan peristiwa berikut ke dalam jenis bencananya.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Geologi"
+                },
+                {
+                  "id": "b2",
+                  "label": "Hidrometeorologi"
+                },
+                {
+                  "id": "b3",
+                  "label": "Nonalam"
+                },
+                {
+                  "id": "b4",
+                  "label": "Sosial"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Gempa bumi tektonik",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Letusan gunung api",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Banjir bandang",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i4",
+                  "text": "Angin puting beliung",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Wabah flu burung",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i6",
+                  "text": "Kecelakaan kerja di pabrik",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i7",
+                  "text": "Tawuran antarpelajar",
+                  "bucket": "b4"
+                },
+                {
+                  "id": "i8",
+                  "text": "Konflik pembagian air irigasi",
+                  "bucket": "b4"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Gempa dan letusan termasuk geologi, banjir dan puting beliung termasuk hidrometeorologi, wabah dan kecelakaan termasuk nonalam, konflik termasuk sosial.",
+                "wrong": "Periksa lagi: bencana sosial selalu melibatkan konflik atau perilaku manusia, sedangkan nonalam berkaitan dengan teknologi dan penyakit."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Tahapan mitigasi bencana"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sebelum bencana: menyiapkan tas siaga, mengenali jalur evakuasi, mengikuti simulasi, dan memperkuat bangunan (retrofitting).",
+                "Pada saat bencana: tidak panik, menyelamatkan diri ke tempat aman, dan mengikuti arahan petugas.",
+                "Sesudah bencana: rekonstruksi bangunan, penyediaan fasilitas umum, pengobatan korban, dan trauma healing.",
+                "Mitigasi bertujuan mengurangi risiko, meningkatkan pengetahuan, menyadarkan masyarakat, menjadi acuan perencanaan, dan menentukan penanganan pascabencana."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-2-mitigasi-bencana-cp-2",
+              "question": "Kegiatan memperkuat struktur bangunan agar tahan gempa disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "retrofitting",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "reboisasi"
+                },
+                {
+                  "id": "c2",
+                  "text": "relokasi"
+                },
+                {
+                  "id": "c3",
+                  "text": "rekonstruksi"
+                }
+              ],
+              "explanation": "Retrofitting adalah penguatan struktur bangunan lama agar lebih tahan terhadap guncangan gempa."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 2 Mengembangkan Projek Mitigasi Bencana; UU No. 24 Tahun 2007; CP Fase E Projek IPAS",
+          "content": "## Merancang projek mitigasi di sekolah\n\nProjek mitigasi dimulai dari identifikasi jenis bencana yang paling mungkin terjadi di sekitar, analisis penyebab dan dampak, lalu penyusunan solusi. Solusi dipilih dengan kriteria sederhana, murah, mudah dibuat, mudah dipahami, dan sesuai kebutuhan warga sekolah.\n\nContoh nyata: membuat petunjuk jalur evakuasi dari kayu bekas untuk sekolah rawan gempa, atau memproduksi masker kain perca saat pandemi. Keduanya murah, cepat dibuat, dan langsung digunakan.\n\nSetelah projek berjalan, hasilnya dievaluasi dan dikomunikasikan. Cara paling sederhana adalah menyampaikan laporan singkat, poster jalur evakuasi, atau video simulasi yang diunggah ke media sosial sekolah.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Merancang projek mitigasi di sekolah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Projek mitigasi dimulai dari identifikasi jenis bencana yang paling mungkin terjadi di sekitar, analisis penyebab dan dampak, lalu penyusunan solusi. Solusi dipilih dengan kriteria sederhana, murah, mudah dibuat, mudah dipahami, dan sesuai kebutuhan warga sekolah."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh nyata: membuat petunjuk jalur evakuasi dari kayu bekas untuk sekolah rawan gempa, atau memproduksi masker kain perca saat pandemi. Keduanya murah, cepat dibuat, dan langsung digunakan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah projek berjalan, hasilnya dievaluasi dan dikomunikasikan. Cara paling sederhana adalah menyampaikan laporan singkat, poster jalur evakuasi, atau video simulasi yang diunggah ke media sosial sekolah."
+            },
+            {
+              "type": "scenario",
+              "id": "ipas-2-skenario",
+              "title": "Getaran gempa saat jam pelajaran",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Gempa mengguncang kelasmu. Apa tindakan pertamamu?",
+                  "choices": [
+                    {
+                      "text": "Berlindung di bawah meja kokoh dan melindungi kepala",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Benar. Berlindung mengurangi risiko terkena reruntuhan."
+                    },
+                    {
+                      "text": "Berlari turun lewat lift",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Lift tidak boleh dipakai saat gempa."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Guncangan berhenti. Ke mana kamu menuju?",
+                  "choices": [
+                    {
+                      "text": "Titik kumpul di tempat terbuka mengikuti jalur evakuasi",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Titik kumpul memudahkan pemeriksaan dan pertolongan."
+                    },
+                    {
+                      "text": "Kembali ke kelas mengambil tas dan telepon",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Kembali ke dalam bangunan berisiko saat gempa susulan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Keputusan berbahaya menimbulkan risiko cedera.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Seluruh kelas berkumpul aman dan dicek keadaannya.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "ipas-2-mitigasi-bencana-kartu",
+              "cards": [
+                {
+                  "front": "Apa tiga tahap mitigasi?",
+                  "back": "Sebelum, pada saat, dan sesudah bencana."
+                },
+                {
+                  "front": "Apa isi tas siaga bencana?",
+                  "back": "Air, makanan ringan, obat, senter, dokumen penting, dan peluit."
+                },
+                {
+                  "front": "Apa itu bencana ekstraterestrial?",
+                  "back": "Bencana akibat benda angkasa, misalnya jatuhnya meteor."
+                },
+                {
+                  "front": "Apa tujuan mitigasi?",
+                  "back": "Mengurangi risiko dan dampak bencana bagi masyarakat."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-2-mitigasi-bencana-cp-3",
+              "question": "Bencana yang timbul akibat pandemi Covid-19 digolongkan sebagai bencana…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "nonalam",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "alam"
+                },
+                {
+                  "id": "c2",
+                  "text": "sosial"
+                },
+                {
+                  "id": "c3",
+                  "text": "ekstraterestrial"
+                }
+              ],
+              "explanation": "Pandemi termasuk bencana nonalam karena disebabkan wabah penyakit, bukan faktor alam maupun konflik sosial."
+            },
+            {
+              "type": "challenge",
+              "id": "ipas-2-tantangan",
+              "title": "Tantangan istilah kebencanaan",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Peringkat risiko bencana Indonesia 2022",
+                  "answer": "Ketiga"
+                },
+                {
+                  "question": "Undang-undang penanggulangan bencana",
+                  "answer": "UU 24/2007"
+                },
+                {
+                  "question": "Lembaga penanggulangan bencana nasional",
+                  "answer": "BNPB"
+                },
+                {
+                  "question": "Bencana akibat cuaca dan iklim",
+                  "answer": "Hidrometeorologi"
+                },
+                {
+                  "question": "Tiga lempeng di Indonesia",
+                  "answer": "Pasifik, Hindia, Eurasia"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah kebencanaan terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Mengembangkan Projek Mitigasi Bencana — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Di posisi berapa Indonesia dalam World Risk Report 2022?",
+              "options": [
+                {
+                  "text": "ketiga",
+                  "correct": true
+                },
+                {
+                  "text": "pertama"
+                },
+                {
+                  "text": "kedua"
+                },
+                {
+                  "text": "kesepuluh"
+                }
+              ],
+              "explanation": "Indonesia berada di posisi ketiga sebagai negara berisiko bencana terbesar dunia.",
+              "hint": "Filipina dan India berada di atas Indonesia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa kejadian bencana yang dicatat BNPB sepanjang 2022?",
+              "options": [
+                {
+                  "text": "2.277 kejadian",
+                  "correct": true
+                },
+                {
+                  "text": "1.277 kejadian"
+                },
+                {
+                  "text": "3.277 kejadian"
+                },
+                {
+                  "text": "477 kejadian"
+                }
+              ],
+              "explanation": "BNPB mencatat 2.277 bencana pada 2022, didominasi bencana hidrometeorologi.",
+              "hint": "Angka ini lebih kecil daripada catatan 2021 yang mencapai tiga ribu."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut UU No. 24 Tahun 2007, bencana disebabkan oleh…",
+              "options": [
+                {
+                  "text": "faktor alam, nonalam, dan manusia",
+                  "correct": true
+                },
+                {
+                  "text": "faktor alam dan cuaca"
+                },
+                {
+                  "text": "faktor ekonomi dan politik"
+                },
+                {
+                  "text": "faktor geologi saja"
+                }
+              ],
+              "explanation": "Undang-undang membagi penyebab bencana menjadi tiga faktor.",
+              "hint": "Setiap faktor punya contoh berbeda."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk bencana geologi?",
+              "options": [
+                {
+                  "text": "Gempa bumi tektonik",
+                  "correct": true
+                },
+                {
+                  "text": "Tsunami",
+                  "correct": true
+                },
+                {
+                  "text": "Letusan gunung api",
+                  "correct": true
+                },
+                {
+                  "text": "Banjir bandang",
+                  "correct": false
+                },
+                {
+                  "text": "Kekeringan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Gempa, tsunami, dan letusan gunung berasal dari aktivitas geologi.",
+              "hint": "Banjir dan kekeringan termasuk hidrometeorologi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk bencana hidrometeorologi?",
+              "options": [
+                {
+                  "text": "Banjir",
+                  "correct": true
+                },
+                {
+                  "text": "Kekeringan",
+                  "correct": true
+                },
+                {
+                  "text": "Angin puting beliung",
+                  "correct": true
+                },
+                {
+                  "text": "Gempa tektonik",
+                  "correct": false
+                },
+                {
+                  "text": "Jatuhnya meteor",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiganya dipicu cuaca dan iklim.",
+              "hint": "Gempa dan meteor bukan bencana cuaca."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Mengembangkan Projek Mitigasi Bencana — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Tiga lempeng besar yang bertemu di wilayah Indonesia adalah…",
+              "options": [
+                {
+                  "text": "Pasifik, Hindia, dan Eurasia",
+                  "correct": true
+                },
+                {
+                  "text": "Pasifik, Atlantik, dan Afrika"
+                },
+                {
+                  "text": "Hindia, Arab, dan Nazca"
+                },
+                {
+                  "text": "Eurasia, Amerika, dan Antartika"
+                }
+              ],
+              "explanation": "Indonesia berada pada pertemuan lempeng Pasifik, Hindia, dan Eurasia.",
+              "hint": "Dua di antaranya berupa lempeng dasar samudra."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bencana akibat aktivitas geologi seperti gempa tektonik dan letusan gunung disebut…",
+              "options": [
+                {
+                  "text": "bencana geologi",
+                  "correct": true
+                },
+                {
+                  "text": "bencana hidrometeorologi"
+                },
+                {
+                  "text": "bencana ekstraterestrial"
+                },
+                {
+                  "text": "bencana sosial"
+                }
+              ],
+              "explanation": "Bencana geologi berasal dari aktivitas di dalam bumi.",
+              "hint": "Gempa dan gunung api adalah contoh utamanya."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk bencana nonalam?",
+              "options": [
+                {
+                  "text": "Wabah flu burung",
+                  "correct": true
+                },
+                {
+                  "text": "Kecelakaan lalu lintas",
+                  "correct": true
+                },
+                {
+                  "text": "Pandemi Covid-19",
+                  "correct": true
+                },
+                {
+                  "text": "Tawuran pelajar",
+                  "correct": false
+                },
+                {
+                  "text": "Tsunami",
+                  "correct": false
+                }
+              ],
+              "explanation": "Wabah dan kecelakaan termasuk bencana nonalam.",
+              "hint": "Tawuran termasuk sosial, tsunami termasuk alam."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk bencana sosial?",
+              "options": [
+                {
+                  "text": "Tawuran antarpelajar",
+                  "correct": true
+                },
+                {
+                  "text": "Konflik pembagian air",
+                  "correct": true
+                },
+                {
+                  "text": "Terorisme",
+                  "correct": true
+                },
+                {
+                  "text": "Banjir bandang",
+                  "correct": false
+                },
+                {
+                  "text": "Letusan gunung",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bencana sosial melibatkan konflik dan tindakan manusia.",
+              "hint": "Banjir dan letusan berasal dari alam."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Mitigasi",
+                  "right": "upaya mengurangi risiko bencana"
+                },
+                {
+                  "id": "m1",
+                  "left": "Bencana alam",
+                  "right": "peristiwa yang disebabkan alam"
+                },
+                {
+                  "id": "m2",
+                  "left": "Bencana nonalam",
+                  "right": "gagal teknologi, epidemi, dan wabah"
+                },
+                {
+                  "id": "m3",
+                  "left": "Bencana sosial",
+                  "right": "konflik dan tindakan manusia"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "upaya mengurangi risiko bencana",
+                  "m1": "peristiwa yang disebabkan alam",
+                  "m2": "gagal teknologi, epidemi, dan wabah",
+                  "m3": "konflik dan tindakan manusia"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah mitigasi banjir menurut buku.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyiapkan tas siaga bencana"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mengungsi ke tempat yang lebih tinggi"
+                },
+                {
+                  "id": "d2",
+                  "text": "Membuat penyaringan air bersih"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2"
+                ]
+              },
+              "explanation": "Tas siaga disiapkan sebelum, mengungsi saat banjir, dan penyaringan air dibuat sesudahnya.",
+              "hint": "Urutan mengikuti waktu kejadian."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan alur analisis masalah kebencanaan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menentukan jenis bencana"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menganalisis penyebab"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menganalisis dampak"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menyusun solusi"
+                },
+                {
+                  "id": "p4",
+                  "text": "Memilih solusi terbaik"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Analisis bergerak dari jenis, penyebab, dampak, sampai solusi.",
+              "hint": "Solusi disusun setelah dampak diketahui."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Banjir, kekeringan, dan angin puting beliung termasuk bencana…",
+              "options": [
+                {
+                  "text": "hidrometeorologi",
+                  "correct": true
+                },
+                {
+                  "text": "geologi"
+                },
+                {
+                  "text": "ekstraterestrial"
+                },
+                {
+                  "text": "nonalam"
+                }
+              ],
+              "explanation": "Bencana hidrometeorologi dipicu perubahan cuaca dan iklim.",
+              "hint": "Kata hidro berarti air dan meteo berarti cuaca."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bencana akibat jatuhnya benda angkasa disebut…",
+              "options": [
+                {
+                  "text": "ekstraterestrial",
+                  "correct": true
+                },
+                {
+                  "text": "geologi"
+                },
+                {
+                  "text": "hidrometeorologi"
+                },
+                {
+                  "text": "sosial"
+                }
+              ],
+              "explanation": "Bencana ekstraterestrial berasal dari luar bumi, misalnya meteor.",
+              "hint": "Berasal dari kata extra yang berarti luar."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kegiatan mitigasi sebelum bencana?",
+              "options": [
+                {
+                  "text": "Menyiapkan tas siaga",
+                  "correct": true
+                },
+                {
+                  "text": "Mengenali jalur evakuasi",
+                  "correct": true
+                },
+                {
+                  "text": "Mengikuti simulasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menyalakan lilin saat gempa",
+                  "correct": false
+                },
+                {
+                  "text": "Menggunakan lift untuk turun",
+                  "correct": false
+                }
+              ],
+              "explanation": "Persiapan sebelum bencana menyelamatkan banyak nyawa.",
+              "hint": "Saat gempa, lift tidak boleh dipakai."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Mengembangkan Projek Mitigasi Bencana — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Manakah contoh bencana nonalam?",
+              "options": [
+                {
+                  "text": "pandemi Covid-19",
+                  "correct": true
+                },
+                {
+                  "text": "tsunami Aceh"
+                },
+                {
+                  "text": "tawuran antarpelajar"
+                },
+                {
+                  "text": "letusan Gunung Merapi"
+                }
+              ],
+              "explanation": "Pandemi termasuk bencana nonalam karena disebabkan wabah penyakit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Konflik antarwarga karena pembagian air irigasi termasuk bencana…",
+              "options": [
+                {
+                  "text": "sosial",
+                  "correct": true
+                },
+                {
+                  "text": "alam"
+                },
+                {
+                  "text": "nonalam"
+                },
+                {
+                  "text": "geologi"
+                }
+              ],
+              "explanation": "Bencana sosial muncul dari peristiwa yang melibatkan manusia."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut UU No. 24 Tahun 2007, mitigasi adalah…",
+              "options": [
+                {
+                  "text": "upaya mengurangi risiko bencana melalui pembangunan fisik dan penyadaran",
+                  "correct": true
+                },
+                {
+                  "text": "bantuan dana setelah bencana"
+                },
+                {
+                  "text": "pemindahan seluruh warga"
+                },
+                {
+                  "text": "pembangunan gedung baru"
+                }
+              ],
+              "explanation": "Mitigasi mencakup pembangunan fisik serta peningkatan kemampuan menghadapi ancaman."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa tahapan mitigasi bencana?",
+              "options": [
+                {
+                  "text": "sebelum, pada saat, dan sesudah bencana",
+                  "correct": true
+                },
+                {
+                  "text": "perencanaan, pelaksanaan, pengawasan"
+                },
+                {
+                  "text": "hulu, tengah, hilir"
+                },
+                {
+                  "text": "pagi, siang, malam"
+                }
+              ],
+              "explanation": "Mitigasi dibagi menjadi tiga tahap waktu kejadian bencana."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Benda yang perlu disiapkan sebelum bencana adalah…",
+              "options": [
+                {
+                  "text": "tas siaga bencana",
+                  "correct": true
+                },
+                {
+                  "text": "traktor"
+                },
+                {
+                  "text": "mesin fotokopi"
+                },
+                {
+                  "text": "papan tulis"
+                }
+              ],
+              "explanation": "Tas siaga berisi kebutuhan dasar saat mengungsi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kegiatan mitigasi sesudah bencana?",
+              "options": [
+                {
+                  "text": "Rekonstruksi bangunan",
+                  "correct": true
+                },
+                {
+                  "text": "Trauma healing",
+                  "correct": true
+                },
+                {
+                  "text": "Menyediakan fasilitas umum",
+                  "correct": true
+                },
+                {
+                  "text": "Membakar puing di jalan",
+                  "correct": false
+                },
+                {
+                  "text": "Membiarkan korban tanpa bantuan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Pascabencana berfokus pada pemulihan fisik dan psikologis."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kriteria pemilihan solusi mitigasi?",
+              "options": [
+                {
+                  "text": "Sederhana dan murah",
+                  "correct": true
+                },
+                {
+                  "text": "Mudah dibuat",
+                  "correct": true
+                },
+                {
+                  "text": "Sesuai kebutuhan masyarakat",
+                  "correct": true
+                },
+                {
+                  "text": "Sulit dipahami warga",
+                  "correct": false
+                },
+                {
+                  "text": "Memerlukan biaya besar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Solusi dipilih bila sederhana, murah, mudah, dan sesuai kebutuhan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Hidrometeorologi",
+                  "right": "banjir, kekeringan, puting beliung"
+                },
+                {
+                  "id": "m1",
+                  "left": "Ekstraterestrial",
+                  "right": "jatuhnya meteor dan badai matahari"
+                },
+                {
+                  "id": "m2",
+                  "left": "Retrofitting",
+                  "right": "penguatan struktur bangunan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Trauma healing",
+                  "right": "pemulihan kondisi psikologis korban"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "banjir, kekeringan, puting beliung",
+                  "m1": "jatuhnya meteor dan badai matahari",
+                  "m2": "penguatan struktur bangunan",
+                  "m3": "pemulihan kondisi psikologis korban"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah penyelamatan saat gempa di sekolah.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Berlindung di bawah meja kokoh"
+                },
+                {
+                  "id": "d1",
+                  "text": "Melindungi kepala"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menunggu guncangan berhenti"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menuju titik kumpul melalui jalur evakuasi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Melakukan pemeriksaan dan pendataan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Penyelamatan berurutan dari berlindung, menunggu, evakuasi, sampai pendataan."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menyusun projek mitigasi bencana.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mengidentifikasi alternatif mitigasi"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memilih solusi sesuai kriteria"
+                },
+                {
+                  "id": "p2",
+                  "text": "Mendesain projek"
+                },
+                {
+                  "id": "p3",
+                  "text": "Membangun projek"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mengevaluasi dan melaporkan hasil"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Projek dimulai dari alternatif, pemilihan solusi, desain, pembuatan, lalu evaluasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Saat gempa terjadi di sekolah, tindakan yang tepat adalah…",
+              "options": [
+                {
+                  "text": "menyelamatkan diri ke tempat terbuka",
+                  "correct": true
+                },
+                {
+                  "text": "berlindung di dalam lift"
+                },
+                {
+                  "text": "tetap duduk di kelas"
+                },
+                {
+                  "text": "berlari ke atap gedung"
+                }
+              ],
+              "explanation": "Buku menyarankan menyelamatkan diri ke tempat terbuka setelah guncangan mereda."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tindakan mengatasi trauma korban bencana disebut…",
+              "options": [
+                {
+                  "text": "trauma healing",
+                  "correct": true
+                },
+                {
+                  "text": "retrofitting"
+                },
+                {
+                  "text": "reboisasi"
+                },
+                {
+                  "text": "relokasi"
+                }
+              ],
+              "explanation": "Trauma healing membantu memulihkan kondisi psikologis korban."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk catatan refleksi BNPB 2021?",
+              "options": [
+                {
+                  "text": "Pentingnya literasi kebencanaan",
+                  "correct": true
+                },
+                {
+                  "text": "Penguatan bangunan tahan gempa",
+                  "correct": true
+                },
+                {
+                  "text": "Mitigasi kultural dan simulasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus jalur evakuasi",
+                  "correct": false
+                },
+                {
+                  "text": "Melarang simulasi bencana",
+                  "correct": false
+                }
+              ],
+              "explanation": "BNPB menekankan literasi, penguatan bangunan, dan mitigasi kultural."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Mitigasi",
+                  "right": "upaya mengurangi risiko bencana"
+                },
+                {
+                  "id": "m1",
+                  "left": "Bencana alam",
+                  "right": "peristiwa yang disebabkan alam"
+                },
+                {
+                  "id": "m2",
+                  "left": "Bencana nonalam",
+                  "right": "gagal teknologi, epidemi, dan wabah"
+                },
+                {
+                  "id": "m3",
+                  "left": "Bencana sosial",
+                  "right": "konflik dan tindakan manusia"
+                },
+                {
+                  "id": "m4",
+                  "left": "Hidrometeorologi",
+                  "right": "banjir, kekeringan, puting beliung"
+                },
+                {
+                  "id": "m5",
+                  "left": "Ekstraterestrial",
+                  "right": "jatuhnya meteor dan badai matahari"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "upaya mengurangi risiko bencana",
+                  "m1": "peristiwa yang disebabkan alam",
+                  "m2": "gagal teknologi, epidemi, dan wabah",
+                  "m3": "konflik dan tindakan manusia",
+                  "m4": "banjir, kekeringan, puting beliung",
+                  "m5": "jatuhnya meteor dan badai matahari"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan pemulihan pascabencana.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyelamatkan korban"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mengobati korban luka"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menyediakan fasilitas umum"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membangun kembali infrastruktur"
+                },
+                {
+                  "id": "d4",
+                  "text": "Pendampingan trauma healing"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pemulihan bergerak dari penyelamatan, pengobatan, fasilitas, rekonstruksi, sampai pendampingan psikologis."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

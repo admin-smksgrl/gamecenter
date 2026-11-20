@@ -1,0 +1,1305 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "ipas",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "IPAS 4",
+      "title": "Membangun Komunikasi dengan Bantuan Teknologi",
+      "description": "Menelusuri perkembangan teknologi informasi dan komunikasi, memahami internet, Internet of Things, dan sensor, serta merancang purwarupa solusi berbasis TIK sesuai bidang keahlian.",
+      "learning_objectives": [
+        "Menjelaskan peranan TIK dalam kehidupan sehari-hari.",
+        "Menelusuri perkembangan TIK dari telepon kabel sampai Internet of Things.",
+        "Menjelaskan fungsi sensor dan komponen pendukung IoT.",
+        "Mengidentifikasi masalah di sekitar yang dapat diselesaikan dengan TIK.",
+        "Merancang dan mengevaluasi purwarupa solusi berbasis IoT."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 4 Membangun Komunikasi dengan Bantuan Teknologi; CP Fase E Projek IPAS",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa komunikasi berubah cepat?",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 4 Membangun Komunikasi dengan Bantuan Teknologi; CP Fase E Projek IPAS",
+          "content": "## Era digital dan peranan TIK\n\nTelepon rumah, mesin faks, radio, dan televisi tabung pernah menjadi peralatan utama komunikasi. Kini ponsel pintar memuat semuanya sekaligus: pesan, panggilan video, kamera, dan aplikasi kerja.\n\nTeknologi informasi dan komunikasi mempercepat hubungan antarmanusia. Surel (email) sejak 1990-an mengubah cara berkirim pesan, lalu media sosial membuat penyebaran informasi berlangsung dalam hitungan detik.\n\nPerubahan ini juga mengubah perilaku: belajar bisa dilakukan daring, berdagang lewat e-commerce, dan peralatan rumah dapat dikendalikan dari jauh melalui Internet of Things.\n\nGunakan data pribadi secara bijak: unggahan dan lokasi yang tersebar di internet sulit ditarik kembali.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "ipas-4-komunikasi-teknologi-glosarium",
+              "terms": [
+                {
+                  "term": "TIK",
+                  "definition": "Teknologi informasi dan komunikasi, yaitu perangkat dan sistem untuk mengolah serta menyebarkan informasi."
+                },
+                {
+                  "term": "Internet",
+                  "definition": "Jaringan komunikasi elektronik yang menghubungkan jaringan komputer di seluruh dunia."
+                },
+                {
+                  "term": "Media sosial",
+                  "definition": "Platform digital yang memungkinkan pengguna berkomunikasi dan membagikan konten tanpa batas ruang dan waktu."
+                },
+                {
+                  "term": "IoT",
+                  "definition": "Internet of Things, jaringan kolektif perangkat yang terhubung dan bertukar data melalui internet."
+                },
+                {
+                  "term": "Sensor",
+                  "definition": "Perangkat yang menerima dan menanggapi sinyal atau stimulus dari lingkungan."
+                },
+                {
+                  "term": "Cloud",
+                  "definition": "Layanan komputasi yang menyediakan server, penyimpanan, basis data, dan perangkat lunak melalui internet."
+                },
+                {
+                  "term": "Otomasi",
+                  "definition": "Penggunaan alat, mesin, dan komputer untuk menjalankan pekerjaan dengan sedikit campur tangan manusia."
+                },
+                {
+                  "term": "E-commerce",
+                  "definition": "Sistem pemasaran dan perdagangan yang berbasis internet."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Era digital dan peranan TIK"
+            },
+            {
+              "type": "paragraph",
+              "text": "Telepon rumah, mesin faks, radio, dan televisi tabung pernah menjadi peralatan utama komunikasi. Kini ponsel pintar memuat semuanya sekaligus: pesan, panggilan video, kamera, dan aplikasi kerja."
+            },
+            {
+              "type": "paragraph",
+              "text": "Teknologi informasi dan komunikasi mempercepat hubungan antarmanusia. Surel (email) sejak 1990-an mengubah cara berkirim pesan, lalu media sosial membuat penyebaran informasi berlangsung dalam hitungan detik."
+            },
+            {
+              "type": "paragraph",
+              "text": "Perubahan ini juga mengubah perilaku: belajar bisa dilakukan daring, berdagang lewat e-commerce, dan peralatan rumah dapat dikendalikan dari jauh melalui Internet of Things."
+            },
+            {
+              "type": "diagram",
+              "id": "ipas-4-komunikasi-teknologi-diagram",
+              "engine": "mermaid",
+              "title": "Alur kerja perangkat IoT",
+              "code": "flowchart LR\n  A[Sensor membaca kondisi] --> B[Mikrokontroler mengolah data]\n  B --> C[Data dikirim lewat internet]\n  C --> D[Cloud menyimpan dan menganalisis]\n  D --> E[Aplikasi menampilkan informasi]\n  E --> F[Pengguna mengendalikan perangkat]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Gunakan data pribadi secara bijak: unggahan dan lokasi yang tersebar di internet sulit ditarik kembali."
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-4-komunikasi-teknologi-cp-1",
+              "question": "Jaringan perangkat yang saling terhubung dan bertukar data melalui internet disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Internet of Things",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "e-commerce"
+                },
+                {
+                  "id": "c2",
+                  "text": "cloud storage"
+                },
+                {
+                  "id": "c3",
+                  "text": "media sosial"
+                }
+              ],
+              "explanation": "IoT menghubungkan perangkat agar dapat mengirim data dan menerima perintah melalui internet."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Internet, IoT, dan sensor",
+          "duration": 300,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 4 Membangun Komunikasi dengan Bantuan Teknologi; CP Fase E Projek IPAS",
+          "content": "## Dari internet sampai perangkat yang berpikir\n\nInternet mendistribusikan informasi dengan cepat antartempat yang berjauhan. Pemanfaatannya mencakup mencari informasi, belajar, mengirim surel, hingga mengunduh musik dan film. Alat pemindai barcode di kasir adalah contoh kecil pemanfaatan data digital.\n\nIoT memperluas manfaat koneksi internet. Lampu menyala saat mendeteksi manusia, komputer menyala ketika pegawai absen, dan lemari pendingin dapat memesan kebutuhan yang habis karena terhubung ke cloud.\n\nSensor menjadi komponen penting IoT. Ada sensor suhu, cahaya, sentuhan, gerak, kelembapan udara, kelembapan tanah, asap, detak jantung, ultrasonik, hujan, dan aliran air, dipilih sesuai kebutuhan.\n\n| Komponen | Fungsi | Contoh penerapan |\n|---|---|---|\n| Sensor | Mendeteksi kondisi lingkungan | Sensor kelembapan tanah di kebun |\n| Mikrokontroler | Mengolah data sensor dan menjalankan perintah | Papan pengendali lampu otomatis |\n| Koneksi internet | Mengirim data ke server | Wi-Fi pada alat penyiram tanaman |\n| Cloud | Menyimpan dan menganalisis data | Riwayat suhu tersimpan daring |\n| Aplikasi | Menampilkan data dan kendali | Dasbor pemantauan di ponsel |\n\n### Dari masalah menjadi solusi berbasis TIK\n\n- Mengidentifikasi masalah di sekolah atau rumah yang penyelesaiannya memerlukan bantuan teknologi.\n- Memilih solusi yang memiliki nilai kebaruan dan kemanfaatan tinggi, sesuai bidang keahlian.\n- Membuat desain berskala yang menunjukkan prosedur, alat, bahan, dan model.\n- Mengevaluasi purwarupa dengan uji coba terukur, misalnya mengukur fungsi sensor dan keluaran alat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dari internet sampai perangkat yang berpikir"
+            },
+            {
+              "type": "paragraph",
+              "text": "Internet mendistribusikan informasi dengan cepat antartempat yang berjauhan. Pemanfaatannya mencakup mencari informasi, belajar, mengirim surel, hingga mengunduh musik dan film. Alat pemindai barcode di kasir adalah contoh kecil pemanfaatan data digital."
+            },
+            {
+              "type": "paragraph",
+              "text": "IoT memperluas manfaat koneksi internet. Lampu menyala saat mendeteksi manusia, komputer menyala ketika pegawai absen, dan lemari pendingin dapat memesan kebutuhan yang habis karena terhubung ke cloud."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sensor menjadi komponen penting IoT. Ada sensor suhu, cahaya, sentuhan, gerak, kelembapan udara, kelembapan tanah, asap, detak jantung, ultrasonik, hujan, dan aliran air, dipilih sesuai kebutuhan."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Komponen",
+                  "Fungsi",
+                  "Contoh penerapan"
+                ],
+                [
+                  "Sensor",
+                  "Mendeteksi kondisi lingkungan",
+                  "Sensor kelembapan tanah di kebun"
+                ],
+                [
+                  "Mikrokontroler",
+                  "Mengolah data sensor dan menjalankan perintah",
+                  "Papan pengendali lampu otomatis"
+                ],
+                [
+                  "Koneksi internet",
+                  "Mengirim data ke server",
+                  "Wi-Fi pada alat penyiram tanaman"
+                ],
+                [
+                  "Cloud",
+                  "Menyimpan dan menganalisis data",
+                  "Riwayat suhu tersimpan daring"
+                ],
+                [
+                  "Aplikasi",
+                  "Menampilkan data dan kendali",
+                  "Dasbor pemantauan di ponsel"
+                ]
+              ]
+            },
+            {
+              "type": "timeline",
+              "id": "ipas-4-timeline-tik",
+              "items": [
+                {
+                  "when": "1980-an",
+                  "title": "Telepon kabel dan mesin faks",
+                  "body": "Komunikasi jarak jauh masih memakai kabel dan kertas."
+                },
+                {
+                  "when": "1990-an",
+                  "title": "Surel dan ponsel awal",
+                  "body": "Pesan tertulis berpindah secara digital; ponsel mulai dibawa bepergian."
+                },
+                {
+                  "when": "2000-an",
+                  "title": "Internet dan media sosial",
+                  "body": "Informasi menyebar cepat melalui laman dan jejaring sosial."
+                },
+                {
+                  "when": "2010-an",
+                  "title": "Ponsel pintar",
+                  "body": "Satu perangkat memuat kamera, aplikasi, dan akses internet."
+                },
+                {
+                  "when": "2020-an",
+                  "title": "IoT, cloud, dan kecerdasan buatan",
+                  "body": "Perangkat saling terhubung dan mengambil keputusan otomatis."
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "ipas-4-klasifikasi",
+              "prompt": "Kelompokkan perangkat berikut berdasarkan penggunaan teknologi IoT.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Menggunakan IoT"
+                },
+                {
+                  "id": "b2",
+                  "label": "Bukan IoT"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Lampu taman yang menyala saat mendeteksi gerak",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Kamera tilang elektronik di perempatan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Penyiram tanaman otomatis dengan sensor kelembapan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Lemari pendingin yang memesan bahan yang habis",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i5",
+                  "text": "Papan tulis whiteboard",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Kursi kayu tanpa komponen elektronik",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Sepeda ontel tanpa sensor",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i8",
+                  "text": "Mesin ketik manual",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Perangkat IoT memakai sensor dan koneksi internet untuk bekerja otomatis.",
+                "wrong": "Periksa lagi: tanpa sensor dan koneksi internet, perangkat bukan bagian dari IoT."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dari masalah menjadi solusi berbasis TIK"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mengidentifikasi masalah di sekolah atau rumah yang penyelesaiannya memerlukan bantuan teknologi.",
+                "Memilih solusi yang memiliki nilai kebaruan dan kemanfaatan tinggi, sesuai bidang keahlian.",
+                "Membuat desain berskala yang menunjukkan prosedur, alat, bahan, dan model.",
+                "Mengevaluasi purwarupa dengan uji coba terukur, misalnya mengukur fungsi sensor dan keluaran alat."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-4-komunikasi-teknologi-cp-2",
+              "question": "Komponen IoT yang berfungsi mendeteksi kondisi lingkungan adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "sensor",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "baterai"
+                },
+                {
+                  "id": "c2",
+                  "text": "kabel"
+                },
+                {
+                  "id": "c3",
+                  "text": "casing"
+                }
+              ],
+              "explanation": "Sensor menerima dan menanggapi stimulus seperti suhu, cahaya, gerak, atau kelembapan."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 4 Membangun Komunikasi dengan Bantuan Teknologi; CP Fase E Projek IPAS",
+          "content": "## Projek TIK: dari masalah ke purwarupa\n\nContoh masalah nyata: sekolah berarea luas dengan banyak lampu sehingga petugas harus menyalakan dan mematikannya. Solusinya, instalasi lampu otomatis memakai sensor cahaya dan gerak.\n\nPada bidang pertanian, sensor suhu, kelembapan, dan kamera mengirim data ke perangkat lunak sehingga petani dapat menentukan kapan menyiram, memupuk, atau memanen tanpa harus mendatangi setiap petak.\n\nSetelah purwarupa dibuat, lakukan uji coba dan catat variabel yang terukur. Hasil evaluasi dipakai menyusun rencana tindak lanjut: memperbaiki desain, mengembangkan produksi, atau mensosialisasikan produk.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Projek TIK: dari masalah ke purwarupa"
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh masalah nyata: sekolah berarea luas dengan banyak lampu sehingga petugas harus menyalakan dan mematikannya. Solusinya, instalasi lampu otomatis memakai sensor cahaya dan gerak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada bidang pertanian, sensor suhu, kelembapan, dan kamera mengirim data ke perangkat lunak sehingga petani dapat menentukan kapan menyiram, memupuk, atau memanen tanpa harus mendatangi setiap petak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah purwarupa dibuat, lakukan uji coba dan catat variabel yang terukur. Hasil evaluasi dipakai menyusun rencana tindak lanjut: memperbaiki desain, mengembangkan produksi, atau mensosialisasikan produk."
+            },
+            {
+              "type": "scenario",
+              "id": "ipas-4-skenario",
+              "title": "Lampu kelas yang terus menyala",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Lampu di sekolah sering menyala meski ruang kosong. Apa langkah awal projekmu?",
+                  "choices": [
+                    {
+                      "text": "Mencatat masalah dan mengukur pemakaian lampu",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Data pemakaian membantu memilih solusi yang tepat."
+                    },
+                    {
+                      "text": "Mengganti semua lampu tanpa perhitungan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Penggantian tanpa data bisa memboroskan biaya."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Hasil pengukuran menunjukkan lampu menyala 4 jam tanpa pengguna. Solusi apa yang dipilih?",
+                  "choices": [
+                    {
+                      "text": "Sensor gerak dan cahaya yang mematikan lampu otomatis",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Sensor langsung mengatasi penyebab pemborosan."
+                    },
+                    {
+                      "text": "Menambah poster imbauan hemat listrik",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Imbauan tidak selalu diikuti, sedangkan sensor bekerja otomatis."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Pemborosan listrik berlanjut karena solusi tidak menyentuh penyebabnya.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Lampu hanya menyala saat diperlukan sehingga tagihan listrik turun.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "ipas-4-komunikasi-teknologi-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu IoT?",
+                  "back": "Jaringan perangkat terhubung yang bertukar data lewat internet."
+                },
+                {
+                  "front": "Sebutkan tiga jenis sensor.",
+                  "back": "Sensor suhu, kelembapan tanah, dan gerak."
+                },
+                {
+                  "front": "Apa fungsi cloud pada IoT?",
+                  "back": "Menyimpan dan mengolah data dari perangkat."
+                },
+                {
+                  "front": "Apa itu otomasi?",
+                  "back": "Pekerjaan dijalankan mesin dan komputer dengan sedikit campur tangan manusia."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-4-komunikasi-teknologi-cp-3",
+              "question": "Langkah pertama menyusun projek berbasis TIK adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "mengidentifikasi masalah dan kebutuhan",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "membeli komponen termahal"
+                },
+                {
+                  "id": "c2",
+                  "text": "membuat video promosi"
+                },
+                {
+                  "id": "c3",
+                  "text": "menghitung keuntungan penjualan"
+                }
+              ],
+              "explanation": "Projek dimulai dari masalah yang teridentifikasi, lalu kebutuhan, solusi, desain, dan purwarupa."
+            },
+            {
+              "type": "challenge",
+              "id": "ipas-4-tantangan",
+              "title": "Tantangan istilah teknologi komunikasi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Jaringan perangkat terhubung",
+                  "answer": "IoT"
+                },
+                {
+                  "question": "Alat pendeteksi stimulus",
+                  "answer": "Sensor"
+                },
+                {
+                  "question": "Penyimpanan dan layanan lewat internet",
+                  "answer": "Cloud"
+                },
+                {
+                  "question": "Surat elektronik",
+                  "answer": "Email"
+                },
+                {
+                  "question": "Perdagangan berbasis internet",
+                  "answer": "E-commerce"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah teknologi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Membangun Komunikasi dengan Bantuan Teknologi — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa kepanjangan TIK?",
+              "options": [
+                {
+                  "text": "teknologi informasi dan komunikasi",
+                  "correct": true
+                },
+                {
+                  "text": "teknik industri kreatif"
+                },
+                {
+                  "text": "teknologi industri kimia"
+                },
+                {
+                  "text": "tata informasi komputer"
+                }
+              ],
+              "explanation": "TIK atau ICT adalah teknologi informasi dan komunikasi.",
+              "hint": "Berhubungan dengan pengolahan dan penyebaran informasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Jaringan komunikasi elektronik yang menghubungkan komputer di seluruh dunia disebut…",
+              "options": [
+                {
+                  "text": "internet",
+                  "correct": true
+                },
+                {
+                  "text": "intranet"
+                },
+                {
+                  "text": "bluetooth"
+                },
+                {
+                  "text": "hotspot"
+                }
+              ],
+              "explanation": "Internet menghubungkan jaringan komputer di seluruh dunia.",
+              "hint": "Awalan inter berarti antar."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sejak dekade apa surel mengubah cara berkomunikasi?",
+              "options": [
+                {
+                  "text": "1990-an",
+                  "correct": true
+                },
+                {
+                  "text": "1970-an"
+                },
+                {
+                  "text": "2005-an"
+                },
+                {
+                  "text": "2015-an"
+                }
+              ],
+              "explanation": "Surel mengubah cara berinteraksi sejak 1990-an.",
+              "hint": "Sezaman dengan ponsel awal."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh penerapan IoT?",
+              "options": [
+                {
+                  "text": "Lampu otomatis dengan sensor gerak",
+                  "correct": true
+                },
+                {
+                  "text": "Kamera tilang elektronik",
+                  "correct": true
+                },
+                {
+                  "text": "Lemari pendingin yang memesan bahan",
+                  "correct": true
+                },
+                {
+                  "text": "Papan tulis whiteboard",
+                  "correct": false
+                },
+                {
+                  "text": "Kursi kayu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Perangkat IoT memakai sensor dan koneksi internet.",
+              "hint": "Perabot tanpa elektronik bukan IoT."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah termasuk media sosial?",
+              "options": [
+                {
+                  "text": "Instagram",
+                  "correct": true
+                },
+                {
+                  "text": "Facebook",
+                  "correct": true
+                },
+                {
+                  "text": "Twitter",
+                  "correct": true
+                },
+                {
+                  "text": "Kalkulator",
+                  "correct": false
+                },
+                {
+                  "text": "Mesin faks",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ketiganya platform komunikasi dan berbagi konten.",
+              "hint": "Media sosial berbasis internet."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Membangun Komunikasi dengan Bantuan Teknologi — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Platform digital untuk berkomunikasi dan membagikan konten disebut…",
+              "options": [
+                {
+                  "text": "media sosial",
+                  "correct": true
+                },
+                {
+                  "text": "mesin pencari"
+                },
+                {
+                  "text": "sistem operasi"
+                },
+                {
+                  "text": "peramban"
+                }
+              ],
+              "explanation": "Media sosial memungkinkan interaksi tanpa batas ruang dan waktu.",
+              "hint": "Contohnya Instagram, Facebook, dan Twitter."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa itu IoT?",
+              "options": [
+                {
+                  "text": "jaringan perangkat terhubung yang bertukar data lewat internet",
+                  "correct": true
+                },
+                {
+                  "text": "aplikasi pengolah kata"
+                },
+                {
+                  "text": "jenis kabel jaringan"
+                },
+                {
+                  "text": "perangkat penyimpanan luar"
+                }
+              ],
+              "explanation": "IoT memperluas manfaat koneksi internet ke berbagai perangkat.",
+              "hint": "Perangkat bekerja otomatis sesuai program."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pemanfaatan internet dalam kehidupan sehari-hari?",
+              "options": [
+                {
+                  "text": "Mencari informasi kesehatan",
+                  "correct": true
+                },
+                {
+                  "text": "Mengirim surel",
+                  "correct": true
+                },
+                {
+                  "text": "Belajar daring",
+                  "correct": true
+                },
+                {
+                  "text": "Menanam padi tanpa air",
+                  "correct": false
+                },
+                {
+                  "text": "Membuat kayu dari plastik",
+                  "correct": false
+                }
+              ],
+              "explanation": "Internet memudahkan akses informasi dan komunikasi.",
+              "hint": "Semua berkaitan dengan pertukaran data."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah jenis sensor yang disebut dalam buku?",
+              "options": [
+                {
+                  "text": "Sensor suhu",
+                  "correct": true
+                },
+                {
+                  "text": "Sensor kelembapan tanah",
+                  "correct": true
+                },
+                {
+                  "text": "Sensor asap",
+                  "correct": true
+                },
+                {
+                  "text": "Sensor rasa",
+                  "correct": false
+                },
+                {
+                  "text": "Sensor warna rambut",
+                  "correct": false
+                }
+              ],
+              "explanation": "Buku menyebut sensor suhu, kelembapan, asap, gerak, dan lainnya.",
+              "hint": "Sensor dipilih sesuai kebutuhan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Internet",
+                  "right": "jaringan komputer seluruh dunia"
+                },
+                {
+                  "id": "m1",
+                  "left": "IoT",
+                  "right": "perangkat terhubung yang bertukar data"
+                },
+                {
+                  "id": "m2",
+                  "left": "Sensor",
+                  "right": "pendeteksi stimulus lingkungan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Cloud",
+                  "right": "layanan penyimpanan dan komputasi daring"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "jaringan komputer seluruh dunia",
+                  "m1": "perangkat terhubung yang bertukar data",
+                  "m2": "pendeteksi stimulus lingkungan",
+                  "m3": "layanan penyimpanan dan komputasi daring"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur kerja perangkat IoT.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Sensor membaca kondisi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mikrokontroler mengolah data"
+                },
+                {
+                  "id": "d2",
+                  "text": "Data dikirim melalui internet"
+                },
+                {
+                  "id": "d3",
+                  "text": "Cloud menganalisis data"
+                },
+                {
+                  "id": "d4",
+                  "text": "Aplikasi menampilkan informasi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Alur bergerak dari pembacaan sensor sampai tampilan aplikasi.",
+              "hint": "Data diolah sebelum dikirim."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan tahap projek solusi berbasis TIK.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mengidentifikasi masalah"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memilih solusi dan merancang desain"
+                },
+                {
+                  "id": "p2",
+                  "text": "Membuat purwarupa"
+                },
+                {
+                  "id": "p3",
+                  "text": "Mengevaluasi purwarupa"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menyusun rencana tindak lanjut"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Projek dimulai dari masalah sampai tindak lanjut.",
+              "hint": "Evaluasi sebelum tindak lanjut."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perangkat yang menerima dan menanggapi stimulus disebut…",
+              "options": [
+                {
+                  "text": "sensor",
+                  "correct": true
+                },
+                {
+                  "text": "aktuator"
+                },
+                {
+                  "text": "router"
+                },
+                {
+                  "text": "server"
+                }
+              ],
+              "explanation": "Sensor mendeteksi perubahan seperti suhu, gerak, atau kelembapan.",
+              "hint": "Menjadi mata dan telinga perangkat IoT."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat pemindai di kasir supermarket membaca…",
+              "options": [
+                {
+                  "text": "barcode",
+                  "correct": true
+                },
+                {
+                  "text": "sidik jari"
+                },
+                {
+                  "text": "suara"
+                },
+                {
+                  "text": "wajah"
+                }
+              ],
+              "explanation": "Barcode berisi data optik berupa garis dengan ketebalan berbeda.",
+              "hint": "Tertera pada kemasan barang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat IoT di bidang pertanian?",
+              "options": [
+                {
+                  "text": "Memantau suhu dan kelembapan dari jauh",
+                  "correct": true
+                },
+                {
+                  "text": "Menentukan waktu menyiram",
+                  "correct": true
+                },
+                {
+                  "text": "Mengenali jenis hama",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus kebutuhan benih",
+                  "correct": false
+                },
+                {
+                  "text": "Menggantikan tanah sepenuhnya",
+                  "correct": false
+                }
+              ],
+              "explanation": "Data sensor membantu keputusan perawatan tanaman.",
+              "hint": "Semua berkaitan dengan pemantauan."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Membangun Komunikasi dengan Bantuan Teknologi — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Layanan komputasi penyedia server dan penyimpanan lewat internet disebut…",
+              "options": [
+                {
+                  "text": "cloud",
+                  "correct": true
+                },
+                {
+                  "text": "hard disk"
+                },
+                {
+                  "text": "flashdisk"
+                },
+                {
+                  "text": "komputer desktop"
+                }
+              ],
+              "explanation": "Cloud menyediakan server, media penyimpanan, basis data, dan perangkat lunak."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kamera di perempatan yang memotret pelanggar lalu lintas memanfaatkan…",
+              "options": [
+                {
+                  "text": "IoT",
+                  "correct": true
+                },
+                {
+                  "text": "radio analog"
+                },
+                {
+                  "text": "mesin faks"
+                },
+                {
+                  "text": "telepon kabel"
+                }
+              ],
+              "explanation": "Kamera tilang elektronik terhubung jaringan dan mengenali pelanggaran."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Penerapan IoT di bidang pertanian memungkinkan petani…",
+              "options": [
+                {
+                  "text": "memantau kelembapan, suhu, dan keasaman tanah dari jauh",
+                  "correct": true
+                },
+                {
+                  "text": "membajak sawah tanpa alat"
+                },
+                {
+                  "text": "menghapus kebutuhan air"
+                },
+                {
+                  "text": "menanam tanpa benih"
+                }
+              ],
+              "explanation": "Sensor dan kamera mengirim data sehingga petani dapat memantau dari jarak jauh."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa fungsi mikrokontroler pada perangkat IoT?",
+              "options": [
+                {
+                  "text": "mengolah data sensor dan menjalankan perintah",
+                  "correct": true
+                },
+                {
+                  "text": "menyimpan video berdurasi panjang"
+                },
+                {
+                  "text": "mencetak dokumen"
+                },
+                {
+                  "text": "menampilkan iklan"
+                }
+              ],
+              "explanation": "Mikrokontroler menjadi pengolah data dan pengendali kerja perangkat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Contoh otomasi di rumah adalah…",
+              "options": [
+                {
+                  "text": "lampu menyala saat mendeteksi manusia",
+                  "correct": true
+                },
+                {
+                  "text": "menyapu lantai dengan sapu"
+                },
+                {
+                  "text": "mencuci piring manual"
+                },
+                {
+                  "text": "membuka jendela dengan tangan"
+                }
+              ],
+              "explanation": "Otomasi menjalankan pekerjaan dengan sedikit campur tangan manusia."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah komponen pendukung kerja IoT?",
+              "options": [
+                {
+                  "text": "Sensor",
+                  "correct": true
+                },
+                {
+                  "text": "Koneksi internet",
+                  "correct": true
+                },
+                {
+                  "text": "Cloud",
+                  "correct": true
+                },
+                {
+                  "text": "Mesin ketik",
+                  "correct": false
+                },
+                {
+                  "text": "Papan pengumuman",
+                  "correct": false
+                }
+              ],
+              "explanation": "IoT memerlukan sensor, koneksi, dan layanan pengolahan data."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap projek solusi berbasis TIK?",
+              "options": [
+                {
+                  "text": "Mengidentifikasi masalah",
+                  "correct": true
+                },
+                {
+                  "text": "Memilih solusi dan merancang desain",
+                  "correct": true
+                },
+                {
+                  "text": "Membuat purwarupa",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari evaluasi",
+                  "correct": false
+                },
+                {
+                  "text": "Menutup projek tanpa laporan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Tahapan projek berjalan dari masalah sampai purwarupa dan tindak lanjut."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Otomasi",
+                  "right": "kerja mesin dengan sedikit campur tangan manusia"
+                },
+                {
+                  "id": "m1",
+                  "left": "E-commerce",
+                  "right": "perdagangan berbasis internet"
+                },
+                {
+                  "id": "m2",
+                  "left": "Media sosial",
+                  "right": "platform berbagi konten dan interaksi"
+                },
+                {
+                  "id": "m3",
+                  "left": "Barcode",
+                  "right": "data optik pada kemasan barang"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "kerja mesin dengan sedikit campur tangan manusia",
+                  "m1": "perdagangan berbasis internet",
+                  "m2": "platform berbagi konten dan interaksi",
+                  "m3": "data optik pada kemasan barang"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah uji coba purwarupa IoT.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyiapkan alat ukur"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mengoperasikan purwarupa"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mencatat variabel terukur"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membandingkan dengan kriteria"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memperbaiki bagian yang gagal"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Uji coba mencatat data lalu membandingkannya dengan kriteria."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah membuat desain purwarupa.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mencari referensi prosedur dan bahan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menyiapkan alat gambar"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menggambar desain berskala"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menentukan variabel yang memengaruhi"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Desain dibuat setelah referensi dan alat siap, lalu variabel diidentifikasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Aplikasi yang memfasilitasi banyak penjual dalam satu platform disebut…",
+              "options": [
+                {
+                  "text": "marketplace",
+                  "correct": true
+                },
+                {
+                  "text": "mesin pencari"
+                },
+                {
+                  "text": "surel"
+                },
+                {
+                  "text": "sistem operasi"
+                }
+              ],
+              "explanation": "Marketplace menyediakan fasilitas berbelanja dari banyak penjual."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Tujuan utama membuat desain purwarupa berskala adalah…",
+              "options": [
+                {
+                  "text": "memastikan ukuran produk sesuai rencana",
+                  "correct": true
+                },
+                {
+                  "text": "memperindah laporan"
+                },
+                {
+                  "text": "menambah biaya"
+                },
+                {
+                  "text": "mempercepat pemasaran"
+                }
+              ],
+              "explanation": "Desain berskala menunjukkan perbandingan ukuran gambar dengan produk asli."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah rencana tindak lanjut projek TIK?",
+              "options": [
+                {
+                  "text": "Mendesain ulang produk yang belum sesuai",
+                  "correct": true
+                },
+                {
+                  "text": "Mengembangkan produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Mensosialisasikan produk",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang data uji coba",
+                  "correct": false
+                },
+                {
+                  "text": "Menghentikan perawatan alat",
+                  "correct": false
+                }
+              ],
+              "explanation": "RTL menyempurnakan produk dan menyebarkan manfaatnya."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Internet",
+                  "right": "jaringan komputer seluruh dunia"
+                },
+                {
+                  "id": "m1",
+                  "left": "IoT",
+                  "right": "perangkat terhubung yang bertukar data"
+                },
+                {
+                  "id": "m2",
+                  "left": "Sensor",
+                  "right": "pendeteksi stimulus lingkungan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Cloud",
+                  "right": "layanan penyimpanan dan komputasi daring"
+                },
+                {
+                  "id": "m4",
+                  "left": "Otomasi",
+                  "right": "kerja mesin dengan sedikit campur tangan manusia"
+                },
+                {
+                  "id": "m5",
+                  "left": "E-commerce",
+                  "right": "perdagangan berbasis internet"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "jaringan komputer seluruh dunia",
+                  "m1": "perangkat terhubung yang bertukar data",
+                  "m2": "pendeteksi stimulus lingkungan",
+                  "m3": "layanan penyimpanan dan komputasi daring",
+                  "m4": "kerja mesin dengan sedikit campur tangan manusia",
+                  "m5": "perdagangan berbasis internet"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menelusuri perubahan teknologi komunikasi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Telepon kabel dan faks"
+                },
+                {
+                  "id": "d1",
+                  "text": "Surel dan ponsel awal"
+                },
+                {
+                  "id": "d2",
+                  "text": "Internet dan media sosial"
+                },
+                {
+                  "id": "d3",
+                  "text": "Ponsel pintar"
+                },
+                {
+                  "id": "d4",
+                  "text": "IoT dan kecerdasan buatan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Perubahan teknologi bergerak dari kabel, surel, media sosial, ponsel pintar, sampai IoT."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

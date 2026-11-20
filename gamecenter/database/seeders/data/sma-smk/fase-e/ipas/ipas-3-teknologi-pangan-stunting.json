@@ -1,0 +1,1301 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "ipas",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "IPAS 3",
+      "title": "Mengembangkan Teknologi Pertanian dan Pangan untuk Mengatasi Stunting",
+      "description": "Mengenali ciri, penyebab, dan dampak stunting, menelaah solusi berbasis gizi dan pertanian seperti hidroponik, serta merancang projek dan kampanye anti-stunting di lingkungan sekitar.",
+      "learning_objectives": [
+        "Mengidentifikasi bukti ilmiah kasus stunting di Indonesia.",
+        "Menjelaskan ciri, penyebab, dan dampak stunting pada anak.",
+        "Menyusun alternatif solusi pencegahan stunting berbasis potensi lokal.",
+        "Merancang dan membuat purwarupa projek anti-stunting sederhana.",
+        "Melakukan kampanye anti-stunting dengan media yang sesuai."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 3 Mengembangkan Teknologi Pertanian dan Pangan untuk Mengatasi Stunting; CP Fase E Projek IPAS",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa stunting darurat di Indonesia?",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 3 Mengembangkan Teknologi Pertanian dan Pangan untuk Mengatasi Stunting; CP Fase E Projek IPAS",
+          "content": "## Stunting dan bukti ilmiahnya\n\nPada 2021, Indonesia menempati urutan kedua kasus stunting terbanyak di Asia Tenggara dengan prevalensi 24%. Kementerian Kesehatan mencatat satu dari tiga bayi yang dilahirkan mengalami stunting. Pada 2022 angka itu turun menjadi 21,6%.\n\nStandar WHO menetapkan ambang batas prevalensi stunting sebesar 20%. Artinya, pada 2022 masih banyak provinsi Indonesia yang belum memenuhi standar tersebut, bahkan Nusa Tenggara Timur mencapai 35,3%.\n\nStunting bukan sekadar tubuh pendek. Kekurangan gizi sejak dalam kandungan sampai usia dua tahun mengganggu pertumbuhan fisik, perkembangan kognitif, dan kemampuan motorik anak. Kondisi ini permanen, tetapi dapat dicegah.\n\nStunting tidak dapat disembuhkan, tetapi dapat dicegah. Pencegahan paling kuat dilakukan sejak masa kehamilan hingga usia dua tahun.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "ipas-3-teknologi-pangan-stunting-glosarium",
+              "terms": [
+                {
+                  "term": "Stunting",
+                  "definition": "Gangguan tumbuh kembang anak yang ditandai tinggi badan lebih pendek daripada anak seusianya."
+                },
+                {
+                  "term": "Gizi esensial",
+                  "definition": "Zat gizi yang tidak dapat diproduksi tubuh sehingga harus dipenuhi dari makanan."
+                },
+                {
+                  "term": "Prevalensi",
+                  "definition": "Angka kejadian penyakit atau kondisi pada suatu populasi dalam waktu tertentu."
+                },
+                {
+                  "term": "Hidroponik",
+                  "definition": "Sistem pertanian yang memakai air sebagai media tanam, tanpa tanah."
+                },
+                {
+                  "term": "Kampanye",
+                  "definition": "Komunikasi kepada banyak orang untuk memengaruhi pengetahuan, sikap, atau tindakan."
+                },
+                {
+                  "term": "Posyandu",
+                  "definition": "Pos pelayanan terpadu, struktur terdepan pelayanan kesehatan pemerintah."
+                },
+                {
+                  "term": "Purwarupa",
+                  "definition": "Gambaran awal produk yang dikembangkan sebelum produksi sebenarnya."
+                },
+                {
+                  "term": "Rubrik",
+                  "definition": "Daftar kriteria dan ukuran yang dipakai menilai hasil projek."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Stunting dan bukti ilmiahnya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada 2021, Indonesia menempati urutan kedua kasus stunting terbanyak di Asia Tenggara dengan prevalensi 24%. Kementerian Kesehatan mencatat satu dari tiga bayi yang dilahirkan mengalami stunting. Pada 2022 angka itu turun menjadi 21,6%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Standar WHO menetapkan ambang batas prevalensi stunting sebesar 20%. Artinya, pada 2022 masih banyak provinsi Indonesia yang belum memenuhi standar tersebut, bahkan Nusa Tenggara Timur mencapai 35,3%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Stunting bukan sekadar tubuh pendek. Kekurangan gizi sejak dalam kandungan sampai usia dua tahun mengganggu pertumbuhan fisik, perkembangan kognitif, dan kemampuan motorik anak. Kondisi ini permanen, tetapi dapat dicegah."
+            },
+            {
+              "type": "diagram",
+              "id": "ipas-3-teknologi-pangan-stunting-diagram",
+              "engine": "mermaid",
+              "title": "Rantai penyebab sampai dampak stunting",
+              "code": "flowchart LR\n  A[Kurang gizi esensial] --> B[Gangguan pertumbuhan]\n  B --> C[Tubuh lebih pendek dari seusia]\n  B --> D[Perkembangan kognitif terganggu]\n  B --> E[Keterlambatan motorik]\n  C --> F[Prestasi belajar rendah]\n  D --> F\n  E --> F"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Stunting tidak dapat disembuhkan, tetapi dapat dicegah. Pencegahan paling kuat dilakukan sejak masa kehamilan hingga usia dua tahun."
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-3-teknologi-pangan-stunting-cp-1",
+              "question": "Berapa ambang batas prevalensi stunting menurut standar WHO?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "20%",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "10%"
+                },
+                {
+                  "id": "c2",
+                  "text": "30%"
+                },
+                {
+                  "id": "c3",
+                  "text": "50%"
+                }
+              ],
+              "explanation": "WHO menetapkan ambang 20%; prevalensi di atas angka itu dianggap masalah kesehatan masyarakat."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Ciri, penyebab, dan dampak stunting",
+          "duration": 300,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 3 Mengembangkan Teknologi Pertanian dan Pangan untuk Mengatasi Stunting; CP Fase E Projek IPAS",
+          "content": "## Membaca data stunting dan faktor penyebabnya\n\nCiri stunting meliputi keterlambatan pertumbuhan, penurunan tingkat kecerdasan, gangguan berbicara, kesulitan belajar, dan daya tahan tubuh rendah sehingga mudah terkena infeksi. Anak yang pendek belum tentu stunting, tetapi tinggi badan yang jauh di bawah anak seusianya perlu diperiksa tenaga kesehatan.\n\nMenurut Ikatan Dokter Anak Indonesia, stunting dipengaruhi faktor lingkungan dan genetik. Faktor lingkungan mencakup gizi ibu selama hamil, pola pemberian makan anak, kebersihan lingkungan, dan angka kejadian infeksi.\n\nDampaknya berlangsung jangka panjang: prestasi belajar rendah, keterlambatan motorik, sedikit kosakata, serta kurang fokus. Karena itu penanganan harus segera dan melibatkan keluarga, sekolah, posyandu, dan pemerintah.\n\n| Aspek | Uraian | Contoh |\n|---|---|---|\n| Ciri fisik | Tinggi badan jauh di bawah anak seusia | Pertumbuhan lambat sejak balita |\n| Ciri kognitif | Kecerdasan dan kemampuan belajar menurun | Kesulitan belajar, kosakata sedikit |\n| Penyebab lingkungan | Gizi ibu, pola makan, sanitasi, infeksi | ASI dan MPASI tidak memadai |\n| Penyebab genetik | Faktor keturunan orang tua | Orang tua bertubuh pendek |\n| Dampak | Prestasi rendah dan mudah sakit | Sering absen karena infeksi |\n\n### Solusi berbasis pangan dan teknologi\n\n- Memenuhi gizi esensial melalui makanan beragam: karbohidrat, protein, lemak, vitamin, dan mineral.\n- Memanfaatkan lahan sempit dengan hidroponik berdesain 105 cm × 105 cm dari pipa PVC bertingkat.\n- Meningkatkan pendapatan keluarga agar mampu mengakses makanan bergizi.\n- Memantau pertumbuhan anak secara rutin di posyandu dan fasilitas kesehatan terdekat.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membaca data stunting dan faktor penyebabnya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ciri stunting meliputi keterlambatan pertumbuhan, penurunan tingkat kecerdasan, gangguan berbicara, kesulitan belajar, dan daya tahan tubuh rendah sehingga mudah terkena infeksi. Anak yang pendek belum tentu stunting, tetapi tinggi badan yang jauh di bawah anak seusianya perlu diperiksa tenaga kesehatan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Menurut Ikatan Dokter Anak Indonesia, stunting dipengaruhi faktor lingkungan dan genetik. Faktor lingkungan mencakup gizi ibu selama hamil, pola pemberian makan anak, kebersihan lingkungan, dan angka kejadian infeksi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Dampaknya berlangsung jangka panjang: prestasi belajar rendah, keterlambatan motorik, sedikit kosakata, serta kurang fokus. Karena itu penanganan harus segera dan melibatkan keluarga, sekolah, posyandu, dan pemerintah."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Aspek",
+                  "Uraian",
+                  "Contoh"
+                ],
+                [
+                  "Ciri fisik",
+                  "Tinggi badan jauh di bawah anak seusia",
+                  "Pertumbuhan lambat sejak balita"
+                ],
+                [
+                  "Ciri kognitif",
+                  "Kecerdasan dan kemampuan belajar menurun",
+                  "Kesulitan belajar, kosakata sedikit"
+                ],
+                [
+                  "Penyebab lingkungan",
+                  "Gizi ibu, pola makan, sanitasi, infeksi",
+                  "ASI dan MPASI tidak memadai"
+                ],
+                [
+                  "Penyebab genetik",
+                  "Faktor keturunan orang tua",
+                  "Orang tua bertubuh pendek"
+                ],
+                [
+                  "Dampak",
+                  "Prestasi rendah dan mudah sakit",
+                  "Sering absen karena infeksi"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "ipas-3-prevalensi",
+              "title": "Lima provinsi dengan prevalensi stunting tertinggi 2022 (%)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "NTT",
+                  "value": 35.3
+                },
+                {
+                  "label": "Sulawesi Barat",
+                  "value": 35.0
+                },
+                {
+                  "label": "Papua",
+                  "value": 34.6
+                },
+                {
+                  "label": "NTB",
+                  "value": 32.7
+                },
+                {
+                  "label": "Aceh",
+                  "value": 31.2
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "ipas-3-klasifikasi",
+              "prompt": "Kelompokkan pernyataan berikut ke dalam penyebab, ciri, atau solusi stunting.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Penyebab"
+                },
+                {
+                  "id": "b2",
+                  "label": "Ciri atau dampak"
+                },
+                {
+                  "id": "b3",
+                  "label": "Solusi"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Gizi ibu kurang selama kehamilan",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Pola pemberian makan anak tidak memadai",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Kebersihan lingkungan buruk dan infeksi berulang",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Tinggi badan jauh di bawah anak seusia",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Keterlambatan berbicara dan kurang fokus",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Menanam sayuran dengan hidroponik",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i7",
+                  "text": "Memberi bantuan makanan bergizi bagi keluarga miskin",
+                  "bucket": "b3"
+                },
+                {
+                  "id": "i8",
+                  "text": "Memantau tumbuh kembang di posyandu",
+                  "bucket": "b3"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Penyebab berasal dari gizi, pola makan, dan lingkungan; ciri tampak pada tubuh serta kemampuan anak; solusi berupa tindakan pencegahan.",
+                "wrong": "Periksa lagi: hidroponik dan bantuan pangan adalah tindakan, bukan gejala."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Solusi berbasis pangan dan teknologi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Memenuhi gizi esensial melalui makanan beragam: karbohidrat, protein, lemak, vitamin, dan mineral.",
+                "Memanfaatkan lahan sempit dengan hidroponik berdesain 105 cm × 105 cm dari pipa PVC bertingkat.",
+                "Meningkatkan pendapatan keluarga agar mampu mengakses makanan bergizi.",
+                "Memantau pertumbuhan anak secara rutin di posyandu dan fasilitas kesehatan terdekat."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-3-teknologi-pangan-stunting-cp-2",
+              "question": "Mengapa hidroponik dipilih sebagai solusi pencegahan stunting di sekolah?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "Bisa dilakukan di lahan sempit dengan biaya terjangkau",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "Memerlukan lahan pertanian yang sangat luas"
+                },
+                {
+                  "id": "c2",
+                  "text": "Tidak memerlukan air sama sekali"
+                },
+                {
+                  "id": "c3",
+                  "text": "Hanya dapat dipakai di daerah pegunungan"
+                }
+              ],
+              "explanation": "Hidroponik memungkinkan penanaman sayuran di lahan terbatas dengan bahan murah dan mudah didapat."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 3 Mengembangkan Teknologi Pertanian dan Pangan untuk Mengatasi Stunting; CP Fase E Projek IPAS",
+          "content": "## Projek anti-stunting dan kampanyenya\n\nProjek anti-stunting dijalankan melalui lima kegiatan: mendesain purwarupa, membangun purwarupa, mengevaluasi, mendesain ulang berdasarkan hasil evaluasi, dan menyusun rencana tindak lanjut.\n\nSebelum membangun purwarupa, kelompok melengkapi jadwal waktu, pembagian tugas, prosedur kerja, dan manajemen risiko. Alur kerja projek membantu pelaksanaan berjalan bertahap dan terukur.\n\nEvaluasi memakai rubrik produk, misalnya kerapian, estetika, dan bentuk. Bila hasil belum sesuai, produk diperbaiki. Setelah itu kampanye anti-stunting dilakukan lewat poster, video singkat, atau kunjungan ke rumah warga.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Projek anti-stunting dan kampanyenya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Projek anti-stunting dijalankan melalui lima kegiatan: mendesain purwarupa, membangun purwarupa, mengevaluasi, mendesain ulang berdasarkan hasil evaluasi, dan menyusun rencana tindak lanjut."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sebelum membangun purwarupa, kelompok melengkapi jadwal waktu, pembagian tugas, prosedur kerja, dan manajemen risiko. Alur kerja projek membantu pelaksanaan berjalan bertahap dan terukur."
+            },
+            {
+              "type": "paragraph",
+              "text": "Evaluasi memakai rubrik produk, misalnya kerapian, estetika, dan bentuk. Bila hasil belum sesuai, produk diperbaiki. Setelah itu kampanye anti-stunting dilakukan lewat poster, video singkat, atau kunjungan ke rumah warga."
+            },
+            {
+              "type": "scenario",
+              "id": "ipas-3-skenario",
+              "title": "Kampanye di posyandu",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Kamu menemukan banyak warga belum memahami stunting. Apa langkah pertama?",
+                  "choices": [
+                    {
+                      "text": "Melakukan survei pemahaman warga",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Survei memberi data awal untuk kampanye yang tepat sasaran."
+                    },
+                    {
+                      "text": "Langsung mencetak poster tanpa data",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Kampanye tanpa data sulit mengukur keberhasilan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Data menunjukkan warga memahami stunting tetapi sulit menyediakan sayur. Apa solusinya?",
+                  "choices": [
+                    {
+                      "text": "Membuat hidroponik sederhana di pekarangan",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Solusi ini murah dan langsung menambah ketersediaan sayur."
+                    },
+                    {
+                      "text": "Hanya menambah poster di balai desa",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Poster tidak mengatasi akar masalah ketersediaan pangan."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Kampanye berjalan tanpa perubahan perilaku yang terukur.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Warga menanam sayur sendiri dan kebutuhan gizi anak membaik.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "ipas-3-teknologi-pangan-stunting-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu stunting?",
+                  "back": "Gangguan tumbuh kembang dengan tinggi badan lebih pendek dari anak seusianya."
+                },
+                {
+                  "front": "Berapa prevalensi stunting Indonesia 2022?",
+                  "back": "21,6%."
+                },
+                {
+                  "front": "Apa media tanam hidroponik?",
+                  "back": "Air, bukan tanah."
+                },
+                {
+                  "front": "Di mana pemantauan tumbuh kembang dilakukan?",
+                  "back": "Posyandu dan fasilitas kesehatan terdekat."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-3-teknologi-pangan-stunting-cp-3",
+              "question": "Dokumen berisi kriteria penilaian produk projek disebut…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "rubrik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "proposal"
+                },
+                {
+                  "id": "c2",
+                  "text": "jadwal waktu"
+                },
+                {
+                  "id": "c3",
+                  "text": "laporan keuangan"
+                }
+              ],
+              "explanation": "Rubrik memuat kriteria yang dipakai menilai kesesuaian produk dengan standar projek."
+            },
+            {
+              "type": "challenge",
+              "id": "ipas-3-tantangan",
+              "title": "Tantangan istilah stunting",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Angka kejadian pada populasi",
+                  "answer": "Prevalensi"
+                },
+                {
+                  "question": "Bercocok tanam memakai air",
+                  "answer": "Hidroponik"
+                },
+                {
+                  "question": "Ambang batas WHO",
+                  "answer": "20%"
+                },
+                {
+                  "question": "Provinsi prevalensi tertinggi 2022",
+                  "answer": "NTT"
+                },
+                {
+                  "question": "Kegiatan memengaruhi banyak orang",
+                  "answer": "Kampanye"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah stunting terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Mengembangkan Teknologi Pertanian dan Pangan untuk Mengatasi Stunting — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa prevalensi stunting Indonesia pada 2021?",
+              "options": [
+                {
+                  "text": "24%",
+                  "correct": true
+                },
+                {
+                  "text": "14%"
+                },
+                {
+                  "text": "34%"
+                },
+                {
+                  "text": "44%"
+                }
+              ],
+              "explanation": "Pada 2021 prevalensi stunting Indonesia 24%, kedua tertinggi di Asia Tenggara.",
+              "hint": "Angka ini turun pada 2022."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa prevalensi stunting Indonesia pada 2022?",
+              "options": [
+                {
+                  "text": "21,6%",
+                  "correct": true
+                },
+                {
+                  "text": "11,6%"
+                },
+                {
+                  "text": "31,6%"
+                },
+                {
+                  "text": "25%"
+                }
+              ],
+              "explanation": "Pada 2022 prevalensi turun menjadi 21,6%.",
+              "hint": "Masih di atas ambang WHO."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa ambang batas prevalensi stunting menurut WHO?",
+              "options": [
+                {
+                  "text": "20%",
+                  "correct": true
+                },
+                {
+                  "text": "10%"
+                },
+                {
+                  "text": "25%"
+                },
+                {
+                  "text": "30%"
+                }
+              ],
+              "explanation": "WHO memakai ambang 20% sebagai batas masalah kesehatan masyarakat.",
+              "hint": "Sedikit di bawah angka nasional 2022."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri anak mengalami stunting?",
+              "options": [
+                {
+                  "text": "Keterlambatan pertumbuhan",
+                  "correct": true
+                },
+                {
+                  "text": "Daya tahan tubuh rendah",
+                  "correct": true
+                },
+                {
+                  "text": "Kesulitan belajar",
+                  "correct": true
+                },
+                {
+                  "text": "Penglihatan tajam",
+                  "correct": false
+                },
+                {
+                  "text": "Pendengaran berlebih",
+                  "correct": false
+                }
+              ],
+              "explanation": "Stunting memengaruhi pertumbuhan, imunitas, dan kemampuan belajar.",
+              "hint": "Ciri utamanya tampak pada pertumbuhan dan perkembangan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah termasuk penyebab stunting?",
+              "options": [
+                {
+                  "text": "Gizi ibu selama hamil kurang",
+                  "correct": true
+                },
+                {
+                  "text": "Pola pemberian makan tidak memadai",
+                  "correct": true
+                },
+                {
+                  "text": "Kebersihan lingkungan buruk",
+                  "correct": true
+                },
+                {
+                  "text": "Olahraga berlebihan",
+                  "correct": false
+                },
+                {
+                  "text": "Tidur siang terlalu lama",
+                  "correct": false
+                }
+              ],
+              "explanation": "Asupan gizi dan sanitasi berperan besar terhadap stunting.",
+              "hint": "Penyebab utama berkaitan dengan gizi dan infeksi."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Mengembangkan Teknologi Pertanian dan Pangan untuk Mengatasi Stunting — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Provinsi dengan prevalensi stunting tertinggi pada 2022 adalah…",
+              "options": [
+                {
+                  "text": "Nusa Tenggara Timur",
+                  "correct": true
+                },
+                {
+                  "text": "Bali"
+                },
+                {
+                  "text": "DKI Jakarta"
+                },
+                {
+                  "text": "DI Yogyakarta"
+                }
+              ],
+              "explanation": "NTT memiliki prevalensi 35,3% pada 2022.",
+              "hint": "Provinsi dengan angka terendah justru Bali."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang dimaksud stunting?",
+              "options": [
+                {
+                  "text": "gangguan tumbuh kembang dengan tinggi badan lebih pendek dari anak seusia",
+                  "correct": true
+                },
+                {
+                  "text": "kegemukan pada anak"
+                },
+                {
+                  "text": "penyakit kulit menular"
+                },
+                {
+                  "text": "kekurangan vitamin A saja"
+                }
+              ],
+              "explanation": "Stunting ditandai tinggi badan lebih pendek daripada anak seusianya.",
+              "hint": "Bukan sekadar tubuh pendek karena keturunan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah solusi pencegahan stunting?",
+              "options": [
+                {
+                  "text": "Menanam sayur dengan hidroponik",
+                  "correct": true
+                },
+                {
+                  "text": "Bantuan makanan bergizi",
+                  "correct": true
+                },
+                {
+                  "text": "Pemantauan di posyandu",
+                  "correct": true
+                },
+                {
+                  "text": "Menghindari sayuran",
+                  "correct": false
+                },
+                {
+                  "text": "Mengurangi kunjungan kesehatan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Solusi stunting meningkatkan akses dan kualitas gizi anak.",
+              "hint": "Semua menambah asupan atau pemantauan gizi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah dampak stunting di masa depan?",
+              "options": [
+                {
+                  "text": "Prestasi belajar rendah",
+                  "correct": true
+                },
+                {
+                  "text": "Keterlambatan motorik",
+                  "correct": true
+                },
+                {
+                  "text": "Kosakata sedikit",
+                  "correct": true
+                },
+                {
+                  "text": "Penglihatan bertambah tajam",
+                  "correct": false
+                },
+                {
+                  "text": "Tinggi badan bertambah cepat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Stunting menurunkan capaian belajar dan perkembangan motorik.",
+              "hint": "Dampaknya berlangsung jangka panjang."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Stunting",
+                  "right": "tinggi badan lebih pendek dari anak seusia"
+                },
+                {
+                  "id": "m1",
+                  "left": "Prevalensi",
+                  "right": "angka kejadian pada suatu populasi"
+                },
+                {
+                  "id": "m2",
+                  "left": "Gizi esensial",
+                  "right": "zat gizi yang tak dapat diproduksi tubuh"
+                },
+                {
+                  "id": "m3",
+                  "left": "Hidroponik",
+                  "right": "bertanam memakai air tanpa tanah"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tinggi badan lebih pendek dari anak seusia",
+                  "m1": "angka kejadian pada suatu populasi",
+                  "m2": "zat gizi yang tak dapat diproduksi tubuh",
+                  "m3": "bertanam memakai air tanpa tanah"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan tahap projek anti-stunting menurut buku.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mendesain purwarupa"
+                },
+                {
+                  "id": "d1",
+                  "text": "Membangun purwarupa"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mengevaluasi purwarupa"
+                },
+                {
+                  "id": "d3",
+                  "text": "Menyusun rencana tindak lanjut"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Projek bergerak dari desain, pembangunan, evaluasi, sampai tindak lanjut.",
+              "hint": "Tindak lanjut disusun setelah evaluasi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menyusun projek baru.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menentukan konsep atau ide"
+                },
+                {
+                  "id": "p1",
+                  "text": "Membentuk tim"
+                },
+                {
+                  "id": "p2",
+                  "text": "Membuat rancangan desain"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menyusun rencana produksi"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mendokumentasikan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Alur kerja projek dimulai dari ide, tim, desain, rencana produksi, lalu dokumentasi.",
+              "hint": "Tim dibentuk sebelum desain dibuat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apakah stunting dapat disembuhkan?",
+              "options": [
+                {
+                  "text": "tidak, tetapi dapat dicegah",
+                  "correct": true
+                },
+                {
+                  "text": "ya, dengan obat khusus"
+                },
+                {
+                  "text": "ya, dengan operasi"
+                },
+                {
+                  "text": "tidak dapat dicegah"
+                }
+              ],
+              "explanation": "Stunting bersifat permanen, namun pencegahannya dapat dilakukan.",
+              "hint": "Pencegahan paling kuat sejak kehamilan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Menurut IDAI, stunting dipengaruhi faktor…",
+              "options": [
+                {
+                  "text": "lingkungan dan genetik",
+                  "correct": true
+                },
+                {
+                  "text": "cuaca dan musim"
+                },
+                {
+                  "text": "ekonomi negara lain"
+                },
+                {
+                  "text": "teknologi digital"
+                }
+              ],
+              "explanation": "IDAI menyebut faktor lingkungan dan genetik sebagai penyebab stunting.",
+              "hint": "Faktor lingkungan mencakup gizi dan sanitasi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap projek anti-stunting menurut buku?",
+              "options": [
+                {
+                  "text": "Mendesain purwarupa",
+                  "correct": true
+                },
+                {
+                  "text": "Membangun purwarupa",
+                  "correct": true
+                },
+                {
+                  "text": "Mengevaluasi purwarupa",
+                  "correct": true
+                },
+                {
+                  "text": "Menghapus laporan",
+                  "correct": false
+                },
+                {
+                  "text": "Menghentikan kampanye",
+                  "correct": false
+                }
+              ],
+              "explanation": "Projek dijalankan berurutan dari desain sampai evaluasi dan tindak lanjut.",
+              "hint": "Evaluasi menentukan perbaikan berikutnya."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Mengembangkan Teknologi Pertanian dan Pangan untuk Mengatasi Stunting — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Manakah yang termasuk faktor lingkungan penyebab stunting?",
+              "options": [
+                {
+                  "text": "gizi ibu selama hamil",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah anggota keluarga"
+                },
+                {
+                  "text": "warna rumah"
+                },
+                {
+                  "text": "jenis pekerjaan ayah"
+                }
+              ],
+              "explanation": "Gizi ibu hamil, pola makan anak, kebersihan, dan infeksi termasuk faktor lingkungan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa media tanam pada hidroponik?",
+              "options": [
+                {
+                  "text": "air",
+                  "correct": true
+                },
+                {
+                  "text": "tanah liat"
+                },
+                {
+                  "text": "pasir pantai"
+                },
+                {
+                  "text": "arang kayu"
+                }
+              ],
+              "explanation": "Hidroponik memakai air sebagai media tanam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa ukuran desain hidroponik pada buku?",
+              "options": [
+                {
+                  "text": "105 cm × 105 cm",
+                  "correct": true
+                },
+                {
+                  "text": "50 cm × 50 cm"
+                },
+                {
+                  "text": "200 cm × 200 cm"
+                },
+                {
+                  "text": "150 cm × 300 cm"
+                }
+              ],
+              "explanation": "Desain hidroponik berukuran 105 cm × 105 cm agar mudah ditempatkan di lahan sempit."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bahan pipa pada desain hidroponik buku adalah…",
+              "options": [
+                {
+                  "text": "PVC",
+                  "correct": true
+                },
+                {
+                  "text": "besi"
+                },
+                {
+                  "text": "kaca"
+                },
+                {
+                  "text": "kayu jati"
+                }
+              ],
+              "explanation": "Hidroponik buku memakai pipa PVC yang tahan lama dan disusun bertingkat."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kegiatan komunikasi untuk memengaruhi banyak orang disebut…",
+              "options": [
+                {
+                  "text": "kampanye",
+                  "correct": true
+                },
+                {
+                  "text": "survei"
+                },
+                {
+                  "text": "observasi"
+                },
+                {
+                  "text": "wawancara"
+                }
+              ],
+              "explanation": "Kampanye bertujuan memengaruhi pengetahuan dan tindakan banyak orang."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah media kampanye anti-stunting?",
+              "options": [
+                {
+                  "text": "Poster",
+                  "correct": true
+                },
+                {
+                  "text": "Video singkat",
+                  "correct": true
+                },
+                {
+                  "text": "Kunjungan ke rumah",
+                  "correct": true
+                },
+                {
+                  "text": "Rapat internal sekolah",
+                  "correct": false
+                },
+                {
+                  "text": "Surat pribadi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kampanye memakai media yang menjangkau banyak warga."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah yang termasuk gizi esensial?",
+              "options": [
+                {
+                  "text": "Karbohidrat",
+                  "correct": true
+                },
+                {
+                  "text": "Protein",
+                  "correct": true
+                },
+                {
+                  "text": "Vitamin dan mineral",
+                  "correct": true
+                },
+                {
+                  "text": "Pewarna buatan",
+                  "correct": false
+                },
+                {
+                  "text": "Pengawet makanan",
+                  "correct": false
+                }
+              ],
+              "explanation": "Gizi esensial harus dipenuhi dari makanan sehari-hari."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Posyandu",
+                  "right": "layanan kesehatan terdepan untuk balita"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kampanye",
+                  "right": "komunikasi untuk memengaruhi banyak orang"
+                },
+                {
+                  "id": "m2",
+                  "left": "Rubrik",
+                  "right": "kriteria penilaian hasil projek"
+                },
+                {
+                  "id": "m3",
+                  "left": "Purwarupa",
+                  "right": "gambaran awal produk yang dikembangkan"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "layanan kesehatan terdepan untuk balita",
+                  "m1": "komunikasi untuk memengaruhi banyak orang",
+                  "m2": "kriteria penilaian hasil projek",
+                  "m3": "gambaran awal produk yang dikembangkan"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah kampanye anti-stunting.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Mensurvei pemahaman warga"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menentukan pesan kampanye"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memilih media kampanye"
+                },
+                {
+                  "id": "d3",
+                  "text": "Melaksanakan kampanye"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menilai perubahan pemahaman"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Kampanye dimulai dari data warga sampai penilaian hasil."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah menanam sayur hidroponik sederhana.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menyiapkan pipa dan pompa"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menyemai benih"
+                },
+                {
+                  "id": "p2",
+                  "text": "Memindahkan bibit ke instalasi"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menambahkan nutrisi"
+                },
+                {
+                  "id": "p4",
+                  "text": "Memanen sayuran"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Hidroponik dimulai dari instalasi, penyemaian, pemindahan, pemberian nutrisi, lalu panen."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat untuk menilai hasil produk projek disebut…",
+              "options": [
+                {
+                  "text": "rubrik",
+                  "correct": true
+                },
+                {
+                  "text": "proposal"
+                },
+                {
+                  "text": "notulen"
+                },
+                {
+                  "text": "kwitansi"
+                }
+              ],
+              "explanation": "Rubrik memuat kriteria penilaian produk."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Layanan kesehatan terdepan milik pemerintah untuk memantau balita adalah…",
+              "options": [
+                {
+                  "text": "posyandu",
+                  "correct": true
+                },
+                {
+                  "text": "puskesmas rawat inap"
+                },
+                {
+                  "text": "rumah sakit umum"
+                },
+                {
+                  "text": "apotek"
+                }
+              ],
+              "explanation": "Posyandu menjadi struktur terkecil dan terdepan pelayanan kesehatan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah kegiatan evaluasi produk projek?",
+              "options": [
+                {
+                  "text": "Menilai kesesuaian dengan rubrik",
+                  "correct": true
+                },
+                {
+                  "text": "Mendata kriteria yang belum tercapai",
+                  "correct": true
+                },
+                {
+                  "text": "Merencanakan perbaikan produk",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang catatan projek",
+                  "correct": false
+                },
+                {
+                  "text": "Menghindari umpan balik guru",
+                  "correct": false
+                }
+              ],
+              "explanation": "Evaluasi membandingkan hasil dengan kriteria lalu menyusun perbaikan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Stunting",
+                  "right": "tinggi badan lebih pendek dari anak seusia"
+                },
+                {
+                  "id": "m1",
+                  "left": "Prevalensi",
+                  "right": "angka kejadian pada suatu populasi"
+                },
+                {
+                  "id": "m2",
+                  "left": "Gizi esensial",
+                  "right": "zat gizi yang tak dapat diproduksi tubuh"
+                },
+                {
+                  "id": "m3",
+                  "left": "Hidroponik",
+                  "right": "bertanam memakai air tanpa tanah"
+                },
+                {
+                  "id": "m4",
+                  "left": "Posyandu",
+                  "right": "layanan kesehatan terdepan untuk balita"
+                },
+                {
+                  "id": "m5",
+                  "left": "Kampanye",
+                  "right": "komunikasi untuk memengaruhi banyak orang"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "tinggi badan lebih pendek dari anak seusia",
+                  "m1": "angka kejadian pada suatu populasi",
+                  "m2": "zat gizi yang tak dapat diproduksi tubuh",
+                  "m3": "bertanam memakai air tanpa tanah",
+                  "m4": "layanan kesehatan terdepan untuk balita",
+                  "m5": "komunikasi untuk memengaruhi banyak orang"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah evaluasi sampai perbaikan produk.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menetapkan kriteria rubrik"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menilai produk"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mendata kriteria yang belum tercapai"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mendesain ulang produk"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3"
+                ]
+              },
+              "explanation": "Evaluasi memakai rubrik, lalu perbaikan diarahkan pada kriteria yang gagal."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

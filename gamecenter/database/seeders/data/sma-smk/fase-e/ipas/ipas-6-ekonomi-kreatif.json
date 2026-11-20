@@ -1,0 +1,1325 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "ipas",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "IPAS 6",
+      "title": "Ekonomi Kreatif Berbasis Projek IPAS Sesuai Program Keahlian SMK",
+      "description": "Memahami konsep, ciri, dan manfaat ekonomi kreatif, mengenal bidang-bidang ekraf menurut Inpres, menganalisis faktor pendorong dan penghambat, serta merancang projek ekraf sesuai program keahlian SMK.",
+      "learning_objectives": [
+        "Menjelaskan konsep, ciri, dan manfaat ekonomi kreatif.",
+        "Mengidentifikasi bidang-bidang ekonomi kreatif di Indonesia.",
+        "Menganalisis faktor pendorong dan penghambat ekonomi kreatif.",
+        "Memilih ide projek ekraf yang sesuai program keahlian SMK.",
+        "Merancang, mengevaluasi, dan menindaklanjuti projek ekonomi kreatif."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 6 Ekonomi Kreatif Berbasis Projek IPAS; UU No. 24 Tahun 2019 tentang Ekonomi Kreatif; Inpres No. 6 Tahun 2009; CP Fase E Projek IPAS",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa ekonomi kreatif penting?",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 6 Ekonomi Kreatif Berbasis Projek IPAS; UU No. 24 Tahun 2019 tentang Ekonomi Kreatif; Inpres No. 6 Tahun 2009; CP Fase E Projek IPAS",
+          "content": "## Konsep dan ciri ekonomi kreatif\n\nMenurut UU No. 24 Tahun 2019, ekonomi kreatif adalah perwujudan nilai tambah dari kekayaan intelektual yang bersumber pada kreativitas manusia, berbasis warisan budaya, ilmu pengetahuan, dan atau teknologi. Modal utamanya adalah gagasan dan ide.\n\nCiri ekonomi kreatif: berbasis ide dan kreativitas, hasil olah pikir intelektual, kolaboratif, tidak terbatas bentuk dan harga, mengandung nilai budaya, mudah berubah mengikuti zaman, serta menyesuaikan perkembangan kebutuhan.\n\nManfaatnya meliputi penyediaan lapangan kerja, pengurangan pengangguran, pendorong inovasi, peningkatan pertumbuhan ekonomi, dan kenaikan kualitas produk. Pada 2017 pertumbuhan ekraf mencapai 5,06%, dan pada 2019 menghadirkan 18,1 juta lapangan kerja.\n\nEkonomi kreatif memadukan warisan budaya, ilmu pengetahuan, dan teknologi; tiga ranahnya adalah kreativitas, inovasi, dan penemuan.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "ipas-6-ekonomi-kreatif-glosarium",
+              "terms": [
+                {
+                  "term": "Ekonomi kreatif",
+                  "definition": "Perwujudan nilai tambah dari kekayaan intelektual yang bersumber pada kreativitas manusia."
+                },
+                {
+                  "term": "Kreativitas",
+                  "definition": "Kemampuan menciptakan atau menghasilkan sesuatu yang baru."
+                },
+                {
+                  "term": "Inovasi",
+                  "definition": "Ide, praktik, atau produk baru yang diterima sebagai hal baru oleh masyarakat."
+                },
+                {
+                  "term": "Kekayaan intelektual",
+                  "definition": "Hak yang timbul dari hasil olah pikir yang menghasilkan produk atau proses berguna."
+                },
+                {
+                  "term": "Kriya",
+                  "definition": "Kerajinan tangan bermuatan seni dari bahan seperti kayu, rotan, tanah liat, atau tekstil."
+                },
+                {
+                  "term": "PDB",
+                  "definition": "Produk Domestik Bruto, nilai seluruh produksi barang dan jasa suatu negara dalam kurun waktu tertentu."
+                },
+                {
+                  "term": "Labelling",
+                  "definition": "Memberikan label atau merek pada kemasan produk."
+                },
+                {
+                  "term": "Upscaling",
+                  "definition": "Usaha memperluas cakupan atau skala produksi sebuah produk."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Konsep dan ciri ekonomi kreatif"
+            },
+            {
+              "type": "paragraph",
+              "text": "Menurut UU No. 24 Tahun 2019, ekonomi kreatif adalah perwujudan nilai tambah dari kekayaan intelektual yang bersumber pada kreativitas manusia, berbasis warisan budaya, ilmu pengetahuan, dan atau teknologi. Modal utamanya adalah gagasan dan ide."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ciri ekonomi kreatif: berbasis ide dan kreativitas, hasil olah pikir intelektual, kolaboratif, tidak terbatas bentuk dan harga, mengandung nilai budaya, mudah berubah mengikuti zaman, serta menyesuaikan perkembangan kebutuhan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Manfaatnya meliputi penyediaan lapangan kerja, pengurangan pengangguran, pendorong inovasi, peningkatan pertumbuhan ekonomi, dan kenaikan kualitas produk. Pada 2017 pertumbuhan ekraf mencapai 5,06%, dan pada 2019 menghadirkan 18,1 juta lapangan kerja."
+            },
+            {
+              "type": "diagram",
+              "id": "ipas-6-ekonomi-kreatif-diagram",
+              "engine": "mermaid",
+              "title": "Dari ide menjadi nilai ekonomi",
+              "code": "flowchart LR\n  A[Kreativitas] --> B[Inovasi]\n  B --> C[Produk barang atau jasa]\n  C --> D[Kekayaan intelektual]\n  D --> E[Nilai tambah]\n  E --> F[Lapangan kerja dan pertumbuhan ekonomi]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Ekonomi kreatif memadukan warisan budaya, ilmu pengetahuan, dan teknologi; tiga ranahnya adalah kreativitas, inovasi, dan penemuan."
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-6-ekonomi-kreatif-cp-1",
+              "question": "Menurut UU No. 24 Tahun 2019, ekonomi kreatif bersumber pada…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "kreativitas manusia berbasis budaya, ilmu pengetahuan, dan teknologi",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "kepemilikan tambang dan ladang"
+                },
+                {
+                  "id": "c2",
+                  "text": "jumlah ekspor minyak bumi"
+                },
+                {
+                  "id": "c3",
+                  "text": "besar kecilnya subsidi pemerintah"
+                }
+              ],
+              "explanation": "Nilai tambah ekraf berasal dari kekayaan intelektual yang digerakkan kreativitas manusia."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Bidang dan faktor perkembangan ekraf",
+          "duration": 300,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 6 Ekonomi Kreatif Berbasis Projek IPAS; UU No. 24 Tahun 2019 tentang Ekonomi Kreatif; Inpres No. 6 Tahun 2009; CP Fase E Projek IPAS",
+          "content": "## Subsektor ekraf serta pendorong dan penghambatnya\n\nBerdasarkan Inpres No. 6 Tahun 2009, bidang ekonomi kreatif meliputi periklanan, arsitektur, pasar seni dan barang antik, kerajinan (kriya), desain, fashion, film, video dan fotografi, serta game interaktif.\n\nFaktor pendorong perkembangan ekraf: kreativitas sebagai modal utama, ketersediaan modal, dukungan teknologi, kualitas sumber daya manusia, dan kebijakan pemerintah yang berpihak pada pelaku ekraf.\n\nFaktor penghambatnya: keterbatasan bahan baku, kekurangan modal, kualitas SDM yang belum sesuai pasar, pemanfaatan teknologi yang rendah, dan pemasaran yang lemah sehingga produk menumpuk.\n\n| Bidang ekraf | Contoh produk | Kaitannya dengan kreativitas |\n|---|---|---|\n| Periklanan | Iklan di media cetak dan digital | Ide kreatif mengubah sudut pandang konsumen |\n| Arsitektur | Desain dan perawatan bangunan | Menciptakan ruang bernilai tinggi |\n| Pasar seni dan barang antik | Batik, lukisan, alat musik | Memadukan kerajinan dan pariwisata |\n| Kriya | Produk rotan, kayu, tanah liat | Nilai seni dan estetika tinggi |\n| Desain | Kemasan, grafis, interior | Tampilan produk menjadi menarik |\n| Fashion | Pakaian, alas kaki, aksesori | Identitas dan gaya hidup konsumen |\n| Film, video, fotografi | Tayangan dan konten visual | Skrip, editing, dan tata suara kreatif |\n| Game interaktif | Permainan dan aplikasi | Ide, imajinasi, dan teknologi |\n\n### Dari konsep menjadi projek ekraf\n\n- Memilih ide projek yang sesuai program keahlian, misalnya olahan makanan, kriya kain, jasa penginapan, atau aplikasi digital.\n- Membuat desain purwarupa yang terinci: komponen, bahan, biaya, dan cara penggunaan.\n- Mencantumkan nilai tambah dan kebaruan (novelty) projek dibanding produk sejenis.\n- Mengevaluasi produk lalu menyusun rencana tindak lanjut: perbaikan, pengembangan produksi, atau sosialisasi.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Subsektor ekraf serta pendorong dan penghambatnya"
+            },
+            {
+              "type": "paragraph",
+              "text": "Berdasarkan Inpres No. 6 Tahun 2009, bidang ekonomi kreatif meliputi periklanan, arsitektur, pasar seni dan barang antik, kerajinan (kriya), desain, fashion, film, video dan fotografi, serta game interaktif."
+            },
+            {
+              "type": "paragraph",
+              "text": "Faktor pendorong perkembangan ekraf: kreativitas sebagai modal utama, ketersediaan modal, dukungan teknologi, kualitas sumber daya manusia, dan kebijakan pemerintah yang berpihak pada pelaku ekraf."
+            },
+            {
+              "type": "paragraph",
+              "text": "Faktor penghambatnya: keterbatasan bahan baku, kekurangan modal, kualitas SDM yang belum sesuai pasar, pemanfaatan teknologi yang rendah, dan pemasaran yang lemah sehingga produk menumpuk."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Bidang ekraf",
+                  "Contoh produk",
+                  "Kaitannya dengan kreativitas"
+                ],
+                [
+                  "Periklanan",
+                  "Iklan di media cetak dan digital",
+                  "Ide kreatif mengubah sudut pandang konsumen"
+                ],
+                [
+                  "Arsitektur",
+                  "Desain dan perawatan bangunan",
+                  "Menciptakan ruang bernilai tinggi"
+                ],
+                [
+                  "Pasar seni dan barang antik",
+                  "Batik, lukisan, alat musik",
+                  "Memadukan kerajinan dan pariwisata"
+                ],
+                [
+                  "Kriya",
+                  "Produk rotan, kayu, tanah liat",
+                  "Nilai seni dan estetika tinggi"
+                ],
+                [
+                  "Desain",
+                  "Kemasan, grafis, interior",
+                  "Tampilan produk menjadi menarik"
+                ],
+                [
+                  "Fashion",
+                  "Pakaian, alas kaki, aksesori",
+                  "Identitas dan gaya hidup konsumen"
+                ],
+                [
+                  "Film, video, fotografi",
+                  "Tayangan dan konten visual",
+                  "Skrip, editing, dan tata suara kreatif"
+                ],
+                [
+                  "Game interaktif",
+                  "Permainan dan aplikasi",
+                  "Ide, imajinasi, dan teknologi"
+                ]
+              ]
+            },
+            {
+              "type": "timeline",
+              "id": "ipas-6-timeline-ekraf",
+              "items": [
+                {
+                  "when": "2009",
+                  "title": "Inpres No. 6 Tahun 2009",
+                  "body": "Bidang ekonomi kreatif dikelompokkan menjadi 17 subsektor."
+                },
+                {
+                  "when": "2016",
+                  "title": "Sumbangsih PDB terus meningkat",
+                  "body": "BPS mencatat kontribusi ekraf terhadap PDB naik setiap tahun."
+                },
+                {
+                  "when": "2017",
+                  "title": "Pertumbuhan 5,06%",
+                  "body": "Angka pertumbuhan ekonomi kreatif mencapai 5,06%."
+                },
+                {
+                  "when": "2019",
+                  "title": "18,1 juta lapangan kerja",
+                  "body": "Ekraf menghadirkan lapangan kerja bagi masyarakat Indonesia."
+                },
+                {
+                  "when": "2019",
+                  "title": "UU No. 24 Tahun 2019",
+                  "body": "Definisi resmi ekonomi kreatif ditetapkan dalam undang-undang."
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "ipas-6-klasifikasi",
+              "prompt": "Kelompokkan faktor berikut menjadi pendorong atau penghambat ekraf.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Pendorong"
+                },
+                {
+                  "id": "b2",
+                  "label": "Penghambat"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Kreativitas masyarakat tinggi",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Kebijakan pemerintah yang mendukung",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Teknologi pemasaran yang memadai",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Bahan baku sulit didapat",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i5",
+                  "text": "Modal usaha terbatas",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Pemasaran produk lemah",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "SDM yang kreatif dan terampil",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i8",
+                  "text": "Produk belum sesuai kualifikasi pasar",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Pendorong mendukung pertumbuhan, penghambat menghambat produksi dan pemasaran.",
+                "wrong": "Periksa lagi: bahan baku sulit dan modal terbatas justru memperlambat ekraf."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Dari konsep menjadi projek ekraf"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Memilih ide projek yang sesuai program keahlian, misalnya olahan makanan, kriya kain, jasa penginapan, atau aplikasi digital.",
+                "Membuat desain purwarupa yang terinci: komponen, bahan, biaya, dan cara penggunaan.",
+                "Mencantumkan nilai tambah dan kebaruan (novelty) projek dibanding produk sejenis.",
+                "Mengevaluasi produk lalu menyusun rencana tindak lanjut: perbaikan, pengembangan produksi, atau sosialisasi."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-6-ekonomi-kreatif-cp-2",
+              "question": "Batik, lukisan, dan alat musik biasanya diperdagangkan di…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "pasar seni dan barang antik",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "pasar tradisional sayur"
+                },
+                {
+                  "id": "c2",
+                  "text": "terminal bus"
+                },
+                {
+                  "id": "c3",
+                  "text": "laboratorium riset"
+                }
+              ],
+              "explanation": "Pasar seni menjadi pusat perdagangan hasil kreativitas bernilai estetika tinggi."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 6 Ekonomi Kreatif Berbasis Projek IPAS; UU No. 24 Tahun 2019 tentang Ekonomi Kreatif; Inpres No. 6 Tahun 2009; CP Fase E Projek IPAS",
+          "content": "## Projek ekraf sesuai program keahlian\n\nProjek ekonomi kreatif dijalankan dalam lima kegiatan: mendesain purwarupa, membangun, mengevaluasi, mendesain ulang berdasarkan hasil evaluasi, dan menyusun rencana tindak lanjut.\n\nContoh projek: kerajinan bambu dengan kendala pemasaran diatasi lewat penjualan daring, olahan singkong dengan harga bahan baku mahal diatasi dengan mendatangkan bahan dari daerah penghasil, dan jasa penginapan kekurangan modal diatasi dengan homestay.\n\nPada tahap pemasaran, pelaku dapat memakai media sosial, e-commerce, dan marketplace. Keberhasilan projek diukur dari penerimaan pasar, nilai tambah, serta keberlanjutannya setelah kegiatan selesai.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Projek ekraf sesuai program keahlian"
+            },
+            {
+              "type": "paragraph",
+              "text": "Projek ekonomi kreatif dijalankan dalam lima kegiatan: mendesain purwarupa, membangun, mengevaluasi, mendesain ulang berdasarkan hasil evaluasi, dan menyusun rencana tindak lanjut."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contoh projek: kerajinan bambu dengan kendala pemasaran diatasi lewat penjualan daring, olahan singkong dengan harga bahan baku mahal diatasi dengan mendatangkan bahan dari daerah penghasil, dan jasa penginapan kekurangan modal diatasi dengan homestay."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pada tahap pemasaran, pelaku dapat memakai media sosial, e-commerce, dan marketplace. Keberhasilan projek diukur dari penerimaan pasar, nilai tambah, serta keberlanjutannya setelah kegiatan selesai."
+            },
+            {
+              "type": "scenario",
+              "id": "ipas-6-skenario",
+              "title": "Produk kriya yang belum laku",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Produk kriya sekolahmu berkualitas tetapi sulit laku. Apa diagnosis pertama?",
+                  "choices": [
+                    {
+                      "text": "Menganalisis pemasaran, target pasar, dan harga",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Diagnosis pemasaran sebelum memperbaiki produk."
+                    },
+                    {
+                      "text": "Menghentikan produksi permanen",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Berhenti tanpa diagnosis tidak menyelesaikan masalah."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Ternyata kemasan polos dan tidak ada label merek. Apa yang diperbaiki?",
+                  "choices": [
+                    {
+                      "text": "Mendesain kemasan dan label, lalu memasarkan daring",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Kemasan menarik dan pemasaran daring memperluas jangkauan."
+                    },
+                    {
+                      "text": "Menurunkan harga jauh di bawah biaya produksi",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Harga di bawah biaya membuat usaha rugi."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Usaha merugi atau berhenti karena keputusan yang tidak tepat.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Produk dikenal, laku, dan kelompok mendapat keuntungan.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "ipas-6-ekonomi-kreatif-kartu",
+              "cards": [
+                {
+                  "front": "Apa modal utama ekonomi kreatif?",
+                  "back": "Ide, gagasan, dan kreativitas."
+                },
+                {
+                  "front": "Sebutkan tiga bidang ekraf.",
+                  "back": "Kriya, fashion, dan desain."
+                },
+                {
+                  "front": "Apa itu kekayaan intelektual?",
+                  "back": "Hak yang timbul dari hasil olah pikir yang berguna."
+                },
+                {
+                  "front": "Sebutkan dua faktor penghambat ekraf.",
+                  "back": "Keterbatasan modal dan lemahnya pemasaran."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-6-ekonomi-kreatif-cp-3",
+              "question": "Pemasaran produk ekraf dapat dilakukan melalui…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "media sosial, e-commerce, dan marketplace",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "hanya mengandalkan kios di sekolah"
+                },
+                {
+                  "id": "c2",
+                  "text": "menyimpan produk di gudang"
+                },
+                {
+                  "id": "c3",
+                  "text": "menghapus label produk"
+                }
+              ],
+              "explanation": "Teknologi informasi membantu menjangkau pasar lebih luas dengan biaya kecil."
+            },
+            {
+              "type": "challenge",
+              "id": "ipas-6-tantangan",
+              "title": "Tantangan istilah ekonomi kreatif",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Undang-undang ekonomi kreatif",
+                  "answer": "UU 24/2019"
+                },
+                {
+                  "question": "Nilai seluruh produksi barang dan jasa negara",
+                  "answer": "PDB"
+                },
+                {
+                  "question": "Kerajinan tangan bernilai seni",
+                  "answer": "Kriya"
+                },
+                {
+                  "question": "Label atau merek pada kemasan",
+                  "answer": "Labelling"
+                },
+                {
+                  "question": "Memperluas skala produksi",
+                  "answer": "Upscaling"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah ekonomi kreatif terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Ekonomi Kreatif Berbasis Projek IPAS Sesuai Program Keahlian SMK — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Menurut UU No. 24 Tahun 2019, ekonomi kreatif adalah…",
+              "options": [
+                {
+                  "text": "perwujudan nilai tambah dari kekayaan intelektual berbasis kreativitas",
+                  "correct": true
+                },
+                {
+                  "text": "perdagangan hasil tambang"
+                },
+                {
+                  "text": "ekspor bahan baku hutan"
+                },
+                {
+                  "text": "produksi pangan massal"
+                }
+              ],
+              "explanation": "Ekraf lahir dari kreativitas manusia berbasis budaya, IPTEK, dan teknologi.",
+              "hint": "Modal utamanya ide, bukan sumber daya alam."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa modal utama ekonomi kreatif?",
+              "options": [
+                {
+                  "text": "ide, gagasan, dan kreativitas",
+                  "correct": true
+                },
+                {
+                  "text": "modal tambang"
+                },
+                {
+                  "text": "jumlah karyawan"
+                },
+                {
+                  "text": "luas gedung"
+                }
+              ],
+              "explanation": "Ekonomi kreatif bersumber pada ide dan kreativitas manusia.",
+              "hint": "Input dan outputnya berupa gagasan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa pertumbuhan ekonomi kreatif Indonesia pada 2017?",
+              "options": [
+                {
+                  "text": "5,06%",
+                  "correct": true
+                },
+                {
+                  "text": "1,06%"
+                },
+                {
+                  "text": "9,06%"
+                },
+                {
+                  "text": "15,06%"
+                }
+              ],
+              "explanation": "Pertumbuhan ekraf 2017 mencapai 5,06%.",
+              "hint": "Data ini menurut BPS."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah ciri ekonomi kreatif?",
+              "options": [
+                {
+                  "text": "Berbasis ide dan kreativitas",
+                  "correct": true
+                },
+                {
+                  "text": "Mengandung nilai budaya",
+                  "correct": true
+                },
+                {
+                  "text": "Mudah menyesuaikan zaman",
+                  "correct": true
+                },
+                {
+                  "text": "Mengandalkan cadangan fosil",
+                  "correct": false
+                },
+                {
+                  "text": "Terikat satu musim",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ciri ekraf berkaitan dengan ide, budaya, dan perubahan zaman.",
+              "hint": "Fosil dan musim bukan ciri ekraf."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah manfaat ekonomi kreatif?",
+              "options": [
+                {
+                  "text": "Menyediakan lapangan kerja",
+                  "correct": true
+                },
+                {
+                  "text": "Mengurangi pengangguran",
+                  "correct": true
+                },
+                {
+                  "text": "Mendorong inovasi",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah polusi udara",
+                  "correct": false
+                },
+                {
+                  "text": "Meningkatkan impor minyak",
+                  "correct": false
+                }
+              ],
+              "explanation": "Ekraf membuka kerja dan menumbuhkan inovasi.",
+              "hint": "Berkontribusi pada pertumbuhan ekonomi."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Ekonomi Kreatif Berbasis Projek IPAS Sesuai Program Keahlian SMK — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa lapangan kerja yang dihadirkan ekonomi kreatif pada 2019?",
+              "options": [
+                {
+                  "text": "18,1 juta",
+                  "correct": true
+                },
+                {
+                  "text": "8,1 juta"
+                },
+                {
+                  "text": "28,1 juta"
+                },
+                {
+                  "text": "1,81 juta"
+                }
+              ],
+              "explanation": "Pada 2019 ekraf menghadirkan 18,1 juta lapangan kerja.",
+              "hint": "Menunjukkan besarnya kontribusi ekraf."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bidang ekonomi kreatif diatur dalam…",
+              "options": [
+                {
+                  "text": "Inpres No. 6 Tahun 2009",
+                  "correct": true
+                },
+                {
+                  "text": "UU No. 24 Tahun 2007"
+                },
+                {
+                  "text": "Inpres No. 6 Tahun 2019"
+                },
+                {
+                  "text": "Perpres No. 1 Tahun 2010"
+                }
+              ],
+              "explanation": "Inpres 6/2009 mengelompokkan bidang ekonomi kreatif.",
+              "hint": "Meliputi 17 subsektor."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bidang ekonomi kreatif?",
+              "options": [
+                {
+                  "text": "Periklanan",
+                  "correct": true
+                },
+                {
+                  "text": "Arsitektur",
+                  "correct": true
+                },
+                {
+                  "text": "Game interaktif",
+                  "correct": true
+                },
+                {
+                  "text": "Tambang emas",
+                  "correct": false
+                },
+                {
+                  "text": "Sawit rakyat",
+                  "correct": false
+                }
+              ],
+              "explanation": "Periklanan, arsitektur, dan game termasuk subsektor ekraf.",
+              "hint": "Tambang dan sawit bukan subsektor ekraf."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah faktor pendorong ekraf?",
+              "options": [
+                {
+                  "text": "Kreativitas",
+                  "correct": true
+                },
+                {
+                  "text": "Teknologi",
+                  "correct": true
+                },
+                {
+                  "text": "Kebijakan pemerintah",
+                  "correct": true
+                },
+                {
+                  "text": "Kelangkaan bahan",
+                  "correct": false
+                },
+                {
+                  "text": "Pemasaran lemah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Kreativitas, modal, teknologi, SDM, dan kebijakan mendorong ekraf.",
+              "hint": "Kelangkaan bahan justru menghambat."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Ekonomi kreatif",
+                  "right": "nilai tambah dari kekayaan intelektual"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kreativitas",
+                  "right": "kemampuan menciptakan sesuatu yang baru"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kriya",
+                  "right": "kerajinan tangan bernilai seni"
+                },
+                {
+                  "id": "m3",
+                  "left": "PDB",
+                  "right": "nilai seluruh produksi barang dan jasa"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "nilai tambah dari kekayaan intelektual",
+                  "m1": "kemampuan menciptakan sesuatu yang baru",
+                  "m2": "kerajinan tangan bernilai seni",
+                  "m3": "nilai seluruh produksi barang dan jasa"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur dari ide menjadi nilai ekonomi.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Kreativitas"
+                },
+                {
+                  "id": "d1",
+                  "text": "Inovasi"
+                },
+                {
+                  "id": "d2",
+                  "text": "Produk barang atau jasa"
+                },
+                {
+                  "id": "d3",
+                  "text": "Kekayaan intelektual"
+                },
+                {
+                  "id": "d4",
+                  "text": "Nilai tambah"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Ekraf dimulai dari kreativitas lalu berujung pada nilai tambah.",
+              "hint": "Inovasi lahir dari kreativitas."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan tahap projek ekonomi kreatif.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mendesain purwarupa"
+                },
+                {
+                  "id": "p1",
+                  "text": "Membangun purwarupa"
+                },
+                {
+                  "id": "p2",
+                  "text": "Mengevaluasi purwarupa"
+                },
+                {
+                  "id": "p3",
+                  "text": "Mendesain ulang bila perlu"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menyusun rencana tindak lanjut"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Projek berjalan dari desain sampai tindak lanjut.",
+              "hint": "Desain ulang dilakukan setelah evaluasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah yang termasuk bidang ekonomi kreatif?",
+              "options": [
+                {
+                  "text": "kriya",
+                  "correct": true
+                },
+                {
+                  "text": "pertambangan batu bara"
+                },
+                {
+                  "text": "perkebunan kelapa sawit"
+                },
+                {
+                  "text": "perikanan tangkap"
+                }
+              ],
+              "explanation": "Kriya adalah kerajinan tangan bernilai seni.",
+              "hint": "Bidang lain seperti arsitektur dan desain juga bagian ekraf."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kegiatan produksi kerajinan pengrajin yang bernilai estetika disebut…",
+              "options": [
+                {
+                  "text": "kriya",
+                  "correct": true
+                },
+                {
+                  "text": "pabrikasi"
+                },
+                {
+                  "text": "distribusi"
+                },
+                {
+                  "text": "ekspedisi"
+                }
+              ],
+              "explanation": "Kriya mencakup produksi dan distribusi produk pengrajin.",
+              "hint": "Bahan bakunya seperti rotan, kayu, dan tanah liat."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah faktor penghambat ekraf?",
+              "options": [
+                {
+                  "text": "Keterbatasan bahan baku",
+                  "correct": true
+                },
+                {
+                  "text": "Kurang modal",
+                  "correct": true
+                },
+                {
+                  "text": "Pemasaran lemah",
+                  "correct": true
+                },
+                {
+                  "text": "SDM kreatif",
+                  "correct": false
+                },
+                {
+                  "text": "Kebijakan mendukung",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bahan, modal, SDM, teknologi, dan pemasaran dapat menghambat ekraf.",
+              "hint": "SDM kreatif adalah pendorong."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Ekonomi Kreatif Berbasis Projek IPAS Sesuai Program Keahlian SMK — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Salah satu ciri ekonomi kreatif adalah…",
+              "options": [
+                {
+                  "text": "berbasis ide dan kreativitas",
+                  "correct": true
+                },
+                {
+                  "text": "bergantung pada cuaca"
+                },
+                {
+                  "text": "memakai tenaga mesin berat"
+                },
+                {
+                  "text": "terbatas pada satu kota"
+                }
+              ],
+              "explanation": "Ciri utamanya berbasis ide dan kreativitas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah faktor pendorong ekonomi kreatif?",
+              "options": [
+                {
+                  "text": "kebijakan pemerintah yang mendukung",
+                  "correct": true
+                },
+                {
+                  "text": "bahan baku sulit didapat"
+                },
+                {
+                  "text": "pemasaran produk lemah"
+                },
+                {
+                  "text": "modal usaha terbatas"
+                }
+              ],
+              "explanation": "Dukungan pemerintah memacu pertumbuhan ekraf."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Manakah faktor penghambat ekonomi kreatif?",
+              "options": [
+                {
+                  "text": "pemasaran yang lemah",
+                  "correct": true
+                },
+                {
+                  "text": "kreativitas tinggi"
+                },
+                {
+                  "text": "teknologi pemasaran memadai"
+                },
+                {
+                  "text": "SDM yang terampil"
+                }
+              ],
+              "explanation": "Pemasaran lemah membuat produk menumpuk."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Batik, lukisan, dan alat musik diperdagangkan di…",
+              "options": [
+                {
+                  "text": "pasar seni dan barang antik",
+                  "correct": true
+                },
+                {
+                  "text": "pasar modal"
+                },
+                {
+                  "text": "bursa saham"
+                },
+                {
+                  "text": "pelelangan ikan"
+                }
+              ],
+              "explanation": "Pasar seni menjual hasil kreativitas bernilai estetika tinggi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Label atau merek pada kemasan produk disebut…",
+              "options": [
+                {
+                  "text": "labelling",
+                  "correct": true
+                },
+                {
+                  "text": "branding"
+                },
+                {
+                  "text": "marketing"
+                },
+                {
+                  "text": "budgeting"
+                }
+              ],
+              "explanation": "Labelling memberi identitas pada kemasan produk."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah solusi mengatasi hambatan pemasaran?",
+              "options": [
+                {
+                  "text": "Memanfaatkan media sosial",
+                  "correct": true
+                },
+                {
+                  "text": "Memakai e-commerce",
+                  "correct": true
+                },
+                {
+                  "text": "Memakai marketplace",
+                  "correct": true
+                },
+                {
+                  "text": "Menyimpan produk di gudang",
+                  "correct": false
+                },
+                {
+                  "text": "Menghapus merek",
+                  "correct": false
+                }
+              ],
+              "explanation": "Teknologi informasi memperluas pasar ekraf."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah tahap projek ekonomi kreatif?",
+              "options": [
+                {
+                  "text": "Mendesain purwarupa",
+                  "correct": true
+                },
+                {
+                  "text": "Membangun purwarupa",
+                  "correct": true
+                },
+                {
+                  "text": "Mengevaluasi purwarupa",
+                  "correct": true
+                },
+                {
+                  "text": "Menghentikan projek",
+                  "correct": false
+                },
+                {
+                  "text": "Menghindari evaluasi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Projek berjalan dari desain sampai evaluasi dan tindak lanjut."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Labelling",
+                  "right": "memberi label pada kemasan"
+                },
+                {
+                  "id": "m1",
+                  "left": "Upscaling",
+                  "right": "memperluas skala produksi"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kekayaan intelektual",
+                  "right": "hak dari hasil olah pikir"
+                },
+                {
+                  "id": "m3",
+                  "left": "Pasar seni",
+                  "right": "pusat perdagangan karya kreatif"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "memberi label pada kemasan",
+                  "m1": "memperluas skala produksi",
+                  "m2": "hak dari hasil olah pikir",
+                  "m3": "pusat perdagangan karya kreatif"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah memasarkan produk ekraf.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menentukan target pasar"
+                },
+                {
+                  "id": "d1",
+                  "text": "Menyiapkan produk dan kemasan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Memasang label dan merek"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mengunggah ke media sosial atau marketplace"
+                },
+                {
+                  "id": "d4",
+                  "text": "Mencatat pesanan dan umpan balik"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Pemasaran dimulai dari target pasar sampai pencatatan umpan balik."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah mengatasi kendala pemasaran.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Menganalisis penyebab produk sulit laku"
+                },
+                {
+                  "id": "p1",
+                  "text": "Memperbaiki kemasan dan label"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menentukan kanal pemasaran daring"
+                },
+                {
+                  "id": "p3",
+                  "text": "Menjalankan promosi"
+                },
+                {
+                  "id": "p4",
+                  "text": "Mengevaluasi penjualan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4"
+                ]
+              },
+              "explanation": "Perbaikan dimulai dari analisis sampai evaluasi penjualan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Apa yang diukur dengan PDB?",
+              "options": [
+                {
+                  "text": "nilai seluruh produksi barang dan jasa negara",
+                  "correct": true
+                },
+                {
+                  "text": "jumlah penduduk"
+                },
+                {
+                  "text": "luas wilayah"
+                },
+                {
+                  "text": "jumlah kendaraan"
+                }
+              ],
+              "explanation": "PDB menghitung nilai produksi barang dan jasa."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kegiatan memperluas skala produksi produk disebut…",
+              "options": [
+                {
+                  "text": "upscaling",
+                  "correct": true
+                },
+                {
+                  "text": "downgrading"
+                },
+                {
+                  "text": "reboisasi"
+                },
+                {
+                  "text": "lokalisasi"
+                }
+              ],
+              "explanation": "Upscaling memperluas cakupan atau skala produksi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bentuk rencana tindak lanjut ekraf?",
+              "options": [
+                {
+                  "text": "Mendesain ulang produk",
+                  "correct": true
+                },
+                {
+                  "text": "Pengembangan produksi",
+                  "correct": true
+                },
+                {
+                  "text": "Sosialisasi kepada masyarakat",
+                  "correct": true
+                },
+                {
+                  "text": "Membuang produk",
+                  "correct": false
+                },
+                {
+                  "text": "Menutup usaha",
+                  "correct": false
+                }
+              ],
+              "explanation": "RTL memperbaiki, mengembangkan, dan mensosialisasikan produk."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Ekonomi kreatif",
+                  "right": "nilai tambah dari kekayaan intelektual"
+                },
+                {
+                  "id": "m1",
+                  "left": "Kreativitas",
+                  "right": "kemampuan menciptakan sesuatu yang baru"
+                },
+                {
+                  "id": "m2",
+                  "left": "Kriya",
+                  "right": "kerajinan tangan bernilai seni"
+                },
+                {
+                  "id": "m3",
+                  "left": "PDB",
+                  "right": "nilai seluruh produksi barang dan jasa"
+                },
+                {
+                  "id": "m4",
+                  "left": "Labelling",
+                  "right": "memberi label pada kemasan"
+                },
+                {
+                  "id": "m5",
+                  "left": "Upscaling",
+                  "right": "memperluas skala produksi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "nilai tambah dari kekayaan intelektual",
+                  "m1": "kemampuan menciptakan sesuatu yang baru",
+                  "m2": "kerajinan tangan bernilai seni",
+                  "m3": "nilai seluruh produksi barang dan jasa",
+                  "m4": "memberi label pada kemasan",
+                  "m5": "memperluas skala produksi"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah menyusun desain purwarupa ekraf.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menentukan ide dan konsep"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mengumpulkan referensi produk"
+                },
+                {
+                  "id": "d2",
+                  "text": "Menggambar atau mendeskripsikan desain"
+                },
+                {
+                  "id": "d3",
+                  "text": "Mencantumkan komponen, bahan, dan biaya"
+                },
+                {
+                  "id": "d4",
+                  "text": "Menentukan nilai kebaruan"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Desain diawali konsep lalu diakhiri penegasan kebaruan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

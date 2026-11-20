@@ -8,7 +8,56 @@ sehingga file ini adalah satu-satunya sumber kebenaran versi sistem.
 Timestamp memakai waktu lokal server (WIB, UTC+7). Setiap heading rilis dan
 bagian verifikasi mencantumkan tanggal + jam.
 
-**Terakhir diperbarui:** 2026-11-20 16:45 WIB (rilis 0.41.0).
+**Terakhir diperbarui:** 2026-11-20 17:08 WIB (rilis 0.42.0).
+
+## [0.42.0] - 2026-11-20 17:08 WIB
+
+**Batch 18 — buku Projek IPAS SMK/MAK Kelas X tuntas 6/6 bab.**
+
+### Ditambah
+- **IPAS 1 Mengatasi Masalah Lingkungan Melalui Projek IPAS** — glosarium bukti
+  ilmiah, diagram sepuluh langkah penyelesaian masalah, tabel parameter kimia–
+  fisik–biologi, grafik sumber mikroplastik, kelompokkan dampak primer/sekunder/
+  penyebab, kriteria evaluasi solusi, skenario “Asap jerami di pinggir jalan”
+  (kompos vs air purifier), kartu istilah, dan tantangan.
+- **IPAS 2 Mengembangkan Projek Mitigasi Bencana** — glosarium kebencanaan,
+  diagram tiga penyebab bencana (UU 24/2007), tabel jenis bencana, garis waktu
+  bencana besar 2004–2022, kelompokkan bencana geologi–hidrometeorologi–
+  nonalam–sosial, tahap mitigasi sebelum/saat/sesudah, skenario “Getaran gempa
+  saat jam pelajaran”, kartu istilah, dan tantangan.
+- **IPAS 3 Mengembangkan Teknologi Pertanian dan Pangan untuk Mengatasi Stunting** —
+  glosarium stunting, diagram rantai penyebab–dampak, tabel ciri–penyebab–
+  dampak, grafik lima provinsi prevalensi tertinggi 2022, kelompokkan
+  penyebab/ciri/solusi, hidroponik lahan sempit, skenario “Kampanye di posyandu”,
+  kartu istilah, dan tantangan.
+- **IPAS 4 Membangun Komunikasi dengan Bantuan Teknologi** — glosarium TIK,
+  diagram alur kerja IoT, tabel komponen IoT, garis waktu 1980-an→2020-an,
+  kelompokkan perangkat IoT/non-IoT, sensor dan kendali masalah sekolah,
+  skenario “Lampu kelas yang terus menyala”, kartu istilah, dan tantangan.
+- **IPAS 5 Membangun Kota Bebas Polusi melalui Energi Ramah Lingkungan** —
+  glosarium energi, diagram sumber energi→listrik, tabel sumber terbarukan,
+  grafik konsumsi energi 2021 menurut jenis, kelompokkan terbarukan/tak
+  terbarukan, cara ukur multimeter serta P = I × V, skenario “Lampu taman
+  sekolah tanpa listrik”, kartu istilah, dan tantangan.
+- **IPAS 6 Ekonomi Kreatif Berbasis Projek IPAS** — glosarium ekraf, diagram
+  ide→nilai tambah, tabel delapan bidang ekraf, garis waktu 2009–2019,
+  kelompokkan faktor pendorong/penghambat, pemasaran daring, skenario “Produk
+  kriya yang belum laku”, kartu istilah, dan tantangan.
+- Keenam bab memakai **30 soal** (5 mudah / 10 sedang / 15 sulit) dengan
+  campuran pilihan ganda, jawaban ganda, menjodohkan, seret-lepas, dan susun
+  urutan; setiap soal ber-`explanation` dan soal sulit tanpa hint.
+- Mapel **Projek IPAS jenjang SMK** (slug `ipas`, level `smk`) kini punya konten;
+  `tools/ipas_common.py` menambah dukungan `level` pada pembangun Prakarya/PJOK.
+
+### Verifikasi
+- `gamecenter:materi-import --dry-run` → 86 berkas, **0 gagal**.
+- Impor sungguhan menambah **6 bab / 18 materi / 18 asesmen / 180 soal**.
+- `gamecenter:materi-coverage` → **87 dari 90 chapter** memenuhi minimum §5.3,
+  **2.955 blok**. IPAS 1–6 masing-masing 26 blok, semuanya ✅.
+- `php artisan test` → **152 lulus, 1 dilewati, 1.793 asertion**; tes impor
+  mengharapkan 86 bab dan 2.580 soal, tes cakupan memeriksa keenam bab IPAS dan
+  halaman bermain IPAS 1.
+- `gamecenter:deploy-check` → 0 gagal.
 
 ## [0.41.0] - 2026-11-20 16:45 WIB
 

@@ -1,0 +1,1320 @@
+{
+  "schema_version": 1,
+  "level": "smk",
+  "class": "kelas-10",
+  "subject": "ipas",
+  "phase": "E",
+  "chapters": [
+    {
+      "code": "IPAS 5",
+      "title": "Membangun Kota Bebas Polusi melalui Energi Ramah Lingkungan",
+      "description": "Menelaah kebutuhan dan konsumsi energi nasional, memahami konsep, bentuk, sumber, dan transformasi energi, serta merancang purwarupa energi terbarukan yang diuji dengan pengukuran daya dan energi.",
+      "learning_objectives": [
+        "Menjelaskan kebutuhan dan konsumsi energi di Indonesia.",
+        "Membedakan bentuk dan sumber energi serta transformasinya.",
+        "Menghitung daya dan energi listrik hasil purwarupa.",
+        "Memilih sumber energi terbarukan yang sesuai potensi setempat.",
+        "Merancang, menguji, dan mengevaluasi projek energi ramah lingkungan."
+      ],
+      "estimated_minutes": 180,
+      "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 5 Membangun Kota Bebas Polusi melalui Energi Ramah Lingkungan; CP Fase E Projek IPAS",
+      "materials": [
+        {
+          "type": "text",
+          "title": "Mengapa energi menjadi persoalan kota?",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 5 Membangun Kota Bebas Polusi melalui Energi Ramah Lingkungan; CP Fase E Projek IPAS",
+          "content": "## Kebutuhan energi dan krisis energi\n\nKonsumsi energi nasional tahun 2021 mencapai 909,24 juta barel setara minyak, naik 0,4% dari tahun sebelumnya. Angka ini lebih rendah daripada 2019 yang mencapai 1 miliar BOE karena pandemi, tetapi tetap tertinggi dalam satu dekade terakhir.\n\nSektor transportasi adalah pengguna terbesar, yaitu 388,42 juta BOE atau 42,72% dari total konsumsi. Dari jenisnya, bensin mendominasi dengan 26%, diikuti solar/biodiesel 21,3%, dan listrik 18,5%.\n\nKetergantungan pada bahan bakar fosil membuat pasokan menipis, harga melambung, dan emisi karbon meningkat. Rasio elektrifikasi 2022 sudah 99,63%, tetapi sebagian wilayah masih mengalami pemadaman bergilir.\n\nHemat energi adalah solusi tercepat: mematikan alat yang tidak dipakai menurunkan emisi tanpa perlu membangun pembangkit baru.",
+          "blocks": [
+            {
+              "type": "glossary",
+              "id": "ipas-5-energi-ramah-lingkungan-glosarium",
+              "terms": [
+                {
+                  "term": "Energi",
+                  "definition": "Kemampuan melakukan kerja atau usaha dan mengalami perubahan."
+                },
+                {
+                  "term": "Transformasi energi",
+                  "definition": "Perubahan bentuk energi dari satu bentuk ke bentuk lainnya."
+                },
+                {
+                  "term": "Energi terbarukan",
+                  "definition": "Sumber energi yang berasal dari alam dan dapat dipakai terus-menerus."
+                },
+                {
+                  "term": "Panel surya",
+                  "definition": "Alat yang mengubah energi cahaya menjadi energi listrik melalui efek fotovoltaik."
+                },
+                {
+                  "term": "Biomassa",
+                  "definition": "Bahan organik dari makhluk hidup yang dapat diolah menjadi energi."
+                },
+                {
+                  "term": "Krisis energi",
+                  "definition": "Kondisi kekurangan cadangan energi fosil sehingga pasokan dan harga terganggu."
+                },
+                {
+                  "term": "Rasio elektrifikasi",
+                  "definition": "Perbandingan jumlah rumah tangga berlistrik dengan jumlah rumah tangga total."
+                },
+                {
+                  "term": "Multimeter",
+                  "definition": "Alat ukur listrik untuk mengukur arus, tegangan, dan hambatan."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kebutuhan energi dan krisis energi"
+            },
+            {
+              "type": "paragraph",
+              "text": "Konsumsi energi nasional tahun 2021 mencapai 909,24 juta barel setara minyak, naik 0,4% dari tahun sebelumnya. Angka ini lebih rendah daripada 2019 yang mencapai 1 miliar BOE karena pandemi, tetapi tetap tertinggi dalam satu dekade terakhir."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sektor transportasi adalah pengguna terbesar, yaitu 388,42 juta BOE atau 42,72% dari total konsumsi. Dari jenisnya, bensin mendominasi dengan 26%, diikuti solar/biodiesel 21,3%, dan listrik 18,5%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ketergantungan pada bahan bakar fosil membuat pasokan menipis, harga melambung, dan emisi karbon meningkat. Rasio elektrifikasi 2022 sudah 99,63%, tetapi sebagian wilayah masih mengalami pemadaman bergilir."
+            },
+            {
+              "type": "diagram",
+              "id": "ipas-5-energi-ramah-lingkungan-diagram",
+              "engine": "mermaid",
+              "title": "Dari sumber energi menjadi listrik",
+              "code": "flowchart LR\n  A[Sumber energi] --> B[Pembangkit]\n  B --> C[Generator menghasilkan listrik]\n  C --> D[Transmisi dan distribusi]\n  D --> E[Rumah, sekolah, industri]\n  E --> F[Transformasi menjadi energi lain]"
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Hemat energi adalah solusi tercepat: mematikan alat yang tidak dipakai menurunkan emisi tanpa perlu membangun pembangkit baru."
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-5-energi-ramah-lingkungan-cp-1",
+              "question": "Apa satuan energi dalam Sistem Internasional?",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "joule",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "watt"
+                },
+                {
+                  "id": "c2",
+                  "text": "ampere"
+                },
+                {
+                  "id": "c3",
+                  "text": "newton"
+                }
+              ],
+              "explanation": "Satuan SI energi adalah joule; watt adalah satuan daya."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Konsep, bentuk, dan sumber energi",
+          "duration": 300,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 5 Membangun Kota Bebas Polusi melalui Energi Ramah Lingkungan; CP Fase E Projek IPAS",
+          "content": "## Bentuk energi dan sumber terbarukan\n\nEnergi tidak dapat diciptakan dan tidak dapat dimusnahkan, tetapi dapat berubah bentuk. Setrika mengubah energi listrik menjadi energi termal, sedangkan tubuh mengubah energi kimia makanan menjadi energi gerak.\n\nBentuk energi meliputi listrik, kimia, cahaya, termal, mekanik (kinetik dan potensial), magnet, dan nuklir. Satuannya dapat dikonversi: 1 kalori = 4,2 joule, 1 joule = 0,24 kalori, dan 1 kWh = 3.600.000 joule.\n\nSumber energi terbarukan di Indonesia mencakup matahari (PLTS, panel surya, CSP), angin, air (PLTA), panas bumi (PLTP), gelombang laut, dan biomassa yang diolah menjadi biogas, etanol, serta biodiesel.\n\n| Sumber energi | Cara memanfaatkan | Contoh pembangkit atau alat |\n|---|---|---|\n| Matahari | Panel surya dan cermin konsentrator | PLTS, solar home system |\n| Angin | Turbin digerakkan embusan angin | Pembangkit listrik tenaga angin |\n| Air | Aliran air memutar turbin | PLTA |\n| Panas bumi | Uap panas memutar turbin | PLTP |\n| Gelombang laut | Naik turun ombak memutar turbin | Pembangkit gelombang |\n| Biomassa | Fermentasi atau pembakaran bahan organik | Biodigester biogas |\n\n### Mengukur daya dan energi purwarupa\n\n- Mengukur tegangan memakai multimeter pada posisi DCV atau ACV, dengan skala lebih besar bila nilai belum diketahui.\n- Mengukur arus pada posisi DCA dengan memutus jalur catu daya lalu menghubungkan probe secara seri.\n- Menghitung daya dengan P = I × V dan energi dengan W = P × t.\n- Menentukan variabel yang memengaruhi purwarupa, misalnya luas penampang pipa memengaruhi debit air kincir.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bentuk energi dan sumber terbarukan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Energi tidak dapat diciptakan dan tidak dapat dimusnahkan, tetapi dapat berubah bentuk. Setrika mengubah energi listrik menjadi energi termal, sedangkan tubuh mengubah energi kimia makanan menjadi energi gerak."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bentuk energi meliputi listrik, kimia, cahaya, termal, mekanik (kinetik dan potensial), magnet, dan nuklir. Satuannya dapat dikonversi: 1 kalori = 4,2 joule, 1 joule = 0,24 kalori, dan 1 kWh = 3.600.000 joule."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sumber energi terbarukan di Indonesia mencakup matahari (PLTS, panel surya, CSP), angin, air (PLTA), panas bumi (PLTP), gelombang laut, dan biomassa yang diolah menjadi biogas, etanol, serta biodiesel."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "Sumber energi",
+                  "Cara memanfaatkan",
+                  "Contoh pembangkit atau alat"
+                ],
+                [
+                  "Matahari",
+                  "Panel surya dan cermin konsentrator",
+                  "PLTS, solar home system"
+                ],
+                [
+                  "Angin",
+                  "Turbin digerakkan embusan angin",
+                  "Pembangkit listrik tenaga angin"
+                ],
+                [
+                  "Air",
+                  "Aliran air memutar turbin",
+                  "PLTA"
+                ],
+                [
+                  "Panas bumi",
+                  "Uap panas memutar turbin",
+                  "PLTP"
+                ],
+                [
+                  "Gelombang laut",
+                  "Naik turun ombak memutar turbin",
+                  "Pembangkit gelombang"
+                ],
+                [
+                  "Biomassa",
+                  "Fermentasi atau pembakaran bahan organik",
+                  "Biodigester biogas"
+                ]
+              ]
+            },
+            {
+              "type": "chart",
+              "id": "ipas-5-konsumsi",
+              "title": "Konsumsi energi Indonesia 2021 menurut jenis (%)",
+              "kind": "bar",
+              "data": [
+                {
+                  "label": "Bensin",
+                  "value": 26.0
+                },
+                {
+                  "label": "Solar/biodiesel",
+                  "value": 21.3
+                },
+                {
+                  "label": "Listrik",
+                  "value": 18.5
+                },
+                {
+                  "label": "Gas alam",
+                  "value": 9.9
+                },
+                {
+                  "label": "Batu bara",
+                  "value": 9.7
+                },
+                {
+                  "label": "LPG",
+                  "value": 8.0
+                },
+                {
+                  "label": "Biomassa",
+                  "value": 6.6
+                }
+              ]
+            },
+            {
+              "type": "categorize",
+              "id": "ipas-5-klasifikasi",
+              "prompt": "Kelompokkan sumber energi berikut menjadi terbarukan atau tak terbarukan.",
+              "buckets": [
+                {
+                  "id": "b1",
+                  "label": "Terbarukan"
+                },
+                {
+                  "id": "b2",
+                  "label": "Tak terbarukan"
+                }
+              ],
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Matahari",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i2",
+                  "text": "Angin",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i3",
+                  "text": "Panas bumi",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i4",
+                  "text": "Biomassa",
+                  "bucket": "b1"
+                },
+                {
+                  "id": "i5",
+                  "text": "Minyak bumi",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i6",
+                  "text": "Batu bara",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i7",
+                  "text": "Gas alam",
+                  "bucket": "b2"
+                },
+                {
+                  "id": "i8",
+                  "text": "Solar dan bensin",
+                  "bucket": "b2"
+                }
+              ],
+              "feedback": {
+                "correct": "Tepat. Matahari, angin, panas bumi, dan biomassa dapat diperbarui, sedangkan fosil akan habis.",
+                "wrong": "Periksa lagi: minyak, batu bara, dan gas terbentuk selama jutaan tahun sehingga tidak terbarukan."
+              }
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Mengukur daya dan energi purwarupa"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mengukur tegangan memakai multimeter pada posisi DCV atau ACV, dengan skala lebih besar bila nilai belum diketahui.",
+                "Mengukur arus pada posisi DCA dengan memutus jalur catu daya lalu menghubungkan probe secara seri.",
+                "Menghitung daya dengan P = I × V dan energi dengan W = P × t.",
+                "Menentukan variabel yang memengaruhi purwarupa, misalnya luas penampang pipa memengaruhi debit air kincir."
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-5-energi-ramah-lingkungan-cp-2",
+              "question": "Rumus daya listrik pada buku adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "P = I × V",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "P = V ÷ I"
+                },
+                {
+                  "id": "c2",
+                  "text": "P = I × t"
+                },
+                {
+                  "id": "c3",
+                  "text": "P = W × t"
+                }
+              ],
+              "explanation": "Daya (watt) sama dengan arus (ampere) dikali tegangan (volt)."
+            }
+          ]
+        },
+        {
+          "type": "interactive",
+          "title": "Contoh dan latihan",
+          "duration": 240,
+          "source_reference": "Projek-IPAS-BS-KLS-X.pdf Bab 5 Membangun Kota Bebas Polusi melalui Energi Ramah Lingkungan; CP Fase E Projek IPAS",
+          "content": "## Projek energi ramah lingkungan\n\nProjek dimulai dengan mengidentifikasi masalah energi di sekitar: pemakaian lampu berlebihan, harga listrik naik, atau tidak ada sumber listrik di area tertentu. Setelah itu ditentukan alternatif solusi sesuai potensi lokal.\n\nDesain purwarupa memuat referensi, alat dan bahan, skala gambar, serta variabel yang memengaruhi kerja alat. Pembangunan purwarupa wajib mengikuti prosedur, jadwal, pembagian tugas, dan manajemen risiko.\n\nUji coba mencatat arus dan tegangan untuk menghitung daya dan energi. Bila hasil belum sesuai kriteria rubrik, produk diperbaiki melalui desain ulang, lalu disosialisasikan atau dikembangkan produksinya.",
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Projek energi ramah lingkungan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Projek dimulai dengan mengidentifikasi masalah energi di sekitar: pemakaian lampu berlebihan, harga listrik naik, atau tidak ada sumber listrik di area tertentu. Setelah itu ditentukan alternatif solusi sesuai potensi lokal."
+            },
+            {
+              "type": "paragraph",
+              "text": "Desain purwarupa memuat referensi, alat dan bahan, skala gambar, serta variabel yang memengaruhi kerja alat. Pembangunan purwarupa wajib mengikuti prosedur, jadwal, pembagian tugas, dan manajemen risiko."
+            },
+            {
+              "type": "paragraph",
+              "text": "Uji coba mencatat arus dan tegangan untuk menghitung daya dan energi. Bila hasil belum sesuai kriteria rubrik, produk diperbaiki melalui desain ulang, lalu disosialisasikan atau dikembangkan produksinya."
+            },
+            {
+              "type": "scenario",
+              "id": "ipas-5-skenario",
+              "title": "Lampu taman sekolah tanpa listrik",
+              "start": "n1",
+              "nodes": [
+                {
+                  "id": "n1",
+                  "text": "Taman sekolah gelap pada malam hari dan sambungan listrik jauh. Apa langkah awal projek?",
+                  "choices": [
+                    {
+                      "text": "Mengukur kebutuhan penerangan dan potensi energi setempat",
+                      "next": "n2",
+                      "score": 2,
+                      "feedback": "Data kebutuhan dan potensi menentukan pilihan sumber energi."
+                    },
+                    {
+                      "text": "Membeli lampu termahal tanpa hitungan",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Tanpa hitungan, biaya bisa membengkak dan alat tidak sesuai."
+                    }
+                  ]
+                },
+                {
+                  "id": "n2",
+                  "text": "Taman terkena sinar matahari 7 jam sehari. Solusi apa yang dipilih?",
+                  "choices": [
+                    {
+                      "text": "Lampu LED dengan panel surya dan baterai",
+                      "next": "n4",
+                      "score": 2,
+                      "feedback": "Energi matahari tersedia dan tidak menambah tagihan listrik."
+                    },
+                    {
+                      "text": "Lampu minyak tanah",
+                      "next": "n3",
+                      "score": 0,
+                      "feedback": "Lampu minyak menimbulkan asap dan risiko kebakaran."
+                    }
+                  ]
+                },
+                {
+                  "id": "n3",
+                  "text": "Taman tetap gelap atau justru menimbulkan masalah baru.",
+                  "end": true,
+                  "outcome": "bad"
+                },
+                {
+                  "id": "n4",
+                  "text": "Taman terang sepanjang malam tanpa menambah tagihan listrik.",
+                  "end": true,
+                  "outcome": "good"
+                }
+              ]
+            },
+            {
+              "type": "flashcards",
+              "id": "ipas-5-energi-ramah-lingkungan-kartu",
+              "cards": [
+                {
+                  "front": "Apa itu transformasi energi?",
+                  "back": "Perubahan bentuk energi, misalnya listrik menjadi termal pada setrika."
+                },
+                {
+                  "front": "Berapa 1 kWh dalam joule?",
+                  "back": "3.600.000 joule."
+                },
+                {
+                  "front": "Apa fungsi kalorimeter?",
+                  "back": "Mengukur energi termal atau kalor."
+                },
+                {
+                  "front": "Apa itu rasio elektrifikasi?",
+                  "back": "Perbandingan rumah tangga berlistrik dengan seluruh rumah tangga."
+                }
+              ]
+            },
+            {
+              "type": "checkpoint",
+              "id": "ipas-5-energi-ramah-lingkungan-cp-3",
+              "question": "Energi yang dihasilkan alat berdaya 10 watt selama 60 detik adalah…",
+              "choices": [
+                {
+                  "id": "c0",
+                  "text": "600 joule",
+                  "correct": true
+                },
+                {
+                  "id": "c1",
+                  "text": "10 joule"
+                },
+                {
+                  "id": "c2",
+                  "text": "60 joule"
+                },
+                {
+                  "id": "c3",
+                  "text": "6.000 joule"
+                }
+              ],
+              "explanation": "W = P × t = 10 watt × 60 detik = 600 joule."
+            },
+            {
+              "type": "challenge",
+              "id": "ipas-5-tantangan",
+              "title": "Tantangan istilah energi",
+              "time_limit": 90,
+              "items": [
+                {
+                  "question": "Satuan SI energi",
+                  "answer": "Joule"
+                },
+                {
+                  "question": "Alat ukur arus dan tegangan",
+                  "answer": "Multimeter"
+                },
+                {
+                  "question": "Pembangkit dari uap panas bumi",
+                  "answer": "PLTP"
+                },
+                {
+                  "question": "Bahan bakar dari limbah organik",
+                  "answer": "Biogas"
+                },
+                {
+                  "question": "Rumus daya listrik",
+                  "answer": "P = I × V"
+                }
+              ],
+              "feedback": {
+                "correct": "Lima istilah energi terjawab tepat.",
+                "wrong": "Ulangi istilah yang belum tepat, lalu coba lagi."
+              }
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "difficulty": "easy",
+          "title": "Membangun Kota Bebas Polusi melalui Energi Ramah Lingkungan — Mudah",
+          "passing_score": 60,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Berapa konsumsi energi nasional Indonesia pada 2021?",
+              "options": [
+                {
+                  "text": "909,24 juta barel",
+                  "correct": true
+                },
+                {
+                  "text": "809,24 juta barel"
+                },
+                {
+                  "text": "1.009 juta barel"
+                },
+                {
+                  "text": "500 juta barel"
+                }
+              ],
+              "explanation": "Konsumsi energi 2021 mencapai 909,24 juta barel setara minyak.",
+              "hint": "Naik 0,4% dari tahun sebelumnya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Sektor dengan konsumsi energi terbesar di Indonesia adalah…",
+              "options": [
+                {
+                  "text": "transportasi",
+                  "correct": true
+                },
+                {
+                  "text": "industri"
+                },
+                {
+                  "text": "rumah tangga"
+                },
+                {
+                  "text": "komersial"
+                }
+              ],
+              "explanation": "Transportasi mengonsumsi 388,42 juta BOE atau 42,72% total.",
+              "hint": "Kendaraan berbahan bakar minyak mendominasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa rasio elektrifikasi Indonesia pada 2022?",
+              "options": [
+                {
+                  "text": "99,63%",
+                  "correct": true
+                },
+                {
+                  "text": "89,63%"
+                },
+                {
+                  "text": "79,63%"
+                },
+                {
+                  "text": "100%"
+                }
+              ],
+              "explanation": "Rasio elektrifikasi 2022 mencapai 99,63%.",
+              "hint": "Masih ada wilayah tanpa akses listrik."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah sumber energi terbarukan?",
+              "options": [
+                {
+                  "text": "Matahari",
+                  "correct": true
+                },
+                {
+                  "text": "Angin",
+                  "correct": true
+                },
+                {
+                  "text": "Panas bumi",
+                  "correct": true
+                },
+                {
+                  "text": "Batu bara",
+                  "correct": false
+                },
+                {
+                  "text": "Minyak bumi",
+                  "correct": false
+                }
+              ],
+              "explanation": "Matahari, angin, dan panas bumi dapat diperbarui.",
+              "hint": "Fosil akan habis karena terbentuk jutaan tahun."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bentuk energi yang disebut dalam buku?",
+              "options": [
+                {
+                  "text": "Energi listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Energi kimia",
+                  "correct": true
+                },
+                {
+                  "text": "Energi nuklir",
+                  "correct": true
+                },
+                {
+                  "text": "Energi warna",
+                  "correct": false
+                },
+                {
+                  "text": "Energi rasa",
+                  "correct": false
+                }
+              ],
+              "explanation": "Bentuk energi meliputi listrik, kimia, cahaya, termal, mekanik, magnet, dan nuklir.",
+              "hint": "Bentuk energi berkaitan dengan perubahan yang terjadi."
+            }
+          ]
+        },
+        {
+          "difficulty": "medium",
+          "title": "Membangun Kota Bebas Polusi melalui Energi Ramah Lingkungan — Sedang",
+          "passing_score": 70,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Apa satuan SI untuk energi?",
+              "options": [
+                {
+                  "text": "joule",
+                  "correct": true
+                },
+                {
+                  "text": "watt"
+                },
+                {
+                  "text": "ampere"
+                },
+                {
+                  "text": "pascal"
+                }
+              ],
+              "explanation": "Satuan energi menurut SI adalah joule.",
+              "hint": "Watt adalah satuan daya."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa nilai 1 kalori dalam joule?",
+              "options": [
+                {
+                  "text": "4,2 joule",
+                  "correct": true
+                },
+                {
+                  "text": "0,24 joule"
+                },
+                {
+                  "text": "42 joule"
+                },
+                {
+                  "text": "3.600 joule"
+                }
+              ],
+              "explanation": "1 kalori setara 4,2 joule.",
+              "hint": "Kebalikannya, 1 joule = 0,24 kalori."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah contoh transformasi energi?",
+              "options": [
+                {
+                  "text": "Setrika: listrik menjadi termal",
+                  "correct": true
+                },
+                {
+                  "text": "Kipas: listrik menjadi gerak",
+                  "correct": true
+                },
+                {
+                  "text": "Panel surya: cahaya menjadi listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Batu menjadi kayu",
+                  "correct": false
+                },
+                {
+                  "text": "Air menjadi batu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Transformasi mengubah satu bentuk energi menjadi bentuk lain.",
+              "hint": "Setiap alat listrik umumnya mengubah energi."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah pemanfaatan energi matahari menurut buku?",
+              "options": [
+                {
+                  "text": "Panel surya fotovoltaik",
+                  "correct": true
+                },
+                {
+                  "text": "Tenaga surya terkonsentrasi (CSP)",
+                  "correct": true
+                },
+                {
+                  "text": "Solar home system",
+                  "correct": true
+                },
+                {
+                  "text": "Pembangkit uap panas bumi",
+                  "correct": false
+                },
+                {
+                  "text": "Biodigester limbah",
+                  "correct": false
+                }
+              ],
+              "explanation": "Matahari dimanfaatkan lewat panel surya dan sistem konsentrator.",
+              "hint": "Panas bumi dan biogas berasal dari sumber lain."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah dasar pada bab ini dengan pengertian yang tepat.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Energi",
+                  "right": "kemampuan melakukan kerja"
+                },
+                {
+                  "id": "m1",
+                  "left": "Transformasi energi",
+                  "right": "perubahan bentuk energi"
+                },
+                {
+                  "id": "m2",
+                  "left": "Panel surya",
+                  "right": "mengubah cahaya menjadi listrik"
+                },
+                {
+                  "id": "m3",
+                  "left": "Biomassa",
+                  "right": "bahan organik sumber energi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "kemampuan melakukan kerja",
+                  "m1": "perubahan bentuk energi",
+                  "m2": "mengubah cahaya menjadi listrik",
+                  "m3": "bahan organik sumber energi"
+                }
+              },
+              "explanation": "Istilah harus dipasangkan sesuai pengertiannya, bukan sekadar diingat urutannya.",
+              "hint": "Baca ulang glosarium di awal materi."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan alur sumber energi menjadi listrik.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Sumber energi"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pembangkit"
+                },
+                {
+                  "id": "d2",
+                  "text": "Generator"
+                },
+                {
+                  "id": "d3",
+                  "text": "Transmisi dan distribusi"
+                },
+                {
+                  "id": "d4",
+                  "text": "Pemakaian di rumah dan industri"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Energi diubah di pembangkit, disalurkan, lalu dipakai.",
+              "hint": "Generator menghasilkan listrik sebelum distribusi."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah mengukur tegangan dengan multimeter.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Putar selektor ke DCV atau ACV"
+                },
+                {
+                  "id": "p1",
+                  "text": "Pilih skala yang sesuai"
+                },
+                {
+                  "id": "p2",
+                  "text": "Hubungkan probe ke terminal"
+                },
+                {
+                  "id": "p3",
+                  "text": "Baca hasil di layar"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3"
+                ]
+              },
+              "explanation": "Pengukuran dimulai dari pemilihan mode dan skala, lalu pembacaan hasil.",
+              "hint": "Skala besar lebih aman bila nilai belum diketahui."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Berapa nilai 1 kWh dalam joule?",
+              "options": [
+                {
+                  "text": "3.600.000 joule",
+                  "correct": true
+                },
+                {
+                  "text": "3.600 joule"
+                },
+                {
+                  "text": "36.000 joule"
+                },
+                {
+                  "text": "360 joule"
+                }
+              ],
+              "explanation": "1 kWh setara 3.600.000 joule.",
+              "hint": "Satu jam sama dengan 3.600 detik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Perubahan bentuk energi disebut…",
+              "options": [
+                {
+                  "text": "transformasi energi",
+                  "correct": true
+                },
+                {
+                  "text": "konveksi energi"
+                },
+                {
+                  "text": "konduksi energi"
+                },
+                {
+                  "text": "radiasi energi"
+                }
+              ],
+              "explanation": "Transformasi energi adalah perubahan bentuk energi.",
+              "hint": "Terjadi saat alat digunakan."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah bahan bakar yang termasuk biofuel?",
+              "options": [
+                {
+                  "text": "Biogas",
+                  "correct": true
+                },
+                {
+                  "text": "Etanol",
+                  "correct": true
+                },
+                {
+                  "text": "Biodiesel",
+                  "correct": true
+                },
+                {
+                  "text": "Bensin murni",
+                  "correct": false
+                },
+                {
+                  "text": "Avtur fosil",
+                  "correct": false
+                }
+              ],
+              "explanation": "Biogas, etanol, dan biodiesel berasal dari biomassa.",
+              "hint": "Bio berarti berasal dari makhluk hidup."
+            }
+          ]
+        },
+        {
+          "difficulty": "hard",
+          "title": "Membangun Kota Bebas Polusi melalui Energi Ramah Lingkungan — Sulit",
+          "passing_score": 80,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Alat pengubah energi cahaya menjadi energi listrik adalah…",
+              "options": [
+                {
+                  "text": "panel surya",
+                  "correct": true
+                },
+                {
+                  "text": "kalorimeter"
+                },
+                {
+                  "text": "biodigester"
+                },
+                {
+                  "text": "turbin angin"
+                }
+              ],
+              "explanation": "Panel surya bekerja melalui efek fotovoltaik."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pembangkit yang memanfaatkan uap panas bumi disebut…",
+              "options": [
+                {
+                  "text": "PLTP",
+                  "correct": true
+                },
+                {
+                  "text": "PLTA"
+                },
+                {
+                  "text": "PLTS"
+                },
+                {
+                  "text": "PLTB"
+                }
+              ],
+              "explanation": "PLTP adalah pembangkit listrik tenaga panas bumi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Pembangkit listrik tenaga air memutar turbin memakai…",
+              "options": [
+                {
+                  "text": "aliran air",
+                  "correct": true
+                },
+                {
+                  "text": "uap batu bara"
+                },
+                {
+                  "text": "angin laut"
+                },
+                {
+                  "text": "gas alam"
+                }
+              ],
+              "explanation": "PLTA memanfaatkan gerakan air untuk memutar turbin dan generator."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Energi yang berasal dari bahan organik makhluk hidup disebut…",
+              "options": [
+                {
+                  "text": "biomassa",
+                  "correct": true
+                },
+                {
+                  "text": "geotermal"
+                },
+                {
+                  "text": "nuklir"
+                },
+                {
+                  "text": "magnetik"
+                }
+              ],
+              "explanation": "Biomassa berasal dari tumbuhan, hewan, dan mikroorganisme."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat pengubah limbah organik menjadi biogas disebut…",
+              "options": [
+                {
+                  "text": "biodigester",
+                  "correct": true
+                },
+                {
+                  "text": "multimeter"
+                },
+                {
+                  "text": "kalorimeter"
+                },
+                {
+                  "text": "kompresor"
+                }
+              ],
+              "explanation": "Biodigester mengolah limbah menjadi biogas."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah data yang dicatat saat uji coba purwarupa listrik?",
+              "options": [
+                {
+                  "text": "Arus listrik",
+                  "correct": true
+                },
+                {
+                  "text": "Tegangan",
+                  "correct": true
+                },
+                {
+                  "text": "Waktu pemakaian",
+                  "correct": true
+                },
+                {
+                  "text": "Warna kabel",
+                  "correct": false
+                },
+                {
+                  "text": "Merek lampu",
+                  "correct": false
+                }
+              ],
+              "explanation": "Daya dan energi dihitung dari arus, tegangan, dan waktu."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah keuntungan energi panas bumi?",
+              "options": [
+                {
+                  "text": "Tidak memerlukan bahan bakar",
+                  "correct": true
+                },
+                {
+                  "text": "Residunya hanya air",
+                  "correct": true
+                },
+                {
+                  "text": "Tidak mencemari udara",
+                  "correct": true
+                },
+                {
+                  "text": "Menghasilkan asap hitam pekat",
+                  "correct": false
+                },
+                {
+                  "text": "Memerlukan batu bara setiap hari",
+                  "correct": false
+                }
+              ],
+              "explanation": "PLTP tidak membakar bahan bakar sehingga emisinya rendah."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan istilah lanjutan pada bab ini dengan pengertian yang benar.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "PLTA",
+                  "right": "pembangkit dari aliran air"
+                },
+                {
+                  "id": "m1",
+                  "left": "PLTP",
+                  "right": "pembangkit dari uap panas bumi"
+                },
+                {
+                  "id": "m2",
+                  "left": "Multimeter",
+                  "right": "alat ukur arus dan tegangan"
+                },
+                {
+                  "id": "m3",
+                  "left": "Krisis energi",
+                  "right": "kekurangan cadangan energi fosil"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "pembangkit dari aliran air",
+                  "m1": "pembangkit dari uap panas bumi",
+                  "m2": "alat ukur arus dan tegangan",
+                  "m3": "kekurangan cadangan energi fosil"
+                }
+              },
+              "explanation": "Istilah lanjutan menuntut pemahaman, bukan hafalan urutan."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah mengukur arus listrik.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Putar selektor ke DCA"
+                },
+                {
+                  "id": "d1",
+                  "text": "Pilih skala sesuai perkiraan"
+                },
+                {
+                  "id": "d2",
+                  "text": "Putuskan jalur catu daya"
+                },
+                {
+                  "id": "d3",
+                  "text": "Hubungkan probe secara seri"
+                },
+                {
+                  "id": "d4",
+                  "text": "Baca hasil di layar"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Arus diukur dengan memutus jalur lalu menghubungkan multimeter seri."
+            },
+            {
+              "type": "puzzle",
+              "question": "Urutkan langkah projek energi ramah lingkungan.",
+              "options": [
+                {
+                  "id": "p0",
+                  "text": "Mencari referensi dan bahan"
+                },
+                {
+                  "id": "p1",
+                  "text": "Menggambar desain berskala"
+                },
+                {
+                  "id": "p2",
+                  "text": "Menyusun jadwal dan pembagian tugas"
+                },
+                {
+                  "id": "p3",
+                  "text": "Membangun purwarupa"
+                },
+                {
+                  "id": "p4",
+                  "text": "Menguji dan menghitung daya"
+                },
+                {
+                  "id": "p5",
+                  "text": "Mengevaluasi dan menindaklanjuti"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "p0",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "p5"
+                ]
+              },
+              "explanation": "Projek bergerak dari referensi, desain, perencanaan, pembuatan, pengujian, sampai evaluasi."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Alat untuk mengukur tegangan dan arus listrik adalah…",
+              "options": [
+                {
+                  "text": "multimeter",
+                  "correct": true
+                },
+                {
+                  "text": "termometer"
+                },
+                {
+                  "text": "higrometer"
+                },
+                {
+                  "text": "barometer"
+                }
+              ],
+              "explanation": "Multimeter mengukur arus, tegangan, dan hambatan."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Kondisi kekurangan cadangan energi fosil disebut…",
+              "options": [
+                {
+                  "text": "krisis energi",
+                  "correct": true
+                },
+                {
+                  "text": "krisis pangan"
+                },
+                {
+                  "text": "krisis air"
+                },
+                {
+                  "text": "krisis moneter"
+                }
+              ],
+              "explanation": "Krisis energi terjadi ketika kebutuhan meningkat sementara cadangan menipis."
+            },
+            {
+              "type": "multiple_answer",
+              "question": "Manakah solusi masalah energi menurut buku?",
+              "options": [
+                {
+                  "text": "Penghematan energi",
+                  "correct": true
+                },
+                {
+                  "text": "Pemberdayaan energi terbarukan",
+                  "correct": true
+                },
+                {
+                  "text": "Mengoptimalkan potensi lokal",
+                  "correct": true
+                },
+                {
+                  "text": "Menambah pembakaran sampah",
+                  "correct": false
+                },
+                {
+                  "text": "Meningkatkan impor bahan bakar",
+                  "correct": false
+                }
+              ],
+              "explanation": "Solusi diarahkan pada penghematan dan energi terbarukan."
+            },
+            {
+              "type": "matching",
+              "question": "Pasangkan seluruh istilah pada bab ini dengan pengertiannya.",
+              "options": [
+                {
+                  "id": "m0",
+                  "left": "Energi",
+                  "right": "kemampuan melakukan kerja"
+                },
+                {
+                  "id": "m1",
+                  "left": "Transformasi energi",
+                  "right": "perubahan bentuk energi"
+                },
+                {
+                  "id": "m2",
+                  "left": "Panel surya",
+                  "right": "mengubah cahaya menjadi listrik"
+                },
+                {
+                  "id": "m3",
+                  "left": "Biomassa",
+                  "right": "bahan organik sumber energi"
+                },
+                {
+                  "id": "m4",
+                  "left": "PLTA",
+                  "right": "pembangkit dari aliran air"
+                },
+                {
+                  "id": "m5",
+                  "left": "PLTP",
+                  "right": "pembangkit dari uap panas bumi"
+                }
+              ],
+              "correct": {
+                "pairs": {
+                  "m0": "kemampuan melakukan kerja",
+                  "m1": "perubahan bentuk energi",
+                  "m2": "mengubah cahaya menjadi listrik",
+                  "m3": "bahan organik sumber energi",
+                  "m4": "pembangkit dari aliran air",
+                  "m5": "pembangkit dari uap panas bumi"
+                }
+              },
+              "explanation": "Pasangan yang lengkap menunjukkan pemahaman menyeluruh atas istilah bab."
+            },
+            {
+              "type": "drag_drop",
+              "question": "Urutkan langkah mengevaluasi purwarupa.",
+              "options": [
+                {
+                  "id": "d0",
+                  "text": "Menyusun rubrik penilaian"
+                },
+                {
+                  "id": "d1",
+                  "text": "Mengoperasikan purwarupa"
+                },
+                {
+                  "id": "d2",
+                  "text": "Mencatat variabel terukur"
+                },
+                {
+                  "id": "d3",
+                  "text": "Membandingkan hasil dengan kriteria"
+                },
+                {
+                  "id": "d4",
+                  "text": "Memperbaiki bagian yang belum sesuai"
+                }
+              ],
+              "correct": {
+                "order": [
+                  "d0",
+                  "d1",
+                  "d2",
+                  "d3",
+                  "d4"
+                ]
+              },
+              "explanation": "Evaluasi memakai rubrik dan data uji, lalu diakhiri perbaikan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

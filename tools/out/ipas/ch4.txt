@@ -1,0 +1,813 @@
+BAB 4
+Membangun Komunikasi 
+dengan Bantuan Teknologi
+Pernahkah kalian kehilangan remote televisi atau pendingin 
+ruangan? Apa solusi yang kalian lakukan selain menghidupkan 
+televisi atau pendingin ruangan secara manual?
+KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI
+REPUBLIK INDONESIA, 2023
+Projek IPAS 
+untuk SMK/MAK Kelas X
+Penulis: Eni Nuraeni, Nurdini, Wandi Herpiandi, Sudarmi
+ISBN: 
+978-623-194-401-6 (no.jil.lengkap PDF)
+ 
+978-623-194-402-3 (jil.1 PDF)
+
+Projek IPAS untuk SMK/MAK Kelas X
+112
+Kata Kunci
+Tujuan Pembelajaran
+Setelah mempelajari bab tentang Membangun Komunikasi dengan 
+Bantuan Teknologi, kalian diharapkan mampu:
+1. menerapkan langkah-langkah ilmiah untuk mencari solusi 
+permasalahan lingkungan melalui pemanfaatan teknologi 
+informasi dan komunikasi;
+2. merencanakan pembuatan projek IPAS melalui pemanfaatan 
+teknologi informasi dan komunikasi; serta
+3. melaksanakan projek IPAS sebagai solusi untuk membantu 
+mengatasi masalah di sekitar melalui pemanfaatan teknologi 
+informasi dan komunikasi.
+• 
+Teknologi Informasi dan 
+Komunikasi
+• 
+Internet
+• 
+Internet of Things
+• 
+Artificial Intelligence
+• 
+Otomasi
+• 
+Sensor
+• 
+Smartphone
+• 
+Komputer
+• 
+Aplikasi
+• 
+Kontrol
+• 
+Sosial Media
+• 
+Platform digital
+
+Membangun Komunikasi dengan Bantuan Teknologi
+113
+bagian
+dari produk
+mempercepat
+Manusia
+Internet
+Artificial
+Inteligence
+Komunikasi
+Elektronik
+memudahkan
+aktivitas
+dapat
+berupa
+Lemari pendingin
+contohnya
+Scanner barcode
+AC
+HP
+dibuat
+oleh
+digunakan
+sebagai
+sarana
+contohnya
+Teknologi
+Smarthome
+meningkatkan 
+kecepatan
+System sensor
+Otomasi
+melakukan
+Teknologi Informasi
+dan Komunikasi
+Peta Konsep
+
+Projek IPAS untuk SMK/MAK Kelas X
+114
+Cermatilah gambar di atas! Pernahkah kalian kehilangan remote 
+televisi atau pendingin ruangan? Apa solusi yang kalian lakukan 
+selain menghidupkan televisi atau pendingin ruangan secara manual? 
+Ya, ada beberapa di antara kalian yang menggunakan handphone 
+sebagai pengganti remote televisi. Dewasa ini gadget selain dapat 
+menghubungkan miliaran manusia tanpa bertemu dan bertatap 
+muka secara langsung, juga dapat digunakan untuk keperluan lain, di 
+antaranya melakukan pembayaran uang elektronik, mengoperasikan 
+robot, dan mengoperasikan peralatan elektronik lainnya. Bagaimana 
+cara kerja aplikasi tersebut dalam membantu kebutuhan manusia?
+ 
+Sebagai media komunikasi, teknologi informasi terus mengalami 
+perkembangan sehingga penerapannya pun bertambah luas. Pada bab 
+ini kalian akan memanfaatkan teknologi informasi dan komunikasi 
+dalam memecahkan permasalahan di sekitar.
+A. Peranan TIK dalam Kehidupan Sehari-hari
+Era digital telah memasuki semua sendi kehidupan. Hampir semua 
+kebutuhan manusia sudah memanfaatkan teknologi dalam melakukan 
+komunikasi. Apakah kalian setuju dengan pernyataan di atas? Kalau 
+tidak setuju ajukan pendapat kalian! Lakukan pengecekan apakah 
+pendapat kalian tersebut benar dengan cara berdiskusi dengan guru 
+kalian.
+Gambar 4.1 Gadget digunakan sebagai remote televisi.
+Sumber: technoglitz.com/Joe Fedewa (2021)
+
+Membangun Komunikasi dengan Bantuan Teknologi
+115
+Kegiatan 4.1
+Ayo Mengidentifikasi
+Gambar 4.2 Peralatan Teknologi Informasi (1) komputer dan laptop; (2) mesin fax dan 
+telepon; (3) televisi tabung; (4) radio; (5) mesin OHP; (6) televisi LED; dan (7) gadget tab
+ 
+Amatilah gambar di atas! Apakah kalian pernah melihat peralatan 
+tersebut? Kalau pernah, apa saja fungsinya? Apabila kalian telah 
+melihat dan menggunakan peralatan-peralatan di atas? Peralatan 
+tersebut tergolong bagian dari peralatan yang digunakan manusia 
+untuk berkomunikasi. Manusia saat ini akan kesulitan apabila hidup 
+tanpa adanya komunikasi beserta teknologinya. Teknologi komunikasi 
+mengambil peranan yang sangat penting sehingga memudahkan 
+berbagai keperluan manusia. 
+ 
+Teknologi informasi mengubah perilaku komunikasi dan aktivitas 
+manusia. Untuk mengetahui perubahan aktivitas manusia disebabkan 
+perubahan teknologi informasi, kalian dapat melakukan Kegiatan 4.1 
+di bawah ini.
+Tujuan: Mengidentifikasi perubahan aktivitas manusia akibat 
+perubahan teknologi.
+Buatlah sebuah laporan perbandingan tentang perubahan aktivitas 
+dan komunikasi manusia mulai era tahun 1980 sampai sekarang. 
+1
+2
+3
+4
+5
+6
+7
+
+Projek IPAS untuk SMK/MAK Kelas X
+116
+ 
+Munculnya TIK memberikan langkah-langkah ekstra untuk 
+mempercepat komunikasi. Masih ingatkah kalian definisi teknologi 
+informasi dan komunikasi? Dalam bahasa Inggris, TIK disebut dengan 
+Information and Communication Technology (ICT). Menurut Kamus Besar 
+Bahasa Indonesia, teknologi adalah metode ilmiah untuk mencapai 
+tujuan praktis atau ilmu pengetahuan terapan. Dapat juga diartikan 
+sebagai keseluruhan dan kenyamanan hidup manusia. Teknologi 
+informasi dan komunikasi berperan penting dalam memudahkan 
+manusia untuk dapat saling berhubungan dengan cepat, mudah, dan 
+terjangkau. Email misalnya mengubah cara kita berinteraksi satu sama 
+lain dari mulai tahun 1990-an sampai saat ini. Selain email, coba kalian 
+sebutkan komunikasi digital apa saja yang sekarang digunakan untuk 
+membuat komunikasi lebih cepat daripada mengirim surat!
+Gambar 4.3 Ikon media sosial
+Laporan yang kalian buat dapat mengikuti petunjuk berikut.
+1. Laporan dapat dibuat dalam berbagai bentuk (makalah, tabel, 
+grafik, infografis, PowerPoint, atau video).
+2. Informasi dapat diperoleh melalui survei dan wawancara kepada 
+tokoh setiap generasi yang ada di lingkungan kalian, melalui 
+studi literatur, atau melalui referensi lainnya, seperti Youtube, 
+jurnal, dan lain-lain.
+3. Komponen yang ada pada laporan memuat periode waktu 
+dihubungkan dengan teknologi komunikasi pada saat itu serta 
+bagaimana kaitannya dengan aktivitas sosial manusianya.
+
+Membangun Komunikasi dengan Bantuan Teknologi
+117
+ 
+Kalian yang merupakan generasi milenial tentu sangat memahami 
+Gambar 4.3 di atas. Gambar tersebut merupakan kumpulan ikon 
+media sosial yang sekarang ini banyak digunakan oleh masyarakat 
+untuk berkomunikasi. Twitter, Instagram, dan Facebook merupakan 
+beberapa aplikasi yang termasuk media sosial. Media sosial atau 
+sering juga disebut sebagai sosial media adalah platform digital 
+yang memfasilitasi penggunanya untuk saling berkomunikasi atau 
+membagikan konten berupa tulisan, foto, atau video, dan merupakan 
+platform digital yang menyediakan fasilitas untuk melakukan aktivitas 
+sosial bagi setiap penggunanya. Media sosial juga merupakan sebuah 
+sarana untuk bersosialisasi satu sama lain dan dilakukan secara daring 
+yang memungkinkan manusia untuk saling berinteraksi tanpa dibatasi 
+ruang dan waktu. 
+B. Perkembangan TIK dan Penerapannya
+Gambar 4.4 Smartphone alat komunikasi saat sekarang.
+Sumber: pexels.com/Lisa Fotios (2018)
+ 
+Menurut pendapat kalian, apakah alat komunikasi seperti gambar 
+di atas sudah ada pada periode tahun 1980-an? Teknologi informasi 
+dan komunikasi saat ini berkembang sangat maju. Hal itu dapat kalian 
+lihat dari berbagai peralatan teknologi komunikasi yang ada sekarang. 
+Tidak hanya canggih dan modern, peralatan teknologi komunikasi yang 
+ada saat ini memudahkan berbagai aktivitas manusia. 
+
+Projek IPAS untuk SMK/MAK Kelas X
+118
+Kegiatan 4.2
+Ayo Berpikir
+1. Munculnya Internet
+Adakah di antara kalian yang belum pernah menggunakan smartphone? 
+Untuk yang sudah menggunakannya, coba amati smartphone kalian, 
+bandingkan apa saja kelebihan smartphone dibandingkan handphone 
+biasa! Smartphone merupakan salah satu alat komunikasi yang sering 
+dipakai saat ini, mulai dari kalangan anak-anak, remaja, dewasa, dan 
+orang tua. Pada awalnya, handphone hanya untuk berkomunikasi saja, 
+dengan seiring perkembangan zaman, teknologi handphone dapat 
+mengirim data dan menambah aplikasi yang disukai. 
+ 
+Smartphone 
+merupakan 
+jenis 
+media 
+yang dapat menyalurkan informasi secara 
+cepat melalui fasilitas internetnya. Dengan 
+kemunculan internet, semakin banyak aktivitas 
+manusia tanpa perlu berinteraksi langsung 
+dengan 
+manusia 
+lainnya. 
+Coba 
+jelaskan 
+definisi internet menurut pemahaman yang 
+kalian ketahui! Apabila masih kesulitan untuk 
+mendefinisikannya, kalian dapat berdiskusi dengan guru kalian!
+ 
+Setelah kalian pahami apa definisi internet, lanjutkan ke Kegiatan 
+4.2 untuk lebih mendalami apa saja manfaat dari internet.
+Tujuan: 
+Mengidentifikasi 
+pemanfaatan 
+internet 
+berdasarkan 
+keahlian.
+Buatlah bagan pemanfaatan internet dalam bidang/program studi 
+yang kalian pelajari seperti ekonomi, pariwisata, tata boga, teknik 
+otomotif, teknik sipil,  pertanian, dan lain-lain. Kalian dapat mencari 
+informasi tersebut dari berbagai referensi. 
+Gambar 4.5 Logo wifi
+
+Membangun Komunikasi dengan Bantuan Teknologi
+119
+ 
+Internet dengan kemampuan untuk mendistribusikan informasi 
+secara cepat, dari satu tempat ke tempat lain yang berjauhan, tentu saja 
+memberikan manfaat yang sangat berarti dalam kehidupan manusia. 
+Pemanfaatan internet untuk kehidupan sehari-hari sangat bervariasi, 
+antara lain untuk mencari informasi masalah sosial kemasyarakatan, 
+mencari informasi mengenai kesehatan, membuka situs jejaring 
+sosial, melakukan aktivitas belajar, mengirim dan menerima email, 
+mengunduh film, musik, dan lain-lain. 
+Gambar 4.6 Alat scan barcode
+Sumber: asp.com.au/Robert Kogoi (2020)
+ 
+Pernahkah kalian melihat alat seperti Gambar 4.6 di atas? Ya betul, 
+salah satunya ketika kalian akan membayar barang belanjaan di kasir 
+supermarket. Kasir supermarket biasanya akan membidik barcode 
+pada barang belanjaan kita dengan alat sensornya, kemudian harga 
+barang tersebut akan muncul di monitor kasir, sangat mudah bukan 
+pekerjaan kasir tersebut?
+ 
+Siapa di antara kalian yang pernah membuat konten di Youtube? 
+Bahkan mungkin banyak di antara kalian yang memiliki cita-cita menjadi 
+youtuber. Melalui Youtube, kalian dapat ikut berbagi informasi dengan 
+mengunggah video ke Youtube, selain itu Youtube juga memberikan 
+kesempatan kepada pemilik video memperoleh penghasilan apabila 
+video yang diunggah ditonton oleh minimal sejumlah orang yang 
+disyaratkan oleh Youtube.
+
+Projek IPAS untuk SMK/MAK Kelas X
+120
+2. Internet of Things (IoT)
+Kemajuan teknologi tidak hanya memudahkan pekerjaan manusia, 
+namun juga bisa mengurangi keterlibatan manusia dalam suatu 
+aktivitas. Beberapa contoh yang disajikan di atas merupakan bagian 
+dari pengembangan manfaat internet, yaitu dengan adanya IoT.
+ 
+Apakah kalian pernah mendengar istilah IoT? Internet menyediakan 
+berbagai fungsi dan fasilitas yang dapat digunakan sebagai suatu media 
+informasi dan komunikasi yang canggih. Perkembangan teknologi 
+yang bisa dimanfaatkan dengan adanya koneksi internet adalah bisa 
+mengakses peralatan elektronik yang dapat dioperasikan dengan cara 
+online. Hal ini dapat memudahkan pengguna memantau ataupun 
+mengendalikan peralatan kelistrikan di mana pun dengan catatan 
+mempunyai jaringan internet yang memadai. 
+ 
+IoT merupakan suatu konsep yang bertujuan untuk memperluas 
+manfaat dari koneksivitas internet yang tersambung secara terus-
+menerus. Kecanggihan teknologi IoT yang ada saat ini memampukan 
+alat-alat elektronik agar selalu terhubung dengan internet dan secara 
+otomatis menjalankan perintah sesuai program yang diinginkan user. 
+Gambar 4.7 Penyedia daftar aplikasi yang dapat 
+diinstal pada perangkat teknologi.
+ 
+Cermatilah Gambar 4.8! Apa yang kalian pikirkan ketika melihat 
+gambar tersebut? Ya, tepat sekali! Logo pada gambar tersebut 
+merupakan tempat berkumpulnya berbagai aplikasi penghubung 
+antarpengguna (manusia) dengan perangkat yang akan kita gunakan.
+
+Membangun Komunikasi dengan Bantuan Teknologi
+121
+ 
+Pendingin ruangan, komputer, printer, lampu, dan perlengkapan 
+elektronik lainnya bisa secara otomatis berfungsi sesuai perintah 
+yang diinput sebelumnya atau dengan memanfaatkan basis data yang 
+kemudian diolah dengan logika artificial intelligence sehingga dapat 
+menghasilkan perintah secara otomatis. Misalnya, lampu penerangan 
+baru berfungsi saat mendeteksi adanya keberadaan manusia, 
+komputer akan secara otomatis menyala saat pegawai melakukan 
+absensi kehadiran dan mati saat melakukan absensi pulang. Bahkan 
+mungkin saja mesin pembuat kopi otomatis akan bekerja saat lokasi 
+Anda mendekati radius tertentu dari tempat kerja dan masih banyak 
+lagi alat lainnya yang cara kerjanya tidak lagi dioperasikan secara 
+manual. Contoh yang lebih kompleks misalnya, lemari pendingin dapat 
+mendeteksi persediaan apa saja yang sudah habis dan secara otomatis 
+merchant langganan Anda akan mengirimkan kebutuhan tersebut 
+karena sistem dan data base-nya telah terintegrasi melalui cloud. Coba 
+sebutkan peralatan lainnya di sekitar kalian yang dapat beroperasi 
+secara otomatis!
+ 
+Menurut Schwab (2016), IoT adalah hubungan antara aneka 
+hal produk, layanan, tempat, alat, dan lain-lain dan manusia berkat 
+teknologi internet dan berbagai sarana digital. Untuk mengenal IoT 
+lebih dalam, lakukanlah aktivitas pembelajaran berikut ini.
+Kegiatan 4.3
+Ayo Berdiskusi
+Tujuan: Menemukan prinsip dan mekanisme komunikasi IoT.
+Diskusikan dalam kelompok, bagaimana prinsip dan mekanisme 
+komunikasi IoT. 
+- 
+Kalian dapat mencari sumber literatur dari berbagai sumber 
+baik online maupun media cetak.
+- 
+Presentasikan hasil penemuan kalian dalam salah satu format 
+yang telah kalian kuasai.
+
+Projek IPAS untuk SMK/MAK Kelas X
+122
+Kegiatan 4.4
+Ayo Berdiskusi
+ 
+Berkat IoT, akhirnya banyak bisnis bisa berevolusi dengan sukses, 
+menciptakan inovasi dan layanan canggih dengan teknologi pintar dan 
+terintegrasi. IoT memungkinkan kita memantau banyak hal dengan 
+cara yang belum pernah bisa dibayangkan sebelumnya. Zaman dahulu 
+kita tidak bisa membayangkan alat-alat bisa terhubung dengan internet 
+dan bisa dimonitor.
+ 
+Bentuk komunikasi pintar ini adalah Machine-to-Machine (M2M) 
+ke manusia sebagai penggunanya. Jadi singkatnya, IoT akan menjadi 
+teknologi yang memungkinkan segala hal terkoneksi dengan internet, 
+misalnya mengontrol perangkat rumah seperti AC, kulkas, atau TV kini 
+bisa dilakukan secara remote dari satu perangkat saja. 
+3. Sensor IoT
+Setelah melaksanakan Kegiatan 4.3, kalian tentu akan mengenal 
+komponen teknologi pendukung yang memungkinkan IoT bekerja 
+secara maksimal, di antaranya adalah sensor. Apa fungsi sensor 
+dan jenis sensor apa saja yang sekarang banyak digunakan? Untuk 
+menemukan jawabannya, lakukan Kegiatan 4.4 di bawah ini!
+Tujuan: Mengidentifikasi jenis dan fungsi sensor IoT.
+Lakukanlah studi literatur bersama teman kelompok kalian untuk 
+mengisi tabel di bawah ini. Setelah itu sampaikan hasil pekerjaan 
+kelompok kalian di depan kelas.  
+
+Membangun Komunikasi dengan Bantuan Teknologi
+123
+Tabel 4.1 Contoh identifikasi jenis dan fungsi sensor IoT
+No.
+Jenis Sensor
+Fungsi
+Gambar
+Contoh 
+Penggunaan
+1.
+Sensor Suhu 
+(Temperature 
+Sensor)
+- Untuk 
+mengukur 
+jumlah energi 
+panas dari 
+suatu sumber
+- Mendeteksi 
+perubahan 
+suhu 
+- Merekam 
+perubahan 
+suhu menjadi 
+sebuah data
+Sumber: Elga Aris 
+Prastyo (2020)
+Contoh 
+penggunaannya 
+dalam industri 
+pertanian, 
+suhu tanaman 
+merupakan 
+faktor penting 
+untuk tanaman 
+bertumbuh.
+ 
+Sensor merupakan alat yang berfungsi untuk mendeteksi 
+sesuatu. Ada bermacam sensor untuk IoT, misalnya sensor yang 
+memonitor cahaya, temperatur, sentuhan, gerak, kelembapan udara, 
+kelembapan tanah, alkohol, asap, detak jantung, ultrasonik, hujan, 
+aliran air, dan sebagainya tergantung dari kebutuhan.
+Kegiatan 4.5
+Ayo Mengidentifikasi
+C. TIK sebagai Solusi 
+1. Mengidentifikasi Masalah dan Solusi Berbasis TIK
+Tujuan: Mengidentifikasi peralatan yang menggunakan IoT.
+Coba identifikasi peralatan apa saja di sekitar kalian yang sudah 
+menggunakan teknologi IoT! Apa manfaat teknologi IoT dalam 
+perangkat serta cara kerjanya? Buatlah hasilnya dalam bentuk tabel! 
+
+Projek IPAS untuk SMK/MAK Kelas X
+124
+Gambar 4.8 Pemanfaatan IoT dalam agrikultur.
+Sumber: microthings.id/azizamien330 (2022)
+ 
+Setelah kalian mengamati peralatan di sekitar 
+yang menggunakan teknologi IoT, kalian juga 
+dapat mempelajari beberapa contoh penerapan 
+IoT dalam beberapa bidang dari berbagai sumber, 
+salah satunya kalian dapat mengunjungi tautan 
+di samping. 
+ 
+Apakah kalian dapat menyebutkan contoh penerapan IoT pada 
+bidang pertanian? Dengan aneka sensor dan kamera yang terhubung 
+ke internet, petani bisa memantau area yang sangat luas dengan sedikit 
+atau bahkan tanpa tenaga kerja. Kita bisa memonitor cuaca, tingkat 
+kelembapan, suhu, dan keasaman tanah di setiap petak sawah atau 
+kebun dari waktu ke waktu.
+http://repository.
+unmuhjember.ac.id/2460/9/
+IMPLEMENTASI%20
+KONSEP%20INTERNET%20
+OF%20THINGS.pdf
+Pindai di Sini
+
+Membangun Komunikasi dengan Bantuan Teknologi
+125
+ 
+Kita jadi tahu tanaman apa yang cocok di area tertentu, jenis hama 
+yang mengintai, berapa banyak tumbuhan liar yang perlu disingkirkan, 
+kapan waktu menyiram saat tanah sudah kering, dan sebagainya, tanpa 
+memakai banyak tenaga kerja. Hanya mengawasi dan mengendalikan 
+dari jauh saja sudah bisa, cukup memakai IoT dengan berbagai 
+sensornya dan kamera.
+ 
+Dengan IoT, semua data dari sensor dan kamera ini dikirim lewat 
+internet ke software pengolahan data. Tanpa perlu mendatangi area 
+kita bisa menentukan area mana yang perlu disemprot herbisida dan 
+seberapa banyak, area mana yang perlu lebih banyak air atau pupuk, 
+mana yang perlu dibersihkan dari tanaman liar, dan sebagainya. 
+Bahkan waktu panen pun mudah dipantau dari layar laptop atau 
+smartphone kita. 
+ 
+Menurut pendapat kalian, apakah IoT dapat diterapkan untuk 
+melihat dan mengatur lalu lintas? Diskusikanlah dengan guru kalian! 
+Gambar 4.9 Kamera tilang elektronik.
+Sumber: ANTARA FOTO/Nova Wahyudi (2022)
+
+Projek IPAS untuk SMK/MAK Kelas X
+126
+Kegiatan 4.6
+Ayo Berdiskusi
+ 
+Pernahkah kalian melihat kamera pengintai seperti Gambar 
+4.10 yang berada di beberapa perempatan di kota-kota besar? Untuk 
+apakah kamera tersebut? Ya betul, kamera tersebut digunakan untuk 
+memotret perilaku berkendara para pengguna kendaraan bermotor. 
+Melalui IoT para pengguna yang berkendara melanggar peraturan lalu 
+lintas akan terdeteksi oleh kamera tersebut. Selain itu, IoT juga dapat 
+digunakan untuk memantau titik-titik kemacetan, parkir elektronik, 
+jalan alternatif sehingga memudahkan pengguna jalan dan petugas 
+yang berwenang dalam mengatur lalu lintas.
+ 
+Menurut pendapat kalian, apakah internet dan pengembangannya 
+dalam rangka memudahkan aktivitas dan pekerjaan manusia dapat 
+diterapkan dalam semua bidang? Untuk menjawab pertanyaan tersebut 
+lakukanlah Kegiatan 4.6 di bawah ini!
+Tujuan: Mengidentifikasi masalah dan solusi berbasis IoT.
+Diskusikan dalam kelompok! Lakukan identifikasi permasalahan 
+yang ada di lingkungan sekitar (sekolah atau rumah) di mana 
+penyelesaiannya memerlukan alat bantu teknologi IoT atau teknologi 
+internet lainnya!
+ 
+Untuk memudahkan diskusi, kalian dapat mengikuti petunjuk 
+berikut.
+1. Untuk menemukan masalah dan solusi yang dibutuhkan, 
+kalian dapat mencarinya di internet sebagai referensi apabila 
+menemukan kondisi yang sama atau dapat berdiskusi dengan 
+guru TIK atau ahli internet.   
+2. Untuk teknologi yang dibuat sebagai solusi, kalian dapat 
+menerapkan program keahlian yang dikuasai atau yang sudah 
+dipelajari.
+
+Membangun Komunikasi dengan Bantuan Teknologi
+127
+Kegiatan 4.7
+Ayo Berdiskusi
+3. Buatlah hasil identifikasi dalam bentuk tabel. Contoh tabel 
+identifikasi masalah dan analisis kebutuhan pemanfaatan 
+teknologi IoT atau teknologi internet lainnya disampaikan di 
+bawah ini.
+Tabel 4.2 Contoh identifikasi masalah 
+pemanfaatan teknologi IoT
+No.
+Tema
+Lokasi/ 
+Tempat
+Identifikasi Masalah
+Rancangan 
+Solusi
+1.
+Hemat 
+Energi
+Sekolah
+Sekolah memiliki 
+areal yang luas 
+dan memiliki 
+lampu penerangan 
+yang cukup 
+banyak, sehingga 
+memerlukan 
+orang/pegawai 
+yang khusus untuk 
+mematikan dan 
+menyalakan lampu
+Membuat 
+instalasi 
+lampu 
+yang dapat 
+menyala dan 
+mati secara 
+otomatis 
+melalui 
+sensor cahaya
+2. Memilih Solusi dan Merancang Desain
+Tujuan: Memilih solusi berbasis IoT.
+Berdasarkan hasil identifikasi masalah dan rancangan solusinya 
+yang telah kalian buat pada Kegiatan 4.6, apakah kalian sudah 
+menentukan masalah apa yang akan kalian selesaikan? Setelah 
+menentukan masalah, langkah berikutnya adalah memilih solusi 
+berbasis TIK apa yang akan diambil. Pastikan semua anggota 
+
+Projek IPAS untuk SMK/MAK Kelas X
+128
+Kegiatan 4.8
+Ayo Beraksi
+ 
+Wujudkan solusi kalian tersebut dalam beberapa rangkaian 
+kegiatan di bawah ini.
+Tujuan: Membuat desain purwarupa berbasis IoT.
+Bersama kelompokmu, buatlah desain purwarupa sebagai solusi 
+yang akan dikerjakan. Dalam membuat desain, kalian dapat 
+mengikuti petunjuk berikut.
+1. Carilah referensi dari berbagai sumber terkait solusi projek yang 
+akan kalian buat. Referensi yang dicari disarankan memuat 
+tentang prosedur pembuatan, alat dan bahan, serta model.
+2. Siapkan alat dan bahan untuk membuat desain purwarupa, 
+misalnya kertas dan pensil gambar, laptop, jaringan internet, 
+dan aliran listrik.
+3. Buatlah desain purwarupa sesuai dengan solusi yang kalian 
+pilih.
+4. Desain yang dibuat harus menunjukkan skala yang tepat antara 
+produk asli dengan gambar.
+ 
+Sebagai contoh desain projek membuat teknologi sederhana 
+mengelola tanaman menggunakan aplikasi internet, kalian dapat 
+melihat Gambar 4.11. 
+kelompok menyetujuinya, berikan argumen kalian dalam sebuah 
+paparan singkat di depan kelas alasan memilih solusi tersebut! 
+Solusi yang kalian pilih diutamakan memiliki nilai kebaruan dan 
+kemanfaatan yang tinggi.
+
+Membangun Komunikasi dengan Bantuan Teknologi
+129
+Kegiatan 4.9
+Ayo Beraksi
+Gambar 4.10 Desain alat penyiram tanaman otomatis.
+Sumber: Jacquline M.S.Waworundeng (2017)
+3. Membuat Purwarupa
+Pembuatan purwarupa merupakan langkah penting berikutnya dalam 
+mewujudkan solusi penyelesaian masalah. Bersama teman kelompok 
+dan bimbingan guru, lakukanlah Kegiatan 4.9 di bawah ini!
+Tujuan: Membuat purwarupa berbasis IoT.
+Buatlah purwarupa dari projek solusi yang telah kalian buat 
+desainnya. Dalam melakukan kegiatan ini, kalian dapat mengikuti 
+petunjuk berikut.
+
+Projek IPAS untuk SMK/MAK Kelas X
+130
+Kegiatan 4.10
+Ayo Beraksi
+4. Mengevaluasi Purwarupa
+Bagaimana hasil purwarupa yang telah kalian buat? Apakah hasil 
+purwarupa yang telah kalian buat sudah sesuai dengan desain yang 
+kalian rencanakan? Untuk mengetahuinya lakukanlah Kegiatan 4.10.
+Tujuan: Mengevaluasi purwarupa berbasis IoT.
+Coba kalian evaluasi kembali purwarupa yang telah kalian buat. 
+Buatlah rubrik terlebih dahulu untuk mengevaluasi hasil projek. 
+Kemudian, sajikan hasil penilaian pada tabel evaluasi hasil projek. 
+Tabel 4.3 Contoh tabel rubrik penilaian produk
+No.
+Kriteria Produk
+Ya
+Tidak
+1.
+Dimensi produk sesuai dengan skala 
+pada desain.
+2.
+Berfungsi sesuai tujuan.
+3.
+dst.
+1. Pastikan semua anggota kelompok telah memahami desain yang 
+dibuat.
+2. Pastikan semua anggota kelompok telah memahami tugas dan 
+peranan masing-masing.
+3. Susunlah prosedur kerja, di mana prosedur tersebut dapat kalian 
+ambil dari berbagai referensi.
+4. Buatlah sebuah rencana kerja beserta target waktunya.
+5. Pastikan alat dan bahan tersedia. 
+6. Bekerja secara aman dengan memperhatikan prinsip 5R (Ringkas, 
+Rapi, Resik, Rawat, Rajin).
+
+Membangun Komunikasi dengan Bantuan Teknologi
+131
+ 
+Untuk melihat tingkat keberfungsian dan kebermanfaatan 
+purwarupa yang kalian buat, lakukan sebuah percobaan dengan cara 
+mengoperasikan purwarupa tersebut dan kemudian catat beberapa 
+parameter yang dihasilkan. Selanjutnya bandingkan dengan 
+parameter yang dihasilkan produk serupa. Sebagai contoh, apabila 
+kalian membuat purwarupa alat penyiram tanaman otomatis, maka 
+ketika diuji coba lakukan pencatatan pada beberapa parameter 
+berikut.
+Tabel 4.4 Hasil uji coba berdasarkan parameter
+No.
+Parameter
+Hasil
+Keterangan
+1.
+Mesin pompa menyala 
+ketika berada pada suhu 23°
+2.
+3.
+dst.
+
+Projek IPAS untuk SMK/MAK Kelas X
+132
+Kegiatan 4.11
+Ayo Berdiskusi
+5. Membuat Rencana Tindak Lanjut
+Berdasarkan rubrik penilaian dan hasil percobaan, apakah purwarupa 
+yang kalian buat sudah berfungsi dengan baik? Komponen mana saja 
+yang masih memerlukan perbaikan? Apakah semua kriteria sudah 
+sesuai harapan? Jangan berkecil hati, produk berbasis Teknologi 
+Informasi dan Komunikasi yang kalian buat dapat disempurnakan 
+dengan melakukan perbaikan pada kriteria yang tidak sesuai dengan 
+standar atau dikembangkan menjadi sebuah produk yang memiliki 
+nilai kegunaan dan nilai ekonomi yang tinggi. Untuk itu lakukanlah 
+Kegiatan 4.11 di bawah ini.
+Tujuan: Merencanakan kegiatan tindak lanjut terhadap purwarupa 
+berbasis IoT.
+Buatlah rencana aksi yang akan dilakukan untuk menindaklanjuti 
+hasil penilaian produk pemanfaatan TIK. Kalian dapat memilih 
+rencana tindak lanjut yang sesuai seperti di bawah ini.
+1. Mendesain ulang produk apabila ada beberapa kriteria yang 
+tidak tercapai.
+2. Membuat rencana pengembangan produksi apabila produk yang 
+dibuat sudah sesuai kriteria yang diinginkan dan memiliki nilai 
+ekonomi tinggi.
+3. Membuat rencana sosialisasi kepada masyarakat apabila produk 
+yang dihasilkan sesuai dengan kriteria yang diinginkan dan 
+memiliki kegunaan tinggi.
+ 
+Rencana tindak lanjut dipresentasikan melalui berbagai macam 
+media atau aplikasi yang kalian kuasai, misalnya PowerPoint, poster/
+banner, video, atau tabel.
+
+Membangun Komunikasi dengan Bantuan Teknologi
+133
+Refleksi
+Pemanfaatan Teknologi Informasi dan Komunikasi dalam membantu 
+pekerjaan manusia dewasa ini terus mengalami perkembangan 
+yang sangat pesat. Komunikasi yang dijalin antara mesin dengan 
+mesin dan dioperasikan oleh manusia melalui perantaraan internet 
+memungkinkan untuk diaplikasikan pada berbagai bidang. Projek 
+ini dilaksanakan melalui studi kasus dan hasil evaluasi yang akan 
+sangat bermanfaat bagi kalian dalam mengatasi kebutuhan manusia 
+dalam berbagai bidang. Berdasarkan rangkaian kegiatan yang telah 
+dilakukan, kalian diharapkan menjadi lebih kreatif dalam merancang 
+dan mengembangkan TIK dalam kehidupan sehari-hari. Jawablah 
+pertanyaan-pertanyaan di bawah ini sebagai bentuk refleksi setelah 
+belajar tentang Membangun Komunikasi dengan Bantuan Teknologi. 
+1. Apa yang sudah kalian pahami mengenai tema Membangun 
+Komunikasi dengan Bantuan Teknologi?
+2. Apa yang belum kalian pahami mengenai tema Membangun 
+Komunikasi dengan Bantuan Teknologi?
+3. Kegiatan apa dari projek Membangun Komunikasi dengan 
+Bantuan Teknologi yang paling sulit dilakukan?
+4. Kegiatan apa dari projek Membangun Komunikasi dengan 
+Bantuan Teknologi yang paling mudah dilakukan?
+5. Bagaimana perasaan kalian setelah mempelajari tema tentang 
+Membangun Komunikasi dengan Bantuan Teknologi?
+6. Hikmah apa yang kalian dapatkan setelah mempelajari tema 
+Membangun Komunikasi dengan Bantuan Teknologi?
+7. Apa yang akan kalian lakukan dalam kehidupan sehari-hari 
+setelah mempelajari tema Membangun Komunikasi dengan 
+Bantuan Teknologi?
+
+Projek IPAS untuk SMK/MAK Kelas X
+134
+Perhatikan wacana berikut!
+Pak Sofyan adalah seorang pimpinan di SMK swasta di sebuah kota. 
+Sekolah tersebut memiliki luas 1 Ha dengan 60% areanya berupa 
+bangunan meliputi ruang kelas, bengkel, ruang perpustakaan, ruang 
+guru dan kepala sekolah, dan bangunan lain pendukung operasional 
+sekolah. Setiap bangunan dihubungkan dengan selasar, dan semuanya 
+dipasang lampu penerangan. Untuk membayar penggunaan lampu dan 
+operasional listrik sekolah lainnya, sekolah rata-rata mengeluarkan 
+biaya kurang lebih sebesar 2 juta rupiah setiap bulannya. Dalam 2 bulan 
+terakhir tagihan pembayaran listrik sekolah mengalami peningkatan 
+rata-rata sebesar 10 persen. Setelah dilakukan penyelidikan penyebab 
+naiknya tagihan listrik, ternyata diketahui disebabkan oleh jarang 
+dimatikannya lampu-lampu yang ada di selasar.
+Jawablah pertanyaan-pertanyaan berikut!
+1. Masalah utama apa yang dihadapi oleh Pak Sofyan?
+2. Buatlah tabel alternatif solusi untuk membantu menyelesaikan 
+masalah Pak Sofyan!
+3. Solusi mana yang akan kalian pilih? Jelaskan alasannya!
+4. Tuliskan rancangan desain purwarupa dari solusi yang kalian pilih!
+5. Bagaimana cara menguji efektivitas purwarupa yang telah dibuat?
+6. Bagaimana cara mengomunikasikan hasil purwarupa kepada pihak 
+lain?
+Uji Kompetensi
+
+Membangun Komunikasi dengan Bantuan Teknologi
+135
+Selain projek yang telah kalian rancang pada pembelajaran sebelumnya, 
+kalian juga dapat mencermati beberapa alternatif projek pemanfaatan 
+TIK berikut ini.
+1. Alat monitoring dan pengatur suhu serta kelembapan ruangan.
+2. Sensor detak jantung untuk mendeteksi gejala penyakit jantung.
+3. Mengontrol peralatan elektronik yang ada di rumah dengan 
+smartphone.
+4. Tempat sampah yang bisa terbuka otomatis saat ada orang di 
+depannya dan berbunyi saat sudah penuh.
+5. Alat penyiram tanaman otomatis menggunakan arduino mega 
+2560.
+6. Alat pengukur tingkat keasinan air laut.
+7. Mesin penetas telur otomatis.
+8. Jam waktu salat digital.
+9. Jendela dan gerbang yang otomatis terbuka dan tertutup.
+10. Kipas angin otomatis.
+ 
+Upaya 
+pemanfaatan 
+TIK 
+sebagai 
+alternatif 
+projek 
+yang 
+direkomendasikan tersebut hanya salah satu alternatif solusi. Kalian 
+dapat memilih alternatif projek lainnya yang sesuai dengan situasi, 
+kondisi, dan program keahlian SMK kalian. Kalian bahkan bisa mencari 
+alternatif projek lain yang baru dan tidak dicontohkan pada bab buku 
+ini. Dengan mengikuti langkah-langkah pengerjaan projek pada bab 
+ini serta meminta bimbingan guru, kalian dapat mengerjakan projek 
+tersebut secara mandiri. 
+Alternatif Projek 
+
+Projek IPAS untuk SMK/MAK Kelas X
+136
+Kecerdasan buatan alias Artificial Intelligence (AI) sedang menjadi pusat 
+perhatian dunia. Kehadiran teknologi AI mampu merevolusi seluruh 
+aspek kehidupan kita. Terdengar sangat mengesankan, bukan? Namun, 
+apa sebenarnya teknologi AI tersebut?
+ 
+Menurut John McCarthy, kecerdasan buatan adalah usaha 
+memodelkan proses berpikir manusia dan mendesain mesin itu 
+agar dapat menirukan perilaku manusia. Dilansir dari Technopedia, 
+AI adalah area pengetahuan komputer yang menekankan pada 
+pembuatan “mesin pintar” yang mampu bekerja dan bereaksi seperti 
+manusia. Mesin tersebut bisa memahami bahasa manusia secara 
+natural, mengenali wajah, dan lain sebagainya.
+ 
+AI pernah menjadi bahan guyonan karena dianggap sebagai ide 
+yang mustahil untuk terwujud. Akan tetapi, zaman ini menjawabnya 
+menjadi kenyataan, bahkan teknologi AI berkembang dengan pesat 
+dan meluas. 
+ 
+Untuk lebih memahami aplikasi dari AI, kalian dapat mencari 
+berbagai literatur, salah satunya tautan berikut.
+Pengayaan
+https://ejournal.unipas.
+ac.id/index.php/Komteks/
+article/download/1062/791
+Pindai di Sini
